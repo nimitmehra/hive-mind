@@ -571,7 +571,7 @@ The intelligence system tracks a war. But the investor cares about markets. The 
 
 **Step A1: Run the market data script**
 ```bash
-cd /Users/nimitmehra/Documents/Manus/hive-mind && python3 scripts/market-data.py
+cd  && python3 scripts/market-data.py
 python3 scripts/market-data.py --json > /tmp/market-data.json
 ```
 

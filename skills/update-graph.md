@@ -150,7 +150,7 @@ Save `edges.json`.
 1. Update `graph/meta.json`: increment `briefs_generated`, update `last_updated`, `total_nodes`, `total_edges`
 2. Rebuild the viewer:
 ```bash
-cd /Users/nimitmehra/Documents/Manus/hive-mind && python3 scripts/rebuild-viewer.py
+python3 scripts/rebuild-viewer.py
 ```
 
 ---

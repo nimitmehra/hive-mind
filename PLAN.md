@@ -26,7 +26,7 @@
 ---
 
 ## Decisions Made
-- 2026-03-23: Project lives in `/Users/nimitmehra/Documents/Manus/hive-mind/`
+- 2026-03-23: Project lives in ``
 - 2026-03-23: Do deep research backfill BEFORE building anything (user decision — connections must emerge from data, not assumptions)
 - 2026-03-23: Embed graph data in viewer.html (no server needed)
 - 2026-03-23: Single-pass brief generation (no review step)

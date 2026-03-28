@@ -3,8 +3,8 @@
 > **Purpose:** This document is the complete context for any AI session working on this project. It captures the problem, the user's thinking, every design decision, the reasoning behind each choice, the architecture, and the build plan. Read this fully before doing anything.
 
 > **Last updated:** 2026-03-23
-> **Working directory:** `/Users/nimitmehra/Documents/Manus/the-hive-mind-crisis/`
-> **Adjacent projects:** NSE-Tracker, US-Stock-Tracker, MF-Tracker (all under `/Users/nimitmehra/Documents/Manus/`)
+> **Working directory:** `./`
+> **Adjacent projects:** NSE-Tracker, US-Stock-Tracker, MF-Tracker (all under ``)
 
 ---
 
@@ -149,7 +149,7 @@ This is NOT a news aggregator. It is an **intelligence system** — a context en
 
 ### Folder Structure
 ```
-/Users/nimitmehra/Documents/Manus/the-hive-mind-crisis/
+./
 ├── briefs/                     # Daily intelligence briefs
 │   └── 2026-03-24.md
 ├── graph/
@@ -425,7 +425,7 @@ into Indian and US equities.]
 
 ## 7. Existing Data Stack (Reusable)
 
-From adjacent projects in `/Users/nimitmehra/Documents/Manus/`:
+From adjacent projects in ``:
 
 | Data Type | Source | Cost | Used In |
 |-----------|--------|------|---------|

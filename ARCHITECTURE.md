@@ -2,7 +2,7 @@
 
 > **What this is:** The definitive reference for any AI session working on this project. Captures the system design, data schemas, design decisions, and how everything connects.
 > **Last updated:** 2026-03-25
-> **Working directory:** `/Users/nimitmehra/Documents/Manus/hive-mind/`
+> **Working directory:** ``
 
 ---
 

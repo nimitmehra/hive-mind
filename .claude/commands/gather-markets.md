@@ -43,7 +43,7 @@ Read `ARCHITECTURE.md` for edge weight formula, cascade paths, what the system t
 ### 1a. Run the market data script — NON-NEGOTIABLE
 
 ```bash
-cd /Users/nimitmehra/Documents/Manus/hive-mind && python3 scripts/market-data.py
+python3 scripts/market-data.py
 ```
 
 Also run JSON mode for structured data:
