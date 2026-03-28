@@ -1,0 +1,25 @@
+# Staging files (intermediate pipeline output, regenerated each run)
+staging/
+
+# Backups (git history serves this purpose)
+backups/
+
+# Temporary files
+/tmp/
+*.tmp
+.DS_Store
+
+# Downloaded JS libraries (can be re-downloaded)
+scripts/cytoscape.min.js
+scripts/cytoscape-fcose.js
+
+# Market data temp
+/tmp/market-data.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.claude/settings.local.json

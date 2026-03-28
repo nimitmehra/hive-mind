@@ -1,0 +1,95 @@
+{
+  "id": "sp-500",
+  "name": "S&P 500",
+  "type": "index",
+  "created": "2026-03-23",
+  "last_updated": "2026-03-23",
+  "summary": "Down 6.77% from January peak. Four consecutive weekly losses. Capital rotating from tech into defense and energy stocks. Fed can't cut rates due to oil-driven inflation. Market in correction territory.",
+  "current": {
+    "price": "6,605",
+    "delta_1d": "+2.2%",
+    "delta_1m": "-4.4%",
+    "delta_3m": "-4.4%"
+  },
+  "signals": [
+    {
+      "date": "2026-03-02",
+      "content": "Energy and defense stocks surged: Lockheed +15%, Exxon +5%+, Northrop +6%. Investors aggressively rotating from tech/growth into defense and energy.",
+      "sources": [
+        "Motley Fool",
+        "Euronews"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-20",
+      "content": "S&P 500 dropped 1.5%, Nasdaq 100 plunged 1.8% to six-month lows. Correction territory. Stocks, bonds, and gold all selling off simultaneously.",
+      "sources": [
+        "CNBC",
+        "CNN",
+        "Yahoo Finance"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-23",
+      "content": "S&P 500 soared 2.2% (+143 pts) to 6,605 after Trump announced 5-day strike pause. Major relief rally. US markets reacted to de-escalation signal; Asian markets had already sold off on the earlier escalation threats (time-zone divergence).",
+      "sources": [
+        "24/7 Wall Street",
+        "Trading Economics"
+      ],
+      "significance": "high"
+    }
+  ],
+  "edges": [
+    {
+      "to": "united-states",
+      "type": "equity_market",
+      "context": "Primary US equity benchmark. Reflecting war costs, inflation fears, and Fed uncertainty.",
+      "directness": 1,
+      "last_activated": "2026-03-22",
+      "activation_count": 12,
+      "weight": 7.5
+    },
+    {
+      "to": "fed",
+      "type": "rate_sensitivity",
+      "context": "Fed can't cut \u2192 no valuation support. Market pricing possible hike \u2192 higher discount rates \u2192 compression.",
+      "directness": 1,
+      "last_activated": "2026-03-22",
+      "activation_count": 8,
+      "weight": 8.0
+    },
+    {
+      "to": "brent-crude",
+      "type": "earnings_risk",
+      "context": "Oil spike \u2192 cost inflation \u2192 margin compression for most sectors. Energy sector benefits but tech-heavy index suffers net.",
+      "directness": 1,
+      "last_activated": "2026-03-22",
+      "activation_count": 8,
+      "weight": 7.5
+    },
+    {
+      "to": "helium",
+      "type": "supply_chain_risk",
+      "context": "Helium shortage from Qatar \u2192 semiconductor supply risk \u2192 AI infrastructure uncertainty \u2192 tech valuation pressure. Novel risk.",
+      "directness": 2,
+      "last_activated": "2026-03-21",
+      "activation_count": 3,
+      "weight": 5.0
+    }
+  ],
+  "trigger_points": [
+    {
+      "condition": "S&P 500 enters bear market (down 20% from peak)",
+      "cascade": [
+        "fed",
+        "united-states",
+        "nifty-50"
+      ],
+      "mechanism": "Would force Fed to consider emergency support despite inflation. Would crash global markets including India. Could paradoxically lead to war de-escalation pressure.",
+      "added": "2026-03-23",
+      "status": "watching"
+    }
+  ]
+}
