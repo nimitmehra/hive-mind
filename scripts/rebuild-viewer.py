@@ -43,3 +43,57 @@ else:
     with open(VIEWER_FILE, "w") as f:
         f.write(html_new)
     print(f"viewer.html updated: {len(nodes)} nodes, {len(edges['edges'])} edges, {os.path.getsize(VIEWER_FILE)/1024:.1f} KB")
+
+# --- Auto-update README.md stats ---
+README_FILE = os.path.join(ROOT, "README.md")
+if os.path.exists(README_FILE):
+    with open(README_FILE, "r") as f:
+        readme = f.read()
+
+    # Build node type listings from actual data
+    type_groups = {}
+    for node in nodes.values():
+        ntype = node.get("type", "other")
+        type_groups.setdefault(ntype, []).append(node["name"])
+    for t in type_groups:
+        type_groups[t].sort()
+
+    type_labels = {
+        "country": "Countries",
+        "commodity": "Commodities",
+        "institution": "Institutions",
+        "index": "Indices",
+        "trade_route": "Trade Routes",
+        "sector": "Sectors",
+        "person": "Persons"
+    }
+
+    # Build the node types block
+    node_lines = []
+    for tkey in ["country", "commodity", "institution", "index", "trade_route", "sector", "person"]:
+        if tkey in type_groups:
+            label = type_labels.get(tkey, tkey.title())
+            names = ", ".join(type_groups[tkey])
+            node_lines.append(f"- **{label}** ({len(type_groups[tkey])}): {names}")
+
+    node_block = "\n".join(node_lines)
+    total_nodes = len(nodes)
+    total_edges = len(edges['edges'])
+
+    # Replace the stats line
+    readme = re.sub(
+        r'The graph currently tracks \*\*\d+ nodes\*\* across \d+ types and \*\*\d+ weighted edges\*\*',
+        f'The graph currently tracks **{total_nodes} nodes** across {len(type_groups)} types and **{total_edges} weighted edges**',
+        readme
+    )
+
+    # Replace the node types block
+    readme = re.sub(
+        r'### Node Types\n(- \*\*(?:Countries|Commodities|Institutions|Indices|Trade Routes|Sectors|Persons)\*\*.*\n)+',
+        f'### Node Types\n{node_block}\n',
+        readme
+    )
+
+    with open(README_FILE, "w") as f:
+        f.write(readme)
+    print(f"README.md updated: {total_nodes} nodes, {total_edges} edges")

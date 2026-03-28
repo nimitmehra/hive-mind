@@ -24,15 +24,15 @@ An **intelligence system** — not a news aggregator — that produces daily bri
 
 ## The Knowledge Graph
 
-The graph currently tracks **31 nodes** across 7 types and **124 weighted edges** representing causal connections.
+The graph currently tracks **40 nodes** across 7 types and **151 weighted edges** representing causal connections.
 
 ### Node Types
-- **Countries** (13): Iran, Israel, United States, India, Qatar, Saudi Arabia, UAE, Iraq, China, Russia, Bahrain, Kuwait, Lebanon
-- **Commodities** (5): Brent Crude, Gold, Natural Gas/LNG, Fertilizer/Urea, Helium
-- **Institutions** (6): Federal Reserve, RBI, OPEC+, Hezbollah, Houthis, IRGC
-- **Indices** (4): Nifty 50, S&P 500, INR/USD, US 10-Year Yield
-- **Trade Routes** (1): Strait of Hormuz
-- **Sectors** (1): Shipping/Tanker Rates
+- **Countries** (15): Bahrain, China, India, Iran, Iraq, Israel, Kuwait, Lebanon, Qatar, Russia, Saudi Arabia, South Korea, Taiwan (TSMC), United Arab Emirates, United States
+- **Commodities** (6): Brent Crude, European TTF Natural Gas, Fertilizer / Urea, Gold, Helium, Natural Gas / LNG
+- **Institutions** (7): European Central Bank (ECB), Federal Reserve, Hezbollah, Houthis (Yemen), Islamic Revolutionary Guard Corps (IRGC), OPEC+, Reserve Bank of India
+- **Indices** (4): INR/USD Exchange Rate, Nifty 50, S&P 500, US 10-Year Treasury Yield
+- **Trade Routes** (2): Red Sea / Suez Canal, Strait of Hormuz
+- **Sectors** (5): Defense & Aerospace Sector, Energy Sector (Global), Indian IT Sector (TCS/Infosys/Wipro), Indian Oil Marketing (IOC/BPCL/HPCL), Shipping / Tanker Rates
 - **Persons** (1): Mojtaba Khamenei
 
 ### How the Graph Works
