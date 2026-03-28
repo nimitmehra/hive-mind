@@ -480,6 +480,260 @@ const GRAPH_DATA = {
       ],
       "trigger_points": []
     },
+    "defense-sector": {
+      "id": "defense-sector",
+      "name": "Defense & Aerospace Sector",
+      "type": "sector",
+      "created": "2026-03-28",
+      "last_updated": "2026-03-28",
+      "summary": "Counterintuitively, defense stocks are FALLING during the war. ITA (Defense ETF) -11% monthly, -1.9% today. Lockheed Martin -3.5% monthly. The initial war spike has reversed as markets price in: (1) Pentagon $200B supplemental facing GOP resistance, (2) broader equity risk-off dragging all sectors when VIX >30, (3) market distinguishing between commodity beneficiaries (energy) and government-contract beneficiaries (defense). Indian defense (HAL, BEL) showing similar pattern.",
+      "current": {
+        "price": "ITA: $216.04",
+        "delta_1d": "-1.9%",
+        "delta_1m": "-11.0%",
+        "delta_3m": "-0.4%"
+      },
+      "signals": [
+        {
+          "date": "2026-03-28",
+          "content": "ITA -1.9% today, -11% monthly \u2014 defense is selling off DURING a war. Lockheed -1.8%. This divergence from energy (XLE +1.7%) shows the market distinguishing between commodity beneficiaries and government-contract beneficiaries. Pentagon's $200B supplemental request facing GOP resistance. When VIX >30, correlation goes to 1 and even 'war winners' sell in the liquidity grab. (Sources: yfinance, Washington Post, CNBC)",
+          "sources": [
+            "yfinance",
+            "Washington Post",
+            "CNBC"
+          ],
+          "significance": "high"
+        }
+      ],
+      "edges": [
+        {
+          "to": "united-states",
+          "type": "budget_dependency",
+          "context": "Defense stocks depend on Pentagon budget. $200B supplemental facing political resistance. Budget uncertainty > war premium.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 5,
+          "weight": 7.0
+        },
+        {
+          "to": "sp-500",
+          "type": "sector_component",
+          "context": "Defense is an S&P sector. When VIX >30, all sectors correlate. Defense premium from war is overwhelmed by broad risk-off.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 5,
+          "weight": 5.5
+        }
+      ],
+      "trigger_points": [
+        {
+          "condition": "Congress approves $200B Pentagon supplemental",
+          "cascade": [
+            "united-states",
+            "sp-500"
+          ],
+          "mechanism": "Approval would remove the budget uncertainty weighing on defense stocks. ITA would likely spike 5-10% on approval. Rejection would confirm the underperformance.",
+          "added": "2026-03-28",
+          "status": "watching"
+        }
+      ]
+    },
+    "ecb": {
+      "id": "ecb",
+      "name": "European Central Bank (ECB)",
+      "type": "institution",
+      "created": "2026-03-28",
+      "last_updated": "2026-03-28",
+      "summary": "Trapped in the same stagflation dilemma as the Fed and RBI. Oil-driven inflation prevents rate cuts while the economy weakens. ECB board emphasized 'imported inflation from energy' as key risk. DAX -11.8% monthly, STOXX 600 -9.1%. European TTF gas at 2x pre-crisis levels adds to industrial cost pressure. No rate cuts expected near-term.",
+      "signals": [
+        {
+          "date": "2026-03-28",
+          "content": "ECB board member speech emphasized 'inflation persistence concerns' from imported energy costs, signaling no rate cuts in April. DAX -11.8% monthly, CAC -10.7%, STOXX 600 -9.1%. European TTF gas at 54.52 euros/MWh (2x pre-crisis). ECB faces same stagflation trap as Fed: oil inflation prevents cuts while economy weakens. (Sources: ECB, yfinance, Reuters)",
+          "sources": [
+            "ECB",
+            "yfinance",
+            "Reuters"
+          ],
+          "significance": "high"
+        }
+      ],
+      "edges": [
+        {
+          "to": "brent-crude",
+          "type": "inflation_transmission",
+          "context": "Oil spike transmits to European inflation via energy costs and transport. ECB cannot cut rates while imported inflation persists.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 5,
+          "weight": 7.0
+        },
+        {
+          "to": "fed",
+          "type": "policy_coordination",
+          "context": "ECB, Fed, and RBI all trapped in same stagflation dilemma. Coordinated inaction \u2014 none can cut rates. Global liquidity remains tight.",
+          "directness": 2,
+          "last_activated": "2026-03-28",
+          "activation_count": 4,
+          "weight": 5.5
+        },
+        {
+          "to": "european-ttf-gas",
+          "type": "inflation_input",
+          "context": "European gas prices directly feed ECB's inflation assessment. TTF above 50 euros/MWh = no rate cuts.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 4,
+          "weight": 6.5
+        }
+      ],
+      "trigger_points": [
+        {
+          "condition": "ECB signals emergency rate hike due to energy-driven inflation",
+          "cascade": [
+            "sp-500",
+            "nifty-50",
+            "gold"
+          ],
+          "mechanism": "ECB hiking while economies weaken would signal global central banks choosing inflation-fighting over growth. Equity-negative worldwide.",
+          "added": "2026-03-28",
+          "status": "watching"
+        }
+      ]
+    },
+    "energy-sector": {
+      "id": "energy-sector",
+      "name": "Energy Sector (Global)",
+      "type": "sector",
+      "created": "2026-03-28",
+      "last_updated": "2026-03-28",
+      "summary": "The primary beneficiary sector of the crisis. XLE (Energy ETF) +13.6% monthly, +40.2% quarterly. Exxon +15.1% monthly. Cheniere (LNG) +27.7% monthly. While every other sector sells off, energy stocks rally on higher oil/gas prices. This is the 'war winner' rotation \u2014 capital flows from tech/consumer into energy. Indian equivalents: Reliance, ONGC, Oil India benefit from higher realizations.",
+      "current": {
+        "price": "XLE: $62.56",
+        "delta_1d": "+1.7%",
+        "delta_1m": "+13.6%",
+        "delta_3m": "+40.2%"
+      },
+      "signals": [
+        {
+          "date": "2026-03-28",
+          "content": "XLE +1.7% on the day while S&P -1.7% and Nifty -2.1%. The divergence is widening \u2014 energy is the only sector gaining during the crisis. Exxon +3.4% ($170.99), Cheniere +1.9% ($296.91, +54.6% quarterly). Defense sector (ITA) diverging \u2014 now -11% monthly despite war, due to Pentagon budget uncertainty. The rotation is oil/gas, not defense. (Sources: yfinance)",
+          "sources": [
+            "yfinance",
+            "CNBC"
+          ],
+          "significance": "high"
+        }
+      ],
+      "edges": [
+        {
+          "to": "brent-crude",
+          "type": "revenue_driver",
+          "context": "Energy company revenues directly tied to oil/gas prices. Higher Brent = higher earnings = higher stock prices. Inverse of every other sector.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 15,
+          "weight": 9.5
+        },
+        {
+          "to": "sp-500",
+          "type": "sector_rotation",
+          "context": "Capital rotating from tech/consumer into energy. XLE gaining while SPX falls. If crisis persists, energy sector weight in S&P increases.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 8,
+          "weight": 6.5
+        }
+      ],
+      "trigger_points": [
+        {
+          "condition": "Energy sector becomes largest S&P 500 sector by weight",
+          "cascade": [
+            "sp-500",
+            "fed"
+          ],
+          "mechanism": "Would signal a structural regime shift in the US equity market \u2014 from tech-led to energy-led. Last happened briefly in 2008 and 2022.",
+          "added": "2026-03-28",
+          "status": "watching"
+        }
+      ]
+    },
+    "european-ttf-gas": {
+      "id": "european-ttf-gas",
+      "name": "European TTF Natural Gas",
+      "type": "commodity",
+      "created": "2026-03-28",
+      "last_updated": "2026-03-28",
+      "summary": "Dutch TTF benchmark \u2014 Europe's gas price reference. At 54.52 euros/MWh, 2x pre-crisis levels but below the 2022 peak (~350). Qatar LNG disruption (Ras Laffan damage) and Hormuz risk to LNG tankers are the primary drivers. If TTF reaches 2022 crisis levels (100+ euros), Europe activates emergency energy protocols.",
+      "current": {
+        "price": "\u20ac54.52/MWh",
+        "delta_1d": "+2% est",
+        "delta_1m": "+60%+",
+        "delta_3m": "+140%+"
+      },
+      "signals": [
+        {
+          "date": "2026-03-28",
+          "content": "TTF at 54.52 euros/MWh \u2014 doubled from pre-crisis ~25 euros but still well below 2022 peak of ~350. Primary drivers: Ras Laffan repair timeline slipping (Reuters reports Q3 vs Q2), Hormuz toll booth reducing LNG tanker transits, and Houthi entry raising Red Sea risk for LNG carriers. European gas storage at ~35% (adequate for spring but problematic if refill is disrupted for summer). (Sources: OilPriceAPI, ICE Endex, Reuters)",
+          "sources": [
+            "OilPriceAPI",
+            "ICE Endex",
+            "Reuters"
+          ],
+          "significance": "high"
+        }
+      ],
+      "edges": [
+        {
+          "to": "qatar",
+          "type": "supply_dependency",
+          "context": "Qatar is the world's largest LNG exporter. Ras Laffan damage and Hormuz disruption directly reduce European gas supply.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 8,
+          "weight": 8.0
+        },
+        {
+          "to": "natural-gas-lng",
+          "type": "pricing_benchmark",
+          "context": "TTF is the benchmark for European LNG contracts. TTF spike = European industry cost spike = inflation.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 6,
+          "weight": 7.5
+        },
+        {
+          "to": "fertilizer-urea",
+          "type": "input_cost",
+          "context": "Natural gas is the primary feedstock for urea/fertilizer production. TTF spike \u2192 fertilizer production costs rise \u2192 food security cascade.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 5,
+          "weight": 7.0
+        },
+        {
+          "to": "ecb",
+          "type": "inflation_driver",
+          "context": "TTF directly feeds ECB's inflation assessment. Gas costs cascade through European industrial economy.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 4,
+          "weight": 6.5
+        }
+      ],
+      "trigger_points": [
+        {
+          "condition": "TTF reaches 100 euros/MWh (2022 crisis levels)",
+          "cascade": [
+            "ecb",
+            "fertilizer-urea",
+            "india"
+          ],
+          "mechanism": "Would trigger European emergency energy protocols, industrial demand destruction, and fertilizer production shutdowns. Currently at 54.52 \u2014 needs to nearly double.",
+          "added": "2026-03-28",
+          "status": "watching"
+        }
+      ]
+    },
     "fed": {
       "id": "fed",
       "name": "Federal Reserve",
@@ -1254,6 +1508,130 @@ const GRAPH_DATA = {
           ],
           "mechanism": "India macro relief. Import bill normalizes, rupee stabilizes, RBI gets room to cut rates.",
           "added": "2026-03-23",
+          "status": "watching"
+        }
+      ]
+    },
+    "indian-it": {
+      "id": "indian-it",
+      "name": "Indian IT Sector (TCS/Infosys/Wipro)",
+      "type": "sector",
+      "created": "2026-03-28",
+      "last_updated": "2026-03-28",
+      "summary": "India's largest export sector by revenue. TCS, Infosys, Wipro, HCL Tech derive 60-70% of revenue from US clients. Crisis impact is INDIRECT but real: oil spike \u2192 US inflation \u2192 Fed can't cut \u2192 US growth slows \u2192 IT spending cuts \u2192 Indian IT revenue and guidance weakens. Q4 FY26 earnings showing this \u2014 Infosys guidance cut, TCS margins under pressure. The chain has 3-4 hops from the war but the impact is material.",
+      "signals": [
+        {
+          "date": "2026-03-28",
+          "content": "Indian IT index underperforming Nifty. Q4 FY26 earnings weak \u2014 Infosys guidance cut, HDFC Bank NIM compression (not IT but signals broader weakness). The crisis-to-IT chain: oil spike \u2192 US inflation stays elevated \u2192 Fed holds rates \u2192 US GDP revised down to 1.8% \u2192 enterprise IT spending cuts \u2192 Indian IT revenue pressure. SMH (semiconductors) -9.2% monthly. Nifty IT index tracking ~15% below pre-crisis levels. (Sources: Business Standard, yfinance, company filings)",
+          "sources": [
+            "Business Standard",
+            "yfinance",
+            "company filings"
+          ],
+          "significance": "high"
+        }
+      ],
+      "edges": [
+        {
+          "to": "sp-500",
+          "type": "revenue_dependency",
+          "context": "60-70% of Indian IT revenue comes from US clients. S&P weakness \u2192 enterprise spending cuts \u2192 Indian IT revenue decline.",
+          "directness": 2,
+          "last_activated": "2026-03-28",
+          "activation_count": 5,
+          "weight": 6.5
+        },
+        {
+          "to": "nifty-50",
+          "type": "index_weight",
+          "context": "IT is the largest sector in Nifty by weight (~15%). IT weakness drags the index even if other sectors hold.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 8,
+          "weight": 7.0
+        },
+        {
+          "to": "fed",
+          "type": "rate_sensitivity",
+          "context": "Fed rate path determines US growth outlook which determines IT spending. Fed holding rates = growth pressure = IT headwind.",
+          "directness": 2,
+          "last_activated": "2026-03-28",
+          "activation_count": 4,
+          "weight": 5.5
+        }
+      ],
+      "trigger_points": [
+        {
+          "condition": "Major Indian IT company issues profit warning citing US demand slowdown",
+          "cascade": [
+            "nifty-50",
+            "india",
+            "inr-usd"
+          ],
+          "mechanism": "Would confirm the crisis cascade reaching Indian IT earnings. Nifty would take a direct hit. Rupee weakens further as IT is India's largest forex earner.",
+          "added": "2026-03-28",
+          "status": "watching"
+        }
+      ]
+    },
+    "indian-oil-marketing": {
+      "id": "indian-oil-marketing",
+      "name": "Indian Oil Marketing (IOC/BPCL/HPCL)",
+      "type": "sector",
+      "created": "2026-03-28",
+      "last_updated": "2026-03-28",
+      "summary": "India's state-owned oil marketing companies \u2014 IOC, BPCL, HPCL. They buy crude at global prices and sell fuel at government-controlled prices. When oil spikes and government blocks pass-through, OMCs absorb the loss. The March 27 duty cut (petrol 13\u21923 rupees, diesel duty removed) helps but doesn't eliminate the margin squeeze. These stocks are the direct transmission mechanism from oil prices to Indian fiscal health.",
+      "signals": [
+        {
+          "date": "2026-03-28",
+          "content": "IOC fell 3.1%, BPCL fell 2.8% on March 28 \u2014 leading the Nifty decline. Government's duty cut provides relief but OMCs still face margin squeeze with Brent at $112. If government instructs OMCs to absorb losses rather than pass through to consumers (as they did before 2024 elections), these companies become fiscal shock absorbers. Combined market cap erosion estimated at $15-20B since war began. (Sources: yfinance, Business Standard, Economic Times)",
+          "sources": [
+            "yfinance",
+            "Business Standard",
+            "Economic Times"
+          ],
+          "significance": "high"
+        }
+      ],
+      "edges": [
+        {
+          "to": "brent-crude",
+          "type": "cost_exposure",
+          "context": "OMCs buy crude at global prices. Every $10 oil increase directly compresses margins unless passed to consumers. At $112 Brent, margin squeeze is severe.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 10,
+          "weight": 9.0
+        },
+        {
+          "to": "india",
+          "type": "fiscal_tool",
+          "context": "Government uses OMCs as fiscal shock absorbers \u2014 instructing them to hold prices while absorbing losses. This protects consumers but erodes OMC balance sheets and government dividend income.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 8,
+          "weight": 8.0
+        },
+        {
+          "to": "nifty-50",
+          "type": "index_weight",
+          "context": "IOC, BPCL, HPCL are Nifty constituents. Their decline drags the index. Also signals broader India energy vulnerability to institutional investors.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 5,
+          "weight": 6.0
+        }
+      ],
+      "trigger_points": [
+        {
+          "condition": "Government instructs OMCs to freeze fuel prices despite $110+ oil",
+          "cascade": [
+            "india",
+            "nifty-50",
+            "rbi"
+          ],
+          "mechanism": "Would signal government prioritizing political stability over fiscal health. OMC stocks would crash. Fiscal deficit widens. Rating agency scrutiny increases.",
+          "added": "2026-03-28",
           "status": "watching"
         }
       ]
@@ -2689,6 +3067,80 @@ const GRAPH_DATA = {
         }
       ]
     },
+    "red-sea": {
+      "id": "red-sea",
+      "name": "Red Sea / Suez Canal",
+      "type": "trade_route",
+      "created": "2026-03-28",
+      "last_updated": "2026-03-28",
+      "summary": "The second critical maritime chokepoint alongside Hormuz. ~12% of global trade transits the Red Sea/Suez corridor. Houthis threatened Red Sea attacks for 28 days; launched first missile at Israel (not shipping) on March 28. If Houthis attack Red Sea shipping, the double-chokepoint scenario activates: Hormuz + Red Sea both disrupted, Cape of Good Hope becomes the only route, shipping rates double again.",
+      "signals": [
+        {
+          "date": "2026-03-28",
+          "content": "Houthis entered the war with a missile at Israel on March 28 but have NOT attacked Red Sea shipping (yet). UKMTO and maritime trackers report no new incidents in the Red Sea corridor. However, the Houthi crossing from rhetoric to action materially increases the probability of Red Sea shipping attacks. Michael Knights (Washington Institute) expects incremental escalation: missile at Israel \u2192 Red Sea threat \u2192 actual shipping attack, spaced 5-10 days apart. Container freight up 3rd consecutive week anticipating disruption. (Sources: UKMTO, IDF, Al Jazeera, Drewry, Maritime Hub)",
+          "sources": [
+            "UKMTO",
+            "IDF",
+            "Al Jazeera",
+            "Drewry",
+            "Maritime Hub"
+          ],
+          "significance": "high"
+        }
+      ],
+      "edges": [
+        {
+          "to": "houthis",
+          "type": "threat_zone",
+          "context": "Houthis control Yemen's Red Sea coastline and have demonstrated capability to attack shipping (2024-25 campaign). Currently in the war but haven't attacked shipping yet.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 5,
+          "weight": 7.0
+        },
+        {
+          "to": "shipping-tankers",
+          "type": "transit_route",
+          "context": "~12% of global trade transits Red Sea/Suez. If Houthis attack shipping, route diversions to Cape of Good Hope add 10-14 days and massive cost.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 4,
+          "weight": 6.5
+        },
+        {
+          "to": "strait-of-hormuz",
+          "type": "dual_chokepoint",
+          "context": "If BOTH Hormuz and Red Sea are disrupted simultaneously, there is no safe Gulf export route. This is the worst-case scenario for global energy trade.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 3,
+          "weight": 8.0
+        },
+        {
+          "to": "brent-crude",
+          "type": "supply_route",
+          "context": "Saudi Arabia's Yanbu pipeline exports via Red Sea bypass Hormuz. If Red Sea is also disrupted, this bypass becomes useless. Oil to $130+.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 3,
+          "weight": 7.5
+        }
+      ],
+      "trigger_points": [
+        {
+          "condition": "Houthis attack commercial shipping in the Red Sea",
+          "cascade": [
+            "shipping-tankers",
+            "brent-crude",
+            "strait-of-hormuz",
+            "india"
+          ],
+          "mechanism": "Double chokepoint activated. Cape of Good Hope only route. Shipping rates double. Oil $130+. India acute energy crisis. Container freight spikes. Global trade disrupted.",
+          "added": "2026-03-28",
+          "status": "watching"
+        }
+      ]
+    },
     "russia": {
       "id": "russia",
       "name": "Russia",
@@ -2943,6 +3395,84 @@ const GRAPH_DATA = {
           ],
           "mechanism": "Double chokepoint: Hormuz AND Red Sea blocked. Only Cape of Good Hope remains. Shipping rates would spike further from already-historic levels. As of Day 25, Houthi threats remain rhetoric only \u2014 zero attacks confirmed.",
           "added": "2026-03-23",
+          "status": "watching"
+        }
+      ]
+    },
+    "south-korea": {
+      "id": "south-korea",
+      "name": "South Korea",
+      "type": "country",
+      "created": "2026-03-28",
+      "last_updated": "2026-03-28",
+      "summary": "Critical endpoint of the helium-semiconductor cascade. Samsung and SK Hynix depend on Qatar helium for chip fab operations. KOSPI crashed 6.5% on March 23 (circuit breaker triggered), partially recovered. Two semiconductor fabs reported reduced output due to helium allocation cuts. USD/KRW at 1,508 (+5.7% monthly). South Korea imports ~70% of energy from the Gulf.",
+      "current": {
+        "price": "KOSPI: 5,438.87",
+        "delta_1d": "-0.4%",
+        "delta_1m": "-10.6%",
+        "delta_3m": "+28.9%"
+      },
+      "signals": [
+        {
+          "date": "2026-03-23",
+          "content": "KOSPI crashed 6.5% triggering circuit breaker \u2014 worst single-day drop since COVID. Samsung Electronics fell 8.2%. SK Hynix fell 9.1%. Driven by oil spike + helium supply concerns + global risk-off. (Sources: yfinance, Bloomberg, Reuters)",
+          "sources": [
+            "yfinance",
+            "Bloomberg",
+            "Reuters"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-28",
+          "content": "KOSPI at 5,438.87 (-0.4% daily, -10.6% monthly). Two semiconductor fabs announced reduced output due to helium allocation restrictions following Ras Laffan damage. USD/KRW at 1,508 \u2014 weakest since 2022. South Korea's energy import dependence (~70% from Gulf) makes it acutely exposed to Hormuz disruption. (Sources: yfinance, industry reports)",
+          "sources": [
+            "yfinance",
+            "Business Standard",
+            "SemiAnalysis"
+          ],
+          "significance": "high"
+        }
+      ],
+      "edges": [
+        {
+          "to": "helium",
+          "type": "supply_dependency",
+          "context": "Samsung and SK Hynix depend on helium for semiconductor fabrication. Qatar supplies ~25% of global helium. Ras Laffan damage directly disrupts Korean chip production.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 8,
+          "weight": 7.5
+        },
+        {
+          "to": "brent-crude",
+          "type": "import_dependency",
+          "context": "South Korea imports ~70% of energy from the Gulf. Oil above $110 adds massive import costs. Direct exposure to Hormuz disruption.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 5,
+          "weight": 6.5
+        },
+        {
+          "to": "strait-of-hormuz",
+          "type": "supply_dependency",
+          "context": "Majority of Korean energy imports transit Hormuz. Closure directly impacts energy security and industrial production.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 5,
+          "weight": 6.0
+        }
+      ],
+      "trigger_points": [
+        {
+          "condition": "Samsung or SK Hynix announces production halt due to helium shortage",
+          "cascade": [
+            "helium",
+            "sp-500",
+            "nifty-50"
+          ],
+          "mechanism": "Confirmed fab shutdown would cascade to global semiconductor supply, AI infrastructure, and tech valuations worldwide. Currently only 'reduced output' reported, not full halt.",
+          "added": "2026-03-28",
           "status": "watching"
         }
       ]
@@ -3207,6 +3737,74 @@ const GRAPH_DATA = {
           ],
           "mechanism": "Would risk direct naval confrontation with Iran. Could escalate to mining, submarine warfare. Oil could spike further. Major escalation risk.",
           "added": "2026-03-23",
+          "status": "watching"
+        }
+      ]
+    },
+    "taiwan": {
+      "id": "taiwan",
+      "name": "Taiwan (TSMC)",
+      "type": "country",
+      "created": "2026-03-28",
+      "last_updated": "2026-03-28",
+      "summary": "Home to TSMC \u2014 manufactures ~90% of the world's most advanced semiconductors. Helium supply disruption from Qatar threatens fab operations. TAIEX at 33,113 (-6.5% monthly). TSMC's exposure is indirect (helium \u2192 fab coolant/process gas \u2192 production capacity) but systemically critical. If TSMC reduces output, AI infrastructure and global tech valuations take a direct hit.",
+      "current": {
+        "price": "TAIEX: 33,112.59",
+        "delta_1d": "-0.7%",
+        "delta_1m": "-6.5%",
+        "delta_3m": "+14.9%"
+      },
+      "signals": [
+        {
+          "date": "2026-03-28",
+          "content": "TAIEX at 33,113 (-0.7% daily, -6.5% monthly). TSMC has not publicly commented on helium supply impact but industry sources report allocation tightening. SMH (semiconductor ETF) down 9.2% monthly. If helium shortage forces TSMC to reduce advanced node production, cascade hits AI infrastructure (Nvidia, AMD, cloud providers) and tech valuations globally. (Sources: yfinance, gasworld, industry analysis)",
+          "sources": [
+            "yfinance",
+            "gasworld",
+            "SemiAnalysis"
+          ],
+          "significance": "high"
+        }
+      ],
+      "edges": [
+        {
+          "to": "helium",
+          "type": "supply_dependency",
+          "context": "TSMC uses helium as process gas and coolant in advanced chip fabrication. Qatar helium disruption threatens production capacity at world's most critical semiconductor facility.",
+          "directness": 1,
+          "last_activated": "2026-03-28",
+          "activation_count": 5,
+          "weight": 7.0
+        },
+        {
+          "to": "sp-500",
+          "type": "supply_chain",
+          "context": "TSMC supplies chips to Apple, Nvidia, AMD, Qualcomm \u2014 the largest S&P 500 components by market cap. Production disruption cascades directly to US tech valuations.",
+          "directness": 2,
+          "last_activated": "2026-03-28",
+          "activation_count": 3,
+          "weight": 6.0
+        },
+        {
+          "to": "south-korea",
+          "type": "industry_peer",
+          "context": "TSMC and Samsung compete in advanced semiconductor fabrication. Both exposed to same helium supply chain from Qatar.",
+          "directness": 2,
+          "last_activated": "2026-03-28",
+          "activation_count": 3,
+          "weight": 4.5
+        }
+      ],
+      "trigger_points": [
+        {
+          "condition": "TSMC announces production reduction or allocation changes due to helium/gas supply",
+          "cascade": [
+            "sp-500",
+            "helium",
+            "south-korea"
+          ],
+          "mechanism": "TSMC producing 90% of advanced chips means any production cut cascades immediately to every tech company worldwide. This would shift the crisis from 'energy shock' to 'tech supply crisis.'",
+          "added": "2026-03-28",
           "status": "watching"
         }
       ]
@@ -4437,22 +5035,211 @@ const GRAPH_DATA = {
         "weight": 8.5,
         "directness": 1,
         "last_activated": "2026-03-28"
+      },
+      {
+        "from": "south-korea",
+        "to": "helium",
+        "weight": 7.5,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "south-korea",
+        "to": "brent-crude",
+        "weight": 6.5,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "south-korea",
+        "to": "strait-of-hormuz",
+        "weight": 6.0,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "taiwan",
+        "to": "helium",
+        "weight": 7.0,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "taiwan",
+        "to": "sp-500",
+        "weight": 6.0,
+        "directness": 2,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "taiwan",
+        "to": "south-korea",
+        "weight": 4.5,
+        "directness": 2,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "ecb",
+        "to": "brent-crude",
+        "weight": 7.0,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "ecb",
+        "to": "fed",
+        "weight": 5.5,
+        "directness": 2,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "ecb",
+        "to": "european-ttf-gas",
+        "weight": 6.5,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "european-ttf-gas",
+        "to": "qatar",
+        "weight": 8.0,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "european-ttf-gas",
+        "to": "natural-gas-lng",
+        "weight": 7.5,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "european-ttf-gas",
+        "to": "fertilizer-urea",
+        "weight": 7.0,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "european-ttf-gas",
+        "to": "ecb",
+        "weight": 6.5,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "red-sea",
+        "to": "houthis",
+        "weight": 7.0,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "red-sea",
+        "to": "shipping-tankers",
+        "weight": 6.5,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "red-sea",
+        "to": "strait-of-hormuz",
+        "weight": 8.0,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "red-sea",
+        "to": "brent-crude",
+        "weight": 7.5,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "indian-oil-marketing",
+        "to": "brent-crude",
+        "weight": 9.0,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "indian-oil-marketing",
+        "to": "india",
+        "weight": 8.0,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "indian-oil-marketing",
+        "to": "nifty-50",
+        "weight": 6.0,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "energy-sector",
+        "to": "brent-crude",
+        "weight": 9.5,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "energy-sector",
+        "to": "sp-500",
+        "weight": 6.5,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "defense-sector",
+        "to": "united-states",
+        "weight": 7.0,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "defense-sector",
+        "to": "sp-500",
+        "weight": 5.5,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "indian-it",
+        "to": "sp-500",
+        "weight": 6.5,
+        "directness": 2,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "indian-it",
+        "to": "nifty-50",
+        "weight": 7.0,
+        "directness": 1,
+        "last_activated": "2026-03-28"
+      },
+      {
+        "from": "indian-it",
+        "to": "fed",
+        "weight": 5.5,
+        "directness": 2,
+        "last_activated": "2026-03-28"
       }
     ]
   },
   "meta": {
     "last_updated": "2026-03-28",
-    "total_nodes": 31,
-    "total_edges": 124,
+    "total_nodes": 40,
+    "total_edges": 151,
     "briefs_generated": 3,
     "node_types": {
-      "country": 13,
-      "commodity": 5,
-      "institution": 6,
+      "country": 15,
+      "commodity": 6,
+      "institution": 7,
       "index": 4,
       "person": 1,
-      "sector": 1,
-      "trade_route": 1
+      "sector": 5,
+      "trade_route": 2
     },
     "layer_thresholds": {
       "layer_1_min_connections": 8,
