@@ -43,6 +43,7 @@ Step 2: /gather-markets  → staging/YYYY-MM-DD/markets.md       (Market Analyst
 Step 3: /update-graph    → staging/YYYY-MM-DD/graph-changelog.md (Graph Engineer)
 Step 4: /write-brief     → briefs/YYYY-MM-DD.md                (Editor)
 Step 5: /verify-brief    → corrections applied                  (Fact-Checker)
+Step 6: Publish          → git commit + push to GitHub          (Auto-publish)
 ```
 
 **You MUST run each sub-skill in order. Do not skip steps. Do not combine steps.**
@@ -182,6 +183,30 @@ Before the brief goes to the reader, apply these five tests:
 4. **The Investor Test:** Does the reader know exactly which risks are rising, falling, or stable? Do they know what specific conditions would need to be met before deploying capital? If not, Section III failed.
 
 5. **The Graph Test:** Does Section III reference specific nodes, edges, weights, and trigger points? If it could have been written without the graph, the graph isn't earning its keep.
+
+---
+
+## Step 6: Publish
+
+After the brief is verified, commit and push all changes to GitHub so the live viewer and brief archive stay current.
+
+```bash
+# Rebuild viewer with latest graph data
+python3 scripts/rebuild-viewer.py
+
+# Stage all updated files
+git add graph/ briefs/YYYY-MM-DD.md viewer.html
+
+# Commit with today's date
+git commit -m "Brief YYYY-MM-DD: [1-line summary of lead finding]
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+
+# Push to GitHub (updates repo + GitHub Pages viewer)
+git push origin main
+```
+
+**Gate check:** Verify the push succeeded. The live viewer at `nimitmehra.github.io/hive-mind/viewer.html` will update within 1-2 minutes via GitHub Pages.
 
 ---
 
