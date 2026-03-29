@@ -172,7 +172,7 @@ const GRAPH_DATA = {
       "name": "Brent Crude",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-03-28",
+      "last_updated": "2026-03-29",
       "summary": "Global oil benchmark. Surged from ~$70/bbl pre-war to $119/bbl peak. Now at $112.57 after surging on Iran ceasefire rejection, Tangsiri assassination, IRGC toll booth formalization, and Houthi war entry. Day 21+ above $100. Goldman estimates $14-18/bbl geopolitical risk premium. Houthi entry makes double-chokepoint scenario one Red Sea attack away from reality.",
       "current": {
         "price": "$112.57/bbl",
@@ -1105,8 +1105,8 @@ const GRAPH_DATA = {
       "name": "Hezbollah",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-03-23",
-      "summary": "Iran's proxy in Lebanon. Entered war Mar 2 in response to Khamenei killing. Launched 200+ rockets/day at Israel. Israel responding with ground incursion into southern Lebanon and Beirut strikes. ~1,000 Lebanese killed, 1M+ displaced.",
+      "last_updated": "2026-03-29",
+      "summary": "Iran's proxy in Lebanon. Entered war Mar 2 in response to Khamenei killing. INTENSIFIED: 45+ operations against Israel on March 27 alone. IDF killed 2 top communications unit members in Beirut overnight March 28. Israel expanding ground invasion \u2014 claims 800+ Hezbollah operatives killed since March 2. At least 1,189 killed in Lebanon (124 children), nearly 1 million displaced (20% of population). Hezbollah chief urged 'unity, no talks with Israel.'",
       "signals": [
         {
           "date": "2026-03-02",
@@ -1135,34 +1135,45 @@ const GRAPH_DATA = {
             "Defense News"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "Hezbollah announced 45+ military operations against Israel on Thursday March 27, including rockets, drones, and targeting Israeli troops inside Lebanon. Israel sent more troops into southern Lebanon as ground invasion expands. IDF killed 2 top Hezbollah communications unit members in Beirut overnight March 28. Israel claims 800+ Hezbollah operatives killed since March 2. At least 1,189 killed in Lebanon (including 124 children), nearly 1 million displaced (20% of population). Hezbollah chief urged 'unity, no talks with Israel.' (Sources: Al Jazeera, Bloomberg, Defense News, Times of Israel)",
+          "sources": [
+            "Al Jazeera",
+            "Bloomberg",
+            "Defense News",
+            "Times of Israel"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
         {
           "to": "iran",
           "type": "proxy_alliance",
-          "context": "Iran's primary proxy. Entered war to avenge Khamenei. Receives strategic direction, weapons, funding from Iran.",
+          "context": "Iran's primary proxy. Entered war to avenge Khamenei. Receives strategic direction, weapons, funding from Iran. Intensified operations March 27-29.",
           "directness": 1,
-          "last_activated": "2026-03-19",
-          "activation_count": 10,
+          "last_activated": "2026-03-29",
+          "activation_count": 11,
           "weight": 8.5
         },
         {
           "to": "israel",
           "type": "active_conflict",
-          "context": "Direct combat. Rockets at northern Israel. Israel ground operations in southern Lebanon and strikes on Beirut.",
+          "context": "Direct combat. 45+ operations on March 27 alone. Israel expanding ground invasion, killed 2 top Hezbollah communications members in Beirut. Israel claims 800+ Hezbollah killed since March 2.",
           "directness": 1,
-          "last_activated": "2026-03-19",
-          "activation_count": 12,
-          "weight": 8.5
+          "last_activated": "2026-03-29",
+          "activation_count": 13,
+          "weight": 9.0
         },
         {
           "to": "lebanon",
           "type": "operating_base",
-          "context": "Based in Lebanon. Operations are devastating Lebanon \u2014 1M displaced, 1,000 dead. Lebanese government demanding disarmament.",
+          "context": "Based in Lebanon. Operations devastating Lebanon \u2014 at least 1,189 killed (124 children), nearly 1M displaced (20% of population). Israeli ground invasion expanding.",
           "directness": 1,
-          "last_activated": "2026-03-19",
-          "activation_count": 10,
+          "last_activated": "2026-03-29",
+          "activation_count": 11,
           "weight": 8.0
         }
       ],
@@ -1173,8 +1184,8 @@ const GRAPH_DATA = {
       "name": "Houthis (Yemen)",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-03-28",
-      "summary": "Iran's proxy in Yemen. ENTERED THE WAR ON MARCH 28 \u2014 ballistic missile at Israel (Beersheba), intercepted by IDF, no casualties. First confirmed military action after 28 days of rhetoric. CENTCOM struck Houthi positions in response. This was a missile at Israel, NOT a Red Sea shipping attack \u2014 double-chokepoint trigger NOT YET activated but probability materially increased. Leader al-Houthi adopted 'unusually calm tone' while officials issue increasingly aggressive conditional statements. Physical preparations real (coastal reinforcement, launcher repositioning) but no operational action. Analysts: generating 'value without expenditure.' Saudi Arabia actively working to keep them out. Weapons stockpile depleted from 2024-25 campaign.",
+      "last_updated": "2026-03-29",
+      "summary": "Iran's proxy in Yemen. LAUNCHED TWO ATTACKS ON ISRAEL WITHIN 24 HOURS (March 28-29) \u2014 first ballistic missile at Beersheba intercepted, second missile/drone combo also targeted Israel. Spokesman Yahya Saree declared 'operations will continue in coming days.' CENTCOM struck Houthi positions in response to both attacks. Targeting Israel directly, NOT Red Sea shipping \u2014 double-chokepoint trigger NOT YET activated but tempo dramatically compressed vs analysts' 5-10 day prediction. Air raid sirens activated across Kuwait, Bahrain, Israel early Sunday March 29.",
       "signals": [
         {
           "date": "2026-03-05",
@@ -1255,35 +1266,55 @@ const GRAPH_DATA = {
             "Al-Masirah TV"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "Houthis launched SECOND missile and drone attack on Israel within 24 hours of first attack. Spokesman Yahya Saree declared on Al-Masirah TV: 'Yemeni Armed Forces will continue to carry out military operations in coming days.' Both attacks targeted Israel, NOT Red Sea shipping. Double-chokepoint trigger not activated but tempo dramatically compressed vs. Knights' 5-10 day prediction. Air raid sirens also activated across Kuwait, Bahrain, Israel early Sunday. (Sources: US News/AP, Al Jazeera, SBS News, Bloomberg)",
+          "sources": [
+            "US News/AP",
+            "Al Jazeera",
+            "SBS News",
+            "Bloomberg"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
         {
           "to": "iran",
           "type": "proxy_alliance",
-          "context": "Iran's proxy in Yemen. Escalating threat rhetoric but no confirmed attacks in 25 days of war. Analysts believe Iran holding them in reserve as 'insurance policy.' Saudi Arabia working to keep them out.",
+          "context": "Iran's proxy in Yemen. Launched two attacks on Israel within 24 hours (March 28-29). First confirmed military actions after 28 days of rhetoric. Targeting Israel directly, not Red Sea shipping. CENTCOM struck Houthi positions in response.",
           "directness": 1,
-          "last_activated": "2026-03-24",
-          "activation_count": 5,
-          "weight": 6.0
+          "last_activated": "2026-03-29",
+          "activation_count": 6,
+          "weight": 7.5
         },
         {
           "to": "shipping-tankers",
           "type": "credible_threat",
-          "context": "Threatened Red Sea closure and attacks on aggressor nation vessels. If activated, would create SECOND shipping chokepoint alongside Hormuz. But ZERO confirmed attacks in 25 days. Threat generates value without expenditure.",
+          "context": "Threatened Red Sea closure and attacks on aggressor nation vessels. Now confirmed attacks on Israel but NOT yet on Red Sea shipping. Double-chokepoint trigger one shipping attack away from activation. Tempo dramatically compressed.",
           "directness": 1,
-          "last_activated": "2026-03-24",
-          "activation_count": 4,
-          "weight": 5.5
+          "last_activated": "2026-03-29",
+          "activation_count": 5,
+          "weight": 7.0
         },
         {
           "to": "brent-crude",
           "type": "potential_supply_threat",
-          "context": "Red Sea closure would disrupt Saudi Yanbu bypass exports. Oil could spike beyond $130 if both chokepoints close. But this remains a POTENTIAL threat \u2014 no confirmed action.",
+          "context": "Red Sea closure would disrupt Saudi Yanbu bypass exports. Oil could spike beyond $130 if both chokepoints close. Houthi attacks on Israel confirmed \u2014 Red Sea shipping attacks remain one step away.",
           "directness": 1,
-          "last_activated": "2026-03-24",
+          "last_activated": "2026-03-29",
+          "activation_count": 3,
+          "weight": 6.5
+        },
+        {
+          "to": "israel",
+          "type": "active_conflict",
+          "context": "Two confirmed missile/drone attacks on Israel within 24 hours. First confirmed military action after 28 days of rhetoric. Targeting Israeli military sites from Yemen.",
+          "directness": 1,
+          "last_activated": "2026-03-29",
           "activation_count": 2,
-          "weight": 4.0
+          "weight": 7.0
         }
       ],
       "trigger_points": [
@@ -1317,7 +1348,7 @@ const GRAPH_DATA = {
       "name": "India",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-28",
+      "last_updated": "2026-03-29",
       "summary": "Most impacted Asian economy. Government enacted emergency fuel duty cuts March 27. Rupee at 94.85 intraday low. FPIs pulled $11.5B in March (outflows crossed 1 trillion rupees for 2026). Forex reserves down $7B to $709.75B. RBI intervening with $100B short position. Nifty at 22,820. Bernstein warns: Nifty below 20,000 and rupee beyond 110 if conflict persists.",
       "signals": [
         {
@@ -1766,8 +1797,8 @@ const GRAPH_DATA = {
       "name": "Iran",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-28",
-      "summary": "Primary target of US-Israeli strikes since Feb 28. Rejected US 15-point ceasefire plan March 25 as 'maximalist.' Issued 5-point counterproposal demanding sovereignty over Hormuz and reparations. IRGC Navy chief Tangsiri killed by Israel at Bandar Abbas March 26. IRGC formalized yuan-denominated toll booth at Hormuz. FM Araghchi: 'We do not want a ceasefire.' Denies all negotiations while Pakistan confirms message relay.",
+      "last_updated": "2026-03-29",
+      "summary": "Primary target of US-Israeli strikes since Feb 28. Struck Prince Sultan Air Base (Saudi Arabia) \u2014 15+ US troops injured, 5 seriously. Missiles hit Tel Aviv commercial street killing 1 (Vyacheslav Vidmant, 52), injuring 11+. IRGC threatened US university campuses in Gulf with Monday deadline. Bushehr nuclear plant hit for 3rd time in 10 days \u2014 IAEA warns leak risk. Tasnim (IRGC-linked) confirms formal response sent to US 15-point proposal via intermediaries \u2014 contradicting public 'no negotiations' posture. CENTCOM claims 10,000+ strikes and 92% of IRGC Navy's largest vessels destroyed.",
       "signals": [
         {
           "date": "2026-02-28",
@@ -1916,6 +1947,22 @@ const GRAPH_DATA = {
             "Al Jazeera",
             "NBC News",
             "Lloyd's List Intelligence"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "CONFIRMED: Iran struck Prince Sultan Air Base (Saudi Arabia) with 6 ballistic missiles and 29 drones \u2014 15+ US troops injured, 5 seriously, some aircraft damaged. Total US wounded past 300. Iranian missiles struck Tel Aviv commercial street killing Vyacheslav Vidmant (52), injuring 11+. IRGC threatened US university campuses in Gulf with Monday noon deadline. Bushehr nuclear plant hit for third time in 10 days \u2014 IAEA warns of leak risk but no radiation detected. Tasnim (IRGC-linked) reported formal response to US 15-point proposal sent through intermediaries \u2014 contradicting public 'no negotiations' posture. CENTCOM claims 10,000+ strikes and 92% of IRGC Navy's largest vessels destroyed. Air raid sirens across Kuwait, Bahrain, Israel early Sunday March 29. (Sources: NPR, Fortune, Al Jazeera, Fox News, WaPo, Times of Israel, Tasnim, CENTCOM/C-SPAN, IAEA)",
+          "sources": [
+            "NPR",
+            "Fortune",
+            "Al Jazeera",
+            "Fox News",
+            "Washington Post",
+            "Times of Israel",
+            "Tasnim",
+            "CENTCOM",
+            "IAEA"
           ],
           "significance": "high"
         }
@@ -2285,7 +2332,7 @@ const GRAPH_DATA = {
       "name": "Israel",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-28",
+      "last_updated": "2026-03-29",
       "summary": "Co-launched strikes with US Feb 28. Assassinated IRGC Navy chief Tangsiri at Bandar Abbas March 26. First Houthi missile intercepted over Beersheba March 28. Defense Minister Katz vowed to 'intensify and expand' attacks. Haaretz leaked that Mossad's promise to instigate Iran uprising 'has fallen short.'",
       "signals": [
         {
@@ -2348,16 +2395,27 @@ const GRAPH_DATA = {
             "Jerusalem Post"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "Iranian missiles struck Tel Aviv commercial street \u2014 Vyacheslav Vidmant (52) killed, 11+ injured, 8 impact sites including a university. Extensive building damage within 150m radius. Houthis launched two separate attacks on Israel within 24 hours \u2014 both intercepted, demonstrating sustained multi-front bombardment (Iran direct + Houthi from Yemen + Hezbollah from Lebanon). IDF killed 2 top Hezbollah communications unit members in Beirut overnight. CENTCOM struck Houthi positions in Yemen in response to Israel attacks. Israel expanding ground operations in southern Lebanon. (Sources: Times of Israel, Al Jazeera, CNN, Defense News)",
+          "sources": [
+            "Times of Israel",
+            "Al Jazeera",
+            "CNN",
+            "Defense News"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
         {
           "to": "iran",
           "type": "active_conflict",
-          "context": "Direct military conflict. Israel struck leadership, nuclear, energy targets. Iran retaliating with missiles on Israeli cities.",
+          "context": "Direct military conflict. Israel struck leadership, nuclear, energy targets. Iran retaliating with missiles on Israeli cities. Tel Aviv struck March 29 \u2014 1 killed, 11+ injured.",
           "directness": 1,
-          "last_activated": "2026-03-21",
-          "activation_count": 20,
+          "last_activated": "2026-03-29",
+          "activation_count": 21,
           "weight": 9.9
         },
         {
@@ -2386,6 +2444,15 @@ const GRAPH_DATA = {
           "last_activated": "2026-03-19",
           "activation_count": 12,
           "weight": 8.5
+        },
+        {
+          "to": "houthis",
+          "type": "active_conflict",
+          "context": "Houthis launched two confirmed attacks on Israel within 24 hours on March 28-29. First Houthi military action against Israel in this war.",
+          "directness": 1,
+          "last_activated": "2026-03-29",
+          "activation_count": 2,
+          "weight": 6.5
         }
       ],
       "trigger_points": [
@@ -3577,7 +3644,7 @@ const GRAPH_DATA = {
       "name": "Strait of Hormuz",
       "type": "trade_route",
       "created": "2026-03-23",
-      "last_updated": "2026-03-28",
+      "last_updated": "2026-03-29",
       "summary": "World's most critical oil chokepoint. IRGC formalized yuan-denominated toll booth system \u2014 ships pay $2M for escorted passage. 142 transits March 1-25 vs 2,652 baseline = 95% reduction. IRGC Navy chief Tangsiri killed at Bandar Abbas March 26. Blockade transformed from military closure to monetized chokepoint under IRGC control.",
       "signals": [
         {
@@ -3646,6 +3713,15 @@ const GRAPH_DATA = {
             "NBC News"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "No change in Hormuz transit data from March 27 snapshot. IRGC toll booth system continues operating \u2014 yuan-denominated payments, escorted passage around Larak Island. 142 transits March 1-25 vs 2,652 baseline (95% reduction). CENTCOM claims 92% of IRGC Navy's largest vessels destroyed but toll operations unaffected. Tangsiri assassination (March 26) has not visibly disrupted IRGC naval enforcement.",
+          "sources": [
+            "CENTCOM",
+            "Lloyd's List Intelligence"
+          ],
+          "significance": "medium"
         }
       ],
       "edges": [
@@ -3895,8 +3971,8 @@ const GRAPH_DATA = {
       "name": "United States",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-28",
-      "summary": "Launched Operation Epic Fury Feb 28. Extended energy strike pause to April 6 on March 26, claiming Iran requested it (Iran denies). 15-point ceasefire plan rejected by Iran. Pakistan mediating message relay confirmed. Kushner/Witkoff leading diplomatic track while Pentagon plans Kharg Island invasion. CENTCOM claims 2/3 of Iran's arms manufacturing destroyed.",
+      "last_updated": "2026-03-29",
+      "summary": "Launched Operation Epic Fury Feb 28. 2,500 Marines arrived on USS Tripoli (31st MEU) \u2014 Kharg Island seizure speculation. 15+ US troops wounded at Prince Sultan Air Base, total war casualties past 300. VP Vance: war continues 'a little while longer' to ensure Iran 'neutered for a very long time.' Trump escalated NATO criticism at Saudi FII: 'US no longer needs NATO,' called alliance 'cowards.' 8 million Americans in 'No Kings' anti-war protests across all 50 states.",
       "signals": [
         {
           "date": "2026-02-28",
@@ -3986,6 +4062,21 @@ const GRAPH_DATA = {
             "NPR",
             "Al Jazeera",
             "Bloomberg"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "2,500 Marines arrived on USS Tripoli (31st MEU from Japan) \u2014 speculation centers on Kharg Island seizure operation. 15+ US troops wounded at Prince Sultan Air Base, total war casualties past 300. VP Vance on podcast: war will continue 'a little while longer' to ensure Iran 'neutered for a very long time'; called gas prices 'temporary.' US acknowledged war may extend past initial 4-6 week timeline. Trump escalated NATO criticism at Saudi FII conference: 'US no longer needs NATO,' called alliance 'cowards' for refusing to escort ships through Hormuz. 8 million Americans in 'No Kings' anti-war protests across all 50 states. (Sources: CENTCOM, Time, Military.com, Times of Israel, Fortune, WaPo, Bloomberg, Al Jazeera)",
+          "sources": [
+            "CENTCOM",
+            "Time",
+            "Military.com",
+            "Times of Israel",
+            "Fortune",
+            "Washington Post",
+            "Bloomberg",
+            "Al Jazeera"
           ],
           "significance": "high"
         }
@@ -4166,14 +4257,14 @@ const GRAPH_DATA = {
     }
   },
   "edges": {
-    "last_updated": "2026-03-28",
+    "last_updated": "2026-03-29",
     "edges": [
       {
         "from": "bahrain",
         "to": "iran",
         "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-09"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "bahrain",
@@ -4348,42 +4439,49 @@ const GRAPH_DATA = {
         "to": "iran",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "hezbollah",
         "to": "israel",
-        "weight": 8.5,
+        "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "hezbollah",
         "to": "lebanon",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "houthis",
         "to": "iran",
-        "weight": 6.0,
+        "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "houthis",
         "to": "shipping-tankers",
-        "weight": 5.5,
+        "weight": 7.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "houthis",
         "to": "brent-crude",
-        "weight": 4.0,
+        "weight": 6.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
+      },
+      {
+        "from": "houthis",
+        "to": "israel",
+        "weight": 7.0,
+        "directness": 1,
+        "last_activated": "2026-03-29"
       },
       {
         "from": "india",
@@ -4474,21 +4572,21 @@ const GRAPH_DATA = {
         "to": "israel",
         "weight": 9.9,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "iran",
         "to": "united-states",
         "weight": 9.9,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "iran",
         "to": "hezbollah",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "iran",
@@ -4514,9 +4612,9 @@ const GRAPH_DATA = {
       {
         "from": "iran",
         "to": "houthis",
-        "weight": 6.0,
+        "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "iran",
@@ -4558,7 +4656,14 @@ const GRAPH_DATA = {
         "to": "iran",
         "weight": 9.9,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
+      },
+      {
+        "from": "israel",
+        "to": "houthis",
+        "weight": 6.5,
+        "directness": 1,
+        "last_activated": "2026-03-29"
       },
       {
         "from": "israel",
@@ -5228,10 +5333,10 @@ const GRAPH_DATA = {
     ]
   },
   "meta": {
-    "last_updated": "2026-03-28",
+    "last_updated": "2026-03-29",
     "total_nodes": 40,
-    "total_edges": 151,
-    "briefs_generated": 3,
+    "total_edges": 155,
+    "briefs_generated": 4,
     "node_types": {
       "country": 15,
       "commodity": 6,
