@@ -662,12 +662,12 @@ const GRAPH_DATA = {
       "name": "European TTF Natural Gas",
       "type": "commodity",
       "created": "2026-03-28",
-      "last_updated": "2026-03-28",
-      "summary": "Dutch TTF benchmark \u2014 Europe's gas price reference. At 54.52 euros/MWh, 2x pre-crisis levels but below the 2022 peak (~350). Qatar LNG disruption (Ras Laffan damage) and Hormuz risk to LNG tankers are the primary drivers. If TTF reaches 2022 crisis levels (100+ euros), Europe activates emergency energy protocols.",
+      "last_updated": "2026-03-29",
+      "summary": "Dutch TTF benchmark at \u20ac54.52/MWh \u2014 up 70% in March alone, worst monthly gain since September 2021. European gas storage at 30% capacity (historically low). Four European countries enacted emergency measures: Spain cut energy VAT 21%\u219210%, Italy allocated \u20ac100M, Slovakia/Slovenia introduced pump rationing. ECB froze planned rate cuts March 19. Atlantic Council: 'could trigger a European energy crisis.' If Hormuz blockade persists through summer refill season (May-October), \u20ac80-100/MWh realistic.",
       "current": {
         "price": "\u20ac54.52/MWh",
         "delta_1d": "+2% est",
-        "delta_1m": "+60%+",
+        "delta_1m": "+70%",
         "delta_3m": "+140%+"
       },
       "signals": [
@@ -678,6 +678,18 @@ const GRAPH_DATA = {
             "OilPriceAPI",
             "ICE Endex",
             "Reuters"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "TTF surged 70% in March (\u20ac38\u2192\u20ac54.52) \u2014 worst monthly gain since Sep 2021. European gas storage at 30% capacity after harsh winter (historically low). Four countries enacted emergency energy measures: Spain cut energy VAT from 21% to 10%, Italy allocated \u20ac100M for industrial support, Slovakia and Slovenia introduced pump rationing, France removed winter diesel requirements. ECB postponed planned rate cut March 19, raised inflation forecast, cut GDP growth projection \u2014 stagflation trap confirmed alongside Fed and RBI. Atlantic Council published 'How the Iran war could trigger a European energy crisis.' Bloomberg: 'Energy Price Shock Is Getting Very Real in Europe.' (Sources: Euronews, IRU, Atlantic Council, Bloomberg, OilPriceAPI)",
+          "sources": [
+            "Euronews",
+            "IRU",
+            "Atlantic Council",
+            "Bloomberg",
+            "OilPriceAPI"
           ],
           "significance": "high"
         }
@@ -917,8 +929,8 @@ const GRAPH_DATA = {
       "name": "Gold",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-03-28",
-      "summary": "Counter-intuitive collapse continues: now $4,372, down 16% in one month \u2014 worst since 2011. Dollar strength from hawkish Fed expectations crushing gold despite war. Traditional 'war = buy gold' playbook completely broken. Bonds, not gold, are the fear trade.",
+      "last_updated": "2026-03-29",
+      "summary": "POTENTIAL REGIME SHIFT: Gold surged 2.7% to $4,492 on March 28 after falling 17% from January highs. The reversal alongside rising oil (+4.2%) and falling equities (-2%) signals potential shift from 'inflation event' regime (oil up, gold down) to 'systemic crisis' regime (both up). If gold sustains above $4,600, regime shift confirmed. JP Morgan targets $6,300 year-end.",
       "current": {
         "price": "$4,492/oz",
         "delta_1d": "+2.7%",
@@ -1024,6 +1036,17 @@ const GRAPH_DATA = {
           "mechanism": "Would signal market pricing in extreme risk event (Houthi entry, ground invasion, or nuclear) or Fed capitulation on rates.",
           "added": "2026-03-23",
           "status": "watching"
+        },
+        {
+          "condition": "Gold sustains above $4,600 for 3+ sessions",
+          "cascade": [
+            "fed",
+            "sp-500",
+            "nifty-50"
+          ],
+          "mechanism": "Would confirm regime shift from inflation-event (cash is king) to systemic-crisis (gold + cash work, equities face extended drawdown). Changes correlation structure for portfolio construction.",
+          "added": "2026-03-29",
+          "status": "watching"
         }
       ]
     },
@@ -1032,8 +1055,8 @@ const GRAPH_DATA = {
       "name": "Helium",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-03-24",
-      "summary": "Critical cascade: Qatar produces 30% of world's helium at Ras Laffan. Facility offline. No substitute for semiconductor wafer cooling. SK Hynix on '2-week clock' at full production rates. Helium spot prices surged 40% in single week, doubled since war began. Samsung deploying HeRS recycling system but insufficient. TrendForce named South Korea as hardest-hit.",
+      "last_updated": "2026-03-29",
+      "summary": "CRITICAL CASCADE \u2014 CLOCK TICKING: Qatar's 30% of global helium offline since Ras Laffan strikes March 18-19. SK Hynix on 'two-week clock' from March 24 \u2014 now approximately 8 days from inventory exhaustion at full production rates. Spot prices up 40-100%. Samsung deploying HeRS recycling but insufficient. South Korea imported 64.7% of helium from Qatar. KOSPI -10.6% monthly on this cascade. Early April is the crunch point.",
       "signals": [
         {
           "date": "2026-03-19",
@@ -1064,6 +1087,16 @@ const GRAPH_DATA = {
             "Gasworld",
             "Fortune",
             "CNBC"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "CLOCK UPDATE: TrendForce's March 24 'two-week clock' assessment means approximately 8 days remain before Asian chip fab helium inventories exhaust at full production rates (early April). KOSPI -10.6% monthly, Samsung -8.2% from peak. No new alternative supply sources have been confirmed. The cascade path (war \u2192 Qatar \u2192 helium \u2192 semiconductors \u2192 KOSPI/SMH) is the most validated multi-hop cascade in the graph with 3 independent confirmations (TrendForce, Nikkei Asia, Korea International Trade Association). Container freight Shanghai-Dubai doubled to $4,000+/FEU reflecting Gulf shipping disruption. (Sources: TrendForce timeline, yfinance KOSPI data, Freightos FBX)",
+          "sources": [
+            "TrendForce",
+            "yfinance",
+            "Freightos FBX"
           ],
           "significance": "high"
         }
