@@ -323,9 +323,23 @@ No significant developments since this morning's brief. Key threads ([list 2-3 f
 
 ---
 
+## Active Watchlist
+
+[One line per item. Status + today's most relevant update (if any). Max 8 items. Add when something enters active motion. Remove when it resolves. Items that cross a threshold graduate to Trigger Point Check below. Items with no change get: "No change" — that's fine.]
+
+- **[Item]:** [clock/status]. [Today's incremental update if any, or "No change."]
+
+[Example lines:]
+- **Helium fab clock:** ~7 days to exhaustion. SK hynix claims Algeria supply secured (REPORTED). If true, clock extends.
+- **RBI NOP unwind:** 13 days to April 10. Banks beginning position reduction.
+- **Islamabad quad talks:** Day 1 of 2. Outcome pending March 30.
+- **European gas storage:** 30% capacity. Refill season starts May 1. No change.
+
+---
+
 ## Trigger Point Check
 
-[Quick binary checks against morning's watchlist:]
+[Binary checks on thresholds that have been CROSSED or are near-crossing:]
 - ₹95/USD: [Breached / Not breached — current: ₹XX.XX]
 - Gold $4,600: [Sustained / Not reached — current: $X,XXX]
 - Houthi Red Sea attack: [Confirmed / Still watching]
