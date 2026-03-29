@@ -140,13 +140,13 @@ If gold DIDN'T spike on a day when oil surged 3% and Hormuz deployment was confi
 ## STEP 3: SCAN FOR NON-WAR MARKET DRIVERS
 
 The war isn't the only thing happening in the world. Search for:
-- **US:** Jobs report, GDP, earnings season, PMI, consumer confidence
-- **India:** RBI policy announcements, government measures, quarterly results, FII flow data (NSDL)
-- **China:** Trade data, property market, stimulus measures, PMI
-- **Europe:** ECB decisions, industrial production, energy policy measures
-- **Global:** Any central bank decision worldwide, major earnings announcements
+- **US:** Jobs report, GDP, earnings season, PMI, consumer confidence, Fed statements and forward guidance
+- **India:** RBI policy announcements, government measures, quarterly results, FII flow data (NSDL). **Also search for RBI macro-prudential and regulatory actions** — position limits, capital controls, special deposit schemes, emergency swap lines, derivative margin changes, forex exposure rules. These are the tools central banks deploy when market intervention alone isn't working, and each escalation step signals increasing stress. **Check for after-hours and Friday evening directives** — these are deliberately timed to avoid market panic and won't appear in price data until the next trading session.
+- **China:** Trade data, property market, stimulus measures, PMI, PBOC currency policy and yuan interventions
+- **Europe:** ECB decisions, industrial production, energy policy measures, ECB/national central bank statements
+- **Global:** Any central bank decision worldwide, major earnings announcements. **Include regulatory and macro-prudential actions** (not just rate decisions) — position limits, capital controls, emergency lending facilities, currency swap line activations. The ECB, Fed, BOJ, PBOC, and BOE all have regulatory toolboxes beyond rates. When they reach for them during a crisis, that's a signal about the severity of stress they're seeing internally.
 
-**Why this matters:** If half of a market move is driven by a bad earnings season, that's important for deployment timing — the crisis resolving won't fix an earnings problem. The investor needs ALL drivers, not just war-related ones.
+**Why this matters:** If half of a market move is driven by a bad earnings season, that's important for deployment timing — the crisis resolving won't fix an earnings problem. The investor needs ALL drivers, not just war-related ones. Central bank regulatory actions are especially important because they signal stress BEFORE it appears in market prices — the RBI capping NDF positions on a Friday evening tells you more about rupee vulnerability than Monday's opening rate does.
 
 ---
 
