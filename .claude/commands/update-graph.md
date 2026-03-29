@@ -174,6 +174,17 @@ After completing geopolitical node updates, go through List B (your market work 
 
 **The audit question:** When the Editor reads the graph to write Section III, will they find CURRENT data for gold, helium, TTF gas, shipping, and every other commodity node — or will they find stale summaries and missing signals? If stale, the Editor has no material for commodity cascade analysis, and Section III becomes a military-only news summary.
 
+### 2j. Work list completion check
+
+Before moving to Step 3, go back to your two work lists from Step 1. Check off every node you actually updated. If ANY node on either list was not updated, update it now.
+
+The most commonly skipped nodes are:
+- **Location nodes** (saudi-arabia, lebanon, qatar) — where something happened, not just who did it
+- **Secondary actors** — a node listed as affected but not the primary attacker or target
+- **Market nodes** — covered by Step 2i, but double-check
+
+If your lists had 12 nodes and you updated 8, the 4 you skipped are the ones most likely to go stale and create blind spots in the brief.
+
 *What happened on March 29 without this step:* The Graph Engineer updated houthis, iran, israel, hezbollah, united-states with detailed signals. Gold's summary still said "collapse continues" despite a regime shift signal. Helium hadn't been touched in 5 days. TTF gas was missing European emergency measures. The Editor wrote Section III with only military cascades because the graph's commodity nodes were stale. The reader got a brief that looked like a military intelligence report, not investment intelligence.
 
 ---

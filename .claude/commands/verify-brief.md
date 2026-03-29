@@ -121,6 +121,8 @@ The first 6 checks verify ACCURACY — is what's in the brief correct? This chec
 - **Section II balance:** Are there market/commodity analyst takes alongside geopolitical ones? If Section II has 4 geopolitical analysts and zero market voices (no TrendForce, Lloyd's List, JP Morgan, Atlantic Council, etc.), **FLAG HIGH.**
 - **Section III balance:** Does Cascade Watch cover commodity cascades (helium countdown, TTF→ECB, gold regime shift) alongside military edge changes? If Cascade Watch is 100% military edges, **FLAG HIGH.** Check the graph-changelog's Market/Commodity section.
 
+- **Graph completeness:** Cross-reference the graph changelog's updated nodes against BOTH staging files' "Nodes affected" lists. If a node was listed as affected but doesn't appear in the changelog, the Graph Engineer skipped it. **FLAG HIGH.** On March 29, the Saudi Arabia node was listed as affected by the Prince Sultan Air Base attack but was never updated — it went 6 days stale while the iran and united-states nodes were updated for the same event.
+
 *What happened on March 29 without this check:* The Fact-Checker approved a brief with 6/6 military items in Section I, 4/4 geopolitical analysts in Section II, and zero commodity cascades in Section III. Gold regime shift, TTF +70%, helium 8-day countdown, and VLCC all-time highs were all in the staging files but invisible to the reader. The Fact-Checker caught zero accuracy errors — but missed that half the intelligence was absent. The reader caught it instead.
 
 ---
