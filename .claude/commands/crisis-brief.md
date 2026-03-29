@@ -15,7 +15,7 @@ You don't do the research yourself. You don't crunch the numbers. You don't writ
 - *After write-brief:* "Can I read this in 5 minutes? Is the lead genuinely the most important verified thing? Does Section III use the graph or could it have been written from news alone?"
 - *After verify-brief:* "Did the Fact-Checker actually challenge anything? If zero corrections for 5 days straight, either the team is perfect or the checker is going through motions."
 
-**The standard you hold:** If the investor reads this brief at 8 AM and gets surprised by something on Bloomberg at 10 AM that was knowable at 8 AM — you failed. Not the Researcher. Not the Editor. YOU failed, because ensuring the process caught it was YOUR job.
+**The standard you hold:** If the investor reads the morning brief at 8 AM and gets surprised by something on Bloomberg at 10 AM that was knowable at 8 AM — you failed. If they read the evening brief at 5 PM and the market close data is stale from the morning — you failed. Two editions, two standards: morning catches the overnight; evening catches the trading day. Not the Researcher. Not the Editor. YOU failed, because ensuring the process caught it was YOUR job.
 
 ---
 
@@ -37,27 +37,52 @@ Each sub-skill has one job, one mindset, and cannot shortcut the others.
 ## The Pipeline
 
 ```
-Step 0: Setup            → mkdir -p staging/YYYY-MM-DD
-Step 1: /gather-intel    → staging/YYYY-MM-DD/intel.md         (Researcher)
-Step 2: /gather-markets  → staging/YYYY-MM-DD/markets.md       (Market Analyst)
-Step 3: /update-graph    → staging/YYYY-MM-DD/graph-changelog.md (Graph Engineer)
-Step 4: /write-brief     → briefs/YYYY-MM-DD.md                (Editor)
-Step 5: /verify-brief    → corrections applied                  (Fact-Checker)
-Step 6: Publish          → git commit + push to GitHub          (Auto-publish)
+Step 0: Setup            → Determine edition (morning/evening), create staging dir
+Step 1: /gather-intel    → staging/YYYY-MM-DD-{EDITION}/intel.md    (Researcher)
+Step 2: /gather-markets  → staging/YYYY-MM-DD-{EDITION}/markets.md  (Market Analyst)
+Step 3: /update-graph    → staging/YYYY-MM-DD-{EDITION}/graph-changelog.md (Graph Engineer)
+Step 4: /write-brief     → briefs/YYYY-MM-DD-{EDITION}.md           (Editor)
+Step 5: /verify-brief    → corrections applied                       (Fact-Checker)
+Step 6: Publish          → git commit + push to GitHub               (Auto-publish)
 ```
 
 **You MUST run each sub-skill in order. Do not skip steps. Do not combine steps.**
 
 ---
 
-## Step 0: Setup
+## Step 0: Setup — Determine Edition
 
-Create today's staging directory:
+**Edition detection:**
+- If the current time is before 1:00 PM IST → this is the **morning** edition
+- If 1:00 PM IST or later → this is the **evening** edition
+- The user can also specify explicitly: `/crisis-brief morning` or `/crisis-brief evening`
+
+**Set the edition suffix for the entire pipeline:**
 ```bash
-mkdir -p staging/YYYY-MM-DD
+# Morning edition
+mkdir -p staging/YYYY-MM-DD-morning
+
+# Evening edition
+mkdir -p staging/YYYY-MM-DD-evening
 ```
 
 Replace YYYY-MM-DD with today's date.
+
+**All downstream paths use the suffix:**
+- Staging: `staging/YYYY-MM-DD-{EDITION}/`
+- Brief: `briefs/YYYY-MM-DD-{EDITION}.md`
+- Git commit: `Brief YYYY-MM-DD ({EDITION}): [summary]`
+
+**Morning vs Evening — what changes:**
+
+| Aspect | Morning (8 AM) | Evening (5 PM) |
+|---|---|---|
+| Intel scope | Full sweep — all threads, new developments, all 6 media sides | Delta — what changed since morning? Researcher reads morning intel.md as baseline |
+| Market data | Previous day's close + Asian morning | Full trading day (India closed, US closing) |
+| Brief format | Full brief (all sections, 5-minute read) | Delta brief — "What Changed Since Morning" + full market close (2-3 minute read) |
+| Graph update | Full update from both staging files | Delta update — only new signals since morning |
+
+**If the morning edition hasn't run yet and it's evening:** Run the full morning pipeline first, THEN the evening delta. Never run an evening delta without a morning baseline — check that `briefs/YYYY-MM-DD-morning.md` exists before proceeding with evening.
 
 ---
 
@@ -69,7 +94,7 @@ This gathers crisis developments, follows up yesterday's threads, checks all sid
 
 **Gate check after completion:**
 
-Verify `staging/YYYY-MM-DD/intel.md` exists and contains ALL required sections:
+Verify `staging/YYYY-MM-DD-{EDITION}/intel.md` exists and contains ALL required sections:
 - `## A. Open Thread Follow-ups` — Did they follow up on EVERY unresolved item from yesterday's brief? If threads were dropped, the Researcher missed them.
 - `## B. New Developments` — Does every item have verification status, action-or-rhetoric tag, other-side check, and source list? If any item is missing fields, it's incomplete.
 - `## C. Source Tone Assessment` — Does it cover all 6 media sides (Iranian, Israeli, US, Gulf, Indian, European)? Are specific outlets named with specific language examples? If it says "Iranian media is hostile" without naming outlets, it's too shallow.
@@ -82,6 +107,9 @@ Verify `staging/YYYY-MM-DD/intel.md` exists and contains ALL required sections:
 
 If any section is missing or critically incomplete, ask the Researcher to re-run or supplement.
 
+**Evening edition additional check:**
+If this is the evening edition, verify the Researcher read the morning's `staging/YYYY-MM-DD-morning/intel.md` as baseline. The evening intel should reference morning findings and only add what's NEW. If the evening intel.md looks like a full re-do of the morning (same threads, same developments), the Researcher didn't use the delta approach — ask them to focus on what changed.
+
 ---
 
 ## Step 2: Gather Market Data
@@ -92,7 +120,7 @@ This runs `market-data.py`, searches non-yfinance assets, investigates WHY each 
 
 **Gate check after completion:**
 
-Verify `staging/YYYY-MM-DD/markets.md` exists and contains:
+Verify `staging/YYYY-MM-DD-{EDITION}/markets.md` exists and contains:
 - `## A. Full Market Snapshot` — All 39+ assets. If the table is incomplete, the script may have failed.
 - `## B. Significant Moves` — Every flagged asset WITH a "what moved it" explanation. Bare data without WHY is a spreadsheet, not intelligence.
 - `## C. Causal Chain Analysis` — Detailed chains for each significant move. If any chain says only "war fears," the analyst was lazy.
@@ -116,7 +144,7 @@ This reads both staging files, updates nodes/edges/triggers, and documents every
 
 **Gate check after completion:**
 
-Verify `staging/YYYY-MM-DD/graph-changelog.md` exists and contains:
+Verify `staging/YYYY-MM-DD-{EDITION}/graph-changelog.md` exists and contains:
 - `## Summary` — Node/edge counts modified
 - `## Node Updates` — Each modified node with signals added, verification status preserved, price updates
 - `## Trigger Point Review` — ALL trigger points considered, whether changed or not, with rationale
@@ -138,7 +166,7 @@ This reads all staging files + updated graph and composes the final brief.
 
 **Gate check after completion:**
 
-Verify `briefs/YYYY-MM-DD.md` exists and contains:
+Verify `briefs/YYYY-MM-DD-{EDITION}.md` exists and contains:
 - `## I. What Happened` — Are items ordered by verified importance, not drama? Does the lead item have the strongest verification?
 - `## II. What Analysts Say` — Are analyst predictions specific and falsifiable?
 - `## III. What the Graph Tells Me` — Does it reference SPECIFIC nodes, edges, weights, trigger points? If Section III could have been written without the graph, it's a news summary, not intelligence.
@@ -148,6 +176,13 @@ Verify `briefs/YYYY-MM-DD.md` exists and contains:
 - Read Section I. Can you understand each paragraph without having read yesterday's brief? If not, it's not self-contained.
 - Check verification language. Does the brief use "confirmed" for items the Researcher tagged CONFIRMED, "reports suggest" for REPORTED, and attribution for CLAIMED? If a REPORTED item reads like CONFIRMED, there's tag drift.
 - Time yourself reading Sections I-III. If it takes more than 5 minutes, it's too long.
+
+**Evening edition quality checks:**
+- The brief header should say "Evening Update" and reference the morning brief
+- Section I should be titled "What Changed Since Morning" — NOT a repeat of the full day
+- Full market close data MUST be present (this is the main value of the evening edition)
+- Reading time: 2-3 minutes maximum. If it's 5 minutes, it's a second morning brief, not a delta.
+- If NOTHING significant changed since morning, the brief should say so explicitly: "No material developments since this morning's brief. Market close data updated below." A brief that says "nothing changed" is more valuable than one that rehashes the morning.
 
 ---
 
@@ -195,10 +230,10 @@ After the brief is verified, commit and push all changes to GitHub so the live v
 python3 scripts/rebuild-viewer.py
 
 # Stage all updated files
-git add graph/ briefs/YYYY-MM-DD.md viewer.html
+git add graph/ briefs/YYYY-MM-DD-{EDITION}.md viewer.html
 
-# Commit with today's date
-git commit -m "Brief YYYY-MM-DD: [1-line summary of lead finding]
+# Commit with today's date and edition
+git commit -m "Brief YYYY-MM-DD ({EDITION}): [1-line summary of lead finding]
 
 Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
 

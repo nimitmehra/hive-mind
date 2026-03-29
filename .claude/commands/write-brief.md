@@ -57,6 +57,8 @@ Also read:
 
 **Gate check:** If any staging file is missing, **STOP** and tell the user to run the missing sub-skill first. Do NOT improvise or search the web yourself. You work from the dossier you've been given.
 
+**Edition check:** Determine if this is the morning or evening edition from the staging directory suffix (`-morning` or `-evening`). If evening, skip to the **EVENING EDITION** section at the end of this skill. All the rules above (psychology, verification tags, paragraph style, proportionality) still apply — only the output FORMAT changes.
+
 ---
 
 ## STEP 2: DECIDE HEADLINE PRIORITY
@@ -97,7 +99,7 @@ Read through `intel.md` Section B (New Developments) and Section A (Open Thread 
 
 ## STEP 3: WRITE THE BRIEF
 
-Save to `briefs/YYYY-MM-DD.md`.
+Save to `briefs/YYYY-MM-DD-{EDITION}.md` (e.g., `briefs/2026-03-29-morning.md`).
 
 ### Brief Structure
 
@@ -258,3 +260,89 @@ Before saving, scan your draft against `intel.md`:
 5. **Missing yesterday's threads:** Reader notices you dropped a story without resolution. Trust erodes.
 6. **Writing DOWN:** Explaining what the Strait of Hormuz is to a reader who already knows. Waste of the 5-minute budget.
 7. **Geopolitical tunnel vision:** All Section I items from intel.md, zero from markets.md. All Section II analysts are geopolitical, zero are market/commodity. Section III Cascade Watch covers only military edges. The investor gets a military intelligence report instead of investment intelligence. **The fix:** Count your items. If Section I is 100% military, go back to markets.md and promote the top 2-3 commodity/business developments. If Section II has zero market analysts, add them from markets.md causal chains. If Cascade Watch has zero commodity cascades, check the graph-changelog's Market/Commodity section.
+
+---
+
+## EVENING EDITION — Delta Brief Format
+
+**This section applies ONLY when the staging directory ends in `-evening`.** All rules above (psychology, paragraph style, verification tags, proportionality, both-sides) still apply. Only the output FORMAT and SCOPE change.
+
+### What you read (evening)
+
+1. The morning brief: `briefs/YYYY-MM-DD-morning.md` — your BASELINE. The investor already read this.
+2. Evening staging files: `staging/YYYY-MM-DD-evening/intel.md`, `markets.md`, `graph-changelog.md`
+
+**Gate check:** The morning brief MUST exist. If it doesn't, STOP — tell the orchestrator to run the morning edition first.
+
+### Triage: delta or escalate?
+
+**Escalate to FULL brief format** (use the morning format above, not this section) if ANY of:
+- A trigger point moved from "watching" to "active" since morning
+- A confirmed military action that changes the strategic picture (Red Sea shipping attack, ground invasion, ceasefire signed)
+- A market move >5% in a major index or commodity since morning
+- A new front opened in the conflict
+
+If you escalate, save to `briefs/YYYY-MM-DD-evening.md` but use the FULL format from Step 3 above.
+
+**Stay with delta format** for everything else — including continuation of morning trends, incremental moves, updated data, or nothing at all.
+
+### Evening delta format
+
+Save to `briefs/YYYY-MM-DD-evening.md`.
+
+```markdown
+# West Asia Crisis Brief — [Date] (Evening Update)
+*Update to [morning brief filename] | Generated at [time] IST | Markets: [India closed / US closing]*
+
+---
+
+## What Changed Since Morning
+
+[ONLY genuinely new developments. Reference the morning brief: "This morning's brief covered X. Since then..."]
+
+[If nothing material changed:]
+No significant developments since this morning's brief. Key threads ([list 2-3 from morning]) remain as assessed. Market close data updated below.
+
+[If 1-3 things changed, write Economist-style paragraphs — same quality as morning, just fewer.]
+
+---
+
+## Market Close
+
+### Significant Moves (Trading Day)
+
+| Asset | Morning | Close | Change | Why |
+|---|---|---|---|---|
+[Only assets that moved significantly DURING today's session]
+
+### Full Market Snapshot
+[Complete tables from markets.md — same format as morning Page 2]
+
+### Web-searched Assets
+[Updated TTF, VLCC, insurance, helium, India 10Y — if new data available]
+
+---
+
+## Trigger Point Check
+
+[Quick binary checks against morning's watchlist:]
+- ₹95/USD: [Breached / Not breached — current: ₹XX.XX]
+- Gold $4,600: [Sustained / Not reached — current: $X,XXX]
+- Houthi Red Sea attack: [Confirmed / Still watching]
+- [Any other active or near-active triggers]
+
+---
+
+*Evening update. Full analysis in briefs/YYYY-MM-DD-morning.md*
+*Graph updated: [summary from evening changelog]*
+*Verified: pending /verify-brief*
+```
+
+### Evening-specific rules
+
+1. **2-3 minutes maximum reading time.** If you're past 3 minutes, you're rewriting the morning.
+2. **Don't repeat the morning.** If you catch yourself covering something the morning already analyzed — stop and delete.
+3. **"Nothing changed" is a valid brief.** It's honest and saves the investor 4 minutes. Don't pad.
+4. **Market close is the main product.** The investor can't get this from the morning brief because the data didn't exist yet.
+5. **Trigger checks are binary.** Breached or not. Don't re-analyze the cascade — the morning did that.
+6. **Escalate, don't force.** If something big broke, switch to the full format above. Don't squeeze a major development into the delta format.
