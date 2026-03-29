@@ -113,6 +113,16 @@ For each claim attributed to one party, verify the brief includes the other side
 - **If trigger moved on rhetoric → FLAG CRITICAL.** Recommend reverting to "watching."
 - This check matters more than all others because a wrong trigger point corrupts every future analysis.
 
+### Check 7: Completeness / Proportionality — THE MARCH 29 LESSON
+
+The first 6 checks verify ACCURACY — is what's in the brief correct? This check verifies COMPLETENESS — is anything important missing?
+
+- **Section I balance:** Count geopolitical items vs. commodity/business items. If ALL items are from one category, **FLAG HIGH.** Check `markets.md` — did the Market Analyst identify significant commodity moves (>3%), supply chain cascades, or regime shifts that the Editor didn't promote to Section I?
+- **Section II balance:** Are there market/commodity analyst takes alongside geopolitical ones? If Section II has 4 geopolitical analysts and zero market voices (no TrendForce, Lloyd's List, JP Morgan, Atlantic Council, etc.), **FLAG HIGH.**
+- **Section III balance:** Does Cascade Watch cover commodity cascades (helium countdown, TTF→ECB, gold regime shift) alongside military edge changes? If Cascade Watch is 100% military edges, **FLAG HIGH.** Check the graph-changelog's Market/Commodity section.
+
+*What happened on March 29 without this check:* The Fact-Checker approved a brief with 6/6 military items in Section I, 4/4 geopolitical analysts in Section II, and zero commodity cascades in Section III. Gold regime shift, TTF +70%, helium 8-day countdown, and VLCC all-time highs were all in the staging files but invisible to the reader. The Fact-Checker caught zero accuracy errors — but missed that half the intelligence was absent. The reader caught it instead.
+
 ---
 
 ## STEP 3: CHECK GRAPH UPDATES
@@ -263,3 +273,4 @@ If only LOW flags or no flags:
 4. **Fatigue on recurring items:** Day 30, "Iran threatens Hormuz" feels routine. But each instance needs the same operational check — because one day it might not be a threat.
 5. **Skipping market data:** Numbers are boring to verify but embarrassing to get wrong. Always spot-check.
 6. **Missing trigger point review:** The most important check in the entire pipeline. Never skip it.
+7. **Accuracy-only verification:** Checking that every claim in the brief is correct — but not checking whether the brief is COMPLETE. On March 29, the Fact-Checker found zero factual errors in a brief that was missing half the intelligence (gold regime shift, TTF emergency, helium countdown, VLCC records — all in staging files, none in the brief). Accuracy without completeness means the reader gets a factually correct but lopsided picture. **The fix:** Always run Check 7 (Completeness/Proportionality). Count categories in Section I. Check for market analysts in Section II. Check for commodity cascades in Section III.

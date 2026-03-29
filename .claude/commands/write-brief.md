@@ -61,28 +61,37 @@ Also read:
 
 ## STEP 2: DECIDE HEADLINE PRIORITY
 
-Read through `intel.md` Section B (New Developments) and Section A (Open Thread Follow-ups). Rank by editorial impact:
+Read through `intel.md` Section B (New Developments) and Section A (Open Thread Follow-ups) for GEOPOLITICAL items. ALSO read `markets.md` Section C (Causal Chains) and Section B (Significant Moves) for COMMODITY/BUSINESS items. Rank ALL items together by editorial impact:
 
 ### Priority Hierarchy
 
-1. **CONFIRMED ACTIONS with strategic/market impact** → Lead the brief
-2. **Hard data** (PMI, trade data, central bank decisions) → High priority
-3. **Novel strategic developments** (new diplomatic channel, new supply route) → High if verified
+1. **CONFIRMED ACTIONS with strategic/market impact** → Lead the brief. This includes BOTH military actions AND market regime shifts (e.g., gold reversal after 17% correction = confirmed price action with portfolio implications).
+2. **Hard data** (PMI, trade data, central bank decisions, commodity price milestones, supply chain countdowns) → High priority
+3. **Novel strategic developments** (new diplomatic channel, new supply route, market bifurcation like VLCC insurance barrier) → High if verified
 4. **REPORTED items** → Include with hedged language ("reports suggest")
 5. **CLAIMED items** → Lower, presented with other side's response
 6. **RHETORIC without action** → Last, proportional space
 
 **Space allocation rule:** An item's space should be proportional to its verification status and actual impact, not to how dramatic it sounds.
 
-*Good prioritization:*
-> Lead: CONFIRMED — US Navy redirected carrier strike group (CENTCOM confirms, satellite imagery)
-> Second: CONFIRMED — Brent breached $95 for first time in 18 months (hard data, multiple drivers)
-> Third: REPORTED — Oman mediating back-channel (FT, single source)
-> Last: CLAIMED — Iran says it can "close Hormuz in 4 hours" (rhetoric, 25th such threat, no confirmed preparation)
+**Proportionality rule — THE MARCH 29 LESSON:** Section I must balance geopolitical and commodity/business items. Aim for roughly 50/50. If ALL your Section I items come from `intel.md` (geopolitical), you are missing commodity/business developments from `markets.md`. The investor reads this brief for DEPLOYMENT intelligence — gold regime shifts, helium countdowns, TTF cascades, and shipping market bifurcations are often MORE actionable than the 5th military development. On March 29, a brief with 6/6 military items and 0 commodity items was corrected by the reader. That must not repeat.
 
-*Bad prioritization:*
-> Lead: "IRAN THREATENS TO CLOSE HORMUZ IN 4 HOURS"
-> (Leads on drama, not verified importance. Reader's heart rate goes up but understanding doesn't improve.)
+*Good prioritization (balanced):*
+> Lead: CONFIRMED — Houthis launch two attacks on Israel within 24 hours (military escalation)
+> Second: CONFIRMED — Gold reverses +2.7% after 17% selloff, signaling regime shift from inflation-event to systemic-crisis (market regime change with portfolio implications)
+> Third: CONFIRMED — European TTF gas +70% monthly, four countries enact emergency measures (commodity cascade with ECB/macro implications)
+> Fourth: CONFIRMED — Iran strikes Saudi base, 15 US troops injured (military)
+> Fifth: CONFIRMED — Helium supply chain on 8-day countdown to fab inventory exhaustion (supply chain cascade with KOSPI/tech implications)
+> Sixth: REPORTED — Tasnim reports Iran engaging through intermediaries (diplomatic signal)
+
+*Bad prioritization (all military):*
+> Lead: Houthi attack #1
+> Second: Houthi attack #2
+> Third: Saudi base attack
+> Fourth: Tel Aviv strike
+> Fifth: Hezbollah 45 operations
+> Sixth: Marines arrive
+> (All military. Gold regime shift, TTF emergency, helium countdown buried in Page 2. The investor learns about the war but not about their portfolio.)
 
 ---
 
@@ -111,10 +120,17 @@ Save to `briefs/YYYY-MM-DD.md`.
 
 ## II. What Analysts Say
 
-### [Analyst/Source] — [Affiliation, credibility context]
+### [Geopolitical Analyst/Source] — [Affiliation, credibility context]
 [2-3 sentences. Specific, falsifiable predictions only.]
 
-[2-4 analysts from intel.md Section D]
+[2-4 GEOPOLITICAL analysts from intel.md Section D]
+
+### [Market/Commodity Analyst/Source] — [Affiliation, credibility context]
+[2-3 sentences. Specific, falsifiable predictions only.]
+
+[2-4 MARKET/COMMODITY analysts from markets.md — draw from industry sources cited in causal chains (e.g., TrendForce on semiconductors, Lloyd's List on shipping, JP Morgan/Goldman on commodities, Atlantic Council/Bruegel on European energy, Phil Kornbluth on helium). These are NOT in intel.md — you must pull them from markets.md.]
+
+**Balance rule:** Section II must have BOTH geopolitical AND market/commodity analyst takes. If all 4 analysts are geopolitical (CSIS, Soufan, Knights, Sadjadpour) with zero market voices, you're giving the investor half the picture.
 
 ### Source Tone Assessment
 [From intel.md Section C. Which side's media is escalating/quieting. Contradictions between leaders and state media. Tone shifts precede policy shifts.]
@@ -124,7 +140,7 @@ Save to `briefs/YYYY-MM-DD.md`.
 ## III. What the Graph Tells Me
 
 ### Cascade Watch
-[From graph-changelog.md. Which edges strengthened? Which trigger points moved? Reference SPECIFIC nodes, edges, weights by name.]
+[From graph-changelog.md. Which edges strengthened? Which trigger points moved? Reference SPECIFIC nodes, edges, weights by name. Cover BOTH military cascades AND commodity/supply chain cascades. If the graph-changelog has a "Market/Commodity Node Updates" section, those MUST appear here alongside military edge changes. The helium countdown, TTF→ECB cascade, gold regime shift, and shipping bifurcation are as important as Houthi edge weights for the investor.]
 
 ### The Signal You Might Miss
 [One non-obvious connection from markets.md causal chains or intel.md. Something mainstream coverage isn't highlighting. This is where the graph earns its keep.]
@@ -241,3 +257,4 @@ Before saving, scan your draft against `intel.md`:
 4. **Proportionality failure:** A 25th consecutive threat getting as much space as a first-time confirmed action.
 5. **Missing yesterday's threads:** Reader notices you dropped a story without resolution. Trust erodes.
 6. **Writing DOWN:** Explaining what the Strait of Hormuz is to a reader who already knows. Waste of the 5-minute budget.
+7. **Geopolitical tunnel vision:** All Section I items from intel.md, zero from markets.md. All Section II analysts are geopolitical, zero are market/commodity. Section III Cascade Watch covers only military edges. The investor gets a military intelligence report instead of investment intelligence. **The fix:** Count your items. If Section I is 100% military, go back to markets.md and promote the top 2-3 commodity/business developments. If Section II has zero market analysts, add them from markets.md causal chains. If Cascade Watch has zero commodity cascades, check the graph-changelog's Market/Commodity section.
