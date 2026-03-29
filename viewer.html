@@ -123,8 +123,8 @@ const GRAPH_DATA = {
       "name": "Bahrain",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-23",
-      "summary": "Hosts US Navy 5th Fleet HQ. Hit by Iranian strikes. Bapco (state energy company) declared force majeure. 3 killed. Crowne Plaza Hotel damaged. Critical because 5th Fleet is key to US naval operations in Gulf.",
+      "last_updated": "2026-03-29",
+      "summary": "Hosts US Navy 5th Fleet HQ. Hit by Iranian strikes. Bapco declared force majeure. Air raid sirens activated across Bahrain early Sunday March 29 alongside Kuwait and Israel \u2014 broadest simultaneous regional bombardment of the conflict. Interior Ministry urged citizens to shelter.",
       "signals": [
         {
           "date": "2026-02-28",
@@ -143,16 +143,26 @@ const GRAPH_DATA = {
             "Al Jazeera"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "Air raid sirens activated across Bahrain early Sunday March 29. Bahrain Interior Ministry urged citizens to take shelter and 'remain calm.' Simultaneous sirens across Kuwait, Bahrain, and Israel \u2014 broadest regional bombardment pattern of the conflict. Consistent with CSIS assessment that Iran has abandoned calibrated retaliation for 'unbridled escalation.' Bushehr nuclear plant (across the Persian Gulf from Bahrain) struck for third time in 10 days \u2014 Kuwait issued warning about potential radioactive leak risk from Bushehr. (Sources: Middle East Eye, Bahrain Interior Ministry, CNN)",
+          "sources": [
+            "Middle East Eye",
+            "Bahrain Interior Ministry",
+            "CNN"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
         {
           "to": "iran",
           "type": "retaliation_target",
-          "context": "Targeted because it hosts US 5th Fleet. 3 killed. Energy infrastructure damaged.",
+          "context": "Targeted because it hosts US 5th Fleet. 3 killed. Energy infrastructure damaged. Air raid sirens March 29 from Iranian missile/drone attacks.",
           "directness": 1,
-          "last_activated": "2026-03-09",
-          "activation_count": 5,
+          "last_activated": "2026-03-29",
+          "activation_count": 6,
           "weight": 7.5
         },
         {
@@ -975,6 +985,12 @@ const GRAPH_DATA = {
           "price": "$4,372/oz",
           "trigger": "Continued slide \u2014 now -16% in one month",
           "delta_context": "Down nearly $1,000 from pre-war highs. DXY at 99.44 keeps pressure on. Silver -20.8% 1M, palladium -20.6% 1M \u2014 broad precious metals rout."
+        },
+        {
+          "date": "2026-03-28",
+          "price": "$4,492/oz",
+          "trigger": "REGIME SHIFT SIGNAL \u2014 gold+oil+equities-down in same session",
+          "delta_context": "Surged 2.7% from $4,374. First session where gold and oil rose together while equities fell \u2014 traditional systemic crisis correlation pattern replacing inflation event pattern. If sustains above $4,600, regime shift confirmed."
         }
       ],
       "signals": [
@@ -1136,8 +1152,17 @@ const GRAPH_DATA = {
           "type": "tech_supply_risk",
           "context": "Helium shortage \u2192 semiconductor manufacturing disruption \u2192 AI infrastructure uncertainty \u2192 tech valuation pressure. TrendForce confirmed country-level exposure data. Cascade validated by KOSPI 6.5% crash.",
           "directness": 2,
-          "last_activated": "2026-03-24",
-          "activation_count": 5,
+          "last_activated": "2026-03-29",
+          "activation_count": 6,
+          "weight": 6.0
+        },
+        {
+          "to": "south-korea",
+          "type": "supply_chain_cascade",
+          "context": "Qatar supplies 64.7% of South Korea's helium (Korea International Trade Association). Samsung and SK hynix fab operations directly threatened. KOSPI -10.6% monthly. Triple cascade validated: helium\u2192semiconductor\u2192KOSPI by 3 independent sources (TrendForce, Nikkei Asia, KITA).",
+          "directness": 3,
+          "last_activated": "2026-03-29",
+          "activation_count": 3,
           "weight": 6.0
         }
       ],
@@ -1402,7 +1427,7 @@ const GRAPH_DATA = {
       "type": "country",
       "created": "2026-03-23",
       "last_updated": "2026-03-29",
-      "summary": "Most impacted Asian economy. Government enacted emergency fuel duty cuts March 27. Rupee at 94.85 intraday low. FPIs pulled $11.5B in March (outflows crossed 1 trillion rupees for 2026). Forex reserves down $7B to $709.75B. RBI intervening with $100B short position. Nifty at 22,820. Bernstein warns: Nifty below 20,000 and rupee beyond 110 if conflict persists.",
+      "summary": "Most impacted Asian economy. RUPEE BREACHED \u20b995 (95.09 RBI close Mar 27) \u2014 trigger activated. RBI imposed emergency NOP-INR $100M hard cap. Forex reserves dropped to $698.35B (below $700B, down $30B in 3 weeks). FPIs pulled $11.5B in March (2026 outflows crossed \u20b91 trillion). Emergency fuel duty cuts costing $15-20B annually. Manufacturing PMI crashed to 53.8 (weakest since Sept 2021). Bernstein warns: Nifty below 20,000 and rupee beyond 110 if conflict persists.",
       "signals": [
         {
           "date": "2026-03-02",
@@ -1505,6 +1530,17 @@ const GRAPH_DATA = {
             "NSDL"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "TRIGGER ACTIVATED: Rupee breached \u20b995/USD (RBI close 95.09 on March 27). Forex reserves dropped $30.14 billion in 3 weeks of March to $698.35 billion as of March 20 (below $700 billion, down from ATH $728.49B on Feb 27). RBI imposed emergency NOP-INR $100 million hard cap on all authorized dealer banks (March 28) \u2014 escalation from conventional intervention (selling dollars) to regulatory intervention (restricting bank positions). Manufacturing PMI crashed to 53.8 from 56.9 \u2014 weakest since September 2021, input costs rising at fastest pace in 45 months. India in worst position of any major economy: import-dependent for energy, FII-dependent for equity liquidity, burning fiscal and monetary buffers simultaneously. (Sources: Business Standard, RBI data, NSDL, S&P Global PMI)",
+          "sources": [
+            "Business Standard",
+            "RBI",
+            "NSDL",
+            "S&P Global"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -1581,7 +1617,7 @@ const GRAPH_DATA = {
           ],
           "mechanism": "Would trigger more aggressive RBI intervention, potentially emergency measures. FII exodus would accelerate.",
           "added": "2026-03-23",
-          "status": "watching"
+          "status": "active"
         },
         {
           "condition": "Oil drops below $85 sustained",
@@ -1726,13 +1762,13 @@ const GRAPH_DATA = {
       "type": "index",
       "created": "2026-03-23",
       "last_updated": "2026-03-29",
-      "summary": "Indian rupee at record lows. Hit \u20b993.797/USD on Mar 20. RBI sold $15B+ in March to defend. Goldman Sachs forecast \u20b995. Driven by oil import bill ballooning, FII outflows, and dollar strength.",
+      "summary": "TRIGGER ACTIVATED: Rupee breached \u20b995/USD \u2014 RBI close at 95.09 on March 27 (confirmed by Business Standard, Bloomberg, The Week). Goldman's 95 forecast confirmed in 9 days. RBI imposed emergency NOP-INR $100M hard cap on all authorized dealer banks (March 28). Forex reserves below $700B ($698.35B as of March 20). Next question: does 95 hold or does 100 become the target?",
       "current": {
-        "price": "94.31",
+        "price": "95.09",
         "delta_1d": "-0.4%",
         "delta_1m": "+3.7%",
-        "delta_3m": "+5.0%",
-        "snapshot_note": "yfinance Mar 28; RBI close Mar 27 at 94.81. \u20b995 trigger 20 paisa away."
+        "delta_3m": "+5.0%+",
+        "snapshot_note": "RBI reference rate close Mar 27. yfinance shows 94.31 (likely mid-session). RBI close is authoritative."
       },
       "price_snapshots": [
         {
@@ -1752,6 +1788,12 @@ const GRAPH_DATA = {
           "price": "\u20b993.797/USD",
           "trigger": "Record low on Iraq force majeure + oil spike",
           "delta_context": "Goldman forecast \u20b995 if oil stays elevated"
+        },
+        {
+          "date": "2026-03-27",
+          "price": "\u20b995.09/USD",
+          "trigger": "TRIGGER ACTIVATED \u2014 breached \u20b995 psychological level",
+          "delta_context": "RBI close 95.09, intraday hit 94.85 on previous day. Goldman predicted 95 on March 18 \u2014 confirmed in 9 days. Down 9.3% from pre-war ~87."
         }
       ],
       "signals": [
@@ -1790,6 +1832,17 @@ const GRAPH_DATA = {
           "sources": [
             "Business Standard",
             "RBI data"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "TRIGGER ACTIVATED: Rupee breached \u20b995/USD \u2014 RBI reference rate closed at 95.09 on March 27 (confirmed by Business Standard, Bloomberg, The Week; yfinance shows 94.31 likely mid-session). Goldman's March 18 forecast of \u20b995 confirmed in 9 days. RBI emergency response: imposed NOP-INR hard cap of $100 million on ALL authorized dealer banks regardless of balance sheet size (March 28), compliance deadline April 10. Previously banks could maintain NOP limits up to 25% of capital \u2014 this is explicitly anti-speculation and constitutes a form of capital flow management. Forex reserves dropped $30.14 billion in 3 weeks of March to $698.35 billion (below $700B). RBI's net short dollar forward position approaching $100 billion. The cascade: Brent $112\u2192India imports 85-90%\u2192import bill balloons\u2192RBI burns reserves\u2192reserves declining\u2192market senses limits\u2192FPI flight ($11.5B March)\u2192rupee breaks 95\u2192RBI imposes NOP cap\u2192next steps are outright capital controls if this doesn't hold. (Sources: Business Standard, Bloomberg, The Week, RBI circular)",
+          "sources": [
+            "Business Standard",
+            "Bloomberg",
+            "The Week",
+            "RBI"
           ],
           "significance": "high"
         }
@@ -1842,7 +1895,7 @@ const GRAPH_DATA = {
           ],
           "mechanism": "Would signal loss of RBI control. Emergency measures possible. FII exodus would accelerate dramatically.",
           "added": "2026-03-23",
-          "status": "watching"
+          "status": "active"
         }
       ]
     },
@@ -2225,8 +2278,8 @@ const GRAPH_DATA = {
       "name": "Islamic Revolutionary Guard Corps (IRGC)",
       "type": "institution",
       "created": "2026-03-28",
-      "last_updated": "2026-03-28",
-      "summary": "Iran's parallel military force \u2014 operates independently from regular army and civilian government. IRGC Navy controls the Strait of Hormuz toll booth (yuan-denominated, $2M/transit). Navy chief Tangsiri killed by Israel at Bandar Abbas March 26. IRGC coordinates proxy network (Houthis, Hezbollah). Tasnim News Agency is their media arm. When IRGC and civilian government diverge (Tasnim vs IRNA tone), it signals internal power struggle.",
+      "last_updated": "2026-03-29",
+      "summary": "Iran's parallel military force. IRGC Navy toll booth at Hormuz continues operating post-Tangsiri assassination \u2014 system decentralized enough to persist. Threatened US university campuses in Gulf with specific deadline: Monday March 30, noon Tehran time. CENTCOM claims 92% of IRGC Navy's largest vessels destroyed. Tasnim (IRGC-linked) reported formal response sent to US ceasefire proposal via intermediaries \u2014 contradicting Iran's public 'no negotiations' posture.",
       "signals": [
         {
           "date": "2026-03-05",
@@ -2283,6 +2336,18 @@ const GRAPH_DATA = {
             "Tasnim",
             "USNI News",
             "Lloyd's List"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "IRGC toll booth continues operating post-Tangsiri assassination without visible disruption \u2014 demonstrates decentralized operations capable of persisting without killed commander. CENTCOM claims 92% of IRGC Navy's largest vessels destroyed, yet toll operations unaffected. IRGC issued specific threat to US university campuses in Gulf (Texas A&M Qatar, NYU Abu Dhabi): demanded US condemn bombing of two Iranian universities by Monday March 30 noon Tehran time, warned employees/professors/students to stay 1km from campuses. This is a testable deadline \u2014 by Monday afternoon, IRGC either follows through or loses credibility. Tasnim (IRGC-linked) reported Iran's formal response to US 15-point ceasefire proposal was sent through intermediaries \u2014 a significant divergence from Iran's public 'no negotiations' posture. When Tasnim reports intermediary engagement, the IRGC apparatus acknowledges the diplomatic channel exists. (Sources: CENTCOM, Times of Israel, Manila Times, Iran International, Tasnim)",
+          "sources": [
+            "CENTCOM",
+            "Times of Israel",
+            "Manila Times",
+            "Iran International",
+            "Tasnim"
           ],
           "significance": "high"
         }
@@ -2586,8 +2651,8 @@ const GRAPH_DATA = {
       "name": "Lebanon",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-23",
-      "summary": "Israel ground incursion since Mar 3. ~1,000 killed, 1M+ displaced (~25% of population). Lebanese government demanded Hezbollah surrender weapons. Country caught between Israel and Hezbollah.",
+      "last_updated": "2026-03-29",
+      "summary": "Israel ground invasion expanding since Mar 3. At least 1,189 killed (124 children), nearly 1 million displaced (20% of population). IDF killed 2 top Hezbollah communications unit members in Beirut overnight March 28. Hezbollah announced 45+ military operations on March 27 alone. Hezbollah chief urged 'unity, no talks with Israel.' Most active ground combat theater of the war.",
       "signals": [
         {
           "date": "2026-03-03",
@@ -2614,6 +2679,17 @@ const GRAPH_DATA = {
             "Defense News"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "Hezbollah announced 45+ military operations against Israel on March 27, including rockets, drones, and targeting Israeli troops inside Lebanon. Israel expanding ground invasion \u2014 sent more troops into southern Lebanon. IDF killed 2 top members of Hezbollah's communications unit in Beirut overnight March 28. Israel claims 800+ Hezbollah operatives killed in Lebanon since March 2. At least 1,189 people killed in Israeli strikes (including 124 children), nearly 1 million displaced (20% of Lebanon's population). Hezbollah chief urged 'unity, no talks with Israel.' Lebanon front remains the most active ground combat theater. (Sources: Al Jazeera, Bloomberg, Defense News, Times of Israel)",
+          "sources": [
+            "Al Jazeera",
+            "Bloomberg",
+            "Defense News",
+            "Times of Israel"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -2622,8 +2698,8 @@ const GRAPH_DATA = {
           "type": "operating_territory",
           "context": "Hezbollah operates from Lebanon. War devastating the country \u2014 1M displaced, 1,000 dead.",
           "directness": 1,
-          "last_activated": "2026-03-19",
-          "activation_count": 10,
+          "last_activated": "2026-03-29",
+          "activation_count": 13,
           "weight": 8.0
         },
         {
@@ -2631,8 +2707,8 @@ const GRAPH_DATA = {
           "type": "invasion_target",
           "context": "Israeli ground forces operating in southern Lebanon. Airstrikes on Beirut. Multiple front war.",
           "directness": 1,
-          "last_activated": "2026-03-19",
-          "activation_count": 10,
+          "last_activated": "2026-03-29",
+          "activation_count": 13,
           "weight": 8.0
         }
       ],
@@ -2643,8 +2719,8 @@ const GRAPH_DATA = {
       "name": "Mojtaba Khamenei",
       "type": "person",
       "created": "2026-03-23",
-      "last_updated": "2026-03-23",
-      "summary": "New Supreme Leader of Iran since Mar 8. Son of assassinated Ali Khamenei. Age 56, hardline cleric. Mother, wife, sister killed in Feb 28 strike. Has NOT appeared on video \u2014 first statement read by TV anchor. Vowed to keep Hormuz closed and attack US bases.",
+      "last_updated": "2026-03-29",
+      "summary": "New Supreme Leader since Mar 8. Son of assassinated Ali Khamenei. Age 56, hardline cleric. DAY 29 \u2014 STILL NO VIDEO/AUDIO PROOF OF LIFE. Only communication was a written statement read by TV anchor on March 12. No Nowruz address (March 20). CIA/DIA testified Iran is in 'deep command and control crisis.' Silence unprecedented for Iran's supreme leadership.",
       "signals": [
         {
           "date": "2026-03-08",
@@ -2662,6 +2738,16 @@ const GRAPH_DATA = {
           "sources": [
             "Al Jazeera",
             "Iran International"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "Day 29 of conflict \u2014 still no video or audio recording of Mojtaba Khamenei released. His only communication remains a written statement read by a TV anchor on March 12. No Nowruz address (March 20). CIA/DIA testified in classified hearing that Iran is in a 'deep command and control crisis.' The 29-day absence is unprecedented for Iran's supreme leadership and could mean injury, extreme security measures, or internal power struggle. Absence is itself a significant data point \u2014 Tehran typically denies false claims within hours, and the continued non-appearance amounts to tacit acknowledgment of leadership difficulties. (Sources: CNN analysis, Iran International, NPR)",
+          "sources": [
+            "CNN",
+            "Iran International",
+            "NPR"
           ],
           "significance": "high"
         }
@@ -2844,7 +2930,7 @@ const GRAPH_DATA = {
       "type": "index",
       "created": "2026-03-23",
       "last_updated": "2026-03-29",
-      "summary": "India's benchmark index. Bounced +1.8% to 22,912 from April 2025 lows. FPIs sold \u20b982,700 crore in March \u2014 largest monthly outflow since Oct 2024. DII/SIP flows providing partial cushion. Oil, rupee, and FII outflows driving structural weakness.",
+      "summary": "India's benchmark index at 22,820 (-2.1% daily, -10.2% monthly, -12% in 3 months). FPIs pulled Rs 88,180 crore ($11.5B) in March alone \u2014 2026 outflows crossed \u20b91 trillion. VIX crossed 30 triggering institutional algo selling. Critical support at 22,000 (200-day EMA). Bernstein warns Nifty below 20,000 if conflict persists through 2026.",
       "current": {
         "price": "22,819.60",
         "delta_1d": "-2.1%",
@@ -3132,7 +3218,7 @@ const GRAPH_DATA = {
       "type": "institution",
       "created": "2026-03-23",
       "last_updated": "2026-03-29",
-      "summary": "Fighting on multiple fronts: defending rupee (sold $15B+ in March), supporting bond market (buying \u20b91T bonds), managing inflation expectations. Trapped between inflation (oil\u2192can't cut rates) and growth (needs to cut). Reserves declining.",
+      "summary": "ESCALATING CRISIS RESPONSE: Imposed emergency NOP-INR $100M hard cap on March 28 \u2014 first regulatory intervention beyond conventional dollar selling. Forex reserves dropped to $698.35B (below $700B, down $30B in 3 weeks from ATH $728.49B). Net short dollar position approaching $100B. Rupee breached 95 despite intervention. Trapped between inflation (oil $112\u2192can't cut rates) and growth (needs to cut). Repo rate held at 5.25%.",
       "signals": [
         {
           "date": "2026-03-04",
@@ -3166,6 +3252,16 @@ const GRAPH_DATA = {
           "sources": [
             "Business Standard",
             "RBI weekly statistical supplement"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "RBI imposed emergency NOP-INR hard cap of $100 million on ALL authorized dealer banks regardless of balance sheet size (March 28), compliance deadline April 10. Previously banks could maintain NOP limits up to 25% of capital. This is explicitly anti-speculation and constitutes a form of capital flow management \u2014 not full capital controls but significant tightening of forex market architecture. Escalation ladder: conventional intervention (selling dollars) \u2192 regulatory caps (NOP limit, this step) \u2192 full capital controls (next if NOP cap doesn't hold). Forex reserves dropped to $698.35 billion (below $700B, down $30.14B in 3 weeks of March from ATH $728.49B pre-war). Gold component dropped $13.5B in one week. Net short dollar forward position approaching $100 billion. (Sources: Business Standard, RBI circular, Bloomberg)",
+          "sources": [
+            "Business Standard",
+            "RBI",
+            "Bloomberg"
           ],
           "significance": "high"
         }
@@ -3585,8 +3681,8 @@ const GRAPH_DATA = {
       "name": "South Korea",
       "type": "country",
       "created": "2026-03-28",
-      "last_updated": "2026-03-28",
-      "summary": "Critical endpoint of the helium-semiconductor cascade. Samsung and SK Hynix depend on Qatar helium for chip fab operations. KOSPI crashed 6.5% on March 23 (circuit breaker triggered), partially recovered. Two semiconductor fabs reported reduced output due to helium allocation cuts. USD/KRW at 1,508 (+5.7% monthly). South Korea imports ~70% of energy from the Gulf.",
+      "last_updated": "2026-03-29",
+      "summary": "Critical endpoint of helium-semiconductor cascade. KOSPI -10.6% monthly \u2014 TRIPLE CASCADE: helium\u2192semiconductor fabs (~40%), Google TurboQuant\u2192memory demand (~25%), foreign capital flight (~35%). Foreigners dumped 51.4 trillion won ($37.8B) since February \u2014 largest since GFC. Samsung foreign ownership at 48.9% \u2014 lowest since October 2013 (12.5-year low). Won at 1,508/USD \u2014 weakest since March 2009 (17-year low). Helium inventory exhaustion ~8 days away (early April).",
       "current": {
         "price": "KOSPI: 5,438.87",
         "delta_1d": "-0.4%",
@@ -3611,6 +3707,16 @@ const GRAPH_DATA = {
             "yfinance",
             "Business Standard",
             "SemiAnalysis"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "KOSPI triple cascade confirmed: helium\u2192semiconductor fabs (~40% of -10.6% monthly decline, ~4.2%), Google TurboQuant AI memory compression (~25%, ~2.7%), foreign capital flight (~35%, ~3.7%). Foreigners dumped 51.4 trillion won ($37.8B) since February \u2014 largest outflow since Global Financial Crisis. Samsung foreign ownership hit 48.9% \u2014 lowest since October 2013 (12.5-year low). Won at 1,508/USD \u2014 weakest since March 2009 (17-year low). TrendForce's March 24 'two-week clock' on helium inventories means ~8 days remain before Asian chip fab inventories exhaust at full production rates. The helium cascade path (war\u2192Qatar\u2192helium\u2192semiconductors\u2192KOSPI) validated by 3 independent sources (TrendForce, Nikkei Asia, Korea International Trade Association). (Sources: yfinance, TrendForce, Korea International Trade Association)",
+          "sources": [
+            "yfinance",
+            "TrendForce",
+            "Korea International Trade Association"
           ],
           "significance": "high"
         }
@@ -4421,35 +4527,35 @@ const GRAPH_DATA = {
         "to": "strait-of-hormuz",
         "weight": 9.9,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "brent-crude",
         "to": "india",
         "weight": 9.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "brent-crude",
         "to": "inr-usd",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "brent-crude",
         "to": "fed",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "brent-crude",
         "to": "sp-500",
         "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "brent-crude",
@@ -4470,7 +4576,7 @@ const GRAPH_DATA = {
         "to": "rbi",
         "weight": 8.0,
         "directness": 2,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "china",
@@ -4498,35 +4604,35 @@ const GRAPH_DATA = {
         "to": "us-10y-yield",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "fed",
         "to": "sp-500",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "fed",
         "to": "gold",
         "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "fed",
         "to": "brent-crude",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "fed",
         "to": "united-states",
         "weight": 7.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "fertilizer-urea",
@@ -4554,28 +4660,28 @@ const GRAPH_DATA = {
         "to": "fed",
         "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "gold",
         "to": "brent-crude",
         "weight": 5.5,
         "directness": 2,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "helium",
         "to": "qatar",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "helium",
         "to": "sp-500",
         "weight": 6.0,
         "directness": 2,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "hezbollah",
@@ -4631,35 +4737,35 @@ const GRAPH_DATA = {
         "to": "brent-crude",
         "weight": 9.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "india",
         "to": "inr-usd",
         "weight": 9.2,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "india",
         "to": "rbi",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "india",
         "to": "nifty-50",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "india",
         "to": "strait-of-hormuz",
         "weight": 9.2,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "india",
@@ -4680,35 +4786,35 @@ const GRAPH_DATA = {
         "to": "india",
         "weight": 9.2,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "inr-usd",
         "to": "brent-crude",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "inr-usd",
         "to": "rbi",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "inr-usd",
         "to": "nifty-50",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "iran",
         "to": "strait-of-hormuz",
         "weight": 9.8,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "iran",
@@ -4736,21 +4842,21 @@ const GRAPH_DATA = {
         "to": "uae",
         "weight": 9.2,
         "directness": 1,
-        "last_activated": "2026-03-17"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "iran",
         "to": "qatar",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-03-19"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "iran",
         "to": "brent-crude",
         "weight": 9.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "iran",
@@ -4813,28 +4919,28 @@ const GRAPH_DATA = {
         "to": "united-states",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "israel",
         "to": "lebanon",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "israel",
         "to": "hezbollah",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "kuwait",
         "to": "iran",
         "weight": 7.0,
         "directness": 1,
-        "last_activated": "2026-03-20"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "kuwait",
@@ -4848,14 +4954,14 @@ const GRAPH_DATA = {
         "to": "hezbollah",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "lebanon",
         "to": "israel",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "mojtaba-khamenei",
@@ -4876,14 +4982,14 @@ const GRAPH_DATA = {
         "to": "qatar",
         "weight": 9.5,
         "directness": 1,
-        "last_activated": "2026-03-19"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "natural-gas-lng",
         "to": "strait-of-hormuz",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-03-22"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "natural-gas-lng",
@@ -4911,28 +5017,28 @@ const GRAPH_DATA = {
         "to": "india",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "nifty-50",
         "to": "inr-usd",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "nifty-50",
         "to": "brent-crude",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "nifty-50",
         "to": "rbi",
         "weight": 7.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "opec-plus",
@@ -4988,28 +5094,28 @@ const GRAPH_DATA = {
         "to": "india",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "rbi",
         "to": "inr-usd",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "rbi",
         "to": "nifty-50",
         "weight": 7.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "rbi",
         "to": "brent-crude",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "russia",
@@ -5058,21 +5164,21 @@ const GRAPH_DATA = {
         "to": "iran",
         "weight": 7.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "shipping-tankers",
         "to": "strait-of-hormuz",
         "weight": 9.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "shipping-tankers",
         "to": "brent-crude",
         "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "shipping-tankers",
@@ -5086,49 +5192,49 @@ const GRAPH_DATA = {
         "to": "houthis",
         "weight": 5.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "sp-500",
         "to": "united-states",
         "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "sp-500",
         "to": "fed",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "sp-500",
         "to": "brent-crude",
         "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "sp-500",
         "to": "helium",
         "weight": 6.0,
         "directness": 2,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "strait-of-hormuz",
         "to": "iran",
         "weight": 9.8,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "strait-of-hormuz",
         "to": "brent-crude",
         "weight": 9.9,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "strait-of-hormuz",
@@ -5142,14 +5248,14 @@ const GRAPH_DATA = {
         "to": "shipping-tankers",
         "weight": 9.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "strait-of-hormuz",
         "to": "india",
         "weight": 9.2,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "strait-of-hormuz",
@@ -5191,7 +5297,7 @@ const GRAPH_DATA = {
         "to": "iran",
         "weight": 9.9,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "united-states",
@@ -5212,7 +5318,7 @@ const GRAPH_DATA = {
         "to": "brent-crude",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "united-states",
@@ -5226,42 +5332,42 @@ const GRAPH_DATA = {
         "to": "fed",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "us-10y-yield",
         "to": "sp-500",
         "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "us-10y-yield",
         "to": "nifty-50",
         "weight": 6.5,
         "directness": 2,
-        "last_activated": "2026-03-24"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "irgc",
         "to": "iran",
         "weight": 9.5,
         "directness": 1,
-        "last_activated": "2026-03-28"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "irgc",
         "to": "strait-of-hormuz",
         "weight": 9.8,
         "directness": 1,
-        "last_activated": "2026-03-28"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "irgc",
         "to": "houthis",
         "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-28"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "irgc",
@@ -5275,14 +5381,14 @@ const GRAPH_DATA = {
         "to": "brent-crude",
         "weight": 7.0,
         "directness": 1,
-        "last_activated": "2026-03-28"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "irgc",
         "to": "israel",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-03-28"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "south-korea",
@@ -5352,28 +5458,28 @@ const GRAPH_DATA = {
         "to": "qatar",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-28"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "european-ttf-gas",
         "to": "natural-gas-lng",
         "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-28"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "european-ttf-gas",
         "to": "fertilizer-urea",
         "weight": 7.0,
         "directness": 1,
-        "last_activated": "2026-03-28"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "european-ttf-gas",
         "to": "ecb",
         "weight": 6.5,
         "directness": 1,
-        "last_activated": "2026-03-28"
+        "last_activated": "2026-03-29"
       },
       {
         "from": "red-sea",
@@ -5472,14 +5578,21 @@ const GRAPH_DATA = {
         "weight": 5.5,
         "directness": 2,
         "last_activated": "2026-03-28"
+      },
+      {
+        "from": "helium",
+        "to": "south-korea",
+        "weight": 6.0,
+        "directness": 3,
+        "last_activated": "2026-03-29"
       }
     ]
   },
   "meta": {
     "last_updated": "2026-03-29",
     "total_nodes": 40,
-    "total_edges": 155,
-    "briefs_generated": 4,
+    "total_edges": 154,
+    "briefs_generated": 5,
     "node_types": {
       "country": 15,
       "commodity": 6,
