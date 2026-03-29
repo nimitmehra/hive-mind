@@ -751,8 +751,8 @@ const GRAPH_DATA = {
       "name": "Federal Reserve",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-03-23",
-      "summary": "Held rates at 3.50-3.75%. Indicated no cuts until inflation eases. Market pricing in possible HIKE \u2014 complete reversal from rate cut expectations. Oil-driven inflation + war spending fiscal pressure.",
+      "last_updated": "2026-03-29",
+      "summary": "Trapped in stagflation \u2014 oil inflation ($112/bbl) too hot to cut, war-driven economic weakness too fragile to hike. $200B Pentagon supplemental request compounds fiscal concerns. All three major central banks (Fed, ECB, RBI) frozen simultaneously = global monetary policy paralysis. Rates held at 3.50-3.75%. Section 122 tariffs adding 0.5-0.6% to price level.",
       "signals": [
         {
           "date": "2026-03-18",
@@ -768,6 +768,16 @@ const GRAPH_DATA = {
           "sources": [
             "Bloomberg",
             "CNBC"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "Fed remains trapped \u2014 10Y at 4.44%, oil at $112.57, VIX at 31.05. Can't cut (inflation), can't hike (growth risk). ECB froze rate cuts March 19. RBI holding at 5.25%. All three major central banks on hold = global monetary policy paralysis. $200B Pentagon supplemental adds fiscal pressure. Section 122 tariffs adding 0.5-0.6% to price level (Yale Budget Lab). Vance: war will continue 'a little while longer' \u2014 no near-term resolution to Fed's trap.",
+          "sources": [
+            "yfinance",
+            "Yale Budget Lab",
+            "ECB"
           ],
           "significance": "high"
         }
@@ -840,7 +850,7 @@ const GRAPH_DATA = {
       "name": "Fertilizer / Urea",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-03-24",
+      "last_updated": "2026-03-29",
       "summary": "QAFCO's entire downstream complex offline \u2014 urea, methanol, polymers, aluminum (not just LNG). 43% of global seaborne urea exports now disrupted. US retail urea at $674/ton (+12% MoM). India quietly approaching China for emergency urea while publicly denying shortage. Kharif 2026 planting season at risk.",
       "current": {
         "price": "~$674/ton (US retail), ~$550/ton (NOLA barge)",
@@ -879,6 +889,16 @@ const GRAPH_DATA = {
             "Outlook Business",
             "BigStory Network",
             "Al Jazeera"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "Urea at ~$640/mt (+12% MoM). India approaching China for emergency urea supply while publicly denying shortage. Domestic fertilizer plants at 70% capacity due to LNG feedstock cuts from Qatar disruption. European TTF surge (+70% in March to \u20ac54.52/MWh) directly increases fertilizer production costs globally \u2014 natural gas is primary feedstock for nitrogen-based fertilizers. Connected to food security cascade for India: Kharif 2026 planting season at risk if supply doesn't normalize.",
+          "sources": [
+            "ChemAnalyst",
+            "OilPriceAPI",
+            "BigStory Network"
           ],
           "significance": "high"
         }
@@ -1705,13 +1725,14 @@ const GRAPH_DATA = {
       "name": "INR/USD Exchange Rate",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-03-28",
+      "last_updated": "2026-03-29",
       "summary": "Indian rupee at record lows. Hit \u20b993.797/USD on Mar 20. RBI sold $15B+ in March to defend. Goldman Sachs forecast \u20b995. Driven by oil import bill ballooning, FII outflows, and dollar strength.",
       "current": {
         "price": "94.31",
         "delta_1d": "-0.4%",
         "delta_1m": "+3.7%",
-        "delta_3m": "+5.0%"
+        "delta_3m": "+5.0%",
+        "snapshot_note": "yfinance Mar 28; RBI close Mar 27 at 94.81. \u20b995 trigger 20 paisa away."
       },
       "price_snapshots": [
         {
@@ -2507,7 +2528,7 @@ const GRAPH_DATA = {
       "name": "Kuwait",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-23",
+      "last_updated": "2026-03-29",
       "summary": "Ali Al Salem Air Base and US Embassy targeted by Iran. 8 killed (4 soldiers, 4 civilians). Refineries struck Mar 20. Hosts US military assets.",
       "signals": [
         {
@@ -2524,6 +2545,16 @@ const GRAPH_DATA = {
           "content": "Drones struck two Kuwaiti refineries, contributing to oil price spike above $112/bbl.",
           "sources": [
             "CNBC"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "Air raid sirens activated across Kuwait early Sunday March 29. Kuwait Defense Ministry described 'hostile missile and drone attacks.' Simultaneous sirens across Kuwait, Bahrain, and Israel \u2014 broadest regional bombardment pattern of the conflict. Iran hitting three countries simultaneously, consistent with CSIS assessment that Iran has abandoned calibrated retaliation for 'unbridled escalation.'",
+          "sources": [
+            "Middle East Eye",
+            "Kuwait Defense Ministry",
+            "CNN"
           ],
           "significance": "high"
         }
@@ -2685,14 +2716,14 @@ const GRAPH_DATA = {
       "name": "Natural Gas / LNG",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-03-23",
-      "summary": "European TTF gas doubled since pre-war. Qatar halted Ras Laffan LNG (20% of global supply). 17% of Qatar LNG capacity destroyed for 5 years. US Henry Hub insulated ($3.07) but European/Asian prices at highest since 2022. Structural supply loss.",
+      "last_updated": "2026-03-29",
+      "summary": "European TTF at \u20ac54.52/MWh (+70% in March alone). Qatar's Ras Laffan 17% capacity destroyed (5-year repair). European gas storage at 30% (historically low). Emergency energy measures in 4 European countries (Spain VAT cut, Italy \u20ac100M allocation, Slovakia/Slovenia pump rationing). ECB froze rate cuts. If blockade persists through summer refill (May-Oct), \u20ac80-100/MWh realistic. US Henry Hub insulated ($3.10).",
       "current": {
-        "price": "TTF ~\u20ac46/MWh",
-        "delta_1d": "+5%",
-        "delta_1m": "+100%",
-        "delta_3m": "+80%",
-        "snapshot_note": "European TTF as of Mar 19"
+        "price": "TTF \u20ac54.52/MWh",
+        "delta_1d": "~+2%",
+        "delta_1m": "+70%",
+        "delta_3m": "+140%+",
+        "snapshot_note": "European TTF as of Mar 28 close"
       },
       "price_snapshots": [
         {
@@ -2731,6 +2762,18 @@ const GRAPH_DATA = {
             "Bloomberg",
             "CNBC",
             "QatarEnergy official"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "European TTF surged 70% in March to \u20ac54.52/MWh \u2014 worst monthly gain since Sep 2021. Driven by Qatar Ras Laffan destruction (17% capacity, 5-year repair) + Hormuz blocking LNG tankers. European storage at 30% (historically low after harsh winter). Emergency measures in 4 European countries: Spain cut VAT from 21% to 10% on energy, Italy allocated \u20ac100M support, Slovakia and Slovenia introduced pump rationing. ECB froze rate cuts March 19 and raised inflation forecast. Atlantic Council: crisis 'could trigger European energy crisis' at 2022 levels. If blockade persists through summer refill season (May-Oct), \u20ac80-100/MWh realistic \u2014 industrial shutdowns begin at that level.",
+          "sources": [
+            "OilPriceAPI",
+            "Euronews",
+            "Atlantic Council",
+            "Bloomberg",
+            "ECB"
           ],
           "significance": "high"
         }
@@ -2800,13 +2843,14 @@ const GRAPH_DATA = {
       "name": "Nifty 50",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-03-28",
+      "last_updated": "2026-03-29",
       "summary": "India's benchmark index. Bounced +1.8% to 22,912 from April 2025 lows. FPIs sold \u20b982,700 crore in March \u2014 largest monthly outflow since Oct 2024. DII/SIP flows providing partial cushion. Oil, rupee, and FII outflows driving structural weakness.",
       "current": {
         "price": "22,819.60",
         "delta_1d": "-2.1%",
         "delta_1m": "-10.2%",
-        "delta_3m": "-12.0%"
+        "delta_3m": "-12.0%",
+        "snapshot_note": "Mar 28 close \u2014 Indian markets closed Saturday Mar 29"
       },
       "price_snapshots": [
         {
@@ -2985,7 +3029,7 @@ const GRAPH_DATA = {
       "name": "Qatar",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-23",
+      "last_updated": "2026-03-29",
       "summary": "Ras Laffan LNG facility hit by Iranian missiles (Mar 18-19). 17% of LNG export capacity destroyed. $20B annual revenue loss. 5-year repair. World's helium supply threatened (30% from Qatar). Expelled Iranian attach\u00e9s. Traditional mediator role undermined.",
       "signals": [
         {
@@ -3015,6 +3059,17 @@ const GRAPH_DATA = {
             "Al Jazeera",
             "Fortune",
             "CNBC"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "IRGC threatened US university campuses in Gulf on March 29, specifically naming Texas A&M University in Qatar. Deadline: Monday March 30 noon Tehran time. Demanded US condemn bombing of two Iranian universities or face retaliation against US educational institutions. Warned employees, professors, and students to stay 1km from campuses. Separately, helium supply still offline \u2014 chip fabs on 8-day countdown (early April crunch per TrendForce).",
+          "sources": [
+            "Times of Israel",
+            "Manila Times",
+            "TrendForce",
+            "Iran International"
           ],
           "significance": "high"
         }
@@ -3076,7 +3131,7 @@ const GRAPH_DATA = {
       "name": "Reserve Bank of India",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-03-28",
+      "last_updated": "2026-03-29",
       "summary": "Fighting on multiple fronts: defending rupee (sold $15B+ in March), supporting bond market (buying \u20b91T bonds), managing inflation expectations. Trapped between inflation (oil\u2192can't cut rates) and growth (needs to cut). Reserves declining.",
       "signals": [
         {
@@ -3404,8 +3459,8 @@ const GRAPH_DATA = {
       "name": "Shipping / Tanker Rates",
       "type": "sector",
       "created": "2026-03-23",
-      "last_updated": "2026-03-24",
-      "summary": "VLCC rates at all-time records: $423K/day Baltic Exchange, $770K/day peak (Kalamos). Marine war risk insurance +1,000% \u2014 premiums at $7.5M per trip. US created $20B maritime reinsurance facility. Only 21 tankers through Hormuz since Feb 28. Iran operating selective blockade \u2014 allowing some Indian, Chinese, Japanese ships.",
+      "last_updated": "2026-03-29",
+      "summary": "VLCC rates at 50-year all-time highs ($401K-$445K/day Baltic Exchange, some fixtures $538K-$770K/day). War risk insurance 1-7.5% of hull value ($2-15M extra per transit), up from 0.25% pre-war \u2014 some insurers suspended entirely. Market bifurcated: Western operators locked out by insurance, IRGC-tolled yuan passages serve Chinese/non-Western vessels. Frontline barely moved (+0.2%) despite record rates. US created $20B maritime reinsurance facility.",
       "signals": [
         {
           "date": "2026-03-03",
@@ -3456,6 +3511,19 @@ const GRAPH_DATA = {
             "CNBC",
             "Al Jazeera",
             "yfinance"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "VLCC rates at 50-year all-time highs: $401K-$445K/day on Baltic Exchange (TD3C), with some fixtures at $538K-$770K/day. War risk insurance at 1-7.5% of hull value ($2-15M extra per VLCC transit), up from 0.25% pre-war. Some insurers suspended Gulf coverage entirely. Market bifurcated: Western operators (Frontline +0.2% despite record rates) locked out by insurance costs, while IRGC-tolled yuan passages serve Chinese/non-Western vessels at $2M/transit. Container freight: ~$2,200/FEU global, $4,000+ Shanghai-Dubai (+110%). Emergency surcharges on Gulf routes.",
+          "sources": [
+            "Baltic Exchange",
+            "Seatrade Maritime",
+            "Lloyd's List",
+            "S&P Global",
+            "Caixin",
+            "Freightos"
           ],
           "significance": "high"
         }
@@ -3595,13 +3663,13 @@ const GRAPH_DATA = {
       "name": "S&P 500",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-03-23",
-      "summary": "Down 6.77% from January peak. Four consecutive weekly losses. Capital rotating from tech into defense and energy stocks. Fed can't cut rates due to oil-driven inflation. Market in correction territory.",
+      "last_updated": "2026-03-29",
+      "summary": "At 6,369 (-7.8% monthly). VIX crossed 30 (31.05) \u2014 risk-off regime triggering institutional algo selling and portfolio de-risking. ~55% crisis-driven, ~30% tariff-driven (Section 122 tariffs 10-15% global), ~15% other. Fed trapped by oil-driven inflation. Capital rotating from tech into defense and energy.",
       "current": {
-        "price": "6,605",
-        "delta_1d": "+2.2%",
-        "delta_1m": "-4.4%",
-        "delta_3m": "-4.4%"
+        "price": "6,368.85",
+        "delta_1d": "-1.7%",
+        "delta_1m": "-7.8%",
+        "delta_3m": "-7.8%"
       },
       "signals": [
         {
@@ -3629,6 +3697,15 @@ const GRAPH_DATA = {
           "sources": [
             "24/7 Wall Street",
             "Trading Economics"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "S&P 500 at 6,369 (-7.8% monthly, -1.7% daily). VIX surged 13.2% to 31.05 \u2014 crossing 30 triggers institutional risk-off (algo selling, portfolio de-risking). Breakdown: ~55% crisis-driven (Houthi entry, Saudi base attack, Tel Aviv strike, regional bombardment), ~30% tariff-driven (Section 122 tariffs 10-15% global, Yale Budget Lab: +0.5-0.6% price level, +0.3pp unemployment), ~15% other. VIX above 30 creates self-reinforcing cycle: VIX up \u2192 algos sell equities \u2192 equities drop \u2192 VIX higher.",
+          "sources": [
+            "yfinance",
+            "Yale Budget Lab"
           ],
           "significance": "high"
         }
@@ -3936,7 +4013,7 @@ const GRAPH_DATA = {
       "name": "United Arab Emirates",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-23",
+      "last_updated": "2026-03-29",
       "summary": "Primary target of Iranian retaliation. 314 ballistic missiles, 1,672 drones, 15 cruise missiles fired at UAE. ADNOC Ruwais refinery (922K bpd) shut down. Dubai airport, US Consulate, Shah gas field, Fujairah port all struck. 8 killed, 157 injured. Activated Fujairah pipeline bypass.",
       "signals": [
         {
@@ -3965,6 +4042,16 @@ const GRAPH_DATA = {
             "Bloomberg",
             "CNBC",
             "US News"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "IRGC threatened US university campuses in Gulf on March 29, specifically naming NYU Abu Dhabi. Deadline: Monday March 30 noon Tehran time. Demanded US condemn bombing of Iranian universities or face retaliation against US educational institutions in Gulf. Warned employees, professors, and students to stay 1km from campuses. Represents new category of targeting \u2014 civilian educational infrastructure.",
+          "sources": [
+            "Times of Israel",
+            "Manila Times",
+            "Iran International"
           ],
           "significance": "high"
         }
@@ -4230,14 +4317,14 @@ const GRAPH_DATA = {
       "name": "US 10-Year Treasury Yield",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-03-23",
-      "summary": "At 4.37%, highest since July 2025. Three straight weeks of bond losses. Oil-driven inflation fears killed rate cut expectations. Market now pricing possible Fed HIKE. Global bond selloff.",
+      "last_updated": "2026-03-29",
+      "summary": "At 4.44% (+10.5% monthly). Stagflation signal \u2014 oil inflation prevents Fed cuts, war recession prevents hikes. 2Y at 3.61% = positive 83bps slope (normal) but both elevated. Oil-driven inflation expectations rising (~40bps in March). All three major central banks (Fed, ECB, RBI) on hold simultaneously.",
       "current": {
-        "price": "4.37%",
-        "delta_1d": "+10bps",
-        "delta_1m": "+45bps",
-        "delta_3m": "+30bps",
-        "snapshot_note": "As of Mar 22"
+        "price": "4.44%",
+        "delta_1d": "+0.5%",
+        "delta_1m": "+10.5%",
+        "delta_3m": "+7.9%",
+        "snapshot_note": "As of Mar 28 close"
       },
       "signals": [
         {
@@ -4254,6 +4341,16 @@ const GRAPH_DATA = {
           "sources": [
             "Bloomberg",
             "CNBC"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "US 10Y at 4.44% (+10.5% monthly). Oil-driven inflation expectations rising (~40bps in March). Fed trapped in stagflation \u2014 can't cut (inflation), can't hike (growth risk). 2Y at 3.61% = 83bps positive slope, but both elevated = stagflation pricing. India 10Y at 6.93% (+6bps) reflecting parallel pressure. ECB froze rate cuts March 19. All three major central banks (Fed, ECB, RBI) on hold simultaneously \u2014 global monetary policy paralysis.",
+          "sources": [
+            "yfinance",
+            "TradingEconomics",
+            "ECB"
           ],
           "significance": "high"
         }

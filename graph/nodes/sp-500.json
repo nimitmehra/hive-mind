@@ -3,13 +3,13 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-03-23",
-  "summary": "Down 6.77% from January peak. Four consecutive weekly losses. Capital rotating from tech into defense and energy stocks. Fed can't cut rates due to oil-driven inflation. Market in correction territory.",
+  "last_updated": "2026-03-29",
+  "summary": "At 6,369 (-7.8% monthly). VIX crossed 30 (31.05) — risk-off regime triggering institutional algo selling and portfolio de-risking. ~55% crisis-driven, ~30% tariff-driven (Section 122 tariffs 10-15% global), ~15% other. Fed trapped by oil-driven inflation. Capital rotating from tech into defense and energy.",
   "current": {
-    "price": "6,605",
-    "delta_1d": "+2.2%",
-    "delta_1m": "-4.4%",
-    "delta_3m": "-4.4%"
+    "price": "6,368.85",
+    "delta_1d": "-1.7%",
+    "delta_1m": "-7.8%",
+    "delta_3m": "-7.8%"
   },
   "signals": [
     {
@@ -37,6 +37,15 @@
       "sources": [
         "24/7 Wall Street",
         "Trading Economics"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-29",
+      "content": "S&P 500 at 6,369 (-7.8% monthly, -1.7% daily). VIX surged 13.2% to 31.05 — crossing 30 triggers institutional risk-off (algo selling, portfolio de-risking). Breakdown: ~55% crisis-driven (Houthi entry, Saudi base attack, Tel Aviv strike, regional bombardment), ~30% tariff-driven (Section 122 tariffs 10-15% global, Yale Budget Lab: +0.5-0.6% price level, +0.3pp unemployment), ~15% other. VIX above 30 creates self-reinforcing cycle: VIX up → algos sell equities → equities drop → VIX higher.",
+      "sources": [
+        "yfinance",
+        "Yale Budget Lab"
       ],
       "significance": "high"
     }
