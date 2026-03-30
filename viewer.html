@@ -3259,6 +3259,101 @@ const GRAPH_DATA = {
       ],
       "trigger_points": []
     },
+    "pakistan": {
+      "id": "pakistan",
+      "name": "Pakistan",
+      "type": "country",
+      "created": "2026-03-30",
+      "last_updated": "2026-03-30",
+      "summary": "Emerged as key mediator in the Iran war. Hosted Islamabad quadrilateral meeting (March 29-30) with Saudi Arabia, Turkey, Egypt FMs. Offered to host direct US-Iran talks 'in coming days.' FM Ishaq Dar publicly confirmed Pakistan relaying messages between US and Iran. Pakistan is the ONLY confirmed intermediary channel both sides acknowledge exists.",
+      "signals": [
+        {
+          "date": "2026-03-26",
+          "content": "Pakistan FM Ishaq Dar publicly confirmed 'US-Iran indirect talks are taking place through messages being relayed by Pakistan' \u2014 first third-party validation of a communication channel. Turkey and Egypt also helping relay messages. (Sources: NPR, OPB, CNBC)",
+          "sources": [
+            "NPR",
+            "OPB",
+            "CNBC"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "Pakistan hosted Islamabad quadrilateral meeting \u2014 FMs from Saudi Arabia (Prince Faisal bin Farhan), Turkey (Hakan Fidan), Egypt (Badr Abdelatti) met in Islamabad. Turkish FM Fidan sought to 'establish a mechanism aimed at de-escalation.' No joint statement issued. Talks continued March 30. (Sources: Bloomberg, NPR, Al Jazeera, Business Standard, Egyptian Streets)",
+          "sources": [
+            "Bloomberg",
+            "NPR",
+            "Al Jazeera",
+            "Business Standard",
+            "Egyptian Streets"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "Pakistan offered to host direct US-Iran talks 'in coming days' \u2014 elevating from bilateral message relay to hosting venue for potential face-to-face negotiations. The quad exchanged 'assessments on dire economic repercussions' including supply chains, food security, energy security. Pakistan positioned as neutral mediator \u2014 maintains relations with both Iran (shared border, Balochistan) and US (military/intelligence cooperation). (Sources: Bloomberg, NPR, Time, Al Jazeera)",
+          "sources": [
+            "Bloomberg",
+            "NPR",
+            "Time",
+            "Al Jazeera"
+          ],
+          "significance": "high"
+        }
+      ],
+      "edges": [
+        {
+          "to": "iran",
+          "type": "mediation_channel",
+          "context": "Pakistan is the confirmed message relay between US and Iran. Only intermediary both sides acknowledge. Offered to host direct talks.",
+          "directness": 1,
+          "last_activated": "2026-03-30",
+          "activation_count": 5,
+          "weight": 7.5
+        },
+        {
+          "to": "united-states",
+          "type": "mediation_channel",
+          "context": "Pakistan relaying US messages to Iran. Offered to host US-Iran talks. US envoy Witkoff presented 15-point plan via Pakistan.",
+          "directness": 1,
+          "last_activated": "2026-03-30",
+          "activation_count": 5,
+          "weight": 7.0
+        },
+        {
+          "to": "saudi-arabia",
+          "type": "diplomatic_coordination",
+          "context": "Saudi FM attended Islamabad quad. Saudi-Pakistan coordination on de-escalation. Both directly affected by Iranian strikes.",
+          "directness": 1,
+          "last_activated": "2026-03-30",
+          "activation_count": 2,
+          "weight": 5.0
+        },
+        {
+          "to": "brent-crude",
+          "type": "diplomatic_impact",
+          "context": "Pakistan's mediation directly affects oil prices \u2014 the Islamabad quad + hosting offer contributed to Brent's -4.3% pullback on March 30.",
+          "directness": 2,
+          "last_activated": "2026-03-30",
+          "activation_count": 2,
+          "weight": 5.0
+        }
+      ],
+      "trigger_points": [
+        {
+          "condition": "Pakistan hosts direct US-Iran face-to-face talks",
+          "cascade": [
+            "brent-crude",
+            "strait-of-hormuz",
+            "nifty-50",
+            "india"
+          ],
+          "mechanism": "Direct talks would be the biggest de-escalation signal of the war. Oil could drop 10-15% in a session. Rupee rally. Nifty surge. But talks \u2260 deal \u2014 the gap between positions remains enormous.",
+          "added": "2026-03-30",
+          "status": "watching"
+        }
+      ]
+    },
     "qatar": {
       "id": "qatar",
       "name": "Qatar",
@@ -4293,6 +4388,148 @@ const GRAPH_DATA = {
           ],
           "mechanism": "TSMC producing 90% of advanced chips means any production cut cascades immediately to every tech company worldwide. This would shift the crisis from 'energy shock' to 'tech supply crisis.'",
           "added": "2026-03-28",
+          "status": "watching"
+        }
+      ]
+    },
+    "trump": {
+      "id": "trump",
+      "name": "Donald Trump",
+      "type": "person",
+      "created": "2026-03-30",
+      "last_updated": "2026-03-30",
+      "summary": "US President. Personal statements move markets independently of institutional US policy. Claimed Iran 'agreed to most of' 15-point demands (March 29) \u2014 caused Brent -4.3%. Extended energy strike pause to April 6. Called NATO 'cowards.' Considering Kharg Island seizure. His statements often contradict Pentagon/State \u2014 the gap between Trump's claims and institutional US positions is itself intelligence.",
+      "signals": [
+        {
+          "date": "2026-03-22",
+          "content": "Issued 48-hour ultimatum demanding Iran reopen Hormuz or face strikes on power grid. Deadline passed without action \u2014 constraint signal. (Sources: Al Jazeera, NBC, CNN)",
+          "sources": [
+            "Al Jazeera",
+            "NBC News",
+            "CNN"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-23",
+          "content": "Posted on Truth Social claiming 'productive conversations' with Iran and announced 5-day strike pause. Iran denied all talks. Brent crashed 8.4% to $102.73 \u2014 biggest single-day drop of the war. (Sources: Bloomberg, Fox, CNN, CNBC)",
+          "sources": [
+            "Bloomberg",
+            "Fox News",
+            "CNN",
+            "CNBC"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-24",
+          "content": "Claimed 15 points of agreement with Iran including 'never have a nuclear weapon,' with April 9 target date. Jared Kushner and Steve Witkoff leading negotiations. Iran categorically denied. (Sources: NBC, Al Jazeera, WaPo, Bloomberg)",
+          "sources": [
+            "NBC News",
+            "Al Jazeera",
+            "Washington Post",
+            "Bloomberg"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-26",
+          "content": "Extended energy strike pause to April 6, claiming 'as per Iranian government request.' Iran denied making any request. Pakistan FM confirmed message relay exists. (Sources: CNBC, Axios, NPR, Al Jazeera)",
+          "sources": [
+            "CNBC",
+            "Axios",
+            "NPR",
+            "Al Jazeera"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-28",
+          "content": "VP Vance said war will continue 'a little while longer' to ensure Iran 'neutered for a very long time.' Called gas prices 'temporary.' Vance had 'tense call' with Netanyahu about 'overselling regime change.' Trump called NATO 'cowards' and 'paper tiger' at Saudi FII conference. (Sources: Times of Israel, Bloomberg, WaPo, NPR)",
+          "sources": [
+            "Times of Israel",
+            "Bloomberg",
+            "Washington Post",
+            "NPR"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-29",
+          "content": "Told reporters on Air Force One that Iran agreed to 'most of' the 15-point demands: 'They gave us most of the points. Why wouldn't they?' Iran has NOT confirmed. Brent dropped 4.3% to $107.71 on Monday on this claim. Told FT: 'Maybe we take Kharg Island, maybe we don't. We have a lot of options.' Pentagon simultaneously preparing ground operations. The contradiction \u2014 diplomacy claims + invasion prep \u2014 is either maximum pressure negotiation or policy incoherence. (Sources: CNN, Time, Political Wire, FT, Al Jazeera)",
+          "sources": [
+            "CNN",
+            "Time",
+            "Political Wire",
+            "Financial Times",
+            "Al Jazeera"
+          ],
+          "significance": "high"
+        }
+      ],
+      "edges": [
+        {
+          "to": "brent-crude",
+          "type": "market_mover",
+          "context": "Trump's personal statements directly move oil prices. 'Productive conversations' \u2192 Brent -8.4%. 'Agreed to most' \u2192 Brent -4.3%. His rhetoric has caused the two largest single-session oil drops of the war.",
+          "directness": 1,
+          "last_activated": "2026-03-30",
+          "activation_count": 5,
+          "weight": 8.5
+        },
+        {
+          "to": "iran",
+          "type": "adversary_negotiator",
+          "context": "Leading US side of indirect negotiations via Pakistan. Claims progress Iran publicly denies. Extended strike pauses. The gap between his claims and Iran's denials is the diplomatic space.",
+          "directness": 1,
+          "last_activated": "2026-03-30",
+          "activation_count": 8,
+          "weight": 8.0
+        },
+        {
+          "to": "united-states",
+          "type": "commander_in_chief",
+          "context": "President. But his statements often contradict Pentagon (ground ops prep vs diplomacy claims) and diverge from Vance (regime change expectations). The institutional US and Trump-the-person are not always aligned.",
+          "directness": 1,
+          "last_activated": "2026-03-30",
+          "activation_count": 10,
+          "weight": 9.0
+        },
+        {
+          "to": "strait-of-hormuz",
+          "type": "policy_lever",
+          "context": "Extended strike pause \u2192 affects Hormuz dynamics. Considering Kharg Island seizure \u2192 direct Hormuz military escalation. NATO criticism \u2192 no European naval escort support.",
+          "directness": 1,
+          "last_activated": "2026-03-30",
+          "activation_count": 4,
+          "weight": 7.0
+        }
+      ],
+      "trigger_points": [
+        {
+          "condition": "Trump orders Kharg Island ground operation",
+          "cascade": [
+            "brent-crude",
+            "strait-of-hormuz",
+            "iran",
+            "sp-500"
+          ],
+          "mechanism": "Ground troops on Iranian territory = massive escalation. Costs explode, casualties rise, Iran escalates retaliation. Oil spikes past $130. But Trump gets Kharg = 90% of Iran's oil exports under US control.",
+          "added": "2026-03-30",
+          "status": "watching"
+        },
+        {
+          "condition": "Trump announces ceasefire deal",
+          "cascade": [
+            "brent-crude",
+            "strait-of-hormuz",
+            "nifty-50",
+            "india",
+            "inr-usd",
+            "gold"
+          ],
+          "mechanism": "Would crash oil toward $80-85, rupee rally, Nifty surge, gold drop. The single biggest potential catalyst for the investor's deployment window. But Trump has claimed 'progress' multiple times without delivery.",
+          "added": "2026-03-30",
           "status": "watching"
         }
       ]
@@ -5790,20 +6027,76 @@ const GRAPH_DATA = {
         "weight": 6.0,
         "directness": 3,
         "last_activated": "2026-03-29"
+      },
+      {
+        "from": "pakistan",
+        "to": "iran",
+        "weight": 7.5,
+        "directness": 1,
+        "last_activated": "2026-03-30"
+      },
+      {
+        "from": "pakistan",
+        "to": "united-states",
+        "weight": 7.0,
+        "directness": 1,
+        "last_activated": "2026-03-30"
+      },
+      {
+        "from": "pakistan",
+        "to": "saudi-arabia",
+        "weight": 5.0,
+        "directness": 1,
+        "last_activated": "2026-03-30"
+      },
+      {
+        "from": "pakistan",
+        "to": "brent-crude",
+        "weight": 5.0,
+        "directness": 2,
+        "last_activated": "2026-03-30"
+      },
+      {
+        "from": "trump",
+        "to": "brent-crude",
+        "weight": 8.5,
+        "directness": 1,
+        "last_activated": "2026-03-30"
+      },
+      {
+        "from": "trump",
+        "to": "iran",
+        "weight": 8.0,
+        "directness": 1,
+        "last_activated": "2026-03-30"
+      },
+      {
+        "from": "trump",
+        "to": "united-states",
+        "weight": 9.0,
+        "directness": 1,
+        "last_activated": "2026-03-30"
+      },
+      {
+        "from": "trump",
+        "to": "strait-of-hormuz",
+        "weight": 7.0,
+        "directness": 1,
+        "last_activated": "2026-03-30"
       }
     ]
   },
   "meta": {
     "last_updated": "2026-03-30",
-    "total_nodes": 40,
-    "total_edges": 154,
+    "total_nodes": 42,
+    "total_edges": 162,
     "briefs_generated": 6,
     "node_types": {
-      "country": 15,
+      "country": 16,
       "commodity": 6,
       "institution": 7,
       "index": 4,
-      "person": 1,
+      "person": 2,
       "sector": 5,
       "trade_route": 2
     },

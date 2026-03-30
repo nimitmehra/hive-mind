@@ -1,0 +1,75 @@
+{
+  "id": "pakistan",
+  "name": "Pakistan",
+  "type": "country",
+  "created": "2026-03-30",
+  "last_updated": "2026-03-30",
+  "summary": "Emerged as key mediator in the Iran war. Hosted Islamabad quadrilateral meeting (March 29-30) with Saudi Arabia, Turkey, Egypt FMs. Offered to host direct US-Iran talks 'in coming days.' FM Ishaq Dar publicly confirmed Pakistan relaying messages between US and Iran. Pakistan is the ONLY confirmed intermediary channel both sides acknowledge exists.",
+  "signals": [
+    {
+      "date": "2026-03-26",
+      "content": "Pakistan FM Ishaq Dar publicly confirmed 'US-Iran indirect talks are taking place through messages being relayed by Pakistan' — first third-party validation of a communication channel. Turkey and Egypt also helping relay messages. (Sources: NPR, OPB, CNBC)",
+      "sources": ["NPR", "OPB", "CNBC"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-29",
+      "content": "Pakistan hosted Islamabad quadrilateral meeting — FMs from Saudi Arabia (Prince Faisal bin Farhan), Turkey (Hakan Fidan), Egypt (Badr Abdelatti) met in Islamabad. Turkish FM Fidan sought to 'establish a mechanism aimed at de-escalation.' No joint statement issued. Talks continued March 30. (Sources: Bloomberg, NPR, Al Jazeera, Business Standard, Egyptian Streets)",
+      "sources": ["Bloomberg", "NPR", "Al Jazeera", "Business Standard", "Egyptian Streets"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-30",
+      "content": "Pakistan offered to host direct US-Iran talks 'in coming days' — elevating from bilateral message relay to hosting venue for potential face-to-face negotiations. The quad exchanged 'assessments on dire economic repercussions' including supply chains, food security, energy security. Pakistan positioned as neutral mediator — maintains relations with both Iran (shared border, Balochistan) and US (military/intelligence cooperation). (Sources: Bloomberg, NPR, Time, Al Jazeera)",
+      "sources": ["Bloomberg", "NPR", "Time", "Al Jazeera"],
+      "significance": "high"
+    }
+  ],
+  "edges": [
+    {
+      "to": "iran",
+      "type": "mediation_channel",
+      "context": "Pakistan is the confirmed message relay between US and Iran. Only intermediary both sides acknowledge. Offered to host direct talks.",
+      "directness": 1,
+      "last_activated": "2026-03-30",
+      "activation_count": 5,
+      "weight": 7.5
+    },
+    {
+      "to": "united-states",
+      "type": "mediation_channel",
+      "context": "Pakistan relaying US messages to Iran. Offered to host US-Iran talks. US envoy Witkoff presented 15-point plan via Pakistan.",
+      "directness": 1,
+      "last_activated": "2026-03-30",
+      "activation_count": 5,
+      "weight": 7.0
+    },
+    {
+      "to": "saudi-arabia",
+      "type": "diplomatic_coordination",
+      "context": "Saudi FM attended Islamabad quad. Saudi-Pakistan coordination on de-escalation. Both directly affected by Iranian strikes.",
+      "directness": 1,
+      "last_activated": "2026-03-30",
+      "activation_count": 2,
+      "weight": 5.0
+    },
+    {
+      "to": "brent-crude",
+      "type": "diplomatic_impact",
+      "context": "Pakistan's mediation directly affects oil prices — the Islamabad quad + hosting offer contributed to Brent's -4.3% pullback on March 30.",
+      "directness": 2,
+      "last_activated": "2026-03-30",
+      "activation_count": 2,
+      "weight": 5.0
+    }
+  ],
+  "trigger_points": [
+    {
+      "condition": "Pakistan hosts direct US-Iran face-to-face talks",
+      "cascade": ["brent-crude", "strait-of-hormuz", "nifty-50", "india"],
+      "mechanism": "Direct talks would be the biggest de-escalation signal of the war. Oil could drop 10-15% in a session. Rupee rally. Nifty surge. But talks ≠ deal — the gap between positions remains enormous.",
+      "added": "2026-03-30",
+      "status": "watching"
+    }
+  ]
+}
