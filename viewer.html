@@ -123,8 +123,8 @@ const GRAPH_DATA = {
       "name": "Bahrain",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-29",
-      "summary": "Hosts US Navy 5th Fleet HQ. Hit by Iranian strikes. Bapco declared force majeure. Air raid sirens activated across Bahrain early Sunday March 29 alongside Kuwait and Israel \u2014 broadest simultaneous regional bombardment of the conflict. Interior Ministry urged citizens to shelter.",
+      "last_updated": "2026-03-30",
+      "summary": "Hosts US Navy 5th Fleet HQ. Hit by Iranian strikes. Bapco declared force majeure. IRGC struck ALBA aluminum plant (world's largest smelter) \u2014 2 mildly injured, damage assessed. 20 missiles and 23 UAVs intercepted March 28. ALBA already shut 3 of 6 smelting lines (19% capacity) due to Hormuz disruption. New targeting category: industrial infrastructure with alleged US military supply chain links.",
       "signals": [
         {
           "date": "2026-02-28",
@@ -151,6 +151,18 @@ const GRAPH_DATA = {
             "Middle East Eye",
             "Bahrain Interior Ministry",
             "CNN"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "IRGC struck ALBA aluminum plant (world's largest smelter) \u2014 2 mildly injured, damage assessed. 20 missiles and 23 UAVs intercepted March 28, with damage to Bapco energy facilities. ALBA already shut 3 of 6 smelting lines (19% capacity) due to Hormuz disruption. New targeting category: industrial infrastructure with alleged US military supply chain links. (Sources: CNBC, JPost, The National, Al Arabiya, Al Jazeera)",
+          "sources": [
+            "CNBC",
+            "Jerusalem Post",
+            "The National",
+            "Al Arabiya",
+            "Al Jazeera"
           ],
           "significance": "high"
         }
@@ -182,13 +194,13 @@ const GRAPH_DATA = {
       "name": "Brent Crude",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-03-29",
-      "summary": "Global oil benchmark. Surged from ~$70/bbl pre-war to $119/bbl peak. Now at $112.57 after surging on Iran ceasefire rejection, Tangsiri assassination, IRGC toll booth formalization, and Houthi war entry. Day 21+ above $100. Goldman estimates $14-18/bbl geopolitical risk premium. Houthi entry makes double-chokepoint scenario one Red Sea attack away from reality.",
+      "last_updated": "2026-03-30",
+      "summary": "Global oil benchmark. Surged from ~$70/bbl pre-war to $119/bbl peak. Pulled back to $107.71 (-4.3%) \u2014 first major decline since war began, driven by Trump claim Iran 'agreed to most of' 15-point demands, Islamabad quad offering to host US-Iran talks, and profit-taking near $119 peak. Pullback built on CLAIMS, not confirmed de-escalation. Pentagon simultaneously preparing Kharg Island ground ops. Day 23+ above $100. Goldman estimates $14-18/bbl geopolitical risk premium.",
       "current": {
-        "price": "$112.57/bbl",
-        "delta_1d": "+4.2%",
-        "delta_1m": "+59.1%",
-        "delta_3m": "+81.7%"
+        "price": "$107.71/bbl",
+        "delta_1d": "-4.3%",
+        "delta_1m": "+53.9%",
+        "delta_3m": "+73.9%"
       },
       "price_snapshots": [
         {
@@ -238,6 +250,12 @@ const GRAPH_DATA = {
           "price": "$112.57/bbl",
           "trigger": "Houthi war entry + Tangsiri assassination + toll booth + ceasefire rejection",
           "delta_context": "Surged from $103.56 (Mar 24) to $112.57. Day 21+ above $100. Goldman estimates $14-18/bbl risk premium."
+        },
+        {
+          "date": "2026-03-30",
+          "price": "$107.71/bbl",
+          "trigger": "First major pullback \u2014 Trump diplomacy claims + profit-taking",
+          "delta_context": "Dropped 4.3% from $112.57. First significant decline since war began. Built on claims not confirmed de-escalation. Pentagon preparing ground ops simultaneously."
         }
       ],
       "signals": [
@@ -306,6 +324,17 @@ const GRAPH_DATA = {
             "yfinance",
             "Goldman Sachs via Fortune",
             "CNBC"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "Brent pulled back 4.3% to $107.71 \u2014 first major decline since war began. Driven by: (1) Trump claim Iran 'agreed to most of' 15-point demands, (2) Islamabad quad with Pakistan offering to host US-Iran talks, (3) profit-taking near $119 peak. Pullback is built on CLAIMS, not confirmed de-escalation. Pentagon simultaneously preparing Kharg Island ground ops. If Iran denies or ground ops proceed, pullback reverses. (Sources: Investing.com, CNN, Bloomberg, NPR)",
+          "sources": [
+            "Investing.com",
+            "CNN",
+            "Bloomberg",
+            "NPR"
           ],
           "significance": "high"
         }
@@ -959,13 +988,13 @@ const GRAPH_DATA = {
       "name": "Gold",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-03-29",
-      "summary": "POTENTIAL REGIME SHIFT: Gold surged 2.7% to $4,492 on March 28 after falling 17% from January highs. The reversal alongside rising oil (+4.2%) and falling equities (-2%) signals potential shift from 'inflation event' regime (oil up, gold down) to 'systemic crisis' regime (both up). If gold sustains above $4,600, regime shift confirmed. JP Morgan targets $6,300 year-end.",
+      "last_updated": "2026-03-30",
+      "summary": "POTENTIAL REGIME SHIFT \u2014 SESSION 2: Gold +0.6% to $4,518.70. Modest continuation of Friday's +2.7% reversal. Two consecutive up sessions after 43-year worst weekly rout is noteworthy but insufficient. Not yet at $4,600 threshold \u2014 need 3+ sessions above $4,600 to confirm regime shift from 'inflation event' to 'systemic crisis.' JP Morgan targets $6,300 year-end.",
       "current": {
-        "price": "$4,492/oz",
-        "delta_1d": "+2.7%",
-        "delta_1m": "-13.2%",
-        "delta_3m": "+3.9%"
+        "price": "$4,518.70/oz",
+        "delta_1d": "+0.6%",
+        "delta_1m": "-12.7%",
+        "delta_3m": "+4.5%"
       },
       "price_snapshots": [
         {
@@ -1040,6 +1069,15 @@ const GRAPH_DATA = {
             "Finance Magnates"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "Session #2 of regime shift test: gold +0.6% to $4,518.70. Modest continuation of Friday's +2.7% reversal. Not yet at $4,600 threshold. Need 3+ sessions above $4,600 to confirm regime shift. Two consecutive up sessions after 43-year worst weekly rout is noteworthy but insufficient.",
+          "sources": [
+            "yfinance",
+            "Investing.com"
+          ],
+          "significance": "medium"
         }
       ],
       "edges": [
@@ -1091,8 +1129,8 @@ const GRAPH_DATA = {
       "name": "Helium",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-03-29",
-      "summary": "CRITICAL CASCADE \u2014 CLOCK TICKING: Qatar's 30% of global helium offline since Ras Laffan strikes March 18-19. SK Hynix on 'two-week clock' from March 24 \u2014 now approximately 8 days from inventory exhaustion at full production rates. Spot prices up 40-100%. Samsung deploying HeRS recycling but insufficient. South Korea imported 64.7% of helium from Qatar. KOSPI -10.6% monthly on this cascade. Early April is the crunch point.",
+      "last_updated": "2026-03-30",
+      "summary": "CRITICAL CASCADE \u2014 DATA RECONCILIATION: Samsung reportedly maintains 'roughly six months' of helium stock (Korea Plus/Carra Globe), contradicting TrendForce's 'two-week clock' (March 24). Both can be true: Samsung = large buyer with strategic reserves + HeRS recycling; industry average and SK hynix = shorter runway. Samsung also exploring Russian helium supply. The 6-day countdown applies to INDUSTRY (especially SK hynix), not Samsung specifically. KOSPI -16.3% monthly.",
       "signals": [
         {
           "date": "2026-03-19",
@@ -1133,6 +1171,17 @@ const GRAPH_DATA = {
             "TrendForce",
             "yfinance",
             "Freightos FBX"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "DATA RECONCILIATION: Samsung reportedly maintains 'roughly six months' of helium stock (Korea Plus/Carra Globe), contradicting TrendForce's 'two-week clock' (March 24). Both can be true: Samsung = large buyer with strategic reserves + HeRS recycling. Industry average and SK hynix = shorter runway. Samsung also exploring Russian helium supply. The 6-day countdown applies to INDUSTRY (especially SK hynix), not Samsung specifically. (Sources: Korea Plus, Carra Globe, TrendForce, Tom's Hardware)",
+          "sources": [
+            "Korea Plus",
+            "Carra Globe",
+            "TrendForce",
+            "Tom's Hardware"
           ],
           "significance": "high"
         }
@@ -1426,8 +1475,8 @@ const GRAPH_DATA = {
       "name": "India",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-29",
-      "summary": "Most impacted Asian economy. RUPEE BREACHED \u20b995 (95.09 RBI close Mar 27) \u2014 trigger activated. RBI imposed emergency NOP-INR $100M hard cap. Forex reserves dropped to $698.35B (below $700B, down $30B in 3 weeks). FPIs pulled $11.5B in March (2026 outflows crossed \u20b91 trillion). Emergency fuel duty cuts costing $15-20B annually. Manufacturing PMI crashed to 53.8 (weakest since Sept 2021). Bernstein warns: Nifty below 20,000 and rupee beyond 110 if conflict persists.",
+      "last_updated": "2026-03-30",
+      "summary": "Most impacted Asian economy. Monday open: Nifty fell -0.9% to 22,612 despite rupee rally to 93.88 \u2014 market sees through mechanical NOP unwinding to underlying oil/FPI pressure. Banks pushing back on NOP compliance timeline \u2014 requesting 3 months vs April 10 deadline. Forex reserves at $698.35B (below $700B). FPIs pulled $11.5B in March. Emergency fuel duty cuts costing $15-20B annually. Bernstein warns: Nifty below 20,000 and rupee beyond 110 if conflict persists.",
       "signals": [
         {
           "date": "2026-03-02",
@@ -1539,6 +1588,15 @@ const GRAPH_DATA = {
             "RBI",
             "NSDL",
             "S&P Global"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "Monday open: Nifty fell -0.9% to 22,612 despite rupee rally \u2014 market sees through mechanical NOP unwinding to underlying oil/FPI pressure. Sensex -0.7% to 73,035. Rupee at \u20b993.88 (yfinance, Monday). Banks pushing back on NOP compliance timeline \u2014 requesting 3 months vs April 10 deadline. (Sources: yfinance, Business Standard)",
+          "sources": [
+            "yfinance",
+            "Business Standard"
           ],
           "significance": "high"
         }
@@ -1761,14 +1819,14 @@ const GRAPH_DATA = {
       "name": "INR/USD Exchange Rate",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-03-29",
-      "summary": "TRIGGER ACTIVATED: Rupee breached \u20b995/USD \u2014 RBI close at 95.09 on March 27 (confirmed by Business Standard, Bloomberg, The Week). Goldman's 95 forecast confirmed in 9 days. RBI imposed emergency NOP-INR $100M hard cap on all authorized dealer banks (March 28). Forex reserves below $700B ($698.35B as of March 20). Next question: does 95 hold or does 100 become the target?",
+      "last_updated": "2026-03-30",
+      "summary": "TRIGGER ACTIVE: Rupee rallied to 93.88 (yfinance Monday) on NOP cap forcing banks to sell dollars \u2014 MECHANICAL rally, not fundamental. RBI reference rate was 95.09 Friday; Monday RBI rate will be authoritative. NOP position size revised to $25-50B (Bloomberg). Trigger remains ACTIVE until RBI reference rate sustains below 95. Structural pressures (oil, FPI outflows, reserves) unchanged.",
       "current": {
-        "price": "95.09",
-        "delta_1d": "-0.4%",
-        "delta_1m": "+3.7%",
-        "delta_3m": "+5.0%+",
-        "snapshot_note": "RBI reference rate close Mar 27. yfinance shows 94.31 (likely mid-session). RBI close is authoritative."
+        "price": "93.88",
+        "delta_1d": "+1.3%",
+        "delta_1m": "+2.1%",
+        "delta_3m": "+7.9%",
+        "snapshot_note": "yfinance Monday Asian session. RBI reference rate was 95.09 Friday; Monday RBI rate will be authoritative. Rally driven by NOP cap forcing bank dollar selling, not fundamentals."
       },
       "price_snapshots": [
         {
@@ -1845,6 +1903,16 @@ const GRAPH_DATA = {
             "RBI"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "Rupee rallied to \u20b993.88 (yfinance) on Monday Asian session \u2014 NOP cap forcing banks to sell dollars to close long-dollar onshore positions. MECHANICAL rally, not fundamental. Position size revised to $25-50B. RBI reference rate was \u20b995.09 Friday; Monday RBI rate will be authoritative. Structural pressures (oil, FPI outflows, reserves) unchanged. (Sources: yfinance, Bloomberg, Business Standard)",
+          "sources": [
+            "yfinance",
+            "Bloomberg",
+            "Business Standard"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -1904,8 +1972,8 @@ const GRAPH_DATA = {
       "name": "Iran",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-29",
-      "summary": "Primary target of US-Israeli strikes since Feb 28. Struck Prince Sultan Air Base (Saudi Arabia) \u2014 15+ US troops injured, 5 seriously. Missiles hit Tel Aviv commercial street killing 1 (Vyacheslav Vidmant, 52), injuring 11+. IRGC threatened US university campuses in Gulf with Monday deadline. Bushehr nuclear plant hit for 3rd time in 10 days \u2014 IAEA warns leak risk. Tasnim (IRGC-linked) confirms formal response sent to US 15-point proposal via intermediaries \u2014 contradicting public 'no negotiations' posture. CENTCOM claims 10,000+ strikes and 92% of IRGC Navy's largest vessels destroyed.",
+      "last_updated": "2026-03-30",
+      "summary": "Primary target of US-Israeli strikes since Feb 28. Trump claimed Iran agreed to 'most of' 15-point demands; Pakistan offered to host direct US-Iran talks. Pentagon simultaneously preparing 'weeks of limited ground operations' including Kharg Island raids \u2014 82nd Airborne + 2 MEUs deploying. IRGC struck ALBA (Bahrain) and EGA (UAE) aluminum plants \u2014 new industrial targeting category. IRGC university deadline TODAY noon. Iran army targeted Haifa military aerospace + Ben Gurion fuel storage. CENTCOM claims 10,000+ strikes and 92% of IRGC Navy's largest vessels destroyed.",
       "signals": [
         {
           "date": "2026-02-28",
@@ -2070,6 +2138,19 @@ const GRAPH_DATA = {
             "Tasnim",
             "CENTCOM",
             "IAEA"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "Trump claimed Sunday that Iran agreed to 'most of' the 15-point demands (Air Force One, CNN). Pakistan offered to host direct US-Iran talks. Pentagon simultaneously preparing 'weeks of limited ground operations' including Kharg Island raids \u2014 82nd Airborne + 2 MEUs deploying. IRGC struck ALBA (Bahrain) and EGA (UAE) aluminum plants \u2014 new industrial targeting category. IRGC university deadline TODAY noon. Iran army targeted Haifa military aerospace + Ben Gurion fuel storage. (Sources: CNN, Bloomberg, NPR, Al Jazeera, CNBC, JPost)",
+          "sources": [
+            "CNN",
+            "Bloomberg",
+            "NPR",
+            "Al Jazeera",
+            "CNBC",
+            "Jerusalem Post"
           ],
           "significance": "high"
         }
@@ -2929,14 +3010,14 @@ const GRAPH_DATA = {
       "name": "Nifty 50",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-03-29",
-      "summary": "India's benchmark index at 22,820 (-2.1% daily, -10.2% monthly, -12% in 3 months). FPIs pulled Rs 88,180 crore ($11.5B) in March alone \u2014 2026 outflows crossed \u20b91 trillion. VIX crossed 30 triggering institutional algo selling. Critical support at 22,000 (200-day EMA). Bernstein warns Nifty below 20,000 if conflict persists through 2026.",
+      "last_updated": "2026-03-30",
+      "summary": "India's benchmark index at 22,612.65 (-0.9% Monday open) despite rupee rally. Market seeing through mechanical NOP unwinding \u2014 oil at $107 still elevated, FPI selling continues. Nifty decoupled from rupee: both need OIL to fall, not just regulatory currency fix. Critical support at 22,000 (200-day EMA). Bernstein warns Nifty below 20,000 if conflict persists through 2026.",
       "current": {
-        "price": "22,819.60",
-        "delta_1d": "-2.1%",
-        "delta_1m": "-10.2%",
-        "delta_3m": "-12.0%",
-        "snapshot_note": "Mar 28 close \u2014 Indian markets closed Saturday Mar 29"
+        "price": "22,612.65",
+        "delta_1d": "-0.9%",
+        "delta_1m": "-11.0%",
+        "delta_3m": "-13.0%",
+        "snapshot_note": "Monday Mar 30 open"
       },
       "price_snapshots": [
         {
@@ -2996,6 +3077,15 @@ const GRAPH_DATA = {
             "yfinance",
             "Business Standard",
             "Bernstein"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "Monday open: -0.9% to 22,612 despite rupee rally. Market seeing through mechanical NOP unwinding \u2014 oil at $107 still elevated, FPI selling continues. Nifty decoupled from rupee in this regime: both need OIL to fall, not just regulatory currency fix.",
+          "sources": [
+            "yfinance",
+            "Business Standard"
           ],
           "significance": "high"
         }
@@ -3217,8 +3307,8 @@ const GRAPH_DATA = {
       "name": "Reserve Bank of India",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-03-29",
-      "summary": "ESCALATING CRISIS RESPONSE: Imposed emergency NOP-INR $100M hard cap on March 28 \u2014 first regulatory intervention beyond conventional dollar selling. Forex reserves dropped to $698.35B (below $700B, down $30B in 3 weeks from ATH $728.49B). Net short dollar position approaching $100B. Rupee breached 95 despite intervention. Trapped between inflation (oil $112\u2192can't cut rates) and growth (needs to cut). Repo rate held at 5.25%.",
+      "last_updated": "2026-03-30",
+      "summary": "ESCALATING CRISIS RESPONSE: NOP position estimates revised dramatically upward to $25-50B (Bloomberg: '$30B unwinding looms'). Banks met RBI Saturday requesting 3 months to comply (not April 10), citing MTM losses and 'one-sided panic' risk. Rupee rallied in NDF on Monday as banks began selling dollars. Forex reserves dropped to $698.35B (below $700B, down $30B in 3 weeks). Trapped between inflation (oil $107\u2192can't cut rates) and growth (needs to cut). Repo rate held at 5.25%.",
       "signals": [
         {
           "date": "2026-03-04",
@@ -3262,6 +3352,18 @@ const GRAPH_DATA = {
             "Business Standard",
             "RBI",
             "Bloomberg"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "NOP position estimates revised dramatically upward: $25-50B (Bloomberg: '$30B unwinding looms'), not $10-18B previously estimated. Banks met RBI Saturday, asking for 3 months to comply (not April 10). Citing MTM losses and 'one-sided panic' risk. Rupee rallied in NDF on Monday as banks began selling dollars. Most positions in 1-3 month bucket. (Sources: Bloomberg, Business Standard, MarketScreener/Reuters, TradingView/Reuters)",
+          "sources": [
+            "Bloomberg",
+            "Business Standard",
+            "MarketScreener",
+            "Reuters",
+            "TradingView"
           ],
           "significance": "high"
         }
@@ -3681,13 +3783,13 @@ const GRAPH_DATA = {
       "name": "South Korea",
       "type": "country",
       "created": "2026-03-28",
-      "last_updated": "2026-03-29",
-      "summary": "Critical endpoint of helium-semiconductor cascade. KOSPI -10.6% monthly \u2014 TRIPLE CASCADE: helium\u2192semiconductor fabs (~40%), Google TurboQuant\u2192memory demand (~25%), foreign capital flight (~35%). Foreigners dumped 51.4 trillion won ($37.8B) since February \u2014 largest since GFC. Samsung foreign ownership at 48.9% \u2014 lowest since October 2013 (12.5-year low). Won at 1,508/USD \u2014 weakest since March 2009 (17-year low). Helium inventory exhaustion ~8 days away (early April).",
+      "last_updated": "2026-03-30",
+      "summary": "Critical endpoint of helium-semiconductor cascade. KOSPI deepened decline to 5,281.76 (-2.9% Monday, -16.3% monthly). Foreign capital flight accelerated: 51.4T won ($37.8B) sold since Feb \u2014 largest since GFC. Samsung foreign ownership at 48.9% (12.5-year low). Won at 1,512 (17-year low). Helium data conflict: Samsung claims 6 months stock but TrendForce says industry at ~6 days. SK hynix likely more vulnerable than Samsung.",
       "current": {
-        "price": "KOSPI: 5,438.87",
-        "delta_1d": "-0.4%",
-        "delta_1m": "-10.6%",
-        "delta_3m": "+28.9%"
+        "price": "KOSPI: 5,281.76",
+        "delta_1d": "-2.9%",
+        "delta_1m": "-16.3%",
+        "delta_3m": "+21.5%"
       },
       "signals": [
         {
@@ -3717,6 +3819,17 @@ const GRAPH_DATA = {
             "yfinance",
             "TrendForce",
             "Korea International Trade Association"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "KOSPI deepened decline to 5,281.76 (-2.9% Monday, -16.3% monthly). Foreign capital flight accelerated: \u20a951.4T ($37.8B) sold since Feb \u2014 largest since GFC. Samsung foreign ownership at 48.9% (12.5-year low). Won at \u20a91,512 (17-year low). Helium data conflict: Samsung claims 6 months stock but TrendForce says industry at ~6 days. SK hynix likely more vulnerable than Samsung. (Sources: yfinance, Korea International Trade Association, TrendForce, Korea Plus)",
+          "sources": [
+            "yfinance",
+            "Korea International Trade Association",
+            "TrendForce",
+            "Korea Plus"
           ],
           "significance": "high"
         }
@@ -4119,8 +4232,8 @@ const GRAPH_DATA = {
       "name": "United Arab Emirates",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-29",
-      "summary": "Primary target of Iranian retaliation. 314 ballistic missiles, 1,672 drones, 15 cruise missiles fired at UAE. ADNOC Ruwais refinery (922K bpd) shut down. Dubai airport, US Consulate, Shah gas field, Fujairah port all struck. 8 killed, 157 injured. Activated Fujairah pipeline bypass.",
+      "last_updated": "2026-03-30",
+      "summary": "Primary target of Iranian retaliation. 314 ballistic missiles, 1,672 drones, 15 cruise missiles fired at UAE. IRGC struck Emirates Global Aluminium (EGA) facilities \u2014 claimed both ALBA (Bahrain) and EGA had 'ties to US military and aeronautics firms.' Industrial targeting expansion beyond military and energy. ADNOC Ruwais refinery (922K bpd) shut down. 8 killed, 157 injured.",
       "signals": [
         {
           "date": "2026-02-28",
@@ -4158,6 +4271,16 @@ const GRAPH_DATA = {
             "Times of Israel",
             "Manila Times",
             "Iran International"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "IRGC struck Emirates Global Aluminium (EGA) facilities. IRGC claimed both ALBA (Bahrain) and EGA had 'ties to US military and aeronautics firms.' The National (Abu Dhabi) confirmed damage. Industrial targeting expansion beyond military and energy. (Sources: The National, Al Jazeera, Arab News)",
+          "sources": [
+            "The National",
+            "Al Jazeera",
+            "Arab News"
           ],
           "significance": "high"
         }
@@ -4210,8 +4333,8 @@ const GRAPH_DATA = {
       "name": "United States",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-03-29",
-      "summary": "Launched Operation Epic Fury Feb 28. 2,500 Marines arrived on USS Tripoli (31st MEU) \u2014 Kharg Island seizure speculation. 15+ US troops wounded at Prince Sultan Air Base, total war casualties past 300. VP Vance: war continues 'a little while longer' to ensure Iran 'neutered for a very long time.' Trump escalated NATO criticism at Saudi FII: 'US no longer needs NATO,' called alliance 'cowards.' 8 million Americans in 'No Kings' anti-war protests across all 50 states.",
+      "last_updated": "2026-03-30",
+      "summary": "Launched Operation Epic Fury Feb 28. Trump claimed Iran agreed to 'most of' 15-point demands (Air Force One Sunday). Pentagon preparing 'weeks of limited ground operations' \u2014 82nd Airborne + 2 MEUs deploying. Kharg Island seizure still under consideration. Trump to FT: 'Maybe we take Kharg Island, maybe we don't.' Contradiction: diplomacy claims + ground invasion prep simultaneously. 8 million Americans in 'No Kings' anti-war protests across all 50 states.",
       "signals": [
         {
           "date": "2026-02-28",
@@ -4316,6 +4439,18 @@ const GRAPH_DATA = {
             "Washington Post",
             "Bloomberg",
             "Al Jazeera"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-03-30",
+          "content": "Trump claimed Iran agreed to 'most of' 15-point demands (Air Force One Sunday). Pentagon preparing 'weeks of limited ground operations' in Iran \u2014 82nd Airborne + 2 MEUs deploying alongside USS Tripoli Marines. Kharg Island seizure still under consideration. Trump to FT: 'Maybe we take Kharg Island, maybe we don't.' Contradiction: diplomacy claims + ground invasion prep. (Sources: CNN, Al Jazeera, Axios, CNBC, FT)",
+          "sources": [
+            "CNN",
+            "Al Jazeera",
+            "Axios",
+            "CNBC",
+            "Financial Times"
           ],
           "significance": "high"
         }
@@ -5589,10 +5724,10 @@ const GRAPH_DATA = {
     ]
   },
   "meta": {
-    "last_updated": "2026-03-29",
+    "last_updated": "2026-03-30",
     "total_nodes": 40,
     "total_edges": 154,
-    "briefs_generated": 5,
+    "briefs_generated": 6,
     "node_types": {
       "country": 15,
       "commodity": 6,
