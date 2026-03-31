@@ -3,11 +3,11 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-03-29",
-  "summary": "At 6,369 (-7.8% monthly). VIX crossed 30 (31.05) — risk-off regime triggering institutional algo selling and portfolio de-risking. ~55% crisis-driven, ~30% tariff-driven (Section 122 tariffs 10-15% global), ~15% other. Fed trapped by oil-driven inflation. Capital rotating from tech into defense and energy.",
+  "last_updated": "2026-03-31",
+  "summary": "At 6,343.72 (-0.4%, -7.8% monthly). VIX dropped below 30 to 28.61 (-6.5%) on Trump 'willing to end war' headlines — technically significant as VIX >30 triggers institutional algo selling. SMH (semiconductors) -3.1% on TurboQuant + helium. Defense (ITA) -2.4% on peace headlines + Boeing NGAD + EU EDIP. KOSPI -4.3% leading indicator of semiconductor supply chain stress. Market pricing 52% probability of Fed HIKE by year-end (first time >50%). Gold regime shift, if confirmed, extends equity drawdown window.",
   "current": {
-    "price": "6,368.85",
-    "delta_1d": "-1.7%",
+    "price": "6,343.72",
+    "delta_1d": "-0.4%",
     "delta_1m": "-7.8%",
     "delta_3m": "-7.8%"
   },
@@ -48,6 +48,12 @@
         "Yale Budget Lab"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-03-31",
+      "content": "S&P 500 at 6,343.72 (-0.4%, -7.8% monthly). VIX dropped below 30 to 28.61 (-6.5%) on Trump 'willing to end war' headlines — technically significant as VIX >30 triggers institutional algo selling. SMH (semiconductors) -3.1% on TurboQuant + helium. Defense (ITA) -2.4% on peace headlines + Boeing NGAD + EU EDIP. KOSPI -4.3% is a leading indicator of semiconductor supply chain stress. Market pricing 52% probability of Fed HIKE by year-end (first time >50%). Gold regime shift, if confirmed, extends equity drawdown window. CONFIRMED.",
+      "sources": ["yfinance", "CNBC"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -63,29 +69,29 @@
     {
       "to": "fed",
       "type": "rate_sensitivity",
-      "context": "Fed can't cut \u2192 no valuation support. Market pricing possible hike \u2192 higher discount rates \u2192 compression.",
+      "context": "Market pricing 52% probability of Fed HIKE by year-end (first time >50%). Higher discount rates compress valuations. Fed trapped — can't cut or hike.",
       "directness": 1,
-      "last_activated": "2026-03-22",
-      "activation_count": 8,
-      "weight": 8.0
+      "last_activated": "2026-03-31",
+      "activation_count": 9,
+      "weight": 10.0
     },
     {
       "to": "brent-crude",
       "type": "earnings_risk",
-      "context": "Oil spike \u2192 cost inflation \u2192 margin compression for most sectors. Energy sector benefits but tech-heavy index suffers net.",
+      "context": "Oil spike driving cost inflation and margin compression. Gold regime shift extending equity drawdown window. Energy benefits but tech-heavy index suffers net.",
       "directness": 1,
-      "last_activated": "2026-03-22",
-      "activation_count": 8,
-      "weight": 7.5
+      "last_activated": "2026-03-31",
+      "activation_count": 9,
+      "weight": 10.0
     },
     {
       "to": "helium",
       "type": "supply_chain_risk",
-      "context": "Helium shortage from Qatar \u2192 semiconductor supply risk \u2192 AI infrastructure uncertainty \u2192 tech valuation pressure. Novel risk.",
+      "context": "SMH (semiconductors) -3.1% on TurboQuant + helium. KOSPI -4.3% leading indicator of semiconductor supply chain stress. Qatar Ras Laffan = 30-38% global helium removed.",
       "directness": 2,
-      "last_activated": "2026-03-21",
-      "activation_count": 3,
-      "weight": 5.0
+      "last_activated": "2026-03-31",
+      "activation_count": 4,
+      "weight": 6.0
     }
   ],
   "trigger_points": [

@@ -3,8 +3,8 @@
   "name": "Donald Trump",
   "type": "person",
   "created": "2026-03-30",
-  "last_updated": "2026-03-30",
-  "summary": "US President. Personal statements move markets independently of institutional US policy. Claimed Iran 'agreed to most of' 15-point demands (March 29) — caused Brent -4.3%. Extended energy strike pause to April 6. Called NATO 'cowards.' Considering Kharg Island seizure. His statements often contradict Pentagon/State — the gap between Trump's claims and institutional US positions is itself intelligence.",
+  "last_updated": "2026-03-31",
+  "summary": "US President. WSJ PARADIGM SHIFT (March 31): 'Obliterate' Truth Social post threatening to destroy Iran's infrastructure is RHETORIC (+0.5); WSJ report that Trump told aides he's willing to end war even if Hormuz remains shut is a POLICY ACTION signal (+2.0). Leavitt subsequently called Hormuz reopening 'not a core objective.' The contradiction IS the intelligence — maximalist rhetoric masking exit-seeking reality. 8 war powers votes failed; Congress functionally irrelevant before April 6. Gulf allies privately pushing to KEEP fighting (WaPo) — UAE 'most hawkish.' Macron: strikes 'outside international law.'",
   "signals": [
     {
       "date": "2026-03-22",
@@ -41,71 +41,77 @@
       "content": "Told reporters on Air Force One that Iran agreed to 'most of' the 15-point demands: 'They gave us most of the points. Why wouldn't they?' Iran has NOT confirmed. Brent dropped 4.3% to $107.71 on Monday on this claim. Told FT: 'Maybe we take Kharg Island, maybe we don't. We have a lot of options.' Pentagon simultaneously preparing ground operations. The contradiction — diplomacy claims + invasion prep — is either maximum pressure negotiation or policy incoherence. (Sources: CNN, Time, Political Wire, FT, Al Jazeera)",
       "sources": ["CNN", "Time", "Political Wire", "Financial Times", "Al Jazeera"],
       "significance": "high"
+    },
+    {
+      "date": "2026-03-31",
+      "content": "Triple-layered CONTRADICTION: (1) 'Obliterate' Truth Social post threatening to destroy electric plants, oil wells, Kharg Island, desalination plants if Hormuz not 'immediately' reopened — RHETORIC. (2) White House Leavitt doubled down on April 6 deadline. (3) WSJ BOMBSHELL — Trump told aides willing to end war even if Hormuz remains shut. Leavitt subsequently called Hormuz reopening 'not a core objective.' The contradiction IS the intelligence: the 'obliterate' post is rhetoric (+0.5), the WSJ report is a policy ACTION signal (+2.0). Congressional reaction: 8 war powers votes failed. House Democrats delayed next vote until mid-April (after recess). Congress functionally irrelevant before April 6. Macron: strikes 'outside international law' — sharpest allied criticism. Gulf allies privately pushing to KEEP fighting (WaPo) — UAE 'most hawkish.' Jeddah Summit condemned Iran. (Sources: WSJ, Time, Bloomberg, CNBC, Axios, PBS, WaPo, Anadolu, Chatham House, Democracy Now)",
+      "sources": ["WSJ", "Time", "Bloomberg", "CNBC", "Axios", "PBS", "WaPo", "Anadolu", "Chatham House", "Democracy Now"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "brent-crude",
       "type": "market_mover",
-      "context": "Trump's personal statements directly move oil prices. 'Productive conversations' → Brent -8.4%. 'Agreed to most' → Brent -4.3%. His rhetoric has caused the two largest single-session oil drops of the war.",
+      "context": "Trump's personal statements directly move oil prices. 'Productive conversations' → Brent -8.4%. 'Agreed to most' → Brent -4.3%. 'Obliterate' post vs WSJ exit signal = dueling volatility drivers. His rhetoric has caused the largest single-session oil moves of the war.",
       "directness": 1,
-      "last_activated": "2026-03-30",
-      "activation_count": 5,
-      "weight": 8.5
+      "last_activated": "2026-03-31",
+      "activation_count": 6,
+      "weight": 9.0
     },
     {
       "to": "iran",
       "type": "adversary_negotiator",
-      "context": "Leading US side of indirect negotiations via Pakistan. Claims progress Iran publicly denies. Extended strike pauses. The gap between his claims and Iran's denials is the diplomatic space.",
+      "context": "Leading US side of indirect negotiations via Pakistan. Claims progress Iran publicly denies. WSJ: willing to end war even if Hormuz stays shut — major shift from 'reopen Hormuz or obliterate' rhetoric. The gap between rhetoric and revealed preference is the key intelligence.",
       "directness": 1,
-      "last_activated": "2026-03-30",
-      "activation_count": 8,
-      "weight": 8.0
+      "last_activated": "2026-03-31",
+      "activation_count": 9,
+      "weight": 8.5
     },
     {
       "to": "united-states",
       "type": "commander_in_chief",
-      "context": "President. But his statements often contradict Pentagon (ground ops prep vs diplomacy claims) and diverge from Vance (regime change expectations). The institutional US and Trump-the-person are not always aligned.",
+      "context": "President. WSJ exit signal contradicts 82nd Airborne deployment and 'obliterate' rhetoric. Triple contradiction: diplomacy + threats + ground buildup. 8 war powers votes failed — Congress irrelevant before April 6. The institutional US and Trump-the-person are not aligned.",
       "directness": 1,
-      "last_activated": "2026-03-30",
-      "activation_count": 10,
-      "weight": 9.0
+      "last_activated": "2026-03-31",
+      "activation_count": 11,
+      "weight": 9.5
     },
     {
       "to": "strait-of-hormuz",
       "type": "policy_lever",
-      "context": "Extended strike pause → affects Hormuz dynamics. Considering Kharg Island seizure → direct Hormuz military escalation. NATO criticism → no European naval escort support.",
+      "context": "WSJ: willing to exit even if Hormuz stays shut. Leavitt called Hormuz reopening 'not a core objective.' This contradicts 'obliterate' post demanding immediate Hormuz reopening. The revealed preference suggests Hormuz is a negotiating chip, not a genuine war objective.",
       "directness": 1,
-      "last_activated": "2026-03-30",
-      "activation_count": 4,
-      "weight": 7.0
-    },
-    {
-      "to": "israel",
-      "type": "alliance_personal",
-      "context": "Personal relationship with Netanyahu drives war coordination. But Vance-Netanyahu 'tense call' about 'overselling regime change' shows friction. Trump's war aims may diverge from Netanyahu's — Trump wants limited ops and a deal; Netanyahu wants regime change. This person-to-person dynamic is different from the institutional US-Israel alliance.",
-      "directness": 1,
-      "last_activated": "2026-03-30",
+      "last_activated": "2026-03-31",
       "activation_count": 5,
       "weight": 7.5
     },
     {
+      "to": "israel",
+      "type": "alliance_personal",
+      "context": "WSJ exit signal may accelerate Netanyahu's strikes — if war ending soon, Israel maximizes damage now. IDF struck 170 targets in 24 hours. Netanyahu ordered escalation 'in case war ends soon' (Haaretz). Trump's exit preference diverges sharply from Netanyahu's maximalist objectives.",
+      "directness": 1,
+      "last_activated": "2026-03-31",
+      "activation_count": 6,
+      "weight": 8.0
+    },
+    {
       "to": "sp-500",
       "type": "policy_impact",
-      "context": "Trump's personal decisions directly move US equities. Section 122 tariffs (his executive action) caused ~15% of S&P weakness. War statements ('agreed to most') will move Monday's open. Presidential rhetoric is a direct input to equity volatility.",
+      "context": "Trump's personal decisions directly move US equities. 'Obliterate' rhetoric vs WSJ exit signal creates dueling market narratives. Section 122 tariffs + war rhetoric = major volatility input. Congressional war powers votes all failed — no institutional check on presidential action.",
       "directness": 1,
-      "last_activated": "2026-03-30",
-      "activation_count": 4,
-      "weight": 7.0
+      "last_activated": "2026-03-31",
+      "activation_count": 5,
+      "weight": 7.5
     },
     {
       "to": "pakistan",
       "type": "diplomatic_channel",
-      "context": "Pakistan is relaying Trump's messages to Iran. Witkoff (his personal envoy) presented the 15-point plan via Pakistan. The mediation channel is Trump's initiative, not a State Department program.",
+      "context": "Pakistan relaying Trump's messages to Iran. WSJ exit signal suggests Trump may be using Pakistan channel more seriously than public rhetoric implies. Mediation channel is Trump's initiative, not State Department.",
       "directness": 1,
-      "last_activated": "2026-03-30",
-      "activation_count": 3,
-      "weight": 6.5
+      "last_activated": "2026-03-31",
+      "activation_count": 4,
+      "weight": 7.0
     }
   ],
   "trigger_points": [

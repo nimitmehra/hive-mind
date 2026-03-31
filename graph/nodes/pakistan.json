@@ -3,8 +3,8 @@
   "name": "Pakistan",
   "type": "country",
   "created": "2026-03-30",
-  "last_updated": "2026-03-30",
-  "summary": "Emerged as key mediator in the Iran war. Hosted Islamabad quadrilateral meeting (March 29-30) with Saudi Arabia, Turkey, Egypt FMs. Offered to host direct US-Iran talks 'in coming days.' FM Ishaq Dar publicly confirmed Pakistan relaying messages between US and Iran. Pakistan is the ONLY confirmed intermediary channel both sides acknowledge exists.",
+  "last_updated": "2026-03-31",
+  "summary": "Emerging as key diplomatic player. Committee of Four (Pakistan, Turkey, Egypt, Saudi Arabia) created formal diplomatic mechanism in Islamabad March 29. Deputy PM Dar confirmed Pakistan hosting 'direct US-Iran talks in coming days' — most specific commitment to date. Iran has NOT confirmed attendance. Pakistan's Hormuz deal executing: MV Multan (cargo) and P-Akili (crude) crossing, expected Karachi March 31. 20-ship deal (2/day). Pakistan contradicted Trump's '20 boats as sign of respect' — says they're PAKISTANI ships under bilateral deal.",
   "signals": [
     {
       "date": "2026-03-26",
@@ -23,17 +23,23 @@
       "content": "Pakistan offered to host direct US-Iran talks 'in coming days' — elevating from bilateral message relay to hosting venue for potential face-to-face negotiations. The quad exchanged 'assessments on dire economic repercussions' including supply chains, food security, energy security. Pakistan positioned as neutral mediator — maintains relations with both Iran (shared border, Balochistan) and US (military/intelligence cooperation). (Sources: Bloomberg, NPR, Time, Al Jazeera)",
       "sources": ["Bloomberg", "NPR", "Time", "Al Jazeera"],
       "significance": "high"
+    },
+    {
+      "date": "2026-03-31",
+      "content": "Pakistan emerging as key diplomatic player. Committee of Four (Pakistan, Turkey, Egypt, Saudi Arabia) created formal diplomatic mechanism in Islamabad March 29. Deputy PM Dar confirmed Pakistan hosting 'direct US-Iran talks in coming days' — most specific commitment to date. Iran has NOT confirmed attendance. Pakistan's Hormuz deal executing: MV Multan (cargo) and P-Akili (crude) crossing, expected at Karachi March 31. 20-ship deal (2/day). Pakistan contradicted Trump's '20 boats as sign of respect' — says they're PAKISTANI ships under bilateral deal. CONFIRMED.",
+      "sources": ["Al Jazeera", "Express Tribune", "Anadolu", "WION", "The Nation"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "mediation_channel",
-      "context": "Pakistan is the confirmed message relay between US and Iran. Only intermediary both sides acknowledge. Offered to host direct talks.",
+      "context": "Committee of Four (Pakistan, Turkey, Egypt, Saudi Arabia) created formal mechanism. Deputy PM Dar confirmed hosting 'direct US-Iran talks in coming days.' Iran NOT confirmed attendance. Pakistan's Hormuz deal executing: MV Multan + P-Akili crossing.",
       "directness": 1,
-      "last_activated": "2026-03-30",
-      "activation_count": 5,
-      "weight": 7.5
+      "last_activated": "2026-03-31",
+      "activation_count": 6,
+      "weight": 10.0
     },
     {
       "to": "united-states",
@@ -61,6 +67,15 @@
       "last_activated": "2026-03-30",
       "activation_count": 2,
       "weight": 5.0
+    },
+    {
+      "to": "strait-of-hormuz",
+      "type": "bilateral_deal",
+      "context": "Pakistan's Hormuz deal executing: 20-ship deal (2/day). MV Multan (cargo) and P-Akili (crude) crossing, expected Karachi March 31. Pakistan contradicted Trump — says PAKISTANI ships under bilateral deal, not '20 boats as sign of respect.'",
+      "directness": 1,
+      "last_activated": "2026-03-31",
+      "activation_count": 3,
+      "weight": 9.0
     }
   ],
   "trigger_points": [
