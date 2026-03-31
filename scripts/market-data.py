@@ -15,6 +15,10 @@ Data NOT available via yfinance (must be web-searched):
   - Helium spot prices (no public ticker — track via news)
   - Container shipping rates (use Freightos Baltic Index news)
   - War risk insurance premiums
+  - Methanol spot price (Gulf/US)
+  - Ammonia spot price
+  - FAO Food Price Index (monthly)
+  - India 10Y government bond yield
 """
 
 import yfinance as yf
@@ -39,11 +43,15 @@ ASSETS = {
     "Copper": {"ticker": "HG=F", "category": "metals", "unit": "$/lb"},
     "Platinum": {"ticker": "PL=F", "category": "metals", "unit": "$/oz"},
     "Palladium": {"ticker": "PA=F", "category": "metals", "unit": "$/oz"},
+    "Aluminum (LME)": {"ticker": "ALI=F", "category": "metals", "unit": "$/mt"},
 
-    # --- AGRICULTURE (food security, fertilizer downstream) ---
+    # --- AGRICULTURE / FOOD (food security, fertilizer downstream) ---
     "Wheat": {"ticker": "ZW=F", "category": "agriculture", "unit": "¢/bu"},
     "Corn": {"ticker": "ZC=F", "category": "agriculture", "unit": "¢/bu"},
     "Soybeans": {"ticker": "ZS=F", "category": "agriculture", "unit": "¢/bu"},
+    "Rough Rice": {"ticker": "ZR=F", "category": "agriculture", "unit": "¢/cwt"},
+    "Palm Oil (Malaysia)": {"ticker": "ZL=F", "category": "agriculture", "unit": "¢/lb"},  # Soybean oil as proxy; Malaysia palm oil web-search
+    "Sugar": {"ticker": "SB=F", "category": "agriculture", "unit": "¢/lb"},
 
     # --- EQUITY INDICES (global coverage) ---
     # US
@@ -53,6 +61,9 @@ ASSETS = {
     # India
     "Nifty 50": {"ticker": "^NSEI", "category": "equity_index", "unit": ""},
     "Sensex": {"ticker": "^BSESN", "category": "equity_index", "unit": ""},
+    "Bank Nifty": {"ticker": "^NSEBANK", "category": "equity_index", "unit": ""},
+    # Gulf
+    "Saudi Tadawul (TASI)": {"ticker": "^TASI.SR", "category": "equity_index", "unit": ""},
     # Europe
     "FTSE 100": {"ticker": "^FTSE", "category": "equity_index", "unit": ""},
     "DAX": {"ticker": "^GDAXI", "category": "equity_index", "unit": ""},
@@ -81,6 +92,10 @@ ASSETS = {
     "Lockheed Martin": {"ticker": "LMT", "category": "stock", "unit": "$"},
     "Cheniere Energy (LNG)": {"ticker": "LNG", "category": "stock", "unit": "$"},
     "Frontline (Tankers)": {"ticker": "FRO", "category": "stock", "unit": "$"},
+    "CF Industries": {"ticker": "CF", "category": "stock", "unit": "$"},
+    "Nutrien": {"ticker": "NTR", "category": "stock", "unit": "$"},
+    "Linde": {"ticker": "LIN", "category": "stock", "unit": "$"},
+    "BASF": {"ticker": "BAS.DE", "category": "stock", "unit": "€"},
 
     # --- BONDS & YIELDS ---
     "US 10Y Yield": {"ticker": "^TNX", "category": "bond", "unit": "%"},
