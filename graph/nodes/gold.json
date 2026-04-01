@@ -4,13 +4,13 @@
   "type": "commodity",
   "created": "2026-03-23",
   "last_updated": "2026-04-01",
-  "summary": "REGIME SHIFT TEST SESSION 2 — CONTESTED: Gold near $4,700 (+1.1% from March 31's $4,647.60) — held above $4,600 threshold but with volatile intraday swings ($4,561-$4,706). Session 2 of 3-session hold test. DXY dropped below 100. COMPLICATION: gold rallied alongside equities, not against them — the expected 'systemic crisis' pattern (gold up, equities down) didn't materialize. Instead, dollar weakness lifted both. May be entering 'structural inflation' regime. If Session 3 holds above $4,600, regime shift confirmed but character needs revision. Central bank buying 585 tonnes/quarter (JP Morgan).",
+  "summary": "REGIME SHIFT SESSION 2 — HELD: Gold closed at $4,775.40 (+2.7%) — held above $4,600 for Session 2 of 3-session test. DXY below 100 at 99.47 (psychologically significant), US 10Y eased to 4.31%. COMPLICATION: gold rallied alongside equities — not the expected 'systemic crisis' pattern (gold up, equities down). Instead, dollar weakness + structural inflation hedging lifted both. May be entering THIRD regime: 'structural inflation' (Hormuz stays closed even with ceasefire = permanent supply disruption). Silver flat (+0.8%) NOT confirming gold — challenges the breakout thesis. Central bank buying 585 tonnes/quarter (JP Morgan). Session 3 (April 2) needed for confirmation.",
   "current": {
-    "price": "~$4,700/oz",
-    "delta_1d": "+1.1%",
-    "delta_1m": "-7.9%",
-    "delta_3m": "+9.0%",
-    "snapshot_note": "As of Apr 1 — 1D calculated from Mar 31 close ($4,647.60)"
+    "price": "$4,775.40/oz",
+    "delta_1d": "+2.7%",
+    "delta_1m": "-6.5%",
+    "delta_3m": "+10.7%",
+    "snapshot_note": "As of Apr 1 end-of-session — 1D calculated from Mar 31 close ($4,647.60)"
   },
   "price_snapshots": [
     {
@@ -45,9 +45,9 @@
     },
     {
       "date": "2026-04-01",
-      "price": "~$4,700",
-      "trigger": "Regime shift Session 2 test — held above $4,600 but contested",
-      "delta_context": "Rose +1.1% from March 31 close ($4,647.60). Intraday range $4,561-$4,706, so the $4,600 threshold was contested, not a clean hold. DXY below 100 at 99.79. Gold and equities rallying simultaneously — unusual. Three possible explanations: dollar weakness dominant, different drivers (equities on peace, gold on structural inflation), or regime uncertainty."
+      "price": "$4,775.40",
+      "trigger": "Regime shift Session 2 — held above $4,600, stronger than Session 1",
+      "delta_context": "Rose +2.7% from March 31 close ($4,647.60). DXY below 100 at 99.47 (psychologically significant). US 10Y eased to 4.31%. Gold+equities rallying simultaneously complicates regime interpretation — may be 'structural inflation' regime rather than 'systemic crisis.' Silver +0.8% NOT confirming. Central bank buying 585t/quarter."
     }
   ],
   "signals": [
@@ -107,8 +107,8 @@
     },
     {
       "date": "2026-04-01",
-      "content": "Gold rose +1.1% from March 31's $4,647.60 to ~$4,700 — held above $4,600 regime shift threshold for Session 2, but the hold was CONTESTED with intraday range $4,561-$4,706 (briefly dipped below $4,600). DXY dropped below 100 to 99.79 (psychologically significant), US 10Y eased to 4.31%. Central bank buying averaging 585 tonnes/quarter in 2026 (JP Morgan). UNUSUAL PATTERN: Gold AND equities rallying simultaneously. Three explanations: (1) dollar weakness mechanically lifts both, (2) equities rally on peace hopes while gold hedges structural inflation (Hormuz stays closed even with ceasefire), (3) regime uncertainty — market buying everything. The 'systemic crisis' correlation (gold + commodities up, equities down) NOT cleanly confirmed. Silver was essentially flat (-0.5%), not rallying with gold. Session 3 (April 2) needed for confirmation. (Sources: FXStreet, JM Bullion, Yahoo Finance, JP Morgan, yfinance verified)",
-      "sources": ["FXStreet", "JM Bullion", "Yahoo Finance", "JP Morgan"],
+      "content": "Gold surged +2.7% to $4,775.40 — held above $4,600 regime shift threshold for Session 2, stronger than Session 1 ($4,610.20). DXY dropped below 100 to 99.47 — psychologically significant dollar weakness mechanically supports gold. US 10Y yield FELL to 4.31% despite peace signal (unusual: yields should rise when safe-haven demand drops — market pricing growth/recession concerns over inflation). Central bank buying averaging 585 tonnes/quarter in 2026 (JP Morgan). UNUSUAL: Gold AND equities rallying simultaneously. Three explanations: (1) dollar weakness mechanically lifts both (most parsimonious), (2) equities rally on peace while gold hedges structural inflation (Hormuz stays closed = permanent supply disruption), (3) regime uncertainty. Silver +0.8% NOT confirming gold's move — challenges breakout thesis (a true gold breakout drags silver at 1.5-2x leverage). Copper +0.2% also not confirming. Session 3 (April 2) needed to confirm regime shift; gold+equities pattern complicates character to possible THIRD regime: 'structural inflation.' (Sources: FXStreet, JM Bullion, Yahoo Finance, JP Morgan, yfinance)",
+      "sources": ["FXStreet", "JM Bullion", "Yahoo Finance", "JP Morgan", "yfinance"],
       "significance": "high"
     }
   ],

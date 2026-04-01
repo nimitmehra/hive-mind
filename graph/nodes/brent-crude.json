@@ -4,13 +4,13 @@
   "type": "commodity",
   "created": "2026-03-23",
   "last_updated": "2026-04-01",
-  "summary": "At ~$105 (-11.3% from March 31's $118.35) — largest single-session decline since March 23 Trump pause, triggered by Pezeshkian peace signal to EU. But the STRUCTURAL FLOOR thesis strengthens: WSJ/CNN confirm Trump willing to end war without reopening Hormuz. Iran drafting toll legislation for permanent selective control. Even with ceasefire, $90-100 floor, not $70 pre-war. Crashed to $105, not below $100. SPR release (400M bbl) flowing but US SPR at 243M bbl — lowest since 1984. Reversibility HIGH: March 23 saw identical crash → full reversal in 5 days. Hormuz decoupling is the paradigm shift.",
+  "summary": "At $101.76 (-14.0% from March 31's $118.35) — LARGEST single-session crash since war began, surpassing March 23 (-8.4%). Triple driver: Pezeshkian peace signal + Trump '2-3 weeks' + IEA SPR flowing. Testing $100 structural floor — landed at $101.76, NOT below $100. WSJ/CNN Hormuz decoupling: even with ceasefire, $90-100 floor, not $70 pre-war. Iran parliament drafting toll legislation. SPR at 243M bbl (lowest since 1984). OPEC+ April 5 meeting decides May levels. Reversibility HIGH: March 23 saw -8.4% → full reversal in 5 days. The $100 support test is the real signal — if holds tomorrow, structural floor confirmed.",
   "current": {
-    "price": "~$105/bbl",
-    "delta_1d": "-11.3%",
-    "delta_1m": "+29.0%",
-    "delta_3m": "+72.8%",
-    "snapshot_note": "As of Apr 1 — 1D calculated from Mar 31 close ($118.35)"
+    "price": "$101.76/bbl",
+    "delta_1d": "-14.0%",
+    "delta_1m": "+25.0%",
+    "delta_3m": "+67.5%",
+    "snapshot_note": "As of Apr 1 end-of-session — 1D calculated from Mar 31 close ($118.35)"
   },
   "price_snapshots": [
     {
@@ -81,9 +81,9 @@
     },
     {
       "date": "2026-04-01",
-      "price": "~$105",
-      "trigger": "Pezeshkian peace signal — largest single-session decline since March 23",
-      "delta_context": "Crashed -11.3% from March 31 close of $118.35 to ~$105 (intraday low $104). Iranian president's conciliatory language to EU triggered massive sell-off. But WSJ/CNN Hormuz decoupling means structural floor ~$90-100 even with ceasefire. Landed at $105, not below $100."
+      "price": "$101.76",
+      "trigger": "LARGEST single-session crash since war began — triple peace signal",
+      "delta_context": "Crashed -14.0% from $118.35 to $101.76 — surpassing March 23 (-8.4%). Triple driver: Pezeshkian peace signal, Trump '2-3 weeks', IEA SPR flowing. Testing $100 structural floor. Oil+equities moved same direction (unusual): Brent down on supply normalization hopes, equities up on peace hopes. XLE -1.1% while S&P +2.9% confirms rally is oil-driven. Hormuz decoupling floor holding: $101.76, not below $100."
     }
   ],
   "signals": [
@@ -155,8 +155,8 @@
     },
     {
       "date": "2026-04-01",
-      "content": "Brent crashed -6.6% to $105.29 — largest single-session decline since March 23 Trump 'pause.' Triggered by Iran's President Pezeshkian telling EU Council President 'we possess the necessary will to end this conflict.' But the CONTRADICTORY signal: equities rallied (+2.91% S&P) on peace hopes while oil ALSO surged ~5% to $118.60 intraday before settling down — the session was violently two-directional. WSJ/CNN Hormuz decoupling now market consensus: even if war ends, Hormuz stays under Iranian selective control → structural floor $90-100, not $70 pre-war. Iran parliament drafting toll legislation. IEA 400M barrel SPR release flowing at 1.0-1.5M bpd but US SPR at 243M bbl (lowest since 1984). OPEC+ confirmed no output increase before Q3. Reversibility HIGH — March 23 saw similar -8.4% crash on Trump pause → full reversal within 5 days. (Sources: Bloomberg, Yahoo Finance, WSJ, CNN, DOE)",
-      "sources": ["Bloomberg", "Yahoo Finance", "WSJ", "CNN", "DOE"],
+      "content": "Brent crashed -14.0% to $101.76 — LARGEST single-session decline since war began, surpassing March 23 (-8.4%). Triple driver: (1) Iran's President Pezeshkian told EU he has 'necessary will' to end war with 5-point counterproposal, (2) Trump said US could leave Iran 'in 2-3 weeks', (3) IEA 400M barrel SPR flowing at 1.0-1.5M bpd. Both sides signaling off-ramps within hours = market read coordinated de-escalation. XLE -1.1% while S&P +2.9% — explicit market signal that rally is oil-driven (bad for producers, good for economy). WSJ/CNN Hormuz decoupling now market consensus: even with ceasefire, $90-100 structural floor. Iran parliament drafting toll legislation. Brent landed at $101.76, NOT below $100 — the structural floor is holding. OPEC+ April 5 decides May levels; 206K bpd increase confirmed for April. Reversibility HIGH — March 23 saw -8.4% → full reversal in 5 days. The test: if Brent holds above $100 tomorrow, floor confirmed. If it breaks $100, paradigm shift. RBOB gasoline -9.5% confirms downstream following crude. (Sources: Bloomberg, Yahoo Finance, WSJ, CNN, DOE, CNBC)",
+      "sources": ["Bloomberg", "Yahoo Finance", "WSJ", "CNN", "DOE", "CNBC"],
       "significance": "high"
     }
   ],
@@ -245,7 +245,7 @@
     {
       "condition": "Brent crosses $100/barrel sustained for 2+ weeks",
       "cascade": ["india", "inr-usd", "rbi", "nifty-50"],
-      "mechanism": "Brent has been above $100 since approximately March 20 (~12 days). Getting very close to the 2-week sustained threshold. Today's -6.6% drop brings it to $105 — still above $100 but intraday volatility (touching $104) makes 'sustained' debatable. If Brent stays above $100 through April 3-4, move to 'active' next update.",
+      "mechanism": "Brent has been above $100 since approximately March 20 (~12 days). Today's -14% crash to $101.76 brings it within $2 of breaking the threshold. Still above $100 but testing the floor directly. OPEC+ April 5 meeting and IRGC deadline tonight are binary events. If Brent stays above $100 through April 3-4, move to 'active' next update. If it breaks $100, the sustained count resets.",
       "added": "2026-03-23",
       "status": "watching"
     },

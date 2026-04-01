@@ -4,13 +4,13 @@
   "type": "index",
   "created": "2026-03-23",
   "last_updated": "2026-04-01",
-  "summary": "India joined global relief rally on April 1 (FY27 Day 1): Nifty ~22,800 (+2.1%) alongside S&P +2.9%, KOSPI +7.9%. But three-layer structural problem persists: crisis-reversible (~65%), structural (~25% — earnings, record borrowing ₹17.2T, bank NIM), regulatory (~10% — NOP cap $30-40B unwinding by April 10, STT hike). 200-day EMA at 22,000 = critical support (3.6% below). FPI record outflows ₹1.14L cr in March. India 10Y breached 7%. Even with ceasefire + $85 oil, only recovers ~65% of losses. FY26 ended worst in a generation (-13.9% from peak).",
+  "summary": "FY27 Day 1: Nifty closed at 22,679 (+1.6%) — India joined global relief rally but MASSIVELY UNDERPERFORMED vs KOSPI +8.4%, Nikkei +5.2%, S&P +2.9%. Brent crash to $101.76 provided partial relief. Three-layer structural problem persists: crisis-reversible (~65%), structural (~25% — earnings, record borrowing ₹17.2T, bank NIM), regulatory (~10% — NOP cap $30-40B unwinding by April 10, STT hike). 200-day EMA at 22,000 = critical support (3.1% below). FPI record outflows ₹1.14L cr in March. India 10Y breached 7%. Even with ceasefire + $85 oil, only recovers ~65% of losses.",
   "current": {
-    "price": "~22,800",
-    "delta_1d": "+2.1%",
-    "delta_1m": "-10.6%",
-    "delta_3m": "-12.8%",
-    "snapshot_note": "As of Apr 1 intraday (Indian market open, March 31 was holiday)"
+    "price": "22,679.40",
+    "delta_1d": "+1.6%",
+    "delta_1m": "-11.0%",
+    "delta_3m": "-13.3%",
+    "snapshot_note": "As of Apr 1 end-of-session (March 31 was holiday, FY27 Day 1)"
   },
   "price_snapshots": [
     {
@@ -83,8 +83,8 @@
     },
     {
       "date": "2026-04-01",
-      "content": "FY27 opened with gap-up (~22,550 from March 30 close of 22,331) on Pezeshkian peace signal; trading near 22,800 (+2.1%), joining the global relief rally (S&P +2.9%, KOSPI +7.9%). March 31 was an Indian market holiday. Three-layer structural problem persists regardless of rally: (1) Crisis-reversible ~65%: oil still above $100, FPI record outflows ₹1.14 lakh crore in March, rupee volatile around 93.5-94.3. (2) Structural ~25%: earnings slowdown, record FY27 borrowing ₹17.2 trillion, HDFC Bank NIM compression. (3) Regulatory ~10%: NOP cap forcing $30-40B unwinding (deadline April 10), STT on futures raised 0.02%→0.05%, options 0.10%→0.15%. NOP cap drove heavy bank selling on March 30 (Union Bank -6.55%, Canara -5.21%, BoB -5.07%). India 10Y breached 7% (first since July 2024). 200-day EMA at 22,000 — 3.6% below at current levels. Even if war ends and oil drops to $85, Nifty recovers only ~65% of losses. (Sources: 5paisa, Business Standard, Bloomberg, NSDL, TradingEconomics, yfinance verified)",
-      "sources": ["5paisa", "Business Standard", "Bloomberg", "NSDL", "TradingEconomics"],
+      "content": "FY27 Day 1 (April 1): Nifty closed at 22,679.40 (+1.6%) — India joined global relief rally but massively underperformed vs KOSPI +8.4%, Nikkei +5.2%, S&P +2.9%. Brent crash -14% to $101.76 provided partial relief for import bill. Bank Nifty +2.3% recovering from March 30's -3.8% NOP carnage. Three-layer structural problem persists: (1) Crisis-reversible ~65%: oil at $101.76 still above $100, FPI record outflows ₹1.14 lakh crore in March, INR at Rs93.43. (2) Structural ~25%: earnings slowdown, record FY27 borrowing ₹17.2T, HDFC Bank NIM compression. (3) Regulatory ~10%: NOP cap forcing $30-40B unwinding (deadline April 10), STT on futures raised 0.02%→0.05%, options 0.10%→0.15%. India 10Y breached 7% (first since July 2024). India VIX at 27.89. 200-day EMA at 22,000 — 3.1% below. Bernstein scenarios: 27,500 (de-escalation) to 19,900 (full-year crisis). Even with ceasefire + $85 oil, recovers only ~65% of losses. (Sources: 5paisa, Business Standard, Bloomberg, NSDL, TradingEconomics, yfinance)",
+      "sources": ["5paisa", "Business Standard", "Bloomberg", "NSDL", "TradingEconomics", "yfinance"],
       "significance": "high"
     }
   ],
@@ -137,7 +137,7 @@
     {
       "condition": "Nifty breaks below 22,000 (200-day EMA)",
       "cascade": ["india", "inr-usd", "rbi"],
-      "mechanism": "200-day EMA break triggers systematic/algo selling. Margin calls cascade. FPI selling accelerates. Currently 1.5% above at 22,331. This is the technical line that separates correction from bear market territory.",
+      "mechanism": "200-day EMA break triggers systematic/algo selling. Margin calls cascade. FPI selling accelerates. Currently 3.1% above at 22,679. This is the technical line that separates correction from bear market territory.",
       "added": "2026-04-01",
       "status": "watching"
     }
