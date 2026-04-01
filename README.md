@@ -49,9 +49,13 @@ These are the documented cascade paths the system tracks:
 
 1. **Hormuz → Oil → India CAD → Rupee → RBI dilemma → Nifty**
 2. **South Pars attack → Iran retaliates on Qatar → LNG crisis → European gas → Fertilizer → India food security**
-3. **Ras Laffan damage → Helium shortage → Semiconductor supply → AI infrastructure → Tech valuations**
-4. **Oil → Inflation → Fed can't cut → Bond yields rise → Equity pressure everywhere**
-5. **Houthi wildcard — if they enter, Red Sea + Hormuz = double chokepoint**
+3. **Ras Laffan damage → Helium shortage → Semiconductor fabs → HBM memory → NVIDIA GPUs → Magnificent 7 → S&P 500**
+4. **Oil → Inflation → Fed/ECB/RBI can't cut → Bond yields rise → Equity pressure everywhere**
+5. **Houthi Red Sea threat → Carrier voluntary withdrawal → Effective Bab al-Mandeb closure → Double chokepoint risk**
+6. **Fertilizer disruption → Kharif 2026 sowing risk → India food inflation (Oct-Nov) → RBI rate cycle reversal**
+7. **ALBA/EGA attacks → Aluminum $3,500 → Auto/construction/aerospace cost pressure**
+8. **Hormuz decoupling → Oil stays $90-100+ even with ceasefire → Structural floor, not crisis premium**
+9. **Defense sector decline during war → Political sustainability eroding → Market pricing stalemate**
 
 ---
 
@@ -135,15 +139,13 @@ hive-mind/
 │   ├── write-brief.md          ← Step 4: Compose the brief
 │   └── verify-brief.md         ← Step 5: Adversarial fact-check
 ├── briefs/                     ← Daily intelligence briefs (final output)
-│   ├── 2026-03-23.md
-│   ├── 2026-03-24.md
-│   └── 2026-03-28.md
+│   ├── 2026-03-23.md through 2026-04-01-morning.md (10 briefs)
 ├── graph/
-│   ├── nodes/*.json            ← 31 entity files with signals, edges, triggers
-│   ├── edges.json              ← Master edge index (124 weighted connections)
+│   ├── nodes/*.json            ← 43 entity files with signals, edges, triggers
+│   ├── edges.json              ← Master edge index (171 weighted connections)
 │   └── meta.json               ← Graph statistics
 ├── scripts/
-│   ├── market-data.py          ← Pulls 52 assets via yfinance, flags significant moves
+│   ├── market-data.py          ← Pulls 62 assets via yfinance, flags significant moves
 │   └── rebuild-viewer.py       ← Regenerates viewer.html with latest graph data
 ├── skills/                     ← Readable copies of the skills
 ├── research/                   ← Deep research documents
@@ -190,7 +192,7 @@ python3 scripts/market-data.py --alerts  # Only significant moves
 python3 scripts/market-data.py --json    # Structured JSON for graph updates
 ```
 
-Tracks 52 assets across 8 categories: Energy, Metals, Agriculture, Equity Indices, Sector ETFs, Bellwether Stocks, Bonds/Volatility, Currencies.
+Tracks 62 assets across 8 categories: Energy, Metals (incl. Aluminum), Agriculture/Food (incl. Rice, Sugar, Soybean Oil), Equity Indices (incl. Bank Nifty, Saudi Tadawul), Sector ETFs, Bellwether Stocks (incl. CF Industries, Linde, Nutrien, BASF), Bonds/Volatility, Currencies.
 
 ---
 
@@ -219,14 +221,14 @@ Ironically, on March 28 (4 days later), the Houthis DID enter the war with a con
 
 - **[Claude Code](https://claude.ai/claude-code)** — AI-powered CLI for the entire pipeline
 - **[Claude Opus 4.6](https://anthropic.com)** — Powers all 6 pipeline skills
-- **[yfinance](https://pypi.org/project/yfinance/)** — Market data for 52 assets
+- **[yfinance](https://pypi.org/project/yfinance/)** — Market data for 62 assets
 - **[Cytoscape.js](https://js.cytoscape.org/)** — Interactive graph visualization (embedded in viewer.html)
 
 ---
 
 ## License
 
-This project is open source. The intelligence analysis, graph data, and daily briefs reflect real-world events as of March 2026 and are provided for educational and research purposes.
+This project is open source. The intelligence analysis, graph data, and daily briefs reflect real-world events as of the 2026 West Asia crisis (February-April 2026) and are provided for educational and research purposes.
 
 ---
 
