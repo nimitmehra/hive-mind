@@ -1,1 +1,123 @@
-{"id":"natural-gas-lng","name":"Natural Gas / LNG","type":"commodity","created":"2026-03-23","last_updated":"2026-03-30","summary":"Henry Hub nat gas -4.7% to $2.95 on Monday — US production strong, partially offsetting Gulf disruption. TTF pulled back slightly to €54.18/MWh (-1.9%). European storage still critical at 30%. Goldman base case TTF €72/MWh in Q2. Qatar Ras Laffan 17% capacity destroyed (5-year repair). Emergency energy measures in 4 European countries.","current":{"price":"TTF €54.18/MWh; Henry Hub $2.95","delta_1d":"TTF -1.9%; HH -4.7%","delta_1m":"+70% (TTF)","delta_3m":"+140%+ (TTF)","snapshot_note":"As of Mar 30"},"price_snapshots":[{"date":"2026-02-27","price":"TTF ~€23/MWh","trigger":"Pre-war baseline","delta_context":"European gas was at moderate levels"},{"date":"2026-03-02","price":"TTF ~€46/MWh","trigger":"Qatar LNG halt","delta_context":"Surged 45% in single day on Ras Laffan shutdown"},{"date":"2026-03-19","price":"TTF +30% additional","trigger":"Ras Laffan missile damage","delta_context":"Further spike after Iranian missiles caused 5-year damage"}],"signals":[{"date":"2026-03-02","content":"QatarEnergy halted LNG production at Ras Laffan (world's largest LNG facility, ~20% of global supply) after attacks. European TTF surged 45%.","sources":["Bloomberg","Euronews"],"significance":"high"},{"date":"2026-03-18","content":"Iranian missiles damaged LNG Trains 4 & 6 at Ras Laffan. 17% of Qatar LNG capacity destroyed. Estimated $20B annual revenue loss. 5-year repair timeline. This is STRUCTURAL, not temporary.","sources":["Bloomberg","CNBC","QatarEnergy official"],"significance":"high"},{"date":"2026-03-29","content":"European TTF surged 70% in March to €54.52/MWh — worst monthly gain since Sep 2021. Driven by Qatar Ras Laffan destruction (17% capacity, 5-year repair) + Hormuz blocking LNG tankers. European storage at 30% (historically low after harsh winter). Emergency measures in 4 European countries: Spain cut VAT from 21% to 10% on energy, Italy allocated €100M support, Slovakia and Slovenia introduced pump rationing. ECB froze rate cuts March 19 and raised inflation forecast. Atlantic Council: crisis 'could trigger European energy crisis' at 2022 levels. If blockade persists through summer refill season (May-Oct), €80-100/MWh realistic — industrial shutdowns begin at that level.","sources":["OilPriceAPI","Euronews","Atlantic Council","Bloomberg","ECB"],"significance":"high"}, {"date":"2026-03-30","content":"Henry Hub nat gas -4.7% to $2.95 on Monday. US production strong, partially offsetting Gulf disruption. TTF pulled back slightly to €54.18 (-1.9%). European storage still critical at 30%. Goldman base case TTF €72/MWh in Q2. (Sources: yfinance, OilPriceAPI)","sources":["yfinance","OilPriceAPI"],"significance":"medium"}],"edges":[{"to":"qatar","type":"production_dependency","context":"Qatar was ~20% of global LNG. 17% capacity destroyed (5yr repair). Structural supply loss.","directness":1,"last_activated":"2026-03-19","activation_count":8,"weight":9.5},{"to":"strait-of-hormuz","type":"transit_dependency","context":"LNG shipments from Qatar affected by Hormuz closure. Even if production resumes, exports blocked.","directness":1,"last_activated":"2026-03-22","activation_count":8,"weight":9.0},{"to":"india","type":"supply_to_importer","context":"India imports ~60% of LPG. LPG prices hiked. LNG supply disrupted by both Hormuz closure and Ras Laffan damage.","directness":1,"last_activated":"2026-03-23","activation_count":5,"weight":7.5},{"to":"fertilizer-urea","type":"feedstock","context":"Natural gas is primary feedstock for nitrogen-based fertilizers (ammonia, urea). Gas price spike → fertilizer cost spike.","directness":1,"last_activated":"2026-03-19","activation_count":5,"weight":8.0},{"to":"brent-crude","type":"linked_pricing","context":"Oil and gas prices linked. LNG contracts often oil-indexed. Dual energy shock.","directness":2,"last_activated":"2026-03-19","activation_count":5,"weight":6.0}],"trigger_points":[{"condition":"European TTF reaches 2022 crisis levels (€100+/MWh)","cascade":["india","fertilizer-urea"],"mechanism":"Would trigger European industrial demand destruction and global fertilizer crisis. India heavily exposed through fertilizer and LPG imports.","added":"2026-03-23","status":"watching"}]}
+{
+  "id": "natural-gas-lng",
+  "name": "Natural Gas / LNG",
+  "type": "commodity",
+  "created": "2026-03-23",
+  "last_updated": "2026-04-01",
+  "summary": "TTF at €53.73/MWh (pulled back ~3.7% on peace signal). EUROZONE STAGFLATION ARRIVING: inflation jumped to 2.5%, energy component +4.9% (from -3.1%) — 8pp swing in one month. Shell warns 'fuel shortage as early as April.' EU storage at 30% (historic seasonal low). ECB rate hike speculation emerging. Chemical/steel surcharges up to 30%. 'Permanent deindustrialization' language. Qatar Ras Laffan 17% capacity destroyed (5-year repair). Henry Hub decoupled from Gulf crisis ($2.87, -0.6%) — US is net exporter, crisis is LNG/seaborne not pipeline.",
+  "current": {
+    "price": "TTF ~€53.73/MWh; Henry Hub $2.87",
+    "delta_1d": "TTF ~-3.7%; HH -0.6%",
+    "delta_1m": "+5.2% (TTF)",
+    "delta_3m": "+72.4% (TTF)",
+    "snapshot_note": "As of Apr 1"
+  },
+  "price_snapshots": [
+    {
+      "date": "2026-02-27",
+      "price": "TTF ~€23/MWh",
+      "trigger": "Pre-war baseline",
+      "delta_context": "European gas was at moderate levels"
+    },
+    {
+      "date": "2026-03-02",
+      "price": "TTF ~€46/MWh",
+      "trigger": "Qatar LNG halt",
+      "delta_context": "Surged 45% in single day on Ras Laffan shutdown"
+    },
+    {
+      "date": "2026-03-19",
+      "price": "TTF +30% additional",
+      "trigger": "Ras Laffan missile damage",
+      "delta_context": "Further spike after Iranian missiles caused 5-year damage"
+    }
+  ],
+  "signals": [
+    {
+      "date": "2026-03-02",
+      "content": "QatarEnergy halted LNG production at Ras Laffan (world's largest LNG facility, ~20% of global supply) after attacks. European TTF surged 45%.",
+      "sources": ["Bloomberg", "Euronews"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-18",
+      "content": "Iranian missiles damaged LNG Trains 4 & 6 at Ras Laffan. 17% of Qatar LNG capacity destroyed. Estimated $20B annual revenue loss. 5-year repair timeline. This is STRUCTURAL, not temporary.",
+      "sources": ["Bloomberg", "CNBC", "QatarEnergy official"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-29",
+      "content": "European TTF surged 70% in March to €54.52/MWh — worst monthly gain since Sep 2021. Driven by Qatar Ras Laffan destruction (17% capacity, 5-year repair) + Hormuz blocking LNG tankers. European storage at 30% (historically low after harsh winter). Emergency measures in 4 European countries: Spain cut VAT from 21% to 10% on energy, Italy allocated €100M support, Slovakia and Slovenia introduced pump rationing. ECB froze rate cuts March 19 and raised inflation forecast. Atlantic Council: crisis 'could trigger European energy crisis' at 2022 levels. If blockade persists through summer refill season (May-Oct), €80-100/MWh realistic — industrial shutdowns begin at that level.",
+      "sources": ["OilPriceAPI", "Euronews", "Atlantic Council", "Bloomberg", "ECB"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-30",
+      "content": "Henry Hub nat gas -4.7% to $2.95 on Monday. US production strong, partially offsetting Gulf disruption. TTF pulled back slightly to €54.18 (-1.9%). European storage still critical at 30%. Goldman base case TTF €72/MWh in Q2. (Sources: yfinance, OilPriceAPI)",
+      "sources": ["yfinance", "OilPriceAPI"],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-01",
+      "content": "Eurozone inflation surged to 2.5% (from 1.9% in February) — energy component exploded to +4.9% (from -3.1%), an 8.0 percentage point swing in one month. Most dramatic energy inflation print since 2022 Russia-Ukraine shock. Shell warned 'Europe could face shortage of fuel as early as April.' EU gas storage at ~30% — lowest seasonal level since before 2022. Some analysts now predict ECB rate HIKES at April and June meetings. Chemical and steel manufacturers imposing surcharges up to 30% with 'permanent deindustrialization' language appearing. After IEA SPR release, only Japan (124 days) meets 90-day reserve requirement — Germany 76 days, France 70, UK 39, Australia 27. TTF pulled back to €53.73 on Pezeshkian peace signal but structural supply loss (Qatar 17% capacity destroyed, 5-year repair) persists. CF Industries -5.6%, Cheniere -3.4% on de-escalation trade. (Sources: Eurostat, Shell, CNBC, Euronews)",
+      "sources": ["Eurostat", "Shell", "CNBC", "Euronews"],
+      "significance": "high"
+    }
+  ],
+  "edges": [
+    {
+      "to": "qatar",
+      "type": "production_dependency",
+      "context": "Qatar was ~20% of global LNG. 17% capacity destroyed (5yr repair). Structural supply loss.",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 9,
+      "weight": 9.5
+    },
+    {
+      "to": "strait-of-hormuz",
+      "type": "transit_dependency",
+      "context": "LNG shipments from Qatar affected by Hormuz closure. Even if production resumes, exports blocked.",
+      "directness": 1,
+      "last_activated": "2026-03-22",
+      "activation_count": 8,
+      "weight": 9.0
+    },
+    {
+      "to": "india",
+      "type": "supply_to_importer",
+      "context": "India imports ~60% of LPG. LPG prices hiked. LNG supply disrupted by both Hormuz closure and Ras Laffan damage.",
+      "directness": 1,
+      "last_activated": "2026-03-23",
+      "activation_count": 5,
+      "weight": 7.5
+    },
+    {
+      "to": "fertilizer-urea",
+      "type": "feedstock",
+      "context": "Natural gas is primary feedstock for nitrogen-based fertilizers (ammonia, urea). Gas price spike → fertilizer cost spike.",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 6,
+      "weight": 8.0
+    },
+    {
+      "to": "brent-crude",
+      "type": "linked_pricing",
+      "context": "Oil and gas prices linked. LNG contracts often oil-indexed. Dual energy shock.",
+      "directness": 2,
+      "last_activated": "2026-03-19",
+      "activation_count": 5,
+      "weight": 6.0
+    }
+  ],
+  "trigger_points": [
+    {
+      "condition": "European TTF reaches 2022 crisis levels (€100+/MWh)",
+      "cascade": ["india", "fertilizer-urea"],
+      "mechanism": "Would trigger European industrial demand destruction and global fertilizer crisis. India heavily exposed through fertilizer and LPG imports.",
+      "added": "2026-03-23",
+      "status": "watching"
+    }
+  ]
+}

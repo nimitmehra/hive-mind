@@ -1,1 +1,85 @@
-{"id":"us-10y-yield","name":"US 10-Year Treasury Yield","type":"index","created":"2026-03-23","last_updated":"2026-03-31","summary":"At 4.34% (-2.2%) — first meaningful yield decline in weeks. 'End war' headlines drove some flight-to-safety unwind. But yields dropping while oil stays elevated is UNUSUAL — signals market shifting from 'inflation' to 'growth/recession' concerns. Stagflation trap: yields can't go much higher (growth risk) or lower (inflation risk). Short-end (2Y at 3.60%) barely moved. India 10Y GOI at 7.00% (+7bps).","current":{"price":"4.34%","delta_1d":"-2.2%","delta_1m":"+10.5%","delta_3m":"+7.9%","snapshot_note":"As of Mar 31 close"},"signals":[{"date":"2026-03-03","content":"10Y yield topped 4.06% as surging oil prices raised inflation concerns. Typical safe-haven bond rally did NOT materialize.","sources":["CNBC"],"significance":"medium"},{"date":"2026-03-22","content":"Yield rose to 4.37%, highest since July 2025. Market removed every rate cut, pricing in possible hike. 'Pandemonium' in global bond markets.","sources":["Bloomberg","CNBC"],"significance":"high"},{"date":"2026-03-29","content":"US 10Y at 4.44% (+10.5% monthly). Oil-driven inflation expectations rising (~40bps in March). Fed trapped in stagflation — can't cut (inflation), can't hike (growth risk). 2Y at 3.61% = 83bps positive slope, but both elevated = stagflation pricing. India 10Y at 6.93% (+6bps) reflecting parallel pressure. ECB froze rate cuts March 19. All three major central banks (Fed, ECB, RBI) on hold simultaneously — global monetary policy paralysis.","sources":["yfinance","TradingEconomics","ECB"],"significance":"high"}, {"date":"2026-03-31","content":"US 10Y dropped to 4.34% (-2.2%) — first meaningful yield decline in weeks. 'End war' headlines drove some flight-to-safety unwind. But yields dropping while oil stays elevated is UNUSUAL — signals market shifting from 'inflation' to 'growth/recession' concerns. Stagflation trap: yields can't go much higher (growth risk) or lower (inflation risk). Short-end (2Y at 3.60%) barely moved — curve dynamics. India 10Y GOI at 7.00% (+7bps). CONFIRMED.","sources":["yfinance","TradingEconomics"],"significance":"high"}],"edges":[{"to":"fed","type":"rate_expectations","context":"10Y dropped to 4.34% — yields dropping while oil elevated signals shift from inflation to growth/recession concerns. Market pricing 52% hike probability. Stagflation trap visible in curve dynamics.","directness":1,"last_activated":"2026-03-31","activation_count":9,"weight":10.0},{"to":"sp-500","type":"discount_rate","context":"Yield decline to 4.34% modest relief but 2Y barely moved — curve dynamics unclear. S&P at 6,343.72. VIX below 30 on peace headlines.","directness":1,"last_activated":"2026-03-31","activation_count":9,"weight":10.0},{"to":"nifty-50","type":"em_capital_flows","context":"Higher US yields → capital flows to US → away from EM including India. Contributes to FII outflows.","directness":2,"last_activated":"2026-03-22","activation_count":5,"weight":6.5}],"trigger_points":[{"condition":"10Y crosses 5%","cascade":["sp-500","nifty-50","fed"],"mechanism":"5% was the level that crashed markets in Oct 2023. Would signal inflation expectations unanchored. Massive equity selloff risk.","added":"2026-03-23","status":"watching"}]}
+{
+  "id": "us-10y-yield",
+  "name": "US 10-Year Treasury Yield",
+  "type": "index",
+  "created": "2026-03-23",
+  "last_updated": "2026-04-01",
+  "summary": "At 4.31% (eased from 4.34%). UNUSUAL: yields fell on peace signal — should rise when safe-haven demand drops. Market pricing growth/recession concerns over inflation. DXY below 100. 2Y barely moved at 3.60% — long-end pricing growth deterioration. Eurozone inflation 2.5% (energy +4.9%). Global stagflation trap: yields can't go much higher (growth risk) or lower (inflation risk). India 10Y at 7.03% — breached 7% first time since July 2024.",
+  "current": {
+    "price": "4.31%",
+    "delta_1d": "-0.7%",
+    "delta_1m": "+6.5%",
+    "delta_3m": "+3.6%",
+    "snapshot_note": "As of Apr 1"
+  },
+  "signals": [
+    {
+      "date": "2026-03-03",
+      "content": "10Y yield topped 4.06% as surging oil prices raised inflation concerns. Typical safe-haven bond rally did NOT materialize.",
+      "sources": ["CNBC"],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-03-22",
+      "content": "Yield rose to 4.37%, highest since July 2025. Market removed every rate cut, pricing in possible hike. 'Pandemonium' in global bond markets.",
+      "sources": ["Bloomberg", "CNBC"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-29",
+      "content": "US 10Y at 4.44% (+10.5% monthly). Oil-driven inflation expectations rising (~40bps in March). Fed trapped in stagflation — can't cut (inflation), can't hike (growth risk). 2Y at 3.61% = 83bps positive slope, but both elevated = stagflation pricing. India 10Y at 6.93% (+6bps) reflecting parallel pressure. ECB froze rate cuts March 19. All three major central banks (Fed, ECB, RBI) on hold simultaneously — global monetary policy paralysis.",
+      "sources": ["yfinance", "TradingEconomics", "ECB"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-31",
+      "content": "US 10Y dropped to 4.34% (-2.2%) — first meaningful yield decline in weeks. 'End war' headlines drove some flight-to-safety unwind. But yields dropping while oil stays elevated is UNUSUAL — signals market shifting from 'inflation' to 'growth/recession' concerns. Stagflation trap: yields can't go much higher (growth risk) or lower (inflation risk). Short-end (2Y at 3.60%) barely moved — curve dynamics. India 10Y GOI at 7.00% (+7bps). CONFIRMED.",
+      "sources": ["yfinance", "TradingEconomics"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-01",
+      "content": "US 10Y eased to 4.31% (-0.7%). Pezeshkian peace signal created modest flight-from-safety (yields should RISE when safe-haven demand drops, but they FELL — indicating the market shifted to pricing growth/recession concerns over inflation). DXY dropped below 100 to 99.79. Short-end (2Y at 3.60%) barely moved — curve dynamics suggest long-end pricing growth deterioration while short-end stays anchored on Fed policy. Eurozone inflation surged to 2.5% — energy +4.9% from -3.1%. ECB rate hike speculation emerging. Global stagflation pricing intensifying. India 10Y at 7.03% — breached 7% on record FY27 borrowing. (Sources: yfinance, TradingEconomics, Eurostat)",
+      "sources": ["yfinance", "TradingEconomics", "Eurostat"],
+      "significance": "medium"
+    }
+  ],
+  "edges": [
+    {
+      "to": "fed",
+      "type": "rate_expectations",
+      "context": "10Y eased to 4.31% — yields dropping on peace signal is unusual, pricing growth/recession concerns over inflation. Eurozone inflation 2.5%. DXY below 100. Stagflation trap visible in curve dynamics.",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 10,
+      "weight": 10.0
+    },
+    {
+      "to": "sp-500",
+      "type": "discount_rate",
+      "context": "Yield decline to 4.31% modest relief. S&P surged +2.91% on peace signal. VIX collapsed to 25.25. But curve dynamics unclear — long-end pricing growth deterioration.",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 10,
+      "weight": 10.0
+    },
+    {
+      "to": "nifty-50",
+      "type": "em_capital_flows",
+      "context": "Higher US yields → capital flows to US → away from EM including India. Contributes to FII outflows. India 10Y at 7.03% — breached 7% first time since July 2024.",
+      "directness": 2,
+      "last_activated": "2026-03-22",
+      "activation_count": 5,
+      "weight": 6.5
+    }
+  ],
+  "trigger_points": [
+    {
+      "condition": "10Y crosses 5%",
+      "cascade": ["sp-500", "nifty-50", "fed"],
+      "mechanism": "5% was the level that crashed markets in Oct 2023. Would signal inflation expectations unanchored. Massive equity selloff risk.",
+      "added": "2026-03-23",
+      "status": "watching"
+    }
+  ]
+}

@@ -1,1 +1,145 @@
-{"id": "nifty-50", "name": "Nifty 50", "type": "index", "created": "2026-03-23", "last_updated": "2026-03-31", "summary": "NIFTY AT 22,331 — FY26 WORST SINCE COVID: Closed -2.1% on last trading day. FPI outflows ₹1.13-1.14 lakh crore in March (RECORD). MidCap -2.68%, SmallCap -2.66%. Bank Nifty -3.8% (worst sector) on NOP cap blowback. FY26 ended -13.9% from peak. Split: ~70% crisis-driven (reversible), ~30% structural (earnings slowdown). Key level: 22,000 (200-day EMA). GIFT Nifty recovered from -1.84% to +0.16% for April 1 opening. Bernstein four scenarios: 27,500 (rapid de-escalation) to 19,900 (full-year crisis).", "current": {"price": "22,331.40", "delta_1d": "-2.1%", "delta_1m": "-12.4%", "delta_3m": "-13.9%", "snapshot_note": "March 30 close — FY26 last trading day. Markets closed March 31 (Mahavir Jayanti). GIFT Nifty recovered to +0.16% for April 1 opening."}, "price_snapshots": [{"date": "2026-03-05", "price": "24,765", "trigger": "Early war level", "delta_context": "Already down 5.2% YTD before full war impact"}, {"date": "2026-03-23", "price": "22,513", "trigger": "Asia selloff on Trump power plant threats + FPI selling", "delta_context": "Lowest since April 2025. ₹14T market cap wiped."}, {"date": "2026-03-24", "price": "22,912", "trigger": "Technical bounce from oversold levels, DII buying", "delta_context": "Recovered +399 points (+1.8%). Still down 10.4% from one month ago."}, {"date": "2026-03-30", "price": "22,331.40", "trigger": "FY26's last trading day — worst close", "delta_context": "Deepened from morning -0.9% to -2.14% as oil surged back to $115+ and rupee NOP rally reversed. MidCap -2.68%, SmallCap -2.66%."}], "signals": [{"date": "2026-03-02", "content": "Nifty futures dropped 1.7% on first trading day after strikes. Markets declined ~4% within two days. Goldman warned India 'most impacted in Asia.'", "sources": ["Bloomberg", "CNBC"], "significance": "high"}, {"date": "2026-03-22", "content": "FIIs net sold ~₹52,704 crore in March. Single-day outflow ₹10,717 crore (largest of 2026). Societe Generale expects India underperformance to deepen. DII/SIP flows partially offsetting.", "sources": ["Nifty Trader", "Good Returns", "Swastika"], "significance": "high"}, {"date": "2026-03-24", "content": "Nifty bounced +1.8% to 22,912 — technical recovery from April 2025 lows reached yesterday. DII buying provided support. But the bounce masks underlying weakness: FPIs sold ₹82,700 crore in March (largest monthly outflow since Oct 2024), India's PMI slowed to lowest since Oct 2022, and IPO market remains frozen. Total Indian investor losses since war began: ₹48 lakh crore (~$511 billion). The 'second only to Covid' framing in Indian media (Business Today) signals depth of concern.", "sources": ["yfinance", "Business Standard", "Business Today", "CNBC"], "significance": "high"}, {"date": "2026-03-28", "content": "Nifty fell 2.1% to 22,820 on Houthi war entry day. Sensex -2.2% to 73,583. FPIs pulled Rs 88,180 crore ($11.5B) in March. Critical support at 22,500 (200-day EMA). Bernstein warns Nifty below 20,000 if conflict persists through 2026.", "sources": ["yfinance", "Business Standard", "Bernstein"], "significance": "high"}, {"date": "2026-03-30", "content": "Monday open: -0.9% to 22,612 despite rupee rally. Market seeing through mechanical NOP unwinding — oil at $107 still elevated, FPI selling continues. Nifty decoupled from rupee in this regime: both need OIL to fall, not just regulatory currency fix.", "sources": ["yfinance", "Business Standard"], "significance": "high"}, {"date": "2026-03-30", "content": "EVENING UPDATE: Nifty crashed from morning's 22,612 (-0.9%) to close at 22,331.40 (-2.14%, -488 points). Sensex settled at 71,947.55 (-2.22%, -1,635 points). This was FY26's LAST TRADING DAY — fiscal year ended on its worst note. Broader markets worse: MidCap -2.68%, SmallCap -2.66%. Worst sectors: PSU Banks, Bank Nifty, Financial Services. Top losers: Bajaj Finance, Shriram Finance, SBI. FPI outflows hit record ₹1.13-1.14 lakh crore in March. The oil reversal ($107→$115) and rupee collapse (93.56→95.22) during Indian trading hours drove the deepening selloff. India entered FY26 as the world's fastest-growing major economy; it ended the fiscal year with record FPI outflows, record-low rupee, and Nifty -13.9% from peak. (Sources: Business Standard, Liquide, 5paisa, NSDL)", "sources": ["Business Standard", "Liquide", "5paisa", "NSDL"], "significance": "high"}, {"date": "2026-03-31", "content": "Nifty closed at 22,331 (-2.1%) — lowest since April 2025. FY26 ended as worst fiscal year since COVID. FPI outflows ₹1.13-1.14 lakh crore in March (RECORD). MidCap -2.68%, SmallCap -2.66%. Bank Nifty -3.8% (worst sector) on NOP cap blowback. FY26 ended -13.9% from peak. Split: ~70% crisis-driven (reversible), ~30% structural (earnings slowdown). Key level: 22,000 (200-day EMA). GIFT Nifty recovered from -1.84% to +0.16% for April 1 opening. Bernstein four scenarios: 27,500 (rapid de-escalation) to 19,900 (full-year crisis). CONFIRMED.", "sources": ["NSE", "Business Standard", "Bloomberg", "Bernstein"], "significance": "high"}], "edges": [{"to": "india", "type": "equity_market", "context": "Primary equity benchmark. FY26 ended worst since COVID. FPI record outflows. Bernstein scenarios range 27,500 (rapid de-escalation) to 19,900 (full-year crisis). GIFT Nifty recovery to +0.16% suggests April 1 may open less dire than feared.", "directness": 1, "last_activated": "2026-03-31", "activation_count": 17, "weight": 9.0}, {"to": "inr-usd", "type": "fii_feedback_loop", "context": "Weak rupee → FIIs sell → Nifty falls → more rupee pressure. Negative feedback loop.", "directness": 1, "last_activated": "2026-03-24", "activation_count": 11, "weight": 8.0}, {"to": "brent-crude", "type": "cost_pressure", "context": "Oil spike → India macro deterioration → earnings downgrades → Nifty weakness. ICRA warned crude could 'derail' FY27 fiscal deficit target. ~70% of Nifty decline is crisis-driven (oil-dependent, reversible).", "directness": 1, "last_activated": "2026-03-31", "activation_count": 12, "weight": 8.5}, {"to": "rbi", "type": "rate_sensitivity", "context": "Markets need rate cuts for valuation support. RBI trapped by inflation — can't cut.", "directness": 1, "last_activated": "2026-03-24", "activation_count": 6, "weight": 7.0}], "trigger_points": [{"condition": "Nifty breaks below 22,000", "cascade": ["india", "rbi", "inr-usd"], "mechanism": "Psychological level. Would trigger more panic selling, margin calls, and potential capital controls discussion.", "added": "2026-03-23", "status": "watching"}]}
+{
+  "id": "nifty-50",
+  "name": "Nifty 50",
+  "type": "index",
+  "created": "2026-03-23",
+  "last_updated": "2026-04-01",
+  "summary": "India joined global relief rally on April 1 (FY27 Day 1): Nifty ~22,800 (+2.1%) alongside S&P +2.9%, KOSPI +7.9%. But three-layer structural problem persists: crisis-reversible (~65%), structural (~25% — earnings, record borrowing ₹17.2T, bank NIM), regulatory (~10% — NOP cap $30-40B unwinding by April 10, STT hike). 200-day EMA at 22,000 = critical support (3.6% below). FPI record outflows ₹1.14L cr in March. India 10Y breached 7%. Even with ceasefire + $85 oil, only recovers ~65% of losses. FY26 ended worst in a generation (-13.9% from peak).",
+  "current": {
+    "price": "~22,800",
+    "delta_1d": "+2.1%",
+    "delta_1m": "-10.6%",
+    "delta_3m": "-12.8%",
+    "snapshot_note": "As of Apr 1 intraday (Indian market open, March 31 was holiday)"
+  },
+  "price_snapshots": [
+    {
+      "date": "2026-03-05",
+      "price": "24,765",
+      "trigger": "Early war level",
+      "delta_context": "Already down 5.2% YTD before full war impact"
+    },
+    {
+      "date": "2026-03-23",
+      "price": "22,513",
+      "trigger": "Asia selloff on Trump power plant threats + FPI selling",
+      "delta_context": "Lowest since April 2025. ₹14T market cap wiped."
+    },
+    {
+      "date": "2026-03-24",
+      "price": "22,912",
+      "trigger": "Technical bounce from oversold levels, DII buying",
+      "delta_context": "Recovered +399 points (+1.8%). Still down 10.4% from one month ago."
+    },
+    {
+      "date": "2026-03-30",
+      "price": "22,331.40",
+      "trigger": "FY26's last trading day — worst close",
+      "delta_context": "Deepened from morning -0.9% to -2.14% as oil surged back to $115+ and rupee NOP rally reversed. MidCap -2.68%, SmallCap -2.66%."
+    }
+  ],
+  "signals": [
+    {
+      "date": "2026-03-02",
+      "content": "Nifty futures dropped 1.7% on first trading day after strikes. Markets declined ~4% within two days. Goldman warned India 'most impacted in Asia.'",
+      "sources": ["Bloomberg", "CNBC"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-22",
+      "content": "FIIs net sold ~₹52,704 crore in March. Single-day outflow ₹10,717 crore (largest of 2026). Societe Generale expects India underperformance to deepen. DII/SIP flows partially offsetting.",
+      "sources": ["Nifty Trader", "Good Returns", "Swastika"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-24",
+      "content": "Nifty bounced +1.8% to 22,912 — technical recovery from April 2025 lows reached yesterday. DII buying provided support. But the bounce masks underlying weakness: FPIs sold ₹82,700 crore in March (largest monthly outflow since Oct 2024), India's PMI slowed to lowest since Oct 2022, and IPO market remains frozen. Total Indian investor losses since war began: ₹48 lakh crore (~$511 billion). The 'second only to Covid' framing in Indian media (Business Today) signals depth of concern.",
+      "sources": ["yfinance", "Business Standard", "Business Today", "CNBC"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-28",
+      "content": "Nifty fell 2.1% to 22,820 on Houthi war entry day. Sensex -2.2% to 73,583. FPIs pulled Rs 88,180 crore ($11.5B) in March. Critical support at 22,500 (200-day EMA). Bernstein warns Nifty below 20,000 if conflict persists through 2026.",
+      "sources": ["yfinance", "Business Standard", "Bernstein"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-30",
+      "content": "Monday open: -0.9% to 22,612 despite rupee rally. Market seeing through mechanical NOP unwinding — oil at $107 still elevated, FPI selling continues. Nifty decoupled from rupee in this regime: both need OIL to fall, not just regulatory currency fix.",
+      "sources": ["yfinance", "Business Standard"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-30",
+      "content": "EVENING UPDATE: Nifty crashed from morning's 22,612 (-0.9%) to close at 22,331.40 (-2.14%, -488 points). Sensex settled at 71,947.55 (-2.22%, -1,635 points). This was FY26's LAST TRADING DAY — fiscal year ended on its worst note. Broader markets worse: MidCap -2.68%, SmallCap -2.66%. Worst sectors: PSU Banks, Bank Nifty, Financial Services. Top losers: Bajaj Finance, Shriram Finance, SBI. FPI outflows hit record ₹1.13-1.14 lakh crore in March. The oil reversal ($107→$115) and rupee collapse (93.56→95.22) during Indian trading hours drove the deepening selloff. India entered FY26 as the world's fastest-growing major economy; it ended the fiscal year with record FPI outflows, record-low rupee, and Nifty -13.9% from peak. (Sources: Business Standard, Liquide, 5paisa, NSDL)",
+      "sources": ["Business Standard", "Liquide", "5paisa", "NSDL"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-31",
+      "content": "Nifty closed at 22,331 (-2.1%) — lowest since April 2025. FY26 ended as worst fiscal year since COVID. FPI outflows ₹1.13-1.14 lakh crore in March (RECORD). MidCap -2.68%, SmallCap -2.66%. Bank Nifty -3.8% (worst sector) on NOP cap blowback. FY26 ended -13.9% from peak. Split: ~70% crisis-driven (reversible), ~30% structural (earnings slowdown). Key level: 22,000 (200-day EMA). GIFT Nifty recovered from -1.84% to +0.16% for April 1 opening. Bernstein four scenarios: 27,500 (rapid de-escalation) to 19,900 (full-year crisis). CONFIRMED.",
+      "sources": ["NSE", "Business Standard", "Bloomberg", "Bernstein"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-01",
+      "content": "FY27 opened with gap-up (~22,550 from March 30 close of 22,331) on Pezeshkian peace signal; trading near 22,800 (+2.1%), joining the global relief rally (S&P +2.9%, KOSPI +7.9%). March 31 was an Indian market holiday. Three-layer structural problem persists regardless of rally: (1) Crisis-reversible ~65%: oil still above $100, FPI record outflows ₹1.14 lakh crore in March, rupee volatile around 93.5-94.3. (2) Structural ~25%: earnings slowdown, record FY27 borrowing ₹17.2 trillion, HDFC Bank NIM compression. (3) Regulatory ~10%: NOP cap forcing $30-40B unwinding (deadline April 10), STT on futures raised 0.02%→0.05%, options 0.10%→0.15%. NOP cap drove heavy bank selling on March 30 (Union Bank -6.55%, Canara -5.21%, BoB -5.07%). India 10Y breached 7% (first since July 2024). 200-day EMA at 22,000 — 3.6% below at current levels. Even if war ends and oil drops to $85, Nifty recovers only ~65% of losses. (Sources: 5paisa, Business Standard, Bloomberg, NSDL, TradingEconomics, yfinance verified)",
+      "sources": ["5paisa", "Business Standard", "Bloomberg", "NSDL", "TradingEconomics"],
+      "significance": "high"
+    }
+  ],
+  "edges": [
+    {
+      "to": "india",
+      "type": "equity_market",
+      "context": "Primary equity benchmark. FY26 ended worst since COVID. India diverging from global rally. FPI record outflows. Bernstein scenarios range 27,500 (rapid de-escalation) to 19,900 (full-year crisis).",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 18,
+      "weight": 9.0
+    },
+    {
+      "to": "inr-usd",
+      "type": "fii_feedback_loop",
+      "context": "Weak rupee → FIIs sell → Nifty falls → more rupee pressure. Negative feedback loop. Rupee volatile 93.5-94.3 on NOP unwinding.",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 12,
+      "weight": 8.5
+    },
+    {
+      "to": "brent-crude",
+      "type": "cost_pressure",
+      "context": "Oil spike → India macro deterioration → earnings downgrades → Nifty weakness. ICRA warned crude could 'derail' FY27 fiscal deficit target. ~65% of Nifty decline is crisis-driven (oil-dependent, reversible).",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 13,
+      "weight": 9.0
+    },
+    {
+      "to": "rbi",
+      "type": "rate_sensitivity",
+      "context": "Markets need rate cuts for valuation support. RBI trapped by inflation — can't cut. NOP cap deadline April 10. Bank Nifty -3.8%, PSU banks hammered. India 10Y breached 7%.",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 7,
+      "weight": 7.5
+    }
+  ],
+  "trigger_points": [
+    {
+      "condition": "Nifty breaks below 22,000",
+      "cascade": ["india", "rbi", "inr-usd"],
+      "mechanism": "Psychological level. Would trigger more panic selling, margin calls, and potential capital controls discussion.",
+      "added": "2026-03-23",
+      "status": "watching"
+    },
+    {
+      "condition": "Nifty breaks below 22,000 (200-day EMA)",
+      "cascade": ["india", "inr-usd", "rbi"],
+      "mechanism": "200-day EMA break triggers systematic/algo selling. Margin calls cascade. FPI selling accelerates. Currently 1.5% above at 22,331. This is the technical line that separates correction from bear market territory.",
+      "added": "2026-04-01",
+      "status": "watching"
+    }
+  ]
+}

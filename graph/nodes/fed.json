@@ -1,1 +1,96 @@
-{"id":"fed","name":"Federal Reserve","type":"institution","created":"2026-03-23","last_updated":"2026-03-31","summary":"Stagflation trap deepening. Fed held at 3.5-3.75% (March 18). Market now pricing 52% probability of HIKE by year-end — first time crossing 50% threshold. Powell: inflation 'not coming down as hoped.' ECB expected to HIKE 25bp April and June (Goldman, ABN AMRO) — reversing easing path. Fed, ECB, and RBI ALL on hold simultaneously — global monetary policy paralysis. Oil shock prevents rate cuts that would otherwise support growth.","signals":[{"date":"2026-03-18","content":"FOMC voted 11-1 to hold rates at 3.50-3.75%. Projected one rate reduction in 2026 and another in 2027. But markets don't believe even one cut.","sources":["CNBC"],"significance":"high"},{"date":"2026-03-22","content":"Market removed basically every rate cut for 2026, now pricing odds of a HIKE. Global bond yields at highest since May 2024. Pandemonium in bond markets.","sources":["Bloomberg","CNBC"],"significance":"high"},{"date":"2026-03-29","content":"Fed remains trapped — 10Y at 4.44%, oil at $112.57, VIX at 31.05. Can't cut (inflation), can't hike (growth risk). ECB froze rate cuts March 19. RBI holding at 5.25%. All three major central banks on hold = global monetary policy paralysis. $200B Pentagon supplemental adds fiscal pressure. Section 122 tariffs adding 0.5-0.6% to price level (Yale Budget Lab). Vance: war will continue 'a little while longer' — no near-term resolution to Fed's trap.","sources":["yfinance","Yale Budget Lab","ECB"],"significance":"high"}, {"date":"2026-03-31","content":"Stagflation trap deepening. Fed held at 3.5-3.75% (March 18). Market now pricing 52% probability of HIKE by year-end — first time crossing 50% threshold. Powell: inflation 'not coming down as hoped.' ECB expected to HIKE 25bp April and June (Goldman, ABN AMRO) — reversing easing path. Fed, ECB, and RBI ALL on hold simultaneously — global monetary policy paralysis. Oil shock prevents rate cuts that would otherwise support growth. CONFIRMED.","sources":["Fed","Goldman Sachs","ABN AMRO","yfinance"],"significance":"high"}],"edges":[{"to":"us-10y-yield","type":"rate_expectations","context":"Fed policy → bond yields. 10Y dropped to 4.34% but market pricing 52% hike probability. ECB expected to HIKE 25bp April/June (Goldman, ABN AMRO). Global monetary policy paralysis.","directness":1,"last_activated":"2026-03-31","activation_count":9,"weight":10.0},{"to":"sp-500","type":"discount_rate","context":"52% hike probability compresses equity valuations. S&P at 6,343.72 (-7.8% monthly). VIX below 30 on peace headlines but structural pressure persists.","directness":1,"last_activated":"2026-03-31","activation_count":9,"weight":10.0},{"to":"gold","type":"rate_policy","context":"Gold regime shift if confirmed extends equity drawdown window. Fed hike probability crossing 50% creates dollar strength headwind for gold, but stagflation supports safe-haven bid.","directness":1,"last_activated":"2026-03-31","activation_count":6,"weight":10.0},{"to":"brent-crude","type":"inflation_input","context":"Oil shock prevents rate cuts that would support growth. Powell: inflation 'not coming down as hoped.' Oil above $100 = inflation elevated = Fed trapped.","directness":1,"last_activated":"2026-03-31","activation_count":9,"weight":10.0},{"to":"united-states","type":"monetary_authority","context":"$200B war spending request compounds fiscal situation. War spending + no rate cuts = stagflation risk.","directness":1,"last_activated":"2026-03-22","activation_count":5,"weight":7.0}],"trigger_points":[{"condition":"Fed signals rate HIKE","cascade":["sp-500","us-10y-yield","gold","nifty-50","inr-usd"],"mechanism":"Would crash equities globally. EM currencies including INR would face massive outflows. Gold would paradoxically benefit as recession fears rise.","added":"2026-03-23","status":"watching"}]}
+{
+  "id": "fed",
+  "name": "Federal Reserve",
+  "type": "institution",
+  "created": "2026-03-23",
+  "last_updated": "2026-04-01",
+  "summary": "STAGFLATION TRAP DEEPENS: Eurozone inflation surged to 2.5% — energy +4.9% (from -3.1%), 8pp swing. ECB rate hikes being discussed. Fed still frozen: can't cut (oil >$100), can't hike (growth risk). Pezeshkian peace signal briefly revived rate-cut hopes but Hormuz decoupling means oil may stay elevated even with ceasefire. DXY dropped below 100 — dollar weakness despite elevated yields = growth concerns dominating. All three major central banks (Fed, ECB, RBI) frozen simultaneously — global monetary policy paralysis.",
+  "signals": [
+    {
+      "date": "2026-03-18",
+      "content": "FOMC voted 11-1 to hold rates at 3.50-3.75%. Projected one rate reduction in 2026 and another in 2027. But markets don't believe even one cut.",
+      "sources": ["CNBC"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-22",
+      "content": "Market removed basically every rate cut for 2026, now pricing odds of a HIKE. Global bond yields at highest since May 2024. Pandemonium in bond markets.",
+      "sources": ["Bloomberg", "CNBC"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-29",
+      "content": "Fed remains trapped — 10Y at 4.44%, oil at $112.57, VIX at 31.05. Can't cut (inflation), can't hike (growth risk). ECB froze rate cuts March 19. RBI holding at 5.25%. All three major central banks on hold = global monetary policy paralysis. $200B Pentagon supplemental adds fiscal pressure. Section 122 tariffs adding 0.5-0.6% to price level (Yale Budget Lab). Vance: war will continue 'a little while longer' — no near-term resolution to Fed's trap.",
+      "sources": ["yfinance", "Yale Budget Lab", "ECB"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-31",
+      "content": "Stagflation trap deepening. Fed held at 3.5-3.75% (March 18). Market now pricing 52% probability of HIKE by year-end — first time crossing 50% threshold. Powell: inflation 'not coming down as hoped.' ECB expected to HIKE 25bp April and June (Goldman, ABN AMRO) — reversing easing path. Fed, ECB, and RBI ALL on hold simultaneously — global monetary policy paralysis. Oil shock prevents rate cuts that would otherwise support growth. CONFIRMED.",
+      "sources": ["Fed", "Goldman Sachs", "ABN AMRO", "yfinance"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-01",
+      "content": "Eurozone inflation surged to 2.5% (Eurostat flash estimate), energy component exploded +4.9% (from -3.1% in February) — 8.0pp swing in one month. Most dramatic energy inflation print since 2022. Some analysts predict ECB rate HIKES at April and June meetings. Fed still trapped in stagflation: can't cut (oil above $100 = inflation), can't hike aggressively (growth risk). Pezeshkian peace signal briefly revived rate-cut conversation — if oil drops below $85, Fed can resume cuts. But Hormuz decoupling means oil may stay elevated even with ceasefire → Fed remains trapped. All three major central banks (Fed, ECB, RBI) frozen simultaneously. DXY dropped below 100 to 99.79 — dollar weakness despite elevated yields suggests market pricing growth concerns over inflation. (Sources: Eurostat, CNBC, Euronews)",
+      "sources": ["Eurostat", "CNBC", "Euronews"],
+      "significance": "high"
+    }
+  ],
+  "edges": [
+    {
+      "to": "us-10y-yield",
+      "type": "rate_expectations",
+      "context": "Fed policy → bond yields. 10Y eased to 4.31%. Eurozone inflation 2.5% — ECB hike speculation. DXY below 100. Global monetary policy paralysis.",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 10,
+      "weight": 10.0
+    },
+    {
+      "to": "sp-500",
+      "type": "discount_rate",
+      "context": "S&P surged +2.91% on peace signal. VIX collapsed to 25.25. But Fed still trapped — rate-cut hopes depend on oil below $85. Hormuz decoupling complicates.",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 10,
+      "weight": 10.0
+    },
+    {
+      "to": "gold",
+      "type": "rate_policy",
+      "context": "Gold regime shift if confirmed extends equity drawdown window. Fed hike probability crossing 50% creates dollar strength headwind for gold, but stagflation supports safe-haven bid. DXY below 100 positive for gold.",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 7,
+      "weight": 10.0
+    },
+    {
+      "to": "brent-crude",
+      "type": "inflation_input",
+      "context": "Oil shock prevents rate cuts that would support growth. Powell: inflation 'not coming down as hoped.' Oil above $100 = inflation elevated = Fed trapped. Hormuz decoupling means oil may stay elevated even with ceasefire.",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 10,
+      "weight": 10.0
+    },
+    {
+      "to": "united-states",
+      "type": "monetary_authority",
+      "context": "$200B war spending request compounds fiscal situation. War spending + no rate cuts = stagflation risk. DXY below 100 signals growth concerns.",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 6,
+      "weight": 7.5
+    }
+  ],
+  "trigger_points": [
+    {
+      "condition": "Fed signals rate HIKE",
+      "cascade": ["sp-500", "us-10y-yield", "gold", "nifty-50", "inr-usd"],
+      "mechanism": "Would crash equities globally. EM currencies including INR would face massive outflows. Gold would paradoxically benefit as recession fears rise.",
+      "added": "2026-03-23",
+      "status": "watching"
+    }
+  ]
+}

@@ -1,1 +1,93 @@
-{"id":"qatar","name":"Qatar","type":"country","created":"2026-03-23","last_updated":"2026-03-31","summary":"Qatar Emir attended Jeddah Trilateral Summit with MBS and Jordan's King Abdullah (March 31) — condemned 'Iranian attacks on vital and civilian facilities.' Ras Laffan repair remains 5+ years minimum (Phil Kornbluth). QatarEnergy force majeure continues. Helium: 200 specialized containers stranded near Hormuz. Even available helium physically stuck. Rerouting via Cape of Good Hope adds 10-14 days + boil-off. Qatar's Ras Laffan damage = 30-38% of global helium removed.","signals":[{"date":"2026-03-02","content":"QatarEnergy halted LNG production at Ras Laffan after initial attacks. European gas (TTF) surged 45%.","sources":["Bloomberg","Euronews"],"significance":"high"},{"date":"2026-03-18","content":"Iranian missiles caused extensive damage at Ras Laffan — Pearl GTL facility and LNG Trains 4 & 6 destroyed. 17% LNG capacity gone. $20B/year revenue loss. Up to 5 years to repair. QatarEnergy shut world's largest urea plant.","sources":["Bloomberg","CNBC","Al Jazeera","QatarEnergy official"],"significance":"high"},{"date":"2026-03-19","content":"Qatar expelled Iranian attachés after Ras Laffan strike. Helium supply (30% of global) cut off — one of only two semiconductor-grade helium plants in world.","sources":["Al Jazeera","Fortune","CNBC"],"significance":"high"},{"date":"2026-03-29","content":"IRGC threatened US university campuses in Gulf on March 29, specifically naming Texas A&M University in Qatar. Deadline: Monday March 30 noon Tehran time. Demanded US condemn bombing of two Iranian universities or face retaliation against US educational institutions. Warned employees, professors, and students to stay 1km from campuses. Separately, helium supply still offline — chip fabs on 8-day countdown (early April crunch per TrendForce).","sources":["Times of Israel","Manila Times","TrendForce","Iran International"],"significance":"high"}, {"date":"2026-03-31","content":"Qatar Emir attended Jeddah Trilateral Summit with MBS and Jordan's King Abdullah (March 31) — condemned 'Iranian attacks on vital and civilian facilities.' Ras Laffan repair remains 5+ years minimum (Phil Kornbluth). QatarEnergy force majeure continues. Helium: 200 specialized containers stranded near Hormuz. Even available helium physically stuck. Rerouting via Cape of Good Hope adds 10-14 days + boil-off. Qatar's Ras Laffan damage = 30-38% of global helium removed. CONFIRMED.","sources":["Anadolu","Gulf News","Tom's Hardware","Fortune","Phil Kornbluth/Kornbluth Helium Consulting"],"significance":"high"}],"edges":[{"to":"iran","type":"retaliation_target","context":"Iran struck Ras Laffan in retaliation for Israel's South Pars attack. South Pars and Qatar's North Dome are the SAME gas field — shared resource.","directness":1,"last_activated":"2026-03-19","activation_count":5,"weight":9.0},{"to":"natural-gas-lng","type":"major_producer","context":"QatarEnergy force majeure continues. Ras Laffan repair 5+ years (Kornbluth). Qatar Emir at Jeddah Summit condemning Iran — political alignment away from neutrality. 17% LNG capacity destroyed. Structural, not temporary.","directness":1,"last_activated":"2026-03-31","activation_count":9,"weight":10.0},{"to":"helium","type":"major_producer","context":"Ras Laffan damage = 30-38% of global helium removed. 200 specialized containers stranded near Hormuz. Even available helium physically stuck. Rerouting via Cape adds 10-14 days + boil-off. Repair 5+ years minimum (Phil Kornbluth).","directness":1,"last_activated":"2026-03-31","activation_count":6,"weight":10.0},{"to":"fertilizer-urea","type":"production_shutdown","context":"QatarEnergy shut world's largest urea plant. Urea prices surged 40% ($500→$700/mt). Direct impact on India's fertilizer imports.","directness":1,"last_activated":"2026-03-19","activation_count":3,"weight":8.0}],"trigger_points":[{"condition":"Ras Laffan repair timeline extends beyond 5 years","cascade":["natural-gas-lng","helium","fertilizer-urea"],"mechanism":"Would make 17% LNG capacity loss semi-permanent. Europe would need to find alternative supply. Helium shortage becomes structural. Fertilizer crisis deepens.","added":"2026-03-23","status":"watching"}]}
+{
+  "id": "qatar",
+  "name": "Qatar",
+  "type": "country",
+  "created": "2026-03-23",
+  "last_updated": "2026-04-01",
+  "summary": "DE-ESCALATION TRADE PRICING QAFCO RESTART — BUT STRUCTURAL DAMAGE PERSISTS: CF Industries -5.6%, Cheniere -3.4% on peace hopes. Market pricing Qatar LNG/urea resumption if war ends. But Hormuz decoupling thesis means even with ceasefire, Hormuz may stay under Iranian control → Qatar shipments still blocked. Ras Laffan repair 5+ years (Kornbluth). EU gas storage at 30%. Goldman TTF base case €72/MWh Q2. Qatar Emir at Jeddah Trilateral — condemned Iran, moving from neutral mediator to aligned stance. 200 helium containers still stranded near Hormuz.",
+  "signals": [
+    {
+      "date": "2026-03-02",
+      "content": "QatarEnergy halted LNG production at Ras Laffan after initial attacks. European gas (TTF) surged 45%.",
+      "sources": ["Bloomberg", "Euronews"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-18",
+      "content": "Iranian missiles caused extensive damage at Ras Laffan — Pearl GTL facility and LNG Trains 4 & 6 destroyed. 17% LNG capacity gone. $20B/year revenue loss. Up to 5 years to repair. QatarEnergy shut world's largest urea plant.",
+      "sources": ["Bloomberg", "CNBC", "Al Jazeera", "QatarEnergy official"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-19",
+      "content": "Qatar expelled Iranian attachés after Ras Laffan strike. Helium supply (30% of global) cut off — one of only two semiconductor-grade helium plants in world.",
+      "sources": ["Al Jazeera", "Fortune", "CNBC"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-29",
+      "content": "IRGC threatened US university campuses in Gulf on March 29, specifically naming Texas A&M University in Qatar. Deadline: Monday March 30 noon Tehran time. Demanded US condemn bombing of two Iranian universities or face retaliation against US educational institutions. Warned employees, professors, and students to stay 1km from campuses. Separately, helium supply still offline — chip fabs on 8-day countdown (early April crunch per TrendForce).",
+      "sources": ["Times of Israel", "Manila Times", "TrendForce", "Iran International"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-31",
+      "content": "Qatar Emir attended Jeddah Trilateral Summit with MBS and Jordan's King Abdullah (March 31) — condemned 'Iranian attacks on vital and civilian facilities.' Ras Laffan repair remains 5+ years minimum (Phil Kornbluth). QatarEnergy force majeure continues. Helium: 200 specialized containers stranded near Hormuz. Even available helium physically stuck. Rerouting via Cape of Good Hope adds 10-14 days + boil-off. Qatar's Ras Laffan damage = 30-38% of global helium removed. CONFIRMED.",
+      "sources": ["Anadolu", "Gulf News", "Tom's Hardware", "Fortune", "Phil Kornbluth/Kornbluth Helium Consulting"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-01",
+      "content": "CF Industries -5.6% and Cheniere -3.4% on de-escalation trade — market pricing QAFCO restart and Qatar LNG resumption if war ends. But Hormuz decoupling thesis: even if war ends, Hormuz may stay under Iranian selective control → QAFCO shipments still blocked. Qatar's structural damage (Ras Laffan 17% capacity, 5-year repair) persists regardless. European TTF pulled back to €53.73 on peace signal but €72/MWh Goldman base case for Q2. EU gas storage at 30% — lowest seasonal since pre-2022. If blockade persists through summer refill season (May-Oct), industrial shutdowns in Europe. (Sources: Eurostat, Goldman Sachs, Bloomberg, Shell)",
+      "sources": ["Eurostat", "Goldman Sachs", "Bloomberg", "Shell"],
+      "significance": "medium"
+    }
+  ],
+  "edges": [
+    {
+      "to": "iran",
+      "type": "retaliation_target",
+      "context": "Iran struck Ras Laffan in retaliation for Israel's South Pars attack. South Pars and Qatar's North Dome are the SAME gas field — shared resource.",
+      "directness": 1,
+      "last_activated": "2026-03-19",
+      "activation_count": 5,
+      "weight": 9.0
+    },
+    {
+      "to": "natural-gas-lng",
+      "type": "major_producer",
+      "context": "QatarEnergy force majeure continues. CF Industries -5.6%, Cheniere -3.4% on peace hopes pricing LNG resumption. But Ras Laffan repair 5+ years (Kornbluth). TTF pulled back to €53.73 but Goldman base €72/MWh Q2. EU gas storage at 30%.",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 10,
+      "weight": 10.0
+    },
+    {
+      "to": "helium",
+      "type": "major_producer",
+      "context": "Ras Laffan damage = 30-38% of global helium removed. 200 specialized containers stranded near Hormuz. De-escalation trade pricing restart but Hormuz decoupling thesis means even ceasefire may not restore shipments. Repair 5+ years (Kornbluth).",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 7,
+      "weight": 10.0
+    },
+    {
+      "to": "fertilizer-urea",
+      "type": "production_shutdown",
+      "context": "QatarEnergy shut world's largest urea plant. CF Industries -5.6% on de-escalation trade pricing QAFCO restart. But Hormuz decoupling means even ceasefire may not restore shipments. Urea prices surged 40% ($500→$700/mt).",
+      "directness": 1,
+      "last_activated": "2026-04-01",
+      "activation_count": 4,
+      "weight": 8.5
+    }
+  ],
+  "trigger_points": [
+    {
+      "condition": "Ras Laffan repair timeline extends beyond 5 years",
+      "cascade": ["natural-gas-lng", "helium", "fertilizer-urea"],
+      "mechanism": "Would make 17% LNG capacity loss semi-permanent. Europe would need to find alternative supply. Helium shortage becomes structural. Fertilizer crisis deepens.",
+      "added": "2026-03-23",
+      "status": "watching"
+    }
+  ]
+}

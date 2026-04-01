@@ -3,8 +3,8 @@
   "name": "Pakistan",
   "type": "country",
   "created": "2026-03-30",
-  "last_updated": "2026-03-31",
-  "summary": "Emerging as key diplomatic player. Committee of Four (Pakistan, Turkey, Egypt, Saudi Arabia) created formal diplomatic mechanism in Islamabad March 29. Deputy PM Dar confirmed Pakistan hosting 'direct US-Iran talks in coming days' — most specific commitment to date. Iran has NOT confirmed attendance. Pakistan's Hormuz deal executing: MV Multan (cargo) and P-Akili (crude) crossing, expected Karachi March 31. 20-ship deal (2/day). Pakistan contradicted Trump's '20 boats as sign of respect' — says they're PAKISTANI ships under bilateral deal.",
+  "last_updated": "2026-04-01",
+  "summary": "Pakistan is the ACTIVE MEDIATOR: first to publicly confirm on record that 'US-Iran indirect talks are taking place.' Rubio-Araghchi meeting in Pakistan could happen 'within days.' Pakistan's position unique: nuclear state, Iran border, US ally, Saudi ties. March 30 Islamabad quad diplomats (Saudi FM, Turkey, Pakistan, Iraq) established framework. Pakistan's confirmation gives substance to diplomatic track that both US and Iran publicly deny.",
   "signals": [
     {
       "date": "2026-03-26",
@@ -29,26 +29,32 @@
       "content": "Pakistan emerging as key diplomatic player. Committee of Four (Pakistan, Turkey, Egypt, Saudi Arabia) created formal diplomatic mechanism in Islamabad March 29. Deputy PM Dar confirmed Pakistan hosting 'direct US-Iran talks in coming days' — most specific commitment to date. Iran has NOT confirmed attendance. Pakistan's Hormuz deal executing: MV Multan (cargo) and P-Akili (crude) crossing, expected at Karachi March 31. 20-ship deal (2/day). Pakistan contradicted Trump's '20 boats as sign of respect' — says they're PAKISTANI ships under bilateral deal. CONFIRMED.",
       "sources": ["Al Jazeera", "Express Tribune", "Anadolu", "WION", "The Nation"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-01",
+      "content": "Pakistan became first mediator to publicly confirm on record that 'US-Iran indirect talks are taking place' — a Rubio-Araghchi meeting in Pakistan could happen 'within days.' This is the most significant diplomatic development: moving from anonymous sourcing to on-record confirmation of mediation. Combined with Iran's Pezeshkian telling EU he has 'necessary will' to end the conflict, the diplomatic track has the most substance since the war began — even as both sides publicly deny talks. (Sources: Pakistan FM, Bloomberg, Press TV)",
+      "sources": ["Pakistan FM", "Bloomberg", "Press TV"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "mediation_channel",
-      "context": "Committee of Four (Pakistan, Turkey, Egypt, Saudi Arabia) created formal mechanism. Deputy PM Dar confirmed hosting 'direct US-Iran talks in coming days.' Iran NOT confirmed attendance. Pakistan's Hormuz deal executing: MV Multan + P-Akili crossing.",
+      "context": "Committee of Four (Pakistan, Turkey, Egypt, Saudi Arabia) created formal mechanism. Pakistan first to publicly confirm on record 'US-Iran indirect talks are taking place.' Rubio-Araghchi meeting in Pakistan could happen 'within days.' Pakistan's Hormuz deal executing: MV Multan + P-Akili crossing.",
       "directness": 1,
-      "last_activated": "2026-03-31",
-      "activation_count": 6,
+      "last_activated": "2026-04-01",
+      "activation_count": 7,
       "weight": 10.0
     },
     {
       "to": "united-states",
       "type": "mediation_channel",
-      "context": "Pakistan relaying US messages to Iran. Offered to host US-Iran talks. US envoy Witkoff presented 15-point plan via Pakistan.",
+      "context": "Pakistan relaying US messages to Iran. First to publicly confirm on record that indirect talks are taking place. Rubio-Araghchi meeting in Pakistan could happen 'within days.' US envoy Witkoff presented 15-point plan via Pakistan.",
       "directness": 1,
-      "last_activated": "2026-03-30",
-      "activation_count": 5,
-      "weight": 7.0
+      "last_activated": "2026-04-01",
+      "activation_count": 6,
+      "weight": 10.0
     },
     {
       "to": "saudi-arabia",

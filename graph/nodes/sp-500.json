@@ -3,14 +3,23 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-03-31",
-  "summary": "At 6,343.72 (-0.4%, -7.8% monthly). VIX dropped below 30 to 28.61 (-6.5%) on Trump 'willing to end war' headlines — technically significant as VIX >30 triggers institutional algo selling. SMH (semiconductors) -3.1% on TurboQuant + helium. Defense (ITA) -2.4% on peace headlines + Boeing NGAD + EU EDIP. KOSPI -4.3% leading indicator of semiconductor supply chain stress. Market pricing 52% probability of Fed HIKE by year-end (first time >50%). Gold regime shift, if confirmed, extends equity drawdown window.",
+  "last_updated": "2026-04-01",
+  "summary": "At 6,528.52 (+2.91%) — best day since May on Pezeshkian peace signal. VIX below 30 (25.25) = algo selling stops. IRGC threatens 18 US companies with deadline tonight — binary risk event. Rally built on rhetoric, not confirmed action. March saw multiple relief-crash cycles (March 23→28→30). Still -5.1% monthly. CRITICAL RISK: IRGC corporate threat deadline 20:00 Tehran. If executed, VIX back above 30 = cascade.",
   "current": {
-    "price": "6,343.72",
-    "delta_1d": "-0.4%",
-    "delta_1m": "-7.8%",
-    "delta_3m": "-7.8%"
+    "price": "6,528.52",
+    "delta_1d": "+2.91%",
+    "delta_1m": "-5.1%",
+    "delta_3m": "-4.8%",
+    "snapshot_note": "As of Apr 1"
   },
+  "price_snapshots": [
+    {
+      "date": "2026-04-01",
+      "price": "6,528.52",
+      "trigger": "Largest single-session rally since May — Pezeshkian peace signal",
+      "delta_context": "441 of 500 components green. VIX collapsed -17.5% to 25.25 (below 30 threshold). NASDAQ +3.83%, Dow +2.49%. Defense/shipping soft. SMH +5.8%. IRGC corporate threat deadline tonight = binary risk event."
+    }
+  ],
   "signals": [
     {
       "date": "2026-03-02",
@@ -54,6 +63,12 @@
       "content": "S&P 500 at 6,343.72 (-0.4%, -7.8% monthly). VIX dropped below 30 to 28.61 (-6.5%) on Trump 'willing to end war' headlines — technically significant as VIX >30 triggers institutional algo selling. SMH (semiconductors) -3.1% on TurboQuant + helium. Defense (ITA) -2.4% on peace headlines + Boeing NGAD + EU EDIP. KOSPI -4.3% is a leading indicator of semiconductor supply chain stress. Market pricing 52% probability of Fed HIKE by year-end (first time >50%). Gold regime shift, if confirmed, extends equity drawdown window. CONFIRMED.",
       "sources": ["yfinance", "CNBC"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-01",
+      "content": "S&P surged +2.91% to 6,528.52 — best day since May. Triggered by Iran's Pezeshkian telling EU he has 'necessary will' to end war. 441 of 500 components green. VIX collapsed -17.5% to 25.25 (below 30 institutional threshold — algo selling stops). NASDAQ +3.83% (Nvidia +5%, Meta +6%), Dow +2.49%. SMH +5.8% on helium relief. Defense/shipping soft (ITA flat, BOAT -0.14%, Frontline -0.77%). DXY dropped below 100 to 99.79. HOWEVER: IRGC threatened 18 named US companies (Apple, Google, Nvidia, JPMorgan) with deadline tonight 20:00 Tehran — if executed, VIX spikes back above 30 triggering algo selling cascade. Rally built on REPORTED peace signals, not confirmed de-escalation — same pattern that produced March 23 crash reversal. CONTRADICTORY: oil ALSO rose intraday to $118.60 before settling at $105 — Hormuz decoupling thesis. (Sources: Yahoo Finance, CNBC, Bloomberg)",
+      "sources": ["Yahoo Finance", "CNBC", "Bloomberg"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -62,8 +77,8 @@
       "type": "equity_market",
       "context": "Primary US equity benchmark. Reflecting war costs, inflation fears, and Fed uncertainty.",
       "directness": 1,
-      "last_activated": "2026-03-22",
-      "activation_count": 12,
+      "last_activated": "2026-04-01",
+      "activation_count": 13,
       "weight": 7.5
     },
     {
@@ -71,8 +86,8 @@
       "type": "rate_sensitivity",
       "context": "Market pricing 52% probability of Fed HIKE by year-end (first time >50%). Higher discount rates compress valuations. Fed trapped — can't cut or hike.",
       "directness": 1,
-      "last_activated": "2026-03-31",
-      "activation_count": 9,
+      "last_activated": "2026-04-01",
+      "activation_count": 10,
       "weight": 10.0
     },
     {
@@ -80,18 +95,18 @@
       "type": "earnings_risk",
       "context": "Oil spike driving cost inflation and margin compression. Gold regime shift extending equity drawdown window. Energy benefits but tech-heavy index suffers net.",
       "directness": 1,
-      "last_activated": "2026-03-31",
-      "activation_count": 9,
+      "last_activated": "2026-04-01",
+      "activation_count": 10,
       "weight": 10.0
     },
     {
       "to": "helium",
       "type": "supply_chain_risk",
-      "context": "SMH (semiconductors) -3.1% on TurboQuant + helium. KOSPI -4.3% leading indicator of semiconductor supply chain stress. Qatar Ras Laffan = 30-38% global helium removed.",
+      "context": "SMH +5.8% on helium relief from Pezeshkian peace signal. KOSPI +6.4% leading indicator. Qatar Ras Laffan = 30-38% global helium removed. Fabs still on 50% allocations.",
       "directness": 2,
-      "last_activated": "2026-03-31",
-      "activation_count": 4,
-      "weight": 6.0
+      "last_activated": "2026-04-01",
+      "activation_count": 5,
+      "weight": 7.5
     }
   ],
   "trigger_points": [
