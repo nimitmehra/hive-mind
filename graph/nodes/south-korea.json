@@ -4,13 +4,13 @@
   "type": "country",
   "created": "2026-03-28",
   "last_updated": "2026-04-02",
-  "summary": "KOSPI +8.44% to 5,479 on April 2 — strongest single-day rally in recent history (Seoul Economic Daily). Samsung +13%, SK Hynix +10%. Buy-side sidecar triggered within 7 minutes of opening. Institutions net-bought 4.03T won; retail net-sold 3.76T won. Most crisis-sensitive market bounced hardest — Korea was most punished major market (-20% in March) and experienced mean reversion. Relief drivers: de-escalation signals (Pezeshkian + Trump \"2-3 weeks\") → oil crash → Korea imports virtually ALL crude from Middle East (~80% relief), partial semiconductor relief on helium (Ras Laffan may resume, ~15%). Samsung foreign ownership had fallen to 48.6% (12.5-year low). Analysts warn: oil still above $100, Hormuz unresolved, TurboQuant HBM impact unsettled. Hana Securities: \"Full KOSPI rebound hinges on confirmation of oil price stabilization and shift to foreign net buying.\"",
+  "summary": "RELIEF RALLY REVERSED: KOSPI whiplashed from +8.44% to -4.1% (5,254) in 24 hours. Peace rally was false dawn. Helium rationing at 50% unchanged. Russia 'poised to ease' per Pravda but no confirmed deals. Market trading headlines, not fundamentals.",
   "current": {
-    "price": "KOSPI: 5,479",
-    "delta_1d": "+8.44%",
+    "price": "KOSPI: 5,254",
+    "delta_1d": "-4.1%",
     "delta_1m": "-5.4%",
     "delta_3m": "+27.1%",
-    "snapshot_note": "As of Apr 2 per Seoul Economic Daily. Prior close 5,052 (yf April 1 was 5,478.70 — note: Seoul Econ Daily says 5,070→5,479 = +8.44%)"
+    "snapshot_note": "As of Apr 2 — relief rally fully reversed. Whiplash from +8.44% to -4.1% in 24 hours."
   },
   "price_snapshots": [
     {
@@ -126,6 +126,16 @@
       "content": "Analysts warn rally may be premature: oil still above $100, Hormuz passage unresolved, TurboQuant's HBM impact unsettled. Hana Securities: \"Full KOSPI rebound hinges on confirmation of oil price stabilization and shift to foreign net buying.\" Fabs still on 50% helium allocations (confirmed rationing). Won at ~1,503 (weakened despite equity surge — foreign selling into strength on prior session). (Sources: Hana Securities)",
       "sources": [
         "Hana Securities"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "KOSPI reversed from +8.44% relief rally to -4.1% at 5,254 on April 2 — the entire peace rally was a false dawn. Samsung and SK hynix both giving back yesterday's gains. The triple cascade persists: helium rationing at 50% allocations (confirmed), energy dependence, foreign capital flight. Russia reported 'poised to ease global helium crunch' (Pravda) but no confirmed supply deals. The KOSPI whiplash (+8.4% then -4.1% in 24 hours) reflects a market trading on headline sentiment, not fundamentals — the helium supply crisis and fab exhaustion window are unchanged. (Sources: yfinance, TrendForce, Pravda Japan)",
+      "sources": [
+        "yfinance",
+        "TrendForce",
+        "Pravda Japan"
       ],
       "significance": "high"
     }
