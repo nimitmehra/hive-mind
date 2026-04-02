@@ -4,7 +4,7 @@
   "type": "institution",
   "created": "2026-03-23",
   "last_updated": "2026-04-02",
-  "summary": "STAGFLATION TRAP CONFIRMED BY ISM: Prices Index at 78.3 (highest since June 2022, 19.3-point surge in 2 months) but employment contracting — textbook stagflation. Can't cut (inflation) and can't hike (growth risk). Market pricing 52% probability of Fed HIKE by year-end for first time >50%. Bond market diverging from equity market: yields fell -2bps on peace day (pricing recession) while equities rallied +2.9% (pricing de-escalation). DXY at 99.54, below 100 — dollar weakness despite elevated yields confirms growth concerns dominating. Rate differential with ECB (3.5-3.75% vs 2.0%) persists. All three major central banks (Fed, ECB, RBI) remain frozen — global monetary policy paralysis.",
+  "summary": "STAGFLATION TRAP CONFIRMED BY ISM: Prices Index at 78.3 (highest since June 2022, 19.3-point surge in 2 months) but employment contracting — textbook stagflation. Can't cut (inflation) and can't hike (growth risk). Market pricing 52% probability of Fed HIKE by year-end for first time >50%. POST-ADDRESS: DXY surged back above 100 to 100.22 (+0.6%) as oil +8.3% → inflation expectations → dollar strengthening. The brief dip below 100 that supported gold is REVERSED. Bond-equity divergence deepening: 10Y at 4.32% barely moved while equities diverged globally. ISM employment contracting = stagflation, not growth. Rate differential with ECB (3.5-3.75% vs 2.0%) persists. All three major central banks (Fed, ECB, RBI) remain frozen.",
   "signals": [
     {
       "date": "2026-03-18",
@@ -47,6 +47,12 @@
       "content": "DXY fell to 99.54 (-0.42%), below the psychologically significant 100 level. Dollar weakness despite elevated yields is a growth-concern signal, not an inflation-relief signal. Provides mechanical support for gold ($4,758), oil, and other dollar-denominated commodities. The DXY-below-100 regime is the most parsimonious explanation for gold + equities rallying simultaneously.",
       "sources": ["TradingEconomics"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "POST-ADDRESS: DXY surged back above 100 to 100.22 (+0.6%) after Trump 'stone ages' address. Oil +8.3% → inflation expectations spiked → safe-haven dollar flow → DXY above 100. The brief dip below 100 that mechanically supported gold is REVERSED. Gold crashed -3.1% to $4,636 as the oil→inflation→dollar→gold-down channel reactivated. US 10Y at 4.32% (+0.2%) — barely moved, pricing neither inflation relief nor recession conviction. VIX surged +11.4% to 27.34 — approaching 30 institutional threshold. (Sources: yfinance, TradingEconomics)",
+      "sources": ["yfinance", "TradingEconomics"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -62,7 +68,7 @@
     {
       "to": "sp-500",
       "type": "discount_rate",
-      "context": "S&P +2.9% (Apr 1), -0.52% (Apr 2). VIX at 24.51 (two sessions below 30). Bond-equity divergence: equities pricing de-escalation, bonds pricing recession. ISM stagflation supports bond view. Fed still trapped — can't cut or hike.",
+      "context": "S&P +2.9% (Apr 1), -0.52% (Apr 2). VIX surged to 27.34 (+11.4%) — only 2.66 pts from 30 institutional threshold. Bond-equity divergence deepening. ISM stagflation supports bond view. Fed completely trapped.",
       "directness": 1,
       "last_activated": "2026-04-02",
       "activation_count": 11,
@@ -71,7 +77,7 @@
     {
       "to": "gold",
       "type": "rate_policy",
-      "context": "Gold regime shift CONFIRMED (3 sessions above $4,600). DXY at 99.54 provides mechanical support. Fed hike probability 52% but dollar weakening despite it — growth concerns override rate differential. Gold regime shift extends equity drawdown window.",
+      "context": "Gold regime shift CHALLENGED: gold crashed -3.1% to $4,636 as DXY surged back above 100 (100.22). Oil→inflation→dollar→gold-down channel reactivated. Gold only $36 above $4,600 threshold. Fed hike probability 52%. If gold breaks $4,600, regime shift invalidated.",
       "directness": 1,
       "last_activated": "2026-04-02",
       "activation_count": 8,
@@ -80,7 +86,7 @@
     {
       "to": "brent-crude",
       "type": "inflation_input",
-      "context": "Oil pulled back from $118 to $102 but still above $100 = inflation stays elevated = Fed can't cut. ISM Prices 78.3 confirms oil-driven cost pressure across 17 of 18 industries. Even at $102, well above the $85 threshold where Fed could resume cuts.",
+      "context": "Oil surged back to $109 post-address. ISM Prices 78.3 confirms oil-driven cost pressure across 17 of 18 industries. At $109, further above the $85 threshold where Fed could resume cuts. Stagflation trap deepens.",
       "directness": 1,
       "last_activated": "2026-04-02",
       "activation_count": 11,

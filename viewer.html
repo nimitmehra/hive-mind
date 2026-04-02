@@ -294,13 +294,13 @@ const GRAPH_DATA = {
       "type": "commodity",
       "created": "2026-03-23",
       "last_updated": "2026-04-02",
-      "summary": "POST-ADDRESS REVERSAL: Brent surged +6.1% to $107.29. Trump 'hit them extremely hard' overwhelmed '2-3 weeks' exit. Peace rally fully reversed. Goldman: $100 is floor not ceiling. April 5 OPEC+ and April 6 pause expiry are binary events ahead.",
+      "summary": "POST-ADDRESS REVERSAL: Brent surged +8.3% to $109.57 \u2014 WAR PREMIUM RESTORED. Trump 'hit them extremely hard' + 'stone ages' overwhelmed '2-3 weeks' exit. The April 1 -14% peace rally ($118\u2192$102) mostly reversed. Goldman: $100 is floor not ceiling. Intraday arc: $98.52 low (first $100 breach in 13 days) \u2192 $101.97 close \u2192 $109.57 futures (address reaction). April 5 OPEC+ and April 6 pause expiry are binary events.",
       "current": {
-        "price": "$107.29/bbl",
-        "delta_1d": "+6.1%",
-        "delta_1m": "+31.8%",
-        "delta_3m": "+74.3%",
-        "snapshot_note": "As of Apr 2 post-address \u2014 surged from $101.97 after Trump primetime speech"
+        "price": "$109.57/bbl",
+        "delta_1d": "+8.3%",
+        "delta_1m": "+34.6%",
+        "delta_3m": "+80.4%",
+        "snapshot_note": "As of Apr 2 post-address futures \u2014 war premium snapped back on Trump speech"
       },
       "price_snapshots": [
         {
@@ -543,12 +543,13 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-04-02",
-          "content": "POST-ADDRESS REVERSAL: Brent surged +6.1% to $107.29 after Trump's primetime address vowing to 'hit Iran extremely hard' and 'send them to the stone ages.' The April 1 peace rally ($118\u2192$101) was completely reversed \u2014 oil gave up all losses and shifted higher. Market heard 'war continues' louder than 'war ends soon.' Intraday range $98.52-$107+ shows extreme volatility. Goldman: $100 is 'a floor, not a ceiling.' April 5 OPEC+ and April 6 energy pause expiry are binary events. (Sources: CNBC, CNN, Bloomberg, yfinance)",
+          "content": "POST-ADDRESS REVERSAL: Brent surged +8.3% to $109.57 after Trump's primetime address vowing to 'hit Iran extremely hard' and 'send them to the stone ages.' This is WAR PREMIUM RESTORATION, not new supply disruption \u2014 Hormuz status unchanged. The April 1 peace rally ($118\u2192$101) was largely reversed. Market heard 'war continues, possibly escalates' louder than '2-3 weeks to end.' WTI surged +9.2% to $109.30. Intraday arc: $98.52 (first $100 breach in 13 days) \u2192 $101.97 regular close \u2192 $109.57 futures (address reaction). If April 6 deadline expires without extension, Brent spikes to $115-120 within hours. (Sources: CNBC, CNN, Bloomberg, yfinance, Fortune)",
           "sources": [
             "CNBC",
             "CNN",
             "Bloomberg",
-            "yfinance"
+            "yfinance",
+            "Fortune"
           ],
           "significance": "high"
         }
@@ -566,7 +567,7 @@ const GRAPH_DATA = {
         {
           "to": "india",
           "type": "import_cost",
-          "context": "India imports 85-90% of crude. At $102/bbl, massive additional import cost. Direct pressure on CAD, rupee, inflation. RBI MPC April 6-8 must weigh oil relief vs structural Hormuz disruption.",
+          "context": "India imports 85-90% of crude. At $109/bbl post-address, massive additional import cost. Every $10/bbl increase = ~$15B additional import bill. RBI MPC April 6-8 facing 'trade-off central banks dislike most.'",
           "directness": 1,
           "last_activated": "2026-04-02",
           "activation_count": 19,
@@ -575,7 +576,7 @@ const GRAPH_DATA = {
         {
           "to": "inr-usd",
           "type": "cost_pressure",
-          "context": "Higher oil = more dollar demand for imports = rupee depreciation. Oil pulling back from $118 to $102 provides relief but Hormuz structural floor means no return to $70 pre-war.",
+          "context": "Higher oil = more dollar demand for imports = rupee depreciation. Post-address oil back at $109 removes the $102 relief. Hormuz structural floor means no return to $70 pre-war. INR at 93.14 (offshore).",
           "directness": 1,
           "last_activated": "2026-04-02",
           "activation_count": 16,
@@ -584,7 +585,7 @@ const GRAPH_DATA = {
         {
           "to": "fed",
           "type": "inflation_input",
-          "context": "Oil above $100 = inflation stays elevated = Fed can't cut. ISM Prices Index at 78.3 (highest since June 2022). Even with pullback from $118 to $102, still well above $85 threshold where Fed could resume cuts. Stagflation trap persists.",
+          "context": "Oil at $109 post-address = inflation stays elevated = Fed can't cut. ISM Prices Index at 78.3 (highest since June 2022). Oil back above $105 eliminates any rate-cut pathway. Stagflation trap deepens.",
           "directness": 1,
           "last_activated": "2026-04-02",
           "activation_count": 14,
@@ -593,7 +594,7 @@ const GRAPH_DATA = {
         {
           "to": "sp-500",
           "type": "earnings_risk",
-          "context": "Oil pullback from $118 to $102 relieves margin compression. S&P +2.9% (Apr 1), -0.52% (Apr 2). XLE underperforming confirms de-escalation trades hurt producers, help consumers.",
+          "context": "Post-address oil at $109 re-compresses margins. S&P +2.9% (Apr 1), -0.52% (Apr 2). XLE -3.7% while oil +8.3% = energy stocks trading 'peak oil' / demand destruction, not tracking crude higher.",
           "directness": 1,
           "last_activated": "2026-04-02",
           "activation_count": 12,
@@ -620,7 +621,7 @@ const GRAPH_DATA = {
         {
           "to": "rbi",
           "type": "policy_pressure",
-          "context": "Oil above $100 = India inflation = RBI can't cut rates to support growth. RBI MPC April 6-8 must decide with oil at $102 (down from $118 but still elevated). Stagflation trap persists.",
+          "context": "Oil at $109 post-address = India inflation = RBI can't cut. RBI MPC April 6-8 must decide with oil back near pre-crash levels. India 10Y at 7.00-7.04%. Stagflation trap deepens.",
           "directness": 2,
           "last_activated": "2026-04-02",
           "activation_count": 12,
@@ -1140,7 +1141,7 @@ const GRAPH_DATA = {
       "type": "institution",
       "created": "2026-03-23",
       "last_updated": "2026-04-02",
-      "summary": "STAGFLATION TRAP CONFIRMED BY ISM: Prices Index at 78.3 (highest since June 2022, 19.3-point surge in 2 months) but employment contracting \u2014 textbook stagflation. Can't cut (inflation) and can't hike (growth risk). Market pricing 52% probability of Fed HIKE by year-end for first time >50%. Bond market diverging from equity market: yields fell -2bps on peace day (pricing recession) while equities rallied +2.9% (pricing de-escalation). DXY at 99.54, below 100 \u2014 dollar weakness despite elevated yields confirms growth concerns dominating. Rate differential with ECB (3.5-3.75% vs 2.0%) persists. All three major central banks (Fed, ECB, RBI) remain frozen \u2014 global monetary policy paralysis.",
+      "summary": "STAGFLATION TRAP CONFIRMED BY ISM: Prices Index at 78.3 (highest since June 2022, 19.3-point surge in 2 months) but employment contracting \u2014 textbook stagflation. Can't cut (inflation) and can't hike (growth risk). Market pricing 52% probability of Fed HIKE by year-end for first time >50%. POST-ADDRESS: DXY surged back above 100 to 100.22 (+0.6%) as oil +8.3% \u2192 inflation expectations \u2192 dollar strengthening. The brief dip below 100 that supported gold is REVERSED. Bond-equity divergence deepening: 10Y at 4.32% barely moved while equities diverged globally. ISM employment contracting = stagflation, not growth. Rate differential with ECB (3.5-3.75% vs 2.0%) persists. All three major central banks (Fed, ECB, RBI) remain frozen.",
       "signals": [
         {
           "date": "2026-03-18",
@@ -1207,6 +1208,15 @@ const GRAPH_DATA = {
             "TradingEconomics"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-02",
+          "content": "POST-ADDRESS: DXY surged back above 100 to 100.22 (+0.6%) after Trump 'stone ages' address. Oil +8.3% \u2192 inflation expectations spiked \u2192 safe-haven dollar flow \u2192 DXY above 100. The brief dip below 100 that mechanically supported gold is REVERSED. Gold crashed -3.1% to $4,636 as the oil\u2192inflation\u2192dollar\u2192gold-down channel reactivated. US 10Y at 4.32% (+0.2%) \u2014 barely moved, pricing neither inflation relief nor recession conviction. VIX surged +11.4% to 27.34 \u2014 approaching 30 institutional threshold. (Sources: yfinance, TradingEconomics)",
+          "sources": [
+            "yfinance",
+            "TradingEconomics"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -1222,7 +1232,7 @@ const GRAPH_DATA = {
         {
           "to": "sp-500",
           "type": "discount_rate",
-          "context": "S&P +2.9% (Apr 1), -0.52% (Apr 2). VIX at 24.51 (two sessions below 30). Bond-equity divergence: equities pricing de-escalation, bonds pricing recession. ISM stagflation supports bond view. Fed still trapped \u2014 can't cut or hike.",
+          "context": "S&P +2.9% (Apr 1), -0.52% (Apr 2). VIX surged to 27.34 (+11.4%) \u2014 only 2.66 pts from 30 institutional threshold. Bond-equity divergence deepening. ISM stagflation supports bond view. Fed completely trapped.",
           "directness": 1,
           "last_activated": "2026-04-02",
           "activation_count": 11,
@@ -1231,7 +1241,7 @@ const GRAPH_DATA = {
         {
           "to": "gold",
           "type": "rate_policy",
-          "context": "Gold regime shift CONFIRMED (3 sessions above $4,600). DXY at 99.54 provides mechanical support. Fed hike probability 52% but dollar weakening despite it \u2014 growth concerns override rate differential. Gold regime shift extends equity drawdown window.",
+          "context": "Gold regime shift CHALLENGED: gold crashed -3.1% to $4,636 as DXY surged back above 100 (100.22). Oil\u2192inflation\u2192dollar\u2192gold-down channel reactivated. Gold only $36 above $4,600 threshold. Fed hike probability 52%. If gold breaks $4,600, regime shift invalidated.",
           "directness": 1,
           "last_activated": "2026-04-02",
           "activation_count": 8,
@@ -1240,7 +1250,7 @@ const GRAPH_DATA = {
         {
           "to": "brent-crude",
           "type": "inflation_input",
-          "context": "Oil pulled back from $118 to $102 but still above $100 = inflation stays elevated = Fed can't cut. ISM Prices 78.3 confirms oil-driven cost pressure across 17 of 18 industries. Even at $102, well above the $85 threshold where Fed could resume cuts.",
+          "context": "Oil surged back to $109 post-address. ISM Prices 78.3 confirms oil-driven cost pressure across 17 of 18 industries. At $109, further above the $85 threshold where Fed could resume cuts. Stagflation trap deepens.",
           "directness": 1,
           "last_activated": "2026-04-02",
           "activation_count": 11,
@@ -1413,13 +1423,13 @@ const GRAPH_DATA = {
       "type": "commodity",
       "created": "2026-03-23",
       "last_updated": "2026-04-02",
-      "summary": "REGIME SHIFT CONFIRMED \u2014 3 consecutive sessions above $4,600 ($4,610 Mar 31, $4,775 Apr 1, $4,758 Apr 2). Market moved from 'inflation event' (cash is king, gold down despite war) to 'structural inflation hedge.' DXY below 100 (99.54) provides mechanical support. US 10Y yield fell to 4.30% \u2014 bond market shifting from inflation worry to recession worry. CRITICAL DIVERGENCE: silver NOT confirming (+0.8%); gold/silver ratio at 63:1 (elevated). If this were a broad inflation trade, silver would run at 1.5-2x gold's leverage \u2014 this is a PURE haven/central bank bid (585 tonnes/quarter in 2026 per JP Morgan), not broad precious metals. Gold + equities rallying simultaneously is unusual \u2014 most parsimonious explanation is DXY below 100 mechanically lifting both. If peace confirms convincingly, gold should fall to $4,400-4,500.",
+      "summary": "REGIME SHIFT CHALLENGED: Gold dropped -3.1% to $4,636 on April 2 post-address \u2014 barely holding above $4,600 threshold ($36 margin). The 'inflation event' channel REACTIVATED: Trump 'stone ages' address drove oil +8.3%, DXY back above 100 (100.22), gold crushed via oil\u2192inflation\u2192dollar\u2192gold-down mechanism. The SAME mechanism that drove gold -16% from $5,300 to $4,372 in March. Three consecutive sessions above $4,600 still technically intact ($4,610, $4,775, $4,636) but the regime shift is one bad session from invalidation. Silver -6.7% (2.2x gold's decline) CONFIRMS industrial demand destruction \u2014 recession signal, not inflation trade. If gold breaks below $4,600, regime shift thesis INVALIDATED and back to 'inflation event' regime where cash is king.",
       "current": {
-        "price": "$4,758/oz",
-        "delta_1d": "+1.3%",
-        "delta_1m": "-7.8%",
-        "delta_3m": "+9.1%",
-        "snapshot_note": "As of Apr 2 close \u2014 Session 3 of regime shift confirmed"
+        "price": "$4,636/oz",
+        "delta_1d": "-3.1%",
+        "delta_1m": "-9.5%",
+        "delta_3m": "+7.5%",
+        "snapshot_note": "As of Apr 2 post-address \u2014 regime shift barely holding ($36 above $4,600 threshold)"
       },
       "price_snapshots": [
         {
@@ -1460,9 +1470,9 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-04-02",
-          "price": "$4,758/oz",
-          "trigger": "REGIME SHIFT CONFIRMED \u2014 Session 3 above $4,600 threshold",
-          "delta_context": "Third consecutive close above $4,600 ($4,610, $4,775, $4,758). +1.3% on day. DXY at 99.54 (below 100). US 10Y at 4.30%. Silver still NOT confirming \u2014 gold/silver ratio 63:1 elevated. Pure haven/central bank bid, not broad precious metals."
+          "price": "$4,636/oz",
+          "trigger": "REGIME SHIFT CHALLENGED \u2014 post-address oil spike reactivated inflation\u2192dollar\u2192gold-down channel",
+          "delta_context": "Crashed -3.1% from $4,775 to $4,636 after Trump 'stone ages' address. DXY back above 100 (100.22). Oil +8.3%. Silver -6.7% = recession signal. Three sessions above $4,600 technically intact ($4,610, $4,775, $4,636) but only $36 margin. One more bad session invalidates regime shift."
         }
       ],
       "signals": [
@@ -1582,13 +1592,24 @@ const GRAPH_DATA = {
             "multiple market"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-02",
+          "content": "POST-ADDRESS REVERSAL: Gold crashed -3.1% from $4,775 to $4,636 after Trump's primetime 'stone ages' address. The 'inflation event' channel REACTIVATED: oil surged +8.3% to $109.57 \u2192 inflation expectations spiked \u2192 DXY rose +0.6% back above 100 (100.22) \u2192 real yield competition \u2192 gold crushed. This is the EXACT mechanism that drove gold -16% from $5,300 to $4,372 in March. Silver -6.7% (2.2x gold's decline) confirms industrial demand destruction \u2014 recession pricing, not haven trade. Broad metals selloff: platinum -2.5%, palladium -1.0%, copper -1.7%, aluminum -1.9%. Gold at $4,636 is STILL above the $4,600 regime shift threshold \u2014 but barely ($36 margin). If gold breaks below $4,600, the 'structural inflation hedge' regime shift is INVALIDATED. The address-driven oil spike directly threatens the regime that was 'confirmed' just hours earlier. (Sources: yfinance, LiteFinance, Fortune, TradingEconomics)",
+          "sources": [
+            "yfinance",
+            "LiteFinance",
+            "Fortune",
+            "TradingEconomics"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
         {
           "to": "fed",
           "type": "rate_inverse",
-          "context": "DXY below 100 providing mechanical gold support. Fed trapped in stagflation \u2014 ISM Prices 78.3 but employment contracting. 52% hike probability. Dollar weakness despite elevated yields = growth concerns dominating.",
+          "context": "DXY back above 100 (100.22) REMOVING mechanical gold support. Fed trapped in stagflation \u2014 ISM Prices 78.3 but employment contracting. 52% hike probability. Oil +8.3% reactivated inflation\u2192dollar\u2192gold-down channel.",
           "directness": 1,
           "last_activated": "2026-04-02",
           "activation_count": 9,
@@ -1597,7 +1618,7 @@ const GRAPH_DATA = {
         {
           "to": "brent-crude",
           "type": "inflation_link",
-          "context": "Regime shift confirmed: gold no longer inversely tracking oil. Both oil and gold responding to structural Hormuz disruption. Oil crashed 14% but gold held \u2014 gold now hedging permanent supply disruption, not tracking oil-dollar channel.",
+          "context": "Regime shift CHALLENGED: oil +8.3% post-address drove gold -3.1% via inflation\u2192dollar\u2192gold-down channel \u2014 the SAME inverse pattern from March. Three sessions above $4,600 still technically intact but gold at $4,636 with only $36 margin. If oil stays above $105 and DXY above 100, gold regime shift likely fails.",
           "directness": 2,
           "last_activated": "2026-04-02",
           "activation_count": 9,
@@ -1622,7 +1643,7 @@ const GRAPH_DATA = {
             "sp-500",
             "nifty-50"
           ],
-          "mechanism": "CONFIRMED April 2: Three consecutive sessions above $4,600 ($4,610 Mar 31, $4,775 Apr 1, $4,758 Apr 2). Regime shift from 'inflation event' (cash is king) to 'structural inflation hedge.' Gold + cash work, equities face extended drawdown risk. Silver NOT confirming (gold/silver 63:1) \u2014 pure haven/central bank bid, not broad precious metals.",
+          "mechanism": "Three consecutive sessions above $4,600 ($4,610 Mar 31, $4,775 Apr 1, $4,636 Apr 2 post-address). Technically still active but CHALLENGED: gold crashed -3.1% post-address as oil\u2192dollar\u2192gold-down channel reactivated. Only $36 above $4,600 threshold. If gold breaks below $4,600, regime shift INVALIDATED and back to inflation-event regime. Silver -6.7% (2.2x gold decline) = industrial demand destruction/recession pricing. DXY back above 100 removes mechanical support.",
           "added": "2026-03-29",
           "status": "active"
         },
@@ -1644,13 +1665,13 @@ const GRAPH_DATA = {
       "type": "commodity",
       "created": "2026-03-23",
       "last_updated": "2026-04-02",
-      "summary": "HELIUM SPOT DOUBLED, 50% ALLOCATIONS CONFIRMED, APRIL 7-10 ANNOUNCEMENT WINDOW: Spot prices have doubled; 30-38% supply offline from Ras Laffan force majeure. ~200 containers stranded. Samsung/SK Hynix import ~65% from Qatar. 'Few weeks' to real shortage hitting per Fortune/Tom's Hardware. Samsung claims 'sufficient supply until June' but 50% allocations are CONFIRMED. No formal production cut announcement yet \u2014 April 7-10 remains expected window. KOSPI +8.44% on April 2 (Samsung +13%, SK Hynix +10%) \u2014 relief rally on peace signal eases PART of helium concern if Ras Laffan resumes. But fabs still at 50% allocation. Samsung foreign ownership fell from 52.6% to 48.6% (12.5-year low).",
+      "summary": "HELIUM CRISIS UNCHANGED \u2014 RELIEF RALLY WAS FALSE DAWN: Spot prices doubled; 30-38% supply offline from Ras Laffan. ~200 containers stranded. Fabs at 50% allocations CONFIRMED. Samsung claims 'sufficient until June' but SK Hynix more vulnerable. KOSPI whiplashed: +8.44% relief rally \u2192 -4.5% reversal (Samsung -5.91%, SK Hynix -6.83%) as Trump 'stone ages' address killed peace thesis. The helium crisis is FUNDAMENTALLY UNCHANGED \u2014 no new supply, no Ras Laffan restart, no Hormuz opening. April 7-10 remains expected production cut announcement window. 5-8 days to resolution or formal halt.",
       "current": {
         "price": "Spot prices doubled; 50% allocation cuts confirmed",
-        "delta_1d": "KOSPI +8.44%, Samsung +13%, SK Hynix +10% (relief rally)",
+        "delta_1d": "KOSPI -4.5% (Samsung -5.91%, SK Hynix -6.83%) \u2014 relief rally fully reversed",
         "delta_1m": "Rationing since early April",
         "delta_3m": "From full supply to 50% allocations, spot doubled",
-        "snapshot_note": "As of Apr 2. Samsung foreign ownership 52.6%\u219248.6% (12.5yr low)"
+        "snapshot_note": "As of Apr 2 post-address. Relief rally was false dawn. Fabs still at 50% allocation."
       },
       "signals": [
         {
@@ -2115,7 +2136,7 @@ const GRAPH_DATA = {
       "type": "country",
       "created": "2026-03-23",
       "last_updated": "2026-04-02",
-      "summary": "PEACE RALLY FALSE DAWN: Nifty -2.0% to 22,217 on April 2 \u2014 Trump speech reversed recovery. Bank Nifty -2.7%. FPIs still selling (\u20b98,331 cr Apr 1). 200-DMA at 22,000 only 1% away. RBI MPC Apr 6-8. April 5-8 densest event cluster of war: OPEC+, energy pause, RBI, helium. Oil at $107 keeps pressure intense.",
+      "summary": "PEACE RALLY FALSE DAWN: Nifty -2.0% to 22,217 on April 2 \u2014 Trump 'stone ages' speech reversed recovery. Bank Nifty -2.7%. Oil back at $109.57 (+8.3%). India in WORST position of any major economy: 85-90% crude imported, FPI flight (Rs 1.8T FY26, worst since 1992), currency defense exhausted (NOP cap failed in 4 hours), rate trap (can't cut inflation, can't hike growth). 200-DMA at 22,000 \u2014 only 1% buffer. April 5-8: OPEC+, energy pause, RBI MPC, NOP deadline \u2014 four binary events in 8 days.",
       "signals": [
         {
           "date": "2026-03-02",
@@ -3367,7 +3388,7 @@ const GRAPH_DATA = {
       "type": "institution",
       "created": "2026-03-28",
       "last_updated": "2026-04-02",
-      "summary": "PATTERN ESTABLISHED \u2014 MAXIMALIST THREATS, MINIMALIST EXECUTION: Corporate deadline (April 1, 20:00 Tehran) resulted in single AWS strike at Batelco facility in Bahrain \u2014 NOT strikes on all 18 named companies. University deadline (Mar 30) = no attack. Corporate deadline (Apr 1) = one facility. S&P +2.9% = market discounting IRGC credibility. POLITICAL CONSOLIDATION: IRGC has effectively sidelined Pezeshkian \u2014 blocking presidential appointments, controlling information flow to Supreme Leader via military council, influencing top leader appointments. 'Complete political deadlock.' MISSILE ADAPTATION: fire rate <25/day (from 480 Day 1) but pivoted to precision targeting of civilian/commercial infrastructure \u2014 data centers, desalination plants, tankers, airports. Hit rate INCREASING despite volume decline. Quality over quantity.",
+      "summary": "PATTERN ESTABLISHED \u2014 MAXIMALIST THREATS, MINIMALIST EXECUTION: Corporate deadline (April 1, 20:00 Tehran) resulted in single AWS strike at Batelco facility in Bahrain \u2014 NOT strikes on all 18 named companies. University deadline (Mar 30) = no attack. Corporate deadline (Apr 1) = one facility. S&P +0.7% on April 1 = market discounting IRGC credibility. POLITICAL CONSOLIDATION: IRGC has effectively sidelined Pezeshkian \u2014 blocking presidential appointments, controlling information flow to Supreme Leader via military council, influencing top leader appointments. 'Complete political deadlock.' MISSILE ADAPTATION: fire rate <25/day (from 480 Day 1) but pivoted to precision targeting of civilian/commercial infrastructure \u2014 data centers, desalination plants, tankers, airports. Hit rate INCREASING despite volume decline. Quality over quantity.",
       "signals": [
         {
           "date": "2026-03-05",
@@ -3475,7 +3496,7 @@ const GRAPH_DATA = {
         },
         {
           "date": "2026-04-02",
-          "content": "Corporate threat deadline (April 1, 20:00 Tehran) resulted in single AWS strike at Batelco telecom facility in Hamala, Bahrain \u2014 NOT strikes on all 18 named companies. Pattern established: maximalist threat, minimalist execution. University deadline (Mar 30 noon) = no attack. Corporate deadline (Apr 1) = one AWS facility. Market response: S&P +2.9% despite threat = market discounting IRGC credibility. (Sources: Free Press Journal, Gizmodo, Bahrain Interior Ministry)",
+          "content": "Corporate threat deadline (April 1, 20:00 Tehran) resulted in single AWS strike at Batelco telecom facility in Hamala, Bahrain \u2014 NOT strikes on all 18 named companies. Pattern established: maximalist threat, minimalist execution. University deadline (Mar 30 noon) = no attack. Corporate deadline (Apr 1) = one AWS facility. Market response: S&P +0.7% on April 1 despite threat = market discounting IRGC credibility. (Sources: Free Press Journal, Gizmodo, Bahrain Interior Ministry)",
           "sources": [
             "Free Press Journal",
             "Gizmodo",
@@ -4285,7 +4306,7 @@ const GRAPH_DATA = {
       "type": "index",
       "created": "2026-03-23",
       "last_updated": "2026-04-02",
-      "summary": "PEACE RALLY REVERSED: Nifty fell -2.0% to 22,217 on April 2 after Trump 'hit them hard' speech. Bank Nifty -2.7%. April 1 recovery was false dawn. Oil back at $107. FPI selling continues. RBI MPC April 6-8 is next catalyst. 200-DMA at 22,000 \u2014 only 1% buffer.",
+      "summary": "PEACE RALLY REVERSED: Nifty fell -2.0% to 22,217 on April 2 after Trump 'stone ages' speech. Bank Nifty -2.7% (PSU banks led: Union -6.55%, Canara -5.21%, BoB -5.07%). Oil back at $109.57 (+8.3%). FPI selling continues (Rs 8,331 cr on Apr 1 alone). 200-DMA at 22,000 \u2014 ONLY 1% BUFFER. Break triggers algo cascade. RBI MPC April 6-8, NOP deadline April 10, OPEC+ April 5, energy pause April 6 \u2014 densest binary cluster of the war.",
       "current": {
         "price": "22,217",
         "delta_1d": "-2.0%",
@@ -5515,13 +5536,13 @@ const GRAPH_DATA = {
       "type": "country",
       "created": "2026-03-28",
       "last_updated": "2026-04-02",
-      "summary": "RELIEF RALLY REVERSED: KOSPI whiplashed from +8.44% to -4.1% (5,254) in 24 hours. Peace rally was false dawn. Helium rationing at 50% unchanged. Russia 'poised to ease' per Pravda but no confirmed deals. Market trading headlines, not fundamentals.",
+      "summary": "RELIEF RALLY REVERSED \u2014 TRIPLE HIT: KOSPI crashed -4.5% to 5,234 after +8.44% rally the day before. Samsung -5.91%, SK Hynix -6.83% \u2014 semiconductor heavyweights cratering on Trump 'stone ages' address. Three drivers: (1) Trump hawkish address restored war premium (~3.0%), (2) Korea CPI March 2.2% with petroleum +9.9% \u2014 BOK cuts pushed back (~1.0%), (3) Won weakened to 1,516.78 \u2014 foreign selling (~0.5%). KOSPI is the single most exposed developed market index to the helium cascade. Fabs still at 50% allocations. The +8.44%\u2192-4.5% whiplash in 24 hours = market trading headlines, not fundamentals.",
       "current": {
-        "price": "KOSPI: 5,254",
-        "delta_1d": "-4.1%",
-        "delta_1m": "-5.4%",
-        "delta_3m": "+27.1%",
-        "snapshot_note": "As of Apr 2 \u2014 relief rally fully reversed. Whiplash from +8.44% to -4.1% in 24 hours."
+        "price": "KOSPI: 5,234",
+        "delta_1d": "-4.5%",
+        "delta_1m": "+2.8%",
+        "delta_3m": "+21.5%",
+        "snapshot_note": "As of Apr 2 \u2014 relief rally fully reversed. Samsung -5.91%, SK Hynix -6.83%."
       },
       "price_snapshots": [
         {
@@ -5700,13 +5721,13 @@ const GRAPH_DATA = {
       "type": "index",
       "created": "2026-03-23",
       "last_updated": "2026-04-02",
-      "summary": "At 6,541 (-0.52% Apr 2) after +2.91% rally Apr 1. VIX at 24.51 \u2014 two consecutive sessions below 30 reduces cascade selling risk. Market explicitly discounted IRGC corporate threat credibility (university deadline Mar 30 \u2192 no attack; corporate deadline Apr 1 \u2192 single AWS hit; market rallied through both). HOWEVER: bond-equity divergence emerging \u2014 10Y yield FELL (-2bps to 4.30%) on peace day, pricing growth deterioration/recession while equities celebrate de-escalation. ISM Prices Index 78.3 (highest since June 2022) with employment in contraction = STAGFLATION signal. When bond and equity markets diverge, bonds usually right. April 6 energy strike deadline could spike VIX back above 30 in a single session.",
+      "summary": "POST-ADDRESS SCHIZOPHRENIC STATE: US market diverged from Asia/Europe. S&P 6,541 (-0.52%) but VIX surged +11.4% to 27.34. Asia/Europe heard 'war escalation' (KOSPI -4.5%, DAX -2.3%, Nikkei -2.4%). US heard 'war ending shortly' (defense +2.2%, semis +2.2%). Bond-equity divergence DEEPENING: 10Y at 4.32% barely moved \u2014 NOT celebrating. ISM Prices 78.3 (highest since June 2022) + employment contracting = STAGFLATION. When bonds and equities disagree, bonds usually right. VIX at 27.34 is only 2.66 points from the 30 institutional algo-selling trigger \u2014 one bad headline away.",
       "current": {
         "price": "6,541",
         "delta_1d": "-0.52%",
-        "delta_1m": "-5.1%",
-        "delta_3m": "-4.8%",
-        "snapshot_note": "As of Apr 2 \u2014 VIX 24.51"
+        "delta_1m": "-3.5%",
+        "delta_3m": "-4.1%",
+        "snapshot_note": "As of Apr 2 \u2014 VIX surged to 27.34 (+11.4%), approaching 30 threshold"
       },
       "price_snapshots": [
         {
@@ -5796,6 +5817,15 @@ const GRAPH_DATA = {
           "sources": [
             "FRED",
             "ISM"
+          ],
+          "significance": "high"
+        },
+        {
+          "date": "2026-04-02",
+          "content": "POST-ADDRESS: VIX surged +11.4% to 27.34 from 24.51 \u2014 approaching the 30 institutional threshold (only 2.66 points away). Trump 'stone ages' address restored war uncertainty, reversing VIX's two consecutive sessions below 30. US market interpretation DIVERGED from Asia/Europe: KOSPI -4.5%, DAX -2.3%, Nikkei -2.4% heard 'war escalation.' US selectively bought defense (ITA +2.2%, LMT +2.2%) and tech (SMH +2.2%, NASDAQ +1.2%) while selling energy (XLE -3.7%, Exxon -5.2%). The widest US/Asia interpretation divergence since war began. Bond market sided with Asia \u2014 10Y at 4.32% barely moved. One of these interpretations is wrong. (Sources: Cboe, yfinance, multiple market data)",
+          "sources": [
+            "Cboe",
+            "yfinance"
           ],
           "significance": "high"
         }
@@ -6936,13 +6966,13 @@ const GRAPH_DATA = {
       "type": "index",
       "created": "2026-03-23",
       "last_updated": "2026-04-02",
-      "summary": "At 4.30% (-2bps Apr 2). UNUSUAL for second consecutive session: yields FELL on peace signal days \u2014 should rise when safe-haven demand drops. Bond market shifting from 'inflation worry' to 'recession worry.' Long end falling while short end stable (2Y at 3.61%) = curve pricing GROWTH DETERIORATION, not inflation relief. ISM Prices Index at 78.3 (highest since June 2022, 19.3-point surge in 2 months) with employment in contraction = textbook STAGFLATION. Market pricing 52% probability of Fed HIKE by year-end (first time >50%). Bond-equity divergence is the critical risk signal \u2014 when bonds and equities disagree, bonds are usually right.",
+      "summary": "POST-ADDRESS: 4.32% (+0.2%) \u2014 bond market BARELY MOVED despite Trump 'stone ages' address. This is the most important signal: bonds did NOT reprice war escalation OR de-escalation. 10Y has been flat-to-down for two days while equities and oil whipsawed. Bond market pricing recession/stagflation, not war dynamics. ISM Prices Index 78.3 (highest since June 2022) with employment contracting = textbook stagflation. Market pricing 52% Fed HIKE probability. When bonds and equities disagree, bonds usually right.",
       "current": {
-        "price": "4.30%",
-        "delta_1d": "-2bps",
+        "price": "4.32%",
+        "delta_1d": "+0.2%",
         "delta_1m": "+6.5%",
-        "delta_3m": "+3.6%",
-        "snapshot_note": "As of Apr 2 \u2014 2Y at 3.61%"
+        "delta_3m": "+3.2%",
+        "snapshot_note": "As of Apr 2 post-address \u2014 barely moved despite dramatic price action elsewhere"
       },
       "signals": [
         {

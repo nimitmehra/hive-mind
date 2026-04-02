@@ -4,13 +4,13 @@
   "type": "index",
   "created": "2026-03-23",
   "last_updated": "2026-04-02",
-  "summary": "At 6,541 (-0.52% Apr 2) after +2.91% rally Apr 1. VIX at 24.51 — two consecutive sessions below 30 reduces cascade selling risk. Market explicitly discounted IRGC corporate threat credibility (university deadline Mar 30 → no attack; corporate deadline Apr 1 → single AWS hit; market rallied through both). HOWEVER: bond-equity divergence emerging — 10Y yield FELL (-2bps to 4.30%) on peace day, pricing growth deterioration/recession while equities celebrate de-escalation. ISM Prices Index 78.3 (highest since June 2022) with employment in contraction = STAGFLATION signal. When bond and equity markets diverge, bonds usually right. April 6 energy strike deadline could spike VIX back above 30 in a single session.",
+  "summary": "POST-ADDRESS SCHIZOPHRENIC STATE: US market diverged from Asia/Europe. S&P 6,541 (-0.52%) but VIX surged +11.4% to 27.34. Asia/Europe heard 'war escalation' (KOSPI -4.5%, DAX -2.3%, Nikkei -2.4%). US heard 'war ending shortly' (defense +2.2%, semis +2.2%). Bond-equity divergence DEEPENING: 10Y at 4.32% barely moved — NOT celebrating. ISM Prices 78.3 (highest since June 2022) + employment contracting = STAGFLATION. When bonds and equities disagree, bonds usually right. VIX at 27.34 is only 2.66 points from the 30 institutional algo-selling trigger — one bad headline away.",
   "current": {
     "price": "6,541",
     "delta_1d": "-0.52%",
-    "delta_1m": "-5.1%",
-    "delta_3m": "-4.8%",
-    "snapshot_note": "As of Apr 2 — VIX 24.51"
+    "delta_1m": "-3.5%",
+    "delta_3m": "-4.1%",
+    "snapshot_note": "As of Apr 2 — VIX surged to 27.34 (+11.4%), approaching 30 threshold"
   },
   "price_snapshots": [
     {
@@ -86,6 +86,12 @@
       "date": "2026-04-02",
       "content": "Bond-equity divergence — equities celebrate de-escalation but 10Y yield FELL (-2bps to 4.30%), pricing growth deterioration and recession risk, not inflation relief. ISM Prices Index at 78.3 (highest since June 2022) but employment in contraction = textbook STAGFLATION signal. When bond and equity markets diverge on the same news, bonds are usually right. This divergence is the most important risk signal for equity positioning.",
       "sources": ["FRED", "ISM"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "POST-ADDRESS: VIX surged +11.4% to 27.34 from 24.51 — approaching the 30 institutional threshold (only 2.66 points away). Trump 'stone ages' address restored war uncertainty, reversing VIX's two consecutive sessions below 30. US market interpretation DIVERGED from Asia/Europe: KOSPI -4.5%, DAX -2.3%, Nikkei -2.4% heard 'war escalation.' US selectively bought defense (ITA +2.2%, LMT +2.2%) and tech (SMH +2.2%, NASDAQ +1.2%) while selling energy (XLE -3.7%, Exxon -5.2%). The widest US/Asia interpretation divergence since war began. Bond market sided with Asia — 10Y at 4.32% barely moved. One of these interpretations is wrong. (Sources: Cboe, yfinance, multiple market data)",
+      "sources": ["Cboe", "yfinance"],
       "significance": "high"
     }
   ],

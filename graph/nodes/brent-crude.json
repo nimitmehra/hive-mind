@@ -4,13 +4,13 @@
   "type": "commodity",
   "created": "2026-03-23",
   "last_updated": "2026-04-02",
-  "summary": "POST-ADDRESS REVERSAL: Brent surged +6.1% to $107.29. Trump 'hit them extremely hard' overwhelmed '2-3 weeks' exit. Peace rally fully reversed. Goldman: $100 is floor not ceiling. April 5 OPEC+ and April 6 pause expiry are binary events ahead.",
+  "summary": "POST-ADDRESS REVERSAL: Brent surged +8.3% to $109.57 — WAR PREMIUM RESTORED. Trump 'hit them extremely hard' + 'stone ages' overwhelmed '2-3 weeks' exit. The April 1 -14% peace rally ($118→$102) mostly reversed. Goldman: $100 is floor not ceiling. Intraday arc: $98.52 low (first $100 breach in 13 days) → $101.97 close → $109.57 futures (address reaction). April 5 OPEC+ and April 6 pause expiry are binary events.",
   "current": {
-    "price": "$107.29/bbl",
-    "delta_1d": "+6.1%",
-    "delta_1m": "+31.8%",
-    "delta_3m": "+74.3%",
-    "snapshot_note": "As of Apr 2 post-address — surged from $101.97 after Trump primetime speech"
+    "price": "$109.57/bbl",
+    "delta_1d": "+8.3%",
+    "delta_1m": "+34.6%",
+    "delta_3m": "+80.4%",
+    "snapshot_note": "As of Apr 2 post-address futures — war premium snapped back on Trump speech"
   },
   "price_snapshots": [
     {
@@ -185,8 +185,8 @@
     },
     {
       "date": "2026-04-02",
-      "content": "POST-ADDRESS REVERSAL: Brent surged +6.1% to $107.29 after Trump's primetime address vowing to 'hit Iran extremely hard' and 'send them to the stone ages.' The April 1 peace rally ($118→$101) was completely reversed — oil gave up all losses and shifted higher. Market heard 'war continues' louder than 'war ends soon.' Intraday range $98.52-$107+ shows extreme volatility. Goldman: $100 is 'a floor, not a ceiling.' April 5 OPEC+ and April 6 energy pause expiry are binary events. (Sources: CNBC, CNN, Bloomberg, yfinance)",
-      "sources": ["CNBC", "CNN", "Bloomberg", "yfinance"],
+      "content": "POST-ADDRESS REVERSAL: Brent surged +8.3% to $109.57 after Trump's primetime address vowing to 'hit Iran extremely hard' and 'send them to the stone ages.' This is WAR PREMIUM RESTORATION, not new supply disruption — Hormuz status unchanged. The April 1 peace rally ($118→$101) was largely reversed. Market heard 'war continues, possibly escalates' louder than '2-3 weeks to end.' WTI surged +9.2% to $109.30. Intraday arc: $98.52 (first $100 breach in 13 days) → $101.97 regular close → $109.57 futures (address reaction). If April 6 deadline expires without extension, Brent spikes to $115-120 within hours. (Sources: CNBC, CNN, Bloomberg, yfinance, Fortune)",
+      "sources": ["CNBC", "CNN", "Bloomberg", "yfinance", "Fortune"],
       "significance": "high"
     }
   ],
@@ -203,7 +203,7 @@
     {
       "to": "india",
       "type": "import_cost",
-      "context": "India imports 85-90% of crude. At $102/bbl, massive additional import cost. Direct pressure on CAD, rupee, inflation. RBI MPC April 6-8 must weigh oil relief vs structural Hormuz disruption.",
+      "context": "India imports 85-90% of crude. At $109/bbl post-address, massive additional import cost. Every $10/bbl increase = ~$15B additional import bill. RBI MPC April 6-8 facing 'trade-off central banks dislike most.'",
       "directness": 1,
       "last_activated": "2026-04-02",
       "activation_count": 19,
@@ -212,7 +212,7 @@
     {
       "to": "inr-usd",
       "type": "cost_pressure",
-      "context": "Higher oil = more dollar demand for imports = rupee depreciation. Oil pulling back from $118 to $102 provides relief but Hormuz structural floor means no return to $70 pre-war.",
+      "context": "Higher oil = more dollar demand for imports = rupee depreciation. Post-address oil back at $109 removes the $102 relief. Hormuz structural floor means no return to $70 pre-war. INR at 93.14 (offshore).",
       "directness": 1,
       "last_activated": "2026-04-02",
       "activation_count": 16,
@@ -221,7 +221,7 @@
     {
       "to": "fed",
       "type": "inflation_input",
-      "context": "Oil above $100 = inflation stays elevated = Fed can't cut. ISM Prices Index at 78.3 (highest since June 2022). Even with pullback from $118 to $102, still well above $85 threshold where Fed could resume cuts. Stagflation trap persists.",
+      "context": "Oil at $109 post-address = inflation stays elevated = Fed can't cut. ISM Prices Index at 78.3 (highest since June 2022). Oil back above $105 eliminates any rate-cut pathway. Stagflation trap deepens.",
       "directness": 1,
       "last_activated": "2026-04-02",
       "activation_count": 14,
@@ -230,7 +230,7 @@
     {
       "to": "sp-500",
       "type": "earnings_risk",
-      "context": "Oil pullback from $118 to $102 relieves margin compression. S&P +2.9% (Apr 1), -0.52% (Apr 2). XLE underperforming confirms de-escalation trades hurt producers, help consumers.",
+      "context": "Post-address oil at $109 re-compresses margins. S&P +2.9% (Apr 1), -0.52% (Apr 2). XLE -3.7% while oil +8.3% = energy stocks trading 'peak oil' / demand destruction, not tracking crude higher.",
       "directness": 1,
       "last_activated": "2026-04-02",
       "activation_count": 12,
@@ -257,7 +257,7 @@
     {
       "to": "rbi",
       "type": "policy_pressure",
-      "context": "Oil above $100 = India inflation = RBI can't cut rates to support growth. RBI MPC April 6-8 must decide with oil at $102 (down from $118 but still elevated). Stagflation trap persists.",
+      "context": "Oil at $109 post-address = India inflation = RBI can't cut. RBI MPC April 6-8 must decide with oil back near pre-crash levels. India 10Y at 7.00-7.04%. Stagflation trap deepens.",
       "directness": 2,
       "last_activated": "2026-04-02",
       "activation_count": 12,

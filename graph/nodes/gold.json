@@ -4,13 +4,13 @@
   "type": "commodity",
   "created": "2026-03-23",
   "last_updated": "2026-04-02",
-  "summary": "REGIME SHIFT CONFIRMED — 3 consecutive sessions above $4,600 ($4,610 Mar 31, $4,775 Apr 1, $4,758 Apr 2). Market moved from 'inflation event' (cash is king, gold down despite war) to 'structural inflation hedge.' DXY below 100 (99.54) provides mechanical support. US 10Y yield fell to 4.30% — bond market shifting from inflation worry to recession worry. CRITICAL DIVERGENCE: silver NOT confirming (+0.8%); gold/silver ratio at 63:1 (elevated). If this were a broad inflation trade, silver would run at 1.5-2x gold's leverage — this is a PURE haven/central bank bid (585 tonnes/quarter in 2026 per JP Morgan), not broad precious metals. Gold + equities rallying simultaneously is unusual — most parsimonious explanation is DXY below 100 mechanically lifting both. If peace confirms convincingly, gold should fall to $4,400-4,500.",
+  "summary": "REGIME SHIFT CHALLENGED: Gold dropped -3.1% to $4,636 on April 2 post-address — barely holding above $4,600 threshold ($36 margin). The 'inflation event' channel REACTIVATED: Trump 'stone ages' address drove oil +8.3%, DXY back above 100 (100.22), gold crushed via oil→inflation→dollar→gold-down mechanism. The SAME mechanism that drove gold -16% from $5,300 to $4,372 in March. Three consecutive sessions above $4,600 still technically intact ($4,610, $4,775, $4,636) but the regime shift is one bad session from invalidation. Silver -6.7% (2.2x gold's decline) CONFIRMS industrial demand destruction — recession signal, not inflation trade. If gold breaks below $4,600, regime shift thesis INVALIDATED and back to 'inflation event' regime where cash is king.",
   "current": {
-    "price": "$4,758/oz",
-    "delta_1d": "+1.3%",
-    "delta_1m": "-7.8%",
-    "delta_3m": "+9.1%",
-    "snapshot_note": "As of Apr 2 close — Session 3 of regime shift confirmed"
+    "price": "$4,636/oz",
+    "delta_1d": "-3.1%",
+    "delta_1m": "-9.5%",
+    "delta_3m": "+7.5%",
+    "snapshot_note": "As of Apr 2 post-address — regime shift barely holding ($36 above $4,600 threshold)"
   },
   "price_snapshots": [
     {
@@ -51,9 +51,9 @@
     },
     {
       "date": "2026-04-02",
-      "price": "$4,758/oz",
-      "trigger": "REGIME SHIFT CONFIRMED — Session 3 above $4,600 threshold",
-      "delta_context": "Third consecutive close above $4,600 ($4,610, $4,775, $4,758). +1.3% on day. DXY at 99.54 (below 100). US 10Y at 4.30%. Silver still NOT confirming — gold/silver ratio 63:1 elevated. Pure haven/central bank bid, not broad precious metals."
+      "price": "$4,636/oz",
+      "trigger": "REGIME SHIFT CHALLENGED — post-address oil spike reactivated inflation→dollar→gold-down channel",
+      "delta_context": "Crashed -3.1% from $4,775 to $4,636 after Trump 'stone ages' address. DXY back above 100 (100.22). Oil +8.3%. Silver -6.7% = recession signal. Three sessions above $4,600 technically intact ($4,610, $4,775, $4,636) but only $36 margin. One more bad session invalidates regime shift."
     }
   ],
   "signals": [
@@ -128,13 +128,19 @@
       "content": "Gold + equities rallying simultaneously — unusual pattern requiring interpretation. Three explanations: (1) DXY below 100 mechanically lifts both (most parsimonious), (2) equities rally on peace while gold hedges structural inflation (Hormuz toll = permanent disruption), (3) market in 'structural inflation' regime. If peace confirms convincingly, gold should fall to $4,400-4,500. Portfolio implication: gold + cash work, equities face extended drawdown risk unless peace confirms.",
       "sources": ["multiple market"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "POST-ADDRESS REVERSAL: Gold crashed -3.1% from $4,775 to $4,636 after Trump's primetime 'stone ages' address. The 'inflation event' channel REACTIVATED: oil surged +8.3% to $109.57 → inflation expectations spiked → DXY rose +0.6% back above 100 (100.22) → real yield competition → gold crushed. This is the EXACT mechanism that drove gold -16% from $5,300 to $4,372 in March. Silver -6.7% (2.2x gold's decline) confirms industrial demand destruction — recession pricing, not haven trade. Broad metals selloff: platinum -2.5%, palladium -1.0%, copper -1.7%, aluminum -1.9%. Gold at $4,636 is STILL above the $4,600 regime shift threshold — but barely ($36 margin). If gold breaks below $4,600, the 'structural inflation hedge' regime shift is INVALIDATED. The address-driven oil spike directly threatens the regime that was 'confirmed' just hours earlier. (Sources: yfinance, LiteFinance, Fortune, TradingEconomics)",
+      "sources": ["yfinance", "LiteFinance", "Fortune", "TradingEconomics"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "fed",
       "type": "rate_inverse",
-      "context": "DXY below 100 providing mechanical gold support. Fed trapped in stagflation — ISM Prices 78.3 but employment contracting. 52% hike probability. Dollar weakness despite elevated yields = growth concerns dominating.",
+      "context": "DXY back above 100 (100.22) REMOVING mechanical gold support. Fed trapped in stagflation — ISM Prices 78.3 but employment contracting. 52% hike probability. Oil +8.3% reactivated inflation→dollar→gold-down channel.",
       "directness": 1,
       "last_activated": "2026-04-02",
       "activation_count": 9,
@@ -143,7 +149,7 @@
     {
       "to": "brent-crude",
       "type": "inflation_link",
-      "context": "Regime shift confirmed: gold no longer inversely tracking oil. Both oil and gold responding to structural Hormuz disruption. Oil crashed 14% but gold held — gold now hedging permanent supply disruption, not tracking oil-dollar channel.",
+      "context": "Regime shift CHALLENGED: oil +8.3% post-address drove gold -3.1% via inflation→dollar→gold-down channel — the SAME inverse pattern from March. Three sessions above $4,600 still technically intact but gold at $4,636 with only $36 margin. If oil stays above $105 and DXY above 100, gold regime shift likely fails.",
       "directness": 2,
       "last_activated": "2026-04-02",
       "activation_count": 9,
@@ -161,7 +167,7 @@
     {
       "condition": "Gold sustains above $4,600 for 3+ sessions",
       "cascade": ["fed", "sp-500", "nifty-50"],
-      "mechanism": "CONFIRMED April 2: Three consecutive sessions above $4,600 ($4,610 Mar 31, $4,775 Apr 1, $4,758 Apr 2). Regime shift from 'inflation event' (cash is king) to 'structural inflation hedge.' Gold + cash work, equities face extended drawdown risk. Silver NOT confirming (gold/silver 63:1) — pure haven/central bank bid, not broad precious metals.",
+      "mechanism": "Three consecutive sessions above $4,600 ($4,610 Mar 31, $4,775 Apr 1, $4,636 Apr 2 post-address). Technically still active but CHALLENGED: gold crashed -3.1% post-address as oil→dollar→gold-down channel reactivated. Only $36 above $4,600 threshold. If gold breaks below $4,600, regime shift INVALIDATED and back to inflation-event regime. Silver -6.7% (2.2x gold decline) = industrial demand destruction/recession pricing. DXY back above 100 removes mechanical support.",
       "added": "2026-03-29",
       "status": "active"
     },
