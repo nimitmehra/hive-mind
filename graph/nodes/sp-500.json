@@ -3,14 +3,14 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-01",
-  "summary": "At 6,528.52 (+2.91%) — best day since May on Pezeshkian peace signal. VIX collapsed to 24.40, firmly below 30 institutional threshold (algo selling stops, self-reinforcing equity bid). IRGC threatens 18 US companies with deadline tonight — binary risk event. Rally built on rhetoric, not confirmed action. March saw multiple relief-crash cycles (March 23→28→30). Still -5.1% monthly. CRITICAL RISK: IRGC corporate threat deadline 20:00 Tehran. If executed, VIX back above 30 = cascade. Oil crash -14% to $101.76 directly drove rally: XLE -1.1% while S&P +2.9% = market pricing de-escalation as good for consumers, bad for producers.",
+  "last_updated": "2026-04-02",
+  "summary": "At 6,541 (-0.52% Apr 2) after +2.91% rally Apr 1. VIX at 24.51 — two consecutive sessions below 30 reduces cascade selling risk. Market explicitly discounted IRGC corporate threat credibility (university deadline Mar 30 → no attack; corporate deadline Apr 1 → single AWS hit; market rallied through both). HOWEVER: bond-equity divergence emerging — 10Y yield FELL (-2bps to 4.30%) on peace day, pricing growth deterioration/recession while equities celebrate de-escalation. ISM Prices Index 78.3 (highest since June 2022) with employment in contraction = STAGFLATION signal. When bond and equity markets diverge, bonds usually right. April 6 energy strike deadline could spike VIX back above 30 in a single session.",
   "current": {
-    "price": "6,528.52",
-    "delta_1d": "+2.91%",
+    "price": "6,541",
+    "delta_1d": "-0.52%",
     "delta_1m": "-5.1%",
     "delta_3m": "-4.8%",
-    "snapshot_note": "As of Apr 1"
+    "snapshot_note": "As of Apr 2 — VIX 24.51"
   },
   "price_snapshots": [
     {
@@ -69,43 +69,61 @@
       "content": "S&P surged +2.91% to 6,528.52 — best day since May. Triggered by Iran's Pezeshkian telling EU he has 'necessary will' to end war. 441 of 500 components green. VIX collapsed to 24.40, firmly below 30 institutional threshold (algo selling stops = self-reinforcing equity bid). NASDAQ +3.83% (Nvidia +5%, Meta +6%), Dow +2.49%. SMH +5.8% on helium relief. XLE -1.1% while S&P +2.9% — explicit market signal: de-escalation good for consumers/economy, bad for producers. DXY dropped below 100 to 99.47. Brent crashed -14% to $101.76 — LARGEST decline since war began. HOWEVER: IRGC threatened 18 named US companies (Apple, Google, Nvidia, JPMorgan) with deadline tonight 20:00 Tehran — if executed, VIX spikes back above 30 triggering algo selling cascade. Rally built on REPORTED peace signals, not confirmed de-escalation — same pattern that produced March 23 crash reversal. (Sources: Yahoo Finance, CNBC, Bloomberg)",
       "sources": ["Yahoo Finance", "CNBC", "Bloomberg"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "S&P gave back -0.52% to 6,541 after yesterday's +2.91% rally — partial profit-taking or April 6 deadline caution. Market explicitly discounted IRGC corporate threat credibility: university deadline (Mar 30) produced no attack, corporate deadline (Apr 1) produced single AWS hit in Bahrain, and market rallied +2.91% through the deadline. IRGC credibility discount now priced in. Pattern: each successive IRGC threat produces less market reaction.",
+      "sources": ["yfinance", "Fakta"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "VIX fell to 24.51 (-2.8%) — two consecutive sessions below 30 institutional threshold, reducing cascade selling risk. Algo selling stops when VIX below 30, creating self-reinforcing equity bid. BUT 69.1% 3-month increase from pre-crisis 14.50 shows structural fear remains elevated. April 6 energy strike deadline could spike VIX back above 30 in a single session, reactivating algo selling cascade.",
+      "sources": ["Cboe"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "Bond-equity divergence — equities celebrate de-escalation but 10Y yield FELL (-2bps to 4.30%), pricing growth deterioration and recession risk, not inflation relief. ISM Prices Index at 78.3 (highest since June 2022) but employment in contraction = textbook STAGFLATION signal. When bond and equity markets diverge on the same news, bonds are usually right. This divergence is the most important risk signal for equity positioning.",
+      "sources": ["FRED", "ISM"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "united-states",
       "type": "equity_market",
-      "context": "Primary US equity benchmark. Reflecting war costs, inflation fears, and Fed uncertainty.",
+      "context": "Primary US equity benchmark. Bond-equity divergence emerging — equities pricing de-escalation while bonds pricing recession. ISM stagflation signal (prices 78.3, employment contracting).",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 13,
-      "weight": 7.5
+      "last_activated": "2026-04-02",
+      "activation_count": 14,
+      "weight": 10.0
     },
     {
       "to": "fed",
       "type": "rate_sensitivity",
-      "context": "Market pricing 52% probability of Fed HIKE by year-end (first time >50%). Higher discount rates compress valuations. Fed trapped — can't cut or hike.",
+      "context": "Market pricing 52% probability of Fed HIKE by year-end. ISM stagflation signal (Prices 78.3, employment contracting) compounds Fed trap. Bond-equity divergence: yields fell on peace day while equities rallied.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 10,
+      "last_activated": "2026-04-02",
+      "activation_count": 11,
       "weight": 10.0
     },
     {
       "to": "brent-crude",
       "type": "earnings_risk",
-      "context": "Oil spike driving cost inflation and margin compression. Gold regime shift extending equity drawdown window. Energy benefits but tech-heavy index suffers net.",
+      "context": "Oil pullback from $118 to $102 provides margin relief. XLE underperforming while S&P rallied = de-escalation good for consumers, bad for producers. Gold regime shift confirmed — extends equity drawdown window if peace fails.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 10,
+      "last_activated": "2026-04-02",
+      "activation_count": 11,
       "weight": 10.0
     },
     {
       "to": "helium",
       "type": "supply_chain_risk",
-      "context": "SMH +5.8% on helium relief from Pezeshkian peace signal. KOSPI +6.4% leading indicator. Qatar Ras Laffan = 30-38% global helium removed. Fabs still on 50% allocations.",
+      "context": "SMH +5.8% on helium relief from Pezeshkian peace signal. KOSPI +6.4% leading indicator. Qatar Ras Laffan = 30-38% global helium removed. Fabs still on 50% allocations. Continued peace signals sustain semiconductor relief.",
       "directness": 2,
-      "last_activated": "2026-04-01",
-      "activation_count": 5,
+      "last_activated": "2026-04-02",
+      "activation_count": 6,
       "weight": 7.5
     }
   ],

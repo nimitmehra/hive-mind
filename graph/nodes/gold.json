@@ -3,14 +3,14 @@
   "name": "Gold",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-01",
-  "summary": "REGIME SHIFT SESSION 2 — HELD: Gold closed at $4,775.40 (+2.7%) — held above $4,600 for Session 2 of 3-session test. DXY below 100 at 99.47 (psychologically significant), US 10Y eased to 4.31%. COMPLICATION: gold rallied alongside equities — not the expected 'systemic crisis' pattern (gold up, equities down). Instead, dollar weakness + structural inflation hedging lifted both. May be entering THIRD regime: 'structural inflation' (Hormuz stays closed even with ceasefire = permanent supply disruption). Silver flat (+0.8%) NOT confirming gold — challenges the breakout thesis. Central bank buying 585 tonnes/quarter (JP Morgan). Session 3 (April 2) needed for confirmation.",
+  "last_updated": "2026-04-02",
+  "summary": "REGIME SHIFT CONFIRMED — 3 consecutive sessions above $4,600 ($4,610 Mar 31, $4,775 Apr 1, $4,758 Apr 2). Market moved from 'inflation event' (cash is king, gold down despite war) to 'structural inflation hedge.' DXY below 100 (99.54) provides mechanical support. US 10Y yield fell to 4.30% — bond market shifting from inflation worry to recession worry. CRITICAL DIVERGENCE: silver NOT confirming (+0.8%); gold/silver ratio at 63:1 (elevated). If this were a broad inflation trade, silver would run at 1.5-2x gold's leverage — this is a PURE haven/central bank bid (585 tonnes/quarter in 2026 per JP Morgan), not broad precious metals. Gold + equities rallying simultaneously is unusual — most parsimonious explanation is DXY below 100 mechanically lifting both. If peace confirms convincingly, gold should fall to $4,400-4,500.",
   "current": {
-    "price": "$4,775.40/oz",
-    "delta_1d": "+2.7%",
-    "delta_1m": "-6.5%",
-    "delta_3m": "+10.7%",
-    "snapshot_note": "As of Apr 1 end-of-session — 1D calculated from Mar 31 close ($4,647.60)"
+    "price": "$4,758/oz",
+    "delta_1d": "+1.3%",
+    "delta_1m": "-7.8%",
+    "delta_3m": "+9.1%",
+    "snapshot_note": "As of Apr 2 close — Session 3 of regime shift confirmed"
   },
   "price_snapshots": [
     {
@@ -48,6 +48,12 @@
       "price": "$4,775.40",
       "trigger": "Regime shift Session 2 — held above $4,600, stronger than Session 1",
       "delta_context": "Rose +2.7% from March 31 close ($4,647.60). DXY below 100 at 99.47 (psychologically significant). US 10Y eased to 4.31%. Gold+equities rallying simultaneously complicates regime interpretation — may be 'structural inflation' regime rather than 'systemic crisis.' Silver +0.8% NOT confirming. Central bank buying 585t/quarter."
+    },
+    {
+      "date": "2026-04-02",
+      "price": "$4,758/oz",
+      "trigger": "REGIME SHIFT CONFIRMED — Session 3 above $4,600 threshold",
+      "delta_context": "Third consecutive close above $4,600 ($4,610, $4,775, $4,758). +1.3% on day. DXY at 99.54 (below 100). US 10Y at 4.30%. Silver still NOT confirming — gold/silver ratio 63:1 elevated. Pure haven/central bank bid, not broad precious metals."
     }
   ],
   "signals": [
@@ -110,25 +116,37 @@
       "content": "Gold surged +2.7% to $4,775.40 — held above $4,600 regime shift threshold for Session 2, stronger than Session 1 ($4,610.20). DXY dropped below 100 to 99.47 — psychologically significant dollar weakness mechanically supports gold. US 10Y yield FELL to 4.31% despite peace signal (unusual: yields should rise when safe-haven demand drops — market pricing growth/recession concerns over inflation). Central bank buying averaging 585 tonnes/quarter in 2026 (JP Morgan). UNUSUAL: Gold AND equities rallying simultaneously. Three explanations: (1) dollar weakness mechanically lifts both (most parsimonious), (2) equities rally on peace while gold hedges structural inflation (Hormuz stays closed = permanent supply disruption), (3) regime uncertainty. Silver +0.8% NOT confirming gold's move — challenges breakout thesis (a true gold breakout drags silver at 1.5-2x leverage). Copper +0.2% also not confirming. Session 3 (April 2) needed to confirm regime shift; gold+equities pattern complicates character to possible THIRD regime: 'structural inflation.' (Sources: FXStreet, JM Bullion, Yahoo Finance, JP Morgan, yfinance)",
       "sources": ["FXStreet", "JM Bullion", "Yahoo Finance", "JP Morgan", "yfinance"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "Gold regime shift CONFIRMED — Session 3 above $4,600 threshold ($4,610 Mar 31, $4,775 Apr 1, $4,758 Apr 2). Market moved from 'inflation event' (cash is king, gold down despite war) to 'structural inflation hedge.' DXY fell below 100 (99.54, -0.42%), providing mechanical support. US 10Y yield fell to 4.30% — bond market shifting from inflation worry to recession worry. CRITICAL: silver NOT confirming (+0.8%); gold/silver ratio at 63:1 (elevated). If it were an inflation trade, silver would run at 1.5-2x gold's leverage — this is a PURE haven/central bank bid (585 tonnes/quarter in 2026 per JP Morgan), not broad precious metals.",
+      "sources": ["LiteFinance", "Fortune", "TradingEconomics", "Yahoo Finance"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "Gold + equities rallying simultaneously — unusual pattern requiring interpretation. Three explanations: (1) DXY below 100 mechanically lifts both (most parsimonious), (2) equities rally on peace while gold hedges structural inflation (Hormuz toll = permanent disruption), (3) market in 'structural inflation' regime. If peace confirms convincingly, gold should fall to $4,400-4,500. Portfolio implication: gold + cash work, equities face extended drawdown risk unless peace confirms.",
+      "sources": ["multiple market"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "fed",
       "type": "rate_inverse",
-      "context": "Strong dollar from hawkish Fed crushing gold. All three major central banks on hold — no dovish pivot coming.",
+      "context": "DXY below 100 providing mechanical gold support. Fed trapped in stagflation — ISM Prices 78.3 but employment contracting. 52% hike probability. Dollar weakness despite elevated yields = growth concerns dominating.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 8,
+      "last_activated": "2026-04-02",
+      "activation_count": 9,
       "weight": 10.0
     },
     {
       "to": "brent-crude",
       "type": "inflation_link",
-      "context": "Oil-driven inflation → Fed hawkishness → dollar strength → gold weakness. Counter-intuitive: oil UP should help gold but dollar channel overwhelmed.",
+      "context": "Regime shift confirmed: gold no longer inversely tracking oil. Both oil and gold responding to structural Hormuz disruption. Oil crashed 14% but gold held — gold now hedging permanent supply disruption, not tracking oil-dollar channel.",
       "directness": 2,
-      "last_activated": "2026-04-01",
-      "activation_count": 8,
+      "last_activated": "2026-04-02",
+      "activation_count": 9,
       "weight": 10.0
     }
   ],
@@ -143,8 +161,15 @@
     {
       "condition": "Gold sustains above $4,600 for 3+ sessions",
       "cascade": ["fed", "sp-500", "nifty-50"],
-      "mechanism": "Would confirm regime shift from inflation-event (cash is king) to systemic-crisis (gold + cash work, equities face extended drawdown). Changes correlation structure for portfolio construction. SESSION 2 HELD (Apr 1: $4,707.90). Session 1 was Mar 31 ($4,610.20). Need one more session above $4,600 to confirm.",
+      "mechanism": "CONFIRMED April 2: Three consecutive sessions above $4,600 ($4,610 Mar 31, $4,775 Apr 1, $4,758 Apr 2). Regime shift from 'inflation event' (cash is king) to 'structural inflation hedge.' Gold + cash work, equities face extended drawdown risk. Silver NOT confirming (gold/silver 63:1) — pure haven/central bank bid, not broad precious metals.",
       "added": "2026-03-29",
+      "status": "active"
+    },
+    {
+      "condition": "Gold/silver ratio exceeds 80:1",
+      "cascade": ["fed", "sp-500"],
+      "mechanism": "Currently at 63:1 (elevated but not extreme). Ratio above 80:1 historically signals recession — silver's industrial demand collapses while gold's haven bid accelerates. Would confirm market shifting from 'structural inflation' to 'recession' regime.",
+      "added": "2026-04-02",
       "status": "watching"
     }
   ]

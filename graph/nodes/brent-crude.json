@@ -3,14 +3,14 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-01",
-  "summary": "At $101.76 (-14.0% from March 31's $118.35) — LARGEST single-session crash since war began, surpassing March 23 (-8.4%). Triple driver: Pezeshkian peace signal + Trump '2-3 weeks' + IEA SPR flowing. Testing $100 structural floor — landed at $101.76, NOT below $100. WSJ/CNN Hormuz decoupling: even with ceasefire, $90-100 floor, not $70 pre-war. Iran parliament drafting toll legislation. SPR at 243M bbl (lowest since 1984). OPEC+ April 5 meeting decides May levels. Reversibility HIGH: March 23 saw -8.4% → full reversal in 5 days. The $100 support test is the real signal — if holds tomorrow, structural floor confirmed.",
+  "last_updated": "2026-04-02",
+  "summary": "Oil in violent de-escalation repricing — crashed 14% from $118.35 to $101.97 over 2 days on triple peace driver (Pezeshkian signals, Trump '2-3 weeks', SPR flowing 1.0-1.5M bpd). $100 structural floor tested intraday on April 2 ($98.52 low — first breach below $100 since ~March 20) but recovered to $101.97 close. Goldman previously described $100 as 'floor, not ceiling.' Brent-WTI spread collapsed from $18-20 to ~$2-3, market saying Gulf supply disruption no longer permanent. Hormuz NOT reopened, Iran's toll law passed full parliament — this is WAR PREMIUM EVAPORATION, not supply normalization. April 5-8 creates extreme binary risk: OPEC+ meeting (Apr 5), US energy strike pause expires (Apr 6), RBI MPC (Apr 6-8). If April 6 deadline expires without extension, Brent spikes $110-120 within hours.",
   "current": {
-    "price": "$101.76/bbl",
-    "delta_1d": "-14.0%",
-    "delta_1m": "+25.0%",
-    "delta_3m": "+67.5%",
-    "snapshot_note": "As of Apr 1 end-of-session — 1D calculated from Mar 31 close ($118.35)"
+    "price": "$101.97/bbl",
+    "delta_1d": "-2.0%",
+    "delta_1m": "+30.1%",
+    "delta_3m": "+74.3%",
+    "snapshot_note": "As of Apr 2 close — intraday low $98.52 (first breach below $100 since ~March 20)"
   },
   "price_snapshots": [
     {
@@ -84,6 +84,12 @@
       "price": "$101.76",
       "trigger": "LARGEST single-session crash since war began — triple peace signal",
       "delta_context": "Crashed -14.0% from $118.35 to $101.76 — surpassing March 23 (-8.4%). Triple driver: Pezeshkian peace signal, Trump '2-3 weeks', IEA SPR flowing. Testing $100 structural floor. Oil+equities moved same direction (unusual): Brent down on supply normalization hopes, equities up on peace hopes. XLE -1.1% while S&P +2.9% confirms rally is oil-driven. Hormuz decoupling floor holding: $101.76, not below $100."
+    },
+    {
+      "date": "2026-04-02",
+      "price": "$98.52/bbl (intraday low), $101.97/bbl (close)",
+      "trigger": "First breach below $100 since ~March 20 — structural floor test",
+      "delta_context": "Intraday $98.52 was first time below $100 in 13 days. Recovered to $101.97 close (-2% on day). Brent-WTI spread collapsed from $18-20 to ~$2-3. War premium evaporating but Hormuz NOT reopened, toll law formalized. Recovery from $98.52 suggests buying interest at $100."
     }
   ],
   "signals": [
@@ -158,62 +164,80 @@
       "content": "Brent crashed -14.0% to $101.76 — LARGEST single-session decline since war began, surpassing March 23 (-8.4%). Triple driver: (1) Iran's President Pezeshkian told EU he has 'necessary will' to end war with 5-point counterproposal, (2) Trump said US could leave Iran 'in 2-3 weeks', (3) IEA 400M barrel SPR flowing at 1.0-1.5M bpd. Both sides signaling off-ramps within hours = market read coordinated de-escalation. XLE -1.1% while S&P +2.9% — explicit market signal that rally is oil-driven (bad for producers, good for economy). WSJ/CNN Hormuz decoupling now market consensus: even with ceasefire, $90-100 structural floor. Iran parliament drafting toll legislation. Brent landed at $101.76, NOT below $100 — the structural floor is holding. OPEC+ April 5 decides May levels; 206K bpd increase confirmed for April. Reversibility HIGH — March 23 saw -8.4% → full reversal in 5 days. The test: if Brent holds above $100 tomorrow, floor confirmed. If it breaks $100, paradigm shift. RBOB gasoline -9.5% confirms downstream following crude. (Sources: Bloomberg, Yahoo Finance, WSJ, CNN, DOE, CNBC)",
       "sources": ["Bloomberg", "Yahoo Finance", "WSJ", "CNN", "DOE", "CNBC"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "Brent continued sliding to $101.97 (-2% on day) after yesterday's -10.5% crash, with intraday low of $98.52 — first breach below $100 since ~March 20 (13 days above). Triple de-escalation driver persists: Pezeshkian peace signals, Trump '2-3 weeks' timeline, SPR flowing at 1.0-1.5M bpd. Goldman previously described $100 as 'floor, not ceiling.' Recovery from $98.52 to $101.97 close suggests buying interest at $100. This is WAR PREMIUM EVAPORATION, not supply normalization — Hormuz NOT reopened, Iran's toll law passed full parliament.",
+      "sources": ["Fortune", "CNBC", "FinancialContent"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "Brent-WTI spread collapsed from $18-20 to ~$2-3 — market saying 'we no longer believe Gulf supply permanently disrupted.' WTI rose +2.4% driven by US stockpile build (+13.4M barrels, largest since Nov 2023). If Brent-WTI spread widens again, de-escalation thesis is failing and Gulf-specific premium returning.",
+      "sources": ["yfinance"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "April 5-8 creates extreme binary outcome risk: April 5 = OPEC+ meeting (206K bpd increase confirmed for April), April 6 = US energy strike pause expires, April 6-8 = RBI MPC. Three binary events in 4 days. If April 6 deadline expires without extension, Brent spikes to $110-120 within hours. March 23's -8.4% crash fully reversed in 5 days — same reversal risk present here.",
+      "sources": ["OPEC+", "Al Jazeera", "Bloomberg"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "~20% of global oil transits Hormuz. Closure is the primary driver of the price spike from $70 to $119.",
+      "context": "~20% of global oil transits Hormuz. Closure is the primary driver of the price spike from $70 to $119. Hormuz NOT reopened despite peace signals — toll law passed full parliament. War premium evaporating but supply disruption structural.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 23,
+      "last_activated": "2026-04-02",
+      "activation_count": 24,
       "weight": 10.0
     },
     {
       "to": "india",
       "type": "import_cost",
-      "context": "India imports 85-90% of crude. At $103/bbl, massive additional import cost. Direct pressure on CAD, rupee, inflation.",
+      "context": "India imports 85-90% of crude. At $102/bbl, massive additional import cost. Direct pressure on CAD, rupee, inflation. RBI MPC April 6-8 must weigh oil relief vs structural Hormuz disruption.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 18,
+      "last_activated": "2026-04-02",
+      "activation_count": 19,
       "weight": 10.0
     },
     {
       "to": "inr-usd",
       "type": "cost_pressure",
-      "context": "Higher oil = more dollar demand for imports = rupee depreciation. INR at 93.80/USD.",
+      "context": "Higher oil = more dollar demand for imports = rupee depreciation. Oil pulling back from $118 to $102 provides relief but Hormuz structural floor means no return to $70 pre-war.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 15,
+      "last_activated": "2026-04-02",
+      "activation_count": 16,
       "weight": 10.0
     },
     {
       "to": "fed",
       "type": "inflation_input",
-      "context": "Oil spike transmits war to monetary policy. Oil above $100 = inflation stays elevated = Fed can't cut. All three major central banks (Fed, ECB, RBI) now on hold in stagflation trap.",
+      "context": "Oil above $100 = inflation stays elevated = Fed can't cut. ISM Prices Index at 78.3 (highest since June 2022). Even with pullback from $118 to $102, still well above $85 threshold where Fed could resume cuts. Stagflation trap persists.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 13,
+      "last_activated": "2026-04-02",
+      "activation_count": 14,
       "weight": 10.0
     },
     {
       "to": "sp-500",
       "type": "earnings_risk",
-      "context": "Goldman: 20% Brent rise cuts Asian earnings by 2%. Higher oil = margin compression for most companies.",
+      "context": "Oil pullback from $118 to $102 relieves margin compression. S&P +2.9% (Apr 1), -0.52% (Apr 2). XLE underperforming confirms de-escalation trades hurt producers, help consumers.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 11,
+      "last_activated": "2026-04-02",
+      "activation_count": 12,
       "weight": 10.0
     },
     {
       "to": "opec-plus",
       "type": "production_response",
-      "context": "OPEC+ agreed modest 206K bpd increase but most barrels stranded if Hormuz stays shut.",
+      "context": "OPEC+ April 5 meeting is next binary event. 206K bpd increase confirmed for April. Decision on May levels could accelerate or restrain supply response. Most barrels still stranded if Hormuz stays shut.",
       "directness": 1,
-      "last_activated": "2026-03-13",
-      "activation_count": 5,
-      "weight": 7.0
+      "last_activated": "2026-04-02",
+      "activation_count": 6,
+      "weight": 10.0
     },
     {
       "to": "natural-gas-lng",
@@ -227,10 +251,10 @@
     {
       "to": "rbi",
       "type": "policy_pressure",
-      "context": "Oil above $100 = India inflation = RBI can't cut rates to support growth. Stagflation trap.",
+      "context": "Oil above $100 = India inflation = RBI can't cut rates to support growth. RBI MPC April 6-8 must decide with oil at $102 (down from $118 but still elevated). Stagflation trap persists.",
       "directness": 2,
-      "last_activated": "2026-04-01",
-      "activation_count": 11,
+      "last_activated": "2026-04-02",
+      "activation_count": 12,
       "weight": 10.0
     }
   ],
@@ -245,7 +269,7 @@
     {
       "condition": "Brent crosses $100/barrel sustained for 2+ weeks",
       "cascade": ["india", "inr-usd", "rbi", "nifty-50"],
-      "mechanism": "Brent has been above $100 since approximately March 20 (~12 days). Today's -14% crash to $101.76 brings it within $2 of breaking the threshold. Still above $100 but testing the floor directly. OPEC+ April 5 meeting and IRGC deadline tonight are binary events. If Brent stays above $100 through April 3-4, move to 'active' next update. If it breaks $100, the sustained count resets.",
+      "mechanism": "Brent was above $100 for ~13 days (March 20 - April 2). Intraday breach to $98.52 on April 2 disrupts the 'sustained' criterion, but recovered to $101.97 close. The intraday breach interrupts the sustained count. Must hold above $100 through the rest of the week to restart the count. April 5-8 binary events (OPEC+, energy strike deadline, RBI MPC) create high reversal risk in either direction.",
       "added": "2026-03-23",
       "status": "watching"
     },

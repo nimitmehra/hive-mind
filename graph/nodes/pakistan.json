@@ -3,8 +3,8 @@
   "name": "Pakistan",
   "type": "country",
   "created": "2026-03-30",
-  "last_updated": "2026-04-01",
-  "summary": "Pakistan is the ACTIVE MEDIATOR: first to publicly confirm on record that 'US-Iran indirect talks are taking place.' Rubio-Araghchi meeting in Pakistan could happen 'within days.' Pakistan's position unique: nuclear state, Iran border, US ally, Saudi ties. March 30 Islamabad quad diplomats (Saudi FM, Turkey, Pakistan, Iraq) established framework. Pakistan's confirmation gives substance to diplomatic track that both US and Iran publicly deny.",
+  "last_updated": "2026-04-02",
+  "summary": "DIPLOMATIC WINDOW NARROWING: Rubio-Araghchi meeting suggested for 'as early as Tuesday' (April 1) did NOT materialize. Iran did NOT participate in Islamabad four-nation meeting. FM Araghchi stated prepared for 'at least six months' while simultaneously listing end conditions — dealmaking language. April 6 deadline now 4 days away with no visible diplomatic progress. Pakistan remains the active mediator but has not delivered a face-to-face meeting.",
   "signals": [
     {
       "date": "2026-03-26",
@@ -35,25 +35,31 @@
       "content": "Pakistan became first mediator to publicly confirm on record that 'US-Iran indirect talks are taking place' — a Rubio-Araghchi meeting in Pakistan could happen 'within days.' This is the most significant diplomatic development: moving from anonymous sourcing to on-record confirmation of mediation. Combined with Iran's Pezeshkian telling EU he has 'necessary will' to end the conflict, the diplomatic track has the most substance since the war began — even as both sides publicly deny talks. (Sources: Pakistan FM, Bloomberg, Press TV)",
       "sources": ["Pakistan FM", "Bloomberg", "Press TV"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "Diplomatic sources cited by Pakistan's Dawn newspaper suggested a Rubio-Araghchi meeting 'as early as Tuesday' (April 1) — the meeting did NOT materialize. Iran did NOT participate in the Islamabad four-nation meeting. FM Araghchi stated Iran was prepared for 'at least six months' of war while simultaneously listing end conditions — dealmaking language suggesting Iran wants to negotiate from a position of demonstrated endurance. The diplomatic window suggested by sources appears closed without a face-to-face meeting materializing. Significant because the April 6 deadline is now 4 days away with no visible diplomatic progress. CONFIRMED. (Sources: Anadolu Agency, Al Jazeera, Time)",
+      "sources": ["Anadolu Agency", "Al Jazeera", "Time"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "mediation_channel",
-      "context": "Committee of Four (Pakistan, Turkey, Egypt, Saudi Arabia) created formal mechanism. Pakistan first to publicly confirm on record 'US-Iran indirect talks are taking place.' Rubio-Araghchi meeting in Pakistan could happen 'within days.' Pakistan's Hormuz deal executing: MV Multan + P-Akili crossing.",
+      "context": "Rubio-Araghchi meeting suggested for April 1 did NOT materialize. Iran did NOT participate in Islamabad four-nation meeting. FM Araghchi stated prepared for 'at least six months' — dealmaking language. April 6 deadline 4 days away with no face-to-face meeting. Diplomatic window narrowing.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 7,
+      "last_activated": "2026-04-02",
+      "activation_count": 8,
       "weight": 10.0
     },
     {
       "to": "united-states",
       "type": "mediation_channel",
-      "context": "Pakistan relaying US messages to Iran. First to publicly confirm on record that indirect talks are taking place. Rubio-Araghchi meeting in Pakistan could happen 'within days.' US envoy Witkoff presented 15-point plan via Pakistan.",
+      "context": "Pakistan relaying US messages to Iran. Rubio-Araghchi meeting suggested for April 1 did NOT materialize. April 6 deadline 4 days away with no visible diplomatic progress. US envoy Witkoff presented 15-point plan via Pakistan but no face-to-face yet.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 6,
+      "last_activated": "2026-04-02",
+      "activation_count": 7,
       "weight": 10.0
     },
     {

@@ -3,56 +3,112 @@
   "name": "Helium",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-01",
-  "summary": "IN THE EXHAUSTION WINDOW — 50% ALLOCATIONS CONFIRMED: Fabs operating on half-supply as producers prioritize critical applications. TrendForce's early-April prediction playing out as SLOW SQUEEZE — rationing, not sudden halt. No formal production halt yet. Samsung HeRS recycling + claimed 6-month reserves buying time. SK hynix claims diversified supply until June. Air Liquide Taiwan incremental only. KOSPI +8.4% relief rally on peace hopes + blowout export data, but helium crisis fundamentally unresolved. If Pezeshkian signal fails and war continues, rationing deepens to <50% within 1-2 weeks. Output decline (rising defect rates, higher cost/die) begins within 1-2 weeks of rationing per TrendForce.",
+  "last_updated": "2026-04-02",
+  "summary": "HELIUM SPOT DOUBLED, 50% ALLOCATIONS CONFIRMED, APRIL 7-10 ANNOUNCEMENT WINDOW: Spot prices have doubled; 30-38% supply offline from Ras Laffan force majeure. ~200 containers stranded. Samsung/SK Hynix import ~65% from Qatar. 'Few weeks' to real shortage hitting per Fortune/Tom's Hardware. Samsung claims 'sufficient supply until June' but 50% allocations are CONFIRMED. No formal production cut announcement yet \u2014 April 7-10 remains expected window. KOSPI +8.44% on April 2 (Samsung +13%, SK Hynix +10%) \u2014 relief rally on peace signal eases PART of helium concern if Ras Laffan resumes. But fabs still at 50% allocation. Samsung foreign ownership fell from 52.6% to 48.6% (12.5-year low).",
   "current": {
-    "price": "No spot price — 50% allocation cuts confirmed",
-    "delta_1d": "N/A",
+    "price": "Spot prices doubled; 50% allocation cuts confirmed",
+    "delta_1d": "KOSPI +8.44%, Samsung +13%, SK Hynix +10% (relief rally)",
     "delta_1m": "Rationing since early April",
-    "delta_3m": "From full supply to 50% allocations",
-    "snapshot_note": "Rationing confirmed as of Apr 1"
+    "delta_3m": "From full supply to 50% allocations, spot doubled",
+    "snapshot_note": "As of Apr 2. Samsung foreign ownership 52.6%\u219248.6% (12.5yr low)"
   },
   "signals": [
     {
       "date": "2026-03-19",
-      "content": "Iran war threatening supply of helium — 30% of world supply from Qatar's Ras Laffan, now offline. One of only two plants producing semiconductor-grade helium. No viable substitute exists.",
-      "sources": ["CNBC", "Fortune", "Washington Times"],
+      "content": "Iran war threatening supply of helium \u2014 30% of world supply from Qatar's Ras Laffan, now offline. One of only two plants producing semiconductor-grade helium. No viable substitute exists.",
+      "sources": [
+        "CNBC",
+        "Fortune",
+        "Washington Times"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-21",
       "content": "Analysts project minimum 2-3 month helium production shutdown, 4-6 months before supply chain returns. HP, Dell, Lenovo, Acer, ASUS warned enterprise clients of 15-20% price hikes. TSMC said no significant impact yet but monitoring.",
-      "sources": ["Fortune", "CNBC", "Medium analysis"],
+      "sources": [
+        "Fortune",
+        "CNBC",
+        "Medium analysis"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-24",
-      "content": "TrendForce published analysis naming South Korea as hardest-hit — Samsung and SK Hynix sourced 64.7% of helium from Qatar. SK Hynix on a 'two-week clock' to diversify or face production cuts at full production rates (Tom's Hardware). Korean chipmakers claim 6-month stockpiles at rationed consumption but 2 weeks at full rates. Helium spot prices surged 40% in a single week, analysts warning of $2,000/MCF (up from ~$500 pre-conflict). Samsung's HeRS (Helium Reuse System) operational on select lines reducing consumption by ~4.7 tons/year per line, potential 18.6% total reduction if deployed company-wide — meaningful but insufficient. TSMC more diversified (30% Qatar, 30% US, 40% other) giving more buffer than Korean fabs. Phil Kornbluth estimated 'minimum' 2-3 month production shutdown and 4-6 month normalization.",
-      "sources": ["TrendForce", "Tom's Hardware", "Gasworld", "Fortune", "CNBC"],
+      "content": "TrendForce published analysis naming South Korea as hardest-hit \u2014 Samsung and SK Hynix sourced 64.7% of helium from Qatar. SK Hynix on a 'two-week clock' to diversify or face production cuts at full production rates (Tom's Hardware). Korean chipmakers claim 6-month stockpiles at rationed consumption but 2 weeks at full rates. Helium spot prices surged 40% in a single week, analysts warning of $2,000/MCF (up from ~$500 pre-conflict). Samsung's HeRS (Helium Reuse System) operational on select lines reducing consumption by ~4.7 tons/year per line, potential 18.6% total reduction if deployed company-wide \u2014 meaningful but insufficient. TSMC more diversified (30% Qatar, 30% US, 40% other) giving more buffer than Korean fabs. Phil Kornbluth estimated 'minimum' 2-3 month production shutdown and 4-6 month normalization.",
+      "sources": [
+        "TrendForce",
+        "Tom's Hardware",
+        "Gasworld",
+        "Fortune",
+        "CNBC"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-29",
-      "content": "CLOCK UPDATE: TrendForce's March 24 'two-week clock' assessment means approximately 8 days remain before Asian chip fab helium inventories exhaust at full production rates (early April). KOSPI -10.6% monthly, Samsung -8.2% from peak. No new alternative supply sources have been confirmed. The cascade path (war → Qatar → helium → semiconductors → KOSPI/SMH) is the most validated multi-hop cascade in the graph with 3 independent confirmations (TrendForce, Nikkei Asia, Korea International Trade Association). Container freight Shanghai-Dubai doubled to $4,000+/FEU reflecting Gulf shipping disruption. (Sources: TrendForce timeline, yfinance KOSPI data, Freightos FBX)",
-      "sources": ["TrendForce", "yfinance", "Freightos FBX"],
+      "content": "CLOCK UPDATE: TrendForce's March 24 'two-week clock' assessment means approximately 8 days remain before Asian chip fab helium inventories exhaust at full production rates (early April). KOSPI -10.6% monthly, Samsung -8.2% from peak. No new alternative supply sources have been confirmed. The cascade path (war \u2192 Qatar \u2192 helium \u2192 semiconductors \u2192 KOSPI/SMH) is the most validated multi-hop cascade in the graph with 3 independent confirmations (TrendForce, Nikkei Asia, Korea International Trade Association). Container freight Shanghai-Dubai doubled to $4,000+/FEU reflecting Gulf shipping disruption. (Sources: TrendForce timeline, yfinance KOSPI data, Freightos FBX)",
+      "sources": [
+        "TrendForce",
+        "yfinance",
+        "Freightos FBX"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-30",
       "content": "DATA RECONCILIATION: Samsung reportedly maintains 'roughly six months' of helium stock (Korea Plus/Carra Globe), contradicting TrendForce's 'two-week clock' (March 24). Both can be true: Samsung = large buyer with strategic reserves + HeRS recycling. Industry average and SK hynix = shorter runway. Samsung also exploring Russian helium supply. The 6-day countdown applies to INDUSTRY (especially SK hynix), not Samsung specifically. (Sources: Korea Plus, Carra Globe, TrendForce, Tom's Hardware)",
-      "sources": ["Korea Plus", "Carra Globe", "TrendForce", "Tom's Hardware"],
+      "sources": [
+        "Korea Plus",
+        "Carra Globe",
+        "TrendForce",
+        "Tom's Hardware"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-31",
-      "content": "KOSPI closed at 5,052.46, down 4.26% — significantly worse than morning's intraday reading. Approaching bear market territory (-19.1% from late-Feb peak). Samsung -5.2%, SK hynix -5.2%. Gap narrowed — both hit equally, weakening Samsung HeRS differentiation thesis. Foreign investors sold 35 trillion won in March (all-time monthly record). CRITICAL CORRECTION: Samsung's '6-month buffer' is misleading — working fab inventory is approximately ONE WEEK. Six months = supply-chain strategic reserves. Production depends on continuous inbound shipments. Additionally, 200 specialized helium containers stranded near Hormuz — even available helium is physically stuck. Rerouting via Cape of Good Hope adds 10-14 days AND boil-off reduces usable volume. Memory prices: DRAM/HBM +80-90% Q/Q, server-grade spot +400%. Cloud providers raising prices 30-40%. Silicon Motion CEO: 'never happened before' — all memory types in severe shortage. Wikipedia now has '2024-present global memory supply shortage' article — nicknamed 'RAMmageddon.' TurboQuant (Google's AI memory compression algorithm, March 25) compounds crisis by questioning HBM demand at these prices — ~40% of KOSPI decline attributable to non-crisis TurboQuant factor. No confirmed production halt yet — window now 5-7 days (early April).",
-      "sources": ["Seoul Economic Daily", "Bloomberg", "TrendForce", "Tom's Hardware", "IDC", "SemiAnalysis", "PC Gamer"],
+      "content": "KOSPI closed at 5,052.46, down 4.26% \u2014 significantly worse than morning's intraday reading. Approaching bear market territory (-19.1% from late-Feb peak). Samsung -5.2%, SK hynix -5.2%. Gap narrowed \u2014 both hit equally, weakening Samsung HeRS differentiation thesis. Foreign investors sold 35 trillion won in March (all-time monthly record). CRITICAL CORRECTION: Samsung's '6-month buffer' is misleading \u2014 working fab inventory is approximately ONE WEEK. Six months = supply-chain strategic reserves. Production depends on continuous inbound shipments. Additionally, 200 specialized helium containers stranded near Hormuz \u2014 even available helium is physically stuck. Rerouting via Cape of Good Hope adds 10-14 days AND boil-off reduces usable volume. Memory prices: DRAM/HBM +80-90% Q/Q, server-grade spot +400%. Cloud providers raising prices 30-40%. Silicon Motion CEO: 'never happened before' \u2014 all memory types in severe shortage. Wikipedia now has '2024-present global memory supply shortage' article \u2014 nicknamed 'RAMmageddon.' TurboQuant (Google's AI memory compression algorithm, March 25) compounds crisis by questioning HBM demand at these prices \u2014 ~40% of KOSPI decline attributable to non-crisis TurboQuant factor. No confirmed production halt yet \u2014 window now 5-7 days (early April).",
+      "sources": [
+        "Seoul Economic Daily",
+        "Bloomberg",
+        "TrendForce",
+        "Tom's Hardware",
+        "IDC",
+        "SemiAnalysis",
+        "PC Gamer"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-01",
-      "content": "NOW IN TrendForce's predicted early-April exhaustion window. CONFIRMED: fabs operating on 50% helium allocations — customers receiving half normal supply as producers prioritize critical applications (MRI, semiconductors, aerospace). This is CONFIRMED rationing, not speculation (Gasworld). No Samsung or SK hynix production halt formally announced yet — managing via recycling (Samsung HeRS) + prioritization + claims of 6-month reserves. South Korea semiconductor industry claims supply until 'at least June 2026.' TrendForce prediction playing out as allocation cuts rather than sudden halt — SLOW SQUEEZE rather than cliff edge. Air Liquide Taiwan facility online but incremental, not transformative. Meanwhile, KOSPI surged +6.3% (Samsung +6.28%, SK hynix +7.56%) on relief rally driven by: Pezeshkian peace signal + blowout Korean March exports +48.3% + bargain hunting. Won weakened to ~1,499 despite equity rally. This is RELIEF RALLY, not structural reversal — helium crisis unresolved. (Sources: TrendForce, Gasworld, Tom's Hardware, CNBC, Seoul Economic Daily)",
-      "sources": ["TrendForce", "Gasworld", "Tom's Hardware", "CNBC", "Seoul Economic Daily"],
+      "content": "NOW IN TrendForce's predicted early-April exhaustion window. CONFIRMED: fabs operating on 50% helium allocations \u2014 customers receiving half normal supply as producers prioritize critical applications (MRI, semiconductors, aerospace). This is CONFIRMED rationing, not speculation (Gasworld). No Samsung or SK hynix production halt formally announced yet \u2014 managing via recycling (Samsung HeRS) + prioritization + claims of 6-month reserves. South Korea semiconductor industry claims supply until 'at least June 2026.' TrendForce prediction playing out as allocation cuts rather than sudden halt \u2014 SLOW SQUEEZE rather than cliff edge. Air Liquide Taiwan facility online but incremental, not transformative. Meanwhile, KOSPI surged +6.3% (Samsung +6.28%, SK hynix +7.56%) on relief rally driven by: Pezeshkian peace signal + blowout Korean March exports +48.3% + bargain hunting. Won weakened to ~1,499 despite equity rally. This is RELIEF RALLY, not structural reversal \u2014 helium crisis unresolved. (Sources: TrendForce, Gasworld, Tom's Hardware, CNBC, Seoul Economic Daily)",
+      "sources": [
+        "TrendForce",
+        "Gasworld",
+        "Tom's Hardware",
+        "CNBC",
+        "Seoul Economic Daily"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "CONFIRMED: Helium spot prices have doubled from pre-crisis levels; 30-38% of global supply offline due to Ras Laffan force majeure. Approximately 200 specialized containers stranded near Hormuz. Samsung and SK Hynix import ~65% of their helium from Qatar. Fortune and Tom's Hardware report 'a few weeks' to real shortage hitting semiconductor production. Samsung claims 'sufficient supply until June' but 50% allocation cuts are CONFIRMED across the industry. No Samsung or SK Hynix formal production cut announcement yet \u2014 but April 7-10 remains the expected announcement window based on inventory drawdown timelines. (Sources: Fortune, Tom's Hardware, Digitimes)",
+      "sources": [
+        "Fortune",
+        "Tom's Hardware",
+        "Digitimes"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "CONFIRMED: KOSPI surged +8.44% on April 2 (Samsung +13%, SK Hynix +10%) \u2014 relief rally on peace signal. Peace signal eases PART of helium concern if Ras Laffan resumes production. But fabs remain at 50% helium allocation. Samsung foreign ownership fell from 52.6% to 48.6%, a 12.5-year low \u2014 structural foreign exit from Korean semiconductor exposure. Rally is relief, not resolution \u2014 helium crisis fundamentally unresolved unless Ras Laffan restarts AND Hormuz opens for shipping. (Sources: Seoul Economic Daily, yfinance)",
+      "sources": [
+        "Seoul Economic Daily",
+        "yfinance"
+      ],
       "significance": "high"
     }
   ],
@@ -60,36 +116,38 @@
     {
       "to": "qatar",
       "type": "production_dependency",
-      "context": "Qatar's Ras Laffan = 30% of world helium. One of only 2 semiconductor-grade helium plants globally. Now offline.",
+      "context": "Qatar's Ras Laffan = 30% of world helium. One of only 2 semiconductor-grade helium plants globally. Now offline. AQUA 1 attack near Ras Laffan demonstrates continued threat. ~200 containers stranded. Even peace signal doesn't resolve 5-year repair timeline.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 8,
-      "weight": 10.0
+      "last_activated": "2026-04-02",
+      "activation_count": 9,
+      "weight": 10
     },
     {
       "to": "sp-500",
       "type": "tech_supply_risk",
-      "context": "Helium shortage → semiconductor manufacturing disruption → AI infrastructure uncertainty → tech valuation pressure. TrendForce confirmed country-level exposure data. Cascade validated by KOSPI 6.5% crash.",
+      "context": "Helium shortage at 50% allocations. Spot doubled. Samsung +13%, SK Hynix +10% relief rally but fabs still rationed. If formal production cut announced April 7-10, cascade to global tech supply chain. Samsung foreign ownership at 12.5-year low.",
       "directness": 2,
-      "last_activated": "2026-04-01",
-      "activation_count": 8,
-      "weight": 10.0
+      "last_activated": "2026-04-02",
+      "activation_count": 9,
+      "weight": 10
     },
     {
       "to": "south-korea",
       "type": "supply_chain_cascade",
-      "context": "Qatar supplies 64.7% of South Korea's helium (Korea International Trade Association). Samsung and SK hynix fab operations directly threatened. KOSPI -4.26% to 5,052, -19.1% monthly, near bear market. Triple cascade validated: helium→semiconductor→KOSPI by 3 independent sources (TrendForce, Nikkei Asia, KITA).",
+      "context": "Qatar supplies 64.7% of South Korea's helium (KITA). Samsung/SK Hynix at 50% allocations. KOSPI +8.44% relief rally but helium crisis unresolved. Samsung foreign ownership fell to 48.6% (12.5-year low). April 7-10 production cut announcement window.",
       "directness": 3,
-      "last_activated": "2026-04-01",
-      "activation_count": 5,
-      "weight": 4.0
+      "last_activated": "2026-04-02",
+      "activation_count": 6,
+      "weight": 6.0
     }
   ],
   "trigger_points": [
     {
       "condition": "Samsung or SK hynix announces production halt due to helium shortage",
-      "cascade": ["sp-500"],
-      "mechanism": "Would directly impact chip output, AI training capacity, and tech earnings. SK Hynix 2-week clock at full production rates is the nearest trigger. Now in the window. 50% allocations confirmed. If no halt by mid-April, TrendForce overstated urgency. If formal output reduction announced by April 7-10, trigger activates.",
+      "cascade": [
+        "sp-500"
+      ],
+      "mechanism": "Would directly impact chip output, AI training capacity, and tech earnings. 50% helium allocations confirmed. Samsung claims supply until June but 50% allocations are real. No formal announcement yet \u2014 April 7-10 remains expected window. If no halt by mid-April, crisis managed through rationing + HeRS recycling.",
       "added": "2026-03-23",
       "status": "watching"
     }

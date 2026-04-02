@@ -3,14 +3,14 @@
   "name": "INR/USD Exchange Rate",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-01",
-  "summary": "At Rs93.43 (yfinance) — improved from Rs93.52 on global dollar weakness (DXY below 100 at 99.47). NOP cap deadline April 10 forcing $30-40B bank position unwinding — major volatility driver. Brent crash to $101.76 eases some import bill pressure. India-specific pressures still dominating: record FPI outflows ₹1.14L cr, oil still above $100, NOP unwinding. Not at 95.22 record low but structural weakness persists. India 10Y at 7.03%. Even global dollar weakness cannot fully offset India's triple pressure (oil + FPI + NOP).",
+  "last_updated": "2026-04-02",
+  "summary": "INR improved to Rs92.64 (TradingEconomics April 2) from Rs93.19 (yfinance April 1) — Brent crash from $118 to $102 easing import bill pressure. NOP cap deadline April 10 creating mechanical INR buying pressure (banks unwinding $30-40B forex positions = positive for rupee short-term but bank profitability hit). DXY still below 100. India-specific structural pressures persist: FPI outflows Rs 1.8 trillion FY26 (worst since 1992), oil still above $100, NOP unwinding. Not at 95.22 record low but recovery is mechanical (NOP + oil crash), not fundamental.",
   "current": {
-    "price": "Rs93.43 (yfinance)",
-    "delta_1d": "-1.0%",
-    "delta_1m": "+2.0%",
-    "delta_3m": "+3.9%",
-    "snapshot_note": "As of Apr 1 end-of-session — DXY below 100 helping"
+    "price": "Rs92.64 (TradingEconomics)",
+    "delta_1d": "-0.3% (strengthening)",
+    "delta_1m": "+1.3%",
+    "delta_3m": "+3.6%",
+    "snapshot_note": "As of Apr 2 — improving from 93.19 (yf April 1). Depreciation from pre-crisis ~87."
   },
   "price_snapshots": [
     {
@@ -42,55 +42,103 @@
     {
       "date": "2026-03-07",
       "content": "Rupee breached ₹92/USD for first time. RBI sold $18-20B in single week. Foreign exchange reserves declined $11.68B by Mar 7.",
-      "sources": ["Bloomberg", "Insights on India", "Business Standard"],
+      "sources": [
+        "Bloomberg",
+        "Insights on India",
+        "Business Standard"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-20",
       "content": "Rupee hit record ₹93.797/USD. Goldman Sachs predicted ₹95 amid oil surge. BusinessToday asked: 'Is the rupee headed for 100 mark?'",
-      "sources": ["Trading Economics", "Republic World", "BusinessToday"],
+      "sources": [
+        "Trading Economics",
+        "Republic World",
+        "BusinessToday"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-23",
       "content": "Rupee weakened to fresh record 93.89/USD in early trade despite Trump de-escalation. India's markets fell with Asia (traded before Trump announcement). RBI continues heavy intervention but reserves declining.",
-      "sources": ["Business Standard", "BusinessToday"],
+      "sources": [
+        "Business Standard",
+        "BusinessToday"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-28",
       "content": "Rupee hit intraday low of 94.85/USD on March 27, closed at 94.81. Down 4%+ since war began. RBI intervening with net short dollar position approaching $100B. Forex reserves dropped $7B to $709.75B. Approaching psychological 95 level.",
-      "sources": ["Business Standard", "RBI data"],
+      "sources": [
+        "Business Standard",
+        "RBI data"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-29",
       "content": "TRIGGER ACTIVATED: Rupee breached ₹95/USD — RBI reference rate closed at 95.09 on March 27 (confirmed by Business Standard, Bloomberg, The Week; yfinance shows 94.31 likely mid-session). Goldman's March 18 forecast of ₹95 confirmed in 9 days. RBI emergency response: imposed NOP-INR hard cap of $100 million on ALL authorized dealer banks regardless of balance sheet size (March 28), compliance deadline April 10. Previously banks could maintain NOP limits up to 25% of capital — this is explicitly anti-speculation and constitutes a form of capital flow management. Forex reserves dropped $30.14 billion in 3 weeks of March to $698.35 billion (below $700B). RBI's net short dollar forward position approaching $100 billion. The cascade: Brent $112→India imports 85-90%→import bill balloons→RBI burns reserves→reserves declining→market senses limits→FPI flight ($11.5B March)→rupee breaks 95→RBI imposes NOP cap→next steps are outright capital controls if this doesn't hold. (Sources: Business Standard, Bloomberg, The Week, RBI circular)",
-      "sources": ["Business Standard", "Bloomberg", "The Week", "RBI"],
+      "sources": [
+        "Business Standard",
+        "Bloomberg",
+        "The Week",
+        "RBI"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-30",
       "content": "Rupee rallied to ₹93.88 (yfinance) on Monday Asian session — NOP cap forcing banks to sell dollars to close long-dollar onshore positions. MECHANICAL rally, not fundamental. Position size revised to $25-50B. RBI reference rate was ₹95.09 Friday; Monday RBI rate will be authoritative. Structural pressures (oil, FPI outflows, reserves) unchanged. (Sources: yfinance, Bloomberg, Business Standard)",
-      "sources": ["yfinance", "Bloomberg", "Business Standard"],
+      "sources": [
+        "yfinance",
+        "Bloomberg",
+        "Business Standard"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-30",
       "content": "EVENING UPDATE — NOP CAP FAILED WITHIN 4 HOURS: Rupee opened at 93.56 (125 paise stronger, banks forced to sell dollars by NOP cap). Gains evaporated within hours as oil surged from $107 to $116 on Trump 'take the oil' FT interview. Hit RECORD INTRADAY LOW of 95.22. Closed ~95.07. MUFG Research headlined: 'Can't stop this train.' Business Standard: 'Temporary relief for Rupee, not a trend reversal.' FXStreet: 'USD/INR recovers RBI-linked losses, reclaims all-time highs.' The RBI's escalation ladder (spot intervention → NOP cap) has been exhausted. Next steps: emergency rate hike or capital controls — both politically radioactive. (Sources: FXStreet, MUFG Research, Business Standard, Bloomberg, Freepressjournal)",
-      "sources": ["FXStreet", "MUFG Research", "Business Standard", "Bloomberg", "Freepressjournal"],
+      "sources": [
+        "FXStreet",
+        "MUFG Research",
+        "Business Standard",
+        "Bloomberg",
+        "Freepressjournal"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-31",
       "content": "CRITICAL DATA: yfinance shows ₹93.91 but RBI reference rate was ₹95.07 (March 30). Intraday low ₹95.22 (record). India markets closed March 31 (Mahavir Jayanti). The NOP cap → banks sold dollars → rupee opened at 93.56 → oil surged back to $115 on Trump FT interview → rupee collapsed to 95.22 within 4 hours. NOP cap failed. MUFG: 'Can't stop this train.' The gap: yfinance captures partial NOP-driven session print or offshore quote. Actual onshore rupee near record weakness at ₹95+. CONFIRMED.",
-      "sources": ["RBI", "yfinance", "Business Standard", "Bloomberg", "MUFG"],
+      "sources": [
+        "RBI",
+        "yfinance",
+        "Business Standard",
+        "Bloomberg",
+        "MUFG"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-01",
       "content": "Rupee trading volatile in 93.48-94.26 range (not at 95.22 record low). NOP cap deadline April 10 creating forced position unwinding by banks ($30-40B). RBI reference rate near 95 onshore vs yfinance 93.52 — divergence reflects offshore/onshore gap. India 10Y at 7.03% — higher yields should attract carry but FPI outflows dominating (₹1.14 lakh crore record March). DXY dropped below 100 (positive for INR) but India-specific structural pressures (oil imports, FPI selling, NOP unwinding) offsetting global dollar weakness. Jaishankar's 'dalal nation' remark signals government positioning away from mediation toward self-interest. (Sources: TradingEconomics, Business Standard, Bloomberg)",
-      "sources": ["TradingEconomics", "Business Standard", "Bloomberg"],
+      "sources": [
+        "TradingEconomics",
+        "Business Standard",
+        "Bloomberg"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "REPORTED: INR improved to 92.64 per TradingEconomics (April 2), recovering from 93.19 (yfinance April 1, -0.3% daily move = strengthening). Brent crash from $118 to $102 easing import bill pressure. NOP cap deadline April 10 creates mechanical INR buying pressure (banks unwinding $30-40B forex positions = positive for rupee short-term but bank profitability hit). Recovery is mechanical (NOP forced unwinding + oil crash), not fundamental — FPI outflows Rs 1.8 trillion FY26, structural pressures persist. (Sources: TradingEconomics, Business Standard)",
+      "sources": [
+        "TradingEconomics",
+        "Business Standard"
+      ],
       "significance": "high"
     }
   ],
@@ -98,44 +146,48 @@
     {
       "to": "india",
       "type": "currency_impact",
-      "context": "Rupee volatile in 93.5-94.3 range. NOP cap deadline April 10 forcing $30-40B unwinding. FPI sold ₹1.14 lakh crore in March. DXY below 100 should help but India-specific pressures dominating.",
+      "context": "Rupee improving to 92.64 on Brent crash and NOP unwinding. NOP cap deadline April 10 forcing $30-40B unwinding. FPI outflows Rs 1.8 trillion FY26 — worst since 1992. Structural pressures dominate despite tactical improvement.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 17,
-      "weight": 9.5
+      "last_activated": "2026-04-02",
+      "activation_count": 18,
+      "weight": 10.0
     },
     {
       "to": "brent-crude",
       "type": "cost_transmission",
-      "context": "Higher oil → more dollar demand for imports → rupee weakens. Oil above $100 is the binding constraint — even DXY below 100 cannot offset India's oil import pressure.",
+      "context": "Higher oil → more dollar demand for imports → rupee weakens. Brent crash to $101.97 easing import bill pressure — rupee improved to 92.64. Oil still above $100 is the binding constraint.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 14,
-      "weight": 9.5
+      "last_activated": "2026-04-02",
+      "activation_count": 15,
+      "weight": 10.0
     },
     {
       "to": "rbi",
       "type": "intervention_target",
-      "context": "NOP cap deadline April 10 firm. $30-40B positions need squaring. RBI granted separate 3-month extension on capital market exposure norms but not NOP. India 10Y at 7.03%.",
+      "context": "NOP cap deadline April 10 firm. $30-40B positions need squaring. RBI MPC April 6-8 — rate decision will impact INR. India 10Y at 7.00-7.04%.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 17,
-      "weight": 9.5
+      "last_activated": "2026-04-02",
+      "activation_count": 18,
+      "weight": 10.0
     },
     {
       "to": "nifty-50",
       "type": "fii_flow_driver",
-      "context": "Weak rupee → FIIs sell to avoid currency losses → equity selling pressure. India diverging from global rally — world up but India down. ₹1.14 lakh crore FPI outflow in March.",
+      "context": "Rupee strengthening to 92.64 easing FII selling pressure. NOP cap unwinding creates mechanical INR buying. FPI outflows Rs 1.8 trillion FY26 — worst since 1992, 42% YoY increase.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 11,
-      "weight": 8.5
+      "last_activated": "2026-04-02",
+      "activation_count": 12,
+      "weight": 10.0
     }
   ],
   "trigger_points": [
     {
       "condition": "Rupee crosses ₹95/USD",
-      "cascade": ["rbi", "nifty-50", "india"],
+      "cascade": [
+        "rbi",
+        "nifty-50",
+        "india"
+      ],
       "mechanism": "Would signal loss of RBI control. Emergency measures possible. FII exodus would accelerate dramatically.",
       "added": "2026-03-23",
       "status": "active"

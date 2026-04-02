@@ -3,83 +3,155 @@
   "name": "Shipping / Tanker Rates",
   "type": "sector",
   "created": "2026-03-23",
-  "last_updated": "2026-04-01",
-  "summary": "VLCC RATES AT ALL-TIME RECORDS: $424K-$758K/day. Most inelastic crisis beneficiary — Frontline +4.4% DESPITE oil -6.6%. Rates driven by voyage distance and vessel availability, not oil price. Africa rerouting + Hormuz avoidance = fewer ships = rate surge. War risk insurance now up to 3% of vessel value ($6M+ per transit). Al-Salmi VLCC attacked at Dubai port (not Hormuz) — insurance must reprice for ENTIRE GULF. Day 33 zero Houthi shipping attacks but commercial closure via carrier withdrawal is effective. Even with ceasefire, physical rerouting takes weeks to normalize. +74.8% over 3 months reflects structural position.",
+  "last_updated": "2026-04-02",
+  "summary": "AQUA 1 STRIKE NEAR RAS LAFFAN: Iran struck QatarEnergy-chartered tanker with 3 cruise missiles (2 intercepted, 1 hit) \u2014 second vessel attack in 2 days. IRGC claimed responsibility. VLCC rates remain in 'never ever before' territory: peak $601,569/day, now $112-117K/day \u2014 still 3-5x pre-crisis. Frontline tanker stock FLAT (-0.1%) despite Brent -10.5% \u2014 shipping disruption more entrenched than financial oil premium. Container freight (Drewry WCI) at $2,279/FEU, +5% WoW (4th consecutive weekly increase). Shanghai-Jebel Ali spiked to $4,000+. Lloyd's: rates partly 'imaginary' \u2014 illiquid, panic fixing.",
   "signals": [
     {
       "date": "2026-03-03",
-      "content": "VLCC rates hit all-time high of $423,736/day on Baltic Exchange (TD3C MEG-China), up 94% in single day — highest in nearly 50-year history of the index. War risk insurance being cancelled by major providers.",
-      "sources": ["Seatrade Maritime", "Lloyd's List", "CNBC"],
+      "content": "VLCC rates hit all-time high of $423,736/day on Baltic Exchange (TD3C MEG-China), up 94% in single day \u2014 highest in nearly 50-year history of the index. War risk insurance being cancelled by major providers.",
+      "sources": [
+        "Seatrade Maritime",
+        "Lloyd's List",
+        "CNBC"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-06",
       "content": "VLCC Kalamos set individual vessel record at $770,000/day, loading at Yanbu for India's west coast. Normal rates: $80,000-100,000/day. Current rates imply freight cost adds $7/bbl to oil.",
-      "sources": ["Lloyd's List", "Seatrade Maritime"],
+      "sources": [
+        "Lloyd's List",
+        "Seatrade Maritime"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-09",
       "content": "Cape of Good Hope crossings increased 89%. Ships rerouting around Africa adding 10-14 days to transit. CMA CGM introduced $3,000/FEU emergency surcharge.",
-      "sources": ["Windward", "Freightos", "CNBC"],
+      "sources": [
+        "Windward",
+        "Freightos",
+        "CNBC"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-18",
       "content": "150 ships stranded around Strait of Hormuz. Insurance companies cancelling war risk coverage for vessels in Gulf.",
-      "sources": ["CNBC", "The National"],
+      "sources": [
+        "CNBC",
+        "The National"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-24",
-      "content": "Marine war risk insurance premiums up 1,000%+ — hull war risk premium now ~$7.5 million per trip (up from ~$625,000 pre-conflict). Rate at 3% of hull value, up from 0.2%. Lloyd's List reports Gulf premiums 'topping double-digit millions per trip.' Many insurers stopped covering Hormuz transit entirely, making strait 'de facto closed' for commercial vessels without government backstop. US government created $20 billion maritime reinsurance facility via DFC with Chubb as lead underwriter to keep shipping moving. Container freight: Drewry World Container Index at $2,172/40ft (Mar 19), up third consecutive week. CMA CGM raised surcharge to $265/TEU. Iran operating selective blockade — only 16 AIS-visible crossings in most recent 7-day window. Frontline (FRO) +2.1% to $34.55 as tanker demand remains extreme.",
-      "sources": ["Business Insurance", "Lloyd's List", "Insurance Journal", "Drewry", "CNBC", "Al Jazeera", "yfinance"],
+      "content": "Marine war risk insurance premiums up 1,000%+ \u2014 hull war risk premium now ~$7.5 million per trip (up from ~$625,000 pre-conflict). Rate at 3% of hull value, up from 0.2%. Lloyd's List reports Gulf premiums 'topping double-digit millions per trip.' Many insurers stopped covering Hormuz transit entirely, making strait 'de facto closed' for commercial vessels without government backstop. US government created $20 billion maritime reinsurance facility via DFC with Chubb as lead underwriter to keep shipping moving. Container freight: Drewry World Container Index at $2,172/40ft (Mar 19), up third consecutive week. CMA CGM raised surcharge to $265/TEU. Iran operating selective blockade \u2014 only 16 AIS-visible crossings in most recent 7-day window. Frontline (FRO) +2.1% to $34.55 as tanker demand remains extreme.",
+      "sources": [
+        "Business Insurance",
+        "Lloyd's List",
+        "Insurance Journal",
+        "Drewry",
+        "CNBC",
+        "Al Jazeera",
+        "yfinance"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-29",
       "content": "VLCC rates at 50-year all-time highs: $401K-$445K/day on Baltic Exchange (TD3C), with some fixtures at $538K-$770K/day. War risk insurance at 1-7.5% of hull value ($2-15M extra per VLCC transit), up from 0.25% pre-war. Some insurers suspended Gulf coverage entirely. Market bifurcated: Western operators (Frontline +0.2% despite record rates) locked out by insurance costs, while IRGC-tolled yuan passages serve Chinese/non-Western vessels at $2M/transit. Container freight: ~$2,200/FEU global, $4,000+ Shanghai-Dubai (+110%). Emergency surcharges on Gulf routes.",
-      "sources": ["Baltic Exchange", "Seatrade Maritime", "Lloyd's List", "S&P Global", "Caixin", "Freightos"],
+      "sources": [
+        "Baltic Exchange",
+        "Seatrade Maritime",
+        "Lloyd's List",
+        "S&P Global",
+        "Caixin",
+        "Freightos"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-31",
-      "content": "Kuwaiti tanker Al-Salmi attacked by Iranian drone at Dubai Port overnight (March 31, ~12:10 AM). Fire extinguished by 4:30 AM. All 24 crew safe. No oil leakage. One of the most significant maritime attacks of the war — attacking a neutral country's vessel in UAE territorial waters. Undermines 'selective Hormuz opening' narrative: Iran simultaneously allowing some ships through while attacking others at port. Insurance implications severe — if vessels not safe at port, war risk premiums for entire Gulf reprice higher. Iran has NOT claimed or denied. Also: Houthi still zero confirmed Red Sea attacks (Day 32) — deliberately preserving shipping card as leverage. Houthis told Lloyd's List 'no reason to prevent' Yanbu VLCC trade 'at present' — revealing deliberate restraint. Maersk, CMA CGM, Hapag-Lloyd, MSC rerouted or suspended Red Sea/Suez. Bab al-Mandeb at ~57 transits/24hr vs normal. CONFIRMED (multiple independent sources).",
-      "sources": ["Bloomberg", "Al Jazeera", "Gulf News", "The National", "gCaptain", "Lloyd's List", "UKMTO", "Windward"],
+      "content": "Kuwaiti tanker Al-Salmi attacked by Iranian drone at Dubai Port overnight (March 31, ~12:10 AM). Fire extinguished by 4:30 AM. All 24 crew safe. No oil leakage. One of the most significant maritime attacks of the war \u2014 attacking a neutral country's vessel in UAE territorial waters. Undermines 'selective Hormuz opening' narrative: Iran simultaneously allowing some ships through while attacking others at port. Insurance implications severe \u2014 if vessels not safe at port, war risk premiums for entire Gulf reprice higher. Iran has NOT claimed or denied. Also: Houthi still zero confirmed Red Sea attacks (Day 32) \u2014 deliberately preserving shipping card as leverage. Houthis told Lloyd's List 'no reason to prevent' Yanbu VLCC trade 'at present' \u2014 revealing deliberate restraint. Maersk, CMA CGM, Hapag-Lloyd, MSC rerouted or suspended Red Sea/Suez. Bab al-Mandeb at ~57 transits/24hr vs normal. CONFIRMED (multiple independent sources).",
+      "sources": [
+        "Bloomberg",
+        "Al Jazeera",
+        "Gulf News",
+        "The National",
+        "gCaptain",
+        "Lloyd's List",
+        "UKMTO",
+        "Windward"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-01",
-      "content": "Frontline +4.4% DESPITE oil pullback — the structural tanker story. VLCC day rates at historic records: $424K-$758K/day (Clarksons, Splash247). Adamantios at world-record $537,913/day to Reliance. Kalamos at $758K/day to BPCL. War risk insurance premiums 0.25% → up to 3% of vessel value ($6M+ per Hormuz transit). Ships rerouting around Africa → longer voyage = fewer available vessels = rate surge. Tanker rates driven by voyage DISTANCE and vessel AVAILABILITY, not oil price direction. Even with oil -6.6%, rerouting persists regardless of peace rhetoric. Insurance premiums take months to normalize. Most INELASTIC crisis beneficiary. Day 33 zero Houthi Red Sea shipping attacks — commercial closure via carrier withdrawal (Maersk, CMA CGM, Hapag-Lloyd, MSC rerouted), not military blockade. Al-Salmi VLCC attacked at Dubai port anchorage — insurance must reprice for entire Gulf, not just Hormuz. (Sources: Clarksons, Splash247, Maritime Executive, Bloomberg, UKMTO)",
-      "sources": ["Clarksons", "Splash247", "Maritime Executive", "Bloomberg", "UKMTO"],
+      "content": "Frontline +4.4% DESPITE oil pullback \u2014 the structural tanker story. VLCC day rates at historic records: $424K-$758K/day (Clarksons, Splash247). Adamantios at world-record $537,913/day to Reliance. Kalamos at $758K/day to BPCL. War risk insurance premiums 0.25% \u2192 up to 3% of vessel value ($6M+ per Hormuz transit). Ships rerouting around Africa \u2192 longer voyage = fewer available vessels = rate surge. Tanker rates driven by voyage DISTANCE and vessel AVAILABILITY, not oil price direction. Even with oil -6.6%, rerouting persists regardless of peace rhetoric. Insurance premiums take months to normalize. Most INELASTIC crisis beneficiary. Day 33 zero Houthi Red Sea shipping attacks \u2014 commercial closure via carrier withdrawal (Maersk, CMA CGM, Hapag-Lloyd, MSC rerouted), not military blockade. Al-Salmi VLCC attacked at Dubai port anchorage \u2014 insurance must reprice for entire Gulf, not just Hormuz. (Sources: Clarksons, Splash247, Maritime Executive, Bloomberg, UKMTO)",
+      "sources": [
+        "Clarksons",
+        "Splash247",
+        "Maritime Executive",
+        "Bloomberg",
+        "UKMTO"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "CONFIRMED: Iran struck QatarEnergy-chartered tanker AQUA 1 near Ras Laffan (17nm north) with 3 cruise missiles \u2014 2 intercepted, 1 hit. 21 crew safe. IRGC claimed responsibility, alleged Israeli ties. Iran reportedly gave Qatar advance notice \u2014 calculated escalation, not indiscriminate. Second vessel attack in 2 days (after Al-Salmi VLCC at Dubai port). Attack pattern expanding from Hormuz chokepoint to Gulf-wide \u2014 Dubai port, then Qatar waters. (Sources: QatarEnergy, Al Jazeera, AGBI)",
+      "sources": [
+        "QatarEnergy",
+        "Al Jazeera",
+        "AGBI"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "CONFIRMED: VLCC rates remain in 'never ever before' territory. Peak $601,569/day; now $112-117K/day \u2014 still 3-5x pre-crisis levels. Lloyd's List notes rates partly 'imaginary' \u2014 illiquid market, panic fixing. Key structural signal: Frontline tanker stock -0.1% FLAT despite Brent crude -10.5% \u2014 shipping disruption is more entrenched than the financial oil premium. Tanker rates driven by voyage distance and vessel availability, not oil price. (Sources: Lloyd's List, Baltic Exchange, yfinance)",
+      "sources": [
+        "Lloyd's List",
+        "Baltic Exchange",
+        "yfinance"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "CONFIRMED: Container freight (Drewry WCI) at $2,279/FEU, +5% WoW \u2014 4th consecutive weekly increase. Shanghai-Jebel Ali spiked from $1,800 to $4,000+. Surcharges $800-$4,000/container across Gulf routes. Container shipping disruption widening beyond tanker market. (Sources: Drewry)",
+      "sources": [
+        "Drewry"
+      ],
       "significance": "high"
     }
   ],
   "current": {
-    "price": "VLCC rates: $424K-$758K/day (records)",
-    "delta_1d": "Frontline +4.4%",
-    "delta_1m": "BOAT -4.4%",
-    "delta_3m": "BOAT +30.1%, Frontline +74.8%",
-    "snapshot_note": "As of Apr 1"
+    "price": "VLCC rates: -117K/day (from peak K)",
+    "delta_1d": "Frontline -0.1% (FLAT vs Brent -10.5%)",
+    "delta_1m": "BOAT +est. (container WCI +5% WoW)",
+    "delta_3m": "Frontline +74.8%, BOAT +30.1%",
+    "snapshot_note": "As of Apr 2"
   },
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "route_dependency",
-      "context": "Hormuz closure is primary cause. Al-Salmi attack at Dubai Port undermines 'selective opening' narrative — Iran attacking neutral vessels in UAE waters. If ships not safe at port, entire Gulf reprices. Insurance implications severe.",
+      "context": "Hormuz closure + toll law = primary cause of rate disruption. AQUA 1 attack at Qatar waters + Al-Salmi at Dubai = Iran projecting force Gulf-wide. Lloyd's JWC redesignated entire Arabian Gulf as conflict zone. War risk insurance at 1%+ hull value. Tanker traffic collapsed 80%+.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 18,
-      "weight": 10.0
+      "last_activated": "2026-04-02",
+      "activation_count": 19,
+      "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "transport_cost",
-      "context": "Higher shipping rates → higher delivered cost of oil. Freight alone adds $7/bbl. Al-Salmi port attack = further insurance repricing = even higher delivered costs. VLCC rates at 50-year highs.",
+      "context": "Higher shipping rates add $7/bbl to delivered cost. Frontline FLAT vs Brent -10.5% \u2014 shipping disruption more structural than oil premium. VLCC rates 3-5x pre-crisis. Insurance costs making Gulf transit uneconomic.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 11,
-      "weight": 8.0
+      "last_activated": "2026-04-02",
+      "activation_count": 12,
+      "weight": 10
     },
     {
       "to": "india",
@@ -88,23 +160,27 @@
       "directness": 2,
       "last_activated": "2026-03-24",
       "activation_count": 6,
-      "weight": 6.5
+      "weight": 2.7
     },
     {
       "to": "houthis",
       "type": "second_chokepoint_risk",
-      "context": "Houthis still ZERO confirmed Red Sea attacks (Day 33) — deliberately preserving shipping card as leverage. Told Lloyd's List 'no reason to prevent' Yanbu VLCC trade 'at present.' Maersk, CMA CGM, Hapag-Lloyd, MSC rerouted/suspended Red Sea anyway. Bab al-Mandeb at ~57 transits/24hr. Restraint IS the signal.",
+      "context": "Day 34 zero confirmed Houthi Red Sea shipping attacks. Bab al-Mandeb in commercial closure via carrier withdrawal. Bloomberg: Iran pressing Houthis to resume but 'divisions within leadership.' Houthis told Lloyd's List 'no reason to prevent' Yanbu trade 'at present' \u2014 preserving shipping card as leverage. Washington and Riyadh told European allies they believe Houthis 'currently seek to avoid further escalation.'",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 6,
-      "weight": 7.5
+      "last_activated": "2026-04-02",
+      "activation_count": 7,
+      "weight": 10
     }
   ],
   "trigger_points": [
     {
       "condition": "Houthis begin confirmed Red Sea attacks (verified by maritime trackers)",
-      "cascade": ["brent-crude", "india", "natural-gas-lng"],
-      "mechanism": "Double chokepoint: Hormuz AND Red Sea blocked. Only Cape of Good Hope remains. Shipping rates would spike further from already-historic levels. As of Day 33, Houthi threats remain rhetoric only — zero attacks confirmed.",
+      "cascade": [
+        "brent-crude",
+        "india",
+        "natural-gas-lng"
+      ],
+      "mechanism": "Double chokepoint: Hormuz AND Red Sea blocked. Only Cape of Good Hope remains. Shipping rates would spike further from already-historic levels. As of Day 33, Houthi threats remain rhetoric only \u2014 zero attacks confirmed.",
       "added": "2026-03-23",
       "status": "watching"
     }

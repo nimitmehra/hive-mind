@@ -3,14 +3,14 @@
   "name": "South Korea",
   "type": "country",
   "created": "2026-03-28",
-  "last_updated": "2026-04-01",
-  "summary": "KOSPI AT 5,478.70 — BIGGEST EQUITY MOVER GLOBALLY (+8.4%): Triple catalyst (fundamentals ~4.5%: exports +48.3% YoY record $86.1B beat, helium relief ~2.5%: peace=Qatar resumes, global risk-on ~1.4%). Samsung +13.6%, SK hynix +11.4%. BUT: fabs STILL on 50% helium allocations (confirmed rationing). Won weakened to 1,503 despite equity rally (foreign selling into strength). All three rally legs fragile — exports backward-looking, peace is rhetoric, helium crisis unresolved. +27.1% 3M raises: how much good news is priced?",
+  "last_updated": "2026-04-02",
+  "summary": "KOSPI +8.44% to 5,479 on April 2 — strongest single-day rally in recent history (Seoul Economic Daily). Samsung +13%, SK Hynix +10%. Buy-side sidecar triggered within 7 minutes of opening. Institutions net-bought 4.03T won; retail net-sold 3.76T won. Most crisis-sensitive market bounced hardest — Korea was most punished major market (-20% in March) and experienced mean reversion. Relief drivers: de-escalation signals (Pezeshkian + Trump \"2-3 weeks\") → oil crash → Korea imports virtually ALL crude from Middle East (~80% relief), partial semiconductor relief on helium (Ras Laffan may resume, ~15%). Samsung foreign ownership had fallen to 48.6% (12.5-year low). Analysts warn: oil still above $100, Hormuz unresolved, TurboQuant HBM impact unsettled. Hana Securities: \"Full KOSPI rebound hinges on confirmation of oil price stabilization and shift to foreign net buying.\"",
   "current": {
-    "price": "KOSPI: 5,478.70",
-    "delta_1d": "+8.4%",
+    "price": "KOSPI: 5,479",
+    "delta_1d": "+8.44%",
     "delta_1m": "-5.4%",
     "delta_3m": "+27.1%",
-    "snapshot_note": "As of Apr 1 end-of-session"
+    "snapshot_note": "As of Apr 2 per Seoul Economic Daily. Prior close 5,052 (yf April 1 was 5,478.70 — note: Seoul Econ Daily says 5,070→5,479 = +8.44%)"
   },
   "price_snapshots": [
     {
@@ -18,49 +18,115 @@
       "price": "KOSPI: 5,478.70",
       "trigger": "BIGGEST equity mover globally — triple catalyst",
       "delta_context": "Surged +8.4% from 5,052 on: (1) Korean March exports +48.3% YoY record $86.1B (fundamentals ~4.5%), (2) Pezeshkian peace signal → helium relief (~2.5%), (3) global risk-on (~1.4%). Samsung +13.6%, SK hynix +11.4%. Double circuit breakers triggered on the rally (TradingKey). Won weakened to 1,503 despite equity surge (foreign selling into strength)."
+    },
+    {
+      "date": "2026-04-02",
+      "price": "KOSPI: 5,479",
+      "trigger": "Strongest single-day rally — de-escalation + oil crash + mean reversion",
+      "delta_context": "Surged +8.44% (5,070→5,479). Samsung +13%, SK Hynix +10%. Buy-side sidecar triggered within 7 minutes. Institutions net-bought 4.03T won. Most punished market (-20% March) bounced hardest."
     }
   ],
   "signals": [
     {
       "date": "2026-03-23",
       "content": "KOSPI crashed 6.5% triggering circuit breaker — worst single-day drop since COVID. Samsung Electronics fell 8.2%. SK Hynix fell 9.1%. Driven by oil spike + helium supply concerns + global risk-off. (Sources: yfinance, Bloomberg, Reuters)",
-      "sources": ["yfinance", "Bloomberg", "Reuters"],
+      "sources": [
+        "yfinance",
+        "Bloomberg",
+        "Reuters"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-28",
       "content": "KOSPI at 5,438.87 (-0.4% daily, -10.6% monthly). Two semiconductor fabs announced reduced output due to helium allocation restrictions following Ras Laffan damage. USD/KRW at 1,508 — weakest since 2022. South Korea's energy import dependence (~70% from Gulf) makes it acutely exposed to Hormuz disruption. (Sources: yfinance, industry reports)",
-      "sources": ["yfinance", "Business Standard", "SemiAnalysis"],
+      "sources": [
+        "yfinance",
+        "Business Standard",
+        "SemiAnalysis"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-29",
       "content": "KOSPI triple cascade confirmed: helium→semiconductor fabs (~40% of -10.6% monthly decline, ~4.2%), Google TurboQuant AI memory compression (~25%, ~2.7%), foreign capital flight (~35%, ~3.7%). Foreigners dumped 51.4 trillion won ($37.8B) since February — largest outflow since Global Financial Crisis. Samsung foreign ownership hit 48.9% — lowest since October 2013 (12.5-year low). Won at 1,508/USD — weakest since March 2009 (17-year low). TrendForce's March 24 'two-week clock' on helium inventories means ~8 days remain before Asian chip fab inventories exhaust at full production rates. The helium cascade path (war→Qatar→helium→semiconductors→KOSPI) validated by 3 independent sources (TrendForce, Nikkei Asia, Korea International Trade Association). (Sources: yfinance, TrendForce, Korea International Trade Association)",
-      "sources": ["yfinance", "TrendForce", "Korea International Trade Association"],
+      "sources": [
+        "yfinance",
+        "TrendForce",
+        "Korea International Trade Association"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-30",
       "content": "KOSPI deepened decline to 5,281.76 (-2.9% Monday, -16.3% monthly). Foreign capital flight accelerated: ₩51.4T ($37.8B) sold since Feb — largest since GFC. Samsung foreign ownership at 48.9% (12.5-year low). Won at ₩1,512 (17-year low). Helium data conflict: Samsung claims 6 months stock but TrendForce says industry at ~6 days. SK hynix likely more vulnerable than Samsung. (Sources: yfinance, Korea International Trade Association, TrendForce, Korea Plus)",
-      "sources": ["yfinance", "Korea International Trade Association", "TrendForce", "Korea Plus"],
+      "sources": [
+        "yfinance",
+        "Korea International Trade Association",
+        "TrendForce",
+        "Korea Plus"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-31",
       "content": "KOSPI broke 5,100 support — fell -3.4% to 5,099.97 on March 31 (LIVE data). Worst-performing major index: -18.3% monthly. SK hynix -5.8%, Samsung -3.5%. Won at ₩1,533.72 (17-year low, +1.8% daily). Triple cascade confirmed: helium (~40%), energy dependence (~25%), foreign capital flight (~35%). TrendForce helium clock: ~6-8 days to Asian fab exhaustion. Samsung claims 6-month buffer via HeRS recycling system. No confirmed production halt yet. Next level: 5,000 (psychological).",
-      "sources": ["yfinance LIVE", "TrendForce", "Korea International Trade Association", "Military Times"],
+      "sources": [
+        "yfinance LIVE",
+        "TrendForce",
+        "Korea International Trade Association",
+        "Military Times"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-03-31",
       "content": "KOSPI closed at 5,052.46 (-4.26%) — worst performing major index globally in March (-19.1% monthly). Approaching bear market territory. Samsung -5.2%, SK hynix -5.2% — gap narrowed, weakening Samsung HeRS differentiation thesis. Foreign investors sold 35 trillion won in March (all-time monthly record). Won at 17-year low (₩1,524.62). Triple whammy: helium cascade (~30%), Google TurboQuant (~40%), high chip prices (~30%). KOSPI broke below 5,100 helium cascade threshold. Next level: 5,000 (psychological). CONFIRMED.",
-      "sources": ["Seoul Economic Daily", "Bloomberg", "UPI", "yfinance"],
+      "sources": [
+        "Seoul Economic Daily",
+        "Bloomberg",
+        "UPI",
+        "yfinance"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-01",
       "content": "KOSPI surged +8.4% to 5,478.70 — BIGGEST equity mover globally on April 1. Triple catalyst: (1) Korean March exports +48.3% YoY to RECORD $86.1 billion, crushing consensus +44.9% — semiconductor exports on 10+ month expansion streak (fundamentals ~4.5%). (2) Pezeshkian peace signal → if war ends, Qatar Ras Laffan helium resumes, Korea's biggest existential risk removed (~2.5%). (3) Global risk-on tracking Wall Street's strongest session in months (~1.4%). Samsung +13.6%, SK hynix +11.4% — massive outperformance. Double circuit breakers triggered on the rally (TradingKey). Won weakened to ₩1,503 despite equity surge (foreign selling into strength). Fabs STILL on 50% helium allocations (CONFIRMED rationing, Gasworld). RELIEF RALLY, not resolution — all three legs fragile. Exports backward-looking, peace is single statement, helium rationing real NOW. +8.4% on top of +27.1% 3M raises exhaustion risk. If any leg breaks, KOSPI gives back 4-5%. (Sources: CNBC, Seoul Economic Daily, TradingKey, yfinance, Gasworld)",
-      "sources": ["CNBC", "Seoul Economic Daily", "TradingKey", "yfinance", "Gasworld"],
+      "sources": [
+        "CNBC",
+        "Seoul Economic Daily",
+        "TradingKey",
+        "yfinance",
+        "Gasworld"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "KOSPI +8.44% on April 2 (5,070 to 5,479) — strongest single-day rally in recent history. Samsung +13%, SK Hynix +10%. Buy-side sidecar triggered within 7 minutes of opening. Institutions net-bought 4.03T won; retail net-sold 3.76T won (smart money buying, retail selling into strength). Most crisis-sensitive market bounced hardest — Korea was most punished major market (-20% in March) and experienced mean reversion from extreme oversold levels. (Sources: Seoul Economic Daily, yfinance)",
+      "sources": [
+        "Seoul Economic Daily",
+        "yfinance"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "Relief rally drivers: (1) De-escalation signals (Pezeshkian peace offer + Trump \"2-3 weeks\" exit timeline) → oil crash → Korea imports virtually ALL crude from Middle East, providing ~80% of the relief. (2) Partial semiconductor relief — peace signal eases helium concern as Ras Laffan (Qatar) may resume operations, providing ~15% of rally. Samsung foreign ownership had fallen from 52.6% to 48.6% (12.5-year low) — potential for foreign re-entry if de-escalation confirmed. (Sources: Seoul Economic Daily, Bloomberg, TrendForce)",
+      "sources": [
+        "Seoul Economic Daily",
+        "Bloomberg",
+        "TrendForce"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "Analysts warn rally may be premature: oil still above $100, Hormuz passage unresolved, TurboQuant's HBM impact unsettled. Hana Securities: \"Full KOSPI rebound hinges on confirmation of oil price stabilization and shift to foreign net buying.\" Fabs still on 50% helium allocations (confirmed rationing). Won at ~1,503 (weakened despite equity surge — foreign selling into strength on prior session). (Sources: Hana Securities)",
+      "sources": [
+        "Hana Securities"
+      ],
       "significance": "high"
     }
   ],
@@ -68,35 +134,39 @@
     {
       "to": "helium",
       "type": "supply_dependency",
-      "context": "Samsung and SK Hynix depend on helium for semiconductor fabrication. KOSPI surged +6.4% on Pezeshkian peace signal (helium relief). BUT fabs STILL on 50% helium allocations (confirmed rationing). Relief rally, not resolution.",
+      "context": "KOSPI surged +8.44% partly on helium relief (~15% of rally) — peace signal means Ras Laffan may resume. BUT fabs STILL on 50% helium allocations (confirmed rationing). Relief rally, not resolution.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 10,
-      "weight": 8.5
+      "last_activated": "2026-04-02",
+      "activation_count": 11,
+      "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "import_dependency",
-      "context": "South Korea imports ~70% of energy from the Gulf. Oil above $100 adds massive import costs. Won weakened to 1,499 despite equity rally — foreign selling into strength.",
+      "context": "Korea imports virtually ALL crude from Middle East. Oil crash from $118 to $101.97 provided ~80% of KOSPI's +8.44% rally driver. Oil still above $100 is the binding risk.",
       "directness": 1,
-      "last_activated": "2026-04-01",
-      "activation_count": 7,
-      "weight": 7.5
+      "last_activated": "2026-04-02",
+      "activation_count": 8,
+      "weight": 10
     },
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "Majority of Korean energy imports transit Hormuz. Closure directly impacts energy security and industrial production.",
+      "context": "Majority of Korean energy imports transit Hormuz. De-escalation signals easing Hormuz closure risk — major driver of KOSPI relief rally. Hormuz resolution = bulk of Korea's crisis recovery.",
       "directness": 1,
-      "last_activated": "2026-03-28",
-      "activation_count": 5,
-      "weight": 6.0
+      "last_activated": "2026-04-02",
+      "activation_count": 6,
+      "weight": 10
     }
   ],
   "trigger_points": [
     {
       "condition": "Samsung or SK Hynix announces production halt due to helium shortage",
-      "cascade": ["helium", "sp-500", "nifty-50"],
+      "cascade": [
+        "helium",
+        "sp-500",
+        "nifty-50"
+      ],
       "mechanism": "Confirmed fab shutdown would cascade to global semiconductor supply, AI infrastructure, and tech valuations worldwide. Currently only 'reduced output' reported, not full halt.",
       "added": "2026-03-28",
       "status": "watching"

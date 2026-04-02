@@ -1,1 +1,78 @@
-{"id":"opec-plus","name":"OPEC+","type":"institution","created":"2026-03-23","last_updated":"2026-04-01","summary":"IMPOTENT WHILE HORMUZ CLOSED: 9 days at $100-118 with no emergency meeting. Modest 206K bpd increase meaningless — most barrels stranded behind Hormuz. Saudi Yanbu bypass at 4.2M bpd is the only functioning Gulf export route. IEA SPR release (400M bbl) failing to contain prices. SPR at 243M bbl — lowest since 1984.","signals":[{"date":"2026-03-01","content":"OPEC+ agreed to 206K bpd increase for April (debated range 137K-548K bpd). Modest because spare capacity limited and export routes threatened.","sources":["CNBC","Bloomberg","The National"],"significance":"high"},{"date":"2026-03-13","content":"Actual OPEC output rose 640K bpd ahead of conflict (biggest increase since June), with Saudi accounting for ~50%. But export routes now blocked.","sources":["Bloomberg survey"],"significance":"medium"},{"date":"2026-04-01","content":"9 DAYS WITHOUT EMERGENCY MEETING despite Brent at $100-118 — the highest sustained prices since the 2022 Russia shock. OPEC+ agreed only a modest 206K bpd increase (announced pre-war). Saudi activated Yanbu bypass at 4.2M bpd. Most OPEC members' barrels are STRANDED if Hormuz stays shut — even increased production can't reach market. The non-response IS intelligence: (1) Saudi/Gulf members benefit from high prices (revenue) even while suffering from the war (attacks); (2) Production increases are meaningless without export routes; (3) Any emergency meeting would highlight OPEC's impotence while Hormuz is closed. IEA coordinated 400M barrel SPR release filling the gap partially but SPR at 243M bbl (lowest since 1984). (Sources: IEA, OPEC+, DOE, Bloomberg)","sources":["IEA","OPEC+","DOE","Bloomberg"],"significance":"high"}],"edges":[{"to":"brent-crude","type":"supply_management","context":"OPEC+ controls ~40% of global oil production. Production decisions directly affect price. But with Hormuz closed, production increases can't reach market.","directness":1,"last_activated":"2026-03-13","activation_count":5,"weight":7.0},{"to":"saudi-arabia","type":"leader","context":"Saudi is de facto leader and only member with significant spare capacity (3-5M bpd).","directness":1,"last_activated":"2026-03-13","activation_count":5,"weight":7.0},{"to":"strait-of-hormuz","type":"export_dependency","context":"Most OPEC Gulf production depends on Hormuz for export. Closure strands the barrels — production increases become moot.","directness":1,"last_activated":"2026-03-22","activation_count":5,"weight":8.0}],"trigger_points":[]}
+{
+  "id": "opec-plus",
+  "name": "OPEC+",
+  "type": "institution",
+  "created": "2026-03-23",
+  "last_updated": "2026-04-02",
+  "summary": "OPEC+ DECISIONS PARTIALLY ACADEMIC WHILE HORMUZ DISRUPTED: Confirmed 206K bpd increase for April. April 5 meeting (3 days away) decides May levels. But most OPEC+ barrels stranded \u2014 Iraq and Kuwait involuntarily shutting production because they cannot export through Hormuz. Saudi Yanbu bypass (4.2M bpd) is the only functioning Gulf export route, now overwhelmed (~40 VLCCs waiting 5 days). OPEC+ production increases meaningless without export routes.",
+  "signals": [
+    {
+      "date": "2026-03-01",
+      "content": "OPEC+ agreed to 206K bpd increase for April (debated range 137K-548K bpd). Modest because spare capacity limited and export routes threatened.",
+      "sources": [
+        "CNBC",
+        "Bloomberg",
+        "The National"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-13",
+      "content": "Actual OPEC output rose 640K bpd ahead of conflict (biggest increase since June), with Saudi accounting for ~50%. But export routes now blocked.",
+      "sources": [
+        "Bloomberg survey"
+      ],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-01",
+      "content": "9 DAYS WITHOUT EMERGENCY MEETING despite Brent at $100-118 \u2014 the highest sustained prices since the 2022 Russia shock. OPEC+ agreed only a modest 206K bpd increase (announced pre-war). Saudi activated Yanbu bypass at 4.2M bpd. Most OPEC members' barrels are STRANDED if Hormuz stays shut \u2014 even increased production can't reach market. The non-response IS intelligence: (1) Saudi/Gulf members benefit from high prices (revenue) even while suffering from the war (attacks); (2) Production increases are meaningless without export routes; (3) Any emergency meeting would highlight OPEC's impotence while Hormuz is closed. IEA coordinated 400M barrel SPR release filling the gap partially but SPR at 243M bbl (lowest since 1984). (Sources: IEA, OPEC+, DOE, Bloomberg)",
+      "sources": [
+        "IEA",
+        "OPEC+",
+        "DOE",
+        "Bloomberg"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "CONFIRMED: OPEC+ confirmed 206K bpd increase for April. April 5 meeting (3 days away) will decide May production levels. However, most OPEC+ barrels are stranded \u2014 Iraq and Kuwait involuntarily shutting production because they cannot export through Hormuz. Saudi Yanbu bypass (4.2M bpd) is the only functioning Gulf export route, now overwhelmed with ~40 VLCCs anchored outside with 5-day waits. OPEC+ production decisions are partially academic while Hormuz remains disrupted \u2014 increased quotas mean nothing when barrels cannot reach market. (Sources: OPEC+, Bloomberg)",
+      "sources": [
+        "OPEC+",
+        "Bloomberg"
+      ],
+      "significance": "high"
+    }
+  ],
+  "edges": [
+    {
+      "to": "brent-crude",
+      "type": "supply_management",
+      "context": "OPEC+ controls ~40% of global oil production. 206K bpd increase for April but most barrels stranded behind Hormuz. Production increases meaningless without export routes. April 5 meeting decides May levels.",
+      "directness": 1,
+      "last_activated": "2026-04-02",
+      "activation_count": 6,
+      "weight": 10
+    },
+    {
+      "to": "saudi-arabia",
+      "type": "leader",
+      "context": "Saudi is de facto leader with significant spare capacity (3-5M bpd). Yanbu bypass at 4.2M bpd is only functioning Gulf export route but now overwhelmed \u2014 ~40 VLCCs waiting 5 days. Saudi benefits from high prices but Yanbu capacity is bottleneck.",
+      "directness": 1,
+      "last_activated": "2026-04-02",
+      "activation_count": 6,
+      "weight": 10
+    },
+    {
+      "to": "strait-of-hormuz",
+      "type": "export_dependency",
+      "context": "Most OPEC Gulf production depends on Hormuz for export. Hormuz toll law passed Majlis \u2014 permanent selective control being legislated. Iraq and Kuwait involuntarily shutting production. Production increases moot while Hormuz disrupted.",
+      "directness": 1,
+      "last_activated": "2026-04-02",
+      "activation_count": 6,
+      "weight": 10
+    }
+  ],
+  "trigger_points": []
+}
