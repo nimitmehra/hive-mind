@@ -3,8 +3,8 @@
   "name": "Natural Gas / LNG",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-02",
-  "summary": "TTF EUR 47.51/MWh (-6.4% daily on de-escalation hopes, but still +85% from pre-crisis peak). Goldman forecast EUR 55 for April. EU gas storage at 30% (five-year seasonal low). To meet winter targets, EU needs to inject 60 bcm by December \u2014 structurally impossible without Hormuz LNG supplies. Shell warned 'fuel shortage as early as April' \u2014 we are IN the window Shell warned about. Slovenia rationing. Spain spending EUR 5B on emergency energy. SPLIT SIGNAL in distillates: heating oil +3.7% vs gasoline -7.3%. ~10% of global gasoil (750K bpd) and ~20% of jet fuel (400K bpd) transits Hormuz directly. 1.2M bpd NW European refining offline for maintenance. Distillate crisis is structural even if crude normalizes. Henry Hub $2.87 (-0.6% 1D) \u2014 decoupled from TTF, US has abundant domestic supply.",
+  "last_updated": "2026-04-03",
+  "summary": "TTF EASED TO \u20ac49.95 BUT STRUCTURAL DEFICIT UNCHANGED: Down from \u20ac55.80 peak, still +60%. Qatar LNG offline (5-year repair). EU storage 30%. ECB: 3.1% Q2 inflation. Easing on de-escalation hopes, not supply \u2014 April 6 deadline could reverse.",
   "current": {
     "price": "TTF EUR 47.51/MWh; Henry Hub $2.87/MMBtu",
     "delta_1d": "TTF -6.4%; HH -0.6%",
@@ -107,6 +107,12 @@
         "Kpler",
         "EIA"
       ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-03",
+      "content": "TTF eased to €49.95/MWh (from €55.80 peak) — still +60% from pre-crisis. Structural deficit unchanged: Qatar LNG offline, Ras Laffan 5-year repair. EU storage ~30%. ECB projects 3.1% Q2 inflation driven by energy. The easing is driven by de-escalation hopes (Pezeshkian April 1), not supply improvement — if April 6 deadline expires without extension, TTF rebounds. Natural gas-to-fertilizer cascade: QAFCO offline → urea at $750/mt → India Kharif at risk. (Sources: OilPriceAPI, CNBC, ECB projections)",
+      "sources": ["OilPriceAPI", "CNBC", "ECB projections"],
       "significance": "high"
     }
   ],

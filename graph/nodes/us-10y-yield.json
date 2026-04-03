@@ -3,8 +3,8 @@
   "name": "US 10-Year Treasury Yield",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-02",
-  "summary": "POST-ADDRESS: 4.32% (+0.2%) — bond market BARELY MOVED despite Trump 'stone ages' address. This is the most important signal: bonds did NOT reprice war escalation OR de-escalation. 10Y has been flat-to-down for two days while equities and oil whipsawed. Bond market pricing recession/stagflation, not war dynamics. ISM Prices Index 78.3 (highest since June 2022) with employment contracting = textbook stagflation. Market pricing 52% Fed HIKE probability. When bonds and equities disagree, bonds usually right.",
+  "last_updated": "2026-04-03",
+  "summary": "BONDS DISAGREE WITH EQUITIES: 10Y at 4.30% falling despite oil surge \u2014 pricing growth deterioration. 2Y flat at 3.61% \u2014 anchored on Fed. Yield curve = stagflation signal. ISM confirms: Prices 78.3 + employment contraction. When bonds and equities disagree, bonds usually right.",
   "current": {
     "price": "4.32%",
     "delta_1d": "+0.2%",
@@ -53,6 +53,12 @@
       "date": "2026-04-02",
       "content": "ISM Prices Index at 78.3 (highest since June 2022, 19.3-point surge in 2 months). 17 of 18 industries reported higher costs. Employment STILL in contraction despite manufacturing expansion. This is textbook STAGFLATION — can't cut (inflation) and can't hike (growth risk). Market pricing 52% probability of Fed HIKE by year-end (first time >50%). The ISM data validates the bond market's recession signal over the equity market's de-escalation euphoria.",
       "sources": ["ISM"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-03",
+      "content": "US 10Y at 4.30% \u2014 falling despite oil surge and VIX spike. This is the OPPOSITE of risk-on: reduced safe-haven demand normally pushes yields UP. Long end pricing growth deterioration while short end (2Y 3.61%) anchored on Fed policy. The yield curve behavior confirms stagflation: inflation persists (ISM Prices 78.3) but growth prospects deteriorate (employment contraction). When bonds and equities disagree, bonds are usually right. (Sources: yfinance, TradingEconomics)",
+      "sources": ["yfinance", "TradingEconomics"],
       "significance": "high"
     }
   ],
