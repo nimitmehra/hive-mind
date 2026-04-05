@@ -3,13 +3,13 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-03",
-  "summary": "OIL SCREAMING: WTI +11.9% to $112, Brent +7.8% to $109. Largest single-session crude move of war. Trump 'hit them extremely hard' + April 6 deadline 3 days away. S&P recovered (+0.1%) creating OIL-EQUITY DIVERGENCE: oil pricing escalation, equities pricing peace. One is wrong. OPEC+ April 5, energy pause April 6. Densest event cluster of the war.",
+  "last_updated": "2026-04-05",
+  "summary": "WAR PREMIUM RESTORED: WTI +11.9% (largest move), Brent +7.8% to $109. F-15 shot down. Trump 48-hr ultimatum rejected. April 6 deadline TOMORROW. Oil-equity divergence widest of war — one is wrong. Goldman $100 floor validated by $98.52 bounce. Weekend gap = maximum binary risk.",
   "current": {
     "price": "$109.05/bbl",
     "delta_1d": "+7.8%",
     "delta_1m": "+34.0%",
-    "delta_3m": "+74.3%"
+    "delta_3m": "+76.6%"
   },
   "price_snapshots": [
     {
@@ -89,6 +89,12 @@
       "price": "$98.52/bbl (intraday low), $101.97/bbl (close)",
       "trigger": "First breach below $100 since ~March 20 — structural floor test",
       "delta_context": "Intraday $98.52 was first time below $100 in 13 days. Recovered to $101.97 close (-2% on day). Brent-WTI spread collapsed from $18-20 to ~$2-3. War premium evaporating but Hormuz NOT reopened, toll law formalized. Recovery from $98.52 suggests buying interest at $100."
+    },
+    {
+      "date": "2026-04-03",
+      "price": "$109.05/bbl",
+      "trigger": "War premium RESTORED — largest single-session crude move of war",
+      "delta_context": "WTI +11.9% to $112.06 — most violent single-session move. Driven by Trump 'hit hard' address + pharmaceutical strikes + April 6 deadline pricing. F-15 shootdown adds military credibility gap. Oil-equity divergence at widest of war."
     }
   ],
   "signals": [
@@ -192,6 +198,12 @@
       "date": "2026-04-03",
       "content": "WTI surged +11.9% to $112.06 — largest single-session crude move since war began. Brent +7.8% to $109.05. Driven by Trump 'hit them extremely hard' primetime address + Iran pharmaceutical/port strikes escalating + April 6 energy pause deadline 3 days away with no extension signaled. The market is pricing maximum escalation, not peace. S&P 500 recovered to +0.1% on April 2 despite the oil surge — creating the key divergence: oil pricing escalation, equities pricing 2-3 week end. One is wrong. Heating Oil +9.2%, Frontline tankers +5.1%. OPEC+ April 5 meeting is 'most consequential since formation.' April 5-8 = densest event cluster of war (OPEC+, energy pause, RBI MPC, helium window). (Sources: CNBC, yfinance, Fortune, Bloomberg)",
       "sources": ["CNBC", "yfinance", "Fortune", "Bloomberg"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-05",
+      "content": "Weekend gap risk: April 4 Good Friday, April 5 Saturday. No settlement trading. Last close April 3: Brent $109.05 (+7.8%), WTI $112.06 (+11.9% — largest single-session move of war). War premium RESTORED after the $98.52→$109+ round-trip. F-15 shot down April 3 = war harder than expected. Trump 48-hour ultimatum + 'open the f***in' Strait.' Iran rejected: 'gates of hell.' April 6 deadline TOMORROW with zero extension signal. Oil pricing maximum escalation. S&P at 6,583 pricing peace. The divergence forces resolution April 5-8. Brent-WTI spread collapsed from $18-20 to ~$3 = Gulf-specific premium evaporating but Hormuz NOT reopened. Goldman '$100 floor' thesis validated by $98.52 bounce. (Sources: yfinance, Fortune, Bloomberg, CNBC, Al Jazeera)",
+      "sources": ["yfinance", "Fortune", "Bloomberg", "CNBC", "Al Jazeera"],
       "significance": "high"
     }
   ],
