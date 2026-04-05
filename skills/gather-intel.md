@@ -416,6 +416,39 @@ Generated: [timestamp IST] | Analyst: Senior Intel
 
 ---
 
+## STEP 5: DELTA-FLAG AGAINST PREVIOUS BRIEF — THE APRIL 5 LESSON
+
+After writing the staging file, read the most recent brief in `briefs/` and **mark every finding as NEW or ALREADY_BRIEFED.**
+
+On April 5, 2026, the brief recycled the April 3 brief's lead item (WTI +11.9%), gold regime shift (Session 4→5-6 with no material change), Goldman "$100 floor" (identical analyst take), and Hana Securities (identical take). The reader — who had already read the April 3 brief — saw recycled content presented as new intelligence. This damaged credibility.
+
+**The rule:** For EACH item in Sections A and B, add a delta tag:
+- **`[NEW]`** — This finding did not appear in any form in the previous brief. Genuinely new information.
+- **`[UPDATED]`** — The previous brief covered this thread, but there is a MATERIAL change: new confirmed action, new data point (not just a price that barely moved), new actor, status change.
+- **`[UNCHANGED]`** — The previous brief covered this and nothing material has changed since then. Markets closed, same price, same status.
+
+**The Editor uses these tags to decide Section I allocation:**
+- `[NEW]` items get full paragraph treatment in Section I
+- `[UPDATED]` items get paragraph treatment ONLY if the update is significant; otherwise one-sentence reference
+- `[UNCHANGED]` items get a ONE-LINE reference at most: "The [X] described in yesterday's brief remains unchanged."
+
+**How to delta-flag:** After writing your staging file, scan each item:
+1. Read the headline of your finding
+2. Search the previous brief for the same topic
+3. Ask: "If the reader already read yesterday's brief, would this finding tell them something they don't already know?"
+4. If yes → `[NEW]` or `[UPDATED]`. If no → `[UNCHANGED]`.
+
+**Common traps:**
+- A price that moved 0.1% on a holiday when markets were closed is NOT a material update — it's `[UNCHANGED]`
+- An analyst take repeated from the previous brief is `[UNCHANGED]` even if the staging file lists it again
+- "Session 4 → Session 5" with the same price and same mechanism is `[UNCHANGED]` — the count incremented but nothing changed for the reader
+- A new strike on Kuwait IS `[NEW]` even if Kuwait was covered yesterday — it's a genuinely new event
+- The April 6 deadline being "3 days away" (April 3) vs "hours away" (April 5) IS `[UPDATED]` — the urgency changed materially
+
+**For Source Tone Assessment (Section C):** The same rule applies. Do NOT recycle "Indian media: HOLIDAY QUIET" if you used the same framing yesterday. Search for what Indian outlets ACTUALLY PUBLISHED during the holiday — Business Standard, Livemint, and Economic Times publish analysis 24/7 regardless of market holidays. "Markets closed" does not mean "media silent."
+
+---
+
 ## CRITICAL RULES
 
 1. **You are the RESEARCHER, not the writer.** Gather and verify. Do not compose prose for the brief. Do not editorialize.

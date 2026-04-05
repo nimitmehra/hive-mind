@@ -76,6 +76,19 @@ Read through `intel.md` Section B (New Developments) and Section A (Open Thread 
 
 **Space allocation rule:** An item's space should be proportional to its verification status and actual impact, not to how dramatic it sounds.
 
+**Deduplication rule — THE APRIL 5 LESSON:** Before writing each Section I item, check: **Was this item a headline in the previous brief?** Read the most recent brief and compare.
+
+- If the item was covered in the previous brief AND the underlying data hasn't materially changed → **DO NOT give it a full paragraph.** Reference it in one sentence: *"The oil-equity divergence described in Thursday's brief (WTI +11.9% vs S&P +0.1%) remains unresolved heading into the April 6 deadline."*
+- If the item was covered but has a MATERIAL UPDATE (new confirmed action, new data point, status change) → Full paragraph, but LEAD with what changed, not with the recap. *"Kuwait Petroleum Corporation's headquarters was set ablaze by Iranian drones on Friday — the sixth attack on Kuwaiti infrastructure in six days, escalating the pattern described in Thursday's brief."*
+- If the item is genuinely NEW (not in the previous brief at all) → Full treatment.
+- **Analyst takes:** NEVER repeat the same analyst with the same take from the previous brief. If Goldman's "$100 floor" thesis was in yesterday's brief and nothing new has happened to that thesis, DO NOT include it again. Only include analyst takes that are NEW or whose prediction has been TESTED by new data.
+- **Market data on holidays:** When markets are closed (Good Friday, weekends), the market data hasn't changed. Do NOT lead with the same price move as the previous brief. Instead: *"Markets were closed April 4-5. The [price levels / divergences / regime shifts] described in Thursday's brief carry into Monday's open, where the April 6 deadline outcome will force resolution."*
+- **Source tone assessments:** If a media region's tone hasn't changed, say so in one line. Do NOT fill space with the same framing. Search for what outlets published during the gap — media doesn't stop when markets close.
+
+**The test:** Read your draft Section I. For each item, ask: "Would a reader who read yesterday's brief learn something NEW from this paragraph?" If the answer is no for more than 1 item, you are recycling.
+
+On April 5, a brief recycled the April 3 lead (WTI +11.9%), gold regime shift (Session 4→5-6 with no material price change), Goldman "$100 floor" (identical take), Hana Securities (identical take), and Kuwait timeline recap. The genuinely new developments (F-15 shootdown, Trump ultimatum, Iran rejection, Kuwait Petroleum HQ strike, Bahrain Bapco) were diluted by repeat content. The reader — and others tracking the crisis — noticed. This must not repeat.
+
 **Proportionality rule — THE MARCH 29 LESSON:** Section I must balance geopolitical and commodity/business items. Aim for roughly 50/50. If ALL your Section I items come from `intel.md` (geopolitical), you are missing commodity/business developments from `markets.md`. The investor reads this brief for DEPLOYMENT intelligence — gold regime shifts, helium countdowns, TTF cascades, and shipping market bifurcations are often MORE actionable than the 5th military development. On March 29, a brief with 6/6 military items and 0 commodity items was corrected by the reader. That must not repeat.
 
 *Good prioritization (balanced):*

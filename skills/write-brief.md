@@ -57,38 +57,62 @@ Also read:
 
 **Gate check:** If any staging file is missing, **STOP** and tell the user to run the missing sub-skill first. Do NOT improvise or search the web yourself. You work from the dossier you've been given.
 
+**Edition check:** Determine if this is the morning or evening edition from the staging directory suffix (`-morning` or `-evening`). If evening, skip to the **EVENING EDITION** section at the end of this skill. All the rules above (psychology, verification tags, paragraph style, proportionality) still apply — only the output FORMAT changes.
+
 ---
 
 ## STEP 2: DECIDE HEADLINE PRIORITY
 
-Read through `intel.md` Section B (New Developments) and Section A (Open Thread Follow-ups). Rank by editorial impact:
+Read through `intel.md` Section B (New Developments) and Section A (Open Thread Follow-ups) for GEOPOLITICAL items. ALSO read `markets.md` Section C (Causal Chains) and Section B (Significant Moves) for COMMODITY/BUSINESS items. Rank ALL items together by editorial impact:
 
 ### Priority Hierarchy
 
-1. **CONFIRMED ACTIONS with strategic/market impact** → Lead the brief
-2. **Hard data** (PMI, trade data, central bank decisions) → High priority
-3. **Novel strategic developments** (new diplomatic channel, new supply route) → High if verified
+1. **CONFIRMED ACTIONS with strategic/market impact** → Lead the brief. This includes BOTH military actions AND market regime shifts (e.g., gold reversal after 17% correction = confirmed price action with portfolio implications).
+2. **Hard data** (PMI, trade data, central bank decisions, commodity price milestones, supply chain countdowns) → High priority
+3. **Novel strategic developments** (new diplomatic channel, new supply route, market bifurcation like VLCC insurance barrier) → High if verified
 4. **REPORTED items** → Include with hedged language ("reports suggest")
 5. **CLAIMED items** → Lower, presented with other side's response
 6. **RHETORIC without action** → Last, proportional space
 
 **Space allocation rule:** An item's space should be proportional to its verification status and actual impact, not to how dramatic it sounds.
 
-*Good prioritization:*
-> Lead: CONFIRMED — US Navy redirected carrier strike group (CENTCOM confirms, satellite imagery)
-> Second: CONFIRMED — Brent breached $95 for first time in 18 months (hard data, multiple drivers)
-> Third: REPORTED — Oman mediating back-channel (FT, single source)
-> Last: CLAIMED — Iran says it can "close Hormuz in 4 hours" (rhetoric, 25th such threat, no confirmed preparation)
+**Deduplication rule — THE APRIL 5 LESSON:** Before writing each Section I item, check: **Was this item a headline in the previous brief?** Read the most recent brief and compare.
 
-*Bad prioritization:*
-> Lead: "IRAN THREATENS TO CLOSE HORMUZ IN 4 HOURS"
-> (Leads on drama, not verified importance. Reader's heart rate goes up but understanding doesn't improve.)
+- If the item was covered in the previous brief AND the underlying data hasn't materially changed → **DO NOT give it a full paragraph.** Reference it in one sentence: *"The oil-equity divergence described in Thursday's brief (WTI +11.9% vs S&P +0.1%) remains unresolved heading into the April 6 deadline."*
+- If the item was covered but has a MATERIAL UPDATE (new confirmed action, new data point, status change) → Full paragraph, but LEAD with what changed, not with the recap. *"Kuwait Petroleum Corporation's headquarters was set ablaze by Iranian drones on Friday — the sixth attack on Kuwaiti infrastructure in six days, escalating the pattern described in Thursday's brief."*
+- If the item is genuinely NEW (not in the previous brief at all) → Full treatment.
+- **Analyst takes:** NEVER repeat the same analyst with the same take from the previous brief. If Goldman's "$100 floor" thesis was in yesterday's brief and nothing new has happened to that thesis, DO NOT include it again. Only include analyst takes that are NEW or whose prediction has been TESTED by new data.
+- **Market data on holidays:** When markets are closed (Good Friday, weekends), the market data hasn't changed. Do NOT lead with the same price move as the previous brief. Instead: *"Markets were closed April 4-5. The [price levels / divergences / regime shifts] described in Thursday's brief carry into Monday's open, where the April 6 deadline outcome will force resolution."*
+- **Source tone assessments:** If a media region's tone hasn't changed, say so in one line. Do NOT fill space with the same framing. Search for what outlets published during the gap — media doesn't stop when markets close.
+
+**The test:** Read your draft Section I. For each item, ask: "Would a reader who read yesterday's brief learn something NEW from this paragraph?" If the answer is no for more than 1 item, you are recycling.
+
+On April 5, a brief recycled the April 3 lead (WTI +11.9%), gold regime shift (Session 4→5-6 with no material price change), Goldman "$100 floor" (identical take), Hana Securities (identical take), and Kuwait timeline recap. The genuinely new developments (F-15 shootdown, Trump ultimatum, Iran rejection, Kuwait Petroleum HQ strike, Bahrain Bapco) were diluted by repeat content. The reader — and others tracking the crisis — noticed. This must not repeat.
+
+**Proportionality rule — THE MARCH 29 LESSON:** Section I must balance geopolitical and commodity/business items. Aim for roughly 50/50. If ALL your Section I items come from `intel.md` (geopolitical), you are missing commodity/business developments from `markets.md`. The investor reads this brief for DEPLOYMENT intelligence — gold regime shifts, helium countdowns, TTF cascades, and shipping market bifurcations are often MORE actionable than the 5th military development. On March 29, a brief with 6/6 military items and 0 commodity items was corrected by the reader. That must not repeat.
+
+*Good prioritization (balanced):*
+> Lead: CONFIRMED — Houthis launch two attacks on Israel within 24 hours (military escalation)
+> Second: CONFIRMED — Gold reverses +2.7% after 17% selloff, signaling regime shift from inflation-event to systemic-crisis (market regime change with portfolio implications)
+> Third: CONFIRMED — European TTF gas +70% monthly, four countries enact emergency measures (commodity cascade with ECB/macro implications)
+> Fourth: CONFIRMED — Iran strikes Saudi base, 15 US troops injured (military)
+> Fifth: CONFIRMED — Helium supply chain on 8-day countdown to fab inventory exhaustion (supply chain cascade with KOSPI/tech implications)
+> Sixth: REPORTED — Tasnim reports Iran engaging through intermediaries (diplomatic signal)
+
+*Bad prioritization (all military):*
+> Lead: Houthi attack #1
+> Second: Houthi attack #2
+> Third: Saudi base attack
+> Fourth: Tel Aviv strike
+> Fifth: Hezbollah 45 operations
+> Sixth: Marines arrive
+> (All military. Gold regime shift, TTF emergency, helium countdown buried in Page 2. The investor learns about the war but not about their portfolio.)
 
 ---
 
 ## STEP 3: WRITE THE BRIEF
 
-Save to `briefs/YYYY-MM-DD.md`.
+Save to `briefs/YYYY-MM-DD-{EDITION}.md` (e.g., `briefs/2026-03-29-morning.md`).
 
 ### Brief Structure
 
@@ -111,10 +135,17 @@ Save to `briefs/YYYY-MM-DD.md`.
 
 ## II. What Analysts Say
 
-### [Analyst/Source] — [Affiliation, credibility context]
+### [Geopolitical Analyst/Source] — [Affiliation, credibility context]
 [2-3 sentences. Specific, falsifiable predictions only.]
 
-[2-4 analysts from intel.md Section D]
+[2-4 GEOPOLITICAL analysts from intel.md Section D]
+
+### [Market/Commodity Analyst/Source] — [Affiliation, credibility context]
+[2-3 sentences. Specific, falsifiable predictions only.]
+
+[2-4 MARKET/COMMODITY analysts from markets.md — draw from industry sources cited in causal chains (e.g., TrendForce on semiconductors, Lloyd's List on shipping, JP Morgan/Goldman on commodities, Atlantic Council/Bruegel on European energy, Phil Kornbluth on helium). These are NOT in intel.md — you must pull them from markets.md.]
+
+**Balance rule:** Section II must have BOTH geopolitical AND market/commodity analyst takes. If all 4 analysts are geopolitical (CSIS, Soufan, Knights, Sadjadpour) with zero market voices, you're giving the investor half the picture.
 
 ### Source Tone Assessment
 [From intel.md Section C. Which side's media is escalating/quieting. Contradictions between leaders and state media. Tone shifts precede policy shifts.]
@@ -124,7 +155,7 @@ Save to `briefs/YYYY-MM-DD.md`.
 ## III. What the Graph Tells Me
 
 ### Cascade Watch
-[From graph-changelog.md. Which edges strengthened? Which trigger points moved? Reference SPECIFIC nodes, edges, weights by name.]
+[From graph-changelog.md. Which edges strengthened? Which trigger points moved? Reference SPECIFIC nodes, edges, weights by name. Cover BOTH military cascades AND commodity/supply chain cascades. If the graph-changelog has a "Market/Commodity Node Updates" section, those MUST appear here alongside military edge changes. The helium countdown, TTF→ECB cascade, gold regime shift, and shipping bifurcation are as important as Houthi edge weights for the investor.]
 
 ### The Signal You Might Miss
 [One non-obvious connection from markets.md causal chains or intel.md. Something mainstream coverage isn't highlighting. This is where the graph earns its keep.]
@@ -241,3 +272,104 @@ Before saving, scan your draft against `intel.md`:
 4. **Proportionality failure:** A 25th consecutive threat getting as much space as a first-time confirmed action.
 5. **Missing yesterday's threads:** Reader notices you dropped a story without resolution. Trust erodes.
 6. **Writing DOWN:** Explaining what the Strait of Hormuz is to a reader who already knows. Waste of the 5-minute budget.
+7. **Geopolitical tunnel vision:** All Section I items from intel.md, zero from markets.md. All Section II analysts are geopolitical, zero are market/commodity. Section III Cascade Watch covers only military edges. The investor gets a military intelligence report instead of investment intelligence. **The fix:** Count your items. If Section I is 100% military, go back to markets.md and promote the top 2-3 commodity/business developments. If Section II has zero market analysts, add them from markets.md causal chains. If Cascade Watch has zero commodity cascades, check the graph-changelog's Market/Commodity section.
+
+---
+
+## EVENING EDITION — Delta Brief Format
+
+**This section applies ONLY when the staging directory ends in `-evening`.** All rules above (psychology, paragraph style, verification tags, proportionality, both-sides) still apply. Only the output FORMAT and SCOPE change.
+
+### What you read (evening)
+
+1. The morning brief: `briefs/YYYY-MM-DD-morning.md` — your BASELINE. The investor already read this.
+2. Evening staging files: `staging/YYYY-MM-DD-evening/intel.md`, `markets.md`, `graph-changelog.md`
+
+**Gate check:** The morning brief MUST exist. If it doesn't, STOP — tell the orchestrator to run the morning edition first.
+
+### Triage: delta or escalate?
+
+**Escalate to FULL brief format** (use the morning format above, not this section) if ANY of:
+- A trigger point moved from "watching" to "active" since morning
+- A confirmed military action that changes the strategic picture (Red Sea shipping attack, ground invasion, ceasefire signed)
+- A market move >5% in a major index or commodity since morning
+- A new front opened in the conflict
+
+If you escalate, save to `briefs/YYYY-MM-DD-evening.md` but use the FULL format from Step 3 above.
+
+**Stay with delta format** for everything else — including continuation of morning trends, incremental moves, updated data, or nothing at all.
+
+### Evening delta format
+
+Save to `briefs/YYYY-MM-DD-evening.md`.
+
+```markdown
+# West Asia Crisis Brief — [Date] (Evening Update)
+*Update to [morning brief filename] | Generated at [time] IST | Markets: [India closed / US closing]*
+
+---
+
+## What Changed Since Morning
+
+[ONLY genuinely new developments. Reference the morning brief: "This morning's brief covered X. Since then..."]
+
+[If nothing material changed:]
+No significant developments since this morning's brief. Key threads ([list 2-3 from morning]) remain as assessed. Market close data updated below.
+
+[If 1-3 things changed, write Economist-style paragraphs — same quality as morning, just fewer.]
+
+---
+
+## Market Close
+
+### Significant Moves (Trading Day)
+
+| Asset | Morning | Close | Change | Why |
+|---|---|---|---|---|
+[Only assets that moved significantly DURING today's session]
+
+### Full Market Snapshot
+[Complete tables from markets.md — same format as morning Page 2]
+
+### Web-searched Assets
+[Updated TTF, VLCC, insurance, helium, India 10Y — if new data available]
+
+---
+
+## Active Watchlist
+
+[One line per item. Status + today's most relevant update (if any). Max 8 items. Add when something enters active motion. Remove when it resolves. Items that cross a threshold graduate to Trigger Point Check below. Items with no change get: "No change" — that's fine.]
+
+- **[Item]:** [clock/status]. [Today's incremental update if any, or "No change."]
+
+[Example lines:]
+- **Helium fab clock:** ~7 days to exhaustion. SK hynix claims Algeria supply secured (REPORTED). If true, clock extends.
+- **RBI NOP unwind:** 13 days to April 10. Banks beginning position reduction.
+- **Islamabad quad talks:** Day 1 of 2. Outcome pending March 30.
+- **European gas storage:** 30% capacity. Refill season starts May 1. No change.
+
+---
+
+## Trigger Point Check
+
+[Binary checks on thresholds that have been CROSSED or are near-crossing:]
+- ₹95/USD: [Breached / Not breached — current: ₹XX.XX]
+- Gold $4,600: [Sustained / Not reached — current: $X,XXX]
+- Houthi Red Sea attack: [Confirmed / Still watching]
+- [Any other active or near-active triggers]
+
+---
+
+*Evening update. Full analysis in briefs/YYYY-MM-DD-morning.md*
+*Graph updated: [summary from evening changelog]*
+*Verified: pending /verify-brief*
+```
+
+### Evening-specific rules
+
+1. **2-3 minutes maximum reading time.** If you're past 3 minutes, you're rewriting the morning.
+2. **Don't repeat the morning.** If you catch yourself covering something the morning already analyzed — stop and delete.
+3. **"Nothing changed" is a valid brief.** It's honest and saves the investor 4 minutes. Don't pad.
+4. **Market close is the main product.** The investor can't get this from the morning brief because the data didn't exist yet.
+5. **Trigger checks are binary.** Breached or not. Don't re-analyze the cascade — the morning did that.
+6. **Escalate, don't force.** If something big broke, switch to the full format above. Don't squeeze a major development into the delta format.
