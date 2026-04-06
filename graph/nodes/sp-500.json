@@ -3,14 +3,14 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-05",
-  "summary": "S&P 6,583 (+0.1% April 3). Down 4% YTD. Oil-equity divergence at widest of war: WTI +11.9% while S&P +0.1%. April 4 range 6,475-6,602 (Good Friday, thin). VIX 23.87 pricing ZERO probability of Iran US base strike. April 6 deadline + Iran retaliation = VIX past 30, algo selling cascade.",
+  "last_updated": "2026-04-06",
+  "summary": "S&P futures at 6,604 (-0.28% pre-market). VIX at 23.87 — massively mispriced for Tuesday's binary (April 6 deadline extension). Oil-equity divergence at widest of war: WTI +11.9% while S&P +0.1%. Markets reopening Monday into the deadline extension. Down 4% YTD.",
   "current": {
-    "price": "6,541",
-    "delta_1d": "-0.52%",
+    "price": "6,604 (futures)",
+    "delta_1d": "-0.28% (pre-market)",
     "delta_1m": "-3.5%",
     "delta_3m": "-4.1%",
-    "snapshot_note": "As of Apr 2 — VIX surged to 27.34 (+11.4%), approaching 30 threshold"
+    "snapshot_note": "As of Apr 6 pre-market. VIX 23.87 pricing ZERO probability of Iran US base strike."
   },
   "price_snapshots": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "date": "2026-03-29",
-      "content": "S&P 500 at 6,369 (-7.8% monthly, -1.7% daily). VIX surged 13.2% to 31.05 — crossing 30 triggers institutional risk-off (algo selling, portfolio de-risking). Breakdown: ~55% crisis-driven (Houthi entry, Saudi base attack, Tel Aviv strike, regional bombardment), ~30% tariff-driven (Section 122 tariffs 10-15% global, Yale Budget Lab: +0.5-0.6% price level, +0.3pp unemployment), ~15% other. VIX above 30 creates self-reinforcing cycle: VIX up → algos sell equities → equities drop → VIX higher.",
+      "content": "S&P 500 at 6,369 (-7.8% monthly, -1.7% daily). VIX surged 13.2% to 31.05 — crossing 30 triggers institutional risk-off (algo selling, portfolio de-risking). Breakdown: ~55% crisis-driven (Houthi entry, Saudi base attack, Tel Aviv strike, regional bombardment), ~30% tariff-driven (Section 122 tariffs 10-15% global, Yale Budget Lab: +0.5-0.6% price level, +0.3pp unemployment), ~15% other. VIX above 30 creates self-reinforcing cycle: VIX up \u2192 algos sell equities \u2192 equities drop \u2192 VIX higher.",
       "sources": [
         "yfinance",
         "Yale Budget Lab"
@@ -109,6 +109,12 @@
         "Motley Fool"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-06",
+      "content": "S&P futures at 6,604 (-0.28% pre-market). VIX still at 23.87 — massively mispriced for Tuesday's binary event (April 6 deadline extension). Markets reopening Monday into the deadline extension window. Oil-equity divergence remains the widest of the war and unresolved. April 5-8 is the densest event cluster of the conflict: deadline extension, RBI MPC, TrendForce announcement window, helium production cut watch. VIX below 30 means algo selling cascade not active, but only 6 points from threshold. (Sources: yfinance, Cboe)",
+      "sources": ["yfinance", "Cboe"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -133,19 +139,19 @@
     {
       "to": "brent-crude",
       "type": "earnings_risk",
-      "context": "Oil pullback from $118 to $102 provides margin relief. XLE underperforming while S&P rallied = de-escalation good for consumers, bad for producers. Gold regime shift confirmed — extends equity drawdown window if peace fails.",
+      "context": "Oil-equity divergence at widest of war. WTI +11.9% while S&P +0.1% — oil pricing escalation, equities pricing 2-3 week end. This split resolves violently in the April 5-8 window.",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 11,
+      "last_activated": "2026-04-06",
+      "activation_count": 12,
       "weight": 10.0
     },
     {
       "to": "helium",
       "type": "supply_chain_risk",
-      "context": "SMH +5.8% on helium relief from Pezeshkian peace signal. KOSPI +6.4% leading indicator. Qatar Ras Laffan = 30-38% global helium removed. Fabs still on 50% allocations. Continued peace signals sustain semiconductor relief.",
+      "context": "SMH +5.8% on helium relief from Pezeshkian peace signal. KOSPI +6.4% leading indicator. Qatar Ras Laffan = 30-38% global helium removed. Fabs still on 50% allocations. TrendForce production cut announcement window April 7-10.",
       "directness": 2,
-      "last_activated": "2026-04-02",
-      "activation_count": 6,
+      "last_activated": "2026-04-06",
+      "activation_count": 7,
       "weight": 7.5
     }
   ],

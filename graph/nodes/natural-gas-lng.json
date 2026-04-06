@@ -3,8 +3,8 @@
   "name": "Natural Gas / LNG",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-03",
-  "summary": "TTF EASED TO \u20ac49.95 BUT STRUCTURAL DEFICIT UNCHANGED: Down from \u20ac55.80 peak, still +60%. Qatar LNG offline (5-year repair). EU storage 30%. ECB: 3.1% Q2 inflation. Easing on de-escalation hopes, not supply \u2014 April 6 deadline could reverse.",
+  "last_updated": "2026-04-06",
+  "summary": "TTF EUR 49.98/MWh (-0.6% 1D but +50% WoW). Qatar LNG still offline (Ras Laffan). US LNG filling gap — Cheniere +12.9% monthly, +41.9% 3M. Henry Hub $2.81 (flat) — US domestic decoupled from international prices. ECB raised 2026 inflation forecast to 2.6% driven by energy. TTF is the transmission mechanism for ECB policy.",
   "current": {
     "price": "TTF EUR 47.51/MWh; Henry Hub $2.87/MMBtu",
     "delta_1d": "TTF -6.4%; HH -0.6%",
@@ -113,6 +113,12 @@
       "date": "2026-04-03",
       "content": "TTF eased to €49.95/MWh (from €55.80 peak) — still +60% from pre-crisis. Structural deficit unchanged: Qatar LNG offline, Ras Laffan 5-year repair. EU storage ~30%. ECB projects 3.1% Q2 inflation driven by energy. The easing is driven by de-escalation hopes (Pezeshkian April 1), not supply improvement — if April 6 deadline expires without extension, TTF rebounds. Natural gas-to-fertilizer cascade: QAFCO offline → urea at $750/mt → India Kharif at risk. (Sources: OilPriceAPI, CNBC, ECB projections)",
       "sources": ["OilPriceAPI", "CNBC", "ECB projections"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-06",
+      "content": "European TTF gas at EUR 49.98/MWh (-0.6% 1D but +50% WoW). Qatar LNG still offline — Ras Laffan 5-year repair timeline unchanged. US LNG filling the gap: Cheniere Energy +12.9% monthly, +41.9% 3M ($281.16). Henry Hub at $2.81/MMBtu (flat) — US domestic market completely decoupled from international prices due to abundant domestic supply and LNG export terminal capacity constraints. ECB raised 2026 inflation forecast to 2.6% driven by energy — TTF is the transmission mechanism for ECB policy decisions. EU storage still at ~30% (five-year seasonal low). China banned urea exports until August, tightening the natural gas-to-fertilizer cascade further. OPEC+ 206K bpd increase is symbolic — cannot meaningfully offset LNG supply loss from Qatar. The structural deficit is unchanged: even if ceasefire arrives, Qatar's 17% capacity is destroyed for 5 years.",
+      "sources": ["TradingEconomics", "yfinance", "ECB", "markets.md"],
       "significance": "high"
     }
   ],
