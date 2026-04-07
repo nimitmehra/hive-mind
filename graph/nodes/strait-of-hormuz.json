@@ -3,8 +3,8 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-04-06",
-  "summary": "DEADLINE EXTENDED to Tuesday April 7 8 PM ET. Iran IRGC threatened PERMANENT closure: 'will not be opened until destroyed power plants are rebuilt.' Oman-Iran transit talks REPORTED (separate track). 45-day ceasefire includes Hormuz as primary bargaining chip. Toll law still awaiting Guardian Council review. IRGC toll continues (~$2M/transit, yuan). 95% reduction persists.",
+  "last_updated": "2026-04-07",
+  "summary": "Day 39. Weekly transits hit war-high: 21 ships over weekend (Bloomberg). Selective opening widening — Iraq, India, France now permitted. But 21/weekend still ~1/7 of pre-war daily 138. IRGC declared 'New Persian Gulf Order' — Hormuz will 'never return to its former state.' Iran's ceasefire counter-proposal includes Hormuz protocol (not unconditional reopening). Gulf states demand Hormuz freedom as 'non-negotiable.' Trump's Tuesday 8 PM ET deadline is TODAY. Structural impediment: Iran says permanent control, Gulf says non-negotiable freedom.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -225,25 +225,31 @@
         "Axios"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "Bloomberg Hormuz Tracker: weekly transits hit highest since war began — 21 ships over April 5-6 weekend (13 outbound, 8 inbound). Iraqi crude tanker transited after Iran granted 'brotherly Iraq' exemption. Eight Indian LPG tankers now through. First Western-flagged vessel (French-owned) permitted April 3. Permitted nations: China, Russia, India, Iraq, Pakistan, Malaysia, Thailand, Philippines, select Western on case-by-case. HOWEVER 21/weekend is still ~1/7 of pre-war daily 138. IRGC 'New Persian Gulf Order' classifies countries as hostile/neutral/friendly — selective opening widening but tightly controlled. IRGC Navy: Hormuz will 'never return to its former state.' Iran's 10-clause ceasefire counter-proposal includes Hormuz protocol (not unconditional reopening). Tuesday deadline is TODAY. (Sources: Bloomberg Hormuz Tracker, Energy Connects, Seatrade Maritime, Al Jazeera, PressTV)",
+      "sources": ["Bloomberg", "Energy Connects", "Seatrade Maritime", "Al Jazeera", "PressTV"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "territorial_control",
-      "context": "Iran controls northern shore. IRGC Navy enforcing closure with naval mines, missile threats, and drone patrols. Hormuz toll law passed FULL Majlis \u2014 codifies permanent selective control, transit fees in rials, bans US/Israel-linked vessels. GCC condemned. Iran legislating permanent sovereignty over Strait regardless of ceasefire.",
+      "context": "Iran controls northern shore. IRGC Navy enforcing closure with naval mines, missile threats, and drone patrols. Hormuz toll law passed FULL Majlis \u2014 codifies permanent selective control, transit fees in rials, bans US/Israel-linked vessels. GCC condemned. IRGC declared 'New Persian Gulf Order' \u2014 Hormuz will 'never return to its former state.' Iran's ceasefire counter-proposal includes Hormuz protocol (not unconditional reopening).",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 18,
+      "last_activated": "2026-04-07",
+      "activation_count": 19,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "supply_chokepoint",
-      "context": "~20% of global oil transits Hormuz. Closure removed this from market. Structural decoupling confirmed. Toll law codifies permanent selective control. War risk insurance at 1%+ hull value making transit uneconomic. ~40 VLCCs waiting 5 days at Yanbu. Oil floor structurally elevated.",
+      "context": "~20% of global oil transits Hormuz. Closure removed this from market. Structural decoupling confirmed. Toll law codifies permanent selective control. War risk insurance at 1%+ hull value making transit uneconomic. ~40 VLCCs waiting 5 days at Yanbu. Oil floor structurally elevated. Weekly transits at war-high but still ~1/7 of pre-war baseline.",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 20,
+      "last_activated": "2026-04-07",
+      "activation_count": 21,
       "weight": 10
     },
     {
@@ -258,19 +264,19 @@
     {
       "to": "shipping-tankers",
       "type": "route_disruption",
-      "context": "Hormuz tanker traffic collapsed 80%+. War risk insurance at 1%+ hull value ($10-14M/voyage). Lloyd's JWC redesignated entire Arabian Gulf as conflict zone. Attack pattern expanding: Hormuz \u2192 Dubai (Al-Salmi) \u2192 Qatar waters (AQUA 1). ~40 VLCCs anchored outside Yanbu with 5-day waits.",
+      "context": "Hormuz tanker traffic collapsed 80%+. War risk insurance at 1%+ hull value ($10-14M/voyage). Lloyd's JWC redesignated entire Arabian Gulf as conflict zone. Attack pattern expanding: Hormuz \u2192 Dubai (Al-Salmi) \u2192 Qatar waters (AQUA 1). ~40 VLCCs anchored outside Yanbu with 5-day waits. Weekly transits hit war-high 21 ships over weekend but still ~1/7 of pre-war daily 138.",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 18,
+      "last_activated": "2026-04-07",
+      "activation_count": 19,
       "weight": 10
     },
     {
       "to": "india",
       "type": "supply_dependency",
-      "context": "50% of India's crude imports transit Hormuz. Also India's LPG imports (~91% from Gulf), fertilizer raw materials. Closure directly threatens India's energy and food security.",
+      "context": "50% of India's crude imports transit Hormuz. Also India's LPG imports (~91% from Gulf), fertilizer raw materials. Closure directly threatens India's energy and food security. Eight Indian LPG tankers now permitted through Hormuz.",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 12,
+      "last_activated": "2026-04-07",
+      "activation_count": 13,
       "weight": 10
     },
     {

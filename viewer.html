@@ -335,13 +335,13 @@ const GRAPH_DATA = {
       "name": "Brent Crude",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "DEADLINE EXTENDED \u2014 Brent futures $109.03, WTI $112.06. April 6 deadline pushed to Tuesday April 7 8 PM ET. OPEC+ confirmed 206K bpd for May \u2014 symbolic, <2% of disrupted supply. Oil-equity divergence persists. Goldman $100 floor holds. OPEC+ pre-committed to pump post-ceasefire \u2014 post-war oil unwind FASTER than expected.",
+      "last_updated": "2026-04-07",
+      "summary": "$111.15/bbl, WTI INVERTED above Brent at $114.98 \u2014 market reclassifying Gulf oil as semi-stranded. Tuesday April 7 8 PM ET deadline binary: deal = $95-100, no deal = $120-130+, full escalation = $150-200. Iran rejected 45-day ceasefire. Yanbu 32 tankers queued, port bottleneck binding at 4M bpd vs 7M pipeline. OPEC+ 206K bpd for May \u2014 paper-only, can't deliver through closed channels.",
       "current": {
-        "price": "$109.77/bbl (Apr 3 close); futures $109.03",
-        "delta_1d": "+0.7%",
-        "delta_1m": "+28.5%",
-        "delta_3m": "+80.8%"
+        "price": "$111.15/bbl",
+        "delta_1d": "+1.9%",
+        "delta_1m": "+30.1%",
+        "delta_3m": "+83.1%"
       },
       "price_snapshots": [
         {
@@ -427,6 +427,12 @@ const GRAPH_DATA = {
           "price": "$109.05/bbl",
           "trigger": "War premium RESTORED \u2014 largest single-session crude move of war",
           "delta_context": "WTI +11.9% to $112.06 \u2014 most violent single-session move. Driven by Trump 'hit hard' address + pharmaceutical strikes + April 6 deadline pricing. F-15 shootdown adds military credibility gap. Oil-equity divergence at widest of war."
+        },
+        {
+          "date": "2026-04-07",
+          "price": "$111.15/bbl (WTI $114.98)",
+          "trigger": "WTI-Brent inversion + Tuesday deadline binary",
+          "delta_context": "WTI surged above Brent by $3.83 \u2014 market reclassifying Gulf oil as semi-stranded"
         }
       ],
       "signals": [
@@ -633,6 +639,18 @@ const GRAPH_DATA = {
             "Investing.com"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Brent $111.15/bbl (+1.9%), WTI $114.98/bbl (+3.1%) \u2014 WTI INVERTED above Brent by $3.83, abnormal (historically Brent at premium). Inversion signals: US SPR at 243M barrels (1984 low), US refinery runs at max, Brent depressed by Hormuz-trapped 'stranded' Middle East supply. Tuesday deadline imminent \u2014 binary: deal = $95-100 rapidly; no deal + strikes = $120-130+. Iran rejected 45-day ceasefire. Oil paring gains Monday as ceasefire discussions continue (WTI dropped ~1% intraday to $110.45). Yanbu congestion worsening: 32 supertankers stacked (up from 27), port throughput ~4M bpd vs 7M bpd pipeline = port is binding constraint. Saudi informing customers April allocations reduced. OPEC+ 206K bpd for May \u2014 symbolic, cannot be delivered through closed channels. ENR: 'Hormuz bypass infrastructure sized for short disruption. This is not that.' (Sources: OilPriceAPI, Fortune, FinancialContent, CNBC, House of Saud, ENR)",
+          "sources": [
+            "OilPriceAPI",
+            "Fortune",
+            "FinancialContent",
+            "CNBC",
+            "ENR"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -641,7 +659,7 @@ const GRAPH_DATA = {
           "type": "supply_dependency",
           "context": "~20% of global oil transits Hormuz. Closure is the primary driver of the price spike from $70 to $119. Hormuz NOT reopened despite peace signals \u2014 toll law passed full parliament. War premium evaporating but supply disruption structural.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 24,
           "weight": 10.0
         },
@@ -650,7 +668,7 @@ const GRAPH_DATA = {
           "type": "import_cost",
           "context": "India imports 85-90% of crude. At $109/bbl post-address, massive additional import cost. Every $10/bbl increase = ~$15B additional import bill. RBI MPC April 6-8 facing 'trade-off central banks dislike most.'",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 19,
           "weight": 10.0
         },
@@ -659,7 +677,7 @@ const GRAPH_DATA = {
           "type": "cost_pressure",
           "context": "Higher oil = more dollar demand for imports = rupee depreciation. Post-address oil back at $109 removes the $102 relief. Hormuz structural floor means no return to $70 pre-war. INR at 93.14 (offshore).",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 16,
           "weight": 10.0
         },
@@ -668,7 +686,7 @@ const GRAPH_DATA = {
           "type": "inflation_input",
           "context": "Oil at $109 post-address = inflation stays elevated = Fed can't cut. ISM Prices Index at 78.3 (highest since June 2022). Oil back above $105 eliminates any rate-cut pathway. Stagflation trap deepens.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 14,
           "weight": 10.0
         },
@@ -677,7 +695,7 @@ const GRAPH_DATA = {
           "type": "earnings_risk",
           "context": "Post-address oil at $109 re-compresses margins. S&P +2.9% (Apr 1), -0.52% (Apr 2). XLE -3.7% while oil +8.3% = energy stocks trading 'peak oil' / demand destruction, not tracking crude higher.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 12,
           "weight": 10.0
         },
@@ -686,7 +704,7 @@ const GRAPH_DATA = {
           "type": "production_response",
           "context": "OPEC+ April 5 meeting is next binary event. 206K bpd increase confirmed for April. Decision on May levels could accelerate or restrain supply response. Most barrels still stranded if Hormuz stays shut.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 6,
           "weight": 10.0
         },
@@ -704,7 +722,7 @@ const GRAPH_DATA = {
           "type": "policy_pressure",
           "context": "Oil at $109 post-address = India inflation = RBI can't cut. RBI MPC April 6-8 must decide with oil back near pre-crash levels. India 10Y at 7.00-7.04%. Stagflation trap deepens.",
           "directness": 2,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 12,
           "weight": 10.0
         }
@@ -873,8 +891,8 @@ const GRAPH_DATA = {
       "name": "Defense & Aerospace Sector",
       "type": "sector",
       "created": "2026-03-28",
-      "last_updated": "2026-04-06",
-      "summary": "ITA -10.1% monthly, -0.8% daily. Counter-intuitive decline persists during active war. Deadline extension to Tuesday does not change defense dynamics \u2014 rearmament thesis (EU EDIP) remains structural demand driver. 39x P/E vs 25x avg. Boeing drag. ~80% valuation, ~20% crisis-linked.",
+      "last_updated": "2026-04-07",
+      "summary": "PARADIGM SHIFT: $1.5T FY2027 defense budget \u2014 largest in history. F-35s doubled, Golden Dome $25B, PSM quadrupled. LMT +29.1% 3M, $194B backlog. ITA +1.5% daily. Not a trade \u2014 multi-year visibility. Defense budgets don't reverse.",
       "current": {
         "price": "ITA: $223.64",
         "delta_1d": "+2.2%",
@@ -930,6 +948,17 @@ const GRAPH_DATA = {
             "AInvest"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "PARADIGM SHIFT: White House unveiled $1.5 trillion FY2027 defense budget \u2014 largest in history. F-35 orders DOUBLED to 85 units (directly benefits LMT). $25 billion for 'Golden Dome' space-based missile defense. Precision Strike Missile production QUADRUPLED in response to Operation Epic Fury munition consumption. LMT +2.4% to $637.90, backlog at $194 billion (2.5x annual revenue). ITA (defense ETF) +1.5% daily but -6.1% monthly \u2014 sector rotated DOWN on peace hopes, then bounced on budget announcement. This is NOT a trade \u2014 the budget creates multi-year revenue visibility. Even if war ends tomorrow, budget commitment and backlog persist. Defense budgets don't reverse. (Sources: FinancialContent, AeroNewsJournal, IBTimes, Seeking Alpha, yfinance)",
+          "sources": [
+            "FinancialContent",
+            "AeroNewsJournal",
+            "IBTimes",
+            "yfinance"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -938,8 +967,8 @@ const GRAPH_DATA = {
           "type": "budget_dependency",
           "context": "Defense stocks rallied +2.2% on peace signals \u2014 rearmament thesis (EU EDIP, European NATO defiance) catching bid independent of US budget. $200B supplemental still facing political resistance but structural demand now dual-sourced: US + European.",
           "directness": 1,
-          "last_activated": "2026-04-02",
-          "activation_count": 6,
+          "last_activated": "2026-04-07",
+          "activation_count": 7,
           "weight": 10.0
         },
         {
@@ -947,7 +976,7 @@ const GRAPH_DATA = {
           "type": "sector_component",
           "context": "ITA +2.2% while XLE -3.7% and S&P +0.7% \u2014 defense decoupling from energy on peace signals. Market now pricing defense as rearmament play, not war play. Structural demand > cyclical war premium.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 6,
           "weight": 9.0
         }
@@ -970,8 +999,8 @@ const GRAPH_DATA = {
       "name": "European Central Bank (ECB)",
       "type": "institution",
       "created": "2026-03-28",
-      "last_updated": "2026-04-06",
-      "summary": "RATE HIKE ~84% PROBABILITY unchanged. ECB held at 2.15% (March 19). Deadline extension to Tuesday does not change ECB calculus \u2014 TTF EUR 49.95 still 60%+ above pre-crisis. Lagarde's 'measured adjustment' signals potential hike April 30. Stagflation trap: 2.6% inflation, growth cut to 0.9%. Shell fuel shortage warning active.",
+      "last_updated": "2026-04-07",
+      "summary": "Holds 2.15%. Inflation forecast UP to 2.6%, growth DOWN to 0.9% \u2014 stagflation trap. Eurozone March inflation 2.5%, energy +4.9%. Rate hike speculation emerging for first time since 2023. Next meeting April 17. TTF \u20ac49.95 sustaining energy cost pressure. ~70% crisis-driven.",
       "signals": [
         {
           "date": "2026-03-28",
@@ -1024,6 +1053,16 @@ const GRAPH_DATA = {
             "CNBC"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "ECB holds at 2.15% (March 19 decision in effect). Revised 2026 inflation forecast UP to 2.6% (from prior estimates), growth forecast DOWN to 0.9% (from 1.3%) \u2014 both driven by energy costs. Eurozone March inflation jumped to 2.5% with energy component +4.9%. Rate hike speculation emerging for first time since 2023. Next meeting April 17. TTF gas at \u20ac49.95/MWh still 60%+ above pre-crisis. ECB in same stagflation trap as Fed \u2014 ~70% crisis-driven. Energy costs flowing through to services inflation. (Sources: ECB, Eurostat, Deutsche Welle)",
+          "sources": [
+            "ECB",
+            "Eurostat",
+            "Deutsche Welle"
+          ],
+          "significance": "medium"
         }
       ],
       "edges": [
@@ -1032,7 +1071,7 @@ const GRAPH_DATA = {
           "type": "inflation_transmission",
           "context": "Oil spike transmitted to Eurozone inflation \u2014 energy component swung 8 pp in one month. ECB cannot cut rates while imported inflation persists. June hike at 76% probability.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 6,
           "weight": 10.0
         },
@@ -1050,7 +1089,7 @@ const GRAPH_DATA = {
           "type": "inflation_input",
           "context": "TTF at EUR 47.51 \u2014 pulled back on de-escalation but EU storage at 30% (five-year low). Goldman forecasts EUR 55 for April. Gas prices directly feed ECB inflation assessment. Structural refining crisis (heating oil +3.7% vs gasoline -7.3%) deepens independently.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 5,
           "weight": 10.0
         }
@@ -1162,13 +1201,13 @@ const GRAPH_DATA = {
       "name": "European TTF Natural Gas",
       "type": "commodity",
       "created": "2026-03-28",
-      "last_updated": "2026-04-06",
-      "summary": "TTF EUR 49.95/MWh (~flat). Still 60%+ above pre-crisis EUR 31. Qatar LNG offline. Deadline extension to Tuesday does not change structural TTF dynamics. ECB raised inflation forecast to 2.6%. EU storage 30%. Shell fuel shortage warning IN the window. Structural deficit unchanged \u2014 60 bcm injection needed by December, impossible without Hormuz LNG.",
+      "last_updated": "2026-04-07",
+      "summary": "\u20ac49.95/MWh, 60%+ above pre-crisis \u20ac31.20. Qatar LNG shutdown + Hormuz risk sustaining. ECB revised inflation UP to 2.6%, growth DOWN to 0.9% \u2014 stagflation trap. Eurozone March inflation 2.5% with energy +4.9%. Rate hike speculation emerging. Directly feeding fertilizer production costs.",
       "current": {
-        "price": "\u20ac47.51/MWh",
-        "delta_1d": "-6.4%",
-        "delta_1m": "+85% from pre-crisis at peak",
-        "delta_3m": "+140%+"
+        "price": "\u20ac49.95/MWh",
+        "delta_1d": "+3-5% est.",
+        "delta_1m": "+15-20% est.",
+        "delta_3m": "+60% est."
       },
       "signals": [
         {
@@ -1255,6 +1294,16 @@ const GRAPH_DATA = {
             "Trading News"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "TTF at \u20ac49.95/MWh, estimated +3-5% 1D. March range \u20ac43.30-61.85 (avg \u20ac53.08). Still 60%+ above pre-crisis \u20ac31.20. Qatar LNG shutdown + Hormuz shipping risk maintaining elevated prices. ECB revised 2026 inflation forecast UP to 2.6% due to energy costs, growth forecast DOWN to 0.9%. Eurozone March inflation jumped to 2.5% with energy component +4.9%. Rate hike speculation emerging for first time since 2023 \u2014 ECB in same stagflation trap as Fed. TTF directly feeds European fertilizer production costs via Haber-Bosch process (BASF +10.4% 1M). (Sources: ICE Endex, oilpriceapi.com, ECB, Eurostat)",
+          "sources": [
+            "ICE Endex",
+            "oilpriceapi.com",
+            "ECB"
+          ],
+          "significance": "high"
         }
       ],
       "price_snapshots": [
@@ -1269,7 +1318,7 @@ const GRAPH_DATA = {
           "type": "supply_dependency",
           "context": "Qatar is the world's largest LNG exporter. Ras Laffan damage and Hormuz disruption directly reduce European gas supply.",
           "directness": 1,
-          "last_activated": "2026-03-28",
+          "last_activated": "2026-04-07",
           "activation_count": 8,
           "weight": 8.0
         },
@@ -1278,7 +1327,7 @@ const GRAPH_DATA = {
           "type": "pricing_benchmark",
           "context": "TTF is the benchmark for European LNG contracts. TTF spike = European industry cost spike = inflation.",
           "directness": 1,
-          "last_activated": "2026-03-28",
+          "last_activated": "2026-04-07",
           "activation_count": 6,
           "weight": 7.5
         },
@@ -1287,7 +1336,7 @@ const GRAPH_DATA = {
           "type": "input_cost",
           "context": "Natural gas is the primary feedstock for urea/fertilizer production. TTF spike \u2192 fertilizer production costs rise \u2192 food security cascade.",
           "directness": 1,
-          "last_activated": "2026-03-28",
+          "last_activated": "2026-04-07",
           "activation_count": 5,
           "weight": 7.0
         },
@@ -1296,7 +1345,7 @@ const GRAPH_DATA = {
           "type": "inflation_driver",
           "context": "TTF directly feeds ECB inflation \u2014 energy component swung from -3.1% to +4.9% in one month (8 pp reversal). Gas costs cascading through European industrial economy. ECB rate hike at 76% probability for June.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 5,
           "weight": 10.0
         }
@@ -1320,8 +1369,8 @@ const GRAPH_DATA = {
       "name": "Federal Reserve",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "STAGFLATION TRAP PERSISTS \u2014 APRIL 10 CPI IS NEXT BINARY: ISM Prices 78.3 (highest since June 2022) foreshadows hot CPI print on April 10. Oil back at $109-112 keeps inflation elevated. Fed trapped: can't cut with oil-driven inflation, can't hike without crashing equities. Market-implied hike probability ~52%. US gas at $4.13/gallon. Bond-equity divergence persists \u2014 bonds pricing damage, equities celebrating headlines. April 10 CPI is the next binary event for Fed policy direction.",
+      "last_updated": "2026-04-07",
+      "summary": "Stagflation trap DEEPENING. JPM: March CPI 3.4% (from 2.4%) \u2014 largest jump since 2022. March NFP +178K blowout closed rate-cut door. ISM Prices 78.3 (highest since June 2022) but ISM Employment contracting = late-cycle divergence. 52% hike probability by year-end. April 10 CPI is next binary event. Fed trapped: hike into war recession or let inflation run.",
       "signals": [
         {
           "date": "2026-03-18",
@@ -1418,6 +1467,15 @@ const GRAPH_DATA = {
             "Barchart"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "JP Morgan forecasts March CPI headline jumping from 2.4% to 3.4% YoY on 11% energy component \u2014 largest monthly jump since 2022 inflation spike. March NFP blowout: +178K vs +60K expected \u2014 strong jobs CLOSED rate-cut door. ISM Prices Index at 78.3 (highest since June 2022). ISM Employment contracting while NFP strong = textbook late-cycle divergence. 52% probability of Fed HIKE by year-end. Cleveland Fed inflation nowcasting tracking hot. April 10 CPI print will dominate mid-week \u2014 if above 3.4%, hike probability rises sharply. Stagflation comparisons to 1970s circulating. FOMC minutes also due this week. Fed in impossible position: hike into war-induced recession or let inflation run. (Sources: FinancialJuice, Cleveland Fed, yfinance)",
+          "sources": [
+            "FinancialJuice",
+            "Cleveland Fed"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -1426,7 +1484,7 @@ const GRAPH_DATA = {
           "type": "rate_expectations",
           "context": "Fed policy \u2192 bond yields. 10Y fell to 4.30% \u2014 yields declining on peace signals, pricing recession over inflation. ISM stagflation data (Prices 78.3, employment contracting) validates bond market's signal. 52% hike probability.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 11,
           "weight": 10.0
         },
@@ -1435,7 +1493,7 @@ const GRAPH_DATA = {
           "type": "discount_rate",
           "context": "S&P +2.9% (Apr 1), -0.52% (Apr 2). VIX surged to 27.34 (+11.4%) \u2014 only 2.66 pts from 30 institutional threshold. Bond-equity divergence deepening. ISM stagflation supports bond view. Fed completely trapped.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 11,
           "weight": 10.0
         },
@@ -1444,7 +1502,7 @@ const GRAPH_DATA = {
           "type": "rate_policy",
           "context": "Gold regime shift CHALLENGED: gold crashed -3.1% to $4,636 as DXY surged back above 100 (100.22). Oil\u2192inflation\u2192dollar\u2192gold-down channel reactivated. Gold only $36 above $4,600 threshold. Fed hike probability 52%. If gold breaks $4,600, regime shift invalidated.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 8,
           "weight": 10.0
         },
@@ -1453,7 +1511,7 @@ const GRAPH_DATA = {
           "type": "inflation_input",
           "context": "Oil surged back to $109 post-address. ISM Prices 78.3 confirms oil-driven cost pressure across 17 of 18 industries. At $109, further above the $85 threshold where Fed could resume cuts. Stagflation trap deepens.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 11,
           "weight": 10.0
         },
@@ -1462,7 +1520,7 @@ const GRAPH_DATA = {
           "type": "monetary_authority",
           "context": "$200B war spending request compounds fiscal situation. ISM stagflation (Prices 78.3, employment contracting) confirms war-driven economic deterioration. DXY at 99.54 \u2014 dollar weakness signals growth concerns dominating.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 7,
           "weight": 10.0
         }
@@ -1488,14 +1546,13 @@ const GRAPH_DATA = {
       "name": "Fertilizer / Urea",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "UREA $750/MT + CHINA EXPORT BAN = INDIA'S ALTERNATIVE SUPPLY CUT OFF: Urea FOB Middle East at $750/mt \u2014 52-week high, up from $400-490 pre-war. QAFCO 5.6MT/yr shut. China reportedly banned urea exports until August \u2014 removes the alternative supply India was quietly approaching. India faces 2M tonne shortfall by August, 60%+ imports from Gulf. CF Industries +24.1% monthly ($129.97) \u2014 direct equity proxy. Nutrien +3.3% monthly. FY27 subsidy CUT despite prices doubling. Kharif sowing June-July is the cliff.",
+      "last_updated": "2026-04-07",
+      "summary": "Urea $700/mt Egypt FOB, $800/mt US Gulf \u2014 +43-75% from pre-war. 30% of globally traded supply offline. Qatar halted major urea plant. CF Industries +69.9% 3M. NO strategic reserve, NO quick substitute. Northern Hemisphere spring planting at risk \u2014 if crisis extends through May, permanent yield damage. Most dangerous cascade path for food security.",
       "current": {
-        "price": "~$800/mt (US Gulf), ~$720/mt (global)",
-        "delta_1d": "-3% est. (de-escalation)",
-        "delta_1m": "+50-100%+",
-        "delta_3m": "+100%+",
-        "snapshot_note": "As of Apr 1"
+        "price": "~$700/mt (Egypt FOB), ~$800/mt (US Gulf)",
+        "delta_1d": "n/a",
+        "delta_1m": "+40-75% est.",
+        "delta_3m": "+50-75% est."
       },
       "signals": [
         {
@@ -1584,6 +1641,17 @@ const GRAPH_DATA = {
             "Epoch Times"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Urea Egypt FOB at ~$700/mt (from $400-490 pre-war, +43-75%). US Gulf urea at $800/mt \u2014 level last seen during 2022 Russia-Ukraine spike. ~30% of globally traded urea supply offline (Anadolu Agency, Carnegie, WEF). QatarEnergy halted one of world's biggest urea plants. CF Industries +69.9% 3M ($77.08 \u2192 $130.98) as largest US nitrogen producer = direct substitute supplier. Nutrien +29.4% 3M. Northern Hemisphere spring planting season at risk \u2014 fertilizer has NO strategic reserve and NO quick substitute. If crisis extends through May, 2026 planting season takes permanent yield damage. European gas costs (TTF \u20ac49.95) directly feed fertilizer production costs via Haber-Bosch process. BASF +10.4% 1M as European chemical giant benefits from Gulf competitor disruption. (Sources: Al Fassel News, CNBC, AgWeb, WEF, yfinance)",
+          "sources": [
+            "Al Fassel News",
+            "CNBC",
+            "AgWeb",
+            "WEF"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -1592,7 +1660,7 @@ const GRAPH_DATA = {
           "type": "feedstock_dependency",
           "context": "Natural gas is primary input for nitrogen-based fertilizers. Gas price spike \u2192 fertilizer cost spike. India's domestic plants cut 30% feedstock.",
           "directness": 1,
-          "last_activated": "2026-04-01",
+          "last_activated": "2026-04-07",
           "activation_count": 7,
           "weight": 8.5
         },
@@ -1601,7 +1669,7 @@ const GRAPH_DATA = {
           "type": "production_dependency",
           "context": "QAFCO Mesaieed (world's largest single-site urea plant, 5.6 Mt/y) offline since Mar 4. Entire Qatar downstream complex shut.",
           "directness": 1,
-          "last_activated": "2026-04-01",
+          "last_activated": "2026-04-07",
           "activation_count": 5,
           "weight": 8.5
         },
@@ -1610,7 +1678,7 @@ const GRAPH_DATA = {
           "type": "import_dependency",
           "context": "India imports 40%+ of urea from Middle East. Domestic plants at 70% capacity due to LNG cuts. Quietly approaching China. Kharif 2026 planting season at risk.",
           "directness": 1,
-          "last_activated": "2026-04-01",
+          "last_activated": "2026-04-07",
           "activation_count": 7,
           "weight": 8.0
         }
@@ -1643,13 +1711,13 @@ const GRAPH_DATA = {
       "name": "Gold",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "REGIME SHIFT SESSION 6-7+ \u2014 FUTURES OPENED $4,783 (highest of war). Gap-up from $4,675 close = +2.3% overnight deadline premium. DXY above 100 but gold STILL rising = dollar-gold inverse BROKEN. Silver NOT confirming = pure sovereign/institutional haven bid. Goldman $5,400 / JPM $6,300 targets. Deadline extension paradoxically INCREASES uncertainty (bullish gold).",
+      "last_updated": "2026-04-07",
+      "summary": "$4,665/oz. Regime shift above $4,600 intact (Session 7+) but NOT at $4,783 futures \u2014 corrected lower. Underperforming on deadline day (+0.3% vs expected +1-2%): DXY 100.12, US 10Y 4.34% competing. Silver -11.3% monthly NOT confirming \u2014 gold/silver ratio 64:1 = pure sovereign/institutional haven bid, not speculative. Central bank buying 585t/quarter structural floor. Goldman $5,400, JPM $6,300 year-end.",
       "current": {
-        "price": "$4,674.70/oz (Apr 3 close); futures $4,783",
-        "delta_1d": "+0.5%",
-        "delta_1m": "-7.7%",
-        "delta_3m": "+4.3%"
+        "price": "$4,665/oz",
+        "delta_1d": "+0.3%",
+        "delta_1m": "-7.9%",
+        "delta_3m": "+4.1%"
       },
       "price_snapshots": [
         {
@@ -1856,6 +1924,16 @@ const GRAPH_DATA = {
             "JP Morgan"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "CORRECTION: Gold trading $4,665/oz (+0.3%), NOT $4,783 futures figure from April 6 brief. The $4,783 was a pre-market gap-up that did not sustain \u2014 gold pulled back as dollar strengthened (DXY 100.12) and ceasefire hopes suppressed safe-haven demand. Regime shift above $4,600 still intact (Session 7+) but floor has settled around $4,650-4,675, not rising to $4,783. Gold underperforming expectations on deadline day (expected +1-2%, got +0.3%) \u2014 real yield competition at US 10Y 4.34% and DXY above 100. Silver at $72.42 (-0.4%) NOT confirming \u2014 gold/silver ratio ~64:1, pure sovereign/institutional haven bid (central bank buying 585t/quarter per JP Morgan), not speculative. Goldman $5,400 target, JP Morgan $6,300 year-end. Central bank buying structural, survives ceasefire. (Sources: Fortune, Yahoo Finance, FXStreet, yfinance)",
+          "sources": [
+            "Fortune",
+            "Yahoo Finance",
+            "FXStreet"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -1864,7 +1942,7 @@ const GRAPH_DATA = {
           "type": "rate_inverse",
           "context": "DXY back above 100 (100.22) REMOVING mechanical gold support. Fed trapped in stagflation \u2014 ISM Prices 78.3 but employment contracting. 52% hike probability. Oil +8.3% reactivated inflation\u2192dollar\u2192gold-down channel.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 9,
           "weight": 10.0
         },
@@ -1873,7 +1951,7 @@ const GRAPH_DATA = {
           "type": "inflation_link",
           "context": "Regime shift CHALLENGED: oil +8.3% post-address drove gold -3.1% via inflation\u2192dollar\u2192gold-down channel \u2014 the SAME inverse pattern from March. Three sessions above $4,600 still technically intact but gold at $4,636 with only $36 margin. If oil stays above $105 and DXY above 100, gold regime shift likely fails.",
           "directness": 2,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 9,
           "weight": 10.0
         }
@@ -1917,8 +1995,8 @@ const GRAPH_DATA = {
       "name": "Helium",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "THIS IS THE WEEK: TrendForce production cut announcement window OPENED (April 7-10). KOSPI -4.47% showing market beginning to price helium risk. Samsung -5.91%, SK hynix -6.83%. Either the helium crisis materializes (formal production cuts) or the stockpiling buffer proves sufficient. 50% allocations continue. 30-38% global output still offline (Ras Laffan). No confirmed Russian supply deals. South Korea claims inventory through June but TrendForce does not endorse that timeline.",
+      "last_updated": "2026-04-07",
+      "summary": "Inside TrendForce April 7-10 production cut window \u2014 no formal announcement yet. 50% fab allocations continue. Helium spot +50-100%, NE Asia $152.70/MCF. 200 specialized containers stranded near Hormuz. KOSPI +0.1% on ceasefire hopes. ABSENCE of cut announcement = either deeper inventories or successful management at 50%. The window is narrowing.",
       "current": {
         "price": "Spot prices doubled; 50% allocation cuts confirmed",
         "delta_1d": "KOSPI -4.47% (Samsung -5.91%, SK Hynix -6.83%)",
@@ -2057,6 +2135,17 @@ const GRAPH_DATA = {
             "Seoul Economic Daily"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Inside TrendForce April 7-10 production cut announcement window \u2014 no Samsung or SK Hynix formal production cut as of filing. KOSPI rebounded to 5,458 (+0.1%) on ceasefire hopes, partially reversing -4.47% prior cycle. Helium spot prices +50-100% from pre-crisis, NE Asia spot $152.70/MCF. 50% fab allocations continue. South Korea claims inventory through June but TrendForce does not endorse timeline. No confirmed Russian supply deals. 200 specialized containers still stranded near Hormuz. IRGC Stargate AI threat adds new dimension \u2014 helium shortage compounds with IRGC targeting of tech infrastructure. ABSENCE of production cut announcement during window is itself data \u2014 either inventories deeper than feared or companies managing through 50% allocations without formal cuts. (Sources: TrendForce, Tom's Hardware, NPR, Trading Economics)",
+          "sources": [
+            "TrendForce",
+            "Tom's Hardware",
+            "NPR",
+            "Trading Economics"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -2105,8 +2194,8 @@ const GRAPH_DATA = {
       "name": "Hezbollah",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "CLAIMED: Cruise missile fired at Israeli warship 68nm off Lebanese coast (IDF denies). FIRST anti-ship cruise missile claim since war began. If confirmed, major C4ISR capability escalation. 15+ killed in Israeli strikes on Lebanon April 5-6. Masnaa border crossing forced closed. Lebanon total: 1,460+ killed. Ceasefire linked to broader 45-day framework.",
+      "last_updated": "2026-04-07",
+      "summary": "IDF admits overestimating damage \u2014 'significant gap.' Hezbollah retains hundreds of launchers, tens of thousands of rockets. IDF deems disarming Hezbollah 'unrealistic,' new objective 2-3km security zone. 210+ missiles into Israel since March 2. IDF 'stretched to breaking point.' Cruise missile claim against Israeli warship (IDF denies, UNVERIFIED). Lebanon total: 1,460+ killed.",
       "signals": [
         {
           "date": "2026-03-02",
@@ -2197,6 +2286,16 @@ const GRAPH_DATA = {
             "Al-Monitor"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "IDF Northern Command chief Maj. Gen. Rafi Milo admitted Israel overestimated damage done to Hezbollah during 2024 ground offensive \u2014 'significant gap' between assessed and actual capabilities. Hezbollah retains hundreds of launchers and tens of thousands of rockets. Haaretz: IDF 'stretched to breaking point,' faces 'familiar deadly stalemate in Lebanon.' IDF now deems militarily disarming Hezbollah 'unrealistic' \u2014 new objective: 2-3km security zone south of Blue Line. UNIFIL data: 210+ Hezbollah missiles into Israel since March 2, ~100 during Passover alone (April 2-5). Four Nahal Brigade soldiers killed in southern Lebanon recently. The two-front war (Iran + Lebanon) is grinding the IDF. (Sources: Times of Israel, Haaretz, FDD Long War Journal)",
+          "sources": [
+            "Times of Israel",
+            "Haaretz",
+            "FDD"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -2205,7 +2304,7 @@ const GRAPH_DATA = {
           "type": "proxy_alliance",
           "context": "Iran's primary proxy. Southern front commander Hashem killed April 1 \u2014 most senior kill since war began. Hezbollah continuing cross-border attacks and ground clashes despite decapitation. Iran's leverage to ensure multi-front deal, not separate peace.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 13,
           "weight": 10.0
         },
@@ -2214,8 +2313,8 @@ const GRAPH_DATA = {
           "type": "active_conflict",
           "context": "Hezbollah CLAIMS cruise missile direct hit on Israeli warship 68nm off coast (IDF denies). FIRST anti-ship claim of war. 15+ killed in Israeli Lebanon strikes April 5-6. Masnaa border crossing forced closed. IDF Chief Zamir vowed to 'intensify.' Lebanon total: 1,460+ killed.",
           "directness": 1,
-          "last_activated": "2026-04-02",
-          "activation_count": 15,
+          "last_activated": "2026-04-07",
+          "activation_count": 16,
           "weight": 10.0
         },
         {
@@ -2235,8 +2334,8 @@ const GRAPH_DATA = {
       "name": "Houthis (Yemen)",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "DAY 38 ZERO SHIPPING ATTACKS. Despite F-15 loss, 'Power Plant Day' threats, and deadline drama \u2014 Houthis remain restrained on Red Sea shipping. The dog that won't bark. Bloomberg: Iran pressing restart 'contingent upon further US escalation.' EU ASPIDES on station. Commercial carriers still rerouted. Leadership divisions persist.",
+      "last_updated": "2026-04-07",
+      "summary": "Day 39 ZERO RED SEA SHIPPING ATTACKS \u2014 but Houthis ARE attacking Israel. At least 4 missile/drone launches at Israel since March 28 (all intercepted). Houthi leadership: attacking Israel 'independently of Iran' to preserve Red Sea shipping leverage. UKMTO: no shipping advisories. The dog IS barking \u2014 just not at ships. Calibrated restraint: hitting Israel while preserving the Red Sea card.",
       "signals": [
         {
           "date": "2026-03-05",
@@ -2412,6 +2511,17 @@ const GRAPH_DATA = {
             "UKMTO"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Updated assessment: Houthis ARE actively engaging militarily \u2014 at least 4 separate missile/drone launches at Israel since March 28 (Beersheba March 28-29, Ben Gurion Airport area claimed April 5 with 'cluster missile'). All intercepted or fell in open areas. Houthi leadership told CNN they are attacking Israel 'independently of Iran' to maintain the separate US ceasefire understanding on Red Sea shipping. However, ZERO confirmed attacks on Red Sea commercial shipping \u2014 Day 39 of restraint. UKMTO issued no new shipping attack advisories. The Houthis are calibrating: hitting Israel while preserving the Red Sea shipping card as leverage. This is a more nuanced picture than 'the dog that won't bark' \u2014 the dog IS barking, just not at ships. (Sources: Al Jazeera, JPost, UKMTO, INSS)",
+          "sources": [
+            "Al Jazeera",
+            "Jerusalem Post",
+            "UKMTO",
+            "INSS"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -2447,8 +2557,8 @@ const GRAPH_DATA = {
           "type": "active_conflict",
           "context": "Two confirmed missile/drone attacks on Israel (March 28-29). Day 33 still Israel-targeting only, not Red Sea shipping. Houthis calibrating \u2014 hitting Israel while preserving shipping leverage.",
           "directness": 1,
-          "last_activated": "2026-03-31",
-          "activation_count": 3,
+          "last_activated": "2026-04-07",
+          "activation_count": 4,
           "weight": 6.3
         }
       ],
@@ -2483,8 +2593,8 @@ const GRAPH_DATA = {
       "name": "India",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "Day 38. RBI MPC DAY 1 underway \u2014 expected hold at 5.25%. GIFT Nifty -350 points signals weak Monday open. Indian crude basket $120.84/bbl \u2014 above ALL forecast scenarios. FPI outflows Rs 19,837 cr in 2 April sessions, FY26 total Rs 1.8 trillion (worst since 1992). THREE sequential binaries this week: deadline (Apr 7), MPC (Apr 8), NOP cap (Apr 10). Special Saturday trading session possible Apr 11.",
+      "last_updated": "2026-04-07",
+      "summary": "Day 39. Markets rallied on ceasefire hopes: Nifty +1.12% to 22,968, Bank Nifty +2.1%. Relief rally fragile \u2014 contingent on Tuesday deadline. RBI MPC Day 2, consensus HOLD 5.25%. NOP cap deadline April 10, $11-15B unwinding. FPI outflows cumulative Rs 1.5 trillion 2026. Oil at $111, INR at \u20b993.04 \u2014 inflation and currency constraints persist. 8 Indian LPG tankers transited Hormuz under selective opening. India 10Y eased to 7.05%.",
       "signals": [
         {
           "date": "2026-03-02",
@@ -2745,6 +2855,18 @@ const GRAPH_DATA = {
             "Goodreturns.in"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Indian markets rallied on ceasefire hopes after 3-day closure: Nifty +255 (+1.12%) to 22,968, Sensex +787 (+1.07%) to 74,107, Bank Nifty +1,060 (+2.1%) to 52,609. GIFT Nifty 23,048-23,066 suggests flat-to-positive April 7 open. India VIX at 25.52 (elevated but not panic). USD/INR stabilized at \u20b993.04 \u2014 NOP cap forced liquidation dampening speculative pressure. India 10Y GOI at 7.05% (-5bps, some bond relief). FPI outflows: Rs 23,801 crore in early April, March record Rs 1.18 lakh crore, cumulative 2026 Rs 1.5 trillion. RBI MPC Day 2 today; decision April 8 \u2014 consensus HOLD at 5.25%. NOP cap deadline April 10 \u2014 $11-15B still unwinding. Special Saturday trading session April 11 confirmed. Oil at $111 = inflation constraint. Relief rally fragile \u2014 contingent on Tuesday deadline. Eight Indian LPG tankers have now transited Hormuz under Iran's selective opening. (Sources: Yahoo Finance, Trading Economics, Business Standard, BusinessToday, Bombay Samachar, Bloomberg Hormuz Tracker)",
+          "sources": [
+            "Yahoo Finance",
+            "Trading Economics",
+            "Business Standard",
+            "BusinessToday",
+            "Bombay Samachar"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -2753,7 +2875,7 @@ const GRAPH_DATA = {
           "type": "import_dependency",
           "context": "India imports 85-90% of crude. Brent crashed to $101.97 (from $118.35) easing import bill but still above $100 for ~13 days. Even with ceasefire + $85 oil, only recovers ~65% of losses. SPR 64% full, government NOT considering release.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 19,
           "weight": 10.0
         },
@@ -2762,7 +2884,7 @@ const GRAPH_DATA = {
           "type": "trade_balance",
           "context": "Higher oil bill = more dollar demand = rupee depreciation. INR improved to 92.64 (from 93.19) on Brent crash. FPI outflows Rs 1.8 trillion FY26 \u2014 worst since 1992. NOP cap deadline April 10 creating mechanical INR buying pressure ($30-40B unwinding).",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 16,
           "weight": 10.0
         },
@@ -2771,7 +2893,7 @@ const GRAPH_DATA = {
           "type": "policy_nexus",
           "context": "RBI MPC meeting April 6-8 \u2014 facing imported inflation vs growth slowdown dilemma. NOP cap deadline April 10 firm. Banks unwinding $30-40B. India 10Y at 7.00-7.04%. Escalation ladder nearly exhausted.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 14,
           "weight": 10.0
         },
@@ -2780,7 +2902,7 @@ const GRAPH_DATA = {
           "type": "market_impact",
           "context": "India April 1 rally (+1.56%) reversed on April 2 (Nifty -1.87% to 22,254). Outperformed S&P (+0.72%) on April 1 but massively lagged KOSPI (+8.44%). April 2 reversal signals India-specific headwinds. VIX at 25.05. 200-day EMA at 22,000 = critical support (1.1% below). Three-layer problem: crisis-reversible, structural, regulatory.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 19,
           "weight": 10.0
         },
@@ -2789,7 +2911,7 @@ const GRAPH_DATA = {
           "type": "supply_dependency",
           "context": "50% of crude imports, ~91% of LPG, fertilizer raw materials transit Hormuz. Iran's selective opening allowing Indian tankers through.",
           "directness": 1,
-          "last_activated": "2026-03-24",
+          "last_activated": "2026-04-07",
           "activation_count": 11,
           "weight": 9.2
         },
@@ -3016,14 +3138,13 @@ const GRAPH_DATA = {
       "name": "INR/USD Exchange Rate",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "RBI MPC Day 1 UNDERWAY. Rupee at 92.67 (offshore). NOP cap deadline April 10 \u2014 4 days away. Three sequential binaries this week: MPC decision (Apr 8), NOP deadline (Apr 10), helium production cut window (Apr 7-10). Largest single-day gain since 2013 (+1.8% to 93.10) was REGULATORY FORCE from NOP cap, not organic improvement.",
+      "last_updated": "2026-04-07",
+      "summary": "\u20b993.04, stabilized. NOP cap forcing $30-40B dollar unwinding by April 10 \u2014 reducing speculative pressure but causing mark-to-market losses. FPI outflows Rs 1.5T cumulative 2026. Saturday session April 11 provides compliance window. Oil at $111 = depreciation headwind. DXY above 100.",
       "current": {
-        "price": "Rs92.67 (yfinance/offshore)",
-        "delta_1d": "Markets closed Apr 4-5",
-        "delta_1m": "+1.3%",
-        "delta_3m": "+3.6%",
-        "snapshot_note": "As of Apr 6 \u2014 RBI MPC Day 1. NOP deadline 4 days away. Three sequential binaries this week."
+        "price": "\u20b993.04",
+        "delta_1d": "+0.1%",
+        "delta_1m": "+1.2%",
+        "delta_3m": "+3.2%"
       },
       "price_snapshots": [
         {
@@ -3185,6 +3306,16 @@ const GRAPH_DATA = {
             "Business Standard"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "INR/USD stabilized at \u20b993.04 (+0.1%), NOP cap forced liquidation dampening speculative pressure. Banks completing $30-40B dollar unwinding ahead of April 10 deadline \u2014 the unwinding itself is reducing uncertainty. India 10Y GOI eased to 7.05% (-5bps). DXY at 100.12 (above psychological 100 level). FPI outflows cumulative Rs 1.5 trillion in 2026 \u2014 structural pressure continues. Banks urging RBI to revisit NOP cap, flagging mark-to-market losses. Saturday trading session April 11 confirmed \u2014 provides additional compliance window. Oil at $111 = ongoing depreciation pressure on INR. (Sources: Yahoo Finance, Trading Economics, Business Standard, ANI)",
+          "sources": [
+            "Yahoo Finance",
+            "Trading Economics",
+            "Business Standard"
+          ],
+          "significance": "medium"
         }
       ],
       "edges": [
@@ -3193,7 +3324,7 @@ const GRAPH_DATA = {
           "type": "currency_impact",
           "context": "Rupee at 92.67 offshore. NOP cap deadline April 10 forcing $30-40B unwinding. FPI outflows Rs 1.8 trillion FY26 \u2014 worst since 1992. Three sequential binaries this week.",
           "directness": 1,
-          "last_activated": "2026-04-06",
+          "last_activated": "2026-04-07",
           "activation_count": 19,
           "weight": 10.0
         },
@@ -3202,7 +3333,7 @@ const GRAPH_DATA = {
           "type": "cost_transmission",
           "context": "Higher oil \u2192 more dollar demand for imports \u2192 rupee weakens. Oil at $120+ is the binding constraint. India imports 85-90% of crude.",
           "directness": 1,
-          "last_activated": "2026-04-06",
+          "last_activated": "2026-04-07",
           "activation_count": 16,
           "weight": 10.0
         },
@@ -3211,7 +3342,7 @@ const GRAPH_DATA = {
           "type": "intervention_target",
           "context": "NOP cap deadline April 10 firm \u2014 4 days. $30-40B positions need squaring. RBI MPC Day 1 underway April 6-8. Decision April 8 \u2014 expected hold at 5.25%.",
           "directness": 1,
-          "last_activated": "2026-04-06",
+          "last_activated": "2026-04-07",
           "activation_count": 19,
           "weight": 10.0
         },
@@ -3220,7 +3351,7 @@ const GRAPH_DATA = {
           "type": "fii_flow_driver",
           "context": "Rupee at 92.67 offshore. NOP cap unwinding creates mechanical INR buying. FPI outflows Rs 1.8 trillion FY26 \u2014 worst since 1992, 42% YoY increase.",
           "directness": 1,
-          "last_activated": "2026-04-06",
+          "last_activated": "2026-04-07",
           "activation_count": 13,
           "weight": 10.0
         }
@@ -3244,8 +3375,8 @@ const GRAPH_DATA = {
       "name": "Iran",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "Day 38. DEADLINE EXTENDED to Tuesday April 7 8 PM ET \u2014 3rd extension, windows compressing. 45-day ceasefire framework REPORTED (Axios) but mediators say 'slim.' IRGC CODIFIED MIRROR-ESCALATION DOCTRINE: 'If you hit electricity, we hit electricity.' Ghalibaf: 'vital infrastructure across the entire region will be irreversibly destroyed.' IRGC civilian warning to leave areas near US forces = pre-strike advisory. Haifa cluster bomb warhead \u2014 2 dead, 2 trapped. Borouge $60B plant shut down from interception debris. Iran tone: MAXIMALLY DEFIANT. Internal split collapsed into unified defiance ahead of Tuesday.",
+      "last_updated": "2026-04-07",
+      "summary": "Day 39. Tuesday April 7 8 PM ET deadline is TODAY \u2014 no deal reached. Iran REJECTED 45-day 'Islamabad Accord' ceasefire, submitted 10-clause counter-proposal (permanent war end, sanctions relief, reparations, Hormuz protocol). IRGC declared 'New Persian Gulf Order' \u2014 Hormuz will 'never return to its former state.' Israel struck South Pars (largest petrochemical, half output) and Mahshahr complex (all production shut). IRGC Intelligence Chief Khademi killed \u2014 most significant intelligence decapitation since war began. IRGC designated 18 Western tech companies as 'legitimate targets' \u2014 horizontal escalation into civilian technology. Internal split collapsed into unified defiance. Mediators say chances 'slim.'",
       "signals": [
         {
           "date": "2026-02-28",
@@ -3725,6 +3856,22 @@ const GRAPH_DATA = {
             "analyst assessment"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Israel struck South Pars petrochemical plant (Iran's largest, half of petrochemical output) and Mahshahr petrochemical complex (shutting all production by destroying Fajr 1/2 utility plants). Israel also struck three Tehran airports overnight (Bahram, Mehrabad, Azmayesh), destroying dozens of helicopters/aircraft. IRGC responded with 'New Persian Gulf Order' declaration \u2014 Hormuz will 'never return to its former state.' After US-Israeli strike on Sharif University AI/GPU data center, IRGC designated 18 Western tech companies (Apple, Microsoft, Google, Nvidia, Tesla, Oracle, JPMorgan, Boeing, Meta) as 'legitimate targets' and threatened UAE's $500B Stargate AI project. Brigadier General Majid Khademi (IRGC Intelligence Chief, effectively No. 2 of IRGC intelligence) killed in precision Israeli strike \u2014 most significant decapitation of IRGC intelligence capability since war began, surpassing Tangsiri assassination. Quds Force commander Asghar Bagheri also eliminated. Iran rejected 45-day 'Islamabad Accord' ceasefire, submitted 10-clause counter-proposal demanding permanent war end, sanctions relief, reconstruction reparations, and Hormuz protocol. Trump's Tuesday 8 PM ET deadline is TODAY. Fars News reported 6 children under 10 killed in Tehran residential airstrike (REPORTED \u2014 not independently confirmed by Western outlets). Cumulative: 3,540+ killed (1,616 civilians including 244 children). (Sources: Euronews, i24News, CNBC, Times of Israel, Xinhua, Fox News, Axios, Al Jazeera, Fars News)",
+          "sources": [
+            "Euronews",
+            "i24News",
+            "CNBC",
+            "Times of Israel",
+            "Xinhua",
+            "Fox News",
+            "Axios",
+            "Al Jazeera",
+            "Fars News"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -3733,8 +3880,8 @@ const GRAPH_DATA = {
           "type": "territorial_control",
           "context": "Iran controls northern shore. IRGC Navy closed strait since Mar 5. Toll law awaiting Guardian Council. IRGC threatened PERMANENT Hormuz closure: 'will not be opened until our destroyed power plants are rebuilt.' Deadline extended to Tuesday April 7. Oman-Iran Hormuz transit talks REPORTED (separate diplomatic track). 45-day ceasefire includes Hormuz as primary bargaining chip.",
           "directness": 1,
-          "last_activated": "2026-04-05",
-          "activation_count": 22,
+          "last_activated": "2026-04-07",
+          "activation_count": 23,
           "weight": 10.0
         },
         {
@@ -3742,8 +3889,8 @@ const GRAPH_DATA = {
           "type": "active_conflict",
           "context": "Israel launched preemptive strikes on Iran Feb 28, struck nuclear sites (Natanz, Fordow, Isfahan), Kharg Island, South Pars. US-Israeli strikes hit Mahsahahr Petrochemical Zone April 5 \u2014 5 killed, 170+ wounded, largest single-site industrial casualty event. Targeting: military\u2192energy\u2192industrial\u2192water\u2192university\u2192corporate\u2192pharma\u2192petrochemical. 30+ universities targeted. Iran retaliating with precision strikes despite 95% missile volume decline.",
           "directness": 1,
-          "last_activated": "2026-04-05",
-          "activation_count": 27,
+          "last_activated": "2026-04-07",
+          "activation_count": 28,
           "weight": 10.0
         },
         {
@@ -3751,8 +3898,8 @@ const GRAPH_DATA = {
           "type": "active_conflict",
           "context": "US launched Operation Epic Fury on Feb 28. 55,000+ troops. F-15E Strike Eagle shot down over Iran April 3 \u2014 first US fighter jet downed in the war. Both crew rescued by April 5 via CIA-assisted extraction. MC-130Js destroyed by US forces during rescue. Iran rejected Trump's 48-hour Hormuz ultimatum: 'straight to the depths of hell.' Trump called 'helpless, nervous, unbalanced.' FM Baghaei maintains no negotiations. US casualties: 13 KIA, 365 WIA. Mahsahahr Petrochemical Zone struck \u2014 5 killed, 170+ wounded. Targeting: military\u2192energy\u2192industrial\u2192water\u2192university\u2192corporate\u2192pharma\u2192petrochemical. Deadline extended to Tuesday April 7 8 PM ET. IRGC codified mirror-escalation doctrine. 45-day ceasefire REPORTED but 'slim.'",
           "directness": 1,
-          "last_activated": "2026-04-05",
-          "activation_count": 29,
+          "last_activated": "2026-04-07",
+          "activation_count": 30,
           "weight": 10.0
         },
         {
@@ -3767,19 +3914,19 @@ const GRAPH_DATA = {
         {
           "to": "uae",
           "type": "retaliatory_strikes",
-          "context": "Iran fired 314 ballistic missiles, 1,672 drones, 15 cruise missiles at UAE. Hit ADNOC Ruwais refinery, Dubai airport, US Consulate, Shah gas field, Fujairah port. Al-Salmi VLCC attacked at Dubai port anchorage (April 1). UAE petrochemical plant fires April 5 \u2014 Iran now targeting energy infrastructure across FOUR Gulf states simultaneously (Kuwait, Bahrain, UAE, Qatar).",
+          "context": "Iran fired 314 ballistic missiles, 1,672 drones, 15 cruise missiles at UAE. Hit ADNOC Ruwais refinery, Dubai airport, US Consulate, Shah gas field, Fujairah port. Al-Salmi VLCC attacked at Dubai port anchorage (April 1). UAE petrochemical plant fires April 5 \u2014 Iran now targeting energy infrastructure across FOUR Gulf states simultaneously (Kuwait, Bahrain, UAE, Qatar). IRGC threatened UAE's $500B Stargate AI project.",
           "directness": 1,
-          "last_activated": "2026-04-05",
-          "activation_count": 15,
+          "last_activated": "2026-04-07",
+          "activation_count": 16,
           "weight": 10.0
         },
         {
           "to": "qatar",
           "type": "retaliatory_strikes",
-          "context": "Iran struck Ras Laffan LNG facility in retaliation for South Pars attack. Destroyed LNG Trains 4 & 6. Qatar expelled Iranian attaches. AQUA 1 tanker struck near Ras Laffan with 3 cruise missiles (2 intercepted, 1 hit) \u2014 17nm north of Ras Laffan. IRGC claimed responsibility, reportedly gave Qatar advance notice. Attack geography expanding into Qatar waters.",
+          "context": "Iran struck Ras Laffan LNG facility in retaliation for South Pars attack. Destroyed LNG Trains 4 & 6. Qatar expelled Iranian attaches. AQUA 1 tanker struck near Ras Laffan with 3 cruise missiles (2 intercepted, 1 hit) \u2014 17nm north of Ras Laffan. IRGC claimed responsibility, reportedly gave Qatar advance notice. Attack geography expanding into Qatar waters. South Pars strike on shared South Pars/North Dome gas field raises precedent risk for striking shared resource infrastructure.",
           "directness": 1,
-          "last_activated": "2026-04-02",
-          "activation_count": 7,
+          "last_activated": "2026-04-07",
+          "activation_count": 8,
           "weight": 10.0
         },
         {
@@ -3787,8 +3934,8 @@ const GRAPH_DATA = {
           "type": "retaliatory_strikes",
           "context": "Iran struck Kuwait power/water desalination plant (Mar 30, Indian worker killed). Iran struck Kuwait Petroleum Corp HQ (Shuwaikh complex, houses oil ministry) with drones April 4-5 \u2014 building evacuated, set ablaze. Kuwait relies on desalination for ~90% of drinking water. Two major infrastructure hits in one week.",
           "directness": 1,
-          "last_activated": "2026-04-05",
-          "activation_count": 5,
+          "last_activated": "2026-04-07",
+          "activation_count": 6,
           "weight": 10.0
         },
         {
@@ -3805,8 +3952,8 @@ const GRAPH_DATA = {
           "type": "supply_disruption",
           "context": "Iran's Hormuz toll law passed full Majlis. Iran rejected Trump's 48-hour Hormuz ultimatum \u2014 April 6 deadline hours away. Iran now striking energy infrastructure across 4 Gulf states simultaneously: Kuwait Petroleum HQ ablaze, Bahrain Bapco oil storage hit, UAE petrochemical fires, Qatar tanker attacks. F-15 shootdown emboldened IRGC. Zero chance of voluntary Hormuz reopening before deadline.",
           "directness": 1,
-          "last_activated": "2026-04-05",
-          "activation_count": 23,
+          "last_activated": "2026-04-07",
+          "activation_count": 24,
           "weight": 10.0
         },
         {
@@ -4245,8 +4392,8 @@ const GRAPH_DATA = {
       "name": "Israel",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "Day 38. HAIFA CLUSTER BOMB WARHEAD \u2014 2 dead, 2 still trapped (CONFIRMED). Significant warhead escalation. ~170 BMs launched April 4-5. Tel Aviv civilian woman killed, 27 injured. Lebanon: 1,460+ killed. 15+ killed in Lebanon April 5-6 strikes. Masnaa border crossing with Syria FORCED CLOSED. IDF Chief Zamir vowed to 'intensify strikes.' Hezbollah CLAIMS cruise missile hit on Israeli warship \u2014 IDF denies.",
+      "last_updated": "2026-04-07",
+      "summary": "Day 39. Israel struck South Pars and Mahshahr petrochemical complexes \u2014 first sustained campaign against Iran's energy infrastructure. IRGC Intelligence Chief Khademi killed \u2014 most significant decapitation since Tangsiri. Haifa cluster bomb: 4 dead confirmed. IDF Northern Command admitted overestimating damage to Hezbollah \u2014 'significant gap' in assessed vs actual capabilities. Deems disarming Hezbollah 'unrealistic,' new objective: 2-3km security zone. Haaretz: IDF 'stretched to breaking point' on two-front war. Tuesday deadline is TODAY.",
       "signals": [
         {
           "date": "2026-02-28",
@@ -4437,6 +4584,21 @@ const GRAPH_DATA = {
             "Antiwar.com"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Israel struck Iran's South Pars petrochemical plant (largest, half of petrochemical output) and Mahshahr petrochemical complex (Fajr 1/2 utility plants destroyed, all production shut) \u2014 first sustained strike campaign directly targeting Iran's energy/industrial infrastructure. Defense Minister Katz confirmed. Also struck three Tehran airports (dozens of helicopters/aircraft destroyed). IRGC Intelligence Chief Brigadier General Khademi killed in precision strike \u2014 most significant intelligence decapitation since Tangsiri. Quds Force commander Bagheri also eliminated. IDF Northern Command chief Milo admitted Israel overestimated damage to Hezbollah \u2014 'significant gap' between assessed and actual capabilities. Hezbollah retains hundreds of launchers and tens of thousands of rockets. IDF deems militarily disarming Hezbollah 'unrealistic' \u2014 new objective: 2-3km security zone. Haaretz: IDF 'stretched to breaking point.' Haifa cluster bomb final count: 4 dead (Gershovich family + partner). 210+ Hezbollah missiles into Israel since March 2, ~100 during Passover. (Sources: Euronews, i24News, Military.com, IDF, Haaretz, Times of Israel, Jerusalem Post, FDD)",
+          "sources": [
+            "Euronews",
+            "i24News",
+            "Military.com",
+            "IDF",
+            "Haaretz",
+            "Times of Israel",
+            "Jerusalem Post",
+            "FDD"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -4445,8 +4607,8 @@ const GRAPH_DATA = {
           "type": "active_conflict",
           "context": "Direct military conflict. Iran escalated to CLUSTER BOMB WARHEAD on Haifa residential building \u2014 2 dead, 2 trapped. ~170 BMs in April 4-5 window. Tel Aviv woman killed, 27 injured. BAZAN refinery hit. IDF struck 200+ Iranian targets, 140+ Hezbollah sites. 4,000+ total targets. Deadline extended to Tuesday \u2014 both sides intensifying before potential binary outcome.",
           "directness": 1,
-          "last_activated": "2026-04-02",
-          "activation_count": 24,
+          "last_activated": "2026-04-07",
+          "activation_count": 25,
           "weight": 10.0
         },
         {
@@ -4454,7 +4616,7 @@ const GRAPH_DATA = {
           "type": "military_alliance",
           "context": "Joint operations. US 82nd Airborne in theater. Trump's '2-3 weeks' exit timeline diverges from Netanyahu's 'no scale-back' posture. IDF expanding to economic infrastructure destruction (steel, pharma) while Trump signals exit. Allies not coordinating exit strategy.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 18,
           "weight": 10.0
         },
@@ -4463,8 +4625,8 @@ const GRAPH_DATA = {
           "type": "ground_war",
           "context": "IDF ground incursion into southern Lebanon since Mar 3. 4 IDF soldiers killed March 31. 3 Indonesian UN peacekeepers killed in 2 separate incidents. France called emergency UNSC meeting. Guterres: attacks on peacekeepers 'may amount to war crimes.'",
           "directness": 1,
-          "last_activated": "2026-03-31",
-          "activation_count": 13,
+          "last_activated": "2026-04-07",
+          "activation_count": 14,
           "weight": 9.0
         },
         {
@@ -4472,8 +4634,8 @@ const GRAPH_DATA = {
           "type": "active_conflict",
           "context": "Hezbollah CLAIMS cruise missile direct hit on Israeli warship 68nm off Lebanese coast (IDF denies). 15+ killed in Israel's Lebanon strikes April 5-6. Masnaa border crossing forced closed. IDF Chief Zamir vowed to 'intensify strikes.' Lebanon total: 1,460+ killed. Decapitation + area bombardment campaign continuing.",
           "directness": 1,
-          "last_activated": "2026-04-02",
-          "activation_count": 15,
+          "last_activated": "2026-04-07",
+          "activation_count": 16,
           "weight": 10.0
         },
         {
@@ -4505,8 +4667,8 @@ const GRAPH_DATA = {
       "name": "Kuwait",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "SYSTEMATIC DEGRADATION \u2014 Day 7 pattern established: Six attacks in six days (Mar 30 - Apr 5) \u2014 oil ministry HQ ablaze, power plants hit, 3 water strikes, airport, refinery. Kuwait absorbing heaviest sustained damage of any Gulf state. Not a combatant. Iran denies/blames Israel. No new strikes reported April 6 as of morning brief.",
+      "last_updated": "2026-04-07",
+      "summary": "Day 8 of sustained targeting. Kuwait intercepted 62 projectiles (14 BMs, 2 CMs, 46 drones) in 24h \u2014 highest single-day volume of any Gulf state in the war. Cumulative damage: oil ministry HQ, power plants, 3x desalination plants, airport fuel tanks, refinery. Oil exports remain halted under force majeure. Iran continues denying targeting Kuwait.",
       "signals": [
         {
           "date": "2026-02-28",
@@ -4619,6 +4781,15 @@ const GRAPH_DATA = {
             "The National"
           ],
           "significance": "medium"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Kuwait intercepted 14 ballistic missiles, 2 cruise missiles, and 46 hostile drones in 24 hours ending April 6 \u2014 highest single-day volume yet reported (62 projectiles). Interception debris fell in northern residential area causing injuries. Army EOD responded to 22 callouts; fire teams handled 3 additional incidents. No specific new facility destroyed beyond cumulative damage: oil ministry HQ, power plants, 3x desalination plants, airport fuel tanks, refinery. Oil exports remain halted under force majeure. Day 8 of sustained targeting. The quantitative escalation (62 projectiles in 24h) represents the highest single-day bombardment volume of any Gulf state in the war. (Sources: Peninsula Qatar, Al Jazeera liveblog April 7)",
+          "sources": [
+            "Peninsula Qatar",
+            "Al Jazeera"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -4627,8 +4798,8 @@ const GRAPH_DATA = {
           "type": "retaliation_target",
           "context": "Seven days of sustained Iranian attacks on Kuwaiti infrastructure: desalination (Mar 30, Indian worker killed), VLCC Al-Salmi (Mar 31), airport fuel tanks (Apr 1), desalination + refinery (Apr 3), oil ministry HQ ablaze (Apr 4), power plants + desalination (Apr 5). No new strikes April 6 morning. Kuwait not a combatant but absorbing heaviest sustained civilian damage of any Gulf state. Systematic degradation of water, energy, and oil infrastructure. Iran denies/blames Israel.",
           "directness": 1,
-          "last_activated": "2026-04-05",
-          "activation_count": 9,
+          "last_activated": "2026-04-07",
+          "activation_count": 10,
           "weight": 10.0
         },
         {
@@ -4636,7 +4807,7 @@ const GRAPH_DATA = {
           "type": "refinery_disruption",
           "context": "Kuwaiti refineries struck, airport fuel tanks ablaze, oil ministry HQ set on fire. Adding to supply disruption and logistics collapse.",
           "directness": 1,
-          "last_activated": "2026-04-04",
+          "last_activated": "2026-04-07",
           "activation_count": 4,
           "weight": 9.0
         }
@@ -4648,8 +4819,8 @@ const GRAPH_DATA = {
       "name": "Lebanon",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "ESCALATING \u2014 Hezbollah claimed first anti-ship cruise missile of war (hit on Israeli warship 68nm off coast, IDF denies: 'not aware,' CLAIMED/UNVERIFIED). Masnaa border crossing with Syria FORCED CLOSED \u2014 evokes Syria 2014 patterns. 15+ killed April 5-6 including strike 100m from Rafik Hariri Hospital. IDF chief pledged to 'intensify strikes.' Total casualties: 1,460+ killed (Lebanese Health Ministry). Iran demands Lebanon included in any ceasefire.",
+      "last_updated": "2026-04-07",
+      "summary": "Lebanon front now linked to broader ceasefire negotiations via Iran's 10-clause counter-proposal demanding 'regional scope including Lebanon front.' IDF shifted from 'disarm Hezbollah' to '2-3km security zone' \u2014 strategic downgrade in ambition. IDF admits 'significant gap' in assessed vs actual Hezbollah capabilities. Haaretz: IDF 'stretched to breaking point.' Masnaa border crossing forced closed. Total casualties: 1,460+ killed.",
       "signals": [
         {
           "date": "2026-03-03",
@@ -4756,6 +4927,17 @@ const GRAPH_DATA = {
             "Al-Monitor"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "IDF Northern Command strategic reframe: deems militarily disarming Hezbollah 'unrealistic' (would require occupying all of Lebanon). New objective: 2-3km security zone south of Blue Line. IDF admits 'significant gap' between assessed and actual Hezbollah capabilities after overestimating 2024 ground offensive damage. Haaretz reports IDF 'stretched to breaking point' in Lebanon with 'familiar deadly stalemate.' Four Nahal Brigade soldiers killed recently. Iran's 10-clause ceasefire counter-proposal demands 'regional scope including Lebanon front' \u2014 linking Lebanon to broader war resolution. (Sources: Times of Israel, Haaretz, FDD, Axios)",
+          "sources": [
+            "Times of Israel",
+            "Haaretz",
+            "FDD",
+            "Axios"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -4764,7 +4946,7 @@ const GRAPH_DATA = {
           "type": "operating_territory",
           "context": "Beirut airstrike killed Hezbollah southern front commander Hashem April 1 (7 killed, 26 wounded). Fierce clashes in Shamaa ~5km inside Lebanon. France called emergency UNSC. Iran demands Lebanon included in any ceasefire.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 15,
           "weight": 10.0
         },
@@ -4773,8 +4955,8 @@ const GRAPH_DATA = {
           "type": "invasion_target",
           "context": "Israel killed most senior Hezbollah commander since war began in Beirut airstrike April 1. Fierce clashes continuing in Shamaa. France called emergency UNSC. Israeli ground forces still operating inside Lebanon.",
           "directness": 1,
-          "last_activated": "2026-04-02",
-          "activation_count": 15,
+          "last_activated": "2026-04-07",
+          "activation_count": 16,
           "weight": 10.0
         }
       ],
@@ -4785,8 +4967,8 @@ const GRAPH_DATA = {
       "name": "Mojtaba Khamenei",
       "type": "person",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "DAY 38 NO VIDEO/AUDIO. AI-GENERATED FAKE VIDEO DEBUNKED \u2014 GBX_Press posted fabricated video of Mojtaba 'heading to military operations room' with Dimona coordinates. Fact-checkers: blurred facial details, unnatural lighting, older Khamenei footage digitally reused. The AI fake is itself significant \u2014 signals DEMAND for proof-of-life content that doesn't exist, creating market for fabrication. Longest absence in Islamic Republic history continues.",
+      "last_updated": "2026-04-07",
+      "summary": "Day 39 zero verified public appearances. All communications remain written statements read by state TV anchors. FDD: Ghalibaf (former IRGC Air Force commander) identified as one of '5 men running Iran.' Real power center: IRGC-SNSC axis, not Supreme Leader's office. Pezeshkian SILENT on deadline day \u2014 civilian government possibly sidelined.",
       "signals": [
         {
           "date": "2026-03-08",
@@ -4869,6 +5051,16 @@ const GRAPH_DATA = {
             "Euronews"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Day 39 without verified public appearance (video/audio). All communications remain written statements only. Araghchi reassured on April 1 he is 'in good health' and 'expected to appear soon.' Russia's ambassador confirmed he 'remains in Iran.' Iran International (opposition-leaning) reported 'errors' in his first message that were 'dictated by the IRGC.' FDD analysis identifies Ghalibaf as one of '5 men now running Iran' \u2014 a former IRGC Air Force commander now leading negotiations. The real power center appears to be the IRGC-SNSC axis, not the Supreme Leader's office. Pezeshkian was SILENT on deadline day \u2014 may indicate civilian government sidelined. (Sources: Iran International, FDD, Al Jazeera)",
+          "sources": [
+            "Iran International",
+            "FDD",
+            "Al Jazeera"
+          ],
+          "significance": "medium"
         }
       ],
       "edges": [
@@ -4921,14 +5113,13 @@ const GRAPH_DATA = {
       "name": "Natural Gas / LNG",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "TTF EUR 49.98/MWh (-0.6% 1D but +50% WoW). Qatar LNG still offline (Ras Laffan). US LNG filling gap \u2014 Cheniere +12.9% monthly, +41.9% 3M. Henry Hub $2.81 (flat) \u2014 US domestic decoupled from international prices. ECB raised 2026 inflation forecast to 2.6% driven by energy. TTF is the transmission mechanism for ECB policy.",
+      "last_updated": "2026-04-07",
+      "summary": "Henry Hub $2.79 (-16.6% 3M) vs TTF \u20ac49.95 (+60% 3M) \u2014 maximum divergence. US domestic gas disconnected from global crisis. LNG export capacity maxed out. Cheniere +45.3% 3M on export premium. South Pars strike on shared field raises Qatar North Dome precedent risk.",
       "current": {
-        "price": "TTF EUR 47.51/MWh; Henry Hub $2.87/MMBtu",
-        "delta_1d": "TTF -6.4%; HH -0.6%",
-        "delta_1m": "HH -6.2%",
-        "delta_3m": "+85% est. (TTF from pre-crisis)",
-        "snapshot_note": "As of Apr 2. Henry Hub decoupled from TTF \u2014 US has abundant domestic supply, LNG export terminals at capacity."
+        "price": "$2.79/MMBtu (Henry Hub); TTF \u20ac49.95/MWh",
+        "delta_1d": "-0.2% (HH)",
+        "delta_1m": "-7.0% (HH); +15-20% est. (TTF)",
+        "delta_3m": "-16.6% (HH); +60% est. (TTF)"
       },
       "price_snapshots": [
         {
@@ -5047,6 +5238,16 @@ const GRAPH_DATA = {
             "markets.md"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Henry Hub $2.79/MMBtu (-0.2%, -7.0% 1M, -16.6% 3M) \u2014 flat/falling despite global energy disruption because US natural gas is a DOMESTIC market with limited export infrastructure. LNG export terminals at capacity \u2014 US gas can't reach international market fast enough. European TTF at \u20ac49.95 reflects the crisis, Henry Hub does not. Henry Hub/TTF divergence widening \u2014 US gas producers benefit from LNG export premium (Cheniere +45.3% 3M, +13.8% 1M) but domestic spot doesn't move. Israel's South Pars strike is significant \u2014 Iran's largest petrochemical plant linked to shared South Pars/North Dome gas field. Qatar's North Dome operations unaffected but precedent of striking shared resource infrastructure escalates risk. (Sources: yfinance, Fortune, FinancialContent)",
+          "sources": [
+            "yfinance",
+            "Fortune",
+            "FinancialContent"
+          ],
+          "significance": "medium"
         }
       ],
       "edges": [
@@ -5114,14 +5315,13 @@ const GRAPH_DATA = {
       "name": "Nifty 50",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "GIFT NIFTY -350 POINTS signals weak Monday open. Nifty 22,602 (last close). GIFT Nifty at 22,722 (+0.5% from cash) but gathered BEFORE deadline outcome. Three sequential binaries: deadline (Apr 7), MPC (Apr 8), NOP (Apr 10). FPIs Rs 19,837 cr out in 2 sessions (accelerating). Bank Nifty -14.1% 1M. 200-DMA at 22,000 critical. RBI MPC Day 1 underway.",
+      "last_updated": "2026-04-07",
+      "summary": "22,968 (+1.12%). Ceasefire-hope rally \u2014 oversold bounce, not recovery. Bank Nifty +2.1% (hardest hit, hardest bounce). Three sequential binaries: MPC April 8, NOP cap April 10, deadline outcome. 200-DMA at 24,051 \u2014 4.5% below. VIX 25.52. FPI outflows relentless: Rs 1.5T cumulative 2026.",
       "current": {
-        "price": "22,602 (Apr 3 close); GIFT Nifty 22,722",
-        "delta_1d": "-0.5%",
-        "delta_1m": "-9.1%",
-        "delta_3m": "-13.7%",
-        "snapshot_note": "April 3 close. GIFT Nifty -349.50 signals weak Monday open. Markets closed Apr 4-6. Three binaries this week: deadline (Apr 7), MPC (Apr 8), NOP (Apr 10)."
+        "price": "22,968",
+        "delta_1d": "+1.12%",
+        "delta_1m": "-7.6%",
+        "delta_3m": "-12.3%"
       },
       "price_snapshots": [
         {
@@ -5293,6 +5493,16 @@ const GRAPH_DATA = {
             "Goodreturns.in"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Nifty 50 rallied +255 (+1.12%) to 22,968 after 3-day market closure, driven by ceasefire proposal reports. Bank Nifty +1,060 (+2.1%) to 52,609 \u2014 most beaten-down sector (-12.1% monthly) bouncing hardest. This is an OVERSOLD BOUNCE, not a recovery signal. Bank Nifty has three sequential binaries this week: (1) MPC decision April 8, (2) NOP cap deadline April 10, (3) Tuesday deadline outcome. Worst case: Bank Nifty tests 48,000-49,000. Best case: 53,000-54,000. Nifty 200-DMA at ~24,051 \u2014 current level 4.5% below, significant technical discount. India VIX at 25.52. GIFT Nifty at 23,048-23,066 suggests flat-to-positive next open. DII buying providing floor support. (Sources: Yahoo Finance, Trading Economics, BusinessToday)",
+          "sources": [
+            "Yahoo Finance",
+            "Trading Economics",
+            "BusinessToday"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -5301,7 +5511,7 @@ const GRAPH_DATA = {
           "type": "equity_market",
           "context": "Primary equity benchmark. India underperforming global rally \u2014 Nifty +1.6% vs KOSPI +8.44%, S&P +2.9%. Three-layer problem persists. Bernstein range: 27,500 (rapid de-escalation) to 19,900 (full-year crisis).",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 19,
           "weight": 10
         },
@@ -5310,7 +5520,7 @@ const GRAPH_DATA = {
           "type": "fii_feedback_loop",
           "context": "Weak rupee \u2192 FIIs sell \u2192 Nifty falls \u2192 more rupee pressure. INR improving to 92.64 from 93.19 on Brent crash. NOP cap deadline April 10 creating mechanical INR buying pressure.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 13,
           "weight": 10
         },
@@ -5319,7 +5529,7 @@ const GRAPH_DATA = {
           "type": "cost_pressure",
           "context": "Oil spike \u2192 India macro deterioration \u2192 earnings downgrades \u2192 Nifty weakness. Brent crash to $101.97 easing pressure. ~65% of Nifty decline is crisis-driven (oil-dependent, reversible).",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 14,
           "weight": 10
         },
@@ -5328,7 +5538,7 @@ const GRAPH_DATA = {
           "type": "rate_sensitivity",
           "context": "RBI MPC April 6-8. Rate cuts needed for valuation support but RBI trapped by oil inflation. NOP cap deadline April 10. India 10Y at 7.00-7.04%. Bank Nifty recovering from NOP carnage.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 8,
           "weight": 10
         }
@@ -5363,8 +5573,8 @@ const GRAPH_DATA = {
       "name": "OPEC+",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "CONFIRMED: 206K bpd increase for May (same as April). Symbolic \u2014 <2% of ~17-20M bpd disrupted by Hormuz. OPEC+ warned 'restoring damaged energy assets is costly and takes time.' Retained 'full flexibility to increase, pause, or reverse.' PRE-COMMITTED to pump post-ceasefire \u2014 post-war oil unwind faster than market expects. During war: meaningless. After war: accelerates unwind.",
+      "last_updated": "2026-04-07",
+      "summary": "206K bpd for May confirmed \u2014 symbolic, <2% of disrupted supply. Paper-only: Yanbu bottleneck prevents physical delivery. Pre-positioning for post-war flood. Ceasefire = rapid supply restoration + OPEC+ pumping = faster oil price unwind than expected.",
       "signals": [
         {
           "date": "2026-03-01",
@@ -5425,6 +5635,16 @@ const GRAPH_DATA = {
             "The National"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "OPEC+ confirmed 206K bpd increase for May \u2014 same as April. Symbolic: <2% of ~17-20M bpd disrupted by Hormuz. Most barrels stranded behind closed/congested channels. Market reads this as READINESS signal to flood post-ceasefire, not current supply relief. Yanbu bypass overwhelmed: 32 tankers queued, port at 4M bpd vs 7M pipeline. Paper increases cannot translate to physical supply until Hormuz reopens. Post-war oil unwind expected FASTER than anticipated because OPEC+ pre-committed. (Sources: CNBC, Fortune, ENR)",
+          "sources": [
+            "CNBC",
+            "Fortune",
+            "ENR"
+          ],
+          "significance": "medium"
         }
       ],
       "edges": [
@@ -5433,7 +5653,7 @@ const GRAPH_DATA = {
           "type": "supply_management",
           "context": "OPEC+ controls ~40% of global oil production. 206K bpd increase for April but most barrels stranded behind Hormuz. Production increases meaningless without export routes. April 5 meeting decides May levels.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 6,
           "weight": 10
         },
@@ -5451,7 +5671,7 @@ const GRAPH_DATA = {
           "type": "export_dependency",
           "context": "Most OPEC Gulf production depends on Hormuz for export. Hormuz toll law passed Majlis \u2014 permanent selective control being legislated. Iraq and Kuwait involuntarily shutting production. Production increases moot while Hormuz disrupted.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 6,
           "weight": 10
         }
@@ -5622,8 +5842,8 @@ const GRAPH_DATA = {
       "name": "Qatar",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "DUAL VICTIM + MEDIATOR PARADOX: Qatar LNG still offline (Ras Laffan 5-year repair). Oman-Iran Hormuz transit talks reported (The National). OPEC+ approved 206K bpd for May but Qatar can't deliver through Hormuz. Qatar's role as mediator complicated by being both a strike target (AQUA 1 tanker, Ras Laffan) and maintaining Iran relations.",
+      "last_updated": "2026-04-07",
+      "summary": "SHARED-FIELD STRIKE PRECEDENT: Israeli strike on Iran's South Pars petrochemical plant directly affects shared South Pars/North Dome gas field \u2014 Iran side struck, Qatar side unaffected but precedent of striking shared resource infrastructure escalates risk for all Gulf producers. Gulf states publicly rejected Zarif's 'Beyond Ceasefire' roadmap \u2014 UAE's Gargash: 'ignores aggression against neighbors,' former Qatari PM warned Iran of 'loss of friends.' Qatar LNG still offline (Ras Laffan 5-year repair). Iran's 10-clause ceasefire counter-proposal includes Hormuz protocol.",
       "signals": [
         {
           "date": "2026-03-02",
@@ -5727,6 +5947,16 @@ const GRAPH_DATA = {
             "Al Jazeera"
           ],
           "significance": "medium"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Israeli strike on Iran's South Pars petrochemical plant directly affects shared South Pars/North Dome gas field \u2014 Iran side struck, Qatar side unaffected but the precedent of striking shared resource infrastructure escalates the risk calculus for all Gulf producers. Separately, former FM Zarif published 'Beyond Ceasefire' roadmap in Foreign Affairs (enrichment below 3.67%, regional fuel consortium, Hormuz-for-sanctions). Gulf states publicly rejected it \u2014 UAE's Gargash said it 'ignores aggression against neighbors,' former Qatari PM warned Iran of 'loss of friends.' Iran's 10-clause ceasefire counter-proposal includes Hormuz protocol. (Sources: Euronews, i24News, Al Jazeera)",
+          "sources": [
+            "Euronews",
+            "i24News",
+            "Al Jazeera"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -5735,8 +5965,8 @@ const GRAPH_DATA = {
           "type": "retaliation_target",
           "context": "Iran struck Ras Laffan (South Pars retaliation) AND now AQUA 1 tanker near Ras Laffan \u2014 3 cruise missiles, IRGC claimed. Iran gave Qatar advance notice, suggesting calculated escalation. Qatar expelled Iranian attaches after Ras Laffan but still positioning as mediator.",
           "directness": 1,
-          "last_activated": "2026-04-02",
-          "activation_count": 6,
+          "last_activated": "2026-04-07",
+          "activation_count": 7,
           "weight": 10
         },
         {
@@ -5786,8 +6016,8 @@ const GRAPH_DATA = {
       "name": "Reserve Bank of India",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "MPC DAY 1 UNDERWAY (April 6). Expected hold at 5.25%. Indian crude basket $120.84/bbl \u2014 above ALL forecast scenarios. CPI 3.21% but projected 4.5-5.1% for FY27. Oil/gas import dependency ~4.2% of GDP. NOP cap April 10 firm. Three sequential binaries: deadline (Apr 7), MPC decision (Apr 8), NOP (Apr 10). Governor Malhotra's tone on oil pass-through will be parsed word by word.",
+      "last_updated": "2026-04-07",
+      "summary": "MPC Day 2, decision April 8 \u2014 consensus HOLD at 5.25%. Trapped: oil $111 (inflation), INR \u20b993.04 (currency), growth slowing. NOP cap deadline April 10 \u2014 banks urging revisit, $30-40B unwinding. India 10Y at 7.05% (-5bps). Forex reserves depleted ~$698B from $728.49B. Without war, would be cutting. Saturday session April 11.",
       "signals": [
         {
           "date": "2026-03-04",
@@ -5928,6 +6158,16 @@ const GRAPH_DATA = {
             "RBI"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "MPC Day 2 underway, decision April 8 \u2014 consensus HOLD at 5.25% (69/71 Reuters poll economists). India 10Y GOI at 7.05% (-5bps) suggests market expects dovish hold with growth emphasis. RBI trapped: oil at $111 = inflation constraint, rupee at \u20b993.04 = currency constraint, growth slowing. FPI outflows \u20b91.31 lakh crore in 2026. NOP cap deadline April 10 \u2014 banks completing $30-40B dollar unwinding, urging RBI to revisit cap and flagging mark-to-market losses. Without the war, RBI would likely be cutting rates. Special Saturday trading session April 11 confirmed by NSE. Forex reserves depleted from $728.49B to ~$698B. (Sources: Business Standard, BusinessToday, Trading Economics, Reuters)",
+          "sources": [
+            "Business Standard",
+            "BusinessToday",
+            "Trading Economics"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -5936,7 +6176,7 @@ const GRAPH_DATA = {
           "type": "monetary_policy",
           "context": "RBI MPC April 6-8 \u2014 imported inflation vs growth dilemma. NOP cap deadline April 10 firm. Banks unwinding $30-40B with estimated MTM losses Rs 3,000-4,000 crore. India 10Y at 7.00-7.04%.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 13,
           "weight": 10.0
         },
@@ -5945,7 +6185,7 @@ const GRAPH_DATA = {
           "type": "intervention",
           "context": "NOP cap deadline April 10 firm. $30-40B positions need squaring \u2014 creating mechanical INR buying pressure. RBI MPC April 6-8. India 10Y at 7.00-7.04%.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 18,
           "weight": 10.0
         },
@@ -5954,7 +6194,7 @@ const GRAPH_DATA = {
           "type": "rate_expectations",
           "context": "RBI MPC April 6-8 \u2014 rate decision impacts equity valuations. NOP cap blowback: Bank Nifty -3.8% March 30, +2.3% April 1 recovery. MTM losses Rs 3,000-4,000 crore. India 10Y breached 7%.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 8,
           "weight": 10
         },
@@ -5963,7 +6203,7 @@ const GRAPH_DATA = {
           "type": "policy_constraint",
           "context": "Oil above $100 = inflation risk = RBI can't cut. Brent crash to $101.97 eases pressure but still above $100. CPI at 3.21% but imported inflation threatens to push higher. Oil is the binding constraint on monetary policy.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 11,
           "weight": 10
         }
@@ -6183,8 +6423,8 @@ const GRAPH_DATA = {
       "name": "Saudi Arabia",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "NO NEW STRIKES THIS CYCLE (positive): Saudi may be intercepting more effectively or Iran deprioritizing. Tadawul flat (+5.3% monthly) \u2014 benefiting from oil prices but capped by physical risk. Yanbu bypass still the ONLY functioning Gulf export route but crushed by diverted traffic (~40 VLCCs waiting). OPEC+ 206K approved \u2014 Saudi leading the symbolic increase.",
+      "last_updated": "2026-04-07",
+      "summary": "Yanbu congestion critical: 32 supertankers stacked, port throughput 4M bpd vs 7M pipeline \u2014 binding constraint. April allocations cut to customers. 'Bypass sized for short disruption. This is not that' (ENR). Tadawul +7.5% 1M on oil benefit. OPEC+ 206K bpd for May = paper-only.",
       "signals": [
         {
           "date": "2026-03-01",
@@ -6289,6 +6529,16 @@ const GRAPH_DATA = {
             "Epoch Times"
           ],
           "significance": "medium"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Yanbu congestion worsening: at least 32 supertankers stacked (up from 27). March handled 47 VLCC loadings \u2014 4x pre-war monthly average of 11-12. Port effective throughput ~4M bpd vs pipeline delivery of 7M bpd \u2014 port is binding constraint. Saudi informed long-term customers April allocations will be reduced. ENR: 'Hormuz bypass infrastructure was sized for a short disruption. This is not that.' Tadawul/TASI at 11,263 (-0.1%, +7.5% 1M) \u2014 Saudi equities benefiting from oil but constrained by bypass bottleneck. OPEC+ confirmed 206K bpd for May \u2014 symbolic, most barrels stranded behind Hormuz, cannot be delivered through congested bypass routes. (Sources: House of Saud, Fortune, New Arab, ENR)",
+          "sources": [
+            "House of Saud",
+            "Fortune",
+            "ENR"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -6297,7 +6547,7 @@ const GRAPH_DATA = {
           "type": "leader",
           "context": "OPEC's de facto leader and only member with significant spare capacity. Only Saudi can meaningfully increase production.",
           "directness": 1,
-          "last_activated": "2026-03-13",
+          "last_activated": "2026-04-07",
           "activation_count": 5,
           "weight": 8.0
         },
@@ -6306,7 +6556,7 @@ const GRAPH_DATA = {
           "type": "swing_producer",
           "context": "Saudi spare capacity is 3-5M bpd. Yanbu pipeline handling 4.2M bpd. Key source of supply offset.",
           "directness": 1,
-          "last_activated": "2026-03-22",
+          "last_activated": "2026-04-07",
           "activation_count": 8,
           "weight": 8.5
         },
@@ -6315,7 +6565,7 @@ const GRAPH_DATA = {
           "type": "bypass_infrastructure",
           "context": "East-West pipeline to Yanbu bypasses Hormuz for Saudi oil. Critical alternative export route.",
           "directness": 1,
-          "last_activated": "2026-03-22",
+          "last_activated": "2026-04-07",
           "activation_count": 8,
           "weight": 8.0
         },
@@ -6348,8 +6598,8 @@ const GRAPH_DATA = {
       "name": "Shipping / Tanker Rates",
       "type": "sector",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "Frontline +5.1% to $36.60. VLCC $45-55K/day (ME-China) \u2014 3-5x pre-crisis. War risk insurance 1%+ hull ($10-14M/voyage). NEW: $40B US DFC marine reinsurance facility announced (DFC + Chubb/AIG/Berkshire) \u2014 government backstopping Gulf shipping insurance. Hezbollah CLAIMS cruise missile hit on Israeli warship (unverified). Container Asia-Med +15% WoW to $3,850/FEU. 20,000 seafarers stranded.",
+      "last_updated": "2026-04-07",
+      "summary": "Hormuz transits at war-high: 21 ships/weekend (Bloomberg), but still 1/7 of pre-war 138/day. Yanbu 32 tankers queued \u2014 port bottleneck binding at 4M bpd vs 7M pipeline. Saudi cutting April allocations. VLCC rates moderated to ~$55K/day from $445K peak \u2014 structural repricing embedded. War risk insurance 1.5-3.0% hull ($10-14M/trip). Container freight Asia-Med +15%.",
       "signals": [
         {
           "date": "2026-03-03",
@@ -6504,6 +6754,18 @@ const GRAPH_DATA = {
             "Baltic Exchange"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Hormuz weekly transits hit war-high: 21 ships over April 5-6 weekend (Bloomberg Tracker). Yanbu congestion worsening: 32 supertankers stacked (up from 27). March handled 47 VLCC loadings \u2014 4x pre-war monthly average of 11-12. Port throughput ~4M bpd vs 7M bpd pipeline delivery \u2014 port is binding constraint. Saudi informed customers April allocations reduced. VLCC day rates moderated from March peak $445K/day to ~$55K/day MEG-China \u2014 chaos premium absorbed, stabilizing at elevated level. Frontline -0.3% despite oil +3.1% \u2014 structural repricing embedded (+59% 3M), daily moves now stable. Marine war risk insurance still 1.5-3.0% of hull value (US/UK/Israeli ships at 3%), $10-14M per VLCC trip. Container freight: Asia-Med +15%, Asia-USWC +8%. (Sources: Bloomberg Hormuz Tracker, House of Saud, Fortune, Seatrade Maritime, Freightos, Lloyd's List)",
+          "sources": [
+            "Bloomberg",
+            "Seatrade Maritime",
+            "Fortune",
+            "Freightos",
+            "Lloyd's List"
+          ],
+          "significance": "high"
         }
       ],
       "current": {
@@ -6519,7 +6781,7 @@ const GRAPH_DATA = {
           "type": "route_dependency",
           "context": "Hormuz closure + toll law = primary cause of rate disruption. AQUA 1 attack at Qatar waters + Al-Salmi at Dubai = Iran projecting force Gulf-wide. Lloyd's JWC redesignated entire Arabian Gulf as conflict zone. War risk insurance at 1%+ hull value. Tanker traffic collapsed 80%+.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 19,
           "weight": 10
         },
@@ -6528,7 +6790,7 @@ const GRAPH_DATA = {
           "type": "transport_cost",
           "context": "Higher shipping rates add $7/bbl to delivered cost. Frontline FLAT vs Brent -10.5% \u2014 shipping disruption more structural than oil premium. VLCC rates 3-5x pre-crisis. Insurance costs making Gulf transit uneconomic.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 12,
           "weight": 10
         },
@@ -6546,7 +6808,7 @@ const GRAPH_DATA = {
           "type": "second_chokepoint_risk",
           "context": "Day 34 zero confirmed Houthi Red Sea shipping attacks. Bab al-Mandeb in commercial closure via carrier withdrawal. Bloomberg: Iran pressing Houthis to resume but 'divisions within leadership.' Houthis told Lloyd's List 'no reason to prevent' Yanbu trade 'at present' \u2014 preserving shipping card as leverage. Washington and Riyadh told European allies they believe Houthis 'currently seek to avoid further escalation.'",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 7,
           "weight": 10
         }
@@ -6570,13 +6832,13 @@ const GRAPH_DATA = {
       "name": "South Korea",
       "type": "country",
       "created": "2026-03-28",
-      "last_updated": "2026-04-06",
-      "summary": "KOSPI -4.47% SHARP REVERSAL to 5,234 on April 3. Completely reversed April 2 foreign-buyer rally. Samsung -5.91%, SK Hynix -6.83%. Trump 'nearing completion but hit extremely hard next 2-3 weeks' rattled sentiment. TrendForce production cut window opens April 7-10. Helium supply stable through June (SemiMedia) but fabs still 50% allocations.",
+      "last_updated": "2026-04-07",
+      "summary": "KOSPI 5,458 (+0.1%), bouncing on ceasefire hopes. Inside TrendForce April 7-10 window \u2014 no production cut yet. ABSENCE of announcement = positive signal but inconclusive. 50% helium allocations continue. SK claims June inventory, TrendForce skeptical. IRGC tech company threats add uncertainty.",
       "current": {
-        "price": "KOSPI: 5,234 (Apr 3 close, after -4.47%)",
-        "delta_1d": "-4.47%",
-        "delta_1m": "-2.8%",
-        "delta_3m": "+20.0%"
+        "price": "KOSPI 5,458",
+        "delta_1d": "+0.1%",
+        "delta_1m": "+3.9%",
+        "delta_3m": "+19.9%"
       },
       "price_snapshots": [
         {
@@ -6736,6 +6998,17 @@ const GRAPH_DATA = {
             "TrendForce"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "KOSPI rebounded to 5,458 (+0.1% / +1.36% from last report) on ceasefire hopes, partially reversing -4.47% from prior cycle. Inside TrendForce April 7-10 production cut announcement window \u2014 no Samsung or SK Hynix formal cut as of filing. ABSENCE of announcement during window is itself data: either inventories deeper than feared or companies managing through 50% helium allocations without formal cuts. South Korea claims inventory through June but TrendForce does not endorse. Helium NE Asia spot $152.70/MCF (+50-100% from pre-crisis). IRGC threat to 18 Western tech companies and UAE Stargate adds new dimension to semiconductor supply uncertainty. (Sources: Trading Economics, TrendForce, Tom's Hardware, CNBC)",
+          "sources": [
+            "Trading Economics",
+            "TrendForce",
+            "Tom's Hardware",
+            "CNBC"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -6744,7 +7017,7 @@ const GRAPH_DATA = {
           "type": "supply_dependency",
           "context": "KOSPI surged +8.44% partly on helium relief (~15% of rally) \u2014 peace signal means Ras Laffan may resume. BUT fabs STILL on 50% helium allocations (confirmed rationing). Relief rally, not resolution.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 11,
           "weight": 10
         },
@@ -6786,14 +7059,13 @@ const GRAPH_DATA = {
       "name": "S&P 500",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "S&P futures at 6,604 (-0.28% pre-market). VIX at 23.87 \u2014 massively mispriced for Tuesday's binary (April 6 deadline extension). Oil-equity divergence at widest of war: WTI +11.9% while S&P +0.1%. Markets reopening Monday into the deadline extension. Down 4% YTD.",
+      "last_updated": "2026-04-07",
+      "summary": "6,612 (+0.4%). Four consecutive winning days on ceasefire HOPES \u2014 but ceasefire REJECTED. VIX 24.17 MASSIVELY MISPRICED for binary: should be 28-32. VIX below 30 = algo selling off = self-reinforcing equity bid. If deadline passes without deal, VIX 30+ triggers mechanical algo selling cascade. Defense budget $1.5T adding inflationary impulse. Market pricing optimistic side of binary.",
       "current": {
-        "price": "6,604 (futures)",
-        "delta_1d": "-0.28% (pre-market)",
-        "delta_1m": "-3.5%",
-        "delta_3m": "-4.1%",
-        "snapshot_note": "As of Apr 6 pre-market. VIX 23.87 pricing ZERO probability of Iran US base strike."
+        "price": "6,612",
+        "delta_1d": "+0.4%",
+        "delta_1m": "-3.2%",
+        "delta_3m": "-4.5%"
       },
       "price_snapshots": [
         {
@@ -6924,6 +7196,16 @@ const GRAPH_DATA = {
             "Cboe"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "S&P 500 at 6,612 (+0.4%), four consecutive winning days on ceasefire HOPES despite ceasefire being REJECTED. VIX at 24.17 (+1.3%) \u2014 MASSIVELY MISPRICED for Tuesday deadline binary. Expected VIX 28-32 given deadline imminence + rejection. Market pricing 'they'll figure it out' consensus. VIX below 30 = institutional algo selling OFF = self-reinforcing equity bid. IRGC credibility discount suppressing vol. IF deadline passes without deal, VIX spike to 30+ triggers mechanical algo selling cascade amplifying equity decline 2-3x. $1.5T FY2027 defense budget creates inflationary impulse (government spending) compounding oil-driven inflation \u2014 defense stocks now 4.2% of S&P. Lockheed Martin +2.4% to $637.90. (Sources: yfinance, CNBC, FinancialContent)",
+          "sources": [
+            "yfinance",
+            "CNBC",
+            "FinancialContent"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -6932,7 +7214,7 @@ const GRAPH_DATA = {
           "type": "equity_market",
           "context": "Primary US equity benchmark. Bond-equity divergence emerging \u2014 equities pricing de-escalation while bonds pricing recession. ISM stagflation signal (prices 78.3, employment contracting).",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 14,
           "weight": 10.0
         },
@@ -6941,7 +7223,7 @@ const GRAPH_DATA = {
           "type": "rate_sensitivity",
           "context": "Market pricing 52% probability of Fed HIKE by year-end. ISM stagflation signal (Prices 78.3, employment contracting) compounds Fed trap. Bond-equity divergence: yields fell on peace day while equities rallied.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 11,
           "weight": 10.0
         },
@@ -6950,7 +7232,7 @@ const GRAPH_DATA = {
           "type": "earnings_risk",
           "context": "Oil-equity divergence at widest of war. WTI +11.9% while S&P +0.1% \u2014 oil pricing escalation, equities pricing 2-3 week end. This split resolves violently in the April 5-8 window.",
           "directness": 1,
-          "last_activated": "2026-04-06",
+          "last_activated": "2026-04-07",
           "activation_count": 12,
           "weight": 10.0
         },
@@ -6983,8 +7265,8 @@ const GRAPH_DATA = {
       "name": "Strait of Hormuz",
       "type": "trade_route",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "DEADLINE EXTENDED to Tuesday April 7 8 PM ET. Iran IRGC threatened PERMANENT closure: 'will not be opened until destroyed power plants are rebuilt.' Oman-Iran transit talks REPORTED (separate track). 45-day ceasefire includes Hormuz as primary bargaining chip. Toll law still awaiting Guardian Council review. IRGC toll continues (~$2M/transit, yuan). 95% reduction persists.",
+      "last_updated": "2026-04-07",
+      "summary": "Day 39. Weekly transits hit war-high: 21 ships over weekend (Bloomberg). Selective opening widening \u2014 Iraq, India, France now permitted. But 21/weekend still ~1/7 of pre-war daily 138. IRGC declared 'New Persian Gulf Order' \u2014 Hormuz will 'never return to its former state.' Iran's ceasefire counter-proposal includes Hormuz protocol (not unconditional reopening). Gulf states demand Hormuz freedom as 'non-negotiable.' Trump's Tuesday 8 PM ET deadline is TODAY. Structural impediment: Iran says permanent control, Gulf says non-negotiable freedom.",
       "signals": [
         {
           "date": "2026-03-05",
@@ -7205,25 +7487,37 @@ const GRAPH_DATA = {
             "Axios"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Bloomberg Hormuz Tracker: weekly transits hit highest since war began \u2014 21 ships over April 5-6 weekend (13 outbound, 8 inbound). Iraqi crude tanker transited after Iran granted 'brotherly Iraq' exemption. Eight Indian LPG tankers now through. First Western-flagged vessel (French-owned) permitted April 3. Permitted nations: China, Russia, India, Iraq, Pakistan, Malaysia, Thailand, Philippines, select Western on case-by-case. HOWEVER 21/weekend is still ~1/7 of pre-war daily 138. IRGC 'New Persian Gulf Order' classifies countries as hostile/neutral/friendly \u2014 selective opening widening but tightly controlled. IRGC Navy: Hormuz will 'never return to its former state.' Iran's 10-clause ceasefire counter-proposal includes Hormuz protocol (not unconditional reopening). Tuesday deadline is TODAY. (Sources: Bloomberg Hormuz Tracker, Energy Connects, Seatrade Maritime, Al Jazeera, PressTV)",
+          "sources": [
+            "Bloomberg",
+            "Energy Connects",
+            "Seatrade Maritime",
+            "Al Jazeera",
+            "PressTV"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
         {
           "to": "iran",
           "type": "territorial_control",
-          "context": "Iran controls northern shore. IRGC Navy enforcing closure with naval mines, missile threats, and drone patrols. Hormuz toll law passed FULL Majlis \u2014 codifies permanent selective control, transit fees in rials, bans US/Israel-linked vessels. GCC condemned. Iran legislating permanent sovereignty over Strait regardless of ceasefire.",
+          "context": "Iran controls northern shore. IRGC Navy enforcing closure with naval mines, missile threats, and drone patrols. Hormuz toll law passed FULL Majlis \u2014 codifies permanent selective control, transit fees in rials, bans US/Israel-linked vessels. GCC condemned. IRGC declared 'New Persian Gulf Order' \u2014 Hormuz will 'never return to its former state.' Iran's ceasefire counter-proposal includes Hormuz protocol (not unconditional reopening).",
           "directness": 1,
-          "last_activated": "2026-04-02",
-          "activation_count": 18,
+          "last_activated": "2026-04-07",
+          "activation_count": 19,
           "weight": 10
         },
         {
           "to": "brent-crude",
           "type": "supply_chokepoint",
-          "context": "~20% of global oil transits Hormuz. Closure removed this from market. Structural decoupling confirmed. Toll law codifies permanent selective control. War risk insurance at 1%+ hull value making transit uneconomic. ~40 VLCCs waiting 5 days at Yanbu. Oil floor structurally elevated.",
+          "context": "~20% of global oil transits Hormuz. Closure removed this from market. Structural decoupling confirmed. Toll law codifies permanent selective control. War risk insurance at 1%+ hull value making transit uneconomic. ~40 VLCCs waiting 5 days at Yanbu. Oil floor structurally elevated. Weekly transits at war-high but still ~1/7 of pre-war baseline.",
           "directness": 1,
-          "last_activated": "2026-04-02",
-          "activation_count": 20,
+          "last_activated": "2026-04-07",
+          "activation_count": 21,
           "weight": 10
         },
         {
@@ -7238,19 +7532,19 @@ const GRAPH_DATA = {
         {
           "to": "shipping-tankers",
           "type": "route_disruption",
-          "context": "Hormuz tanker traffic collapsed 80%+. War risk insurance at 1%+ hull value ($10-14M/voyage). Lloyd's JWC redesignated entire Arabian Gulf as conflict zone. Attack pattern expanding: Hormuz \u2192 Dubai (Al-Salmi) \u2192 Qatar waters (AQUA 1). ~40 VLCCs anchored outside Yanbu with 5-day waits.",
+          "context": "Hormuz tanker traffic collapsed 80%+. War risk insurance at 1%+ hull value ($10-14M/voyage). Lloyd's JWC redesignated entire Arabian Gulf as conflict zone. Attack pattern expanding: Hormuz \u2192 Dubai (Al-Salmi) \u2192 Qatar waters (AQUA 1). ~40 VLCCs anchored outside Yanbu with 5-day waits. Weekly transits hit war-high 21 ships over weekend but still ~1/7 of pre-war daily 138.",
           "directness": 1,
-          "last_activated": "2026-04-02",
-          "activation_count": 18,
+          "last_activated": "2026-04-07",
+          "activation_count": 19,
           "weight": 10
         },
         {
           "to": "india",
           "type": "supply_dependency",
-          "context": "50% of India's crude imports transit Hormuz. Also India's LPG imports (~91% from Gulf), fertilizer raw materials. Closure directly threatens India's energy and food security.",
+          "context": "50% of India's crude imports transit Hormuz. Also India's LPG imports (~91% from Gulf), fertilizer raw materials. Closure directly threatens India's energy and food security. Eight Indian LPG tankers now permitted through Hormuz.",
           "directness": 1,
-          "last_activated": "2026-04-02",
-          "activation_count": 12,
+          "last_activated": "2026-04-07",
+          "activation_count": 13,
           "weight": 10
         },
         {
@@ -7672,8 +7966,8 @@ const GRAPH_DATA = {
       "name": "United Arab Emirates",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "BOROUGE $60B PLANT SHUT DOWN from interception debris (CONFIRMED). Paradox: successful air defense = economic damage. 498+ BMs, 2,141+ drones, 23+ CMs intercepted. Ruwais Industrial Complex fires despite 100% interception rate. Khor Fakkan port 4 injured. UAE still 'most hawkish' Gulf ally (WaPo). Al-Salmi + EGA damage ongoing.",
+      "last_updated": "2026-04-07",
+      "summary": "DOMESTIC FUEL INFLATION HITS: Petrol +31% (Super 98 Dh2.59 to Dh3.39), diesel +72% (Dh2.72 to Dh4.69) for April. Government announced inflation allowance grants up to Dh900 for families. First time war's energy price impact translated into consumer-facing inflation in a Gulf PRODUCER state. Paradox: oil exporter whose domestic fuel prices rise from war disruption. Gargash: Hormuz freedom 'non-negotiable' \u2014 strongest UAE positioning of war. IRGC designated 18 Western tech companies as 'legitimate targets,' threatened $500B Stargate AI project. Borouge $60B plant still shut from interception debris.",
       "signals": [
         {
           "date": "2026-02-28",
@@ -7768,34 +8062,44 @@ const GRAPH_DATA = {
             "Abu Dhabi Media Office"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "UAE domestic war impact materializing: petrol prices jumped ~31% for April (Super 98 from Dh2.59 to Dh3.39/litre), diesel surged 72% (Dh2.72 to Dh4.69). Government announced inflation allowance grants up to Dh900 for families. First time war's energy price impact translated into consumer-facing inflation in a Gulf producer state. Paradox: UAE is an oil exporter whose domestic fuel prices are rising because of war disruption to refining and distribution. Gargash used 'non-negotiable' language on Hormuz freedom \u2014 strongest UAE positioning of the war. IRGC designated 18 Western tech companies as 'legitimate targets' and threatened UAE's $500B Stargate AI project. (Sources: Khaleej Times, CNBC, Al Jazeera)",
+          "sources": [
+            "Khaleej Times",
+            "CNBC",
+            "Al Jazeera"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
         {
           "to": "iran",
           "type": "retaliation_target",
-          "context": "'Most hawkish' Gulf ally pushing ground invasion despite being most directly damaged (WaPo). Al-Salmi VLCC attacked at Dubai Port (March 31) \u2014 neutral vessel in UAE waters. ADNOC Ruwais shut, EGA struck, Dubai airport/consulate hit. MBZ calculates long-term strategic gain outweighs short-term pain.",
+          "context": "'Most hawkish' Gulf ally pushing ground invasion despite being most directly damaged (WaPo). Al-Salmi VLCC attacked at Dubai Port (March 31) \u2014 neutral vessel in UAE waters. ADNOC Ruwais shut, EGA struck, Dubai airport/consulate hit. MBZ calculates long-term strategic gain outweighs short-term pain. IRGC designated 18 Western tech companies as 'legitimate targets,' threatened $500B Stargate AI project.",
           "directness": 1,
-          "last_activated": "2026-04-01",
-          "activation_count": 14,
+          "last_activated": "2026-04-07",
+          "activation_count": 15,
           "weight": 10.0
         },
         {
           "to": "brent-crude",
           "type": "production_disruption",
-          "context": "ADNOC refinery shutdown (922K bpd) directly reduced supply. UAE pipeline bypass partially offsetting Hormuz closure.",
+          "context": "ADNOC refinery shutdown (922K bpd) directly reduced supply. UAE pipeline bypass partially offsetting Hormuz closure. Domestic fuel prices surging (+31% petrol, +72% diesel) from war disruption.",
           "directness": 1,
-          "last_activated": "2026-03-17",
-          "activation_count": 8,
+          "last_activated": "2026-04-07",
+          "activation_count": 9,
           "weight": 8.0
         },
         {
           "to": "strait-of-hormuz",
           "type": "bypass_infrastructure",
-          "context": "Abu Dhabi Crude Oil Pipeline to Fujairah bypasses Hormuz. But Fujairah itself was attacked, showing bypass not fully secure.",
+          "context": "Abu Dhabi Crude Oil Pipeline to Fujairah bypasses Hormuz. But Fujairah itself was attacked, showing bypass not fully secure. Gargash: Hormuz freedom 'non-negotiable' \u2014 strongest UAE positioning of war.",
           "directness": 1,
-          "last_activated": "2026-03-17",
-          "activation_count": 5,
+          "last_activated": "2026-04-07",
+          "activation_count": 6,
           "weight": 7.0
         }
       ],
@@ -7818,8 +8122,8 @@ const GRAPH_DATA = {
       "name": "United States",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "Day 38. DEADLINE EXTENDED 20 HOURS to Tuesday April 7 8 PM ET (CONFIRMED). 3rd extension from original March 21 deadline \u2014 pattern: 48hr\u21925d\u219210d\u219220hr. Window COMPRESSING. 45-day ceasefire framework REPORTED (Axios) \u2014 mediators assess 'slim' chances. Trump: 'Power Plant Day, Bridge Day' rhetoric at maximum. 13 KIA, 365 WIA. Diplomatic back-channels active (Witkoff-Araghchi texts) but zero public breakthroughs.",
+      "last_updated": "2026-04-07",
+      "summary": "Day 39. Tuesday April 7 8 PM ET deadline is TODAY \u2014 Trump's most operationally specific threat: 'every bridge decimated, every power plant out of business.' Hegseth: 'most intense day of strikes since Day One.' Iran rejected 45-day 'Islamabad Accord,' submitted 10-clause counter \u2014 Trump hedged: 'not good enough, but significant step.' $1.5T FY2027 defense budget \u2014 F-35s doubled, Golden Dome $25B, PSM quadrupled. Israel struck South Pars + Mahshahr petrochemical complexes. March CPI forecast 3.4% (JPM) \u2014 stagflation intensifying. Mediators say chances 'slim.'",
       "signals": [
         {
           "date": "2026-02-28",
@@ -8156,6 +8460,21 @@ const GRAPH_DATA = {
             "Pravda USA"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "Trump's Tuesday April 7 8 PM ET deadline is TODAY \u2014 most operationally specific threat of the war: 'Every bridge in Iran will be decimated by 12 o'clock tomorrow night, every power plant out of business, burning, exploding.' Defense Secretary Hegseth announced Tuesday will see 'most intense day of strikes since Day One' \u2014 first time Pentagon pre-announced escalation. Iran rejected ceasefire, submitted 10-clause counter-proposal. Trump called Iran's response 'not good enough, but a very significant step' \u2014 deliberate hedging keeping door cracked. $1.5 trillion FY2027 defense budget unveiled \u2014 largest in history. F-35 orders doubled to 85 units, $25B Golden Dome missile defense, Precision Strike Missile quadrupled. Israel struck South Pars and Mahshahr petrochemical complexes. JP Morgan forecasts March CPI jumping from 2.4% to 3.4% YoY. March NFP +178K vs +60K expected \u2014 strong jobs but ISM Employment contracting (late-cycle signal). (Sources: NBC News, Al Jazeera, Axios, PBS, CNBC, CNN, Fox News, FinancialJuice)",
+          "sources": [
+            "NBC News",
+            "Al Jazeera",
+            "Axios",
+            "PBS",
+            "CNBC",
+            "CNN",
+            "Fox News",
+            "FinancialJuice"
+          ],
+          "significance": "high"
         }
       ],
       "edges": [
@@ -8164,8 +8483,8 @@ const GRAPH_DATA = {
           "type": "active_conflict",
           "context": "Day 38. Deadline EXTENDED 20 hours to Tuesday April 7 8 PM ET. 45-day ceasefire framework REPORTED (Axios) but mediators say 'slim.' Trump rhetoric at maximum ('Power Plant Day') but action = extension, not strikes. 13 KIA, 365 WIA. 82nd Airborne + MEUs in theater. Witkoff-Araghchi direct text messages confirmed. Extensions compressing \u2014 diplomatic runway shrinking.",
           "directness": 1,
-          "last_activated": "2026-04-05",
-          "activation_count": 30,
+          "last_activated": "2026-04-07",
+          "activation_count": 31,
           "weight": 10.0
         },
         {
@@ -8173,8 +8492,8 @@ const GRAPH_DATA = {
           "type": "military_alliance",
           "context": "Joint operations since Feb 28. F-15E loss may complicate joint air operations over Iran. IDF 'decisive phase' declared. Trump's 48-hour ultimatum + April 6 deadline = potential synchronized escalation with Israeli strikes.",
           "directness": 1,
-          "last_activated": "2026-04-05",
-          "activation_count": 21,
+          "last_activated": "2026-04-07",
+          "activation_count": 22,
           "weight": 10.0
         },
         {
@@ -8191,7 +8510,7 @@ const GRAPH_DATA = {
           "type": "supply_intervention",
           "context": "Deadline EXTENDED to Tuesday April 7 8 PM ET. Brent futures at $109.03. OPEC+ 206K bpd increase for May = symbolic, <2% of disrupted supply. If Tuesday deadline expires, Brent spikes $115-120+. Extension itself is mildly bearish for oil (delay of strikes). SPR at 243M barrels (1984 low).",
           "directness": 1,
-          "last_activated": "2026-04-05",
+          "last_activated": "2026-04-07",
           "activation_count": 17,
           "weight": 10.0
         },
@@ -8261,14 +8580,13 @@ const GRAPH_DATA = {
       "name": "US 10-Year Treasury Yield",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-04-06",
-      "summary": "INFLATION-TO-RECESSION SHIFT: 10Y at 4.31% (-0.1% 1D) \u2014 yields falling despite oil at $109 suggests growth concerns overtaking inflation fears. 2Y at 3.61%, 2-10 spread at 70bps. ISM Prices 78.3 (highest since June 2022). April 10 CPI is the next binary \u2014 if hot, yields reverse higher and gold faces real-yield competition.",
+      "last_updated": "2026-04-07",
+      "summary": "4.34%. Late-cycle divergence: NFP +178K strong but ISM Employment contracting. JPM March CPI 3.4% forecast. April 10 CPI is next binary \u2014 yields break higher on inflation or fall on recession fears. Real yield competition constraining gold. DXY above 100 supported by yield differential.",
       "current": {
-        "price": "4.32%",
-        "delta_1d": "+0.2%",
-        "delta_1m": "+6.5%",
-        "delta_3m": "+3.2%",
-        "snapshot_note": "As of Apr 2 post-address \u2014 barely moved despite dramatic price action elsewhere"
+        "price": "4.34%",
+        "delta_1d": "+0.5%",
+        "delta_1m": "+4.6%",
+        "delta_3m": "+3.7%"
       },
       "signals": [
         {
@@ -8352,6 +8670,15 @@ const GRAPH_DATA = {
             "markets.md"
           ],
           "significance": "high"
+        },
+        {
+          "date": "2026-04-07",
+          "content": "US 10Y yield at 4.34% (+0.5% 1D, +4.6% 1M). Real yield competition constraining gold at 4.34%. March NFP +178K vs +60K expected \u2014 strong jobs but ISM Employment contracting = late-cycle divergence. JPM March CPI forecast: 3.4% YoY. April 10 CPI print will test whether yields break higher on inflation or fall on recession fears. US 2Y at 3.62%. Yield curve dynamics complex: strong jobs supports higher yields, but ISM contraction and war risk pull toward lower yields. DXY above 100 (100.12) supported by yield differential. (Sources: yfinance, FinancialJuice)",
+          "sources": [
+            "yfinance",
+            "FinancialJuice"
+          ],
+          "significance": "medium"
         }
       ],
       "edges": [
@@ -8360,7 +8687,7 @@ const GRAPH_DATA = {
           "type": "rate_expectations",
           "context": "10Y fell to 4.30% \u2014 yields dropping for second consecutive peace-signal session, now clearly pricing recession over inflation. ISM Prices 78.3 with employment contracting = stagflation trap. 52% hike probability. Fed completely paralyzed.",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 11,
           "weight": 10.0
         },
@@ -8369,7 +8696,7 @@ const GRAPH_DATA = {
           "type": "discount_rate",
           "context": "Bond-equity divergence: 10Y fell -2bps while S&P rallied +2.9% then gave back -0.52%. Bonds pricing recession, equities pricing de-escalation. When they disagree, bonds usually right. VIX at 24.51 (two sessions below 30).",
           "directness": 1,
-          "last_activated": "2026-04-02",
+          "last_activated": "2026-04-07",
           "activation_count": 11,
           "weight": 10.0
         },
@@ -8399,63 +8726,63 @@ const GRAPH_DATA = {
     }
   },
   "edges": {
-    "last_updated": "2026-04-02",
+    "last_updated": "2026-04-07",
     "edges": [
       {
         "from": "bahrain",
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "bahrain",
         "to": "united-states",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "brent-crude",
         "to": "strait-of-hormuz",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "brent-crude",
         "to": "india",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "brent-crude",
         "to": "inr-usd",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "brent-crude",
         "to": "fed",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "brent-crude",
         "to": "sp-500",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "brent-crude",
         "to": "opec-plus",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "brent-crude",
@@ -8469,7 +8796,7 @@ const GRAPH_DATA = {
         "to": "rbi",
         "weight": 10.0,
         "directness": 2,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "china",
@@ -8497,168 +8824,168 @@ const GRAPH_DATA = {
         "to": "us-10y-yield",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "fed",
         "to": "sp-500",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "fed",
         "to": "gold",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "fed",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "fed",
         "to": "united-states",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "fertilizer-urea",
         "to": "natural-gas-lng",
         "weight": 9.5,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "fertilizer-urea",
         "to": "qatar",
         "weight": 9.5,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "fertilizer-urea",
         "to": "india",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "gold",
         "to": "fed",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "gold",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 2,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "helium",
         "to": "qatar",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "helium",
         "to": "sp-500",
         "weight": 10.0,
         "directness": 2,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "hezbollah",
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "hezbollah",
         "to": "israel",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "hezbollah",
         "to": "lebanon",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "houthis",
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "houthis",
         "to": "shipping-tankers",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "houthis",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "houthis",
         "to": "israel",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-01"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "india",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "india",
         "to": "inr-usd",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "india",
         "to": "rbi",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "india",
         "to": "nifty-50",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "india",
         "to": "strait-of-hormuz",
         "weight": 9.2,
         "directness": 1,
-        "last_activated": "2026-03-29"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "india",
@@ -8679,84 +9006,84 @@ const GRAPH_DATA = {
         "to": "india",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "inr-usd",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "inr-usd",
         "to": "rbi",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "inr-usd",
         "to": "nifty-50",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "iran",
         "to": "strait-of-hormuz",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "iran",
         "to": "israel",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "iran",
         "to": "united-states",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "iran",
         "to": "hezbollah",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "iran",
         "to": "uae",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-01"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "iran",
         "to": "qatar",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "iran",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "iran",
         "to": "houthis",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "iran",
@@ -8798,70 +9125,70 @@ const GRAPH_DATA = {
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "israel",
         "to": "houthis",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-01"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "israel",
         "to": "united-states",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "israel",
         "to": "lebanon",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "israel",
         "to": "hezbollah",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "kuwait",
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "kuwait",
         "to": "brent-crude",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "lebanon",
         "to": "hezbollah",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "lebanon",
         "to": "israel",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "mojtaba-khamenei",
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "mojtaba-khamenei",
@@ -8875,14 +9202,14 @@ const GRAPH_DATA = {
         "to": "qatar",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "natural-gas-lng",
         "to": "strait-of-hormuz",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "natural-gas-lng",
@@ -8896,7 +9223,7 @@ const GRAPH_DATA = {
         "to": "fertilizer-urea",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "natural-gas-lng",
@@ -8910,35 +9237,35 @@ const GRAPH_DATA = {
         "to": "india",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "nifty-50",
         "to": "inr-usd",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "nifty-50",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "nifty-50",
         "to": "rbi",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "opec-plus",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "opec-plus",
@@ -8952,63 +9279,63 @@ const GRAPH_DATA = {
         "to": "strait-of-hormuz",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "qatar",
         "to": "iran",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "qatar",
         "to": "natural-gas-lng",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "qatar",
         "to": "helium",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "qatar",
         "to": "fertilizer-urea",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "rbi",
         "to": "india",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "rbi",
         "to": "inr-usd",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "rbi",
         "to": "nifty-50",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "rbi",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "russia",
@@ -9036,42 +9363,42 @@ const GRAPH_DATA = {
         "to": "opec-plus",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-13"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "saudi-arabia",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "saudi-arabia",
         "to": "strait-of-hormuz",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-22"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "saudi-arabia",
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "shipping-tankers",
         "to": "strait-of-hormuz",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "shipping-tankers",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "shipping-tankers",
@@ -9085,154 +9412,154 @@ const GRAPH_DATA = {
         "to": "houthis",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "sp-500",
         "to": "united-states",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "sp-500",
         "to": "fed",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "sp-500",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "sp-500",
         "to": "helium",
         "weight": 10.0,
         "directness": 2,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "strait-of-hormuz",
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "strait-of-hormuz",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "strait-of-hormuz",
         "to": "natural-gas-lng",
         "weight": 9.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "strait-of-hormuz",
         "to": "shipping-tankers",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "strait-of-hormuz",
         "to": "india",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "strait-of-hormuz",
         "to": "iraq",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-03-20"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "strait-of-hormuz",
         "to": "saudi-arabia",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-22"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "uae",
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "uae",
         "to": "brent-crude",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-03-17"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "uae",
         "to": "strait-of-hormuz",
         "weight": 7.0,
         "directness": 1,
-        "last_activated": "2026-03-17"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "united-states",
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "united-states",
         "to": "israel",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "united-states",
         "to": "fed",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "united-states",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "united-states",
         "to": "sp-500",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "us-10y-yield",
         "to": "fed",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "us-10y-yield",
         "to": "sp-500",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "us-10y-yield",
@@ -9246,14 +9573,14 @@ const GRAPH_DATA = {
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "irgc",
         "to": "strait-of-hormuz",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "irgc",
@@ -9274,35 +9601,35 @@ const GRAPH_DATA = {
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "irgc",
         "to": "israel",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "south-korea",
         "to": "helium",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "south-korea",
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "south-korea",
         "to": "strait-of-hormuz",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "taiwan",
@@ -9330,7 +9657,7 @@ const GRAPH_DATA = {
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "ecb",
@@ -9344,49 +9671,49 @@ const GRAPH_DATA = {
         "to": "european-ttf-gas",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "european-ttf-gas",
         "to": "qatar",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "european-ttf-gas",
         "to": "natural-gas-lng",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "european-ttf-gas",
         "to": "fertilizer-urea",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "european-ttf-gas",
         "to": "ecb",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "red-sea",
         "to": "houthis",
         "weight": 7.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "red-sea",
         "to": "shipping-tankers",
         "weight": 6.5,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "red-sea",
@@ -9428,28 +9755,28 @@ const GRAPH_DATA = {
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "energy-sector",
         "to": "sp-500",
         "weight": 8.5,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "defense-sector",
         "to": "united-states",
         "weight": 8.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "defense-sector",
         "to": "sp-500",
         "weight": 7.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "indian-it",
@@ -9484,14 +9811,14 @@ const GRAPH_DATA = {
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "pakistan",
         "to": "united-states",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "pakistan",
@@ -9512,49 +9839,49 @@ const GRAPH_DATA = {
         "to": "brent-crude",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "trump",
         "to": "iran",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "trump",
         "to": "united-states",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "trump",
         "to": "strait-of-hormuz",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "trump",
         "to": "israel",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "trump",
         "to": "sp-500",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "trump",
         "to": "pakistan",
         "weight": 10.0,
         "directness": 1,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "aluminum",
@@ -9589,22 +9916,22 @@ const GRAPH_DATA = {
         "to": "strait-of-hormuz",
         "weight": 7.5,
         "directness": 1,
-        "last_activated": "2026-03-31"
+        "last_activated": "2026-04-07"
       },
       {
         "from": "iran",
         "to": "sp-500",
         "weight": 6.0,
         "directness": 2,
-        "last_activated": "2026-04-02"
+        "last_activated": "2026-04-07"
       }
     ]
   },
   "meta": {
-    "last_updated": "2026-04-06",
+    "last_updated": "2026-04-07",
     "total_nodes": 43,
     "total_edges": 173,
-    "briefs_generated": 13,
+    "briefs_generated": 14,
     "node_types": {
       "country": 16,
       "commodity": 7,

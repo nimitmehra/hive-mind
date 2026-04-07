@@ -3,8 +3,8 @@
   "name": "Reserve Bank of India",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-06",
-  "summary": "MPC DAY 1 UNDERWAY (April 6). Expected hold at 5.25%. Indian crude basket $120.84/bbl — above ALL forecast scenarios. CPI 3.21% but projected 4.5-5.1% for FY27. Oil/gas import dependency ~4.2% of GDP. NOP cap April 10 firm. Three sequential binaries: deadline (Apr 7), MPC decision (Apr 8), NOP (Apr 10). Governor Malhotra's tone on oil pass-through will be parsed word by word.",
+  "last_updated": "2026-04-07",
+  "summary": "MPC Day 2, decision April 8 — consensus HOLD at 5.25%. Trapped: oil $111 (inflation), INR ₹93.04 (currency), growth slowing. NOP cap deadline April 10 — banks urging revisit, $30-40B unwinding. India 10Y at 7.05% (-5bps). Forex reserves depleted ~$698B from $728.49B. Without war, would be cutting. Saturday session April 11.",
   "signals": [
     {
       "date": "2026-03-04",
@@ -135,6 +135,12 @@
       "content": "MPC DAY 1: Six-member committee headed by Governor Sanjay Malhotra convened April 6. Decision announcement April 8. Consensus: HOLD at 5.25% repo rate. Key projections: CareEdge GDP 6.7%, CPI 4.5-4.7% (if crude $90 — it's now $121). Bank of Baroda GDP 7-7.2% (20-25bp Iran war impact), CPI +50bp upside. Indian crude basket $120.84/bbl in April — well above all forecast scenarios. BusinessToday: 'West Asia war expected to weigh heavily due to surging inflation.' Policy Circle: 'growth-inflation trade-off.' El Nino conditions may weaken monsoons, adding food price risk atop oil inflation. NOP cap April 10 deadline unchanged. India 10Y at 7.11-7.13%. THREE sequential binary events this week for Indian markets.",
       "sources": ["BusinessToday", "Policy Circle", "Business Standard", "Bloomberg", "RBI"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "MPC Day 2 underway, decision April 8 — consensus HOLD at 5.25% (69/71 Reuters poll economists). India 10Y GOI at 7.05% (-5bps) suggests market expects dovish hold with growth emphasis. RBI trapped: oil at $111 = inflation constraint, rupee at ₹93.04 = currency constraint, growth slowing. FPI outflows ₹1.31 lakh crore in 2026. NOP cap deadline April 10 — banks completing $30-40B dollar unwinding, urging RBI to revisit cap and flagging mark-to-market losses. Without the war, RBI would likely be cutting rates. Special Saturday trading session April 11 confirmed by NSE. Forex reserves depleted from $728.49B to ~$698B. (Sources: Business Standard, BusinessToday, Trading Economics, Reuters)",
+      "sources": ["Business Standard", "BusinessToday", "Trading Economics"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -143,7 +149,7 @@
       "type": "monetary_policy",
       "context": "RBI MPC April 6-8 — imported inflation vs growth dilemma. NOP cap deadline April 10 firm. Banks unwinding $30-40B with estimated MTM losses Rs 3,000-4,000 crore. India 10Y at 7.00-7.04%.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 13,
       "weight": 10.0
     },
@@ -152,7 +158,7 @@
       "type": "intervention",
       "context": "NOP cap deadline April 10 firm. $30-40B positions need squaring — creating mechanical INR buying pressure. RBI MPC April 6-8. India 10Y at 7.00-7.04%.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 18,
       "weight": 10.0
     },
@@ -161,7 +167,7 @@
       "type": "rate_expectations",
       "context": "RBI MPC April 6-8 — rate decision impacts equity valuations. NOP cap blowback: Bank Nifty -3.8% March 30, +2.3% April 1 recovery. MTM losses Rs 3,000-4,000 crore. India 10Y breached 7%.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 8,
       "weight": 10
     },
@@ -170,7 +176,7 @@
       "type": "policy_constraint",
       "context": "Oil above $100 = inflation risk = RBI can't cut. Brent crash to $101.97 eases pressure but still above $100. CPI at 3.21% but imported inflation threatens to push higher. Oil is the binding constraint on monetary policy.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 11,
       "weight": 10
     }

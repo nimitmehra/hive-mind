@@ -3,14 +3,13 @@
   "name": "Natural Gas / LNG",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-06",
-  "summary": "TTF EUR 49.98/MWh (-0.6% 1D but +50% WoW). Qatar LNG still offline (Ras Laffan). US LNG filling gap — Cheniere +12.9% monthly, +41.9% 3M. Henry Hub $2.81 (flat) — US domestic decoupled from international prices. ECB raised 2026 inflation forecast to 2.6% driven by energy. TTF is the transmission mechanism for ECB policy.",
+  "last_updated": "2026-04-07",
+  "summary": "Henry Hub $2.79 (-16.6% 3M) vs TTF €49.95 (+60% 3M) — maximum divergence. US domestic gas disconnected from global crisis. LNG export capacity maxed out. Cheniere +45.3% 3M on export premium. South Pars strike on shared field raises Qatar North Dome precedent risk.",
   "current": {
-    "price": "TTF EUR 47.51/MWh; Henry Hub $2.87/MMBtu",
-    "delta_1d": "TTF -6.4%; HH -0.6%",
-    "delta_1m": "HH -6.2%",
-    "delta_3m": "+85% est. (TTF from pre-crisis)",
-    "snapshot_note": "As of Apr 2. Henry Hub decoupled from TTF \u2014 US has abundant domestic supply, LNG export terminals at capacity."
+    "price": "$2.79/MMBtu (Henry Hub); TTF €49.95/MWh",
+    "delta_1d": "-0.2% (HH)",
+    "delta_1m": "-7.0% (HH); +15-20% est. (TTF)",
+    "delta_3m": "-16.6% (HH); +60% est. (TTF)"
   },
   "price_snapshots": [
     {
@@ -120,6 +119,12 @@
       "content": "European TTF gas at EUR 49.98/MWh (-0.6% 1D but +50% WoW). Qatar LNG still offline — Ras Laffan 5-year repair timeline unchanged. US LNG filling the gap: Cheniere Energy +12.9% monthly, +41.9% 3M ($281.16). Henry Hub at $2.81/MMBtu (flat) — US domestic market completely decoupled from international prices due to abundant domestic supply and LNG export terminal capacity constraints. ECB raised 2026 inflation forecast to 2.6% driven by energy — TTF is the transmission mechanism for ECB policy decisions. EU storage still at ~30% (five-year seasonal low). China banned urea exports until August, tightening the natural gas-to-fertilizer cascade further. OPEC+ 206K bpd increase is symbolic — cannot meaningfully offset LNG supply loss from Qatar. The structural deficit is unchanged: even if ceasefire arrives, Qatar's 17% capacity is destroyed for 5 years.",
       "sources": ["TradingEconomics", "yfinance", "ECB", "markets.md"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "Henry Hub $2.79/MMBtu (-0.2%, -7.0% 1M, -16.6% 3M) — flat/falling despite global energy disruption because US natural gas is a DOMESTIC market with limited export infrastructure. LNG export terminals at capacity — US gas can't reach international market fast enough. European TTF at €49.95 reflects the crisis, Henry Hub does not. Henry Hub/TTF divergence widening — US gas producers benefit from LNG export premium (Cheniere +45.3% 3M, +13.8% 1M) but domestic spot doesn't move. Israel's South Pars strike is significant — Iran's largest petrochemical plant linked to shared South Pars/North Dome gas field. Qatar's North Dome operations unaffected but precedent of striking shared resource infrastructure escalates risk. (Sources: yfinance, Fortune, FinancialContent)",
+      "sources": ["yfinance", "Fortune", "FinancialContent"],
+      "significance": "medium"
     }
   ],
   "edges": [

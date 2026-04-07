@@ -3,8 +3,8 @@
   "name": "OPEC+",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-06",
-  "summary": "CONFIRMED: 206K bpd increase for May (same as April). Symbolic — <2% of ~17-20M bpd disrupted by Hormuz. OPEC+ warned 'restoring damaged energy assets is costly and takes time.' Retained 'full flexibility to increase, pause, or reverse.' PRE-COMMITTED to pump post-ceasefire — post-war oil unwind faster than market expects. During war: meaningless. After war: accelerates unwind.",
+  "last_updated": "2026-04-07",
+  "summary": "206K bpd for May confirmed — symbolic, <2% of disrupted supply. Paper-only: Yanbu bottleneck prevents physical delivery. Pre-positioning for post-war flood. Ceasefire = rapid supply restoration + OPEC+ pumping = faster oil price unwind than expected.",
   "signals": [
     {
       "date": "2026-03-01",
@@ -60,6 +60,12 @@
       "content": "CONFIRMED: OPEC+ approved 206,000 bpd output increase for May — same increment as April. The group explicitly noted this is 'less than 2 percent of the oil supply affected by Hormuz closure' and retained 'full flexibility to increase, pause, or reverse.' Warned: 'restoring damaged energy assets to full capacity is both costly and takes a long time, thereby affecting overall supply availability.' The increase is a PAPER increase — most producers (Saudi, UAE, Kuwait, Iraq) CANNOT deliver because Hormuz is closed. 206K bpd = zero incremental barrels today. The REAL signal: OPEC+ is pre-positioning for post-war world. Unanimous vote (including Russia) means cartel will NOT restrain output once peace arrives. This puts a ceiling on post-ceasefire oil floor — Brent likely drops below $90 faster than market expects if peace arrives.",
       "sources": ["Epoch Times", "Economy Middle East", "Trading Economics", "The National"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "OPEC+ confirmed 206K bpd increase for May — same as April. Symbolic: <2% of ~17-20M bpd disrupted by Hormuz. Most barrels stranded behind closed/congested channels. Market reads this as READINESS signal to flood post-ceasefire, not current supply relief. Yanbu bypass overwhelmed: 32 tankers queued, port at 4M bpd vs 7M pipeline. Paper increases cannot translate to physical supply until Hormuz reopens. Post-war oil unwind expected FASTER than anticipated because OPEC+ pre-committed. (Sources: CNBC, Fortune, ENR)",
+      "sources": ["CNBC", "Fortune", "ENR"],
+      "significance": "medium"
     }
   ],
   "edges": [
@@ -68,7 +74,7 @@
       "type": "supply_management",
       "context": "OPEC+ controls ~40% of global oil production. 206K bpd increase for April but most barrels stranded behind Hormuz. Production increases meaningless without export routes. April 5 meeting decides May levels.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 6,
       "weight": 10
     },
@@ -86,7 +92,7 @@
       "type": "export_dependency",
       "context": "Most OPEC Gulf production depends on Hormuz for export. Hormuz toll law passed Majlis \u2014 permanent selective control being legislated. Iraq and Kuwait involuntarily shutting production. Production increases moot while Hormuz disrupted.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 6,
       "weight": 10
     }

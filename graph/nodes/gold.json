@@ -3,13 +3,13 @@
   "name": "Gold",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-06",
-  "summary": "REGIME SHIFT SESSION 6-7+ — FUTURES OPENED $4,783 (highest of war). Gap-up from $4,675 close = +2.3% overnight deadline premium. DXY above 100 but gold STILL rising = dollar-gold inverse BROKEN. Silver NOT confirming = pure sovereign/institutional haven bid. Goldman $5,400 / JPM $6,300 targets. Deadline extension paradoxically INCREASES uncertainty (bullish gold).",
+  "last_updated": "2026-04-07",
+  "summary": "$4,665/oz. Regime shift above $4,600 intact (Session 7+) but NOT at $4,783 futures — corrected lower. Underperforming on deadline day (+0.3% vs expected +1-2%): DXY 100.12, US 10Y 4.34% competing. Silver -11.3% monthly NOT confirming — gold/silver ratio 64:1 = pure sovereign/institutional haven bid, not speculative. Central bank buying 585t/quarter structural floor. Goldman $5,400, JPM $6,300 year-end.",
   "current": {
-    "price": "$4,674.70/oz (Apr 3 close); futures $4,783",
-    "delta_1d": "+0.5%",
-    "delta_1m": "-7.7%",
-    "delta_3m": "+4.3%"
+    "price": "$4,665/oz",
+    "delta_1d": "+0.3%",
+    "delta_1m": "-7.9%",
+    "delta_3m": "+4.1%"
   },
   "price_snapshots": [
     {
@@ -151,6 +151,12 @@
       "content": "Gold futures OPENED at $4,783 — HIGHEST futures open since war began. +2.3% gap-up from $4,675 script close. This is Session 6-7+ above $4,600 regime shift threshold. DXY at 100.14 (above 100) but gold STILL rising = dollar-gold inverse correlation BROKEN — strongest haven signal. Silver at $72.29 NOT confirming = pure sovereign/institutional haven bid (585t/quarter central bank buying per JPM), not speculative. Gold/silver ratio widening further. The deadline extension paradoxically INCREASES uncertainty (neither resolution nor escalation), maintaining maximum ambiguity — bullish for gold. Goldman Sachs year-end target: $5,400. JP Morgan: $6,300 by end-2026. The regime shift floor has risen from $4,600 to ~$4,650-4,675. Only a confirmed ceasefire + Hormuz reopening breaks below $4,500. Gold is now the single best real-time gauge of deadline probability — the $4,783 open vs $4,675 close represents overnight buying ahead of the binary.",
       "sources": ["Barchart", "ad-hoc-news.de", "LiteFinance", "Goldman Sachs", "JP Morgan"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "CORRECTION: Gold trading $4,665/oz (+0.3%), NOT $4,783 futures figure from April 6 brief. The $4,783 was a pre-market gap-up that did not sustain — gold pulled back as dollar strengthened (DXY 100.12) and ceasefire hopes suppressed safe-haven demand. Regime shift above $4,600 still intact (Session 7+) but floor has settled around $4,650-4,675, not rising to $4,783. Gold underperforming expectations on deadline day (expected +1-2%, got +0.3%) — real yield competition at US 10Y 4.34% and DXY above 100. Silver at $72.42 (-0.4%) NOT confirming — gold/silver ratio ~64:1, pure sovereign/institutional haven bid (central bank buying 585t/quarter per JP Morgan), not speculative. Goldman $5,400 target, JP Morgan $6,300 year-end. Central bank buying structural, survives ceasefire. (Sources: Fortune, Yahoo Finance, FXStreet, yfinance)",
+      "sources": ["Fortune", "Yahoo Finance", "FXStreet"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -159,7 +165,7 @@
       "type": "rate_inverse",
       "context": "DXY back above 100 (100.22) REMOVING mechanical gold support. Fed trapped in stagflation — ISM Prices 78.3 but employment contracting. 52% hike probability. Oil +8.3% reactivated inflation→dollar→gold-down channel.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 9,
       "weight": 10.0
     },
@@ -168,7 +174,7 @@
       "type": "inflation_link",
       "context": "Regime shift CHALLENGED: oil +8.3% post-address drove gold -3.1% via inflation→dollar→gold-down channel — the SAME inverse pattern from March. Three sessions above $4,600 still technically intact but gold at $4,636 with only $36 margin. If oil stays above $105 and DXY above 100, gold regime shift likely fails.",
       "directness": 2,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 9,
       "weight": 10.0
     }

@@ -3,14 +3,13 @@
   "name": "Nifty 50",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-06",
-  "summary": "GIFT NIFTY -350 POINTS signals weak Monday open. Nifty 22,602 (last close). GIFT Nifty at 22,722 (+0.5% from cash) but gathered BEFORE deadline outcome. Three sequential binaries: deadline (Apr 7), MPC (Apr 8), NOP (Apr 10). FPIs Rs 19,837 cr out in 2 sessions (accelerating). Bank Nifty -14.1% 1M. 200-DMA at 22,000 critical. RBI MPC Day 1 underway.",
+  "last_updated": "2026-04-07",
+  "summary": "22,968 (+1.12%). Ceasefire-hope rally — oversold bounce, not recovery. Bank Nifty +2.1% (hardest hit, hardest bounce). Three sequential binaries: MPC April 8, NOP cap April 10, deadline outcome. 200-DMA at 24,051 — 4.5% below. VIX 25.52. FPI outflows relentless: Rs 1.5T cumulative 2026.",
   "current": {
-    "price": "22,602 (Apr 3 close); GIFT Nifty 22,722",
-    "delta_1d": "-0.5%",
-    "delta_1m": "-9.1%",
-    "delta_3m": "-13.7%",
-    "snapshot_note": "April 3 close. GIFT Nifty -349.50 signals weak Monday open. Markets closed Apr 4-6. Three binaries this week: deadline (Apr 7), MPC (Apr 8), NOP (Apr 10)."
+    "price": "22,968",
+    "delta_1d": "+1.12%",
+    "delta_1m": "-7.6%",
+    "delta_3m": "-12.3%"
   },
   "price_snapshots": [
     {
@@ -172,6 +171,12 @@
       "content": "GIFT Nifty at 22,722 (-349.50 points from Nifty cash close of 22,602) — signals modest gap-up but this was gathered BEFORE Tuesday deadline outcome. Monday April 7 open absorbs: deadline extension to Tuesday, OPEC+ 206K decision, Kuwait/Bahrain/UAE strikes, RBI MPC Day 1. FPI outflows ACCELERATING: Rs 8,331 cr (Apr 1) + Rs 9,931 cr (Apr 2) = Rs 19,837 cr in 2 sessions. THREE sequential binary events: (1) Tuesday April 7 deadline (8 PM ET = 5:30 AM IST Apr 8 — impacts opening), (2) April 8 RBI MPC decision, (3) April 10 NOP cap deadline. Worst case: hawkish MPC + deadline expiry + NOP forced selling = Bank Nifty tests 48,000-49,000. Best case: dovish MPC + extension + NOP completion = Bank Nifty 53,000-54,000. NSE/BSE may hold special Saturday session April 11. Bank Nifty -14.1% monthly — worst sector.",
       "sources": ["5paisa", "BusinessToday", "Policy Circle", "Goodreturns.in"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "Nifty 50 rallied +255 (+1.12%) to 22,968 after 3-day market closure, driven by ceasefire proposal reports. Bank Nifty +1,060 (+2.1%) to 52,609 — most beaten-down sector (-12.1% monthly) bouncing hardest. This is an OVERSOLD BOUNCE, not a recovery signal. Bank Nifty has three sequential binaries this week: (1) MPC decision April 8, (2) NOP cap deadline April 10, (3) Tuesday deadline outcome. Worst case: Bank Nifty tests 48,000-49,000. Best case: 53,000-54,000. Nifty 200-DMA at ~24,051 — current level 4.5% below, significant technical discount. India VIX at 25.52. GIFT Nifty at 23,048-23,066 suggests flat-to-positive next open. DII buying providing floor support. (Sources: Yahoo Finance, Trading Economics, BusinessToday)",
+      "sources": ["Yahoo Finance", "Trading Economics", "BusinessToday"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -180,7 +185,7 @@
       "type": "equity_market",
       "context": "Primary equity benchmark. India underperforming global rally — Nifty +1.6% vs KOSPI +8.44%, S&P +2.9%. Three-layer problem persists. Bernstein range: 27,500 (rapid de-escalation) to 19,900 (full-year crisis).",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 19,
       "weight": 10
     },
@@ -189,7 +194,7 @@
       "type": "fii_feedback_loop",
       "context": "Weak rupee → FIIs sell → Nifty falls → more rupee pressure. INR improving to 92.64 from 93.19 on Brent crash. NOP cap deadline April 10 creating mechanical INR buying pressure.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 13,
       "weight": 10
     },
@@ -198,7 +203,7 @@
       "type": "cost_pressure",
       "context": "Oil spike → India macro deterioration → earnings downgrades → Nifty weakness. Brent crash to $101.97 easing pressure. ~65% of Nifty decline is crisis-driven (oil-dependent, reversible).",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 14,
       "weight": 10
     },
@@ -207,7 +212,7 @@
       "type": "rate_sensitivity",
       "context": "RBI MPC April 6-8. Rate cuts needed for valuation support but RBI trapped by oil inflation. NOP cap deadline April 10. India 10Y at 7.00-7.04%. Bank Nifty recovering from NOP carnage.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 8,
       "weight": 10
     }

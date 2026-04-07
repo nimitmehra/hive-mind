@@ -3,8 +3,8 @@
   "name": "Federal Reserve",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-06",
-  "summary": "STAGFLATION TRAP PERSISTS — APRIL 10 CPI IS NEXT BINARY: ISM Prices 78.3 (highest since June 2022) foreshadows hot CPI print on April 10. Oil back at $109-112 keeps inflation elevated. Fed trapped: can't cut with oil-driven inflation, can't hike without crashing equities. Market-implied hike probability ~52%. US gas at $4.13/gallon. Bond-equity divergence persists — bonds pricing damage, equities celebrating headlines. April 10 CPI is the next binary event for Fed policy direction.",
+  "last_updated": "2026-04-07",
+  "summary": "Stagflation trap DEEPENING. JPM: March CPI 3.4% (from 2.4%) — largest jump since 2022. March NFP +178K blowout closed rate-cut door. ISM Prices 78.3 (highest since June 2022) but ISM Employment contracting = late-cycle divergence. 52% hike probability by year-end. April 10 CPI is next binary event. Fed trapped: hike into war recession or let inflation run.",
   "signals": [
     {
       "date": "2026-03-18",
@@ -65,6 +65,12 @@
       "content": "ISM Prices Index at 78.3 (highest since June 2022) foreshadows hot CPI print on April 10 — the next binary event for Fed policy. Oil back at $109-112 after deadline extension keeps inflation elevated. Fed trapped in stagflation: can't cut with oil-driven inflation running through 17 of 18 industries, can't hike without crashing equities already down 4-5% monthly. Market-implied hike probability holding at ~52%. US gasoline at $4.13/gallon national average — politically sensitive level. OPEC+ 206K bpd increase is symbolic (<2% of disrupted supply), confirming supply-side cannot rescue inflation. The April 10 CPI print will determine whether the 52% hike probability tips above or below the threshold — a hot print with oil at $109+ makes a June hike a live possibility. Gold at $4,783 futures (rising despite DXY above 100) reflects market's verdict that the Fed is paralyzed. (Sources: ISM, Trading Economics, Epoch Times, Barchart)",
       "sources": ["ISM", "Trading Economics", "Epoch Times", "Barchart"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "JP Morgan forecasts March CPI headline jumping from 2.4% to 3.4% YoY on 11% energy component — largest monthly jump since 2022 inflation spike. March NFP blowout: +178K vs +60K expected — strong jobs CLOSED rate-cut door. ISM Prices Index at 78.3 (highest since June 2022). ISM Employment contracting while NFP strong = textbook late-cycle divergence. 52% probability of Fed HIKE by year-end. Cleveland Fed inflation nowcasting tracking hot. April 10 CPI print will dominate mid-week — if above 3.4%, hike probability rises sharply. Stagflation comparisons to 1970s circulating. FOMC minutes also due this week. Fed in impossible position: hike into war-induced recession or let inflation run. (Sources: FinancialJuice, Cleveland Fed, yfinance)",
+      "sources": ["FinancialJuice", "Cleveland Fed"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -73,7 +79,7 @@
       "type": "rate_expectations",
       "context": "Fed policy → bond yields. 10Y fell to 4.30% — yields declining on peace signals, pricing recession over inflation. ISM stagflation data (Prices 78.3, employment contracting) validates bond market's signal. 52% hike probability.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 11,
       "weight": 10.0
     },
@@ -82,7 +88,7 @@
       "type": "discount_rate",
       "context": "S&P +2.9% (Apr 1), -0.52% (Apr 2). VIX surged to 27.34 (+11.4%) — only 2.66 pts from 30 institutional threshold. Bond-equity divergence deepening. ISM stagflation supports bond view. Fed completely trapped.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 11,
       "weight": 10.0
     },
@@ -91,7 +97,7 @@
       "type": "rate_policy",
       "context": "Gold regime shift CHALLENGED: gold crashed -3.1% to $4,636 as DXY surged back above 100 (100.22). Oil→inflation→dollar→gold-down channel reactivated. Gold only $36 above $4,600 threshold. Fed hike probability 52%. If gold breaks $4,600, regime shift invalidated.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 8,
       "weight": 10.0
     },
@@ -100,7 +106,7 @@
       "type": "inflation_input",
       "context": "Oil surged back to $109 post-address. ISM Prices 78.3 confirms oil-driven cost pressure across 17 of 18 industries. At $109, further above the $85 threshold where Fed could resume cuts. Stagflation trap deepens.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 11,
       "weight": 10.0
     },
@@ -109,7 +115,7 @@
       "type": "monetary_authority",
       "context": "$200B war spending request compounds fiscal situation. ISM stagflation (Prices 78.3, employment contracting) confirms war-driven economic deterioration. DXY at 99.54 — dollar weakness signals growth concerns dominating.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 7,
       "weight": 10.0
     }

@@ -3,13 +3,13 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-06",
-  "summary": "DEADLINE EXTENDED — Brent futures $109.03, WTI $112.06. April 6 deadline pushed to Tuesday April 7 8 PM ET. OPEC+ confirmed 206K bpd for May — symbolic, <2% of disrupted supply. Oil-equity divergence persists. Goldman $100 floor holds. OPEC+ pre-committed to pump post-ceasefire — post-war oil unwind FASTER than expected.",
+  "last_updated": "2026-04-07",
+  "summary": "$111.15/bbl, WTI INVERTED above Brent at $114.98 — market reclassifying Gulf oil as semi-stranded. Tuesday April 7 8 PM ET deadline binary: deal = $95-100, no deal = $120-130+, full escalation = $150-200. Iran rejected 45-day ceasefire. Yanbu 32 tankers queued, port bottleneck binding at 4M bpd vs 7M pipeline. OPEC+ 206K bpd for May — paper-only, can't deliver through closed channels.",
   "current": {
-    "price": "$109.77/bbl (Apr 3 close); futures $109.03",
-    "delta_1d": "+0.7%",
-    "delta_1m": "+28.5%",
-    "delta_3m": "+80.8%"
+    "price": "$111.15/bbl",
+    "delta_1d": "+1.9%",
+    "delta_1m": "+30.1%",
+    "delta_3m": "+83.1%"
   },
   "price_snapshots": [
     {
@@ -95,6 +95,12 @@
       "price": "$109.05/bbl",
       "trigger": "War premium RESTORED — largest single-session crude move of war",
       "delta_context": "WTI +11.9% to $112.06 — most violent single-session move. Driven by Trump 'hit hard' address + pharmaceutical strikes + April 6 deadline pricing. F-15 shootdown adds military credibility gap. Oil-equity divergence at widest of war."
+    },
+    {
+      "date": "2026-04-07",
+      "price": "$111.15/bbl (WTI $114.98)",
+      "trigger": "WTI-Brent inversion + Tuesday deadline binary",
+      "delta_context": "WTI surged above Brent by $3.83 — market reclassifying Gulf oil as semi-stranded"
     }
   ],
   "signals": [
@@ -211,6 +217,12 @@
       "content": "Brent futures at $109.03, WTI $112.06 (pre-market April 6). Deadline EXTENDED 20 hours to Tuesday April 7. OPEC+ confirmed 206K bpd increase for May — same as April, representing <2% of ~17-20M bpd disrupted by Hormuz closure. OPEC+ warned 'restoring damaged energy assets to full capacity is costly and takes a long time.' The increase signals READINESS to flood once Hormuz reopens but zero incremental barrels today. Net effect on current oil: NEUTRAL. The REAL signal: OPEC+ pre-committed to pump post-ceasefire — post-war oil unwind FASTER and DEEPER than market expects. Oil-equity divergence persists: oil at $109-112 pricing maximum disruption, S&P at 6,604 pricing resolution. (Sources: Epoch Times, Economy Middle East, Trading Economics, Investing.com)",
       "sources": ["Epoch Times", "Economy Middle East", "Trading Economics", "Investing.com"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "Brent $111.15/bbl (+1.9%), WTI $114.98/bbl (+3.1%) — WTI INVERTED above Brent by $3.83, abnormal (historically Brent at premium). Inversion signals: US SPR at 243M barrels (1984 low), US refinery runs at max, Brent depressed by Hormuz-trapped 'stranded' Middle East supply. Tuesday deadline imminent — binary: deal = $95-100 rapidly; no deal + strikes = $120-130+. Iran rejected 45-day ceasefire. Oil paring gains Monday as ceasefire discussions continue (WTI dropped ~1% intraday to $110.45). Yanbu congestion worsening: 32 supertankers stacked (up from 27), port throughput ~4M bpd vs 7M bpd pipeline = port is binding constraint. Saudi informing customers April allocations reduced. OPEC+ 206K bpd for May — symbolic, cannot be delivered through closed channels. ENR: 'Hormuz bypass infrastructure sized for short disruption. This is not that.' (Sources: OilPriceAPI, Fortune, FinancialContent, CNBC, House of Saud, ENR)",
+      "sources": ["OilPriceAPI", "Fortune", "FinancialContent", "CNBC", "ENR"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -219,7 +231,7 @@
       "type": "supply_dependency",
       "context": "~20% of global oil transits Hormuz. Closure is the primary driver of the price spike from $70 to $119. Hormuz NOT reopened despite peace signals — toll law passed full parliament. War premium evaporating but supply disruption structural.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 24,
       "weight": 10.0
     },
@@ -228,7 +240,7 @@
       "type": "import_cost",
       "context": "India imports 85-90% of crude. At $109/bbl post-address, massive additional import cost. Every $10/bbl increase = ~$15B additional import bill. RBI MPC April 6-8 facing 'trade-off central banks dislike most.'",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 19,
       "weight": 10.0
     },
@@ -237,7 +249,7 @@
       "type": "cost_pressure",
       "context": "Higher oil = more dollar demand for imports = rupee depreciation. Post-address oil back at $109 removes the $102 relief. Hormuz structural floor means no return to $70 pre-war. INR at 93.14 (offshore).",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 16,
       "weight": 10.0
     },
@@ -246,7 +258,7 @@
       "type": "inflation_input",
       "context": "Oil at $109 post-address = inflation stays elevated = Fed can't cut. ISM Prices Index at 78.3 (highest since June 2022). Oil back above $105 eliminates any rate-cut pathway. Stagflation trap deepens.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 14,
       "weight": 10.0
     },
@@ -255,7 +267,7 @@
       "type": "earnings_risk",
       "context": "Post-address oil at $109 re-compresses margins. S&P +2.9% (Apr 1), -0.52% (Apr 2). XLE -3.7% while oil +8.3% = energy stocks trading 'peak oil' / demand destruction, not tracking crude higher.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 12,
       "weight": 10.0
     },
@@ -264,7 +276,7 @@
       "type": "production_response",
       "context": "OPEC+ April 5 meeting is next binary event. 206K bpd increase confirmed for April. Decision on May levels could accelerate or restrain supply response. Most barrels still stranded if Hormuz stays shut.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 6,
       "weight": 10.0
     },
@@ -282,7 +294,7 @@
       "type": "policy_pressure",
       "context": "Oil at $109 post-address = India inflation = RBI can't cut. RBI MPC April 6-8 must decide with oil back near pre-crash levels. India 10Y at 7.00-7.04%. Stagflation trap deepens.",
       "directness": 2,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 12,
       "weight": 10.0
     }

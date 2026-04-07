@@ -3,8 +3,8 @@
   "name": "Qatar",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-06",
-  "summary": "DUAL VICTIM + MEDIATOR PARADOX: Qatar LNG still offline (Ras Laffan 5-year repair). Oman-Iran Hormuz transit talks reported (The National). OPEC+ approved 206K bpd for May but Qatar can't deliver through Hormuz. Qatar's role as mediator complicated by being both a strike target (AQUA 1 tanker, Ras Laffan) and maintaining Iran relations.",
+  "last_updated": "2026-04-07",
+  "summary": "SHARED-FIELD STRIKE PRECEDENT: Israeli strike on Iran's South Pars petrochemical plant directly affects shared South Pars/North Dome gas field — Iran side struck, Qatar side unaffected but precedent of striking shared resource infrastructure escalates risk for all Gulf producers. Gulf states publicly rejected Zarif's 'Beyond Ceasefire' roadmap — UAE's Gargash: 'ignores aggression against neighbors,' former Qatari PM warned Iran of 'loss of friends.' Qatar LNG still offline (Ras Laffan 5-year repair). Iran's 10-clause ceasefire counter-proposal includes Hormuz protocol.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -100,6 +100,12 @@
       "content": "Oman-Iran Hormuz transit talks reported (The National). Qatar LNG still offline — Ras Laffan 5-year repair timeline unchanged. OPEC+ confirmed 206K bpd increase for May but Qatar cannot deliver through Hormuz. Qatar's role as mediator complicated by being both a strike target (AQUA 1 tanker April 1, Ras Laffan March 18) and maintaining Iran relations. 45-day ceasefire framework under discussion (Axios) but Qatar not listed among mediators (Pakistan, Egypt, Turkey). Qatar's diplomatic position increasingly awkward — condemned Iran at Jeddah Trilateral but still hedging via Al Jazeera Arabic editorial line.",
       "sources": ["The National", "Axios", "Al Jazeera"],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "Israeli strike on Iran's South Pars petrochemical plant directly affects shared South Pars/North Dome gas field — Iran side struck, Qatar side unaffected but the precedent of striking shared resource infrastructure escalates the risk calculus for all Gulf producers. Separately, former FM Zarif published 'Beyond Ceasefire' roadmap in Foreign Affairs (enrichment below 3.67%, regional fuel consortium, Hormuz-for-sanctions). Gulf states publicly rejected it — UAE's Gargash said it 'ignores aggression against neighbors,' former Qatari PM warned Iran of 'loss of friends.' Iran's 10-clause ceasefire counter-proposal includes Hormuz protocol. (Sources: Euronews, i24News, Al Jazeera)",
+      "sources": ["Euronews", "i24News", "Al Jazeera"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -108,8 +114,8 @@
       "type": "retaliation_target",
       "context": "Iran struck Ras Laffan (South Pars retaliation) AND now AQUA 1 tanker near Ras Laffan \u2014 3 cruise missiles, IRGC claimed. Iran gave Qatar advance notice, suggesting calculated escalation. Qatar expelled Iranian attaches after Ras Laffan but still positioning as mediator.",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 6,
+      "last_activated": "2026-04-07",
+      "activation_count": 7,
       "weight": 10
     },
     {

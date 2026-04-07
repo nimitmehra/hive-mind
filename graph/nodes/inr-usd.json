@@ -3,14 +3,13 @@
   "name": "INR/USD Exchange Rate",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-06",
-  "summary": "RBI MPC Day 1 UNDERWAY. Rupee at 92.67 (offshore). NOP cap deadline April 10 — 4 days away. Three sequential binaries this week: MPC decision (Apr 8), NOP deadline (Apr 10), helium production cut window (Apr 7-10). Largest single-day gain since 2013 (+1.8% to 93.10) was REGULATORY FORCE from NOP cap, not organic improvement.",
+  "last_updated": "2026-04-07",
+  "summary": "₹93.04, stabilized. NOP cap forcing $30-40B dollar unwinding by April 10 — reducing speculative pressure but causing mark-to-market losses. FPI outflows Rs 1.5T cumulative 2026. Saturday session April 11 provides compliance window. Oil at $111 = depreciation headwind. DXY above 100.",
   "current": {
-    "price": "Rs92.67 (yfinance/offshore)",
-    "delta_1d": "Markets closed Apr 4-5",
-    "delta_1m": "+1.3%",
-    "delta_3m": "+3.6%",
-    "snapshot_note": "As of Apr 6 — RBI MPC Day 1. NOP deadline 4 days away. Three sequential binaries this week."
+    "price": "₹93.04",
+    "delta_1d": "+0.1%",
+    "delta_1m": "+1.2%",
+    "delta_3m": "+3.2%"
   },
   "price_snapshots": [
     {
@@ -158,6 +157,12 @@
       "content": "RBI MPC Day 1 underway (April 6-8, decision April 8). Rupee at 92.67 (offshore/yfinance). NOP cap deadline April 10 — 4 days away, $30-40B in forced unwinding continuing. Three sequential binaries this week: MPC rate decision (Apr 8), NOP compliance deadline (Apr 10), helium production cut window (Apr 7-10). India markets reopen Monday April 7 with all weekend war developments to price in one session. Structural pressures unchanged: oil at $120+, FPI outflows Rs 1.8 trillion FY26. (Sources: RBI, yfinance, Business Standard)",
       "sources": ["RBI", "yfinance", "Business Standard"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "INR/USD stabilized at ₹93.04 (+0.1%), NOP cap forced liquidation dampening speculative pressure. Banks completing $30-40B dollar unwinding ahead of April 10 deadline — the unwinding itself is reducing uncertainty. India 10Y GOI eased to 7.05% (-5bps). DXY at 100.12 (above psychological 100 level). FPI outflows cumulative Rs 1.5 trillion in 2026 — structural pressure continues. Banks urging RBI to revisit NOP cap, flagging mark-to-market losses. Saturday trading session April 11 confirmed — provides additional compliance window. Oil at $111 = ongoing depreciation pressure on INR. (Sources: Yahoo Finance, Trading Economics, Business Standard, ANI)",
+      "sources": ["Yahoo Finance", "Trading Economics", "Business Standard"],
+      "significance": "medium"
     }
   ],
   "edges": [
@@ -166,7 +171,7 @@
       "type": "currency_impact",
       "context": "Rupee at 92.67 offshore. NOP cap deadline April 10 forcing $30-40B unwinding. FPI outflows Rs 1.8 trillion FY26 — worst since 1992. Three sequential binaries this week.",
       "directness": 1,
-      "last_activated": "2026-04-06",
+      "last_activated": "2026-04-07",
       "activation_count": 19,
       "weight": 10.0
     },
@@ -175,7 +180,7 @@
       "type": "cost_transmission",
       "context": "Higher oil \u2192 more dollar demand for imports \u2192 rupee weakens. Oil at $120+ is the binding constraint. India imports 85-90% of crude.",
       "directness": 1,
-      "last_activated": "2026-04-06",
+      "last_activated": "2026-04-07",
       "activation_count": 16,
       "weight": 10.0
     },
@@ -184,7 +189,7 @@
       "type": "intervention_target",
       "context": "NOP cap deadline April 10 firm — 4 days. $30-40B positions need squaring. RBI MPC Day 1 underway April 6-8. Decision April 8 — expected hold at 5.25%.",
       "directness": 1,
-      "last_activated": "2026-04-06",
+      "last_activated": "2026-04-07",
       "activation_count": 19,
       "weight": 10.0
     },
@@ -193,7 +198,7 @@
       "type": "fii_flow_driver",
       "context": "Rupee at 92.67 offshore. NOP cap unwinding creates mechanical INR buying. FPI outflows Rs 1.8 trillion FY26 \u2014 worst since 1992, 42% YoY increase.",
       "directness": 1,
-      "last_activated": "2026-04-06",
+      "last_activated": "2026-04-07",
       "activation_count": 13,
       "weight": 10.0
     }

@@ -3,14 +3,13 @@
   "name": "Fertilizer / Urea",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-06",
-  "summary": "UREA $750/MT + CHINA EXPORT BAN = INDIA'S ALTERNATIVE SUPPLY CUT OFF: Urea FOB Middle East at $750/mt \u2014 52-week high, up from $400-490 pre-war. QAFCO 5.6MT/yr shut. China reportedly banned urea exports until August \u2014 removes the alternative supply India was quietly approaching. India faces 2M tonne shortfall by August, 60%+ imports from Gulf. CF Industries +24.1% monthly ($129.97) \u2014 direct equity proxy. Nutrien +3.3% monthly. FY27 subsidy CUT despite prices doubling. Kharif sowing June-July is the cliff.",
+  "last_updated": "2026-04-07",
+  "summary": "Urea $700/mt Egypt FOB, $800/mt US Gulf — +43-75% from pre-war. 30% of globally traded supply offline. Qatar halted major urea plant. CF Industries +69.9% 3M. NO strategic reserve, NO quick substitute. Northern Hemisphere spring planting at risk — if crisis extends through May, permanent yield damage. Most dangerous cascade path for food security.",
   "current": {
-    "price": "~$800/mt (US Gulf), ~$720/mt (global)",
-    "delta_1d": "-3% est. (de-escalation)",
-    "delta_1m": "+50-100%+",
-    "delta_3m": "+100%+",
-    "snapshot_note": "As of Apr 1"
+    "price": "~$700/mt (Egypt FOB), ~$800/mt (US Gulf)",
+    "delta_1d": "n/a",
+    "delta_1m": "+40-75% est.",
+    "delta_3m": "+50-75% est."
   },
   "signals": [
     {
@@ -60,6 +59,12 @@
       "content": "Urea FOB Middle East at $750/mt \u2014 52-week high, up from $400-490 pre-war. QAFCO 5.6MT/yr shut. China reportedly banned urea exports until August (markets.md source) \u2014 this removes the alternative supply India was quietly approaching after Gulf disruptions. India faces 2M tonne shortfall by August, with 60%+ of imports sourced from Gulf. CF Industries +24.1% monthly ($129.97) \u2014 direct equity proxy for disruption duration. Nutrien +3.3% monthly ($75.47). The China export ban, if confirmed, is the critical new variable: India's diversification strategy (1.3M tons ordered from China/Russia/Morocco/Australia) now has its largest single source blocked. OPEC+ 206K bpd increase confirms supply-side cannot rescue energy costs, which feeds through to fertilizer production costs via natural gas feedstock. Kharif timeline unchanged: sowing June-July, 65% of annual urea consumed in Kharif season. (Sources: ChemAnalyst, Trading Economics, Epoch Times, markets.md)",
       "sources": ["ChemAnalyst", "Trading Economics", "Epoch Times"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "Urea Egypt FOB at ~$700/mt (from $400-490 pre-war, +43-75%). US Gulf urea at $800/mt — level last seen during 2022 Russia-Ukraine spike. ~30% of globally traded urea supply offline (Anadolu Agency, Carnegie, WEF). QatarEnergy halted one of world's biggest urea plants. CF Industries +69.9% 3M ($77.08 → $130.98) as largest US nitrogen producer = direct substitute supplier. Nutrien +29.4% 3M. Northern Hemisphere spring planting season at risk — fertilizer has NO strategic reserve and NO quick substitute. If crisis extends through May, 2026 planting season takes permanent yield damage. European gas costs (TTF €49.95) directly feed fertilizer production costs via Haber-Bosch process. BASF +10.4% 1M as European chemical giant benefits from Gulf competitor disruption. (Sources: Al Fassel News, CNBC, AgWeb, WEF, yfinance)",
+      "sources": ["Al Fassel News", "CNBC", "AgWeb", "WEF"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -68,7 +73,7 @@
       "type": "feedstock_dependency",
       "context": "Natural gas is primary input for nitrogen-based fertilizers. Gas price spike → fertilizer cost spike. India's domestic plants cut 30% feedstock.",
       "directness": 1,
-      "last_activated": "2026-04-01",
+      "last_activated": "2026-04-07",
       "activation_count": 7,
       "weight": 8.5
     },
@@ -77,7 +82,7 @@
       "type": "production_dependency",
       "context": "QAFCO Mesaieed (world's largest single-site urea plant, 5.6 Mt/y) offline since Mar 4. Entire Qatar downstream complex shut.",
       "directness": 1,
-      "last_activated": "2026-04-01",
+      "last_activated": "2026-04-07",
       "activation_count": 5,
       "weight": 8.5
     },
@@ -86,7 +91,7 @@
       "type": "import_dependency",
       "context": "India imports 40%+ of urea from Middle East. Domestic plants at 70% capacity due to LNG cuts. Quietly approaching China. Kharif 2026 planting season at risk.",
       "directness": 1,
-      "last_activated": "2026-04-01",
+      "last_activated": "2026-04-07",
       "activation_count": 7,
       "weight": 8.0
     }

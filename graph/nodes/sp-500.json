@@ -3,14 +3,13 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-06",
-  "summary": "S&P futures at 6,604 (-0.28% pre-market). VIX at 23.87 — massively mispriced for Tuesday's binary (April 6 deadline extension). Oil-equity divergence at widest of war: WTI +11.9% while S&P +0.1%. Markets reopening Monday into the deadline extension. Down 4% YTD.",
+  "last_updated": "2026-04-07",
+  "summary": "6,612 (+0.4%). Four consecutive winning days on ceasefire HOPES — but ceasefire REJECTED. VIX 24.17 MASSIVELY MISPRICED for binary: should be 28-32. VIX below 30 = algo selling off = self-reinforcing equity bid. If deadline passes without deal, VIX 30+ triggers mechanical algo selling cascade. Defense budget $1.5T adding inflationary impulse. Market pricing optimistic side of binary.",
   "current": {
-    "price": "6,604 (futures)",
-    "delta_1d": "-0.28% (pre-market)",
-    "delta_1m": "-3.5%",
-    "delta_3m": "-4.1%",
-    "snapshot_note": "As of Apr 6 pre-market. VIX 23.87 pricing ZERO probability of Iran US base strike."
+    "price": "6,612",
+    "delta_1d": "+0.4%",
+    "delta_1m": "-3.2%",
+    "delta_3m": "-4.5%"
   },
   "price_snapshots": [
     {
@@ -115,6 +114,12 @@
       "content": "S&P futures at 6,604 (-0.28% pre-market). VIX still at 23.87 — massively mispriced for Tuesday's binary event (April 6 deadline extension). Markets reopening Monday into the deadline extension window. Oil-equity divergence remains the widest of the war and unresolved. April 5-8 is the densest event cluster of the conflict: deadline extension, RBI MPC, TrendForce announcement window, helium production cut watch. VIX below 30 means algo selling cascade not active, but only 6 points from threshold. (Sources: yfinance, Cboe)",
       "sources": ["yfinance", "Cboe"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "S&P 500 at 6,612 (+0.4%), four consecutive winning days on ceasefire HOPES despite ceasefire being REJECTED. VIX at 24.17 (+1.3%) — MASSIVELY MISPRICED for Tuesday deadline binary. Expected VIX 28-32 given deadline imminence + rejection. Market pricing 'they'll figure it out' consensus. VIX below 30 = institutional algo selling OFF = self-reinforcing equity bid. IRGC credibility discount suppressing vol. IF deadline passes without deal, VIX spike to 30+ triggers mechanical algo selling cascade amplifying equity decline 2-3x. $1.5T FY2027 defense budget creates inflationary impulse (government spending) compounding oil-driven inflation — defense stocks now 4.2% of S&P. Lockheed Martin +2.4% to $637.90. (Sources: yfinance, CNBC, FinancialContent)",
+      "sources": ["yfinance", "CNBC", "FinancialContent"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -123,7 +128,7 @@
       "type": "equity_market",
       "context": "Primary US equity benchmark. Bond-equity divergence emerging — equities pricing de-escalation while bonds pricing recession. ISM stagflation signal (prices 78.3, employment contracting).",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 14,
       "weight": 10.0
     },
@@ -132,7 +137,7 @@
       "type": "rate_sensitivity",
       "context": "Market pricing 52% probability of Fed HIKE by year-end. ISM stagflation signal (Prices 78.3, employment contracting) compounds Fed trap. Bond-equity divergence: yields fell on peace day while equities rallied.",
       "directness": 1,
-      "last_activated": "2026-04-02",
+      "last_activated": "2026-04-07",
       "activation_count": 11,
       "weight": 10.0
     },
@@ -141,7 +146,7 @@
       "type": "earnings_risk",
       "context": "Oil-equity divergence at widest of war. WTI +11.9% while S&P +0.1% — oil pricing escalation, equities pricing 2-3 week end. This split resolves violently in the April 5-8 window.",
       "directness": 1,
-      "last_activated": "2026-04-06",
+      "last_activated": "2026-04-07",
       "activation_count": 12,
       "weight": 10.0
     },
