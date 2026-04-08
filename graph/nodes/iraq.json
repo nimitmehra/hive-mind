@@ -1,1 +1,93 @@
-{"id": "iraq", "name": "Iraq", "type": "country", "created": "2026-03-23", "last_updated": "2026-04-07", "summary": "FORCE MAJEURE PERSISTS (Day 17): Iraq declared force majeure on ALL foreign-operated oilfields March 20 — production cut from 3.3M to 900K bpd. No resolution as of April 6. 109 killed per Iraqi health authorities. Southern oil exports through Hormuz remain blocked. 90%+ of government income from crude. Force majeure is a structural supply constraint compounding the global oil shock.", "signals": [{"date": "2026-03-11", "content": "Iranian drones struck coalition military camps near Erbil and Baghdad, wounding US soldiers.", "sources": ["Wikipedia timeline"], "significance": "high"}, {"date": "2026-03-20", "content": "Iraq declared force majeure on all foreign-operated oilfields due to Hormuz disruption. Basra Oil Company production cut from 3.3M to 900K bpd. Iraq depends on crude for 90%+ of income.", "sources": ["Middle East Eye", "CNBC", "Reuters/Al Arabiya"], "significance": "high"}, {"date": "2026-04-06", "content": "Force majeure on all foreign-operated oilfields persists — Day 17 with no resolution. Production remains at 900K bpd (down from 3.3M). Iraqi health authorities report 109 people killed from the conflict. Southern oil exports through Hormuz remain blocked. No significant new Iraq-specific developments but the force majeure continues as a structural supply constraint removing 2.4M bpd from global markets.", "sources": ["Reuters", "Al Jazeera", "Iraqi Oil Ministry"], "significance": "high"}, {"date": "2026-04-07", "content": "Iraqi-linked oil tanker exited Hormuz via Iran on April 5 per Bloomberg Hormuz Tracker — Iraq is in Iran's three-tier 'friendly' category. Iraq's PMF (Iran-aligned militias) is still part of the Iran-led 'all fronts' framework that Tehran's 10-point counter demands include. Iraq remains structurally Iran-aligned within the diplomatic framework — Iran's demand for end of war 'across all fronts including resistance groups' implicitly covers Iraqi PMF.", "sources": ["Bloomberg", "Xinhua"], "significance": "high"}], "edges": [{"to": "brent-crude", "type": "supply_offline", "context": "2.4M bpd production offline due to force majeure since March 20. Day 17 with no resolution. Additional supply shock on top of Iranian production losses and Hormuz closure.", "directness": 1, "last_activated": "2026-04-06", "activation_count": 4, "weight": 8.0}, {"to": "strait-of-hormuz", "type": "export_dependency", "context": "Iraq's southern oil exports depend on Hormuz transit. Closure made exports impossible, forcing force majeure.", "directness": 1, "last_activated": "2026-03-20", "activation_count": 3, "weight": 8.5}, {"to": "iran", "type": "influence_zone", "context": "Iran has significant political/military influence in Iraq. Iraqi Shia militias aligned with Iran. Iraq caught between US and Iran.", "directness": 1, "last_activated": "2026-03-20", "activation_count": 5, "weight": 7.0}], "trigger_points": []}
+{
+  "id": "iraq",
+  "name": "Iraq",
+  "type": "country",
+  "created": "2026-03-23",
+  "last_updated": "2026-04-08",
+  "summary": "FORCE MAJEURE PERSISTS Day 19 — production at 900K bpd (down from 3.3M). 90%+ of Iraqi income from oil. IRGC three-tier system granted 'brotherly Iraq' exemption pre-ceasefire — Iraqi crude tankers transiting Hormuz. 14-day ceasefire creates path for formal force majeure lift and 1.5-2.0M bpd restart over 2-4 weeks — the largest single piece of global supply restoration available, bigger than OPEC+ 206K bpd. Iraq is the silent largest beneficiary. Watch Iraqi oil ministry, BP/Eni updates, Basra port data over next 48 hours.",
+  "signals": [
+    {
+      "date": "2026-03-11",
+      "content": "Iranian drones struck coalition military camps near Erbil and Baghdad, wounding US soldiers.",
+      "sources": [
+        "Wikipedia timeline"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-03-20",
+      "content": "Iraq declared force majeure on all foreign-operated oilfields due to Hormuz disruption. Basra Oil Company production cut from 3.3M to 900K bpd. Iraq depends on crude for 90%+ of income.",
+      "sources": [
+        "Middle East Eye",
+        "CNBC",
+        "Reuters/Al Arabiya"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-06",
+      "content": "Force majeure on all foreign-operated oilfields persists — Day 17 with no resolution. Production remains at 900K bpd (down from 3.3M). Iraqi health authorities report 109 people killed from the conflict. Southern oil exports through Hormuz remain blocked. No significant new Iraq-specific developments but the force majeure continues as a structural supply constraint removing 2.4M bpd from global markets.",
+      "sources": [
+        "Reuters",
+        "Al Jazeera",
+        "Iraqi Oil Ministry"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "Iraqi-linked oil tanker exited Hormuz via Iran on April 5 per Bloomberg Hormuz Tracker — Iraq is in Iran's three-tier 'friendly' category. Iraq's PMF (Iran-aligned militias) is still part of the Iran-led 'all fronts' framework that Tehran's 10-point counter demands include. Iraq remains structurally Iran-aligned within the diplomatic framework — Iran's demand for end of war 'across all fronts including resistance groups' implicitly covers Iraqi PMF.",
+      "sources": [
+        "Bloomberg",
+        "Xinhua"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-08",
+      "content": "IRAQ DIRECT BENEFICIARY OF CEASEFIRE — FORCE MAJEURE PATH TO RESTART [REPORTED]. Iraq declared force majeure on all foreign-operated oilfields March 20, cutting production from 3.3M to 900K bpd (a ~2.4M bpd loss). 90%+ of Iraqi income is from oil. The IRGC three-tier system had already granted Iraq a 'brotherly' exemption — Iraqi crude tankers were transiting Hormuz under Iranian permission. The 14-day ceasefire creates the path for Iraq to formally lift force majeure and restart production: (a) reduces operator risk premium for foreign companies, (b) reduces shipping/insurance costs, (c) provides political cover for a coordinated restart. CRITICAL MECHANISM: Iraq's restart is the largest single piece of supply restoration available globally — bigger than OPEC+'s 206K bpd, bigger than US SPR releases. If 1.5M-2.0M bpd of Iraqi production comes back online over 2-4 weeks, that's the biggest bearish oil signal of the year and walks back another $5-10/bbl of war premium. Watch for: (a) Iraqi oil ministry statements over the next 48 hours, (b) BP/Eni/CNPC operational updates, (c) Basra port loading data, (d) coordination with Saudi Yanbu bypass (the 40+ anchored VLCCs at Yanbu would be the staging area for Iraqi exports if Basra/Hormuz routes restart). Iraq is the silent largest beneficiary of the ceasefire.",
+      "sources": [
+        "yesterday's evening brief",
+        "Bloomberg Hormuz Tracker",
+        "BP/Eni operational reports",
+        "Iraqi oil ministry"
+      ],
+      "significance": "high"
+    }
+  ],
+  "edges": [
+    {
+      "to": "brent-crude",
+      "type": "supply_offline",
+      "context": "2.4M bpd production offline due to force majeure since March 20. Day 17 with no resolution. Additional supply shock on top of Iranian production losses and Hormuz closure.",
+      "directness": 1,
+      "last_activated": "2026-04-06",
+      "activation_count": 4,
+      "weight": 8.0
+    },
+    {
+      "to": "strait-of-hormuz",
+      "type": "export_dependency",
+      "context": "Iraq's southern oil exports depend on Hormuz transit. Closure made exports impossible, forcing force majeure.",
+      "directness": 1,
+      "last_activated": "2026-03-20",
+      "activation_count": 3,
+      "weight": 8.5
+    },
+    {
+      "to": "iran",
+      "type": "influence_zone",
+      "context": "Iran has significant political/military influence in Iraq. Iraqi Shia militias aligned with Iran. Iraq caught between US and Iran.",
+      "directness": 1,
+      "last_activated": "2026-03-20",
+      "activation_count": 5,
+      "weight": 7.0
+    }
+  ],
+  "trigger_points": [],
+  "current": {
+    "production": "~900K bpd (force majeure)",
+    "pre_war": "3.3M bpd",
+    "restart_potential": "1.5-2.0M bpd over 2-4 weeks if FM lifted"
+  }
+}

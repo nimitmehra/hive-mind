@@ -1,1 +1,114 @@
-{"id": "indian-oil-marketing", "name": "Indian Oil Marketing (IOC/BPCL/HPCL)", "type": "sector", "created": "2026-03-28", "last_updated": "2026-04-07", "summary": "MARGIN CRISIS DEEPENING: Indian crude basket at $120.84/bbl — above every analyst forecast scenario. Government already slashed petrol duty from Rs 13 to Rs 3 and eliminated diesel duty (March 27). No further policy space unless retail prices raised. IOC, BPCL, HPCL absorbing the gap between international prices and controlled domestic prices. Annual fiscal cost estimated at $15-20B. RBI MPC April 6-8 relevant for fiscal/monetary interaction.", "signals": [{"date": "2026-03-28", "content": "IOC fell 3.1%, BPCL fell 2.8% on March 28 — leading the Nifty decline. Government's duty cut provides relief but OMCs still face margin squeeze with Brent at $112. If government instructs OMCs to absorb losses rather than pass through to consumers (as they did before 2024 elections), these companies become fiscal shock absorbers. Combined market cap erosion estimated at $15-20B since war began. (Sources: yfinance, Business Standard, Economic Times)", "sources": ["yfinance", "Business Standard", "Economic Times"], "significance": "high"}, {"date": "2026-04-01", "content": "Government slashed excise duty: petrol from ₹13 to ₹3/liter, diesel duty eliminated entirely (March 27, effective). This is the most aggressive fuel intervention since 2022. Estimated annual fiscal cost: $15-20B. IOC, BPCL, HPCL marketing margins turned NEGATIVE — selling fuel below cost. Oil marketing companies led market decline: Union Bank -6.55%, Canara Bank -5.21%, Bank of Baroda -5.07% (these are banks exposed to OMC credit, not OMCs themselves). Brent at $105-118 keeps pressure intense. Government faces impossible choice: raise retail prices (politically explosive) or absorb losses (fiscal deficit balloons). STT on futures raised 150% effective April 1 (from 0.02% to 0.05%). (Sources: Al Jazeera, Business Standard, 5paisa)", "sources": ["Al Jazeera", "Business Standard", "5paisa"], "significance": "high"}, {"date": "2026-04-03", "content": "Oil at $109-112 keeps marketing margins deeply NEGATIVE for IOC, BPCL, HPCL. Government absorbed cost via duty cuts (petrol ₹13→3, diesel eliminated) — $15-20B fiscal cost annually. No further policy space unless government raises retail prices (politically explosive). STT hike effective April 1 adds trading friction. India closed April 3 (Good Friday). RBI MPC April 6-8 may address OMC fiscal burden. (Sources: Business Standard, Al Jazeera)", "sources": ["Business Standard", "Al Jazeera"], "significance": "high"}, {"date": "2026-04-06", "content": "Indian crude basket at $120.84/bbl — above every analyst forecast scenario. Government already maxed out duty relief: petrol duty slashed from Rs 13 to Rs 3, diesel duty eliminated entirely (March 27). IOC, BPCL, HPCL facing deepening margin squeeze — absorbing the gap between international prices and controlled domestic prices. Annual fiscal cost estimated at $15-20B. No further policy space unless government raises retail prices (politically explosive pre-election). Oil marketing companies are the fiscal shock absorbers of this crisis. RBI MPC Day 1 underway (April 6-8). (Sources: Business Standard, Economic Times, RBI)", "sources": ["Business Standard", "Economic Times", "RBI"], "significance": "high"}, {"date": "2026-04-07", "content": "OMCs still constrained: Indian crude basket at $124/bbl (46% above RBI's $85 February assumption). No fuel price freeze has been formally announced but political pressure to do so is rising as Brent/WTI trade ~$111-116. NOP cap deadline April 10 (T-3) is creating bank-side dollar-unwinding pressure separately. RBI MPC Day 2 deliberations underway; decision Wednesday April 8. Three downside catalysts in 72 hours: deadline tonight, RBI Wed, NOP cap Friday.", "sources": ["NSE", "Bloomberg"], "significance": "high"}], "edges": [{"to": "brent-crude", "type": "cost_exposure", "context": "OMCs buy crude at global prices. Indian crude basket at $120.84/bbl. Every $10 oil increase directly compresses margins unless passed to consumers. At $120+ Brent, margin squeeze is severe and worsening.", "directness": 1, "last_activated": "2026-04-06", "activation_count": 11, "weight": 9.0}, {"to": "india", "type": "fiscal_tool", "context": "Government uses OMCs as fiscal shock absorbers — instructing them to hold prices while absorbing losses. Duty cuts maxed out. No policy space remaining. This protects consumers but erodes OMC balance sheets and government dividend income.", "directness": 1, "last_activated": "2026-04-06", "activation_count": 9, "weight": 8.0}, {"to": "nifty-50", "type": "index_weight", "context": "IOC, BPCL, HPCL are Nifty constituents. Their decline drags the index. Also signals broader India energy vulnerability to institutional investors.", "directness": 1, "last_activated": "2026-03-28", "activation_count": 5, "weight": 6.0}], "trigger_points": [{"condition": "Government instructs OMCs to freeze fuel prices despite $110+ oil", "cascade": ["india", "nifty-50", "rbi"], "mechanism": "Would signal government prioritizing political stability over fiscal health. OMC stocks would crash. Fiscal deficit widens. Rating agency scrutiny increases.", "added": "2026-03-28", "status": "watching"}]}
+{
+  "id": "indian-oil-marketing",
+  "name": "Indian Oil Marketing (IOC/BPCL/HPCL)",
+  "type": "sector",
+  "created": "2026-03-28",
+  "last_updated": "2026-04-08",
+  "summary": "MARGIN CRISIS RESOLVING — LARGEST INDIVIDUAL BENEFICIARIES OF CEASEFIRE. Pre-ceasefire: crude basket $120.84 (46% above RBI $85 baseline), OMCs in margin crisis, government tax space exhausted. Post-ceasefire: Brent -13.5% to $94.47 → crude basket should fall ~$10-12 over next week. IOC/BPCL/HPCL margins expand Rs 3-5/litre over next month if Brent stabilizes at $95. Retail prices stay frozen → entire decline captured by OMCs. Bigger in absolute earnings terms than Bank Nifty rotation. The largest Indian individual-stock beneficiaries of today's ceasefire — bigger than the index move. Watch IOC/BPCL/HPCL pre-open Wednesday.",
+  "signals": [
+    {
+      "date": "2026-03-28",
+      "content": "IOC fell 3.1%, BPCL fell 2.8% on March 28 — leading the Nifty decline. Government's duty cut provides relief but OMCs still face margin squeeze with Brent at $112. If government instructs OMCs to absorb losses rather than pass through to consumers (as they did before 2024 elections), these companies become fiscal shock absorbers. Combined market cap erosion estimated at $15-20B since war began. (Sources: yfinance, Business Standard, Economic Times)",
+      "sources": [
+        "yfinance",
+        "Business Standard",
+        "Economic Times"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-01",
+      "content": "Government slashed excise duty: petrol from ₹13 to ₹3/liter, diesel duty eliminated entirely (March 27, effective). This is the most aggressive fuel intervention since 2022. Estimated annual fiscal cost: $15-20B. IOC, BPCL, HPCL marketing margins turned NEGATIVE — selling fuel below cost. Oil marketing companies led market decline: Union Bank -6.55%, Canara Bank -5.21%, Bank of Baroda -5.07% (these are banks exposed to OMC credit, not OMCs themselves). Brent at $105-118 keeps pressure intense. Government faces impossible choice: raise retail prices (politically explosive) or absorb losses (fiscal deficit balloons). STT on futures raised 150% effective April 1 (from 0.02% to 0.05%). (Sources: Al Jazeera, Business Standard, 5paisa)",
+      "sources": [
+        "Al Jazeera",
+        "Business Standard",
+        "5paisa"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-03",
+      "content": "Oil at $109-112 keeps marketing margins deeply NEGATIVE for IOC, BPCL, HPCL. Government absorbed cost via duty cuts (petrol ₹13→3, diesel eliminated) — $15-20B fiscal cost annually. No further policy space unless government raises retail prices (politically explosive). STT hike effective April 1 adds trading friction. India closed April 3 (Good Friday). RBI MPC April 6-8 may address OMC fiscal burden. (Sources: Business Standard, Al Jazeera)",
+      "sources": [
+        "Business Standard",
+        "Al Jazeera"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-06",
+      "content": "Indian crude basket at $120.84/bbl — above every analyst forecast scenario. Government already maxed out duty relief: petrol duty slashed from Rs 13 to Rs 3, diesel duty eliminated entirely (March 27). IOC, BPCL, HPCL facing deepening margin squeeze — absorbing the gap between international prices and controlled domestic prices. Annual fiscal cost estimated at $15-20B. No further policy space unless government raises retail prices (politically explosive pre-election). Oil marketing companies are the fiscal shock absorbers of this crisis. RBI MPC Day 1 underway (April 6-8). (Sources: Business Standard, Economic Times, RBI)",
+      "sources": [
+        "Business Standard",
+        "Economic Times",
+        "RBI"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-07",
+      "content": "OMCs still constrained: Indian crude basket at $124/bbl (46% above RBI's $85 February assumption). No fuel price freeze has been formally announced but political pressure to do so is rising as Brent/WTI trade ~$111-116. NOP cap deadline April 10 (T-3) is creating bank-side dollar-unwinding pressure separately. RBI MPC Day 2 deliberations underway; decision Wednesday April 8. Three downside catalysts in 72 hours: deadline tonight, RBI Wed, NOP cap Friday.",
+      "sources": [
+        "NSE",
+        "Bloomberg"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-08",
+      "content": "MARGIN CRISIS RESOLVES — IOC/BPCL/HPCL THE LARGEST INDIAN BENEFICIARIES OF CEASEFIRE [REPORTED]. Pre-ceasefire: Indian crude basket at $120.84/bbl (46% above the RBI's $85 baseline assumption), OMCs in margin crisis, government had slashed petrol duty from Rs 13 to Rs 3 and eliminated diesel duty (March 27) leaving zero further policy space. Post-ceasefire: with Brent at $94.47 (-13.5% 1D), the Indian crude basket should fall ~$10-12/bbl over the next week, dramatically restoring OMC margins. The mechanism: (a) crude purchases at lower prices flow through to refining margins in 2-4 weeks, (b) retail fuel prices stay frozen (politically locked), so the entire price decline is captured by the OMCs, (c) the government regains policy space to reinstate fuel duties if needed (though unlikely given the political sensitivity). IOC/BPCL/HPCL margins should expand by Rs 3-5 per litre over the next month if Brent stabilizes around $95. **For the investor, IOC/BPCL/HPCL are the largest individual-stock beneficiaries of today's news in the Indian market** — bigger than the Bank Nifty rally, bigger than the rupee strengthening — because the entire crude price decline flows directly to their bottom line under frozen retail. Bank Nifty +5% reflects sector rotation; OMCs should benefit from EARNINGS revision. The brief should have flagged this — the brief led with Bank Nifty +5% but the OMC story is bigger in absolute earnings terms. Watch IOC/BPCL/HPCL pre-open prints Wednesday.",
+      "sources": [
+        "yesterday's evening brief",
+        "BPCL/IOC/HPCL Q3 results",
+        "Indian Oil Ministry"
+      ],
+      "significance": "high"
+    }
+  ],
+  "edges": [
+    {
+      "to": "brent-crude",
+      "type": "cost_exposure",
+      "context": "OMCs buy crude at global prices. Indian crude basket at $120.84/bbl. Every $10 oil increase directly compresses margins unless passed to consumers. At $120+ Brent, margin squeeze is severe and worsening.",
+      "directness": 1,
+      "last_activated": "2026-04-06",
+      "activation_count": 11,
+      "weight": 9.0
+    },
+    {
+      "to": "india",
+      "type": "fiscal_tool",
+      "context": "Government uses OMCs as fiscal shock absorbers — instructing them to hold prices while absorbing losses. Duty cuts maxed out. No policy space remaining. This protects consumers but erodes OMC balance sheets and government dividend income.",
+      "directness": 1,
+      "last_activated": "2026-04-06",
+      "activation_count": 9,
+      "weight": 8.0
+    },
+    {
+      "to": "nifty-50",
+      "type": "index_weight",
+      "context": "IOC, BPCL, HPCL are Nifty constituents. Their decline drags the index. Also signals broader India energy vulnerability to institutional investors.",
+      "directness": 1,
+      "last_activated": "2026-03-28",
+      "activation_count": 5,
+      "weight": 6.0
+    }
+  ],
+  "trigger_points": [
+    {
+      "condition": "Government instructs OMCs to freeze fuel prices despite $110+ oil",
+      "cascade": [
+        "india",
+        "nifty-50",
+        "rbi"
+      ],
+      "mechanism": "Would signal government prioritizing political stability over fiscal health. OMC stocks would crash. Fiscal deficit widens. Rating agency scrutiny increases.",
+      "added": "2026-03-28",
+      "status": "watching"
+    }
+  ],
+  "current": {
+    "indian_crude_basket": "$120.84/bbl pre-ceasefire → projected ~$108-112 over next week",
+    "margin_relief": "Rs 3-5/litre over next month if Brent stabilizes at $95"
+  }
+}
