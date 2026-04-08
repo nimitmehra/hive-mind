@@ -1,0 +1,88 @@
+{
+  "id": "marine-war-risk-insurance",
+  "name": "Marine War Risk Insurance",
+  "type": "institution",
+  "created": "2026-04-08",
+  "last_updated": "2026-04-08",
+  "summary": "Lloyd's of London-anchored marine war risk insurance market — the operational mechanism that closed the Strait of Hormuz commercially. Pre-crisis cover ~$25K/year per vessel; current Hormuz transit cover $10-14M per voyage (~30,000x pre-crisis). Lloyd's JWC redesignated entire Arabian Gulf as conflict zone. Lloyd's: 'physical normalisation cannot be compressed by political will, executive order, or diplomatic breakthrough — sequential, multi-party reinsurance restoration takes weeks.' This is the binding constraint on physical Hormuz flow restoration even if the ceasefire holds.",
+  "current": {
+    "cover_pre_crisis": "$25K/year per vessel",
+    "cover_current": "$10-14M per voyage (1% of hull value)",
+    "multiplier_vs_pre_crisis": "~30,000x"
+  },
+  "signals": [
+    {
+      "date": "2026-03-18",
+      "content": "Insurance companies began cancelling war risk coverage for vessels in Gulf. Marine war risk insurance prices rising 50-100%. (Source: CNBC, The National)",
+      "sources": [
+        "CNBC",
+        "The National"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-02",
+      "content": "War risk insurance at 1%+ hull value ($10-14M/voyage), 5x pre-crisis levels. Lloyd's JWC redesignated entire Arabian Gulf as conflict zone. Insurance premium IS the market's probability assessment — 'commercial risk logic has become an irregular warfare tool at Hormuz' per Irregular Warfare Journal. Hormuz tanker traffic collapsed 80%+. Commercial closure achieved through insurance costs making transit economically unviable, not through total military blockade. (Source: Lloyd's List, S&P Global, Irregular Warfare Journal)",
+      "sources": [
+        "Lloyd's List",
+        "S&P Global",
+        "Irregular Warfare Journal"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-08",
+      "content": "WAR RISK INSURANCE UNCHANGED ON CEASEFIRE — Lloyd's: 'PHYSICAL NORMALISATION NOT COMPRESSED BY POLITICAL WILL.' Despite Brent crashing -13.5% on the ceasefire, hull war cover for Hormuz transit remains at $10-14M per voyage. Lloyd's: 'Even if a ceasefire takes hold, reinsurers must rebuild risk models from scratch. Each vessel seeking Gulf transit must be individually re-underwritten on a voyage-by-voyage basis. Pricing must clear across the entire reinsurance chain, from treaty reinsurer to P&I club to shipowner. Capacity that was withdrawn at the treaty level must be reinstated through negotiation, not announcement. This is a sequential, multi-party process that cannot be compressed by political will, executive order, or diplomatic breakthrough.' Implication: physical Hormuz flow restoration takes WEEKS even on a holding ceasefire. Brent's -13.5% move prices a faster restoration than is operationally possible.",
+      "sources": [
+        "Lloyd's List",
+        "S&P Global",
+        "propertycasualty360"
+      ],
+      "significance": "high"
+    }
+  ],
+  "edges": [
+    {
+      "to": "strait-of-hormuz",
+      "type": "operational_chokepoint",
+      "context": "War risk insurance pricing IS the operational mechanism that closed Hormuz commercially. $10-14M per voyage makes transit economically unviable for Western-flagged tankers regardless of military blockade status. The 'invisible siege.'",
+      "directness": 1,
+      "last_activated": "2026-04-08",
+      "activation_count": 4,
+      "weight": 8.0
+    },
+    {
+      "to": "shipping-tankers",
+      "type": "cost_structure",
+      "context": "Insurance premium drives shipping rates. $10-14M/voyage forces VLCC charterers to either avoid Hormuz or pass cost to oil buyers. Lloyd's reinsurance restoration is sequential and takes weeks.",
+      "directness": 1,
+      "last_activated": "2026-04-08",
+      "activation_count": 3,
+      "weight": 7.5
+    },
+    {
+      "to": "brent-crude",
+      "type": "supply_constraint",
+      "context": "Insurance constraint persists even on ceasefire — physical flow restoration lags political headlines. Brent's -13.5% ceasefire crash overshoots fair value because insurance won't normalise within 2 weeks.",
+      "directness": 2,
+      "last_activated": "2026-04-08",
+      "activation_count": 2,
+      "weight": 5.5
+    }
+  ],
+  "trigger_points": [
+    {
+      "condition": "Lloyd's JWC removes Arabian Gulf from conflict zone designation",
+      "cascade": [
+        "strait-of-hormuz",
+        "brent-crude",
+        "shipping-tankers",
+        "india",
+        "natural-gas-lng"
+      ],
+      "mechanism": "Insurance restoration is the binding constraint on physical Hormuz reopening. Until Lloyd's JWC formally lifts the conflict-zone designation, individual voyage underwriting persists at extreme rates. This is a more operationally meaningful trigger than the political ceasefire — the insurance market signals when normal commerce can actually resume.",
+      "added": "2026-04-08",
+      "status": "watching"
+    }
+  ]
+}
