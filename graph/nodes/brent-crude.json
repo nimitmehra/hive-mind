@@ -3,13 +3,13 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Brent $94.47 (-13.5% 1D) — BIGGEST SINGLE-DAY FALL SINCE 1991 GULF WAR. WTI $96.00 (-15.0%). Heating Oil $3.66 (-18.2% — distillate trade unwound). Trump's 14-day ceasefire promises 'COMPLETE OPENING' of Hormuz; Iran's 'controlled passage' framing is structurally different. Front-month over-shot to downside on relief; physical normalisation takes weeks (Lloyd's). TD/Goldman/JPM tail risk scenarios repriced out. Fair value $98-105 if deal holds, $115+ if Friday Islamabad talks fail. Pre-crisis $70 → war high ~$118 → now $94. ~50% war premium retraced.",
+  "last_updated": "2026-04-09",
+  "summary": "Brent $96.61 (+1.96% Apr 9) — futures have overshot to downside on ceasefire hope; physical market disagrees by $24+. Dated Brent physical still $120+, Dubai physical $126-140 (EBC Financial Group). Futures-physical gap widest since 2008. Ceasefire already fracturing: Lebanon exclusion, Iran Hormuz re-closure confirmed by Bloomberg AIS, only 3-4 ships through Hormuz Apr 8-9. If ceasefire collapses, futures snap to $110-120 within 24-48 hours. Goldman $85 avg / $71 Q4 and JPM $150 upside scenario both remain operative. No analyst has revised forecasts. War risk insurance unchanged at 2.5-5% of vessel value. Pre-crisis $70 → war high ~$118 → ceasefire crash $94.47 → partial reversal $96.61.",
   "current": {
-    "price": "$94.47/bbl",
-    "delta_1d": "-13.5%",
-    "delta_1m": "-4.5%",
-    "delta_3m": "+52.4%"
+    "price": "$96.75/bbl",
+    "delta_1d": "-11.5%",
+    "delta_1m": "-2.2%",
+    "delta_3m": "+56.1%"
   },
   "price_snapshots": [
     {
@@ -107,6 +107,18 @@
       "price": "$94.47/bbl",
       "trigger": "Trump-Iran 14-day ceasefire announcement — biggest single-day Brent fall since 1991 Gulf War",
       "delta_context": "Crashed -13.5% from $110.80 in 12 hours; Heating Oil -18.2%, WTI -15.0%, RBOB -13.5%; war risk insurance unchanged ($10-14M/voyage)"
+    },
+    {
+      "date": "2026-04-08",
+      "price": "$96.75/bbl",
+      "trigger": "Ceasefire crash — biggest single-day drop since April 2020",
+      "delta_context": "-11.5% from $109.27; Goldman risk premium $14→$4-6; BUT physical Dated Brent still $120+ = $24 gap"
+    },
+    {
+      "date": "2026-04-09",
+      "price": "$96.61/bbl",
+      "trigger": "Day 2 bounce — ceasefire euphoria fading",
+      "delta_context": "+1.96% from $94.75 close; Lebanon exclusion + Hormuz re-closure driving partial reversal"
     }
   ],
   "signals": [
@@ -363,6 +375,31 @@
         "market-data.py"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Brent crude crashed 11.5% from $109.27 to $96.75 on April 8 — biggest single-day drop since April 2020 — on 14-day Pakistan-brokered ceasefire announcement. Goldman Sachs risk premium compressed from $14/bbl to $4-6/bbl. BUT THE CRITICAL DISCONNECT: Dated Brent physical spot remained above $120/bbl (CNBC, S&P Global); Dubai physical $126-140/bbl (EBC Financial Group). The $24+ futures-physical gap is the widest since 2008. Amrita Sen (Energy Aspects): futures giving 'false sense of security... the financial market is almost masking the true tightness.' Physical barrels CANNOT move: only 3-4 ships transited Hormuz April 8-9, 40+ VLCCs still anchored at Yanbu with 5-day waits, war risk insurance unchanged at 2.5-5% of vessel value. (Source: Bloomberg, Goldman Sachs, CNBC, S&P Global, EBC Financial Group, Energy Aspects)",
+      "sources": [
+        "Bloomberg",
+        "Goldman Sachs",
+        "CNBC",
+        "S&P Global",
+        "EBC Financial Group",
+        "Energy Aspects"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Brent bounced to $96.61 (+1.96%) on April 9 as ceasefire euphoria faded. WTI $96.94 (+2.84%). Drivers: (1) Lebanon exclusion undermining ceasefire durability, (2) Iran's Hormuz re-closure confirmed by Bloomberg AIS, (3) only 4 ships through Hormuz on April 9. Jason Schenker (Prestige Economics): 'Almost anything going wrong in these talks could very quickly put us back above $100.' No analyst has revised forecasts — Goldman $85 avg / $71 Q4 and JPM $150 upside scenario remain operative. (Source: Trading Economics, Fortune, CNN, NPR, NBC News)",
+      "sources": [
+        "Trading Economics",
+        "Fortune",
+        "CNN",
+        "NPR",
+        "NBC News"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
@@ -371,8 +408,8 @@
       "type": "supply_dependency",
       "context": "Ceasefire promises 'complete opening' but Iran's 'controlled passage' framing is structurally different. Brent -13.5% prices the Trump framing; Lloyd's physical-flow lag means actual normalisation is weeks away.",
       "directness": 1,
-      "last_activated": "2026-04-08",
-      "activation_count": 25,
+      "last_activated": "2026-04-09",
+      "activation_count": 26,
       "weight": 10.0
     },
     {
@@ -380,8 +417,8 @@
       "type": "import_cost",
       "context": "India imports 85-90% of crude. At $109/bbl post-address, massive additional import cost. Every $10/bbl increase = ~$15B additional import bill. RBI MPC April 6-8 facing 'trade-off central banks dislike most.'",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 19,
+      "last_activated": "2026-04-09",
+      "activation_count": 20,
       "weight": 10.0
     },
     {
@@ -389,8 +426,8 @@
       "type": "cost_pressure",
       "context": "Higher oil = more dollar demand for imports = rupee depreciation. Post-address oil back at $109 removes the $102 relief. Hormuz structural floor means no return to $70 pre-war. INR at 93.14 (offshore).",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 16,
+      "last_activated": "2026-04-09",
+      "activation_count": 17,
       "weight": 10.0
     },
     {
@@ -398,8 +435,8 @@
       "type": "inflation_input",
       "context": "Oil at $109 post-address = inflation stays elevated = Fed can't cut. ISM Prices Index at 78.3 (highest since June 2022). Oil back above $105 eliminates any rate-cut pathway. Stagflation trap deepens.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 14,
+      "last_activated": "2026-04-09",
+      "activation_count": 15,
       "weight": 10.0
     },
     {
@@ -407,8 +444,8 @@
       "type": "earnings_risk",
       "context": "Post-address oil at $109 re-compresses margins. S&P +2.9% (Apr 1), -0.52% (Apr 2). XLE -3.7% while oil +8.3% = energy stocks trading 'peak oil' / demand destruction, not tracking crude higher.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 12,
+      "last_activated": "2026-04-09",
+      "activation_count": 13,
       "weight": 10.0
     },
     {

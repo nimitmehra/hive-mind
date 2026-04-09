@@ -3,8 +3,8 @@
   "name": "Pakistan",
   "type": "country",
   "created": "2026-03-30",
-  "last_updated": "2026-04-08",
-  "summary": "Day 40. PAKISTAN AT CENTER OF WAR DIPLOMACY. PM Sharif brokered the 2-week US-Iran ceasefire announced ~2 hours before deadline. Iran SNSC formally accepted citing Pakistani notification of US acceptance of 10-point plan as basis. Talks open Friday April 10 in Islamabad with VP Vance leading US delegation. Asim Munir + Sharif emerge as primary mediators. Biggest Pakistani geopolitical moment since 2001. Pakistan sits at the centre of Hormuz, US-Iran, China-Iran, Saudi-Iran diplomatic axes simultaneously.",
+  "last_updated": "2026-04-09",
+  "summary": "Day 41. STRUCTURAL FAULT LINE EXPOSED: PM Sharif contradicted both Trump and Netanyahu on ceasefire scope, stating it covers 'everywhere including Lebanon' — creating a three-way contradiction (Trump: Lebanon is 'separate skirmish'; Netanyahu: explicitly excluded Lebanon; Iran's 10-point plan includes Lebanon per Sharif). Friday April 10 Islamabad talks are the next binary event — success extends ceasefire, failure collapses it. Pakistan media running zero-skepticism triumphalist coverage: 'Pakistan saves a whole civilisation.' Asim Munir + Sharif positioned as primary mediators. Pakistan sits at the centre of Hormuz, US-Iran, China-Iran, Saudi-Iran diplomatic axes simultaneously.",
   "signals": [
     {
       "date": "2026-03-26",
@@ -119,25 +119,36 @@
         "Iran International"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Pakistan PM Sharif contradicted both Trump and Netanyahu on ceasefire scope, stating it covers 'everywhere including Lebanon' — creating a three-way contradiction that is the structural fault line for Friday April 10 Islamabad talks. Trump called Lebanon a 'separate skirmish'; Netanyahu explicitly excluded Lebanon; Iran's 10-point plan includes Lebanon per Sharif's reading. Pakistan media running zero-skepticism triumphalist coverage: 'Pakistan saves a whole civilisation.' Friday Islamabad talks are the next binary event — success extends ceasefire, failure collapses it. (Source: NBC News, CBS News, Express Tribune, Pakistan Today)",
+      "sources": [
+        "NBC News",
+        "CBS News",
+        "Express Tribune",
+        "Pakistan Today"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "mediation_channel",
-      "context": "Day 40. Pakistan brokered 2-week ceasefire that Iran SNSC formally accepted. Talks Friday April 10 in Islamabad. Pakistan now Iran's primary diplomatic conduit to US.",
+      "context": "Day 41. Sharif contradicted Trump/Netanyahu on Lebanon scope — structural fault line for Friday talks. Pakistan now Iran's primary diplomatic conduit to US. Ceasefire framework's credibility rests on Pakistan's mediation.",
       "directness": 1,
-      "last_activated": "2026-04-08",
-      "activation_count": 9,
+      "last_activated": "2026-04-09",
+      "activation_count": 10,
       "weight": 10.0
     },
     {
       "to": "united-states",
       "type": "mediation_channel",
-      "context": "Day 40. Sharif brokered ceasefire framework that Trump accepted ~2 hours pre-deadline. Vance to lead US delegation Friday in Islamabad. Pakistan now the operational mediator of the war.",
+      "context": "Day 41. Sharif's Lebanon scope contradiction with Trump creates structural fault line ahead of Friday talks. Vance leading US delegation. Pakistan's zero-skepticism triumphalist media coverage risks overpromising.",
       "directness": 1,
-      "last_activated": "2026-04-08",
-      "activation_count": 8,
+      "last_activated": "2026-04-09",
+      "activation_count": 9,
       "weight": 10.0
     },
     {

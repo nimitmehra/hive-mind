@@ -3,8 +3,8 @@
   "name": "Reserve Bank of India",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "MPC DECISION DELIVERED 10 AM IST — repo HELD at 5.25%, neutral stance retained, OMO/FX swap commitment reaffirmed. Matched 69/71 Reuters consensus. Vote split REPORTED 6-0 unanimous on rate (Ram Singh dissent on stance possible Feb carry-over — pending confirmation from resolution text). Market treating as non-event; 80% of Indian rally is crisis (ceasefire), 20% policy. **Three high-priority unknowns reserved for 12 noon Malhotra press conference**: (1) exact FY27 CPI revision, (2) FY27 GDP revision, (3) NOP cap extension/grandfathering decision (banks' April 10 deadline). The presser is the high-information event.",
+  "last_updated": "2026-04-09",
+  "summary": "ALL THREE UNKNOWNS RESOLVED at Malhotra's 12 noon presser. Repo HELD 5.25%, neutral stance, 6-0 unanimous (Ram Singh dissented on stance — argued for accommodative). FY27 CPI 4.6% (lower than consensus 4.7-5.1%, ceasefire partially walked back revision). FY27 GDP 6.9% (down from 7.6% but ABOVE consensus 6.5-6.8%). NOP cap April 10 deadline STANDS, no extension — but Malhotra called curbs 'temporary' and 'reactive,' banks already unwound ~75% ($30B of ~$40B). Most dovish forward guidance since Malhotra became Governor: 'Interest rates are likely to remain low in the medium to long term.' June 25bps cut pathway OPEN if Brent stays below $100.",
   "signals": [
     {
       "date": "2026-03-04",
@@ -199,43 +199,66 @@
         "Republic World"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Governor Malhotra's April 8 12 noon IST press conference resolved three high-priority unknowns: (1) FY27 CPI projected at 4.6% (Q1 4.0%, Q2 4.4%, Q3 5.2% peak, Q4 4.7%) — lower than pre-meeting consensus of 4.7-5.1%, ceasefire (Brent at $94 vs $85 baseline) partially walked back larger revision. (2) FY27 GDP projected at 6.9% (Q1 6.8%, Q2 6.7%, Q3 7.0%, Q4 7.2%) — down from 7.6% but higher than consensus 6.5-6.8%. (3) NOP cap April 10 deadline STANDS, no extension — but Malhotra called curbs 'temporary' and 'reactive,' 'should not be considered a structural change.' Banks already unwound ~75% ($30B of ~$40B), remaining ~$10B manageable. (Source: Upstox, BusinessToday, Bloomberg, The Print, MarketScreener, FreePressJournal)",
+      "sources": [
+        "Upstox",
+        "BusinessToday",
+        "Bloomberg",
+        "The Print",
+        "MarketScreener",
+        "FreePressJournal"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Most dovish forward guidance since Malhotra became Governor: 'Interest rates are likely to remain low in the medium to long term.' Vote split: 6-0 unanimous on hold at 5.25%. Ram Singh dissented on STANCE — argued for shift from 'neutral' to 'accommodative.' If oil stays below $100, RBI has room for 25bps cut at June MPC. (Source: The Print, Upstox, BusinessToday)",
+      "sources": [
+        "The Print",
+        "Upstox",
+        "BusinessToday"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
     {
       "to": "india",
       "type": "monetary_policy",
-      "context": "RBI MPC April 6-8 — imported inflation vs growth dilemma. NOP cap deadline April 10 firm. Banks unwinding $30-40B with estimated MTM losses Rs 3,000-4,000 crore. India 10Y at 7.00-7.04%.",
+      "context": "RBI held 5.25%, dovish forward guidance. FY27 CPI 4.6%, GDP 6.9%. NOP cap April 10 STANDS but 'temporary.' India 10Y collapsed to 6.91%. June 25bps cut pathway open if oil stays below $100.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 13,
+      "last_activated": "2026-04-09",
+      "activation_count": 14,
       "weight": 10.0
     },
     {
       "to": "inr-usd",
       "type": "intervention",
-      "context": "NOP cap deadline April 10 firm. $30-40B positions need squaring — creating mechanical INR buying pressure. RBI MPC April 6-8. India 10Y at 7.00-7.04%.",
+      "context": "NOP cap April 10 deadline STANDS — Malhotra called curbs 'temporary' and 'reactive.' Banks unwound ~75% ($30B of ~$40B), remaining ~$10B manageable. INR at ₹92.55 strengthening.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 18,
+      "last_activated": "2026-04-09",
+      "activation_count": 19,
       "weight": 10.0
     },
     {
       "to": "nifty-50",
       "type": "rate_expectations",
-      "context": "RBI MPC April 6-8 — rate decision impacts equity valuations. NOP cap blowback: Bank Nifty -3.8% March 30, +2.3% April 1 recovery. MTM losses Rs 3,000-4,000 crore. India 10Y breached 7%.",
+      "context": "Dovish hold + dovish forward guidance. India 10Y collapsed to 6.91%. Bank Nifty +5.0% on rate cut hopes. June 25bps cut pathway open — NIM expansion narrative strengthening.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 8,
+      "last_activated": "2026-04-09",
+      "activation_count": 9,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "policy_constraint",
-      "context": "Oil above $100 = inflation risk = RBI can't cut. Brent crash to $101.97 eases pressure but still above $100. CPI at 3.21% but imported inflation threatens to push higher. Oil is the binding constraint on monetary policy.",
+      "context": "Brent at $96.75 — below $100 for first time. Oil constraint on RBI easing significantly. FY27 CPI projection 4.6% (lower than consensus) reflects ceasefire oil relief. If oil stays below $100, June 25bps cut becomes base case.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 11,
+      "last_activated": "2026-04-09",
+      "activation_count": 12,
       "weight": 10
     }
   ],
@@ -247,7 +270,7 @@
         "india",
         "inr-usd"
       ],
-      "mechanism": "Would signal panic mode. Would crash equities but might stabilize rupee temporarily. Last resort.",
+      "mechanism": "FURTHER AWAY after dovish forward guidance ('interest rates likely to remain low in medium to long term'). June 25bps CUT is now more likely than any hike if oil stays below $100. Would signal panic mode. Would crash equities but might stabilize rupee temporarily. Last resort.",
       "added": "2026-03-23",
       "status": "watching"
     },
@@ -258,7 +281,7 @@
         "india",
         "inr-usd"
       ],
-      "mechanism": "Unexpected hike would signal RBI prioritizing inflation/rupee defense over growth. Would crash equities but stabilize rupee temporarily. Low probability given CPI at 3.21% but oil above $100 creates imported inflation risk.",
+      "mechanism": "FURTHER AWAY — MPC held 5.25% with most dovish forward guidance since Malhotra became Governor. June 25bps CUT is now base case if oil stays below $100. Ram Singh dissented toward accommodative, not hawkish. Hike scenario effectively off the table unless oil spikes back above $110+ AND ceasefire collapses.",
       "added": "2026-04-02",
       "status": "watching"
     }

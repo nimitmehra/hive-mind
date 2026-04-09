@@ -3,8 +3,8 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Day 40. CEASEFIRE — Trump promises 'COMPLETE OPENING'; Iran promises 'controlled passage via coordination with armed forces.' Same words, opposite meaning. Iran's structural position (sovereignty + selective control + IRGC toll regime) is unchanged. Markets repriced as if Trump's framing is real — Brent -13.5% (biggest fall since 1991), war risk insurance unchanged at $10-14M/voyage. Lloyd's: physical normalisation 'sequential, multi-party process — not compressed by political will.' Friday April 10 Islamabad talks are the test. IRGC declared 'New Persian Gulf Order' — Hormuz will 'never return to its former state.'",
+  "last_updated": "2026-04-09",
+  "summary": "Day 41. RE-CLOSURE PROVES TOGGLE MECHANISM. Iran re-closed the Strait on April 8-9 citing Israeli strikes on Lebanon ('Operation Eternal Darkness') as ceasefire violation — Bloomberg ship-tracking confirms only 3-4 ships transited April 8-9 vs 11 on Tuesday and 9 on Monday. 479 vessels remain stranded (426 tankers, 34 LPG, 19 LNG). First post-ceasefire transits were 2 bulk carriers (NOT oil tankers). White House called re-closure 'false' — contradicted by Bloomberg AIS data. War risk insurance dipped post-ceasefire (0.35-0.45% vs peak 3.5-10%) but remains 7-10x pre-war. CBS News: even if ceasefire holds perfectly, oil exports return to previous levels by July 2026 at earliest. Iran has demonstrated Hormuz as a coercive toggle linked to Lebanon front — open/close keyed to Israeli compliance, not unconditional. IRGC 'New Persian Gulf Order' operational.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -283,25 +283,50 @@
         "S&P Global"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Iran RE-CLOSED the Strait of Hormuz on April 8-9 citing Israeli strikes on Lebanon as a ceasefire violation. Bloomberg ship-tracking data shows only 3-4 ships transited April 8-9, down from 11 on Tuesday and 9 on Monday. First post-ceasefire transits were 2 bulk carriers (Greek-owned NJ Earth and Liberia-flagged Daytona Beach) — NOT oil tankers. 479 vessels remain stranded including 426 tankers, 34 LPG carriers, 19 LNG ships per MarineTraffic. Pre-war throughput ~100-120 vessels/day; current ~4-5/day = 95%+ reduction persists. White House Press Secretary Leavitt called re-closure 'false'; Defense Secretary Hegseth: 'The strait is open' — both contradicted by Bloomberg operational data. CBS News timeline: even if ceasefire holds perfectly, oil exports return to previous levels by July 2026 at earliest.",
+      "sources": [
+        "Bloomberg",
+        "CNBC",
+        "CBS News",
+        "Euronews",
+        "Fars News",
+        "19FortyFive",
+        "Gulf News"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "War risk insurance rates dipped post-ceasefire to 0.35-0.45% of vessel value (from peak 3.5-10%), but remain 7-10x pre-war levels. For a $150M LNG carrier, still adds ~$500K-$675K per voyage. Neil Roberts (LMA): 'It is highly unlikely that trade into the Gulf will simply resume.' Reinsurers exercised 72-hour cancellation clauses at war start; restoring coverage takes weeks, not days. Lloyd's Market Association confirmed 88% of participants still have appetite to underwrite hull war risks.",
+      "sources": [
+        "TT News",
+        "CBS News",
+        "LMA",
+        "S&P Global"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "territorial_control",
-      "context": "Day 40. Iran's 'controlled passage via coordination with armed forces' framing in ceasefire text formalizes IRGC toll regime as compliance mechanism. Even bilateral deal does not deliver unconditional freedom.",
+      "context": "Day 41. Iran RE-CLOSED Hormuz citing Israeli Lebanon strikes as ceasefire violation. Toggle mechanism confirmed: Iran opens/closes keyed to Israeli compliance. Bloomberg AIS data: 3-4 ships April 8-9 vs 11 Tuesday. White House denial contradicted by operational data. 479 vessels stranded.",
       "directness": 1,
-      "last_activated": "2026-04-08",
-      "activation_count": 20,
+      "last_activated": "2026-04-09",
+      "activation_count": 21,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "supply_chokepoint",
-      "context": "Ceasefire announcement triggered Brent -13.5% to $94.47 — biggest single-day fall since 1991 Gulf War. Lloyd's notes physical flow restoration is sequential and takes weeks. Fair value $98-105 if deal holds.",
+      "context": "Day 41. Iran re-closed Hormuz within 18 hours of ceasefire — proving toggle mechanism. CBS News: oil exports return to previous levels by July 2026 at earliest even if ceasefire holds perfectly. War risk insurance 7-10x pre-war despite post-ceasefire dip. Physical flow restoration timeline measured in months, not days.",
       "directness": 1,
-      "last_activated": "2026-04-08",
-      "activation_count": 22,
+      "last_activated": "2026-04-09",
+      "activation_count": 23,
       "weight": 10
     },
     {
@@ -316,10 +341,10 @@
     {
       "to": "shipping-tankers",
       "type": "route_disruption",
-      "context": "Hormuz tanker traffic collapsed 80%+. War risk insurance at 1%+ hull value ($10-14M/voyage). Lloyd's JWC redesignated entire Arabian Gulf as conflict zone. Attack pattern expanding: Hormuz → Dubai (Al-Salmi) → Qatar waters (AQUA 1). ~40 VLCCs anchored outside Yanbu with 5-day waits. Weekly transits hit war-high 21 ships over weekend but still ~1/7 of pre-war daily 138.",
+      "context": "Day 41. Re-closure: 3-4 ships April 8-9, 479 stranded (426 tankers, 34 LPG, 19 LNG). First post-ceasefire transits were bulk carriers NOT oil tankers. War risk insurance dipped to 0.35-0.45% but remains 7-10x pre-war. LMA: 'highly unlikely trade into the Gulf will simply resume.' Reinsurance restoration takes weeks.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 19,
+      "last_activated": "2026-04-09",
+      "activation_count": 20,
       "weight": 10
     },
     {
@@ -360,7 +385,7 @@
         "shipping-tankers",
         "nifty-50"
       ],
-      "mechanism": "Single biggest potential catalyst for oil price drop, India relief, rupee recovery, and equity market rebound. Would signal de-escalation. | UPDATE 2026-04-07: Bloomberg Hormuz Tracker confirms weekly transits at WAR HIGHS via Iran's three-tier system. THIS IS PARTIAL REOPENING in fact, though Iran calls it selective regulation rather than reopening. Trigger condition technically met for 'partial' interpretation but markets/policy still treat the Strait as closed to Western flows. Status remains WATCHING pending official acknowledgment by either side, but the FACT of partial opening is now confirmed.",
+      "mechanism": "Single biggest potential catalyst for oil price drop, India relief, rupee recovery, and equity market rebound. Would signal de-escalation. | UPDATE 2026-04-07: Bloomberg Hormuz Tracker confirms weekly transits at WAR HIGHS via Iran's three-tier system. THIS IS PARTIAL REOPENING in fact, though Iran calls it selective regulation rather than reopening. | UPDATE 2026-04-09: Iran RE-CLOSED Hormuz within 18 hours of ceasefire citing Israeli Lebanon strikes. Toggle mechanism confirmed — Iran can open/close at will keyed to Israeli compliance. Re-closure is NOT a new closure but a continuation of the controlled passage framework. Status remains WATCHING — the pattern is toggle (partial open/close), not sustained unconditional reopening.",
       "added": "2026-03-23",
       "status": "watching"
     },

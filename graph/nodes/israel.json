@@ -3,8 +3,8 @@
   "name": "Israel",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Day 40. Israel BACKS bilateral US-Iran 2-week ceasefire — but EXCLUDED Lebanon. Hezbollah operations continue. Netanyahu reportedly initially urged Trump AGAINST the ceasefire, then backed it after the announcement. Pre-ceasefire executed most intense strike day of the war: South Pars #2, Khademi killed, Tehran airports, bridges, railways, Shiraz petrochemical. Iranian cluster munition salvo hit ~50 central Israel sites, 6 wounded. Operational objectives largely achieved (~85% Iranian petrochemical destruction, IRGC intel decapitation). Lebanon exclusion is the structural risk — Iran's 10-point plan demanded all-fronts ceasefire.",
+  "last_updated": "2026-04-09",
+  "summary": "Day 41. OPERATION ETERNAL DARKNESS — ceasefire's predicted failure mode materialized within 18 hours. 50 IAF jets struck 100 Hezbollah targets across Lebanon in 10 minutes using ~160 munitions. Central Beirut struck WITHOUT prior warning. 254 killed, 1,165 wounded — single deadliest day of the 2026 Lebanon war. Defense Minister Katz compared it to '2024 beeper operation.' Netanyahu explicitly stated ceasefire 'does not include Lebanon.' Trump called Lebanon a 'separate skirmish.' Pakistan PM Sharif directly contradicted both, stating ceasefire covers 'everywhere including Lebanon.' This three-way contradiction on ceasefire scope is the structural fault line for Friday Islamabad talks. Iran re-closed Hormuz citing these strikes as ceasefire violation.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -279,43 +279,67 @@
         "Al Jazeera"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Israel launched 'Operation Eternal Darkness' on April 8 — 50 IAF fighter jets struck 100 Hezbollah targets across Lebanon in 10 minutes using approximately 160 munitions. Central Beirut struck WITHOUT prior warning. At least 254 killed, 1,165 wounded — the single deadliest day of the 2026 Lebanon war. Defense Minister Katz: 'Today Hezbollah has suffered its heaviest blow since the 2024 beeper operation.' This was the predicted failure mode flagged in the April 8 brief: 'Any IDF strike on Beirut during Friday Islamabad talks gives Iran's hardliners cause to claim bad faith.' It happened within 18 hours, not even waiting for Friday.",
+      "sources": [
+        "Al Jazeera",
+        "Times of Israel",
+        "Middle East Eye",
+        "PBS NewsHour",
+        "UN News"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Netanyahu explicitly stated ceasefire 'does not include Lebanon,' reaffirmed continued operations against Hezbollah. Trump called Lebanon a 'separate skirmish.' Pakistan PM Sharif directly contradicted both, stating ceasefire covers 'everywhere including Lebanon' citing Iran's 10-point plan. This creates a three-way contradiction on ceasefire scope that is the structural fault line for Friday Islamabad talks.",
+      "sources": [
+        "Times of Israel",
+        "PBS",
+        "Fox News",
+        "NBC News",
+        "CBS News"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "active_conflict",
-      "context": "Day 40. Israel backs bilateral ceasefire with Iran but excludes Lebanon. Pre-ceasefire IDF executed 'most intense day' striking South Pars #2, Tehran airports, bridges, railways. Iran-Israel direct exchange suspended; Israel-Hezbollah continues.",
+      "context": "Day 41. Operation Eternal Darkness (254 killed in Lebanon) triggered Iran to re-close Hormuz, IRGC to issue 'unprecedented retaliation' instructions. Ceasefire fractured within 18 hours. Israel's Lebanon strikes are the proximate cause of Iran's ceasefire violation framing. Direct Iran-Israel exchange remains suspended; indirect escalation via Lebanon front.",
       "directness": 1,
-      "last_activated": "2026-04-08",
-      "activation_count": 26,
+      "last_activated": "2026-04-09",
+      "activation_count": 27,
       "weight": 10.0
     },
     {
       "to": "united-states",
       "type": "military_alliance",
-      "context": "Joint operations. US 82nd Airborne in theater. Trump's '2-3 weeks' exit timeline diverges from Netanyahu's 'no scale-back' posture. IDF expanding to economic infrastructure destruction (steel, pharma) while Trump signals exit. Allies not coordinating exit strategy.",
+      "context": "Day 41. Netanyahu and Trump aligned on Lebanon exclusion from ceasefire ('separate skirmish'). Pakistan PM Sharif contradicts both. Operation Eternal Darkness executed on Ceasefire Day 1 — Trump did not publicly object. US-Israel alignment on Lebanon = structural divergence from Iran/Pakistan interpretation of deal scope.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 18,
+      "last_activated": "2026-04-09",
+      "activation_count": 19,
       "weight": 10.0
     },
     {
       "to": "lebanon",
       "type": "ground_war",
-      "context": "Day 40. Israel explicitly EXCLUDED Lebanon from US-Iran 2-week ceasefire. Hezbollah operations continue. April 6 strike on Christian town Ain Saadeh killed anti-Hezbollah politician and wife.",
+      "context": "Day 41. Operation Eternal Darkness: 50 IAF jets, 100 targets, ~160 munitions, 254 killed, 1,165 wounded — single deadliest day of 2026 Lebanon war. Central Beirut struck WITHOUT prior warning. Targets: Hezbollah command centers, intelligence HQ, rocket units, naval units, Radwan Force, aerial infrastructure. Netanyahu: ceasefire 'does not include Lebanon.'",
       "directness": 1,
-      "last_activated": "2026-04-08",
-      "activation_count": 15,
+      "last_activated": "2026-04-09",
+      "activation_count": 16,
       "weight": 9.0
     },
     {
       "to": "hezbollah",
       "type": "active_conflict",
-      "context": "Hezbollah CLAIMS cruise missile direct hit on Israeli warship 68nm off Lebanese coast (IDF denies). 15+ killed in Israel's Lebanon strikes April 5-6. Masnaa border crossing forced closed. IDF Chief Zamir vowed to 'intensify strikes.' Lebanon total: 1,460+ killed. Decapitation + area bombardment campaign continuing.",
+      "context": "Day 41. Operation Eternal Darkness: heaviest single-day Hezbollah losses of the war — 254 killed, 1,165 wounded. Katz compared to '2024 beeper operation.' Hezbollah initially complied with ceasefire, resumed missile attacks on northern Israel April 9 after the strikes. Ceasefire scope contradiction is the structural fault line.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 16,
+      "last_activated": "2026-04-09",
+      "activation_count": 17,
       "weight": 10.0
     },
     {

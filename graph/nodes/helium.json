@@ -3,8 +3,8 @@
   "name": "Helium",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Day 1 of TrendForce April 7-10 production-cut window passed with NO Samsung/SK Hynix shutdown. Ceasefire-day rally: Samsung +13%, SK Hynix +11%, KOSPI +8.4%. Helium-cliff-fading attributable for ~25% of the move. South Korea 64.7% Qatar-sourced. Bank of America: spot helium doubled since disruption. Three of six majors on allocation, fabs at 50% contracted volumes. Samsung HeRS limiting damage. Physical Ras Laffan restart takes weeks even on holding ceasefire. By April 10 if no shutdown announcement, the cliff scenario is dead.",
+  "last_updated": "2026-04-09",
+  "summary": "Day 2 of TrendForce April 7-10 window — NO production cut announced. KOSPI +6.87% Apr 8 (Samsung +7.38%, SK Hynix +13.65%) on ceasefire helium relief + Samsung Q1 earnings beat. April 9 profit-taking: KOSPI -1.4%, Samsung -3.1%, SK Hynix -2.4%. Physical helium delivery from Ras Laffan takes 3-4 weeks minimum even if ceasefire holds. Fabs remain on 50% allocation. By April 10 with no TrendForce production-cut announcement, the helium cliff bear case is functionally dead.",
   "current": {
     "price": "Spot prices doubled; 50% allocation cuts confirmed",
     "delta_1d": "KOSPI -4.47% (Samsung -5.91%, SK Hynix -6.83%)",
@@ -186,6 +186,16 @@
         "Fortune"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Ceasefire bought time for semiconductor fabs on helium allocations. KOSPI +6.87% April 8 with Samsung +7.38%, SK Hynix +13.65% on combined ceasefire helium relief and Samsung Q1 earnings beat. TrendForce production cut announcement window (April 7-10) potentially delayed — no formal shutdown announcement yet. BUT: physical helium delivery from Ras Laffan takes 3-4 weeks minimum even if ceasefire holds — pipeline damage assessment, restart procedures, shipping logistics. Fabs remain on 50% allocation per TrendForce 'two-week clock.' April 9 profit-taking: KOSPI -1.4%, Samsung -3.1%, SK Hynix -2.4%. By April 10 with no TrendForce production-cut announcement, the bear case is functionally dead. (Source: Seoul Economic Daily, Trading Economics, Tom's Hardware)",
+      "sources": [
+        "Seoul Economic Daily",
+        "Trading Economics",
+        "Tom's Hardware"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
@@ -194,32 +204,32 @@
       "type": "production_dependency",
       "context": "Qatar's Ras Laffan = 30% of world helium. One of only 2 semiconductor-grade helium plants globally. Now offline. ~200 containers stranded. Even peace signal doesn't resolve 5-year repair timeline.",
       "directness": 1,
-      "last_activated": "2026-04-06",
-      "activation_count": 10,
+      "last_activated": "2026-04-09",
+      "activation_count": 11,
       "weight": 10
     },
     {
       "to": "sp-500",
       "type": "tech_supply_risk",
-      "context": "TrendForce production cut announcement window April 7-10. KOSPI -4.47% (Samsung -5.91%, SK hynix -6.83%) pricing risk. If formal production cut announced, cascade to global tech supply chain via SMH/NASDAQ.",
+      "context": "TrendForce production cut announcement window April 7-10. No shutdown announced. SMH +5.8% on helium relief. Ceasefire bought time for fab allocations.",
       "directness": 2,
-      "last_activated": "2026-04-06",
-      "activation_count": 10,
+      "last_activated": "2026-04-09",
+      "activation_count": 11,
       "weight": 10
     },
     {
       "to": "south-korea",
       "type": "supply_chain_cascade",
-      "context": "Qatar supplies 64.7% of South Korea's helium (KITA). Samsung/SK Hynix at 50% allocations. KOSPI -4.47% reversing relief rally. Samsung foreign ownership at 12.5-year low (48.6%). April 7-10 production cut announcement window open.",
+      "context": "Qatar supplies 64.7% of South Korea's helium (KITA). Samsung/SK Hynix at 50% allocations. KOSPI +6.87% on ceasefire helium relief. By April 10 with no production cut, bear case functionally dead.",
       "directness": 3,
-      "last_activated": "2026-04-06",
-      "activation_count": 7,
+      "last_activated": "2026-04-09",
+      "activation_count": 8,
       "weight": 6.0
     }
   ],
   "trigger_points": [
     {
-      "condition": "Samsung or SK Hynix announces production halt due to helium shortage — UPDATE 2026-04-08: Day 1 of TrendForce window passed, no announcement, Samsung +13% and SK Hynix +11% on ceasefire-day. By April 10 with no announcement, this trigger is effectively DEAD. Status: WATCHING for 2 more days, then RESOLVED unfired.",
+      "condition": "Samsung or SK Hynix announces production halt due to helium shortage — UPDATE 2026-04-09: Day 2 of TrendForce window passed, no announcement. Samsung +7.38%, SK Hynix +13.65% on Apr 8; profit-taking Apr 9 (Samsung -3.1%, SK Hynix -2.4%). By April 10 with no announcement, this trigger is effectively DEAD and will resolve as 'not activated.' Status: WATCHING for 1 more day.",
       "cascade": [
         "sp-500"
       ],

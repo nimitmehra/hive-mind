@@ -3,13 +3,13 @@
   "name": "Nifty 50",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "23,911.75 (+4.1% 1D). Triple binary collapsing — ceasefire (RESOLVED), RBI MPC (dovish-friendly with Brent $94), NOP cap (eased by INR strength). Bank Nifty leading +5.0% to 55,221. Sensex +4.5% to 77,438. 200-day EMA at ~24,051 = ~0.6% away. FII still net selling Apr 7 (-₹8,336 cr) but DII buying (+₹7,449 cr). Friday Apr 10 Islamabad talks are next binary; failure scenario: gap-down -3-5% test of 22,500-22,800.",
+  "last_updated": "2026-04-09",
+  "summary": "24,012.95 (+3.85% confirmed close). Briefly touched 200-DMA at ~24,051 intraday before closing just below — within 0.2%. Sensex 77,563 (+3.95%, biggest single-day gain in 6 years). Bank Nifty +5.0% to 55,221. Rally driven by SHORT-COVERING + DII buying (Rs 7,979 cr), NOT FII re-entry — FIIs sold Rs 8,692 cr INTO the rally. FII flow flip has NOT happened. VIX crashed 20% to 19.70 (pre-war level) = NO protective hedging, reversal would be amplified. Rs 16.8 lakh crore wealth created in single session. Friday Islamabad talks failure scenario: gap-down -3-5% with VIX at complacency.",
   "current": {
-    "price": "23,911.75",
-    "delta_1d": "+4.1%",
-    "delta_1m": "-2.3%",
-    "delta_3m": "-7.6%"
+    "price": "24,012.95",
+    "delta_1d": "+3.85%",
+    "delta_1m": "~-2.3%",
+    "delta_3m": "~-7.6%"
   },
   "price_snapshots": [
     {
@@ -41,6 +41,12 @@
       "price": "23,911.75",
       "trigger": "Ceasefire-day rally; triple binary de-risk",
       "delta_context": "+4.1% 1D, +940 points from ~22,970 base; Bank Nifty leading at +5.0%; 200-DMA within striking distance at 24,051"
+    },
+    {
+      "date": "2026-04-09",
+      "price": "24,012.95",
+      "trigger": "Ceasefire rally confirmed close — briefly touched 200-DMA at ~24,051",
+      "delta_context": "+3.85% from 23,124 base; all 50 stocks green; Bank Nifty +5.0%; FII selling into rally (Rs 8,692 cr) offset by DII + short-covering"
     }
   ],
   "signals": [
@@ -229,43 +235,63 @@
         "Business Standard"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Nifty 50 confirmed close at 24,012.95 (+3.85%) on April 8 — web-confirmed figure (yfinance showed stale 23,123.65). Intraday high 24,025 briefly touched 200-DMA at ~24,051 before closing just below. Sensex 77,562.90 (+3.95%, biggest single-day gain in 6 years). Bank Nifty +5.0% to 55,221 — most leveraged to oil relief via lower inflation → rate cut hopes → NIM expansion. ALL 50 Nifty stocks closed green. Rs 16.8 lakh crore wealth created. Rally driven by short-covering + DII buying (Rs 7,979 cr) — FIIs sold Rs 8,692 crore, the flip did NOT happen. (Source: Upstox, Moolaah, GoodReturns, NSE data)",
+      "sources": [
+        "Upstox",
+        "Moolaah",
+        "GoodReturns",
+        "NSE"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "India VIX crashed 20% to 19.70 on April 8 — pre-war level. If Friday Islamabad talks fail or ceasefire collapses further, VIX at 19.70 means NO protective hedging — the reversal would be amplified. 5paisa preview for April 9: 'markets may open on a cautious note.' (Source: Bloomberg, 5paisa)",
+      "sources": [
+        "Bloomberg",
+        "5paisa"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
     {
       "to": "india",
       "type": "equity_market",
-      "context": "Primary equity benchmark. India underperforming global rally — Nifty +1.6% vs KOSPI +8.44%, S&P +2.9%. Three-layer problem persists. Bernstein range: 27,500 (rapid de-escalation) to 19,900 (full-year crisis).",
+      "context": "Nifty confirmed 24,013 (+3.85%). Biggest single-day Sensex gain in 6 years. Rally driven by short-covering + DII, NOT FII re-entry. FII flow flip is next sustainability tell. VIX at pre-war 19.70 = complacency risk.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 19,
+      "last_activated": "2026-04-09",
+      "activation_count": 20,
       "weight": 10
     },
     {
       "to": "inr-usd",
       "type": "fii_feedback_loop",
-      "context": "Weak rupee → FIIs sell → Nifty falls → more rupee pressure. INR improving to 92.64 from 93.19 on Brent crash. NOP cap deadline April 10 creating mechanical INR buying pressure.",
+      "context": "INR at ₹92.55 strengthening. FII selling Rs 8,692 cr INTO ceasefire rally — flip NOT happened. NOP cap April 10 STANDS. FII flow reversal is critical for sustained Nifty recovery above 200-DMA.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 13,
+      "last_activated": "2026-04-09",
+      "activation_count": 14,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "cost_pressure",
-      "context": "Oil spike → India macro deterioration → earnings downgrades → Nifty weakness. Brent crash to $101.97 easing pressure. ~65% of Nifty decline is crisis-driven (oil-dependent, reversible).",
+      "context": "Brent at $96.75 — below $100 for first time. Oil relief driving ceasefire rally. Bank Nifty +5.0% most leveraged to lower oil → lower inflation → rate cut hopes → NIM expansion.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 14,
+      "last_activated": "2026-04-09",
+      "activation_count": 15,
       "weight": 10
     },
     {
       "to": "rbi",
       "type": "rate_sensitivity",
-      "context": "RBI MPC April 6-8. Rate cuts needed for valuation support but RBI trapped by oil inflation. NOP cap deadline April 10. India 10Y at 7.00-7.04%. Bank Nifty recovering from NOP carnage.",
+      "context": "RBI dovish hold + dovish forward guidance. India 10Y collapsed to 6.91%. June 25bps cut pathway open if oil stays below $100. Bank Nifty +5.0% on rate cut + NIM expansion narrative.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 8,
+      "last_activated": "2026-04-09",
+      "activation_count": 9,
       "weight": 10
     }
   ],

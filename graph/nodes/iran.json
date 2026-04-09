@@ -3,8 +3,8 @@
   "name": "Iran",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Day 40. CEASEFIRE ACCEPTED. Iran SNSC formally accepted 2-week Pakistan-brokered ceasefire, claims 'historic victory,' explicitly invokes 'guidance of Supreme Leader Mojtaba Khamenei.' Supreme Leader ordered all military units to cease fire ~2 hours after Trump announcement — operational compliance confirmed. FM Araghchi: deal includes 'safe passage via coordination with Iran's Armed Forces' — Iran's structural position of selective control formalized in ceasefire text. Talks Friday April 10 in Islamabad. IRGC pre-ceasefire retaliated for South Pars/Asaluyeh by striking Sadara $20B Aramco-Dow JV at Jubail — most significant Saudi industrial damage of the war. Iran also fired 99th-wave cluster munition salvo at central Israel before stand-down. 'This does not signify termination of the war — our hands remain upon the trigger.'",
+  "last_updated": "2026-04-09",
+  "summary": "Day 41. CEASEFIRE FRACTURED WITHIN 18 HOURS. Three simultaneous crises on Day 1: (1) Israel launched 'Operation Eternal Darkness' — 50 IAF jets struck 100 Hezbollah targets in Lebanon, 254 killed; (2) Iran RE-CLOSED Hormuz citing Israeli strikes as ceasefire violation; (3) IRGC issued 'emergency, exceptional instructions for unprecedented retaliation against Israel' per MEMRI. IRNA-Tasnim alignment BROKEN — civilian government (IRNA) pivoted to violation framing that PRESERVES the deal; IRGC-linked Tasnim pivoted to violation framing that BUILDS CASE TO EXIT. REPORTED: Pezeshkian confronted IRGC commander Taeb April 4, accusing Guards of 'acting unilaterally.' Iran launched massive missile/drone attacks on UAE, Saudi Arabia, Bahrain, Qatar, Kuwait within hours of ceasefire taking effect. Ghalibaf accused US of violating THREE ceasefire clauses. Pakistan PM Sharif contradicted both Trump and Netanyahu on ceasefire scope — creating three-way contradiction on whether Lebanon is included. IRGC-civilian split is the structural intelligence signal.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -619,52 +619,119 @@
         "Euronews"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "14-day Pakistan-brokered ceasefire fractured within 18 hours. Israel launched 'Operation Eternal Darkness' — 50 IAF jets struck 100 Hezbollah targets in Lebanon, killing 254. Iran RE-CLOSED Hormuz citing Israeli strikes as ceasefire violation. IRGC issued 'regret-inducing response' threat via Telegram/Sepah News. IRGC Aerospace Force issued 'emergency, exceptional instructions for unprecedented retaliation against Israel' per MEMRI monitoring. Three simultaneous crises on Ceasefire Day 1.",
+      "sources": [
+        "Al Jazeera",
+        "Bloomberg",
+        "MEMRI",
+        "Xinhua",
+        "CNBC"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "IRNA-Tasnim alignment BROKEN within 18 hours — IRGC diverging from civilian government on ceasefire. IRNA (state/civilian) pivoted from 'historic victory' to violation framing that PRESERVES the deal. Tasnim (IRGC-linked) pivoted to violation framing that BUILDS THE CASE TO EXIT — citing anonymous 'senior security source' saying Tehran 'assessing the possibility of exiting the deal.' Press TV escalated to 'Iran has become a new superpower' while running betrayal framing. The divergence PATTERN is intelligence about internal power structure — civilian government vs IRGC split.",
+      "sources": [
+        "IRNA",
+        "Tasnim",
+        "Press TV",
+        "MEMRI"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Iran International reported President Pezeshkian confronted IRGC commander Hossein Taeb on April 4 in a 'tense and highly charged exchange,' accusing IRGC commanders of 'acting unilaterally and driving escalation through attacks on regional countries.' Pezeshkian warned Iran's economy 'would not be able to withstand a prolonged war.' IRGC reportedly rejected Pezeshkian's intelligence minister candidates and forced its own appointment — Guards described as having 'effectively stripped the government of executive control.' Single source: Iran International (diaspora/opposition, Saudi-funded, but has credible IRGC sourcing).",
+      "sources": [
+        "Iran International",
+        "Ynet News"
+      ],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Lavan Island oil refinery attacked after ceasefire took effect (~10 AM local April 8). Iranian state television confirmed the attack. UAE Mirage 2000-9 jets suspected per Turkiye Today and OSINT analysts; Abu Dhabi has NOT confirmed or denied. Iran launched retaliatory strikes against UAE and Kuwait within approximately one hour.",
+      "sources": [
+        "Al Jazeera",
+        "Press TV",
+        "AP",
+        "Turkiye Today"
+      ],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Iran launched massive missile and drone attacks on multiple Gulf states within hours of ceasefire taking effect: UAE (17 ballistic missiles + 35 drones intercepted), Saudi Arabia (5 BMs + 9 drones, East-West Pipeline pumping station struck), Bahrain (6 missiles + 31 drones), Qatar (7 missiles + drones), Kuwait (28 drones). Abu Dhabi Habshan gas complex caught fire. Assessment split: Solace Global attributes to 'breakdown of command and control'; alternative reading: pre-ceasefire launches still in flight or IRGC units operating independently.",
+      "sources": [
+        "CNBC",
+        "Al Jazeera",
+        "Gulf News",
+        "The National UAE",
+        "WAM",
+        "DD News India"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Parliament Speaker Ghalibaf accused the US of violating THREE clauses of the 10-point ceasefire plan: (1) continued Israeli attacks on Lebanon, (2) drone in Iranian airspace, (3) enrichment demands. Pakistan PM Sharif contradicted both Trump and Netanyahu, stating ceasefire covers 'everywhere including Lebanon' — creating a three-way contradiction on ceasefire scope.",
+      "sources": [
+        "CNBC",
+        "CBS News",
+        "Washington Post",
+        "NBC News"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "territorial_control",
-      "context": "Iran controls northern shore. IRGC Navy closed strait since Mar 5. Toll law awaiting Guardian Council. IRGC threatened PERMANENT Hormuz closure: 'will not be opened until our destroyed power plants are rebuilt.' Deadline extended to Tuesday April 7. Oman-Iran Hormuz transit talks REPORTED (separate diplomatic track). 45-day ceasefire includes Hormuz as primary bargaining chip.",
+      "context": "Day 41. Iran RE-CLOSED Hormuz within 18 hours citing Israeli Lebanon strikes as ceasefire violation. Toggle mechanism confirmed — open/close keyed to Israeli compliance. Bloomberg: 3-4 ships April 8-9 vs 11 Tuesday. 479 vessels stranded. Hormuz now explicitly linked to Lebanon front as coercive lever.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 23,
+      "last_activated": "2026-04-09",
+      "activation_count": 24,
       "weight": 10.0
     },
     {
       "to": "israel",
       "type": "active_conflict",
-      "context": "Day 40. Israel BACKS bilateral US-Iran ceasefire but EXCLUDED Lebanon. IDF Hezbollah operations continue. Pre-ceasefire IDF executed 'most intense day' (South Pars #2, Khademi killed, Tehran airports, bridges, railways, Shiraz). Iranian cluster munition salvo hit ~50 central Israel sites pre-ceasefire — 6 wounded. Iran observing stand-down post-ceasefire.",
+      "context": "Day 41. Ceasefire fractured within 18 hours. Israel launched 'Operation Eternal Darkness' — 254 killed in Lebanon. Iran RE-CLOSED Hormuz in response. IRGC Aerospace Force issued 'emergency instructions for unprecedented retaliation.' IRNA-Tasnim split: civilian government preserves deal, IRGC builds case to exit. Three-way contradiction on ceasefire scope (Lebanon).",
       "directness": 1,
-      "last_activated": "2026-04-08",
-      "activation_count": 29,
+      "last_activated": "2026-04-09",
+      "activation_count": 30,
       "weight": 10.0
     },
     {
       "to": "united-states",
       "type": "active_conflict",
-      "context": "US launched Operation Epic Fury on Feb 28. 55,000+ troops. F-15E Strike Eagle shot down over Iran April 3 — first US fighter jet downed in the war. Both crew rescued by April 5 via CIA-assisted extraction. MC-130Js destroyed by US forces during rescue. Iran rejected Trump's 48-hour Hormuz ultimatum: 'straight to the depths of hell.' Trump called 'helpless, nervous, unbalanced.' FM Baghaei maintains no negotiations. US casualties: 13 KIA, 365 WIA. Mahsahahr Petrochemical Zone struck — 5 killed, 170+ wounded. Targeting: military→energy→industrial→water→university→corporate→pharma→petrochemical. Deadline extended to Tuesday April 7 8 PM ET. IRGC codified mirror-escalation doctrine. 45-day ceasefire REPORTED but 'slim.'",
+      "context": "Day 41. Ghalibaf accused US of violating THREE ceasefire clauses. Pakistan PM Sharif contradicted Trump on ceasefire scope. Iran launched massive missile/drone attacks on 5 Gulf states within hours of ceasefire. White House called Hormuz re-closure 'false' — contradicted by Bloomberg data. IRGC-civilian split emerging: Pezeshkian reportedly confronted IRGC commander Taeb over unilateral escalation.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 30,
+      "last_activated": "2026-04-09",
+      "activation_count": 31,
       "weight": 10.0
     },
     {
       "to": "hezbollah",
       "type": "proxy_alliance",
-      "context": "Hezbollah entered war on Mar 2 in response to Khamenei's killing. Iran's primary proxy in Lebanon.",
+      "context": "Day 41. Iran RE-CLOSED Hormuz explicitly citing Israeli Lebanon strikes (Operation Eternal Darkness, 254 killed) as ceasefire violation. Iran using Hormuz as coercive lever linked to Hezbollah/Lebanon front. IRGC issued 'unprecedented retaliation' instructions. Ceasefire scope contradiction: Iran/Pakistan say includes Lebanon, Israel/US say it does not.",
       "directness": 1,
-      "last_activated": "2026-03-24",
-      "activation_count": 11,
+      "last_activated": "2026-04-09",
+      "activation_count": 12,
       "weight": 8.5
     },
     {
       "to": "uae",
       "type": "retaliatory_strikes",
-      "context": "Iran fired 314 ballistic missiles, 1,672 drones, 15 cruise missiles at UAE. Hit ADNOC Ruwais refinery, Dubai airport, US Consulate, Shah gas field, Fujairah port. Al-Salmi VLCC attacked at Dubai port anchorage (April 1). UAE petrochemical plant fires April 5 — Iran now targeting energy infrastructure across FOUR Gulf states simultaneously (Kuwait, Bahrain, UAE, Qatar). IRGC threatened UAE's $500B Stargate AI project.",
+      "context": "Day 41. Iran launched 17 BMs + 35 drones at UAE within hours of ceasefire taking effect. Abu Dhabi Habshan gas complex caught fire. Lavan Island refinery attacked (UAE Mirage 2000-9s suspected); Iran retaliated against UAE within one hour. Iran-UAE exchange escalated on Ceasefire Day 1.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 16,
+      "last_activated": "2026-04-09",
+      "activation_count": 17,
       "weight": 10.0
     },
     {
@@ -697,10 +764,10 @@
     {
       "to": "brent-crude",
       "type": "supply_disruption",
-      "context": "Iran's Hormuz toll law passed full Majlis. Iran rejected Trump's 48-hour Hormuz ultimatum — April 6 deadline hours away. Iran now striking energy infrastructure across 4 Gulf states simultaneously: Kuwait Petroleum HQ ablaze, Bahrain Bapco oil storage hit, UAE petrochemical fires, Qatar tanker attacks. F-15 shootdown emboldened IRGC. Zero chance of voluntary Hormuz reopening before deadline.",
+      "context": "Day 41. Iran re-closed Hormuz within 18 hours of ceasefire. Massive missile/drone attacks on 5 Gulf states: Abu Dhabi Habshan gas complex fire, Saudi East-West Pipeline pumping station struck. CBS News: oil exports return to previous levels July 2026 at earliest. Toggle mechanism = structural supply uncertainty persists regardless of ceasefire status.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 24,
+      "last_activated": "2026-04-09",
+      "activation_count": 25,
       "weight": 10.0
     },
     {
@@ -795,7 +862,7 @@
         "united-states",
         "israel"
       ],
-      "mechanism": "As of April 6, the three-way split APPEARS to have collapsed into unified defiance — even Araghchi (most diplomatic figure) calling threats 'incitement to war crimes.' Ghalibaf codified mirror-escalation. IRGC issued civilian evacuation warning. If this is genuine consolidation toward escalation, Hormuz hardens permanently and Tuesday becomes catastrophic. If it's negotiating posture (reject publicly, accept privately through mediators), the 45-day ceasefire framework is the private track. Tilt: strongly toward escalation but 'slim' ceasefire chance remains. | UPDATE 2026-04-07: ISLAMABAD ACCORD REJECTION + 10-POINT MAXIMALIST COUNTER is now the strongest evidence of unified defiance posture — Foreign Ministry, IRGC Intelligence Chief Khademi (now KIA), and Pezeshkian/Araghchi all publicly aligned on permanent peace OR continued war. The 10-point list is structurally non-negotiable, signaling unified escalation tolerance. Trigger now showing CONSOLIDATION ON ESCALATION/DEFIANCE side. Status remains WATCHING (consolidation is rhetorical not yet operational), but the mechanism has tightened materially.",
+      "mechanism": "As of April 6, the three-way split APPEARS to have collapsed into unified defiance — even Araghchi (most diplomatic figure) calling threats 'incitement to war crimes.' Ghalibaf codified mirror-escalation. IRGC issued civilian evacuation warning. | UPDATE 2026-04-07: ISLAMABAD ACCORD REJECTION + 10-POINT MAXIMALIST COUNTER is now the strongest evidence of unified defiance posture. | UPDATE 2026-04-09: CONSOLIDATION REVERSED — IRNA-Tasnim alignment BROKEN within 18 hours of ceasefire. Civilian government (IRNA) pivoting to violation framing that PRESERVES the deal; IRGC (Tasnim) pivoting to violation framing that BUILDS CASE TO EXIT. Pezeshkian reportedly confronted IRGC commander Taeb April 4 (single source: Iran International). IRGC issued 'unprecedented retaliation' instructions. The split is the intelligence signal — but Pezeshkian confrontation is REPORTED from single opposition source, and IRNA-Tasnim divergence is media positioning not confirmed institutional action. Status remains WATCHING.",
       "added": "2026-04-02",
       "status": "active"
     }

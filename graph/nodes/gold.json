@@ -3,13 +3,13 @@
   "name": "Gold",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "$4,825/oz (+3.6% 1D) — REGIME SHIFT CONFIRMED. Gold went UP on the ceasefire announcement, not down. DXY -1.1% the proximate cause. Silver +6.6%, Platinum +5.4%, Palladium +6.4%, Copper +3.0% — all metals up together = monetary trade, NOT safe-haven. Gold has decoupled from short-term geopolitics into a dollar/inflation hedge. Pre-war ~$5,300 → today $4,825 = -9% net through the war. Central bank 585t/quarter structural floor intact.",
+  "last_updated": "2026-04-09",
+  "summary": "$4,750/oz (+2.0% Apr 9) — REGIME SHIFT DEFINITIVELY CONFIRMED. Gold is now a dollar/monetary hedge, not a war hedge. Trade SURVIVES ceasefire. Mechanism: ceasefire → oil crash → inflation expectations ease → Fed cut hopes revive → DXY crashed to 98.58 → dollar weakness lifts gold. Silver +3.1% CONFIRMS monetary trade. Central bank buying 585t/quarter (JP Morgan) regardless of ceasefire. $4,600 regime floor intact. Pullback from $4,825 to $4,750 is normal consolidation. Goldman $5,400 / JP Morgan $6,300 year-end targets.",
   "current": {
-    "price": "$4,825/oz",
-    "delta_1d": "+3.6%",
-    "delta_1m": "-5.2%",
-    "delta_3m": "+8.4%"
+    "price": "$4,750/oz",
+    "delta_1d": "+2.0%",
+    "delta_1m": "-6.7%",
+    "delta_3m": "+6.8%"
   },
   "price_snapshots": [
     {
@@ -59,6 +59,12 @@
       "price": "$4,825/oz",
       "trigger": "Ceasefire-day rally — gold went UP not down on de-escalation",
       "delta_context": "Regime shift from war-hedge to dollar/inflation hedge confirmed; silver +6.6% confirms monetary not safe-haven"
+    },
+    {
+      "date": "2026-04-09",
+      "price": "$4,750/oz",
+      "trigger": "Gold regime shift CONFIRMED — UP on ceasefire via dollar weakness",
+      "delta_context": "Down from $4,825 April 8 spike; silver +3.1% confirms monetary trade; DXY crashed to 98.58"
     }
   ],
   "signals": [
@@ -266,25 +272,37 @@
         "Investing.com"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "GOLD REGIME SHIFT DEFINITIVELY CONFIRMED on April 8-9. Gold went UP (+2.0% to $4,750, peak $4,825) on the biggest peace announcement of the war — the 14-day ceasefire. This is NOT a war hedge anymore; it's a dollar/inflation/central-bank hedge. The trade SURVIVES ceasefire. Mechanism: ceasefire → oil crash → inflation expectations ease → Fed cut hopes revive → DXY crashed to 98.58 (below 99, lowest in months) → dollar weakness mechanically lifts gold. Silver +3.1% CONFIRMS the monetary trade — silver rarely participates in pure safe-haven moves. Central bank buying continues at 585 tonnes/quarter (JP Morgan) regardless of ceasefire. Pullback from $4,825 to $4,750 is normal profit-taking consolidation. Cumulative damage ($20B Sadara JV, 85% Iranian petrochemical capacity destroyed, Bahrain Bapco lost) keeps mid-2026 inflation structurally higher regardless of peace timeline. Goldman $5,400 / JP Morgan $6,300 year-end targets. (Source: Trading Economics, Fortune, yfinance, JP Morgan, Goldman Sachs)",
+      "sources": [
+        "Trading Economics",
+        "Fortune",
+        "yfinance",
+        "JP Morgan",
+        "Goldman Sachs"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "fed",
       "type": "rate_inverse",
-      "context": "DXY back above 100 (100.22) REMOVING mechanical gold support. Fed trapped in stagflation — ISM Prices 78.3 but employment contracting. 52% hike probability. Oil +8.3% reactivated inflation→dollar→gold-down channel.",
+      "context": "DXY crashed to 98.58 on ceasefire — dollar weakness mechanically lifts gold. Fed rate-cut probability nearly doubled post-ceasefire (25% to 43%). Gold regime shift confirmed: dollar/monetary hedge, not war hedge.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 9,
+      "last_activated": "2026-04-09",
+      "activation_count": 10,
       "weight": 10.0
     },
     {
       "to": "brent-crude",
       "type": "inflation_link",
-      "context": "Regime shift CHALLENGED: oil +8.3% post-address drove gold -3.1% via inflation→dollar→gold-down channel — the SAME inverse pattern from March. Three sessions above $4,600 still technically intact but gold at $4,636 with only $36 margin. If oil stays above $105 and DXY above 100, gold regime shift likely fails.",
+      "context": "Regime shift CONFIRMED: oil crash on ceasefire → inflation expectations ease → DXY crashes → gold UP. The inverse correlation (oil up = gold down) has broken. Gold now benefits from oil falling (via dollar weakness) AND oil rising (via inflation hedge). Structural win-win positioning.",
       "directness": 2,
-      "last_activated": "2026-04-07",
-      "activation_count": 9,
+      "last_activated": "2026-04-09",
+      "activation_count": 10,
       "weight": 10.0
     }
   ],

@@ -3,8 +3,8 @@
   "name": "Qatar",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Day 40. SHARED-FIELD STRIKE PRECEDENT: Israeli strike on Iran's South Pars petrochemical plant directly affects shared South Pars/North Dome gas field — Iran side struck twice, Qatar side unaffected but precedent intact. Ceasefire announcement opens potential path for Ras Laffan LNG/helium restart but physical restoration takes weeks. Qatar conspicuously silent on the ceasefire framework. Pakistan-mediated Qatar LNG transit deal under IRGC three-tier system held. KOSPI/Samsung surge largely attributable to the helium-cliff fading on the ceasefire path.",
+  "last_updated": "2026-04-09",
+  "summary": "Day 41. CEASEFIRE INTERCEPTED: Qatar intercepted 7 Iranian missiles and drones within hours of ceasefire taking effect on April 8 — likely pre-ceasefire launches still in flight or IRGC regional units operating independently. Ceasefire path opens potential Ras Laffan LNG/helium restart but physical restoration takes weeks. Qatar's interest in Hormuz reopening remains existential for LNG exports — Ras Laffan still offline since Feb 28. South Pars/North Dome shared-field strike precedent intact. Pakistan-mediated Qatar LNG transit deal under IRGC three-tier system held.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -149,16 +149,25 @@
         "ainvest"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Qatar intercepted 7 Iranian missiles and drones within hours of ceasefire taking effect on April 8. Assessment: likely pre-ceasefire launches still in flight or IRGC regional units operating independently rather than deliberate post-ceasefire targeting of Qatar. Qatar's interest in Hormuz reopening remains existential for LNG exports — Ras Laffan still offline since Feb 28. (Source: CNBC, Al Jazeera)",
+      "sources": [
+        "CNBC",
+        "Al Jazeera"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "retaliation_target",
-      "context": "Iran struck Ras Laffan (South Pars retaliation) AND now AQUA 1 tanker near Ras Laffan — 3 cruise missiles, IRGC claimed. Iran gave Qatar advance notice, suggesting calculated escalation. Qatar expelled Iranian attaches after Ras Laffan but still positioning as mediator.",
+      "context": "Qatar intercepted 7 Iranian missiles/drones during ceasefire — likely pre-ceasefire launches in flight or IRGC units operating independently. Ras Laffan still offline. Hormuz reopening existential for Qatar LNG exports.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 7,
+      "last_activated": "2026-04-09",
+      "activation_count": 8,
       "weight": 10
     },
     {

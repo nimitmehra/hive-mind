@@ -3,8 +3,8 @@
   "name": "Saudi Arabia",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Day 40. SADARA $20B ARAMCO-DOW JV DESTROYED — IRGC retaliation strike on April 7 hit Jubail using missiles + drones. Sadara Tadawul: rated capacity to zero overnight (1.5Mt ethylene, 750Kt PE, 330Kt propylene oxide, 400Kt MDI). Largest single piece of Saudi industrial damage of the war. SABIC Jubail = 11% Saudi non-oil GDP / 6-8% global petrochemical output. King Fahd Causeway (Bahrain link) closed indefinitely. Saudi MoD intercepted 7 ballistic missiles. Pre-ceasefire war absorbed 7+ days of consecutive Eastern Province threats. Saudi Tadawul $TASI 11,262 (-0.1%) Tuesday — closed on Sunday Wed open will react to ceasefire. Yanbu bypass remains operational but ~40 VLCCs anchored 5-day waits.",
+  "last_updated": "2026-04-09",
+  "summary": "Day 41. CONTINUED ATTACKS DURING CEASEFIRE: Saudi Arabia intercepted 5 Iranian ballistic missiles and 9 drones over Eastern Province (including near Jubail) within hours of ceasefire taking effect on April 8. East-West Pipeline pumping station struck — another infrastructure hit. Saudi Defense Ministry used 'power facilities' language, NOT 'petrochemical plants' — same information management pattern as 2019 Abqaiq. Arab News SILENT on $20B Sadara JV destruction. Tadawul -1.6% on April 8 — worst-positioned Gulf state: loses if ceasefire works (lower oil revenue) and loses if it fails (continued attacks). Sadara JV still at zero capacity. Yanbu bypass operational but congested.",
   "signals": [
     {
       "date": "2026-03-01",
@@ -162,6 +162,16 @@
         "Sadara Tadawul filing"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Saudi Arabia intercepted 5 Iranian ballistic missiles and 9 drones over Eastern Province (including near Jubail) within hours of ceasefire taking effect on April 8. East-West Pipeline pumping station struck — another infrastructure hit. Saudi Defense Ministry used 'power facilities' language, NOT 'petrochemical plants' — same information management pattern as 2019 Abqaiq. Arab News SILENT on $20B Sadara JV destruction. Tadawul -1.6% on April 8 — worst-positioned Gulf state: loses if ceasefire works (lower oil revenue) and loses if it fails (continued attacks). (Source: CNBC, Al Jazeera, DD News India)",
+      "sources": [
+        "CNBC",
+        "Al Jazeera",
+        "DD News India"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -195,10 +205,10 @@
     {
       "to": "iran",
       "type": "retaliation_target",
-      "context": "Day 40. IRGC claimed Sadara $20B JV strike at Jubail using medium-range missiles + drones. Largest Saudi industrial damage of the war. Damage baked in regardless of ceasefire.",
+      "context": "Day 41. Intercepted 5 BMs + 9 drones over Eastern Province during ceasefire. East-West Pipeline pumping station struck. Sadara $20B JV at zero capacity. Damage baked in regardless of ceasefire outcome.",
       "directness": 1,
-      "last_activated": "2026-04-08",
-      "activation_count": 11,
+      "last_activated": "2026-04-09",
+      "activation_count": 12,
       "weight": 10.0
     }
   ],

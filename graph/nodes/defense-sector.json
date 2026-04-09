@@ -3,8 +3,8 @@
   "name": "Defense & Aerospace Sector",
   "type": "sector",
   "created": "2026-03-28",
-  "last_updated": "2026-04-08",
-  "summary": "PARADIGM SHIFT INTACT, CYCLICAL UNWIND BEGINS: $1.5T FY2027 defense budget unchanged. ITA $225-228 Tuesday close +0.4-0.6%, Wed open will reverse -2-4% on ceasefire 'sell the news.' LMT $637.90 most exposed to unwind. Cyclical war-bid component (~10-15% of recent gains) reverses; structural budget-driven component (~85-90%) intact. F-35 doubling, Golden Dome $25B, PSM quadrupling all multi-year visibility events that don't reverse on 14-day ceasefire. Sustained ceasefire-day pullbacks in LMT/RTX/GD = accumulation, not breakdown.",
+  "last_updated": "2026-04-09",
+  "summary": "THE NON-REVERSAL: ITA +4.0% to $232.17 ON A CEASEFIRE DAY. Expected: defense falls as war ends. Actual: defense rises. $1.5T FY2027 defense budget + structural geopolitical paradigm shift = defense is now a STRUCTURAL trade, not a war trade. Even with ceasefire, spending trajectory irreversible. Defense now 4.2% of S&P 500. The market sees permanent geopolitical regime change regardless of this specific ceasefire.",
   "current": {
     "price": "ITA: ~$225-228 (Tue close)",
     "delta_1d": "+0.4-0.6% (will reverse Wed open)",
@@ -101,25 +101,35 @@
         "Pentagon FY2027 budget framework"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Defense sector ITA +4.0% to $232.17 ON A CEASEFIRE DAY — THE NON-REVERSAL. Expected: defense falls as war ends. Actual: defense rises. $1.5T FY2027 defense budget + structural geopolitical paradigm shift = defense is now a STRUCTURAL trade, not a war trade. Even with ceasefire, spending trajectory irreversible. Defense now 4.2% of S&P 500 (up from 2.8% pre-war). Lockheed flat at +0.1% (already rallied +16.4% 3M) — defense rally broadening to tier-2 supply chain names. The market sees permanent geopolitical regime change regardless of this specific ceasefire. (Source: 24/7 Wall St, CNBC, yfinance)",
+      "sources": [
+        "24/7 Wall St",
+        "CNBC",
+        "yfinance"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "united-states",
       "type": "budget_dependency",
-      "context": "Defense stocks rallied +2.2% on peace signals — rearmament thesis (EU EDIP, European NATO defiance) catching bid independent of US budget. $200B supplemental still facing political resistance but structural demand now dual-sourced: US + European.",
+      "context": "ITA +4.0% ON ceasefire day — defense is structural, not cyclical. $1.5T FY2027 budget irreversible. Market sees permanent geopolitical regime change.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 7,
+      "last_activated": "2026-04-09",
+      "activation_count": 8,
       "weight": 10.0
     },
     {
       "to": "sp-500",
       "type": "sector_component",
-      "context": "ITA +2.2% while XLE -3.7% and S&P +0.7% — defense decoupling from energy on peace signals. Market now pricing defense as rearmament play, not war play. Structural demand > cyclical war premium.",
+      "context": "ITA +4.0% ON ceasefire while XLE -3.5% — defense decoupled from energy. Defense now 4.2% of S&P 500 weight. Structural budget-driven trade.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 6,
+      "last_activated": "2026-04-09",
+      "activation_count": 7,
       "weight": 9.0
     }
   ],

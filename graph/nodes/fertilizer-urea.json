@@ -3,8 +3,8 @@
   "name": "Fertilizer / Urea",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Urea $680/t spot NOLA, $750/t FOB ME. QAFCO Qatar (world's largest single urea production site) STILL OFFLINE. India IFFCO scaling back domestic urea on LNG feedstock cost. India 40% Qatar-dependent for urea plant gas. Recovery in MONTHS not days even on holding ceasefire. CF Industries structural beneficiary intact — input cost permanently elevated. India tentative G2G talks with China for urea supply continue.",
+  "last_updated": "2026-04-09",
+  "summary": "Ceasefire triggered fertilizer war premium unwinding: CF Industries -5.7% to $126.16, Nutrien -2.6% to $74.88. But QAFCO (world's largest single-site urea plant, 5.6Mt/yr) still offline — physical plant restart takes months regardless of ceasefire. Urea at $693.50/mt NOLA, +14% YoY, +26.2% surge in March. ~85% of CF's move is crisis-linked; if ceasefire collapses, fertilizer stocks snap back. Physical disruption persists despite financial market hope.",
   "current": {
     "price": "~$700/mt (Egypt FOB), ~$800/mt (US Gulf)",
     "delta_1d": "n/a",
@@ -140,25 +140,36 @@
         "Helios AI"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Ceasefire triggered fertilizer war premium unwinding: CF Industries -5.7% to $126.16, Nutrien -2.6% to $74.88. Ceasefire → Qatar fertilizer supply normalization hopes → urea war premium deflating. BUT: QAFCO (world's largest single-site urea plant, 5.6Mt/yr) still offline — physical plant restart takes months regardless of ceasefire. ~85% of CF's move is crisis-linked; if ceasefire collapses, fertilizer stocks snap back. Urea at $693.50/mt NOLA, +14% YoY, +26.2% surge in March per FinancialContent. Physical disruption persists despite financial market hope. (Source: yfinance, Barchart, TradingEconomics, FinancialContent)",
+      "sources": [
+        "yfinance",
+        "Barchart",
+        "TradingEconomics",
+        "FinancialContent"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
     {
       "to": "natural-gas-lng",
       "type": "feedstock_dependency",
-      "context": "Natural gas is primary input for nitrogen-based fertilizers. Gas price spike → fertilizer cost spike. India's domestic plants cut 30% feedstock.",
+      "context": "Natural gas is primary input for nitrogen-based fertilizers. Gas price spike → fertilizer cost spike. India's domestic plants cut 30% feedstock. Ceasefire may ease LNG costs but physical restart takes months.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 7,
+      "last_activated": "2026-04-09",
+      "activation_count": 8,
       "weight": 8.5
     },
     {
       "to": "qatar",
       "type": "production_dependency",
-      "context": "QAFCO Mesaieed (world's largest single-site urea plant, 5.6 Mt/y) offline since Mar 4. Entire Qatar downstream complex shut.",
+      "context": "QAFCO Mesaieed (world's largest single-site urea plant, 5.6 Mt/y) still offline. Ceasefire doesn't change physical restart timeline — months, not days.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 5,
+      "last_activated": "2026-04-09",
+      "activation_count": 6,
       "weight": 8.5
     },
     {

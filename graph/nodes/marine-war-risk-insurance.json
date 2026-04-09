@@ -3,8 +3,8 @@
   "name": "Marine War Risk Insurance",
   "type": "institution",
   "created": "2026-04-08",
-  "last_updated": "2026-04-08",
-  "summary": "Lloyd's of London-anchored marine war risk insurance market — the operational mechanism that closed the Strait of Hormuz commercially. Pre-crisis cover ~$25K/year per vessel; current Hormuz transit cover $10-14M per voyage (~30,000x pre-crisis). Lloyd's JWC redesignated entire Arabian Gulf as conflict zone. Lloyd's: 'physical normalisation cannot be compressed by political will, executive order, or diplomatic breakthrough — sequential, multi-party reinsurance restoration takes weeks.' This is the binding constraint on physical Hormuz flow restoration even if the ceasefire holds.",
+  "last_updated": "2026-04-09",
+  "summary": "Post-ceasefire: war risk insurance dipped to 0.35-0.45% of vessel value (from wartime peak 3.5-10%), but remain 7-10x pre-war levels. For $150M LNG carrier, still ~$500K-$675K per voyage. LMA: 88% of participants still have appetite at crisis premiums. Neil Roberts (LMA): 'highly unlikely that trade into the Gulf will simply resume.' Reinsurers exercised 72-hour cancellation clauses — restoring takes weeks. Gap: futures price ceasefire, insurance prices reality. Insurers are the best real-money probability assessment of ceasefire durability.",
   "current": {
     "cover_pre_crisis": "$25K/year per vessel",
     "cover_current": "$10-14M per voyage (1% of hull value)",
@@ -39,34 +39,45 @@
         "propertycasualty360"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Post-ceasefire: war risk insurance rates dipped to 0.35-0.45% of vessel value (from wartime peak 3.5-10%), but remain 7-10x pre-war levels. For a $150M LNG carrier, still ~$500K-$675K per voyage. LMA confirmed 88% of participants still have appetite. Neil Roberts (LMA): 'It is highly unlikely that trade into the Gulf will simply resume.' Reinsurers had exercised 72-hour cancellation clauses on clubs' charterers' liability at war start — restoring takes weeks, not days. Andrew James (Arthur J. Gallagher): underwriters 'already recognizing the ceasefire.' Gap: futures price ceasefire, insurance prices reality. Insurers are the best real-money probability assessment of ceasefire durability. (Source: TT News, CBS News, LMA, S&P Global)",
+      "sources": [
+        "TT News",
+        "CBS News",
+        "LMA",
+        "S&P Global"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "operational_chokepoint",
-      "context": "War risk insurance pricing IS the operational mechanism that closed Hormuz commercially. $10-14M per voyage makes transit economically unviable for Western-flagged tankers regardless of military blockade status. The 'invisible siege.'",
+      "context": "War risk insurance dipped to 0.35-0.45% but remains 7-10x pre-war. Rates dipped but nowhere near conflict-zone removal territory. Insurers are the best real-money probability assessment.",
       "directness": 1,
-      "last_activated": "2026-04-08",
-      "activation_count": 4,
+      "last_activated": "2026-04-09",
+      "activation_count": 5,
       "weight": 8.0
     },
     {
       "to": "shipping-tankers",
       "type": "cost_structure",
-      "context": "Insurance premium drives shipping rates. $10-14M/voyage forces VLCC charterers to either avoid Hormuz or pass cost to oil buyers. Lloyd's reinsurance restoration is sequential and takes weeks.",
+      "context": "Insurance dipped post-ceasefire but remains 7-10x pre-war. 479 vessels stranded. Reinsurance restoration takes weeks. Frontline +3.3% ON oil crash = physical reality pricing.",
       "directness": 1,
-      "last_activated": "2026-04-08",
-      "activation_count": 3,
+      "last_activated": "2026-04-09",
+      "activation_count": 4,
       "weight": 7.5
     },
     {
       "to": "brent-crude",
       "type": "supply_constraint",
-      "context": "Insurance constraint persists even on ceasefire — physical flow restoration lags political headlines. Brent's -13.5% ceasefire crash overshoots fair value because insurance won't normalise within 2 weeks.",
+      "context": "Insurance constraint persists even on ceasefire — physical flow restoration lags political headlines. Brent futures at $96 vs physical at $120+ = $24 gap driven by insurance/shipping constraints that take weeks to normalize.",
       "directness": 2,
-      "last_activated": "2026-04-08",
-      "activation_count": 2,
+      "last_activated": "2026-04-09",
+      "activation_count": 3,
       "weight": 5.5
     }
   ],

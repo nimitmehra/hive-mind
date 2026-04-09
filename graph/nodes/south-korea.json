@@ -3,13 +3,13 @@
   "name": "South Korea",
   "type": "country",
   "created": "2026-03-28",
-  "last_updated": "2026-04-08",
-  "summary": "Day 40. KOSPI +7.9% (close +8.4%) ON CEASEFIRE. Samsung +13% (biggest single-day gain since Dec 2001), SK Hynix +11% (broke 1M KRW, sidecar triggered). USD/KRW -2.3% to ₩1,473.48. Double-catalyst: ceasefire risk-on (~50%) + helium cliff fading (~25%) + AI semi cycle (~25%). South Korea 64.7% Qatar-sourced helium. Helium tail risk fading. Friday Islamabad talks failure would reverse ~50% — helium-cliff removal is permanent.",
+  "last_updated": "2026-04-09",
+  "summary": "Day 41. KOSPI 5,800.87 after +6.87% Apr 8 (Samsung +7.38%, SK Hynix +13.65%) then -1.4% Apr 9 profit-taking. Double catalyst: ceasefire helium relief (~50%) + Samsung Q1 earnings surprise (~30%) + broad EM risk-on (~20%). USD/KRW -1.4% to ₩1,478.35. Record 5.4 trillion won retail selling on April 9 — classic profit-taking. Helium relief CONDITIONAL — physical delivery from Ras Laffan takes 3-4 weeks. By April 10 with no TrendForce production-cut announcement, helium cliff bear case functionally dead.",
   "current": {
-    "price": "KOSPI 5,878.32",
-    "delta_1d": "+7.9% (close +8.4%)",
-    "delta_1m": "+11.9%",
-    "delta_3m": "+29.1%"
+    "price": "KOSPI 5,800.87",
+    "delta_1d": "-1.4% (Apr 9 profit-taking after +6.87% Apr 8)",
+    "delta_1m": "+10.5%",
+    "delta_3m": "+27.8%"
   },
   "price_snapshots": [
     {
@@ -217,16 +217,26 @@
         "Bloomberg"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "KOSPI closed at 5,872.34 (+6.87%) on April 8 on double catalyst: ceasefire helium relief (~50%) + Samsung Q1 earnings surprise (~30%) + broad EM risk-on (~20%). Samsung +7.38%, SK Hynix +13.65%. USD/KRW -1.4% to ₩1,478.35. April 9: KOSPI retreated ~1.4% to ~5,790. Samsung -3.1%, SK Hynix -2.4%. Record 5.4 trillion won retail selling on April 9 — classic profit-taking after monster rally. Helium relief is CONDITIONAL — physical delivery from Ras Laffan takes 3-4 weeks. By April 10 with no TrendForce production-cut announcement, helium cliff bear case is functionally dead. (Source: Seoul Economic Daily, Trading Economics, yfinance)",
+      "sources": [
+        "Seoul Economic Daily",
+        "Trading Economics",
+        "yfinance"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "helium",
       "type": "supply_dependency",
-      "context": "KOSPI surged +8.44% partly on helium relief (~15% of rally) — peace signal means Ras Laffan may resume. BUT fabs STILL on 50% helium allocations (confirmed rationing). Relief rally, not resolution.",
+      "context": "KOSPI +6.87% partly on ceasefire helium relief (~50%). Fabs still on 50% allocations. Physical delivery takes 3-4 weeks. By April 10 with no production-cut announcement, bear case dead.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 11,
+      "last_activated": "2026-04-09",
+      "activation_count": 12,
       "weight": 10
     },
     {

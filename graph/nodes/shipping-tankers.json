@@ -3,8 +3,8 @@
   "name": "Shipping / Tanker Rates",
   "type": "sector",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Day 40. War risk insurance UNCHANGED at $10-14M/voyage (~30,000x pre-crisis) despite ceasefire announcement. Lloyd's: physical normalisation 'sequential, multi-party process not compressed by political will, executive order, or diplomatic breakthrough.' Brent -13.5% prices faster restoration than operationally possible. ~40 VLCCs anchored 5-day waits at Yanbu. Frontline 1Y charters $76,900/day; spot AG-Far East ~$112K/day TCE down from $445K mid-March peak (traffic stopped, not risk reduced). Hormuz tanker traffic still 80%+ collapsed. Reinsurance restoration takes weeks at minimum.",
+  "last_updated": "2026-04-09",
+  "summary": "Day 41. Post-ceasefire: war risk insurance dipped to 0.35-0.45% of vessel value (from peak 3.5-10%), but remain 7-10x pre-war. Neil Roberts (LMA): 'highly unlikely that trade into the Gulf will simply resume.' 479 vessels stranded near Hormuz (426 tankers, 34 LPG, 19 LNG). Only 3-4 ships transited Apr 8-9 — first were bulk carriers, NOT oil tankers. Lars Jensen (Vespucci Maritime): vessels likely to exit but cautious entering. Even if ceasefire holds perfectly, oil exports return to pre-war levels by July 2026 at earliest (CBS News). Frontline (FRO) +3.3% to $36.15 ON oil crash — ANOMALY — market pricing physical backlog clearing.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -205,6 +205,36 @@
         "propertycasualty360"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "War risk insurance rates dipped post-ceasefire to 0.35-0.45% of vessel value (from peak 3.5-10%), but remain 7-10x pre-war. Neil Roberts (LMA): 'It is highly unlikely that trade into the Gulf will simply resume.' Reinsurers exercised 72-hour cancellation clauses at war start — restoring takes weeks. Lloyd's Market Association: 88% of participants still have appetite but at crisis premiums. Andrew James (Arthur J. Gallagher): underwriters 'already recognizing the ceasefire and reducing rates for some risks.' (Source: TT News, CBS News, LMA, S&P Global)",
+      "sources": [
+        "TT News",
+        "CBS News",
+        "LMA",
+        "S&P Global"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Frontline (FRO) +3.3% to $36.15 ON oil crash — ANOMALY. Tanker stock UP despite Brent -11.5%. Market pricing physical backlog clearing: 40+ VLCCs backlogged at Yanbu, ceasefire → eventual Hormuz reopening → more shipping demand. War risk premiums ($6-14M/trip) persist → tanker companies paid premium rates. Physical market at $120+ = high-value cargo = high freight revenue per barrel. Bellwether signal: Frontline priced PHYSICAL reality ($120+ cargo), not PAPER reality ($96 futures). (Source: yfinance, market data)",
+      "sources": [
+        "yfinance"
+      ],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "479 vessels remain stranded near Hormuz as of April 9 per MarineTraffic: 426 tankers, 34 LPG carriers, 19 LNG ships. Only 3-4 ships transited April 8-9 — first were bulk carriers, NOT oil tankers. Lars Jensen (Vespucci Maritime): 'Vessels likely to exit the Persian Gulf but more cautious entering — owners don't want to risk being trapped again.' CBS News: even if ceasefire holds perfectly, oil exports return to pre-war levels by July 2026 at earliest. (Source: Bloomberg, MarineTraffic, 19FortyFive, CBS News)",
+      "sources": [
+        "Bloomberg",
+        "MarineTraffic",
+        "19FortyFive",
+        "CBS News"
+      ],
+      "significance": "high"
     }
   ],
   "current": {
@@ -218,19 +248,19 @@
     {
       "to": "strait-of-hormuz",
       "type": "route_dependency",
-      "context": "Hormuz closure + toll law = primary cause of rate disruption. AQUA 1 attack at Qatar waters + Al-Salmi at Dubai = Iran projecting force Gulf-wide. Lloyd's JWC redesignated entire Arabian Gulf as conflict zone. War risk insurance at 1%+ hull value. Tanker traffic collapsed 80%+.",
+      "context": "479 vessels stranded near Hormuz. Only 3-4 ships transited Apr 8-9. War risk insurance dipped to 0.35-0.45% but remains 7-10x pre-war. Physical restoration takes months even on holding ceasefire.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 19,
+      "last_activated": "2026-04-09",
+      "activation_count": 20,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "transport_cost",
-      "context": "Higher shipping rates add $7/bbl to delivered cost. Frontline FLAT vs Brent -10.5% — shipping disruption more structural than oil premium. VLCC rates 3-5x pre-crisis. Insurance costs making Gulf transit uneconomic.",
+      "context": "Frontline +3.3% ON oil crash — anomaly. Physical market at $120+ vs futures at $96. Tanker stocks pricing physical reality. War risk insurance still 7-10x pre-war. Shipping disruption persists regardless of futures.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 12,
+      "last_activated": "2026-04-09",
+      "activation_count": 13,
       "weight": 10
     },
     {
@@ -247,8 +277,8 @@
       "type": "second_chokepoint_risk",
       "context": "Day 34 zero confirmed Houthi Red Sea shipping attacks. Bab al-Mandeb in commercial closure via carrier withdrawal. Bloomberg: Iran pressing Houthis to resume but 'divisions within leadership.' Houthis told Lloyd's List 'no reason to prevent' Yanbu trade 'at present' — preserving shipping card as leverage. Washington and Riyadh told European allies they believe Houthis 'currently seek to avoid further escalation.'",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 7,
+      "last_activated": "2026-04-09",
+      "activation_count": 8,
       "weight": 10
     }
   ],

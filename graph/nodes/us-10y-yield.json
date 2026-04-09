@@ -3,8 +3,8 @@
   "name": "US 10-Year Treasury Yield",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "4.34% (+0.2%, +1 bp) — bond market BARELY MOVED on ceasefire day. US 2Y -1 bp to 3.62% (slight dovish nudge). Flat 10Y on -13.5% Brent crash = bond market not pricing big Fed shift. Fed 'patient hold' intact. DXY -1.1% — dollar weakness larger market move than rates. Hot CPI Friday less likely to force hike. Watch for Goldman/Moody's revised recession probabilities.",
+  "last_updated": "2026-04-09",
+  "summary": "4.29% (-5bps on Apr 8) — MOST IMPORTANT NON-MOVER of ceasefire day. Bond market skeptical: expected 10-15bps drop on Brent -11.5% crash + de-escalation, got only -5bps. Bonds don't believe ceasefire changes Fed trajectory. Cumulative inflation damage from 6 weeks of $100+ oil can't be reversed by fragile 14-day ceasefire. When bonds and equities diverge on the same news, bonds are usually right. US 2Y -1bp to 3.60%. DXY -1.1% to 98.58 — dollar weakness larger than rates move.",
   "current": {
     "price": "4.34%",
     "delta_1d": "+0.2%",
@@ -130,25 +130,35 @@
         "Bloomberg"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "US 10Y yield barely moved on ceasefire: -5bps to 4.29% on April 8 despite Brent crashing -11.5% and S&P +2.5%. MOST IMPORTANT NON-MOVER of the day. Expected: significant drop (10-15bps) on oil crash + de-escalation. Got: marginal. Bond market doesn't believe ceasefire changes the Fed's trajectory. March CPI (expected 3.2-3.4% on Friday April 10) already baked in. Cumulative inflation damage from 6 weeks of $100+ oil can't be reversed by fragile 14-day ceasefire. When bonds and equities diverge on the same news, bonds are usually right. US 2Y -1bp to 3.60%. DXY -1.1% to 98.58 — dollar weakness larger than rates move. (Source: yfinance, Trading Economics, CNBC)",
+      "sources": [
+        "yfinance",
+        "Trading Economics",
+        "CNBC"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "fed",
       "type": "rate_expectations",
-      "context": "10Y fell to 4.30% — yields dropping for second consecutive peace-signal session, now clearly pricing recession over inflation. ISM Prices 78.3 with employment contracting = stagflation trap. 52% hike probability. Fed completely paralyzed.",
+      "context": "10Y barely moved (-5bps to 4.29%) on ceasefire — bond market skeptical of ceasefire changing Fed trajectory. Cumulative inflation damage can't be reversed by fragile ceasefire.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 11,
+      "last_activated": "2026-04-09",
+      "activation_count": 12,
       "weight": 10.0
     },
     {
       "to": "sp-500",
       "type": "discount_rate",
-      "context": "Bond-equity divergence: 10Y fell -2bps while S&P rallied +2.9% then gave back -0.52%. Bonds pricing recession, equities pricing de-escalation. When they disagree, bonds usually right. VIX at 24.51 (two sessions below 30).",
+      "context": "Bond-equity divergence persists: 10Y only -5bps while S&P +2.51% and Brent -11.5%. Bonds skeptical of ceasefire, equities euphoric. When they disagree, bonds usually right.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 11,
+      "last_activated": "2026-04-09",
+      "activation_count": 12,
       "weight": 10.0
     },
     {

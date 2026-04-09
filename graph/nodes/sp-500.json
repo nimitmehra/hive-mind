@@ -3,14 +3,14 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Tue close 6,616.85 (+0.08%). NASDAQ 22,017.85 (+0.10%). Dow 46,584.46 (-0.18%). Futures +2.4% post-ceasefire announcement. Wed open will print +2-3%. Sector rotation: Energy/Defense DOWN; Financials/Semis UP. ~$1.5 trillion market cap potentially created in one session if the rally holds. Friday April 10 Islamabad talks are the next binary; failure would gap futures back -3-5%.",
+  "last_updated": "2026-04-09",
+  "summary": "S&P 500 closed at 6,782.81 (+2.51%) on April 8 — best day since April 2025. NASDAQ +2.80%. Airlines led (Delta +11%, United +14%). Defense ANOMALY: ITA +4.0% ON ceasefire — structural, not war-dependent. VIX crushed to 21.04 from 25.63. Rally FRAGILE: built on ceasefire that fractured within 18 hours. VIX at 21 means no protective hedging — reversal amplified 2-3x. Friday dual binary: CPI (3.2-3.4%) + Islamabad talks.",
   "current": {
-    "price": "6,616.85",
-    "delta_1d": "+0.08%",
-    "delta_1m": "-3.0%",
-    "delta_3m": "-4.4%",
-    "vix": "25.63"
+    "price": "6,782.81",
+    "delta_1d": "+2.5%",
+    "delta_1m": "-0.2%",
+    "delta_3m": "-2.6%",
+    "vix": "21.04"
   },
   "price_snapshots": [
     {
@@ -24,6 +24,12 @@
       "price": "6,616.85",
       "trigger": "Tuesday cash close + post-ceasefire futures +2.4%",
       "delta_context": "Pre-ceasefire flat day; ceasefire-day relief rally pending Wed open"
+    },
+    {
+      "date": "2026-04-08",
+      "price": "6,782.81",
+      "trigger": "Ceasefire rally — best day since April 2025",
+      "delta_context": "+2.51%; VIX crushed to 21; airlines exploded (Delta +11%, United +14%); defense +4.0% anomaly"
     }
   ],
   "signals": [
@@ -190,6 +196,17 @@
         "Bloomberg"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "S&P 500 closed at 6,782.81 (+2.51%) on April 8 — best day since April 2025. NASDAQ +2.80% to 22,635. Dow +2.66% to 47,909. Airlines led: Delta +11%, United +14%, American +11%, Southwest +13%. Tech surged: SMH +5.8% on helium relief. Energy crashed: XLE -3.5%, Exxon -4.7%. Defense ANOMALY: ITA +4.0% ON ceasefire — $1.5T FY27 budget makes defense structural, not war-dependent. VIX crashed to 21.04 from 25.63 — below pre-war level. April 9: flat/consolidation. Rally FRAGILE: built on ceasefire that fractured within 18 hours. VIX at 21 means no protective hedging — reversal amplified 2-3x. Friday dual binary: CPI (3.2-3.4%) + Islamabad talks. (Source: CNBC, Yahoo Finance, Bloomberg, Investing.com)",
+      "sources": [
+        "CNBC",
+        "Yahoo Finance",
+        "Bloomberg",
+        "Investing.com"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -198,35 +215,35 @@
       "type": "equity_market",
       "context": "Primary US equity benchmark. Bond-equity divergence emerging — equities pricing de-escalation while bonds pricing recession. ISM stagflation signal (prices 78.3, employment contracting).",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 14,
+      "last_activated": "2026-04-09",
+      "activation_count": 15,
       "weight": 10.0
     },
     {
       "to": "fed",
       "type": "rate_sensitivity",
-      "context": "Market pricing 52% probability of Fed HIKE by year-end. ISM stagflation signal (Prices 78.3, employment contracting) compounds Fed trap. Bond-equity divergence: yields fell on peace day while equities rallied.",
+      "context": "Rate-cut probability nearly doubled post-ceasefire (25% to 43%). VIX crushed to 21. Rally fragile — built on ceasefire that fractured within 18 hours.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 11,
+      "last_activated": "2026-04-09",
+      "activation_count": 12,
       "weight": 10.0
     },
     {
       "to": "brent-crude",
       "type": "earnings_risk",
-      "context": "Oil-equity divergence at widest of war. WTI +11.9% while S&P +0.1% — oil pricing escalation, equities pricing 2-3 week end. This split resolves violently in the April 5-8 window.",
+      "context": "Oil-equity divergence RESOLVED on ceasefire: Brent -11.5% and S&P +2.51% moved in expected directions. Energy XLE -3.5%, airlines +11-14%. If ceasefire collapses and oil snaps to $110+, S&P reversal amplified by VIX at 21.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 12,
+      "last_activated": "2026-04-09",
+      "activation_count": 13,
       "weight": 10.0
     },
     {
       "to": "helium",
       "type": "supply_chain_risk",
-      "context": "SMH +5.8% on helium relief from Pezeshkian peace signal. KOSPI +6.4% leading indicator. Qatar Ras Laffan = 30-38% global helium removed. Fabs still on 50% allocations. TrendForce production cut announcement window April 7-10.",
+      "context": "SMH +5.8% on helium relief. Ceasefire bought time for fab allocations. No TrendForce production-cut announcement by Day 2 of window. By April 10, helium cliff bear case functionally dead.",
       "directness": 2,
-      "last_activated": "2026-04-06",
-      "activation_count": 7,
+      "last_activated": "2026-04-09",
+      "activation_count": 8,
       "weight": 7.5
     }
   ],

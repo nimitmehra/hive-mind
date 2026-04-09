@@ -3,8 +3,8 @@
   "name": "Federal Reserve",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Recession-via-oil pathway materially weakened by ceasefire. Brent $94 vs Moody's Zandi $125 trigger = $30+ buffer. US 10Y 4.34% (barely moved); US 2Y 3.62% (-0.2%); DXY -1.1%. Fed 'patient hold' framing intact. Hot CPI Friday now less likely to force hike. Goldman 30% / Moody's 48.6% recession probabilities likely revised lower in 24-48 hours if ceasefire holds.",
+  "last_updated": "2026-04-09",
+  "summary": "Rate-cut probability nearly doubled post-ceasefire: from 25% to 43% for at least one cut in 2026 (CME FedWatch). Rate-hike odds halved from ~25% to 14%. This is the ceasefire's most durable market legacy — it shifted the monetary policy distribution function. FOMC March minutes revealed hawkish tilt but WTI at ~$96 weakens the inflation persistence argument. Citigroup: potential THREE cuts starting September. Oxford Economics: baseline TWO cuts. April 29 FOMC: 98% probability of no change. Friday April 10 March CPI release (consensus 3.2-3.4%) will test durability.",
   "signals": [
     {
       "date": "2026-03-18",
@@ -142,52 +142,64 @@
         "market-data.py"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Rate-cut probability nearly doubled post-ceasefire: from 25% to 43% for at least one cut in 2026 (CME FedWatch). Rate-hike odds halved from ~25% to 14%. FOMC March minutes (released April 8 evening) revealed hawkish tilt — several members discussed possibility of rate hikes if oil stayed elevated — but with WTI now ~$96, the inflation persistence argument weakened. Citigroup: if oil continues falling, sees potential for THREE cuts starting September. Oxford Economics: baseline TWO cuts to preempt labor market weakness. April 29 FOMC: 98% probability of no change. This is the ceasefire's most durable market legacy — it shifted the monetary policy distribution function. Friday April 10 March CPI release (consensus 3.2-3.4% vs Feb 2.4%) will test durability. (Source: CNBC, Benzinga, CME FedWatch, Citigroup, Oxford Economics)",
+      "sources": [
+        "CNBC",
+        "Benzinga",
+        "CME FedWatch",
+        "Citigroup",
+        "Oxford Economics"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "us-10y-yield",
       "type": "rate_expectations",
-      "context": "Fed policy → bond yields. 10Y fell to 4.30% — yields declining on peace signals, pricing recession over inflation. ISM stagflation data (Prices 78.3, employment contracting) validates bond market's signal. 52% hike probability.",
+      "context": "Rate-cut probability doubled post-ceasefire. 10Y barely moved (-5bps to 4.29%) — bond market skeptical. Friday CPI will test durability.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 11,
+      "last_activated": "2026-04-09",
+      "activation_count": 12,
       "weight": 10.0
     },
     {
       "to": "sp-500",
       "type": "discount_rate",
-      "context": "S&P +2.9% (Apr 1), -0.52% (Apr 2). VIX surged to 27.34 (+11.4%) — only 2.66 pts from 30 institutional threshold. Bond-equity divergence deepening. ISM stagflation supports bond view. Fed completely trapped.",
+      "context": "S&P +2.51% on ceasefire. VIX crushed to 21. Rate-cut probability shift is ceasefire's most durable equity-supportive legacy.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 11,
+      "last_activated": "2026-04-09",
+      "activation_count": 12,
       "weight": 10.0
     },
     {
       "to": "gold",
       "type": "rate_policy",
-      "context": "Gold regime shift CHALLENGED: gold crashed -3.1% to $4,636 as DXY surged back above 100 (100.22). Oil→inflation→dollar→gold-down channel reactivated. Gold only $36 above $4,600 threshold. Fed hike probability 52%. If gold breaks $4,600, regime shift invalidated.",
+      "context": "Gold regime shift CONFIRMED: DXY crashed to 98.58 on ceasefire → gold UP. Rate-cut probability doubled → dollar weakness → gold benefits. Gold is now a Fed/dollar hedge, not war hedge.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 8,
+      "last_activated": "2026-04-09",
+      "activation_count": 9,
       "weight": 10.0
     },
     {
       "to": "brent-crude",
       "type": "inflation_input",
-      "context": "Oil surged back to $109 post-address. ISM Prices 78.3 confirms oil-driven cost pressure across 17 of 18 industries. At $109, further above the $85 threshold where Fed could resume cuts. Stagflation trap deepens.",
+      "context": "Oil crashed to $96 on ceasefire — below the $100 threshold. If sustained, Fed can resume cuts. But physical oil at $120+ means futures may snap back. Ceasefire fragility is the key variable.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 11,
+      "last_activated": "2026-04-09",
+      "activation_count": 12,
       "weight": 10.0
     },
     {
       "to": "united-states",
       "type": "monetary_authority",
-      "context": "$200B war spending request compounds fiscal situation. ISM stagflation (Prices 78.3, employment contracting) confirms war-driven economic deterioration. DXY at 99.54 — dollar weakness signals growth concerns dominating.",
+      "context": "Rate-cut probability shift is ceasefire's most durable legacy. FOMC March minutes hawkish but overtaken by events. DXY at 98.58.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 7,
+      "last_activated": "2026-04-09",
+      "activation_count": 8,
       "weight": 10.0
     }
   ],

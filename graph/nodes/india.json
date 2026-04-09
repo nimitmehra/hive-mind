@@ -3,8 +3,8 @@
   "name": "India",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Day 40. CEASEFIRE RELIEF RALLY. Nifty +4.1% to 23,911, Sensex +4.5% to 77,438, Bank Nifty +5.0% to 55,221. INR strengthening to ₹92.55. India 10Y ~7.00-7.05% pre-RBI. RBI MPC decision 10 AM IST — consensus HOLD at 5.25%, dovish-friendly with Brent at $94. NOP cap deadline Friday April 10. FII still net selling April 7 (-₹8,336 cr) but DII buying (+₹7,449 cr). 200-DMA at ~24,051 within striking distance. Triple binary collapsing simultaneously. Forward risk: Friday Islamabad talks failure scenario gaps Nifty -3-5%.",
+  "last_updated": "2026-04-09",
+  "summary": "Day 41. CEASEFIRE RALLY CONFIRMED — Nifty 24,013 (+3.85%), Sensex 77,563 (+3.95%, biggest single-day gain in 6 years), Bank Nifty 55,221 (+5.0%). Rally driven by SHORT-COVERING + DII buying (Rs 7,979 cr), NOT FII re-entry — FIIs sold Rs 8,692 cr INTO the ceasefire rally. FII flow flip is the next major tell for sustainability. India 10Y collapsed to 6.91% (-12 bps, biggest single-session move in months). RBI press conference resolved all three unknowns: FY27 CPI 4.6%, GDP 6.9%, NOP cap deadline STANDS but curbs called 'temporary.' June 25bps cut pathway open if oil stays below $100. Brent at $96.75 — below $100 for first time since war began, easing $100-sustained trigger. VIX crashed 20% to 19.70 (pre-war level) = NO protective hedging. Forward risk: Friday Islamabad talks failure gaps Nifty -3-5% with VIX at complacency levels.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -316,43 +316,74 @@
         "Trendlyne"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Nifty 50 closed at 23,997.35 (+3.78%, +873.70 points) on April 8, with intraday high of 24,025 briefly touching 200-DMA at ~24,051. Sensex 77,562.90 (+2,946 / +3.95% — biggest single-day gain in 6 years). Bank Nifty ~55,221 (+5.0%). India VIX crashed 20% to 19.70 — pre-war level. Rs 16.8 lakh crore wealth created in single session. ALL 50 Nifty stocks closed green. Sectoral: Realty +6.76%, Auto +6.55%, PSU Banks +5.79%. April 9 expected cautious/flat per GIFT Nifty. (Source: Upstox, Moolaah, 5paisa, GoodReturns, Bloomberg)",
+      "sources": [
+        "Upstox",
+        "Moolaah",
+        "5paisa",
+        "GoodReturns",
+        "Bloomberg"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "FII flow flip DID NOT happen on ceasefire day. FIIs sold Rs 8,692 crore on April 8 (ceasefire day), continuing selling trend from April 7 (-Rs 8,336 cr). DIIs bought Rs 7,979 crore. Monthly April total: FIIs have sold Rs 37,944 crore. Nifty +3.78% rally driven by SHORT-COVERING + DII buying, NOT FII re-entry. FIIs selling INTO the ceasefire rally. FII flow flip remains the next major tell for rally sustainability. (Source: Trendlyne FII/DII data, NSE FII/DII reports, Upstox)",
+      "sources": [
+        "Trendlyne",
+        "NSE",
+        "Upstox"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "India 10Y GOI yield fell sharply to 6.91% on April 8 — down 12 bps from ~7.03-7.05%, the biggest single-session move in months and a two-week low. Back below 7% for the first time since early April. The ceasefire + RBI dovish hold pulled yields back ~20 bps from April peak of 7.11-7.13%. (Source: MarketScreener, TradingEconomics)",
+      "sources": [
+        "MarketScreener",
+        "TradingEconomics"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
     {
       "to": "brent-crude",
       "type": "import_dependency",
-      "context": "India imports 85-90% of crude. Brent crashed to $101.97 (from $118.35) easing import bill but still above $100 for ~13 days. Even with ceasefire + $85 oil, only recovers ~65% of losses. SPR 64% full, government NOT considering release.",
+      "context": "India imports 85-90% of crude. Brent at $96.75 — below $100 for first time since war began, easing import bill significantly. Ceasefire pulled oil from $118 to $96.75. June RBI cut pathway open if oil stays below $100.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 19,
+      "last_activated": "2026-04-09",
+      "activation_count": 20,
       "weight": 10.0
     },
     {
       "to": "inr-usd",
       "type": "trade_balance",
-      "context": "Higher oil bill = more dollar demand = rupee depreciation. INR improved to 92.64 (from 93.19) on Brent crash. FPI outflows Rs 1.8 trillion FY26 — worst since 1992. NOP cap deadline April 10 creating mechanical INR buying pressure ($30-40B unwinding).",
+      "context": "INR at ₹92.55 strengthening on ceasefire. NOP cap April 10 deadline STANDS — banks unwound ~75% ($30B of ~$40B). FII flow flip NOT happened — selling Rs 8,692 cr on ceasefire day. Path to ₹95-100 off the table for 2+ weeks.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 16,
+      "last_activated": "2026-04-09",
+      "activation_count": 17,
       "weight": 10.0
     },
     {
       "to": "rbi",
       "type": "policy_nexus",
-      "context": "RBI MPC meeting April 6-8 — facing imported inflation vs growth slowdown dilemma. NOP cap deadline April 10 firm. Banks unwinding $30-40B. India 10Y at 7.00-7.04%. Escalation ladder nearly exhausted.",
+      "context": "RBI held 5.25%, all three unknowns resolved. FY27 CPI 4.6%, GDP 6.9%. Most dovish forward guidance under Malhotra. NOP cap deadline April 10 STANDS but curbs 'temporary.' India 10Y collapsed to 6.91%. June 25bps cut pathway open.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 14,
+      "last_activated": "2026-04-09",
+      "activation_count": 15,
       "weight": 10.0
     },
     {
       "to": "nifty-50",
       "type": "market_impact",
-      "context": "India April 1 rally (+1.56%) reversed on April 2 (Nifty -1.87% to 22,254). Outperformed S&P (+0.72%) on April 1 but massively lagged KOSPI (+8.44%). April 2 reversal signals India-specific headwinds. VIX at 25.05. 200-day EMA at 22,000 = critical support (1.1% below). Three-layer problem: crisis-reversible, structural, regulatory.",
+      "context": "Nifty confirmed at 24,013 (+3.85%). 200-DMA touched at ~24,051. Rally driven by short-covering + DII (Rs 7,979 cr), NOT FII re-entry (sold Rs 8,692 cr). VIX crashed to 19.70 (pre-war). FII flow flip is the next sustainability tell.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 19,
+      "last_activated": "2026-04-09",
+      "activation_count": 20,
       "weight": 10.0
     },
     {
@@ -413,7 +444,7 @@
         "nifty-50",
         "fertilizer-urea"
       ],
-      "mechanism": "Brent crashed to $101.97 but STILL above $100 — has been above $100 for ~13 days. 2-week sustained threshold effectively reached April 3-4. Oil crash eases pressure but does not resolve it until sustained below $100.",
+      "mechanism": "Brent crashed to $96.75 — BELOW $100 for first time since war began. The 2-week sustained $100+ period (March ~21 to April 7) is now broken. However, oil could snap back above $100 if Friday Islamabad talks fail or ceasefire collapses. Trigger easing but not deactivated.",
       "added": "2026-04-01",
       "status": "watching"
     }
