@@ -4,12 +4,12 @@
   "type": "index",
   "created": "2026-03-23",
   "last_updated": "2026-04-09",
-  "summary": "24,012.95 (+3.85% confirmed close). Briefly touched 200-DMA at ~24,051 intraday before closing just below — within 0.2%. Sensex 77,563 (+3.95%, biggest single-day gain in 6 years). Bank Nifty +5.0% to 55,221. Rally driven by SHORT-COVERING + DII buying (Rs 7,979 cr), NOT FII re-entry — FIIs sold Rs 8,692 cr INTO the rally. FII flow flip has NOT happened. VIX crashed 20% to 19.70 (pre-war level) = NO protective hedging, reversal would be amplified. Rs 16.8 lakh crore wealth created in single session. Friday Islamabad talks failure scenario: gap-down -3-5% with VIX at complacency.",
+  "summary": "23,775.10 (-0.9% Apr 9) — CEASEFIRE FRACTURE GIVES BACK GAINS. Yesterday's +3.85% rally (briefly touched 200-DMA at ~24,051) reversed as overnight ceasefire fracture news hit: Israel Operation Eternal Darkness + Iran re-closed Hormuz + oil bouncing +4% toward $99. Bank Nifty -1.6% to 54,822 (worst sector). FII selling CONTINUED: Rs 8,692 cr sold on ceasefire day, flip DID NOT happen. Rally was short-covering + DII, not foreign re-entry. VIX at 19.70 (pre-war) means NO protective hedging — if Friday Islamabad fails, -3-5% gap-down amplified by complacency. 200-DMA at ~24,051 remains the line between correction and recovery. Sensex 76,632 (-1.2%).",
   "current": {
-    "price": "24,012.95",
-    "delta_1d": "+3.85%",
-    "delta_1m": "~-2.3%",
-    "delta_3m": "~-7.6%"
+    "price": "23,775.10",
+    "delta_1d": "-0.9%",
+    "delta_1m": "-2.8%",
+    "delta_3m": "-7.4%"
   },
   "price_snapshots": [
     {
@@ -47,6 +47,12 @@
       "price": "24,012.95",
       "trigger": "Ceasefire rally confirmed close — briefly touched 200-DMA at ~24,051",
       "delta_context": "+3.85% from 23,124 base; all 50 stocks green; Bank Nifty +5.0%; FII selling into rally (Rs 8,692 cr) offset by DII + short-covering"
+    },
+    {
+      "date": "2026-04-09",
+      "price": "23,775.10",
+      "trigger": "Ceasefire fracture sellback — Day 2 gives back gains",
+      "delta_context": "From 24,013 Apr 8 close to 23,775 Apr 9 — failed to hold 200-DMA at ~24,051. Bank Nifty -1.6%. Sensex -1.2%."
     }
   ],
   "signals": [
@@ -255,6 +261,17 @@
         "5paisa"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Nifty 50 closed at 23,775.10 (-0.9%) on April 9 — giving back ceasefire rally gains as fracture news hit overnight. Sensex 76,632 (-1.2%). Bank Nifty -1.6% to 54,822 (worst sector, most leveraged to oil-rate-NIM pathway). Drivers: (1) Israel Operation Eternal Darkness (254 killed in Lebanon), (2) Iran re-closed Hormuz, (3) oil bouncing +4% toward $99 restoring India CAD pressure. FII selling continued at Rs 8,692 cr on ceasefire day — rally was short-covering + DII (Rs 7,979 cr), NOT foreign re-entry. VIX at 19.70 = complacency. 200-DMA at ~24,051 not held. (Sources: yfinance, Upstox, Trendlyne FII/DII data, 5paisa)",
+      "sources": [
+        "yfinance",
+        "Upstox",
+        "Trendlyne",
+        "5paisa"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [

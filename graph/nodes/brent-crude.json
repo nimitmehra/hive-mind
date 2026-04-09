@@ -4,12 +4,12 @@
   "type": "commodity",
   "created": "2026-03-23",
   "last_updated": "2026-04-09",
-  "summary": "Brent $96.61 (+1.96% Apr 9) — futures have overshot to downside on ceasefire hope; physical market disagrees by $24+. Dated Brent physical still $120+, Dubai physical $126-140 (EBC Financial Group). Futures-physical gap widest since 2008. Ceasefire already fracturing: Lebanon exclusion, Iran Hormuz re-closure confirmed by Bloomberg AIS, only 3-4 ships through Hormuz Apr 8-9. If ceasefire collapses, futures snap to $110-120 within 24-48 hours. Goldman $85 avg / $71 Q4 and JPM $150 upside scenario both remain operative. No analyst has revised forecasts. War risk insurance unchanged at 2.5-5% of vessel value. Pre-crisis $70 → war high ~$118 → ceasefire crash $94.47 → partial reversal $96.61.",
+  "summary": "Brent $98.60/bbl (+4.1% Apr 9) — ceasefire fracture bounce restored war premium within 24 hours. Physical Dated Brent still $120+, Dubai physical $126-140 — $24+ futures-physical gap widest since 2008. Only 3-4 ships through Hormuz Apr 8-9 (Bloomberg AIS). Ceasefire fractured: Lebanon excluded (Israel Operation Eternal Darkness 254 killed), Iran re-closed Hormuz. WTI at $99.51 — WTI-Brent spread near parity signals maximum Hormuz uncertainty. No analyst has revised forecasts: Goldman $85 avg / $71 Q4 and JPM $150 upside still operative. Jason Schenker: 'Almost anything going wrong in these talks could very quickly put us back above $100.' Friday dual binary: CPI + Islamabad talks.",
   "current": {
-    "price": "$96.75/bbl",
-    "delta_1d": "-11.5%",
-    "delta_1m": "-2.2%",
-    "delta_3m": "+56.1%"
+    "price": "$98.60/bbl",
+    "delta_1d": "+4.1%",
+    "delta_1m": "+12.3%",
+    "delta_3m": "+55.7%"
   },
   "price_snapshots": [
     {
@@ -119,6 +119,12 @@
       "price": "$96.61/bbl",
       "trigger": "Day 2 bounce — ceasefire euphoria fading",
       "delta_context": "+1.96% from $94.75 close; Lebanon exclusion + Hormuz re-closure driving partial reversal"
+    },
+    {
+      "date": "2026-04-09",
+      "price": "$98.60/bbl",
+      "trigger": "Ceasefire fracture bounce — Lebanon excluded, Hormuz re-closed",
+      "delta_context": "Rebounded from $94.47 ceasefire crash low to $98.60 in 24 hours as ceasefire fractured. WTI $99.51. Physical Dated Brent still $120+."
     }
   ],
   "signals": [
@@ -400,6 +406,17 @@
         "NBC News"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "Brent surged to $98.60/bbl (+4.1%) by late afternoon April 9 — well above the morning $96.61 reading — as ceasefire fracture continued restoring war premium. WTI hit $99.51 (+5.4%), approaching $100 again. WTI-Brent spread near zero/inverted — market reclassifying Gulf crude as semi-stranded, pricing US domestic supply as safer. Heating oil +5.1% to $4.00/gal. Physical-futures gap remains $24+ (Dated Brent $120+ vs futures $98.60), widest since 2008 — physical buyers don't believe ceasefire. Jason Schenker (Prestige Economics): 'Almost anything going wrong in these talks could very quickly put us back above $100.' (Sources: Trading Economics, Fortune, EBC Financial Group, CNBC)",
+      "sources": [
+        "Trading Economics",
+        "Fortune",
+        "EBC Financial Group",
+        "CNBC"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
