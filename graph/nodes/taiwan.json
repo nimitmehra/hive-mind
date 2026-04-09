@@ -3,13 +3,13 @@
   "name": "Taiwan (TSMC)",
   "type": "country",
   "created": "2026-03-28",
-  "last_updated": "2026-04-08",
-  "summary": "TAIEX 34,666.68 (+6.4% 1D, +14.2% 3M). DOUBLE CATALYST: ceasefire risk-on (~50%) + AI semi cycle continuation (~25%) + China-Taiwan tension premium reduction (~25%). TSMC dominant component. Less helium-exposed than Korea (~30% Qatar vs 65%). Second-best performing major index of the war after KOSPI. Cleanest pure-AI semiconductor exposure without single-name concentration. Friday Islamabad failure reverses ~50%; AI semi cycle sticky.",
+  "last_updated": "2026-04-09",
+  "summary": "TAIEX 34,718.19 (+4.5% 1D Apr 9 close, +14.6% 3M). Day 2 of ceasefire rally — semiconductor supply chain relief cascade from helium normalization hopes (TrendForce production-cut window April 7-10 passed without announcement). Less helium-exposed than Korea (~30% Qatar dependency vs 65%) but TSMC catches the broader AI memory tailwind via Samsung/SK Hynix HBM3E demand. Second-best performing major index of the war (+14.6% 3M) — only KOSPI has outperformed (+26.5%). Crisis-linked ~65%. Friday Islamabad failure reverses ~half; AI semi cycle component sticky.",
   "current": {
-    "price": "TAIEX: 34,666.68",
-    "delta_1d": "+6.4%",
-    "delta_1m": "+3.0%",
-    "delta_3m": "+14.2%"
+    "price": "TAIEX: 34,718.19",
+    "delta_1d": "+4.5%",
+    "delta_1m": "+3.3%",
+    "delta_3m": "+14.6%"
   },
   "signals": [
     {
@@ -70,6 +70,17 @@
         "Seoul Economic Daily",
         "TrendForce",
         "yesterday's evening brief"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "TAIEX +4.5% TO 34,718 — DAY 2 OF SEMICONDUCTOR SUPPLY-CHAIN RELIEF [CONFIRMED]. Taiwan TAIEX continued the ceasefire-day rally with another +4.5% on Day 2, alongside KOSPI +5.6%, Nikkei +4.8%, SMH (US semiconductor ETF) +5.8%. The driver is helium supply chain normalization hopes — the TrendForce April 7-10 production-cut window has now passed Day 2 without any Samsung/SK Hynix announcement, meaning the helium-cliff bear case is functionally dead by April 10. TSMC is the dominant index component and benefits from the broader AI memory cycle continuing (NVIDIA HBM3E demand). Crisis-linked attribution ~65% (helium supply chain + ceasefire risk-on); ~35% structural AI cycle. Taiwan's relative position: less helium-exposed than Korea (~30% Qatar vs 65%) but indirectly benefits from Samsung/SK Hynix capacity coming back online. Second-best performing major index of the war at +14.6% 3M.",
+      "sources": [
+        "market-data.py",
+        "Trading Economics",
+        "TrendForce",
+        "Reuters"
       ],
       "significance": "high"
     }

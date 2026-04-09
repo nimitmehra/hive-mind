@@ -3,13 +3,13 @@
   "name": "Natural Gas / LNG",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "Henry Hub $2.75 (-4.3% on ceasefire — muted vs Brent -13.5%). Mechanism: US domestic supply, Hormuz doesn't release HH directly. US LNG export economics still bid as long as TTF elevated. European TTF ~€49.95-50.40/MWh; Wed open expected sharply lower if ceasefire holds. Qatar Ras Laffan restart takes weeks even on holding ceasefire. Cheniere structural beneficiary thesis intact short-term.",
+  "last_updated": "2026-04-09",
+  "summary": "Henry Hub $2.73 (-4.8% Day 2). European TTF round-trip: -20% to €42.50 then rebound to €49.95 on Iran Hormuz re-closure — physical European traders did not believe ceasefire would deliver Qatar LNG flows. Cheniere -3.2% on weakened export economics. Mechanism for HH muted move vs Brent: US domestic supply unaffected by Hormuz; weakness is demand-recovery anticipation + sector rotation, not crisis-linked physical supply. ~75% crisis-linked. Qatar Ras Laffan still offline since Feb 28. If Friday Islamabad fails, TTF likely retraces toward €60+ on stranded Qatar supply continuation.",
   "current": {
-    "price": "$2.75/MMBtu (HH); €49.95/MWh (TTF)",
-    "delta_1d": "-4.3% (HH)",
-    "delta_1m": "-12.0%",
-    "delta_3m": "-19.4%"
+    "price": "$2.73/MMBtu (HH); €49.95/MWh (TTF)",
+    "delta_1d": "-4.8% (HH); TTF round-trip -20% then rebound",
+    "delta_1m": "-12.5%",
+    "delta_3m": "-19.8%"
   },
   "price_snapshots": [
     {
@@ -166,6 +166,17 @@
         "market-data.py",
         "Trading Economics",
         "Investing.com"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-09",
+      "content": "GAS COMPLEX SELL-OFF DEEPENED ON DAY 2 [CONFIRMED]. Henry Hub $2.73 (-4.8% Day 2 vs -4.3% Day 1). European TTF round-trip: crashed -20% to €42.50/MWh on initial ceasefire reaction (Qatar Ras Laffan restart hopes), then REBOUNDED back near €49.95/MWh as Iran re-closed Hormuz citing Israeli Lebanon strikes. The TTF round-trip is the cleanest physical-market signal that European gas traders did NOT believe the ceasefire would deliver Qatar LNG flows. Cheniere LNG -3.2% on weakened US export economics. Crisis-linked % ~75%. Qatar Ras Laffan still offline since Feb 28. Friday Islamabad outcome will determine whether the round-trip becomes a sustained breakdown (success) or fully retraces (failure).",
+      "sources": [
+        "market-data.py",
+        "ICE Endex",
+        "Trading Economics",
+        "Bloomberg"
       ],
       "significance": "high"
     }
