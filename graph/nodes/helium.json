@@ -3,14 +3,14 @@
   "name": "Helium",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-09",
-  "summary": "CEASEFIRE HELIUM RELIEF → Day 2 profit-taking. April 8: KOSPI +6.87%, SK Hynix +13.65%, Samsung +7.38%, SMH +5.8% on Hormuz reopening → Qatar helium supply normalization hopes. April 9: KOSPI -1.6%, Samsung -3.1%, SK Hynix -2.4% — classic profit-taking after monster rally. Record 5.4 trillion won retail selling. TrendForce April 7-10 window: NO production cut announced by Day 3. By April 10, if no cut announcement, helium cliff bear case functionally DEAD. US emerging as strategic helium supplier. Physical delivery from Ras Laffan takes 3-4 weeks minimum.",
+  "last_updated": "2026-04-10",
+  "summary": "BEAR CASE DEAD. TrendForce window expired April 10 — NO production cut announced. Samsung ~6-month reserves + HeRS recycling system. Samsung/SK Hynix signed 3-5 year LTAs with Linde and Air Products (structural supply chain restructuring). South Korea 4+ month government reserves. China developing domestic ASML-certified sources. BUT: Ras Laffan recovery DELAYED to August 2026 (The National, April 9) — not May as hoped. Trains 4 & 6 need gas turbines with 2-4 year lead times. 30% of global helium still offline. KOSPI +1.7%, SMH +1.7% — semiconductor sector structurally intact. Linde +0.6%.",
   "current": {
-    "price": "Spot prices doubled; 50% allocation cuts confirmed",
-    "delta_1d": "KOSPI -4.47% (Samsung -5.91%, SK Hynix -6.83%)",
-    "delta_1m": "Rationing since early April",
-    "delta_3m": "From full supply to 50% allocations, spot doubled",
-    "snapshot_note": "As of Apr 7 evening."
+    "price": "Spot +40-100% from pre-crisis; contract $500-600/MCF",
+    "delta_1d": "KOSPI +1.7%, SMH +1.7%",
+    "delta_1m": "Supply chain adapted via LTAs and reserves",
+    "delta_3m": "From full supply to structural adaptation",
+    "snapshot_note": "As of Apr 10 morning. TrendForce window expired."
   },
   "signals": [
     {
@@ -196,6 +196,12 @@
         "Tom's Hardware"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-10",
+      "content": "TrendForce window EXPIRED — NO production cut announced. Bear case DEAD. Samsung has ~6 months helium stock plus HeRS recycling system targeting 18.6% annual reduction. Samsung and SK Hynix signed 3-5 year LTAs with Linde and Air Products (April 9). South Korea government secured 4+ months reserves. Japan inventories through early May, US procurement underway. China pushing domestic ASML-certified ultra-pure helium sources. Ras Laffan recovery DELAYED: The National (April 9) reports full operations not expected before August 2026 (not May as hoped). Trains 4 & 6 need replacement gas turbines with 2-4 year lead times. Partial North site restart within 1 month; South site by late summer. KOSPI +1.7%, SMH +1.7%. (Source: TrendForce, The National, DigiTimes, Tom's Hardware)",
+      "sources": ["TrendForce", "The National", "DigiTimes", "Tom's Hardware"],
+      "significance": "high"
     }
   ],
   "edges": [
