@@ -3,8 +3,8 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-04-10",
-  "summary": "Day 43. CEASEFIRE FAILED OPERATIONAL TEST. Three Chinese VLCCs halted at strait — NOT through. IRGC toll system intact. ~9 vessels through April 8-10 combined vs 100+/day pre-war = ~3% capacity. Stranded vessels revised sharply UP: 800-3,000 (Bloomberg/IMO/Global Security). 20,000+ seafarers trapped. Russia-China vetoed UNSC Hormuz resolution — no multilateral reopening pathway. Only bilateral (Islamabad) or unilateral (IRGC toll). War risk insurance 1.5-3.0% hull, 7-10x pre-war. LMA: safety, not insurance, is the bottleneck. CBS: oil exports return to previous levels by July 2026 at earliest. Iran demonstrated Hormuz as coercive toggle linked to Israeli compliance.",
+  "last_updated": "2026-04-11",
+  "summary": "Day 44. Traffic DECLINING post-ceasefire: 11 ships Apr 8, 5 Apr 9, 6-7 Apr 10. Windward AI estimates ~3,200 vessels stranded (higher than Bloomberg 800+). IRGC published navigational map acknowledging mines — permanent justification for escorted passage. Oman formally rejected IRGC toll proposal citing UNCLOS. IRGC tiered pricing confirmed: $0.50-0.70/bbl allies, $0.80-1.00 neutral, $1.20-1.50 hostile; payment via yuan/CIPS/Bitcoin/USDT. Russian VLCC MT Arhimeda transited inbound to Kharg (testing inbound passage). ADNOC CEO Al Jaber: 'The Strait of Hormuz is not open. That is coercion.' Kpler analyst: safe transit capacity max 10-15/day. 20,000+ seafarers trapped. Russia-China vetoed UNSC Hormuz resolution — no multilateral reopening pathway. Only bilateral (Islamabad) or unilateral (IRGC toll). War risk insurance 0.35-0.45% hull. CBS: oil exports return to previous levels by July 2026 at earliest.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -314,25 +314,31 @@
       "content": "Day 43. THREE CHINESE VLCCs (Cospearl Lake, He Rong Hai, Yuan Hua Hu) halted at strait, NOT through — ceasefire failed its first operational test. IRGC toll system remains in force. S&P Global: ~9 vessels transited April 8-10 combined vs 100+/day pre-war = ~3% capacity. Stranded vessel count revised UP: Bloomberg 800+, IMO 2,000, Press TV/Global Security 3,000 with 94% reduction. 20,000+ seafarers trapped. NBC News: 'effectively at a standstill despite ceasefire.' CNBC: 'may take months to recover.' War risk insurance at 1.5-3.0% hull value. LMA Neil Roberts: safety, not insurance, is the bottleneck. Russia-China vetoed Bahrain UNSC Hormuz resolution — closing multilateral reopening pathway. (Source: Bloomberg AIS, NBC News, CNBC, S&P Global, UN News)",
       "sources": ["Bloomberg", "NBC News", "CNBC", "S&P Global", "UN News"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-11",
+      "content": "Day 44. Traffic DECLINING post-ceasefire: 11 ships Apr 8 (including 9 tankers), 5 ships Apr 9 (ZERO oil/gas tankers per Kpler), 6-7 ships Apr 10 (2 tankers, 3 cargo, 1 bunkering). Three Chinese VLCCs (Cospearl Lake, He Rong Hai, Yuan Hua Hu) still NOT through. Russian VLCC MT Arhimeda (ex-Vizuri, US-sanctioned) transited INBOUND to Kharg — testing inbound passage. ADNOC CEO Sultan Al Jaber: 'The Strait of Hormuz is not open. Access is being restricted, conditioned and controlled. That is not freedom of navigation. That is coercion.' Windward AI estimates ~3,200 vessels stranded west of Hormuz (including ~800 tankers) — higher than Bloomberg 800+ or 479 subset tracker. IRGC published navigational map with alternative corridors to avoid mines — FIRST official Iranian acknowledgment mines are deployed. Creates PERMANENT operational justification for escorted passage: even if political leaders agree to 'free passage,' IRGC can argue ships need escort through mined waters. Oman formally rejected IRGC toll proposal citing UNCLOS (undersecretary-level meeting April 4 accepted monitoring protocol but rejected toll component). No nation has formally accepted the toll protocol. IRGC tiered pricing confirmed: allies (China, Russia) $0.50-0.70/bbl; neutral (India) $0.80-1.00; high-risk (EU, Japan, South Korea) $1.20-1.50; hostile (US, Israel) prohibited. Payment via yuan (Kunlun Bank/CIPS), Bitcoin, or USDT — entirely outside SWIFT. Kpler analyst Ana Subasic: 'Safe transit capacity expected constrained max 10-15 passages daily' even under best conditions. White House NEC Director Hassett admitted traffic 'about 10% of normal pace' — still overstating operational data (5-7/day vs 120-140 normal = ~4-5%).",
+      "sources": ["Kpler/NYT", "The Week India", "Bloomberg AIS", "gCaptain", "CNBC", "Windward AI", "Daily Caller", "Maritime Executive", "Oman FM", "Al Jazeera"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "territorial_control",
-      "context": "Day 41. Iran RE-CLOSED Hormuz citing Israeli Lebanon strikes as ceasefire violation. Toggle mechanism confirmed: Iran opens/closes keyed to Israeli compliance. Bloomberg AIS data: 3-4 ships April 8-9 vs 11 Tuesday. White House denial contradicted by operational data. 479 vessels stranded.",
+      "context": "Day 44. IRGC published navigational map acknowledging mines — permanent justification for escorted passage. Oman formally rejected toll proposal citing UNCLOS. IRGC tiered pricing operational ($0.50-1.50/bbl by tier). Traffic declining: 11 → 5 → 6-7 ships Apr 8-10. Mine map creates fait accompli: even political 'free passage' agreement requires IRGC escort through mined waters. 3,200 vessels stranded (Windward AI).",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 21,
+      "last_activated": "2026-04-11",
+      "activation_count": 22,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "supply_chokepoint",
-      "context": "Day 41. Iran re-closed Hormuz within 18 hours of ceasefire — proving toggle mechanism. CBS News: oil exports return to previous levels by July 2026 at earliest even if ceasefire holds perfectly. War risk insurance 7-10x pre-war despite post-ceasefire dip. Physical flow restoration timeline measured in months, not days.",
+      "context": "Day 44. Traffic declining post-ceasefire (11 → 5 → 6-7 ships Apr 8-10). Physical-futures gap persists ($120+ physical vs $94 futures). ADNOC CEO: 'not open — coercion.' Kpler: max 10-15 safe passages/day even under best conditions. CBS: oil exports return to previous levels by July 2026 at earliest. Goldman: another month of Hormuz closure = Brent above $100 throughout 2026.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 23,
+      "last_activated": "2026-04-11",
+      "activation_count": 24,
       "weight": 10
     },
     {
@@ -347,10 +353,10 @@
     {
       "to": "shipping-tankers",
       "type": "route_disruption",
-      "context": "Day 41. Re-closure: 3-4 ships April 8-9, 479 stranded (426 tankers, 34 LPG, 19 LNG). First post-ceasefire transits were bulk carriers NOT oil tankers. War risk insurance dipped to 0.35-0.45% but remains 7-10x pre-war. LMA: 'highly unlikely trade into the Gulf will simply resume.' Reinsurance restoration takes weeks.",
+      "context": "Day 44. Traffic declining: 11 → 5 → 6-7 ships Apr 8-10. Windward AI: ~3,200 vessels stranded (~800 tankers). Russian VLCC MT Arhimeda testing inbound to Kharg. IRGC mine map creates permanent escort requirement. War risk insurance 0.35-0.45% hull (down from peak but still 40-80% above pre-war). Kpler: max 10-15 safe passages/day.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 20,
+      "last_activated": "2026-04-11",
+      "activation_count": 21,
       "weight": 10
     },
     {

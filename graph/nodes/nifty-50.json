@@ -3,13 +3,13 @@
   "name": "Nifty 50",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-10",
-  "summary": "23,995 (+0.9% Apr 10) — NOP DEADLINE DAY. 56 points below 200-DMA at 24,051. FII still selling into recovery — flow flip has NOT happened. Today is April 10 NOP cap compliance deadline + Islamabad talks + US March CPI release = triple binary. VIX at pre-war levels means no protective hedging — complacency risk if any binary breaks negative.",
+  "last_updated": "2026-04-11",
+  "summary": "24,051 (+1.2% Apr 10) — AT THE 200-DMA. First touch since early March pre-war. Bank Nifty +2.0% leading. FII selling decelerating but flow flip NOT happened. INR divergence red flag. Two consecutive closes above 200-DMA needed for technical confirmation.",
   "current": {
-    "price": "23,995",
-    "delta_1d": "+0.9%",
-    "delta_1m": "-0.1%",
-    "delta_3m": "-7.0%"
+    "price": "24,051",
+    "delta_1d": "+1.2%",
+    "delta_1m": "+0.1%",
+    "delta_3m": "-6.7%"
   },
   "price_snapshots": [
     {
@@ -53,6 +53,12 @@
       "price": "23,775.10",
       "trigger": "Ceasefire fracture sellback — Day 2 gives back gains",
       "delta_context": "From 24,013 Apr 8 close to 23,775 Apr 9 — failed to hold 200-DMA at ~24,051. Bank Nifty -1.6%. Sensex -1.2%."
+    },
+    {
+      "date": "2026-04-10",
+      "price": "24,051",
+      "trigger": "First touch of 200-DMA since pre-war",
+      "delta_context": "Intraday high 24,074 briefly above. Bank Nifty +2.0% leading. INR divergence (Rs93.05 weaker despite rally) undermines sustainability."
     }
   ],
   "signals": [
@@ -270,6 +276,16 @@
         "Upstox",
         "Trendlyne",
         "5paisa"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-11",
+      "content": "Nifty 50 closed at 24,050.60 (+1.2%) — RIGHT AT 200-DMA at 24,051 [CONFIRMED, NSE India]. Intraday high 24,074 (briefly ABOVE). This is the first touch of 200-DMA since early March (pre-war). Bank Nifty +2.0% to 55,913 (intraday high 55,978) — most leveraged sector leading [CONFIRMED, Multibagg]. Rally driven by Brent -1.5% to $94.45 (below $95) easing India import bill + RBI dovish guidance + NOP cap deadline passing. FII selling DECELERATED: Rs 1,711 cr on April 9 (vs Rs 8,692 peak) — but flow flip NOT happened [CONFIRMED, NSE FII/DII]. INR divergence (Rs93.05 weaker despite rally) undermines sustainability. Key level: two consecutive closes ABOVE 200-DMA = technical confirmation of war drawdown negation. Today was AT it, not above.",
+      "sources": [
+        "NSE India",
+        "Multibagg",
+        "market data"
       ],
       "significance": "high"
     }

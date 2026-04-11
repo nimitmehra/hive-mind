@@ -3,13 +3,13 @@
   "name": "Fertilizer / Urea",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-09",
-  "summary": "Urea ~$838/mt (US Gulf FOB, -5-10% est. on ceasefire). CF Industries -5.7% to $126.16, Nutrien -2.6% to $74.88 on Hormuz reopening hopes → Qatar fertilizer supply normalization expected. BUT QAFCO (world's largest single-site urea plant, 5.6Mt/yr) still physically offline — plant restart takes months. Mizuho independently downgraded CF Industries on pricing outlook. ~85% of CF's 3M +53.6% gain is crisis-linked. If ceasefire collapses, fertilizer stocks snap back sharply — urea at $838/mt with Gulf supply cut is massively profitable for North American producers.",
+  "last_updated": "2026-04-11",
+  "summary": "Urea $693/mt (+39% from pre-crisis $500). CF Industries +51% 3M — largest crisis beneficiary. Fertilizer is war trade that has NOT unwound: Hormuz closed + Ras Laffan disrupted. Supply chains NOT normalized despite ceasefire. Natural gas feedstock elevated (global LNG). India Kharif sowing risk persists.",
   "current": {
-    "price": "~$838/mt (US Gulf FOB)",
-    "delta_1d": "~-5-10% est. (ceasefire supply normalization hopes)",
-    "delta_1m": "+34%",
-    "delta_3m": "+48% YoY"
+    "price": "~$693/mt (US Gulf FOB)",
+    "delta_1d": "~flat",
+    "delta_1m": "+30%+",
+    "delta_3m": "+39% from pre-crisis $500"
   },
   "signals": [
     {
@@ -150,6 +150,12 @@
         "TradingEconomics",
         "FinancialContent"
       ],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-11",
+      "content": "Urea at $693/mt US Gulf (elevated, +39% from pre-crisis $500). CF Industries +1.6%, Nutrien +1.3% — fertilizer stocks STRONG despite broader war-trade unwinding (energy -0.7%, defense -0.9%, tankers -1.4%). The war trade has NOT unwound for fertilizer: Hormuz remains functionally closed and Qatar Ras Laffan (major fertilizer hub via QAFCO) production still disrupted. Even ceasefire hasn't normalized fertilizer supply chains. CF Industries +51% 3M — largest crisis-beneficiary among tracked bellwether stocks. Natural gas feedstock costs still elevated due to global LNG disruption even though HH natgas at $2.65. India Kharif sowing risk persists — 65% of annual urea consumed in Kharif season (June-July).",
+      "sources": ["CBOT/Barchart", "FinancialContent", "Argus Media"],
       "significance": "medium"
     }
   ],

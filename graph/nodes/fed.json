@@ -3,8 +3,8 @@
   "name": "Federal Reserve",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-10",
-  "summary": "Rate at 3.5-3.75%. March CPI releasing TODAY (consensus 3.4%) — first war-inflation print. Fed raised inflation forecast to 2.7% (from 2.4%). 7 of 19 FOMC members see NO cuts for 2026. Rate-cut probability nearly doubled post-ceasefire (25% to 43%, CME FedWatch). Rate-hike odds halved from ~25% to 14%. FOMC March minutes hawkish but WTI at ~$96 weakens inflation persistence argument. Citigroup: potential THREE cuts starting September. Oxford Economics: baseline TWO cuts. April 29 FOMC: 98% probability of no change. Today's CPI is the test — hot print (3.4%+) revives hike talk.",
+  "last_updated": "2026-04-11",
+  "summary": "Rate at 3.5-3.75%. March CPI RESOLVED at 3.3% YoY (below 3.4% consensus). Core CPI 2.6% benign. Rate hike OFF table. June cut probability 35% (from 55%). April 29 hold 98.4%. Market treating headline 3.3% as transitory war-inflation — dangerous if Islamabad fails and oil returns to $110+.",
   "signals": [
     {
       "date": "2026-03-18",
@@ -152,6 +152,17 @@
         "CME FedWatch",
         "Citigroup",
         "Oxford Economics"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-11",
+      "content": "March CPI RESOLVED at 3.3% YoY — 0.1pp BELOW 3.4% consensus [CONFIRMED, BLS official release]. Core CPI 2.6% YoY, +0.2% MoM — both 0.1pp below forecast. Energy +10.9%, gasoline +21.2% (largest monthly since 1967). Textbook oil-supply-shock print — core well-behaved, headline driven by single exogenous variable. Rate HIKE fears 'off the table' per FinancialContent [CONFIRMED]. CME FedWatch: June cut probability dropped from 55% to 35%, rate hike near zero, April 29 hold 98.4% [CONFIRMED, CME FedWatch]. For RBI: benign core means Malhotra's dovish June cut pathway survives — Fed won't hike. Market SEPARATED headline from core — treating 3.3% as transitory war-inflation. MOST DANGEROUS positioning: if Islamabad fails and oil returns to $110+, May CPI 3.5-4.0% collapses 'transitory' narrative.",
+      "sources": [
+        "BLS CPI release",
+        "CNBC",
+        "CBS News",
+        "CME FedWatch"
       ],
       "significance": "high"
     }

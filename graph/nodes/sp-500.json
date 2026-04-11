@@ -3,14 +3,14 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-10",
-  "summary": "6,825 (+0.6% Apr 9) — 7th consecutive winning day. VIX at 19.49 (-7.4%), lowest since pre-war. Rally built on ceasefire that fractured within 18 hours but market shrugging off fracture news. Today's dual binary: March CPI (consensus 3.4%) + Islamabad talks. VIX at 19.49 = extreme complacency — no protective hedging.",
+  "last_updated": "2026-04-11",
+  "summary": "6,817 (-0.1% Apr 10) — snapped 7-day streak on CPI. Week +3.6%. VIX 19.23 = cheapest war insurance. Asymmetry NEGATIVE for optimistic positioning: Islamabad success mostly priced, failure = VIX 30+, S&P -3-5%.",
   "current": {
-    "price": "6,825",
-    "delta_1d": "+0.6%",
+    "price": "6,817",
+    "delta_1d": "-0.1%",
     "delta_1m": "+0.6%",
-    "delta_3m": "-2.2%",
-    "vix": "19.49"
+    "delta_3m": "-2.3%",
+    "vix": "19.23"
   },
   "price_snapshots": [
     {
@@ -205,6 +205,16 @@
         "Yahoo Finance",
         "Bloomberg",
         "Investing.com"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-11",
+      "content": "S&P 500 closed at 6,816.89 (-0.10%), snapping 7-day winning streak [CONFIRMED, Regal Securities]. Dow -0.56%. Nasdaq +0.37% (8th consecutive day — Nvidia +2.57%, AMD +3.55%). Market initially surged on CPI relief (3.3% below feared 3.5%+) then reversed. VIX compressed further to 19.23 — vol-selling feedback loop continues [CONFIRMED, CBOE]. For the week: S&P +3.6%, Nasdaq +4.7%, Dow +3.0% — best week since November. VIX at 19.23 implies ~8-10% probability of 5%+ move in 10 days; actual probability 25-35% given Islamabad binary. This is the cheapest insurance since the war started.",
+      "sources": [
+        "Regal Securities",
+        "CBOE",
+        "market data"
       ],
       "significance": "high"
     }

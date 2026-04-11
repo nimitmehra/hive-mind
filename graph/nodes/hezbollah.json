@@ -3,8 +3,8 @@
   "name": "Hezbollah",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-10",
-  "summary": "Day 43 / Ceasefire Day 3. HEZBOLLAH RETALIATED — first post-ceasefire rocket fire into northern Israel on April 9, responding to Operation Eternal Darkness (254-300+ killed, 1,150 wounded, 50 IAF jets, 100 targets). Israel struck ADDITIONAL targets in Lebanon on April 9 despite ceasefire. Ceasefire scope now 4-way dispute: Iran/Pakistan/France say Lebanon included; US/Israel say excluded. France (Macron) stated Lebanon 'fully included' — making it 3-vs-2 against US/Israel position. Netanyahu authorized direct negotiations with Lebanon at State Department next week (Axios). Hezbollah official told AP: 'giving a chance for mediators' but 'not announced adherence since Israelis are not adhering.' Casualty toll revised UP. Iran re-closed Hormuz citing these strikes — Hezbollah's operational status remains linked to Hormuz toggle mechanism.",
+  "last_updated": "2026-04-11",
+  "summary": "Day 44. 100+ rockets since ceasefire began, 70 on April 10 alone. Most significant: struck Ashdod Naval Base in central Israel (~200km from Lebanese border) — qualitative capability escalation from border harassment to strategic depth. Also struck Haifa (sirens across city), Kiryat Shmona (fire, no warning siren), Karmiel (4-month-old infant and 4 children injured), Nahariya. Operational tempo dramatically increased. Haaretz: IDF assesses Hezbollah maintains 'solid military hold,' IDF 'not planning to advance deeper,' halted 10km south of Litani, IDF 'stretched to breaking point.' Ceasefire scope 4-way dispute continues. Iran re-closed Hormuz citing Lebanon strikes — Hezbollah's operational status linked to Hormuz toggle.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -161,34 +161,40 @@
       "content": "Hezbollah RETALIATED against Operation Eternal Darkness by firing rockets into northern Israel on April 9 — the first post-ceasefire Hezbollah rocket fire. Israel had struck 100 Hezbollah targets across Lebanon on April 8 (50 IAF jets, 254-300+ killed, 1,150 wounded). Netanyahu stated ceasefire 'does not include Lebanon.' Hezbollah initially held fire on ceasefire Day 1 before retaliating Day 2. France (Macron) stated Lebanon 'fully included' in ceasefire. Netanyahu authorized direct negotiations with Lebanon at State Department next week. Ceasefire scope now 4-way dispute: Iran/Pakistan/France say Lebanon included; US/Israel say excluded. (Source: PBS, Axios, Al Jazeera, Times of Israel)",
       "sources": ["PBS News", "Axios", "Al Jazeera", "Times of Israel"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-11",
+      "content": "Day 44. Hezbollah ESCALATED dramatically: 100+ rockets since ceasefire began, with 70 rockets on April 10 alone. Most significant: struck Ashdod Naval Base in central Israel (~200km from Lebanese border) — if confirmed, qualitative capability escalation from border harassment to strategic depth. Also struck Haifa (sirens across city), Kiryat Shmona (fire, no warning siren), Karmiel (4-month-old infant and 4 children injured), and Nahariya. Operational tempo dramatically increased. Separately, Haaretz military correspondents report systemic IDF assessment gap: Hezbollah maintains 'solid military hold in southern Lebanon,' IDF is 'not planning to advance deeper' (halted 10km south of Litani), senior officers say 'disarming Hezbollah can only be done by Lebanon,' IDF 'stretched to breaking point.' Israel struck Nabatieh — 13 Lebanese State Security (government, NOT Hezbollah) killed. Trump told Netanyahu 'low key' to avoid derailing Pakistan talks.",
+      "sources": ["Al Jazeera", "ANI", "Sunday Guardian", "Times of Israel", "Haaretz", "HRW"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "proxy_alliance",
-      "context": "Day 41. Iran RE-CLOSED Hormuz explicitly citing Israeli strikes on Hezbollah (Operation Eternal Darkness, 254 killed) as ceasefire violation. Hezbollah's operational status now directly linked to Hormuz toggle mechanism. Iran using Hezbollah front as coercive lever for broader ceasefire compliance. IRGC issued 'unprecedented retaliation' instructions.",
+      "context": "Day 44. Hezbollah escalation (100+ rockets, Ashdod reached) directly supports Iran's Islamabad negotiating position — Lebanon violence gives Ghalibaf his precondition argument. Hormuz toggle mechanism remains linked to Hezbollah front. Trump told Netanyahu 'low key' — implicit acknowledgment Lebanon violence threatens the talks.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 14,
+      "last_activated": "2026-04-11",
+      "activation_count": 15,
       "weight": 10.0
     },
     {
       "to": "israel",
       "type": "active_conflict",
-      "context": "Day 41. Operation Eternal Darkness: 254 killed, 1,165 wounded — heaviest single-day losses of war. Hezbollah initially complied with ceasefire, resumed missile attacks on northern Israel April 9 after the strikes. Fadlallah: 'grave violation with repercussions for entire agreement.' Three-way contradiction on ceasefire scope — Hezbollah says ceasefire covers Lebanon.",
+      "context": "Day 44. 100+ rockets since ceasefire, 70 on April 10. Struck Ashdod Naval Base (~200km from border — strategic depth escalation). Also Haifa, Kiryat Shmona, Karmiel (infant + 4 children injured), Nahariya. IDF assesses Hezbollah maintains 'solid military hold,' IDF 'stretched to breaking point.' Trump told Netanyahu 'low key.' Ceasefire scope 4-way dispute continues.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 17,
+      "last_activated": "2026-04-11",
+      "activation_count": 18,
       "weight": 10.0
     },
     {
       "to": "lebanon",
       "type": "operating_base",
-      "context": "Day 41. Operation Eternal Darkness struck 100 Hezbollah targets across Lebanon — command centers, intelligence HQ, rocket/naval units, Radwan Force, aerial infrastructure. 254 killed, 1,165 wounded on single day. Central Beirut struck WITHOUT prior warning. Single deadliest day of the 2026 Lebanon war.",
+      "context": "Day 44. Israel struck Nabatieh — 13 Lebanese State Security (government, NOT Hezbollah) killed. Targeting expanding from militia to Lebanese state apparatus. HRW documented strikes killing hundreds and damaging vital bridge. Continued strikes in Aita al-Shaab, al-Majadel, Hanine.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 14,
+      "last_activated": "2026-04-11",
+      "activation_count": 15,
       "weight": 10.0
     }
   ],

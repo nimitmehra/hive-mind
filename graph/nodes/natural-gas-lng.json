@@ -3,13 +3,13 @@
   "name": "Natural Gas / LNG",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-09",
-  "summary": "Henry Hub $2.73 (+0.1% Apr 9). European TTF ~€46.64/MWh — crashed -12.4% over 2 days on ceasefire LNG supply normalization hopes, but NOT fully recovering to pre-war ~€31. Qatar Ras Laffan still offline since Feb 28. Physical restoration takes 3-4 weeks minimum even with full Hormuz reopening. BASF +18.7% monthly as European chemical sector benefits from TTF crash — the war→Hormuz→LNG→TTF→European chemicals cascade is active and investable. If Friday Islamabad fails, TTF likely retraces toward €55-60+.",
+  "last_updated": "2026-04-11",
+  "summary": "HH $2.65 (-0.6%), TTF ~EUR44.46/MWh (~flat). Decoupling persists: US domestic disconnected from global crisis. TTF down from peaks but +42% from pre-war. Ras Laffan recovery DELAYED to August 2026 (not May). EU storage 30% = summer refill vulnerability. Ceasefire eased fears but physical restoration takes months. Cheniere structural beneficiary thesis narrowing as TTF declines.",
   "current": {
-    "price": "$2.73/MMBtu (HH); ~€46.64/MWh (TTF)",
-    "delta_1d": "+0.1% (HH); ~-12.4% 2D (TTF)",
-    "delta_1m": "-9.7% (HH)",
-    "delta_3m": "-14.0% (HH); +50%+ (TTF vs pre-war)"
+    "price": "$2.65/MMBtu (HH); ~EUR44.46/MWh (TTF)",
+    "delta_1d": "-0.6% (HH); ~flat (TTF)",
+    "delta_1m": "-17.3% (HH)",
+    "delta_3m": "-22.2% (HH); +42% (TTF vs pre-war ~EUR31)"
   },
   "price_snapshots": [
     {
@@ -179,6 +179,12 @@
         "Bloomberg"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-11",
+      "content": "European TTF gas ~flat at ~EUR44.46/MWh — down from crisis peaks (~EUR70), still +42% from pre-war ~EUR31. Henry Hub $2.65 (-0.6%). The decoupling persists: US domestic gas disconnected from global crisis. Ceasefire eased LNG supply fears but physical Ras Laffan restart delayed to August (The National, April 9). EU gas storage at 30% (five-year seasonal low) creates summer refill vulnerability — structurally impossible to meet winter targets without Hormuz LNG resuming. Cheniere -0.1% — LNG export premium narrowing on TTF decline. Heating oil -5.0% includes seasonal + nat gas substitution + crude pullback. BASF +2.1% (+19.3% 1M) on restructuring — European chemical sector decoupling from TTF as prices normalize.",
+      "sources": ["ICE Endex/oilpriceapi.com", "yfinance", "The National"],
+      "significance": "medium"
     }
   ],
   "edges": [

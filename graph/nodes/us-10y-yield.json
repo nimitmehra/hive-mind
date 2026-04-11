@@ -3,13 +3,13 @@
   "name": "US 10-Year Treasury Yield",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-10",
-  "summary": "4.29% (flat Apr 9) — bonds barely moved on ceasefire OR fracture. Pricing inflation persistence that ceasefire cannot undo. 6 weeks of $100+ oil baked into inflation expectations regardless of fragile 14-day ceasefire. ISM Prices at 78.3 (highest since June 2022). Physical oil still $120+ while futures at $98. US 2Y at 3.60%. TODAY's March CPI (consensus 3.4%) is the binary — hot print pushes 10Y toward 4.40-4.50%.",
+  "last_updated": "2026-04-11",
+  "summary": "4.32% (+2.7bps Apr 10) — barely moved on 3.3% CPI miss. Bond market already priced inflation persistence. 2Y at 3.59% (+0.1%). Stagflation trap intact. Bond-equity divergence persists — bonds pricing inflation/growth risk, equities pricing peace. When they disagree, bonds usually right.",
   "current": {
-    "price": "4.29%",
-    "delta_1d": "flat",
-    "delta_1m": "+3.7%",
-    "delta_3m": "+2.6%"
+    "price": "4.32%",
+    "delta_1d": "+0.6%",
+    "delta_1m": "+2.6%",
+    "delta_3m": "+3.1%"
   },
   "signals": [
     {
@@ -138,6 +138,16 @@
         "yfinance",
         "Trading Economics",
         "CNBC"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-11",
+      "content": "US 10Y rose modestly to 4.32% (+0.6% / ~+2.7bps from 4.29%) on CPI day [CONFIRMED, Federal Reserve H.15]. REMARKABLY MUTED for a headline miss (3.3% vs 3.4% consensus). Expected +3-5bps, got ~+2.7bps. Bond market already priced inflation persistence from 6 weeks of $100+ oil. 2Y yield closed at 3.59% (+0.1%) [CONFIRMED, yfinance]. Stagflation trap: can't sell bonds on inflation (growth risk too high), can't buy bonds on growth fears (inflation too high). Bond-equity divergence PERSISTS: equities pricing peace + rate cuts, bonds pricing inflation persistence + growth risk. When they disagree, bonds usually right.",
+      "sources": [
+        "Federal Reserve H.15",
+        "yfinance",
+        "TradingEconomics"
       ],
       "significance": "high"
     }

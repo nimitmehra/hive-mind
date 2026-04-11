@@ -3,8 +3,8 @@
   "name": "Iran",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-10",
-  "summary": "Day 43. IRNA-TASNIM SPLIT WIDEST SINCE WAR BEGAN. Civilian government (IRNA/Araghchi) negotiating at Islamabad with 10-point proposal; IRGC (Tasnim) building exit case with 'Restraint is Over' framing. Pezeshkian-IRGC confrontation REPORTED (Iran International + Ynet): accused Guards of 'unilateral escalation.' IRGC reportedly blocked intelligence minister appointment + forced security council secretary. Saudi-Iranian FM first call since war. Iran enrichment stance: non-negotiable domestic right vs White House claim of 'turnover agreement.' Ghalibaf/Araghchi lead Saturday Islamabad formal talks. The civilian government may negotiate but cannot commit without IRGC approval.",
+  "last_updated": "2026-04-11",
+  "summary": "Day 44. ISLAMABAD TALKS BEGINNING — proximity format (separate rooms, Pakistan shuttling messages). Both delegations arrived: Ghalibaf (lead) + Araghchi + Ahmadian + Hemmati vs Vance (highest-ranking US official to negotiate with Iranians since 1979) + Witkoff + Kushner. Ghalibaf set TWO preconditions: (1) Lebanon ceasefire, (2) release of blocked assets. Trump: 'no cards,' flat enrichment rejection. IRGC power grab deepening (REPORTED, Iran International/NewsX, NOT confirmed): Ahmad Vahidi blocked all Pezeshkian intelligence minister nominees including Dehghan; Pezeshkian accused IRGC of 'unilateral escalation' that 'destroyed any remaining chance of ceasefire'; warned economy faces 'total collapse within three weeks to one month.' Security cordon around Mojtaba preventing government access (REPORTED). IRGC mine map published — permanent Hormuz control mechanism. Oman rejected toll proposal.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -692,34 +692,40 @@
       "content": "Day 43. IRNA-TASNIM SPLIT WIDENING. IRNA (civilian): diplomatic language, 'ball is in US court' (Araghchi). Tasnim (IRGC): 'Israeli Violation to Result in Exit from Deal,' 'Restraint is Over,' threatening to 'obliterate US-linked infrastructure.' Pezeshkian-IRGC confrontation corroborated by Ynet (originally Iran International): accused IRGC commanders Vahidi/Abdollahi of 'unilateral escalation.' IRGC reportedly blocked Pezeshkian's intelligence minister appointment. Iran released 10-point Islamabad proposal: continued Hormuz control, enrichment rights, sanctions lifting, no-aggression commitment. Saudi-Iranian FM held FIRST call since war (The National). Delegations confirmed: Ghalibaf (lead) + Araghchi for Saturday Islamabad formal talks. White House says Iran agreed to 'turn over enriched uranium' — Iran denies. (Source: Tasnim, IRNA, Iran International, Ynet, Time, The National, Al Jazeera)",
       "sources": ["Tasnim", "IRNA", "Iran International", "Ynet", "Time Magazine", "The National", "Al Jazeera"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-11",
+      "content": "Day 44. ISLAMABAD TALKS BEGINNING — proximity format. Both delegations arrived: Iran's Ghalibaf (lead) + FM Araghchi + SNSC Secretary Ahmadian + Central Bank Governor Hemmati + several MPs at Serena Hotel, Islamabad. Arrived late Thursday night at Nur Khan Airbase. Pakistani fighter jets escorted Iranian delegation plane. Format: PROXIMITY TALKS — separate rooms, Pakistan shuttling messages, NOT face-to-face. Ghalibaf set TWO preconditions before negotiations begin: (1) ceasefire in Lebanon, (2) release of Iran's blocked assets. Ghalibaf on X: 'These two matters must be fulfilled before negotiations begin.' Rhetoric hardline-conditional: 'We have goodwill, but we do not have trust.' Cited three alleged ceasefire violations: continued Israeli strikes on Lebanon, drone entering Iranian airspace, denial of enrichment rights. Trump told reporters Iran has 'no cards,' flatly rejected enrichment: 'There will be no enrichment of Uranium.' IRGC POWER GRAB DEEPENING (REPORTED by Iran International/NewsX, NOT confirmed): Ahmad Vahidi blocked all Pezeshkian intelligence minister nominees including Dehghan, stated 'all critical and sensitive leadership positions must be selected and managed directly by the IRGC until further notice.' Pezeshkian in 'complete political deadlock' — accused Vahidi and Abdollahi of 'acting unilaterally and driving escalation through attacks on regional countries,' warned those policies 'had destroyed any remaining chance of a ceasefire' and were steering Iran toward 'a huge catastrophe.' Pezeshkian warned economy faces 'total collapse within three weeks to one month' without ceasefire. Security cordon around Mojtaba preventing government access — Pezeshkian's meeting requests 'all gone unanswered' (REPORTED, Iran International). CRITICAL QUESTION FOR ISLAMABAD: does the Iranian delegation actually have authority to commit Iran, or will any agreement be subject to IRGC veto? IRGC mine map published — permanent Hormuz control mechanism. Oman formally rejected toll proposal citing UNCLOS.",
+      "sources": ["Al Jazeera", "PressTV", "PBS", "Axios", "Asharq Al-Awsat", "Iran International", "NewsX", "Atalayar", "Oman FM"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "territorial_control",
-      "context": "Day 41. Iran RE-CLOSED Hormuz within 18 hours citing Israeli Lebanon strikes as ceasefire violation. Toggle mechanism confirmed — open/close keyed to Israeli compliance. Bloomberg: 3-4 ships April 8-9 vs 11 Tuesday. 479 vessels stranded. Hormuz now explicitly linked to Lebanon front as coercive lever.",
+      "context": "Day 44. IRGC mine map published — permanent Hormuz control mechanism. Even if political leaders agree to 'free passage,' IRGC can argue ships need escort through mined waters. Oman rejected toll proposal citing UNCLOS. Tiered pricing operational ($0.50-1.50/bbl). Traffic declining: 11 → 5 → 6-7 ships Apr 8-10. Mojtaba's 'new phase' statement escalates permanence framing. 3,200 vessels stranded (Windward AI).",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 24,
+      "last_activated": "2026-04-11",
+      "activation_count": 25,
       "weight": 10.0
     },
     {
       "to": "israel",
       "type": "active_conflict",
-      "context": "Day 41. Ceasefire fractured within 18 hours. Israel launched 'Operation Eternal Darkness' — 254 killed in Lebanon. Iran RE-CLOSED Hormuz in response. IRGC Aerospace Force issued 'emergency instructions for unprecedented retaliation.' IRNA-Tasnim split: civilian government preserves deal, IRGC builds case to exit. Three-way contradiction on ceasefire scope (Lebanon).",
+      "context": "Day 44. Ghalibaf set Lebanon ceasefire as Islamabad precondition — directly citing continued Israeli strikes. Nabatieh 13 State Security killed. Hezbollah escalated (100+ rockets, Ashdod reached). IRGC power grab deepening (REPORTED): Vahidi blocking all Pezeshkian nominees, security cordon around Mojtaba. Pezeshkian accused IRGC of 'destroying any remaining chance of ceasefire.'",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 30,
+      "last_activated": "2026-04-11",
+      "activation_count": 31,
       "weight": 10.0
     },
     {
       "to": "united-states",
       "type": "active_conflict",
-      "context": "Day 41. Ghalibaf accused US of violating THREE ceasefire clauses. Pakistan PM Sharif contradicted Trump on ceasefire scope. Iran launched massive missile/drone attacks on 5 Gulf states within hours of ceasefire. White House called Hormuz re-closure 'false' — contradicted by Bloomberg data. IRGC-civilian split emerging: Pezeshkian reportedly confronted IRGC commander Taeb over unilateral escalation.",
+      "context": "Day 44. Islamabad proximity talks beginning. Ghalibaf's preconditions (Lebanon ceasefire, blocked assets) vs Trump's 'no cards' + flat enrichment rejection. Positions diametrically opposed. IRGC power grab (REPORTED) raises critical delegation authority question. Pezeshkian warned 'total collapse within three weeks' without ceasefire. Pakistan goal explicitly 'modest.'",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 31,
+      "last_activated": "2026-04-11",
+      "activation_count": 32,
       "weight": 10.0
     },
     {
