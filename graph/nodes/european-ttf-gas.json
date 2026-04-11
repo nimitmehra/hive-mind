@@ -3,13 +3,13 @@
   "name": "European TTF Natural Gas",
   "type": "commodity",
   "created": "2026-03-28",
-  "last_updated": "2026-04-09",
-  "summary": "€49.95/MWh — round-trip on the ceasefire fracture. Initial ceasefire reaction: -20% to €42.50/MWh on hopes of Qatar Ras Laffan restart and Hormuz reopening. Then REBOUNDED back near €49.95 as Iran re-closed Hormuz citing Israeli Lebanon strikes — price action confirms TTF is now keyed to Hormuz status, not headline ceasefire announcements. The intraday €42.50 → €49.95 round-trip is the cleanest European market signal that physical traders did not believe the ceasefire framework would deliver Qatar LNG flows. EU storage at 28% (5-year seasonal low). Cheniere LNG export economics linked to TTF spread. Friday Islamabad outcome will determine next direction.",
+  "last_updated": "2026-04-11",
+  "summary": "€44.46/MWh — eased materially from €49.95 over the past two days as ceasefire holds and Ras Laffan restart timeline solidifies (delayed to August 2026, not May). Still +43% above pre-war €31.20. Decoupling from US gas confirmed: Henry Hub at $2.65 (-0.6%). EU storage at 30% (five-year seasonal low) — summer refill vulnerability window (May-Oct) remains the structural risk regardless of ceasefire. Cheniere LNG (US export) barely moved (-0.1%) as TTF spread narrows. TTF is now keyed to Hormuz status (operational), not headline announcements (political) — confirmed by the April 9 round-trip from €42.50 back to €49.95. Current downward move reflects physical LNG restoration expectations: ceasefire eased LNG supply fears but Qatar Ras Laffan restart is now August, not May. For ECB: benign core 2.6% in US CPI + TTF easing = rate hike pressure reducing, but stagflation trap persists through summer refill.",
   "current": {
-    "price": "€49.95/MWh",
-    "delta_1d": "-20% intraday to €42.50, rebounded to €49.95",
-    "delta_1m": "+est. 30%+",
-    "delta_3m": "+60%+"
+    "price": "€44.46/MWh",
+    "delta_1d": "~flat",
+    "delta_1m": "eased from crisis peaks",
+    "delta_3m": "+42%"
   },
   "signals": [
     {
@@ -145,6 +145,17 @@
         "OilPriceAPI",
         "Trading Economics",
         "Bloomberg"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-11",
+      "content": "Day 44. TTF EASED TO €44.46/MWh [CONFIRMED]. European TTF gas down from €49.95 to €44.46/MWh (approximately -11% over two sessions), confirming the April 9 round-trip was a temporary rebound and physical market is now pricing ceasefire durability with Ras Laffan restart expectation. Still +43% above pre-war €31.20. Decoupling from US gas confirmed: Henry Hub at $2.65 (-0.6%) — US domestic disconnected from global crisis. Heating oil -5.0% on seasonal demand + nat gas substitution reinforces the distillate-substitution pathway. EU storage at 30% — five-year seasonal low — means summer refill vulnerability window (May-October) remains the structural risk regardless of ceasefire durability. IMPORTANT DELAY: Ras Laffan recovery timeline now August 2026 (not May 2026 as previously reported). This gives TTF a clear path lower if the ceasefire holds through summer but creates persistent vulnerability if the August restart slips further. Cheniere LNG (US export) barely moved (-0.1%) as the TTF spread narrows. For ECB: US CPI core benign at 2.6% + TTF easing = rate hike pressure reducing; stagflation trap persists but with reduced intensity through summer. ECB rate hike probability should compress materially from 76-84% over the next 1-2 weeks if TTF continues easing. TTF trigger 'reaches €100/MWh' remains far away at €44.46 — 2.25x needed. (Sources: oilpriceapi.com, ICE Endex, TradingEconomics, markets.md G)",
+      "sources": [
+        "oilpriceapi.com",
+        "ICE Endex",
+        "TradingEconomics",
+        "markets.md"
       ],
       "significance": "high"
     }
