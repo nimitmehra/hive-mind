@@ -24,7 +24,7 @@ An **intelligence system** — not a news aggregator — that produces daily bri
 
 ## The Knowledge Graph
 
-The graph currently tracks **44 nodes** across 7 types and **174 weighted edges** representing causal connections.
+The graph currently tracks **46 nodes** across 7 types and **184 weighted edges** representing causal connections.
 
 ### Node Types
 - **Countries** (16): Bahrain, China, India, Iran, Iraq, Israel, Kuwait, Lebanon, Pakistan, Qatar, Russia, Saudi Arabia, South Korea, Taiwan (TSMC), United Arab Emirates, United States
@@ -33,7 +33,7 @@ The graph currently tracks **44 nodes** across 7 types and **174 weighted edges*
 - **Indices** (4): INR/USD Exchange Rate, Nifty 50, S&P 500, US 10-Year Treasury Yield
 - **Trade Routes** (2): Red Sea / Suez Canal, Strait of Hormuz
 - **Sectors** (5): Defense & Aerospace Sector, Energy Sector (Global), Indian IT Sector (TCS/Infosys/Wipro), Indian Oil Marketing (IOC/BPCL/HPCL), Shipping / Tanker Rates
-- **Persons** (2): Donald Trump, Mojtaba Khamenei
+- **Persons** (4): Donald Trump, JD Vance, Masoud Pezeshkian, Mojtaba Khamenei
 
 ### How the Graph Works
 
