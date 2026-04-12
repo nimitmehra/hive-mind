@@ -3,13 +3,13 @@
   "name": "Fertilizer / Urea",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-11",
-  "summary": "Urea $693/mt (+39% from pre-crisis $500). CF Industries +51% 3M — largest crisis beneficiary. Fertilizer is war trade that has NOT unwound: Hormuz closed + Ras Laffan disrupted. Supply chains NOT normalized despite ceasefire. Natural gas feedstock elevated (global LNG). India Kharif sowing risk persists.",
+  "last_updated": "2026-04-12",
+  "summary": "Urea $838/mt (+68% from pre-crisis $500) -- MOST ELEVATED crisis indicator vs baseline, exceeding even Brent (+49%). NOT RESPONDING TO CEASEFIRE: Hormuz closed + Ras Laffan disrupted + natural gas feedstock elevated. Five of eight major fertilizers showed 5%+ weekly increases. CF Industries +51% 3M -- largest pure crisis beneficiary. India Kharif sowing risk persists. This is the most honest real-economy signal about whether the ceasefire is translating into supply chain normalization -- it is NOT.",
   "current": {
-    "price": "~$693/mt (US Gulf FOB)",
+    "price": "~$838/mt (US Gulf FOB)",
     "delta_1d": "~flat",
-    "delta_1m": "+30%+",
-    "delta_3m": "+39% from pre-crisis $500"
+    "delta_1m": "+34%",
+    "delta_3m": "+68% from pre-crisis $500"
   },
   "signals": [
     {
@@ -155,8 +155,22 @@
     {
       "date": "2026-04-11",
       "content": "Urea at $693/mt US Gulf (elevated, +39% from pre-crisis $500). CF Industries +1.6%, Nutrien +1.3% — fertilizer stocks STRONG despite broader war-trade unwinding (energy -0.7%, defense -0.9%, tankers -1.4%). The war trade has NOT unwound for fertilizer: Hormuz remains functionally closed and Qatar Ras Laffan (major fertilizer hub via QAFCO) production still disrupted. Even ceasefire hasn't normalized fertilizer supply chains. CF Industries +51% 3M — largest crisis-beneficiary among tracked bellwether stocks. Natural gas feedstock costs still elevated due to global LNG disruption even though HH natgas at $2.65. India Kharif sowing risk persists — 65% of annual urea consumed in Kharif season (June-July).",
-      "sources": ["CBOT/Barchart", "FinancialContent", "Argus Media"],
+      "sources": [
+        "CBOT/Barchart",
+        "FinancialContent",
+        "Argus Media"
+      ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-12",
+      "content": "UREA AT $838/mt -- MOST ELEVATED CRISIS INDICATOR vs baseline (+68% from pre-crisis $500, exceeding Brent's +49%) [CONFIRMED, DTN/Argus/FinancialContent]. Five of eight major fertilizers showed 5%+ weekly increases. Fertilizer prices have NOT responded to the ceasefire AT ALL -- Hormuz remains closed and Qatar's fertilizer infrastructure is offline. This is the most honest real-economy signal about whether the ceasefire is translating into supply chain normalization. IT IS NOT. The physical world has not changed -- only futures markets and headlines have. CF Industries +51% 3M (largest crisis beneficiary stock). If India March CPI (Monday release) shows food price acceleration, the fertilizer->india food CPI cascade edge ACTIVATES. (Sources: DTN, Argus, FinancialContent)",
+      "sources": [
+        "DTN",
+        "Argus",
+        "FinancialContent"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [

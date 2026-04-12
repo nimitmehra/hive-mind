@@ -3,7 +3,7 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-11",
+  "last_updated": "2026-04-12",
   "summary": "6,817 (-0.1% Apr 10) — snapped 7-day streak on CPI. Week +3.6%. VIX 19.23 = cheapest war insurance. Asymmetry NEGATIVE for optimistic positioning: Islamabad success mostly priced, failure = VIX 30+, S&P -3-5%.",
   "current": {
     "price": "6,817",
@@ -213,6 +213,15 @@
       "content": "S&P 500 closed at 6,816.89 (-0.10%), snapping 7-day winning streak [CONFIRMED, Regal Securities]. Dow -0.56%. Nasdaq +0.37% (8th consecutive day — Nvidia +2.57%, AMD +3.55%). Market initially surged on CPI relief (3.3% below feared 3.5%+) then reversed. VIX compressed further to 19.23 — vol-selling feedback loop continues [CONFIRMED, CBOE]. For the week: S&P +3.6%, Nasdaq +4.7%, Dow +3.0% — best week since November. VIX at 19.23 implies ~8-10% probability of 5%+ move in 10 days; actual probability 25-35% given Islamabad binary. This is the cheapest insurance since the war started.",
       "sources": [
         "Regal Securities",
+        "CBOE",
+        "market data"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-12",
+      "content": "AFTERNOON -- VIX MISPRICING IS THE MOST DANGEROUS NUMBER: VIX at 19.23 (-20.6% monthly) implies ~8-10% probability of a 5%+ S&P move in 10 days. ACTUAL probability given Islamabad failure + 10 ceasefire days remaining = 25-35%. This is the WIDEST VIX mispricing of the entire war. The market has priced in a best-case scenario (ceasefire holds, talks progress, oil declines) just as the talks have failed. Mechanism: April 7-8 ceasefire announcement triggered aggressive hedge unwinding. VIX below 20 triggered systematic vol-selling feedback loop: vol-targeting funds mechanically increased equity exposure, realized vol compressed, implied vol compressed further. CPI 3.3% below feared 3.5% removed second volatility source. ASYMMETRY: ceasefire holds = VIX stays 18-20 (minimal downside for hedges). Ceasefire collapses = VIX spikes to 30+ in hours, triggering algo selling cascade that amplifies equity decline 2-3x. Any VIX call strike 30-35 with 7-14 DTE is massively asymmetric. Monday should reprice VIX toward 22-25 on talks failure alone. Bond-equity divergence persists: 10Y barely moved on CPI miss, FOMC hawkish -- bonds usually right. (Sources: CBOE, market data)",
+      "sources": [
         "CBOE",
         "market data"
       ],

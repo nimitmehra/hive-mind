@@ -3,8 +3,8 @@
   "name": "INR/USD Exchange Rate",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-11",
-  "summary": "Rs93.05 (+0.8% weakening Apr 10) — DIVERGENCE from Nifty (+1.2%). INR weakened while equities rallied — FII still selling, DII-driven equity rally NOT confirmed by forex. NOP compliance DONE. Sub-Rs91 requires ceasefire extension + oil below $95.",
+  "last_updated": "2026-04-12",
+  "summary": "Rs93.05 (+0.8% weakening Apr 10) -- FOURTH CONSECUTIVE SESSION of Nifty-INR divergence (RED FLAG). INR weakened while equities rallied -- FII still selling (Rs 48,213 cr in April first 10 days), DII-driven equity rally NOT confirmed by forex. Talks failure = INR to Rs93.30-93.60 (Scenario 1) or Rs93.80-94.50 (Scenario 2). Sub-Rs91 requires ceasefire extension + oil below $95 + FII flow flip.",
   "current": {
     "price": "Rs93.05",
     "delta_1d": "+0.8%",
@@ -231,6 +231,15 @@
         "NSE FII/DII data"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-12",
+      "content": "FOURTH CONSECUTIVE SESSION of Nifty-INR divergence confirmed -- the clearest signal that the Nifty rally is fragile. INR WEAKENED to Rs93.05 (+0.8%) while Nifty rallied +1.2% to 200-DMA. Mechanism: equity rally is DII-funded (domestic institutions buying), NOT FII-driven. FIIs sold Rs 1,711 crore on April 9 -- deceleration from Rs 8,692 peak but the FLIP to net buying has NOT happened. FPI outflows Rs 48,213 crore in April's first 10 days. FII selling = dollar demand = INR pressure, regardless of Nifty direction. If FIIs continue selling into Monday's gap-down, Nifty breaks below 200-DMA and the weekly rally reverses. Monday scenarios: Contained failure Rs93.30-93.60; Ceasefire wobble Rs93.80-94.50; Collapse Rs95+. (Sources: NSE FII/DII data, market data)",
+      "sources": [
+        "NSE FII/DII data",
+        "market data"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [

@@ -3,8 +3,8 @@
   "name": "Reserve Bank of India",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-11",
-  "summary": "June 25bps cut pathway INTACT. US CPI 3.3% core benign — Fed hike off table, removing feared scenario for India cut narrative. NOP cap compliance DONE. India March CPI April 13 is next domestic catalyst. India 10Y at 6.93% below 7%.",
+  "last_updated": "2026-04-12",
+  "summary": "Held at 5.25% with dovish guidance (April 8). June 25bps cut pathway open IF oil stays below $95. But Islamabad failure + potential Monday oil gap to $98-105 immediately questions the cut pathway. India March CPI releasing Monday April 13 (consensus 3.4%) -- if hot (>3.5%), combined with talks failure, the cut narrative dies for June. India 10Y at 6.93% faces double Monday risk -- could push above 7% in single session.",
   "signals": [
     {
       "date": "2026-03-04",
@@ -232,6 +232,16 @@
         "TradingEconomics"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-12",
+      "content": "AFTERNOON CONTEXT: RBI rate cut pathway faces Monday stress test. Governor Malhotra explicitly cited \"ongoing conflict\" as pause justification (April 8). Islamabad failure means: (1) oil NOT declining toward $85 -- instead expected +$3-10 Monday, (2) India March CPI releasing Monday (consensus 3.4%, first print reflecting $100+ oil), (3) if CPI comes hot AND oil gaps above $97, the June cut is OFF and the dovish guidance that powered Bank Nifty +2.0% Friday becomes irrelevant. India 10Y at 6.93% (below 7% psychological threshold) faces double Monday risk -- talks failure + CPI could push above 7% in single session. FOMC hawkish overhang: 4-7 members making \"strong case\" for rate hikes -- removes external cover for RBI to cut. (Sources: RBI policy statement, FOMC minutes, market data)",
+      "sources": [
+        "RBI policy statement",
+        "FOMC minutes",
+        "market data"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [

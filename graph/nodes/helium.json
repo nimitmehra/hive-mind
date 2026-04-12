@@ -3,14 +3,14 @@
   "name": "Helium",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-11",
+  "last_updated": "2026-04-12",
   "summary": "BEAR CASE DEAD. TrendForce window expired April 10 — NO production cut announced. Samsung ~6-month reserves + HeRS recycling system. Samsung/SK Hynix signed 3-5 year LTAs with Linde and Air Products (structural supply chain restructuring). South Korea 4+ month government reserves. China developing domestic ASML-certified sources. BUT: Ras Laffan recovery DELAYED to August 2026 (The National, April 9) — not May as hoped. Trains 4 & 6 need gas turbines with 2-4 year lead times. 30% of global helium still offline. KOSPI +1.7%, SMH +1.7% — semiconductor sector structurally intact. Linde +0.6%.",
   "current": {
-    "price": "Spot +40-100% from pre-crisis; contract $500-600/MCF",
-    "delta_1d": "KOSPI +1.7%, SMH +1.7%",
-    "delta_1m": "Supply chain adapted via LTAs and reserves",
-    "delta_3m": "From full supply to structural adaptation",
-    "snapshot_note": "As of Apr 10 morning. TrendForce window expired."
+    "price": "$1,000-1,200/MCF spot (+100-140% from pre-crisis ~$500)",
+    "delta_1d": "KOSPI +1.4%, SMH +1.5%",
+    "delta_1m": "Supply chain structurally adapted via LTAs and reserves",
+    "delta_3m": "30% global supply offline (Qatar Ras Laffan); 18-24 month recovery",
+    "snapshot_note": "As of Apr 12. Ras Laffan recovery DELAYED to August 2026."
   },
   "signals": [
     {
@@ -200,8 +200,24 @@
     {
       "date": "2026-04-10",
       "content": "TrendForce window EXPIRED — NO production cut announced. Bear case DEAD. Samsung has ~6 months helium stock plus HeRS recycling system targeting 18.6% annual reduction. Samsung and SK Hynix signed 3-5 year LTAs with Linde and Air Products (April 9). South Korea government secured 4+ months reserves. Japan inventories through early May, US procurement underway. China pushing domestic ASML-certified ultra-pure helium sources. Ras Laffan recovery DELAYED: The National (April 9) reports full operations not expected before August 2026 (not May as hoped). Trains 4 & 6 need replacement gas turbines with 2-4 year lead times. Partial North site restart within 1 month; South site by late summer. KOSPI +1.7%, SMH +1.7%. (Source: TrendForce, The National, DigiTimes, Tom's Hardware)",
-      "sources": ["TrendForce", "The National", "DigiTimes", "Tom's Hardware"],
+      "sources": [
+        "TrendForce",
+        "The National",
+        "DigiTimes",
+        "Tom's Hardware"
+      ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-12",
+      "content": "Helium spot $1,000-1,200/MCF (+100-140% from pre-crisis ~$500). 30% global supply offline (Qatar Ras Laffan). Samsung/SK hynix securing long-term contracts with Linde and Air Products. Structural adaptation underway: Samsung HeRS recycling, South Korea 4+ month government reserves, China developing domestic ASML-certified sources. Ras Laffan recovery DELAYED to August 2026 (not May) -- Trains 4 & 6 need gas turbines with 2-4 year lead times. KOSPI +1.4%, SMH +1.5% -- semiconductor sector structurally intact despite helium constraints. The bear case (production halts) is dead but the structural price elevation persists for 18-24 months. Linde +0.6% flat, BASF +2.1% on non-crisis corporate restructuring. (Sources: gasworld, CNBC, Tom's Hardware, TrendForce)",
+      "sources": [
+        "gasworld",
+        "CNBC",
+        "Tom's Hardware",
+        "TrendForce"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [

@@ -3,13 +3,13 @@
   "name": "Natural Gas / LNG",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-11",
+  "last_updated": "2026-04-12",
   "summary": "HH $2.65 (-0.6%), TTF ~EUR44.46/MWh (~flat). Decoupling persists: US domestic disconnected from global crisis. TTF down from peaks but +42% from pre-war. Ras Laffan recovery DELAYED to August 2026 (not May). EU storage 30% = summer refill vulnerability. Ceasefire eased fears but physical restoration takes months. Cheniere structural beneficiary thesis narrowing as TTF declines.",
   "current": {
     "price": "$2.65/MMBtu (HH); ~EUR44.46/MWh (TTF)",
-    "delta_1d": "-0.6% (HH); ~flat (TTF)",
-    "delta_1m": "-17.3% (HH)",
-    "delta_3m": "-22.2% (HH); +42% (TTF vs pre-war ~EUR31)"
+    "delta_1d": "-0.8% (HH); ~flat (TTF)",
+    "delta_1m": "-17.5% (HH)",
+    "delta_3m": "-22.3% (HH); +42% (TTF vs pre-war ~EUR31)"
   },
   "price_snapshots": [
     {
@@ -183,7 +183,21 @@
     {
       "date": "2026-04-11",
       "content": "European TTF gas ~flat at ~EUR44.46/MWh — down from crisis peaks (~EUR70), still +42% from pre-war ~EUR31. Henry Hub $2.65 (-0.6%). The decoupling persists: US domestic gas disconnected from global crisis. Ceasefire eased LNG supply fears but physical Ras Laffan restart delayed to August (The National, April 9). EU gas storage at 30% (five-year seasonal low) creates summer refill vulnerability — structurally impossible to meet winter targets without Hormuz LNG resuming. Cheniere -0.1% — LNG export premium narrowing on TTF decline. Heating oil -5.0% includes seasonal + nat gas substitution + crude pullback. BASF +2.1% (+19.3% 1M) on restructuring — European chemical sector decoupling from TTF as prices normalize.",
-      "sources": ["ICE Endex/oilpriceapi.com", "yfinance", "The National"],
+      "sources": [
+        "ICE Endex/oilpriceapi.com",
+        "yfinance",
+        "The National"
+      ],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-12",
+      "content": "Henry Hub at $2.65/MMBtu (-17.5% monthly) -- US domestic story: seasonal demand collapse + record US production + storage surplus + ceasefire LNG relief. TTF at EUR44.46/MWh (down from EUR55 peak but +42% from pre-war EUR31). EU storage at 5-year low ~30% -- summer refill vulnerability. The ceasefire-driven moderation in TTF is at risk if talks failure leads to ceasefire collapse (TTF snaps to EUR55-60). CRITICAL NUANCE: Henry Hub != TTF != JKM. US gas is domestic; war primarily impacts TTF/JKM through LNG supply risks. Henry Hub fell because ceasefire reduced scenario where massive LNG exports would tighten domestic supply. This is the ONE crisis-linked asset moving FAVORABLY for the investor -- cheap US gas feeds through to lower industrial costs. If ceasefire collapses, HH rebounds modestly (+$0.30-0.50) but structural oversupply caps upside. (Sources: EIA, ICE Endex via TradingEconomics, IndexBox)",
+      "sources": [
+        "EIA",
+        "ICE Endex via TradingEconomics",
+        "IndexBox"
+      ],
       "significance": "medium"
     }
   ],
