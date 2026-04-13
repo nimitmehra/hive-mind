@@ -3,8 +3,8 @@
   "name": "United States",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-12",
-  "summary": "Day 45. Islamabad talks FAILED after 21 hours. Vance led ~300-member delegation (with Witkoff, Kushner), left 'final and best offer' with nuclear non-proliferation demand Iran refused. Arms Control Association assessed US negotiators 'ill-prepared' — Witkoff lacked technical expertise. SIMULTANEOUSLY: CENTCOM launched Hormuz mine clearing operation — USS Frank E. Peterson and USS Michael Murphy conducted first US warship transit since war began. Admiral Cooper: 'establishing a new passage.' Conflicting accounts on outcome — US says completed, Iran says turned back. Trump claimed 'clearing out' Hormuz. The dual-track approach (negotiate while clearing mines) mirrors Israel's 'negotiate while bombing.' Monday repricing imminent: market was ALL-IN on 'ceasefire fixes inflation' thesis.",
+  "last_updated": "2026-04-13",
+  "summary": "Day 46. US NAVAL BLOCKADE OF IRANIAN PORTS announced Saturday April 12, confirmed by CENTCOM for implementation April 13 at 10:00 AM ET. Applies to ALL maritime traffic entering/exiting Iranian ports across Arabian Gulf and Gulf of Oman, enforced impartially against all nations. Preserves freedom of navigation for non-Iranian Hormuz transits. Evolved from mine clearing (Phase 1, April 11) to full blockade (Phase 2, April 13). Iran IRGC calls it ceasefire violation, threatens 'severe' response. This is the most significant US military escalation since ceasefire began April 8. Islamabad talks failed after 21 hours — Vance's 'final offer' remains unanswered. Goldman Q1 earnings reporting today.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -554,6 +554,12 @@
         "Rapidan Energy via Fortune"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-13",
+      "content": "CENTCOM confirmed US naval blockade of all Iranian ports effective April 13 at 10:00 AM ET. Blockade applies to 'all maritime traffic entering and exiting Iranian ports' across Arabian Gulf and Gulf of Oman, 'enforced impartially against vessels of all nations.' Preserves freedom of navigation for non-Iranian Hormuz transits. Follows Trump's Saturday announcement after Islamabad talks collapse. Mine clearing operation (Phase 1, April 11) escalated to blockade (Phase 2). IRGC called it ceasefire violation, threatened 'severe' response to military vessels. Brent surged +7.4% to $102.20 on the news. (Sources: CENTCOM press release, CNBC, Bloomberg, NPR, Al Jazeera, Newsweek — 6+ independent confirmations)",
+      "sources": ["CENTCOM", "CNBC", "Bloomberg", "NPR", "Al Jazeera", "Newsweek"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -662,9 +668,9 @@
         "sp-500",
         "nifty-50"
       ],
-      "mechanism": "If Friday talks reveal the 'complete opening' vs 'controlled passage' gap is unbridgeable, ceasefire collapses and Trump's deadline framework returns. Brent gaps +$10-15, equities -3-5%, gold +$100-150, VIX back to 30+. The next single largest binary in the system.",
+      "mechanism": "RESOLVED: Talks failed after 21 hours — no deal. Vance's 'final offer' outstanding. However, full cascade did NOT trigger because ceasefire still technically holds (~April 22 expiry). Brent surged +7.4% to $102.20 but did not gap +$15. Equities repricing Monday. The binary resolved toward failure, but the CEASEFIRE surviving the failure dampened the cascade. US escalated to naval blockade instead of resuming strikes.",
       "added": "2026-04-08",
-      "status": "watching"
+      "status": "resolved"
     }
   ],
   "price_snapshots": [

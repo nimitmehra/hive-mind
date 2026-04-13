@@ -3,8 +3,8 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-04-12",
-  "summary": "Day 45. MAJOR DEVELOPMENT: US Navy launched mine clearing operation — first US warship transit since war began. USS Frank E. Peterson and USS Michael Murphy entered the strait. Admiral Cooper: 'establishing a new passage, will share safe pathway with maritime industry.' CONFLICTING ACCOUNTS on outcome: US says both ships completed full transit; Iran says IRGC issued 30-minute warning and Michael Murphy 'turned back'; Bloomberg cited regional intelligence official supporting Iran's version. IRGC reportedly launched UAV in direction of vessels. IRGC threatened 'severe' response to unauthorized military transit, called it ceasefire violation. This is a UNILATERAL US approach to Hormuz — not waiting for diplomatic resolution. Underwater drones to join clearance in coming days. If successful, creates alternative to IRGC toll system without Iranian consent. Traffic still ~3% of pre-war. 3,200 vessels stranded. Islamabad talks failed — diplomatic path to reopening weakened.",
+  "last_updated": "2026-04-13",
+  "summary": "Day 46. US NAVAL BLOCKADE now operational — CENTCOM confirmed blockade of all Iranian ports effective April 13 10:00 AM ET. This evolves from mine clearing (April 11) to full blockade. Blockade targets Iranian port traffic only, preserves non-Iranian Hormuz transit. IRGC calls it ceasefire violation, threatens 'severe' response. Traffic still ~3% of pre-war. The strait's crisis has entered a new phase: direct US-Iran naval confrontation risk. VLCC rates still ~$151K/day (down from $423K peak). War risk insurance likely to re-spike from ceasefire lows. Over 150 tankers anchored outside strait.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -365,6 +365,12 @@
         "Jerusalem Post"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-13",
+      "content": "US naval blockade of Iranian ports begins — CENTCOM confirmed implementation April 13 at 10:00 AM ET. Applies to all maritime traffic to/from Iranian ports, enforced impartially. Preserves non-Iranian Hormuz transit. Mine clearing (Phase 1, April 11) escalated to blockade (Phase 2). AIS evidence from April 11 favored US completing initial transit (USS Michael Murphy transponder activated on far side of strait). IRGC: blockade is ceasefire violation, military vessels will face 'severe' response. Iran spokesperson 'strongly denied' US transit was completed. War risk insurance expected to re-spike from ceasefire rates (0.35-0.45%) back toward 1.5-3%. (Sources: CENTCOM, CNBC, Bloomberg, Fortune, WSJ, Al Jazeera)",
+      "sources": ["CENTCOM", "CNBC", "Bloomberg", "Fortune", "WSJ", "Al Jazeera"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -454,7 +460,7 @@
         "united-states",
         "shipping-tankers"
       ],
-      "mechanism": "APPROACHING ACTIVATION: US mine clearing operation launched April 11. AIS evidence suggests successful transit. McNally projects commercial escort operations possible by late April. Trump framing as \"out-blockade.\" HOWEVER: not yet a sustained escort operation -- one mine-clearing transit != commercial escort service. Watching for: (1) safe corridor shared with maritime industry (Admiral Cooper promised this), (2) VLCC/commercial vessel escort announced, (3) IRGC response (mine relaying, fast boat attacks on clearance vessels). Status remains WATCHING until commercial escorts begin.",
+      "mechanism": "APPROACHING ACTIVATION: US escalated from mine clearing (April 11) to full naval blockade of Iranian ports (April 13, CENTCOM confirmed). Blockade applies to ALL maritime traffic to/from Iranian ports, enforced impartially. HOWEVER: a blockade of Iranian ports is NOT the same as a naval escort service for commercial vessels through Hormuz. This trigger requires commercial escorts, which haven't started. The blockade is offensive (preventing traffic TO Iran) while the trigger condition is defensive (escorting traffic THROUGH Hormuz). McNally still projects commercial escort operations possible by late April. Watching for: (1) safe corridor shared with maritime industry, (2) VLCC/commercial vessel escort announced, (3) IRGC response to blockade enforcement. Status remains WATCHING until commercial escorts begin.",
       "added": "2026-03-23",
       "status": "watching"
     },

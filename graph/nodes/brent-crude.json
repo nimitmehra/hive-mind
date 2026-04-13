@@ -3,13 +3,13 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-12",
-  "summary": "$95.20/bbl (Friday close). Islamabad talks failed Saturday — Monday repricing expected +$3-10 to $98-105 range as 'ceasefire resolution' premium returns. Physical-futures gap persists ($120+ physical vs $95 futures). Polymarket: 23% odds WTI reaches $105 in April. Goldman Q2 scenario ($100+ all 2026 if Hormuz stays closed another month) now MORE LIKELY after talks failure. US mine clearing operation adds new variable — if successful, could structurally undermine Iran's Hormuz leverage. Asymmetry materialized: failure scenario is now base case for Monday.",
+  "last_updated": "2026-04-13",
+  "summary": "$102.20/bbl (+7.4% Monday). US naval blockade of Iranian ports announced — Brent surged from $95.20 to $102.20, largest single-session move since ceasefire announcement April 8. Back above $100 — the 5-session sub-$100 count is RESET TO ZERO. Physical-futures gap persists. WTI $104.73 (+8.4%). Heating oil +8.7% ($4.09) — refined products outpacing crude (refining capacity stress). JP Morgan: Brent hits $120 if Hormuz stalemate drags to July. Goldman ceasefire-optimistic $90 Q2 forecast already wrong. Next resistance: $110 (IRGC military response). $120+ on ceasefire collapse.",
   "current": {
-    "price": "$95.20/bbl",
-    "delta_1d": "-0.8%",
-    "delta_1m": "+3.5%",
-    "delta_3m": "+49.1%"
+    "price": "$102.20/bbl",
+    "delta_1d": "+7.4%",
+    "delta_1m": "+1.7%",
+    "delta_3m": "+56.1%"
   },
   "price_snapshots": [
     {
@@ -125,6 +125,12 @@
       "price": "$98.60/bbl",
       "trigger": "Ceasefire fracture bounce — Lebanon excluded, Hormuz re-closed",
       "delta_context": "Rebounded from $94.47 ceasefire crash low to $98.60 in 24 hours as ceasefire fractured. WTI $99.51. Physical Dated Brent still $120+."
+    },
+    {
+      "date": "2026-04-13",
+      "price": "$102.20/bbl",
+      "trigger": "US naval blockade of Iranian ports announced — Brent back above $100",
+      "delta_context": "Surged +7.4% from $95.20 Friday close. Largest move since April 8 ceasefire. 5-session sub-$100 count reset."
     }
   ],
   "signals": [
@@ -464,6 +470,12 @@
         "Hyperliquid",
         "Goldman Sachs"
       ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-13",
+      "content": "Brent surged +7.4% to $102.20 on US naval blockade announcement. WTI +8.4% to $104.73. Heating oil +8.7% to $4.09 — refined products outpacing crude, signaling refining capacity stress beyond just crude supply. CENTCOM confirmed blockade of all Iranian ports effective April 13 10:00 AM ET. Iran's ~1.3M bpd remaining exports under direct interdiction threat. OPEC+ 206K bpd May increase is moot — most Gulf barrels stranded behind Hormuz. JP Morgan pre-blockade: $120 if stalemate drags to July; $150 worst case. Goldman's ceasefire-optimistic $90 Q2 forecast already obsolete. (Sources: yfinance confirmed, CNBC, Al Jazeera, CENTCOM)",
+      "sources": ["yfinance", "CNBC", "Al Jazeera", "CENTCOM"],
       "significance": "high"
     }
   ],

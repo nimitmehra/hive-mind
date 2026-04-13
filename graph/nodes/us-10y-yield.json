@@ -3,8 +3,8 @@
   "name": "US 10-Year Treasury Yield",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-11",
-  "summary": "4.32% (+2.7bps Apr 10) — barely moved on 3.3% CPI miss. Bond market already priced inflation persistence. 2Y at 3.59% (+0.1%). Stagflation trap intact. Bond-equity divergence persists — bonds pricing inflation/growth risk, equities pricing peace. When they disagree, bonds usually right.",
+  "last_updated": "2026-04-13",
+  "summary": "4.32% Friday. US CPI 3.3% with hot +0.9% monthly — biggest since June 2022. Fed hike probability >50%. Expected to rise to 4.35-4.45% at US Monday open on Islamabad failure + blockade continuation. Bond-equity divergence persists and bonds are being validated — equities priced peace that didn't arrive, bonds priced inflation persistence that is confirmed. Stagflation trap intact: can't sell bonds on inflation (growth risk), can't buy bonds on growth (inflation risk).",
   "current": {
     "price": "4.32%",
     "delta_1d": "+0.6%",
@@ -149,6 +149,12 @@
         "yfinance",
         "TradingEconomics"
       ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-13",
+      "content": "4.32% Friday. US CPI 3.3% with hot +0.9% monthly — biggest since June 2022. Fed hike probability >50%. Expected to rise to 4.35-4.45% at US Monday open on Islamabad failure + blockade continuation. Bonds being validated over equities — inflation persistence confirmed, peace that equities priced didn't arrive.",
+      "sources": ["Federal Reserve H.15", "CME FedWatch", "yfinance"],
       "significance": "high"
     }
   ],
