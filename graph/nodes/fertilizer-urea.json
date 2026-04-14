@@ -3,14 +3,34 @@
   "name": "Fertilizer / Urea",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-13",
-  "summary": "Urea at $693.50 futures / $838+ spot (+68% from pre-crisis $500) — MOST ELEVATED crisis indicator vs baseline, exceeding even Brent (+49%). NOT RESPONDING TO CEASEFIRE: Hormuz closed to bulk carriers, QAFCO offline, natural gas feedstock elevated. 5 of 8 major fertilizers +5% weekly. Spring planting pressure building globally. CF Industries +51% 3M — largest pure crisis beneficiary. India Kharif sowing risk persists. This is the most honest real-economy signal about whether the ceasefire is translating into supply chain normalization — it is NOT.",
+  "last_updated": "2026-04-14",
+  "summary": "Urea at $650-800/mt (US Gulf FOB $693.50 futures). CRISIS PREMIUM DEFLATING in equities but NOT in physical commodity: CF Industries -10.5% 1M, Nutrien -10.7% 1M despite urea still +30-68% above pre-crisis levels. Equity decline is POSITIONING UNWIND (ceasefire-driven profit-taking, rotation to tech/semis, crowded longs) not fundamental change. Physical urea still elevated. Henry Hub -16.6% 1M = US domestic fertilizer input costs falling. If ceasefire collapses and Qatar fertilizer remains disrupted, CF/Nutrien re-rate sharply higher. QAFCO still offline. India Kharif sowing risk persists.",
   "current": {
-    "price": "~$838/mt (US Gulf FOB)",
+    "price": "~$693.50/mt (US Gulf FOB futures) / $650-800/mt range",
     "delta_1d": "~flat",
-    "delta_1m": "+34%",
-    "delta_3m": "+68% from pre-crisis $500"
+    "delta_1m": "declining from $838 peak",
+    "delta_3m": "+30-68% from pre-crisis $500"
   },
+  "price_snapshots": [
+    {
+      "date": "2026-03-18",
+      "price": "~$700/mt",
+      "trigger": "QatarEnergy shut world's largest urea plant after Ras Laffan damage",
+      "delta_context": "Surged ~40% from <$500 to >$700 almost immediately"
+    },
+    {
+      "date": "2026-03-31",
+      "price": "~$800/mt US Gulf",
+      "trigger": "Triple disruption compounding: QAFCO offline + Hormuz blocking + India feedstock cuts",
+      "delta_context": "More than doubled from $350/ton (late 2025). CF Industries +24.1% MoM."
+    },
+    {
+      "date": "2026-04-12",
+      "price": "$838/mt US Gulf FOB",
+      "trigger": "Most elevated crisis indicator -- +68% from pre-crisis $500, exceeding Brent's +49%",
+      "delta_context": "5 of 8 major fertilizers +5% weekly. NOT responding to ceasefire."
+    }
+  ],
   "signals": [
     {
       "date": "2026-03-18",
@@ -32,7 +52,7 @@
     },
     {
       "date": "2026-03-24",
-      "content": "QatarEnergy expanded production suspension beyond LNG to include entire downstream: urea, methanol, polymers, and aluminum. QAFCO's 5.6 Mt/y Mesaieed urea plant — world's largest single-site urea facility — offline since March 4. Gulf producers account for 43% of all seaborne urea exports, now largely offline. US retail urea price at $674/ton (second week of March), up 12% MoM. New Orleans barge prices jumped from $475 to $520-550/ton in single week. CRU Group warns disruptions 'could be catastrophic' if prolonged. WEF published analysis stating crisis 'demonstrates the fragility of global food supply.' India's situation: government claims record pre-Kharif stocks (59-62 lakh tonnes urea) but LNG supply cuts from Qatar forced 30% feedstock reduction to domestic fertilizer plants — three urea plants reduced output. India sources 40%+ of urea from Middle East. Government quietly approached China for urea supply (BigStory Network) while publicly denying shortage. Imported urea subsidies expected to increase 52%+.",
+      "content": "QatarEnergy expanded production suspension beyond LNG to include entire downstream: urea, methanol, polymers, and aluminum. QAFCO's 5.6 Mt/y Mesaieed urea plant -- world's largest single-site urea facility -- offline since March 4. Gulf producers account for 43% of all seaborne urea exports, now largely offline. US retail urea price at $674/ton (second week of March), up 12% MoM. New Orleans barge prices jumped from $475 to $520-550/ton in single week. CRU Group warns disruptions 'could be catastrophic' if prolonged. WEF published analysis stating crisis 'demonstrates the fragility of global food supply.' India's situation: government claims record pre-Kharif stocks (59-62 lakh tonnes urea) but LNG supply cuts from Qatar forced 30% feedstock reduction to domestic fertilizer plants -- three urea plants reduced output. India sources 40%+ of urea from Middle East. Government quietly approached China for urea supply (BigStory Network) while publicly denying shortage. Imported urea subsidies expected to increase 52%+.",
       "sources": [
         "CRU Group",
         "ChemAnalyst",
@@ -46,7 +66,7 @@
     },
     {
       "date": "2026-03-29",
-      "content": "Urea at ~$640/mt (+12% MoM). India approaching China for emergency urea supply while publicly denying shortage. Domestic fertilizer plants at 70% capacity due to LNG feedstock cuts from Qatar disruption. European TTF surge (+70% in March to €54.52/MWh) directly increases fertilizer production costs globally — natural gas is primary feedstock for nitrogen-based fertilizers. Connected to food security cascade for India: Kharif 2026 planting season at risk if supply doesn't normalize.",
+      "content": "Urea at ~$640/mt (+12% MoM). India approaching China for emergency urea supply while publicly denying shortage. Domestic fertilizer plants at 70% capacity due to LNG feedstock cuts from Qatar disruption. European TTF surge (+70% in March to EUR54.52/MWh) directly increases fertilizer production costs globally -- natural gas is primary feedstock for nitrogen-based fertilizers. Connected to food security cascade for India: Kharif 2026 planting season at risk if supply doesn't normalize.",
       "sources": [
         "ChemAnalyst",
         "OilPriceAPI",
@@ -56,7 +76,7 @@
     },
     {
       "date": "2026-03-31",
-      "content": "COMPREHENSIVE UPDATE: Global urea prices surged from $350/ton (late 2025) to over $800/ton in US Gulf and $720+/ton globally — more than doubled in one month. Three layers of disruption compounding: (1) QAFCO offline since March 4 (14% of global urea, 5-year repair timeline), (2) Hormuz blocking 43% of seaborne urea exports, (3) India's domestic production hit by LNG feedstock cut — Petronet LNG invoked force majeure March 3, gas supply at ~70% of requirement, IFFCO and other plants shut or reduced output. India's stocks at 61.14 LMT (vs 55.22 last year) — looks adequate but drawdown rate exceeds replenishment. Government secured 23% more spot gas (32→39.31 MMSCMD) but at expensive TTF-linked prices. FY27 fertilizer subsidy budget: ₹1.70 lakh crore (DOWN from ₹1.86 lakh crore) — budgeted LESS while urea prices more than doubled. Import subsidy allocation ₹32,000 crore vs ₹52,000 crore last year. Either mid-year revision (fiscal deficit widens) or farmers bear cost. India diversifying to China, Russia, Morocco, Australia — 1.3M tons ordered but 'some may not arrive on time' (Bloomberg). Critical Kharif timeline: sowing June-July, 65% of annual urea used in Kharif. If stocks deplete by May, sowing area drops 10-15%. CF Industries surging as US nitrogen beneficiary. (Sources: Bloomberg, CNBC, ChemAnalyst, IMARC, Argus Media, Business Standard, CRU Group)",
+      "content": "COMPREHENSIVE UPDATE: Global urea prices surged from $350/ton (late 2025) to over $800/ton in US Gulf and $720+/ton globally -- more than doubled in one month. Three layers of disruption compounding: (1) QAFCO offline since March 4 (14% of global urea, 5-year repair timeline), (2) Hormuz blocking 43% of seaborne urea exports, (3) India's domestic production hit by LNG feedstock cut -- Petronet LNG invoked force majeure March 3, gas supply at ~70% of requirement, IFFCO and other plants shut or reduced output. India's stocks at 61.14 LMT (vs 55.22 last year) -- looks adequate but drawdown rate exceeds replenishment. Government secured 23% more spot gas (32->39.31 MMSCMD) but at expensive TTF-linked prices. FY27 fertilizer subsidy budget: Rs1.70 lakh crore (DOWN from Rs1.86 lakh crore) -- budgeted LESS while urea prices more than doubled. Import subsidy allocation Rs32,000 crore vs Rs52,000 crore last year. Either mid-year revision (fiscal deficit widens) or farmers bear cost. India diversifying to China, Russia, Morocco, Australia -- 1.3M tons ordered but 'some may not arrive on time' (Bloomberg). Critical Kharif timeline: sowing June-July, 65% of annual urea used in Kharif. If stocks deplete by May, sowing area drops 10-15%. CF Industries surging as US nitrogen beneficiary. (Sources: Bloomberg, CNBC, ChemAnalyst, IMARC, Argus Media, Business Standard, CRU Group)",
       "sources": [
         "Bloomberg",
         "CNBC",
@@ -70,7 +90,7 @@
     },
     {
       "date": "2026-04-01",
-      "content": "CF Industries -5.6% on de-escalation trade + Mizuho downgrade to Neutral ('nitrogen price surge is temporary, expects decline once conflict ends'). Market pricing: if war ends, QAFCO (14% global urea) potentially resumes → urea crash from $800/mt. BUT Hormuz decoupling thesis means even if war ends, QAFCO may not resume immediately if Hormuz stays under Iranian selective control. Urea at ~$800/mt US Gulf. India urea shortfall building: ~2 million tonnes by August, with 60%+ of imports and 80% of ammonia/sulfur from Gulf. India stocks 61 LMT but drawdown exceeds replenishment. (Sources: Mizuho, Yahoo Finance, CNBC, Business Standard)",
+      "content": "CF Industries -5.6% on de-escalation trade + Mizuho downgrade to Neutral ('nitrogen price surge is temporary, expects decline once conflict ends'). Market pricing: if war ends, QAFCO (14% global urea) potentially resumes -> urea crash from $800/mt. BUT Hormuz decoupling thesis means even if war ends, QAFCO may not resume immediately if Hormuz stays under Iranian selective control. Urea at ~$800/mt US Gulf. India urea shortfall building: ~2 million tonnes by August, with 60%+ of imports and 80% of ammonia/sulfur from Gulf. India stocks 61 LMT but drawdown exceeds replenishment. (Sources: Mizuho, Yahoo Finance, CNBC, Business Standard)",
       "sources": [
         "Mizuho",
         "Yahoo Finance",
@@ -81,7 +101,7 @@
     },
     {
       "date": "2026-04-03",
-      "content": "Urea remains at ~$750/mt (FOB ME). QAFCO offline since March 4 (5.6M mt/year, 14% global). Hormuz blocking 43% seaborne urea exports. CF Industries +24.1% MoM — the market's verdict on disruption duration. India Kharif sowing June-July: 65% of annual urea used in Kharif. India stocks at 61 LMT but drawdown exceeds replenishment. FY27 subsidy budget ₹1.70L cr (DOWN from ₹1.86L cr) — fiscal math broken at current prices. Diversification to China/Russia/Morocco underway — 1.3M tons ordered. (Sources: ChemAnalyst, IMARC, Business Standard)",
+      "content": "Urea remains at ~$750/mt (FOB ME). QAFCO offline since March 4 (5.6M mt/year, 14% global). Hormuz blocking 43% seaborne urea exports. CF Industries +24.1% MoM -- the market's verdict on disruption duration. India Kharif sowing June-July: 65% of annual urea used in Kharif. India stocks at 61 LMT but drawdown exceeds replenishment. FY27 subsidy budget Rs1.70L cr (DOWN from Rs1.86L cr) -- fiscal math broken at current prices. Diversification to China/Russia/Morocco underway -- 1.3M tons ordered. (Sources: ChemAnalyst, IMARC, Business Standard)",
       "sources": [
         "ChemAnalyst",
         "IMARC",
@@ -91,7 +111,7 @@
     },
     {
       "date": "2026-04-06",
-      "content": "Urea FOB Middle East at $750/mt — 52-week high, up from $400-490 pre-war. QAFCO 5.6MT/yr shut. China reportedly banned urea exports until August (markets.md source) — this removes the alternative supply India was quietly approaching after Gulf disruptions. India faces 2M tonne shortfall by August, with 60%+ of imports sourced from Gulf. CF Industries +24.1% monthly ($129.97) — direct equity proxy for disruption duration. Nutrien +3.3% monthly ($75.47). The China export ban, if confirmed, is the critical new variable: India's diversification strategy (1.3M tons ordered from China/Russia/Morocco/Australia) now has its largest single source blocked. OPEC+ 206K bpd increase confirms supply-side cannot rescue energy costs, which feeds through to fertilizer production costs via natural gas feedstock. Kharif timeline unchanged: sowing June-July, 65% of annual urea consumed in Kharif season. (Sources: ChemAnalyst, Trading Economics, Epoch Times, markets.md)",
+      "content": "Urea FOB Middle East at $750/mt -- 52-week high, up from $400-490 pre-war. QAFCO 5.6MT/yr shut. China reportedly banned urea exports until August (markets.md source) -- this removes the alternative supply India was quietly approaching after Gulf disruptions. India faces 2M tonne shortfall by August, with 60%+ of imports sourced from Gulf. CF Industries +24.1% monthly ($129.97) -- direct equity proxy for disruption duration. Nutrien +3.3% monthly ($75.47). The China export ban, if confirmed, is the critical new variable: India's diversification strategy (1.3M tons ordered from China/Russia/Morocco/Australia) now has its largest single source blocked. OPEC+ 206K bpd increase confirms supply-side cannot rescue energy costs, which feeds through to fertilizer production costs via natural gas feedstock. Kharif timeline unchanged: sowing June-July, 65% of annual urea consumed in Kharif season. (Sources: ChemAnalyst, Trading Economics, Epoch Times, markets.md)",
       "sources": [
         "ChemAnalyst",
         "Trading Economics",
@@ -101,7 +121,7 @@
     },
     {
       "date": "2026-04-07",
-      "content": "Urea Egypt FOB at ~$700/mt (from $400-490 pre-war, +43-75%). US Gulf urea at $800/mt — level last seen during 2022 Russia-Ukraine spike. ~30% of globally traded urea supply offline (Anadolu Agency, Carnegie, WEF). QatarEnergy halted one of world's biggest urea plants. CF Industries +69.9% 3M ($77.08 → $130.98) as largest US nitrogen producer = direct substitute supplier. Nutrien +29.4% 3M. Northern Hemisphere spring planting season at risk — fertilizer has NO strategic reserve and NO quick substitute. If crisis extends through May, 2026 planting season takes permanent yield damage. European gas costs (TTF €49.95) directly feed fertilizer production costs via Haber-Bosch process. BASF +10.4% 1M as European chemical giant benefits from Gulf competitor disruption. (Sources: Al Fassel News, CNBC, AgWeb, WEF, yfinance)",
+      "content": "Urea Egypt FOB at ~$700/mt (from $400-490 pre-war, +43-75%). US Gulf urea at $800/mt -- level last seen during 2022 Russia-Ukraine spike. ~30% of globally traded urea supply offline (Anadolu Agency, Carnegie, WEF). QatarEnergy halted one of world's biggest urea plants. CF Industries +69.9% 3M ($77.08 -> $130.98) as largest US nitrogen producer = direct substitute supplier. Nutrien +29.4% 3M. Northern Hemisphere spring planting season at risk -- fertilizer has NO strategic reserve and NO quick substitute. If crisis extends through May, 2026 planting season takes permanent yield damage. European gas costs (TTF EUR49.95) directly feed fertilizer production costs via Haber-Bosch process. BASF +10.4% 1M as European chemical giant benefits from Gulf competitor disruption. (Sources: Al Fassel News, CNBC, AgWeb, WEF, yfinance)",
       "sources": [
         "Al Fassel News",
         "CNBC",
@@ -112,7 +132,7 @@
     },
     {
       "date": "2026-04-07",
-      "content": "CF Industries +0.8% 1D / +18.2% 1M / +69.9% 3M to $130.98. Urea FOB ME spot $750/mt at 52-week highs. QAFCO (Qatar) offline; China not exporting until August; India shortfall building. Deadline week premium intact. Nutrien $75.81 +0.5% 1D, +29.4% 3M. The fertilizer complex is pricing a sustained Gulf petchem disruption — South Pars #2 strike + ~85% of Iranian petchem offline reinforces this trajectory. Indian agriculture exposure significant: kharif planning is now explicitly factoring in urea shortage scenarios.",
+      "content": "CF Industries +0.8% 1D / +18.2% 1M / +69.9% 3M to $130.98. Urea FOB ME spot $750/mt at 52-week highs. QAFCO (Qatar) offline; China not exporting until August; India shortfall building. Deadline week premium intact. Nutrien $75.81 +0.5% 1D, +29.4% 3M. The fertilizer complex is pricing a sustained Gulf petchem disruption -- South Pars #2 strike + ~85% of Iranian petchem offline reinforces this trajectory. Indian agriculture exposure significant: kharif planning is now explicitly factoring in urea shortage scenarios.",
       "sources": [
         "CME",
         "Argus",
@@ -122,7 +142,7 @@
     },
     {
       "date": "2026-04-07",
-      "content": "EVENING UPDATE: Urea $701/t spot, $750/t FOB ME futures (+2.0% 1D, +20% 1M, +81% YoY). 52-week high. Supply 'incredibly tight' — Qatar/Iran gas field damage. DAP at ~$851/t near historic highs. CF Industries +0.8% 1D, +18.2% 1M, +69.9% 3M. Nutrien +0.5%. No strategic reserve, no quick substitute. Planting season at peak risk. India urea shortfall ~2M tonnes by August, 60%+ imports from Gulf. (Sources: TradingEconomics, CME, AgWeb)",
+      "content": "EVENING UPDATE: Urea $701/t spot, $750/t FOB ME futures (+2.0% 1D, +20% 1M, +81% YoY). 52-week high. Supply 'incredibly tight' -- Qatar/Iran gas field damage. DAP at ~$851/t near historic highs. CF Industries +0.8% 1D, +18.2% 1M, +69.9% 3M. Nutrien +0.5%. No strategic reserve, no quick substitute. Planting season at peak risk. India urea shortfall ~2M tonnes by August, 60%+ imports from Gulf. (Sources: TradingEconomics, CME, AgWeb)",
       "sources": [
         "TradingEconomics",
         "CME",
@@ -132,7 +152,7 @@
     },
     {
       "date": "2026-04-08",
-      "content": "QAFCO STILL OFFLINE — UREA RECOVERY IN MONTHS NOT DAYS DESPITE CEASEFIRE [REPORTED]. Urea $680/t spot NOLA, $750/t FOB Middle East. QAFCO Qatar (the largest single urea production site in the world) remains shut down. Trading slowed pending peace clarity per ICIS/World Fertilizer. India's IFFCO has begun scaling back domestic urea on imported LNG feedstock cost. India 40% reliant on Qatar for urea plant gas. Fertilizer supply restoration takes MONTHS not days even if the ceasefire holds — physical plant restart, feedstock supply chain rebuild, shipping reroute all sequential. CF Industries should remain bid even as agricultural commodity prices fall (wheat -2.9%, palm oil -3.5%, sugar -2.6% today on ceasefire) because the input-side cost structure is permanently elevated. India's tentative G2G talks with China for urea supply continue.",
+      "content": "QAFCO STILL OFFLINE -- UREA RECOVERY IN MONTHS NOT DAYS DESPITE CEASEFIRE [REPORTED]. Urea $680/t spot NOLA, $750/t FOB Middle East. QAFCO Qatar (the largest single urea production site in the world) remains shut down. Trading slowed pending peace clarity per ICIS/World Fertilizer. India's IFFCO has begun scaling back domestic urea on imported LNG feedstock cost. India 40% reliant on Qatar for urea plant gas. Fertilizer supply restoration takes MONTHS not days even if the ceasefire holds -- physical plant restart, feedstock supply chain rebuild, shipping reroute all sequential. CF Industries should remain bid even as agricultural commodity prices fall (wheat -2.9%, palm oil -3.5%, sugar -2.6% today on ceasefire) because the input-side cost structure is permanently elevated. India's tentative G2G talks with China for urea supply continue.",
       "sources": [
         "ICIS",
         "World Fertilizer",
@@ -143,7 +163,7 @@
     },
     {
       "date": "2026-04-09",
-      "content": "Ceasefire triggered fertilizer war premium unwinding: CF Industries -5.7% to $126.16, Nutrien -2.6% to $74.88. Ceasefire → Qatar fertilizer supply normalization hopes → urea war premium deflating. BUT: QAFCO (world's largest single-site urea plant, 5.6Mt/yr) still offline — physical plant restart takes months regardless of ceasefire. ~85% of CF's move is crisis-linked; if ceasefire collapses, fertilizer stocks snap back. Urea at $693.50/mt NOLA, +14% YoY, +26.2% surge in March per FinancialContent. Physical disruption persists despite financial market hope. (Source: yfinance, Barchart, TradingEconomics, FinancialContent)",
+      "content": "Ceasefire triggered fertilizer war premium unwinding: CF Industries -5.7% to $126.16, Nutrien -2.6% to $74.88. Ceasefire -> Qatar fertilizer supply normalization hopes -> urea war premium deflating. BUT: QAFCO (world's largest single-site urea plant, 5.6Mt/yr) still offline -- physical plant restart takes months regardless of ceasefire. ~85% of CF's move is crisis-linked; if ceasefire collapses, fertilizer stocks snap back. Urea at $693.50/mt NOLA, +14% YoY, +26.2% surge in March per FinancialContent. Physical disruption persists despite financial market hope. (Source: yfinance, Barchart, TradingEconomics, FinancialContent)",
       "sources": [
         "yfinance",
         "Barchart",
@@ -154,7 +174,7 @@
     },
     {
       "date": "2026-04-11",
-      "content": "Urea at $693/mt US Gulf (elevated, +39% from pre-crisis $500). CF Industries +1.6%, Nutrien +1.3% — fertilizer stocks STRONG despite broader war-trade unwinding (energy -0.7%, defense -0.9%, tankers -1.4%). The war trade has NOT unwound for fertilizer: Hormuz remains functionally closed and Qatar Ras Laffan (major fertilizer hub via QAFCO) production still disrupted. Even ceasefire hasn't normalized fertilizer supply chains. CF Industries +51% 3M — largest crisis-beneficiary among tracked bellwether stocks. Natural gas feedstock costs still elevated due to global LNG disruption even though HH natgas at $2.65. India Kharif sowing risk persists — 65% of annual urea consumed in Kharif season (June-July).",
+      "content": "Urea at $693/mt US Gulf (elevated, +39% from pre-crisis $500). CF Industries +1.6%, Nutrien +1.3% -- fertilizer stocks STRONG despite broader war-trade unwinding (energy -0.7%, defense -0.9%, tankers -1.4%). The war trade has NOT unwound for fertilizer: Hormuz remains functionally closed and Qatar Ras Laffan (major fertilizer hub via QAFCO) production still disrupted. Even ceasefire hasn't normalized fertilizer supply chains. CF Industries +51% 3M -- largest crisis-beneficiary among tracked bellwether stocks. Natural gas feedstock costs still elevated due to global LNG disruption even though HH natgas at $2.65. India Kharif sowing risk persists -- 65% of annual urea consumed in Kharif season (June-July).",
       "sources": [
         "CBOT/Barchart",
         "FinancialContent",
@@ -174,8 +194,14 @@
     },
     {
       "date": "2026-04-13",
-      "content": "Urea at $693.50 futures / $838+ spot — MOST ELEVATED crisis indicator at +68% from pre-crisis $500, exceeding Brent's +49%. NOT responding to ceasefire: Hormuz closed to bulk carriers, QAFCO offline, natural gas feedstock elevated. 5 of 8 major fertilizers +5% weekly. Spring planting pressure intensifying globally. CF Industries +51% 3M. India Kharif sowing at risk if supply doesn't normalize by May.",
+      "content": "Urea at $693.50 futures / $838+ spot -- MOST ELEVATED crisis indicator at +68% from pre-crisis $500, exceeding Brent's +49%. NOT responding to ceasefire: Hormuz closed to bulk carriers, QAFCO offline, natural gas feedstock elevated. 5 of 8 major fertilizers +5% weekly. Spring planting pressure intensifying globally. CF Industries +51% 3M. India Kharif sowing at risk if supply doesn't normalize by May.",
       "sources": ["DTN", "Argus", "FinancialContent", "CBOT"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "CRISIS PREMIUM DEFLATING IN EQUITIES, NOT IN PHYSICAL COMMODITY. CF Industries -10.5% 1M ($121.68), Nutrien -10.7% 1M ($74.38) -- monthly declines despite urea remaining at $650-800/mt (still +30-68% above pre-crisis). The equity decline is a POSITIONING UNWIND driven by: (1) ceasefire April 8 triggered aggressive crisis-premium selling in commodity equities, (2) CF/Nutrien had +40-44% 3M runs creating crowded longs, (3) profit-taking + rotation into tech/semis (SMH +14.2% 1M), (4) Henry Hub nat gas -16.6% 1M = US domestic fertilizer input costs falling. The monthly decline is NOT a fundamental change -- urea at $650+/mt remains highly profitable for CF/Nutrien. If ceasefire collapses and Qatar fertilizer supply remains disrupted, these stocks re-rate sharply higher. The 3M performance is still massive (+43.8% CF, +13.2% Nutrien). Physical urea NOT responding to deal hopes -- Hormuz still closed to bulk carriers, QAFCO still offline. (Sources: markets.md, yfinance, CBOT/FinancialContent)",
+      "sources": ["markets.md", "yfinance", "CBOT/FinancialContent"],
       "significance": "high"
     }
   ],
@@ -183,29 +209,29 @@
     {
       "to": "natural-gas-lng",
       "type": "feedstock_dependency",
-      "context": "Natural gas is primary input for nitrogen-based fertilizers. Gas price spike → fertilizer cost spike. India's domestic plants cut 30% feedstock. Ceasefire may ease LNG costs but physical restart takes months.",
+      "context": "Natural gas is primary input for nitrogen-based fertilizers. Henry Hub -16.6% 1M = US domestic fertilizer input costs falling. But global LNG (TTF) still elevated. US producers (CF, Nutrien) benefit from cheap domestic gas + high urea prices = margin expansion.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 8,
-      "weight": 8.5
+      "last_activated": "2026-04-14",
+      "activation_count": 9,
+      "weight": 9.0
     },
     {
       "to": "qatar",
       "type": "production_dependency",
-      "context": "QAFCO Mesaieed (world's largest single-site urea plant, 5.6 Mt/y) still offline. Ceasefire doesn't change physical restart timeline — months, not days.",
+      "context": "QAFCO Mesaieed (world's largest single-site urea plant, 5.6 Mt/y) still offline. Ceasefire doesn't change physical restart timeline -- months, not days. Ras Laffan recovery delayed to August 2026.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 6,
-      "weight": 8.5
+      "last_activated": "2026-04-14",
+      "activation_count": 7,
+      "weight": 9.0
     },
     {
       "to": "india",
       "type": "import_dependency",
-      "context": "India imports 40%+ of urea from Middle East. Domestic plants at 70% capacity due to LNG cuts. Quietly approaching China. Kharif 2026 planting season at risk.",
+      "context": "India imports 40%+ of urea from Middle East. Domestic plants at 70% capacity due to LNG cuts. Quietly approaching China. Kharif 2026 planting season at risk. India March CPI 3.40% with imported inflation at 6.49% (43% of headline).",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 7,
-      "weight": 8.0
+      "last_activated": "2026-04-14",
+      "activation_count": 8,
+      "weight": 8.4
     }
   ],
   "trigger_points": [
@@ -214,7 +240,7 @@
       "cascade": [
         "india"
       ],
-      "mechanism": "Would strain India's fertilizer subsidy budget. Either government absorbs (fiscal deficit) or passes to farmers (food inflation). Political sensitivity high ahead of state elections.",
+      "mechanism": "Would strain India's fertilizer subsidy budget. Either government absorbs (fiscal deficit) or passes to farmers (food inflation). Political sensitivity high ahead of state elections. Spot touched $838 on April 12 but futures at $693.50 -- watching whether spot sustains.",
       "added": "2026-03-23",
       "status": "watching"
     },

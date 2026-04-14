@@ -3,8 +3,8 @@
   "name": "Houthis (Yemen)",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-13",
-  "summary": "Day 47. Zero confirmed Houthi missile/drone attacks on Red Sea commercial shipping — longest streak of the war. UKMTO armed boarding attempt off Hudaydah April 12 (NOT attributed to Houthis). Post-Islamabad statement: 'unity of fronts,' readiness for 'any upcoming escalation' — RHETORIC, not action. Bifurcation thesis (attack Israel, spare commercial shipping) still explicitly stated policy. Maersk Red Sea return now structural. The US blockade announcement introduces a new conditional: Houthi 'unity of fronts' statement said readiness contingent on 'US resuming war' — the blockade may meet that threshold.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47. HOUTHI ATTACKS ON BELLIGERENT-LINKED VESSELS RESUMED — bifurcation NOT broken. April 7: attacks on British-owned Hope Island, Israeli MSC Grace F and MSC Gina, two US frigates (CONFIRMED). April 9: Maersk Yorktown (US-flagged) targeted in Gulf of Aden (CONFIRMED). Neutral commercial shipping UNTARGETED — Maersk MECL service (Danish-flagged) still through Suez. Bab el-Mandeb closure CONDITIONAL and 'likely' — if Gulf Arab states join war or aggression escalates. Senior Iranian source: 'decision ultimately set in Tehran' (REPORTED). Despite blockade meeting stated threshold, Bab el-Mandeb closure NOT enacted (absence signal). Houthis specifically warned Bahrain and UAE.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -269,6 +269,12 @@
       "content": "Day 47 of zero confirmed Houthi missile/drone attacks on Red Sea commercial shipping — streak technically intact. Two developments: (1) UKMTO reported April 12 armed boarding attempt 54nm SW of Hudaydah — 10-12 armed people in skiff, captain deployed flare, attackers fled. NOT attributed to Houthis, appears piracy-style. (2) Houthi Foreign Ministry post-Islamabad statement: called failure 'a new victory for the Islamic Republic and axis of jihad and resistance,' affirmed 'unity of fronts,' declared readiness for 'any upcoming escalation.' RHETORIC, not action. Maersk's Red Sea return now structural (MECL service since Jan 2026). (Sources: UKMTO advisory, Yemen Monitor, Tribune India, Supply Chain Dive)",
       "sources": ["UKMTO", "Yemen Monitor", "Tribune India", "Supply Chain Dive"],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "HOUTHI ATTACKS ON BELLIGERENT-LINKED VESSELS RESUMED [CONFIRMED]. April 7: Houthis claimed attacks on three commercial vessels — British-owned Hope Island, Israeli-owned MSC Grace F and MSC Gina — and two US frigates. April 9: Maersk Yorktown (US-flagged) targeted by anti-ship missile while escorted by USS Mason and USS Laboon in the Gulf of Aden (source: Wikipedia Red Sea crisis, UN Security Council Resolution 2812). The bifurcation thesis is NOT broken — UK is a belligerent (Operation Prosperity Guardian), Maersk Yorktown was US-flagged. NEUTRAL commercial shipping (non-US/UK/Israeli) remains untargeted. Maersk's MECL service (Danish-flagged) continues through Suez. Bab el-Mandeb closure CONDITIONAL: Houthis stated closure if (a) aggression against Iran/Lebanon escalates savagely or (b) Gulf Arab states directly join war. They specifically warned Bahrain and UAE. A senior Iranian source told Reuters April 7: 'If the situation gets out of control, Iran's allies will also close the Bab el-Mandeb.' Stimson Center: the decision 'is ultimately set in Tehran' (source: Time, JPost, Stimson Center, Reuters). Despite blockade meeting stated escalation threshold, Bab el-Mandeb closure NOT enacted — absence signal.",
+      "sources": ["Wikipedia Red Sea crisis", "UN SC Res 2812", "Time", "JPost", "Stimson Center", "Reuters"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -284,10 +290,10 @@
     {
       "to": "shipping-tankers",
       "type": "credible_threat",
-      "context": "Day 44 zero confirmed Red Sea shipping attacks. UKMTO threat level: MODERATE (downgraded from CRITICAL). Maersk completed first Red Sea transit in two years — strongest commercial validation of bifurcation. ~57 vessel transits in 24 hours — at/near historical normal. Bifurcation now EXPLICITLY STATED Houthi policy (attack Israel, leave Red Sea flowing).",
+      "context": "Day 47: Houthi attacks RESUMED on belligerent-linked vessels (US/UK/Israeli) April 7 and 9. Neutral commercial shipping still untargeted. Bifurcation narrowed but intact — Maersk MECL (Danish-flagged) still through Suez. Bab el-Mandeb closure threatened but not enacted.",
       "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 9,
+      "last_activated": "2026-04-14",
+      "activation_count": 10,
       "weight": 10
     },
     {
@@ -311,7 +317,7 @@
   ],
   "trigger_points": [
     {
-      "condition": "Houthis begin confirmed Red Sea attacks (verified by maritime trackers, not just rhetoric) — Day 44 ZERO confirmed. Maersk first Red Sea transit in 2 years. UKMTO threat MODERATE. Bifurcation thesis confirmed and EXPLICITLY STATED as policy. Status: WATCHING with reducing probability.",
+      "condition": "Houthis begin confirmed Red Sea attacks on NEUTRAL commercial shipping (verified by maritime trackers) — Day 47 attacks RESUMED but ONLY on belligerent-linked vessels (US/UK/Israeli). Neutral shipping untargeted. Maersk MECL (Danish-flagged) still through Suez. Bifurcation narrowed but intact. Status: WATCHING — probability modestly increased given resumed attacks on belligerent-linked vessels.",
       "cascade": [
         "shipping-tankers",
         "brent-crude",

@@ -3,8 +3,8 @@
   "name": "Hezbollah",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-13",
-  "summary": "Day 46. CONTINUED MILITARY OPERATIONS + NO NEW LEADERSHIP STATEMENTS. Hezbollah maintained rocket and drone launches into northern Israel. FPV suicide drones causing 'significant tactical strain' on IDF armored vehicles — qualitative adaptation to Israeli ground presence. Fadlallah's rejection of direct Israel-Lebanon talks stands. No new leadership statements post-Islamabad. Military tempo steady: IDF raided Bint Jbeil hospital (~20 Hezbollah fighters killed), Hezbollah responding with sustained fires. Tuesday ambassador-level talks at State Dept proceeding without Hezbollah participation. Total Lebanon toll: 2,020+ killed, 6,436+ wounded since March 2.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47. HEZBOLLAH EXPLICITLY REJECTED ISRAEL-LEBANON TALKS. Naim Qassem called April 15 talks 'futile' and a 'free concession,' urged Lebanon to cancel. Hassan Fadlallah: Hezbollah 'will not abide by any agreements' (CONFIRMED rejection). Hundreds protested in Beirut April 11-12. Deploying FPV drones from Ukraine-war tactics causing 'significant tactical strain' on IDF armored vehicles. On ground: IDF near-completion of Bint Jbeil capture, five divisions deployed. 2,055 Lebanese killed, 6,588 wounded, 1.2M displaced since March 2. Israel-Lebanon talks confirmed April 15 at State Department — fundamental disagreement on agenda creates structural impossibility given Hezbollah rejection.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -184,6 +184,12 @@
       "content": "Hezbollah continued rocket and drone launches into northern Israel. FPV suicide drones causing 'significant tactical strain' on IDF armored vehicles — qualitative adaptation beyond rocket barrages. Fadlallah's rejection of direct talks stands. No new leadership statements post-Islamabad. IDF raided Bint Jbeil hospital (~20 Hezbollah fighters killed). Military tempo steady on both sides.",
       "sources": ["Al Jazeera", "Haaretz"],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Hezbollah EXPLICITLY REJECTED Israel-Lebanon talks scheduled for April 15. Secretary-General Naim Qassem called the talks 'futile' and a 'free concession,' urged Lebanon to cancel participation. Senior official Hassan Fadlallah stated Hezbollah 'will not abide by any agreements' reached (CONFIRMED rejection — Al Jazeera April 13, Euronews). Hundreds protested in Beirut April 11-12 against talks. Netanyahu's priority is disarming Hezbollah — a non-starter. Israel explicitly refused to discuss ceasefire with Hezbollah. Fundamental disagreement on agenda: Lebanon says it's about declaring ceasefire, Israel says formal peace negotiations. Hezbollah's rejection creates structural impossibility for any binding Lebanon deal. Separately, deploying FPV drones adapted from Ukraine-war tactics, causing significant tactical strain on IDF armored vehicles (source: CGTN, Haaretz, JPost).",
+      "sources": ["Al Jazeera", "Euronews", "CGTN", "Haaretz", "JPost", "Times of Israel"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -199,10 +205,10 @@
     {
       "to": "israel",
       "type": "active_conflict",
-      "context": "Day 44. 100+ rockets since ceasefire, 70 on April 10. Struck Ashdod Naval Base (~200km from border — strategic depth escalation). Also Haifa, Kiryat Shmona, Karmiel (infant + 4 children injured), Nahariya. IDF assesses Hezbollah maintains 'solid military hold,' IDF 'stretched to breaking point.' Trump told Netanyahu 'low key.' Ceasefire scope 4-way dispute continues.",
+      "context": "Day 47. Naim Qassem explicitly rejected April 15 Israel-Lebanon talks as 'futile.' Fadlallah: 'will not abide by any agreements.' IDF near-completion Bint Jbeil capture, 5 divisions deployed. FPV drones from Ukraine-war tactics. 2,055 Lebanese killed, 6,588 wounded, 1.2M displaced since March 2. Israeli media preparing public for resumed hostilities.",
       "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 18,
+      "last_activated": "2026-04-14",
+      "activation_count": 19,
       "weight": 10.0
     },
     {

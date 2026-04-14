@@ -3,13 +3,13 @@
   "name": "India",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-13",
-  "summary": "Day 46. QUADRUPLE MONDAY CONFIRMED: (1) Sensex crashed 1,607 pts (-2.07%) to ~75,943 intraday before partial recovery to 76,424, (2) Brent surged above $102 on blockade — import bill surge, (3) Rupee fell to Rs 93.31, (4) Markets CLOSED Tuesday April 14 (Ambedkar Jayanti) — 48-hour position lockup. Bank Nifty -1.7% — rate cut thesis destroyed with oil back above $100. March CPI releasing today (consensus 3.4%). FII/FPI CY2026 outflows: Rs 1.71 lakh crore. Bank Nifty's Friday +2.0% rally fully reversed. All four deployment signals FAILED — conditions deteriorating.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47. Markets CLOSED April 14 (Ambedkar Jayanti). April 13 close: Sensex 76,848 (-0.9%), Nifty 23,843 (-0.9%). March CPI confirmed 3.40% — 14-month high but below 3.48% consensus. Imported inflation at 6.49% (43% of CPI) = crisis import cost channel is dominant driver. Shell hiked diesel Rs 25/litre; state OMCs absorbing Rs 8-10/litre. Overnight: oil fell back below $100 on Trump 'Iran wants deal' CLAIM (unverified by Iran) — if sustained, relief for April 15 open. FII CY2026 outflows Rs 1.79 lakh crore. Forex reserves below $700B. India stated on Hormuz: 'Our ships are moving through Hormuz. We have trade & energy agreements with Iran. We will respect & honour them.' JPMorgan cut Nifty target to 27,000.",
   "current": {
-    "price": "Nifty 23,744 / Sensex 76,424",
-    "delta_1d": "-1.3% / -1.5%",
-    "delta_1m": "-2.1% / -2.3%",
-    "delta_3m": "-7.7% / -8.6%"
+    "price": "Nifty 23,843 / Sensex 76,848",
+    "delta_1d": "-0.9% / -0.9%",
+    "delta_1m": "-1.7% / -1.7%",
+    "delta_3m": "-7.3% / -8.1%"
   },
   "signals": [
     {
@@ -413,53 +413,71 @@
       "content": "Indian markets crashed on US blockade announcement: Sensex -1,607 pts (-2.07%) to 75,943 intraday, recovered to 76,424 (-1.5%). Nifty -1.3% to 23,744 (intraday low 23,571 = -1.99%). Bank Nifty -1.7% to 54,972 — HDFC Bank -2.22%, Kotak -2.18%, SBI -1.98%. Rupee fell to Rs 93.31 (+0.9%). Brent above $102 destroys RBI rate cut pathway that powered Bank Nifty's Friday +2.0% rally. Markets CLOSED Tuesday (Ambedkar Jayanti). March CPI releasing today (consensus 3.4%). FII CY2026 outflows Rs 1.71 lakh crore — selling INTO rally. (Sources: ANI, IndiaIPO, Business Standard, NSE India)",
       "sources": ["ANI", "IndiaIPO", "Business Standard", "NSE India"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "India March CPI confirmed at 3.40% (up from 3.21% in February) — 14-month high but BELOW Reuters consensus of 3.48% (source: PIB April 13, SBI Research April 14). The 'transitory' inflation narrative survives as CPI remains within RBI's 2-6% comfort band. However, composition is alarming: imported inflation hit 6.49% (up from 6.35%), now contributing 43% of overall CPI. Core inflation stable at 3.38%. The crisis-driven import cost channel is the dominant inflation driver and will worsen with sustained $100+ oil. RBI's FY27 inflation projection of 4.6% (set April 8) looks conservative given the blockade. Every Rs 10 fuel price hike adds 20-30 bps to headline CPI.",
+      "sources": ["PIB", "SBI Research", "Reuters", "NDTV Profit", "Business Standard"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Markets CLOSED April 14 for Ambedkar Jayanti — 48-hour position lockup. April 13 close: Sensex recovered from -1,613 intraday to close at 76,848 (-702 / -0.9%); Nifty recovered from 23,556 intraday to 23,843 (-0.86%). VIX +9.36%. Overnight oil fell back below $100 on Trump 'Iran reached out' CLAIM (unverified by Iran) — if oil holds sub-$100 and Thursday talks confirmed, GIFT Nifty expected +0.5-1.0% gap-up on April 15. FIIs sold Rs 48,213 crore in April's first 11 days; FY26 total Rs 1.79 lakh crore. JPMorgan cut Nifty target to 27,000. Forex reserves dropped below $700B (RBI lost $11B in one week ending March 20). (Sources: Business Today, ANI, Moneycontrol, ET)",
+      "sources": ["Business Today", "ANI", "Moneycontrol", "ET"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "India stated on Hormuz navigation: 'Our ships are moving through Hormuz. We have trade & energy agreements with Iran. We will respect & honour them and expect others not to meddle in our affairs' — a CONFIRMED statement asserting independent navigation policy separate from the US blockade, maintaining India's trade relationship with Iran (source: SCMP, Business Today). Shell hiked diesel Rs 25/litre; Nayara hiked petrol Rs 5, diesel Rs 3. State OMCs (IOC, BPCL, HPCL) absorbing Rs 8-10/litre in under-recoveries, holding retail fuel prices steady despite $100+ oil — politically motivated but creates fiscal pressure.",
+      "sources": ["SCMP", "Business Today", "Sunday Guardian", "CNBC TV18"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "brent-crude",
       "type": "import_dependency",
-      "context": "India imports 85-90% of crude. Brent at $96.75 — below $100 for first time since war began, easing import bill significantly. Ceasefire pulled oil from $118 to $96.75. June RBI cut pathway open if oil stays below $100.",
+      "context": "India imports 85-90% of crude. Brent at $97.98, back below $100 on Trump 'deal' claim after blockade spike to $103+. Imported inflation at 6.49% (43% of CPI). Every $10/bbl = ~$15B additional import bill. Shell +Rs 25 diesel, state OMCs absorbing Rs 8-10/litre.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 20,
+      "last_activated": "2026-04-14",
+      "activation_count": 21,
       "weight": 10.0
     },
     {
       "to": "inr-usd",
       "type": "trade_balance",
-      "context": "INR at ₹92.55 strengthening on ceasefire. NOP cap April 10 deadline STANDS — banks unwound ~75% ($30B of ~$40B). FII flow flip NOT happened — selling Rs 8,692 cr on ceasefire day. Path to ₹95-100 off the table for 2+ weeks.",
+      "context": "INR at Rs93.28 (offshore, markets closed). Approached 93.50 trigger on April 13 (93.39) before oil relief pulled it back. FII CY2026 outflows Rs 1.79 lakh crore. Forex reserves below $700B. NOP cap compliance complete. 'Rs 100/USD by June' now credible per Outlook Money.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 17,
+      "last_activated": "2026-04-14",
+      "activation_count": 18,
       "weight": 10.0
     },
     {
       "to": "rbi",
       "type": "policy_nexus",
-      "context": "RBI held 5.25%, all three unknowns resolved. FY27 CPI 4.6%, GDP 6.9%. Most dovish forward guidance under Malhotra. NOP cap deadline April 10 STANDS but curbs 'temporary.' India 10Y collapsed to 6.91%. June 25bps cut pathway open.",
+      "context": "March CPI 3.40% within comfort band but imported inflation 6.49% rising. RBI FY27 CPI 4.6% looks conservative with blockade. Every Rs 10 fuel hike = 20-30bps CPI. June cut pathway ambiguous — oil below $100 helps but Fed hike probability >50% removes external cover.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 15,
+      "last_activated": "2026-04-14",
+      "activation_count": 16,
       "weight": 10.0
     },
     {
       "to": "nifty-50",
       "type": "market_impact",
-      "context": "Nifty confirmed at 24,013 (+3.85%). 200-DMA touched at ~24,051. Rally driven by short-covering + DII (Rs 7,979 cr), NOT FII re-entry (sold Rs 8,692 cr). VIX crashed to 19.70 (pre-war). FII flow flip is the next sustainability tell.",
+      "context": "Nifty 23,843 (-0.9% April 13). 200-DMA broken on blockade. Markets closed April 14. FIIs sold Rs 48,213 cr in April's first 11 days. JPMorgan cut target to 27,000. If oil holds sub-$100 and Thursday talks confirmed, gap-up expected April 15.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 20,
+      "last_activated": "2026-04-14",
+      "activation_count": 21,
       "weight": 10.0
     },
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "50% of crude imports, ~91% of LPG, fertilizer raw materials transit Hormuz. Iran's selective opening allowing Indian tankers through.",
+      "context": "50% of crude imports, ~91% of LPG, fertilizer raw materials transit Hormuz. India asserting independent navigation: 'Our ships are moving through Hormuz. We have trade & energy agreements with Iran.' US blockade = additional complication for Indian tankers.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 11,
-      "weight": 9.2
+      "last_activated": "2026-04-14",
+      "activation_count": 12,
+      "weight": 10.0
     },
     {
       "to": "fertilizer-urea",
@@ -510,7 +528,7 @@
         "nifty-50",
         "fertilizer-urea"
       ],
-      "mechanism": "Brent crashed to $96.75 — BELOW $100 for first time since war began. The 2-week sustained $100+ period (March ~21 to April 7) is now broken. However, oil could snap back above $100 if Friday Islamabad talks fail or ceasefire collapses. Trigger easing but not deactivated.",
+      "mechanism": "Brent spiked to $103+ on April 13 blockade, fell back to $97.98 on April 14 on Trump 'deal' claim. Oil oscillating around $100 — not sustained above for 2+ weeks since ceasefire broke the streak on April 8. Physical Dated Brent at $120+ vs futures $98 = $22 gap. Trigger remains watching.",
       "added": "2026-04-01",
       "status": "watching"
     }

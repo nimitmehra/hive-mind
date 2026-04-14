@@ -3,8 +3,8 @@
   "name": "Indian Oil Marketing (IOC/BPCL/HPCL)",
   "type": "sector",
   "created": "2026-03-28",
-  "last_updated": "2026-04-12",
-  "summary": "CEASEFIRE MARGIN RELIEF UNDER THREAT. Brent at $95.20 Friday close, but Islamabad talks failed Saturday — Monday gap to $98-105 expected. IOC/BPCL/HPCL face renewed margin pressure if oil returns above $100. March CPI releasing Monday (consensus 3.4%) — first domestic print reflecting $100+ oil. RBI oil sensitivity: $10/bbl increase = 55-60bps CPI increase. The 'ceasefire resolves oil' thesis that powered OMC recovery is under acute strain.",
+  "last_updated": "2026-04-14",
+  "summary": "PRIVATE vs STATE PRICING DIVERGENCE. Shell hiked diesel Rs 25/litre; Nayara hiked petrol Rs 5, diesel Rs 3. State OMCs (IOC, BPCL, HPCL) absorbing Rs 8-10/litre in under-recoveries, holding retail fuel prices steady despite $100+ oil — politically motivated but creates fiscal pressure. March CPI 3.40% with imported inflation at 6.49% (43% of CPI) = every Rs 10 fuel hike adds 20-30bps to headline CPI. Oil fell back to $97.98 on deal hopes — temporary margin relief if sustained. No formal fuel price freeze announced but political pressure makes hikes impossible during crisis.",
   "signals": [
     {
       "date": "2026-03-28",
@@ -72,35 +72,41 @@
         "markets.md"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Private vs state OMC pricing divergence confirmed: Shell hiked diesel Rs 25/litre; Nayara (Rosneft-backed) hiked petrol Rs 5, diesel Rs 3 — both passing through higher crude costs to consumers (source: CNBC TV18, Sunday Guardian April 14). State OMCs (IOC, BPCL, HPCL) absorbing Rs 8-10/litre in under-recoveries, holding retail fuel prices steady despite $100+ oil. This is politically motivated — no government can hike fuel prices during a military crisis with rising inflation — but creates fiscal pressure that eventually breaks. March CPI printed 3.40% with imported inflation at 6.49% (43% of overall CPI), confirming the crisis import cost channel is dominant. Every Rs 10 fuel price hike adds 20-30 bps to headline CPI. Oil fell back to $97.98 on Trump's 'Iran deal' claim — temporary margin relief if sustained below $100, but physical-futures gap ($120 vs $98) means actual procurement costs for OMCs remain elevated.",
+      "sources": ["CNBC TV18", "Sunday Guardian", "PIB", "SBI Research"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "brent-crude",
       "type": "cost_exposure",
-      "context": "OMCs buy crude at global prices. Indian crude basket at $120.84/bbl. Every $10 oil increase directly compresses margins unless passed to consumers. At $120+ Brent, margin squeeze is severe and worsening.",
+      "context": "OMCs buy crude at global prices. Brent at $97.98 futures but physical Dated Brent at $120+ = actual procurement costs elevated. Shell passed through +Rs 25 diesel; state OMCs absorbing Rs 8-10/litre losses. Every $10 oil increase directly compresses margins.",
       "directness": 1,
-      "last_activated": "2026-04-06",
-      "activation_count": 11,
-      "weight": 9.0
+      "last_activated": "2026-04-14",
+      "activation_count": 12,
+      "weight": 10.0
     },
     {
       "to": "india",
       "type": "fiscal_tool",
-      "context": "Government uses OMCs as fiscal shock absorbers — instructing them to hold prices while absorbing losses. Duty cuts maxed out. No policy space remaining. This protects consumers but erodes OMC balance sheets and government dividend income.",
+      "context": "Government uses OMCs as fiscal shock absorbers — holding retail prices steady with Rs 8-10/litre under-recoveries. Duty cuts maxed out. Private players (Shell, Nayara) have already passed costs through. CPI 3.40% with imported inflation 6.49% means any hike adds 20-30bps to headline inflation. Impossible to hike during crisis.",
       "directness": 1,
-      "last_activated": "2026-04-06",
-      "activation_count": 9,
-      "weight": 8.0
+      "last_activated": "2026-04-14",
+      "activation_count": 10,
+      "weight": 9.0
     },
     {
       "to": "nifty-50",
       "type": "index_weight",
-      "context": "IOC, BPCL, HPCL are Nifty constituents. Their decline drags the index. Also signals broader India energy vulnerability to institutional investors.",
+      "context": "IOC, BPCL, HPCL are Nifty constituents. Under-recovery absorption hits earnings, dragging sector and index. Private pricing divergence (Shell/Nayara hiking) creates competitive disadvantage for state OMCs.",
       "directness": 1,
-      "last_activated": "2026-03-28",
-      "activation_count": 5,
-      "weight": 6.0
+      "last_activated": "2026-04-14",
+      "activation_count": 6,
+      "weight": 6.3
     }
   ],
   "trigger_points": [
@@ -117,7 +123,9 @@
     }
   ],
   "current": {
-    "indian_crude_basket": "$120.84/bbl pre-ceasefire → projected ~$108-112 over next week",
-    "margin_relief": "Rs 3-5/litre over next month if Brent stabilizes at $95"
+    "brent_futures": "$97.98/bbl",
+    "physical_dated_brent": "~$120/bbl",
+    "under_recovery": "Rs 8-10/litre (state OMCs absorbing)",
+    "private_pass_through": "Shell +Rs 25 diesel, Nayara +Rs 5 petrol +Rs 3 diesel"
   }
 }

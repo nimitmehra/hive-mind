@@ -3,13 +3,13 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-13",
-  "summary": "$102.20/bbl (+7.4% Monday). US naval blockade of Iranian ports announced — Brent surged from $95.20 to $102.20, largest single-session move since ceasefire announcement April 8. Back above $100 — the 5-session sub-$100 count is RESET TO ZERO. Physical-futures gap persists. WTI $104.73 (+8.4%). Heating oil +8.7% ($4.09) — refined products outpacing crude (refining capacity stress). JP Morgan: Brent hits $120 if Hormuz stalemate drags to July. Goldman ceasefire-optimistic $90 Q2 forecast already wrong. Next resistance: $110 (IRGC military response). $120+ on ceasefire collapse.",
+  "last_updated": "2026-04-14",
+  "summary": "$97.98/bbl (-1.4%). Oil COMPLETELY REVERSED Sunday's blockade spike ($103+) on a single unverified Trump claim that 'Iran reached out.' Brent back below $100 for the first time since blockade announcement. This is a RHETORIC-DRIVEN reversal, not a fundamental change — blockade is still operational, 31 vessels/24hrs vs 80-100 normal, war risk insurance SUSPENDED by major P&I clubs. CRITICAL MISMATCH: Physical Dated Brent at $120+ vs futures $98 = $22 gap (widest of crisis). Goldman: another month Hormuz closure = Brent above $100 all 2026. JP Morgan: $150 if Hormuz shut into mid-May. Saudi pipeline restored to 7M bpd Yanbu = partial bypass. Reversibility HIGH — any disruption to 'deal in days' narrative restores $105+ instantly.",
   "current": {
-    "price": "$102.20/bbl",
-    "delta_1d": "+7.4%",
-    "delta_1m": "+1.7%",
-    "delta_3m": "+56.1%"
+    "price": "$97.98/bbl",
+    "delta_1d": "-1.4%",
+    "delta_1m": "-5.0%",
+    "delta_3m": "+47.3%"
   },
   "price_snapshots": [
     {
@@ -131,6 +131,12 @@
       "price": "$102.20/bbl",
       "trigger": "US naval blockade of Iranian ports announced — Brent back above $100",
       "delta_context": "Surged +7.4% from $95.20 Friday close. Largest move since April 8 ceasefire. 5-session sub-$100 count reset."
+    },
+    {
+      "date": "2026-04-14",
+      "price": "$97.98/bbl",
+      "trigger": "RHETORIC-DRIVEN REVERSAL — Trump 'Iran reached out' CLAIM (unverified) reversed entire blockade spike",
+      "delta_context": "Fell from $103+ blockade spike to $97.98 (-1.4%) in one session. Entire Sunday surge erased on a single unverified statement. Physical-futures gap widest of crisis: Dated Brent $120+ vs futures $98 = $22. Market pricing 'deal in days' — any disruption restores $105+ instantly."
     }
   ],
   "signals": [
@@ -477,52 +483,82 @@
       "content": "Brent surged +7.4% to $102.20 on US naval blockade announcement. WTI +8.4% to $104.73. Heating oil +8.7% to $4.09 — refined products outpacing crude, signaling refining capacity stress beyond just crude supply. CENTCOM confirmed blockade of all Iranian ports effective April 13 10:00 AM ET. Iran's ~1.3M bpd remaining exports under direct interdiction threat. OPEC+ 206K bpd May increase is moot — most Gulf barrels stranded behind Hormuz. JP Morgan pre-blockade: $120 if stalemate drags to July; $150 worst case. Goldman's ceasefire-optimistic $90 Q2 forecast already obsolete. (Sources: yfinance confirmed, CNBC, Al Jazeera, CENTCOM)",
       "sources": ["yfinance", "CNBC", "Al Jazeera", "CENTCOM"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Oil COMPLETELY REVERSED Sunday's blockade spike. Brent fell from $103+ to $97.98 (-1.4%), WTI from $104+ to $96.80 (-2.3%). Heating oil -5.7%, gasoline -3.3% — refined products amplified the crude move. The reversal was driven entirely by Trump's CLAIMED (unverified by Iran) statement that 'Iran reached out' and AP reporting of possible Thursday talks via Pakistan/Turkey/Egypt facilitation. Wall Street repriced: 'blockade = coercion tool forcing deal' NOT 'blockade = escalation.' This is a RHETORIC-DRIVEN reversal, not a fundamental supply change — the blockade remains operational and insurance remains suspended. (Sources: Bloomberg, CNBC, BNN Bloomberg, TradingEconomics — 4 independent sources)",
+      "sources": ["Bloomberg", "CNBC", "BNN Bloomberg", "TradingEconomics"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Physical-futures gap at WIDEST of entire crisis: Dated Brent (physical, real barrels) at $120+ vs Brent futures at $97.98 = $22+ gap. Physical market players (refiners, traders with actual ships) are paying $120+ per barrel while futures traders (Wall Street, algos) are paying $98. One of these is wrong. The gap reflects: insurance suspended (commercial ships cannot transit), blockade operational (31 vessels/24hrs), Hormuz NOT reopened. The futures market is pricing a deal that does not yet exist. (Sources: market data, Goldman Sachs, S&P Global)",
+      "sources": ["Goldman Sachs", "S&P Global", "market data"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "War risk insurance SUSPENDED by major P&I clubs for Gulf transits — the most important operational constraint on oil flow. Lloyd's List reports premiums at 2.5-5% of hull value ($100M ship = $2.5-5M per transit) where coverage still available. Some clubs suspended Gulf coverage entirely. This means commercial shipping cannot transit the Strait of Hormuz regardless of the military situation, because ships cannot get insurance. Even if a deal is announced, insurance markets won't normalize for weeks to months. (Sources: Lloyd's List, CNBC, Kennedys Law — 3 independent sources)",
+      "sources": ["Lloyd's List", "CNBC", "Kennedys Law"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Saudi Arabia's East-West oil pipeline restored to full capacity (~7M bpd), diverting oil to Yanbu — a critical workaround for the Hormuz blockade that reduces the blockade's effective impact on total Gulf oil supply reaching global markets. This is a secondary contributor (~5%) to oil's reversal, behind the Trump 'deal' claim (~95%). (Sources: Al Jazeera, CS Monitor — 2 independent sources)",
+      "sources": ["Al Jazeera", "CS Monitor"],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Analyst consensus: Goldman Sachs says another month of Hormuz closure means Brent averages above $100 for all of 2026. JP Morgan warns of $150 overshoot if Hormuz stays shut into mid-May. Bob McNally (Rapidan Energy): mine clearing then blockade then commercial escort by late April — 'I don't expect this ceasefire to last.' Oil sell-off was 'unwarranted.' The current $97.98 is pricing 'deal in days' — highly reversible if Thursday talks don't materialize or IRGC-US naval incident occurs. (Sources: Goldman Sachs, JP Morgan, Rapidan Energy via Fortune — 3 independent sources)",
+      "sources": ["Goldman Sachs", "JP Morgan", "Rapidan Energy"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "Ceasefire promises 'complete opening' but Iran's 'controlled passage' framing is structurally different. Brent -13.5% prices the Trump framing; Lloyd's physical-flow lag means actual normalisation is weeks away.",
+      "context": "Day 47. US blockade operational but oil reversed below $100 on Trump 'deal' claim. Physical-futures gap WIDEST of crisis: $120+ physical vs $98 futures = $22 gap. Insurance SUSPENDED — commercial shipping cannot transit. 31 vessels/24hrs vs 80-100 normal. Saudi 7M bpd pipeline to Yanbu partially offsets.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 26,
+      "last_activated": "2026-04-14",
+      "activation_count": 27,
       "weight": 10.0
     },
     {
       "to": "india",
       "type": "import_cost",
-      "context": "India imports 85-90% of crude. At $109/bbl post-address, massive additional import cost. Every $10/bbl increase = ~$15B additional import bill. RBI MPC April 6-8 facing 'trade-off central banks dislike most.'",
+      "context": "Day 47. Brent at $97.98 provides marginal relief vs $102 blockade day. India CPI 3.40% (imported inflation at 6.49%, contributing 43% of CPI). Every $10/bbl increase = ~$15B additional import bill. Indian markets closed April 14 — will price oil's reversal on April 15. FIIs still selling (Rs 1.71 lakh crore CY2026). If oil sustains sub-$100, modest relief; structural vulnerabilities persist.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 20,
+      "last_activated": "2026-04-14",
+      "activation_count": 21,
       "weight": 10.0
     },
     {
       "to": "inr-usd",
       "type": "cost_pressure",
-      "context": "Higher oil = more dollar demand for imports = rupee depreciation. Post-address oil back at $109 removes the $102 relief. Hormuz structural floor means no return to $70 pre-war. INR at 93.14 (offshore).",
+      "context": "Day 47. Oil at $97.98 vs INR at 93.28 — rupee strengthened -1.3% on oil pullback and DXY weakness. Oil below $100 eases import bill pressure (~$1.6B annualized relief per $1/bbl decline). But structural pressures persist: forex reserves below $700B, FII outflows Rs 1.71 lakh crore CY2026. Rupee still approaching 93.50 trigger.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 17,
+      "last_activated": "2026-04-14",
+      "activation_count": 18,
       "weight": 10.0
     },
     {
       "to": "fed",
       "type": "inflation_input",
-      "context": "Oil at $109 post-address = inflation stays elevated = Fed can't cut. ISM Prices Index at 78.3 (highest since June 2022). Oil back above $105 eliminates any rate-cut pathway. Stagflation trap deepens.",
+      "context": "Day 47. Oil at $97.98 eases but doesn't resolve Fed dilemma. Hike probability >50% for year-end (CME FedWatch). CPI 3.3% treated as transitory but imported inflation rising. Fed trapped: oil-driven inflation prevents cuts, growth deterioration prevents hikes. If deal fails and oil returns to $105+, inflation expectations ratchet permanently higher.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 15,
+      "last_activated": "2026-04-14",
+      "activation_count": 16,
       "weight": 10.0
     },
     {
       "to": "sp-500",
       "type": "earnings_risk",
-      "context": "Post-address oil at $109 re-compresses margins. S&P +2.9% (Apr 1), -0.52% (Apr 2). XLE -3.7% while oil +8.3% = energy stocks trading 'peak oil' / demand destruction, not tracking crude higher.",
+      "context": "Day 47. S&P erased ALL war losses to 6,886 (+1.02%) — maximum complacency. Oil below $100 + Trump 'deal' claim + earnings season (Goldman beat) driving equities higher. XLE +0.3% decoupled from oil's -1.4% daily decline — energy sector transitioning from war premium to normalized elevated earnings. VIX 19.12 implies 8-10% probability of 5%+ move; actual probability 25-35% given blockade + intact IRGC.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 13,
+      "last_activated": "2026-04-14",
+      "activation_count": 14,
       "weight": 10.0
     },
     {
@@ -574,7 +610,7 @@
         "rbi",
         "nifty-50"
       ],
-      "mechanism": "Brent was above $100 for ~13 days (March 20 - April 2). Intraday breach to $98.52 on April 2 disrupts the 'sustained' criterion, but recovered to $101.97 close. The intraday breach interrupts the sustained count. Must hold above $100 through the rest of the week to restart the count. April 5-8 binary events (OPEC+, energy strike deadline, RBI MPC) create high reversal risk in either direction.",
+      "mechanism": "Brent was above $100 for ~13 days (March 20 - April 2), broke below during ceasefire, then surged back to $102.20 on blockade announcement (April 13). Now reversed to $97.98 on April 14 — one session below $100 driven by Trump's unverified 'Iran reached out' claim. The trigger was previously CROSSED and sustained $100+ for weeks. A rhetoric-driven single-session dip below $100 does not deactivate the structural condition — Hormuz remains blocked, insurance suspended, physical Dated Brent at $120+. If oil returns above $100 (highly likely if deal claims are unverified or IRGC incident occurs), sustained count resumes. | UPDATE 2026-04-14: Keep at WATCHING — one session below $100 on unverified claim is not sufficient to declare the trigger deactivated. Physical market reality ($120+) contradicts futures pricing ($98).",
       "added": "2026-03-23",
       "status": "watching"
     },

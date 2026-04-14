@@ -3,8 +3,8 @@
   "name": "Iraq",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-08",
-  "summary": "FORCE MAJEURE PERSISTS Day 19 — production at 900K bpd (down from 3.3M). 90%+ of Iraqi income from oil. IRGC three-tier system granted 'brotherly Iraq' exemption pre-ceasefire — Iraqi crude tankers transiting Hormuz. 14-day ceasefire creates path for formal force majeure lift and 1.5-2.0M bpd restart over 2-4 weeks — the largest single piece of global supply restoration available, bigger than OPEC+ 206K bpd. Iraq is the silent largest beneficiary. Watch Iraqi oil ministry, BP/Eni updates, Basra port data over next 48 hours.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47. IRANIAN-BACKED IRAQI MILITIAS CONTINUE DRONE ATTACKS ON GULF STATES DESPITE CEASEFIRE [CONFIRMED]. Bahrain intercepted 7 Iraqi militia drones, summoned Iraq's charge d'affaires. This means Iran has NOT ordered its proxy partners to cease attacks on regional states — the simultaneity of negotiate + proxy attacks is the signal. Force majeure persists — production at 900K bpd (down from 3.3M). 90%+ of Iraqi income from oil. Blockade intensifies Iraq's export challenges.",
   "signals": [
     {
       "date": "2026-03-11",
@@ -53,6 +53,12 @@
         "Iraqi oil ministry"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Iranian-backed Iraqi militias continue drone attacks on Gulf states DESPITE ceasefire [CONFIRMED]. Bahrain intercepted seven drones from Iraqi militias and summoned Iraq's charge d'affaires (source: ISW Special Report April 13, The National). This means Iran has NOT ordered its proxy partners to cease attacks on regional states, even while the Iran-US ceasefire formally holds. The simultaneity of negotiate + proxy attacks continue is itself the signal per project methodology — Iran maintains pressure through proxies while keeping formal bilateral ceasefire intact. Iraq's own force majeure persists with production at 900K bpd. The US naval blockade intensifies Iraq's export challenges through Hormuz.",
+      "sources": ["ISW", "The National", "Middle East Eye"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -77,11 +83,11 @@
     {
       "to": "iran",
       "type": "influence_zone",
-      "context": "Iran has significant political/military influence in Iraq. Iraqi Shia militias aligned with Iran. Iraq caught between US and Iran.",
+      "context": "Day 47. Iraqi militias continue drone attacks on Gulf states despite ceasefire (CONFIRMED) — Iran NOT ordering proxy ceasefire. Bahrain intercepted 7 drones, summoned Iraq's charge d'affaires. Iran has significant political/military influence in Iraq.",
       "directness": 1,
-      "last_activated": "2026-03-20",
-      "activation_count": 5,
-      "weight": 7.0
+      "last_activated": "2026-04-14",
+      "activation_count": 6,
+      "weight": 8.4
     }
   ],
   "trigger_points": [],

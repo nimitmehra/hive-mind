@@ -3,14 +3,14 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-13",
-  "summary": "Friday close 6,817 does NOT reflect Islamabad failure or Hormuz blockade continuation. Expected Monday: -1.5 to -2.5%. VIX will reset from 19.23 to 25-30+. The ceasefire rally is fully priced; the blockade persistence is NOT. Cheapest war insurance since conflict began — any VIX call strike 30-35 with 7-14 DTE remains massively asymmetric.",
+  "last_updated": "2026-04-14",
+  "summary": "6,886 (+1.0%) — ALL WAR LOSSES ERASED. Highest close since before the war began (Feb 28). MOST DANGEROUS market configuration since war began. Trump 'Iran reached out' CLAIM (unverified by Iran) neutralized blockade fear before market open. VIX at 19.12 FAILED to spike to predicted 25-30+ — vol-selling feedback loop continues. VIX implies 8-10% probability of 5%+ move; actual probability 25-35% given active blockade, 60% IRGC fast-attack craft intact, 8 ceasefire days remaining. MAXIMUM COMPLACENCY. Q1 earnings: Goldman beat ($17.55 vs $16.47). If Thursday talks don't materialize or IRGC-US incident occurs, VIX 30+, S&P -3 to -5% in single session.",
   "current": {
-    "price": "6,817",
-    "delta_1d": "-0.1%",
-    "delta_1m": "+0.6%",
-    "delta_3m": "-2.3%",
-    "vix": "19.23"
+    "price": "6,886.24",
+    "delta_1d": "+1.0%",
+    "delta_1m": "+3.2%",
+    "delta_3m": "-0.6%",
+    "vix": "19.12"
   },
   "price_snapshots": [
     {
@@ -30,6 +30,12 @@
       "price": "6,782.81",
       "trigger": "Ceasefire rally — best day since April 2025",
       "delta_context": "+2.51%; VIX crushed to 21; airlines exploded (Delta +11%, United +14%); defense +4.0% anomaly"
+    },
+    {
+      "date": "2026-04-14",
+      "price": "6,886.24",
+      "trigger": "ALL WAR LOSSES ERASED — highest close since pre-war (Feb 28)",
+      "delta_context": "+1.0% on Trump 'Iran reached out' CLAIM (unverified). VIX 19.12 FAILED to spike. Nasdaq +1.23% to 23,184. Dow +0.63% to 48,218. Goldman beat ($17.55 EPS). MAXIMUM COMPLACENCY — widest VIX-vs-reality mispricing of entire war."
     }
   ],
   "signals": [
@@ -232,34 +238,40 @@
       "content": "Friday close 6,817 does NOT reflect Islamabad failure or Hormuz blockade continuation. Expected Monday: -1.5 to -2.5%. VIX will reset from 19.23 to 25-30+ as ceasefire-hope unwind triggers vol-targeting fund de-risking. Asymmetry maximally negative: ceasefire holds = VIX stays 18-20 (minimal); ceasefire collapses = VIX 30+, S&P -3-5%, algo selling cascade. The cheapest war insurance since conflict began.",
       "sources": ["CBOE", "market data"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "S&P 500 rallied +1.02% to 6,886.24 — erasing ALL war losses since Feb 28, highest close since before the conflict began (source: Bloomberg, CNBC, Yahoo Finance). Nasdaq +1.23% to 23,184. Dow +0.63% to 48,218. Trump claimed Iran 'reached out' and 'wants to deal very badly' — this single UNVERIFIED statement neutralized the blockade fear narrative before US market open. Iran has NOT confirmed any outreach. VIX closed at 19.12 — FAILED to spike to the 25-30+ range predicted in April 13 brief. Vol-selling feedback loop continues: VIX below 20 = vol-targeting funds sell vol = VIX stays low. VIX implies 8-10% probability of 5%+ move; actual probability given active blockade and 60% IRGC fast-attack craft intact = 25-35%. This is the WIDEST VIX-vs-reality mispricing of the entire war. Q1 earnings began: Goldman Sachs beat ($17.55 EPS vs $16.47 expected, +6.5%). JPMorgan reports today. S&P Q1 expected +13.1% earnings on +9% revenue — 'low bar, high beat' dynamic. REVERSIBILITY: extreme. If Thursday talks don't materialize or IRGC-US Navy incident occurs, VIX 30+, S&P -3 to -5% in single session.",
+      "sources": ["Bloomberg", "CNBC", "Yahoo Finance", "SWI"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "united-states",
       "type": "equity_market",
-      "context": "Primary US equity benchmark. Bond-equity divergence emerging — equities pricing de-escalation while bonds pricing recession. ISM stagflation signal (prices 78.3, employment contracting).",
+      "context": "S&P at 6,886 erases ALL war losses. Wall Street pricing 'blockade forces deal' NOT 'blockade leads to confrontation.' Bond-equity divergence persists: 10Y barely moved while S&P +1.0%. Bonds usually right when they disagree with equities.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 15,
+      "last_activated": "2026-04-14",
+      "activation_count": 16,
       "weight": 10.0
     },
     {
       "to": "fed",
       "type": "rate_sensitivity",
-      "context": "Rate-cut probability nearly doubled post-ceasefire (25% to 43%). VIX crushed to 21. Rally fragile — built on ceasefire that fractured within 18 hours.",
+      "context": "Fed hike probability >50% for year-end (CME FedWatch). FOMC 'some' officials supporting hike language. Fed trapped in stagflation: oil-driven inflation prevents cuts, growth deterioration prevents hikes. Q1 earnings +13.1% expected providing non-war support.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 12,
+      "last_activated": "2026-04-14",
+      "activation_count": 13,
       "weight": 10.0
     },
     {
       "to": "brent-crude",
       "type": "earnings_risk",
-      "context": "Oil-equity divergence RESOLVED on ceasefire: Brent -11.5% and S&P +2.51% moved in expected directions. Energy XLE -3.5%, airlines +11-14%. If ceasefire collapses and oil snaps to $110+, S&P reversal amplified by VIX at 21.",
+      "context": "Oil fell back below $100 on deal hopes driving S&P to war-loss erasure. XLE +0.3% barely tracked oil decline — decoupling as sector transitions to 'normalized elevated earnings.' Physical-futures gap ($120 vs $98) = one is wrong. If oil snaps to $105+, S&P reversal amplified by VIX at 19.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 13,
+      "last_activated": "2026-04-14",
+      "activation_count": 14,
       "weight": 10.0
     },
     {

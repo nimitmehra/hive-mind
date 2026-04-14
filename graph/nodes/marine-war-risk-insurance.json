@@ -3,12 +3,12 @@
   "name": "Marine War Risk Insurance",
   "type": "institution",
   "created": "2026-04-08",
-  "last_updated": "2026-04-11",
-  "summary": "Day 44 / Ceasefire Day 4. Rates STABLE at 0.35-0.45% of vessel value — still 40-80% above pre-war 0.25% but moderated from wartime peaks of 3.5-10% and the $10-14M/voyage crisis levels. For a $150M LNG carrier, still ~$500K-$675K per voyage. US has DOUBLED reinsurance backstop capacity to $40B — a material structural support that enables individual voyage underwriting to resume at crisis-moderated rates. LMA: 88% of participants still have appetite. Neil Roberts (LMA): 'highly unlikely that trade into the Gulf will simply resume.' Lloyd's JWC conflict-zone designation UNCHANGED. Reinsurers still exercising 72-hour cancellation clauses — restoration takes weeks, not days, regardless of political progress. The MAERSK Red Sea transit (April 10-11) was only possible because carrier-level war-risk underwriting is now being done on a case-by-case basis, not because zone designations have been lifted. Futures price ceasefire; insurance prices reality. Insurers remain the best real-money probability assessment of ceasefire durability — and they are NOT repricing to peace levels.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47 / Blockade Day 1. MAJOR P&I CLUBS SUSPENDED GULF COVERAGE ENTIRELY — not just raised premiums, STOPPED offering. This is the most significant operational development: no insurance = no commercial shipping regardless of military situation. Lloyd's List: 'double-digit millions per trip' where coverage still available. Premiums 2.5-5% of hull value ($100M ship = $2.5-5M per transit). Blockade re-spiked premiums ABOVE pre-ceasefire levels — ceasefire-era 0.35-0.45% estimate now obsolete. Kennedys Law: 'reshaped marine insurance risk landscape.' US DFC $40B reinsurance facility attempting to fill gap. This is the operational bottleneck underneath the 'deal hope' narrative — even if a deal is announced, insurance markets won't normalize for weeks to months.",
   "current": {
     "cover_pre_crisis": "$25K/year per vessel",
-    "cover_current": "0.35-0.45% hull value per voyage (down from 3.5-10% peak, still 7-10x pre-war)",
-    "multiplier_vs_pre_crisis": "~7-10x (down from ~30,000x at peak)"
+    "cover_current": "SUSPENDED by major P&I clubs. Where available: 2.5-5% hull value per voyage. Double-digit millions per trip.",
+    "multiplier_vs_pre_crisis": "Effectively infinite (coverage suspended). Where available: ~100-200x pre-war."
   },
   "signals": [
     {
@@ -62,35 +62,41 @@
         "Insurance Journal"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "MAJOR P&I CLUBS SUSPENDED GULF COVERAGE ENTIRELY — OPERATIONAL BLOCKADE [CONFIRMED]. Major P&I clubs have STOPPED offering war risk insurance for Gulf transits, not just raised premiums. Lloyd's List reports 'double-digit millions of dollars per trip' where coverage is still available. Premiums at 2.5-5% of hull value ($100M ship = $2.5-5M per transit). Some clubs suspended Gulf coverage entirely. The April 11 ceasefire-level estimate of 0.35-0.45% is now obsolete — the US naval blockade re-spiked premiums above pre-ceasefire levels. Kennedys Law reports the situation has 'reshaped marine insurance risk landscape.' US DFC $40B political risk reinsurance facility attempting to fill the gap but signals the private market views Gulf transit as uninsurable (source: Lloyd's List, CNBC, Kennedys Law, Caixin). This is arguably the most important operational indicator of the blockade's effectiveness: insurance suspension means no commercial shipping regardless of military situation or diplomatic progress. Even if a deal is announced, insurance markets require weeks to months to normalize.",
+      "sources": ["Lloyd's List", "CNBC", "Kennedys Law", "Caixin"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "operational_chokepoint",
-      "context": "War risk insurance dipped to 0.35-0.45% but remains 7-10x pre-war. Rates dipped but nowhere near conflict-zone removal territory. Insurers are the best real-money probability assessment.",
+      "context": "Major P&I clubs SUSPENDED Gulf coverage entirely. Blockade re-spiked premiums above pre-ceasefire levels. Insurance suspension = no commercial shipping regardless of military situation. The binding operational constraint.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 5,
-      "weight": 8.0
+      "last_activated": "2026-04-14",
+      "activation_count": 6,
+      "weight": 10.0
     },
     {
       "to": "shipping-tankers",
       "type": "cost_structure",
-      "context": "Insurance dipped post-ceasefire but remains 7-10x pre-war. 479 vessels stranded. Reinsurance restoration takes weeks. Frontline +3.3% ON oil crash = physical reality pricing.",
+      "context": "Coverage SUSPENDED by major P&I clubs. Where available: 2.5-5% hull value ($2.5-5M per $100M ship). 150+ tankers anchored outside Hormuz. Insurance is the operational bottleneck — no coverage = no transit.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 4,
-      "weight": 7.5
+      "last_activated": "2026-04-14",
+      "activation_count": 5,
+      "weight": 10.0
     },
     {
       "to": "brent-crude",
       "type": "supply_constraint",
-      "context": "Insurance constraint persists even on ceasefire — physical flow restoration lags political headlines. Brent futures at $96 vs physical at $120+ = $24 gap driven by insurance/shipping constraints that take weeks to normalize.",
+      "context": "Insurance suspension intensifies physical-futures gap: Dated Brent $120+ vs futures $98 = $22 gap. Blockade re-spiked premiums above pre-ceasefire. Physical flow restoration impossible without insurance normalization.",
       "directness": 2,
-      "last_activated": "2026-04-09",
-      "activation_count": 3,
-      "weight": 5.5
+      "last_activated": "2026-04-14",
+      "activation_count": 4,
+      "weight": 6.0
     }
   ],
   "trigger_points": [

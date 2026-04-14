@@ -3,8 +3,8 @@
   "name": "Islamic Revolutionary Guard Corps (IRGC)",
   "type": "institution",
   "created": "2026-03-28",
-  "last_updated": "2026-04-13",
-  "summary": "Day 46 / Ceasefire Day 6. IRGC BROKE 30+ HOURS OF SILENCE POST-ISLAMABAD — ASSERTIVE BUT NOT ESCALATORY. IRGC Navy claims Hormuz under 'full control,' called US blockade/mine clearing a ceasefire violation. Pre-talks, C-in-C Vahidi clashed with FM Araghchi over negotiating team composition — revealing internal friction over diplomatic approach. Post-talks posture: sovereignty claims, not offensive threats. Fars News editorial: 'Americans needed talks only to restore their lost international image.' IRNA-Tasnim convergence on blame framing ('US overreach') persists — IRGC approved Ghalibaf's negotiating approach rather than building exit case. Permanent Hormuz control infrastructure intact: navigational mine map, tiered toll pricing, yuan/CIPS/Bitcoin payment system all continue operating.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47 / Blockade Day 1. NO KINETIC ACTION DESPITE MAXIMUM RHETORIC. Zero hostile engagements on blockade Day 1 — no mining, no attacks on US vessels. Khatam al-Anbiya warned 'no port in Gulf will be safe' (RHETORIC). Defense ministry declared 'maximum combat readiness' (CONFIRMED posture change). IRGC vowed 'new forms of warfare' (RHETORIC). 60% of fast-attack craft/speedboat fleet remains intact despite 6 weeks of strikes (REPORTED-WSJ), operating from underground pens. Trump acknowledged fast-attack boats untouched but threatened elimination. IRGC's 31 separate commands = decentralized, increased miscalculation risk at blockade line (Soufan Center). Multi-channel Iranian response differentiating: IRGC threats (Tasnim), diplomatic signaling (IRNA), European engagement (PressTV/Pezeshkian). Permanent Hormuz control infrastructure intact.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -298,25 +298,31 @@
       "content": "IRGC broke 30+ hours of post-Islamabad silence. Navy claims Hormuz under 'full control,' called US mine clearing a ceasefire violation. Pre-talks, C-in-C Vahidi clashed with FM Araghchi over negotiating team composition — internal friction over diplomatic approach. Post-talks posture: assertive sovereignty claims but NOT offensive threats. Fars News editorial: 'Americans needed talks only to restore their lost international image.' IRNA-Tasnim convergence on blame framing persists — IRGC approved Ghalibaf's negotiating approach. No commander statement rejecting talks or demanding escalation.",
       "sources": ["Fars News", "Tasnim", "IRNA"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "BLOCKADE DAY 1: NO IRGC KINETIC ACTION DESPITE MAXIMUM RHETORIC [CONFIRMED ABSENCE]. Zero hostile engagements on the first day of the US naval blockade — no mining operations, no attacks on US vessels, no fast-attack boat deployment. IRGC's Khatam al-Anbiya warned 'no port in Gulf will be safe' if Iranian ports threatened (RHETORIC). Defense ministry declared 'maximum combat readiness' — a CONFIRMED posture change but not offensive action. IRGC vowed 'new forms of warfare' (RHETORIC via Xinhua April 14). WSJ reports 60% of IRGC Navy fast-attack craft/speedboat fleet remains intact despite six weeks of US/Israeli strikes, operating from underground pens along rocky coasts (REPORTED — single WSJ source). Trump acknowledged on Truth Social that fast-attack boats remain untouched but threatened any approaching ships 'will be immediately ELIMINATED.' Soufan Center IntelBrief: IRGC's 31 separate commands create decentralized structure where units 'don't always act in lockstep' — increasing miscalculation risk at the blockade line. The bark-without-bite pattern continues from the university/corporate deadline episodes.",
+      "sources": ["CBS News", "WSJ", "Xinhua", "Soufan Center", "Report.az", "Al Bawaba"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "state_apparatus",
-      "context": "IRGC 'effectively running the country' (Soufan Center) with Mojtaba incapacitated and Pezeshkian in 'complete political deadlock.' IRGC blocking presidential appointments, controlling information flow to Supreme Leader. Controls offensive capability, nuclear security, proxy network. Missile adaptation: <25/day but hit rate increasing.",
+      "context": "Multi-channel response to blockade reflects IRGC-controlled differentiation: threats via Tasnim, diplomacy via IRNA, European engagement via PressTV/Pezeshkian. May reflect absence of single authoritative voice (Mojtaba wounded) or deliberate strategy. IRGC 'effectively running the country' (Soufan Center).",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 22,
+      "last_activated": "2026-04-14",
+      "activation_count": 23,
       "weight": 10.0
     },
     {
       "to": "strait-of-hormuz",
       "type": "operational_control",
-      "context": "IRGC toll booth continues at Hormuz (yuan-denominated, $2M per transit). Hormuz toll law passed full Majlis — codifying IRGC's operational control into permanent legislation. Transit fees in Iranian rials, US/Israel vessels banned. Financial incentive to maintain toll even after ceasefire.",
+      "context": "Blockade Day 1: IRGC did not confront US blockade kinetically but maintained 'full control' claims. 60% of fast-attack fleet intact operating from underground pens (REPORTED-WSJ). Toll booth and mine map infrastructure persist. Decentralized 31-command structure increases miscalculation risk at blockade line.",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 21,
+      "last_activated": "2026-04-14",
+      "activation_count": 22,
       "weight": 10.0
     },
     {

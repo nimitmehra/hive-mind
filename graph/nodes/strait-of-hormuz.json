@@ -3,8 +3,8 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-04-13",
-  "summary": "Day 46. US NAVAL BLOCKADE now operational — CENTCOM confirmed blockade of all Iranian ports effective April 13 10:00 AM ET. This evolves from mine clearing (April 11) to full blockade. Blockade targets Iranian port traffic only, preserves non-Iranian Hormuz transit. IRGC calls it ceasefire violation, threatens 'severe' response. Traffic still ~3% of pre-war. The strait's crisis has entered a new phase: direct US-Iran naval confrontation risk. VLCC rates still ~$151K/day (down from $423K peak). War risk insurance likely to re-spike from ceasefire lows. Over 150 tankers anchored outside strait.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47. US blockade Day 1 results: deterrence working, enforcement selective. 31 vessels transited in 24 hours (vs normal 80-100) — higher than expected near-zero but still ~35% of normal. Sanctioned tanker M/T Elpis transited AFTER blockade without interception (credibility test), while M/T Ostria and M/T Rich Starry turned back. ZERO IRGC kinetic response on Day 1 despite maximum rhetoric. War risk insurance SUSPENDED by major P&I clubs — commercial shipping effectively cannot transit regardless of military situation. UK-France announced independent multinational Hormuz mission — 'strictly defensive,' separate from US blockade, creating a THIRD PATHWAY. Saudi East-West pipeline restored to full 7M bpd capacity to Yanbu. Physical-futures gap widest of crisis: Dated Brent $120+ vs futures $98. Ceasefire 8 days to expiry.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -371,25 +371,61 @@
       "content": "US naval blockade of Iranian ports begins — CENTCOM confirmed implementation April 13 at 10:00 AM ET. Applies to all maritime traffic to/from Iranian ports, enforced impartially. Preserves non-Iranian Hormuz transit. Mine clearing (Phase 1, April 11) escalated to blockade (Phase 2). AIS evidence from April 11 favored US completing initial transit (USS Michael Murphy transponder activated on far side of strait). IRGC: blockade is ceasefire violation, military vessels will face 'severe' response. Iran spokesperson 'strongly denied' US transit was completed. War risk insurance expected to re-spike from ceasefire rates (0.35-0.45%) back toward 1.5-3%. (Sources: CENTCOM, CNBC, Bloomberg, Fortune, WSJ, Al Jazeera)",
       "sources": ["CENTCOM", "CNBC", "Bloomberg", "Fortune", "WSJ", "Al Jazeera"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "US blockade Day 1 operational results: Comoros-registered sanctioned tanker M/T Elpis — part of Iran's shadow fleet — successfully transited Hormuz AFTER the blockade took effect without US interception, directly testing blockade credibility. Two other shadow-fleet vessels turned back: M/T Ostria (Botswana-flagged, landlocked = false registry) changed destination 41 minutes after deadline; M/T Rich Starry (Malawi-flagged, also landlocked) broadcast 'drifting' off Qeshm Island then reversed course. Total traffic 31 vessels in 24 hours with 6 carrying cargo, versus normal 80-100/day. Blockade functioning primarily through deterrence rather than kinetic interception. (Sources: Bloomberg, CBS News, MarineTraffic via Tempo.co, Fortune, The War Zone — 5+ independent sources)",
+      "sources": ["Bloomberg", "CBS News", "MarineTraffic", "Fortune", "The War Zone"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Major P&I clubs SUSPENDED war risk insurance for Gulf transits entirely — not just raised premiums but STOPPED offering coverage. Lloyd's List reports 'double-digit millions of dollars per trip' where coverage still available; premiums at 2.5-5% of hull value ($100M ship = $2.5-5M per transit). This is the most important operational indicator: insurance suspension means no commercial shipping can transit regardless of the military situation on the water. (Sources: Lloyd's List, CNBC, Kennedys Law, Caixin — 4 independent sources)",
+      "sources": ["Lloyd's List", "CNBC", "Kennedys Law", "Caixin"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "UK and France announced joint independent multinational Hormuz mission — Macron and Starmer will co-host conference 'in coming days' for a 'peaceful multinational mission' to restore freedom of navigation, described as 'strictly defensive' and 'separate from the belligerents.' UK explicitly refused to join US blockade — PM Starmer announced British military assets will NOT block Iranian ports. This creates a THIRD PATHWAY between US blockade approach and IRGC control. If coalition materializes, it could provide insurance cover and military escort framework enabling commercial shipping without requiring Iran's permission or US blockade success. (Sources: CNBC, Bloomberg, Times of Israel, Middle East Eye, Outlook India — 5 independent sources)",
+      "sources": ["CNBC", "Bloomberg", "Times of Israel", "Middle East Eye", "Outlook India"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Saudi Arabia's East-West oil pipeline restored to full capacity (~7 million bpd), diverting oil to the Red Sea port of Yanbu — a critical workaround for the Hormuz blockade. This reduces the blockade's impact on total Gulf oil supply reaching global markets, though Yanbu port capacity constraints remain. (Sources: Al Jazeera, CS Monitor — 2 independent sources)",
+      "sources": ["Al Jazeera", "CS Monitor"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "IRGC fast-attack craft 60% intact despite six weeks of US/Israeli strikes, reported by WSJ. These small, fast vessels operate from underground pens along rocky coasts and evade satellite detection. Trump acknowledged on Truth Social that the US 'did not consider them much of a threat' but then threatened to 'ELIMINATE' any approaching ships. Their intact status means the risk of a US-IRGC naval incident at the blockade line remains operationally present. (Source: WSJ — single source, REPORTED)",
+      "sources": ["WSJ"],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Ceasefire (announced April 8, expiring ~April 22) nominally holds at the bilateral Iran-US level — no kinetic breach by either side on blockade Day 1. However, Iranian-backed Iraqi militias continue drone attacks on Gulf states despite ceasefire — Bahrain intercepted seven drones and summoned Iraq's charge d'affaires. Iran considers the blockade a ceasefire violation; the US considers it enforcement within the ceasefire framework. 8 days remain before expiry. (Sources: PBS, CBS News, ISW — 3 independent sources)",
+      "sources": ["PBS", "CBS News", "ISW"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "territorial_control",
-      "context": "Day 44. IRGC published navigational map acknowledging mines — permanent justification for escorted passage. Oman formally rejected toll proposal citing UNCLOS. IRGC tiered pricing operational ($0.50-1.50/bbl by tier). Traffic declining: 11 → 5 → 6-7 ships Apr 8-10. Mine map creates fait accompli: even political 'free passage' agreement requires IRGC escort through mined waters. 3,200 vessels stranded (Windward AI).",
+      "context": "Day 47. US blockade Day 1: deterrence working, enforcement selective. Elpis (sanctioned tanker) transited without interception — credibility test. IRGC zero kinetic response despite 'no port safe' rhetoric. IRGC fast-attack craft 60% intact (REPORTED-WSJ). Mine map + insurance suspension = permanent operational constraint. War risk insurance SUSPENDED by major P&I clubs — commercial shipping cannot transit regardless.",
       "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 22,
+      "last_activated": "2026-04-14",
+      "activation_count": 23,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "supply_chokepoint",
-      "context": "Day 44. Traffic declining post-ceasefire (11 → 5 → 6-7 ships Apr 8-10). Physical-futures gap persists ($120+ physical vs $94 futures). ADNOC CEO: 'not open — coercion.' Kpler: max 10-15 safe passages/day even under best conditions. CBS: oil exports return to previous levels by July 2026 at earliest. Goldman: another month of Hormuz closure = Brent above $100 throughout 2026.",
+      "context": "Day 47. Blockade Day 1: 31 vessels/24hrs vs normal 80-100. Physical-futures gap WIDEST of crisis: Dated Brent $120+ vs futures $98 = $22 gap. Insurance SUSPENDED — commercial shipping cannot transit. Saudi pipeline restored to 7M bpd Yanbu bypass partially offsets. Goldman: another month Hormuz closure = Brent above $100 all 2026. JP Morgan: $150 if shut into mid-May.",
       "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 24,
+      "last_activated": "2026-04-14",
+      "activation_count": 25,
       "weight": 10
     },
     {
@@ -404,10 +440,10 @@
     {
       "to": "shipping-tankers",
       "type": "route_disruption",
-      "context": "Day 44. Traffic declining: 11 → 5 → 6-7 ships Apr 8-10. Windward AI: ~3,200 vessels stranded (~800 tankers). Russian VLCC MT Arhimeda testing inbound to Kharg. IRGC mine map creates permanent escort requirement. War risk insurance 0.35-0.45% hull (down from peak but still 40-80% above pre-war). Kpler: max 10-15 safe passages/day.",
+      "context": "Day 47. War risk insurance SUSPENDED by major P&I clubs — commercial shipping effectively cannot transit. Blockade Day 1: 31 vessels/24hrs including some shadow fleet. Ostria and Rich Starry turned back. Elpis transited without interception. Lloyd's List: 'double-digit millions per trip' where coverage still available. US DFC offering $40B reinsurance facility but operational impact unclear.",
       "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 21,
+      "last_activated": "2026-04-14",
+      "activation_count": 22,
       "weight": 10
     },
     {
@@ -431,10 +467,10 @@
     {
       "to": "saudi-arabia",
       "type": "bypass_dependency",
-      "context": "Saudi Yanbu bypass at 4.2M bpd is only functioning Gulf export route. But ~40 VLCCs anchored outside Yanbu with 5-day waits, 64 ships en route — capacity crushed by diverted Hormuz traffic. Saudi bypass being overwhelmed.",
+      "context": "Day 47. Saudi East-West pipeline restored to full capacity ~7M bpd, diverting oil to Yanbu — critical Hormuz bypass. Pipeline restoration confirmed by Al Jazeera. Reduces blockade impact on total Gulf oil reaching market. Pakistan deployed 13,000 troops + fighter jets for Saudi security.",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 9,
+      "last_activated": "2026-04-14",
+      "activation_count": 10,
       "weight": 10
     }
   ],
@@ -460,7 +496,7 @@
         "united-states",
         "shipping-tankers"
       ],
-      "mechanism": "APPROACHING ACTIVATION: US escalated from mine clearing (April 11) to full naval blockade of Iranian ports (April 13, CENTCOM confirmed). Blockade applies to ALL maritime traffic to/from Iranian ports, enforced impartially. HOWEVER: a blockade of Iranian ports is NOT the same as a naval escort service for commercial vessels through Hormuz. This trigger requires commercial escorts, which haven't started. The blockade is offensive (preventing traffic TO Iran) while the trigger condition is defensive (escorting traffic THROUGH Hormuz). McNally still projects commercial escort operations possible by late April. Watching for: (1) safe corridor shared with maritime industry, (2) VLCC/commercial vessel escort announced, (3) IRGC response to blockade enforcement. Status remains WATCHING until commercial escorts begin.",
+      "mechanism": "APPROACHING ACTIVATION: US blockade operational since April 13. Day 1 results: deterrence working on shadow fleet (Ostria, Rich Starry turned back) but enforcement selective (Elpis transited without interception). UK-France announced separate multinational mission — 'strictly defensive,' could provide third pathway for commercial escorts. McNally still projects commercial escort operations possible by late April. HOWEVER: a blockade of Iranian ports is NOT the same as a naval escort service for commercial vessels. UK-France mission is the closest signal to an escort framework materializing. Watching for: (1) UK-France conference and coalition formation, (2) safe corridor shared with maritime industry, (3) VLCC/commercial vessel escort announced, (4) IRGC response to blockade enforcement. | UPDATE 2026-04-14: Status remains WATCHING — blockade is offensive (preventing traffic TO Iran), trigger requires defensive escorts (THROUGH Hormuz). UK-France initiative is new variable that could activate this trigger independently of US.",
       "added": "2026-03-23",
       "status": "watching"
     },

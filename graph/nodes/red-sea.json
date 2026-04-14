@@ -3,8 +3,8 @@
   "name": "Red Sea / Suez Canal",
   "type": "trade_route",
   "created": "2026-03-28",
-  "last_updated": "2026-04-13",
-  "summary": "Day 46. UKMTO reported armed boarding attempt April 12 off Hudaydah — NOT attributed to Houthis. Maersk structural return to Red Sea via MECL service continues. Houthi 'unity of fronts' statement issued but NO confirmed commercial shipping attacks (Day 46 of zero). Bifurcation holds: Houthis targeting Israel, not shipping. ~57 vessel transits/24hr at/near historical normal. Container freight FBX Asia-USWC ~$2,400/FEU (+40% since war start) still NOT declining — carrier rerouting schedules take 4-8 weeks to normalize. The armed boarding attempt bears monitoring but lack of Houthi attribution keeps the bifurcation thesis intact.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47. HOUTHI ATTACKS RESUMED ON BELLIGERENT-LINKED VESSELS — bifurcation intact but definition narrowed. April 7: British-owned Hope Island, Israeli MSC Grace F and MSC Gina, two US frigates attacked (CONFIRMED). April 9: Maersk Yorktown (US-flagged) targeted in Gulf of Aden. NEUTRAL commercial shipping untargeted — Maersk MECL (Danish-flagged) still through Suez. Bab el-Mandeb closure threatened but NOT enacted despite blockade meeting stated threshold. Container freight FBX Asia-USWC ~$2,400/FEU (+40% since war start). The resumed attacks target only vessels with US/UK/Israeli links — the bifurcation thesis holds for neutral shipping.",
   "signals": [
     {
       "date": "2026-03-28",
@@ -102,26 +102,32 @@
       "content": "UKMTO reported armed boarding attempt April 12 off Hudaydah — NOT attributed to Houthis. Maersk structural return to Red Sea continues. Houthi 'unity of fronts' statement issued but no confirmed Red Sea shipping attacks (Day 46 of zero). Armed boarding bears monitoring but lack of Houthi attribution keeps bifurcation thesis intact.",
       "sources": ["UKMTO", "SupplyChainBrain"],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "HOUTHI ATTACKS ON BELLIGERENT-LINKED VESSELS RESUMED IN RED SEA/GULF OF ADEN [CONFIRMED]. April 7: Houthis attacked British-owned Hope Island, Israeli-owned MSC Grace F and MSC Gina, and two US frigates. April 9: Maersk Yorktown (US-flagged) targeted in Gulf of Aden. Bifurcation INTACT for neutral shipping — attacks ONLY on US/UK/Israeli-linked vessels. Maersk MECL (Danish-flagged) still transiting Suez. Bab el-Mandeb closure threatened but NOT enacted despite US blockade meeting stated escalation threshold. Stimson Center: decision 'ultimately set in Tehran.' (Sources: Wikipedia Red Sea crisis, UN SC Resolution 2812, Time, JPost, Stimson Center)",
+      "sources": ["Wikipedia Red Sea crisis", "UN SC Res 2812", "Time", "JPost", "Stimson Center"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "houthis",
       "type": "threat_zone",
-      "context": "Houthis control Yemen's Red Sea coastline and have demonstrated capability to attack shipping (2024-25 campaign). Currently in the war but haven't attacked shipping yet.",
+      "context": "Houthi attacks on belligerent-linked vessels resumed April 7 and 9. Neutral shipping untargeted. Bab el-Mandeb closure threatened but not enacted. Bifurcation narrowed to US/UK/Israeli targets only.",
       "directness": 1,
-      "last_activated": "2026-03-28",
-      "activation_count": 5,
-      "weight": 7.0
+      "last_activated": "2026-04-14",
+      "activation_count": 6,
+      "weight": 8.4
     },
     {
       "to": "shipping-tankers",
       "type": "transit_route",
-      "context": "~12% of global trade transits Red Sea/Suez. If Houthis attack shipping, route diversions to Cape of Good Hope add 10-14 days and massive cost.",
+      "context": "Houthi attacks resumed on belligerent-linked vessels. Neutral shipping still transiting. War risk for US/UK/Israeli vessels elevated. ~12% of global trade transits Red Sea/Suez.",
       "directness": 1,
-      "last_activated": "2026-03-28",
-      "activation_count": 4,
-      "weight": 6.5
+      "last_activated": "2026-04-14",
+      "activation_count": 5,
+      "weight": 7.5
     },
     {
       "to": "strait-of-hormuz",

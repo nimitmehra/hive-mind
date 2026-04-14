@@ -3,8 +3,8 @@
   "name": "Saudi Arabia",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-12",
-  "summary": "Day 45. Saudi finance minister traveled to Islamabad showing economic support for talks framework. Saudi/Chinese/Egyptian/Qatari officials present as indirect facilitators — positioning for a seat at the table for Hormuz resolution. Aramco damage persists: 600K bpd production lost, SATORP shut, record $19.50 OSP premium. Saudi scholar Alghannam expressed Gulf's core fear: 'quiet but palpable concern that Trump could tolerate some Iranian leverage over the strait in exchange for a fragile truce.' Talks failed — Saudi investment in Islamabad framework did not produce results.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47. East-West pipeline restored to full capacity ~7M bpd to Yanbu (CONFIRMED) — critical Hormuz workaround. Pakistan sent 13,000 troops + fighter jets as security commitment (CONFIRMED). Named as one of 5 Arab states Iran demands reparations from (REPORTED). Aramco damage persists: 600K bpd production lost, SATORP shut, record $19.50 OSP premium. Tadawul +3.8% 1M, +4.9% 3M — oil windfall pricing. Pipeline restoration + Pakistan troop deployment strengthen Saudi's position as the only Gulf producer with a functioning alternative export route.",
   "signals": [
     {
       "date": "2026-03-01",
@@ -190,6 +190,12 @@
       "content": "Saudi finance minister traveled to Islamabad showing economic support for the talks framework. Chinese, Egyptian, Saudi, and Qatari officials were present to 'indirectly facilitate talks' (Arab News). Their presence transforms the bilateral US-Iran talks into something closer to a multilateral framework — these are the nations most affected by Hormuz closure and most invested in resolution. Saudi scholar Hesham Alghannam expressed the Gulf's core fear: 'quiet but palpable concern that President Trump, eager for a quick political victory, could tolerate some Iranian leverage over the strait in exchange for a fragile truce, prioritising optics over Gulf realities.' Talks failed after 21 hours — Saudi investment in the Islamabad framework did not produce results, but regional stakeholder presence suggests the next round (if it occurs) may involve them more formally.",
       "sources": ["Arab News", "CBS News", "Al Jazeera"],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "EAST-WEST PIPELINE RESTORED TO FULL CAPACITY ~7M BPD TO YANBU [CONFIRMED]. Saudi Arabia's critical Hormuz workaround — the East-West oil pipeline — has been restored to full capacity, diverting crude to the Red Sea port of Yanbu. Additionally, Pakistan has sent 13,000 troops and fighter jets to Saudi Arabia as a post-ceasefire security commitment (source: Al Jazeera April 12, CS Monitor April 1). Saudi Arabia named as one of 5 Arab states from which Iran is demanding reparations for facilitating US-Israeli strikes — an escalatory diplomatic action directed at regional neighbors (source: Middle East Eye, The National, April 13-14). Pipeline restoration + Pakistan troop deployment significantly strengthen Saudi's position as the only Gulf producer with a functioning alternative export route through this crisis.",
+      "sources": ["Al Jazeera", "CS Monitor", "Middle East Eye", "The National"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -214,11 +220,11 @@
     {
       "to": "strait-of-hormuz",
       "type": "bypass_infrastructure",
-      "context": "East-West pipeline to Yanbu bypasses Hormuz for Saudi oil. Critical alternative export route.",
+      "context": "East-West pipeline restored to FULL capacity ~7M bpd to Yanbu (CONFIRMED April 14). Pakistan 13,000 troops + fighter jets providing security. Critical Hormuz workaround — only functioning alternative export route.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 8,
-      "weight": 8.0
+      "last_activated": "2026-04-14",
+      "activation_count": 9,
+      "weight": 9.0
     },
     {
       "to": "iran",

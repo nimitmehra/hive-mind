@@ -3,8 +3,8 @@
   "name": "Masoud Pezeshkian",
   "type": "person",
   "created": "2026-04-11",
-  "last_updated": "2026-04-11",
-  "summary": "Day 44 / Ceasefire Day 4. Iranian President. CIVILIAN HEAD OF STATE IN COMPLETE POLITICAL DEADLOCK WITH IRGC. Warned of 'total collapse within three weeks to one month' without a ceasefire. (REPORTED via Iran International + NewsX single-source cluster): IRGC chief Ahmad Vahidi has blocked ALL of Pezeshkian's nominees for intelligence minister, accused Vahidi and Abdollahi of 'acting unilaterally and driving escalation,' warned those policies 'had destroyed any remaining chance of a ceasefire.' Pezeshkian's 'repeated requests' for meetings with Mojtaba Khamenei have 'all gone unanswered' — a security cordon around Mojtaba prevents government reports from reaching him. Was SILENT on April 7 deadline day — consistent with sidelining. The civilian-IRGC rift is the structural intelligence signal underlying the IRNA-Tasnim media divergence and raises THE critical question for Islamabad: does Ghalibaf's delegation have authority to commit Iran? Pezeshkian is the counterweight to the mojtaba-khamenei node — together they bracket the Iranian civilian/military leadership dyad.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47. KEPT EUROPEAN DIPLOMATIC CHANNEL ALIVE. Told Macron Iran will negotiate 'within framework of international law' (CONFIRMED statement — source: PressTV, Middle East Eye, Barron's/AFP). Domestic messaging: 'national resistance shattered enemy dream of collapse' (IRNA). The civilian-IRGC rift persists as structural intelligence signal. Multi-vocal Iranian response (Pezeshkian-Macron, IRGC threats, Ghalibaf defiance, Velayati Hormuz claims) may reflect absence of single authoritative voice (Mojtaba wounded) or deliberate multi-track strategy. Pezeshkian's European engagement via PressTV English service — aimed at European audiences, not domestic — represents the diplomatic track that survives despite IRGC power grab.",
   "signals": [
     {
       "date": "2026-03-16",
@@ -85,16 +85,22 @@
         "Soufan Center"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Pezeshkian told French President Macron Iran will negotiate 'within framework of international law' — keeping the European diplomatic channel alive (CONFIRMED statement — source: PressTV, Middle East Eye, Barron's/AFP). Domestic messaging: 'national resistance shattered enemy dream of collapse' (source: IRNA). PressTV English service led with Pezeshkian's Macron call and international law framing — aimed at European audiences, not domestic. The shift from unified 'US overreach' framing to differentiated multi-track response: IRGC threats (Tasnim), diplomatic signaling (IRNA), European engagement (PressTV/Pezeshkian). This differentiation may reflect absence of Mojtaba Khamenei's unified direction (wounded/incapacitated) or deliberate multi-track strategy.",
+      "sources": ["PressTV", "Middle East Eye", "Barron's/AFP", "IRNA"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "civilian_executive",
-      "context": "President of the Islamic Republic but sidelined from executive authority by IRGC. Civilian track sending peace signals (EU 'necessary will,' open letter to American people) while IRGC blocks appointments and controls information flow. Formal head of state; operational authority contested.",
+      "context": "Day 47. Told Macron Iran will negotiate 'within framework of international law.' Keeping European diplomatic channel alive. Multi-vocal response may reflect Mojtaba incapacity or deliberate strategy. Civilian track sending peace signals while IRGC controls executive authority.",
       "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 8,
+      "last_activated": "2026-04-14",
+      "activation_count": 9,
       "weight": 9.0
     },
     {

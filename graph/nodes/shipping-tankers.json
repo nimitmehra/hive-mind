@@ -3,8 +3,8 @@
   "name": "Shipping / Tanker Rates",
   "type": "sector",
   "created": "2026-03-23",
-  "last_updated": "2026-04-13",
-  "summary": "Day 46. BLOCKADE FUNDAMENTALLY CHANGES SHIPPING DYNAMICS. VLCC rates ~$151K/day (down from $423K peak but still 3-4x pre-crisis). Over 150 tankers anchored outside Hormuz. Only ~3% of pre-war traffic transiting. War risk insurance expected to re-spike from ceasefire rates (0.35-0.45%) toward 1.5-3% on Islamabad failure. Container freight: Asia-USWC +11% WoW to ~$2,400/FEU. BELLWETHER: Maersk structural return to Red Sea via MECL service — first top-5 carrier to re-enter since 2023. Islamabad talks failure means diplomatic path to Hormuz reopening weakened; physical disruption persists.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47 / Blockade Day 1. 31 VESSELS IN 24 HOURS vs 80-100 normal. Blockade operating primarily through deterrence — sanctioned tanker M/T Elpis transited (credibility test), M/T Ostria and Rich Starry turned back. Over 150 tankers anchored outside strait. WAR RISK INSURANCE SUSPENDED by major P&I clubs — not just raised premiums, STOPPED offering. Lloyd's List: 'double-digit millions per trip.' Premiums 2.5-5% hull value. This is the operational bottleneck — no insurance = no commercial shipping regardless of military situation. Frontline +13.2% 1M, +37.7% 3M. VLCC TD3C ~$55,010/day. BOAT ETF +7.1% 1M.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -295,22 +295,28 @@
       "content": "Blockade fundamentally reshaping shipping dynamics. VLCC rates ~$151K/day (down from $423K peak, still 3-4x pre-crisis). Over 150 tankers anchored outside Hormuz. Only ~3% of pre-war traffic transiting. War risk insurance expected to re-spike from ceasefire rates (0.35-0.45%) toward 1.5-3% on Islamabad failure. Container freight: Asia-USWC +11% WoW to ~$2,400/FEU. Maersk structural return to Red Sea via MECL service — first top-5 carrier re-entry since 2023.",
       "sources": ["Kpler", "S&P Global", "Freightos", "SupplyChainBrain"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "BLOCKADE DAY 1 OPERATIONAL DATA [CONFIRMED]. 31 vessels transited Hormuz in 24 hours with 6 carrying cargo — a fraction of normal ~80-100/day but marginally higher than near-zero expected. Comoros-registered sanctioned tanker M/T Elpis (Iran shadow fleet) successfully transited AFTER blockade took effect — US Navy did NOT intercept, testing blockade credibility. M/T Ostria (Botswana-flagged, landlocked = false registry) changed destination 41 min after deadline. M/T Rich Starry (Malawi-flagged, also landlocked) reversed course off Qeshm Island. Over 150 tankers anchored outside strait (source: Bloomberg, CBS News, MarineTraffic, Fortune). WAR RISK INSURANCE SUSPENDED by major P&I clubs — not just raised premiums, STOPPED offering coverage entirely. Lloyd's List reports 'double-digit millions per trip' where available. Premiums at 2.5-5% of hull value ($100M ship = $2.5-5M per transit). Blockade re-spiked premiums above pre-ceasefire levels. Kennedys Law: 'reshaped marine insurance risk landscape' (source: Lloyd's List, CNBC, Kennedys Law, Caixin). Frontline +13.2% 1M, +37.7% 3M. VLCC TD3C ~$55,010/day. BOAT ETF +7.1% 1M.",
+      "sources": ["Bloomberg", "CBS News", "MarineTraffic", "Fortune", "Lloyd's List", "CNBC", "Kennedys Law", "Caixin"],
+      "significance": "high"
     }
   ],
   "current": {
-    "price": "VLCC: ~$45,941/day; Frontline $34.34; BOAT ETF $40.93",
-    "delta_1d": "Frontline -1.4%; BOAT -1.8%",
-    "delta_1m": "Frontline +5.8%; BOAT +2.0%",
-    "delta_3m": "Frontline +40.8%; BOAT +22.5%"
+    "price": "VLCC: ~$55,010/day; Frontline $34.84; BOAT ETF $41.31",
+    "delta_1d": "Frontline +1.5%; BOAT +0.9%",
+    "delta_1m": "Frontline +13.2%; BOAT +7.1%",
+    "delta_3m": "Frontline +37.7%; BOAT +22.6%"
   },
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "route_dependency",
-      "context": "479 vessels stranded near Hormuz. Only 3-4 ships transited Apr 8-9. War risk insurance dipped to 0.35-0.45% but remains 7-10x pre-war. Physical restoration takes months even on holding ceasefire.",
+      "context": "Blockade Day 1: 31 vessels in 24 hours vs 80-100 normal. Over 150 tankers anchored outside strait. War risk insurance SUSPENDED by major P&I clubs. Elpis transit tests blockade credibility. Physical bottleneck intensified.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 20,
+      "last_activated": "2026-04-14",
+      "activation_count": 21,
       "weight": 10
     },
     {

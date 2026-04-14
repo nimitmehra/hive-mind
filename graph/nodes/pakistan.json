@@ -3,8 +3,8 @@
   "name": "Pakistan",
   "type": "country",
   "created": "2026-03-30",
-  "last_updated": "2026-04-12",
-  "summary": "Day 45 / Ceasefire Day 5. ISLAMABAD TALKS FAILED — 21 HOURS, NO DEAL. The most significant diplomatic event Pakistan has hosted since the 1999 Lahore Declaration ended without agreement. Format evolved from proximity talks to trilateral face-to-face — the first US-Iran principals in the same room since 1979. PM Shehbaz Sharif met VP Vance and Speaker Ghalibaf separately. FM Ishaq Dar called the 21-hour session 'intense and constructive' and urged both sides to maintain the ceasefire. Vance departed with 'final and best offer.' Despite the no-deal outcome, Pakistan's mediator role is validated: Wilson Center's Kugelman said Pakistan 'defied the skeptics.' Saudi/Chinese/Egyptian/Qatari officials were present as indirect facilitators, but Pakistan ran the process. Three paths forward per Kugelman: low-level technical discussions, future summits possibly in Muscat or Doha, or 'maximum pressure' period before next round. No second round scheduled. 10 ceasefire days remain.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47. SENT 13,000 TROOPS + FIGHTER JETS TO SAUDI ARABIA (CONFIRMED) — significant security commitment post-ceasefire. Facilitating potential Thursday (April 16) talks via 'Islamabad Process' — AP reports another round could be held with Pakistan, Turkey, Egypt facilitating. Two venues under consideration. This is the closest signal to renewed diplomacy after 21-hour Islamabad failure. Pakistan's dual role: mediator AND military partner (Saudi troop deployment). Despite Islamabad talks failure, mediator role validated — Wilson Center's Kugelman: 'defied the skeptics.' 8 ceasefire days remain.",
   "signals": [
     {
       "date": "2026-03-26",
@@ -163,6 +163,12 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Pakistan sent 13,000 troops and fighter jets to Saudi Arabia as a post-ceasefire security commitment (CONFIRMED — source: Al Jazeera April 12, CS Monitor April 1). Facilitating potential Thursday April 16 talks via the 'Islamabad Process' — AP reports via Middle East Eye and NDTV that another round could be held 'as early as Thursday,' with Pakistan, Turkey, and Egypt facilitating. Two venues under consideration. This is the closest signal to renewed diplomacy after Islamabad failure but comes from mediators and unnamed officials, not confirmed by either principal (source: AP via Middle East Eye, NDTV April 14). Pakistan's dual role now explicit: mediator for US-Iran diplomacy AND military partner providing security to Saudi Arabia.",
+      "sources": ["Al Jazeera", "CS Monitor", "AP via Middle East Eye", "NDTV"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -186,12 +192,12 @@
     },
     {
       "to": "saudi-arabia",
-      "type": "diplomatic_coordination",
-      "context": "Saudi FM attended Islamabad quad. Saudi-Pakistan coordination on de-escalation. Both directly affected by Iranian strikes.",
+      "type": "security_partnership",
+      "context": "Pakistan sent 13,000 troops + fighter jets to Saudi Arabia (CONFIRMED). Saudi FM attended Islamabad quad. Upgraded from diplomatic coordination to active military partnership.",
       "directness": 1,
-      "last_activated": "2026-03-30",
-      "activation_count": 2,
-      "weight": 5.0
+      "last_activated": "2026-04-14",
+      "activation_count": 3,
+      "weight": 9.0
     },
     {
       "to": "brent-crude",

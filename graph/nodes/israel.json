@@ -3,8 +3,8 @@
   "name": "Israel",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-13",
-  "summary": "Day 46. IDF raided Bint Jbeil hospital (killed ~20 Hezbollah fighters), cut roads, used white phosphorus. Two IDF soldiers wounded April 13. IDF Chief Zamir ordered 'heightened state of readiness' after Islamabad talks failure. Israel-Lebanon ambassador-level talks still on for Tuesday. Haaretz: 'Trump considering limited strikes on Iran.' Military tempo continues unabated — Lebanon operations intensifying while diplomatic track at State Dept proceeds in parallel.",
+  "last_updated": "2026-04-14",
+  "summary": "Day 47. Israel-Lebanon ambassador-level talks confirmed April 15 at State Department — Netanyahu's priority: disarming Hezbollah (non-starter). Explicitly refused to discuss ceasefire with Hezbollah. IDF near-completion of Bint Jbeil capture, five divisions deployed. 2,055 Lebanese killed, 6,588 wounded, 1.2M displaced since March 2. Israeli media preparing public for resumed hostilities. Fundamental disagreement with Lebanon on talks agenda — Israel says formal peace negotiations, Lebanon says declaring ceasefire. Hezbollah's explicit rejection creates structural impossibility for any binding deal.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -354,6 +354,12 @@
       "content": "IDF raided Bint Jbeil hospital — killed ~20 Hezbollah fighters. Cut roads in southern Lebanon, used white phosphorus. Two IDF soldiers wounded April 13. IDF Chief Zamir ordered 'heightened state of readiness' after Islamabad talks failure. Israel-Lebanon ambassador-level talks still on for Tuesday at State Dept. Haaretz: 'Trump considering limited strikes on Iran' — if confirmed, major escalation of US direct involvement.",
       "sources": ["Haaretz", "Al Jazeera", "Times of Israel"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-14",
+      "content": "Israel-Lebanon ambassador-level talks confirmed for April 15 at State Department — Israeli Ambassador Yechiel Leiter, Lebanese Ambassador Nada Hamadeh Moawad, US Ambassador to Lebanon Michel Issa leading. Fundamental disagreement on agenda: Lebanon says about declaring ceasefire; Israel says 'formal peace negotiations.' Netanyahu's top priority: disarming Hezbollah — a non-starter. Israel explicitly refused to discuss ceasefire with Hezbollah (source: Times of Israel, Al Jazeera, Washington Post, Haaretz). On the ground: IDF near-completion of Bint Jbeil capture, five divisions deployed, 2,055 Lebanese killed, 6,588 wounded, 1.2M displaced since March 2. Hezbollah deploying FPV drones from Ukraine-war tactics. Israeli media preparing public for resumed hostilities rather than resolution.",
+      "sources": ["Times of Israel", "Al Jazeera", "Washington Post", "Haaretz", "CGTN", "JPost"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -378,19 +384,19 @@
     {
       "to": "lebanon",
       "type": "ground_war",
-      "context": "Day 44. Nabatieh strike killed 13 Lebanese State Security at government building — targeting expanded from Hezbollah to Lebanese government forces. Continued strikes Aita al-Shaab, al-Majadel, Hanine. HRW: strikes killed hundreds, vital bridge damaged. IDF halted 10km south of Litani, 'not planning to advance deeper.' IDF 'stretched to breaking point' (Haaretz).",
+      "context": "Day 47. Talks confirmed April 15 at State Dept. Fundamental disagreement on agenda. IDF near-completion Bint Jbeil capture. 2,055 killed, 6,588 wounded, 1.2M displaced. Hezbollah rejection creates structural impossibility for binding deal.",
       "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 17,
-      "weight": 9.0
+      "last_activated": "2026-04-14",
+      "activation_count": 18,
+      "weight": 10.0
     },
     {
       "to": "hezbollah",
       "type": "active_conflict",
-      "context": "Day 44. Escalation both sides. Israel: Nabatieh 13 State Security killed. Hezbollah: 100+ rockets since ceasefire, 70 on April 10, struck Ashdod Naval Base (200km — strategic depth). Haaretz: IDF assesses Hezbollah maintains 'solid military hold,' IDF 'stretched to breaking point.' Operational tempo dramatically increased on both sides.",
+      "context": "Day 47. Hezbollah rejected April 15 talks as 'futile.' IDF near-completion Bint Jbeil, 5 divisions deployed. Hezbollah FPV drones causing tactical strain. Netanyahu's disarmament demand is a non-starter. Israeli media preparing public for resumed hostilities.",
       "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 18,
+      "last_activated": "2026-04-14",
+      "activation_count": 19,
       "weight": 10.0
     },
     {
