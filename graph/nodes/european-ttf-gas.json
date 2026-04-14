@@ -4,7 +4,7 @@
   "type": "commodity",
   "created": "2026-03-28",
   "last_updated": "2026-04-14",
-  "summary": "~EUR47.14/MWh — spiked +7.1% on April 13 blockade day. Goldman raised H1 forecast. European storage at 30% (5-year low) — concerning but not crisis-level. Summer refill season starts May 1. Still +51% above pre-war ~EUR31. No European energy emergency measures yet (absence signal). Decoupling from US gas confirmed: Henry Hub at $2.61 (-16.6% 1M). TTF keyed to Hormuz operational status, not headline announcements. Ras Laffan recovery delayed to August 2026. Container freight (FBX Asia-USWC) ~$2,400/FEU (+40% since pre-war) adding to LNG shipping costs.",
+  "summary": "~EUR47.14/MWh — spiked +7.1% on April 13 blockade day. Goldman raised H1 forecast. EU gas storage at 28.8% full (net injection 614 GWh/d over April 1-7) — LOWEST entering gas summer since 2022. EU mandate requires 90% by October-December. Germany 30.2%, France 29%, Netherlands 23.5% — all below historical norms. Summer refill season starts May 1. Still +51% above pre-war ~EUR31. No European energy emergency measures yet (absence signal). Decoupling from US gas confirmed: Henry Hub at $2.61 (-16.6% 1M). TTF keyed to Hormuz operational status, not headline announcements. Ras Laffan recovery delayed to August 2026. Container freight (FBX Asia-USWC) ~$2,400/FEU (+40% since pre-war) adding to LNG shipping costs.",
   "current": {
     "price": "~EUR47.14/MWh",
     "delta_1d": "+7.1% (Apr 13 blockade spike)",
@@ -161,8 +161,8 @@
     },
     {
       "date": "2026-04-14",
-      "content": "TTF SPIKED +7.1% to ~EUR47.14/MWh on April 13 blockade day — reversed the ceasefire-driven easing. US naval blockade of Iranian ports re-raised Hormuz transit risk and LNG supply concerns. Goldman raised H1 forecast. European storage at 30% (5-year low) heading into summer refill season (May 1 start) — concerning but NOT yet crisis-level. No European energy emergency measures enacted (absence signal E5 from intel.md). The TTF-Hormuz linkage confirmed again: TTF responds to operational Hormuz status, not political headlines. The blockade adds a new layer of uncertainty: even with ceasefire, US naval operations in the Strait create de facto transit disruption via insurance suspension (major P&I clubs suspended Gulf coverage). Container freight (FBX Asia-USWC) at ~$2,400/FEU (+40% since pre-war) reflects broader shipping cost inflation. BASF +18.0% 1M despite TTF volatility — European chemical sector decoupling from daily TTF moves as restructuring/pricing power kicks in. The EUR100/MWh trigger remains distant at EUR47.14 (needs to more than double). (Sources: markets.md Section A & F, ICE Endex via OilPriceAPI, Goldman Sachs)",
-      "sources": ["markets.md", "ICE Endex via OilPriceAPI", "Goldman Sachs"],
+      "content": "TTF SPIKED +7.1% to ~EUR47.14/MWh on April 13 blockade day — reversed the ceasefire-driven easing. US naval blockade of Iranian ports re-raised Hormuz transit risk and LNG supply concerns. Goldman raised H1 forecast. European storage at 30% (5-year low) heading into summer refill season (May 1 start) — concerning but NOT yet crisis-level. No European energy emergency measures enacted (absence signal E5 from intel.md). EVENING DETAIL: EU gas storage at 28.8% full (net injection 614 GWh/d over April 1-7) — lowest entering gas summer since 2022. EU mandate requires 90% by October-December. Germany 30.2%, France 29%, Netherlands 23.5% — all below historical norms. Summer refill season begins May 1. With Ras Laffan offline since early March, Europe's primary concern: whether alternative LNG supplies (US, Australia, Algeria) can fill gap before winter. Goldman raised H1 TTF forecast. If TTF spikes to EUR 55-60+ on blockade escalation, triggers energy emergency measures that ripple into fertilizer costs (gas→ammonia→urea→India food security). The TTF-Hormuz linkage confirmed again: TTF responds to operational Hormuz status, not political headlines. The blockade adds a new layer of uncertainty: even with ceasefire, US naval operations in the Strait create de facto transit disruption via insurance suspension (major P&I clubs suspended Gulf coverage). Container freight (FBX Asia-USWC) at ~$2,400/FEU (+40% since pre-war) reflects broader shipping cost inflation. BASF +18.0% 1M despite TTF volatility — European chemical sector decoupling from daily TTF moves as restructuring/pricing power kicks in. The EUR100/MWh trigger remains distant at EUR47.14 (needs to more than double). (Sources: markets.md Section A & F, ICE Endex via OilPriceAPI, Goldman Sachs, ABN AMRO, TradingEconomics, Euronews, OilPriceAPI)",
+      "sources": ["markets.md", "ICE Endex via OilPriceAPI", "Goldman Sachs", "ABN AMRO", "TradingEconomics", "Euronews", "OilPriceAPI"],
       "significance": "high"
     }
   ],
@@ -180,7 +180,7 @@
     {
       "to": "qatar",
       "type": "supply_dependency",
-      "context": "Qatar is the world's largest LNG exporter. Ras Laffan damage (recovery delayed to August 2026) and Hormuz disruption (US blockade + war risk insurance SUSPENDED) directly reduce European gas supply.",
+      "context": "Qatar is the world's largest LNG exporter. Ras Laffan damage (recovery delayed to August 2026) and Hormuz disruption (US blockade + war risk insurance at prohibitive prices) directly reduce European gas supply.",
       "directness": 1,
       "last_activated": "2026-04-14",
       "activation_count": 9,

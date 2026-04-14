@@ -4,11 +4,11 @@
   "type": "institution",
   "created": "2026-04-08",
   "last_updated": "2026-04-14",
-  "summary": "Day 47 / Blockade Day 1. MAJOR P&I CLUBS SUSPENDED GULF COVERAGE ENTIRELY — not just raised premiums, STOPPED offering. This is the most significant operational development: no insurance = no commercial shipping regardless of military situation. Lloyd's List: 'double-digit millions per trip' where coverage still available. Premiums 2.5-5% of hull value ($100M ship = $2.5-5M per transit). Blockade re-spiked premiums ABOVE pre-ceasefire levels — ceasefire-era 0.35-0.45% estimate now obsolete. Kennedys Law: 'reshaped marine insurance risk landscape.' US DFC $40B reinsurance facility attempting to fill gap. This is the operational bottleneck underneath the 'deal hope' narrative — even if a deal is announced, insurance markets won't normalize for weeks to months.",
+  "summary": "Day 47 / Blockade Day 1. GULF COVERAGE AVAILABLE BUT AT PROHIBITIVE PRICES — EVENING CORRECTION overrides morning brief. Lloyd's List clarifies P&I clubs have NOT cancelled war risk cover; coverage IS available but at 2.5-5% of hull value ($10-14M per VLCC trip). LMA: 88% of Lloyd's marine war market participants 'continue to have appetite to underwrite.' The constraint is PRICE not AVAILABILITY — a de facto barrier for most commercial operators even though the market exists. Blockade re-spiked premiums ABOVE pre-ceasefire levels — ceasefire-era 0.35-0.45% estimate now obsolete. Kennedys Law: 'reshaped marine insurance risk landscape.' US DFC $40B reinsurance facility attempting to fill gap. Recovery timeline is shorter than previously assessed: since insurers have capacity, a diplomatic breakthrough could normalize premiums in weeks (not months as originally stated for a full suspension). The operational bottleneck is real but the mechanism is price-based deterrence, not a hard coverage withdrawal.",
   "current": {
     "cover_pre_crisis": "$25K/year per vessel",
-    "cover_current": "SUSPENDED by major P&I clubs. Where available: 2.5-5% hull value per voyage. Double-digit millions per trip.",
-    "multiplier_vs_pre_crisis": "Effectively infinite (coverage suspended). Where available: ~100-200x pre-war."
+    "cover_current": "Available but prohibitive: 2.5-5% hull value per voyage ($10-14M per VLCC trip). De facto barrier for most commercial operators — LMA confirms 88% of Lloyd's war market has appetite to underwrite.",
+    "multiplier_vs_pre_crisis": "100-200x pre-war (2.5-5% vs pre-crisis 0.025%). Recovery timeline: weeks (capacity exists, diplomatic breakthrough could normalize premiums quickly) vs months (if coverage had been truly suspended)."
   },
   "signals": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "date": "2026-04-14",
-      "content": "MAJOR P&I CLUBS SUSPENDED GULF COVERAGE ENTIRELY — OPERATIONAL BLOCKADE [CONFIRMED]. Major P&I clubs have STOPPED offering war risk insurance for Gulf transits, not just raised premiums. Lloyd's List reports 'double-digit millions of dollars per trip' where coverage is still available. Premiums at 2.5-5% of hull value ($100M ship = $2.5-5M per transit). Some clubs suspended Gulf coverage entirely. The April 11 ceasefire-level estimate of 0.35-0.45% is now obsolete — the US naval blockade re-spiked premiums above pre-ceasefire levels. Kennedys Law reports the situation has 'reshaped marine insurance risk landscape.' US DFC $40B political risk reinsurance facility attempting to fill the gap but signals the private market views Gulf transit as uninsurable (source: Lloyd's List, CNBC, Kennedys Law, Caixin). This is arguably the most important operational indicator of the blockade's effectiveness: insurance suspension means no commercial shipping regardless of military situation or diplomatic progress. Even if a deal is announced, insurance markets require weeks to months to normalize.",
+      "content": "EVENING CORRECTION: P&I clubs have NOT cancelled war risk cover (Lloyd's List). Coverage available but at prohibitive prices — $10-14M per VLCC transit, 2.5-5% hull value. LMA: 88% of Lloyd's war market has appetite to underwrite. The constraint is PRICE not AVAILABILITY. A diplomatic breakthrough could normalize premiums in weeks (insurers have capacity) vs months (if coverage had been actually suspended). De facto barrier for most commercial operators even though market exists. US DFC $40B political risk reinsurance facility attempting to fill gap. MORNING BRIEF CORRECTION: earlier signal stated clubs 'STOPPED offering' — Lloyd's List clarifies this was an overstatement; capacity remains but at commercially prohibitive levels that achieve the same de facto blockade through price deterrence rather than hard coverage withdrawal. The April 11 ceasefire-level estimate of 0.35-0.45% is now obsolete — the US naval blockade re-spiked premiums above pre-ceasefire levels. Kennedys Law: 'reshaped marine insurance risk landscape.' (Sources: Lloyd's List, CNBC, Kennedys Law, Caixin — April 14 evening)",
       "sources": ["Lloyd's List", "CNBC", "Kennedys Law", "Caixin"],
       "significance": "high"
     }
@@ -74,7 +74,7 @@
     {
       "to": "strait-of-hormuz",
       "type": "operational_chokepoint",
-      "context": "Major P&I clubs SUSPENDED Gulf coverage entirely. Blockade re-spiked premiums above pre-ceasefire levels. Insurance suspension = no commercial shipping regardless of military situation. The binding operational constraint.",
+      "context": "EVENING CORRECTION: P&I clubs have NOT cancelled war risk cover — coverage available but at prohibitive prices (2.5-5% hull value, $10-14M per VLCC). Blockade re-spiked premiums above pre-ceasefire levels. LMA: 88% still underwriting. Price-based deterrence = de facto barrier for most commercial operators. Recovery timeline weeks (not months) if diplomatic breakthrough occurs.",
       "directness": 1,
       "last_activated": "2026-04-14",
       "activation_count": 6,
@@ -83,7 +83,7 @@
     {
       "to": "shipping-tankers",
       "type": "cost_structure",
-      "context": "Coverage SUSPENDED by major P&I clubs. Where available: 2.5-5% hull value ($2.5-5M per $100M ship). 150+ tankers anchored outside Hormuz. Insurance is the operational bottleneck — no coverage = no transit.",
+      "context": "EVENING CORRECTION: Coverage available but at prohibitive prices — 2.5-5% hull value ($10-14M per VLCC). LMA: 88% of Lloyd's war market still underwriting. 150+ tankers anchored outside Hormuz. Insurance is the operational bottleneck via price deterrence, not hard coverage withdrawal.",
       "directness": 1,
       "last_activated": "2026-04-14",
       "activation_count": 5,
@@ -92,7 +92,7 @@
     {
       "to": "brent-crude",
       "type": "supply_constraint",
-      "context": "Insurance suspension intensifies physical-futures gap: Dated Brent $120+ vs futures $98 = $22 gap. Blockade re-spiked premiums above pre-ceasefire. Physical flow restoration impossible without insurance normalization.",
+      "context": "Insurance at prohibitive prices intensifies physical-futures gap: Dated Brent $120+ vs futures $98 = $22 gap. Blockade re-spiked premiums above pre-ceasefire. Physical flow requires insurance normalization — but since capacity exists (not truly suspended), a diplomatic breakthrough could normalize in weeks rather than months.",
       "directness": 2,
       "last_activated": "2026-04-14",
       "activation_count": 4,
