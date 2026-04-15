@@ -3,13 +3,13 @@
   "name": "INR/USD Exchange Rate",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
-  "summary": "Rs93.03 (-1.6% strengthening, offshore evening). INR strengthened further through the session from Rs93.28 morning to Rs93.03 evening (offshore). DXY fell to 98.07 (below 99) providing additional room for INR appreciation through the day. NOP cap compliance complete (Malhotra confirmed). Forex reserves below $700B. FII CY2026 outflows Rs 1.79 lakh crore — FII flow flip STILL has not happened (strengthening is mechanical: oil/dollar, not structural: FII re-entry). Rs93.50 trigger NOT crossed; retreated further. 'Rs 100/USD by June' now credible per Outlook Money. Asia's worst-performing currency since 2025, down 5% in 2026.",
+  "last_updated": "2026-04-15",
+  "summary": "Rs93.24 (-1.8% strengthening). Strongest single-day move — driven mechanically by Brent below $100 (reducing oil import dollar demand) + DXY weakness (98.16, below 99). First ALIGNED Nifty-INR session since ceasefire day, breaking 4-session divergence. NOP cap compliance complete. BUT: NOT structural — no FII re-entry, forex reserves below $700B, FII CY2026 outflows Rs 1.79 lakh crore. Rs93.50 trigger retreated further. 'Rs 100/USD by June' credible stress scenario if blockade intensifies. TRIPLE SQUEEZE adds new risk: Russian oil waiver EXPIRED April 11, Iran waiver expires April 19 — both waivers lapsing removes India's ability to buy alternative crude without secondary sanctions risk.",
   "current": {
-    "price": "Rs93.03",
-    "delta_1d": "-1.6%",
-    "delta_1m": "+0.8%",
-    "delta_3m": "+3.3%"
+    "price": "Rs93.24",
+    "delta_1d": "-1.8% (strengthening)",
+    "delta_1m": "+1.0%",
+    "delta_3m": "+3.4%"
   },
   "price_snapshots": [
     {
@@ -244,13 +244,32 @@
     {
       "date": "2026-04-13",
       "content": "Rupee weakened to Rs93.31 (+0.9%) on US naval blockade announcement. Brent surging above $102 restores full import bill stress — India imports 85-90% of crude, every $10/bbl increase = ~$15B additional import bill. Fifth consecutive session of Nifty-INR divergence now MOOT as both fell together. FII CY2026 outflows Rs 1.71 lakh crore. Markets CLOSED Tuesday (Ambedkar Jayanti) — no forex adjustment for 48 hours. Rs95 trigger back on WATCH as blockade escalation threatens to re-open the path to record weakness. (Sources: market data, ANI, Business Standard)",
-      "sources": ["market data", "ANI", "Business Standard"],
+      "sources": [
+        "market data",
+        "ANI",
+        "Business Standard"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-14",
       "content": "INR strengthened to Rs93.28 (-1.3%, offshore/NDF) on April 14 morning as oil fell back below $100 on Trump's CLAIMED 'Iran reached out' statement (unverified by Iran). Was at Rs93.39 on April 13 close — closest approach to 93.50 trigger. EVENING: INR strengthened further to Rs93.03 (offshore) from Rs93.28 morning — dollar weakness through session (DXY 98.07, below 99) helped. If Thursday talks materialize and oil stays sub-$100, Nifty could open April 15 with +1-2% gap-up relief rally. BUT FII flow flip STILL has not happened (Rs 1.79 lakh crore CY2026 outflows). Strengthening is mechanical (oil/dollar), not structural (no FII re-entry). Indian markets closed (Ambedkar Jayanti) — no onshore forex adjustment. NOP cap compliance complete per Malhotra. Forex reserves below $700B (RBI lost $11B in one week ending March 20). Outlook Money (April 1) quoted analysts stating 'Rs 100/USD by June 2026 if war continues' — Equiti Group: '100 per dollar is no longer a tail risk, it is a credible stress scenario.' Asia's worst-performing currency since 2025, down 5% in 2026. (Sources: The Hindu, ET, Republic World, Outlook Money, market data)",
-      "sources": ["The Hindu", "ET", "Republic World", "Outlook Money", "market data"],
+      "sources": [
+        "The Hindu",
+        "ET",
+        "Republic World",
+        "Outlook Money",
+        "market data"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "INR strengthened to Rs93.24 (-1.8%) — strongest single-day move. Driven by: (1) Brent below $100 reducing dollar demand for oil purchases (~$15B per $10/bbl decrease), (2) DXY at 98.16 (below 99) providing broad EM currency tailwind (BRL +0.2%, KRW +0.4%, CNY +0.2%), (3) NOP cap compliance complete. First ALIGNED Nifty-INR session since ceasefire day (breaking 4-session divergence where Nifty rose while INR fell). BUT: strengthening is MECHANICAL (oil/dollar), NOT structural (no FII re-entry). Forex reserves below $700B. Rs93.50 trigger retreated further — NOT crossed. 'Rs 100/USD by June' remains credible stress scenario per Outlook Money if blockade intensifies. Asia's worst-performing currency since 2025, still down 5% in 2026. (Sources: TradingEconomics, yfinance, market data)",
+      "sources": [
+        "TradingEconomics",
+        "yfinance"
+      ],
       "significance": "high"
     }
   ],
@@ -260,36 +279,36 @@
       "type": "currency_impact",
       "context": "INR at Rs93.03 (offshore evening). Approached 93.50 trigger on April 13 (93.39), retreated to Rs93.03 by April 14 evening on dollar weakness (DXY 98.07). FII CY2026 outflows Rs 1.79 lakh crore. Forex reserves below $700B. NOP cap compliance complete. 'Rs 100/USD by June' now credible. Asia's worst currency 2025-26.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 21,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 22,
+      "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "cost_transmission",
       "context": "Brent at $97.98, back below $100 after blockade spike to $103+. Oil below $100 = lower import bill = less dollar demand = INR strengthening. Physical-futures gap $22 ($120 vs $98) means actual import costs higher than futures suggest.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 18,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 19,
+      "weight": 10
     },
     {
       "to": "rbi",
       "type": "intervention_target",
       "context": "NOP cap compliance complete (Malhotra confirmed). Forex reserves below $700B. INR at Rs93.03 (evening offshore) — strengthened through session on DXY 98.07. CPI 3.40% with imported inflation 6.49% complicates rate cut pathway.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 21,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 22,
+      "weight": 10
     },
     {
       "to": "nifty-50",
       "type": "fii_flow_driver",
       "context": "INR at Rs93.03 (evening offshore). FIIs sold Rs 48,213 cr in April's first 11 days. CY2026 total Rs 1.79 lakh crore. FII flow flip STILL not happened. Nifty 23,843 — rally remains DII-funded, not foreign re-entry.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 15,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 16,
+      "weight": 10
     }
   ],
   "trigger_points": [

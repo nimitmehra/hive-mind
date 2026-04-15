@@ -3,13 +3,13 @@
   "name": "Natural Gas / LNG",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
-  "summary": "HH $2.61/MMBtu (-0.6% 1D, -16.6% 1M). US domestic supply completely unaffected by Gulf crisis. TTF DECOUPLED from Henry Hub -- European crisis pricing vs US domestic abundance. Cheniere $261.60 (-1.5% 1D) but +31.3% 3M -- LNG export beneficiary thesis intact despite daily weakness. Ras Laffan recovery delayed to August 2026. EU storage at 30% (5-year low). Summer refill season starts May 1.",
+  "last_updated": "2026-04-15",
+  "summary": "HH $2.60/MMBtu (-14.2% 1M). US domestic gas completely unaffected by Gulf crisis. HH-TTF decoupling persists: HH declining on domestic fundamentals while TTF crashed -7.5% (largest single-day decline of crisis) to €42.95 on deal hopes. Asian LNG imports at 6-year low. European gas story driven by Gulf LNG supply risk premium — see european-ttf-gas node.",
   "current": {
-    "price": "$2.61/MMBtu (HH); ~EUR47.14/MWh (TTF)",
-    "delta_1d": "-0.6% (HH); +7.1% (TTF, Apr 13 blockade spike)",
-    "delta_1m": "-16.6% (HH); ~+15% (TTF)",
-    "delta_3m": "-16.3% (HH); +51% (TTF vs pre-war ~EUR31)"
+    "price": "$2.60/MMBtu (HH); ~€42.95/MWh (TTF)",
+    "delta_1d": "-0.2% (HH); -7.5% (TTF, LARGEST single-day decline of crisis)",
+    "delta_1m": "-14.2% (HH); ~+5% (TTF, easing from blockade spike)",
+    "delta_3m": "-17.0% (HH); +38% (TTF vs pre-war ~€31)"
   },
   "price_snapshots": [
     {
@@ -203,7 +203,19 @@
     {
       "date": "2026-04-14",
       "content": "Henry Hub at $2.61/MMBtu (-0.6% 1D, -16.6% 1M, -16.3% 3M) -- continued decline reflecting US domestic abundance unaffected by Gulf crisis. TTF spiked +7.1% on April 13 blockade day to ~EUR47.14/MWh but decoupling from HH persists. Cheniere $261.60 (-1.5% 1D) but +31.3% 3M -- LNG export beneficiary thesis intact; daily weakness is sector rotation not commodity fundamentals. The HH-TTF spread remains the structural arbitrage opportunity: US gas cheap ($2.61), European gas elevated (EUR47+), Cheniere captures the difference. Container freight (FBX Asia-USWC) at ~$2,400/FEU (+40% since pre-war) adds to LNG shipping costs. EU storage at 30% heading into summer refill (May 1) -- the structural vulnerability that keeps TTF elevated regardless of daily deal headlines. (Sources: markets.md, yfinance)",
-      "sources": ["markets.md", "yfinance"],
+      "sources": [
+        "markets.md",
+        "yfinance"
+      ],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "Henry Hub $2.60 (-0.2% 1D, -14.2% 1M). US domestic supply completely unaffected by Gulf crisis. HH-TTF decoupling persists and widening: HH at $2.60 while TTF crashed -7.5% to €42.95 (largest single-day decline of crisis). Asian LNG imports at 6-year low reducing global competition for supply. TTF decline reflects deal hopes removing LNG supply risk premium. Maersk structural return to Red Sea via MECL service. Natural gas is NOT a crisis-linked trade for the US — the European gas story is TTF-specific and covered under european-ttf-gas node. (Sources: yfinance, ICE Endex)",
+      "sources": [
+        "yfinance",
+        "ICE Endex"
+      ],
       "significance": "medium"
     }
   ],

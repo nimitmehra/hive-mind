@@ -3,8 +3,8 @@
   "name": "Federal Reserve",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
-  "summary": "Rate at 3.5-3.75%. STAGFLATION TRAP DEEPENING. Oil-driven CPI 3.3% with +0.9% monthly (biggest since June 2022) prevents cuts; ISM employment contracting prevents hikes. Hike probability >50% year-end (CME FedWatch, first time). FOMC March minutes: 'some' officials supporting hike language. Cleveland Fed: hike 'possible.' April 29 hold 98.4%. Bond-equity divergence PERSISTS and widening: S&P +1.0% erasing ALL war losses says 'deal coming,' US 10Y barely moved to 4.30% says 'not sure.' When they disagree, bonds usually right. DXY at 98.32 (below 99) -- dollar weakness providing mechanical support to gold (+1.1%), silver (+2.1%), and risk assets.",
+  "last_updated": "2026-04-15",
+  "summary": "Rate at 3.5-3.75%. STAGFLATION TRAP DEEPENING. March PPI relief (+0.5% vs 1.1% expected) but annual PPI 4.0% confirms cumulative damage — gasoline alone accounts for nearly half of headline PPI, making war-driven oil THE inflation transmission mechanism. FOMC March minutes: more officials supporting hike language. Hike probability >50% year-end (CME FedWatch, first time). Cleveland Fed: hike 'possible.' Goolsbee: may need to raise. PCE forecast raised to 2.7%. Bond-equity divergence WIDEST of war: S&P erased all war losses while 10Y barely moved to 4.26%. When they disagree, bonds usually right. DXY at 98.16 below 99.",
   "signals": [
     {
       "date": "2026-03-18",
@@ -169,13 +169,34 @@
     {
       "date": "2026-04-13",
       "content": "US March CPI 3.3% YoY with +0.9% monthly -- biggest monthly increase since June 2022. Cleveland Fed warned rate hike possible. NY Fed flagged energy pass-through risk. Market pricing: 52% probability of Fed HIKE by year-end (first time >50%). PCE expected to hit 3.5% by April on lagged oil pass-through. Islamabad failure means oil stays elevated -> rate cut expectations that powered the ceasefire equity rally are dead. Bond-equity divergence: bonds validated.",
-      "sources": ["BLS", "Cleveland Fed", "CME FedWatch", "CNBC"],
+      "sources": [
+        "BLS",
+        "Cleveland Fed",
+        "CME FedWatch",
+        "CNBC"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-14",
       "content": "Fed stagflation trap persists despite deal-hope market rally. S&P +1.0% to 6,886 erasing ALL war losses -- pricing 'blockade forces deal' narrative based on single unverified Trump claim that Iran 'reached out.' Bond market REFUSES TO COMMIT: 10Y barely moved to 4.30% (-2bps). Bond-equity divergence at its widest: equities pricing resolution, bonds pricing uncertainty. Silver/gold moves driven by rate expectations (silver +2.1% outperforming gold +1.1%), not safe-haven -- confirms monetary channel dominance. DXY at 98.32 (below 99) mechanically supports risk assets and precious metals. Hike probability still >50% year-end. The 'transitory' CPI narrative survives ONLY if oil stays below $100 -- blockade operational with 31 vessels/day vs 80-100 normal creates persistent supply disruption risk. (Sources: CME FedWatch, Bloomberg, CNBC, markets.md)",
-      "sources": ["CME FedWatch", "Bloomberg", "CNBC", "markets.md"],
+      "sources": [
+        "CME FedWatch",
+        "Bloomberg",
+        "CNBC",
+        "markets.md"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "Stagflation trap deepening. March PPI +0.5% vs 1.1% expected — GENUINE inflation relief. Core PPI +0.1% MoM remarkably subdued. But annual PPI 4.0% (highest since Feb 2023) confirms cumulative damage. Gasoline accounted for nearly HALF of headline PPI (+15.7%) — war-driven oil IS the inflation transmission mechanism. FOMC March minutes: MORE officials willing to consider rate HIKES. Cleveland Fed Hammack: 'inflation above target for 5+ years,' hike possible if gas prices persist. Goolsbee: may need to raise rates if inflation rises with low unemployment. Market pricing 52% hike probability by year-end (first time >50%). PCE forecast raised to 2.7%. Bond-equity divergence WIDEST of war: S&P +1.2% erasing all war losses says 'deal imminent'; 10Y at 4.26% barely moved says 'not sure.' DXY at 98.16 (below 99). (Sources: BLS PPI data, FOMC minutes, CME FedWatch, yfinance)",
+      "sources": [
+        "BLS",
+        "FOMC minutes",
+        "CME FedWatch",
+        "yfinance"
+      ],
       "significance": "high"
     }
   ],
@@ -185,36 +206,36 @@
       "type": "rate_expectations",
       "context": "Bond-equity divergence at WIDEST of the war: S&P erased all war losses (+1.0%), 10Y barely moved (4.30%, -2bps). Bonds refusing to commit to deal or escalation narrative. When they disagree, bonds usually right.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 13,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 14,
+      "weight": 10
     },
     {
       "to": "sp-500",
       "type": "discount_rate",
       "context": "S&P at 6,886 erased ALL war losses. VIX at 19.12 -- maximum complacency. Market pricing 'deal within days' on unverified Trump claim. Repricing risk extreme if Thursday talks don't materialize.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 13,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 14,
+      "weight": 10
     },
     {
       "to": "gold",
       "type": "rate_policy",
       "context": "Gold regime CONFIRMED as dollar/monetary hedge. DXY at 98.32 (below 99) -> gold +1.1%. Silver +2.1% outperforming confirms monetary not safe-haven. Gold responds to DXY direction, not crisis headlines.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 10,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 11,
+      "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "inflation_input",
       "context": "Oil reversed below $100 on Trump 'deal' claim (Brent $97.98, -1.4%). Physical-futures gap persists ($120+ physical vs $98 futures = $22). If oil sustains below $100, 'transitory' CPI narrative survives; if snaps back above $100, May CPI 3.5-4.0% collapses narrative.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 13,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 14,
+      "weight": 10
     },
     {
       "to": "united-states",

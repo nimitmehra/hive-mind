@@ -3,14 +3,14 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
-  "summary": "6,886 (+1.0%) — ALL WAR LOSSES ERASED. Highest close since before the war began (Feb 28). MOST DANGEROUS market configuration since war began. Trump 'Iran reached out' CLAIM (unverified by Iran) neutralized blockade fear before market open. VIX CLOSED AT 18.30 (evening close, down from 19.12 morning) — LOWEST VIX SINCE WAR BEGAN, approaching pre-war 14.50. Market ACTIVELY SOLD more protection through the session. VIX at 18.30 implies ~7-9% probability of 5%+ move; actual probability 25-35% given active blockade, 60% IRGC fast-attack craft intact, 8 ceasefire days remaining. MAXIMUM COMPLACENCY. Q1 earnings: Goldman beat ($17.55 vs $16.47). If Thursday talks don't materialize or IRGC-US incident occurs, VIX 30+, S&P -3 to -5% in single session.",
+  "last_updated": "2026-04-15",
+  "summary": "6,967 (+1.2%) — NEW POST-WAR HIGH. ALL WAR LOSSES ERASED AND THEN SOME. VIX 18.36 (-4.0%), LOWEST SINCE WAR BEGAN — approaching pre-war 14.50. MAXIMUM COMPLACENCY. VIX implies ~7-9% probability of 5%+ move vs actual 25-35%. Vol-targeting funds MECHANICALLY selling vol and increasing equity exposure. Q1 earnings providing floor (GS beat, JPM beat but NII cut). Bond-equity divergence at WIDEST of the war: 10Y barely moved to 4.26% while S&P surpassed pre-war levels. When they disagree, bonds usually right. Entire market move built on Trump's UNVERIFIED 'Iran reached out' claim. If talks don't materialize by April 16 or CENTCOM-IRGC incident occurs, VIX 30+, S&P -3 to -5% in single session.",
   "current": {
-    "price": "6,886.24",
-    "delta_1d": "+1.0%",
-    "delta_1m": "+3.2%",
-    "delta_3m": "-0.6%",
-    "vix": "18.30"
+    "price": "6,967",
+    "delta_1d": "+1.2%",
+    "delta_1m": "+5.1%",
+    "delta_3m": "+0.3%",
+    "vix": "18.36"
   },
   "price_snapshots": [
     {
@@ -36,6 +36,12 @@
       "price": "6,886.24",
       "trigger": "ALL WAR LOSSES ERASED — highest close since pre-war (Feb 28)",
       "delta_context": "+1.0% on Trump 'Iran reached out' CLAIM (unverified). VIX 19.12 FAILED to spike. Nasdaq +1.23% to 23,184. Dow +0.63% to 48,218. Goldman beat ($17.55 EPS). MAXIMUM COMPLACENCY — widest VIX-vs-reality mispricing of entire war."
+    },
+    {
+      "date": "2026-04-15",
+      "price": "6,967",
+      "trigger": "New post-war high; VIX 18.36 lowest since war began",
+      "delta_context": "S&P surpassed pre-war levels while active blockade, unconfirmed talks, 6-7 ceasefire days remaining. Maximum complacency."
     }
   ],
   "signals": [
@@ -236,13 +242,33 @@
     {
       "date": "2026-04-13",
       "content": "Friday close 6,817 does NOT reflect Islamabad failure or Hormuz blockade continuation. Expected Monday: -1.5 to -2.5%. VIX will reset from 19.23 to 25-30+ as ceasefire-hope unwind triggers vol-targeting fund de-risking. Asymmetry maximally negative: ceasefire holds = VIX stays 18-20 (minimal); ceasefire collapses = VIX 30+, S&P -3-5%, algo selling cascade. The cheapest war insurance since conflict began.",
-      "sources": ["CBOE", "market data"],
+      "sources": [
+        "CBOE",
+        "market data"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-14",
       "content": "S&P 500 rallied +1.02% to 6,886.24 — erasing ALL war losses since Feb 28, highest close since before the conflict began (source: Bloomberg, CNBC, Yahoo Finance). Nasdaq +1.23% to 23,184. Dow +0.63% to 48,218. Trump claimed Iran 'reached out' and 'wants to deal very badly' — this single UNVERIFIED statement neutralized the blockade fear narrative before US market open. Iran has NOT confirmed any outreach. VIX at morning open 19.12, but DROPPED FURTHER TO 18.30 AT CLOSE — lowest since war began, approaching pre-war 14.50. Market ACTIVELY SOLD more protection through the session. Volmageddon parallel (FinancialContent). Vol-selling feedback loop continues: VIX below 20 = vol-targeting funds sell vol = VIX stays low. VIX at 18.30 implies ~7-9% probability of 5%+ move; actual probability given active blockade and 60% IRGC fast-attack craft intact = 25-35%. This is the WIDEST VIX-vs-reality mispricing of the entire war. VIX call strike 30-35 with 7-14 DTE massively asymmetric — cheapest war insurance while risk near highest. Q1 earnings began: Goldman Sachs beat ($17.55 EPS vs $16.47 expected, +6.5%). JPMorgan reports today. S&P Q1 expected +13.1% earnings on +9% revenue — 'low bar, high beat' dynamic. REVERSIBILITY: extreme. If Thursday talks don't materialize or IRGC-US Navy incident occurs, VIX 30+, S&P -3 to -5% in single session.",
-      "sources": ["Bloomberg", "CNBC", "Yahoo Finance", "SWI", "FinancialContent"],
+      "sources": [
+        "Bloomberg",
+        "CNBC",
+        "Yahoo Finance",
+        "SWI",
+        "FinancialContent"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "S&P 6,967 (+1.2%) — NEW POST-WAR HIGH, surpassing yesterday's 6,886 which already erased all war losses. VIX crashed to 18.36 (-4.0%) — LOWEST SINCE WAR BEGAN, approaching pre-war 14.50. MAXIMUM COMPLACENCY. VIX at 18.36 implies ~7-9% probability of 5%+ move; actual probability 25-35% given active blockade, 60% IRGC fast-attack craft intact, 6-7 ceasefire days remaining, talks not confirmed. WIDEST VIX-vs-reality mispricing of the entire war. Q1 earnings providing floor: Goldman beat ($17.55 vs $16.47), JPMorgan beat ($5.94 vs $5.46, but NII guidance cut to $103B). Bond-equity divergence at WIDEST of war: S&P erasing all war losses while 10Y at 4.26% barely moved. When they disagree, bonds usually right. (Sources: yfinance, CME, Goldman Sachs, JPMorgan)",
+      "sources": [
+        "yfinance",
+        "CME",
+        "Goldman Sachs",
+        "JPMorgan"
+      ],
       "significance": "high"
     }
   ],
@@ -252,27 +278,27 @@
       "type": "equity_market",
       "context": "S&P at 6,886 erases ALL war losses. Wall Street pricing 'blockade forces deal' NOT 'blockade leads to confrontation.' Bond-equity divergence persists: 10Y barely moved while S&P +1.0%. Bonds usually right when they disagree with equities.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 16,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 17,
+      "weight": 10
     },
     {
       "to": "fed",
       "type": "rate_sensitivity",
       "context": "Fed hike probability >50% for year-end (CME FedWatch). FOMC 'some' officials supporting hike language. Fed trapped in stagflation: oil-driven inflation prevents cuts, growth deterioration prevents hikes. Q1 earnings +13.1% expected providing non-war support.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 13,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 14,
+      "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "earnings_risk",
       "context": "Oil fell back below $100 on deal hopes driving S&P to war-loss erasure. XLE +0.3% barely tracked oil decline — decoupling as sector transitions to 'normalized elevated earnings.' Physical-futures gap ($120 vs $98) = one is wrong. If oil snaps to $105+, S&P reversal amplified by VIX at 19.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 14,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 15,
+      "weight": 10
     },
     {
       "to": "helium",

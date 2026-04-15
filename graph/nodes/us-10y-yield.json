@@ -3,13 +3,13 @@
   "name": "US 10-Year Treasury Yield",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
-  "summary": "4.30% (-2bps). THE ADULT IN THE ROOM -- barely moved despite blockade, Islamabad failure, and Trump 'deal' claim. Expected rise to 4.35-4.45% on Islamabad failure OR fall on deal hope. Got 4.30% (-2bps). Bond market caught between deal hopes (reduce inflation expectations) and stagflation trap (oil still elevated, CPI 3.3%). Bond-equity divergence at WIDEST of the war: S&P +1.0% erasing ALL war losses says 'deal coming,' 10Y barely moving says 'not sure.' When they disagree, bonds usually right. US 2Y at 3.60%, spread 70bps.",
+  "last_updated": "2026-04-15",
+  "summary": "4.26% (-4bps). THE ADULT IN THE ROOM — essentially unchanged despite blockade, Islamabad failure, AND Trump deal claims. Bond-equity divergence at WIDEST of the entire war: S&P erased ALL war losses (6,967); 10Y barely moved. When they disagree, bonds usually right. Bond market in paralysis: deal hopes vs stagflation trap cancel. If bonds start moving in either direction, that's the regime signal. US 2Y at 3.61%, spread 65bps.",
   "current": {
-    "price": "4.30%",
-    "delta_1d": "-0.5%",
-    "delta_1m": "+0.6%",
-    "delta_3m": "+3.0%"
+    "price": "4.26%",
+    "delta_1d": "-1.0%",
+    "delta_1m": "-0.7%",
+    "delta_3m": "+2.8%"
   },
   "signals": [
     {
@@ -154,13 +154,30 @@
     {
       "date": "2026-04-13",
       "content": "4.32% Friday. US CPI 3.3% with hot +0.9% monthly -- biggest since June 2022. Fed hike probability >50%. Expected to rise to 4.35-4.45% at US Monday open on Islamabad failure + blockade continuation. Bonds being validated over equities -- inflation persistence confirmed, peace that equities priced didn't arrive.",
-      "sources": ["Federal Reserve H.15", "CME FedWatch", "yfinance"],
+      "sources": [
+        "Federal Reserve H.15",
+        "CME FedWatch",
+        "yfinance"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-14",
       "content": "US 10Y at 4.30% (-2bps from 4.32%) -- BARELY MOVED despite Trump 'Iran reached out' claim driving S&P +1.0% and oil reversal below $100. Expected rise to 4.35-4.45% on Islamabad failure/blockade, or significant fall on deal hope. Got neither -- -2bps, essentially flat. Bond market is 'the adult in the room,' refusing to commit to either 'deal happening' or 'escalation' narrative. Caught between opposing forces: deal hopes reduce inflation expectations (yields down) vs stagflation trap persists (can't sell on inflation, can't buy on growth). Bond-equity divergence at WIDEST of entire war. S&P at 6,886 (erased ALL war losses) says 'resolution imminent.' 10Y at 4.30% says 'we'll see.' US 2Y at 3.60% (+0.3%). India 10Y GOI ~6.90% (+5bps from April 13) on FII debt outflows and oil-driven inflation. (Sources: markets.md, yfinance, Federal Reserve H.15)",
-      "sources": ["markets.md", "yfinance", "Federal Reserve H.15"],
+      "sources": [
+        "markets.md",
+        "yfinance",
+        "Federal Reserve H.15"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "4.26% (-4bps from 4.30%) — THE ADULT IN THE ROOM. Essentially UNCHANGED. The most important NON-MOVER. Expected rise on Islamabad failure/blockade OR significant fall on deal hope. Got: neither. Bond market caught between deal hopes (reduce inflation) and stagflation trap (oil elevated, CPI 3.3%). These forces cancel. Bond-equity divergence at WIDEST of the entire war: S&P at 6,967 erased ALL war losses says 'deal imminent, crisis over'; 10Y at 4.26% says 'we'll see.' If bonds start MOVING — either direction — that's the regime signal. 4.40%+ = inflation winning, Fed hikes. 4.10% = recession winning, equities sell off on growth fear. Currently: paralysis. (Sources: Treasury data, yfinance)",
+      "sources": [
+        "Treasury data",
+        "yfinance"
+      ],
       "significance": "high"
     }
   ],
@@ -170,18 +187,18 @@
       "type": "rate_expectations",
       "context": "Bond-equity divergence at WIDEST of the war. 10Y barely moved (-2bps to 4.30%) while S&P erased ALL war losses. Bond market refuses to commit to deal or escalation narrative. Stagflation trap intact.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 13,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 14,
+      "weight": 10
     },
     {
       "to": "sp-500",
       "type": "discount_rate",
       "context": "Bond-equity divergence WIDEST of the war: S&P +1.0% to 6,886 (ALL war losses erased), 10Y flat at 4.30%. Equities pricing 'deal within days,' bonds saying 'not sure.' When they disagree, bonds usually right.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 13,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 14,
+      "weight": 10
     },
     {
       "to": "nifty-50",

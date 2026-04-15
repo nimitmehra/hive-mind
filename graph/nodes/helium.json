@@ -3,14 +3,14 @@
   "name": "Helium",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
+  "last_updated": "2026-04-15",
   "summary": "HELIUM CLIFF RESOLVED. TrendForce window expired April 10 -- NO production cut announced. No Samsung/SK Hynix production halt -- trigger effectively dead. SMH +14.2% monthly confirms semiconductor supply chain structurally intact. Alternative helium sources (US, Algeria) filling gap. Samsung ~6-month reserves + HeRS recycling. Samsung/SK Hynix signed 3-5 year LTAs with Linde and Air Products. 30% of global helium still offline from Ras Laffan but fab allocations consumed without halt. Spot prices remain elevated ($1,000-1,200/MCF, +100-140% from pre-crisis) but no production impact. Structural price elevation persists 18-24 months; production risk resolved.",
   "current": {
     "price": "$1,000-1,200/MCF spot (+100-140% from pre-crisis ~$500)",
-    "delta_1d": "SMH +1.5%, KOSPI +3.5%",
-    "delta_1m": "SMH +14.2% -- helium cliff resolved + AI cycle",
+    "delta_1d": "SMH +2.0%, KOSPI +3.0%",
+    "delta_1m": "SMH +16.7% — helium cliff resolved + AI cycle",
     "delta_3m": "30% global supply offline (Qatar Ras Laffan); 18-24 month recovery",
-    "snapshot_note": "As of Apr 14. Production halt trigger DEAD. Ras Laffan recovery delayed to August 2026."
+    "snapshot_note": "As of Apr 15. Production halt trigger DEAD. Ras Laffan recovery delayed to August 2026."
   },
   "signals": [
     {
@@ -222,8 +222,23 @@
     {
       "date": "2026-04-14",
       "content": "HELIUM CLIFF RESOLUTION CONFIRMED by market action. SMH +14.2% monthly -- the semiconductor supply chain risk that drove SMH -3.1% on March 31 is RESOLVED. No TrendForce production cut announcement by Day 10 of window (April 10). No Samsung/SK Hynix production halt (absence signal E7 from intel.md). Alternative helium sources (US, Algeria) filling the gap created by 30% Ras Laffan offline supply. 'Critical shortage' persists in spot market (supply -30% from Ras Laffan per Tom's Hardware/J2Sourcing) but fab allocations have been consumed without triggering production halts. KOSPI +3.5% today driven primarily by memory chip supercycle + governance reform (~90% structural), not helium relief. The helium-to-semiconductor cascade path -- the most validated multi-hop cascade in the graph -- has been DEFUSED at the production-impact stage. Price elevation persists ($1,000-1,200/MCF spot) but is absorbed by industry LTAs and recycling. (Sources: markets.md, intel.md E7, Tom's Hardware, J2Sourcing)",
-      "sources": ["markets.md", "intel.md", "Tom's Hardware", "J2Sourcing"],
+      "sources": [
+        "markets.md",
+        "intel.md",
+        "Tom's Hardware",
+        "J2Sourcing"
+      ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "Bear case FUNCTIONALLY DEAD confirmed. SMH +2.0% 1D, +16.7% monthly. KOSPI +3.0%. TSMC smashed closing record at NT$2,055 (+3.27%). No TrendForce production-cut announcement materialized. Fabs maintained 6-week buffers without halt. Alternative helium sources (US, Algeria) filling gap. Samsung/SK Hynix 3-5 year LTAs with Linde and Air Products in place. 30% global helium still offline from Ras Laffan but no production impact — spot prices remain elevated ($1,000-1,200/MCF, +100-140%) but this is a COST issue, not a SUPPLY crisis. Structural price elevation persists 18-24 months; production risk resolved. (Sources: yfinance, TrendForce, Tom's Hardware)",
+      "sources": [
+        "yfinance",
+        "TrendForce",
+        "Tom's Hardware"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
@@ -241,18 +256,18 @@
       "type": "tech_supply_risk",
       "context": "Helium cliff RESOLVED. SMH +14.2% monthly. No Samsung/SK Hynix production halt by Day 10 of TrendForce window. AI investment cycle (CoreWeave $21B Meta deal) driving semiconductor rally independent of helium.",
       "directness": 2,
-      "last_activated": "2026-04-14",
-      "activation_count": 12,
-      "weight": 8.0
+      "last_activated": "2026-04-15",
+      "activation_count": 13,
+      "weight": 10
     },
     {
       "to": "south-korea",
       "type": "supply_chain_cascade",
       "context": "KOSPI +3.5% today, +27.3% 3M. Helium cliff defused. KOSPI rally is ~90% structural (memory supercycle, governance reform, foreign inflows) and ~10% crisis relief.",
       "directness": 3,
-      "last_activated": "2026-04-14",
-      "activation_count": 9,
-      "weight": 5.0
+      "last_activated": "2026-04-15",
+      "activation_count": 10,
+      "weight": 10
     }
   ],
   "trigger_points": [

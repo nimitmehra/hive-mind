@@ -3,8 +3,8 @@
   "name": "Israel",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
-  "summary": "Day 47. RUBIO PERSONALLY HOSTING APRIL 15 TALKS — ELEVATED FROM AMBASSADOR TO SECRETARY OF STATE LEVEL, MOST HIGH-LEVEL ISRAEL-LEBANON MEETING SINCE 1993. Participants: Rubio, Needham, Ambassador Issa, Israeli Ambassador Leiter, Lebanese Ambassador Hamadeh Moawad. Agenda: ceasefire, Hezbollah disarmament, full peace agreement. Rubio's presence may reflect US need for diplomatic win post-Islamabad. Structural obstacles unchanged: Netanyahu's priority is disarming Hezbollah (non-starter), Israel explicitly refused to discuss ceasefire with Hezbollah, Israeli media preparing public for resumed hostilities. IDF near-completion of Bint Jbeil capture, five divisions deployed. 2,055 Lebanese killed, 6,588 wounded, 1.2M displaced since March 2.",
+  "last_updated": "2026-04-15",
+  "summary": "Day 48. FIRST DIRECT ISRAEL-LEBANON TALKS SINCE 1993 PRODUCED JOINT STATEMENT — Rubio hosted at State Department. 'Agreed to launch direct negotiations.' Israel Hayom: 'historic.' But Hezbollah (Qassem: 'futile,' Fadlallah: 'will not abide by any agreements') pre-emptively rejected. The gap between Lebanese state diplomacy and Hezbollah reality is the core constraint. Iran's Ghalibaf named Lebanon ceasefire as Islamabad precondition — progress here could unlock broader deal or serve as face-saving deliverable if Iran track fails. IDF near-completion of Bint Jbeil capture, five divisions deployed. 2,055 Lebanese killed, 6,588 wounded, 1.2M displaced since March 2.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -352,19 +352,50 @@
     {
       "date": "2026-04-13",
       "content": "IDF raided Bint Jbeil hospital — killed ~20 Hezbollah fighters. Cut roads in southern Lebanon, used white phosphorus. Two IDF soldiers wounded April 13. IDF Chief Zamir ordered 'heightened state of readiness' after Islamabad talks failure. Israel-Lebanon ambassador-level talks still on for Tuesday at State Dept. Haaretz: 'Trump considering limited strikes on Iran' — if confirmed, major escalation of US direct involvement.",
-      "sources": ["Haaretz", "Al Jazeera", "Times of Israel"],
+      "sources": [
+        "Haaretz",
+        "Al Jazeera",
+        "Times of Israel"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-14",
       "content": "Israel-Lebanon ambassador-level talks confirmed for April 15 at State Department — Israeli Ambassador Yechiel Leiter, Lebanese Ambassador Nada Hamadeh Moawad, US Ambassador to Lebanon Michel Issa leading. Fundamental disagreement on agenda: Lebanon says about declaring ceasefire; Israel says 'formal peace negotiations.' Netanyahu's top priority: disarming Hezbollah — a non-starter. Israel explicitly refused to discuss ceasefire with Hezbollah (source: Times of Israel, Al Jazeera, Washington Post, Haaretz). On the ground: IDF near-completion of Bint Jbeil capture, five divisions deployed, 2,055 Lebanese killed, 6,588 wounded, 1.2M displaced since March 2. Hezbollah deploying FPV drones from Ukraine-war tactics. Israeli media preparing public for resumed hostilities rather than resolution.",
-      "sources": ["Times of Israel", "Al Jazeera", "Washington Post", "Haaretz", "CGTN", "JPost"],
+      "sources": [
+        "Times of Israel",
+        "Al Jazeera",
+        "Washington Post",
+        "Haaretz",
+        "CGTN",
+        "JPost"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-14",
       "content": "EVENING UPDATE: Secretary of State Marco Rubio will personally host and participate in the April 15 Israel-Lebanon talks at State Department — ELEVATING from ambassador-level to Secretary of State level. Most high-level direct Israel-Lebanon meeting since 1993 (CONFIRMED — Axios, State Department, Times of Israel, Jerusalem Post). Participants: Rubio, senior adviser Michael Needham, US Ambassador to Lebanon Michel Issa, Israeli Ambassador Leiter, Lebanese Ambassador Hamadeh Moawad. Agenda: (1) immediate ceasefire, (2) Hezbollah disarmament, (3) full peace agreement. Rubio's presence signals Trump administration views this as priority — potentially because a Lebanon breakthrough could provide face-saving win offsetting Islamabad failure. The Iran connection: Ghalibaf named Lebanon ceasefire as one of Iran's preconditions at Islamabad — progress here could unlock broader US-Iran negotiation path.",
-      "sources": ["Axios", "State Department", "Times of Israel", "Jerusalem Post", "Deccan Herald"],
+      "sources": [
+        "Axios",
+        "State Department",
+        "Times of Israel",
+        "Jerusalem Post",
+        "Deccan Herald"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "CONFIRMED: First direct Israel-Lebanon diplomatic talks since 1993 occurred at State Department April 14-15, hosted by SecState Rubio personally. Participants: Rubio, senior adviser Needham, US Ambassador Issa, Israeli Ambassador Leiter, Lebanese Ambassador Hamadeh Moawad. Trilateral joint statement: 'agreed to launch direct negotiations at a mutually agreed time and venue' — process could curb Iran's influence and 'unlock significant reconstruction assistance and economic recovery for Lebanon.' Israel Hayom: 'historic.' Japan Times: 'slim odds of breakthrough.' Structural obstacle: Hezbollah's Naim Qassem pre-emptively rejected talks as 'futile,' Fadlallah declared Hezbollah 'will not abide by any agreements.' Israel wants formal peace/Hezbollah disarmament; Lebanon's most powerful armed group refuses to participate. (Sources: US State Department, Axios/Barak Ravid, Washington Times, CBC News, Al Jazeera, Japan Times, Israel Hayom)",
+      "sources": [
+        "US State Department",
+        "Axios",
+        "Washington Times",
+        "CBC News",
+        "Al Jazeera",
+        "Japan Times",
+        "Israel Hayom"
+      ],
       "significance": "high"
     }
   ],
@@ -383,27 +414,27 @@
       "type": "military_alliance",
       "context": "Day 44. Trump told Netanyahu 'low key' — first signal of friction over Lebanon strikes threatening Islamabad talks. Shift from full alignment ('separate skirmish') to implicit constraint. Vance's offer to 'restrain Lebanon strikes' not honored by Israel. US structurally unable to enforce ceasefire compliance on ally.",
       "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 20,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 21,
+      "weight": 10
     },
     {
       "to": "lebanon",
       "type": "ground_war",
       "context": "Day 47. Talks confirmed April 15 at State Dept. Fundamental disagreement on agenda. IDF near-completion Bint Jbeil capture. 2,055 killed, 6,588 wounded, 1.2M displaced. Hezbollah rejection creates structural impossibility for binding deal.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 18,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 19,
+      "weight": 10
     },
     {
       "to": "hezbollah",
       "type": "active_conflict",
       "context": "Day 47. Hezbollah rejected April 15 talks as 'futile.' IDF near-completion Bint Jbeil, 5 divisions deployed. Hezbollah FPV drones causing tactical strain. Netanyahu's disarmament demand is a non-starter. Israeli media preparing public for resumed hostilities.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 19,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 20,
+      "weight": 10
     },
     {
       "to": "houthis",

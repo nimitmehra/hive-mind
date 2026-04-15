@@ -3,13 +3,13 @@
   "name": "Energy Sector (Global)",
   "type": "sector",
   "created": "2026-03-28",
-  "last_updated": "2026-04-12",
-  "summary": "XLE $56.94 (-0.7% Fri), Exxon $152.51 (-1.6%), Cheniere $265.54 (-0.1%). Energy sector pulling back on ceasefire optimism — war premium deflating through Day 5. Islamabad talks failed Saturday; Monday repricing likely reverses the pullback. If Brent gaps above $100, energy sector rallies. Still +25.2% 3M — war gains far from fully unwound.",
+  "last_updated": "2026-04-15",
+  "summary": "XLE $55.95 (-2.0%), Exxon $149.24 (-2.2%). De-escalation trade: energy being SOLD on expectations of deal/Hormuz reopening, NOT on physical reality. Equity-implied Brent at $85-90 vs actual futures $95.21 vs physical Dated Brent $120+ — three-layer mispricing. Refined products (Heating Oil -3.6%, Gasoline -2.5%) leading selloff because they carry largest percentage war premium. Q1 earnings rotation into financials (GS beat). Sector rotation explicitly visible: XLE -2.0% while S&P +1.2%. If talks fail, snap-back is violent — XLE could rally 5%+ in single session.",
   "current": {
-    "price": "XLE: $60.16 (Tue close)",
-    "delta_1d": "+0.80% (will reverse Wed open)",
-    "delta_1m": "+6.4%",
-    "delta_3m": "+33.1%"
+    "price": "XLE: $55.95; Exxon: $149.24; Cheniere: $259.68",
+    "delta_1d": "XLE -2.0%; Exxon -2.2%; Cheniere -0.7%",
+    "delta_1m": "XLE -2.4%; Exxon -4.4%",
+    "delta_3m": "XLE +18.3%; Exxon +16.3%"
   },
   "signals": [
     {
@@ -91,6 +91,14 @@
         "yfinance"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "Energy complex selloff accelerating on de-escalation trade: XLE -2.0% to $55.95, Exxon -2.2% to $149.24, Heating Oil -3.6%, Gasoline -2.5%. Refined products leading the selloff — carry LARGER war premiums than crude because refinery margins expanded during crisis. Energy equities now pricing $85-90 Brent while actual Brent at $95.21 and physical Dated Brent at $120+. THREE layers of disconnection. CF Industries -2.2% (fertilizer war premium unwinding). Frontline -2.0% (tanker de-escalation trade). Sector rotation explicitly visible: XLE -2.0% while S&P +1.2%. Q1 earnings rotation: Goldman beat pulling flows to financials FROM energy. PPI relief (+0.5% vs 1.1%) reduces inflation premium in energy producers. If 'deal within days' narrative breaks, entire trade reverses violently. (Sources: yfinance, market data)",
+      "sources": [
+        "yfinance"
+      ],
+      "significance": "high"
     }
   ],
   "price_snapshots": [
@@ -105,18 +113,18 @@
       "type": "revenue_driver",
       "context": "XLE -3.5% on ceasefire as Brent crashed -11.5%. Energy biggest loser sector. But still +25.2% 3M — war gains far from fully unwound. If ceasefire collapses, energy leads reversal.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 17,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 18,
+      "weight": 10
     },
     {
       "to": "sp-500",
       "type": "sector_rotation",
       "context": "XLE -3.5% while S&P +2.51% on ceasefire = capital rotating from energy to broad market. Airlines +11-14%, tech surged. Energy sector weight declining.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 10,
-      "weight": 9.0
+      "last_activated": "2026-04-15",
+      "activation_count": 11,
+      "weight": 10
     }
   ],
   "trigger_points": [

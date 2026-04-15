@@ -3,13 +3,13 @@
   "name": "Nifty 50",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
-  "summary": "23,843 (-0.9% April 13 close). Markets CLOSED April 14 (Ambedkar Jayanti) — 48-hour position lockup. 200-DMA broken. Bank Nifty 55,605 (-0.6%). Overnight: oil fell back below $100 on Trump 'Iran wants deal' CLAIM (unverified). If oil holds sub-$100 and Thursday talks confirmed, GIFT Nifty +0.5-1.0% gap-up expected April 15. If oil gaps back above $100: flat-to-negative. FIIs sold Rs 48,213 crore in April's first 11 days. FY26 total Rs 1.79 lakh crore. JPMorgan cut Nifty target to 27,000.",
+  "last_updated": "2026-04-15",
+  "summary": "24,194 (+1.5%). ABOVE 200-DMA (24,050) for first time since April 10. First ALIGNED Nifty-INR session since ceasefire day. Relief rally, NOT recovery — ~80% crisis-linked. FII flow flip has NOT happened (Rs 48,213 crore sold in April's first 11 days; CY2026 Rs 1.79 lakh crore). Rally is DII-funded. Two consecutive closes above 200-DMA needed for technical confirmation of war drawdown negation. JPMorgan cut target to 27,000. Triple squeeze on India (Russian waiver expired, Iran waiver April 19, blockade) not yet priced.",
   "current": {
-    "price": "23,842.65",
-    "delta_1d": "-0.9%",
-    "delta_1m": "-1.7%",
-    "delta_3m": "-7.3%"
+    "price": "24,194",
+    "delta_1d": "+1.5%",
+    "delta_1m": "+1.4%",
+    "delta_3m": "-5.8%"
   },
   "price_snapshots": [
     {
@@ -59,6 +59,12 @@
       "price": "24,051",
       "trigger": "First touch of 200-DMA since pre-war",
       "delta_context": "Intraday high 24,074 briefly above. Bank Nifty +2.0% leading. INR divergence (Rs93.05 weaker despite rally) undermines sustainability."
+    },
+    {
+      "date": "2026-04-15",
+      "price": "24,194",
+      "trigger": "Crossed above 200-DMA (24,050) — first time since April 10",
+      "delta_context": "First ALIGNED Nifty-INR session since ceasefire day. Relief rally on deal hopes and oil below $100."
     }
   ],
   "signals": [
@@ -313,13 +319,31 @@
     {
       "date": "2026-04-13",
       "content": "Nifty crashed -1.3% to 23,744 on US naval blockade of Iranian ports. Intraday low 23,571 (-1.99%) before partial recovery. 200-DMA BROKEN — first close below since touching it on April 10. Bank Nifty -1.7% to 54,972 — Friday's +2.0% rally fully reversed. HDFC Bank -2.22%, Kotak -2.18%, SBI -1.98%. Brent above $102 destroys rate cut thesis. Markets CLOSED Tuesday April 14 (Ambedkar Jayanti) — positions locked 48 hours. FII CY2026 outflows Rs 1.71 lakh crore. The biggest weekly gain in 5 years partially reversed in single session. (Sources: NSE India, ANI, Business Standard)",
-      "sources": ["NSE India", "ANI", "Business Standard"],
+      "sources": [
+        "NSE India",
+        "ANI",
+        "Business Standard"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-14",
       "content": "Markets CLOSED April 14 (Ambedkar Jayanti). April 13 close: Nifty 23,842.65 (-0.86%), intraday low 23,556 (-1.99%) before partial recovery. Sensex recovered from -1,613 to close -702 at 76,848. Bank Nifty 55,605 (-0.6%). VIX +9.36%. Overnight development: oil fell back below $100 on Trump's CLAIMED 'Iran reached out' statement (unverified by Iran) and AP report of possible Thursday talks via Pakistan/Turkey/Egypt. S&P 500 +1.0% to 6,886 erasing all war losses. If oil holds sub-$100 through April 15, Nifty may open to relief (+0.5-1.0% gap-up). If oil gaps back above $100: flat-to-negative. FIIs sold Rs 48,213 crore in April's first 11 days; FY26 total Rs 1.79 lakh crore. JPMorgan cut Nifty target to 27,000. March CPI 3.40% — below consensus, marginally positive for rate cut pathway. (Sources: NSE India, Business Today, ET, market data)",
-      "sources": ["NSE India", "Business Today", "ET", "market data"],
+      "sources": [
+        "NSE India",
+        "Business Today",
+        "ET",
+        "market data"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "24,194 (+1.5%) — reopened ABOVE 200-DMA (24,050) for first time since April 10. Markets closed April 14 (Ambedkar Jayanti); April 15 reopening absorbed 48 hours of positive developments: oil below $100, S&P +1.2%, DXY at 98.16. Bank Nifty +1.3% to 56,355 (financials most leveraged to rate expectations). First ALIGNED Nifty-INR session since ceasefire day (INR -1.8% strengthening). Relief rally, NOT recovery: ~80% crisis-linked and reverses if talks fail. FII flow flip has NOT happened — Rs 48,213 crore sold in April's first 11 days, CY2026 total Rs 1.79 lakh crore. Rally remains DII-funded, which historically runs out faster. Two consecutive closes above 200-DMA would be first technical confirmation of war drawdown negation. JPMorgan cut target to 27,000 (implying 12% upside even optimistically). (Sources: yfinance, market data, JPMorgan)",
+      "sources": [
+        "yfinance",
+        "JPMorgan"
+      ],
       "significance": "high"
     }
   ],
@@ -329,8 +353,8 @@
       "type": "equity_market",
       "context": "Nifty 23,843 (-0.9% April 13). 200-DMA broken on blockade. Markets closed April 14. FIIs sold Rs 48,213 cr in 11 April days. JPMorgan cut target to 27,000. CPI 3.40% below consensus — marginally positive. Oil relief overnight may drive gap-up April 15.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 21,
+      "last_activated": "2026-04-15",
+      "activation_count": 22,
       "weight": 10
     },
     {
@@ -338,8 +362,8 @@
       "type": "fii_feedback_loop",
       "context": "INR at Rs93.28 (offshore). FII CY2026 outflows Rs 1.79 lakh crore — selling continues. Rs 48,213 cr sold in April's first 11 days. NOP cap compliance complete. FII flow flip STILL not happened — the rally is DII-funded, not foreign re-entry.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 15,
+      "last_activated": "2026-04-15",
+      "activation_count": 16,
       "weight": 10
     },
     {
@@ -347,8 +371,8 @@
       "type": "cost_pressure",
       "context": "Brent at $97.98, back below $100 after blockade spike to $103+. Oil below $100 = relief for rate cut pathway; above $100 = rate cut destroyed. CPI 3.40% with imported inflation 6.49% means oil direction is THE variable for Nifty.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 16,
+      "last_activated": "2026-04-15",
+      "activation_count": 17,
       "weight": 10
     },
     {

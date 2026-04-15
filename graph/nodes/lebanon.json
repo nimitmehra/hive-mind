@@ -3,8 +3,8 @@
   "name": "Lebanon",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
-  "summary": "Day 47. RUBIO PERSONALLY HOSTING APRIL 15 TALKS — ELEVATED FROM AMBASSADOR TO SECRETARY OF STATE LEVEL, MOST HIGH-LEVEL ISRAEL-LEBANON MEETING SINCE 1993. Rubio's presence may signal US priority for post-Islamabad diplomatic win, and Iran's Ghalibaf named Lebanon ceasefire as Islamabad precondition — progress here could unlock broader deal. BUT structural obstacles unchanged: Hezbollah's Naim Qassem explicitly rejected talks as 'futile,' Fadlallah said Hezbollah 'will not abide by any agreements,' hundreds protested in Beirut. Israel's agenda is formal peace negotiations (not ceasefire). On ground: IDF near-completion Bint Jbeil capture, 5 divisions deployed. 2,055 killed, 6,588 wounded, 1.2M displaced since March 2.",
+  "last_updated": "2026-04-15",
+  "summary": "Day 48. FIRST DIRECT TALKS WITH ISRAEL SINCE 1993 — Ambassador Moawad participated, joint statement issued agreeing to 'launch direct negotiations.' Potential to 'unlock significant reconstruction assistance.' BUT Hezbollah (Qassem: 'futile'; Fadlallah: 'will not abide by any agreements') pre-emptively rejected. The structural impossibility: Lebanon's government engages diplomatically while its most powerful armed group refuses and can veto implementation militarily. Iran named Lebanon ceasefire as Islamabad precondition — suggesting Lebanon track is linked to broader US-Iran deal. On ground: IDF near-completion Bint Jbeil capture, 5 divisions deployed. 2,055 killed, 6,588 wounded, 1.2M displaced since March 2.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -224,19 +224,51 @@
     {
       "date": "2026-04-13",
       "content": "IDF raided Bint Jbeil hospital, killing ~20 Hezbollah fighters and seizing weapons. IDF cut all main roads to Bint Jbeil with airstrikes, artillery, and white phosphorus. Golani Brigade killed operatives responsible for fallen IDF soldier. Two 98th Division soldiers moderately wounded by Hezbollah April 13. Israel-Lebanon talks still set for Tuesday at State Dept (ambassador level after PM Salam cancellation). Hezbollah FPV suicide drones causing 'significant tactical strain' on IDF armored vehicles. Casualty toll likely above 2,030. (Sources: Times of Israel, JPost, Haaretz, Tribune India)",
-      "sources": ["Times of Israel", "Jerusalem Post", "Haaretz", "Tribune India"],
+      "sources": [
+        "Times of Israel",
+        "Jerusalem Post",
+        "Haaretz",
+        "Tribune India"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-14",
       "content": "Israel-Lebanon ambassador-level talks confirmed April 15 at State Department. Fundamental disagreement on agenda persists: Lebanon says about declaring ceasefire, Israel says 'formal peace negotiations' and explicitly refused to discuss ceasefire with Hezbollah. Hezbollah's Naim Qassem explicitly rejected talks as 'futile' and a 'free concession,' urged Lebanon to cancel. Hassan Fadlallah: Hezbollah 'will not abide by any agreements' (CONFIRMED rejection — source: Al Jazeera, Euronews). Hundreds protested in Beirut April 11-12. On ground: IDF near-completion of Bint Jbeil capture, 1.2M displaced. Updated casualties: 2,055 Lebanese killed, 6,588 wounded since March 2 (source: CGTN, Haaretz). Hezbollah's rejection creates structural impossibility — any agreement reached without Hezbollah buy-in is unenforceable on the ground where Hezbollah controls southern Lebanon.",
-      "sources": ["Al Jazeera", "Euronews", "Times of Israel", "CGTN", "Haaretz", "Washington Post"],
+      "sources": [
+        "Al Jazeera",
+        "Euronews",
+        "Times of Israel",
+        "CGTN",
+        "Haaretz",
+        "Washington Post"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-14",
       "content": "EVENING ELEVATION: Secretary of State Marco Rubio will personally host April 15 Israel-Lebanon talks — elevating from ambassador-level to SecState level, most high-level meeting since 1993 (CONFIRMED — Axios, Times of Israel, Jerusalem Post, Deccan Herald). Rubio's involvement may reflect US need for diplomatic win after Islamabad failure. However, structural obstacles unchanged: Hezbollah's Naim Qassem explicitly rejected talks as 'futile,' Fadlallah declared Hezbollah 'will not abide by any agreements.' Hundreds protested in Beirut against talks. Iran's Ghalibaf named Lebanon ceasefire as precondition at Islamabad — progress here could unlock broader deal.",
-      "sources": ["Axios", "State Department", "Times of Israel", "Jerusalem Post", "Deccan Herald", "Al Jazeera"],
+      "sources": [
+        "Axios",
+        "State Department",
+        "Times of Israel",
+        "Jerusalem Post",
+        "Deccan Herald",
+        "Al Jazeera"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "CONFIRMED: Ambassador Hamadeh Moawad participated in first direct Israel-Lebanon talks since 1993 at State Department April 14-15. Joint statement: 'agreed to launch direct negotiations' that could 'unlock significant reconstruction assistance and economic recovery for Lebanon.' However: Hezbollah's Naim Qassem called talks 'futile' and a 'free concession,' urged Lebanon to cancel. Hassan Fadlallah: Hezbollah 'will not abide by any agreements.' Hundreds protested in Beirut. Lebanon's government participating diplomatically while its most powerful armed group refuses — the gap IS the structural impossibility. (Sources: US State Department, Axios, Washington Times, Al Jazeera, CBC News, Euronews)",
+      "sources": [
+        "US State Department",
+        "Axios",
+        "Washington Times",
+        "Al Jazeera",
+        "CBC News",
+        "Euronews"
+      ],
       "significance": "high"
     }
   ],
@@ -246,18 +278,18 @@
       "type": "operating_territory",
       "context": "Day 44. Hezbollah escalated: 100+ rockets since ceasefire, 70 on April 10, struck Ashdod (200km — strategic depth). Israel struck Nabatieh — 13 State Security (government forces) killed, largest attack on city since war. Targeting expanded from Hezbollah to Lebanese government apparatus.",
       "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 17,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 18,
+      "weight": 10
     },
     {
       "to": "israel",
       "type": "invasion_target",
       "context": "Day 47. Talks confirmed April 15 but structurally impossible — Hezbollah rejected, agenda disagreement, Netanyahu demands disarmament. IDF near-completion Bint Jbeil. 2,055 killed, 6,588 wounded, 1.2M displaced.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 19,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 20,
+      "weight": 10
     }
   ],
   "trigger_points": []

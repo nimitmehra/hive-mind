@@ -3,13 +3,13 @@
   "name": "Fertilizer / Urea",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
-  "summary": "Urea at $650-800/mt (US Gulf FOB $693.50 futures). CRISIS PREMIUM DEFLATING in equities but NOT in physical commodity: CF Industries -10.5% 1M, Nutrien -10.7% 1M despite urea still +30-68% above pre-crisis levels. Equity decline is POSITIONING UNWIND (ceasefire-driven profit-taking, rotation to tech/semis, crowded longs) not fundamental change. Physical urea still elevated. Henry Hub -16.6% 1M = US domestic fertilizer input costs falling. If ceasefire collapses and Qatar fertilizer remains disrupted, CF/Nutrien re-rate sharply higher. QAFCO still offline. India Kharif sowing risk persists.",
+  "last_updated": "2026-04-15",
+  "summary": "Urea at $650+/mt (physical), spot to $800. CRISIS PREMIUM DEFLATING in equities (CF -2.2%, Nutrien -10.5% 1M) but NOT in physical commodity. Equity market pricing de-escalation/Hormuz reopening ahead of physical reality — same mispricing pattern as oil. 30% of exportable fertilizer supply still cut off. 2.3M tonnes production lost. If talks fail and Hormuz stays blocked, equity snap-back.",
   "current": {
-    "price": "~$693.50/mt (US Gulf FOB futures) / $650-800/mt range",
-    "delta_1d": "~flat",
-    "delta_1m": "declining from $838 peak",
-    "delta_3m": "+30-68% from pre-crisis $500"
+    "price": "~$650+/mt (physical); CF Industries $118.96; Nutrien $73.62",
+    "delta_1d": "CF -2.2%; Nutrien -1.0%",
+    "delta_1m": "CF -8.2%; Nutrien -10.5%",
+    "delta_3m": "CF +38.1%; Nutrien +9.3%"
   },
   "price_snapshots": [
     {
@@ -195,14 +195,33 @@
     {
       "date": "2026-04-13",
       "content": "Urea at $693.50 futures / $838+ spot -- MOST ELEVATED crisis indicator at +68% from pre-crisis $500, exceeding Brent's +49%. NOT responding to ceasefire: Hormuz closed to bulk carriers, QAFCO offline, natural gas feedstock elevated. 5 of 8 major fertilizers +5% weekly. Spring planting pressure intensifying globally. CF Industries +51% 3M. India Kharif sowing at risk if supply doesn't normalize by May.",
-      "sources": ["DTN", "Argus", "FinancialContent", "CBOT"],
+      "sources": [
+        "DTN",
+        "Argus",
+        "FinancialContent",
+        "CBOT"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-14",
       "content": "CRISIS PREMIUM DEFLATING IN EQUITIES, NOT IN PHYSICAL COMMODITY. CF Industries -10.5% 1M ($121.68), Nutrien -10.7% 1M ($74.38) -- monthly declines despite urea remaining at $650-800/mt (still +30-68% above pre-crisis). The equity decline is a POSITIONING UNWIND driven by: (1) ceasefire April 8 triggered aggressive crisis-premium selling in commodity equities, (2) CF/Nutrien had +40-44% 3M runs creating crowded longs, (3) profit-taking + rotation into tech/semis (SMH +14.2% 1M), (4) Henry Hub nat gas -16.6% 1M = US domestic fertilizer input costs falling. The monthly decline is NOT a fundamental change -- urea at $650+/mt remains highly profitable for CF/Nutrien. If ceasefire collapses and Qatar fertilizer supply remains disrupted, these stocks re-rate sharply higher. The 3M performance is still massive (+43.8% CF, +13.2% Nutrien). Physical urea NOT responding to deal hopes -- Hormuz still closed to bulk carriers, QAFCO still offline. (Sources: markets.md, yfinance, CBOT/FinancialContent)",
-      "sources": ["markets.md", "yfinance", "CBOT/FinancialContent"],
+      "sources": [
+        "markets.md",
+        "yfinance",
+        "CBOT/FinancialContent"
+      ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "Crisis premium DEFLATING in equities: CF Industries -2.2%, Nutrien -10.5% monthly. De-escalation = Hormuz reopening = Middle East fertilizer supply (Qatar, Saudi, UAE, Bahrain = 20% of global trade) resumes. CF had been up 63% YTD on war premium; now giving back. BUT physical urea STILL at $650+/mt — equity market AHEAD of physical market pricing de-escalation that hasn't occurred. 2.3M tonnes production lost. If talks fail, equity snap-back. (Sources: yfinance, Argus/CRU)",
+      "sources": [
+        "yfinance",
+        "Argus",
+        "CRU"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [

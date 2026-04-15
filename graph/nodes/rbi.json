@@ -3,8 +3,8 @@
   "name": "Reserve Bank of India",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
-  "summary": "Rate cut pathway AMBIGUOUS. India March CPI 3.40% — below consensus 3.48%, within 2-6% comfort band. 'Transitory' narrative survives for now. BUT imported inflation at 6.49% (43% of CPI) = crisis import cost channel is dominant driver, and worsens with sustained $100+ oil. Brent fell back to $97.98 on Trump 'Iran deal' CLAIM — if sustained below $100, June cut pathway cautiously reopens. However: RBI's FY27 4.6% projection looks conservative given blockade; every Rs 10 fuel hike = 20-30bps CPI; Fed hike probability >50% removes external cover. Shell hiked diesel Rs 25/litre already. NOP cap compliance complete.",
+  "last_updated": "2026-04-15",
+  "summary": "Rate cut pathway COMPLICATED by triple squeeze. Headline Brent at $95 (second session below $100) and March PPI relief suggest easing, but physical reality worse: Russian oil waiver EXPIRED April 11, Iran waiver expires April 19 — India's refiners may face higher effective costs despite lower futures. CPI 3.40% below consensus, within 2-6% comfort band, but imported inflation at 6.49%. Shell hiked diesel Rs 25/litre. Fed hike probability >50% removes external cover. NOP cap compliance complete. Every Rs 10 fuel hike = 20-30bps CPI.",
   "signals": [
     {
       "date": "2026-03-04",
@@ -246,14 +246,36 @@
     {
       "date": "2026-04-13",
       "content": "Rate cut pathway DESTROYED by US naval blockade. Brent surged to $102.20 (+7.4%) — far above RBI's $85 baseline and the $95 threshold that made June cut plausible. US March CPI 3.3% with 0.9% monthly jump (biggest since June 2022). Fed hike probability crossed 50% for first time — Cleveland Fed warned hike possible. Governor Malhotra's dovish forward guidance ('interest rates likely to remain low in medium to long term') now contradicted by every macro variable. India March CPI releasing today (consensus 3.4%). If CPI prints hot AND oil stays above $100, RBI faces forced hawkish pivot at June MPC. Bank Nifty -1.7% as rate cut narrative collapses. India 10Y expected to push above 7% next session. (Sources: RBI policy statement, BLS, CME FedWatch, CNBC, market data)",
-      "sources": ["RBI policy statement", "BLS", "CME FedWatch", "CNBC", "market data"],
+      "sources": [
+        "RBI policy statement",
+        "BLS",
+        "CME FedWatch",
+        "CNBC",
+        "market data"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-14",
       "content": "India March CPI confirmed at 3.40% (up from 3.21% in February, 14-month high) — BELOW Reuters consensus of 3.48% (source: PIB April 13, SBI Research April 14). CPI remains within RBI's 2-6% comfort band. The 'transitory' narrative survives for now. However, the composition is alarming: imported inflation hit 6.49% (up from 6.35%), now contributing 43% of overall CPI. Core inflation stable at 3.38%. The crisis-driven import cost channel is the dominant inflation driver. RBI's FY27 CPI projection of 4.6% (set April 8) looks conservative given the blockade — oil oscillating around $100 keeps upside risk elevated. Every Rs 10 fuel price hike adds 20-30 bps to headline CPI. Shell has already hiked diesel Rs 25/litre; state OMCs absorbing Rs 8-10/litre in under-recoveries. Fed hike probability crossed 50% for year-end (CME FedWatch) — 'some' FOMC officials supporting hike language. Fed trapped in stagflation, removing external cover for RBI dovishness.",
-      "sources": ["PIB", "SBI Research", "Reuters", "NDTV Profit", "CME FedWatch", "FOMC minutes"],
+      "sources": [
+        "PIB",
+        "SBI Research",
+        "Reuters",
+        "NDTV Profit",
+        "CME FedWatch",
+        "FOMC minutes"
+      ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "Rate cut pathway SLIGHTLY reopened by Brent falling to $95 (second session below $100) and March PPI relief (+0.5% vs 1.1% expected). BUT new COMPLICATION: Russian oil waiver expired April 11, Iran waiver expires April 19 — if India cannot buy Russian or Iranian crude, it faces supply constraint that keeps physical oil costs elevated REGARDLESS of Brent futures price. The triple squeeze makes RBI's decision more complex: headline Brent suggests easing, but physical oil costs for Indian refiners may not follow futures down. Shell already hiked diesel Rs 25/litre. CPI 3.40% below consensus but imported inflation 6.49% (43% of CPI). Fed hike probability >50% removes external cover for RBI cuts. (Sources: CNBC, market data, BusinessToday)",
+      "sources": [
+        "CNBC",
+        "BusinessToday"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
@@ -262,26 +284,26 @@
       "type": "monetary_policy",
       "context": "March CPI 3.40% below consensus, within comfort band. But imported inflation 6.49% (43% of CPI) = crisis cost channel dominant. FY27 4.6% projection conservative with blockade. NOP cap compliance done. June cut pathway ambiguous — oil direction decides.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 15,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 16,
+      "weight": 10
     },
     {
       "to": "inr-usd",
       "type": "intervention",
       "context": "NOP cap compliance complete per Malhotra. INR at Rs93.28 (offshore). Forex reserves below $700B. Approached 93.50 trigger April 13 (93.39), retreated on oil relief. Rs100/USD scenario now 'credible' per analysts.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 20,
-      "weight": 10.0
+      "last_activated": "2026-04-15",
+      "activation_count": 21,
+      "weight": 10
     },
     {
       "to": "nifty-50",
       "type": "rate_expectations",
       "context": "CPI 3.40% below consensus keeps June cut alive if oil cooperates. Bank Nifty 55,605 most leveraged to rate outcome. But Fed hike probability >50% and imported inflation 6.49% rising = external and domestic constraints on cutting.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 10,
+      "last_activated": "2026-04-15",
+      "activation_count": 11,
       "weight": 10
     },
     {
@@ -289,8 +311,8 @@
       "type": "policy_constraint",
       "context": "Brent at $97.98 — back below $100 after blockade spike. FY27 CPI 4.6% looks conservative given imported inflation 6.49% and oil oscillating around $100. Every Rs 10 fuel hike = 20-30bps CPI. Shell +Rs 25 diesel already passed through.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 13,
+      "last_activated": "2026-04-15",
+      "activation_count": 14,
       "weight": 10
     }
   ],

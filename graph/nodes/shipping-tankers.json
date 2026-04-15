@@ -3,8 +3,8 @@
   "name": "Shipping / Tanker Rates",
   "type": "sector",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
-  "summary": "Day 47 / Blockade Day 1. 31 VESSELS IN 24 HOURS vs 80-100 normal. Blockade operating primarily through deterrence — sanctioned tanker M/T Elpis transited (credibility test). EVENING CORRECTION: M/T Rich Starry initially reversed near Qeshm Island but made a second attempt and transited through the Strait by early Tuesday UTC. Al Jazeera: 3+ sanctioned vessels transited on Day 1. US is NOT interdicting sanctioned/shadow-fleet vessels — only deterring legitimate commercial shipping. Blockade credibility weaker than morning assessed. Over 150 tankers anchored outside strait. WAR RISK INSURANCE AT PROHIBITIVE PRICES (not suspended per Lloyd's List evening correction) — 2.5-5% hull value ($10-14M per VLCC). LMA: 88% of Lloyd's war market still underwriting. Price-based deterrence, not hard coverage withdrawal. Frontline +13.2% 1M, +37.7% 3M. VLCC TD3C ~$55,010/day. BOAT ETF +7.1% 1M.",
+  "last_updated": "2026-04-15",
+  "summary": "Day 48 / Blockade Day 2-3. War risk insurance EASING to 0.8-1.0% hull value (from 2.5% peak at blockade onset), still 4-6x pre-crisis (0.15-0.25%). LMA: 88% of Lloyd's war market still underwriting; 'safety not insurance' is the constraint. Blockade deterring legitimate commercial shipping while sanctioned/shadow-fleet vessels continue (3+ transited Day 1 per Kpler). Frontline -2.0% on de-escalation trade. VLCC TD3C ~$55,010/day (stabilized). Container freight: Asia-USWC ~$2,400/FEU (+40% pre-war). 150+ tankers anchored outside strait. UK-France conference April 18 (40+ countries) could create independent escort framework.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -293,21 +293,53 @@
     {
       "date": "2026-04-13",
       "content": "Blockade fundamentally reshaping shipping dynamics. VLCC rates ~$151K/day (down from $423K peak, still 3-4x pre-crisis). Over 150 tankers anchored outside Hormuz. Only ~3% of pre-war traffic transiting. War risk insurance expected to re-spike from ceasefire rates (0.35-0.45%) toward 1.5-3% on Islamabad failure. Container freight: Asia-USWC +11% WoW to ~$2,400/FEU. Maersk structural return to Red Sea via MECL service — first top-5 carrier re-entry since 2023.",
-      "sources": ["Kpler", "S&P Global", "Freightos", "SupplyChainBrain"],
+      "sources": [
+        "Kpler",
+        "S&P Global",
+        "Freightos",
+        "SupplyChainBrain"
+      ],
       "significance": "high"
     },
     {
       "date": "2026-04-14",
       "content": "BLOCKADE DAY 1 OPERATIONAL DATA [WITH EVENING CORRECTIONS]. 31 vessels transited Hormuz in 24 hours with 6 carrying cargo — a fraction of normal ~80-100/day but marginally higher than near-zero expected. Comoros-registered sanctioned tanker M/T Elpis (Iran shadow fleet) successfully transited AFTER blockade took effect — US Navy did NOT intercept, testing blockade credibility. M/T Ostria (Botswana-flagged, landlocked = false registry) changed destination 41 min after deadline. EVENING CORRECTION: M/T Rich Starry (Malawi-flagged, Chinese-owned, ~250K bbl methanol from Hamriyah) initially reversed course off Qeshm Island but made a SECOND ATTEMPT in the evening and appears to have transited through the Strait by early Tuesday UTC. Al Jazeera: 'at least three vessels, including two US-sanctioned tankers' entered the Gulf on Day 1. Combined with Elpis, 3+ sanctioned vessels transited — blockade credibility significantly weaker than morning assessed. US is NOT interdicting sanctioned/shadow-fleet vessels, only deterring legitimate commercial shipping. Perverse outcome: Iran's illicit oil network continues while legitimate trade is strangled. Over 150 tankers anchored outside strait (source: Bloomberg, CBS News, MarineTraffic, Fortune). EVENING CORRECTION ON INSURANCE: WAR RISK INSURANCE IS NOT SUSPENDED — Lloyd's List clarifies P&I clubs have NOT cancelled war risk cover. Coverage available but at prohibitive prices: 2.5-5% hull value ($10-14M per VLCC). LMA: 88% of Lloyd's marine war market has appetite to underwrite. Constraint is PRICE not AVAILABILITY. Blockade re-spiked premiums above pre-ceasefire levels. Kennedys Law: 'reshaped marine insurance risk landscape.' US DFC $40B reinsurance facility attempting to fill gap. Frontline +13.2% 1M, +37.7% 3M. VLCC TD3C ~$55,010/day. BOAT ETF +7.1% 1M. (Sources: Bloomberg, CBS News, MarineTraffic, Fortune, Lloyd's List, CNBC, Kennedys Law, Caixin, Al Jazeera, Nikkei Asia)",
-      "sources": ["Bloomberg", "CBS News", "MarineTraffic", "Fortune", "Lloyd's List", "CNBC", "Kennedys Law", "Caixin", "Al Jazeera", "Nikkei Asia"],
+      "sources": [
+        "Bloomberg",
+        "CBS News",
+        "MarineTraffic",
+        "Fortune",
+        "Lloyd's List",
+        "CNBC",
+        "Kennedys Law",
+        "Caixin",
+        "Al Jazeera",
+        "Nikkei Asia"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "Blockade Day 2-3: CENTCOM claims 'completely halted' — DISPUTED. 3+ sanctioned vessels transited Day 1 per Kpler/Al Jazeera. US NOT interdicting shadow fleet. War risk insurance EASING: 0.8-1.0% hull value (from 2.5% peak), still 4-6x pre-crisis levels (0.15-0.25%). LMA: 88% of Lloyd's war market has appetite to underwrite; 'safety concerns, not insurance availability' driving reduced traffic. Market pricing de-escalation: Frontline -2.0% to $34.16, BOAT ETF -0.9% to $40.94, XLE -2.0%. Energy complex selling on 'deal within days' expectations, not physical reality. VLCC rates ~$55,010/day (stabilized from $206K peak). Container freight: Asia-USWC +11% to ~$2,400/FEU (+40% since pre-war). Over 150 tankers anchored outside Hormuz. (Sources: CENTCOM, Al Jazeera/Kpler, Lloyd's List, LMA, Baltic Exchange/Seatrade, Freightos, yfinance)",
+      "sources": [
+        "CENTCOM",
+        "Al Jazeera",
+        "Kpler",
+        "Lloyd's List",
+        "LMA",
+        "Baltic Exchange",
+        "Seatrade",
+        "Freightos",
+        "yfinance"
+      ],
       "significance": "high"
     }
   ],
   "current": {
-    "price": "VLCC: ~$55,010/day; Frontline $34.84; BOAT ETF $41.31",
-    "delta_1d": "Frontline +1.5%; BOAT +0.9%",
-    "delta_1m": "Frontline +13.2%; BOAT +7.1%",
-    "delta_3m": "Frontline +37.7%; BOAT +22.6%"
+    "price": "VLCC: ~$55,010/day; Frontline $34.16; BOAT ETF $40.94",
+    "delta_1d": "Frontline -2.0%; BOAT -0.9%",
+    "delta_1m": "Frontline +13.2%; BOAT +8.2%",
+    "delta_3m": "Frontline +35.8%; BOAT +22.2%"
   },
   "edges": [
     {
@@ -315,8 +347,8 @@
       "type": "route_dependency",
       "context": "Blockade Day 1: 31 vessels in 24 hours vs 80-100 normal. Over 150 tankers anchored outside strait. EVENING CORRECTION: War risk insurance at prohibitive prices (not suspended) — 2.5-5% hull, $10-14M per VLCC. 3+ sanctioned vessels transited including Rich Starry (second attempt); US not interdicting shadow fleet. Physical bottleneck via price deterrence.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 21,
+      "last_activated": "2026-04-15",
+      "activation_count": 22,
       "weight": 10
     },
     {
@@ -324,8 +356,8 @@
       "type": "transport_cost",
       "context": "Frontline +3.3% ON oil crash — anomaly. Physical market at $120+ vs futures at $96. Tanker stocks pricing physical reality. War risk insurance still 7-10x pre-war. Shipping disruption persists regardless of futures.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 13,
+      "last_activated": "2026-04-15",
+      "activation_count": 14,
       "weight": 10
     },
     {
