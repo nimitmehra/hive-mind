@@ -172,31 +172,37 @@
         "Anadolu Agency"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-15",
+      "content": "Day 48 without public video or audio appearance. Conflicting reports persist: Times of Israel ('disfigured, treated for severe wounds'), Asharq al-Awsat ('unconscious, incapacitated'), The Week India ('may have lost leg, but mentally sharp, meetings via audio'), i24News ('in a coma'). No resolution. CIA/DIA: Iran in 'deep command and control crisis.' Written messages attributed to Mojtaba Khamenei continue — no video, no audio. The silence IS the data. (Sources: Times of Israel, Asharq al-Awsat, The Week India, i24News, Amwaj Media)",
+      "sources": ["Times of Israel", "Asharq al-Awsat", "The Week India", "i24News", "Amwaj Media"],
+      "significance": "medium"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "supreme_leader",
-      "context": "Day 47+. Reuters: 'severe and disfiguring wounds,' possible leg loss, conscious but incapacitated. Decision-making through proxies (Velayati, IRGC). Multi-vocal response may reflect absent unified authority. IRGC de facto running the country. No video/audio ever.",
+      "context": "Day 48. Reuters: 'severe and disfiguring wounds,' possible leg loss, conscious but incapacitated. Decision-making through proxies (Velayati, IRGC). Multi-vocal response may reflect absent unified authority. IRGC de facto running the country. No video/audio ever.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 6,
+      "last_activated": "2026-04-15",
+      "activation_count": 7,
       "weight": 10.0
     },
     {
       "to": "strait-of-hormuz",
       "type": "closure_order",
-      "context": "Day 47. Velayati (proxy for Supreme Leader's office): 'key to Strait of Hormuz firmly in Iran's hands' (CONFIRMED). April 10 written statement: 'new phase of management' of Hormuz. Hardest line on Hormuz permanence. Channeled through Velayati rather than direct statement — consistent with incapacitation.",
+      "context": "Day 48. Velayati (proxy for Supreme Leader's office): 'key to Strait of Hormuz firmly in Iran's hands' (CONFIRMED). April 10 written statement: 'new phase of management' of Hormuz. Hardest line on Hormuz permanence. Channeled through Velayati rather than direct statement — consistent with incapacitation.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 4,
+      "last_activated": "2026-04-15",
+      "activation_count": 5,
       "weight": 8.4
     }
   ],
   "trigger_points": [
     {
-      "condition": "Mojtaba Khamenei appears on video/audio (proof of life and command) — UPDATE 2026-04-14: Reuters reports 'severe and disfiguring wounds,' possible leg loss. Velayati channeling statements as proxy. Day 47+ of no appearance. Trigger remains UNFIRED.",
+      "condition": "Mojtaba Khamenei appears on video/audio (proof of life and command) — UPDATE 2026-04-15: Day 48. Reuters reports 'severe and disfiguring wounds,' possible leg loss. Velayati channeling statements as proxy. Conflicting reports persist (ToI, Asharq al-Awsat, Week India, i24News). Trigger remains UNFIRED.",
       "cascade": [
         "iran",
         "strait-of-hormuz"
