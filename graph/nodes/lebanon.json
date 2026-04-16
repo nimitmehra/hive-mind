@@ -3,8 +3,8 @@
   "name": "Lebanon",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-15",
-  "summary": "Day 48. FIRST DIRECT TALKS WITH ISRAEL SINCE 1993 — Ambassador Moawad participated, joint statement issued agreeing to 'launch direct negotiations.' Potential to 'unlock significant reconstruction assistance.' BUT Hezbollah (Qassem: 'futile'; Fadlallah: 'will not abide by any agreements') pre-emptively rejected. The structural impossibility: Lebanon's government engages diplomatically while its most powerful armed group refuses and can veto implementation militarily. Iran named Lebanon ceasefire as Islamabad precondition — suggesting Lebanon track is linked to broader US-Iran deal. On ground: IDF near-completion Bint Jbeil capture, 5 divisions deployed. 2,055 killed, 6,588 wounded, 1.2M displaced since March 2.",
+  "last_updated": "2026-04-16",
+  "summary": "Day 49. MAJOR CASUALTY ESCALATION: Lebanon Health Ministry reports 182 killed in Israeli strikes Wednesday April 15 — HIGHEST single-day toll of Israel-Hezbollah war. Cumulative: 2,237+ killed since March 2. Hezbollah responded with 105 attack waves (Alma Research — most intense day of 2026 war). Netanyahu announced Israel EXPANDING IDF-occupied area in Lebanon toward Syrian border. Senior US official told Haaretz Trump 'would welcome end of hostilities in Lebanon as part of peace agreement between Israel and Lebanon' even if 'not part of peace negotiations with Iran' — US DE-LINKING Lebanon from Iran track, contrary to Ghalibaf's Islamabad insistence. Lebanese state diplomacy continues April 14-15 Rubio-hosted talks, but Hezbollah refuses participation. Haaretz flagged contradiction: IDF separately assesses Hezbollah unlikely to accept truce without Iran agreement. 1.2M displaced (25% of population).",
   "signals": [
     {
       "date": "2026-03-03",
@@ -270,25 +270,38 @@
         "Euronews"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-16",
+      "content": "CONFIRMED: Lebanon Health Ministry reported 182 killed in Israeli strikes on Wednesday April 15 — HIGHEST single-day death toll of the Israel-Hezbollah war. Cumulative toll since March 2 rises to ~2,237+ killed. Netanyahu announced Israel is EXPANDING the IDF-occupied area in Lebanon toward parts of the Syrian border. IDF Chief Zamir 'approved further plans' for Lebanon operations. Hezbollah responded with 105 attack waves (Alma Research). Senior US official told Haaretz Trump 'would welcome the end of hostilities in Lebanon as part of a peace agreement between Israel and Lebanon' even if 'this is not something we have asked for nor is it part of the peace negotiations with Iran' — US DE-LINKING Lebanon from the Iran track, contrary to Ghalibaf's Islamabad insistence. Simultaneously Haaretz reported IDF assesses Hezbollah unlikely to accept truce without Iran agreement — contradicts US official's de-linking framing. Lebanese state diplomacy continues independently of Hezbollah, advancing despite pre-emptive rejection. (Sources: Wikipedia 2026 Lebanon war timeline, Times of Israel, Haaretz, Xinhua, Middle East Eye, Al Jazeera)",
+      "sources": [
+        "Wikipedia",
+        "Times of Israel",
+        "Haaretz",
+        "Xinhua",
+        "Middle East Eye",
+        "Al Jazeera"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "hezbollah",
       "type": "operating_territory",
-      "context": "Day 44. Hezbollah escalated: 100+ rockets since ceasefire, 70 on April 10, struck Ashdod (200km — strategic depth). Israel struck Nabatieh — 13 State Security (government forces) killed, largest attack on city since war. Targeting expanded from Hezbollah to Lebanese government apparatus.",
+      "context": "Day 49. Hezbollah 105 attack waves April 15 = most intense single day of 2026 war (Alma Research). Hezbollah political council: 'not bound by what they agree to.' Rubio-led Israel-Lebanon talks proceed WITHOUT Hezbollah participation. Gap between Lebanese state diplomacy and Hezbollah military reality is the structural constraint; US DE-LINKING Lebanon from Iran track per Haaretz.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 18,
+      "last_activated": "2026-04-16",
+      "activation_count": 19,
       "weight": 10
     },
     {
       "to": "israel",
       "type": "invasion_target",
-      "context": "Day 47. Talks confirmed April 15 but structurally impossible — Hezbollah rejected, agenda disagreement, Netanyahu demands disarmament. IDF near-completion Bint Jbeil. 2,055 killed, 6,588 wounded, 1.2M displaced.",
+      "context": "Day 49. 182 Lebanese killed Wednesday April 15 = highest single-day of war. Cumulative ~2,237+ killed. Netanyahu announced IDF expanding occupied area toward Syrian border. Zamir 'approved further plans' (planning ≠ executing). 1.2M displaced. Rubio talks produced joint statement but Hezbollah refuses; US-Iran track de-linkage offers Lebanon peace independent of Iran deal.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 20,
+      "last_activated": "2026-04-16",
+      "activation_count": 21,
       "weight": 10
     }
   ],

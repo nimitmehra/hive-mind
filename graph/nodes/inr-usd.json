@@ -3,13 +3,13 @@
   "name": "INR/USD Exchange Rate",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-15",
-  "summary": "Rs93.39 (-1.6% strengthening). Strongest single-day move — driven mechanically by Brent below $100 (reducing oil import dollar demand) + DXY weakness (98.24, below 99). First ALIGNED Nifty-INR session since ceasefire day, breaking 4-session divergence. NOP cap compliance complete. BUT: NOT structural — no FII re-entry, forex reserves below $700B, FII CY2026 outflows Rs 1.79 lakh crore. Rs93.50 trigger retreated further. 'Rs 100/USD by June' credible stress scenario if blockade intensifies. TRIPLE SQUEEZE adds new risk: Russian oil waiver EXPIRED April 11, Iran waiver expires April 19 — both waivers lapsing removes India's ability to buy alternative crude without secondary sanctions risk.",
+  "last_updated": "2026-04-16",
+  "summary": "Day 49. Rs93.29 WEAKENED slightly +0.1% vs yesterday's Rs93.39 close — tailwind from yesterday has faded, Iran waiver expiry (April 19, 3 days) starting to pressure the rupee. DXY 97.95 flat (+0.0%) — dollar refusing to weaken into the deal, consistent with market quietly hedging deal failure. EUR/USD 1.18 (stable). Gold +1.0% against flat dollar = hedge re-engagement. Forex reserves <$700B constrains RBI intervention capacity. FII CY2026 outflows Rs 1.79 lakh crore; +Rs923 crore single-session April 15 inflow is technical short-cover, not structural re-entry. 'Rs 100/USD by June' remains credible stress scenario. If Iran waiver expires without extension April 19: INR to Rs94+. Rs93.50 trigger not yet hit but approach tightened.",
   "current": {
-    "price": "Rs93.39",
-    "delta_1d": "-1.6% (strengthening)",
-    "delta_1m": "+1.2%",
-    "delta_3m": "+3.6%"
+    "price": "Rs93.29",
+    "delta_1d": "+0.1% (weakening)",
+    "delta_1m": "+1.0%",
+    "delta_3m": "+3.2%"
   },
   "price_snapshots": [
     {
@@ -269,6 +269,16 @@
       "sources": [
         "TradingEconomics",
         "yfinance"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-16",
+      "content": "INR at Rs93.29 WEAKENED slightly +0.1% vs yesterday's Rs93.39 close — tailwind faded, Iran waiver expiry pressure starting. DXY 97.95 flat (+0.0% / -0.1%) — dollar REFUSING to weaken into the deal. Deal euphoria should weaken dollar (less safe-haven demand); it didn't. Either dollar responding to higher real yields (10Y +3bps to 4.28%) competing with the safe-haven pressure out, or market quietly hedging deal failure. Gold +1.0% against flat dollar = consistent with the latter (hedge re-engagement). Forex reserves <$700B constrains RBI intervention. FII +Rs923 crore single-session April 15 inflow vs CY2026 >Rs1.79 lakh crore SOLD = technical short-cover not structural. If Iran waiver expires without extension April 19: INR to Rs94+. Rs93.50 trigger approach tightened but not crossed. (Sources: yfinance, TradingEconomics, Business Standard)",
+      "sources": [
+        "yfinance",
+        "TradingEconomics",
+        "Business Standard"
       ],
       "significance": "high"
     }

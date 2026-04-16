@@ -3,8 +3,8 @@
   "name": "Pakistan",
   "type": "country",
   "created": "2026-03-30",
-  "last_updated": "2026-04-15",
-  "summary": "Day 48. SECOND ROUND OF ISLAMABAD TALKS ACTIVELY BEING ORGANIZED — PAKISTAN'S MEDIATOR ROLE DEEPENING. AP citing 5 sources: US and Iranian teams returning to Islamabad this week, delegations keeping Friday-Sunday (April 17-19) open. Pakistan proactively offered to host Round 2 'even before the ceasefire ended.' PM Sharif heading to Riyadh and Ankara for shuttle diplomacy ahead of potential talks. A mediating country diplomat confirmed both sides agreed to more talks — Islamabad and Geneva being considered as venues. This is the LAST negotiating window before ceasefire expires April 21. Pakistan's dual role: mediator for US-Iran diplomacy AND military partner (13,000 troops + fighter jets to Saudi Arabia). Wilson Center's Kugelman validated mediator role: 'defied the skeptics.' 6-7 ceasefire days remain.",
+  "last_updated": "2026-04-16",
+  "summary": "Day 49. MUNIR TEHRAN SHUTTLE COMPLETED — Pakistan Army Chief Field Marshal Asim Munir led delegation (Interior Minister Naqvi, FM officials, security/technical experts) to Tehran April 15 to deliver US message to FM Araghchi and prepare framework for Round 2. First CONFIRMED bilateral US-proxy contact between Washington's channel and Tehran since Islamabad collapsed April 12. Araghchi's post-meeting 'commitment to promoting peace and stability in the region remains firm' is most conciliatory FM-level Iranian language since April 8. White House April 15 via Leavitt: Round 2 'very likely' at same Islamabad venue. Shuttle format is classic post-collapse revival pattern that worked for April 6-8 ceasefire. No date confirmed; AP sources suggest April 17-20 window. Pakistan's mediator role now extends to shuttle diplomacy — Munir carrying US message to Iran, delegation-level bilateral statements. Pakistan's dual role intact: mediator for US-Iran AND military partner (13,000 troops + fighter jets to Saudi Arabia). 5-6 ceasefire days remain.",
   "signals": [
     {
       "date": "2026-03-26",
@@ -175,25 +175,39 @@
       "content": "Day 48. SECOND ROUND TALKS ACTIVELY BEING ORGANIZED — MULTI-SOURCE CONFIRMED [CONFIRMED under discussion, NOT yet scheduled]. Full source constellation: (1) AP/Reuters citing 5 sources: US and Iranian teams returning to Islamabad this week, delegations keeping Friday-Sunday (April 17-19) open. (2) White House official told TIME: 'Future talks are under discussion but nothing has been scheduled at this time.' (3) CNN independently reported April 13: 'US eyes potential second round of in-person talks with Iran as blockade takes hold.' (4) CNBC April 14: White House confirmed discussions. (5) A mediating country diplomat told reporters both sides 'agreed to more talks' but location, timing, and delegation composition not decided — Islamabad and Geneva both under consideration. (6) Pakistan proactively offered to host Round 2 'even before the ceasefire ended' (AP). (7) PM Sharif heading to Riyadh and Ankara for shuttle diplomacy — Al Jazeera framed as 'amid prospect of new US-Iran talks.' (8) A source involved in the first talks said they were '80% there' before hitting decisions requiring principal-level authority. (9) Pakistan Today (April 15) reported 'US-Iran set for possible second round of Islamabad talks this week.' Iran's FM Araghchi posted on X that Iran was 'inches away from Islamabad MoU' before encountering 'maximalism' — blame-framing that preserves, not closes, the door. Iran has NOT publicly rejected a second round. The Friday-Sunday window is effectively the LAST opportunity before ceasefire expires April 21. Pakistan's mediator role now extends beyond hosting to active shuttle diplomacy (Sharif to Riyadh/Ankara).",
       "sources": ["AP/Reuters", "TIME", "CNN", "CNBC", "Al Jazeera", "PBS", "Pakistan Today", "Israel Hayom"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-16",
+      "content": "CONFIRMED ACTION: Field Marshal Asim Munir led Pakistani delegation — including Interior Minister Mohsin Naqvi, Foreign Ministry officials, and security/technical experts — to Tehran on April 15 to deliver a US message to Araghchi and prepare the framework for a second round of talks. Araghchi received the delegation; press TV confirmed meeting; Bloomberg/Al-Monitor/PBS/Tribune/Asianet/Geo TV/Middle East Monitor corroborated. Araghchi publicly thanked Pakistan for hosting first round and stated Iran's 'commitment to promoting peace and stability in the region remains firm' — most conciliatory FM-level Iranian language since April 8 SNSC ceasefire acceptance. White House confirmed April 15 via Leavitt that next round of US-Iran talks 'very likely' at same Islamabad venue. This is the FIRST CONFIRMED bilateral contact between Washington's proxy (Pakistan) and Tehran since Islamabad collapsed April 12, and directly contradicts Vance's April 12 'final and best offer' framing. Shuttle pattern (mediator carrying message from side A to side B, returning) is classic post-collapse revival format — worked for the Islamabad Accord April 6-8 and is now being re-run. Munir's visit is the OPERATIONAL EVIDENCE that Trump's April 14-15 'close to over' posture shift has substance. (Sources: Press TV, Bloomberg, Al-Monitor, PBS, Tribune India, Geo TV, Middle East Monitor)",
+      "sources": [
+        "Press TV",
+        "Bloomberg",
+        "Al-Monitor",
+        "PBS",
+        "Tribune India",
+        "Geo TV",
+        "Middle East Monitor"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "mediation_channel",
-      "context": "Day 41. Sharif contradicted Trump/Netanyahu on Lebanon scope — structural fault line for Friday talks. Pakistan now Iran's primary diplomatic conduit to US. Ceasefire framework's credibility rests on Pakistan's mediation.",
+      "context": "Day 49. Munir Tehran shuttle April 15 — CONFIRMED ACTION. Delivered US message to Araghchi. Araghchi's 'commitment to peace and stability' statement most conciliatory FM-level language since April 8. Pakistan's mediator role now operationalized as physical shuttle, not just message relay. Round 2 venue 'very likely' Islamabad per Leavitt.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 10,
+      "last_activated": "2026-04-16",
+      "activation_count": 11,
       "weight": 10.0
     },
     {
       "to": "united-states",
       "type": "mediation_channel",
-      "context": "Day 41. Sharif's Lebanon scope contradiction with Trump creates structural fault line ahead of Friday talks. Vance leading US delegation. Pakistan's zero-skepticism triumphalist media coverage risks overpromising.",
+      "context": "Day 49. Munir carrying US message to Tehran — CONFIRMED shuttle format resumed post-Islamabad collapse. White House via Leavitt confirmed Round 2 'very likely' Islamabad venue. Pakistan's Sharif continues Riyadh/Ankara shuttle diplomacy. Shuttle pattern is same post-collapse revival format that worked April 6-8.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 9,
+      "last_activated": "2026-04-16",
+      "activation_count": 10,
       "weight": 10.0
     },
     {

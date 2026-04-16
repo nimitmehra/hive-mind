@@ -3,8 +3,8 @@
   "name": "Saudi Arabia",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-14",
-  "summary": "Day 47. East-West pipeline restored to full capacity ~7M bpd to Yanbu (CONFIRMED) — critical Hormuz workaround. Pakistan sent 13,000 troops + fighter jets as security commitment (CONFIRMED). Named as one of 5 Arab states Iran demands reparations from (REPORTED). Aramco damage persists: 600K bpd production lost, SATORP shut, record $19.50 OSP premium. Tadawul +3.8% 1M, +4.9% 3M — oil windfall pricing. Pipeline restoration + Pakistan troop deployment strengthen Saudi's position as the only Gulf producer with a functioning alternative export route.",
+  "last_updated": "2026-04-16",
+  "summary": "Day 49. EAST-WEST PIPELINE NOW FULLY RESTORED post-drone-attack: Iranian drone strike April 9 had reduced throughput by 700K bpd; restoration to full 7M bpd confirmed April 12 — fastest major operationally-significant supply-side repair of the war. Yanbu port bottleneck remains the BINDING constraint (68% of VLCCs experienced >36-hr anchorage delays in March; port nominal capacity 4-4.5M bpd vs 7M bpd pipeline inflow). Physical-futures gap ($132+ Dated Brent vs $95 futures) prices port as binding, not pipeline. MBS notable ABSENCE from week's de-escalation signals — UAE moved first with Mansour-Ghalibaf call April 15; Qatar running mediation; Oman earlier. Saudi Arabia NOT making similar high-level Iran call publicly. Possibly positioning for post-ceasefire leverage given Sadara $20B JV at zero, Aramco-Dow exposure, Eastern Province missile exposure. Aramco damage persists: 600K bpd production lost, SATORP shut, record $19.50 OSP premium. TASI +0.9% to 11,589 (+6.0% 1M). Pakistan 13,000 troops + fighter jets providing security. IMF cut 2026 MENA growth to 1.1% hits Saudi-dependent supply chains.",
   "signals": [
     {
       "date": "2026-03-01",
@@ -196,6 +196,24 @@
       "content": "EAST-WEST PIPELINE RESTORED TO FULL CAPACITY ~7M BPD TO YANBU [CONFIRMED]. Saudi Arabia's critical Hormuz workaround — the East-West oil pipeline — has been restored to full capacity, diverting crude to the Red Sea port of Yanbu. Additionally, Pakistan has sent 13,000 troops and fighter jets to Saudi Arabia as a post-ceasefire security commitment (source: Al Jazeera April 12, CS Monitor April 1). Saudi Arabia named as one of 5 Arab states from which Iran is demanding reparations for facilitating US-Israeli strikes — an escalatory diplomatic action directed at regional neighbors (source: Middle East Eye, The National, April 13-14). Pipeline restoration + Pakistan troop deployment significantly strengthen Saudi's position as the only Gulf producer with a functioning alternative export route through this crisis.",
       "sources": ["Al Jazeera", "CS Monitor", "Middle East Eye", "The National"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-16",
+      "content": "UPDATED CONTEXT: East-West pipeline was restored to full 7M bpd capacity on March 11, then reduced by 700K bpd after April 9 Iranian drone attack on pumping station, then FULLY RESTORED to 7M bpd by April 12 — fastest major operationally-significant supply-side repair of the war. Yanbu port bottleneck remains the binding constraint: 68% of VLCCs experienced >36-hour anchorage delays in March; port nominal capacity 4-4.5M bpd vs 7M bpd pipeline inflow. Pipeline restoration means more oil reaches Red Sea waters than any point since the blockade began, but the physical-futures gap ($132 Dated Brent vs $95 futures) signals the market is pricing the port bottleneck as the binding constraint, NOT the pipeline. If Yanbu is the bottleneck, physical-futures gap persists regardless of pipeline status. Iran has NOT claimed follow-up strike, suggesting IRGC preserving ceasefire window through Round 2. (Sources: Al Jazeera April 12, The National, Wikipedia East-West pipeline, Fortune March 28, Houseofsaud)",
+      "sources": ["Al Jazeera", "The National", "Fortune", "Houseofsaud"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-16",
+      "content": "MBS NOTABLE ABSENCE from week's de-escalation signals (analyst observation, not direct quote). UAE Deputy PM Mansour called Ghalibaf April 15 (FIRST high-level UAE-Iran contact); Qatar running mediation role; Oman made earlier outreach. Saudi Arabia has NOT made similar high-level Iran call publicly. Arab News quieter than expected on Iran de-escalation story. Al Arabiya ran counter-blockade coverage without aggressive editorial amplification. Previous Saudi-Iran FM call reported April 10 (The National) was the only direct Saudi outreach; MBS himself has been quieter than Abu Dhabi on every de-escalation signal of the past week. Interpretation: Saudi possibly positioning for post-ceasefire leverage given Sadara $20B Aramco-Dow JV at zero, Eastern Province missile exposure, Aramco production losses. Saudi-Iran FM call + UAE-Ghalibaf call = Gulf institutional de-escalation ramping, but does NOT resolve Hormuz/nuclear/reparations. (Sources: Arab News, Al Arabiya, Al-Monitor, The National, analyst assessment)",
+      "sources": ["Arab News", "Al Arabiya", "Al-Monitor", "The National"],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-16",
+      "content": "IMF cut 2026 MENA growth forecast to 1.1% from 3.9% — 2.8 pp cut, largest regional downgrade IMF published in 2026. Framing: 'further escalation could push global economy toward recession' — exceeds OECD/World Bank language. Drivers include Saudi/UAE/Kuwait/Bahrain infrastructure damage: Sadara $20B Aramco-Dow JV at zero capacity, Aramco 600K bpd production loss, East-West pipeline recovery cycle, refining capacity impairment (SATORP, Samref, Ras Tanura, Riyadh). Saudi MoF has not released counter-forecast. (Sources: IMF WEO April 2026, Al Jazeera, CNBC)",
+      "sources": ["IMF WEO", "Al Jazeera", "CNBC"],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -220,11 +238,11 @@
     {
       "to": "strait-of-hormuz",
       "type": "bypass_infrastructure",
-      "context": "East-West pipeline restored to FULL capacity ~7M bpd to Yanbu (CONFIRMED April 14). Pakistan 13,000 troops + fighter jets providing security. Critical Hormuz workaround — only functioning alternative export route.",
+      "context": "Day 49. East-West pipeline fully restored to 7M bpd April 12 after April 9 Iranian drone attack (-700K bpd); fastest major repair of war. Yanbu port bottleneck is the BINDING constraint (4-4.5M bpd port capacity vs 7M bpd pipeline inflow, 68% VLCC delays >36hr). Physical-futures gap ($132 vs $95) prices port as binding. Pakistan 13,000 troops + fighter jets providing security.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 9,
-      "weight": 9.0
+      "last_activated": "2026-04-16",
+      "activation_count": 10,
+      "weight": 9.5
     },
     {
       "to": "iran",

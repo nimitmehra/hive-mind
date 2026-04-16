@@ -3,13 +3,13 @@
   "name": "India",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-15",
-  "summary": "Day 48. TRIPLE SQUEEZE: Russian oil waiver EXPIRED April 11 + Iran waiver expires April 19 (4 days) + Hormuz blockade physically disrupts supply. Most severe energy supply constraint of the crisis. Strategic reserves only ~30 days. Nifty closed at 24,231 (+1.6%) ABOVE 200-DMA (24,050) — first session above 200-DMA since April 10 and first ALIGNED Nifty-INR session since ceasefire day (INR strengthened to 93.39, -1.6%). Relief rally, not recovery: ~80% crisis-linked, FII flow flip has NOT happened (Rs 48,213 crore sold in April's first 11 days; CY2026 total Rs 1.79 lakh crore). JPMorgan cut Nifty target to 27,000. S&P Global: India's 'strong fundamentals' cushion shock but growth may slow up to 80 bps.",
+  "last_updated": "2026-04-16",
+  "summary": "Day 49. TRIPLE SQUEEZE TIGHTENING: Iran waiver expires April 19 — 3 DAYS (tightened from 4). US Treasury reiterated April 15 no extension. Russian waiver already expired April 11. ~2M barrels Iranian crude already arrived via Reliance-coordinated deliveries; 4 additional Iranian vessels sought clearance but deliveries will NOT complete before April 19. Nifty +0.3% to 24,300 (modest); Sensex +0.7% to 78,682; Bank Nifty +0.3% to 56,499. India MATERIALLY LAGGING Asia (Nikkei +2.2%, KOSPI +1.9%): triple squeeze specific to India. INR at Rs93.29 +0.1% WEAKENED slightly vs yesterday's Rs93.39 close — tailwind faded, waiver expiry starting to pressure rupee. FII flows still NET NEGATIVE: +Rs923 crore single-session April 15 inflow but CY2026 cumulative >Rs1.79 lakh crore SOLD. India 10Y GOI ~6.90% (6.85-7.00% range), 'broad-based selling on oil + geopolitical risk' per TE, FII debt outflows. IMF cut 2026 MENA growth to 1.1% — hits ~8M Indian diaspora remittance channel ($40B/yr, Kerala banking, Kochi/Hyderabad real estate). JPMorgan Nifty target 27,000 distant. Q4 FY26 earnings starting with mixed guidance.",
   "current": {
-    "price": "Nifty 24,231 / Sensex 78,111",
-    "delta_1d": "+1.6% / +1.6%",
-    "delta_1m": "+1.4% / +1.4%",
-    "delta_3m": "-5.8% / -6.7%"
+    "price": "Nifty 24,300 / Sensex 78,682",
+    "delta_1d": "+0.3% / +0.7%",
+    "delta_1m": "+2.8% / +3.5%",
+    "delta_3m": "-5.4% / -5.8%"
   },
   "signals": [
     {
@@ -491,25 +491,39 @@
         "yfinance"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-16",
+      "content": "TRIPLE SQUEEZE TIGHTENING: Iran waiver expires April 19 — 3 DAYS (tightened from 4). US Treasury reiterated April 15 no extension. ~2M barrels Iranian crude already reached India via Reliance-coordinated deliveries through Sikka and Paradip; 4 additional Iranian vessels sought clearance but deliveries will NOT complete before April 19. Nifty +0.3% to 24,300 vs Nikkei +2.2%/KOSPI +1.9% — India MATERIALLY LAGGING Asia. INR at Rs93.29 WEAKENED +0.1% vs yesterday's Rs93.39 close — tailwind faded, waiver expiry pressuring rupee. FII inflow April 15 +Rs923 crore SINGLE session vs CY2026 cumulative >Rs1.79 lakh crore SOLD = technical short-cover, not structural re-entry. India 10Y GOI ~6.90%, 'broad-based selling on oil + geopolitical risk' (TradingEconomics). Forex reserves <$700B constrains RBI intervention. IMF cut 2026 MENA growth to 1.1% — ~8M Indian diaspora in Gulf remit ~$40B/yr; Kerala banking + Hyderabad/Kochi real estate affected. Business Standard analytical framing: rally is technical (FII short-covering + Brent drop), NOT structural (FII re-entry). Single-session Rs 923 crore inflow does not erase Rs 1.79 lakh crore of CY2026 outflows. (Sources: BS, Livemint, CNBC India, Business Standard, Tribune, ANI, yfinance, IMF WEO)",
+      "sources": [
+        "Business Standard",
+        "Livemint",
+        "CNBC India",
+        "Tribune",
+        "ANI",
+        "yfinance",
+        "IMF WEO"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "brent-crude",
       "type": "import_dependency",
-      "context": "India imports 85-90% of crude. Brent at $97.98, back below $100 on Trump 'deal' claim after blockade spike to $103+. Imported inflation at 6.49% (43% of CPI). Every $10/bbl = ~$15B additional import bill. Shell +Rs 25 diesel, state OMCs absorbing Rs 8-10/litre.",
+      "context": "Day 49. India imports 85-90% of crude. Brent $95.05 +0.1%. Iran waiver expires April 19 (3 days), Russian waiver expired April 11, Hormuz blockade continues = triple squeeze on ~5.5M bpd imports. Strategic reserves ~160M barrels (~30 days). 2M bbl Iranian crude already arrived via Reliance; 4 more vessels sought but will not complete before April 19.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 22,
+      "last_activated": "2026-04-16",
+      "activation_count": 23,
       "weight": 10
     },
     {
       "to": "inr-usd",
       "type": "trade_balance",
-      "context": "INR at Rs93.28 (offshore, markets closed). Approached 93.50 trigger on April 13 (93.39) before oil relief pulled it back. FII CY2026 outflows Rs 1.79 lakh crore. Forex reserves below $700B. NOP cap compliance complete. 'Rs 100/USD by June' now credible per Outlook Money.",
+      "context": "Day 49. INR Rs93.29 weakened +0.1% vs yesterday's Rs93.39. Tailwind faded, waiver expiry pressuring rupee. FII April 15 +Rs923 crore single-session vs CY2026 Rs1.79 lakh crore SOLD = technical short-cover not structural. Forex reserves <$700B constrains RBI intervention. If Iran waiver expires without extension, INR to Rs94+. 'Rs 100/USD by June' credible.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 19,
+      "last_activated": "2026-04-16",
+      "activation_count": 20,
       "weight": 10
     },
     {
@@ -524,10 +538,10 @@
     {
       "to": "nifty-50",
       "type": "market_impact",
-      "context": "Nifty 23,843 (-0.9% April 13). 200-DMA broken on blockade. Markets closed April 14. FIIs sold Rs 48,213 cr in April's first 11 days. JPMorgan cut target to 27,000. If oil holds sub-$100 and Thursday talks confirmed, gap-up expected April 15.",
+      "context": "Day 49. Nifty +0.3% to 24,300 vs Nikkei +2.2%/KOSPI +1.9% — materially lagging Asia. Triple squeeze + waiver expiry April 19 is binary event. If waiver expires without extension: Nifty -1.5 to -2.5%, INR to Rs94+. If Round 2 announced: Nifty +1-2%. FII CY2026 -Rs 1.79 lakh crore.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 22,
+      "last_activated": "2026-04-16",
+      "activation_count": 23,
       "weight": 10
     },
     {

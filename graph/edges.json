@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15",
+  "last_updated": "2026-04-16",
   "edges": [
     {
       "from": "aluminum",
@@ -48,14 +48,14 @@
       "to": "fed",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "brent-crude",
       "to": "india",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "brent-crude",
@@ -258,14 +258,21 @@
       "to": "brent-crude",
       "weight": 10.0,
       "directness": 2,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "gold",
       "to": "fed",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
+    },
+    {
+      "from": "gold",
+      "to": "iran",
+      "weight": 3.0,
+      "directness": 2,
+      "last_activated": "2026-04-16"
     },
     {
       "from": "helium",
@@ -293,21 +300,21 @@
       "to": "iran",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "hezbollah",
       "to": "israel",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "hezbollah",
       "to": "lebanon",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "houthis",
@@ -342,7 +349,7 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "india",
@@ -356,7 +363,7 @@
       "to": "inr-usd",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "india",
@@ -370,7 +377,7 @@
       "to": "nifty-50",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "india",
@@ -433,14 +440,14 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "inr-usd",
       "to": "india",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "inr-usd",
@@ -468,7 +475,7 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "iran",
@@ -482,7 +489,7 @@
       "to": "hezbollah",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "iran",
@@ -496,7 +503,7 @@
       "to": "israel",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-11"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "iran",
@@ -507,10 +514,17 @@
     },
     {
       "from": "iran",
+      "to": "pakistan",
+      "weight": 10.0,
+      "directness": 1,
+      "last_activated": "2026-04-16"
+    },
+    {
+      "from": "iran",
       "to": "qatar",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-07"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "iran",
@@ -531,21 +545,21 @@
       "to": "strait-of-hormuz",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "iran",
       "to": "uae",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-09"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "iran",
       "to": "united-states",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "iraq",
@@ -615,7 +629,7 @@
       "to": "hezbollah",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "israel",
@@ -629,21 +643,21 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-11"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "israel",
       "to": "lebanon",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "israel",
       "to": "united-states",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "kuwait",
@@ -748,21 +762,21 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "nifty-50",
       "to": "india",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "nifty-50",
       "to": "inr-usd",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "nifty-50",
@@ -804,7 +818,7 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-09"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "pakistan",
@@ -825,7 +839,7 @@
       "to": "united-states",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-09"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "pezeshkian",
@@ -1000,14 +1014,14 @@
       "to": "strait-of-hormuz",
       "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-04-14"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "shipping-tankers",
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "shipping-tankers",
@@ -1084,21 +1098,21 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "strait-of-hormuz",
       "to": "india",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "strait-of-hormuz",
       "to": "iran",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "strait-of-hormuz",
@@ -1119,14 +1133,14 @@
       "to": "saudi-arabia",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "strait-of-hormuz",
       "to": "shipping-tankers",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "taiwan",
@@ -1210,7 +1224,7 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-14"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "uae",
@@ -1224,35 +1238,35 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "united-states",
       "to": "fed",
       "weight": 8.0,
       "directness": 1,
-      "last_activated": "2026-04-09"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "united-states",
       "to": "iran",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "united-states",
       "to": "israel",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "united-states",
       "to": "sp-500",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-16"
     },
     {
       "from": "us-10y-yield",

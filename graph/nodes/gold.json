@@ -3,13 +3,13 @@
   "name": "Gold",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-15",
-  "summary": "$4,829/oz (+0.1%). CPI/dollar regime Session 11+ — gold completely decoupled from war headlines. Responds to DXY (98.24, below 99) NOT crisis. Yesterday blockade didn't lift gold; today deal hopes didn't sink gold. Consolidating $4,700-$4,850. Gold/silver ratio ~60:1 declining from 63:1 peak. Central bank buying 585 tonnes/quarter (JP Morgan). Goldman $5,400 / JP Morgan $6,300 year-end targets. Regime is structural, not event-driven.",
+  "last_updated": "2026-04-16",
+  "summary": "Day 49. $4,847.90/oz (+1.0%). REGIME SHIFT SIGNAL: Gold broke its 10+ session dollar-regime-only behavior TODAY. Up +1.0% on an S&P-ATH day (7,022.95) with VIX near war-era low (18.17). Expected flat to -0.5% on deal-euphoria session; got +1.0%. Central bank accumulation continues (RBI +110 tons YTD; EM CB ~190 tonnes/quarter per JPM; total investor + CB ~585 tonnes/quarter baseline). Structural driver (~70%). Crisis-linked contributor (~30%): bond-equity divergence widening (S&P ATH vs 10Y 4.28%) historically gold-supportive regime; VIX term structure partially inverted (short-dated below long-dated = complacency signal); marginal hedge re-engagement after 'deal priced' narrative peak; Iran's 10M rial note validates hyperinflation trajectory; Hezbollah 105 attack waves + 182 Lebanese dead = war NOT over. If gold continues bid through TSMC/Netflix earnings tonight, 'crisis priced out, peace priced in' narrative is cracking. Goldman $5,400 / JPM $6,300 year-end targets. USD/INR Rs93.29 = domestic gold at Rs14,474/gram (Rs4.5 lakh/troy oz).",
   "current": {
-    "price": "$4,829/oz",
-    "delta_1d": "+0.1%",
-    "delta_1m": "-3.3%",
-    "delta_3m": "+4.6%"
+    "price": "$4,847.90/oz",
+    "delta_1d": "+1.0%",
+    "delta_1m": "-3.1%",
+    "delta_3m": "+5.7%"
   },
   "price_snapshots": [
     {
@@ -373,26 +373,41 @@
       "content": "EVENING UPDATE: Gold $4,829 (+0.1%) — CPI/DOLLAR REGIME SESSION 11+ CONFIRMED. On a day when oil +1.0%, S&P hit new post-war high 6,967, and deal hopes intensified, gold moved only +0.1%. War channel completely dead — gold only responds to DXY (98.24, flat). Gold/silver ratio ~61:1 declining from 63:1 peak. Central bank buying 585 tonnes/quarter (JP Morgan). Goldman $5,400 / JP Morgan $6,300 year-end targets. (Sources: yfinance confirmed, JP Morgan, Goldman Sachs)",
       "sources": ["yfinance", "JP Morgan", "Goldman Sachs"],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-16",
+      "content": "REGIME BREAK: Gold $4,847.90 (+1.0%) on an S&P-ATH day (7,022.95) — BROKE the 10+ session CPI/dollar-only pattern. Expected flat to -0.5% on deal-euphoria session with VIX at war-era low; got +1.0%. Silver +1.3% confirms monetary/hedge trade. First session of crisis-hedge RE-ENGAGEMENT since regime shift to dollar-only. Structural drivers (~70%): central bank buying continues (RBI +110t YTD; EM CB ~190 tonnes/quarter per JPM; total ~585t/quarter baseline); USD/INR Rs93.29 (domestic gold Rs14,474/gram). Crisis-linked contributor (~30%): bond-equity divergence widening (S&P ATH vs 10Y 4.28% +3bps) = gold-supportive regime; VIX term structure partial inversion = complacency signal; marginal hedge re-engagement after 'deal priced' narrative peak; Iran 10M rial note validates hyperinflation; Hezbollah 105 waves + 182 Lebanese dead = war NOT over. If gold continues bid through TSMC/Netflix earnings tonight, 'crisis priced out, peace priced in' narrative is cracking. Reversibility LOW — central bank structural demand does not reverse. Goldman $5,400 / JPM $6,300 targets intact. (Sources: yfinance, JP Morgan, Goldman Sachs, USAGOLD, Investing.com)",
+      "sources": ["yfinance", "JP Morgan", "Goldman Sachs", "USAGOLD", "Investing.com"],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "fed",
       "type": "rate_inverse",
-      "context": "DXY at 98.32 below 99 -- dollar weakness mechanically lifts gold. Gold regime CONFIRMED as dollar/monetary hedge, not war hedge. Silver +2.1% outperforming gold confirms monetary trade. Fed hike probability >50% but gold responds to DXY direction, not rate expectations directly.",
+      "context": "Day 49. DXY 97.95 flat — dollar REFUSING to weaken into the deal. Gold +1.0% on flat dollar = crisis-hedge RE-ENGAGEMENT, break from 10+ session dollar-only regime. Silver +1.3% confirms monetary trade. 10Y +3bps to 4.28% = bonds leaning against equities; gold-supportive regime. Goldman $5,400 / JPM $6,300 year-end targets.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 12,
+      "last_activated": "2026-04-16",
+      "activation_count": 13,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "inflation_link",
-      "context": "Regime shift CONFIRMED: oil crash on ceasefire -> inflation expectations ease -> DXY crashes -> gold UP. Gold now benefits from oil falling (via dollar weakness) AND oil rising (via inflation hedge). Oil below $100 on April 14 -> DXY weakness -> gold +1.1%.",
+      "context": "Day 49. Oil +0.1% near $95, de-escalation priced. Gold +1.0% on deal-priced day = regime break. Iran 10M rial hyperinflation trajectory CONFIRMED = institutional hedge buyers re-engaging.",
       "directness": 2,
-      "last_activated": "2026-04-14",
-      "activation_count": 11,
+      "last_activated": "2026-04-16",
+      "activation_count": 12,
       "weight": 10.0
+    },
+    {
+      "to": "iran",
+      "type": "hyperinflation_hedge",
+      "context": "EMERGING EDGE. Iran 10M rial note April 15 + central bank 12-yr rebuild estimate = credible hyperinflation trajectory. Gold re-engaged April 16 (+1.0%) on an S&P-ATH day, breaking 10+ sessions of dollar-only regime behavior. Plausible mechanism: institutional hedge buyers pricing 'Iran regime crisis → unpredictable escalation' tail. Single-session evidence; needs 2+ more sessions to confirm.",
+      "directness": 2,
+      "last_activated": "2026-04-16",
+      "activation_count": 1,
+      "weight": 3.0
     }
   ],
   "trigger_points": [

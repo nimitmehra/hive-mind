@@ -3,8 +3,8 @@
   "name": "Israel",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-15",
-  "summary": "Day 48. FIRST DIRECT ISRAEL-LEBANON TALKS SINCE 1993 PRODUCED JOINT STATEMENT — Rubio hosted at State Department. 'Agreed to launch direct negotiations.' Israel Hayom: 'historic.' But Hezbollah (Qassem: 'futile,' Fadlallah: 'will not abide by any agreements') pre-emptively rejected. The gap between Lebanese state diplomacy and Hezbollah reality is the core constraint. Iran's Ghalibaf named Lebanon ceasefire as Islamabad precondition — progress here could unlock broader deal or serve as face-saving deliverable if Iran track fails. IDF near-completion of Bint Jbeil capture, five divisions deployed. 2,055 Lebanese killed, 6,588 wounded, 1.2M displaced since March 2.",
+  "last_updated": "2026-04-16",
+  "summary": "Day 49. MAJOR ESCALATION: Israeli strikes killed 182 Lebanese on Wednesday April 15 — HIGHEST single-day death toll of the Israel-Hezbollah war. Hezbollah responded with 105 attack waves (Alma Research, most intense day of 2026 war). Netanyahu announced Israel EXPANDING IDF-occupied area in Lebanon toward Syrian border, 'ready to renew strikes on Iran.' IDF Chief Zamir 'approved further plans' for both Lebanon and Iran — careful bureaucratic language (planning ≠ executing). Haaretz flagged civilian-military divergence mirroring Iran's IRGC-civilian split in reverse: Netanyahu more hawkish than IDF leadership. Senior US official to Haaretz: Trump 'would welcome end of hostilities in Lebanon as part of peace agreement between Israel and Lebanon' even if 'not part of peace negotiations with Iran' — US DE-LINKING Lebanon from Iran track, contrary to Ghalibaf's Islamabad insistence. Most important diplomatic signal of week that goes largely unnoticed. Israel's envoy to US separately told Haaretz Israel wants 'France as far away as possible from peace talks with Lebanon' — parallel friction on UK-France Hormuz initiative.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -397,43 +397,65 @@
         "Israel Hayom"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-16",
+      "content": "CONFIRMED MAJOR ESCALATION: IDF strikes killed 182 Lebanese on Wednesday April 15 — HIGHEST single-day death toll of the Israel-Hezbollah war. Hezbollah launched 105 attack waves in response (Alma Research — most intense single day of 2026 war). Netanyahu announced Israel EXPANDING IDF-occupied area in Lebanon toward parts of the Syrian border and is 'ready to renew strikes on Iran.' IDF Chief of Staff Zamir has 'approved further plans' for both Lebanon and Iran operations — careful bureaucratic language (planning ≠ executing). Haaretz military correspondents flagging civilian-military divergence: IDF leadership more measured than political echelon; Haaretz reported IDF assesses Hezbollah unlikely to accept truce without Iran agreement — contradicts Trump's separate de-linking signal. 105-waves/182-deaths day is consistent with parties sharpening bargaining positions ahead of Round 2, not end-of-war de-escalation. (Sources: Times of Israel, Xinhua, Haaretz, Wikipedia 2026 Lebanon war timeline, Alma Research Center, Middle East Eye)",
+      "sources": [
+        "Times of Israel",
+        "Xinhua",
+        "Haaretz",
+        "Wikipedia",
+        "Alma Research Center",
+        "Middle East Eye"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-16",
+      "content": "Haaretz reported senior US official told it Trump 'would welcome the end of hostilities in Lebanon as part of a peace agreement between Israel and Lebanon' even if 'this is not something we have asked for nor is it part of the peace negotiations with Iran' — a remarkable on-record US framing that DE-LINKS Lebanon from the Iran track, contrary to Ghalibaf's Islamabad insistence that Lebanon must be included. Simultaneously Haaretz reported IDF assesses Hezbollah unlikely to accept truce without Iran agreement — CONTRADICTS the first piece's premise. Israeli envoy to US separately told Haaretz Israel wants 'France as far away as possible from peace talks with Lebanon' — parallel friction on UK-France Hormuz/Lebanon initiative. Most important diplomatic signal of week that goes largely unnoticed: if US is prepared to pursue a US-Iran deal that does NOT include Lebanon, Ghalibaf's Islamabad preconditions become movable. Precisely the kind of concession pattern that materializes in Round 2 preparations. (Sources: Haaretz, Times of Israel)",
+      "sources": [
+        "Haaretz",
+        "Times of Israel"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "active_conflict",
-      "context": "Day 44. Nabatieh 13 State Security killed + Hezbollah reached Ashdod (200km). Trump told Netanyahu 'low key' — implicit acknowledgment Lebanon violence threatens Islamabad talks. Ghalibaf set Lebanon ceasefire as Islamabad precondition, directly citing Israeli strikes. Israel's 'negotiate while bombing' provides Iran's hardliners ammunition to exit deal.",
+      "context": "Day 49. Netanyahu 'ready to renew strikes on Iran'; IDF Chief Zamir 'approved further plans' — RHETORIC (planning ≠ executing; Haaretz flagged civilian-military divergence). Israel targeting Hezbollah (proxy of Iran) with 182 Lebanese killed April 15 = highest single-day. Ghalibaf set Lebanon ceasefire as Islamabad precondition; Hezbollah escalation is direct pressure on US-Iran track.",
       "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 28,
+      "last_activated": "2026-04-16",
+      "activation_count": 29,
       "weight": 10.0
     },
     {
       "to": "united-states",
       "type": "military_alliance",
-      "context": "Day 44. Trump told Netanyahu 'low key' — first signal of friction over Lebanon strikes threatening Islamabad talks. Shift from full alignment ('separate skirmish') to implicit constraint. Vance's offer to 'restrain Lebanon strikes' not honored by Israel. US structurally unable to enforce ceasefire compliance on ally.",
+      "context": "Day 49. Senior US official to Haaretz: Trump 'would welcome end of hostilities in Lebanon as part of peace agreement' even if 'not part of peace negotiations with Iran' — US DE-LINKING Lebanon from Iran track. Israeli envoy told Haaretz Israel wants 'France as far away as possible' from Lebanon talks — friction on UK-France initiative. Haaretz military correspondents flagged IDF cautioning against Netanyahu's 'ready to renew strikes on Iran' language.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 21,
+      "last_activated": "2026-04-16",
+      "activation_count": 22,
       "weight": 10
     },
     {
       "to": "lebanon",
       "type": "ground_war",
-      "context": "Day 47. Talks confirmed April 15 at State Dept. Fundamental disagreement on agenda. IDF near-completion Bint Jbeil capture. 2,055 killed, 6,588 wounded, 1.2M displaced. Hezbollah rejection creates structural impossibility for binding deal.",
+      "context": "Day 49. 182 Lebanese killed Wednesday April 15 = highest single-day of war. Netanyahu announced IDF expanding occupied area toward Syrian border. 2,237+ Lebanese killed cumulative. Rubio hosted first direct Israel-Lebanon talks since 1993 at State Dept — joint statement, but Hezbollah refuses to participate. Trump would accept Lebanon peace outside Iran track (Haaretz).",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 19,
+      "last_activated": "2026-04-16",
+      "activation_count": 20,
       "weight": 10
     },
     {
       "to": "hezbollah",
       "type": "active_conflict",
-      "context": "Day 47. Hezbollah rejected April 15 talks as 'futile.' IDF near-completion Bint Jbeil, 5 divisions deployed. Hezbollah FPV drones causing tactical strain. Netanyahu's disarmament demand is a non-starter. Israeli media preparing public for resumed hostilities.",
+      "context": "Day 49. Hezbollah 105 attack waves April 15 — most intense single day of 2026 war. Alma Research documented. IDF struck Lebanon causing 182 deaths same day. Netanyahu: Israel 'ready to renew strikes on Iran'; IDF chief Zamir approved further plans. Parties sharpening bargaining positions ahead of Round 2.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 20,
+      "last_activated": "2026-04-16",
+      "activation_count": 21,
       "weight": 10
     },
     {

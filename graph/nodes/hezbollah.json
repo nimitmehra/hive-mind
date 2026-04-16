@@ -3,8 +3,8 @@
   "name": "Hezbollah",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-15",
-  "summary": "Day 48. TALKS PROCEEDED DESPITE HEZBOLLAH REJECTION — first Israel-Lebanon direct talks since 1993 produced joint statement while Hezbollah's Qassem called them 'futile' and Fadlallah declared Hezbollah 'will not abide by any agreements.' The talks proceeding WITHOUT Hezbollah creates new dynamic: Lebanese state diplomacy advancing independently. But Hezbollah can veto implementation militarily. Still deploying FPV drones from Ukraine-war tactics causing 'significant tactical strain' on IDF armored vehicles. IDF near-completion of Bint Jbeil capture, five divisions deployed. Iran's Ghalibaf named Lebanon ceasefire as Islamabad precondition.",
+  "last_updated": "2026-04-16",
+  "summary": "Day 49. MAXIMUM ESCALATION: Alma Research Center documented 105 ATTACK WAVES on Israel April 15 — MOST INTENSE SINGLE DAY of the 2026 war. 40+ rockets in one barrage alone. Order-of-magnitude larger than April 14's ~30 rockets. Coordinated activity, not spoiler volley. Lebanon Health Ministry: 182 killed Wednesday — highest single-day death toll of the Israel-Hezbollah war. Hezbollah political council: 'We are not bound by what they agree to' — attacking on Iran track regardless of Rubio's Washington talks. Iran-Hezbollah linkage now explicit: Ghalibaf's Islamabad preconditions included Lebanon ceasefire; Hezbollah escalation = direct pressure instrument on US-Iran Round 2. Parties sharpening bargaining positions ahead of Round 2, NOT end-of-war de-escalation. Netanyahu announced Israel expanding IDF-occupied area toward Syrian border, 'ready to renew strikes on Iran.' IDF Chief Zamir 'approved further plans' (planning ≠ executing — civilian-military divergence). Haaretz reported US official: Trump 'would welcome end of hostilities in Lebanon as part of peace agreement between Israel and Lebanon' even if 'not part of peace negotiations with Iran' — US DE-LINKING Lebanon from Iran track.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -222,34 +222,47 @@
         "US State Department"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-16",
+      "content": "CONFIRMED MAXIMUM ESCALATION: Alma Research Center documented Hezbollah launched 105 ATTACK WAVES on Israel April 15 — the MOST INTENSE DAY of attacks since the 2026 Iran war began Feb 28. At least 40 rockets in one barrage alone, one civilian lightly injured. April 14's evening brief had recorded 'approximately 30 rockets'; Alma's 105-wave figure is an order of magnitude larger, indicating sustained coordinated activity rather than a single spoiler volley. Hezbollah continues attacking on the Iran track regardless of Rubio's April 14-15 direct Israel-Lebanon talks in Washington — Hezbollah political council: 'We are not bound by what they agree to.' Lebanon Health Ministry reports 182 killed in Israeli strikes on Wednesday — HIGHEST single-day death toll of the Israel-Hezbollah war. Netanyahu announced Israel expanding IDF-occupied area in Lebanon toward Syrian border, 'ready to renew strikes on Iran'; IDF Chief Zamir 'approved further plans' (careful bureaucratic language — planning ≠ executing, civilian-military divergence). Hezbollah-Iran linkage explicit: Ghalibaf's Islamabad preconditions included Lebanon ceasefire; escalation is direct pressure instrument on US-Iran track. Parties sharpening bargaining positions ahead of Round 2. (Sources: Alma Research Center, Times of Israel, Xinhua, Haaretz, Wikipedia 2026 Lebanon war timeline, Middle East Eye)",
+      "sources": [
+        "Alma Research Center",
+        "Times of Israel",
+        "Xinhua",
+        "Haaretz",
+        "Wikipedia",
+        "Middle East Eye"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "proxy_alliance",
-      "context": "Day 44. Hezbollah escalation (100+ rockets, Ashdod reached) directly supports Iran's Islamabad negotiating position — Lebanon violence gives Ghalibaf his precondition argument. Hormuz toggle mechanism remains linked to Hezbollah front. Trump told Netanyahu 'low key' — implicit acknowledgment Lebanon violence threatens the talks.",
+      "context": "Day 49. Hezbollah 105 attack waves April 15 = most intense day of war. Direct pressure instrument on US-Iran Round 2 — escalation calibrated to Ghalibaf's Islamabad preconditions (Lebanon ceasefire). Council: 'not bound by what they agree to.' Parties sharpening bargaining positions ahead of Round 2 April 17-20 window, NOT end-of-war de-escalation.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 16,
+      "last_activated": "2026-04-16",
+      "activation_count": 17,
       "weight": 10
     },
     {
       "to": "israel",
       "type": "active_conflict",
-      "context": "Day 47. Naim Qassem explicitly rejected April 15 Israel-Lebanon talks as 'futile.' Fadlallah: 'will not abide by any agreements.' IDF near-completion Bint Jbeil capture, 5 divisions deployed. FPV drones from Ukraine-war tactics. 2,055 Lebanese killed, 6,588 wounded, 1.2M displaced since March 2. Israeli media preparing public for resumed hostilities.",
+      "context": "Day 49. MAXIMUM ESCALATION: 105 attack waves April 15 (Alma Research — most intense single day of 2026 war). 182 Lebanese killed Wednesday (highest single-day of war). Netanyahu 'ready to renew strikes on Iran'; Israel expanding IDF-occupied area toward Syrian border. IDF chief Zamir 'approved further plans' (planning ≠ executing — Haaretz flagged civilian-military divergence).",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 20,
+      "last_activated": "2026-04-16",
+      "activation_count": 21,
       "weight": 10
     },
     {
       "to": "lebanon",
       "type": "operating_base",
-      "context": "Day 44. Israel struck Nabatieh — 13 Lebanese State Security (government, NOT Hezbollah) killed. Targeting expanding from militia to Lebanese state apparatus. HRW documented strikes killing hundreds and damaging vital bridge. Continued strikes in Aita al-Shaab, al-Majadel, Hanine.",
+      "context": "Day 49. Lebanon Health Ministry: 182 killed Wednesday — highest single-day toll of Israel-Hezbollah war. Israel expanding IDF-occupied area toward Syrian border (Netanyahu). Talks proceeding WITHOUT Hezbollah; Lebanese state diplomacy advancing independently. US DE-LINKING Lebanon from Iran track per Haaretz/senior US official.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 16,
+      "last_activated": "2026-04-16",
+      "activation_count": 17,
       "weight": 10
     }
   ],
