@@ -3,13 +3,13 @@
   "name": "Natural Gas / LNG",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-15",
-  "summary": "HH $2.60/MMBtu (-14.2% 1M). US domestic gas completely unaffected by Gulf crisis. HH-TTF decoupling persists: HH declining on domestic fundamentals while TTF crashed -7.5% (largest single-day decline of crisis) to €42.95 on deal hopes. Asian LNG imports at 6-year low. European gas story driven by Gulf LNG supply risk premium — see european-ttf-gas node.",
+  "last_updated": "2026-04-17",
+  "summary": "Day 50. US LNG STRUCTURALLY FILLING QATAR GAP — CHENIERE +2.3% COUNTER-DIRECTIONAL ON OIL CRASH DAY. HH $2.67/MMBtu (+1.0% 1D, -12.8% 1M). TTF fell further to EUR 41.62 (-1.9% 1D, -24% 1M). US domestic gas unaffected by Gulf crisis. The structural shift: Qatar's Ras Laffan is 3-5 years from full repair (North site within a month, South by late summer per The National — but full recovery requires gas turbine procurement with multi-year lead times). US LNG (Cheniere, Venture Global, Sempra) is filling the gap on a structural basis. Cheniere +2.3% on the same day Brent crashed -6.5% — the LNG equity market pricing that US export volumes are locked in regardless of whether Iran deals resolve. Asian LNG imports at 6-year low reducing European competition for cargoes — supporting TTF decline.",
   "current": {
-    "price": "$2.60/MMBtu (HH); ~€42.95/MWh (TTF)",
-    "delta_1d": "-0.2% (HH); -7.5% (TTF, LARGEST single-day decline of crisis)",
-    "delta_1m": "-14.2% (HH); ~+5% (TTF, easing from blockade spike)",
-    "delta_3m": "-17.0% (HH); +38% (TTF vs pre-war ~€31)"
+    "price": "$2.67/MMBtu (HH); ~EUR 41.62/MWh (TTF)",
+    "delta_1d": "+1.0% (HH); -1.9% (TTF, continued decline)",
+    "delta_1m": "-12.8% (HH); -24% (TTF, largest monthly decline of crisis)",
+    "delta_3m": "-31.6% (HH); +35% (TTF vs pre-war ~EUR 31)"
   },
   "price_snapshots": [
     {
@@ -217,6 +217,17 @@
         "ICE Endex"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "Day 50. CHENIERE +2.3% COUNTER-DIRECTIONAL WHILE OIL CRASHED -6.5% — US LNG STRUCTURAL BENEFICIARY [CONFIRMED price action]. Cheniere Energy rose 2.3% to $262.74 on the same day Brent crashed -6.5% — a counter-directional move that mirrors CF Industries (+3.2%) in the fertilizer space. The mechanism: even if the Iran war ends and the ceasefire extends, Qatar's Ras Laffan LNG complex is 3-5 years from full repair (The National April 9: North site within a month, South by late summer, but full recovery requires gas turbine procurement with multi-year lead times and $20B annual revenue loss during repairs). US LNG facilities are the structural replacement. HH gas at $2.67 (+1.0%), TTF fell further to EUR 41.62 (-1.9% 1D, -24% 1M) — the TTF decline is driven by Asian LNG imports at 6-year low (reducing European competition) + mild weather + deal hopes, not by Qatar supply recovery. ECB leaning hold today partly because TTF decline gives Lagarde cover. For the investor: Cheniere counter-directional on an oil crash day = the LNG supply chain restructuring is priced as permanent, not crisis-contingent. (Sources: yfinance, The National, TradingEconomics, CNBC)",
+      "sources": [
+        "yfinance",
+        "The National",
+        "TradingEconomics",
+        "CNBC"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
