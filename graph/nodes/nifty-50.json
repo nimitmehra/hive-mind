@@ -4,12 +4,12 @@
   "type": "index",
   "created": "2026-03-23",
   "last_updated": "2026-04-17",
-  "summary": "Day 49. Nifty +0.3% to 24,300. MATERIALLY LAGGING Asia (Nikkei +2.2%, KOSPI +1.9%) — triple squeeze specific to India: Iran waiver expires April 19 (3 days, Treasury confirmed no extension), Russian waiver expired April 11, blockade Day 4. Reliance 4 additional Iranian vessels won't complete before April 19. FII +Rs923 crore April 15 single session vs CY2026 cumulative >Rs1.79 lakh crore SOLD = technical short-cover, NOT structural re-entry (Business Standard analytical framing). Rally DII-funded — cannot sustain leadership if FIIs keep selling. 24,050-24,300 range compression at 200-DMA. Three-day short-covering bounce losing momentum. Binary events: Iran waiver expiry (3 days) and Round 2 announcement (April 17-20 window). Reversibility HIGH — 60% crisis-linked. Waiver expiry without extension: Nifty -1.5 to -2.5%, INR to Rs94+. Round 2 announcement: Nifty +1-2%.",
+  "summary": "Day 50 evening. Nifty +0.65% to 24,353.55 — HIGHEST POST-CEASEFIRE CLOSE; Sensex +0.65% to 78,493.54 (+505 points), Bank Nifty +0.9% to 56,565.70. Rupee strengthened to Rs92.84 (-0.6% — best since ceasefire). Nifty broke 24,300 resistance on Brent crash ($96.16 settle, -3.3%) + ceasefire optimism + FII turned positive April 15 (+Rs666 cr first positive in weeks). Pre-crisis Sensex reference ~79,800 means Sensex has recovered all but ~1.7% of crisis losses. Structural concern UN-PRICED: Iran oil sanctions waiver expires April 19 (Sunday, T-2 days, Bessent confirmed no extension); Russian waiver already expired April 11. Finance ministry warned growth 'considerable downside risk' to 7.0-7.4%. RBI administrative escalation: NDF ban (Apr 10), NOP $100M cap, state refiners asked to limit spot dollar demand. Each tool deployment signals stress severity even before market prices move. Most fragile position in market: long Indian equities going into 72-hour weekend on rhetoric-driven rally across waiver hard deadline. Monday open = test of whether ceasefire trade absorbs the waiver hit.",
   "current": {
-    "price": "24,300",
-    "delta_1d": "+0.3%",
-    "delta_1m": "+2.8%",
-    "delta_3m": "-5.4%"
+    "price": "24,353.55",
+    "delta_1d": "+0.65%",
+    "delta_1m": "+5.2%",
+    "delta_3m": "-4.8%"
   },
   "price_snapshots": [
     {
@@ -65,6 +65,12 @@
       "price": "24,194",
       "trigger": "Crossed above 200-DMA (24,050) — first time since April 10",
       "delta_context": "First ALIGNED Nifty-INR session since ceasefire day. Relief rally on deal hopes and oil below $100."
+    },
+    {
+      "date": "2026-04-17",
+      "price": "24,353.55",
+      "trigger": "Highest post-ceasefire close; Sensex 78,493 recovered all but 1.7% of crisis losses",
+      "delta_context": "+0.65% from 24,196.75 Apr 16 close. INR strengthened to Rs92.84 on Brent crash. Bank Nifty +0.9%. Most fragile position in market: long Indian equities going into 72-hour weekend across Sunday Apr 19 Iran waiver expiry."
     }
   ],
   "signals": [
@@ -366,34 +372,42 @@
         "yfinance"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "NIFTY POST-CEASEFIRE HIGH AT 24,353.55 — BUT WAIVER EXPIRES IN 48 HOURS [CONFIRMED]. Nifty 50 closed April 17 at 24,353.55 vs 24,196.75 on April 16, a +156 point / +0.65% gain — highest close since the April 8 ceasefire. Sensex +0.65% to 78,493.54 (+505 points), Bank Nifty +0.9% to 56,565.70. USD/INR settled Rs92.84 vs Rs93.39 April 16 — rupee strengthened ~55 paise on Brent crash to $96.16 (-3.3% net) and ceasefire optimism. Sensex recovered all but ~1.7% of crisis-induced losses from pre-crisis ~79,800 reference. The India narrative: ceasefire-optimism + Brent relief + Nifty breaking 24,300 resistance = all tactical. Counterweight NOT priced: April 19 (Sunday) Iran waiver expiry (Bessent confirmed no extension); Russian waiver already expired Apr 11; RBI deploying administrative tools (NDF ban, NOP $100M cap, state-refiner forex restrictions); Finance ministry 'considerable downside risk' warning. Monday open will test whether cumulative ceasefire trade absorbs waiver hit across 72-hour weekend. Most fragile position in market: long Indian equities going into weekend on rhetoric-driven rally. (Sources: yfinance ^NSEI/^BSESN/INR=X CONFIRMED)",
+      "sources": [
+        "yfinance"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "india",
       "type": "equity_market",
-      "context": "Day 49. Nifty +0.3% to 24,300 — materially lagging Asia. Triple squeeze: Iran waiver April 19 (3 days), Russian waiver expired, blockade Day 4. FII April 15 +Rs923 crore single session vs CY2026 Rs1.79 lakh crore sold = technical short-cover. Rally DII-funded, fragile.",
+      "context": "Day 50 evening. Nifty +0.65% to 24,353.55 — highest post-ceasefire close; Sensex 78,493 recovered all but 1.7% of crisis losses. Brent -3.3% + INR Rs92.84 mechanical relief + FII +Rs666 cr Apr 15 (first positive in weeks). Waiver expiry T-2 days is the untested counterweight. Most fragile long in market going into 72-hour weekend.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 23,
+      "last_activated": "2026-04-17",
+      "activation_count": 24,
       "weight": 10
     },
     {
       "to": "inr-usd",
       "type": "fii_feedback_loop",
-      "context": "Day 49. INR Rs93.29 WEAKENED vs yesterday's Rs93.39 close. Waiver expiry pressuring rupee. FII Rs923 crore single-session April 15 inflow is technical not structural. CY2026 FII outflows Rs 1.79 lakh crore. Forex reserves <$700B limiting RBI intervention.",
+      "context": "Day 50 evening. INR strengthened to Rs92.84 (-0.6%) on Brent crash. Nifty-INR aligned session — both risk-on. FII Apr 15 net +Rs666 cr first positive in weeks. RBI admin toolkit (NDF ban, NOP cap, refiner forex restrictions) still active — stress gauge despite rupee relief.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 17,
+      "last_activated": "2026-04-17",
+      "activation_count": 18,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "cost_pressure",
-      "context": "Day 49. Brent $95.05 +0.1% barely moving. Physical-futures gap ($132 Dated vs $95 futures). Oil below $100 sustains rate-cut-pathway hope. If Iran waiver expires April 19, India-specific crude risk spikes regardless of Brent futures.",
+      "context": "Day 50 evening. Brent $96.16 (-3.3%) settle. Nifty +0.65% on Brent relief + ceasefire optimism. If waiver expires without extension Sunday, Nifty -1.5 to -2.5% Monday; INR to Rs94+. Physical-futures gap ($132 vs $96) unresolved.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 18,
+      "last_activated": "2026-04-17",
+      "activation_count": 19,
       "weight": 10
     },
     {

@@ -4,7 +4,7 @@
   "type": "country",
   "created": "2026-03-23",
   "last_updated": "2026-04-17",
-  "summary": "Day 49. MAJOR CASUALTY ESCALATION: Lebanon Health Ministry reports 182 killed in Israeli strikes Wednesday April 15 — HIGHEST single-day toll of Israel-Hezbollah war. Cumulative: 2,237+ killed since March 2. Hezbollah responded with 105 attack waves (Alma Research — most intense day of 2026 war). Netanyahu announced Israel EXPANDING IDF-occupied area in Lebanon toward Syrian border. Senior US official told Haaretz Trump 'would welcome end of hostilities in Lebanon as part of peace agreement between Israel and Lebanon' even if 'not part of peace negotiations with Iran' — US DE-LINKING Lebanon from Iran track, contrary to Ghalibaf's Islamabad insistence. Lebanese state diplomacy continues April 14-15 Rubio-hosted talks, but Hezbollah refuses participation. Haaretz flagged contradiction: IDF separately assesses Hezbollah unlikely to accept truce without Iran agreement. 1.2M displaced (25% of population).",
+  "summary": "Day 50 evening. 10-DAY CEASEFIRE DAY 1 — ASYMMETRIC COMPLIANCE. Ceasefire took effect midnight Beirut April 16-17 (Trump Apr 16, State Dept). Within hours, Lebanon's army reported Israeli violations: intermittent shelling of southern villages Al-Khiam and Debbin (artillery + machine-gun), drone attacks in Western Bekaa. Army urged residents to delay returning. Israel response procedural — IDF 'reserves right to take all necessary measures in self-defense' — pre-authorizing strikes under Netanyahu's 10km 'security zone' framework. Hezbollah confirmed clean compliance: 'launched its last attack at 11:50pm local time, just 10 minutes before the ceasefire took effect.' Asymmetric pause: Hezbollah honoring, Israel treating as 'timeout' while retaining freedom inside zone. Iran FM Baghaei re-linked ceasefire to 'broader US-Iran agreement mediated by Pakistan' — contradicting US de-linkage; demanded Israel fully withdraw from southern Lebanon. Lebanon death toll now 2,196+ (Lebanon National News Agency via Al Jazeera). The 'structured pause' framing from morning brief is DEGRADED within first 24 hours — clean signal became degraded signal.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -283,25 +283,38 @@
         "Al Jazeera"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "CEASEFIRE DAY 1 — ASYMMETRIC COMPLIANCE DOCUMENTED [CONFIRMED]. 10-day Israel-Lebanon ceasefire took effect at midnight Beirut time April 16-17. Within hours, Lebanon's army reported Israeli violations: 'intermittent shelling of several southern Lebanese villages,' specifically artillery and machine-gun fire on Al-Khiam and Debbin, and drone attacks in the Western Bekaa region (Al Jazeera, Asia Plus). Army urged residents to delay returning to southern villages. Israel's response was procedural — 'the IDF reserves the right to take all necessary measures in self-defense' (CNN) — effectively pre-authorizing continued strikes under the Netanyahu '10km security zone' framework. Hezbollah confirmed it 'launched its last attack at 11:50pm local time, just 10 minutes before the ceasefire took effect' — clean compliance on its side. Iran FM Baghaei 'welcomed' the ceasefire and said it was 'part of a broader agreement with the US to pause the regional war, mediated by Pakistan,' re-integrating Lebanon into the Iran negotiating track (contradicting US de-linkage). Baghaei demanded Israel 'fully withdraw forces from southern Lebanon,' directly contesting the 10km zone. Lebanese death toll now 2,196 (Lebanon National News Agency). The pause is ASYMMETRIC — Hezbollah honoring it; Israel treating it as a 'timeout' from offensive operations while retaining operational freedom inside the zone. (Sources: Al Jazeera, CNN April 17 liveblog, Asia Plus, Lebanese Army statement, Hezbollah statement, Iran MFA Baghaei)",
+      "sources": [
+        "Al Jazeera",
+        "CNN",
+        "Asia Plus",
+        "Lebanese Army",
+        "Hezbollah",
+        "Iran MFA"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "hezbollah",
-      "type": "operating_territory",
-      "context": "Day 49. Hezbollah 105 attack waves April 15 = most intense single day of 2026 war (Alma Research). Hezbollah political council: 'not bound by what they agree to.' Rubio-led Israel-Lebanon talks proceed WITHOUT Hezbollah participation. Gap between Lebanese state diplomacy and Hezbollah military reality is the structural constraint; US DE-LINKING Lebanon from Iran track per Haaretz.",
+      "type": "structured_pause",
+      "context": "Day 50 evening. STATUS RECLASSIFIED from active-combat to STRUCTURED-PAUSE (10-day ceasefire effective midnight Apr 16-17). Hezbollah confirmed clean compliance: last attack 11:50pm, 10 min before ceasefire. BUT asymmetric: IDF reserves 'self-defense' right inside 10km security zone; Lebanon Army reports Israeli shelling of Al-Khiam/Debbin and drone strikes Western Bekaa within first 24 hours. Iran FM Baghaei re-linked to broader US-Iran agreement — escalation risk if Hezbollah responds to Israeli violations.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 19,
+      "last_activated": "2026-04-17",
+      "activation_count": 20,
       "weight": 10
     },
     {
       "to": "israel",
       "type": "invasion_target",
-      "context": "Day 49. 182 Lebanese killed Wednesday April 15 = highest single-day of war. Cumulative ~2,237+ killed. Netanyahu announced IDF expanding occupied area toward Syrian border. Zamir 'approved further plans' (planning ≠ executing). 1.2M displaced. Rubio talks produced joint statement but Hezbollah refuses; US-Iran track de-linkage offers Lebanon peace independent of Iran deal.",
+      "context": "Day 50 evening. 10-day ceasefire Day 1 — asymmetric compliance. Lebanon Army reports Israeli artillery, machine-gun fire, drone attacks on Al-Khiam, Debbin, Western Bekaa within first 24 hours of pause. Netanyahu's 10km 'security zone' framework operationalized. Cumulative toll now 2,196+ (LNN via Al Jazeera). Hezbollah honoring pause; Israel retains freedom inside zone.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 21,
+      "last_activated": "2026-04-17",
+      "activation_count": 22,
       "weight": 10
     }
   ],

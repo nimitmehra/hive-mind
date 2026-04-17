@@ -4,7 +4,7 @@
   "type": "institution",
   "created": "2026-03-23",
   "last_updated": "2026-04-17",
-  "summary": "Day 49. MAXIMUM ESCALATION: Alma Research Center documented 105 ATTACK WAVES on Israel April 15 — MOST INTENSE SINGLE DAY of the 2026 war. 40+ rockets in one barrage alone. Order-of-magnitude larger than April 14's ~30 rockets. Coordinated activity, not spoiler volley. Lebanon Health Ministry: 182 killed Wednesday — highest single-day death toll of the Israel-Hezbollah war. Hezbollah political council: 'We are not bound by what they agree to' — attacking on Iran track regardless of Rubio's Washington talks. Iran-Hezbollah linkage now explicit: Ghalibaf's Islamabad preconditions included Lebanon ceasefire; Hezbollah escalation = direct pressure instrument on US-Iran Round 2. Parties sharpening bargaining positions ahead of Round 2, NOT end-of-war de-escalation. Netanyahu announced Israel expanding IDF-occupied area toward Syrian border, 'ready to renew strikes on Iran.' IDF Chief Zamir 'approved further plans' (planning ≠ executing — civilian-military divergence). Haaretz reported US official: Trump 'would welcome end of hostilities in Lebanon as part of peace agreement between Israel and Lebanon' even if 'not part of peace negotiations with Iran' — US DE-LINKING Lebanon from Iran track.",
+  "summary": "Day 50 evening. CEASEFIRE DAY 1 — CLEAN COMPLIANCE. Hezbollah confirmed 'launched its last attack at 11:50pm local time, just 10 minutes before the ceasefire took effect' midnight Apr 16-17. From 105 attack waves April 15 (most intense day of 2026 war, Alma Research) to structured halt — order-of-magnitude de-escalation in 48 hours. BUT Lebanon Army documented Israeli violations within first 24 hours (artillery on Al-Khiam/Debbin, drones Western Bekaa); IDF 'reserves right to self-defense' under Netanyahu 10km zone framework. Pause is asymmetric: Hezbollah honoring it, Israel treating as 'timeout' while retaining operational freedom. Iran FM Baghaei framed Lebanon ceasefire as 'part of broader agreement with US mediated by Pakistan' — directly re-linking Hezbollah pause to Iran negotiating track (contradicting US de-linkage). If IDF operations escalate during pause, Hezbollah's position is pre-established: 'right to resist' inside 10km zone. The trigger for resumed hostilities is Israel-operated, not Hezbollah-operated.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -251,34 +251,46 @@
         "Al Jazeera"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "CEASEFIRE DAY 1 — HEZBOLLAH CLEAN COMPLIANCE, ISRAELI VIOLATIONS [CONFIRMED]. Hezbollah confirmed in a statement that it 'launched its last attack at 11:50pm local time, just 10 minutes before the ceasefire took effect.' From 105 attack waves April 15 (most intense day of war) to zero by the midnight Apr 16-17 threshold. Lebanon's army reported Israeli violations within hours: artillery and machine-gun fire on Al-Khiam and Debbin, drone attacks in Western Bekaa. IDF 'reserves the right to take all necessary measures in self-defense' under Netanyahu's 10km security zone. The ceasefire is ASYMMETRIC: Hezbollah honoring it; Israel treating as operational 'timeout.' Iran FM Baghaei re-linked Lebanon pause to 'broader US-Iran agreement mediated by Pakistan' — positioning the pause as partial delivery on Ghalibaf's Islamabad preconditions. Hezbollah has not publicly responded to the Day 1 IDF violations; the pause remains intact on its side. (Sources: Al Jazeera, CNN April 17 liveblog, Lebanese Army, Hezbollah statement, Iran MFA)",
+      "sources": [
+        "Al Jazeera",
+        "CNN",
+        "Lebanese Army",
+        "Hezbollah",
+        "Iran MFA"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "proxy_alliance",
-      "context": "Day 49. Hezbollah 105 attack waves April 15 = most intense day of war. Direct pressure instrument on US-Iran Round 2 — escalation calibrated to Ghalibaf's Islamabad preconditions (Lebanon ceasefire). Council: 'not bound by what they agree to.' Parties sharpening bargaining positions ahead of Round 2 April 17-20 window, NOT end-of-war de-escalation.",
+      "context": "Day 50 evening. Hezbollah in structured pause; Iran FM Baghaei explicitly framed Lebanon ceasefire as 'part of broader US-Iran agreement mediated by Pakistan' — Iran claiming partial delivery on Islamabad preconditions. If IDF violations of the 10-day pause escalate, Hezbollah response is pre-positioned ('right to resist') and will directly stress the Iran-US Round 2 window.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 17,
+      "last_activated": "2026-04-17",
+      "activation_count": 18,
       "weight": 10
     },
     {
       "to": "israel",
-      "type": "active_conflict",
-      "context": "Day 49. MAXIMUM ESCALATION: 105 attack waves April 15 (Alma Research — most intense single day of 2026 war). 182 Lebanese killed Wednesday (highest single-day of war). Netanyahu 'ready to renew strikes on Iran'; Israel expanding IDF-occupied area toward Syrian border. IDF chief Zamir 'approved further plans' (planning ≠ executing — Haaretz flagged civilian-military divergence).",
+      "type": "structured_pause",
+      "context": "Day 50 evening. CEASEFIRE DAY 1 — Hezbollah clean compliance (last attack 11:50pm, 10 min before midnight); Israeli violations documented by Lebanon Army (artillery/machine-gun on Al-Khiam/Debbin, drones in Western Bekaa). IDF 'reserves right to self-defense' inside Netanyahu's 10km zone. Asymmetric pause — Hezbollah honoring, Israel treating as operational 'timeout.'",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 21,
+      "last_activated": "2026-04-17",
+      "activation_count": 22,
       "weight": 10
     },
     {
       "to": "lebanon",
       "type": "operating_base",
-      "context": "Day 49. Lebanon Health Ministry: 182 killed Wednesday — highest single-day toll of Israel-Hezbollah war. Israel expanding IDF-occupied area toward Syrian border (Netanyahu). Talks proceeding WITHOUT Hezbollah; Lebanese state diplomacy advancing independently. US DE-LINKING Lebanon from Iran track per Haaretz/senior US official.",
+      "context": "Day 50 evening. Ceasefire Day 1: Hezbollah halted attacks midnight Apr 16-17; Lebanese state diplomacy (Rubio track) advanced independently. Baghaei re-linked pause to broader US-Iran deal, demanded Israel full withdrawal from south Lebanon. Hezbollah retains 'right to resist' inside 10km zone.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 17,
+      "last_activated": "2026-04-17",
+      "activation_count": 18,
       "weight": 10
     }
   ],

@@ -4,7 +4,7 @@
   "type": "trade_route",
   "created": "2026-03-23",
   "last_updated": "2026-04-17",
-  "summary": "Day 49. US blockade Day 4: CENTCOM 'ZERO ships broken through' claim HARDENED (10 vessels turned around, 12+ warships, 100+ aircraft, 10,000+ personnel) but disputed by Day 1-2 evidence (3+ sanctioned vessels transited including Elpis, Rich Starry). CNN counter-framing: 'So why are some ships going through Strait of Hormuz?' — noting Strait transit vs. Iranian port distinction. Blockade functioning as DETERRENCE on legitimate commerce while shadow fleet likely continues. IRGC Day 4 ZERO kinetic action despite 'deadly whirlpools' rhetoric; Iran's counter-blockade (all Gulf/Sea of Oman ports) remains DECLARATORY. UK-France Paris conference confirmed Friday April 17, 40+ countries, US excluded — SCOPE CLARIFICATION: France emphasizes escort mission 'would only take place when the war is over,' mission is 'restoring freedom of navigation WHEN SECURITY CONDITIONS ALLOW.' POST-WAR insurance/protection framework, NOT active escort that would immediately normalize insurance premiums. Saudi East-West pipeline restored to full 7M bpd capacity (April 12) after April 9 Iranian drone attack cost 700K bpd — fastest major repair of war. Yanbu port bottleneck remains binding (68% of VLCCs had >36-hr anchorage delays in March). War risk insurance STICKY at 0.8-1.0% hull (4-6x pre-war) — insurers NOT stepping down on Trump interview statements. Frontline +3.9% reversal April 16 = tanker market DISAGREES with deal thesis. Ceasefire 5-6 days to expiry.",
+  "summary": "Day 50 evening / Blockade Day 5. SHALAMAR TRANSIT + MACRON SUMMIT FACT-CHECK. Pakistani-flagged Shalamar (~440K bbl to Karachi) confirmed Hormuz transit April 17 (CNN single source, no independent AIS/MarineTraffic yet) — first publicly-named Pakistani commercial transit of blockade period. Vessel 'periodically disabled transponder' (shadow-fleet practice). Transit consistent with JCS Caine 'port blockade not strait closure' structural distinction. CENTCOM count unchanged at 13 vessels turned around; no IRGC kinetic action Day 5 (zero engagement beyond Thursday's 'near-engagement video'); zero shots fired. UANI April Iran Tanker Tracker: ~25 tankers loaded Kharg, 7 VLCCs + 1 Suezmax + 2 Aframax + 3 actively loading (~5M bbl new cargo) as of April 16. Macron-Starmer Paris summit happened April 17: 30-40 nations VIRTUAL (CNN: '40-nation virtual'; ABC: 'about 30 countries') — NOT 70-80 in-person as morning brief implied. Macron: mission 'strictly defensive,' 'when security conditions allow' = post-war, not active escort. US excluded. Of Gulf: only UAE/Bahrain attending; Saudi/Qatar/Oman/Pakistan absent (preference for Pakistan-led track). No communiqué on force composition/ROE/timeline. South Korea's 26 vessels (173 crew) remain stuck — no release. War risk insurance 0.8-1.0% hull UNCHANGED — insurers not stepping down. Ceasefire T-4 days.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -519,25 +519,55 @@
         "Fortune"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "SHALAMAR TRANSIT [REPORTED — single CNN source, no independent AIS/MarineTraffic confirmation]. CNN April 17 liveblog reported Pakistani-flagged Shalamar, carrying ~440,000 barrels of crude bound for Karachi, transited Hormuz Friday. Vessel 'periodically disabled its transponder for security reasons' — standard shadow-fleet practice. Additive to Pentagon's '14 vessels transited' count since April 13 and to Caine's 'port blockade not strait closure' clarification. Pakistan as flag state is politically notable: Sharif shuttle + Munir Tehran visit position Pakistan as Iran's preferred mediator; Shalamar moves while South Korea's 26 vessels remain stuck. Political access to Iran is a transit-permission variable, not just flag neutrality. Tag REPORTED — do NOT let single-source datum become plural 'Pakistani tankers now transiting.' (Sources: CNN April 17 liveblog)",
+      "sources": [
+        "CNN"
+      ],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "MACRON-STARMER VIRTUAL SUMMIT FACT-CHECK: 30-40 NATIONS VIRTUAL, NOT 70-80 IN-PERSON [CONFIRMED]. Starmer arrived Paris April 17 to co-host what multiple outlets describe as a VIRTUAL meeting of the Strait of Hormuz Maritime Freedom of Navigation Initiative. CNN: '40-nation virtual summit'; ABC News/clickondetroit: 'about 30 countries including some from the Middle East and Asia.' Macron said mission 'strictly defensive in nature,' limited to non-belligerent countries, deployed 'when security conditions allow' (post-war, not during blockade). Participants contribute 'each according to their capabilities.' No communiqué detailing force composition, rules of engagement, command structure, or timeline published. US excluded as 'warring party.' Of Middle East/Gulf states only UAE and Bahrain attending; Saudi Arabia, Qatar, Oman, Pakistan absent — consistent with region's preference for Pakistan-led diplomatic track over Europe-led security track. South Korea's 26 detained vessels (173 crew) remain stuck; Blue House 'do our best' language unchanged. Summit's practical utility as commercial-escort framework LOW near-term; post-ceasefire multilateral backstop utility HIGHER. Material downgrade in perceived diplomatic weight vs morning brief's 70-80 in-person implication. (Sources: CNN April 17 liveblog, ABC News/clickondetroit, Bloomberg pre-summit, Al-Monitor)",
+      "sources": [
+        "CNN",
+        "ABC News",
+        "clickondetroit",
+        "Bloomberg",
+        "Al-Monitor"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "Blockade Day 5 — IRGC ZERO kinetic action continues. CENTCOM 13 vessels turned around count unchanged. No shots fired, no IRGC-US engagement beyond Thursday's 'near-engagement video' (Fortune). UANI April Iran Tanker Tracker confirms ~25 tankers loaded crude at Kharg Island in April; as of April 16 satellite imagery identifies 7 VLCCs, 1 Suezmax, 2 Aframax in Kharg region, with 3 actively loading (~5M bbl new cargo). Shalamar transit additive to this count. 'Port blockade not strait closure' structural distinction continues to define operational reality. War-risk insurance remains at 0.8-1.0% hull value with 35-50% no-claims bonus applied — unchanged from April 13 baseline. (Sources: CENTCOM, UANI April Iran Tanker Tracker, JMIC/UKMTO)",
+      "sources": [
+        "CENTCOM",
+        "UANI",
+        "UKMTO"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "territorial_control",
-      "context": "Day 49. Blockade Day 4: CENTCOM 'ZERO' claim hardened (disputed by Day 1-2 evidence). IRGC Day 4 ZERO kinetic action despite 'deadly whirlpools' rhetoric. Iran counter-blockade declaratory only. IRGC fast-attack craft 60% intact. Frontline +3.9% reversal April 16 = tanker market pricing continued disruption. UK-France Friday conference scope narrowed to POST-WAR escort only.",
+      "context": "Day 50 evening. Blockade Day 5: Shalamar (Pakistani-flag, 440K bbl to Karachi) CNN-reported Hormuz transit. IRGC Day 5 zero kinetic action. Iran counter-blockade declaratory only. Macron-Starmer summit fact-checked to 30-40 virtual (not 70-80 in-person). Kharg shadow fleet loading continues (~25 tankers April per UANI). Insurance unchanged 0.8-1.0%.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 25,
+      "last_activated": "2026-04-17",
+      "activation_count": 26,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "supply_chokepoint",
-      "context": "Day 49. Blockade Day 4. Brent futures $95.05 barely moving (+0.1%). Physical-futures gap persists: Dated Brent $132+ vs futures $95. Saudi East-West pipeline restored to full 7M bpd April 12 (fastest repair of war) — but Yanbu port bottleneck (4-4.5M bpd capacity vs 7M bpd inflow, 68% VLCC delays >36hr) is the BINDING constraint, not the pipeline. Goldman cut Q2 to $90. War risk insurance 0.8-1.0% hull (4-6x pre-war) sticky. Three-layer disconnection ($132 physical / $95 futures / $85-90 equity-implied).",
+      "context": "Day 50 evening. Blockade Day 5. Brent settled $96.16 (-3.3% net, recovered from $92.92 morning low on Shalamar transit confirmation). WTI diverged to $87.77 (-7.3%); Brent-WTI spread $8.39 widest since blockade. Dated Brent physical unchanged at ~$132 (no Friday quote — Good Friday) — physical-futures gap narrowed to $36 only because futures bounced, not because physical eased. Three-layer disconnection intact. JPM $150 if Hormuz shut into mid-May. Yanbu port bottleneck binding constraint.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 27,
+      "last_activated": "2026-04-17",
+      "activation_count": 28,
       "weight": 10
     },
     {
@@ -552,10 +582,10 @@
     {
       "to": "shipping-tankers",
       "type": "route_disruption",
-      "context": "Day 49. War risk insurance STICKY at 0.8-1.0% hull value (4-6x pre-war $150-250K), insurers NOT stepping down on deal rhetoric — require signed framework. UK-France conference Friday scope is POST-WAR escort only, no near-term catalyst to reduce premiums. Frontline +3.9% April 16 reversal = tanker market disagreeing with deal thesis. Frontline 1-year TCs locked at $76,900/day through 2027. FRO +132% 12-month return is RE-RATING of tanker cash-flow under new shipping geography.",
+      "context": "Day 50 evening. War risk insurance UNCHANGED 0.8-1.0% hull — insurers require signed framework, not rhetoric. Frontline -1.0% April 16 (Thu close) but +12.3% 1M — day-rate normalization vs sustained elevated rates locked through 2027. South Korea 26 vessels (173 crew) still stuck — flag-state access-variable intact. Pakistani Shalamar moves freely; Chinese shadow fleet moves freely; Korean ships do not. VLCC TD3C WS126.5 (~$112K/day), 3-4x historical baseline.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 24,
+      "last_activated": "2026-04-17",
+      "activation_count": 25,
       "weight": 10
     },
     {

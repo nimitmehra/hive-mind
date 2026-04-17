@@ -4,7 +4,7 @@
   "type": "country",
   "created": "2026-03-23",
   "last_updated": "2026-04-17",
-  "summary": "Day 49. MAJOR ESCALATION: Israeli strikes killed 182 Lebanese on Wednesday April 15 — HIGHEST single-day death toll of the Israel-Hezbollah war. Hezbollah responded with 105 attack waves (Alma Research, most intense day of 2026 war). Netanyahu announced Israel EXPANDING IDF-occupied area in Lebanon toward Syrian border, 'ready to renew strikes on Iran.' IDF Chief Zamir 'approved further plans' for both Lebanon and Iran — careful bureaucratic language (planning ≠ executing). Haaretz flagged civilian-military divergence mirroring Iran's IRGC-civilian split in reverse: Netanyahu more hawkish than IDF leadership. Senior US official to Haaretz: Trump 'would welcome end of hostilities in Lebanon as part of peace agreement between Israel and Lebanon' even if 'not part of peace negotiations with Iran' — US DE-LINKING Lebanon from Iran track, contrary to Ghalibaf's Islamabad insistence. Most important diplomatic signal of week that goes largely unnoticed. Israel's envoy to US separately told Haaretz Israel wants 'France as far away as possible from peace talks with Lebanon' — parallel friction on UK-France Hormuz initiative.",
+  "summary": "Day 50 evening. CEASEFIRE DAY 1 — 10KM ZONE OPERATIONALIZED. 10-day Israel-Lebanon ceasefire took effect midnight Apr 16-17. Netanyahu's 10km 'security zone' framework immediately translated into operational IDF strikes: Lebanon Army documented artillery and machine-gun fire on Al-Khiam and Debbin, plus drone attacks in Western Bekaa within first 24 hours. IDF response: 'reserves right to take all necessary measures in self-defense' — pre-authorizing strikes under ceasefire. Coverage subdued in Israeli press relative to pre-ceasefire escalation; no Haaretz civil-military scoop contradicting the 'retain operational freedom' posture. The pause is ASYMMETRIC: Hezbollah clean compliance (last attack 11:50pm); IDF retaining operational freedom inside zone. Israeli tone CONSTRAINED, not defiant — holding the line operationally while letting Washington own the diplomatic track. Iran FM Baghaei directly contested the 10km zone, demanded full Israeli withdrawal from south Lebanon; Israeli media absorbing this as 'self-defense' not 'contested.' Morning escalation frame (182 killed Wednesday, 'ready to renew strikes on Iran') now paused on Iran track but continuing operationally on Lebanon track inside the zone.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -419,16 +419,27 @@
         "Times of Israel"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "CEASEFIRE DAY 1 — 10KM ZONE OPERATIONALIZED AS 'SELF-DEFENSE' FRAMEWORK [CONFIRMED]. The 10-day ceasefire took effect at midnight Beirut time April 16-17. Within hours, Lebanon's army reported Israeli violations: 'intermittent shelling of several southern Lebanese villages,' specifically artillery and machine-gun fire on Al-Khiam and Debbin, and drone attacks in the Western Bekaa region. IDF procedural response: 'reserves the right to take all necessary measures in self-defense' (CNN) — effectively pre-authorizing continued strikes under Netanyahu's 10km security zone framework, the same language Israel used pre-2024 to justify Lebanon airstrikes. Israeli coverage on April 17 subdued relative to the pre-ceasefire escalation; Times of Israel and Haaretz not running standalone April 17 liveblogs. Coalition-politics frame (Likud 28 Knesset seats, coalition short of majority): pause sold to Israeli right as 'timeout, not surrender.' No Haaretz military-correspondent scoop contradicting the official line — suggests IDF senior ranks aligned with government's 'retain operational freedom inside zone' posture. Israeli tone CONSTRAINED, not defiant: not celebrating, not conciliating. Iran FM Baghaei directly contested the 10km zone, demanding full Israeli withdrawal from south Lebanon — unmet publicly. (Sources: Al Jazeera, CNN April 17 liveblog, Lebanese Army, Iran MFA, Haaretz silence)",
+      "sources": [
+        "Al Jazeera",
+        "CNN",
+        "Lebanese Army",
+        "Iran MFA"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "active_conflict",
-      "context": "Day 49. Netanyahu 'ready to renew strikes on Iran'; IDF Chief Zamir 'approved further plans' — RHETORIC (planning ≠ executing; Haaretz flagged civilian-military divergence). Israel targeting Hezbollah (proxy of Iran) with 182 Lebanese killed April 15 = highest single-day. Ghalibaf set Lebanon ceasefire as Islamabad precondition; Hezbollah escalation is direct pressure on US-Iran track.",
+      "context": "Day 50 evening. Lebanon-Hezbollah ceasefire Day 1 active. Iran FM Baghaei re-linked pause to broader US-Iran deal mediated by Pakistan; demanded full Israeli withdrawal from south Lebanon. Israel retains operational freedom inside 10km zone under 'self-defense' framework. No reported strikes on Iran itself during Day 1 of pause.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 29,
+      "last_activated": "2026-04-17",
+      "activation_count": 30,
       "weight": 10.0
     },
     {
@@ -442,20 +453,20 @@
     },
     {
       "to": "lebanon",
-      "type": "ground_war",
-      "context": "Day 49. 182 Lebanese killed Wednesday April 15 = highest single-day of war. Netanyahu announced IDF expanding occupied area toward Syrian border. 2,237+ Lebanese killed cumulative. Rubio hosted first direct Israel-Lebanon talks since 1993 at State Dept — joint statement, but Hezbollah refuses to participate. Trump would accept Lebanon peace outside Iran track (Haaretz).",
+      "type": "structured_pause",
+      "context": "Day 50 evening. 10-day ceasefire Day 1 — Lebanon Army documented Israeli violations within first 24 hours (artillery on Al-Khiam/Debbin, drones in Western Bekaa). IDF 'reserves right to self-defense' under Netanyahu 10km security zone framework = pre-authorized strikes inside zone. Asymmetric pause: Hezbollah honoring; Israel retaining operational freedom inside zone. Cumulative toll ~2,196 (LNN).",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 20,
+      "last_activated": "2026-04-17",
+      "activation_count": 21,
       "weight": 10
     },
     {
       "to": "hezbollah",
-      "type": "active_conflict",
-      "context": "Day 49. Hezbollah 105 attack waves April 15 — most intense single day of 2026 war. Alma Research documented. IDF struck Lebanon causing 182 deaths same day. Netanyahu: Israel 'ready to renew strikes on Iran'; IDF chief Zamir approved further plans. Parties sharpening bargaining positions ahead of Round 2.",
+      "type": "structured_pause",
+      "context": "Day 50 evening. Hezbollah clean compliance (last attack 11:50pm, 10 min before midnight ceasefire). IDF continued strikes under 'self-defense' framework during Day 1. Hezbollah has not publicly responded to violations; pause intact on its side. Pre-positioned 'right to resist' inside 10km zone — trigger for resumed hostilities is Israel-operated.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 21,
+      "last_activated": "2026-04-17",
+      "activation_count": 22,
       "weight": 10
     },
     {

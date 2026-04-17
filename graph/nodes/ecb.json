@@ -4,7 +4,7 @@
   "type": "institution",
   "created": "2026-03-28",
   "last_updated": "2026-04-17",
-  "summary": "Holds 2.15%. TTF gas crashed -7.5% to EUR42.95/MWh on April 15 — LARGEST SINGLE-DAY DECLINE OF THE ENTIRE CRISIS. Deal hopes + Asian LNG imports at 6-year low reducing European competition for cargoes + mild weather. If Hormuz reopens, TTF could drop below EUR35 (pre-crisis ~EUR30). European storage still ~30% (5-year seasonal low). ECB meeting in 2 DAYS (April 17) — the TTF crash gives Lagarde cover to hold rates rather than hike. Stagflation trap persists on paper (inflation 2.6% forecast, growth 0.9%) but the energy input is now moving in the right direction for the first time since the war began.",
+  "summary": "Day 50 evening. Holds 2.15%. ECB MEETS APRIL 30 (not April 17 — morning brief's 'meets today' framing was imprecise; next decision is end of month). TTF €41.59/MWh (-1.96% 1D, -23.91% 1M) — continued drift lower driven by (a) prospects of US-Iran ceasefire extension beyond April 22, (b) reduced Asian LNG competition (China cutting demand), (c) continued mild European weather. Bloomberg April 16 frames ECB 'leaning toward hold' at April 30 meeting. Net: Lagarde has further cover for a hold at the April 30 meeting. European gas storage still ~30% (5-year seasonal low) — structural caution remains even as prices ease. Stagflation trap persists on paper (inflation 2.6% forecast, growth 0.9%) but energy input moving in right direction.",
   "signals": [
     {
       "date": "2026-03-28",
@@ -116,6 +116,17 @@
         "TradingEconomics"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "CORRECTION + UPDATE: ECB MEETING IS APRIL 30, NOT APRIL 17 [CONFIRMED via ECB calendar, TradingEconomics, CNBC]. Morning brief's 'ECB meets today' framing was imprecise — next ECB monetary policy decision is April 30. TTF natural gas continued to drift lower today: settled €41.59/MWh (-1.96% 1D, -23.91% 1M). TradingEconomics attributed decline to (a) prospects of US-Iran ceasefire extension beyond April 22, (b) reduced Asian LNG competition (China cutting demand), (c) continued mild European weather. Net effect: Lagarde has MORE cover for a hold at April 30. CNBC April 16 (Bloomberg-sourced) continues to frame ECB 'leaning toward hold' at the end-of-month meeting. The ~13-day gap between this update and the actual decision is material — if Iran talks fail and TTF snaps back above €50, the hold calculus shifts by April 30. (Sources: TradingEconomics April 17 TTF print, OilPriceAPI, CNBC April 16, ECB calendar)",
+      "sources": [
+        "TradingEconomics",
+        "OilPriceAPI",
+        "CNBC",
+        "ECB"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [

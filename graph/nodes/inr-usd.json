@@ -4,12 +4,12 @@
   "type": "index",
   "created": "2026-03-23",
   "last_updated": "2026-04-17",
-  "summary": "Day 49. Rs93.29 WEAKENED slightly +0.1% vs yesterday's Rs93.39 close — tailwind from yesterday has faded, Iran waiver expiry (April 19, 3 days) starting to pressure the rupee. DXY 97.95 flat (+0.0%) — dollar refusing to weaken into the deal, consistent with market quietly hedging deal failure. EUR/USD 1.18 (stable). Gold +1.0% against flat dollar = hedge re-engagement. Forex reserves <$700B constrains RBI intervention capacity. FII CY2026 outflows Rs 1.79 lakh crore; +Rs923 crore single-session April 15 inflow is technical short-cover, not structural re-entry. 'Rs 100/USD by June' remains credible stress scenario. If Iran waiver expires without extension April 19: INR to Rs94+. Rs93.50 trigger not yet hit but approach tightened.",
+  "summary": "Day 50 evening. Rs92.84 STRENGTHENED -0.6% vs Rs93.39 Apr 16 close — largest rupee gain since ceasefire, driven entirely by Brent crash ($96.16 settle, -3.3% net). DXY 98.10 flat, EUR/USD 1.18 stable. Gold essentially flat at $4,814 (structural decoupling from crisis). Rupee gain is MECHANICAL (oil/dollar), NOT structural — FII CY2026 outflows still >Rs1.79 lakh crore; Apr 15 +Rs666 cr is technical short-cover. Forex reserves +$9.063B to $697.121B for week-ending Apr 3 (RBI release) — valuation-effect rebound on dollar weakness, NOT intervention reversal; net $31B below pre-crisis Feb 27 peak of $728.494B. Iran waiver expires April 19 (T-2, Sunday); Russian waiver already expired April 11. Tomorrow's RBI release will capture post-blockade week. Rs93.50 trigger retreated (from Apr 15 approach). 'Rs 100/USD by June' stress scenario intact if blockade intensifies post-waiver. Asia's worst currency 2025-26 but today's tone: TACTICALLY RELIEVED, not structurally healed.",
   "current": {
-    "price": "Rs93.29",
-    "delta_1d": "+0.1% (weakening)",
-    "delta_1m": "+1.0%",
-    "delta_3m": "+3.2%"
+    "price": "Rs92.84",
+    "delta_1d": "-0.6% (strengthening)",
+    "delta_1m": "-0.4%",
+    "delta_3m": "+2.4%"
   },
   "price_snapshots": [
     {
@@ -281,25 +281,36 @@
         "Business Standard"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "INR STRENGTHENED to Rs92.84 (-0.6%) vs Rs93.39 April 16 close [CONFIRMED yfinance INR=X]. Largest rupee-positive session since ceasefire, driven entirely by Brent crash to $96.16 (-3.3% net, recovered from $92.92 morning low). Mechanism: lower crude → lower $ demand for oil imports (~$15B import-bill relief per $10/bbl) → rupee bid. DXY 98.10 roughly flat; EUR/USD 1.18 stable. Gold essentially flat at $4,814 (structural decoupling confirmed — no crisis hedge behavior either direction). Rupee gain is MECHANICAL (oil/dollar), NOT structural — FII CY2026 outflows still >Rs1.79 lakh crore; +Rs666 cr Apr 15 is technical short-cover. RBI weekly forex reserves +$9.063B to $697.121B for week-ending Apr 3 — valuation-effect rebound on dollar weakness, NOT intervention reversal. Net $31B below pre-crisis Feb 27 peak of $728.494B. Iran waiver expires Sunday April 19 (T-2). Tomorrow's Saturday RBI release will capture post-blockade week. 'Rs 100/USD by June' stress scenario intact if blockade intensifies post-waiver. (Sources: yfinance INR=X CONFIRMED, RBI weekly statistical release via bizzbuzz.news/newsdrum)",
+      "sources": [
+        "yfinance",
+        "RBI weekly statistical release",
+        "bizzbuzz.news",
+        "newsdrum"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "india",
       "type": "currency_impact",
-      "context": "INR at Rs93.03 (offshore evening). Approached 93.50 trigger on April 13 (93.39), retreated to Rs93.03 by April 14 evening on dollar weakness (DXY 98.07). FII CY2026 outflows Rs 1.79 lakh crore. Forex reserves below $700B. NOP cap compliance complete. 'Rs 100/USD by June' now credible. Asia's worst currency 2025-26.",
+      "context": "Day 50 evening. INR Rs92.84 strengthened -0.6% on Brent crash — best since ceasefire. RBI forex reserves +$9.063B to $697.121B (week-end Apr 3) = valuation-effect rebound, not intervention reversal. Net $31B below $728.494B Feb 27 peak. Iran waiver expires Sunday Apr 19; 'Rs 100/USD by June' stress scenario intact if blockade intensifies post-waiver.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 22,
+      "last_activated": "2026-04-17",
+      "activation_count": 23,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "cost_transmission",
-      "context": "Brent at $97.98, back below $100 after blockade spike to $103+. Oil below $100 = lower import bill = less dollar demand = INR strengthening. Physical-futures gap $22 ($120 vs $98) means actual import costs higher than futures suggest.",
+      "context": "Day 50 evening. Brent $96.16 (-3.3% net) driving rupee +0.6% strengthening to Rs92.84. Oil's ~$3/bbl drop translated mechanically. Physical-futures gap $36 ($132 Dated vs $96 futures) means actual import costs higher than futures. Waiver expiry T-2 is the structural counterweight unpriced.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 19,
+      "last_activated": "2026-04-17",
+      "activation_count": 20,
       "weight": 10
     },
     {

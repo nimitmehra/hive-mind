@@ -4,12 +4,12 @@
   "type": "commodity",
   "created": "2026-03-28",
   "last_updated": "2026-04-17",
-  "summary": "€42.95/MWh — CRASHED -7.5% on April 14, LARGEST SINGLE-DAY DECLINE of the entire crisis. Deal hopes removing LNG supply risk premium. Asian LNG imports at 6-year low reducing competition for European supply. If Hormuz reopens, TTF could drop below €35 (pre-crisis ~€30). If talks fail, snap-back to €50+ immediate. HH-TTF decoupling persists: Henry Hub -14.2% monthly (US domestic unaffected), TTF still +38% above pre-war.",
+  "summary": "Day 50 evening. €41.59/MWh (-1.96% 1D, -23.91% 1M). Structural drift lower continues — driven by (a) prospects of US-Iran ceasefire extension beyond April 22, (b) reduced Asian LNG competition (China cutting demand), (c) continued mild European weather. ECB meets April 30 — this level gives Lagarde further cover to hold. European gas storage still ~30% (5-year seasonal low). Cheniere LNG +2.3% Thursday = US LNG as swing supply filling Qatar gap (17% of global LNG capacity offline post-Ras Laffan, August earliest for partial restart, 3-5 years full restoration). If Hormuz reopens and Qatar trains come back faster, TTF could drop below €35 (pre-crisis ~€30). If talks fail and Qatar stays offline, snap-back to €50+ immediate. HH-TTF decoupling persists: Henry Hub +1.5% 1D / -12.4% 1M (US domestic), TTF still well above pre-war ~€31 in percentage terms despite absolute level easing.",
   "current": {
-    "price": "~€42.95/MWh (Apr 14 close); trading €42.5-44.5 Apr 15",
-    "delta_1d": "-7.5% (LARGEST single-day decline of crisis)",
-    "delta_1m": "-15.6%",
-    "delta_3m": "+38% vs pre-war ~€31"
+    "price": "€41.59/MWh",
+    "delta_1d": "-1.96%",
+    "delta_1m": "-23.91%",
+    "delta_3m": "-38% (from crisis peak)"
   },
   "signals": [
     {
@@ -192,6 +192,16 @@
         "Fortune"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "TTF DRIFT LOWER CONTINUES: €41.59/MWh (-1.96% 1D, -23.91% 1M) [CONFIRMED TradingEconomics/ICE Endex]. TradingEconomics attributed decline to: (a) prospects of US-Iran ceasefire extension beyond April 22, (b) reduced Asian LNG competition (China cutting demand), (c) continued mild European weather. Technically flat day-over-day (€41.62 → €41.59) but the downward drift is intact and structural. Cheniere Energy LNG +2.3% Thursday close on structural US LNG gap-fill thesis (Qatar Ras Laffan 12.8 Mtpa offline, August earliest partial restart, 3-5 years full). Net effect for ECB: Lagarde has further cover for a hold at April 30 meeting (NOT April 17 — morning brief's 'ECB meets today' was imprecise). European storage still ~30% (5-year seasonal low). If Iran talks fail and Qatar stays offline, snap-back to €50+ immediate. (Sources: TradingEconomics April 17 TTF print, OilPriceAPI, CNBC April 16 on ECB)",
+      "sources": [
+        "TradingEconomics",
+        "OilPriceAPI",
+        "CNBC"
+      ],
+      "significance": "medium"
     }
   ],
   "price_snapshots": [

@@ -4,11 +4,11 @@
   "type": "commodity",
   "created": "2026-03-23",
   "last_updated": "2026-04-17",
-  "summary": "Day 49. $95.05/bbl (+0.1%). De-escalation rotation EXHAUSTED at these prices — XLE -0.3% flat after yesterday's -2%, energy sector waiting for actual deal paper. Goldman CUT Q2 Brent forecast to $90 from $99 (first major Wall Street revision since Islamabad collapse): Q3 held at $82, Q4 at $80. Goldman's Q2 implies de-escalation must DEEPEN; premised on OPEC+ supply response and clean war end — INCONSISTENT with Qatar LNG 3-5yr repairs, Iran 12-yr rebuild, 95% Hormuz throughput reduction, parliament-passed toll law. JPMorgan base case $150 if Hormuz shut into mid-May — spread $90 vs $150 defines contested investment thesis. Physical-futures disconnection persists: Dated Brent $132+ vs $95 futures ($37+ gap). Morgan Stanley: 'violent shock in physical Brent-linked barrels.' Saudi East-West pipeline restored to full 7M bpd April 12 but Yanbu port bottleneck (4-4.5M bpd capacity) is binding constraint. Iran waiver expires April 19 (3 days, Treasury no extension) — India-specific supply shock incoming. Refined products crashing on de-escalation leg: Heating Oil -4.6%/-10.9% 1M, RBOB -2.3%. XLE flat = energy rotation reached floor.",
+  "summary": "Day 50 evening. $96.16/bbl (-3.3% net, recovered from $92.92 intraday morning low; WTI diverged to $87.77 -7.3%, Brent-WTI spread $8.39 widest since blockade began). Intraday round-trip (morning -6.5% to $92.92 → settle -3.3% to $96.16) is canonical 'Friday afternoon thinks better of overshoot' pattern. Physical-futures gap NARROWED to ~$36 (from $39 morning) only because futures bounced — Dated Brent at ~$132 unchanged (Platts does not publish on Good Friday). Three-layer mispricing intact: physical $132, Brent futures $96, WTI $87, equity-implied $85-90 — reconvergence will be violent. Structural divergence signals from Pakistani Shalamar (440K bbl to Karachi) transit confirm selective-transit regime intact — 'port blockade not strait closure' (JCS Caine). Goldman Q2 $90 anchor, JPM $150 upside if Hormuz shut into mid-May. Iran waiver expires April 19 (2 days, Treasury confirmed no extension). CF +3.2% counter-directional confirms physical supply disruption persists regardless of deal rhetoric. US equity/VIX/10Y CLOSED Good Friday — Monday reopen carries 72-hour weekend headline risk across Sunday waiver expiry.",
   "current": {
-    "price": "$95.05/bbl",
-    "delta_1d": "+0.1%",
-    "delta_1m": "-8.1%",
+    "price": "$96.16/bbl",
+    "delta_1d": "-3.3%",
+    "delta_1m": "-10.4%",
     "delta_3m": "+48.2%"
   },
   "price_snapshots": [
@@ -143,6 +143,12 @@
       "price": "$95.21/bbl",
       "trigger": "Second session below $100; Dated Brent physical-futures gap exploded to ~$49",
       "delta_context": "Physical Dated Brent hit $144/bbl (peak Apr 7-11) while futures at $95. Energy equities pricing $85-90. Three-layer mispricing."
+    },
+    {
+      "date": "2026-04-17",
+      "price": "$96.16/bbl (settle); $92.92 intraday morning low",
+      "trigger": "Intraday reversal — morning -6.5% bottom, settle -3.3%; WTI diverged to $87.77 (-7.3%), Brent-WTI spread $8.39 widest since blockade",
+      "delta_context": "Morning brief captured futures at $92.92 on Lebanon ceasefire + Trump 'very close' rhetoric; afternoon recovery driven by Pakistani Shalamar tanker confirmed Hormuz transit (selective-transit regime intact) and US session opening. EIA -9.13M bbl bullish inventory IGNORED by deal-sentiment market. Dated Brent physical ~$132 unchanged (no Friday quote — Good Friday). Physical-futures gap NARROWED to ~$36 (from $39 morning) only because futures bounced — physical did not ease. WTI -7.3% reflects US domestic absorbing deal-optimism without blockade hedge; Brent held up by physical-market discipline."
     }
   ],
   "signals": [
@@ -579,25 +585,36 @@
         "CNBC"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "EVENING UPDATE: Brent settled $96.16 (-3.3% net) vs morning -6.5% snapshot at $92.92 — afternoon reversal of +3.5% driven by (a) US session opening and Pakistani-flagged Shalamar (~440K bbl to Karachi) confirmed Hormuz transit during afternoon reinforcing selective-transit regime (JCS Caine 'port blockade not strait closure'), and (b) futures recognizing EIA -9.13M bbl draw ignored at morning. WTI DIVERGED the other way — settled $87.77 (-7.3%), a canonical oil-complex break from Brent that widened the Brent-WTI spread to $8.39, the widest since the blockade began April 13. The mechanism: Brent (global/Gulf-delivery) is held up by Dated Brent $132 physical, Hormuz port-blockade, 0.8-1.0% hull insurance; WTI (US domestic) is freer to price deal-optimism without a shipping-route hedge. Physical Dated Brent NOT re-quoted (Good Friday) — gap narrowed to ~$36 only because futures bounced, not because physical eased. Heating Oil -8.7% (largest single-asset move today) = distillate-supply-crisis trade fully unwound. US equity/VIX/10Y CLOSED Good Friday — the S&P 7,041 ATH roll unchanged into Monday's 72-hour weekend re-price that includes Sunday April 19 waiver expiry. [CONFIRMED] (Sources: yfinance BZ=F/CL=F, CNN liveblog, TradingEconomics TTF, EIA)",
+      "sources": [
+        "yfinance",
+        "CNN liveblog",
+        "TradingEconomics",
+        "EIA"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "Day 47. US blockade operational. Oil initially reversed below $100 on Trump 'deal' claim, then crept back to $99.19 (evening close). Physical-futures gap near widest of crisis: $120+ physical vs $99 futures = $21 gap. Insurance at prohibitive prices (not suspended per Lloyd's List evening correction) — price-based deterrence. 31 vessels/24hrs vs 80-100 normal. Saudi 7M bpd pipeline to Yanbu partially offsets.",
+      "context": "Day 50 evening. Brent $96.16 settle (-3.3%, recovered from $92.92 morning). Pakistani-flagged Shalamar (~440K bbl to Karachi) confirmed Hormuz transit during US session — selective-transit regime intact (JCS Caine 'port blockade not strait closure'). Physical-futures gap $36 (Dated $132 vs $96 futures), narrowed only because futures bounced. IRGC Day 5 zero kinetic action. Pentagon 13 vessels turned around unchanged.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 28,
+      "last_activated": "2026-04-17",
+      "activation_count": 30,
       "weight": 10
     },
     {
       "to": "india",
       "type": "import_cost",
-      "context": "Day 47. Brent at $99.19 (evening close) — briefly dipped toward $97-98 intraday before afternoon creep-back. India CPI 3.40% (imported inflation at 6.49%, contributing 43% of CPI). Every $10/bbl increase = ~$15B additional import bill. Indian markets closed April 14 — will price oil's moves on April 15. FIIs still selling (Rs 1.71 lakh crore CY2026). $99.19 approaching $100 again; structural vulnerabilities persist.",
+      "context": "Day 50 evening. Brent at $96.16 (-3.3%) provides mechanical import-bill relief; India waiver expires April 19 (2 days) per Bessent, no extension. Parallel Russian waiver already expired April 11. INR strengthened to Rs92.84 on Brent crash. Every $10/bbl increase = ~$15B annual import bill. Waiver hit (Iranian + Russian doors shut) is a STRUCTURAL Q2-Q3 recalibration toward Iraq/UAE/Saudi/Africa/Americas.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 22,
+      "last_activated": "2026-04-17",
+      "activation_count": 23,
       "weight": 10
     },
     {

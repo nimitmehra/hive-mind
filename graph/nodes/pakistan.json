@@ -4,7 +4,7 @@
   "type": "country",
   "created": "2026-03-30",
   "last_updated": "2026-04-17",
-  "summary": "Day 49. MUNIR TEHRAN SHUTTLE COMPLETED — Pakistan Army Chief Field Marshal Asim Munir led delegation (Interior Minister Naqvi, FM officials, security/technical experts) to Tehran April 15 to deliver US message to FM Araghchi and prepare framework for Round 2. First CONFIRMED bilateral US-proxy contact between Washington's channel and Tehran since Islamabad collapsed April 12. Araghchi's post-meeting 'commitment to promoting peace and stability in the region remains firm' is most conciliatory FM-level Iranian language since April 8. White House April 15 via Leavitt: Round 2 'very likely' at same Islamabad venue. Shuttle format is classic post-collapse revival pattern that worked for April 6-8 ceasefire. No date confirmed; AP sources suggest April 17-20 window. Pakistan's mediator role now extends to shuttle diplomacy — Munir carrying US message to Iran, delegation-level bilateral statements. Pakistan's dual role intact: mediator for US-Iran AND military partner (13,000 troops + fighter jets to Saudi Arabia). 5-6 ceasefire days remain.",
+  "summary": "Day 50 evening. TWO NEW DATA POINTS — SHALAMAR TRANSIT + ANTALYA SHUTTLE. (1) Pakistani-flagged tanker Shalamar (~440,000 bbl to Karachi) transited Strait of Hormuz April 17 per CNN liveblog (SINGLE SOURCE, no independent AIS/MarineTraffic confirmation); periodically disabled transponder — standard shadow-fleet practice. If CNN figure correct, cargo is materially below standard Suezmax (~1M bbl), likely Aframax/MR2 class for Gulf-Karachi run. First publicly-named Pakistani commercial transit of blockade period. Pakistan flag while South Korea's 26 vessels remain stuck = political access to Iran is a transit-permission variable, not just flag neutrality. (2) Antalya Diplomacy Forum (April 17-19) now the shuttle node: PM Sharif and DPM Ishaq Dar expected Saudi/Turkish/Egyptian counterparts; third regional platform in a month after Riyadh and Islamabad. Pakistan public position UNCHANGED: Foreign Ministry April 16 'no date had been set' remains operative — no announcement today superseding it. Trump's 'this weekend' framing is one-sided rhetoric. Ghalibaf's 'acknowledged Hezbollah's role, approaching with caution' (Apr 17) is tonal downshift from 'inches from MoU' pre-Round 1. Munir Tehran shuttle (Apr 15) remains most recent confirmed bilateral contact. Iran-claimed 'trilateral talks' via Tasnim UNCORROBORATED by Pakistan/US.",
   "signals": [
     {
       "date": "2026-03-26",
@@ -210,25 +210,44 @@
         "Middle East Monitor"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "SHALAMAR HORMUZ TRANSIT — FIRST PUBLICLY-NAMED PAKISTANI COMMERCIAL TRANSIT OF BLOCKADE PERIOD [REPORTED — SINGLE SOURCE, CNN liveblog only; no independent AIS/MarineTraffic confirmation as of this writing]. CNN April 17 reported that the Pakistani-flagged Shalamar, carrying approximately 440,000 barrels of crude bound for Karachi, transited the Strait of Hormuz Friday. Vessel 'periodically disabled its transponder for security reasons' — common shadow-fleet practice. Transit consistent with JCS Caine's clarification (April 16) that blockade targets Iranian port calls, not Strait passage. If 440K bbl figure correct, cargo is well below VLCC (~2M bbl) and Suezmax (~1M bbl) — likely Aframax or MR2 class, typical Gulf-to-Karachi run. Pakistan flag is politically significant: Sharif's shuttle diplomacy (Jeddah, Doha, Antalya) and Munir's Tehran visit position Islamabad as Iran's preferred mediator; Shalamar moves freely while South Korea's 26 vessels remain stuck. Political access to Iran is a transit-permission variable, not just flag-state neutrality. Single-source status — Tag REPORTED, not CONFIRMED. Do NOT allow this to become 'Pakistani tankers now transiting' plural. (Sources: CNN April 17 liveblog)",
+      "sources": [
+        "CNN"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "ANTALYA DIPLOMACY FORUM SHUTTLE [CONFIRMED diplomatic activity; REPORTED on agenda]. PM Sharif and DPM/FM Ishaq Dar expected at Antalya Diplomacy Forum (April 17-19) to meet Saudi, Turkish, and possibly Egyptian counterparts — third regional-platform meeting in a month after Riyadh and Islamabad. Goal described as 'structured cooperation on regional security.' Pakistan's public position that 'no date had been set' for Round 2 US-Iran talks (April 16 via Al Jazeera) remains the operative baseline — no Pakistani announcement April 17 superseded it. Contradiction with Trump's 'this weekend' framing (CNN April 17) is intact. The IRIS framework (Iran-India-US-Pakistan) Trump referenced is rhetorical, not operational. No US delegation movement to Pakistan reported. (Sources: Dailyqudrat.pk on Sharif-Fidan Antalya, Al Jazeera on no-date position, CNN on Trump)",
+      "sources": [
+        "Dailyqudrat.pk",
+        "Al Jazeera",
+        "CNN",
+        "Pakistan Today"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "mediation_channel",
-      "context": "Day 49. Munir Tehran shuttle April 15 — CONFIRMED ACTION. Delivered US message to Araghchi. Araghchi's 'commitment to peace and stability' statement most conciliatory FM-level language since April 8. Pakistan's mediator role now operationalized as physical shuttle, not just message relay. Round 2 venue 'very likely' Islamabad per Leavitt.",
+      "context": "Day 50 evening. Pakistani Shalamar (~440K bbl to Karachi) Hormuz transit CNN-reported (single source) = Pakistan flag-state access-variable to Iran. Pakistan 'no date set' for Round 2 remains operative vs Trump 'this weekend' — Islamabad holding public reticence while continuing Antalya/Jeddah shuttle diplomacy.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 11,
+      "last_activated": "2026-04-17",
+      "activation_count": 12,
       "weight": 10.0
     },
     {
       "to": "united-states",
       "type": "mediation_channel",
-      "context": "Day 49. Munir carrying US message to Tehran — CONFIRMED shuttle format resumed post-Islamabad collapse. White House via Leavitt confirmed Round 2 'very likely' Islamabad venue. Pakistan's Sharif continues Riyadh/Ankara shuttle diplomacy. Shuttle pattern is same post-collapse revival format that worked April 6-8.",
+      "context": "Day 50 evening. Trump 'very close / this weekend' rhetoric (CNN Apr 17); Pakistan 'no date set' unchanged. No US delegation movement reported. Antalya Diplomacy Forum (Apr 17-19) is the parallel shuttle node — Sharif/Dar meet Saudi/Turkish/Egyptian counterparts. Structural contradiction intact.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 10,
+      "last_activated": "2026-04-17",
+      "activation_count": 11,
       "weight": 10.0
     },
     {
@@ -252,11 +271,11 @@
     {
       "to": "strait-of-hormuz",
       "type": "bilateral_deal",
-      "context": "Pakistan's Hormuz deal executing: 20-ship deal (2/day). MV Multan (cargo) and P-Akili (crude) crossing, expected Karachi March 31. Pakistan contradicted Trump — says PAKISTANI ships under bilateral deal, not '20 boats as sign of respect.'",
+      "context": "Day 50. Pakistani-flagged Shalamar (~440K bbl to Karachi) confirmed Hormuz transit Apr 17 (CNN single source, no AIS confirmation yet). First publicly-named Pakistani commercial transit of blockade period. Shadow-fleet transponder-off behavior. Flag-state access-variable evidence: Pakistani ships move, Korean ships remain stuck.",
       "directness": 1,
-      "last_activated": "2026-03-31",
-      "activation_count": 3,
-      "weight": 9.0
+      "last_activated": "2026-04-17",
+      "activation_count": 4,
+      "weight": 9.5
     }
   ],
   "trigger_points": [

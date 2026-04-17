@@ -4,12 +4,12 @@
   "type": "commodity",
   "created": "2026-03-23",
   "last_updated": "2026-04-17",
-  "summary": "Day 49. US spot urea NOLA $550/mt; global spot $680/mt (per CRU/Carnegie/Brownfield). QATAR DOWNSTREAM UREA PRODUCTION STILL HALTED. 30% of exportable urea supply (Saudi, Qatar, Bahrain, Iran) UNAVAILABLE. CF Industries REVERSED +1.6% to $120.81 today after -2.2% yesterday — equity market recognizing yesterday's de-escalation rotation overdone because Hormuz reopening does NOT fix Qatar's downstream urea capacity. Nutrien -0.4% to $73.35. Brownfield analysts: 'Fertilizer prices to stay elevated through 2027 even if Strait of Hormuz reopens.' Indian agriculture + Kharif planting late May will run into shortage. Physical-structural damage longer-duration than equity cycles.",
+  "summary": "Day 50 evening. PHYSICAL DISRUPTION SIGNAL CONFIRMED AGAIN. NOLA FOB urea $713/st (-1% 1D, +16.8% 1M). CF Industries $124.71 (Thursday close, US markets closed Good Friday) — the +3.2% Thursday rally while Brent CRASHED -6.5% intraday is the PUREST equity-market evidence that the physical supply disruption thesis is intact regardless of deal rhetoric. UBS raised CF PT to $140 from $97 (+44%) on April 16 — most aggressive analyst revision of the war. Nutrien $74.53 (+1.6% Thu). Linde $499.22 (+0.3% Thu, helium proxy similarly resilient). Mechanism: Hormuz blockade chokes ~50% seaborne urea trade; Qatar (~17% global urea) unable to ship despite 'ports open' rhetoric (no insurance, no charters); global urea spot elevated. Brownfield: 'elevated through 2027 even if Strait reopens.' Corn +2.5% Friday = second-order spillover (spring planting cost-push). CF is the cleanest 'physical disruption persists' trade in the equity universe; will OUTPERFORM defense/energy/shipping in a 'Hormuz reopens slowly' scenario.",
   "current": {
-    "price": "NOLA $550/mt, global spot $680/mt; CF Industries $120.81; Nutrien $73.35",
-    "delta_1d": "CF +1.6% reversal; Nutrien -0.4%",
-    "delta_1m": "CF -8.2%; Nutrien -10.5%",
-    "delta_3m": "CF +38.1%; Nutrien +9.3%"
+    "price": "NOLA $713/st; CF Industries $124.71 (Thu); Nutrien $74.53 (Thu); Linde $499.22 (Thu)",
+    "delta_1d": "CF +3.2% counter-directional (Thu); Nutrien +1.6%; Urea -1% 1D",
+    "delta_1m": "CF +1.2%; Urea +16.8%",
+    "delta_3m": "CF +41.8%; Nutrien +11.7%"
   },
   "price_snapshots": [
     {
@@ -243,6 +243,17 @@
         "TradingEconomics"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "EVENING UPDATE: CF DIVERGENCE FROM BRENT IS LARGEST OF THE WAR [CONFIRMED Thursday close — US markets closed Good Friday Apr 17]. CF Industries closed Thursday $124.71 (+3.2%) on the same day Brent crashed intraday -6.5% to $92.92 and Heating Oil -8.7%. UBS raised CF PT to $140 from $97 (+44%). Nutrien $74.53 (+1.6%), Linde $499.22 (+0.3%), BASF structural +18% 1M — the fertilizer/agri-input complex holding firm while war-premium plays (Defense ITA -2.1%, Frontline -1.0%) sold off. Second-order signal: Corn +2.5% Friday — spring planting cost-push from urea/fertilizer (~40% crisis-attributable, 60% USDA acreage/weather dynamics). The fertilizer-to-grains cascade is real but partial; crisis-side does NOT reverse on a ceasefire — fertilizer chains take MONTHS to reset. Investor implication: fertilizer/agri-input names (CF, NTR, MOS, Yara) are the residual 'physical disruption' trade if headline ceasefire materializes but physical chains stay broken — will OUTPERFORM defense, energy, and shipping in a 'Hormuz reopens slowly' scenario. (Sources: yfinance CF/NTR/LIN Thursday closes CONFIRMED, UBS research via market wire, CRU urea spot)",
+      "sources": [
+        "yfinance",
+        "UBS",
+        "CRU",
+        "Argus Media"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -258,11 +269,11 @@
     {
       "to": "qatar",
       "type": "production_dependency",
-      "context": "QAFCO Mesaieed (world's largest single-site urea plant, 5.6 Mt/y) still offline. Ceasefire doesn't change physical restart timeline -- months, not days. Ras Laffan recovery delayed to August 2026.",
+      "context": "Day 50 evening. QAFCO Mesaieed (world's largest single-site urea plant, 5.6 Mt/y) remains offline. Ras Laffan Trains 4 & 6 = 12.8 Mtpa / 17% global LNG offline; August earliest partial restart, 3-5 years full restoration. Ceasefire does not change physical restart timeline. CF +3.2% counter-directional Thursday = equity confirmation of 'elevated through 2027' thesis.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 7,
-      "weight": 9.0
+      "last_activated": "2026-04-17",
+      "activation_count": 8,
+      "weight": 9.5
     },
     {
       "to": "india",
@@ -272,6 +283,15 @@
       "last_activated": "2026-04-14",
       "activation_count": 8,
       "weight": 8.4
+    },
+    {
+      "to": "strait-of-hormuz",
+      "type": "physical_chokepoint",
+      "context": "Day 50 evening. STRENGTHENED. CF +3.2% counter-directional on day Brent crashed -6.5% intraday = cleanest equity-market evidence that the physical supply-chain mechanism operates INDEPENDENTLY of paper oil prices. Hormuz blockade chokes ~50% seaborne urea trade regardless of deal rhetoric. UBS PT raise to $140 (+44%) encodes this view. Physical supply chain resets in months, not days, regardless of any peace deal.",
+      "directness": 1,
+      "last_activated": "2026-04-17",
+      "activation_count": 10,
+      "weight": 10.0
     }
   ],
   "trigger_points": [
