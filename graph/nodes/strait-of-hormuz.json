@@ -3,8 +3,8 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-04-17",
-  "summary": "Day 50 evening / Blockade Day 5. SHALAMAR TRANSIT + MACRON SUMMIT FACT-CHECK. Pakistani-flagged Shalamar (~440K bbl to Karachi) confirmed Hormuz transit April 17 (CNN single source, no independent AIS/MarineTraffic yet) — first publicly-named Pakistani commercial transit of blockade period. Vessel 'periodically disabled transponder' (shadow-fleet practice). Transit consistent with JCS Caine 'port blockade not strait closure' structural distinction. CENTCOM count unchanged at 13 vessels turned around; no IRGC kinetic action Day 5 (zero engagement beyond Thursday's 'near-engagement video'); zero shots fired. UANI April Iran Tanker Tracker: ~25 tankers loaded Kharg, 7 VLCCs + 1 Suezmax + 2 Aframax + 3 actively loading (~5M bbl new cargo) as of April 16. Macron-Starmer Paris summit happened April 17: 30-40 nations VIRTUAL (CNN: '40-nation virtual'; ABC: 'about 30 countries') — NOT 70-80 in-person as morning brief implied. Macron: mission 'strictly defensive,' 'when security conditions allow' = post-war, not active escort. US excluded. Of Gulf: only UAE/Bahrain attending; Saudi/Qatar/Oman/Pakistan absent (preference for Pakistan-led track). No communiqué on force composition/ROE/timeline. South Korea's 26 vessels (173 crew) remain stuck — no release. War risk insurance 0.8-1.0% hull UNCHANGED — insurers not stepping down. Ceasefire T-4 days.",
+  "last_updated": "2026-04-18",
+  "summary": "Day 51 Saturday / Ceasefire Day 2. HORMUZ 'COMPLETELY OPEN' — CONDITIONAL, IRGC-CONTROLLED, FENCED. FM Araghchi declared April 17 the passage 'completely open for the remaining period of ceasefire' — first Iranian formal opening-declaration since blockade began. Triggered largest single-day oil crash of crisis (Brent -7.6% to $91.87, WTI -11.3% to $84.00, Heating Oil -12.8%, S&P record close 7,126.06). Operationally fenced on three sides: (1) Tasnim (IRGC-linked) publicly rebuked Araghchi's tweet as 'flawed and incomplete' within hours — sharpest civilian-hardline divergence since April 9 breakdown; (2) Baghaei conditional: 'if US blockade of Iran ports continues, Iran will take reciprocal measures'; (3) IRGC Navy formalised permission regime April 17-18 — civilian vessels only via Iran-designated routes, military vessels barred. This IS the 'controlled passage via coordination' of the April 8 ceasefire text, now formalised operationally. Kpler: 8 commercial vessels transited by 2pm EST Friday (~10-15% of 120/day pre-war norm); oil-tanker traffic still near-zero. CENTCOM: 21 vessels turned back since April 13 (up from 13). Physical-futures gap widens to ~$40 — Dated Brent ~$132 (Thu last-print held) vs Brent futures $91 — widest of war; paper priced aggressive de-escalation, physical did not follow. War-risk insurance unchanged at ~1% hull — insurers NOT stepping down on Araghchi announcement. Macron-Starmer virtual summit April 17 (30-40 nations) confirmed post-war framework. Trigger point 4 (Iranian selective control) is REINFORCED — IRGC permission regime IS the structural output of the war. Monday Islamabad Round 2 (per Iranian-sourced CNN) is the next binary catalyst.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -549,25 +549,51 @@
         "UKMTO"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-18",
+      "content": "HORMUZ 'COMPLETELY OPEN' DECLARATION + TASNIM REBUKE + IRGC PERMISSION REGIME [CONFIRMED declaration with OPERATIONAL CONDITIONALITY]. FM Araghchi on X April 17 (~17:00 EST): 'In line with the ceasefire in Lebanon, the passage for all commercial vessels through Strait of Hormuz is declared completely open for the remaining period of ceasefire.' Triggered Brent -7.6% to $91.87, WTI -11.3% to $84.00, Heating Oil -12.8%, S&P record high 7,126.06. Tasnim rebuked the tweet as 'flawed and incomplete'; Baghaei clarified conditions: passage via Iran-designated 'coordinated route' only, AND 'if US blockade of Iran ports continues, Iran will take reciprocal measures.' IRGC Navy then issued formal permission regime — 'all ships require its permission to pass, with civilian vessels allowed only through designated Iranian routes, while military vessels remain barred.' Operational data: Kpler 8 vessels transited by 2pm EST Friday (~10-15% of 120/day pre-war); oil-tanker traffic still near-zero. CENTCOM 21 vessels turned back since April 13 (up from 13). Trump reiterated 'blockade in full force until peace deal.' Two distinct 'openings' in play: Iran claims Hormuz open to commercial vessels, US says Iranian port blockade intact. Iranian oil tankers still cannot move. Trigger point 4 (Iranian selective control) REINFORCED — permission regime IS the operational codification of the controlled-passage paradigm. (Sources: Al Jazeera, Bloomberg, NBC News, Argus Media, Kpler via DNYuz, Tasnim, Iran MFA via Tribune India/ANI, Trump via CNN, CENTCOM)",
+      "sources": [
+        "Al Jazeera",
+        "Bloomberg",
+        "NBC News",
+        "Argus Media",
+        "Kpler",
+        "Tasnim",
+        "Tribune India",
+        "CENTCOM"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-18",
+      "content": "PHYSICAL-FUTURES GAP WIDENS TO ~$40 — widest of crisis. Dated Brent physical still ~$132 (Thursday last-print, no public Friday print located) while Brent futures crashed to $91.87. Gap widened from ~$36 (evening brief April 17) to ~$40. Paper market priced aggressive de-escalation; physical tanker pricing did not. VLCC TD3C rates ~$130K/day (WS ~78) with war-risk surcharge intact; Gulf AWRP ~1% hull + 35-50% NCB UNCHANGED from April 13 baseline. This is the cleanest single-metric read that the futures market and the physical market are pricing fundamentally different paths. If Monday Islamabad delivers, physical should converge down to $100-105 over 5-10 sessions; if reciprocal-measures trigger fires, futures snap back to $95+. One price is materially wrong. (Sources: yfinance BZ=F, Argus/Platts absent Friday print, Baltic Exchange/Clarksons, Lloyd's List/Strauss Center)",
+      "sources": [
+        "yfinance",
+        "Argus/Platts",
+        "Baltic Exchange",
+        "Lloyd's List"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
-      "type": "territorial_control",
-      "context": "Day 50 evening. Blockade Day 5: Shalamar (Pakistani-flag, 440K bbl to Karachi) CNN-reported Hormuz transit. IRGC Day 5 zero kinetic action. Iran counter-blockade declaratory only. Macron-Starmer summit fact-checked to 30-40 virtual (not 70-80 in-person). Kharg shadow fleet loading continues (~25 tankers April per UANI). Insurance unchanged 0.8-1.0%.",
+      "type": "territorial_control_conditional_reopening",
+      "context": "Day 51. HORMUZ 'COMPLETELY OPEN' declared by Araghchi April 17, conditional on Lebanon ceasefire + US blockade lift (Baghaei). Operationally fenced by IRGC Navy permission regime (civilian only, designated routes). Tasnim rebuked declaration as 'flawed and incomplete' — civilian-hardline divergence. Kpler 8 vessels transited Friday (~10-15% of pre-war); oil-tanker traffic near-zero. CENTCOM 21 vessels turned back since Apr 13 (up from 13). Edge is bidirectional-conditional: Hormuz openness ↔ US port blockade status. IRGC operational control is the structural output, not civilian declaration.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 26,
+      "last_activated": "2026-04-18",
+      "activation_count": 28,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "supply_chokepoint",
-      "context": "Day 50 evening. Blockade Day 5. Brent settled $96.16 (-3.3% net, recovered from $92.92 morning low on Shalamar transit confirmation). WTI diverged to $87.77 (-7.3%); Brent-WTI spread $8.39 widest since blockade. Dated Brent physical unchanged at ~$132 (no Friday quote — Good Friday) — physical-futures gap narrowed to $36 only because futures bounced, not because physical eased. Three-layer disconnection intact. JPM $150 if Hormuz shut into mid-May. Yanbu port bottleneck binding constraint.",
+      "context": "Day 51. Friday April 17 was a full trading session (corrects prior brief's Good-Friday error — Good Friday 2026 was April 3). Araghchi Hormuz-open declaration drove Brent -7.6% to $91.87 (wire $90.38, -9.1%), intraday low $87.94. WTI -11.3% to $84.00; spread compressed to $7.87 (yfinance) — still 2-3x historical $2-5. Physical-futures gap WIDENS to ~$40 (Dated Brent ~$132 held vs Brent futures $91) — widest of war. Paper priced aggressive de-escalation; physical did not follow. Goldman Q2 $90 base case validated within $2; Morgan Stanley $110 Q2 now ~$20 above market.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 28,
+      "last_activated": "2026-04-18",
+      "activation_count": 30,
       "weight": 10
     },
     {
@@ -582,10 +608,10 @@
     {
       "to": "shipping-tankers",
       "type": "route_disruption",
-      "context": "Day 50 evening. War risk insurance UNCHANGED 0.8-1.0% hull — insurers require signed framework, not rhetoric. Frontline -1.0% April 16 (Thu close) but +12.3% 1M — day-rate normalization vs sustained elevated rates locked through 2027. South Korea 26 vessels (173 crew) still stuck — flag-state access-variable intact. Pakistani Shalamar moves freely; Chinese shadow fleet moves freely; Korean ships do not. VLCC TD3C WS126.5 (~$112K/day), 3-4x historical baseline.",
+      "context": "Day 51. FRONTLINE +5.6% on Hormuz-open day = COUNTER-DIRECTIONAL — cleanest equity-market window into physical Gulf disruption. VLCC TD3C ~$130K/day (WS ~78) still 2.5-3x historical; war-risk surcharge embedded. War-risk insurance ~1% hull UNCHANGED on Araghchi announcement — insurers NOT stepping down. Dual Russian (Apr 11) + Iranian (Apr 19) sanctions waivers expiring remove ~90+ vessels from compliant trade; fleet tightness structural and orthogonal to deal optimism. This edge is REINFORCED AS INDEPENDENT SIGNAL — shipping-tankers edge holds while fertilizer-urea edge co-moved with deal rhetoric.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 25,
+      "last_activated": "2026-04-18",
+      "activation_count": 27,
       "weight": 10
     },
     {
@@ -614,6 +640,15 @@
       "last_activated": "2026-04-16",
       "activation_count": 12,
       "weight": 10
+    },
+    {
+      "to": "irgc",
+      "type": "operational_permission_regime",
+      "context": "IRGC Navy formal permission regime codified April 17-18: 'all ships require its permission to pass, with civilian vessels allowed only through designated Iranian routes, while military vessels remain barred.' First explicit institutional codification since blockade began. Operational reality of Hormuz is IRGC-controlled, regardless of Iranian civilian government announcements (Araghchi 'open' declaration).",
+      "directness": 1,
+      "last_activated": "2026-04-18",
+      "activation_count": 1,
+      "weight": 8.0
     }
   ],
   "trigger_points": [
@@ -661,9 +696,20 @@
         "shipping-tankers",
         "inr-usd"
       ],
-      "mechanism": "WSJ reports Trump willing to exit without Hormuz reopening. If war ends but Iran maintains toll system and selective passage, oil floor $90-100 permanently rather than reverting to $70. Changes the entire crisis-resolution investment thesis. | UPDATE 2026-04-07: Iran's 10-point counter formalizes 'safe-passage protocol' — i.e., permanent selective control under sovereignty claim. This is the structural Iranian position even pre-ceasefire. Trigger pre-conditions strengthening.",
+      "mechanism": "WSJ reports Trump willing to exit without Hormuz reopening. If war ends but Iran maintains toll system and selective passage, oil floor $90-100 permanently rather than reverting to $70. Changes the entire crisis-resolution investment thesis. | UPDATE 2026-04-07: Iran's 10-point counter formalizes 'safe-passage protocol' — i.e., permanent selective control under sovereignty claim. Trigger pre-conditions strengthening. | UPDATE 2026-04-18: DEFINITIVELY CONFIRMED. IRGC Navy issued formal permission regime April 17-18: civilian vessels only via Iran-designated routes, military vessels barred. Araghchi 'completely open' declaration is fenced by this regime + Baghaei conditional (US blockade must lift). Permission regime IS the operational codification of selective control — the structural output of the war, not a placeholder.",
       "added": "2026-03-31",
       "status": "active"
+    },
+    {
+      "condition": "Physical-futures gap closes below $10/bbl (Dated Brent converges to Brent futures)",
+      "cascade": [
+        "brent-crude",
+        "shipping-tankers",
+        "marine-war-risk-insurance"
+      ],
+      "mechanism": "Currently ~$40 (Dated Brent $132 / futures $91) — widest of crisis. Physical-futures convergence is the cleanest hard-money signal that Hormuz disruption is ACTUALLY resolving (not just deal rhetoric). Requires Dated Brent down to $100-105 over 5-10 sessions. Test: Monday April 20-21 pricing. If Dated Brent publishes at $128+ Monday while futures hold $91, physical is calling paper wrong; if Dated Brent opens at $100-110, physical is converging to paper and de-escalation is structural.",
+      "added": "2026-04-18",
+      "status": "watching"
     }
   ],
   "price_snapshots": [

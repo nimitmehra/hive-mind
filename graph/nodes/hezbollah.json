@@ -3,8 +3,8 @@
   "name": "Hezbollah",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-17",
-  "summary": "Day 50 evening. CEASEFIRE DAY 1 — CLEAN COMPLIANCE. Hezbollah confirmed 'launched its last attack at 11:50pm local time, just 10 minutes before the ceasefire took effect' midnight Apr 16-17. From 105 attack waves April 15 (most intense day of 2026 war, Alma Research) to structured halt — order-of-magnitude de-escalation in 48 hours. BUT Lebanon Army documented Israeli violations within first 24 hours (artillery on Al-Khiam/Debbin, drones Western Bekaa); IDF 'reserves right to self-defense' under Netanyahu 10km zone framework. Pause is asymmetric: Hezbollah honoring it, Israel treating as 'timeout' while retaining operational freedom. Iran FM Baghaei framed Lebanon ceasefire as 'part of broader agreement with US mediated by Pakistan' — directly re-linking Hezbollah pause to Iran negotiating track (contradicting US de-linkage). If IDF operations escalate during pause, Hezbollah's position is pre-established: 'right to resist' inside 10km zone. The trigger for resumed hostilities is Israel-operated, not Hezbollah-operated.",
+  "last_updated": "2026-04-18",
+  "summary": "Day 51 / Ceasefire Day 2. COMPLIANCE HOLDS. No Hezbollah rocket fire Day 2 despite IDF Kounine drone strike killing one; politician Ali Fayyad on Al Jazeera Arabic: approach with 'caution and vigilance,' any targeting = breach. Hezbollah pre-positioned 'right to resist' inside 10km zone — trigger for resumed hostilities is Israel-operated. Iran FM Baghaei re-linked ceasefire to broader US-Iran deal mediated by Pakistan; Araghchi's Hormuz-open declaration explicitly tied to 'remaining period of ceasefire' = two theatres formally linked in Iranian framing. Haaretz April 5 (carry-over): IDF 'admits it can't disarm Hezbollah' — Israeli stated goal of Hezbollah disarmament is not achievable under this ceasefire structure. 7 days remain in 10-day window; transition to permanent framework is the next binary. Pre-ceasefire peak April 15: 105 attack waves in single day (Alma Research); post-ceasefire Day 2: zero rocket fire = order-of-magnitude de-escalation sustained across 48 hours.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -263,34 +263,44 @@
         "Iran MFA"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-18",
+      "content": "CEASEFIRE DAY 2 — HEZBOLLAH COMPLIANCE HOLDS DESPITE IDF KOUNINE DEATH [CONFIRMED]. IDF drone strike killed one in southern village of Kounine Day 2 (Lebanon Health Ministry via CBC News). Hezbollah Day 2 rocket count: ZERO. Politician Ali Fayyad on Al Jazeera Arabic: approach with 'caution and vigilance,' any targeting = breach. Hezbollah's pre-positioned 'right to resist' inside 10km zone remains rhetorical through Day 2 — not activated by Day 1 or Day 2 IDF self-defense strikes. Order-of-magnitude de-escalation sustained: pre-ceasefire peak April 15 was 105 attack waves (Alma Research); Day 1-2 post-ceasefire = 0 attack waves. Iran linkage via Baghaei: Araghchi Hormuz-open declaration explicitly tied to 'remaining period of ceasefire' — if Hezbollah breaks out, two theatres unwind simultaneously. Haaretz April 5 (carry-over): IDF 'admits it can't disarm Hezbollah' — Israeli stated goal not achievable under this ceasefire structure. 7 days remain in 10-day window. (Sources: CBC News, Al Jazeera Arabic, Lebanese Army)",
+      "sources": [
+        "CBC News",
+        "Al Jazeera",
+        "Lebanese Army"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "proxy_alliance",
-      "context": "Day 50 evening. Hezbollah in structured pause; Iran FM Baghaei explicitly framed Lebanon ceasefire as 'part of broader US-Iran agreement mediated by Pakistan' — Iran claiming partial delivery on Islamabad preconditions. If IDF violations of the 10-day pause escalate, Hezbollah response is pre-positioned ('right to resist') and will directly stress the Iran-US Round 2 window.",
+      "context": "Day 51. Hezbollah in structured pause Day 2; Iran FM Baghaei explicitly framed Lebanon ceasefire as 'part of broader US-Iran agreement mediated by Pakistan' — Araghchi Hormuz-open tied to 'remaining period of ceasefire.' Two theatres formally linked in Iranian framing. If IDF Day 2 Kounine-type strikes escalate or 10-day window expires without extension, Hezbollah response is pre-positioned and will directly stress Iran-US Round 2 Monday Islamabad.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 18,
+      "last_activated": "2026-04-18",
+      "activation_count": 19,
       "weight": 10
     },
     {
       "to": "israel",
       "type": "structured_pause",
-      "context": "Day 50 evening. CEASEFIRE DAY 1 — Hezbollah clean compliance (last attack 11:50pm, 10 min before midnight); Israeli violations documented by Lebanon Army (artillery/machine-gun on Al-Khiam/Debbin, drones in Western Bekaa). IDF 'reserves right to self-defense' inside Netanyahu's 10km zone. Asymmetric pause — Hezbollah honoring, Israel treating as operational 'timeout.'",
+      "context": "Day 51 / Ceasefire Day 2. Hezbollah clean compliance Day 2 — zero rocket fire despite IDF Kounine drone strike killing one. Fayyad (Al Jazeera Arabic): 'caution and vigilance.' Israeli 'self-defense' framework continued Day 2. Order-of-magnitude de-escalation sustained across 48 hours. Pause intact; casualty-per-day ~1 (lowest of war).",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 22,
+      "last_activated": "2026-04-18",
+      "activation_count": 23,
       "weight": 10
     },
     {
       "to": "lebanon",
       "type": "operating_base",
-      "context": "Day 50 evening. Ceasefire Day 1: Hezbollah halted attacks midnight Apr 16-17; Lebanese state diplomacy (Rubio track) advanced independently. Baghaei re-linked pause to broader US-Iran deal, demanded Israel full withdrawal from south Lebanon. Hezbollah retains 'right to resist' inside 10km zone.",
+      "context": "Day 51 / Ceasefire Day 2. Hezbollah rocket fire: zero Day 1-2. Lebanese state diplomacy (Rubio track) advanced independently. Baghaei re-linked pause to broader US-Iran deal, demanded Israel full withdrawal from south Lebanon. Hezbollah retains 'right to resist' inside 10km zone — rhetorical through Day 2.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 18,
+      "last_activated": "2026-04-18",
+      "activation_count": 19,
       "weight": 10
     }
   ],

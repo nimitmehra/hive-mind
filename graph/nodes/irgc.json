@@ -3,8 +3,8 @@
   "name": "Islamic Revolutionary Guard Corps (IRGC)",
   "type": "institution",
   "created": "2026-03-28",
-  "last_updated": "2026-04-17",
-  "summary": "Day 50 / Blockade Day 5. ZERO KINETIC ACTION PATTERN NOW AT 5 DAYS. IRGC zero confirmed kinetic action against US blockade force or against vessels bound for UAE/Saudi/Kuwait/Qatar ports. CENTCOM 13 vessels turned around count UNCHANGED. No shots fired, no IRGC-US engagement beyond Thursday's Iran-released 'near-engagement video' (Fortune). Pakistani-flagged Shalamar (~440K bbl) transited Hormuz Friday (CNN single-source) — selective-transit regime intact. Kharg shadow fleet loading continues: UANI April Iran Tanker Tracker ~25 tankers loaded crude; 7 VLCCs + 1 Suezmax + 2 Aframax identified in Kharg region Apr 16, 3 actively loading (~5M bbl new cargo). Iran's counter-blockade DECLARATORY only. Two readings of 5-day restraint: (a) IRGC preserving ceasefire corridor through Round 2 (consistent with Araghchi conciliatory language post-Munir); (b) IRGC operational capacity further degraded since April 7 Khademi assassination and 10,000+ US-Israeli strikes. Both consistent with delayed/diminished retaliation. 60% fast-attack craft fleet remains intact (WSJ). Bark-without-bite pattern extending.",
+  "last_updated": "2026-04-18",
+  "summary": "Day 51 / Blockade Day 6. IRGC NAVY FORMAL PERMISSION REGIME CODIFIED + TASNIM PUBLIC REBUKE OF ARAGHCHI. On April 17-18, IRGC Navy issued explicit conditions: 'all ships require its permission to pass, with civilian vessels allowed only through designated Iranian routes, while military vessels remain barred from transit.' First explicit institutional codification of the permission regime operating informally since blockade began. IRGC Navy is the operational reality of Hormuz, not Iranian civilian government declarations. Simultaneously, Tasnim News (IRGC-linked) publicly rebuked FM Araghchi's 'completely open' tweet as 'flawed and incomplete' — sharpest public IRGC-civilian divergence since April 9 ceasefire breakdown. ZERO kinetic action now at 6 days despite maximal rhetoric (Abdollahi Red Sea threat April 17 still rhetorical). Kharg shadow fleet loading continues (~25 tankers April per UANI). Kpler 8 commercial vessels transited Friday via IRGC-designated routes. Meta-signal: hardline faction is preserving capacity to delegitimise whatever Araghchi brings back from Monday Islamabad. Karim Sadjadpour falsifiable test: if Tasnim rebuke softens within 72 hours, IRGC falling in line; if sharpens, factional split real. Fars News denied substantive negotiations with Trump. Bark-without-bite on action + hardline re-divergence on framing = the April 9-style pre-breakdown pattern re-emerging.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -353,25 +353,47 @@
         "ISW"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-18",
+      "content": "IRGC NAVY FORMAL PERMISSION REGIME CODIFIED [CONFIRMED OPERATIONAL POLICY]. On April 17-18 (straddling IST), Iran's IRGC Navy 'detailed conditions for vessels seeking to transit through the Strait of Hormuz, stating that all ships would require its permission to pass, with civilian vessels allowed only through designated Iranian routes, while military vessels remain barred from transit.' First formal institutional codification of the permission regime the IRGC has been operating informally since the blockade began. Combined with Araghchi's Hormuz 'open' claim + Baghaei's reciprocal-measures warning, Iran's position: Hormuz open by Iranian grace, only through Iranian-designated lanes, only for civilian vessels, only while Lebanon ceasefire holds AND US port blockade lifts. This IS the 'controlled passage via coordination' paradigm from the April 8 ceasefire text, now formalised operationally. The strait-of-hormuz trigger point 4 (Iranian selective control within ceasefire framework) is REINFORCED — permission regime IS the structural output, not a placeholder. (Sources: Tribune India/ANI, Webindia123, Bloomberg via claims journal)",
+      "sources": [
+        "Tribune India",
+        "ANI",
+        "Webindia123",
+        "Bloomberg"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-18",
+      "content": "TASNIM PUBLIC REBUKE OF ARAGHCHI + KAYHAN/FARS RE-POSITIONING [CONFIRMED institutional divergence]. Tasnim News Agency (IRGC-linked) published a rebuke within hours of Araghchi's Hormuz-open X-post, calling it 'a flawed and incomplete tweet' that 'created unnecessary ambiguity about reopening the Strait of Hormuz' — rare on-record rebuke of a sitting FM by major state-affiliated outlet. Kayhan editor Hossein Shariatmadari had pre-positioned with April 8 editorial 'A Ceasefire Is a Multi-Layered Gift to the Enemy,' then reversed post-ceasefire to hail victory — the hardline pattern of preserving tactical reversal capacity. Fars News (IRGC-adjacent) denied any substantive negotiations with Trump in initial stages. Meta-signal: hardline faction pre-positioning to delegitimise whatever Araghchi brings back from Monday Islamabad. If Araghchi returns with framework that acknowledges any US port-blockade continuation, Tasnim's rebuke is ammunition for domestic hardline critique. This is the exact pattern that preceded the April 9 ceasefire breakdown. Falsifiable (Sadjadpour): Tasnim rebuke soft within 72 hours = IRGC falling in line; sharpens = factional split real. (Sources: Tasnim News Agency, Kayhan newspaper, Fars News, Al Jazeera liveblog)",
+      "sources": [
+        "Tasnim",
+        "Kayhan",
+        "Fars News",
+        "Al Jazeera"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
-      "type": "state_apparatus",
-      "context": "Day 49. IRNA-Tasnim convergence on Araghchi's post-Munir conciliatory framing = institutional alignment strongest since April 8. Fars News (IRGC-linked) has not issued new Hormuz kinetic threats in 48 hours. Suggests IRGC has not broken from civilian government on Round 2 preparation.",
+      "type": "state_apparatus_diverging",
+      "context": "Day 51. IRGC-CIVILIAN DIVERGENCE RE-OPENS. Tasnim (IRGC-linked) publicly rebuked FM Araghchi's Hormuz-open tweet April 17 as 'flawed and incomplete' — sharpest public divergence since April 9 breakdown. Kayhan/Fars hardline pre-positioning pattern re-active. Civilian government (Pezeshkian, Araghchi) leading public de-escalation; hardliners preserving capacity to delegitimise Monday Islamabad outcome. April 16 IRNA-Tasnim convergence broken by April 17-18.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 24,
+      "last_activated": "2026-04-18",
+      "activation_count": 26,
       "weight": 10.0
     },
     {
       "to": "strait-of-hormuz",
-      "type": "operational_control",
-      "context": "Day 49 / Blockade Day 4: IRGC zero kinetic action in four consecutive days despite 'deadly whirlpools' rhetoric. Iran counter-blockade DECLARATORY only. Fars News threat against UK-France Friday conference vessels. Toll booth + mine map infrastructure persist. 60% of fast-attack fleet intact (WSJ). Sustained restraint reads as either Round 2 corridor preservation OR degraded operational capacity.",
+      "type": "operational_permission_regime",
+      "context": "Day 51 / Blockade Day 6: IRGC Navy formally codified permission regime April 17-18 — civilian vessels only via Iran-designated routes, military vessels barred. First explicit institutional codification since blockade began. Zero kinetic action pattern now at 6 days (Abdollahi Red Sea threat still rhetorical). IRGC operational control IS the structural output of Hormuz crisis, regardless of Araghchi 'open' declaration. Kpler 8 vessels transited Friday via IRGC-designated routes (~10-15% of pre-war). Toll booth + mine map infrastructure persist.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 23,
+      "last_activated": "2026-04-18",
+      "activation_count": 25,
       "weight": 10.0
     },
     {

@@ -3,13 +3,13 @@
   "name": "India",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-17",
-  "summary": "Day 49. TRIPLE SQUEEZE TIGHTENING: Iran waiver expires April 19 — 3 DAYS (tightened from 4). US Treasury reiterated April 15 no extension. Russian waiver already expired April 11. ~2M barrels Iranian crude already arrived via Reliance-coordinated deliveries; 4 additional Iranian vessels sought clearance but deliveries will NOT complete before April 19. Nifty +0.3% to 24,300 (modest); Sensex +0.7% to 78,682; Bank Nifty +0.3% to 56,499. India MATERIALLY LAGGING Asia (Nikkei +2.2%, KOSPI +1.9%): triple squeeze specific to India. INR at Rs93.29 +0.1% WEAKENED slightly vs yesterday's Rs93.39 close — tailwind faded, waiver expiry starting to pressure rupee. FII flows still NET NEGATIVE: +Rs923 crore single-session April 15 inflow but CY2026 cumulative >Rs1.79 lakh crore SOLD. India 10Y GOI ~6.90% (6.85-7.00% range), 'broad-based selling on oil + geopolitical risk' per TE, FII debt outflows. IMF cut 2026 MENA growth to 1.1% — hits ~8M Indian diaspora remittance channel ($40B/yr, Kerala banking, Kochi/Hyderabad real estate). JPMorgan Nifty target 27,000 distant. Q4 FY26 earnings starting with mixed guidance.",
+  "last_updated": "2026-04-18",
+  "summary": "Day 51 / India waiver T-1 (expires Sunday April 19 midnight UTC). FINALISED WAIVER-EVE ROLLUP. RBI weekly forex (Friday Apr 17): reserves ROSE $3.825B to $700.946B for week ending April 10 — first print covering blockade week. Trajectory peak Feb 27 $728.5B → trough early April $688B → week-end Apr 3 $697.1B → week-end Apr 10 $700.9B. Net drawdown from peak ~$27.5B (NOT -$31B as evening brief said — stale math). Through week of most severe blockade rhetoric onset, reserves ROSE (valuation + reduced intervention need as rupee stabilized 92.50-92.79). FPI outflows PERSIST despite ceasefire: Rs 48,213 cr (~$5.8B) withdrawn first 10 days April per NSDL; 2026 YTD outflows ~Rs 1.8 lakh crore (~$21B). Business Standard explicitly: 'Even the recent US-Iran ceasefire failed to arrest the selling momentum. FPIs used the relief rally as a liquidity window to exit further.' This is INVERSE of evening brief framing — FPIs NOT confirming deal-optimism rally; MONETIZING it. Nifty 24,353.55 +0.6% (post-ceasefire high); Sensex 78,493.54 +0.6%; Bank Nifty 56,565.70 +0.9% — UNDERPERFORMED global risk-on Day (DAX +2.3%, S&P +1.2%). Friday FPI intraday Rs 683 cr BUY but DIIs Rs 4,721 cr SELL — the real signal. INR strengthened -0.9% to Rs92.57 on Brent crash. IOC (2M bbl Iranian, yuan via ICICI Shanghai) + Reliance (Iranian crude to Sikka, Gujarat) raced to deadline; 4-6M bbl confirmed arriving before Sunday. Russian waiver already expired April 11; Monday open both sanctioned-import doors shut simultaneously for first time. RBI toolkit-ladder at '3 of 7' (NDF ban + NOP caps + refiner-dollar limits April 10); non-escalation = confidence. Asymmetric risk into Monday: modest upside (+0.5-1% if Islamabad delivers), material downside (-2-3% if talks collapse or Iranian reciprocal measures fire).",
   "current": {
-    "price": "Nifty 24,300 / Sensex 78,682",
-    "delta_1d": "+0.3% / +0.7%",
-    "delta_1m": "+2.8% / +3.5%",
-    "delta_3m": "-5.4% / -5.8%"
+    "price": "Nifty 24,353.55 / Sensex 78,493.54",
+    "delta_1d": "+0.6% / +0.6%",
+    "delta_1m": "+5.2% / +5.3%",
+    "delta_3m": "-4.8% / -5.7%"
   },
   "signals": [
     {
@@ -527,43 +527,56 @@
         "bizzbuzz.news"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-18",
+      "content": "FINALISED WAIVER-EVE ROLLUP (India waiver T-1 / expires Sunday April 19 midnight UTC) [CONFIRMED; CORRECTS evening brief's stale-week math]. RBI weekly release Friday April 17: reserves ROSE $3.825B to $700.946B for week ending April 10 (FIRST print covering blockade week — April 13 blockade start is technically post-week-end but reserves trajectory through the week of blockade rhetoric onset is captured). Reserves trajectory corrected: peak $728.494B Feb 27 → trough $688B early April → week-end Apr 3 $697.121B → week-end Apr 10 $700.946B. Net drawdown from peak ~$27.5B (NOT $31B as evening brief said — stale math). Through the week rhetoric was most severe, reserves ROSE (valuation effect on dollar weakness + reduced intervention need as rupee stabilized at 92.50-92.79). FPIs WITHDREW Rs 48,213 crore (~$5.8B) in first 10 days of April per NSDL; 2026 YTD outflows now ~Rs 1.8 lakh crore (~$21B). Business Standard: 'Even the recent US-Iran ceasefire failed to arrest the selling momentum. FPIs used the relief rally as a liquidity window to exit further.' INVERSE of evening brief framing — FPI behavior is NOT confirming deal-optimism rally; MONETIZING it. Friday tape: FPIs net buyers Rs 683 cr cash, DIIs net SELLERS Rs 4,721 cr cash — DII selling is the signal. Indian Oil (2M bbl Iranian, paid in yuan via ICICI Shanghai) + Reliance (Iranian crude to Sikka, Gujarat) raced tankers to deadline; 4-6M bbl confirmed arriving before Sunday, more in transit. Russian waiver already expired April 11; Iranian waiver Sunday midnight UTC. Monday open: both sanctioned-import doors shut simultaneously for first time ever. (Sources: RBI weekly release via IBTimes India/Business Standard, NSDL FPI data via Business Standard/Outlook Business, BusinessToday for Bessent, Business Standard investigative on Reliance/IOC yuan settlement)",
+      "sources": [
+        "RBI",
+        "IBTimes India",
+        "Business Standard",
+        "NSDL",
+        "Outlook Business",
+        "BusinessToday"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "brent-crude",
       "type": "import_dependency",
-      "context": "Day 49. India imports 85-90% of crude. Brent $95.05 +0.1%. Iran waiver expires April 19 (3 days), Russian waiver expired April 11, Hormuz blockade continues = triple squeeze on ~5.5M bpd imports. Strategic reserves ~160M barrels (~30 days). 2M bbl Iranian crude already arrived via Reliance; 4 more vessels sought but will not complete before April 19.",
+      "context": "Day 51. India imports 85-90% of crude. Brent $91.87 -7.6% on Araghchi Hormuz-open. Iranian waiver expires Sunday April 19 (Bessent confirmed no extension), Russian waiver expired April 11, Hormuz formally 'open' but IRGC-permission-only via designated routes. IOC 2M bbl Iranian + Reliance Iranian-to-Sikka raced deadline via yuan settlement; 4-6M bbl confirmed arriving before Sunday. Monday open: both sanctioned doors shut simultaneously for first time.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 23,
+      "last_activated": "2026-04-18",
+      "activation_count": 24,
       "weight": 10
     },
     {
       "to": "inr-usd",
       "type": "trade_balance",
-      "context": "Day 49. INR Rs93.29 weakened +0.1% vs yesterday's Rs93.39. Tailwind faded, waiver expiry pressuring rupee. FII April 15 +Rs923 crore single-session vs CY2026 Rs1.79 lakh crore SOLD = technical short-cover not structural. Forex reserves <$700B constrains RBI intervention. If Iran waiver expires without extension, INR to Rs94+. 'Rs 100/USD by June' credible.",
+      "context": "Day 51. INR strengthened -0.9% to Rs92.57 on Brent crash. Tailwind mechanical. RBI reserves ROSE +$3.825B to $700.946B for week-end Apr 10 (FIRST blockade-week print; net drawdown $27.5B from peak, NOT $31B). FPI CY2026 -Rs 1.8 lakh crore cumulative; first 10 days April -Rs 48,213 crore. Business Standard: FPIs monetizing ceasefire rally, not confirming it. Monday waiver double-door closure = material downside (-2-3% Nifty / INR to Rs93-94) if talks collapse.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 20,
+      "last_activated": "2026-04-18",
+      "activation_count": 21,
       "weight": 10
     },
     {
       "to": "rbi",
       "type": "policy_nexus",
-      "context": "March CPI 3.40% within comfort band but imported inflation 6.49% rising. RBI FY27 CPI 4.6% looks conservative with blockade. Every Rs 10 fuel hike = 20-30bps CPI. June cut pathway ambiguous — oil below $100 helps but Fed hike probability >50% removes external cover.",
+      "context": "Day 51. RBI forex reserves rose $3.825B to $700.946B for week-end Apr 10 — first blockade-week print. Toolkit-ladder at 3 of 7 deployed (NDF ban + NOP caps + refiner-dollar limits April 10); non-escalation through Day 51 = RBI confidence in current posture. Brent crash provides mechanical CPI relief. June cut pathway opens if oil holds below $95 AND Monday delivers.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 17,
+      "last_activated": "2026-04-18",
+      "activation_count": 18,
       "weight": 10
     },
     {
       "to": "nifty-50",
       "type": "market_impact",
-      "context": "Day 49. Nifty +0.3% to 24,300 vs Nikkei +2.2%/KOSPI +1.9% — materially lagging Asia. Triple squeeze + waiver expiry April 19 is binary event. If waiver expires without extension: Nifty -1.5 to -2.5%, INR to Rs94+. If Round 2 announced: Nifty +1-2%. FII CY2026 -Rs 1.79 lakh crore.",
+      "context": "Day 51. Nifty 24,353.55 +0.6% UNDERPERFORMED global risk-on (DAX +2.3%, S&P +1.2%). FPIs using ceasefire rally as exit window (Business Standard). FPI intraday Rs 683 cr BUY but DIIs Rs 4,721 cr SELL — the real signal. Monday triple binary: Iranian waiver, Russian waiver (expired), Islamabad uncertainty. Asymmetric risk: +0.5-1% upside if Islamabad delivers, -2-3% downside if collapses or Iranian reciprocal measures fire.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 23,
+      "last_activated": "2026-04-18",
+      "activation_count": 24,
       "weight": 10
     },
     {

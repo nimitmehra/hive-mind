@@ -3,13 +3,13 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-17",
-  "summary": "Day 50 evening. $96.16/bbl (-3.3% net, recovered from $92.92 intraday morning low; WTI diverged to $87.77 -7.3%, Brent-WTI spread $8.39 widest since blockade began). Intraday round-trip (morning -6.5% to $92.92 → settle -3.3% to $96.16) is canonical 'Friday afternoon thinks better of overshoot' pattern. Physical-futures gap NARROWED to ~$36 (from $39 morning) only because futures bounced — Dated Brent at ~$132 unchanged (Platts does not publish on Good Friday). Three-layer mispricing intact: physical $132, Brent futures $96, WTI $87, equity-implied $85-90 — reconvergence will be violent. Structural divergence signals from Pakistani Shalamar (440K bbl to Karachi) transit confirm selective-transit regime intact — 'port blockade not strait closure' (JCS Caine). Goldman Q2 $90 anchor, JPM $150 upside if Hormuz shut into mid-May. Iran waiver expires April 19 (2 days, Treasury confirmed no extension). CF +3.2% counter-directional confirms physical supply disruption persists regardless of deal rhetoric. US equity/VIX/10Y CLOSED Good Friday — Monday reopen carries 72-hour weekend headline risk across Sunday waiver expiry.",
+  "last_updated": "2026-04-18",
+  "summary": "Day 51 Saturday. CORRECTED FRIDAY APRIL 17 SETTLE: $91.87/bbl (-7.6%, yfinance BZ=F continuous; wire-ICE ~$90.38 / -9.1%). Intraday low $87.94. Largest single-day drop since April 8 ceasefire. CATALYST: FM Araghchi declared Hormuz 'completely open for the remaining period of ceasefire' at ~17:00 EST Friday. Prior evening brief's $96.16 was CNN's 4pm intraday mark, not actual settle — framing carried stale Thursday US equity data because it assumed Good Friday closure (Good Friday 2026 was April 3; Friday April 17 was a regular full session with S&P 500 record close 7,126.06). Brent-WTI spread compressed to $7.87 (vs evening brief $8.39) — still 2-3x historical $2-5. Physical-futures gap WIDENS to ~$40 — Dated Brent $132 (Thursday last-print, no Friday public print found) vs futures $91 — widest of war. Paper priced aggressive de-escalation; physical did not follow. Heating Oil $3.34 -12.8% was largest single-asset move. Goldman Q2 $90 base case validated within $2; Morgan Stanley $110 Q2 is $20 above. Both opposing conditionals active: Araghchi 'open' is qualified by Baghaei 'reciprocal measures if blockade continues' and IRGC permission regime (civilian only, designated lanes). Monday Islamabad Round 2 (per Iranian-sourced CNN April 21) + Sunday April 19 Iranian waiver expiry + Russian waiver already expired April 11 = triple binary catalyst into Monday open.",
   "current": {
-    "price": "$96.16/bbl",
-    "delta_1d": "-3.3%",
-    "delta_1m": "-10.4%",
-    "delta_3m": "+48.2%"
+    "price": "$91.87/bbl",
+    "delta_1d": "-7.6%",
+    "delta_1m": "-14.4%",
+    "delta_3m": "+41.5%"
   },
   "price_snapshots": [
     {
@@ -149,6 +149,12 @@
       "price": "$96.16/bbl (settle); $92.92 intraday morning low",
       "trigger": "Intraday reversal — morning -6.5% bottom, settle -3.3%; WTI diverged to $87.77 (-7.3%), Brent-WTI spread $8.39 widest since blockade",
       "delta_context": "Morning brief captured futures at $92.92 on Lebanon ceasefire + Trump 'very close' rhetoric; afternoon recovery driven by Pakistani Shalamar tanker confirmed Hormuz transit (selective-transit regime intact) and US session opening. EIA -9.13M bbl bullish inventory IGNORED by deal-sentiment market. Dated Brent physical ~$132 unchanged (no Friday quote — Good Friday). Physical-futures gap NARROWED to ~$36 (from $39 morning) only because futures bounced — physical did not ease. WTI -7.3% reflects US domestic absorbing deal-optimism without blockade hedge; Brent held up by physical-market discipline."
+    },
+    {
+      "date": "2026-04-17",
+      "price": "$91.87/bbl (actual Friday settle; wire-ICE $90.38 -9.1%)",
+      "trigger": "FM Araghchi X-post 'Hormuz completely open for remaining period of ceasefire' triggered largest single-day crash of crisis",
+      "delta_context": "CORRECTION of evening brief's stale CNN 4pm intraday mark. Actual full-session settle on yfinance continuous: $91.87 / -7.6% (wire-ICE $90.38 / -9.1% — probably June contract). Intraday low $87.94 (-11.5%). WTI $84.00 / -11.3%. Heating Oil $3.34 / -12.8% — LARGEST SINGLE-ASSET MOVE. RBOB $2.95 / -6.9%. Brent-WTI spread $7.87 (vs evening brief's $8.39 stale). Physical-futures gap WIDENS to ~$40 (Dated Brent $132 held vs futures $91) — widest of war. Trump then reiterated 'blockade in full force until peace deal' and Baghaei clarified 'reciprocal measures if blockade continues' — partial settle bounce from $87.94 intraday low to $91.87 reflects these conditionals. S&P 500 record close 7,126.06 on same catalyst."
     }
   ],
   "signals": [
@@ -596,34 +602,47 @@
         "EIA"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-18",
+      "content": "CORRECTED FRIDAY SETTLE: Brent $91.87/bbl -7.6% (yfinance BZ=F continuous); wire-ICE print $90.38 -9.1%. WTI $84.00 -11.3%. Heating Oil $3.34 -12.8% (largest single-asset move). RBOB $2.95 -6.9%. Evening brief's $96.16 was the CNN 4pm intraday mark, NOT the actual settle; its framing of 'US markets CLOSED Good Friday' was wrong (Good Friday 2026 was April 3; April 17 was a full regular session). S&P 500 closed at record high 7,126.06 (+1.2%). Brent-WTI spread actually $7.87 at close (not $8.39 stale). Intraday Brent low $87.94 (-11.5%). Araghchi Hormuz-open X-post (~17:00 EST) was the single catalyst for the largest single-day crude move of the crisis. Intraday bounce from $87.94 to $91.87 reflects Trump's 'blockade in full force' response + Baghaei's 'reciprocal measures' conditional — market priced the announcement as probability-weighted, not unconditional. Physical Dated Brent still ~$132 (Thursday last-print; no public Friday quote located); physical-futures gap WIDENS to ~$40, widest of war. Goldman Q2 $90 base case validated within $2; Morgan Stanley $110 Q2 is $20 above market. Analyst divergence is model divergence on whether Araghchi declaration is structural or conditional. (Sources: yfinance BZ=F/CL=F/HO=F/RB=F, Washington Times, NBC News, Motley Fool, PBS News, Argus/Platts for Dated Brent Thursday print)",
+      "sources": [
+        "yfinance",
+        "Washington Times",
+        "NBC News",
+        "Motley Fool",
+        "PBS News",
+        "Argus/Platts"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "Day 50 evening. Brent $96.16 settle (-3.3%, recovered from $92.92 morning). Pakistani-flagged Shalamar (~440K bbl to Karachi) confirmed Hormuz transit during US session — selective-transit regime intact (JCS Caine 'port blockade not strait closure'). Physical-futures gap $36 (Dated $132 vs $96 futures), narrowed only because futures bounced. IRGC Day 5 zero kinetic action. Pentagon 13 vessels turned around unchanged.",
+      "context": "Day 51. Brent $91.87 (actual Friday settle) -7.6%. Araghchi Hormuz-open declaration single catalyst for largest single-day crash of crisis. Declaration fenced by Baghaei conditional + IRGC Navy permission regime (civilian only, designated lanes). Kpler 8 vessels transited Friday (~10-15% of pre-war); oil-tanker traffic near-zero. Physical-futures gap WIDENS to ~$40 (Dated Brent $132 vs futures $91) — widest of war. Paper pricing ~60% deal probability; physical pricing ~20-30%.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 30,
+      "last_activated": "2026-04-18",
+      "activation_count": 32,
       "weight": 10
     },
     {
       "to": "india",
       "type": "import_cost",
-      "context": "Day 50 evening. Brent at $96.16 (-3.3%) provides mechanical import-bill relief; India waiver expires April 19 (2 days) per Bessent, no extension. Parallel Russian waiver already expired April 11. INR strengthened to Rs92.84 on Brent crash. Every $10/bbl increase = ~$15B annual import bill. Waiver hit (Iranian + Russian doors shut) is a STRUCTURAL Q2-Q3 recalibration toward Iraq/UAE/Saudi/Africa/Americas.",
+      "context": "Day 51. Brent at $91.87 (-7.6%) provides mechanical import-bill relief; Iranian waiver expires Sunday April 19 per Bessent (no extension). Russian waiver already expired April 11. Monday open: both sanctioned-import doors shut simultaneously for first time. INR strengthened to 92.57 on Brent crash. Every $10/bbl increase = ~$15B annual import bill. IOC + Reliance raced 4-6M bbl Iranian cargo before deadline via ICICI Shanghai yuan settlement.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 23,
+      "last_activated": "2026-04-18",
+      "activation_count": 24,
       "weight": 10
     },
     {
       "to": "inr-usd",
       "type": "cost_pressure",
-      "context": "Day 47. Oil at $99.19 (evening close) vs INR at 93.28 — rupee strengthened -1.3% on earlier oil pullback and DXY weakness. Oil creeping back toward $100 after afternoon partial reversal. Structural pressures persist: forex reserves below $700B, FII outflows Rs 1.71 lakh crore CY2026. Rupee still approaching 93.50 trigger.",
+      "context": "Day 51. Brent $91.87 (-7.6%) drove rupee to Rs92.57 (-0.9%, rupee stronger). Brent crash mechanical for INR relief; structural stress continues via FPI outflows (Rs 48,213 cr first 10 days April) and Monday's waiver double-door closure. 93.50 trigger intact.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 19,
+      "last_activated": "2026-04-18",
+      "activation_count": 20,
       "weight": 10
     },
     {
@@ -638,10 +657,10 @@
     {
       "to": "sp-500",
       "type": "earnings_risk",
-      "context": "Day 47. S&P erased ALL war losses to 6,886 (+1.02%) — maximum complacency. Oil below $100 + Trump 'deal' claim + earnings season (Goldman beat) driving equities higher. XLE +0.3% decoupled from oil's -1.4% daily decline — energy sector transitioning from war premium to normalized elevated earnings. VIX 19.12 implies 8-10% probability of 5%+ move; actual probability 25-35% given blockade + intact IRGC.",
+      "context": "Day 51. S&P record close 7,126.06 (+1.2%) on SAME Hormuz-open catalyst that crashed Brent. Oil -7.6% → energy-inflation tail-risk reduced → 10Y -1.5% to 4.25% → risk-on rotation. XLE -2.8% decoupled from index's +1.2% rally — sector transition from war premium to de-escalation pricing. VIX 17.48 war-era low. Earnings component ~0.2% (Pepsi beat, Schwab mixed); Fed path unchanged. Crisis component (~1.0% of 1.2%) round-trips if Monday Islamabad fails.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 15,
+      "last_activated": "2026-04-18",
+      "activation_count": 16,
       "weight": 10
     },
     {

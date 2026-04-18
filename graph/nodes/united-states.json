@@ -3,8 +3,8 @@
   "name": "United States",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-17",
-  "summary": "Day 50 evening. Trump escalated public diplomatic rhetoric: April 16 Las Vegas 'No Tax on Tips' event ('Let's see what happens over the next week or so') and April 17 CNN-reported statement said deal is 'very close' with talks potentially 'this weekend.' Tightened from 'week' to 'days.' BUT Pakistan's public position UNCHANGED (no date set, per Al Jazeera April 16); no US delegation movement (Vance, Witkoff, Kushner) to Pakistan reported. Delegations do not materialize from Las Vegas press conferences. Nuclear-enrichment impasse is binding constraint: US wants 20-year pause, Iran wants 5-year; Witkoff 'zero enrichment' red line unchanged; Iran has never publicly accepted zero enrichment. Definition-of-victory gap as wide today as April 12 Round 1 collapse. Macron-Starmer Hormuz summit April 17 — 30-40 nations VIRTUAL (not 70-80 in-person per earlier framing); US excluded as warring party; mission 'strictly defensive,' deployed 'when security conditions allow' (post-war). US equity/VIX/10Y CLOSED Good Friday — S&P 7,041 ATH, VIX 18.22, 10Y 4.31% all Thursday closes roll unchanged into Monday across 72-hour weekend that spans Sunday April 19 Iran oil waiver expiry. Blockade Day 5: Pakistani Shalamar tanker transited Hormuz (CNN single source); Pentagon 13-vessel count unchanged. CENTCOM selective-transit regime operational.",
+  "last_updated": "2026-04-18",
+  "summary": "Day 51 Saturday. BLOCKADE 'IN FULL FORCE' RESPONSE TO ARAGHCHI — STRUCTURAL POSITIONS STILL OPPOSED. Trump (CNN): 'the U.S. naval blockade of ship movements to and from Iranian ports remains in full force' until a peace deal. CENTCOM: 21 vessels turned back since April 13 (up from 13). Iran claims Hormuz 'completely open' to commercial vessels; US says Iranian port blockade intact — two distinct 'openings' in play. US cash markets corrected from brief's stale framing: Friday April 17 was a FULL TRADING SESSION (Good Friday 2026 was April 3); S&P record close 7,126.06 (+1.2%); NASDAQ 12-day win streak longest since 1992; VIX 17.48 war-era low; 10Y -1.5% to 4.25% (meaningful move on no-Fed-news day). Round 2 reportedly Monday April 21 per Iranian-sourced CNN (two US officials: 'first feasible day'); US has NOT confirmed; no Witkoff/Vance/Kushner travel manifest reported. A senior Iranian official disputed Trump's specific concession claims, calling them 'alternative facts' — rejecting that Iran agreed to ship out enriched uranium or halt enrichment indefinitely. Nuclear-enrichment impasse binding (US 20-yr pause vs Iran 5-yr; Witkoff 'zero enrichment' red line unchanged). Monday open: Iranian waiver expires Sunday midnight UTC (Russian already April 11) + Islamabad uncertain + Baghaei 'reciprocal measures' conditional = triple binary. Macron-Starmer summit April 17 (30-40 virtual nations) is post-war framework; US excluded as warring party.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -749,16 +749,27 @@
         "US holiday calendar"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-18",
+      "content": "CORRECTION: APRIL 17 WAS A FULL US TRADING SESSION (Good Friday 2026 was April 3, not April 17). S&P record close 7,126.06 (+1.2%); NASDAQ 24,468.48 (+1.5%); Dow 49,447.43 (+1.8%); VIX 17.48 (-2.6%, war-era low); US 10Y 4.25% (-1.5%); Brent $91.87 -7.6%; WTI $84.00 -11.3%; Heating Oil $3.34 -12.8%. Blockade 'full force' — TRUMP (CNN): 'the U.S. naval blockade of ship movements to and from Iranian ports remains in full force' until peace deal. CENTCOM: 21 vessels turned back since April 13 (up from 13 in prior brief). Round 2 Monday April 21 per Iranian-sourced CNN (unconfirmed by State Dept, Witkoff office, or Pakistan MFA); two US officials say Monday is 'first feasible day.' No US delegation travel manifest publicly reported. Senior Iranian official called Trump's specific concession claims 'alternative facts' — disputing that Iran agreed to ship out enriched uranium or halt enrichment indefinitely. Nuclear-enrichment impasse binding (US 20-yr pause vs Iran 5-yr; Witkoff 'zero enrichment' maximalism unchanged). (Sources: CNN April 17 liveblog, CENTCOM, Trump via CNN, yfinance for all closes)",
+      "sources": [
+        "CNN",
+        "CENTCOM",
+        "Trump via CNN",
+        "yfinance"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
-      "type": "active_conflict",
-      "context": "Day 50 evening. Trump 'very close / this weekend' rhetoric (CNN April 17) tightens from 'week' framing; Pakistan 'no date set' unchanged. No US delegation movement reported. Nuclear-enrichment gap binding: US 20-yr pause vs Iran 5-yr; Witkoff zero-enrichment red line unchanged. Iran waiver expires April 19 (Sunday). Ceasefire T-4 days. Blockade Day 5, Pakistani Shalamar single-vessel transit, IRGC zero kinetic action.",
+      "type": "active_conflict_negotiating",
+      "context": "Day 51. Trump blockade 'in full force until deal' — structurally opposed to Iran's 'Hormuz open conditional on US lifting port blockade.' CENTCOM 21 vessels turned back since Apr 13 (from 13). Round 2 Monday April 21 per Iranian-sourced CNN; US has NOT confirmed. Senior Iranian official called Trump's concession claims 'alternative facts.' Nuclear-enrichment gap binding (US 20-yr vs Iran 5-yr; Witkoff zero-enrichment). Iranian waiver expires Sunday April 19. Baghaei conditional: 'reciprocal measures' if blockade continues.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 38,
+      "last_activated": "2026-04-18",
+      "activation_count": 40,
       "weight": 10
     },
     {
@@ -782,19 +793,19 @@
     {
       "to": "brent-crude",
       "type": "supply_intervention",
-      "context": "Day 49. Blockade Day 4 CENTCOM hardened claim; Brent $95.05 futures barely moved (+0.1%) despite amplifying deal narrative. Iran waiver expires April 19 — Treasury confirmed no extension (April 15). Physical-futures gap ($132+ Dated vs $95 futures) persists. Goldman Q2 cut to $90 from $99. Three-layer disconnect ($132 physical / $95 futures / $85-90 equity-implied).",
+      "context": "Day 51. Blockade 'full force' unchanged; CENTCOM 21 vessels turned back since Apr 13. Brent crashed -7.6% to $91.87 on Araghchi Hormuz-open declaration — largest single-day drop of crisis. Iran waiver expires Sunday April 19 (Treasury confirmed no extension). Russian waiver already April 11. Physical-futures gap widens to ~$40 (Dated $132 vs futures $91) — widest of war. Goldman Q2 $90 validated; Morgan Stanley $110 Q2 is $20 above market.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 21,
+      "last_activated": "2026-04-18",
+      "activation_count": 22,
       "weight": 10
     },
     {
       "to": "sp-500",
       "type": "fiscal_confidence",
-      "context": "Day 49. S&P NEW ATH 7,022.95 (+0.80%), NASDAQ NEW ATH 24,016.02 (+1.59%). VIX 18.17 war-era low. 48-session divergence PEAKED — equity ATH with UMich 47.6 record low, CPI 3.3% biggest since May 2024, 10Y +3bps, IMF MENA cut to 1.1%. Bond-equity divergence widest of war. Morgan Stanley Q1 beat completes bank earnings sweep (floor ~45% of ATH move). Earnings-floor component holds regardless of Iran; crisis-priced-out component (~45%) built on Trump interview + shuttle diplomacy with no signed paper.",
+      "context": "Day 51. S&P record close 7,126.06 (+1.2%) on Araghchi Hormuz-open → energy-inflation tail-risk reduces → risk-on rotation; NASDAQ 12-day win streak longest since 1992; VIX 17.48 war-era low. 10Y -1.5% to 4.25% aligned with equity rally (both on energy-inflation relief). Bond-equity convergence today. Wall Street priced 80%+ probability Hormuz stays open + deal by end-April. VIX structurally mispriced for Monday triple-binary.",
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 18,
+      "last_activated": "2026-04-18",
+      "activation_count": 19,
       "weight": 10
     }
   ],

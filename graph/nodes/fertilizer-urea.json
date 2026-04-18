@@ -3,13 +3,13 @@
   "name": "Fertilizer / Urea",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-17",
-  "summary": "Day 50 evening. PHYSICAL DISRUPTION SIGNAL CONFIRMED AGAIN. NOLA FOB urea $713/st (-1% 1D, +16.8% 1M). CF Industries $124.71 (Thursday close, US markets closed Good Friday) — the +3.2% Thursday rally while Brent CRASHED -6.5% intraday is the PUREST equity-market evidence that the physical supply disruption thesis is intact regardless of deal rhetoric. UBS raised CF PT to $140 from $97 (+44%) on April 16 — most aggressive analyst revision of the war. Nutrien $74.53 (+1.6% Thu). Linde $499.22 (+0.3% Thu, helium proxy similarly resilient). Mechanism: Hormuz blockade chokes ~50% seaborne urea trade; Qatar (~17% global urea) unable to ship despite 'ports open' rhetoric (no insurance, no charters); global urea spot elevated. Brownfield: 'elevated through 2027 even if Strait reopens.' Corn +2.5% Friday = second-order spillover (spring planting cost-push). CF is the cleanest 'physical disruption persists' trade in the equity universe; will OUTPERFORM defense/energy/shipping in a 'Hormuz reopens slowly' scenario.",
+  "last_updated": "2026-04-18",
+  "summary": "Day 51 Saturday. CF -9.6% COUNTER-DIRECTIONAL THESIS FAILED. CF Industries $112.68 (-9.6% 1D, -11.1% 1M; larger outlets cite -10.4% intraday) on Araghchi Hormuz-open catalyst. CORRECTS evening brief's Thursday +3.2% framing. Urea NOLA FOB ~$640/st (-18% WoW from $780 peak). Nutrien $70.62 (-5.2%); Cheniere LNG $251.07 (-4.4%); Linde $492.23 (-1.4%). The full nitrogen/fertilizer/LNG supply-disruption complex repriced lower on the SAME catalyst that crashed Brent. The evening brief argued CF's Thursday +3.2% was 'the purest equity-market confirmation that physical supply disruption persists regardless of deal rhetoric.' Friday's -9.6% refutes this: the market prices the ANNOUNCEMENT as the structural fix long before repair completes. Graph engineer reassessment: fertilizer-urea → strait-of-hormuz edge (weight 10) — physical supply chain still takes months to repair (factual truth preserved), but the MARKET prices deal rhetoric as structural fix. Edge type noted as 'market-pricing co-moves with deal rhetoric even though physical repair is months-out.' Survivors of thesis: shipping-tankers (Frontline +5.6%) — tanker market still pricing physical disruption. REVERSIBILITY: if Monday Islamabad collapses, CF recovers most of -9.6% within 2-5 sessions; asymmetry favours upside (deal upside already priced) if Iranian reciprocal measures fire.",
   "current": {
-    "price": "NOLA $713/st; CF Industries $124.71 (Thu); Nutrien $74.53 (Thu); Linde $499.22 (Thu)",
-    "delta_1d": "CF +3.2% counter-directional (Thu); Nutrien +1.6%; Urea -1% 1D",
-    "delta_1m": "CF +1.2%; Urea +16.8%",
-    "delta_3m": "CF +41.8%; Nutrien +11.7%"
+    "price": "NOLA ~$640/st; CF Industries $112.68; Nutrien $70.62; Linde $492.23",
+    "delta_1d": "CF -9.6%; Nutrien -5.2%; Linde -1.4%; Urea -18% WoW",
+    "delta_1m": "CF -11.1%; Urea peak $780 → $640",
+    "delta_3m": "CF +28.1%; Nutrien +5.8%"
   },
   "price_snapshots": [
     {
@@ -254,6 +254,18 @@
         "Argus Media"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-18",
+      "content": "CF INDUSTRIES CRASHED -9.6% TO $112.68 ON FRIDAY — COUNTER-DIRECTIONAL THESIS FAILED [CONFIRMED]. CORRECTS evening brief's Thursday +3.2% framing — Friday April 17 (same session the evening brief was written in) saw CF crash -9.65% to $112.68; larger outlets cite -10.4% intraday. $12 round-trip from thesis-confirming peak to below-pre-escalation price. Catalyst: Araghchi's 'Hormuz completely open' declaration. Urea NOLA FOB -18% WoW to ~$640/st (from $780 peak). Nutrien -5.2% to $70.62; Cheniere -4.4% to $251.07; Linde -1.4% to $492.23. The full nitrogen/fertilizer/LNG supply-disruption complex repriced lower on the same catalyst that crashed Brent -7.6%. This refutes the evening brief's thesis that the fertilizer-urea → strait-of-hormuz edge is independent of deal pricing. The physical supply-chain constraint IS real (repair IS months, not days), BUT the market prices the ANNOUNCEMENT as the structural fix long before repair completes. What survived from the thesis: Frontline +5.6% counter-directional — the shipping-tankers → strait-of-hormuz edge DID hold as deal-rhetoric-orthogonal. Physical sense: tanker rates are set in real spot market with limited fleet supply; fertilizer futures are set by expectations of supply arriving months out. GRAPH ENGINEER NOTE: fertilizer-urea → strait-of-hormuz edge type should note 'market-pricing co-moves with deal rhetoric even though physical repair is months-out.' Weight may remain high on physical fundamentals; signal behavior is NOT independent of deal pricing. Quiver Quant: 'CF Industries shares slide as geopolitical risk premium fades.' REVERSIBILITY: if Monday Islamabad collapses, CF recovers most of -9.65% within 2-5 sessions; if delivery, CF stays $110-115 and urea drifts to $580-620. Asymmetry: downside small (deal upside priced), upside large (Iranian reciprocal measures re-closure → $130+ peak). (Sources: yfinance CF/LNG/FRO/NTR/LIN, Quiver Quant, Stocktwits/Investing.com for urea, Bloomberg 'Fertilizer Prices Drop as Hormuz Opening Brings Farmers Relief')",
+      "sources": [
+        "yfinance",
+        "Quiver Quant",
+        "Stocktwits",
+        "Investing.com",
+        "Bloomberg"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -286,11 +298,11 @@
     },
     {
       "to": "strait-of-hormuz",
-      "type": "physical_chokepoint",
-      "context": "Day 50 evening. STRENGTHENED. CF +3.2% counter-directional on day Brent crashed -6.5% intraday = cleanest equity-market evidence that the physical supply-chain mechanism operates INDEPENDENTLY of paper oil prices. Hormuz blockade chokes ~50% seaborne urea trade regardless of deal rhetoric. UBS PT raise to $140 (+44%) encodes this view. Physical supply chain resets in months, not days, regardless of any peace deal.",
+      "type": "physical_chokepoint_market_co_moves_with_rhetoric",
+      "context": "Day 51. THESIS REVISED. CF -9.6% on Araghchi Hormuz-open refutes evening brief's 'independent of deal pricing' framing. Physical supply chain DOES take months to repair (fundamental truth preserved); but the equity/futures market prices the ANNOUNCEMENT as the structural fix long before repair completes. Edge weight remains high on physical fundamentals, but directness multiplier may shift to 2nd-order for rhetoric-transmission scenarios, 1st-order for physical-disruption events. Survivor of independent-signal test: shipping-tankers → strait-of-hormuz (Frontline +5.6% counter-directional). Falsifiable: if Monday Islamabad fails and CF snaps back +5-8% while Hormuz disruption unchanged, edge is actually deal-rhetoric-co-move not physical.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 10,
+      "last_activated": "2026-04-18",
+      "activation_count": 11,
       "weight": 10.0
     }
   ],

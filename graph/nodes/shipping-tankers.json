@@ -3,8 +3,8 @@
   "name": "Shipping / Tanker Rates",
   "type": "sector",
   "created": "2026-03-23",
-  "last_updated": "2026-04-17",
-  "summary": "Day 50 evening. FRONTLINE THURSDAY -1.0% to $35.15 (+12.3% 1M intact). US markets closed Good Friday — Frontline/BOAT/XLE all roll Thursday closes into Monday stale. Pakistani-flagged Shalamar (~440K bbl to Karachi) Hormuz transit CNN-reported Friday — single source, no AIS; adds single datum to Pentagon's 14-vessel 'transited' count. Shalamar moved; South Korea's 26 vessels (173 crew) remain stuck — flag-state access-variable evidence (political access to Iran is transit-permission variable, not just flag neutrality). VLCC TD3C WS126.5 (~$112K/day) normalising from WS600+ peak but still 3-4x historical baseline; war-risk surcharge embedded. War risk insurance UNCHANGED 0.8-1.0% hull value with 35-50% no-claims bonus applied — insurers NOT stepping down on deal rhetoric. Lloyd's Market Association: 88% of marine war participants continue to underwrite; US DFC $40B reinsurance facility attempting to fill pricing gap. Frontline 1-year TCs locked at $76,900/day through 2027 = structural floor. Container freight FBX ~$2,800/FEU (+40% pre-war, stable). BOAT $40.84 (-0.5% Thu).",
+  "last_updated": "2026-04-18",
+  "summary": "Day 51 Saturday. FRONTLINE +5.6% TO $37.13 ON HORMUZ-OPEN DAY — COUNTER-DIRECTIONAL. On a session that crashed oil (Brent -7.6%) and fertilizer (CF -9.6%), Frontline rallied +5.6% to $37.13, +15.5% 1M, +47.8% 3M. The shipping-tankers → strait-of-hormuz edge is now REINFORCED AS INDEPENDENT SIGNAL — it held as deal-optimism-orthogonal while the fertilizer-urea edge co-moved with deal rhetoric. Mechanism: (1) VLCC TD3C ~$130K/day (WS ~78) still 2.5-3x historical $50K — rates sticky, vessels under contract, spot market thin, war-risk surcharges embedded; (2) Dual Russian (April 11) + Iranian (April 19) sanctions waivers expiring remove ~90+ vessels from compliant trade = structural fleet-tightness shock orthogonal to deal optimism; (3) AWRP ~1% hull + 35-50% NCB UNCHANGED on Araghchi announcement — insurers NOT stepping down; insurance costs passed through → operator margins widen, not compress; (4) Frontline 1-year TCs locked $76,900/day through 2027 = structural floor. BOAT ETF $41.33 +1.2%. Kpler: 8 vessels transited Hormuz via IRGC-designated routes Friday (~10-15% of pre-war 120/day); oil-tanker traffic near-zero. CENTCOM: 21 vessels turned back since April 13 (up from 13). Physical-futures gap widens to $40 — the tanker market IS the equity expression of Dated Brent $132 view. If equity market right on tankers AND right on CF, then oil market is split: refined-products get small price-down, fleet/logistics disruption is permanent. South Korea 26 vessels (173 crew) still stuck.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -333,31 +333,44 @@
         "yfinance"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-18",
+      "content": "FRONTLINE +5.6% TO $37.13 ON HORMUZ-OPEN DAY — THE CLEANEST EQUITY-MARKET WINDOW INTO PHYSICAL GULF DISRUPTION [CONFIRMED]. On the session that crashed Brent -7.6%, WTI -11.3%, CF Industries -9.6%, and Cheniere -4.4%, Frontline rallied +5.6% to $37.13 (+15.5% 1M, +47.8% 3M). BOAT ETF $41.33 (+1.2%). Why tankers RISE on a day everything else in energy complex crashes: (1) VLCC TD3C $130K/day (~WS 78) still 2.5-3x historical $50K — rates sticky, spot market thin, war-risk surcharges embedded — rates take WEEKS to compress even after news catalysts; (2) Dual Russian (April 11) + Iranian (April 19) sanctions waivers expiring remove ~90+ vessels from compliant trade = structural fleet-tightness shock orthogonal to deal optimism; (3) Earnings expectations up — Q1 included late-March rate spike; Q2 likely retains $100-130K/day average even post-Araghchi; (4) Insurance costs passed through — AWRP ~1% hull unchanged — Frontline margins WIDEN during war-risk periods. Graph Engineer reassessment: shipping-tankers → strait-of-hormuz edge is REINFORCED AS INDEPENDENT SIGNAL. It held as deal-rhetoric orthogonal while fertilizer-urea edge co-moved (CF -9.6% refuted the 'independent of deal pricing' framing of that edge). Physical sense: tanker rates set in real spot market with limited fleet supply; fertilizer futures set by expectations of supply arriving months out. Kpler: 8 vessels transited Hormuz via IRGC-designated routes Friday (~10-15% of 120/day pre-war); oil-tanker traffic near-zero. CENTCOM: 21 vessels turned back since April 13. Reversibility: Frontline holds +5% gain through Monday Islamabad outcome — rate structure only normalizes if BOTH waivers renewed (not happening) OR Iran+Russia return to compliant markets (requires signed deal + year+ implementation). Neither is a near-term catalyst. (Sources: yfinance FRO/BOAT, Baltic Exchange/Clarksons, Lloyd's List/Strauss Center, Kpler, CENTCOM)",
+      "sources": [
+        "yfinance",
+        "Baltic Exchange",
+        "Clarksons",
+        "Lloyd's List",
+        "Kpler",
+        "CENTCOM"
+      ],
+      "significance": "high"
     }
   ],
   "current": {
-    "price": "VLCC: ~$55,010/day; Frontline $34.16; BOAT ETF $40.94",
-    "delta_1d": "Frontline -2.0%; BOAT -0.9%",
-    "delta_1m": "Frontline +13.2%; BOAT +8.2%",
-    "delta_3m": "Frontline +35.8%; BOAT +22.2%"
+    "price": "VLCC: ~$130K/day (WS ~78); Frontline $37.13; BOAT ETF $41.33",
+    "delta_1d": "Frontline +5.6%; BOAT +1.2%",
+    "delta_1m": "Frontline +15.5%; BOAT +3.1%",
+    "delta_3m": "Frontline +47.8%; BOAT +25.5%"
   },
   "edges": [
     {
       "to": "strait-of-hormuz",
-      "type": "route_dependency",
-      "context": "Blockade Day 1: 31 vessels in 24 hours vs 80-100 normal. Over 150 tankers anchored outside strait. EVENING CORRECTION: War risk insurance at prohibitive prices (not suspended) — 2.5-5% hull, $10-14M per VLCC. 3+ sanctioned vessels transited including Rich Starry (second attempt); US not interdicting shadow fleet. Physical bottleneck via price deterrence.",
+      "type": "route_dependency_independent_signal",
+      "context": "Day 51. Frontline +5.6% on Hormuz-open day = COUNTER-DIRECTIONAL — the cleanest equity-market window into physical Gulf disruption (equivalent to Dated Brent vs Brent futures gap). VLCC $130K/day still 2.5-3x historical. AWRP ~1% hull UNCHANGED on Araghchi — insurers NOT stepping down. Dual Russian+Iranian sanctions remove ~90 vessels. Edge is REINFORCED AS INDEPENDENT SIGNAL: held as deal-rhetoric orthogonal while fertilizer-urea edge co-moved with deal rhetoric.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 22,
+      "last_activated": "2026-04-18",
+      "activation_count": 24,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "transport_cost",
-      "context": "Frontline +3.3% ON oil crash — anomaly. Physical market at $120+ vs futures at $96. Tanker stocks pricing physical reality. War risk insurance still 7-10x pre-war. Shipping disruption persists regardless of futures.",
+      "context": "Day 51. Frontline +5.6% to $37.13 on Brent -7.6% day — cleanest counter-directional signal. Tanker equity pricing physical reality ($132 Dated Brent view) while futures pricing $91 deal path. Physical-futures gap $40 widest of war. War-risk insurance unchanged; fleet tightness structural via dual sanctions.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 14,
+      "last_activated": "2026-04-18",
+      "activation_count": 15,
       "weight": 10
     },
     {

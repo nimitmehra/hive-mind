@@ -3,8 +3,8 @@
   "name": "Lebanon",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-17",
-  "summary": "Day 50 evening. 10-DAY CEASEFIRE DAY 1 — ASYMMETRIC COMPLIANCE. Ceasefire took effect midnight Beirut April 16-17 (Trump Apr 16, State Dept). Within hours, Lebanon's army reported Israeli violations: intermittent shelling of southern villages Al-Khiam and Debbin (artillery + machine-gun), drone attacks in Western Bekaa. Army urged residents to delay returning. Israel response procedural — IDF 'reserves right to take all necessary measures in self-defense' — pre-authorizing strikes under Netanyahu's 10km 'security zone' framework. Hezbollah confirmed clean compliance: 'launched its last attack at 11:50pm local time, just 10 minutes before the ceasefire took effect.' Asymmetric pause: Hezbollah honoring, Israel treating as 'timeout' while retaining freedom inside zone. Iran FM Baghaei re-linked ceasefire to 'broader US-Iran agreement mediated by Pakistan' — contradicting US de-linkage; demanded Israel fully withdraw from southern Lebanon. Lebanon death toll now 2,196+ (Lebanon National News Agency via Al Jazeera). The 'structured pause' framing from morning brief is DEGRADED within first 24 hours — clean signal became degraded signal.",
+  "last_updated": "2026-04-18",
+  "summary": "Day 51 / Ceasefire Day 2. IDF KOUNINE STRIKE KILLED ONE PERSON — Day 2 violations persist. On April 18, Israeli drone strike in southern village of Kounine killed one person per Lebanon's Health Ministry. Lebanon NNA reports continued intermittent artillery shelling and machine-gun fire in southern villages from Day 1; violations continued through Day 2. IDF procedural framework — ceasefire text 'allows IDF to carry out strikes against planned, imminent, or ongoing attacks' but bars 'offensive' operations — justifies continued fires in 10km 'expanded buffer zone' Netanyahu announced. Hezbollah compliance stance UNCHANGED (politician Ali Fayyad on Al Jazeera Arabic: 'caution and vigilance,' any targeting = breach); no Hezbollah rocket fire Day 2. Haaretz April 17 analysis: 'Trump Dictates the Terms in Lebanon and Iran, Leaving Netanyahu Boxed In — Trump hijacked Israeli foreign policy so Netanyahu had no say in Lebanon truce' — sharpest Israeli-establishment critique of cabinet's diplomatic position since ceasefire announcement. Haaretz military-correspondent sourcing tends to reflect senior IDF thinking suppressed by cabinet. Cumulative toll 2,197+ (one killed Day 2). Asymmetric pause holding in structure (Hezbollah honoring, IDF exercising self-defense framework), but casualty-per-day is ~1 — the lowest sustained rate of the war. 7 days remain in 10-day window.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -296,25 +296,37 @@
         "Iran MFA"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-18",
+      "content": "CEASEFIRE DAY 2 — KOUNINE DEATH + HAARETZ 'NETANYAHU BOXED IN' FRAMING [CONFIRMED]. Israeli drone strike in southern village of Kounine killed one person per Lebanon's Health Ministry (CBC News, Al Jazeera, Times of Israel liveblog April 18). Lebanon NNA reports continued Day 2 violations. IDF characterises strikes as 'self-defense' against Hezbollah operatives. Hezbollah compliance unchanged (politician Ali Fayyad on Al Jazeera Arabic: 'caution and vigilance,' any targeting = breach; no rocket fire). Haaretz April 17 analysis (premium): 'Trump Dictates the Terms in Lebanon and Iran, Leaving Netanyahu Boxed In — Trump hijacked Israeli foreign policy so Netanyahu had no say in Lebanon truce.' This is the sharpest Israeli-establishment critique of Netanyahu's diplomatic position since ceasefire announcement. Haaretz April 5 carry-over: IDF 'admits it can't disarm Hezbollah.' Watch: cabinet instability, Smotrich/Ben-Gvir walkout threats (Day 2 no walkout — hardline bloc accepting pause tactically). Asymmetric compliance pattern established: Hezbollah honors, Israel exercises self-defense framework. Casualty-per-day rate ~1 is LOWEST sustained rate of the war (pre-ceasefire Apr 15 = 182/day). 7 days remain in 10-day window; transition to permanent framework is the next binary. (Sources: CBC News, Lebanon NNA/Lebanese Army via Al Jazeera, Times of Israel liveblog April 18, Haaretz April 17 analysis)",
+      "sources": [
+        "CBC News",
+        "Al Jazeera",
+        "Lebanese Army",
+        "Times of Israel",
+        "Haaretz"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "hezbollah",
       "type": "structured_pause",
-      "context": "Day 50 evening. STATUS RECLASSIFIED from active-combat to STRUCTURED-PAUSE (10-day ceasefire effective midnight Apr 16-17). Hezbollah confirmed clean compliance: last attack 11:50pm, 10 min before ceasefire. BUT asymmetric: IDF reserves 'self-defense' right inside 10km security zone; Lebanon Army reports Israeli shelling of Al-Khiam/Debbin and drone strikes Western Bekaa within first 24 hours. Iran FM Baghaei re-linked to broader US-Iran agreement — escalation risk if Hezbollah responds to Israeli violations.",
+      "context": "Day 51 / Ceasefire Day 2. Hezbollah Day 2 compliance HOLDS — no rocket fire; politician Fayyad on Al Jazeera Arabic: 'caution and vigilance.' IDF Kounine strike killed one Day 2 under self-defense framework. Cumulative toll 2,197+ (one killed Day 2). Casualty-per-day rate ~1 = lowest sustained rate of war. Iran FM Baghaei re-linked ceasefire to broader US-Iran Pakistan-mediated agreement — any Hezbollah breakout would bleed into Iran track.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 20,
+      "last_activated": "2026-04-18",
+      "activation_count": 21,
       "weight": 10
     },
     {
       "to": "israel",
       "type": "invasion_target",
-      "context": "Day 50 evening. 10-day ceasefire Day 1 — asymmetric compliance. Lebanon Army reports Israeli artillery, machine-gun fire, drone attacks on Al-Khiam, Debbin, Western Bekaa within first 24 hours of pause. Netanyahu's 10km 'security zone' framework operationalized. Cumulative toll now 2,196+ (LNN via Al Jazeera). Hezbollah honoring pause; Israel retains freedom inside zone.",
+      "context": "Day 51 / Ceasefire Day 2. IDF Kounine drone strike killed one; Day 2 violations include artillery, machine-gun fire in southern villages. Haaretz 'Trump hijacked Israeli foreign policy' framing = sharpest establishment critique of Netanyahu's diplomatic position. IDF exercising self-defense framework under ceasefire text. Cabinet Day 2 intact — no Smotrich/Ben-Gvir walkout, hardline bloc accepting pause tactically. 7 days left in 10-day window.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 22,
+      "last_activated": "2026-04-18",
+      "activation_count": 23,
       "weight": 10
     }
   ],

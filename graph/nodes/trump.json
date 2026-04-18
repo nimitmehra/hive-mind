@@ -3,8 +3,8 @@
   "name": "Donald Trump",
   "type": "person",
   "created": "2026-03-30",
-  "last_updated": "2026-04-17",
-  "summary": "Day 50 evening. TRUMP 'VERY CLOSE / THIS WEEKEND' — tightened from 'week' framing. On CNN April 17 said a deal with Iran is 'very close' and suggested talks could resume in Islamabad 'as early as this weekend.' On April 16 at Las Vegas 'No Tax on Tips' event said 'Let's see what happens over the next week or so.' BUT Pakistan Foreign Ministry's April 16 'no date had been set' remains operative baseline — no Pakistani announcement April 17 superseded it. Critically: NO US delegation movement (Vance, Witkoff, Kushner) to Pakistan reported. Delegations do not materialize from Las Vegas press conferences. Nuclear-enrichment impasse binding: US wants 20-year pause, Iran wants 5-year; Witkoff 'zero enrichment' red line unchanged; Iran has never publicly accepted zero enrichment. Definition-of-victory gap as wide today as April 12 Round 1 collapse. Ghalibaf counterpoint: 'approaching developments with caution' (April 17) — tonal downshift from pre-Round 1 'inches from MoU.' Trump remains single largest source of oil/equity volatility — US markets CLOSED Good Friday, weekend absorbs full headline risk across Sunday April 19 Iran oil waiver expiry.",
+  "last_updated": "2026-04-18",
+  "summary": "Day 51 Saturday. TRUMP 'BLOCKADE IN FULL FORCE' RESPONSE TO ARAGHCHI — tonal retreat from 'very close.' On April 17 Trump (CNN): 'The U.S. naval blockade of ship movements to and from Iranian ports remains in full force' until peace deal — directly countered Araghchi Hormuz-open declaration. Trump also said Friday 'we've had some very good discussions … and we've done a good job, but we'll see' — a shade more tentative than Thursday's 'very close.' Haaretz April 17 (independent Israeli analysis): 'Trump Dictates the Terms in Lebanon and Iran, Leaving Netanyahu Boxed In — Trump hijacked Israeli foreign policy' — strongest Israeli establishment framing of Trump's dominant posture over Netanyahu. Senior Iranian official publicly disputed Trump's specific concession claims, calling them 'alternative facts' — rejecting that Iran agreed to ship out enriched uranium or halt enrichment indefinitely. Round 2 Monday April 21 per Iranian-sourced CNN (two US officials: 'first feasible day'); US has NOT confirmed, no delegation (Vance/Witkoff/Kushner) travel manifest reported. Nuclear-enrichment impasse binding (US 20-yr vs Iran 5-yr; Witkoff zero-enrichment). Lebanon 10-day pause is Trump's diplomatic win — Haaretz framing 'Trump hijacked Israeli foreign policy so Netanyahu had no say in Lebanon truce.' Trump remains single largest source of oil/equity volatility.",
   "signals": [
     {
       "date": "2026-03-22",
@@ -309,19 +309,19 @@
     {
       "to": "brent-crude",
       "type": "market_mover",
-      "context": "Trump's personal statements directly move oil prices. Primetime '2-3 weeks' exit = bearish signal. 'Extremely hard' hits + threatened destruction of ALL electric plants and oil sites = bullish. April 6 pause expiry without extension = energy strikes resume, Brent spikes. His rhetoric has caused the largest single-session oil moves of the war.",
+      "context": "Day 51. Trump's 'blockade in full force' response to Araghchi Hormuz-open contributed to intraday Brent bounce from $87.94 low to $91.87 settle (-7.6% on day). Rhetorical posture still dominant rate-setter. Earlier 'very close' language moderated Friday to 'we've done a good job, but we'll see.'",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 8,
+      "last_activated": "2026-04-18",
+      "activation_count": 10,
       "weight": 10.0
     },
     {
       "to": "iran",
       "type": "adversary_negotiator",
-      "context": "Primetime address: claimed Iran's president asked for ceasefire — Iran FM Baghaei immediately called 'false and baseless.' Claimed regime change complete citing Ghalibaf (factually incorrect). '2-3 weeks' exit timeline. Threatened destruction of ALL energy infrastructure. Iran FM Araghchi: prepared for 'at least six months.' Gap between Trump's victory narrative and ground reality widening.",
+      "context": "Day 51. Trump reiterated blockade 'in full force' until deal = structurally opposed to Iran's Hormuz-open conditional on US port blockade lift. Senior Iranian official disputed Trump's specific concession claims as 'alternative facts.' Round 2 Monday April 21 per Iranian-sourced CNN, US has NOT confirmed. Nuclear enrichment impasse binding. Haaretz: 'Trump hijacked Israeli foreign policy' = dominant posture over Netanyahu.",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 11,
+      "last_activated": "2026-04-18",
+      "activation_count": 13,
       "weight": 10.0
     },
     {
@@ -344,11 +344,11 @@
     },
     {
       "to": "israel",
-      "type": "alliance_personal",
-      "context": "Trump's '2-3 weeks' exit diverges sharply from Netanyahu's 'no intention to scale back.' IDF struck 170 targets in Tehran while Trump signals exit. Israel expanding to economic infrastructure destruction (steel, pharma). Netanyahu ordered escalation 'in case war ends soon.' Allies not coordinating exit strategy.",
+      "type": "alliance_personal_dominant",
+      "context": "Day 51. Haaretz April 17: 'Trump Dictates the Terms in Lebanon and Iran, Leaving Netanyahu Boxed In — Trump hijacked Israeli foreign policy so Netanyahu had no say in Lebanon truce.' Sharpest Israeli-establishment framing of Trump dominance. Times of Israel 'Netanyahu shocked to learn of truce from media.' Lebanon 10-day pause is Trump's diplomatic win; cabinet accepting tactically, Smotrich/Ben-Gvir bloc restive but no Day 2 walkout.",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 8,
+      "last_activated": "2026-04-18",
+      "activation_count": 9,
       "weight": 10.0
     },
     {
