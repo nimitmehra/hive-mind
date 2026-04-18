@@ -3,13 +3,13 @@
   "name": "Defense & Aerospace Sector",
   "type": "sector",
   "created": "2026-03-28",
-  "last_updated": "2026-04-17",
-  "summary": "Day 50 evening. ITA $229.03 (-2.1% Thu close), Lockheed $607.49 (-0.6% Thu). US markets CLOSED Good Friday — Thursday closes roll unchanged into Monday. ITA's -2.1% Thursday = war-trade unwinding on Lebanon ceasefire + Trump 'very close' rhetoric. But the structural $1.5T FY27 defense budget locked in = FLOOR under sector. Frontline -1.0% Thu tanker day-rate normalization also part of war-trade unwind. If deal fails: snap-back +3-5% in single session. If deal succeeds: defense holds floor on structural budget, while Frontline/XOM/CF/Cheniere de-rate further. Monday reopen carries 72-hour weekend headline risk across Sunday April 19 Iran oil waiver expiry.",
+  "last_updated": "2026-04-18",
+  "summary": "Day 51. [CORRECTION: Good Friday 2026 was April 3 — US markets WERE OPEN Friday April 17.] ITA $231.94 (+1.3% Fri, +0.2% 1M, -2.4% 3M) — DIVERGED from Lockheed Martin $592.19 (-2.5% Fri, -7.8% 1M, +3.3% 3M). The sector-vs-single-name split is the signal: ITA (GE Aero 19.7%, RTX 15.9%, Boeing 9.4%) held on Friday even as Brent crashed -7.6% and Lockheed fell -2.5% on peace-dividend pricing. Structural driver surviving de-escalation: commercial aerospace (GE Aero/Boeing/TransDigm) decoupling from pure-defense peace trade. $1.5T FY27 defense budget locked in + NATO 5% GDP target by 2035 = structural floor. Lockheed's -2.5% Friday + prior 1M -7.8% = contract-sensitive peace trade active. If Monday Islamabad talks deliver: Lockheed -3-5% further, ITA holds flat-to-down (aerospace hedges); if talks fail: ITA +2-3%, Lockheed +4-6% on snap-back.",
   "current": {
-    "price": "ITA: $229.03 (Thu); Lockheed: $607.49 (Thu); closed Friday",
-    "delta_1d": "ITA -2.1% (Thu); Lockheed -0.6% (Thu)",
-    "delta_1m": "ITA -1.7%; Lockheed -4.5%",
-    "delta_3m": "ITA -3.7%; Lockheed +6.0%"
+    "price": "ITA: $231.94 (Fri close); Lockheed: $592.19 (Fri close)",
+    "delta_1d": "ITA +1.3%; Lockheed -2.5%",
+    "delta_1m": "ITA +0.2%; Lockheed -7.8%",
+    "delta_3m": "ITA -2.4%; Lockheed +3.3%"
   },
   "signals": [
     {
@@ -138,6 +138,12 @@
         "Investing.com"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-18",
+      "content": "FRIDAY APRIL 17 FULL-SESSION SETTLES [CORRECTING prior Good Friday error] — ITA $231.94 (+1.3% 1D) DIVERGED from Lockheed Martin $592.19 (-2.5% 1D). This is the key intra-sector split: the pure-defense prime (Lockheed) took peace-dividend pricing while the commercial-aero-weighted ETF (GE Aero 19.7%, RTX 15.9%, Boeing 9.4%) held on underlying AI/aero cycle. Translation: ITA is NOT a clean war-premium proxy — it is 40%+ commercial aerospace, which benefits from de-escalation (lower jet fuel → better airline margins → new-build demand). The structural $1.5T FY27 defense budget + NATO 5% GDP target by 2035 thesis is intact. Peace-trade isolate: long ITA / short LMT would have returned +3.8% in a single session Friday. Watch for Lockheed Monday reaction to Islamabad — if talks deliver, LMT likely -3-5% further on contract-risk repricing. If talks fail, LMT snaps back +4-6% and ITA likely follows +2-3%. Prior thesis that ITA is 'structural floor' holds at sector level; the single-name story is more nuanced. (Sources: yfinance, markets.md Friday settles, iShares ITA holdings)",
+      "sources": ["yfinance", "iShares", "staging/2026-04-18/markets.md"],
+      "significance": "high"
     }
   ],
   "edges": [

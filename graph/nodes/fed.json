@@ -3,8 +3,8 @@
   "name": "Federal Reserve",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-17",
-  "summary": "Day 50 evening. CLOSED Good Friday — Fed NYC trading desk and cash Treasuries shut. Rate at 3.5-3.75%; last Thursday close: 10Y 4.31%, 2Y 3.61%, VIX 17.88. Monday re-price carries 72-hour weekend incl. Sunday April 19 Iran oil waiver expiry. STAGFLATION DATA INTACT: CPI 3.3% YoY (biggest since May 2024), Core CPI 2.6% (energy-concentrated); UMich 47.6 all-time record low; inflation expectations +1pp to 4.8%. Gasoline $4.10/gal AAA. Rate-cut narrative pushed out: June delays to September risk = equity multiples compress independent of Iran. April 29 FOMC: 98% no change. Bond-equity divergence widest of war — S&P ATH 7,041 Thu while 10Y 4.31%. DXY 98.10 flat refusing to weaken into deal. Financial conditions too loose for aggressive cutting.",
+  "last_updated": "2026-04-18",
+  "summary": "Day 51. [CORRECTION: Good Friday 2026 was April 3; Fed desk and cash Treasuries OPEN Friday April 17.] Rate at 3.5-3.75% (unchanged). FRIDAY SETTLES: 10Y 4.25% (-1.5% 1D from 4.31% Thursday), 2Y 3.60% (-0.3%), VIX 17.48 (-2.6%, war-era low). Hormuz-open repricing drove Treasury rally — bonds partially catching up to equity de-escalation trade that already ran Thursday. 10Y -6bps in single session on Brent -7.6% = classic inflation-expectation relief channel. Bond-equity gap narrowed but remains wide: S&P ATH 7,126.06 vs 10Y 4.25%. STAGFLATION DATA INTACT: CPI 3.3% YoY, Core CPI 2.6%, UMich 47.6 record low, inflation expectations 4.8%, gasoline $4.10/gal AAA. April 29 FOMC: 98% no change. Rate-cut narrative: June cut pushed to September; Powell term ends May; Trump tapped Kevin Warsh as successor. If Monday Islamabad delivers: 10Y further -5 to -10bps; bond market has room to run on crude normalization. If talks fail: 10Y back to 4.30%+ as inflation-exp rebuilds.",
   "signals": [
     {
       "date": "2026-03-18",
@@ -208,6 +208,12 @@
         "FRED",
         "CNBC"
       ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-17",
+      "content": "FRIDAY FULL-SESSION SETTLES — HORMUZ-OPEN BOND RALLY [CORRECTING earlier Good Friday misframing]. 10Y Treasury 4.25% (-1.5% 1D from 4.31%), 2Y 3.60% (-0.3%), VIX 17.48 (-2.6%). Iran FM Araghchi's 'Hormuz completely open' statement at 17:00 EST triggered the largest single-session oil crash of the crisis (Brent -7.6%, WTI -11.3%, heating oil -12.8%) and bond market partially repriced the inflation-expectation channel. Key mechanics: oil crash = near-term CPI impulse fades = Fed cut window potentially reopens. But 10Y only -6bps while 2Y -1bp ≈ flat — bond market pricing MODEST duration rally, NOT a material front-end re-cut trade. Translation: bond market thinks oil relief is conditional (Iran reciprocal-measures caveat), not confirmed. If Monday Islamabad delivers, expect 10Y to 4.15-4.20% and 2Y to 3.50-3.55% on cleaner cut-path repricing. If talks fail, 10Y snaps back to 4.30%+. Fed-Powell transition narrative intact — Trump's Kevin Warsh nomination signals hawkish-to-neutral policy continuity. Dated Brent physical $132 remains inconsistent with this bond rally — the physical oil hasn't repriced, and if Monday disappoints, bonds retrace immediately. (Sources: markets.md Friday settles, yfinance, FRED, Fed Chair transition reporting)",
+      "sources": ["yfinance", "FRED", "staging/2026-04-18/markets.md"],
       "significance": "high"
     }
   ],
