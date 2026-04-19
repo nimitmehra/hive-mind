@@ -3,8 +3,8 @@
   "name": "Lebanon",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-18",
-  "summary": "Day 51 / Ceasefire Day 2. IDF KOUNINE STRIKE KILLED ONE PERSON — Day 2 violations persist. On April 18, Israeli drone strike in southern village of Kounine killed one person per Lebanon's Health Ministry. Lebanon NNA reports continued intermittent artillery shelling and machine-gun fire in southern villages from Day 1; violations continued through Day 2. IDF procedural framework — ceasefire text 'allows IDF to carry out strikes against planned, imminent, or ongoing attacks' but bars 'offensive' operations — justifies continued fires in 10km 'expanded buffer zone' Netanyahu announced. Hezbollah compliance stance UNCHANGED (politician Ali Fayyad on Al Jazeera Arabic: 'caution and vigilance,' any targeting = breach); no Hezbollah rocket fire Day 2. Haaretz April 17 analysis: 'Trump Dictates the Terms in Lebanon and Iran, Leaving Netanyahu Boxed In — Trump hijacked Israeli foreign policy so Netanyahu had no say in Lebanon truce' — sharpest Israeli-establishment critique of cabinet's diplomatic position since ceasefire announcement. Haaretz military-correspondent sourcing tends to reflect senior IDF thinking suppressed by cabinet. Cumulative toll 2,197+ (one killed Day 2). Asymmetric pause holding in structure (Hezbollah honoring, IDF exercising self-defense framework), but casualty-per-day is ~1 — the lowest sustained rate of the war. 7 days remain in 10-day window.",
+  "last_updated": "2026-04-19",
+  "summary": "Day 52 / Ceasefire Day 3. HOLDING IN QUIET. Single confirmed kinetic within window remains Friday April 17 IDF drone strike on motorcycle between Kounine and Beit Yahoun (1 killed) — no new IDF strike reports Saturday-Sunday morning IST. Hezbollah launched ZERO rockets into Israeli territory since ceasefire onset (IDF Homefront Command logs per Times of Israel liveblog). State Department April 17 clarification — that Trump's 'Israel PROHIBITED' framing applies ONLY to offensive action and preserves Israel's self-defence lane — defines operational envelope; NOT tested in the quiet window since Friday. Structural fragility unchanged: Hezbollah non-signatory to ceasefire, IDF in-country, non-withdrawal. Cabinet Day 3 intact — no Smotrich/Ben-Gvir walkout, no new Netanyahu cabinet leaks Sunday morning. Day 3 is the quietest interval since pre-March-4 proxy escalation. 6 days remain in 10-day window; transition to permanent framework is the next binary. Israeli media (Haaretz, Times of Israel) has shifted focus to domestic coalition dynamics and Lebanon holding pattern — Hormuz below the fold.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -308,25 +308,36 @@
         "Haaretz"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-19",
+      "content": "CEASEFIRE DAY 3 — QUIET HOLDS. SINGLE CONFIRMED KINETIC WITHIN WINDOW REMAINS FRIDAY KOUNINE STRIKE [CONFIRMED non-events]. No new IDF strike reports Saturday-Sunday morning IST. The single confirmed kinetic event inside the 10-day cessation-of-hostilities window remains the Friday April 17 IDF drone strike on a motorcycle between Kounine and Beit Yahoun that killed one (Lebanese media, CBC). Hezbollah has launched ZERO rockets into Israeli territory since ceasefire onset (IDF Homefront Command logs per Times of Israel liveblog). State Department April 17 clarification — that Trump's 'Israel PROHIBITED' framing applies ONLY to offensive action and preserves Israel's self-defence lane — defines the operational envelope but has NOT been tested in the quiet window since Friday. Structural fragility unchanged (Hezbollah non-signatory, IDF in-country, non-withdrawal). Day 3 is the QUIETEST interval since pre-March-4 proxy escalation — a remarkable de-escalation baseline if sustained. 6 days remain in 10-day window. (Sources: State Department April 17 release, Times of Israel liveblog April 17 entry with no updates overnight Saturday into Sunday, CBC News, Al Jazeera Lebanon desk)",
+      "sources": [
+        "State Department",
+        "Times of Israel",
+        "CBC News",
+        "Al Jazeera"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "hezbollah",
       "type": "structured_pause",
-      "context": "Day 51 / Ceasefire Day 2. Hezbollah Day 2 compliance HOLDS — no rocket fire; politician Fayyad on Al Jazeera Arabic: 'caution and vigilance.' IDF Kounine strike killed one Day 2 under self-defense framework. Cumulative toll 2,197+ (one killed Day 2). Casualty-per-day rate ~1 = lowest sustained rate of war. Iran FM Baghaei re-linked ceasefire to broader US-Iran Pakistan-mediated agreement — any Hezbollah breakout would bleed into Iran track.",
+      "context": "Day 52 / Ceasefire Day 3. Hezbollah compliance HOLDS — zero rockets since ceasefire onset (IDF Homefront Command). Day 3 quietest interval since pre-March-4 proxy escalation. No new IDF strike reports Saturday-Sunday. State Dept April 17: Trump 'Israel PROHIBITED' applies to offensive only; self-defence preserved — not tested since Friday Kounine strike. 6 days remain.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 21,
+      "last_activated": "2026-04-19",
+      "activation_count": 22,
       "weight": 10
     },
     {
       "to": "israel",
       "type": "invasion_target",
-      "context": "Day 51 / Ceasefire Day 2. IDF Kounine drone strike killed one; Day 2 violations include artillery, machine-gun fire in southern villages. Haaretz 'Trump hijacked Israeli foreign policy' framing = sharpest establishment critique of Netanyahu's diplomatic position. IDF exercising self-defense framework under ceasefire text. Cabinet Day 2 intact — no Smotrich/Ben-Gvir walkout, hardline bloc accepting pause tactically. 7 days left in 10-day window.",
+      "context": "Day 52 / Ceasefire Day 3. No new IDF strike reports Saturday-Sunday morning IST. Single confirmed kinetic within window remains Friday Kounine drone strike (1 killed). Cabinet Day 3 intact — no Smotrich/Ben-Gvir walkout, no new cabinet leaks. Israeli media shifted to domestic coalition + Lebanon holding pattern — Hormuz below the fold. 6 days left in 10-day window.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 23,
+      "last_activated": "2026-04-19",
+      "activation_count": 24,
       "weight": 10
     }
   ],

@@ -3,12 +3,12 @@
   "name": "Natural Gas / LNG",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-18",
-  "summary": "Day 51 Saturday. CHENIERE CRASHED -4.4% TO $251.07 — REVERSED FROM THURSDAY +2.3% COUNTER-DIRECTIONAL FRAMING. HH $2.67/MMBtu (+1.1% 1D, -12.7% 1M); TTF €41.59 (-1.96% 1D, -23.9% 1M). US domestic gas still unaffected by Gulf crisis. STRUCTURAL vs TACTICAL DEBATE RE-OPENED: Cheniere's Friday crash on the Hormuz-open catalyst argues the LNG equity market is co-moving with deal rhetoric, not pricing the structural US LNG gap-fill. BUT Qatar's Ras Laffan physical timeline UNCHANGED (3-5 yrs full, August earliest partial). The crash is a MARKET-PRICING ERROR, not new physical information — Cheniere's structural gap-fill is driven by Ras Laffan repair timeline which is mechanical not political. Graph note: natural-gas-lng → qatar edge-context should record that equity market is co-moving the structural-gap-fill trade with deal optimism, even though physical repair is multi-year. Asian LNG imports still at 6-year low reducing European competition for cargoes — supporting TTF decline. Reversibility: if Monday Islamabad collapses or Iranian reciprocal measures fire, Cheniere snaps back toward $260+ on Qatar timeline reassertion. (yfinance: LNG $251.07, -4.4% 1D, -5.7% 1M, +24.0% 3M)",
+  "last_updated": "2026-04-19",
+  "summary": "Day 52 Sunday. RAS LAFFAN PARTIAL-RESTART HORIZON FIRMING — NORTH WITHIN ONE MONTH, SOUTH LATE SUMMER, FULL RECOVERY 3-5 YEARS. QatarEnergy CEO Al-Kaabi (March 20) reiteration holds; The National + OilPrice.com April 9. Cheniere LNG closed Friday $251.07 (-4.4% day, -5.7% month) — likely MISPRICED on short-horizon supply profile; Sunday intel (SNSC institutional ratification + kinetic broadening + MEA summons) argues Friday's -4.4% reverses toward +3-5% Monday. TTF-JKM spread to re-widen; gap-fill thesis validated. European TTF ~€41.25/MWh Friday close (-1.96% day, -26% month from €56 April 13 peak). HH $2.67/MMBtu (+1.1% day) — US domestic unaffected by Gulf crisis, decoupling intact. Asian LNG imports still at 6-year low reducing European competition for cargoes — supporting TTF decline. Structural vs tactical: Cheniere's Friday crash co-moved with Araghchi deal-optimism = market-pricing error on a structural gap-fill trade driven by physical Qatar timelines. Monday reversibility HIGH on Iranian reciprocal measures or SNSC enforcement. (yfinance: LNG $251.07, -4.4% 1D, -5.7% 1M, +24.0% 3M)",
   "current": {
-    "price": "$2.67/MMBtu (HH); €41.59/MWh (TTF); Cheniere $251.07",
+    "price": "$2.67/MMBtu (HH); €41.25/MWh (TTF); Cheniere $251.07",
     "delta_1d": "+1.1% (HH); -1.96% (TTF); -4.4% (Cheniere)",
-    "delta_1m": "-12.7% (HH); -23.9% (TTF); -5.7% (Cheniere)",
+    "delta_1m": "-12.7% (HH); -26% (TTF from €56 peak); -5.7% (Cheniere)",
     "delta_3m": "-31.5% (HH); -38% (TTF); +24.0% (Cheniere)"
   },
   "price_snapshots": [
@@ -228,16 +228,28 @@
         "CNBC"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-19",
+      "content": "Day 52. Ras Laffan partial-restart timeline firming: North within one month, South late summer, full recovery 3-5 years per QatarEnergy CEO Al-Kaabi (The National UAE April 9, OilPrice.com April 9, NaturalGasIntel). Cheniere's Friday -4.4% to $251.07 was likely MISPRICED on short-horizon supply profile. Mechanism: Cheniere's structural US LNG gap-fill thesis is driven by Ras Laffan's multi-year repair horizon (Trains 4 & 6 = 12.8 Mtpa = 17% Qatar LNG exports offline, replacement gas turbines face 2-4yr lead times), which is mechanical not political. Araghchi's 'Hormuz completely open' catalyst that crashed Cheniere Friday does NOT address Qatar's physical repair timeline. Sunday SNSC institutional ratification + kinetic broadening + MEA summons = Monday reversal toward +3-5% Cheniere snap-back to ~$260 as Qatar timeline reasserts. TTF-JKM spread to re-widen; gap-fill thesis validated. European TTF €41.25/MWh Friday (-1.96% 1D, -26% 1M from €56 April 13 peak) — deal-optimism deflation; Monday snap-back to €45-50 likely on SNSC re-pricing. HH decoupling intact. (Sources: The National April 9, OilPrice.com April 9, NaturalGasIntel, markets.md Section B, intel.md B2)",
+      "sources": [
+        "The National",
+        "OilPrice.com",
+        "NaturalGasIntel",
+        "markets.md",
+        "intel.md"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "qatar",
       "type": "production_dependency",
-      "context": "Qatar was ~20% of global LNG. 17% capacity destroyed (5yr repair). Ras Laffan recovery delayed to August 2026. Force majeure continues.",
+      "context": "Day 52. Ras Laffan partial-restart timeline firming: North within one month, South late summer, full recovery 3-5 years per QatarEnergy CEO Al-Kaabi. 17% capacity (Trains 4 & 6 = 12.8 Mtpa) offline; gas turbines face 2-4yr lead times. Cheniere Friday -4.4% likely mispriced on short-horizon supply profile.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 11,
+      "last_activated": "2026-04-19",
+      "activation_count": 12,
       "weight": 10
     },
     {

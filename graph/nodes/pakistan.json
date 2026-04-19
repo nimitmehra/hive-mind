@@ -3,8 +3,8 @@
   "name": "Pakistan",
   "type": "country",
   "created": "2026-03-30",
-  "last_updated": "2026-04-18",
-  "summary": "Day 51 Saturday. ROUND 2 MONDAY APRIL 21 PER IRANIAN-SOURCED CNN — PAKISTAN CONFIRMATION PENDING. Iranian sources told CNN April 17 that 'US and Iranian delegations are expected to arrive in Pakistan this weekend and hold negotiations on Monday, April 21.' Two US officials separately told multiple outlets Monday is 'the first feasible day that a second round of negotiations could take place.' BUT Pakistan Foreign Ministry's April 16 'no date had been set' remains operative baseline — no Pakistani Apr 17-18 announcement superseded it. CRITICAL: the Iranian sourcing of the Monday date is the SAME mode as the April 15 Tasnim 'trilateral talks' claim that remained uncorroborated — Iranian leaks about US diplomatic intent are a recurring info-op pattern. No named US delegation (Vance, Witkoff, Kushner) arrival in Pakistan reported as of Saturday April 18 morning IST. PM Sharif Doha visit (Euronews) confirms ongoing shuttle pace but not a Monday date. Geo.tv: 'US-Iran second round of talks likely in Islamabad next weekend sources' — partial corroboration on scheduling, no specific date. Antalya Diplomacy Forum (April 17-19) continuing as parallel shuttle node. If no US delegation lands by Sunday midnight IST, Monday is rhetoric-inflation event not structural. Pakistan as Iran's preferred mediator holds; Sharif/Munir/Dar shuttle active but public communication held tight.",
+  "last_updated": "2026-04-19",
+  "summary": "Day 52 Sunday. ROUND 2 MONDAY APRIL 21 STILL SINGLE-SOURCED FROM CNN (IRANIAN INTERMEDIARY) AND UNCORROBORATED AS OF SUNDAY 09:00 IST. CNN April 14 'US eyes potential second round of in-person talks' remains the upstream source for the Monday April 21 date; Time magazine (April 14) carries a White House official saying 'future talks are under discussion but nothing has been scheduled.' No Witkoff/Vance/Kushner travel publicly tracked; Iranian delegation travel unconfirmed; Pakistani officials have not publicly confirmed hosting arrangements. Araghchi per Al Jazeera is 'reviewing new US proposals' — a diplomatic lane is live but PAPER-ONLY. If US delegation is not named or photographed by Sunday evening IST, the Monday date materially deteriorates as a Monday-morning catalyst. Pakistan Foreign Ministry's April 16 'no date had been set' remains operative baseline. Antalya Diplomacy Forum (April 17-19) continuing as parallel shuttle node. Pakistan as Iran's preferred mediator holds; Sharif/Munir/Dar shuttle active but public communication held tight. If Monday-morning catalyst degrades, Tuesday's Kpler data / CENTCOM statement / Iranian further-kinetic absence become the binding signals.",
   "signals": [
     {
       "date": "2026-03-26",
@@ -229,25 +229,36 @@
         "Pakistan Today"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-19",
+      "content": "ISLAMABAD ROUND 2 MONDAY APRIL 21 STILL SINGLE-SOURCED FROM CNN AND UNCORROBORATED AS OF SUNDAY 09:00 IST [REPORTED — single-thread]. CNN's April 14 'US eyes potential second round of in-person talks with Iran as blockade takes hold' remains the upstream source for the Monday April 21 date. Time magazine (April 14) carries a White House official saying 'future talks are under discussion but nothing has been scheduled.' As of Sunday morning IST: (a) Witkoff, Vance, Kushner have not publicly travelled, tweeted travel, or been tracked via flight manifests to Islamabad; (b) the Iranian team (Ghalibaf, Araghchi) has not been publicly confirmed travelling; (c) Pakistani officials have not publicly confirmed hosting arrangements. Araghchi per Al Jazeera is 'reviewing new US proposals' — a diplomatic lane is live but PAPER-ONLY. Yesterday evening's brief marked this as REPORTED single-thread; Sunday morning state is identical. If a US delegation is NOT named or photographed by Sunday evening IST, the Monday date MATERIALLY DETERIORATES as a Monday-morning catalyst and falls back into rhetorical-framing territory. (Sources: CNN April 14, Time April 14, absence of social media / flight manifest corroboration, Pakistan Foreign Ministry April 16 'no date set' unchanged)",
+      "sources": [
+        "CNN",
+        "Time",
+        "Al Jazeera",
+        "Pakistan Foreign Ministry"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "mediation_channel",
-      "context": "Day 51. Round 2 Monday April 21 per Iranian-sourced CNN — Pakistan has NOT publicly confirmed. 'No date set' (April 16) remains operative. Munir Tehran shuttle (Apr 15) most recent confirmed contact. Iranian-sourced date via CNN is the same info-op mode as April 15 Tasnim 'trilateral talks' claim that never materialized.",
+      "context": "Day 52 Sunday. Round 2 Monday April 21 CNN single-thread uncorroborated through Sunday 09:00 IST; Pakistan has NOT publicly confirmed. 'No date set' (April 16) remains operative. Araghchi 'reviewing new US proposals' per Al Jazeera = paper-only lane. If no delegation-travel confirmation by Sunday evening IST, Monday deteriorates as catalyst.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 13,
+      "last_activated": "2026-04-19",
+      "activation_count": 14,
       "weight": 10.0
     },
     {
       "to": "united-states",
       "type": "mediation_channel",
-      "context": "Day 51. Round 2 reportedly Monday Apr 21 per Iranian-sourced CNN; two US officials say 'first feasible day.' No US delegation (Vance/Witkoff/Kushner) travel manifest publicly reported. Pakistan 'no date set' unchanged. Antalya Diplomacy Forum Apr 17-19 parallel shuttle; Sharif Doha visit confirmed. If no delegation lands by Sunday midnight IST, Monday is rhetoric-inflation event.",
+      "context": "Day 52 Sunday. Round 2 reportedly Monday Apr 21 per Iranian-sourced CNN; uncorroborated through Sunday 09:00 IST. No Witkoff/Vance/Kushner travel publicly tracked. Pakistan 'no date set' unchanged. Antalya Diplomacy Forum Apr 17-19 parallel shuttle still active. If no delegation lands by Sunday evening IST, Monday is rhetoric-inflation event, not structural catalyst.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 12,
+      "last_activated": "2026-04-19",
+      "activation_count": 13,
       "weight": 10.0
     },
     {

@@ -3,8 +3,8 @@
   "name": "Israel",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-18",
-  "summary": "Day 51 / Ceasefire Day 2. HAARETZ 'NETANYAHU BOXED IN' FRAMING + KOUNINE DEATH. Sharpest Israeli-establishment critique of Netanyahu's diplomatic position since the ceasefire announcement: Haaretz April 17 analysis 'Trump Dictates the Terms in Lebanon and Iran, Leaving Netanyahu Boxed In — Trump hijacked Israeli foreign policy so Netanyahu had no say in Lebanon truce.' Haaretz's military-correspondent sourcing tends to reflect senior IDF thinking suppressed by cabinet — 'boxed in' language suggests IDF senior ranks see cabinet as lacking leverage. Complements prior Times of Israel report that Netanyahu was 'shocked to learn of the truce from media.' Coalition hawkish bloc (Smotrich/Ben-Gvir): MK letters urging occupation-and-evacuation of south Lebanon (Haaretz April 5) — NOT aligned with Trump-imposed framework. Day 2 cabinet INTACT — no Finance/National Security Ministry resignation = hardline bloc accepting pause tactically; salient if 10-day transitions to permanent. Operational Day 2: IDF drone strike Kounine killed one (Lebanon Health Ministry). IDF exercising 'self-defense' framework under ceasefire text (bars 'offensive' ops, allows strikes against 'planned/imminent/ongoing attacks'). Casualty-per-day rate ~1 (lowest sustained of war). Haaretz military-track carry-over: IDF 'can't disarm Hezbollah' (April 5) — cabinet cannot execute stated objectives. Cabinet walkout risk non-trivial if 10-day transitions to permanent framework requiring withdrawal from 10km zone.",
+  "last_updated": "2026-04-19",
+  "summary": "Day 52 / Ceasefire Day 3. ISRAELI MEDIA PIVOTED TO DOMESTIC COALITION DYNAMICS — HORMUZ BELOW THE FOLD, FRAMED AS 'IRAN'S SHOWDOWN WITH US' NOT ISRAEL-RELEVANT. Haaretz April 17 'Trump hijacked Israeli foreign policy' framing remains sharpest establishment critique of Netanyahu's diplomatic position. Sunday morning Israeli press (Haaretz, Times of Israel) leads with Netanyahu-Smotrich-Ben-Gvir coalition dynamics and Lebanon Day 3 holding pattern; Hormuz is placed below the fold and framed as Trump-problem, not Israel-relevant. Smotrich and Ben-Gvir have NOT walked out of coalition on Day 2→3 — hardline bloc accepting pause tactically; cabinet INTACT. No new Netanyahu cabinet leaks Sunday morning. Ceasefire Day 3: no new IDF strike reports Saturday-Sunday IST. Single confirmed kinetic within window remains Friday Kounine drone strike (1 killed). IDF exercising 'self-defense' framework under ceasefire text. Mojtaba 'Navy's Ready' angle Haaretz floated Saturday NOT amplified by other Israeli outlets Sunday morning — single-source concern stands. Cabinet walkout risk non-trivial if 10-day transitions to permanent framework requiring withdrawal from 10km zone; 6 days remain in window.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -441,16 +441,27 @@
         "Al Jazeera"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-19",
+      "content": "ISRAELI MEDIA PIVOTED TO DOMESTIC COALITION + LEBANON HOLDING PATTERN; HORMUZ BELOW THE FOLD [CONFIRMED Sunday morning publication pattern]. Sunday April 19 morning Israeli press focus has shifted almost entirely to domestic Netanyahu-Smotrich-Ben-Gvir coalition dynamics and the Lebanon Day 3 holding pattern. Hormuz material is placed BELOW THE FOLD and framed as 'Iran's showdown with US' rather than an Israel-relevant event — Haaretz's Friday 'Trump hijacked Israeli foreign policy' frame carries through Sunday (Hormuz is now a Trump problem in the Israeli press). Haaretz Sunday morning liveblog leads with coalition dynamics and Lebanon. Times of Israel liveblog carries UKMTO operational updates factually with no editorial amplification. Jerusalem Post ran the IRGC-vs-Araghchi angle more prominently Saturday (April 18: 'Iran's IRGC seems to be fighting Foreign Minister Abbas Araghchi') but Sunday morning is quiet. Ynet, Channel 12, Channel 13 — no standout Sunday morning material. Smotrich and Ben-Gvir have NOT walked out of coalition Day 2→3 — hardline bloc accepting pause tactically; no new Netanyahu cabinet leaks Sunday morning. The Mojtaba 'Navy's Ready' angle Haaretz floated Saturday has NOT been elevated or amplified by other Israeli outlets Sunday morning — single-source-attribution concern still stands; Mojtaba node activation should remain paused until a Persian-language primary surfaces. Israeli press has outsourced Hormuz to the US domain. Domestic politics dominate. (Sources: Haaretz Sunday liveblog, Times of Israel liveblog, Jerusalem Post April 18, Ynet)",
+      "sources": [
+        "Haaretz",
+        "Times of Israel",
+        "Jerusalem Post",
+        "Ynet"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "active_conflict_paused",
-      "context": "Day 51. Lebanon-Hezbollah ceasefire Day 2. Iran FM Baghaei re-linked pause to broader US-Iran deal mediated by Pakistan; demanded full Israeli withdrawal from south Lebanon. Araghchi Hormuz-open tied to 'remaining period of ceasefire' explicitly — two theatres now formally linked in Iranian framing. No reported strikes on Iran itself during Day 2 of pause. Cabinet's 'ready to renew strikes on Iran' language (Netanyahu Apr 16) rhetorical through Day 2.",
+      "context": "Day 52 / Ceasefire Day 3. Israeli press framing Hormuz as 'Iran's showdown with US' not Israel-relevant — Hormuz below the fold. No reported strikes on Iran itself during Day 2-3 of pause. Cabinet 'ready to renew strikes on Iran' language (Netanyahu Apr 16) rhetorical through Day 3. Two theatres still formally linked via Iran's Baghaei re-framing.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 31,
+      "last_activated": "2026-04-19",
+      "activation_count": 32,
       "weight": 10.0
     },
     {
@@ -465,19 +476,19 @@
     {
       "to": "lebanon",
       "type": "structured_pause",
-      "context": "Day 51 / Ceasefire Day 2. IDF drone strike Kounine killed one; Lebanon NNA reports continued Day 2 artillery/machine-gun/drone violations. IDF 'self-defense' framework under ceasefire text allows strikes against 'planned/imminent/ongoing attacks' but bars 'offensive' ops. Cumulative toll 2,197+. Casualty-per-day ~1 = lowest sustained of war. 7 days left.",
+      "context": "Day 52 / Ceasefire Day 3. No new IDF strike reports Saturday-Sunday morning IST. Single confirmed kinetic within 10-day window remains Friday Kounine drone strike (1 killed). IDF 'self-defense' framework under ceasefire text — not tested since Friday. 6 days left in window.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 22,
+      "last_activated": "2026-04-19",
+      "activation_count": 23,
       "weight": 10
     },
     {
       "to": "hezbollah",
       "type": "structured_pause",
-      "context": "Day 51 / Ceasefire Day 2. Hezbollah Day 2 compliance HOLDS — no rocket fire; politician Fayyad on Al Jazeera Arabic: 'caution and vigilance.' IDF continued Kounine strike under 'self-defense' framework; Hezbollah has NOT publicly responded to violations through Day 2. Pre-positioned 'right to resist' inside 10km zone — trigger for resumed hostilities is Israel-operated. Iran-Hezbollah linkage activated by Baghaei framing.",
+      "context": "Day 52 / Ceasefire Day 3. Hezbollah compliance HOLDS — zero rockets since ceasefire onset (IDF Homefront Command). No IDF strike reports Saturday-Sunday. Day 3 is quietest interval since pre-March-4 proxy escalation. Iran-Hezbollah linkage via Baghaei framing remains.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 23,
+      "last_activated": "2026-04-19",
+      "activation_count": 24,
       "weight": 10
     },
     {

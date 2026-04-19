@@ -3,8 +3,8 @@
   "name": "Marine War Risk Insurance",
   "type": "institution",
   "created": "2026-04-08",
-  "last_updated": "2026-04-18",
-  "summary": "Day 51 Saturday. WAR RISK INSURANCE UNCHANGED AT ~1% HULL DESPITE ARAGHCHI HORMUZ-OPEN — INSURERS NOT STEPPING DOWN. Gulf AWRP ~1% hull + 35-50% NCB UNCHANGED from April 13 baseline (Lloyd's List / Strauss Center). On the largest single-day oil crash of the crisis (Brent -7.6% on Araghchi declaration), insurers DID NOT reduce premiums. This is the cleanest hard-money counter-signal: paper oil market priced 60% deal probability, physical insurance market priced 15-20% (unchanged). Frontline +5.6% counter-directional = equity market expression of same hard-money view. VLCC TD3C ~$130K/day (WS ~78) still 2.5-3x historical. 4-6x pre-crisis rates. LMA: 88% of Lloyd's market has appetite — constraint is SAFETY not availability. US DFC $40B reinsurance facility attempting to fill pricing gap. Frontline 1-year TC $76,900/day locked through 2027 = tanker market pricing structural insurance premium persistence. Test: confirmed signed ceasefire + operational escort framework required to drop premiums below 0.5%; Macron-Starmer summit's 'post-war only' framework = no near-term catalyst. Monday triple-binary: if Iranian reciprocal measures fire, AWRP spikes back toward 2.5%+; if Islamabad delivers, slow decline toward 0.6% over weeks, not days.",
+  "last_updated": "2026-04-19",
+  "summary": "Day 52 Sunday. GULF AWRP ~1% HULL — INSURERS STEPPED DOWN ON CEASEFIRE BUT DID NOT STEP BACK UP ON SATURDAY KINETIC YET. Monday AWRP re-hike to 1.2-1.8% likely — first re-underwriting window after Saturday broadening kinetic (tanker + container-projectile + cruise-ship VHF threat). Kinetic broadening to passenger vessel (Mein Schiff 4 master-logged IRGC VHF threat to 'fire at and destroy') EXPANDS insurance scope from commercial-tanker to passenger shipping — if a cruise/passenger vessel is actually hit, an automatic IMO-level maritime emergency rather than a purely commercial insurance response. Gulf AWRP ~1% hull + 35-50% NCB is the moderated post-ceasefire baseline (from 2.5% blockade peak). VLCC TD3C at ~WS 513, ~$130-150K/day. LMA: 88% of Lloyd's market has appetite — constraint is SAFETY not availability. US DFC $40B reinsurance facility operational. Paper oil market priced 60% deal probability Friday; physical insurance market priced 15-20% (unchanged). Monday triple-binary: if Iranian reciprocal measures fire, AWRP spikes back toward 2.5%+; if passenger vessel is struck, IMO escalation; if Islamabad delivers, slow decline toward 0.6% over weeks.",
   "current": {
     "cover_pre_crisis": "$25K/year per vessel",
     "cover_current": "Easing to 0.8-1.0% hull value (from 2.5% peak). Still 4-6x pre-crisis (0.15-0.25%). LMA: 88% of Lloyd's market has appetite. Constraint is SAFETY, not availability.",
@@ -96,25 +96,36 @@
         "Kennedys Law"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-19",
+      "content": "GULF AWRP ~1% HULL — INSURERS DID NOT STEP BACK UP ON SATURDAY KINETIC YET; MONDAY RE-HIKE TO 1.2-1.8% LIKELY [CONFIRMED insurance baseline; REPORTED Monday direction]. Gulf AWRP remains ~1% hull post-ceasefire baseline (moderated from 2.5% blockade peak). Insurers stepped DOWN on April 8 ceasefire; have NOT stepped back up on Saturday April 18 IRGC kinetic (tanker + container + cruise-threat) as of Sunday 09:00 IST — the underwriting market is closed on weekends, so Monday is the first re-pricing window. Expected Monday AWRP re-hike: 1.2-1.8% hull. Significant KINETIC BROADENING consideration: Mein Schiff 4 master-logged IRGC VHF threat to 'fire at and destroy the ship' expands insurance scope from commercial-tanker to PASSENGER shipping. If a cruise/passenger vessel is actually hit (not the case as of Sunday 09:00), this triggers AUTOMATIC IMO-level emergency rather than purely commercial insurance response — fundamentally different capacity constraint since passenger shipping carries orders-of-magnitude higher liability exposure per vessel. Projectile (rocket/missile/drone) distinction from small-arms in container-ship incident also material: standoff munitions re-price differently than boarding/harassment because they expand hull-piercing casualty distribution. (Sources: Lloyd's List, Marsh, IBTimes Australia April 18, UKMTO advisory traffic)",
+      "sources": [
+        "Lloyd's List",
+        "Marsh",
+        "IBTimes Australia",
+        "UKMTO"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "operational_chokepoint",
-      "context": "EVENING CORRECTION: P&I clubs have NOT cancelled war risk cover — coverage available but at prohibitive prices (2.5-5% hull value, $10-14M per VLCC). Blockade re-spiked premiums above pre-ceasefire levels. LMA: 88% still underwriting. Price-based deterrence = de facto barrier for most commercial operators. Recovery timeline weeks (not months) if diplomatic breakthrough occurs.",
+      "context": "Day 52 Sunday. AWRP ~1% hull post-ceasefire baseline; insurers did NOT step back up on Saturday IRGC kinetic yet. Monday AWRP re-hike to 1.2-1.8% likely. Kinetic broadening to passenger vessel (Mein Schiff 4 VHF threat) expands scope commercial→passenger — actual hit would trigger IMO-level emergency. LMA: 88% still underwriting. Recovery timeline weeks if diplomatic breakthrough.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 6,
+      "last_activated": "2026-04-19",
+      "activation_count": 7,
       "weight": 10.0
     },
     {
       "to": "shipping-tankers",
       "type": "cost_structure",
-      "context": "EVENING CORRECTION: Coverage available but at prohibitive prices — 2.5-5% hull value ($10-14M per VLCC). LMA: 88% of Lloyd's war market still underwriting. 150+ tankers anchored outside Hormuz. Insurance is the operational bottleneck via price deterrence, not hard coverage withdrawal.",
+      "context": "Day 52 Sunday. AWRP ~1% hull unchanged over weekend; Monday re-hike to 1.2-1.8% likely on Saturday broadening kinetic (tanker + container-projectile + cruise-VHF threat). Frontline +5.6% Friday validated. Insurance is the operational bottleneck via price deterrence; passenger-vessel scope expansion is material if actual hit follows.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 5,
+      "last_activated": "2026-04-19",
+      "activation_count": 6,
       "weight": 10.0
     },
     {

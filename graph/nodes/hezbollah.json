@@ -3,8 +3,8 @@
   "name": "Hezbollah",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-18",
-  "summary": "Day 51 / Ceasefire Day 2. COMPLIANCE HOLDS. No Hezbollah rocket fire Day 2 despite IDF Kounine drone strike killing one; politician Ali Fayyad on Al Jazeera Arabic: approach with 'caution and vigilance,' any targeting = breach. Hezbollah pre-positioned 'right to resist' inside 10km zone — trigger for resumed hostilities is Israel-operated. Iran FM Baghaei re-linked ceasefire to broader US-Iran deal mediated by Pakistan; Araghchi's Hormuz-open declaration explicitly tied to 'remaining period of ceasefire' = two theatres formally linked in Iranian framing. Haaretz April 5 (carry-over): IDF 'admits it can't disarm Hezbollah' — Israeli stated goal of Hezbollah disarmament is not achievable under this ceasefire structure. 7 days remain in 10-day window; transition to permanent framework is the next binary. Pre-ceasefire peak April 15: 105 attack waves in single day (Alma Research); post-ceasefire Day 2: zero rocket fire = order-of-magnitude de-escalation sustained across 48 hours.",
+  "last_updated": "2026-04-19",
+  "summary": "Day 52 / Ceasefire Day 3. COMPLIANCE HOLDS. ZERO Hezbollah rockets into Israeli territory since ceasefire onset (IDF Homefront Command logs per Times of Israel liveblog). Day 3 is the quietest interval since pre-March-4 proxy escalation. Hezbollah political council position from April 15 ('We are not bound by what they agree to') has NOT been re-invoked or walked back — rhetorical floor held, not being used operationally. Pre-ceasefire peak April 15: 105 attack waves in single day (Alma Research); post-ceasefire Days 1-3: zero rocket fire = order-of-magnitude de-escalation sustained across 72 hours. Hezbollah non-signatory to ceasefire remains structural fragility. Iran FM Baghaei re-linked ceasefire to broader US-Iran Pakistan-mediated agreement — two theatres formally linked in Iranian framing. Haaretz April 5 (carry-over): IDF 'admits it can't disarm Hezbollah' — Israeli stated goal not achievable under this ceasefire structure. 6 days remain in 10-day window; transition to permanent framework is the next binary.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -273,34 +273,44 @@
         "Lebanese Army"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-19",
+      "content": "CEASEFIRE DAY 3 — ZERO ROCKETS SINCE CEASEFIRE ONSET; QUIETEST INTERVAL SINCE PRE-MARCH-4 PROXY ESCALATION [CONFIRMED]. IDF Homefront Command logs (per Times of Israel liveblog) confirm Hezbollah has launched ZERO rockets into Israeli territory since ceasefire onset. Hezbollah political council position — 'We are not bound by what they agree to' (April 15) — has NOT been re-invoked or walked back; the rhetorical floor holds while operational tempo at zero. Day 3 is the quietest interval since pre-March-4 proxy escalation — 72 hours of cumulative zero-rocket-fire is a notable baseline if sustained. Hezbollah non-signatory to ceasefire remains structural fragility — any Israeli kinetic shift on Day 4-10 would test compliance. Iran linkage via Baghaei still activated (two theatres formally linked). 6 days remain in 10-day window; transition to permanent framework requires addressing Hezbollah non-signatory status. (Sources: IDF Homefront Command via Times of Israel liveblog April 18-19, Al Jazeera Arabic)",
+      "sources": [
+        "IDF Homefront Command",
+        "Times of Israel",
+        "Al Jazeera"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "proxy_alliance",
-      "context": "Day 51. Hezbollah in structured pause Day 2; Iran FM Baghaei explicitly framed Lebanon ceasefire as 'part of broader US-Iran agreement mediated by Pakistan' — Araghchi Hormuz-open tied to 'remaining period of ceasefire.' Two theatres formally linked in Iranian framing. If IDF Day 2 Kounine-type strikes escalate or 10-day window expires without extension, Hezbollah response is pre-positioned and will directly stress Iran-US Round 2 Monday Islamabad.",
+      "context": "Day 52 / Ceasefire Day 3. Hezbollah structured pause sustained 72 hours. Iran-Hezbollah linkage via Baghaei re-framing still operative. Political council position 'not bound by what they agree to' (Apr 15) held as rhetorical floor, not operationally exercised. 6 days remain in 10-day window; Iran-US Round 2 Monday Islamabad (if confirmed) is key catalyst.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 19,
+      "last_activated": "2026-04-19",
+      "activation_count": 20,
       "weight": 10
     },
     {
       "to": "israel",
       "type": "structured_pause",
-      "context": "Day 51 / Ceasefire Day 2. Hezbollah clean compliance Day 2 — zero rocket fire despite IDF Kounine drone strike killing one. Fayyad (Al Jazeera Arabic): 'caution and vigilance.' Israeli 'self-defense' framework continued Day 2. Order-of-magnitude de-escalation sustained across 48 hours. Pause intact; casualty-per-day ~1 (lowest of war).",
+      "context": "Day 52 / Ceasefire Day 3. Hezbollah compliance HOLDS — zero rockets since ceasefire onset (IDF Homefront Command). Day 3 is quietest interval since pre-March-4 proxy escalation. No IDF strike reports Saturday-Sunday. 72-hour cumulative zero-rocket-fire.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 23,
+      "last_activated": "2026-04-19",
+      "activation_count": 24,
       "weight": 10
     },
     {
       "to": "lebanon",
       "type": "operating_base",
-      "context": "Day 51 / Ceasefire Day 2. Hezbollah rocket fire: zero Day 1-2. Lebanese state diplomacy (Rubio track) advanced independently. Baghaei re-linked pause to broader US-Iran deal, demanded Israel full withdrawal from south Lebanon. Hezbollah retains 'right to resist' inside 10km zone — rhetorical through Day 2.",
+      "context": "Day 52 / Ceasefire Day 3. Hezbollah rocket fire: zero Days 1-3. Political council 'we are not bound' position (Apr 15) intact but not re-invoked. Non-signatory structural fragility remains. 6 days left in window.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 19,
+      "last_activated": "2026-04-19",
+      "activation_count": 20,
       "weight": 10
     }
   ],

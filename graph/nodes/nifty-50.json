@@ -3,8 +3,8 @@
   "name": "Nifty 50",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-18",
-  "summary": "Day 51 Saturday / waiver T-1. Nifty 24,353.55 +0.6% post-ceasefire high held Friday close (Indian markets closed Saturday). UNDERPERFORMED global risk-on (DAX +2.3%, S&P record close +1.2%, Nikkei -1.8%, KOSPI -0.5% — Asian equities not confirming deal-optimism trade). Business Standard: 'Even the US-Iran ceasefire failed to arrest the selling momentum. FPIs used the relief rally as a liquidity window to exit further.' FPI first 10 days April -Rs 48,213 cr (~$5.8B); CY2026 cumulative -Rs 1.8 lakh crore (~$21B). Friday tape: FPIs net BUY Rs 683 cr, DIIs net SELL Rs 4,721 cr — DII selling is the real signal. Rupee strengthened Rs92.57 (-0.9%) on Brent crash to $91.87. RBI forex reserves rose $3.825B to $700.946B (week-end Apr 10). RBI toolkit at 3 of 7 deployed (NDF ban + NOP caps + refiner-dollar limits); non-escalation = confidence current posture adequate. Monday open triple binary: Iranian waiver Sunday midnight UTC, Russian waiver already April 11, Islamabad Round 2 per Iranian-sourced CNN (unconfirmed), Baghaei 'reciprocal measures.' Asymmetric risk: +0.5-1% upside if Islamabad delivers, -2-3% downside if collapses or Iranian reciprocal measures fire. 200-day EMA ~21,500 = systematic selling trigger if broken (13% cushion).",
+  "last_updated": "2026-04-19",
+  "summary": "Day 52 Sunday / waiver T-0 (Monday 05:30 IST). Nifty Friday 24,353.55 (+0.6%); Sensex 78,493.54 (+0.6%). TRIPLE MONDAY HEADWIND arriving: SNSC re-closure + Iranian $1/bbl fees + MEA summons + Brent reversal. Scenarios per markets.md C2: Base 50% 24,050-24,200 (-0.6 to -1.2%); Stress 30% 23,850-24,000 (-1.4 to -2.0%, breaks 200-DMA 24,050); Benign 20% 24,300-24,400 flat-up if Islamabad travel confirmed or CENTCOM calming statement. GIFT Nifty last 24,186 (April 16 close) — 167pt gap with cash 24,353.55 Monday open first reconciles. FPI net outflow ₹3,200cr 3 sessions (NSDL) + ₹17,689cr FAR G-Sec since crisis start. Business Today April 18 'Nifty likely to open higher on moderating oil prices and renewed peace talks' framing ALREADY STALE on Saturday SNSC + MEA material. India MEA summons Iran's Ambassador — first formal India-Iran diplomatic friction of 52-day crisis. OMCs (IOC 2M bbl Iranian discharged; Reliance 2M bbl Felicity discharged; Derya/Lenore rejected) face waiver double-door closure Monday. Rupee test: USD/INR Rs93+ Monday re-test likely; Rs94.50-95 re-activates crossed-Rs95 trigger from March 27.",
   "current": {
     "price": "24,353.55",
     "delta_1d": "+0.65%",
@@ -380,16 +380,26 @@
         "yfinance"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-19",
+      "content": "Day 52 Sunday / WAIVER T-0. TRIPLE MONDAY HEADWIND CONVERGES: (1) Iran SNSC re-closure of Hormuz + $1/bbl fees institutionally ratified Saturday; (2) India MEA summoned Iran's Ambassador Saturday evening — first formal India-Iran démarche of crisis; (3) Brent reversal expected +5-8% (markets.md probability distribution center). Primary transmission chain: SNSC re-closure + fees + MEA summons → IOC/Reliance waiver door closes Monday 05:30 IST → Iranian-crude supply = zero → OMCs substitute at spot Brent $94-97 → CAD widens → rupee pressure → FPI outflow acceleration → Nifty gap-down. Monday scenarios per markets.md C2: Base 50% 24,050-24,200 (-0.6 to -1.2%); Stress 30% 23,850-24,000 (-1.4 to -2.0%, breaks 200-DMA); Benign 20% 24,300-24,400 flat-up if Islamabad delegation confirmed or CENTCOM calm statement. GIFT Nifty last reading 24,186 (Apr 16 close) — 167pt gap with cash; Monday opens first reconciles, then absorbs SNSC/MEA re-pricing. Secondary headwinds: Q4 FY26 earnings (HDFC Bank Q4 miss, Infosys guidance revisions ongoing — ~0.3% residual, non-crisis); Business Today/ET stale framing 'likely to open higher on moderating oil' will have to retract overnight. FPI net outflow ₹3,200cr 3 sessions + ₹17,689cr FAR G-Sec since crisis. Rupee test: OMC daily USD demand $250-300M becomes binding at Brent $95+; USD/INR Rs94.50-95 re-activates crossed-Rs95 trigger from March 27. (Sources: NSE Friday close, markets.md C2, intel.md A3/A7)",
+      "sources": [
+        "NSE",
+        "markets.md",
+        "intel.md"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "india",
       "type": "equity_market",
-      "context": "Day 50 evening. Nifty +0.65% to 24,353.55 — highest post-ceasefire close; Sensex 78,493 recovered all but 1.7% of crisis losses. Brent -3.3% + INR Rs92.84 mechanical relief + FII +Rs666 cr Apr 15 (first positive in weeks). Waiver expiry T-2 days is the untested counterweight. Most fragile long in market going into 72-hour weekend.",
+      "context": "Day 52 / waiver T-0. Nifty Friday 24,353.55. Monday triple headwind: SNSC re-closure + MEA summons + Brent reversal. Base 50% scenario 24,050-24,200 (-0.6 to -1.2%); stress 30% breaks 200-DMA at 23,850-24,000. Confirmed-action weight shift +2.0 on MEA démarche.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 24,
+      "last_activated": "2026-04-19",
+      "activation_count": 25,
       "weight": 10
     },
     {

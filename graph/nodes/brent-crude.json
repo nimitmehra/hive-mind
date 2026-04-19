@@ -3,12 +3,12 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-18",
-  "summary": "Day 51 Saturday. CORRECTED FRIDAY APRIL 17 SETTLE: $91.87/bbl (-7.6%, yfinance BZ=F continuous; wire-ICE ~$90.38 / -9.1%). Intraday low $87.94. Largest single-day drop since April 8 ceasefire. CATALYST: FM Araghchi declared Hormuz 'completely open for the remaining period of ceasefire' at ~17:00 EST Friday. Prior evening brief's $96.16 was CNN's 4pm intraday mark, not actual settle — framing carried stale Thursday US equity data because it assumed Good Friday closure (Good Friday 2026 was April 3; Friday April 17 was a regular full session with S&P 500 record close 7,126.06). Brent-WTI spread compressed to $7.87 (vs evening brief $8.39) — still 2-3x historical $2-5. Physical-futures gap WIDENS to ~$40 — Dated Brent $132 (Thursday last-print, no Friday public print found) vs futures $91 — widest of war. Paper priced aggressive de-escalation; physical did not follow. Heating Oil $3.34 -12.8% was largest single-asset move. Goldman Q2 $90 base case validated within $2; Morgan Stanley $110 Q2 is $20 above. Both opposing conditionals active: Araghchi 'open' is qualified by Baghaei 'reciprocal measures if blockade continues' and IRGC permission regime (civilian only, designated lanes). Monday Islamabad Round 2 (per Iranian-sourced CNN April 21) + Sunday April 19 Iranian waiver expiry + Russian waiver already expired April 11 = triple binary catalyst into Monday open.",
+  "last_updated": "2026-04-19",
+  "summary": "Day 52 Sunday. Friday Apr 17 settle: $91.87 yfinance / $90.38 wire-ICE (-9.1%); intraday low $87.94. WTI $83.85 (-11.4%), Heating Oil $3.40/gal (-11.4%), RBOB $3.00/gal (-5.0%). Araghchi 'Hormuz completely open' catalysed the largest single-day crash of the crisis; decomposition ~8.3% crisis (Araghchi paper reaction) + ~0.8% OPEC+/US-cushion residual. Sunday SNSC formal ratification (civilian-apex body chaired by Pezeshkian endorsed IRGC Hormuz closure + $1/bbl fees on loaded tankers) INVALIDATES the Araghchi-as-structural-fix pricing. Kinetic broadening: container ship projectile damage + cruise-liner *Mein Schiff 4* VHF threat. India MEA summoned Iran's Ambassador. Physical-futures gap ~$40/bbl (Dated Brent ~$132 vs futures $91) at widest of crisis. Sunday Goldman-vs-MS falsifiable test: Goldman right if Brent opens within 2% of $91.87 Monday (paper treats kinetic as one-off); MS right if Brent gaps up 3%+ on Sunday Globex. Probability distribution (markets.md C1): Full re-pricing ($100+) 35%, Base bounce ($95-98) 45%, Muted ($92-94) 15%, Continued unwind ($90-92) 5%. Eurasia Group Brew: Iran holds 'effective control over the critical oil chokepoint'; US gasoline $5/gal summer trajectory. Three-catalyst argue +5-8% Monday open vs Saturday eve base of +3-5%.",
   "current": {
-    "price": "$91.87/bbl",
-    "delta_1d": "-7.6%",
-    "delta_1m": "-14.4%",
+    "price": "$91.87/bbl (yfinance); $90.38 wire-ICE",
+    "delta_1d": "-9.1% (wire) / -7.6% (yfinance)",
+    "delta_1m": "-15.8%",
     "delta_3m": "+41.5%"
   },
   "price_snapshots": [
@@ -155,6 +155,12 @@
       "price": "$91.87/bbl (actual Friday settle; wire-ICE $90.38 -9.1%)",
       "trigger": "FM Araghchi X-post 'Hormuz completely open for remaining period of ceasefire' triggered largest single-day crash of crisis",
       "delta_context": "CORRECTION of evening brief's stale CNN 4pm intraday mark. Actual full-session settle on yfinance continuous: $91.87 / -7.6% (wire-ICE $90.38 / -9.1% — probably June contract). Intraday low $87.94 (-11.5%). WTI $84.00 / -11.3%. Heating Oil $3.34 / -12.8% — LARGEST SINGLE-ASSET MOVE. RBOB $2.95 / -6.9%. Brent-WTI spread $7.87 (vs evening brief's $8.39 stale). Physical-futures gap WIDENS to ~$40 (Dated Brent $132 held vs futures $91) — widest of war. Trump then reiterated 'blockade in full force until peace deal' and Baghaei clarified 'reciprocal measures if blockade continues' — partial settle bounce from $87.94 intraday low to $91.87 reflects these conditionals. S&P 500 record close 7,126.06 on same catalyst."
+    },
+    {
+      "date": "2026-04-19",
+      "price": "Sunday re-pricing catalyst (SNSC + kinetic broadening + MEA summons)",
+      "trigger": "Iran's SNSC formally ratified IRGC Hormuz closure and re-imposed $1/bbl loaded-tanker fees — civilian-apex body (chaired by Pezeshkian, outranks IRGC and FM by statute) endorsed what IRGC declared Saturday morning; invalidates Friday's Araghchi-as-structural-fix pricing",
+      "delta_context": "Sunday event-driven price-snapshot flagged ahead of Monday Globex open (03:30 IST). Markets closed Sunday IST; CME Globex is first venue at 22:00 GMT. Sunday probability distribution per markets.md: Full re-pricing $100+ (35%, Goldman severe-case), Base bounce $95-98 (45%, MS base-case), Muted $92-94 (15%), Continued unwind $90-92 (5%). Gap ceiling $100+ if Sunday-evening kinetic fires or US counter-action; floor $92-93 if Islamabad delegation travel confirmed overnight. Goldman-vs-MS falsifiable test binds on Monday's first 10 sessions: Goldman right if Brent opens within 2% of $91.87 (paper treats kinetic as one-off); MS right if Brent gaps up 3%+ on Sunday Globex. Physical-futures gap ~$40 widest of crisis at Friday close — Sunday intel forces paper to converge upward."
     }
   ],
   "signals": [
@@ -615,25 +621,40 @@
         "Argus/Platts"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-19",
+      "content": "SUNDAY RE-PRICING SETUP [Day 52, T-hours to Monday Globex]. Three fresh intel catalysts argue Friday's -9.1% crash should reverse more than Saturday's base case assumed: (1) Iran's Supreme National Security Council (SNSC) — the civilian-apex body chaired by President Pezeshkian that by statute outranks the IRGC and Foreign Ministry — formally ratified the IRGC Hormuz closure on Saturday evening IST, re-imposing the $1/bbl loaded-tanker fee framework and declaring Araghchi's Friday 'completely open' declaration suspended until the US lifts its blockade. Civilian/IRGC/Supreme Leader three-way split operationally collapsed. (2) Kinetic broadened beyond tanker-only: container ship projectile damage + Malta-flagged *Mein Schiff 4* IRGC VHF threat. (3) India MEA summoned Iran's Ambassador — first formal India-Iran diplomatic friction of crisis; demand-side absorber structurally weakening. Eurasia Group's Gregory Brew: 'Iran now holds effective control over the critical oil chokepoint,' few if any ships while dueling blockades stand; US gasoline $5/gal by summer. Monday probability distribution per markets.md C1: Full re-pricing $100+ (35%, +5 vs Sat eve), Base bounce $95-98 (45%, unchanged), Muted $92-94 (15%, -10), Continued unwind $90-92 (5%, +5). 10pp shift out of 'muted bounce' reflects SNSC formalisation; small right-tail kept live by Trump's 'productive conversations' off-ramp. Goldman-vs-MS Monday falsifiable test: Goldman right if Brent opens within 2% of $91.87 (paper prices kinetic as one-off); MS right if Brent gaps up 3%+ on Sunday Globex 22:00 GMT open (paper converges to physical). CENTCOM non-response (16+ hours) remains binding on 'Iran executes reciprocal measures' trigger upgrade. (Sources: intel.md A1/A2/A3/B3, markets.md C1, Press TV, Tasnim, Washington Examiner, Al Jazeera, GZERO Media, CNBC)",
+      "sources": [
+        "intel.md",
+        "markets.md",
+        "Press TV",
+        "Tasnim",
+        "Washington Examiner",
+        "Al Jazeera",
+        "GZERO Media",
+        "CNBC"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "Day 51. Brent $91.87 (actual Friday settle) -7.6%. Araghchi Hormuz-open declaration single catalyst for largest single-day crash of crisis. Declaration fenced by Baghaei conditional + IRGC Navy permission regime (civilian only, designated lanes). Kpler 8 vessels transited Friday (~10-15% of pre-war); oil-tanker traffic near-zero. Physical-futures gap WIDENS to ~$40 (Dated Brent $132 vs futures $91) — widest of war. Paper pricing ~60% deal probability; physical pricing ~20-30%.",
+      "context": "Day 52 Sunday. Sunday SNSC formal ratification of IRGC Hormuz closure + re-imposed $1/bbl loaded-tanker fees = civilian-apex endorsement of Saturday's kinetic regime. Araghchi's Friday 'completely open' declaration institutionally suspended until US lifts blockade. Kinetic broadened (container ship projectile + cruise-liner VHF threat). Physical-futures gap ~$40 widest of crisis. Confirmed-action weight shift +2.0 on SNSC institutional consolidation.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 32,
+      "last_activated": "2026-04-19",
+      "activation_count": 33,
       "weight": 10
     },
     {
       "to": "india",
       "type": "import_cost",
-      "context": "Day 51. Brent at $91.87 (-7.6%) provides mechanical import-bill relief; Iranian waiver expires Sunday April 19 per Bessent (no extension). Russian waiver already expired April 11. Monday open: both sanctioned-import doors shut simultaneously for first time. INR strengthened to 92.57 on Brent crash. Every $10/bbl increase = ~$15B annual import bill. IOC + Reliance raced 4-6M bbl Iranian cargo before deadline via ICICI Shanghai yuan settlement.",
+      "context": "Day 52 / waiver T-0 (Sunday midnight UTC / 05:30 IST Monday). Bessent confirmed no renewal of Iranian waiver; separate 30-day Russian waiver extension carved out. IOC Jaya 2M bbl discharged; Reliance Felicity 2M bbl at Sikka discharged; Reliance rejected Derya + Lenore Saturday on compliance grounds. India MEA summoned Iran's Ambassador Saturday evening — first formal démarche of crisis. OMC daily USD demand $250-300M becomes binding on spot rupee at Brent $95+ Monday. Supply recalibration to Iraq/UAE/Saudi/Africa/US/Latin America is Q2-Q3 structural theme. Confirmed-action weight shift +2.0.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 24,
+      "last_activated": "2026-04-19",
+      "activation_count": 25,
       "weight": 10
     },
     {

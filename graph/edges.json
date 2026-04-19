@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18",
+  "last_updated": "2026-04-19",
   "edges": [
     {
       "from": "aluminum",
@@ -356,7 +356,7 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-16"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "india",
@@ -370,7 +370,14 @@
       "to": "inr-usd",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-18"
+      "last_activated": "2026-04-19"
+    },
+    {
+      "from": "india",
+      "to": "iran",
+      "weight": 5.0,
+      "directness": 1,
+      "last_activated": "2026-04-19"
     },
     {
       "from": "india",
@@ -384,7 +391,7 @@
       "to": "nifty-50",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-18"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "india",
@@ -398,7 +405,7 @@
       "to": "strait-of-hormuz",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-15"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "indian-it",
@@ -482,7 +489,7 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-16"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "iran",
@@ -552,7 +559,7 @@
       "to": "strait-of-hormuz",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-18"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "iran",
@@ -566,7 +573,7 @@
       "to": "united-states",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-18"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "iraq",
@@ -615,7 +622,7 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-14"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "irgc",
@@ -626,10 +633,24 @@
     },
     {
       "from": "irgc",
+      "to": "shipping-tankers",
+      "weight": 6.0,
+      "directness": 1,
+      "last_activated": "2026-04-19"
+    },
+    {
+      "from": "irgc",
+      "to": "marine-war-risk-insurance",
+      "weight": 5.0,
+      "directness": 1,
+      "last_activated": "2026-04-19"
+    },
+    {
+      "from": "irgc",
       "to": "strait-of-hormuz",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-18"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "israel",
@@ -1105,21 +1126,21 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-16"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "strait-of-hormuz",
       "to": "india",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-16"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "strait-of-hormuz",
       "to": "iran",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-16"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "strait-of-hormuz",
@@ -1147,14 +1168,14 @@
       "to": "shipping-tankers",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-18"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "strait-of-hormuz",
       "to": "irgc",
-      "weight": 8.0,
+      "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-04-18"
+      "last_activated": "2026-04-19"
     },
     {
       "from": "taiwan",

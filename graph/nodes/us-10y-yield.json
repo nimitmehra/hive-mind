@@ -3,8 +3,8 @@
   "name": "US 10-Year Treasury Yield",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-18",
-  "summary": "Day 51 Saturday. CORRECTED FRIDAY CLOSE: 4.25% (-1.5% on day) — Friday April 17 was a full US session (Good Friday 2026 was April 3). US 2Y 3.60% (-0.3%). The -1.5% move on a no-Fed-news day is meaningful: Brent crashed -7.6% on Araghchi Hormuz-open → energy-inflation tail-risk reduces → Fed's implied rate-cut path becomes slightly more doveish → 10Y lower. BOND-EQUITY CONVERGED today — both moved on energy-inflation relief (S&P record +1.2%, 10Y -1.5%). This is the first session of the war where bonds and equities CONVERGED on the same crisis-resolution signal — prior 49 sessions had bond-equity divergence. CME FedWatch: 83% no-change for May; one cut expected by year-end; potentially pulled forward if oil holds below $95. March NFP 178K + unemployment 4.3% = 'solid but not hot,' keeps 2026 cut on table. Reversibility: if Iranian reciprocal measures fire Monday, oil rally drives 10Y back to 4.30%+ and bonds re-diverge from equities. India 10Y GOI ~6.91% (Thu close; no Friday print found).",
+  "last_updated": "2026-04-19",
+  "summary": "Day 52 Sunday. Friday Apr 17 close 4.25% (-1.5% 1D, -0.3% 1M). Friday's rally partly dovish-repricing on the oil crash — Brent -9% wire → energy-inflation tail-risk reduces → Fed's implied rate-cut path marginally dovish → 10Y lower. Monday oil reversal = Treasury rally unwinds proportionally. Powell Thursday April 16 reiterated 'patience' — no April or June cut priced now. MONDAY DIAGNOSTIC: if Brent +5-8% (per markets.md probability distribution), US 10Y yield +5-8bps inflation re-pricing expected. Bond-equity convergence Friday (first of the war) resolves if Iranian reciprocal measures fire (bonds and equities re-diverge). India 10Y GOI ~6.97% +12-18bps since crisis start; FPIs pulled ₹17,689cr from FAR G-Secs since crisis. Trigger 10Y>5% remains at 70+bps away.",
   "current": {
     "price": "4.25% (Friday close)",
     "delta_1d": "-1.5%",
@@ -184,6 +184,16 @@
       "date": "2026-04-15",
       "content": "EVENING UPDATE: 10Y STILL at 4.26% — BOND PARALYSIS CONFIRMED. Through the full trading day, 10Y moved less than 1bp despite S&P hitting new post-war high (6,967, 35 points from ATH). Bond-equity divergence now at WIDEST of the entire war and WIDENING: S&P says 'crisis over, deal imminent'; 10Y says 'show me.' PPI data confirmed oil is the ONLY inflation driver (core PPI +0.1% MoM) — if oil normalizes, inflation drops immediately. But bonds don't believe oil will normalize with active blockade. The paralysis regime: 4.40%+ = inflation winning (Fed hikes, equities crash); 4.10% = recession winning (equities sell on growth fear). Currently frozen between these outcomes. US 2Y at 3.61%, spread 65bps. India 10Y GOI at 6.97% (+4bps) on FII debt outflows — diverging from US pattern. (Sources: Treasury data, yfinance, BLS PPI)",
       "sources": ["Treasury data", "yfinance", "BLS"],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-19",
+      "content": "Day 52 Sunday. Friday Apr 17 close 4.25% (-1.5% 1D, -0.3% 1M); US 2Y 3.60%. The -1.5% on a no-Fed-news day is meaningful: Brent crashed -9% wire on Araghchi Hormuz-open → energy-inflation tail-risk reduces → implied Fed rate-cut path marginally more dovish. This was the FIRST session of the war in which bonds AND equities CONVERGED on the same crisis-resolution signal (S&P record +1.2%, 10Y -1.5%). Powell Thursday April 16 'patience' framing — no April or June cut priced now. MONDAY DIAGNOSTIC: if Monday Brent +5-8% (per markets.md probability distribution centered on +5-8%), US 10Y yield +5-8bps inflation re-pricing expected. The bond-equity convergence re-diverges if Iranian reciprocal measures fire. India 10Y GOI ~6.97% (+12-18bps since crisis start); FPIs pulled ₹17,689cr from FAR G-Secs since crisis; FII debt outflows compounding the India-US divergence pattern. Bond-paralysis regime (4.10% recession / 4.40%+ inflation) broke on Friday toward dovish; Monday reverses if oil rallies. (Sources: yfinance ^TNX, markets.md C3 + D, intel.md)",
+      "sources": [
+        "yfinance",
+        "markets.md",
+        "intel.md"
+      ],
       "significance": "high"
     }
   ],

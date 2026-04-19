@@ -3,8 +3,8 @@
   "name": "Houthis (Yemen)",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-18",
-  "summary": "Day 52 of Red Sea operational quiet. ZERO confirmed Houthi attacks on commercial shipping in Red Sea / Bab el-Mandeb since October 2025 Gaza ceasefire. UKMTO JMIC Advisory Note Update 031 (01 March – 12 April) classifies threat as MODERATE (not elevated); zero confirmed attacks in period. Al Jazeera notes April 8 ceasefire 'named no Houthi obligations' and Houthis are screening ships by political identity but have not attacked. Day 52 is the FIFTH consecutive dossier in which the non-event is flagged — the non-event itself is now the signal. If Houthis were going to enter kinetically, they had motive and opportunity during the blockade week (April 13-17); they did not act. Soufan Center (April 10 IntelBrief still active analysis): Houthi infrastructure to mirror Iran's Hormuz selective-pressure formula exists in Bab al-Mandeb with NO ceasefire obligations to breach — trigger would activate within 10 days of any Iranian Hormuz re-closure event. Washington Times April 9 'Houthis hold Bab al-Mandeb as next potential chokepoint' remains rhetorical posture only.",
+  "last_updated": "2026-04-19",
+  "summary": "Day 53 of non-mirroring. ZERO confirmed Houthi attacks on commercial shipping in Red Sea / Bab el-Mandeb / Gulf of Aden. UKMTO JMIC Advisory Note 031 remains operational reference; MODERATE regional threat-level assessment unchanged. Houthi deputy info minister Mansour conditional rhetoric ('closing Bab el-Mandeb is among our options' IF 'any Gulf state becomes directly involved') UNCHANGED and conditions unmet. Saturday's Iranian kinetic did NOT meet the 'Gulf state directly involved' trigger condition Mansour named, so Day 53 non-mirroring is TECHNICALLY CONSISTENT with Mansour's stated doctrine — the Iran-Houthi coordination thesis is WEAKER BUT NOT FALSIFIED. Soufan Center IntelBrief: coordination thesis steadily weaker by time elapsed; if Houthi kinetic continues absent through Tuesday, the Houthi→shipping-tankers edge weight should step below current 9.0. Pattern: 28 days of rhetoric preceded first Israel attack; shipping attacks may follow similar delayed trajectory, or may not follow at all. Attacks on belligerent-linked vessels (US/UK/Israeli) April 7-9 remain in scope under bifurcation thesis; neutral commercial shipping untargeted throughout.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -287,6 +287,17 @@
         "Reuters"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-19",
+      "content": "DAY 53 OF NON-MIRRORING — IRANIAN SATURDAY KINETIC DID NOT MEET MANSOUR'S 'GULF STATE DIRECTLY INVOLVED' CONDITION [CONFIRMED NON-EVENT]. Zero confirmed Houthi maritime attacks in Red Sea / Bab-el-Mandeb / Gulf of Aden through Sunday 09:00 IST. UKMTO JMIC Advisory Note Update 031 remains operational reference; MODERATE regional threat-level assessment unchanged. Houthi deputy information minister Mansour conditional rhetoric UNCHANGED: 'closing the Bab el-Mandeb strait is among our options' if 'any Gulf state becomes directly involved' (Middle East Monitor, Times of Israel). Saturday's IRGC kinetic in Hormuz (tanker + container-projectile + cruise-VHF threat) did NOT meet the 'Gulf state directly involved' condition — no Gulf state joined the Iranian action. Day 53 non-mirroring is therefore TECHNICALLY CONSISTENT with Mansour's stated doctrine — the coordination thesis is weakened BUT NOT FALSIFIED. Soufan Center IntelBrief: coordination thesis steadily weaker by time elapsed; if Houthi kinetic remains absent through Tuesday April 21 (the Islamabad Round 2 date reported by CNN), the houthis→shipping-tankers edge weight should step below current 9.0. The test WINDOW framing: Sadjadpour's 72-hour falsifiable test on 'further gunboat fire' tightens; ICG 72-hour falsifiable on Houthi mirror also tightens. (Sources: UKMTO JMIC Advisory Note 031, Middle East Monitor, Times of Israel, Soufan Center IntelBrief)",
+      "sources": [
+        "UKMTO",
+        "Middle East Monitor",
+        "Times of Israel",
+        "Soufan Center"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -302,11 +313,11 @@
     {
       "to": "shipping-tankers",
       "type": "credible_threat",
-      "context": "Day 47: Houthi attacks RESUMED on belligerent-linked vessels (US/UK/Israeli) April 7 and 9. Neutral commercial shipping still untargeted. Bifurcation narrowed but intact — Maersk MECL (Danish-flagged) still through Suez. Bab el-Mandeb closure threatened but not enacted.",
+      "context": "Day 53 Sunday. Non-mirroring continues — zero Houthi Red Sea / Bab-el-Mandeb attacks despite Saturday IRGC kinetic. Mansour 'Gulf state directly involved' condition unmet (Iran acted alone), so non-mirroring is technically consistent with stated doctrine — thesis weaker but not falsified. If absent through Tuesday, edge weight should step below 9.0 per Soufan Center. Attacks on belligerent-linked vessels (US/UK/Israeli) April 7-9 remain in scope; neutral shipping untargeted.",
       "directness": 1,
       "last_activated": "2026-04-14",
       "activation_count": 10,
-      "weight": 10
+      "weight": 9.5
     },
     {
       "to": "brent-crude",
