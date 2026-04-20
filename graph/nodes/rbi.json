@@ -3,7 +3,7 @@
   "name": "Reserve Bank of India",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-18",
+  "last_updated": "2026-04-20",
   "summary": "Day 51 Saturday / waiver T-1. FOREX RESERVES ROSE $3.825B TO $700.946B (week-end April 10) — FIRST BLOCKADE-WEEK PRINT, CORRECTS evening brief's stale-week math. Net drawdown from Feb 27 peak ~$27.5B, NOT $31B. Trajectory: peak Feb 27 $728.494B → trough early April $688B → week-end Apr 3 $697.121B → week-end Apr 10 $700.946B. Through the week rhetoric was most severe, reserves ROSE (valuation-effect on dollar weakness + reduced intervention need as rupee stabilized 92.50-92.79). RBI toolkit at 3 of 7 deployed: NDF ban (Apr 10), NOP $100M cap, state refiner spot-dollar limits + use of forwards. Non-escalation of toolkit ladder through 8 days = RBI CONFIDENCE current posture is sufficient; if toolkit advances (emergency G-Sec OMOs, spot-forward operations, new directives) through Sunday expiry, stress is present. INR strengthened Rs92.57 on Brent crash to $91.87. India 10Y GOI ~6.91% (Thu close, no Friday print found). Governor Malhotra: reserves 'sufficient for at least the next 11 months.' Finance ministry 'considerable downside risk' to 7.0-7.4% growth warning active. June cut pathway reopens slightly with Brent crash; Iran waiver Sunday expiry + Russian already Apr 11 = both sanctioned doors shut Monday for first time ever. IOC/Reliance raced ~4-6M bbl Iranian cargo before deadline via yuan settlement.",
   "signals": [
     {
@@ -317,6 +317,16 @@
         "Business Standard"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-20",
+      "content": "RBI MACRO-PRUDENTIAL TOOLKIT DEPLOYED; NO NEW POLICY MONDAY — NEXT ESCALATION TOOL IS ONSHORE FORWARD CEILING OR SPECIAL DOLLAR-SWAP WINDOW [REPORTED]. March 27 NOP cap ($100M/bank vs prior 25% Tier-1+2) + April 1 NDF ban (barring authorized dealers from offering rupee NDF to resident Indians and NRIs) are already in effect; rupee rallied ₹95.22 → ₹93.10 on the mechanism alone — single-largest 12-year single-day rupee gain April 2 attributable to NDF-ban/NOP-cap combination. Monday: no new RBI policy expected. Rupee ₹92.57 Friday continuation of stabilization trend. Next escalation tool if USD/INR breaks ₹93.50: onshore forward ceiling or special dollar-swap window (deployment itself signals escalated concern). Propose edge refinement (markets.md F5): distinguish `rbi → inr-usd` policy-rate channel (weight ~4.0) vs macro-prudential channel (weight ~7.0 post-Apr-1 demonstration). Single-edge retained for simplicity, context field updated.",
+      "sources": [
+        "Trading Economics",
+        "Business Standard",
+        "Livemint"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -334,8 +344,8 @@
       "type": "intervention",
       "context": "NOP cap compliance complete per Malhotra. INR at Rs93.28 (offshore). Forex reserves below $700B. Approached 93.50 trigger April 13 (93.39), retreated on oil relief. Rs100/USD scenario now 'credible' per analysts.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 21,
+      "last_activated": "2026-04-20",
+      "activation_count": 22,
       "weight": 10
     },
     {

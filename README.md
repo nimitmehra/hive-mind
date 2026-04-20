@@ -24,7 +24,7 @@ An **intelligence system** — not a news aggregator — that produces daily bri
 
 ## The Knowledge Graph
 
-The graph currently tracks **46 nodes** across 7 types and **194 weighted edges** representing causal connections.
+The graph currently tracks **46 nodes** across 7 types and **203 weighted edges** representing causal connections.
 
 ### Node Types
 - **Countries** (16): Bahrain, China, India, Iran, Iraq, Israel, Kuwait, Lebanon, Pakistan, Qatar, Russia, Saudi Arabia, South Korea, Taiwan (TSMC), United Arab Emirates, United States

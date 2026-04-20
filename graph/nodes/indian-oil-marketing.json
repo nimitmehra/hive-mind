@@ -3,7 +3,7 @@
   "name": "Indian Oil Marketing (IOC/BPCL/HPCL)",
   "type": "sector",
   "created": "2026-03-28",
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-04-20",
   "summary": "Day 52 / waiver T-0 (Sunday midnight UTC / Monday 05:30 IST). Bessent publicly confirmed no renewal of Iranian general license; separate 30-day Russian waiver extension carved out (Russian supply protected; Iranian continuity foreclosed). IOC Jaya 2M bbl discharged at Paradip (first Indian Iranian-crude import in 7 years); Reliance Felicity 2M bbl discharged at Sikka — total ~4M bbl received in waiver window. Reliance publicly rejected Derya + Lenore Saturday on compliance grounds. India MEA summoned Iran's Ambassador Fathali on Saturday evening — first formal India-Iran diplomatic démarche of the crisis (narrow: 'deep concern' not 'condemn'; cites Sanmar Herald + Jag Arnav bridge-window damage; urges Iran to resume Indian-bound facilitation). Brent Friday settle $91.87 -9.1% wire/-7.6% yfinance on Araghchi declaration; Sunday SNSC re-imposition of $1/bbl fees + kinetic broadening = Monday open Brent $95+ likely. OMC daily USD demand $250-300M becomes binding on spot rupee at Brent $95+. Private vs state pricing divergence continues: Shell +Rs 25 diesel, state OMCs absorbing Rs 8-10/litre. Post-expiry supply recalibration to Iraq/UAE/Saudi/Africa/US/Latin America at higher delivered cost becomes Q2-Q3 structural theme.",
   "signals": [
     {
@@ -105,6 +105,17 @@
         "intel.md"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-20",
+      "content": "BESSENT IRANIAN-OIL WAIVER ELAPSED 05:30 IST MONDAY — STRUCTURAL ZERO MARGINAL IRANIAN SUPPLY; RUSSIAN WAIVER RENEWED (30-DAY) PRESERVES ~1.9 MBPD [CONFIRMED]. Incremental Iranian supply to Indian OMCs structurally zero from 05:30 IST Monday onward — Bessent's non-renewal executed without extension, carve-out, or wind-down. Russian-oil waiver RENEWED (30-day India-specific extension) despite Bessent's April 15 \"neither\" statement — preserves March baseline ~1.9 mbpd Russian flow to Indian refiners. Reliance pre-positioned earlier by rejecting Derya and Lenore. IOC/BPCL/HPCL Monday -1.5 to -2.5% on Brent gap. Reliance Q4 earnings this week — crisis-beneficiary through refining margins, oil-sourcing complexity penalized.",
+      "sources": [
+        "Business Today",
+        "The Week",
+        "The Federal",
+        "Bloomberg"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -113,9 +124,9 @@
       "type": "cost_exposure",
       "context": "Day 52. Brent Friday $91.87/$90.38 provides transient relief before Sunday SNSC re-pricing. Waiver T-0 Monday; Russian continuity protected by separate 30-day waiver, Iranian continuity foreclosed. OMC daily USD demand $250-300M becomes binding on spot rupee at Brent $95+ Monday.",
       "directness": 1,
-      "last_activated": "2026-04-19",
-      "activation_count": 13,
-      "weight": 10.0
+      "last_activated": "2026-04-20",
+      "activation_count": 14,
+      "weight": 10
     },
     {
       "to": "india",
