@@ -3,13 +3,13 @@
   "name": "Nifty 50",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-20",
-  "summary": "Day 53 Monday AM. NIFTY MONDAY BASE -0.5 TO -1.0% (24,110-24,230) — REVISED MILDER THAN EVENING'S -1.0 TO -1.5%. Revision drivers: Russian-oil waiver RENEWED (preserves ~1.9 mbpd to Indian refiners — material positive not in evening framing); Brent Monday ~$95.42 is $3-4 BELOW Globex $98 that drove evening forecast; HDFC Bank + ICICI Bank reported Apr 18 (earnings read pending). 200-DMA 24,050 likely holds intraday. OMCs (IOC/BPCL/HPCL) -1.5 to -2.5% on Brent gap; Reliance neutral (refining-margin beneficiary vs oil-sourcing complexity penalty); Adani Ports (Mundra/Krishnapatnam Gulf exposure) -1 to -2%. Bank Nifty direction depends on yield — India 10Y 6.90% avg; if gaps through 7.00%, banks -1 to -2%. Recovery to Friday's 24,353.55 by Wednesday plausible if Monday cash settles Brent $94-95 and no IRGC kinetic on US assets by Tuesday close.",
+  "last_updated": "2026-04-21",
+  "summary": "Day 54 Tuesday AM. NIFTY MONDAY 24,364.85 (+0.05% 1D) — STRUCTURAL RESILIENCE DATA POINT OF THE TAPE. Sensex 78,520.30 (+0.00%); Bank Nifty 56,582.35 (+0.00%). The FLAT print IS the signal: everything a-priori said Nifty should be down 1-2% Monday (Brent +5%, Europe -1.1%, US -0.24%, USD/INR weakening to ₹93.05) yet Nifty closed flat. Mechanism: cumulative FII outflow Rs 1.61 lakh crore (~$17.3B at ₹93.05) since Feb 28 (Business Today April 20) fully offset by domestic MF buying — BSE market cap at pre-war levels despite 8-week kinetic phase. RBI 5.25% April 8 hold + NDF ban + NOP cap + $3.6B April intervention = regulatory layer under managed rupee print. ICICI Q4 absorbed crisis-premium without margin compression. The 200-DMA 24,050 trigger-point is now STRUCTURALLY INSULATED: path to activation requires compounding event (Wednesday ceasefire lapse + domestic earnings miss + FII acceleration) rather than any single shock. LOWERS left-tail probability but RAISES deployment-opportunity hurdle (Nimit's conviction-entry condition narrows). Structural absorption flow has 3-6 month persistence post-crisis-resolution as SIP inflows continue.",
   "current": {
-    "price": "24,353.55 (Friday April 17 close)",
-    "delta_1d": "+0.65% Friday; Monday open expected -0.5 to -1.0% (24,110-24,230)",
-    "delta_1m": "+5.2%",
-    "delta_3m": "-4.8%"
+    "price": "24,364.85 Monday close",
+    "delta_1d": "+0.05%",
+    "delta_1m": "+4.1%",
+    "delta_3m": "-3.4%"
   },
   "price_snapshots": [
     {
@@ -71,6 +71,12 @@
       "price": "24,353.55",
       "trigger": "Highest post-ceasefire close; Sensex 78,493 recovered all but 1.7% of crisis losses",
       "delta_context": "+0.65% from 24,196.75 Apr 16 close. INR strengthened to Rs92.84 on Brent crash. Bank Nifty +0.9%. Most fragile position in market: long Indian equities going into 72-hour weekend across Sunday Apr 19 Iran waiver expiry."
+    },
+    {
+      "date": "2026-04-20",
+      "price": "Nifty 24,364.85 (+0.05%); Sensex 78,520.30 (+0.00%); Bank Nifty 56,582.35 (+0.00%)",
+      "trigger": "STRUCTURAL RESILIENCE — Nifty flat on a day everything pointed down 1-2% (Brent +5%, Europe -1.1%, US -0.24%, USD/INR weakening)",
+      "delta_context": "Cumulative FII outflow Rs 1.61 lakh crore (~$17.3B at ₹93.05) since Feb 28 fully offset by domestic MF buying; BSE market cap at pre-war levels despite 8-week kinetic phase. ICICI Q4 absorbed crisis-premium without margin compression. 200-DMA 24,050 trigger STRUCTURALLY INSULATED: activation requires compounding event (Wed ceasefire lapse + earnings miss + FII acceleration), not single shock. Domestic-demand absorption = 'visible hand' layer with 3-6 month persistence post-resolution. Raises deployment-opportunity hurdle: Nimit's conviction-entry condition now narrows materially."
     }
   ],
   "signals": [
@@ -405,25 +411,37 @@
         "Moneycontrol"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-21",
+      "content": "NIFTY FLAT MONDAY (24,364.85 +0.05%) — THE STRUCTURAL RESILIENCE SIGNAL OF THE TAPE [CONFIRMED STRUCTURAL DATA]. Sensex 78,520.30 (+0.00%); Bank Nifty 56,582.35 (+0.00%). Pre-open expectations called for -0.5 to -1.0% on Brent +5%, Europe -1.1%, US -0.24%, USD/INR ₹93.05 weakening. Nifty closed FLAT — the print IS the signal. Mechanism: cumulative FII outflow Rs 1.61 lakh crore (~$17.3B at ₹93.05) since Feb 28 (Business Today April 20) fully offset by domestic MF buying; BSE market cap at pre-war levels despite 8-week kinetic phase. ICICI Bank Q4 absorbed crisis-premium without margin compression. RBI 5.25% April 8 hold + NDF ban + NOP cap + $3.6B April intervention = regulatory layer. 200-DMA trigger (~24,050): STRUCTURALLY INSULATED — activation requires compounding event (Wed ceasefire lapse + domestic earnings miss + FII acceleration), not single shock. For investor thesis: this LOWERS left-tail probability but RAISES deployment-opportunity hurdle. Domestic absorption has 3-6 month structural persistence post-crisis-resolution via SIP inflows. Correct-sourcing set: BS + BT + Livemint (structural) + The Hindu (diplomatic); avoid Republic/Times Now/Moneycontrol-on-energy (per user feedback).",
+      "sources": [
+        "Business Today",
+        "Business Standard",
+        "Livemint",
+        "The Hindu",
+        "NSDL"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "india",
       "type": "equity_market",
-      "context": "Day 52 / waiver T-0. Nifty Friday 24,353.55. Monday triple headwind: SNSC re-closure + MEA summons + Brent reversal. Base 50% scenario 24,050-24,200 (-0.6 to -1.2%); stress 30% breaks 200-DMA at 23,850-24,000. Confirmed-action weight shift +2.0 on MEA démarche.",
+      "context": "Day 54. Nifty Monday 24,364.85 (+0.05%) — structural resilience printed. FII outflow Rs 1.61 lakh crore (~$17.3B at ₹93.05) since Feb 28 absorbed entirely by domestic MFs. BSE market cap at pre-war levels despite 8-week kinetic. 200-DMA trigger (24,050) structurally insulated — activation requires Wed ceasefire lapse + earnings miss + FII acceleration compounding. Domestic-demand absorption persists 3-6 months post-resolution via SIP inflows. LOWERS left-tail probability, RAISES deployment-opportunity hurdle.",
       "directness": 1,
-      "last_activated": "2026-04-19",
-      "activation_count": 25,
+      "last_activated": "2026-04-21",
+      "activation_count": 26,
       "weight": 10
     },
     {
       "to": "inr-usd",
       "type": "fii_feedback_loop",
-      "context": "Day 50 evening. INR strengthened to Rs92.84 (-0.6%) on Brent crash. Nifty-INR aligned session — both risk-on. FII Apr 15 net +Rs666 cr first positive in weeks. RBI admin toolkit (NDF ban, NOP cap, refiner forex restrictions) still active — stress gauge despite rupee relief.",
+      "context": "Day 54. USD/INR Tuesday ₹93.09 (+0.5%); managed print. Cumulative FII outflow Rs 1.61 lakh crore since Feb 28 absorbed by domestic MFs — the classic FII-flight → rupee-weakness → equity-cascade feedback loop has been SHORT-CIRCUITED by domestic-demand absorption. RBI regulatory toolkit (NDF ban, NOP cap, $3.6B April intervention) holds rupee in managed band despite oil stress.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 19,
+      "last_activated": "2026-04-21",
+      "activation_count": 20,
       "weight": 10
     },
     {

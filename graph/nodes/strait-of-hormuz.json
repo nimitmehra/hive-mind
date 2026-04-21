@@ -3,8 +3,8 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-04-20",
-  "summary": "Day 52 Sunday evening. INSTITUTIONAL CODIFICATION INTACT, KINETIC IN PAUSE, GULF MATRIX HARDENING ON UAE LEG. Saturday SNSC ratification of IRGC framework remains operative (transit certificates, $1/bbl loaded-tanker fees, military + hostile vessels denied). No further IRGC kinetic Sunday — Saturday's burst (Jag Arnav VLCC, Sanmar Herald, container-ship projectile, Mein Schiff 4 cruise threat) is one event so far, not a cadence. CENTCOM's Sunday posture update repeats the 23-vessel blockade figure with no new kinetic claim. Sadjadpour 72-hour test tracking toward 'warning-shot-for-leverage thesis holds' at 36-hour mark. Sunday evening NEW: (1) UAE ADNOC chairman Al Jaber publicly: 'Strait not open, needs to be open unconditionally' — first UAE public hardening (single-chain pending Monday corroboration); (2) Iranian FM Araghchi Sunday X posts reframe chokepoint effect as insurance-market problem rather than IRGC action ('insurers fear the war of choice you initiated — not Iran') — operationally correct given Lloyd's AWRP ~1% Friday and VLCC TD3C WS 513 day-rates, but it sets up Tehran's civilian wing to claim 'open in principle' while harvesting SNSC fee revenue. Sunday Globex Brent indicatively ~$98 (+8.4% over Friday wire-ICE $90.38) confirms paper-physical convergence by paper rising to physical (Dated ~$132 Thursday). Kpler tape ~2 tankers since April 8 ceasefire; ~1-2% pre-war baseline. Gulf media: UAE hardening, Saudi mediating, Qatar neutral, Oman silent — four-way Gulf posture favours diplomatic optionality.",
+  "last_updated": "2026-04-21",
+  "summary": "Day 54 Tuesday morning. HARD-OPERATIONAL TRANSIT COLLAPSE CONFIRMED — Monday ~16 vessels vs 138 pre-war baseline (88% SUPPRESSION), Sunday ZERO-transit (first zero-day of the crisis). Al Jazeera, The National (Abu Dhabi 'near standstill'), CNBC transit-tracker, MarineTraffic AIS = independent 4-source data chain. Corrects yesterday's morning brief's '1-2% of baseline' framing — actual Monday is ~12% of baseline, but Sunday at ZERO was the hardest single-day chokepoint constraint of the crisis, exceeding early-March spike. Iran April 18 blockade announcement + US Navy *Touska* enforcement jointly suppressing commercial transit. CENTCOM confirms enforcement active; IRGC toll regime not withdrawn. Paper Brent $94.88 (+5.0% Mon cash close) is below Goldman $96-98 interim band despite the hard data — paper-physical divergence resolves Wednesday: renewal → paper stays; lapse → $100-105 within 48 hrs. Floating storage in Gulf + AWRP moderation (~1.0%) + Wednesday-binary pricing are suppressing the paper re-rate. Sadjadpour 72-hr post-*Touska* clock at ~48 hrs with no Iranian kinetic. Gulf messaging aligned behind Islamabad talks — The National's operational-disruption framing is the notable UAE shift for post-ceasefire positioning.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -683,25 +683,53 @@
         "Al Jazeera"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-21",
+      "content": "HARD-OPERATIONAL TRANSIT DATA CONFIRMED: Monday ~16 vessels (vs 138 pre-war baseline, 88% suppression); Sunday ZERO-TRANSIT DAY — FIRST OF CRISIS [CONFIRMED OPERATIONAL DATA, MarineTraffic AIS]. Al Jazeera reported 'only 16 ships traversed the Strait of Hormuz on Monday'; The National (Abu Dhabi) described transit situation as 'near standstill'; CNBC transit-tracker noted Sunday zero (first zero-day of crisis). Iran's April 18 SNSC blockade + US Navy *Touska* enforcement jointly suppressing commercial transit to ≤12% of baseline. CENTCOM confirms blockade enforcement active; IRGC toll regime not withdrawn. Corrects yesterday's brief's '1-2% of baseline' framing — actual Monday is ~12%, Sunday zero. Operationally, this is the most severe chokepoint constraint of the entire crisis, exceeding early-March spike. Yet paper Brent $94.88 Monday is BELOW Goldman $96-98 interim band — floating-storage in Gulf + AWRP moderation + Wednesday-binary pricing suppressing paper re-rate despite hard data. Resolves Wednesday: renewal → paper stays; lapse → $100-105 within 48 hrs.",
+      "sources": [
+        "Al Jazeera",
+        "The National (Abu Dhabi)",
+        "CNBC",
+        "MarineTraffic AIS",
+        "NBC News data graphics",
+        "CENTCOM"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-21",
+      "content": "TRUMP 'BLOCKADE WILL STAY UNTIL A DEAL IS SIGNED' (Bloomberg Mon; 6-source confirmed) [CONFIRMED POLICY-SIGNAL]. Closes the procedural off-ramp on the ceasefire and makes blockade-status binary-tied to Wednesday April 22 expiry. Iran's precondition for Round 2 is blockade-lifting; Trump's precondition for renewal is a deal. Wednesday = binary calendar event. If ceasefire lapses Wednesday, the 88% transit-suppression data becomes binding on paper Brent (Morgan Stanley $100-105 within 48 hrs; Goldman severe case $115 Q4 activates). Lloyd's AWRP moderating at ~1.0% certain transits, up to 5% for US/UK/Israeli-nexus transits; Tuesday London republish pending.",
+      "sources": [
+        "Bloomberg",
+        "CNN live blog",
+        "CBS News",
+        "NPR",
+        "CNBC",
+        "Ynet",
+        "Haaretz",
+        "Lloyd's List"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "territorial_control_institutional_codification",
-      "context": "Day 52. SNSC FORMAL RATIFICATION April 18 — civilian apex body institutionalises IRGC permission regime. Transit certificates + $1/bbl fees on loaded tankers (empty free). Military and 'hostile' vessels denied passage. Araghchi's Friday 'completely open' framework SUSPENDED until US lifts port blockade. Civilian-IRGC-Supreme-Leader three-way split operationally collapsed. Edge transformed from conditional-reopening to institutional codification: Iran's civilian apex is now operationalising a priced chokepoint as a strategic instrument — Panama-Canal paradigm. Kpler ~2 oil/gas tanker transits since April 8 ceasefire (~1-2% of pre-war ~120/day).",
+      "context": "Day 54. Monday transit ~16 vs 138 baseline (88% suppression); Sunday ZERO — first zero-transit day of crisis (MarineTraffic AIS, Al Jazeera, The National, CNBC). SNSC framework + US Navy Touska enforcement jointly suppressing transit to ≤12% of baseline — most severe chokepoint constraint of the entire crisis. Trump: blockade 'stays until deal is signed'; Iran precondition = blockade-lifting for Round 2. Operational reality has diverged from paper Brent ($94.88 Mon cash, below Goldman $96-98 band). Edge weight reflects confirmed operational enforcement on both sides, not paper-panic; divergence is the intelligence signal, not an automatic weight increase.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 31,
+      "last_activated": "2026-04-21",
+      "activation_count": 32,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "supply_chokepoint",
-      "context": "Day 51. Friday April 17 was a full trading session (corrects prior brief's Good-Friday error — Good Friday 2026 was April 3). Araghchi Hormuz-open declaration drove Brent -7.6% to $91.87 (wire $90.38, -9.1%), intraday low $87.94. WTI -11.3% to $84.00; spread compressed to $7.87 (yfinance) — still 2-3x historical $2-5. Physical-futures gap WIDENS to ~$40 (Dated Brent ~$132 held vs Brent futures $91) — widest of war. Paper priced aggressive de-escalation; physical did not follow. Goldman Q2 $90 base case validated within $2; Morgan Stanley $110 Q2 now ~$20 above market.",
+      "context": "Day 54. Monday cash Brent $94.88 (+5.0% 1D, +46.1% since Feb 28) — BELOW Goldman $96-98 interim band despite 88% Hormuz transit suppression (16 vs 138 baseline) + Sunday ZERO-transit. Paper-physical divergence NOW structural: operational reality at severe-case scenario, paper priced as contained one-off. Floating-storage Gulf + Wednesday-binary pricing + AWRP moderation ~1.0% suppressing paper re-rate. Resolves Wednesday: renewal → $91-93; lapse → $100-105 within 48 hrs as transit data becomes binding. Edge weight reflects operational enforcement; divergence is the intelligence signal per markets.md E1 — do NOT auto-increment weight.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 31,
+      "last_activated": "2026-04-21",
+      "activation_count": 32,
       "weight": 10
     },
     {
@@ -839,8 +867,21 @@
         "marine-war-risk-insurance",
         "shipping-tankers"
       ],
-      "mechanism": "Sunday confirmed no fresh fire; if AWRP republishes >=1.5% Monday at London open and Brent prints $100+ without renewed kinetic, the chokepoint instrument becomes a pure financial-sector mechanism. Tests Brew/Eurasia 'effective control' thesis distinct from kinetic ladder. Resolution window: Tuesday IST.",
+      "mechanism": "Sunday confirmed no fresh fire; if AWRP republishes >=1.5% Monday at London open and Brent prints $100+ without renewed kinetic, the chokepoint instrument becomes a pure financial-sector mechanism. Tests Brew/Eurasia 'effective control' thesis distinct from kinetic ladder. Resolution window: Tuesday IST. | UPDATE 2026-04-21: Monday AWRP moderated at ~1.0% (not stepping up); Brent $94.88 Monday close (not +$100); paper did NOT break $100 on insurance. Thesis partially falsified — insurance-ladder path is NOT the transmission mechanism. Remains WATCHING pending Tuesday London AWRP republish.",
       "added": "2026-04-19",
+      "status": "watching"
+    },
+    {
+      "condition": "Strait of Hormuz transit recovers above 50 vessels/day sustained for 3+ sessions",
+      "cascade": [
+        "brent-crude",
+        "shipping-tankers",
+        "marine-war-risk-insurance",
+        "iran",
+        "united-states"
+      ],
+      "mechanism": "Cleanest de-escalation operational signal available. Monday transit ~16 vs 138 baseline = 12% of baseline; Sunday zero-transit = 0% of baseline. Sustained recovery above 50 vessels/day (≈36% of baseline) would signal the Iran-US blockade stack has loosened operationally — confirms ceasefire extension OR blockade relaxation has materialized. Faster-moving than insurance (Lloyd's AWRP is lagging indicator) and more reliable than rhetoric. Threshold chosen: 50 is above current + enough to indicate directional shift without requiring full normalization (which would need 120+). Falsifiable within days post-Wednesday April 22.",
+      "added": "2026-04-21",
       "status": "watching"
     }
   ],
@@ -862,6 +903,12 @@
       "price": "Sunday Globex Brent ~$98 indicative; Lloyd's AWRP no Sunday republish",
       "trigger": "Sunday non-event ceiling on Brent + UAE Al Jaber Sunday hardening + Araghchi insurance-market reframing",
       "delta_context": "+8.4% Brent over Friday wire close. AWRP republish Monday London open is next hard tell; expected 1.2-1.8%. UAE single-chain hardening pending Monday corroboration."
+    },
+    {
+      "date": "2026-04-21",
+      "price": "Monday transit ~16 vessels vs 138 baseline (88% suppression); Sunday ZERO (first zero-transit day of crisis)",
+      "trigger": "Hard-operational AIS data confirms the chokepoint is at severe-case scenario in physical terms while paper Brent $94.88 sits below Goldman interim band",
+      "delta_context": "Most severe chokepoint constraint of entire crisis, exceeding early-March spike. Paper-physical divergence at crisis-widest: operational transit at 12% of baseline while paper prices as contained one-off. Floating-storage Gulf + Wednesday-binary pricing + AWRP moderation (~1.0%) = suppressing paper re-rate. Resolves Wednesday April 22: renewal → paper stays; lapse → $100-105 within 48 hrs. Corrects yesterday's brief's '1-2% of baseline' framing — actual ≈12%, Sunday zero."
     }
   ]
 }

@@ -3,13 +3,13 @@
   "name": "Fertilizer / Urea",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-20",
-  "summary": "Day 53 Monday AM. CF INDUSTRIES MONDAY GAP-UP +5-8% EXPECTED; NUTRIEN +3-5% ON SNSC + TTF +11% + UREA RE-BID. Friday CF -9.6% / Nutrien -5.2% was pure deal-optimism mispricing. Urea FOB ~$713/T Apr 16 (+16.8% 1M, +75% YoY); Profercy World Nitrogen Index 352.95 — highest since May 2022. ME granular urea FOB ~$410s/t (Argus Egypt/Algeria post-Qatar benchmark); global spot $702.25/T +15% 1M. TTF Monday +11% confirms European nitrogen input-cost re-escalation — ammonia gas-heavy production → TTF → CF European exposure. Structural floor CF ~$105 even in full-resolution case (Ras Laffan damaged trains 3-5 yr recovery). markets.md F3 proposes new european-ttf-gas → fertilizer-urea edge (weight 4.5).",
+  "last_updated": "2026-04-21",
+  "summary": "Day 54 Tuesday AM. UREA GRANULAR FOB ME $702/mt SPOT / $830/mt FORWARD (+81.7% YTD, +69.6% YoY) — STRUCTURAL SCARCITY REASSERTED; CF INDUSTRIES +2.9% MON REVERSED FRIDAY'S -9.6%. Trading Economics / CME levels; pre-war $400-490/mt. Qatar production halt on urea CONFIRMED held (QatarEnergy); Saudi/Bahrain/UAE nitrogen supply constrained. Monday drivers (~2.4% of CF's +2.9%): structural urea scarcity + UBS PT raised to $140 from $97 ('potential for further upside in nitrogen prices'). Nutrien +0.8% (potash-heavier, less Qatar-exposed); the CF/Nutrien split IS the genuine signal. Linde $498.15 (+1.2%) industrial gas proxy firm. Agri complex bid Mon 2nd-order: Wheat +2.5%, Corn +2.4%, Sugar +2.4%, Palm Oil +2.0% — fertilizer-input pass-through + planting-reduction fears. CF Monday thesis weakened by TTF retrace to €40.56 (removed fresh input-cost-shock catalyst) — but structural urea levels already well above trigger-point. India cleanest transmission: 25-30% urea import dependency, food-CPI with 1-2 quarter lag; RBI FY27 4.6% CPI may under-weight fertilizer-pass-through. LOW reversibility: Qatar production restart takes weeks post-ceasefire; Q2 planting decisions locked at crisis-adjusted input costs. Profercy World Nitrogen Index 352.95 = May 2022 high structural.",
   "current": {
-    "price": "Urea FOB ~$713/T (April 16); CF Industries $112.68; Nutrien $70.62; Linde $492.23",
-    "delta_1d": "CF -9.6%; Nutrien -5.2%; Linde -1.4%; Urea -1% 1D",
-    "delta_1m": "CF -11.1%; Urea +16.8%",
-    "delta_3m": "CF +28.1%; Nutrien +5.8%",
+    "price": "Urea Granular FOB ME $702/mt spot / $830/mt forward; CF Industries $115.94; Nutrien $71.17; Linde $498.15",
+    "delta_1d": "CF +2.9% (reversal); Nutrien +0.8%; Linde +1.2%; Urea +81.7% YTD",
+    "delta_1m": "CF -7.7%; Urea +~15%",
+    "delta_3m": "CF +26.9%; Nutrien +4.4%",
     "profercy_world_nitrogen_index": "352.95 — highest since May 2022"
   },
   "price_snapshots": [
@@ -290,6 +290,19 @@
         "Argus Media",
         "Profercy World Nitrogen Index",
         "Trading Economics"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-21",
+      "content": "UREA GRANULAR FOB ME $702/mt SPOT / $830/mt FORWARD (+81.7% YTD, +69.6% YoY); CF INDUSTRIES +2.9% MON REVERSED FRIDAY'S -9.6% [CONFIRMED MARKET DATA; STRUCTURAL SCARCITY REASSERTED]. Trading Economics / CME data; pre-war level $400-490/mt. Reversal dynamics: Friday -9.6% priced ceasefire normalization (flawed thesis given structural Qatar/GCC scarcity); weekend *Touska* + SNSC data reaffirmed Qatar-chain disruption; Monday correctly re-rated structural tightness. Primary chain (crisis ~2.4% of 2.9%): Qatar urea production halt CONFIRMED held → Saudi/Bahrain/UAE nitrogen supply constrained by conflict → India/Brazil import inventories below historical averages → UBS PT raised to $140 from $97 ('potential for further upside in nitrogen prices'). CF/Nutrien split IS the genuine signal: CF pure-play nitrogen (Qatar-correlated), Nutrien potash-heavier (less Qatar-exposed). TTF retrace to €40.56 removed near-term input-cost-shock catalyst but structural Qatar scarcity persists. Agri complex Monday: Wheat +2.5%, Corn +2.4%, Sugar +2.4%, Palm Oil +2.0% = 2nd-order fertilizer transmission (nitrogen-intensive crops bid specifically). India transmission: 25-30% urea import dependency, food-CPI with 1-2 quarter lag; RBI FY27 4.6% CPI may under-weight this. LOW reversibility: Qatar restart takes weeks post-ceasefire; Q2 planting decisions locked at crisis-adjusted input costs. New edge proposed: `fertilizer-urea → india` (directness 2, initial weight 3.5).",
+      "sources": [
+        "Trading Economics",
+        "CME",
+        "UBS",
+        "Profercy World Nitrogen Index",
+        "Argus Media",
+        "markets.md 2026-04-21 C4"
       ],
       "significance": "high"
     }

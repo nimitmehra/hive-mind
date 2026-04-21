@@ -3,13 +3,13 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-20",
-  "summary": "Day 53 Monday AM. MONDAY ASIA CASH ~$95.42 (+7.9% vs FRIDAY WIRE $90.38) — GOLDMAN ONE-OFF CEILING BREACHED; MS FULL-CONVERGENCE NOT YET. Sunday Globex printed $98 indicative (MS thesis at upper edge); Monday Asia cash retraced to ~$95.42 — below Goldman $96-98 interim band, suggests Globex overshoot was emotional and Touska treated as escalatory-not-supply-disruptive. Five-catalyst repricing stack: (1) SNSC Saturday ratification (transit cert + $1/bbl fee + civilian apex alignment); (2) Saturday IRGC kinetic across VLCC/container/cruise; (3) USS Spruance Touska seizure Sunday; (4) IRNA Round 2 rejection Sunday; (5) Bessent Iranian waiver elapsed 05:30 IST (Russian RENEWED — asymmetric). Reversibility HIGH on Touska absorption + Islamabad delegation landed → $92-93 within a week; upside tail $103-110 within 3 sessions if IRGC kinetic on US Navy by Tuesday 23:59 IST. Pre-crisis floor $80-82. $20B frozen-funds-for-uranium wire claim CLAIMED pending named sourcing — potential info-op.",
+  "last_updated": "2026-04-21",
+  "summary": "Day 54 Tuesday AM. MONDAY CASH CLOSE $94.88 (+5.0% 1D, +46.1% SINCE FEB 28) — BELOW GOLDMAN $96-98 INTERIM BAND DESPITE 88% HORMUZ TRANSIT SUPPRESSION. Paper-physical divergence is the intelligence signal of the tape: operational reality at severe-case scenario (16 ships vs 138 baseline Monday + zero Sunday); paper priced as contained one-off. Floating-storage in Gulf + AWRP moderation (~1.0%) + Wednesday-binary pricing are suppressing the paper re-rate. Wednesday April 22 expiry resolves the asymmetry: ceasefire renewal → $91-93 band (Goldman base case + Brew Eurasia structural $92-95 floor); lapse → $100-105 within 48 hrs as transit data becomes binding (Morgan Stanley $110 Q2 / Goldman severe $115 Q4 activates). Brew Eurasia: Brent below $80 'very unlikely' at any point 2026 — ceasefire real economic effect was AWRP moderation, already achieved; incremental diplomatic progress = diminishing returns on Brent. Tuesday Globex ~$94.69-95.50 — paper still below Goldman $96-98, confirming non-convergence.",
   "current": {
-    "price": "~$95.42 Monday Asia intraday (wire); Sunday Globex $98 indicative; Friday close $91.87 yfinance / $90.38 wire-ICE",
-    "delta_1d": "+7.9% vs Friday wire (Monday intraday); +3.9% vs yfinance Fri",
-    "delta_1m": "-15.8% (Friday settle basis)",
-    "delta_3m": "+41.5%"
+    "price": "$94.88 Monday cash close; Tuesday Globex $94.69-95.50",
+    "delta_1d": "+5.0%",
+    "delta_1m": "-12.7%",
+    "delta_3m": "+46.1%"
   },
   "price_snapshots": [
     {
@@ -173,6 +173,12 @@
       "price": "~$95.42 Monday Asia intraday; Sunday Globex $98 indicative",
       "trigger": "Touska seizure + SNSC ratification + IRNA Round 2 rejection + Bessent Iranian waiver elapsed + Saturday IRGC kinetic broadening",
       "delta_context": "+7.9% vs Friday wire $90.38 (+3.9% vs yfinance $91.87). Breaches Goldman one-off ceiling; below MS $100 full-convergence trigger. Interim mixed-conviction settle."
+    },
+    {
+      "date": "2026-04-21",
+      "price": "$94.88 Monday cash close (+5.0% 1D)",
+      "trigger": "Monday cash settle below Goldman $96-98 interim band despite 88% Hormuz transit suppression (16 vs 138 baseline) + Sunday zero-transit + Trump 'blockade stays'",
+      "delta_context": "Paper-physical divergence locks in as the intelligence signal of the tape — operational reality at severe-case scenario, paper priced as contained one-off. Floating-storage in Gulf + AWRP moderation (~1.0%) + Wednesday-binary pricing suppressing paper re-rate. Tuesday Globex $94.69-95.50 confirms non-convergence. Goldman-vs-MS test remains unresolved: Goldman $90 base case tracks if ceasefire renews (retrace to $91-93); Morgan Stanley $110 Q2 activates within 48 hrs of Wednesday lapse. Brew Eurasia structural floor $92-95 holds absent full diplomatic resolution."
     }
   ],
   "signals": [
@@ -696,16 +702,41 @@
         "specialist market aggregators"
       ],
       "significance": "low"
+    },
+    {
+      "date": "2026-04-21",
+      "content": "MONDAY CASH CLOSE $94.88 (+5.0% 1D, +46.1% SINCE FEB 28) — BELOW GOLDMAN $96-98 INTERIM BAND DESPITE 88% HORMUZ TRANSIT SUPPRESSION [CONFIRMED MARKET DATA; paper-physical divergence is the signal]. WTI $86.50 (+3.2% 1D); spread $8.38. Primary chain (crisis ~4.7% of 5.0%): *Touska* seizure Sunday → SNSC blockade ratification (Sat) → Hormuz transit Sunday ZERO + Monday ~16 vs 138 (88% suppression, MarineTraffic AIS, The National, CNBC) → Trump Bloomberg 'highly unlikely' extension + 'blockade stays until deal is signed' (6-source) → risk premium re-bid on paper. Secondary (~0.3%): Bessent Iranian waiver elapsed 05:30 IST Monday (Russian RENEWED — asymmetric). Paper market NOT confirming 88% transit-suppression — physical reality says disruption is at severe-case levels, paper prices as contained one-off. Wednesday binary resolves: renewal → $91-93; lapse → $100-105 within 48 hrs. Reversibility HIGH for crisis component on Wed renewal; structural floor $92-93 per Brew/Eurasia Group absent full diplomatic resolution.",
+      "sources": [
+        "CNBC",
+        "Bloomberg",
+        "CBS News",
+        "Al Jazeera",
+        "The National (Abu Dhabi)",
+        "MarineTraffic AIS",
+        "Lloyd's List"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-21",
+      "content": "ANALYST CONSENSUS TUESDAY — GOLDMAN-MS-BREW FRAMEWORKS CONVERGE ON WEDNESDAY-BINARY [ASSESSMENTS]. Morgan Stanley (Q2 $110, Q3 $100): Tuesday paper $94.69-95.50 is at lower edge of Monday settle — paper NOT confirming physical distress despite 88% transit-collapse; Wednesday renewal → retrace to $91-93, Wednesday lapse → $100-105 within 48 hrs. Goldman (Q2 $90 base / severe $115 Q4): 88% suppression IS the severe-case scenario the $115 Q4 prices; asymmetry resolves only through Wednesday — lapse → $115 Q4 base within 3 sessions, renewal → $85-90 band reasserts. Brew/Eurasia (floor $92-95): Brent below $80 'very unlikely' at any point 2026; Monday transit data + Trump blockade-stays posture sets structural floor $92-95; ceasefire real economic effect was AWRP moderation — already achieved — incremental diplomatic progress delivers diminishing returns on Brent. Falsifiable: Brent below $90 within 30 days post-April 22 = Brew wrong on floor; Brent above $100 within 10 sessions = MS direction correct.",
+      "sources": [
+        "Morgan Stanley Commodities",
+        "Goldman Sachs Commodities",
+        "Eurasia Group (Gregory Brew)",
+        "Bloomberg analyst consensus"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "Day 52 Sunday. Sunday SNSC formal ratification of IRGC Hormuz closure + re-imposed $1/bbl loaded-tanker fees = civilian-apex endorsement of Saturday's kinetic regime. Araghchi's Friday 'completely open' declaration institutionally suspended until US lifts blockade. Kinetic broadened (container ship projectile + cruise-liner VHF threat). Physical-futures gap ~$40 widest of crisis. Confirmed-action weight shift +2.0 on SNSC institutional consolidation.",
+      "context": "Day 54. Monday cash $94.88 (+5.0%) below Goldman $96-98 band despite 88% transit suppression (16 vs 138) + Sunday ZERO-transit. Paper-physical divergence LOCKED IN as intelligence signal — operational severe-case + paper priced as contained one-off. Floating-storage Gulf + AWRP ~1.0% + Wednesday-binary pricing suppressing paper re-rate. Wednesday April 22 resolves: renewal → $91-93 band; lapse → $100-105 within 48 hrs. Weight reflects operational enforcement; divergence is a regime-state, not weight-increase trigger.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 35,
+      "last_activated": "2026-04-21",
+      "activation_count": 36,
       "weight": 10
     },
     {

@@ -3,13 +3,13 @@
   "name": "European TTF Natural Gas",
   "type": "commodity",
   "created": "2026-03-28",
-  "last_updated": "2026-04-20",
-  "summary": "Day 53 Monday AM. TTF +11% INTRADAY (~€41.59 → ~€46/MWh) — CLEANEST WEEKEND CASCADE SIGNAL. Touska seizure + SNSC ratification + Ras Laffan 3-5yr on Trains 4/6 (12.8 mtpa, ~17% Qatar LNG) = LNG tanker risk premium extends on Gulf transit + replacement US Gulf/Australia LNG stretched. More crisis-levered than Henry Hub (HH +1% Fri, domestic pipeline isolated); TTF absorbs both Qatar loss AND Gulf transit insurance. Structural floor €45-50 (partial-restart horizon); spike ceiling €60-70 on cruise-ship repeat or LNG-tanker kinetic. Propagates to DAX industrial input costs (DAX Mon -1 to -1.5% base) and European nitrogen fertilizer producers (CF European exposure — markets.md F3 proposes european-ttf-gas → fertilizer-urea new edge weight 4.5).",
+  "last_updated": "2026-04-21",
+  "summary": "Day 54 Tuesday AM. TTF €40.56 MON CLOSE / €41.66 TUE (+2.7%) — MONDAY INTRADAY SPIKE TO €46 FULLY RETRACED. European gas market pricing Wednesday ceasefire renewal as BASE CASE; NOT confirming a new up-leg despite 88% Hormuz transit suppression Monday (Deutsche Welle: 'expectation-pricing for Wednesday ceasefire renewal'). If Wednesday April 22 lapses, TTF reprice will be FAST: structural floor €45-50 re-engages; spike ceiling €60-70 on cruise-ship repeat or LNG-tanker kinetic. DAX/CAC/STOXX could revisit Monday's -1.3% in a single session on Wed lapse. Partially validates critique that European ammonia-input-cost pass-through was over-priced Monday morning; CF Industries +2.9% Mon reversal of Friday's -9.6% driven by structural urea rather than fresh TTF spike. Ras Laffan Trains 4/6 (12.8 mtpa, ~17% Qatar LNG) still 3-5yr recovery. Propose edge: european-ttf-gas → fertilizer-urea (markets.md F3, weight ~4.5).",
   "current": {
-    "price": "~€46/MWh Monday intraday (+11%); Friday close €41.59/MWh",
-    "delta_1d": "+11% intraday Mon (vs Fri)",
-    "delta_1m": "Off April 13 €56 peak but Mon reclaims upside on Touska/SNSC",
-    "delta_3m": "structural floor €45-50 per Ras Laffan partial-restart horizon"
+    "price": "€41.66/MWh Tuesday; €40.56 Monday close",
+    "delta_1d": "+2.7% Tue vs Mon",
+    "delta_1m": "modest rebound; off April 13 €56 peak",
+    "delta_3m": "+~33% vs pre-crisis ~€31; Wednesday binary controls next leg"
   },
   "signals": [
     {
@@ -259,6 +259,12 @@
       "price": "~€46/MWh intraday (+11% vs €41.59 Fri)",
       "trigger": "Touska seizure + SNSC ratification + Ras Laffan 3-5yr partial-restart horizon = cleanest weekend cascade signal",
       "delta_context": "European gas more crisis-levered than HH (US pipeline isolated); TTF must absorb Qatar LNG loss AND Gulf transit insurance. Floor €45-50, ceiling €60-70 on cruise-ship repeat / LNG-tanker kinetic."
+    },
+    {
+      "date": "2026-04-21",
+      "price": "€40.56 Monday close / €41.66 Tuesday (+2.7%) — intraday Monday €46 spike FULLY RETRACED",
+      "trigger": "European gas market pricing Wednesday April 22 ceasefire renewal as base case; NOT confirming new up-leg despite 88% Hormuz transit suppression Monday",
+      "delta_context": "Deutsche Welle framing: 'expectation-pricing for Wednesday ceasefire renewal.' Partially validates that Monday morning European ammonia-input-cost pass-through was over-priced. Qatar urea production halt confirmed held ($702/mt +81.7% YTD). If Wednesday lapses, TTF repricing will be fast: structural floor €45-50 re-engages; €60-70 spike ceiling intact. DAX/CAC/STOXX could revisit Monday's -1.3% in a single session."
     }
   ],
   "edges": [

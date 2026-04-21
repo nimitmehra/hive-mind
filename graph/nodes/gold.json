@@ -3,13 +3,13 @@
   "name": "Gold",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-20",
-  "summary": "Day 52 Sunday evening. REGIME SHIFT CONFIRMED — gold +2.0% to $4,879.60 Friday on a risk-on day. S&P hit record (+1.2%), VIX war-era low (17.48 -2.6%), Brent crashed (-9.1%) — traditional safe-haven playbook says gold should have been flat to negative. Instead gold went UP 2.0% to a fresh post-crisis high. Causal decomposition leaves ~1.3% unexplained by conventional drivers (DXY, 10Y) — consistent with PBOC/RBI/CBR/TCMB/CBN structural central-bank accumulation that is price-insensitive. Sunday's Araghchi-vs-Trump-vs-IRGC-vs-insurance-market standoff sharpens the read: a sanctions-isolated nation's ability to mobilize non-USD clearing (Yuan via ICICI Shanghai) during crisis is LIVE — accelerates structural gold bid on the reserve-diversification channel. Gold is no longer the classic 'crisis resolves = gold sells' trade — it is the 'dollar-hegemony-contestation continues = gold accumulates' trade. The crisis-resolution scenario is now AMBIGUOUS for gold (resolution reduces tail-risk but does not reverse central-bank accumulation; gold can hold $4,800+ through resolution). Crisis-escalation scenario is unambiguously gold-positive — path to $5,100 by mid-May. Fed April 30 FOMC 11 days out; soft April CPI (May 13) reinforces real-yield-down narrative independent of crisis.",
+  "last_updated": "2026-04-21",
+  "summary": "Day 54 Tuesday AM. INFLATION-REGIME PRICING RECONFIRMED — GOLD -0.7% TO $4,822.80 MONDAY ON RISK-OFF DAY IS THE UNDERPERFORMER OF THE TAPE. Expected move on Touska + blockade-permanence + VIX +8%: +1-2%; actual: -0.7%. Mechanism: US 10Y flat-to-up +0.09 bps (real yields not falling enough), DXY flat 0.0% (no safe-haven FX flow), firmer dollar + rising real yields = dual headwind, COMEX net longs near 3-yr highs = crowded trade marginal buyers absent. CNBC: 'U.S.-Iran tensions, firmer dollar push gold to one-week low.' Three-day pattern now internally consistent: (1) April 19 gold UP on risk-on (peace dividend bid), (2) April 20 gold DOWN on risk-off (crisis dip), (3) Silver -2.9% confirms precious-metals complex is not defensive today. Market pricing crisis as INFLATION EVENT (bad for gold vs real yields) NOT FINANCIAL-SYSTEM EVENT (good for gold). Regime re-interpretation update from March-April: gold trades on DOLLAR/YIELD drivers, not crisis-beta. What would break: Bank with Gulf exposure reports unexpected Q1 loss → financial-system-risk premium routes into gold. Or Iran Hormuz action triggers CEF forced closure → credit stress. Absent one of these, gold stays in $4,750-$4,900 band through Wednesday. Tuesday overnight -0.5% partial unwind to $4,815 area (marginal softening; no regime change).",
   "current": {
-    "price": "$4,879.60/oz (Friday April 17 settle, fresh evening yfinance pull 17:12 IST)",
-    "delta_1d": "+2.0%",
-    "delta_1m": "-0.2%",
-    "delta_3m": "+2.5%"
+    "price": "$4,822.80/oz Monday close; ~$4,815 Tuesday overnight",
+    "delta_1d": "-0.7%",
+    "delta_1m": "+4.8%",
+    "delta_3m": "+1.3%"
   },
   "price_snapshots": [
     {
@@ -77,6 +77,12 @@
       "price": "$4,879.60/oz Friday close (+2.0% on a risk-on session)",
       "trigger": "REGIME SHIFT CONFIRMED — gold UP on risk-on day (S&P record, VIX war-era low, Brent crash) is structurally INCOMPATIBLE with safe-haven framework; central-bank accumulation dominant",
       "delta_context": "DXY -0.1% explains 0.3%; 10Y -1.5% explains 0.3-0.4%; ~1.3% unexplained by conventional drivers. PBOC/RBI/CBR structural accumulation thesis confirmed. Path to $5,100 mid-May on escalation; $4,800+ holds even on crisis resolution."
+    },
+    {
+      "date": "2026-04-20",
+      "price": "$4,822.80/oz Monday close (-0.7% on risk-off Touska day)",
+      "trigger": "UNDERPERFORMER — expected +1-2% on Touska + blockade-permanence + VIX +8%; actual -0.7% confirms INFLATION-REGIME pricing, not crisis-beta",
+      "delta_context": "US 10Y +0.09 bps (real yields not falling enough); DXY flat 0.0% (no safe-haven FX flow); COMEX net longs near 3-yr highs (crowded); silver -2.9% confirms complex is non-defensive. CNBC attribution: 'U.S.-Iran tensions, firmer dollar push gold to one-week low.' Three-day pattern now internally consistent: Apr 19 UP on risk-on (peace dividend); Apr 20 DOWN on risk-off (crisis dip). Market pricing this as INFLATION EVENT. Band through Wednesday: $4,750-$4,900 absent financial-system stress event. What would break: Gulf-exposed bank unexpected Q1 loss OR Hormuz-action → CEF forced closure → credit stress."
     }
   ],
   "signals": [
@@ -436,17 +442,28 @@
         "LBMA (pending)"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-21",
+      "content": "GOLD -0.7% TO $4,822.80 MONDAY ON RISK-OFF TOUSKA DAY — UNDERPERFORMER, INFLATION-REGIME PRICING CONFIRMED [CONFIRMED MARKET DATA; REGIME SIGNAL]. Expected move: +1-2% on Touska + blockade-permanence + VIX +8%. Actual: -0.7%. Mechanism: US 10Y +0.09 bps (real yields not falling enough to make gold attractive); DXY FLAT 0.0% (no safe-haven FX flow routing into gold); firmer dollar + rising real yields = dual headwind; COMEX net longs near 3-yr highs = crowded trade, marginal buyers absent. CNBC: 'U.S.-Iran tensions, firmer dollar push gold to one-week low.' Silver -2.9% confirms complex is non-defensive. THREE-DAY PATTERN INTERNALLY CONSISTENT: (1) April 19 gold UP on risk-on = peace dividend bid; (2) April 20 gold DOWN on risk-off = crisis dip. REGIME RE-INTERPRETATION (update from March-April 'central-bank accumulation dominant' read): the market is pricing this crisis as an INFLATION EVENT (bad for gold vs real yields), NOT a FINANCIAL-SYSTEM EVENT (good for gold). Gold trades on DOLLAR/YIELD drivers, not crisis-beta. Band through Wednesday: $4,750-$4,900 absent financial-system stress. What would break this: Gulf-exposed bank unexpected Q1 loss OR Hormuz-action → CEF forced closure → credit stress. Trigger-point reformulation: real-yield threshold more predictive than crisis-escalation threshold.",
+      "sources": [
+        "yfinance GC=F",
+        "CNBC",
+        "USAGOLD",
+        "Trading Economics"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "fed",
       "type": "rate_inverse",
-      "context": "Day 50 evening. Fed closed Good Friday (Thursday close). Gold's structural driver now = central bank demand + de-dollarization. Crisis-hedge channel decoupled on both sides (no spike on crisis, no crash on peace). Rate-inverse relationship intact but gold's primary signal is now structural, not Fed-reactive.",
+      "context": "Day 54. REGIME CLARIFIED — gold trades on DOLLAR/YIELD drivers, not crisis-beta. Monday -0.7% on Touska risk-off day confirms inflation-regime pricing. Rate-inverse relationship REASSERTED as PRIMARY signal (not secondary). US 10Y +0.09 bps Monday = gold dual headwind; real-yield channel more predictive than any crisis threshold. Fed April 28-29 (Wed-Thu) meeting is next major input.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 14,
-      "weight": 9.5
+      "last_activated": "2026-04-21",
+      "activation_count": 15,
+      "weight": 10
     },
     {
       "to": "brent-crude",
@@ -497,6 +514,29 @@
       ],
       "mechanism": "Currently at 62:1 (declining from 63:1 peak on April 14). Ratio above 80:1 historically signals recession -- silver's industrial demand collapses while gold's haven bid accelerates. Would confirm market shifting from 'structural inflation' to 'recession' regime.",
       "added": "2026-04-02",
+      "status": "watching"
+    },
+    {
+      "condition": "US 10Y real yield falls 15bps in 3 sessions (inflation-regime trigger — more predictive than crisis-escalation)",
+      "cascade": [
+        "gold",
+        "us-10y-yield",
+        "fed",
+        "sp-500"
+      ],
+      "mechanism": "Regime re-interpretation April 21: three-day pattern (Apr 19 UP on risk-on; Apr 20 DOWN on risk-off) confirms gold trades on DOLLAR/YIELD drivers, not crisis-beta. The market is pricing this crisis as an INFLATION EVENT, not a FINANCIAL-SYSTEM EVENT. Accordingly the cleanest trigger for gold direction is the real-yield channel: if US 10Y real yield drops 15bps in 3 sessions (on Fed re-pricing OR soft CPI OR growth concerns), gold has the tailwind to break $4,900 cleanly. Conversely if real yields rise on oil-pass-through inflation (without gold rallying), the inflation-regime read strengthens. Falsifiable: 15bps real-yield drop (TIPS-based) within 3 consecutive sessions.",
+      "added": "2026-04-21",
+      "status": "watching"
+    },
+    {
+      "condition": "Gulf-exposed bank reports unexpected Q1 loss OR Hormuz-action triggers CEF forced closure → credit stress routes into gold",
+      "cascade": [
+        "gold",
+        "sp-500",
+        "marine-war-risk-insurance"
+      ],
+      "mechanism": "The two scenarios that would break the current inflation-regime pricing and route financial-system-risk premium into gold. Monitor: SCB, HSBC, Citi, JPM Q1 reports (credit-loss provisions flagged to Gulf trade); major energy CEFs with Hormuz-transit exposure for redemption suspensions or NAV dislocation. If fired, gold gaps to $5,100+ within 3 sessions irrespective of Fed path.",
+      "added": "2026-04-21",
       "status": "watching"
     }
   ]

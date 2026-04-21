@@ -3,14 +3,14 @@
   "name": "Helium",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-20",
-  "summary": "Day 52 Sunday. HELIUM CLIFF REMAINS RESOLVED. Helium spot $1,000-1,200/MCF (+100-140% from pre-crisis); no Samsung/SK Hynix production halt — trigger effectively dead. SMH ETF +2.1% Friday on Hormuz/Qatar risk re-pricing lower; +17.9% 1M. KOSPI -10.6% monthly (domestic Korean sentiment weaker). Ras Laffan partial-restart horizon firming — North within one month (The National Apr 9, OilPrice.com Apr 9) provides narrow relief on helium supply stranding; full recovery 3-5 years per QatarEnergy CEO Al-Kaabi. TrendForce 'two-week clock' from March 24 means ~8 days remain before Asian fab inventories exhaust at full production rates in early April crunch framing, BUT fabs have consumed allocations for 40+ days without halt — empirically resolved. Samsung/SK Hynix signed 3-5 year LTAs with Linde and Air Products. Samsung HeRS recycling covers ~18.6% of consumption. South Korea 4+ month government reserves; Japan inventories through early May; US procurement underway; China developing domestic ASML-certified ultra-pure helium sources. Alternative supply from US and Algeria intact. 30% of global supply still offline from Qatar Ras Laffan. Structural price elevation persists 18-24 months on physical fundamentals; production risk resolved.",
+  "last_updated": "2026-04-21",
+  "summary": "Day 54 Tuesday. HELIUM CLIFF SOFTENED FURTHER — Q2 ALLOCATION-NOTICE WINDOW PUSHES TO LATE-MAY/EARLY-JUNE. TSMC confirmed 2+ MONTHS of stock on hand + multi-supplier sourcing (CNBC analyst coverage, TSMC comments); Samsung Helium Reuse System (HeRS) OPERATIONAL from April 2025 rollout, ~4.7 tons/yr reduction covering ~18.6% of consumption (Valuates Reports); SK Hynix diversification less time-critical given Samsung HeRS. TSMC Q1 58% profit surge + FY26 guide +30% YoY + Q2 $39-40.2B (+10% seq) — confirmed AI demand durability. Samsung Q1 (April 7): 57.2T KRW operating profit, 8x YoY, ALL-TIME RECORD. Tuesday Asian tape VOTES on helium risk: KOSPI +1.9%, TAIEX +2.0%, Nikkei +1.3% — helium-solved framing re-engaged the AI trade. Valuates/J2 Sourcing: '60-to-90-day squeeze' projects delivered-helium +25-50% — painful but NOT fab-halting. Spot ~$300+/MCF indic; structural-elevation persists 18-24 months on physical (30% global supply offline from Qatar Ras Laffan) but production-halt trigger effectively dead. Intel's US-Algerian supply dominance = Intel notice unlikely first-shoe; TSMC 2-month buffer pushes its Q2 notice to late-May/early-June; narrowest signal-bearing window is still Samsung/SK Hynix given Korea's 64.7% Qatar dependency — even that mitigated by HeRS.",
   "current": {
-    "price": "$1,000-1,200/MCF spot (+100-140% from pre-crisis ~$500)",
-    "delta_1d": "SMH +2.1%, KOSPI -0.5%",
-    "delta_1m": "SMH +17.9% — structural AI cycle + de-risking",
-    "delta_3m": "30% global supply offline (Qatar Ras Laffan); 18-24 month recovery",
-    "snapshot_note": "As of Apr 18. Production halt trigger DEAD. Ras Laffan recovery at August 2026 partial earliest."
+    "price": "~$300+/MCF bulk liquid indicative (Smith, J2 Sourcing); Q2 allocation-notice window pushed to late-May/early-June",
+    "delta_1d": "SMH +0.0% Mon (relative outperformance on -0.26% Nasdaq); KOSPI +1.9% Tue; TAIEX +2.0% Tue",
+    "delta_1m": "SMH +17.5%",
+    "delta_3m": "Production-halt trigger effectively dead; structural 18-24mo elevation on Ras Laffan offline (30% global)",
+    "snapshot_note": "TSMC 2-month buffer + Samsung HeRS operational = URGENCY MATERIALLY LOWER than April 14 'two-week clock' priced."
   },
   "signals": [
     {
@@ -274,6 +274,19 @@
         "Smith Helium Shortage Update"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-21",
+      "content": "HELIUM URGENCY SOFTENS MATERIALLY — TSMC 2+ MONTHS STOCK, SAMSUNG HeRS OPERATIONAL, NO Q2 ALLOCATION NOTICE [PARTIAL ACTION CONFIRMED]. Three data-points partially soften yesterday's 'two-week clock' framing. (1) CNBC analyst coverage + TSMC comments: 'was prepared and can manage the helium shortage in the short-term,' multi-supplier sourcing + 2+ MONTHS stock on hand — Taiwan-side buffer materially larger than the brief implied. (2) Samsung Helium Reuse System (HeRS) has been in rollout since April 2025, ~4.7 tons/yr annual reduction helping buffer Korean-side exposure (Valuates Reports). (3) SK Hynix public diversification now appears less time-critical given Samsung HeRS operational. NO Q2 allocation notice has been issued by Intel, TSMC, or Samsung. Valuates/J2 Sourcing '60-to-90-day squeeze' projects delivered-helium +25-50% — painful but NOT fab-halting. Intel's US-Algerian supply dominance → Intel notice unlikely first-shoe; TSMC 2-month buffer pushes Q2 notice to LATE-MAY/EARLY-JUNE; narrowest signal-bearing window is still Samsung/SK Hynix given Korea's 64.7% Qatar dependency — even that mitigated by HeRS rollout. Tuesday Asian tape VOTES on this: KOSPI +1.9%, TAIEX +2.0%, Nikkei +1.3% — AI-trade absorbed helium fear. If *Touska* escalation were semiconductor-supply-chain threat, Asian AI names would be DOWN — they're UP. Market verdict: helium-chain fear over-priced.",
+      "sources": [
+        "CNBC",
+        "TSMC company comments",
+        "Valuates Reports",
+        "Smith Helium Shortage Update (April 9)",
+        "J2 Sourcing",
+        "TrendForce"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -298,10 +311,10 @@
     {
       "to": "south-korea",
       "type": "supply_chain_cascade",
-      "context": "KOSPI +3.5% today, +27.3% 3M. Helium cliff defused. KOSPI rally is ~90% structural (memory supercycle, governance reform, foreign inflows) and ~10% crisis relief.",
+      "context": "Day 54. KOSPI 6,338.80 (+1.9% Tue, +17.3% 1M) on Samsung Q1 8x YoY record + HeRS operational + TSMC Q1 58% profit absorbing helium-chain fear. Helium cliff further defused by Samsung HeRS ~18.6% consumption coverage + 64.7% Qatar dependency mitigation. Tuesday Asian tape = market verdict on helium risk: helium-solved framing re-engaged the AI trade.",
       "directness": 3,
-      "last_activated": "2026-04-15",
-      "activation_count": 10,
+      "last_activated": "2026-04-21",
+      "activation_count": 11,
       "weight": 10
     }
   ],
@@ -314,6 +327,18 @@
       "mechanism": "TrendForce window expired April 10 -- no production cut announced. Samsung ~6 months reserves + HeRS recycling + 3-5 year LTAs with Linde/Air Products. South Korea 4+ month government reserves. China developing domestic sources. Alternative suppliers (US, Algeria) filling gap. This trigger is effectively DEAD.",
       "added": "2026-03-23",
       "status": "resolved"
+    },
+    {
+      "condition": "Intel / TSMC / Samsung formally issue Q2 helium allocation notice to downstream customers",
+      "cascade": [
+        "sp-500",
+        "south-korea",
+        "taiwan",
+        "helium"
+      ],
+      "mechanism": "Allocation notice ≠ production halt — it's the first formal signal that the Qatar helium supply shock has reached customer-facing decisioning. Window pushed to LATE-MAY/EARLY-JUNE (April 21 update): TSMC 2+ month buffer + Samsung HeRS operational + Intel Algerian-supply dominance collectively extend the notice window by ~6 weeks vs the TrendForce March-24 'two-week clock.' Narrowest signal-bearing window is Samsung/SK Hynix given Korea's 64.7% Qatar dependency — even that mitigated by HeRS. Falsifiable: any formal Q2 allocation filing by Intel/TSMC/Samsung would activate `helium → semiconductors` cascade and re-price SMH -3 to -5%. Absence through end-June = helium-chain fear structurally over-priced.",
+      "added": "2026-04-21",
+      "status": "watching"
     }
   ]
 }

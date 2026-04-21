@@ -3,14 +3,14 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-20",
-  "summary": "Day 53 Monday AM. DOW FUTURES SUNDAY NIGHT -400 PTS → S&P MONDAY OPEN -0.8 TO -1.0%; NASDAQ 12-DAY STREAK SNAPS; VIX CASH 19-21 MONDAY. Friday: S&P 500 7,126.06 RECORD (+1.2%); NASDAQ 24,468.48 +1.5% (12-day streak longest since 1992); VIX 17.48 (-2.6% war-era low). Monday Globex Dow -400 pts on Touska + IRNA rejection + SNSC + waiver. Vol-short-carry trade vulnerable: Tuesday IST kinetic Iranian retaliation on US assets → VIX mid-20s dealer re-marks. Non-crisis AI/earnings momentum ~0.7% S&P / 0.9% NASDAQ of Friday's gains stickier — intraday rebound plausible absent kinetic. Tail scenario: VIX cash 22+ Monday AND Brent $97+ sustained 3 sessions AND macro compounding (hawkish Fed speaker / regional bank stress) = S&P -2-3% first week. Base-resolution: Witkoff/Vance/Kushner on-ground Tuesday + IRGC absorbs Touska → fresh records within days.",
+  "last_updated": "2026-04-21",
+  "summary": "Day 54 Tuesday AM. MONDAY SETTLE: S&P -0.24% AT 7,109.14; NASDAQ -0.26% AT 24,404.39 (13-SESSION STREAK SNAPPED — LONGEST SINCE 1992); DOW ~FLAT 49,442.56; VIX 18.87 (+8.0% vs FRI 17.48). Against pre-Monday expectation of -0.8 to -1.2% gap-down to match Europe (DAX -1.3% / CAC -1.1% / STOXX -0.8%), US print ~0.5-1.0% MORE resilient = single most dovish data point on Monday tape. US desks pricing: (a) Vance/Witkoff/Kushner Islamabad arrival as de-escalation-weighted; (b) Khatam al-Anbiya crew-family deferral as indefinite absorption floor; (c) Wednesday ceasefire as binary-but-resolvable; (d) Q1 earnings fundamental floor (FactSet 13.2% YoY; guidance 59 positive vs 51 negative). XOM +0.8%, XLE +0.1% (modest energy bid despite Brent +5%); SMH flat (AI trade holds on -0.26% Nasdaq session — relative outperformance); Lockheed -1.8% (ceasefire-era de-rating overrides crisis-bid — most surprising Monday print). CORRECTION: yesterday's evening brief reported VIX at 19.48; Trading Economics / Fortune confirm 18.87 — brief over-stated hedge-bid by ~3pp. Wednesday binary: renewal → -0.24% reverses entirely; lapse → US gaps -1.0 to -1.5% into Thursday. VIX gaps to 22-25 overnight on lapse.",
   "current": {
-    "price": "7,126.06 Friday April 17 RECORD close; Monday open expected -0.8 to -1.0%",
-    "delta_1d": "+1.2% Fri; Mon -0.8 to -1.0% base",
+    "price": "7,109.14 Mon close; Nasdaq 24,404.39 (-0.26%, 13-day streak snapped); Dow 49,442.56",
+    "delta_1d": "-0.24%",
     "delta_1m": "+7.6%",
-    "delta_3m": "+4.8%",
-    "vix": "17.48 Fri cash; 19-20 VIX futures Sunday; expected 19-21 cash re-mark Monday"
+    "delta_3m": "+3.4%",
+    "vix": "18.87 (+8.0% vs Fri 17.48; corrects yesterday's 19.48 brief)"
   },
   "price_snapshots": [
     {
@@ -48,6 +48,12 @@
       "price": "7,126.06 (RECORD CLOSE)",
       "trigger": "Araghchi Hormuz-open declaration triggered risk-on; NASDAQ 12-day win streak longest since 1992",
       "delta_context": "S&P +1.2% record; NASDAQ 24,468.48 +1.5%; Dow 49,447.43 +1.8% (surged 1,100 intraday, pared to 868). VIX 17.48 war-era low. Brent -7.6% to $91.87 → energy-inflation tail risk reduces → 10Y -1.5% to 4.25% → risk-on rotation. XLE -2.8%, SMH +2.1%. Third consecutive week of gains (+4.5% weekly). Crisis-linked ~1.0% of 1.2% move; earnings ~0.2%. VIX structurally mispriced for Monday triple-binary."
+    },
+    {
+      "date": "2026-04-20",
+      "price": "S&P 7,109.14 (-0.24%); Nasdaq 24,404.39 (-0.26%, 13-day streak snapped, longest since 1992); Dow 49,442.56 ~flat; VIX 18.87 (+8.0%)",
+      "trigger": "Monday Touska absorption — MATERIALLY MORE DOVISH THAN EUROPE; streak broken despite only modest -0.24% print",
+      "delta_context": "Against pre-Monday expectation of S&P -0.8 to -1.2% gap-down to match Europe (DAX -1.3%, CAC -1.1%, STOXX -0.8%), US print ~0.5-1.0% MORE resilient. XOM +0.8%, XLE +0.1% despite Brent +5%; SMH flat on -0.26% Nasdaq session = relative outperformance; Lockheed -1.8% (ceasefire-era de-rating). VIX 18.87 corrects yesterday's evening brief's 19.48 print (over-stated by ~3pp; Trading Economics, Fortune confirm). Single most dovish data point on Monday tape — institutional flow pricing Vance arrival, Khatam al-Anbiya 'family aboard' absorption floor, Wednesday binary-resolvable. Q1 earnings floor: FactSet 13.2% YoY; guidance 59 positive vs 51 negative."
     }
   ],
   "signals": [
@@ -324,16 +330,31 @@
         "CME VX front-month"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-21",
+      "content": "MONDAY SETTLE — US EQUITIES ABSORBED TOUSKA MATERIALLY MORE GENTLY THAN EUROPE [CONFIRMED MARKET DATA; THE SINGLE MOST DOVISH DATA POINT ON MONDAY TAPE]. S&P 500 -0.24% at 7,109.14; Nasdaq Composite -0.26% at 24,404.39 (13-SESSION STREAK SNAPPED — LONGEST SINCE 1992); Dow ~flat at 49,442.56. Against pre-Monday expectation of S&P gap-down -0.8 to -1.2% matching Europe (DAX -1.3%, CAC -1.1%, STOXX -0.8%), US print ~0.5-1.0% MORE resilient. VIX 18.87 (+8.0% vs Fri 17.48) — hedge-bid modest NOT crisis-level; corrects yesterday's evening brief's 19.48 print (over-stated by ~3pp; Trading Economics + Fortune confirm). Sector signals: XOM +0.8%, XLE +0.1% (modest energy bid on Brent +5%); SMH flat on -0.26% Nasdaq = relative outperformance; Lockheed -1.8% — ceasefire-era de-rating overrides crisis-bid, most surprising Monday print. US desks pricing (a) Vance arrival as de-escalation-weighted, (b) Khatam al-Anbiya 'family aboard' deferral as absorption floor, (c) Wednesday ceasefire as binary-but-resolvable, (d) Q1 earnings floor (FactSet: 13.2% YoY; positive guidance 59 vs 51 negative). Wednesday binary: renewal → -0.24% reverses entirely; lapse → US gaps -1.0 to -1.5% into Thursday, VIX gaps 22-25.",
+      "sources": [
+        "CNBC",
+        "CBS MoneyWatch",
+        "Detroit News",
+        "FX Leaders",
+        "CoinCentral",
+        "Trading Economics",
+        "Fortune",
+        "FactSet"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "united-states",
       "type": "equity_market",
-      "context": "Day 51. S&P record close 7,126.06 (+1.2%); NASDAQ 12-day win streak longest since 1992. Third consecutive weekly gain. Wall Street has 'fully discounted' favourable Iran resolution — pricing 80%+ probability Hormuz stays open + deal by end-April. Bond-equity convergence today: 10Y -1.5% to 4.25% aligned with S&P rally (both on energy-inflation relief).",
+      "context": "Day 54. Monday settle: S&P -0.24% at 7,109.14; Nasdaq -0.26% at 24,404.39 (13-day streak snapped, longest since 1992); VIX 18.87 (+8.0%). US desks absorbed Touska far more dovishly than Europe — pricing Vance arrival, Khatam al-Anbiya absorption floor, Wednesday binary as resolvable. Q1 earnings floor (FactSet 13.2% YoY). Wednesday binary: renewal → full reversal; lapse → -1.0 to -1.5% gap into Thursday, VIX 22-25. Crisis component now ~0.3-0.4% of -0.24% = paper pricing one-off thesis holds.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 18,
+      "last_activated": "2026-04-21",
+      "activation_count": 19,
       "weight": 10
     },
     {
@@ -348,10 +369,10 @@
     {
       "to": "brent-crude",
       "type": "earnings_risk",
-      "context": "Day 51. Brent -7.6% to $91.87 on Araghchi Hormuz-open was the SAME catalyst as S&P record close 7,126.06. XLE -2.8% (sector sells) while index rallies on energy-inflation relief. Physical-futures gap widens to $40 — paper may be right or wrong. If Iranian reciprocal measures fire Monday, S&P -2 to -3% as VIX unwinds 17 → 22+. Long VIX / short SPX options is cleanest weekend trade.",
+      "context": "Day 54. Brent +5.0% to $94.88 Mon cash; S&P only -0.24% (streak snap modest). XOM +0.8%, XLE +0.1% energy-sector Small bid despite Brent move — US equity NOT pricing Brent as full supply-disruption. Paper-physical divergence in oil ALSO reflected in US equity discount vs Europe. Wednesday ceasefire binary controls direction.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 16,
+      "last_activated": "2026-04-21",
+      "activation_count": 17,
       "weight": 10
     },
     {
@@ -374,6 +395,18 @@
       ],
       "mechanism": "Would force Fed to consider emergency support despite inflation. Would crash global markets including India. Could paradoxically lead to war de-escalation pressure.",
       "added": "2026-03-23",
+      "status": "watching"
+    },
+    {
+      "condition": "VIX cash breaks above 22 on Wednesday ceasefire lapse (binary escalation-hedging threshold)",
+      "cascade": [
+        "sp-500",
+        "us-10y-yield",
+        "gold",
+        "nifty-50"
+      ],
+      "mechanism": "Monday VIX 18.87 (+8.0% vs Fri 17.48) — modest hedge-bid, NOT crisis-level. Crisis peak was 25-30 range (March). If Wednesday April 22 ceasefire lapses without new framework, vol dealers re-mark VIX into 22-25 overnight; term structure inverts; front-month call skew widens. Threshold 22 = first clean break from managed-escalation pricing (current 17-19 band) into escalation-hedging. S&P likely -1.0 to -1.5% concurrently; Nasdaq -1.5 to -2.0%. Falsifiable: VIX cash print above 22 sustained for 3+ sessions post-April 22 = threshold crossed; below = managed-absorption continues.",
+      "added": "2026-04-21",
       "status": "watching"
     }
   ]
