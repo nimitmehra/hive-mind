@@ -3,7 +3,7 @@
   "name": "Israel",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-04-22",
   "summary": "Day 54 Tuesday AM. LEBANON TRACK ESCALATING STRUCTURALLY, IRAN TRACK DE-ESCALATING. Netanyahu stated Monday IDF 'will remain' in 10km expanded buffer zone in southern Lebanon — first explicit acknowledgment that 'temporary' 10-day ceasefire's security-zone feature is intended to be PERMANENT (CONFIRMED — Times of Israel, Haaretz). No additional IDF-initiated kinetic in southern Lebanon since Day 1 truce (single drone strike, 1 dead). Hezbollah lawmaker Hassan Fadlallah: group 'would work to break the yellow line'; 'no one in the country or abroad can disarm' Hezbollah (Times of Israel). State Dept-hosted Israel-Lebanon Round 2 is THURSDAY April 23 (correction to yesterday's framing). Iran-track Israeli press: Haaretz Monday led with 'Trump not expected to extend Iran ceasefire' + analytical piece framing IDF south-Lebanon buffer-zone posture as strategic dead end. Ynet carried Trump 'highly unlikely' quote with operational-risk emphasis. NO Haaretz leak of IDF senior officers disagreeing with restraint posture on Iran — absence is the signal: IDF posturally aligned with ceasefire pending Wednesday diplomatic outcome. Channel 12/13 have NOT broken 'IDF preparing to strike' material overnight = military not positioning for imminent kinetic. ITA $231.85 (flat Mon, -3.4% 3M) ceasefire-era de-rating; Lockheed -1.8% Mon. Net: Tuesday Israeli coverage most DOVISH on Iran in 10 days, most PESSIMISTIC on Lebanon — opposite of morning brief's compression.",
   "signals": [
     {
@@ -478,6 +478,14 @@
         "Haaretz"
       ],
       "significance": "low"
+    },
+    {
+      "date": "2026-04-22",
+      "content": "ISRAEL 'COORDINATING POTENTIAL ATTACK PLANS WITH US' ON IRAN TRACK [REPORTED, Times of Israel single-source]. TIO April 21 live blog: 'Israel doubts prospects of Iran deal, is coordinating potential attack plans with US.' Inverts Haaretz April 21 analytical pattern (dovish on Iran, pessimistic on Lebanon) — Israel is moving from 'decoupled-from-US-Iran-dovishness' to 'hedging-for-kinetic-if-talks-fail.' No Channel 12/13 or Haaretz IDF imminent-strike leak as of 11:30 IST Wed. Add watching trigger.",
+      "sources": [
+        "Times of Israel"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
@@ -537,6 +545,21 @@
       ],
       "mechanism": "Would be extreme escalation. Could trigger nuclear contamination fears, massive US response, oil spike beyond $130.",
       "added": "2026-03-23",
+      "status": "watching"
+    },
+    {
+      "condition": "Channel 12/13 or Haaretz publishes IDF imminent-strike preparation on Iran track within 72 hours",
+      "cascade": [
+        "israel",
+        "iran",
+        "united-states",
+        "brent-crude",
+        "gold",
+        "sp-500",
+        "defense-sector"
+      ],
+      "mechanism": "TIO reported Israel coordinating attack plans with US — single-source REPORTED. A follow-on Israeli-military-source leak (Channel 12/13 are typical IDF leak channels; Haaretz military correspondents carry credible senior-officer sourcing) would pre-indicate actual strike at 7-14 day horizon: Brent +$8-12, defense +5-8%.",
+      "added": "2026-04-22",
       "status": "watching"
     }
   ]

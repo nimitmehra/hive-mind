@@ -3,13 +3,13 @@
   "name": "INR/USD Exchange Rate",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-04-22",
   "summary": "Day 54 Tuesday AM. USD/INR ₹93.09 (+0.5% 1D, -0.9% 1M) — MANAGED PRINT HOLDING. Monday Brent +5% → rupee ₹93.05; Tuesday mild softening to ₹93.09. RBI $3.6B April forex intervention + NDF ban + NOP cap + ~$40B forex-curb arbitrage forced unwind (BS column April 19) = regulatory-visible-hand. Rupee MORE DEFENDED than equity market — but the structural insight April 21 is that equity market itself is DEFENDED by domestic-MF absorption of Rs 1.61 lakh crore FII outflow since Feb 28; so both rupee and Nifty are in regulatory/structural-absorption bands rather than free-priced. ₹93.50 remains the next toolkit-escalation threshold (onshore forward ceiling / special dollar-swap). Wednesday ceasefire binary: renewal → ₹92.50-92.80 retrace; lapse + Brent $100+ → ₹93.50-94.00 intraday test + possible toolkit deployment. India 10Y GoI ~6.90-6.95% reflecting oil-CPI pass-through + FII debt outflows.",
   "current": {
-    "price": "₹93.09/USD Tuesday; ₹93.05 Monday",
-    "delta_1d": "+0.5%",
-    "delta_1m": "-0.9%",
-    "delta_3m": "+2.1%"
+    "price": "₹93.81/USD (Wed 11:51 IST)",
+    "delta_1d": "+0.7% rupee weaker (vs Tue close ₹93.50)",
+    "delta_1m": "+0.6%",
+    "delta_3m": "+2.5%"
   },
   "price_snapshots": [
     {
@@ -330,6 +330,17 @@
         "Trading Pedia"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-22",
+      "content": "RUPEE ₹93.81 — TWO-SESSION DECOUPLING FROM OIL RELIEF [CONFIRMED]. Second consecutive session of rupee weakening despite Brent dropping significantly. Tue ₹93.50 (Brent intraday retrace to $90.38); Wed 11:51 ₹93.81 (Brent $92.48). Mechanical oil-import transmission fully broken. Mechanisms: (1) Indian oil marketers' sticky dollar demand for OPEC May/June lifting; (2) FII continuation at Rs 1.8 lakh crore FY26; (3) RBI tolerating managed depreciation via NDF ban; (4) EM FX broadly weaker (KRW ₩1,477.68 +0.6%) — dollar-strength dominating. REGIME CHANGE: rupee shifted from oil-correlated to capital-flow-correlated. The trigger 'USD/INR ₹95' remains watching but structurally threatened from the capital account side, not trade account.",
+      "sources": [
+        "yfinance",
+        "Mumbai Port reference",
+        "Livemint",
+        "Business Standard"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -380,6 +391,18 @@
       ],
       "mechanism": "Would signal loss of RBI control. Emergency measures possible. FII exodus would accelerate dramatically.",
       "added": "2026-03-23",
+      "status": "watching"
+    },
+    {
+      "condition": "USD/INR strengthens below ₹93 AND Brent above $95 sustained 5 sessions (capital-flow stabilisation signal)",
+      "cascade": [
+        "inr-usd",
+        "india",
+        "nifty-50",
+        "rbi"
+      ],
+      "mechanism": "Current 2-session decoupling (rupee weaker while Brent drops) shows capital-account dominating trade-account. The REVERSE pattern — rupee strengthening with oil expensive — would signal capital flow returning. Falsifiable: 5 consecutive NSE closing prints with USD/INR <93 while Brent >$95.",
+      "added": "2026-04-22",
       "status": "watching"
     }
   ]

@@ -3,13 +3,13 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-04-22",
   "summary": "Day 54 Tuesday AM. MONDAY CASH CLOSE $94.88 (+5.0% 1D, +46.1% SINCE FEB 28) — BELOW GOLDMAN $96-98 INTERIM BAND DESPITE 88% HORMUZ TRANSIT SUPPRESSION. Paper-physical divergence is the intelligence signal of the tape: operational reality at severe-case scenario (16 ships vs 138 baseline Monday + zero Sunday); paper priced as contained one-off. Floating-storage in Gulf + AWRP moderation (~1.0%) + Wednesday-binary pricing are suppressing the paper re-rate. Wednesday April 22 expiry resolves the asymmetry: ceasefire renewal → $91-93 band (Goldman base case + Brew Eurasia structural $92-95 floor); lapse → $100-105 within 48 hrs as transit data becomes binding (Morgan Stanley $110 Q2 / Goldman severe $115 Q4 activates). Brew Eurasia: Brent below $80 'very unlikely' at any point 2026 — ceasefire real economic effect was AWRP moderation, already achieved; incremental diplomatic progress = diminishing returns on Brent. Tuesday Globex ~$94.69-95.50 — paper still below Goldman $96-98, confirming non-convergence.",
   "current": {
-    "price": "$94.88 Monday cash close; Tuesday Globex $94.69-95.50",
-    "delta_1d": "+5.0%",
-    "delta_1m": "-12.7%",
-    "delta_3m": "+46.1%"
+    "price": "$92.48 (Wed 11:51 IST); overnight arc $95.48 Tue settle → $101.97 spike → $92.48",
+    "delta_1d": "-6.1%",
+    "delta_1m": "-7.5%",
+    "delta_3m": "+44.4%"
   },
   "price_snapshots": [
     {
@@ -727,6 +727,18 @@
         "Bloomberg analyst consensus"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-22",
+      "content": "BRENT OVERNIGHT ROUND-TRIP: $95.48 TUE SETTLE → $101.97 (01:26 IST WED SPIKE, +7%) → $92.48 (11:51 IST WED) [CONFIRMED, multi-source]. Arc: Tuesday European close $90.38 → Tuesday NYMEX US settle ~$95.48-95.75 (US session recovered on Vance-Pakistan-trip-paused fear) → 01:26 IST Wed spike to $101.97 (+7.03%) → Trump extension → Tokyo morning $98.48 → 11:51 IST Wed $92.48. Morgan Stanley $100 convergence trigger fired briefly; extension unfired it. CRITICAL GRAPH STATE: Brent $92.48 is now BELOW pre-Touska-seizure Monday ($94.88) WHILE Hormuz physical transit remains at virtual standstill (Tasnim: 'Iran will not reopen the Strait' while blockade persists). The paper-physical divergence yesterday flagged has REVERSED DIRECTION — paper now UNDERPRICES physical disruption by ~$5-7/bbl. Reversibility VERY high — Mojtaba rejection would drive Brent back to $97-100 within 48 hours.",
+      "sources": [
+        "ICE front-month",
+        "CNBC",
+        "Detroit News/Reuters",
+        "Gulf News",
+        "Trading Economics"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -851,6 +863,17 @@
       ],
       "mechanism": "Double chokepoint (Hormuz + Red Sea) would remove majority of Gulf export capacity. Would trigger emergency SPR releases, possible recession.",
       "added": "2026-03-24",
+      "status": "watching"
+    },
+    {
+      "condition": "Brent-Hormuz paper-physical divergence >$10/bbl in EITHER direction sustained 3 sessions",
+      "cascade": [
+        "brent-crude",
+        "strait-of-hormuz",
+        "marine-war-risk-insurance"
+      ],
+      "mechanism": "Paper Brent (futures settle) vs dated Brent or physical-disruption-implied fair value. Direction reversed Wednesday morning: paper $92.48, physical-implied value given Hormuz standstill ~$98-100. Either direction sustained 3 sessions = trigger. Replaces previous one-sided divergence framing.",
+      "added": "2026-04-22",
       "status": "watching"
     }
   ]

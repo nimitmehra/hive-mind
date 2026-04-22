@@ -3,7 +3,7 @@
   "name": "United States",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-04-22",
   "summary": "Day 54 Tuesday morning. VANCE/WITKOFF/KUSHNER ARRIVED ISLAMABAD OVERNIGHT; TRUMP BLOCKS CEASEFIRE EXTENSION UNLESS DEAL SIGNED — 'HIGHLY UNLIKELY' + 'BLOCKADE STAYS' (Bloomberg; 6-source confirmed). US delegation inside Red Zone perimeter awaiting Iranian counterparty; Iran publicly refuses but Al Jazeera (single-source, REPORTED) flags Tuesday delegation arrival. Ceasefire expires Wednesday April 22 ~05:30 IST Thursday — binary forcing function. Monday US equity absorption materially more dovish than Europe: S&P -0.24% at 7,109.14, Nasdaq -0.26% at 24,404.39 (13-session streak snapped — longest since 1992); VIX 18.87 (+8% vs 17.48 Friday, NOT crisis-level; corrects yesterday's 19.48 print). XOM +0.8%, XLE +0.1% despite Brent +5.0%; Lockheed -1.8% (ceasefire-era de-rating). Pentagon SILENT on force-projection leaks — Defense One / Breaking Defense have not run 'preparing for additional force projection' — US military posture matches civilian ceasefire-calibrated framing. Strait of Hormuz: CENTCOM confirms enforcement active; Monday transit ~16 vessels vs 138 baseline (88% suppression) + Sunday ZERO = first zero-transit of crisis. Right-media-first access pattern persists (Bloomberg broke Trump 'highly unlikely' quote; Fox amplifies; CNN/NPR skeptical framing; WSJ neutral).",
   "signals": [
     {
@@ -922,6 +922,39 @@
         "CENTCOM"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-22",
+      "content": "TRUMP EXTENDS IRAN CEASEFIRE INDEFINITELY TUESDAY POST-MARKET [CONFIRMED, 7-source]. Truth Social: 'Based on the fact that the Government of Iran is seriously fractured, not unexpectedly so and, upon the request of Field Marshal Asim Munir, and Prime Minister Shehbaz Sharif, of Pakistan, we have been asked to hold our Attack on the Country of Iran until such time as their leaders and representatives can come up with a unified proposal. I have therefore directed our Military to continue the Blockade and... extend the Ceasefire until such time as their proposal is submitted.' Three loaded elements: (1) reverses Monday's 'highly unlikely' framing inside 36 hours; (2) first public presidential confirmation an imminent US strike plan existed ('hold our Attack'); (3) first US public acceptance of Iranian factional paralysis as binding constraint ('seriously fractured'). Vance/Witkoff/Kushner Round 2 CANCELLED. Blockade continues. No deadline for Iranian submission.",
+      "sources": [
+        "Trump Truth Social",
+        "CNBC",
+        "CNN",
+        "Axios",
+        "NBC News",
+        "Al Jazeera",
+        "Nikkei Asia"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-22",
+      "content": "FORTUNE ADMINISTRATION-DISCONTENT LEAK [REPORTED]. Fortune Tuesday: 'Trump officials whisper that his Truth Social posts about Iran risk killing peace talks.' CNN Collinson analysis: 'Trump's craving for the spotlight risks Iran deal hopes.' Pentagon channels silent — Jennifer Griffin, NBC Kube/Lee — consistent with force-projection-silent de-escalation signal.",
+      "sources": [
+        "Fortune",
+        "CNN"
+      ],
+      "significance": "medium"
+    },
+    {
+      "date": "2026-04-22",
+      "content": "US EQUITIES TUESDAY CLOSE: S&P 500 7,064.01 (-0.63%), NASDAQ 24,259.96 (-0.59%), DOW 49,149.38 (-0.59%) [CONFIRMED]. First Iran-sensitive down session since April 16. VIX 19.50 (+3.3%). Post-Trump-extension: S&P 500 and Nasdaq 100 futures +0.4%, Dow futures +190 pts — partial retracement only. Tape now pricing 'extension without deal, blockade stays' as mildly risk-off.",
+      "sources": [
+        "CNBC",
+        "TheStreet",
+        "Yahoo Finance"
+      ],
+      "significance": "medium"
     }
   ],
   "edges": [
@@ -1042,8 +1075,23 @@
         "strait-of-hormuz",
         "sp-500"
       ],
-      "mechanism": "Trump Bloomberg: blockade 'will stay until a deal is signed' — Iran's precondition for negotiation is blockade lifting. Any signal of blockade-flexibility before Wednesday = the face-saving bridge that preserves a diplomatic path; its absence locks the binary. Falsifiable: Treasury/OFAC statement OR Bessent public-line adjustment before 05:30 IST Thursday April 23. Cascade on activation: Brent immediately drops to $88-92 band, Iran delegation confirmed-arrives in Islamabad, VIX reprices to ~16 range.",
+      "mechanism": "Trump Bloomberg: blockade 'will stay until a deal is signed' — Iran's precondition for negotiation is blockade lifting. Any signal of blockade-flexibility before Wednesday = the face-saving bridge that preserves a diplomatic path; its absence locks the binary. Falsifiable: Treasury/OFAC statement OR Bessent public-line adjustment before 05:30 IST Thursday April 23. Cascade on activation: Brent immediately drops to $88-92 band, Iran delegation confirmed-arrives in Islamabad, VIX reprices to ~16 range. | RESOLVED 2026-04-22: NOT MET — blockade EXPLICITLY CONTINUES per Trump Truth Social ('directed our Military to continue the Blockade'). Ceasefire extended indefinitely instead. Structural: blockade-lifting conditioned on Iranian unified proposal.",
       "added": "2026-04-21",
+      "status": "resolved"
+    },
+    {
+      "condition": "US Truth Social or Pentagon-channel statement converting strike plan from 'held' to 'active' OR executing strike",
+      "cascade": [
+        "united-states",
+        "iran",
+        "brent-crude",
+        "strait-of-hormuz",
+        "sp-500",
+        "defense-sector",
+        "gold"
+      ],
+      "mechanism": "Trump's extension explicitly said 'hold our Attack on the Country of Iran' — confirming imminent US strike plan existed pre-extension. TIO April 21: Israel 'coordinating potential attack plans with US.' A revert to 'active' status → Brent $105-115, VIX 25+, ITA +10-15%, gold breaking $5,000. Falsifiable: any US strike post on Truth Social within 30 days.",
+      "added": "2026-04-22",
       "status": "watching"
     }
   ],

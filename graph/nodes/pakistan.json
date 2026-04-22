@@ -3,7 +3,7 @@
   "name": "Pakistan",
   "type": "country",
   "created": "2026-03-30",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-04-22",
   "summary": "Day 54 Tuesday AM. ISLAMABAD TALKS LIVE — VANCE/WITKOFF/KUSHNER ARRIVED OVERNIGHT APRIL 20-21; RED ZONE SECURITY PERIMETER ESTABLISHED BY PM SHARIF/ARMY CHIEF MUNIR (5-source confirmed: Express Tribune, ANI, Times of Israel, Bloomberg, Tribune India). Pakistan continues dual-track mediator role. Iran publicly refused Round 2 (Baghaei); Al Jazeera citing Iranian sources (SINGLE-SOURCE, REPORTED) flags Tuesday Iranian delegation arrival possibly including Ghalibaf/Araghchi. Pakistani FM Ishaq Dar placed call to FM Araghchi Tuesday morning April 21 (Pakistan Today) — 'agreed to remain closely engaged' — replicating Monday's Pezeshkian-Sharif 45-minute call pattern. Dual-track architecture: public register carries rejectionist rhetoric for Iran's hardline constituency; channel-level diplomacy (Araghchi-Dar, Pezeshkian-Sharif, possibly in-person Tuesday) continues. Saudi-Pakistan axis (MBS-Sharif Jeddah meeting) + Pakistan host-mediator role stable. Wednesday April 22 = binary forcing function, not Tuesday.",
   "signals": [
     {
@@ -278,6 +278,17 @@
         "Al Jazeera"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-22",
+      "content": "PAKISTAN ELEVATED TO STRIKE-SUSPENSION BROKER BY US PRESIDENTIAL ATTRIBUTION [CONFIRMED]. Trump Truth Social named Field Marshal Asim Munir and PM Shehbaz Sharif as the specific parties whose appeal caused US to 'hold our Attack on the Country of Iran.' First public attribution of Pakistani intervention as operative reason for US military restraint — significant elevation from Round 1 Islamabad facilitator role to 'broker who can pause US military action.' Pakistan FM Dar continues phoning Araghchi; China-Egypt-Pakistan mediator architecture is now Pakistan-led with explicit US endorsement. Round 2 cancelled but Pakistan channel remains highest-probability de-escalation path.",
+      "sources": [
+        "Trump Truth Social",
+        "CNBC",
+        "Axios",
+        "Sahara Reporters"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -338,6 +349,19 @@
       ],
       "mechanism": "Direct talks would be the biggest de-escalation signal of the war. Oil could drop 10-15% in a session. Rupee rally. Nifty surge. But talks ≠ deal — the gap between positions remains enormous.",
       "added": "2026-03-30",
+      "status": "watching"
+    },
+    {
+      "condition": "Pakistan-brokered Iranian unified proposal delivered to US within 21 days (Munir-Sharif channel)",
+      "cascade": [
+        "pakistan",
+        "iran",
+        "united-states",
+        "trump",
+        "brent-crude"
+      ],
+      "mechanism": "Trump Truth Social Tuesday explicitly attributed US strike-plan suspension to Field Marshal Asim Munir and PM Shehbaz Sharif's formal request. Elevates Pakistan from facilitator to strike-suspension broker. A successful Pakistan-brokered Iranian unified proposal within 21 days converts ceasefire extension to durable framework; failure returns strike plan to active status. Falsifiable: substantive Iranian proposal through Pakistani channel by Tuesday 2026-05-13 IST.",
+      "added": "2026-04-22",
       "status": "watching"
     }
   ]
