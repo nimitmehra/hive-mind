@@ -4,7 +4,7 @@
   "type": "institution",
   "created": "2026-04-08",
   "last_updated": "2026-04-22",
-  "summary": "Day 54 Tuesday AM. AWRP MODERATED TO ~1.0% CERTAIN TRANSITS (Lloyd's List); UP TO 5% FOR US/UK/ISRAELI-NEXUS TRANSITS. Monday step-up expected in yesterday's morning brief did NOT materialize. Tuesday London republish is the final test of whether insurance-ladder is a transmission mechanism. $800k+ added per VLCC voyage; 'millions/trip' worst case. Operational chokepoint is now VESSEL-SAFETY POSTURE (fewer captains willing to transit — Monday 16 vs 138 baseline) rather than insurance-cost structure — the transit-collapse data validates this framing. Brent $94.88 Monday close NOT $100+ = paper did NOT break on insurance-ladder. AWRP trigger-point for >1.5% republish thesis partially falsified — remains watching pending Tuesday London. Crisis peak 2.5% (60x pre-crisis 0.025-0.04%); current ~32-40x — elevated but easing.",
+  "summary": "Day 55 Wednesday EVENING. AWRP STEP-UP NOW EXPECTED THURSDAY LONDON REPUBLISH AT 1.5-2.0% BAND ON IRGC WEDNESDAY KINETIC. Wednesday morning brief's 1.0-1.2% expected band STRUCTURALLY INVALIDATED. The IRGC Wednesday kinetic (firing on commercial shipping with no radio warning) plus the seizure of two named container ships (both flag-of-convenience hulls — Epaminondas: Liberian-flagged, Greek-headquartered manager Technomar Shipping; MSC Francesca: Panama-flagged) re-prices the underwriting calculus structurally. Brew's earlier framework — 'safety concerns, not insurance availability, driving reduced vessel traffic' — holds the form, but the substance has migrated: kinetic has resumed, so safety concerns are now operationally validated rather than rhetorical-only. JWC has expanded high-risk zone to Bahrain/Djibouti/Kuwait/Oman/Qatar waters. Marine war risk for Gulf transit (US/UK/Israeli flag) at 3× standard quotes. Expect Friday spot AWRP quotes in 1.5-2.5% range and Brew's recovery probability rebases. The 'AWRP step-up trigger' (≥1.5%) is now the most TIME-SENSITIVE in the graph — Thursday London republish is the falsification test (republish stays at 1.0-1.2% = London market is mis-pricing Wednesday kinetic; 1.5-2.0% = framework correct).",
   "current": {
     "cover_pre_crisis": "$25K/year per vessel",
     "cover_current": "Easing to 0.8-1.0% hull value (from 2.5% peak). Still 4-6x pre-crisis (0.15-0.25%). LMA: 88% of Lloyd's market has appetite. Constraint is SAFETY, not availability.",
@@ -142,35 +142,46 @@
         "LMA"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-22",
+      "content": "AWRP STEP-UP NOW EXPECTED THURSDAY LONDON REPUBLISH AT 1.5-2.0% BAND — MORNING 1.0-1.2% EXPECTATION INVALIDATED BY IRGC WEDNESDAY KINETIC [REPORTED — analyst expectation pending Thursday London open]. Wednesday's two confirmed kinetic incidents (firing on container ship + 8nm cargo ship) + IRGC formal seizure of MSC Francesca (Panama-flagged) + Epaminondas (Liberian-flagged, Greek-headquartered manager Technomar Shipping) re-prices the underwriting calculus structurally. The 'no radio warning' detail + multi-vessel commercial seizure inside the ceasefire envelope are operationally significant for Lloyd's JWC (the EU-flag-provocation reading earlier in the cycle is downgraded — both hulls fly flags of convenience, so underwriting impact is hull-value + carrier-exposure-driven, not flag-political). Brew's earlier framework — 'safety concerns, not insurance availability, driving reduced traffic' — holds form, but substance has migrated: kinetic has resumed, so safety concerns are now operationally validated rather than rhetorical-only. JWC has expanded high-risk zone to Bahrain/Djibouti/Kuwait/Oman/Qatar waters. Marine war risk for Gulf transit (US/UK/Israeli flag) at 3× standard quotes. Expect Friday spot AWRP quotes in 1.5-2.5% range and Brew's recovery probability rebases. Falsifiable: Thursday London republish at 1.5-2.0% = framework correct; republish stays at 1.0-1.2% = London market is mis-pricing Wednesday kinetic. THE MOST TIME-SENSITIVE TRIGGER IN THE GRAPH — falsification test within ~12 hours.",
+      "sources": [
+        "intel.md A4 / B2 analyst forecast",
+        "Lloyd's List (pending republish)",
+        "JWC zone expansion",
+        "Brew framework"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "operational_chokepoint",
-      "context": "Day 52 Sunday. AWRP ~1% hull post-ceasefire baseline; insurers did NOT step back up on Saturday IRGC kinetic yet. Monday AWRP re-hike to 1.2-1.8% likely. Kinetic broadening to passenger vessel (Mein Schiff 4 VHF threat) expands scope commercial→passenger — actual hit would trigger IMO-level emergency. LMA: 88% still underwriting. Recovery timeline weeks if diplomatic breakthrough.",
+      "context": "Day 55 Wednesday. AWRP ~1% hull baseline; Thursday London republish now expected at 1.5-2.0% step-up band on IRGC Wednesday kinetic (container ship firing + MSC Francesca/Epaminondas seizure). 'No radio warning' detail + multi-vessel commercial seizure are structural re-pricing events (EU-flag-provocation framing has been corrected — Epaminondas is Liberian-flagged, MSC Francesca is Panama-flagged; the underwriting impact is hull-value- and carrier-exposure-driven, not flag-political). JWC has expanded high-risk zone to Bahrain/Djibouti/Kuwait/Oman/Qatar waters. Marine war risk Gulf transit (US/UK/Israeli flag) at 3× standard quotes. Falsification test: Thursday London republish — 1.5-2.0% = framework correct; 1.0-1.2% = mis-pricing Wednesday kinetic.",
       "directness": 1,
-      "last_activated": "2026-04-19",
-      "activation_count": 8,
+      "last_activated": "2026-04-22",
+      "activation_count": 9,
       "weight": 10.0
     },
     {
       "to": "shipping-tankers",
       "type": "cost_structure",
-      "context": "Day 52 Sunday. AWRP ~1% hull unchanged over weekend; Monday re-hike to 1.2-1.8% likely on Saturday broadening kinetic (tanker + container-projectile + cruise-VHF threat). Frontline +5.6% Friday validated. Insurance is the operational bottleneck via price deterrence; passenger-vessel scope expansion is material if actual hit follows.",
+      "context": "Day 55 Wednesday. Thursday AWRP step-up to 1.5-2.0% expected; if cruise/passenger vessel hit (not yet), automatic IMO-level emergency rebases passenger-shipping insurance Gulf-wide. Frontline -4.3% Wed (Phase 1 morning unwind), expected partial reversal overnight on IRGC kinetic propagation. VLCC TD3C ~WS 467 (~$474K/day TCE) elevated; war-risk premium embedded in spot rates.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 8,
+      "last_activated": "2026-04-22",
+      "activation_count": 9,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "supply_constraint",
-      "context": "Insurance at prohibitive prices intensifies physical-futures gap: Dated Brent $120+ vs futures $98 = $22 gap. Blockade re-spiked premiums above pre-ceasefire. Physical flow requires insurance normalization — but since capacity exists (not truly suspended), a diplomatic breakthrough could normalize in weeks rather than months.",
+      "context": "Day 55. Brent reloaded $7.33/bbl from morning $92.48 to $99.81 US session on IRGC kinetic — paper has snapped UP toward physical (Dated $131.97 last seen April 10), not the reverse. Thursday AWRP step-up to 1.5-2.0% expected — would push Goldman severe-tail $115 Q4 base case to higher conditional probability. Markets.md E2: 'AWRP → tanker rates → Brent paper' transmission mechanism activated.",
       "directness": 2,
-      "last_activated": "2026-04-20",
-      "activation_count": 5,
-      "weight": 7.5
+      "last_activated": "2026-04-22",
+      "activation_count": 6,
+      "weight": 8.0
     }
   ],
   "trigger_points": [
@@ -185,6 +196,18 @@
       ],
       "mechanism": "Insurance restoration is the binding constraint on physical Hormuz reopening. Until Lloyd's JWC formally lifts the conflict-zone designation, individual voyage underwriting persists at extreme rates. This is a more operationally meaningful trigger than the political ceasefire — the insurance market signals when normal commerce can actually resume.",
       "added": "2026-04-08",
+      "status": "watching"
+    },
+    {
+      "condition": "Lloyd's AWRP Thursday April 23 London republish prints at 1.5-2.0% step-up band (vs 1.0-1.2% morning expectation)",
+      "cascade": [
+        "marine-war-risk-insurance",
+        "strait-of-hormuz",
+        "brent-crude",
+        "shipping-tankers"
+      ],
+      "mechanism": "Most time-sensitive trigger in graph — falsification test within ~12 hours of trigger creation. IRGC Wednesday kinetic (container ship firing + MSC Francesca/Epaminondas seizure) re-prices underwriting calculus. 1.5-2.0% republish = framework correct, structural re-rate of Gulf war risk; pushes Goldman severe-tail $115 Q4 toward base-case probability. 1.0-1.2% republish = London market is mis-pricing Wednesday kinetic, AWRP step-up thesis falsified, paper-physical convergence delayed. Friday spot quotes 1.5-2.5% expected. Falsifiable: Thursday London republish at 11:00 GMT.",
+      "added": "2026-04-22",
       "status": "watching"
     }
   ]

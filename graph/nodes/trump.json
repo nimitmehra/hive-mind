@@ -4,7 +4,7 @@
   "type": "person",
   "created": "2026-03-30",
   "last_updated": "2026-04-22",
-  "summary": "Day 54 Tuesday AM. TRUMP BLOOMBERG MONDAY: CEASEFIRE EXTENSION 'HIGHLY UNLIKELY' + 'BLOCKADE WILL STAY IN PLACE UNTIL A DEAL IS SIGNED' (6-source confirmed: Bloomberg, CNN, CBS, NPR, CNBC, Ynet, Haaretz). Closes procedural-rollover option; Wednesday April 22 ~05:30 IST Thursday = binary calendar event. Right-media-first access pattern persists: Bloomberg broke the quote (consistent with Fox-first access on Touska April 19-20). Vance/Witkoff/Kushner arrived Islamabad overnight April 20-21 (5-source confirmed). Trump's blockade-stays posture hardens the asymmetry since Iran's precondition for Round 2 is blockade-lifting; Trump's precondition for renewal is a deal. White House messaging: pre-expiry de-escalation remains possible but will NOT be delivered at price of blockade-lifting. No Pentagon force-projection leaks overnight (Defense One / Breaking Defense silent) — US military posture matches civilian ceasefire-calibrated framing. 'Stone Age' Truth Social rhetoric unchanged no fresh reiteration Tuesday.",
+  "summary": "Day 55 Wednesday EVENING. TRUMP'S 'INDEFINITE' EXTENSION IS IN PRIVATE A 3-5 DAY WINDOW PER AXIOS — 'It is not going to be open-ended' (REPORTED, three US-officials). Window expires ~Sunday April 26 IST; conditional US strike probability LOADS for Saturday-Monday on Mojtaba silence + IRGC continuation. Trump Wednesday Truth Social separately reiterated '$500 million a day' framing (Iran losing through closed Hormuz revenue) and 'merely want to save face' on Iran's Hormuz-closure rhetoric — both consistent with maximum-pressure into deadline. Tuesday-evening 'hold our Attack' language confirmed imminent strike plan exists and is held. Pakistan's Munir+Sharif explicitly named on Trump's Truth Social — first explicit US presidential attribution of Pakistani intervention as the operative reason for not striking. Vance/Witkoff/Kushner Round 2 INDEFINITELY postponed; Pakistan now sole-broker. IRGC Wednesday morning kinetic break inside Trump's patience window is the worst possible Iranian opening move — Vahidi camp signalling capability exactly where US is testing for unified proposal. CENTCOM silent on IRGC reciprocal seizures (asymmetric to Touska coverage) — possibly indicating administration choosing not to escalate publicly while patience window runs.",
   "signals": [
     {
       "date": "2026-03-22",
@@ -353,25 +353,48 @@
         "Fortune"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-22",
+      "content": "AXIOS — 'INDEFINITE' EXTENSION IS IN PRIVATE A 3-5 DAY WINDOW; 'IT IS NOT GOING TO BE OPEN-ENDED' [REPORTED, three US-officials]. Materially reframes Tuesday-evening Truth Social extension. Window expires approximately Sunday April 26 IST. Combined with 'hold our Attack' language confirming imminent strike plan exists, this loads conditional US strike probability for Saturday-Monday on Mojtaba silence + IRGC continuation pattern. Trump Wednesday Truth Social posts also reiterated '$500 million a day' framing (Iran losing through closed Hormuz revenue) and 'merely want to save face' on Iran's Hormuz-closure rhetoric — maximum-pressure into deadline. Pakistan back-channel has 72-96 hours to engineer a deliverable. The Vahidi-camp Wednesday IRGC kinetic action is the worst possible Iranian opening move INSIDE the patience window. Treat as REPORTED-with-strong-confidence.",
+      "sources": [
+        "Axios 'Trump gives Iran days to end power struggle'",
+        "Trump Truth Social Wednesday posts (Hormuz / $500M / save face)",
+        "Tribune",
+        "ANI",
+        "OpenTheMagazine"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-22",
+      "content": "TRUMP RHETORIC AND IRGC FACTS DIVERGE: PRESIDENTIAL EXTENSION OFFER MET BY IRGC KINETIC INSIDE WINDOW [CONFIRMED]. Trump's 'indefinite' Truth Social extension was operationally rebutted by IRGC Navy fast-boats firing on container ship + seizing MSC Francesca/Epaminondas within ~12 hours. Brent reloaded $7.33/bbl from morning $92.48 to $99.81 US session on the IRGC kinetic — UNDOING much of the Trump-extension price collapse. Pattern-recognition: Trump's information-operations move (extension + Pakistan attribution) was outflanked operationally by IRGC kinetic facts in real time. Vahidi-camp dominance + Mojtaba-silence + Iranian factional contestation means Trump's 3-5 day forcing function is structurally mis-targeted at the losing side of the Iranian fight (Araghchi/Pezeshkian).",
+      "sources": [
+        "Trump Truth Social",
+        "Trading Economics",
+        "CNBC",
+        "Reuters"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "brent-crude",
       "type": "market_mover",
-      "context": "Day 51. Trump's 'blockade in full force' response to Araghchi Hormuz-open contributed to intraday Brent bounce from $87.94 low to $91.87 settle (-7.6% on day). Rhetorical posture still dominant rate-setter. Earlier 'very close' language moderated Friday to 'we've done a good job, but we'll see.'",
+      "context": "Day 55 Wednesday. Trump's Tuesday Truth Social extension drove Brent from $101.97 overnight spike → $92.48 morning print ($9.49 presidential-messaging move, second-largest of crisis). Then Wed Truth Social posts ($500M/day, 'save face') + Axios 3-5 day window framing kept sentiment loaded. Brent reloaded $7.33/bbl in 4 hours on IRGC kinetic — Trump's information-operations move was outflanked operationally by IRGC kinetic facts in real time.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 10,
+      "last_activated": "2026-04-22",
+      "activation_count": 12,
       "weight": 10.0
     },
     {
       "to": "iran",
       "type": "adversary_negotiator",
-      "context": "Day 51. Trump reiterated blockade 'in full force' until deal = structurally opposed to Iran's Hormuz-open conditional on US port blockade lift. Senior Iranian official disputed Trump's specific concession claims as 'alternative facts.' Round 2 Monday April 21 per Iranian-sourced CNN, US has NOT confirmed. Nuclear enrichment impasse binding. Haaretz: 'Trump hijacked Israeli foreign policy' = dominant posture over Netanyahu.",
+      "context": "Day 55 Wednesday evening. Trump 3-5 day window per Axios narrows the 'indefinite' framing materially. 'Hold our Attack' Tuesday language confirmed imminent strike plan exists. IRGC Wednesday kinetic break inside the patience window is the worst possible Iranian opening move. Vahidi-camp dominance + Mojtaba-silence + Iranian factional contestation means Trump's forcing function is structurally mis-targeted at the losing side of the Iranian fight (Araghchi/Pezeshkian). Pakistan back-channel has 72-96 hours to engineer a deliverable.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 14,
+      "last_activated": "2026-04-22",
+      "activation_count": 16,
       "weight": 10
     },
     {

@@ -4,7 +4,7 @@
   "type": "commodity",
   "created": "2026-03-23",
   "last_updated": "2026-04-22",
-  "summary": "Day 54 Tuesday AM. UREA GRANULAR FOB ME $702/mt SPOT / $830/mt FORWARD (+81.7% YTD, +69.6% YoY) — STRUCTURAL SCARCITY REASSERTED; CF INDUSTRIES +2.9% MON REVERSED FRIDAY'S -9.6%. Trading Economics / CME levels; pre-war $400-490/mt. Qatar production halt on urea CONFIRMED held (QatarEnergy); Saudi/Bahrain/UAE nitrogen supply constrained. Monday drivers (~2.4% of CF's +2.9%): structural urea scarcity + UBS PT raised to $140 from $97 ('potential for further upside in nitrogen prices'). Nutrien +0.8% (potash-heavier, less Qatar-exposed); the CF/Nutrien split IS the genuine signal. Linde $498.15 (+1.2%) industrial gas proxy firm. Agri complex bid Mon 2nd-order: Wheat +2.5%, Corn +2.4%, Sugar +2.4%, Palm Oil +2.0% — fertilizer-input pass-through + planting-reduction fears. CF Monday thesis weakened by TTF retrace to €40.56 (removed fresh input-cost-shock catalyst) — but structural urea levels already well above trigger-point. India cleanest transmission: 25-30% urea import dependency, food-CPI with 1-2 quarter lag; RBI FY27 4.6% CPI may under-weight fertilizer-pass-through. LOW reversibility: Qatar production restart takes weeks post-ceasefire; Q2 planting decisions locked at crisis-adjusted input costs. Profercy World Nitrogen Index 352.95 = May 2022 high structural.",
+  "summary": "Day 55 Wednesday EVENING. CF INDUSTRIES +4.6% TO $121.31 — DAY'S BIGGEST SINGLE BELLWETHER MOVE — STRUCTURAL FERTILIZER DIVERGENCE FROM CRISIS TAPE FULLY VINDICATED. On a tape where Brent crashed -4.3% morning and the entire war-beneficiary complex unwound, fertilizer producers RALLIED HARD. The day's MOST IMPORTANT non-obvious signal: fertilizer is the ASYMMETRIC CRISIS TRADE right now — rallies if crisis escalates (Qatar tail), doesn't unwind if crisis de-escalates (Qatar physical). ~50% crisis-structural / ~50% sector-fundamental: Qatar urea production remains structurally compromised regardless of ceasefire framing; April 13 IRGC East-West pipeline strike + Hormuz blockade still cuts Gulf urea exports; Argus FOB ME urea $692-702/T (+15% 1M, +81% YTD); DAP $722.50/T (+11.6% 1M, Brazil/India absorbing elevated freight); Qatar facilities require structural restart 'August at earliest' for full recovery (Wikipedia/Al Jazeera). Sector flow rotates INTO fertilizer producers as the crisis-beta that DOES NOT REVERSE on Trump tweets. Brazil/India bid-paying for available cargoes; US/Canada producers (CF, Nutrien) are residual swing supply at premium pricing. Non-crisis ~50%: NA spring planting demand at peak; Henry Hub $2.73 (-45.9% 3M) urea feedstock = margin tailwind for US/Canadian; Indian fertilizer subsidy review (April-May seasonal). REVERSIBILITY: LOW for next 60-90 days. Cleanest structurally-bid trade in the crisis. Worth flagging fertilizer→food-security cascade weight increase per markets.md E1.",
   "current": {
     "price": "Urea Granular FOB ME $702/mt spot / $830/mt forward; CF Industries $115.94; Nutrien $71.17; Linde $498.15",
     "delta_1d": "CF +2.9% (reversal); Nutrien +0.8%; Linde +1.2%; Urea +81.7% YTD",
@@ -316,6 +316,18 @@
         "Trading Economics"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-22",
+      "content": "STRUCTURAL FERTILIZER DIVERGENCE FROM CRISIS TAPE FULLY VINDICATED — CF +4.6% IS DAY'S BIGGEST SINGLE BELLWETHER MOVE [CONFIRMED + STRUCTURAL]. On a tape where Brent crashed -4.3% morning and the entire war-beneficiary complex unwound (defense -3.8%, tankers -4.3%, uranium -4.1%), fertilizer producers RALLIED HARD. Day's MOST IMPORTANT non-obvious signal: ~50% crisis-structural / ~50% sector-fundamental. Crisis-structural: Qatar urea production structurally compromised regardless of ceasefire framing; April 13 IRGC East-West pipeline strike + Hormuz blockade still cuts Gulf urea exports; April 22 ceasefire extension does NOT fix physical supply chain — Qatar facilities need 'August at earliest' for full recovery (Wikipedia/Al Jazeera); Brazil/India bid-paying for available cargoes; US/Canada producers (CF, Nutrien) residual swing supply at premium pricing. Sector-fundamental: NA spring planting demand at peak; HH gas $2.73 (-45.9% 3M) = margin tailwind for US/Canadian producers; Indian fertilizer subsidy review (April-May seasonal). Argus urea FOB ME $692-702/T (+15% 1M, +81% YTD); DAP $722.50/T (+11.6% 1M, +0.35% week, Brazil/India absorbing elevated freight). FERTILIZER IS THE ASYMMETRIC CRISIS TRADE: rallies if crisis escalates (Qatar tail), DOESN'T UNWIND if crisis de-escalates (Qatar physical). Reversibility LOW for 60-90 days. Cleanest structurally-bid trade in the crisis. Markets.md E1: increase weight on qatar→fertilizer and fertilizer→india edges by +1.0 (structural-persistence beyond ceasefire framing). Cheniere LNG +2.2% Wed = parallel structural beneficiary of Qatar gap.",
+      "sources": [
+        "yfinance",
+        "Argus FOB ME urea",
+        "Argus DAP",
+        "UBS",
+        "markets.md C3 Section E1"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -331,20 +343,20 @@
     {
       "to": "qatar",
       "type": "production_dependency",
-      "context": "Day 50 evening. QAFCO Mesaieed (world's largest single-site urea plant, 5.6 Mt/y) remains offline. Ras Laffan Trains 4 & 6 = 12.8 Mtpa / 17% global LNG offline; August earliest partial restart, 3-5 years full restoration. Ceasefire does not change physical restart timeline. CF +3.2% counter-directional Thursday = equity confirmation of 'elevated through 2027' thesis.",
+      "context": "Day 55 Wednesday. QAFCO Mesaieed (world's largest single-site urea plant, 5.6 Mt/y) remains offline. Ras Laffan Trains 4 & 6 = 12.8 Mtpa / 17% global LNG offline; August earliest partial restart, 3-5 years full restoration. April 22 ceasefire extension does NOT fix the physical supply chain. CF +4.6% Wed (DAY'S BIGGEST SINGLE BELLWETHER MOVE on a peace-pricing tape) = equity confirmation of 'elevated through 2027' thesis. Markets.md E1 weight upgrade applied (already capped at 10).",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 9,
+      "last_activated": "2026-04-22",
+      "activation_count": 10,
       "weight": 10
     },
     {
       "to": "india",
       "type": "import_dependency",
-      "context": "India imports 40%+ of urea from Middle East. Domestic plants at 70% capacity due to LNG cuts. Quietly approaching China. Kharif 2026 planting season at risk. India March CPI 3.40% with imported inflation at 6.49% (43% of headline).",
+      "context": "Day 55 Wednesday. India imports 40%+ of urea from Middle East. Domestic plants at 70% capacity due to LNG cuts. Quietly approaching China. Kharif 2026 planting season at risk. India March CPI 3.40% with imported inflation at 6.49% (43% of headline). Brazil/India absorbing elevated freight; DAP $722.50/T (+11.6% 1M). CF +4.6% Wed (US producer residual swing supply at premium pricing) is structural-persistence-beyond-ceasefire signal. Markets.md E1: weight upgrade +1.0 reflecting structural-persistence beyond ceasefire framing.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 8,
-      "weight": 8.4
+      "last_activated": "2026-04-22",
+      "activation_count": 9,
+      "weight": 9.4
     },
     {
       "to": "strait-of-hormuz",

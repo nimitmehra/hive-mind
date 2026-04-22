@@ -4,12 +4,12 @@
   "type": "commodity",
   "created": "2026-03-23",
   "last_updated": "2026-04-22",
-  "summary": "Day 54 Tuesday AM. INFLATION-REGIME PRICING RECONFIRMED — GOLD -0.7% TO $4,822.80 MONDAY ON RISK-OFF DAY IS THE UNDERPERFORMER OF THE TAPE. Expected move on Touska + blockade-permanence + VIX +8%: +1-2%; actual: -0.7%. Mechanism: US 10Y flat-to-up +0.09 bps (real yields not falling enough), DXY flat 0.0% (no safe-haven FX flow), firmer dollar + rising real yields = dual headwind, COMEX net longs near 3-yr highs = crowded trade marginal buyers absent. CNBC: 'U.S.-Iran tensions, firmer dollar push gold to one-week low.' Three-day pattern now internally consistent: (1) April 19 gold UP on risk-on (peace dividend bid), (2) April 20 gold DOWN on risk-off (crisis dip), (3) Silver -2.9% confirms precious-metals complex is not defensive today. Market pricing crisis as INFLATION EVENT (bad for gold vs real yields) NOT FINANCIAL-SYSTEM EVENT (good for gold). Regime re-interpretation update from March-April: gold trades on DOLLAR/YIELD drivers, not crisis-beta. What would break: Bank with Gulf exposure reports unexpected Q1 loss → financial-system-risk premium routes into gold. Or Iran Hormuz action triggers CEF forced closure → credit stress. Absent one of these, gold stays in $4,750-$4,900 band through Wednesday. Tuesday overnight -0.5% partial unwind to $4,815 area (marginal softening; no regime change).",
+  "summary": "Day 55 Wednesday EVENING. GOLD $4,774.90/oz +1.6% Wed — REGIME-TEST DATUM. Recovers most of overnight breakdown to $4,677. Wednesday is a diagnostic move warranting close attention through Thursday-Friday. ~30% crisis-linked / ~70% regime drivers: DXY flat 0.0% (no FX-flow tailwind); US 10Y +1.0% to 4.29% (modest real-yield headwind, not enough to suppress); late-day IRGC news leaked ~14:00-16:00 IST → some crisis-bid likely embedded in +1.6% print; COMEX net longs at 3-yr highs (crowded but didn't capitulate); central-bank accumulation thesis (PBOC/RBI/CBR) holds as structural backstop. DIAGNOSTIC TEST FOR THURSDAY-FRIDAY: gold sustained $4,750-4,800 through Thu-Fri = inflation-regime call structurally vindicated; Phase 1 unwind was the regime read, +1.6% Wed was central-bank-buying noise. Gold breaks $4,850+ on continued IRGC operations Thursday = crisis-beta thesis re-opens; regime call wrong-framed; reload to $5,000 Goldman target activates. Watch silver as confirming asset — silver +2.3% Wed is more crisis-beta than gold; if silver fades back Thu-Fri while gold holds, regime call confirmed; if silver continues rising in tandem, broad precious complex re-pricing crisis-beta. Market pricing crisis as INFLATION EVENT not FINANCIAL-SYSTEM EVENT; what would break: bank with Gulf exposure reports unexpected Q1 loss → financial-system-risk premium routes into gold; or Iran Hormuz action triggers CEF forced closure → credit stress.",
   "current": {
-    "price": "$4,780.10 (Wed 11:51 IST); overnight low $4,677.22",
-    "delta_1d": "+1.7% (settle-reference); -0.6% vs Tue spot $4,808.50",
-    "delta_1m": "+8.5%",
-    "delta_3m": "-2.6%"
+    "price": "$4,774.90/oz (Wed close)",
+    "delta_1d": "+1.6%",
+    "delta_1m": "+8.4%",
+    "delta_3m": "-2.7%"
   },
   "price_snapshots": [
     {
@@ -464,6 +464,18 @@
         "FX Leaders"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-22",
+      "content": "GOLD $4,774.90 (+1.6% WED) — REGIME-TEST DATUM TO BE RESOLVED THURSDAY-FRIDAY [CONFIRMED MARKET DATA + ANALYTICAL]. Recovers most of overnight breakdown. ~30% crisis-linked / ~70% regime drivers: DXY flat 0.0% (no FX-flow tailwind); US 10Y +1.0% to 4.29% (modest real-yield headwind); late-day IRGC kinetic news leaked ~14:00-16:00 IST → some crisis-bid embedded in print; COMEX net longs at 3-yr highs (crowded but didn't capitulate); central-bank accumulation (PBOC/RBI/CBR) holds as structural backstop. DIAGNOSTIC TEST: Gold sustained $4,750-4,800 through Thursday-Friday = inflation-regime call structurally vindicated; Phase 1 unwind was the regime read, +1.6% Wed was central-bank-buying noise. Gold breaks $4,850+ on continued IRGC operations Thursday = crisis-beta thesis re-opens; regime call wrong-framed; reload to $5,000 Goldman target activates. Silver +2.3% Wed is more crisis-beta than gold — confirming asset to watch: if silver fades back while gold holds, regime call confirmed; if silver continues rising, broad precious complex re-pricing crisis-beta. Cleanest test of Goldman inflation-regime framework in the crisis.",
+      "sources": [
+        "yfinance Comex",
+        "markets.md C5 regime test",
+        "Goldman Sachs Commodities",
+        "USAGOLD",
+        "Investing.com"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -548,6 +560,19 @@
       ],
       "mechanism": "The two scenarios that would break the current inflation-regime pricing and route financial-system-risk premium into gold. Monitor: SCB, HSBC, Citi, JPM Q1 reports (credit-loss provisions flagged to Gulf trade); major energy CEFs with Hormuz-transit exposure for redemption suspensions or NAV dislocation. If fired, gold gaps to $5,100+ within 3 sessions irrespective of Fed path.",
       "added": "2026-04-21",
+      "status": "watching"
+    },
+    {
+      "condition": "Gold breaks $4,850+ on continued IRGC operations Thursday-Friday — crisis-beta thesis re-opens, regime call wrong-framed",
+      "cascade": [
+        "gold",
+        "fed",
+        "us-10y-yield",
+        "sp-500",
+        "marine-war-risk-insurance"
+      ],
+      "mechanism": "Wednesday +1.6% to $4,774.90 is a regime-test datum. If gold sustains $4,750-4,800 through Thursday-Friday with silver fading back from +2.3% Wed = inflation-regime call structurally vindicated. If gold breaks $4,850 on continued IRGC commercial-vessel kinetic Thursday (third or fourth ship interdiction) AND silver continues rising in tandem, broad precious complex is re-pricing crisis-beta and Goldman's $5,000 target activates. Cleanest test of the Goldman inflation-regime framework in the crisis. Falsifiable: Thursday-Friday gold print + silver direction.",
+      "added": "2026-04-22",
       "status": "watching"
     }
   ]
