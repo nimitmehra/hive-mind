@@ -3,8 +3,8 @@
   "name": "Hezbollah",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-22",
-  "summary": "Day 5 of 10-day ceasefire (Tuesday AM) — RHETORIC HARDENING TO BREAK YELLOW LINE + NO ROCKETS + POSTURE CALIBRATED. Hezbollah lawmaker Hassan Fadlallah Monday: group 'would work to break the yellow line that Israel established' and 'no one in the country or abroad can disarm' Hezbollah (Times of Israel — CONFIRMED statement). RHETORIC escalation, not kinetic. Zero Hezbollah rockets since ceasefire onset. SecGen Qassem's Sunday 'insult to Lebanon' framing holds. Netanyahu's Monday confirmation of permanent 10km buffer zone = structural Lebanese casus belli independent of rocket fire. The organisation's rule-set is calibrated: pre-placed IEDs + rhetoric permitted; open rocket war not permitted. Netanyahu + Fadlallah posture together = 10-day ceasefire (April 26 expiry) will arrive with cumulative structural friction; rhetorical ladder more loaded than Day 3.",
+  "last_updated": "2026-04-23",
+  "summary": "Day 56 / Lebanon Ceasefire Day 8 — KINETIC-QUIET COUNT BROKEN. Democracy Now April 22 reports Hezbollah fired rockets and drones at Israeli forces FOR THE FIRST TIME SINCE THE TRUCE TOOK EFFECT. Compounds with Kalfon IED (April 19) which was first IDF fatality under window. Rule-set calibration shifted from 'pre-placed IEDs + rhetoric only' to actual rocket/drone fire — ceasefire publicly fraying. April 26 expiry approaching with active kinetic + Israeli demolition operations + Lebanese journalist killed Thursday morning + parallel Iran-track combat-readiness leak. The dual April 26 expiry (Lebanon ceasefire + Trump Iran 3-5 day window) is loaded for compound failure path: Lebanon ceasefire lapses + Trump Iran window expires without proposal → Israel resumes Lebanon ops + activates Iran combat-readiness; Hezbollah responds; oil reload to $103-115. Iran-Hezbollah linkage operationally intact via IRGC Quds Force.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -310,34 +310,43 @@
         "earlier statements via Al Jazeera"
       ],
       "significance": "low"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "HEZBOLLAH FIRED ROCKETS AND DRONES AT ISRAELI FORCES FOR FIRST TIME SINCE THE TRUCE TOOK EFFECT [CONFIRMED ACTION — Democracy Now]. Day 8 of 10 ceasefire. Kinetic-quiet count BROKEN. Compounds with Kalfon IED (April 19) which was first IDF fatality under window. Rule-set calibration shifted from 'pre-placed IEDs + rhetoric only' to actual rocket/drone fire — ceasefire publicly fraying. Two days remain before April 26 expiry. April 26 stacks with Trump Iran 3-5 day window into single weekend with parallel military-readiness escalations on both tracks. Iran-Hezbollah linkage operationally intact via IRGC Quds Force.",
+      "sources": [
+        "Democracy Now April 22",
+        "Haaretz April 23 liveblog"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "proxy_alliance",
-      "context": "Day 52 / Ceasefire Day 3. Hezbollah structured pause sustained 72 hours. Iran-Hezbollah linkage via Baghaei re-framing still operative. Political council position 'not bound by what they agree to' (Apr 15) held as rhetorical floor, not operationally exercised. 6 days remain in 10-day window; Iran-US Round 2 Monday Islamabad (if confirmed) is key catalyst.",
+      "context": "Day 56. Hezbollah rocket/drone fire Thursday is first kinetic action since truce — Iran-Hezbollah linkage operationally activated under cover of Iran-US 3-5 day window. Pakistan-Iran civilian back channel and IRGC kinetic both running parallel.",
       "directness": 1,
-      "last_activated": "2026-04-19",
-      "activation_count": 20,
+      "last_activated": "2026-04-23",
+      "activation_count": 21,
       "weight": 10
     },
     {
       "to": "israel",
-      "type": "structured_pause",
-      "context": "Day 52 / Ceasefire Day 3. Hezbollah compliance HOLDS — zero rockets since ceasefire onset (IDF Homefront Command). Day 3 is quietest interval since pre-March-4 proxy escalation. No IDF strike reports Saturday-Sunday. 72-hour cumulative zero-rocket-fire. | 2026-04-19 eve: Kalfon IED — first IDF fatality under ceasefire; Qassem 'insult to Lebanon' speech without rocket order.",
+      "type": "structured_pause_fraying",
+      "context": "Day 56 / Ceasefire Day 8. Hezbollah rocket and drone fire on Israeli forces FOR FIRST TIME SINCE TRUCE TOOK EFFECT (Democracy Now April 22). Compounds Kalfon IED April 19. Kinetic-quiet pattern BROKEN. April 26 expiry arrives with active kinetic + ground demolition friction — full re-escalation likely without extension.",
       "directness": 1,
-      "last_activated": "2026-04-19",
-      "activation_count": 25,
+      "last_activated": "2026-04-23",
+      "activation_count": 26,
       "weight": 10
     },
     {
       "to": "lebanon",
       "type": "operating_base",
-      "context": "Day 52 / Ceasefire Day 3. Hezbollah rocket fire: zero Days 1-3. Political council 'we are not bound' position (Apr 15) intact but not re-invoked. Non-signatory structural fragility remains. 6 days left in window.",
+      "context": "Day 56 / Ceasefire Day 8. Hezbollah rocket fire Thursday breaks zero-rocket pattern from Days 1-7. Non-signatory structural fragility now operationally manifest. Two days remain in window before April 26 expiry.",
       "directness": 1,
-      "last_activated": "2026-04-19",
-      "activation_count": 21,
+      "last_activated": "2026-04-23",
+      "activation_count": 22,
       "weight": 10
     }
   ],

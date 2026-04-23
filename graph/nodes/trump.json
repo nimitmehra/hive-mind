@@ -3,8 +3,8 @@
   "name": "Donald Trump",
   "type": "person",
   "created": "2026-03-30",
-  "last_updated": "2026-04-22",
-  "summary": "Day 55 Wednesday EVENING. TRUMP'S 'INDEFINITE' EXTENSION IS IN PRIVATE A 3-5 DAY WINDOW PER AXIOS — 'It is not going to be open-ended' (REPORTED, three US-officials). Window expires ~Sunday April 26 IST; conditional US strike probability LOADS for Saturday-Monday on Mojtaba silence + IRGC continuation. Trump Wednesday Truth Social separately reiterated '$500 million a day' framing (Iran losing through closed Hormuz revenue) and 'merely want to save face' on Iran's Hormuz-closure rhetoric — both consistent with maximum-pressure into deadline. Tuesday-evening 'hold our Attack' language confirmed imminent strike plan exists and is held. Pakistan's Munir+Sharif explicitly named on Trump's Truth Social — first explicit US presidential attribution of Pakistani intervention as the operative reason for not striking. Vance/Witkoff/Kushner Round 2 INDEFINITELY postponed; Pakistan now sole-broker. IRGC Wednesday morning kinetic break inside Trump's patience window is the worst possible Iranian opening move — Vahidi camp signalling capability exactly where US is testing for unified proposal. CENTCOM silent on IRGC reciprocal seizures (asymmetric to Touska coverage) — possibly indicating administration choosing not to escalate publicly while patience window runs.",
+  "last_updated": "2026-04-23",
+  "summary": "Day 56 Thursday. TRUMP HARDENED RHETORIC INTO ARTICULATED STRIKE-LIST — bridges and power stations specifically named — and described ceasefire extension as 'highly unlikely' if sides don't reach agreement before expiry, putting first public floor under the private Axios 3-5 day window (~Sunday April 26 IST). Trump Wednesday/Thursday Truth Social posts also reiterated '$500 million a day' Iran loss framing and 'merely want to save face' on Hormuz. Administration officials privately leaked to Fortune that Trump's Truth Social posts 'risk killing peace talks' — rare administration-vs-principal leak that is operationally significant in itself. Trump simultaneously runs three tracks: (a) public blockade ('I have it totally BLOCKADED'); (b) Pakistan mediation (Sharif-Moghadam, Dar-Araghchi calls Thursday); (c) strike-planning narrative publicly confirmed Tuesday ('hold our Attack'). CENTCOM Thursday released systematic blockade stat: 31 vessels redirected to date — first public accounting reframing the blockade from 'two high-profile seizures' to 'daily operational interdiction' (~1.3 vessels/day). Asymmetry: Trump tightening rhetoric while Iran's reply channel (Pezeshkian/Araghchi) is the losing factional side per Axios's own factional map (Vahidi has the kinetic). Channel 12/13/Kan coordinated leak Thursday on IDF combat-readiness procedures is the parallel Israeli-side staircase from contingency to operational preparation inside Trump's window.",
   "signals": [
     {
       "date": "2026-03-22",
@@ -376,25 +376,58 @@
         "Reuters"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "TRUMP HARDENED INTO ARTICULATED STRIKE-LIST AND DESCRIBED CEASEFIRE EXTENSION AS 'HIGHLY UNLIKELY' [CONFIRMED, Haaretz + CNN + multi-source]. Thursday public framing now specifies 'strikes on essential infrastructure, including bridges and power stations' if Iran does not deliver a unified proposal — the strike-list is verbal/articulated only, no confirmed US military movement against Iranian power-grid or bridge targets. Separately Trump described ceasefire extension itself as 'highly unlikely' if sides don't reach agreement before expiry — first time the White House has put a public floor under the private Axios 3-5 day window. CNN simultaneously runs 'no time frame' framing and midterms-driving denial — responsible reporting carrying both framings. The operational action track (blockade, Touska, Tifani) continues unchanged. Action vs rhetoric: RHETORIC with increasing strike-planning specificity. Other side checked: Pezeshkian online statement (Wednesday-operative-Thursday) 'breach of commitments, blockade and threats are main obstacles'; Araghchi Wednesday meeting with South Korean FM envoy ('aggressors fully responsible for Strait of Hormuz instability'; 'blockading Iranian ports is an act of war').",
+      "sources": [
+        "CNN Iran war live blog",
+        "Haaretz live blog",
+        "Al Jazeera Day 55 liveblog",
+        "Pakistan Today",
+        "Deccan Herald",
+        "The Nation"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "FORTUNE — ADMINISTRATION OFFICIALS PRIVATELY WARN TRUMP'S TRUTH SOCIAL POSTS 'RISK KILLING PEACE TALKS' [REPORTED, multi-official on record-condition]. Rare instance of administration-officials-vs-principal leaking. Maps onto observable civil-military divergence: Trump's Truth Social hardening (strike-list, 'highly unlikely' extension, '$500M/day') vs Pentagon channels' continued silence on the IRGC Wednesday seizures (CENTCOM silence pattern from Wednesday evening holds through Thursday). Operational pattern: Trump's rhetoric is leverage, the Pentagon's silence is absorption, an administration-official leak to Fortune is the release valve. Saxo Bank Options Brief April 23 — institutional money pricing put skew at nearly 2x comparable calls — buying insurance against exactly this administration-divergence resolving badly.",
+      "sources": [
+        "Fortune",
+        "Saxo Bank Options Brief",
+        "Haaretz live blog"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "CENTCOM THURSDAY ANNOUNCED 31 VESSELS REDIRECTED IN BLOCKADE TO DATE [CONFIRMED — first public systematic accounting]. ABC News live blog relayed CENTCOM X-post: US forces have redirected 31 vessels to return to port or turn around as part of the ongoing blockade against Iran, most of them oil tankers. Previous public count was Touska + Tifani = 2 set-piece interdictions plus deterrent count of 'shadow fleet' ships turning back. CENTCOM 31-vessel number is materially higher than headline coverage suggested — running rate ~1.3 vessels/day being turned back (Bremmer cited '27 vessels' April 20; +4 in 72 hours). Reframes blockade from 'two high-profile seizures' to 'daily operational interdiction' and strengthens Trump claim Iran is 'losing $500M/day.' Iran (IRNA, Tasnim, Press TV) has not engaged with the 31-vessel number — continues to frame blockade as 'piracy.'",
+      "sources": [
+        "ABC News live blog",
+        "Bloomberg (Bremmer baseline)",
+        "CENTCOM X-post"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "brent-crude",
       "type": "market_mover",
-      "context": "Day 55 Wednesday. Trump's Tuesday Truth Social extension drove Brent from $101.97 overnight spike → $92.48 morning print ($9.49 presidential-messaging move, second-largest of crisis). Then Wed Truth Social posts ($500M/day, 'save face') + Axios 3-5 day window framing kept sentiment loaded. Brent reloaded $7.33/bbl in 4 hours on IRGC kinetic — Trump's information-operations move was outflanked operationally by IRGC kinetic facts in real time.",
+      "context": "Day 56 Thursday. Trump strike-list articulation (bridges, power stations) + 'highly unlikely' extension framing + administration-official leak to Fortune compound the Wed kinetic premium re-load. Brent Asian session hit $106.15 intraday on Hebrew TV combat-readiness leak + Trump strike-list, then SOLD OFF $9/bbl during US session to close $97.43 (-4.4%) on Pakistan mediation surfacing + Trump 'indefinite' reaffirmation + CENTCOM 31-vessel framing. The peak-fade vindicates 'paper-physical gap' framework — paper pricing rhetoric cooling, physical pricing operational continuation.",
       "directness": 1,
-      "last_activated": "2026-04-22",
-      "activation_count": 12,
+      "last_activated": "2026-04-23",
+      "activation_count": 13,
       "weight": 10.0
     },
     {
       "to": "iran",
       "type": "adversary_negotiator",
-      "context": "Day 55 Wednesday evening. Trump 3-5 day window per Axios narrows the 'indefinite' framing materially. 'Hold our Attack' Tuesday language confirmed imminent strike plan exists. IRGC Wednesday kinetic break inside the patience window is the worst possible Iranian opening move. Vahidi-camp dominance + Mojtaba-silence + Iranian factional contestation means Trump's forcing function is structurally mis-targeted at the losing side of the Iranian fight (Araghchi/Pezeshkian). Pakistan back-channel has 72-96 hours to engineer a deliverable.",
+      "context": "Day 56 Thursday. Trump 3-5 day window now ~3 days from expiry; first public 'highly unlikely' extension floor articulated. Strike-list specifies bridges and power stations. Pezeshkian Wednesday-operative-Thursday public statement ('breach of commitments, blockade, threats are main obstacles'); Araghchi met South Korean FM envoy. Vahidi-camp Wednesday IRGC kinetic followed by no third Thursday interdiction (Francesca anchored, Epaminondas transiting back per AIS). CENTCOM 31 vessels redirected announced Thursday — daily operational interdiction running at ~1.3/day.",
       "directness": 1,
-      "last_activated": "2026-04-22",
-      "activation_count": 16,
+      "last_activated": "2026-04-23",
+      "activation_count": 17,
       "weight": 10
     },
     {
@@ -436,10 +469,10 @@
     {
       "to": "pakistan",
       "type": "diplomatic_channel",
-      "context": "Pakistan relaying Trump's messages to Iran. Rubio-Araghchi meeting did NOT materialize. Iran maintains contacts 'limited to messages via mediators.' Pakistan confirmed indirect talks on record but direct meeting still elusive.",
+      "context": "Pakistan back-channel sole-broker through Trump 3-5 day window. Sharif-Moghadam, Dar-Araghchi calls Thursday April 23 — civilian-to-civilian channel bypassing IRGC (second-best mediation architecture given Vahidi-camp ascendancy on Iranian side).",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 5,
+      "last_activated": "2026-04-23",
+      "activation_count": 6,
       "weight": 10.0
     }
   ],
@@ -468,6 +501,22 @@
       ],
       "mechanism": "Would crash oil toward $80-85, rupee rally, Nifty surge, gold drop. The single biggest potential catalyst for the investor's deployment window. But Trump has claimed 'progress' multiple times without delivery.",
       "added": "2026-03-30",
+      "status": "watching"
+    },
+    {
+      "condition": "Trump's 3-5 day private patience window expires ~Sunday April 26 IST without unified Iranian proposal — strike-list (bridges, power stations) operationally activated",
+      "cascade": [
+        "iran",
+        "united-states",
+        "trump",
+        "brent-crude",
+        "defense-sector",
+        "sp-500",
+        "marine-war-risk-insurance",
+        "uranium-sector"
+      ],
+      "mechanism": "Thursday Trump publicly hardened from 'indefinite' to 'highly unlikely extension' AND articulated strike-list (bridges + power stations + implicit nuclear infrastructure). Per intel A1: rhetoric only, no confirmed US military movement against bridge/power-grid targets; the strike-list is verbal. CENTCOM operational track (blockade, Touska, Tifani) continues unchanged. If window expires Sunday April 26 without unified Iranian proposal AND Trump orders strike on bridges/power stations, this is the dominant tail risk for Brent → $115-125, gold breaks $4,850 crisis-beta reopening, URA +15-25% on confirmed nuclear-facility kinetic. Falsifiable: 23:59 IST Sunday April 26.",
+      "added": "2026-04-23",
       "status": "watching"
     }
   ]

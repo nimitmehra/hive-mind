@@ -3,13 +3,13 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-22",
-  "summary": "Day 55 Wednesday EVENING. BRENT ROUNDTRIPPED $90.38 → $101.97 (Vance-cancel overnight spike) → $92.48 (morning unwind on Trump 'indefinite' extension) → ~$99.81 (US session reload on IRGC kinetic). Paper +$7.33/bbl from morning print, fully Iran-kinetic-driven. Cleanest single-day demonstration this crisis of Hormuz-paper sensitivity to IRGC operational behaviour — and the cleanest invalidation of any 'ceasefire-extension = price normalisation' reading. Morgan Stanley $100 convergence trigger fired TWICE in 18 hours (overnight Vance-cancel spike to $101.97; Wednesday US-session reload to $99.81). Goldman Q3 modal $100-115 band intact, conditional probability up on the day. Paper-physical relationship: Wednesday's paper move closes much of the gap (paper $99.81 vs Dated Brent $131.97 last seen April 10) but only because paper re-priced UP toward physical, not because physical re-priced DOWN. Structural divergence persists; Wednesday kinetic gives Dated Brent loading markets fresh reason to demand premium. Conviction-entry condition 'Brent below $92 for 5 consecutive sessions' BROKEN — count resets to zero (1 day in, then breached). Goldman $96-98 interim band reasserted; Brew Eurasia structural floor $92-95 holds. Phase 1 morning prints (defense -3.8%, Frontline -4.3%, VIX -1.8%, BOAT -2.5%) are Phase 1 ceilings for the unwind — expected to partially reverse overnight as IRGC kinetic propagates through US options markets.",
+  "last_updated": "2026-04-23",
+  "summary": "Day 56 Thursday — PEAK-FADE, NOT CRISIS-BID. Brent briefly touched $106.10 intraday in Asian session on Hebrew TV combat-readiness leak + Trump strike-list articulation, then settled back during US session to close $101.56 (-0.3% 1D) on Pakistan mediation surfacing + Trump 'indefinite' reaffirmation + CENTCOM 31-vessel framing. Round-trip peak-to-close ~$4.5/bbl intraday. WTI $92.86 (-0.1%). Close-to-close, Brent is essentially flat Thursday after 3 consecutive session-on-session gains (Apr 20-22). Crisis-premium unwound intraday, not close-to-close — physical (AWRP 5-8x pre-crisis, helium +40%, natural gas +3.4%, VLCC 'uncharted territory') unchanged Thursday. Paper-physical gap narrative holds at intraday level. Morgan Stanley $105 base case modal SURVIVES; conditional probability migrating higher per markets.md. Goldman $115-125 crisis-beta reopening did NOT activate (would have required gold >$4,850; gold closed $4,754 +0.5% — Goldman regime call directionally supported). Reversibility HIGH on any confirmed Friday-Sunday IRGC kinetic on US-flagged vessel or Israeli strike-prep hardening — reload to $103-108 within hours. IEA Director Birol Thursday: 'biggest energy security threat in history' citing ~13 mbpd disrupted (Haaretz relay) — if accurate, materially largest energy-supply disruption in modern industrial history; the fact Brent at $101 not $150+ argues for unannounced strategic-reserve releases. Friday-Sunday is the inflection window: Trump 3-5 day patience expires ~Sunday + Lebanon ceasefire expires April 26 same day + IDF combat-readiness procedures + Mojtaba Friday 23:59 IST trigger.",
   "current": {
-    "price": "~$99.81 (Wed US session, post-IRGC kinetic); arc $95.48 Tue settle → $101.97 spike → $92.48 morning → $99.81",
-    "delta_1d": "+1.4% (vs Tue settle); +$7.33/bbl from morning print",
-    "delta_1m": "-5.7%",
-    "delta_3m": "+47.1%"
+    "price": "$101.56 (Thu US close); arc $101.91 Wed close → $106.10 Asian high → $101.56 US close",
+    "delta_1d": "-0.3%",
+    "delta_1m": "-2.6%",
+    "delta_3m": "+54.5%"
   },
   "price_snapshots": [
     {
@@ -756,16 +756,38 @@
         "Argus Media"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "BRENT PEAK-FADE — $106.10 ASIAN HIGH → $101.56 US CLOSE (-0.3% 1D, ~$4.5/BBL PEAK-TO-CLOSE ROUND-TRIP) [CONFIRMED MARKET DATA, yfinance BZ=F, scripts/market-data.py]. Asian session opened strong on Hebrew TV combat-readiness leak (Channel 12/13/Kan) + Trump strike-list articulation; squeezed to $106.10 intraday peak. During Hong Kong-to-London handoff, Pakistan mediation channel (Dar-Araghchi, Sharif-Moghadam Thursday calls) surfaced in wires; Trump Truth Social reaffirmed 'indefinite' ceasefire framing; CENTCOM 31-vessel blockade stat reframed kinetic as 'continuing absorption' rather than 'new escalation'; no actual US kinetic and no IRGC third-interdiction Thursday. Paper market squeezed OUT the Asian premium during US session. WTI $92.86 (-0.1%). Heating Oil $3.72 (-5.6%); RBOB Gasoline $3.23 (-3.7%); Natural Gas Henry Hub $2.81 (+3.4% — Hormuz-LNG continuation + seasonal demand). Crisis-premium unwound INTRADAY, not close-to-close — physical (AWRP, tanker rates, Hormuz transit restrictions, helium tightness) UNCHANGED Thursday. Paper-physical gap visible at intraday level. Morgan Stanley $105 base case modal SURVIVES; conditional probability migrating higher per markets.md analyst takes. Goldman $115-125 crisis-beta reopening did NOT activate (would have required gold >$4,850; gold closed $4,754 +0.5% — Goldman regime call directionally supported). Reversibility HIGH on any confirmed Friday-Sunday IRGC kinetic on US-flagged vessel or Israeli strike-prep hardening — reload to $103-108 within hours. Close-to-close, Brent gave back Wednesday's gains by $0.35 — marking the first session-on-session soft close after 3 consecutive gains (Apr 20-22). Note: first brief draft cited $97.43 (-4.4%); reconciled to authoritative yfinance close by verification layer.",
+      "sources": [
+        "yfinance",
+        "Trading Economics",
+        "Tradingkey",
+        "Business Standard",
+        "CNBC",
+        "Investing.com"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "IEA DIRECTOR BIROL: 'BIGGEST ENERGY SECURITY THREAT IN HISTORY' — ~13 MBPD DISRUPTED [REPORTED, single-source Haaretz relay]. Birol said Thursday the global energy system faces 'the biggest energy security threat in history,' citing disruption from the Iran war and Hormuz blockage with ~13 mbpd disrupted. Higher than analyst estimates of 8-10 mbpd at Hormuz flow peak — Birol likely including (a) stranded Gulf production unable to clear Hormuz, (b) blockade-redirected Iranian exports without buyers, (c) cascading second-order disruption (refinery utilization cuts). For comparison: 1973 ~5 mbpd, 1979 ~5.7 mbpd, 1990 ~4.3 mbpd. If Birol's 13 mbpd accurate, materially the largest energy-supply disruption in modern industrial history — the fact Brent at $101 not $150+ is remarkable and argues for unannounced strategic-reserve releases globally.",
+      "sources": [
+        "Haaretz April 23 liveblog",
+        "(pending IEA direct press release)"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "Day 55 Wednesday. Brent roundtripped $90.38 → $101.97 → $92.48 → $99.81 in <24 hours fully on Hormuz operational behaviour. Wednesday US session reload of $7.33/bbl on IRGC kinetic (firing on container ship + MSC Francesca/Epaminondas seizure inside ceasefire envelope). Hormuz-paper sensitivity is now a confirmed transmission mechanism: paper moves $7/bbl in 4 hours on confirmed IRGC operational action. Paper has snapped UP toward physical (Dated $131.97 last seen April 10), not the reverse. Structural divergence intact. Lloyd's AWRP Thursday London republish expected at 1.5-2.0% step-up band. Weight at cap; activation increment reflects confirmed kinetic-driven price action.",
+      "context": "Day 56 Thursday. Brent peak-faded intraday $106.10→$101.56 close (-0.3% 1D, ~$4.5/bbl peak-to-close) — paper pricing rhetoric cooling intraday, physical (AWRP 5-8x pre-crisis, helium +40%, natural gas +3.4%, VLCC 'uncharted territory') UNCHANGED. Paper-physical gap re-opened at intraday level. Reversibility HIGH on any confirmed Friday-Sunday IRGC kinetic — reload $5-10/bbl within hours.",
       "directness": 1,
-      "last_activated": "2026-04-22",
-      "activation_count": 37,
+      "last_activated": "2026-04-23",
+      "activation_count": 38,
       "weight": 10
     },
     {

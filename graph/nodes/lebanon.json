@@ -3,8 +3,8 @@
   "name": "Lebanon",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-22",
-  "summary": "Day 5 of 10-day ceasefire (Tuesday AM) — STRUCTURAL EROSION, RHETORICAL ESCALATION, KINETIC HOLDING. Netanyahu Monday: IDF 'will remain' in 10km expanded buffer zone — first explicit acknowledgment that 'temporary' 10-day ceasefire's security-zone feature is intended to be PERMANENT (Times of Israel, Haaretz — CONFIRMED). IDF one-day tribute to Kalfon Sunday not followed by retaliatory strikes. Hezbollah lawmaker Hassan Fadlallah: group 'would work to break the yellow line that Israel established'; 'no one in the country or abroad can disarm' Hezbollah (Times of Israel — CONFIRMED statement). Zero Hezbollah rockets since ceasefire onset. State Department-hosted Israel-Lebanon Round 2 is THURSDAY April 23 (correction to yesterday's evening brief framing). Yellow Line + permanent buffer zone posture means April 26 ceasefire expiry will arrive with cumulative Lebanese casus belli regardless of rocket fire — structural life of ceasefire already compromised on current trajectory even if rocket count stays at zero. Tuesday Israeli press (Haaretz analytical piece) framing buffer-zone posture as strategic dead end. Kinetic holding; structural framework eroding.",
+  "last_updated": "2026-04-23",
+  "summary": "Day 56 / Lebanon Ceasefire Day 8 of 10 — DIRECT WASHINGTON TALKS + HEZBOLLAH ROCKETS/DRONES + ISRAELI JOURNALIST KILLED. Lebanese Ambassador to US Nada Hamadeh Moawad meets Israeli Ambassador Yechiel Leiter in Washington for SECOND ROUND of direct talks in three decades — US-brokered mechanism to extend the 10-day truce beyond Sunday April 26 expiry is now explicit diplomacy, not backchannel. Democracy Now April 22 reports Hezbollah fired rockets and drones at Israeli forces FOR THE FIRST TIME SINCE THE TRUCE TOOK EFFECT — ceasefire publicly fraying. Israeli demolition operations continue (Bint Jbeil, Khiam, Markaba, Taybeh); paramedics recovered body of Lebanese journalist hours after Israeli airstrike in southern Lebanon Thursday morning. Israeli officials continue stating troops will remain inside southern Lebanon during any truce extension. Structurally, April 26 IST now carries TWO simultaneous expiries: Trump 3-5 day Iran window AND Lebanon 10-day ceasefire — both depend on US mediation success; both have parallel military-readiness escalations. Stacking of two expiries into one weekend materially increases the probability of kinetic escalation in the window.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -354,27 +354,62 @@
         "'On a Quiet Day' Lebanon coverage"
       ],
       "significance": "low"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "DAY 8 OF 10 — DIRECT WASHINGTON TALKS, HEZBOLLAH ROCKETS/DRONES, JOURNALIST KILLED [CONFIRMED]. (a) Lebanese Ambassador to US Nada Hamadeh Moawad meets Israeli Ambassador Yechiel Leiter in Washington for SECOND ROUND of direct talks in three decades — US-brokered mechanism to extend the 10-day truce beyond Sunday April 26 expiry is now explicit diplomacy, not backchannel; (b) Democracy Now April 22: Hezbollah fired rockets and drones at Israeli forces FOR THE FIRST TIME SINCE THE TRUCE TOOK EFFECT — ceasefire publicly fraying; (c) Israeli demolition operations continue, paramedics recovered body of Lebanese journalist hours after Israeli airstrike in southern Lebanon Thursday morning; (d) Israeli officials continue stating troops will remain inside southern Lebanon during any truce extension. April 26 IST stacks Trump 3-5 day Iran window expiry + Lebanon 10-day expiry into one weekend — both depend on US mediation; both have parallel military-readiness escalations.",
+      "sources": [
+        "Washington Post April 23 'Lebanon and Israel to resume rare direct talks in Washington'",
+        "WSLS (AP) April 23",
+        "Democracy Now April 22",
+        "FMT April 23 'Lebanon to seek extension'",
+        "Haaretz April 23 liveblog (Lebanese journalist killed)"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "hezbollah",
-      "type": "structured_pause",
-      "context": "Day 52 / Ceasefire Day 3. Hezbollah compliance HOLDS — zero rockets since ceasefire onset (IDF Homefront Command). Day 3 quietest interval since pre-March-4 proxy escalation. No new IDF strike reports Saturday-Sunday. State Dept April 17: Trump 'Israel PROHIBITED' applies to offensive only; self-defence preserved — not tested since Friday Kounine strike. 6 days remain.",
+      "type": "structured_pause_fraying",
+      "context": "Day 56 / Ceasefire Day 8. Hezbollah fired rockets and drones at Israeli forces FOR THE FIRST TIME SINCE THE TRUCE TOOK EFFECT (Democracy Now April 22) — kinetic-quiet count broken. Ceasefire publicly fraying. Two days remain in window before April 26 expiry; without extension, full re-escalation likely.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 24,
+      "last_activated": "2026-04-23",
+      "activation_count": 25,
       "weight": 10
     },
     {
       "to": "israel",
       "type": "invasion_target",
-      "context": "Day 52 / Ceasefire Day 3. No new IDF strike reports Saturday-Sunday morning IST. Single confirmed kinetic within window remains Friday Kounine drone strike (1 killed). Cabinet Day 3 intact — no Smotrich/Ben-Gvir walkout, no new cabinet leaks. Israeli media shifted to domestic coalition + Lebanon holding pattern — Hormuz below the fold. 6 days left in 10-day window.",
+      "context": "Day 56 / Ceasefire Day 8. Israeli demolition operations continue (Bint Jbeil, Khiam, Markaba, Taybeh). Lebanese journalist killed in Israeli airstrike Thursday morning. Lebanese Ambassador Moawad meets Israeli Ambassador Leiter in Washington for second round of direct talks in three decades — US-brokered extension mechanism explicit. Two days remain in window.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 26,
+      "last_activated": "2026-04-23",
+      "activation_count": 27,
       "weight": 10
+    },
+    {
+      "to": "united-states",
+      "type": "diplomatic_mediator",
+      "context": "Day 56. State Department-hosted Israel-Lebanon Round 2 talks Thursday April 23 in Washington — second round of direct talks in three decades. US-brokered mechanism to extend 10-day truce beyond April 26 expiry. April 26 stacks with Trump Iran 3-5 day window — same US mediation team running both tracks.",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 1,
+      "weight": 7.0
     }
   ],
-  "trigger_points": []
+  "trigger_points": [
+    {
+      "condition": "Lebanon ceasefire lapses April 26 IST without US-brokered extension OR enters extension framework",
+      "cascade": [
+        "lebanon",
+        "israel",
+        "hezbollah",
+        "united-states",
+        "trump"
+      ],
+      "mechanism": "April 26 stacks with Trump Iran 3-5 day window expiry — same US mediation team running both tracks. Hezbollah rockets/drones Thursday signal ceasefire fraying. Without extension, full re-escalation likely. Compound failure path: Lebanon ceasefire lapses + Trump Iran window expires without proposal → Israel resumes Lebanon ops + activates Iran combat-readiness; Hezbollah responds; oil reload to $103-115. Falsifiable: 23:59 IST Sunday April 26.",
+      "added": "2026-04-23",
+      "status": "watching"
+    }
+  ]
 }

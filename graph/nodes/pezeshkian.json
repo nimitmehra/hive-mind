@@ -3,8 +3,8 @@
   "name": "Masoud Pezeshkian",
   "type": "person",
   "created": "2026-04-11",
-  "last_updated": "2026-04-22",
-  "summary": "Day 55 Wednesday EVENING. CIVILIAN-ENGAGEMENT TRACK OPERATES IN PARALLEL (NOT IN COORDINATION) WITH IRGC KINETIC. Pezeshkian Wednesday publicly: 'war benefits no one' / 'every rational and diplomatic route should be used to reduce tensions while standing firm against threats.' 45-minute phone call to Pakistan PM Sharif framed US blockade as 'violation of the ceasefire agreement' but in diplomatic register. Same day IRGC fast-boats fired on container ship + seized MSC Francesca/Epaminondas — civilian president maintains diplomatic posture while IRGC executes operational response. Two-track is NOT coordinated; it reflects active factional contestation. Axios Wednesday identifies Pezeshkian as the LOSING side of Iranian factional fight — Vahidi+Zolghadr (war-continuation) dominant; Vahidi reportedly 'practically controlling the country, blocking Pezeshkian's intel-minister appointments' and is 'only one who meets the new Supreme Leader face-to-face.' Pakistan back-channel via Araghchi-Dar is structurally weak because the receiving Iranian voice (Pezeshkian/Araghchi) cannot deliver. Iran's two-track architecture is OPERATIONAL not theoretical — for the brief: 'two-track architecture' should now read 'two-track contestation.'",
+  "last_updated": "2026-04-23",
+  "summary": "Day 56 Thursday. PEZESHKIAN PUBLICLY ACCUSED IRGC OF WRECKING THE CEASEFIRE — IRANIAN FACTIONAL SPLIT GOES OPEN AND LOUD. Wednesday-operative-Thursday online statement explicitly accused IRGC of undermining the ceasefire he and Araghchi negotiated through Pakistan mediation — implicitly naming Vahidi as the obstacle. House of Saud carried under 'Pezeshkian Cannot Fire the Generals Wrecking the Ceasefire'; Iran International 'Rift deepens between Iran's president and Guards chief.' Euronews and Fox News carry 'IRGC sidelines president, blocks appointments.' Pezeshkian's statement naming 'breach of commitments, blockade and threats' as three obstacles deliberately inverts IRGC's framing and places ceasefire-violation responsibility on US — but the fact that Pezeshkian needs to say this publicly is itself the admission that IRGC domestic-critics are pressuring him. IRNA notably did NOT carry the Pezeshkian-accuses-IRGC framing inside Iran — civilian government's most significant rhetorical move of crisis is being suppressed by IRGC-controlled state media. Pezeshkian's online statement reaching international press (Express Tribune, Al Jazeera, NBC) via direct social-media push, not via IRNA. For first time in 56 days, Iran's civilian president has openly blamed Iran's military institution in a way that cannot be walked back. Vahidi node CREATED at REPORTED on this development.",
   "signals": [
     {
       "date": "2026-03-16",
@@ -149,6 +149,21 @@
         "Iran International"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "PEZESHKIAN PUBLICLY ACCUSES IRGC OF WRECKING THE CEASEFIRE — FACTIONAL SPLIT GOES OPEN AND LOUD [REPORTED]. Wednesday-operative-Thursday online statement explicitly accused IRGC of undermining ceasefire he and Araghchi negotiated through Pakistan mediation — implicitly naming Vahidi as obstacle. Statement framing 'breach of commitments, blockade and threats are main obstacles' deliberately inverts IRGC framing to place ceasefire-violation responsibility on US — but the fact that Pezeshkian needs to say this publicly is the admission that IRGC domestic-critics are pressuring him. House of Saud: 'Pezeshkian Cannot Fire the Generals Wrecking the Ceasefire.' Iran International: 'Rift deepens between Iran's president and Guards chief over war, economy.' Euronews / Fox News / All Israel News / The Conversation / France 24 (counter-framing hedge) carry consistent factional-split framing. CRITICALLY: IRNA did NOT carry the Pezeshkian-accuses-IRGC framing inside Iran — civilian government's most significant rhetorical move of crisis suppressed by IRGC-controlled state media. Statement reached international press via Express Tribune / Al Jazeera / NBC — direct social-media push by Pezeshkian's office, not IRNA. Three operational consequences: (i) Pakistan-mediation channel is now structurally civilian-to-civilian back channel bypassing IRGC (second-best architecture); (ii) unified Iranian proposal inside Trump's 3-5 day window requires Vahidi to override Pezeshkian OR vice versa — Vahidi has the kinetic, Pezeshkian has international megaphone; (iii) Wednesday IRGC kinetic against MSC Francesca retrospectively illuminated as Vahidi using operational facts to silence civilian dissent.",
+      "sources": [
+        "House of Saud",
+        "Iran International",
+        "Euronews",
+        "Fox News",
+        "All Israel News",
+        "France 24",
+        "The Conversation",
+        "Express Tribune (Pezeshkian primary)"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
@@ -164,11 +179,20 @@
     {
       "to": "irgc",
       "type": "institutional_conflict",
-      "context": "Day 52. Pezeshkian-chaired SNSC endorsed IRGC Hormuz-closure posture April 18 — hardliner consolidation institutionalised in body Pezeshkian nominally leads. Not active confrontation this weekend; accommodation / absorption. Open Kayhan/Fars/Tasnim rebuke of Araghchi (Pezeshkian's appointee) is indirect rebuke of Pezeshkian. Silence = accommodation, not resistance.",
+      "context": "Day 56. Pezeshkian's Wednesday-operative-Thursday public accusation that IRGC wrecked the ceasefire is the LOUDEST civilian-vs-IRGC rupture of crisis. Accommodation pattern from April 18-22 has fully BROKEN. Pezeshkian implicitly named Vahidi as the obstacle without using his name. IRNA suppressed the accusation inside Iran — IRGC-controlled state media is the structural mechanism by which Pezeshkian's words are blunted domestically.",
       "directness": 1,
-      "last_activated": "2026-04-19",
-      "activation_count": 5,
+      "last_activated": "2026-04-23",
+      "activation_count": 6,
       "weight": 10.0
+    },
+    {
+      "to": "vahidi",
+      "type": "factional_adversary",
+      "context": "Vahidi node CREATED at REPORTED April 23. Direct named adversary in Axios's factional map. Vahidi blocked Pezeshkian's appointment of Hossein Dehghan as Intelligence Minister. Pezeshkian Wednesday online statement implicitly named Vahidi (without using his name) as wrecker of ceasefire. Per multi-outlet REPORTED, Vahidi 'practically controls the country, blocking Pezeshkian's intel-minister appointments.'",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 1,
+      "weight": 7.5
     },
     {
       "to": "mojtaba-khamenei",
@@ -231,6 +255,21 @@
       ],
       "mechanism": "Would simultaneously resolve the Mojtaba proof-of-life question AND signal the civilian-IRGC split is being repaired. Strongest single de-escalation signal because it would confirm Ghalibaf's delegation has mandate from the Supreme Leader channel, not just the IRGC military council. Oil crashes 5-8% in a session.",
       "added": "2026-04-11",
+      "status": "watching"
+    },
+    {
+      "condition": "Pezeshkian publicly forces Vahidi out OR Vahidi forces Pezeshkian out within Trump's 3-5 day window (~April 26 IST)",
+      "cascade": [
+        "iran",
+        "irgc",
+        "vahidi",
+        "pezeshkian",
+        "trump",
+        "united-states",
+        "brent-crude"
+      ],
+      "mechanism": "Pezeshkian Wednesday-operative-Thursday open accusation of IRGC wrecking ceasefire is the LOUDEST civilian-government rupture of crisis. Unified Iranian proposal inside Trump's 3-5 day window requires Vahidi to override Pezeshkian OR vice versa. Vahidi has the kinetic; Pezeshkian has the international megaphone. Either outcome resolves split and produces a proposal. Continued public split through April 26 = no proposal, Trump strike-list probability becomes dominant branch. Falsifiable: 23:59 IST Sunday April 26.",
+      "added": "2026-04-23",
       "status": "watching"
     }
   ]

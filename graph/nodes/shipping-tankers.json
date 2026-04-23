@@ -3,8 +3,8 @@
   "name": "Shipping / Tanker Rates",
   "type": "sector",
   "created": "2026-03-23",
-  "last_updated": "2026-04-22",
-  "summary": "Day 55 Wednesday EVENING. PHASE 1 PEACE-DIVIDEND UNWIND DEEPENED + PHASE 2 RELOAD UNDERPRICED. Frontline $35.38 (-4.3% Wed Phase 1 morning unwind on Trump 'indefinite' extension); BOAT $40.01 (-2.5%). Tankers were worst-positioned for 'peace,' got hit hardest in Phase 1 morning. Phase 2: IRGC Wednesday morning kinetic (firing on container ship 15nm NE Oman + cargo ship 8nm west of Iran + MSC Francesca + Epaminondas seizure inside ceasefire envelope) re-loaded the war-risk premium. Epaminondas is Liberian-flagged with Greek-headquartered management (Technomar Shipping, Athens); MSC Francesca is Panama-flagged. Both are flag-of-convenience hulls, so the EU-flag-provocation framing is softer than initially read. Lloyd's AWRP Thursday London republish now expected at 1.5-2.0% step-up band (morning brief's 1.0-1.2% expected band invalidated). VLCC TD3C ~WS 467 (~$474k/day TCE) elevated; war-risk premium embedded in spot rates. Container Freight (FBX transatlantic) ~$2,100/FEU (+50% prior week) — Hormuz rerouting + Jebel Ali feedering collapse → 'Land Bridge' via Oman/Saudi. Commercial-shipping threat surface now bi-directional: IRGC-side (MSC/Epaminondas seizure Wed) + US-side (Touska Sun, Tifani INDOPACOM Mon). Houthis Day 59 quiet — UKMTO MODERATE; Iran kinetic resumption raises whether Houthis follow but no operational evidence yet.",
+  "last_updated": "2026-04-23",
+  "summary": "Day 56 Thursday. FRONTLINE -2.0% TO $34.66 ON CEASEFIRE-ABSORPTION MEAN REVERSION + BRENT FADE. BOAT $39.91 -0.2% — flat despite Brent fade and IRGC Wednesday kinetic; shipping is capacity-constrained, tanker day rates (Baltic) still elevated, BOAT-ETF capturing weakly. Wednesday IRGC kinetic operationally bifurcating (MSC Francesca confirmed seized at anchor; Epaminondas transiting back per AIS, Greek FM disputes seizure). UANI April 22: 8 container ships escaped Gulf via Hormuz (industry response: convoy-and-escape). NO third Thursday IRGC interdiction. CENTCOM Thursday: 31 vessels redirected to date — first systematic US blockade-stat (~1.3 vessels/day). Lloyd's AWRP Thursday London republish: specific number not yet in open press; Joint Hull Committee 1.5-2.0% step-up band expectation holds, but US session paper-Brent fade ($106→$97) suggests underwriting may absorb into existing 1-3% band rather than discrete headline. VLCC TD3C 'in uncharted territory' per Lloyd's List even on ceasefire days. Commercial-shipping threat surface remains bi-directional: IRGC-side (MSC/Epaminondas Wed) + US-side (Touska Sun, Tifani INDOPACOM Mon, 31 vessels redirected cumulative). Houthis Day 60 quiet — UKMTO JMIC Update 031 documents no confirmed Houthi attacks March 1-April 12. Soufan coordination-decay thesis intact.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -433,31 +433,45 @@
         "Ship & Bunker"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "FRONTLINE -2.0% TO $34.66 ON CEASEFIRE-ABSORPTION MEAN REVERSION + BRENT FADE [CONFIRMED]. BOAT $39.91 -0.2% — flat despite Brent fade and IRGC Wednesday kinetic; shipping is capacity-constrained, tanker day rates (Baltic) still elevated, BOAT-ETF capturing weakly. Frontline 1M +2.5%, 3M +37.2% — structural rate environment intact. Wednesday IRGC kinetic operationally bifurcating: MSC Francesca confirmed seized at anchor (AIS); Epaminondas transiting back along Iranian waters per AIS (Greek FM Gerapetritis disputes seizure, says 'severely damaged'). UANI April 22: 8 container ships escaped Gulf via Hormuz (industry response: convoy-and-escape). NO third Thursday IRGC interdiction. CENTCOM Thursday: 31 vessels redirected to date — first systematic US blockade-stat (~1.3 vessels/day). VLCC TD3C 'in uncharted territory' per Lloyd's List even on ceasefire days. Container Freight FBX Global ~1,946 (latest public reference Feb); Red Sea + Hormuz rerouting maintaining elevated baseline.",
+      "sources": [
+        "yfinance",
+        "AIS / MarineTraffic",
+        "Greek FM Gerapetritis CNN",
+        "UANI April 22",
+        "ABC News (CENTCOM)",
+        "Lloyd's List",
+        "Freightos / MacroMicro"
+      ],
+      "significance": "high"
     }
   ],
   "current": {
-    "price": "VLCC TD3C WS 126.5, TCE ~$112,394/day; Frontline $37.13 (Fri); BOAT ETF $41.33 (Fri)",
-    "delta_1d": "Frontline +5.6% Fri; Monday +2-4% expected",
-    "delta_1m": "Frontline +15.5%; BOAT +3.1%",
-    "delta_3m": "Frontline +47.8%; BOAT +25.5%"
+    "price": "Frontline $34.66 (Thu close); BOAT ETF $39.91 (Thu close); VLCC TD3C 'uncharted' per Lloyd's List",
+    "delta_1d": "Frontline -2.0%; BOAT -0.2%",
+    "delta_1m": "Frontline +2.5%; BOAT +0.4%",
+    "delta_3m": "Frontline +37.2%; BOAT +18.3%"
   },
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "route_dependency_independent_signal",
-      "context": "Day 52 Sunday. IRGC kinetic broadened to multi-type (tanker + container-projectile + cruise-VHF threat) within 24 hours. VLCC TD3C ~WS 513 (~$130-150K/day). Frontline +5.6% Friday validated by Sunday intel as counter-directional physical-market signal. AWRP ~1% hull did NOT step back up on Saturday kinetic yet — Monday re-hike to 1.2-1.8% likely. Dual Russian+Iranian sanctions remove ~90 vessels. Edge REINFORCED AS INDEPENDENT SIGNAL.",
+      "context": "Day 56 Thursday. Wednesday IRGC kinetic operationally bifurcating; UANI: 8 container ships escaped via Hormuz (convoy-and-escape industry response); CENTCOM 31 vessels redirected to date. VLCC TD3C 'uncharted territory' per Lloyd's List even on ceasefire days. Frontline -2.0% Thursday on absorption mean reversion; BOAT -0.2% (flat — capacity-constrained capturing weakly).",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 27,
+      "last_activated": "2026-04-23",
+      "activation_count": 28,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "transport_cost",
-      "context": "Day 51. Frontline +5.6% to $37.13 on Brent -7.6% day — cleanest counter-directional signal. Tanker equity pricing physical reality ($132 Dated Brent view) while futures pricing $91 deal path. Physical-futures gap $40 widest of war. War-risk insurance unchanged; fleet tightness structural via dual sanctions. | 2026-04-19 eve: Frontline +5.6% Friday vs Brent -9.1% validated as leading signal; Sunday Globex $98 confirms paper catching tankers.",
+      "context": "Day 56 Thursday. Brent peak-faded $106.15→$97.43 (-4.4%); Frontline -2.0% on mean reversion. Paper-physical gap re-opened — physical (AWRP 5-8x pre-crisis, VLCC rates 'uncharted', helium +40%, natural gas +5.5%) holding while paper Brent retreats on rhetoric cooling.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 17,
+      "last_activated": "2026-04-23",
+      "activation_count": 18,
       "weight": 10
     },
     {

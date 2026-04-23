@@ -3,8 +3,8 @@
   "name": "Mojtaba Khamenei",
   "type": "person",
   "created": "2026-03-23",
-  "last_updated": "2026-04-22",
-  "summary": "Day 41 without verified video/audio. WEDNESDAY-RESPONSE PREDICTION OVERDUE — Axios's 'expected Wednesday' framing has not materialised. IRNA, Tasnim, Press TV, state TV have not carried any Mojtaba statement Wednesday. CNN's Tuesday 'nowhere to be seen' framing intensifying. Axios Wednesday on US-official sourcing now identifies Vahidi (IRGC C-in-C) as 'only one who meets the new Supreme Leader face-to-face' — operationally consistent with reports Mojtaba is dealing with serious injury preventing full discharge. The Wednesday operational silence + the on-record IRGC kinetic action (MSC Francesca/Epaminondas seizure under IRGC institutional banner without civilian-government cover) = the Vahidi camp is winning the internal fight; the 'Mojtaba green light' Axios was waiting for is structurally improbable. Sadjadpour's track-record-saving move would be a Thursday update addressing the kinetic break. Bremmer/Eurasia: silence past Friday means Vahidi-camp dominance is structural; strike-plan probability rises to dominant branch. Forcing function migrated from 'Wednesday Mojtaba response' to 'Trump's 3-5 day patience window' (expires ~Sunday April 26 IST per Axios).",
+  "last_updated": "2026-04-23",
+  "summary": "Day 42 of public absence — no IRNA/Tasnim/Press TV/Fars new Mojtaba-attributed statement Thursday morning. Friday 23:59 IST trigger does not fire until Friday but pre-firing silence continues. CNN April 21 framing: 'Iran's new supreme leader is nowhere to be seen. That might be helping the regime to survive.' Time: 'Iran's Supreme Leader No Longer Reigns Supreme' is now a weekly stablemate. Mojtaba silence operationally functioning as COVER for Vahidi-camp assertion of control rather than as pause before unifying intervention — incapacitation reading (Reuters: severe wounds, possible leg loss) increasingly fits the facts better than tactical-pause reading. Vahidi node CREATED at REPORTED April 23 — 'military council made up of senior IRGC officers controls access to the centre of power.' Vahidi 'only one who meets the new Supreme Leader face-to-face.' If Vahidi-camp orchestrates a hardline statement in Mojtaba's name (or a Vahidi-ghostwritten message), Friday trigger fires but the downstream cascade is OPPOSITE direction from de-escalatory unifying intervention the original framework assumed. Absence of any Mojtaba-in-Vahidi's-name statement through Day 42 is itself consistent with Mojtaba being genuinely incapacitated rather than tactically silent. Forcing function remains Trump's 3-5 day patience window expiring ~Sunday April 26 IST.",
   "signals": [
     {
       "date": "2026-03-08",
@@ -231,16 +231,27 @@
         "Iran International"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "DAY 42 — STILL NO IRNA/TASNIM/PRESS TV/FARS NEW STATEMENT THURSDAY MORNING [CONFIRMED ABSENCE]. Friday 23:59 IST trigger does not fire until Friday but pre-firing silence continues. The structural addition this cycle: CNN April 21 framing 'Iran's new supreme leader is nowhere to be seen. That might be helping the regime to survive.' Time 'Iran's Supreme Leader No Longer Reigns Supreme' is now weekly stablemate. Mojtaba silence operationally functioning as COVER for Vahidi-camp assertion of control rather than as pause before unifying intervention — incapacitation reading (Reuters: severe wounds, possible leg loss) increasingly fits the facts better than tactical-pause reading. Vahidi node CREATED at REPORTED April 23. The Friday 23:59 IST trigger framework assumed a Mojtaba statement would be a de-escalatory unifier — IF Vahidi orchestrates a hardline Mojtaba message (or a Vahidi-ghostwritten statement in Mojtaba's name), the trigger fires but the downstream cascade is the OPPOSITE direction. Absence of any Mojtaba-in-Vahidi's-name statement through Day 42 is itself consistent with Mojtaba being genuinely incapacitated rather than tactically silent.",
+      "sources": [
+        "CNN April 21 analysis",
+        "Time April 21",
+        "IRNA/Tasnim/Press TV/Fars (silence is the data)",
+        "The Conversation 'Who is calling the shots in Iran?'"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "supreme_leader",
-      "context": "Day 48. Reuters: 'severe and disfiguring wounds,' possible leg loss, conscious but incapacitated. Decision-making through proxies (Velayati, IRGC). Multi-vocal response may reflect absent unified authority. IRGC de facto running the country. No video/audio ever.",
+      "context": "Day 42 of public absence. Vahidi node CREATED at REPORTED April 23 — 'military council made up of senior IRGC officers controls access to the centre of power.' Mojtaba silence operationally functioning as cover for Vahidi-camp assertion of control. Incapacitation reading increasingly fits facts (Reuters: severe wounds, possible leg loss).",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 7,
+      "last_activated": "2026-04-23",
+      "activation_count": 8,
       "weight": 10.0
     },
     {
@@ -251,6 +262,15 @@
       "last_activated": "2026-04-15",
       "activation_count": 5,
       "weight": 8.4
+    },
+    {
+      "to": "vahidi",
+      "type": "access_controlled_by",
+      "context": "Vahidi node CREATED at REPORTED April 23. Per Axios: Vahidi 'only one who meets the new Supreme Leader face-to-face.' Military council made up of senior IRGC officers presided over by Vahidi controls access to Mojtaba (the centre of power).",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 1,
+      "weight": 7.0
     }
   ],
   "trigger_points": [

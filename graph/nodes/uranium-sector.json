@@ -1,0 +1,116 @@
+{
+  "id": "uranium-sector",
+  "name": "Uranium Sector",
+  "type": "sector",
+  "created": "2026-04-23",
+  "last_updated": "2026-04-23",
+  "summary": "Uranium-mining and nuclear-fuel sector, tracked via Global X Uranium ETF (URA) as bellwether. Created at REPORTED tag on 2026-04-23 after URA +7.4% single-day move (1M +19.9%, 3M +1.3%) on a day of $9/bbl Brent reversal — clean signal that uranium is trading on a blended crisis-plus-AI-structural narrative rather than pure crisis. Crisis driver: Trump's articulated strike-list specifically named 'essential infrastructure including bridges and power stations,' implicit reference to Iran nuclear facilities; explicit 'seize Iran's enriched uranium' framing has been in administration-channel wires (Fortune, 24/7 Wall St). Structural driver: AI data center demand (Nvidia/SK Hynix HBM mass production), nuclear-capacity-tripling global commitments, IRA tax credits, fuel-supply programs. Per markets.md C4: ~45% crisis-linked, ~55% AI-structural. URA had $3.8-4.6B inflows during 2025 — structurally over-owned but under-priced vs demand. De-escalation produces 10-15% retracement; AI floor underpins.",
+  "current": {
+    "price_proxy": "URA $57.73 (Global X Uranium ETF)",
+    "delta_1d": "+7.4%",
+    "delta_1m": "+19.9%",
+    "delta_3m": "+1.3%"
+  },
+  "signals": [
+    {
+      "date": "2026-04-23",
+      "content": "URA +7.4% to $57.73 on high volume (1M +19.9%, 3M +1.3%) on a day of $9/bbl Brent intraday reversal — clean signal of blended crisis-plus-AI-structural narrative. Trump's strike-list rhetoric specifically named 'essential infrastructure including bridges and power stations' (intel A1) — implicit Iran nuclear-facility targeting framing. Explicit 'seize Iran's enriched uranium' framing has appeared in administration-channel wires (Fortune, 24/7 Wall St). Iran nuclear infrastructure now explicitly in escalation framing for first time since March. Uranium supply-security premium re-loading. (Sources: yfinance, Fortune, 24/7 Wall St)",
+      "sources": [
+        "yfinance",
+        "Fortune",
+        "24/7 Wall St"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "AI-structural component (~55% per markets.md C4): SK Hynix Thursday announcement of mass production of HBM4 for Nvidia's advanced AI processors; AI data center capex compounding with hyperscalers guiding 2026 spend >$300B aggregate; URA had $3.8-4.6B inflows during 2025; government incentives (IRA tax credits, fuel-supply programs, liability protections); nuclear-capacity-tripling global commitments. The crisis-plus-AI blend means de-escalation produces 10-15% retracement but the structural AI-nuclear thesis underpins a floor. (Sources: SK Hynix, IRA documentation, Fortune $650B AI-economy framing)",
+      "sources": [
+        "SK Hynix announcement",
+        "Fortune",
+        "industry analysis"
+      ],
+      "significance": "high"
+    }
+  ],
+  "edges": [
+    {
+      "to": "iran",
+      "type": "geopolitical_supply_dependency",
+      "context": "Iran's nuclear facilities are explicitly in Trump's strike-list framing; 'seize enriched uranium' rhetoric in administration circulars. Iran's enrichment infrastructure and any kinetic on it would dramatically tighten global enrichment market.",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 1,
+      "weight": 6.0
+    },
+    {
+      "to": "trump",
+      "type": "strike_list_rhetoric",
+      "context": "Trump's articulated strike-list (bridges, power stations) implicates Iran's nuclear infrastructure. 'Seize enriched uranium' framing has been in administration channels (Fortune).",
+      "directness": 2,
+      "last_activated": "2026-04-23",
+      "activation_count": 1,
+      "weight": 5.5
+    },
+    {
+      "to": "united-states",
+      "type": "policy_support",
+      "context": "IRA tax credits, fuel-supply programs, liability protections, US government nuclear-capacity-tripling commitment. Strong US policy underpin for uranium sector independent of crisis.",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 1,
+      "weight": 5.0
+    },
+    {
+      "to": "energy-sector",
+      "type": "complement_supply",
+      "context": "Nuclear is a complement-substitute to fossil fuel energy generation. Uranium supply-security premium re-loads with energy supply disruption.",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 1,
+      "weight": 6.0
+    },
+    {
+      "to": "sp-500",
+      "type": "ai_structural_overlap",
+      "context": "Nuclear capacity needed for AI data center power demand — intersects with the AI chip rally (NASDAQ +1.6% record, SMH +2.6%, KOSPI record on SK Hynix HBM-Nvidia mass production).",
+      "directness": 2,
+      "last_activated": "2026-04-23",
+      "activation_count": 1,
+      "weight": 4.5
+    }
+  ],
+  "trigger_points": [
+    {
+      "condition": "Confirmed US/Israeli kinetic action on Iran nuclear-enrichment facility (Natanz, Fordow, Arak)",
+      "cascade": [
+        "uranium-sector",
+        "iran",
+        "united-states",
+        "energy-sector",
+        "brent-crude"
+      ],
+      "mechanism": "Trump's strike-list rhetoric specifically named 'essential infrastructure' — a confirmed kinetic on Iran's nuclear-enrichment facility would activate the full crisis-driven uranium thesis (URA +15-25% on the print) and dramatically tighten global enrichment market. Structurally cleaner than the current 45% crisis / 55% AI blend.",
+      "added": "2026-04-23",
+      "status": "watching"
+    },
+    {
+      "condition": "URA breaks $62 sustained for 3 sessions (above 1M peak +25% from baseline)",
+      "cascade": [
+        "uranium-sector",
+        "energy-sector"
+      ],
+      "mechanism": "Sustained break above $62 confirms the crisis-plus-AI thesis has crowded into uranium beyond AI-structural support — would imply pricing of confirmed Iran nuclear targeting before official confirmation. Asymmetric retracement risk on de-escalation.",
+      "added": "2026-04-23",
+      "status": "watching"
+    }
+  ],
+  "price_snapshots": [
+    {
+      "date": "2026-04-23",
+      "price": "URA $57.73",
+      "trigger": "Crisis-plus-AI rally on Trump strike-list rhetoric + SK Hynix HBM4 mass production announcement",
+      "delta_context": "+7.4% single-day move on a day of Brent intraday $9/bbl reversal; 1M +19.9%, 3M +1.3% (back to 3M start = steep-recent trajectory)"
+    }
+  ]
+}

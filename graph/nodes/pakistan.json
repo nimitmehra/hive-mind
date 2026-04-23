@@ -3,8 +3,8 @@
   "name": "Pakistan",
   "type": "country",
   "created": "2026-03-30",
-  "last_updated": "2026-04-22",
-  "summary": "Day 55 Wednesday EVENING. PAKISTAN ELEVATED TO SOLE BROKER BY TRUMP'S WEDNESDAY 3-5 DAY WINDOW. Trump's Tuesday extension explicitly named Field Marshal Asim Munir + PM Shehbaz Sharif as the trigger for US restraint — first explicit US presidential attribution of Pakistani intervention as the operative reason for not striking. Vance/Witkoff/Kushner Round 2 INDEFINITELY postponed; Pakistan now sole-broker on active diplomatic track until Iran produces a unified proposal. With Trump's 3-5 day timeline (Axios) now public, Pakistan has approximately 72-96 hours to engineer something Tehran's fractured camps can sign. Pakistan FM Dar continues phoning Araghchi. Pezeshkian-Sharif 45-minute call Wednesday — civilian-engagement track operating in parallel to IRGC kinetic. Nawaz Sharif Tuesday public praise ('praises government and Asim Munir over US-Iran mediation efforts') consistent with PML-N coalition closing ranks behind the channel. Operationally, Pakistan is the day's biggest geopolitical winner (elevated from facilitator to broker on US presidential record) and the day's biggest pressure-bearer (3-5 day deliverable expectation set from Washington). Structural problem: Vahidi-camp dominance + Mojtaba silence means Pakistan is brokering with the LOSING side of the Iranian factional fight.",
+  "last_updated": "2026-04-23",
+  "summary": "Day 56 Thursday. Pakistan continues sole-broker role with 3 days to Trump's 3-5 day window expiry. Sharif-Moghadam call Thursday + Dar-Araghchi calls Thursday continue the civilian-to-civilian back-channel architecture. With Pezeshkian's Wednesday-operative-Thursday open accusation that IRGC wrecked the ceasefire (and IRNA suppressing the accusation inside Iran), the Pakistan back-channel is now structurally a civilian-to-civilian back channel BYPASSING IRGC — second-best mediation architecture given Vahidi-camp ascendancy on Iranian operational arm. Quwa (Pakistani defense outlet) Thursday: 'Pakistan's Mediation Crisis: Why the Real Power in Tehran Refuses to Come to the Table' explicitly frames the structural problem. Pakistan's deliverable challenge: Vahidi has the kinetic; Pezeshkian has the international megaphone but cannot deliver Iran. A unified Iranian proposal inside Trump's window requires one to override the other. Pakistan also runs parallel India-track context — IOC Jaya 2M barrel Iranian oil purchase via yuan-ICICI is India's first operational divergence from US blockade architecture and signals India's strategic-autonomy lane operating without Pakistan involvement.",
   "signals": [
     {
       "date": "2026-03-26",
@@ -299,25 +299,37 @@
         "Trump Truth Social Wednesday posts"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "PAKISTAN BACK-CHANNEL CONTINUES SHARIF-MOGHADAM, DAR-ARAGHCHI CALLS THURSDAY [CONFIRMED]. With Pezeshkian's Wednesday-operative-Thursday open accusation that IRGC wrecked the ceasefire (and IRNA suppressing the accusation inside Iran), Pakistan back-channel is now structurally a civilian-to-civilian back channel BYPASSING IRGC — second-best mediation architecture given Vahidi-camp ascendancy on Iranian operational arm. Quwa (Pakistani defense outlet) Thursday: 'Pakistan's Mediation Crisis: Why the Real Power in Tehran Refuses to Come to the Table' explicitly frames the structural problem. 3 days remain to Trump's 3-5 day window expiry. Pakistan's deliverable challenge: Vahidi has the kinetic; Pezeshkian has the international megaphone but cannot deliver Iran. A unified Iranian proposal inside Trump's window requires one to override the other.",
+      "sources": [
+        "Pakistan Today",
+        "Deccan Herald",
+        "The Nation",
+        "Quwa",
+        "Express Tribune (Pezeshkian primary)"
+      ],
+      "significance": "high"
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "mediation_channel",
-      "context": "Day 52 Sunday. Round 2 Monday April 21 CNN single-thread uncorroborated through Sunday 09:00 IST; Pakistan has NOT publicly confirmed. 'No date set' (April 16) remains operative. Araghchi 'reviewing new US proposals' per Al Jazeera = paper-only lane. If no delegation-travel confirmation by Sunday evening IST, Monday deteriorates as catalyst.",
+      "context": "Day 56 Thursday. Sharif-Moghadam, Dar-Araghchi calls Thursday continue civilian-to-civilian back-channel. Pezeshkian-Vahidi public split inside Iran means Pakistan is structurally brokering with the LOSING side — Vahidi-camp ascendant per multi-source REPORTED can deliver kinetic facts; Pezeshkian/Araghchi can deliver only international rhetoric. Quwa: 'Real Power in Tehran Refuses to Come to the Table.'",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 15,
+      "last_activated": "2026-04-23",
+      "activation_count": 16,
       "weight": 10
     },
     {
       "to": "united-states",
       "type": "mediation_channel",
-      "context": "Day 52 Sunday. Round 2 reportedly Monday Apr 21 per Iranian-sourced CNN; uncorroborated through Sunday 09:00 IST. No Witkoff/Vance/Kushner travel publicly tracked. Pakistan 'no date set' unchanged. Antalya Diplomacy Forum Apr 17-19 parallel shuttle still active. If no delegation lands by Sunday evening IST, Monday is rhetoric-inflation event, not structural catalyst.",
+      "context": "Day 56 Thursday. Pakistan continues sole-broker role with 3 days to Trump's 3-5 day window expiry. Sharif-Munir-Trump direct line + Dar-Araghchi continuation. Pakistan's deliverable challenge magnified by Pezeshkian's Wednesday-operative-Thursday public accusation against IRGC — civilian Iran cannot bind operational Iran.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 14,
+      "last_activated": "2026-04-23",
+      "activation_count": 15,
       "weight": 10
     },
     {

@@ -1,0 +1,169 @@
+{
+  "id": "vahidi",
+  "name": "Ahmad Vahidi",
+  "type": "person",
+  "created": "2026-04-23",
+  "last_updated": "2026-04-23",
+  "summary": "IRGC Commander-in-Chief; hardline-faction leader operationally functioning as the dominant decision-maker inside Iran's wartime architecture per Axios, Fox, Euronews, All Israel News, Iran International, The Conversation, Quwa, American Almanac. Created at REPORTED tag on 2026-04-23 after named procedural action (blocked Pezeshkian's appointment of Hossein Dehghan as Intelligence Minister) and named institutional architecture ('military council made up of senior IRGC officers controls access to the centre of power') were corroborated across 6+ independent outlets. Direct adversary to Pezeshkian and Ghalibaf in Axios's factional map (hardliners Vahidi+Zolghadr vs engagement Ghalibaf+Pezeshkian+Araghchi). Operationally controls Hormuz interdiction posture (MSC Francesca seizure 2026-04-22). Iranian state media (IRNA, Tasnim, Press TV) has not addressed the 'in charge' framing — silence consistent with the claim but not confirmation; tag remains REPORTED until Tasnim photograph at SNSC or state-TV interview. Western 'coup in Tehran' editorial framing discounted.",
+  "current": {
+    "role": "IRGC Commander-in-Chief",
+    "faction": "hardline",
+    "status": "operationally controlling state functions per multi-source REPORTED",
+    "last_named_action": "Blocked Pezeshkian's intel-minister appointment (April 22-23 reporting)"
+  },
+  "signals": [
+    {
+      "date": "2026-04-22",
+      "content": "Axios (REPORTED, three US-officials) named Vahidi (IRGC C-in-C) and Zolghadr (SNSC Sec) as the war-continuation hardliners against the Ghalibaf+Pezeshkian+Araghchi engagement faction. US officials told Axios Vahidi 'practically controls the country, blocking Pezeshkian's intel-minister appointments.' First time US side has publicly named the IRGC factional architecture in this crisis.",
+      "sources": [
+        "Axios"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "Multi-outlet convergence on 'IRGC sidelines president, blocks appointments' framing: Fox News ('IRGC seizes control of Iran state functions, blocks president'), Euronews ('Iran's IRGC tightens grip on power as civilian leadership sidelined'), All Israel News ('Coup in Tehran? Hardline IRGC commander Vahidi reportedly seizes power'), Iran International ('Rift deepens between Iran's president and Guards chief'), American Almanac, Asatunews, Madhyamam Online, Quwa ('Pakistan's Mediation Crisis: Why the Real Power in Tehran Refuses to Come to the Table'). Specific procedural datum: Vahidi personally blocked Pezeshkian's attempt to appoint Hossein Dehghan as Intelligence Minister. Iranian administrative operation runs through 'a military council made up of senior IRGC officers that controls access to the centre of power.' France 24 carries a counter-framing piece ('Seriously fractured? Scepticism over Trump's Iran leadership split claim') arguing Trump may be overstating fractures for leverage. (Sources: Fox, Euronews, All Israel News, Iran International, American Almanac, Quwa, France 24)",
+      "sources": [
+        "Fox News",
+        "Euronews",
+        "All Israel News",
+        "Iran International",
+        "American Almanac",
+        "Quwa",
+        "France 24",
+        "The Conversation"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "Pezeshkian Wednesday online statement (operative Thursday) accused IRGC of undermining the ceasefire he and Araghchi negotiated through Pakistan mediation — implicitly naming Vahidi as the obstacle without using his name. House of Saud carried this under the framing 'Pezeshkian Cannot Fire the Generals Wrecking the Ceasefire.' For the first time in 56 days of crisis, Iran's civilian president has openly blamed Iran's military institution in a way that cannot be walked back. IRNA suppressed the accusation inside Iran; Press TV carried Araghchi's softer framing for international consumption — confirming Vahidi-camp control over Iran's state-media information channels in addition to its operational arm. (Sources: House of Saud, Iran International, Express Tribune via Pezeshkian's office direct push)",
+      "sources": [
+        "House of Saud",
+        "Iran International",
+        "Express Tribune",
+        "Euronews"
+      ],
+      "significance": "high"
+    },
+    {
+      "date": "2026-04-23",
+      "content": "Wednesday IRGC kinetic against MSC Francesca (seized, anchored in Iranian waters per AIS) and Epaminondas (severely damaged but transiting back per Greek FM Gerapetritis) is now retrospectively read as Vahidi using operational facts to silence civilian dissent — a familiar pattern in Iranian state politics but unusual in its kinetic expression. CENTCOM Thursday announced 31 vessels redirected as part of the blockade — this scale of US blockade is the operational pressure Vahidi-camp is responding to. (Sources: AIS / Seatrade Maritime / Lloyd's List / CENTCOM via ABC News)",
+      "sources": [
+        "Seatrade Maritime",
+        "Lloyd's List",
+        "ABC News",
+        "MarineTraffic"
+      ],
+      "significance": "high"
+    }
+  ],
+  "edges": [
+    {
+      "to": "irgc",
+      "type": "command_authority",
+      "context": "Commander-in-Chief of the IRGC. Operational authority for fast-boat fire, ship seizures, Hormuz transit-certificate regime, $1/bbl toll booth.",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 2,
+      "weight": 9.0
+    },
+    {
+      "to": "iran",
+      "type": "de_facto_control",
+      "context": "Per multi-source REPORTED: Vahidi 'practically controls the country' through a military council made up of senior IRGC officers controlling access to the centre of power. Iranian state has not denied or confirmed.",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 2,
+      "weight": 8.0
+    },
+    {
+      "to": "pezeshkian",
+      "type": "factional_adversary",
+      "context": "Direct named adversary in Axios's factional map. Vahidi blocked Pezeshkian's appointment of Hossein Dehghan as Intelligence Minister. Pezeshkian Wednesday online statement implicitly named Vahidi (without using his name) as wrecker of the ceasefire.",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 2,
+      "weight": 7.5
+    },
+    {
+      "to": "mojtaba-khamenei",
+      "type": "access_control",
+      "context": "Military council Vahidi presides over controls access to Mojtaba (the centre of power). The Mojtaba silence Day 42 is increasingly read as cover for Vahidi-camp assertion of control rather than tactical pause.",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 1,
+      "weight": 7.0
+    },
+    {
+      "to": "strait-of-hormuz",
+      "type": "operational_authority",
+      "context": "Vahidi as IRGC C-in-C has operational command over the IRGC Navy executing the Hormuz transit-certificate regime, $1/bbl toll, and commercial-vessel kinetic (MSC Francesca seizure 2026-04-22).",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 1,
+      "weight": 7.5
+    },
+    {
+      "to": "trump",
+      "type": "counter_party",
+      "context": "Counter-party not interlocutor. Trump's 3-5 day window is structurally incapable of producing a unified Iranian proposal because Vahidi has the kinetic and Pezeshkian has the international megaphone — neither can override the other within Trump's window.",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 1,
+      "weight": 6.5
+    },
+    {
+      "to": "united-states",
+      "type": "wartime_adversary",
+      "context": "Operational counter-party to the US blockade architecture (CENTCOM 31 vessels redirected). Vahidi-camp's kinetic response is the operational mechanism by which US pressure is converted into Iranian escalation.",
+      "directness": 1,
+      "last_activated": "2026-04-23",
+      "activation_count": 1,
+      "weight": 6.5
+    }
+  ],
+  "trigger_points": [
+    {
+      "condition": "Tasnim or IRNA publishes photograph of Vahidi at SNSC, Mojtaba meeting, or substantive state-TV interview confirming 'in charge' role",
+      "cascade": [
+        "vahidi",
+        "iran",
+        "irgc",
+        "mojtaba-khamenei"
+      ],
+      "mechanism": "Iranian state has been silent on the Vahidi 'in charge' framing — silence is consistent with the claim but not confirmation. A Tasnim photograph at SNSC or a state-TV interview would upgrade the verification tag from REPORTED to CONFIRMED and convert 'coup in Tehran' from Western editorial to operational fact. Absence of such confirmation through end of Trump's 3-5 day window keeps the tag at REPORTED with continued caveat.",
+      "added": "2026-04-23",
+      "status": "watching"
+    },
+    {
+      "condition": "Vahidi-orchestrated hardline statement issued in Mojtaba's name by Friday 23:59 IST 2026-04-24",
+      "cascade": [
+        "vahidi",
+        "mojtaba-khamenei",
+        "iran",
+        "united-states",
+        "trump",
+        "brent-crude"
+      ],
+      "mechanism": "Mojtaba silence Day 42 trigger fires Friday 23:59 IST. If Vahidi-camp orchestrates a hardline statement in Mojtaba's name (or a Vahidi-ghostwritten message), the trigger fires but the downstream cascade is the OPPOSITE direction from the de-escalatory unifying intervention the original framework assumed. The fact that no Mojtaba-in-Vahidi's-name statement has been issued through Day 42 is itself consistent with Mojtaba being genuinely incapacitated rather than tactically silent.",
+      "added": "2026-04-23",
+      "status": "watching"
+    },
+    {
+      "condition": "Pezeshkian publicly forces Vahidi out OR Vahidi forces Pezeshkian out within Trump's 3-5 day window (~April 26 IST)",
+      "cascade": [
+        "vahidi",
+        "pezeshkian",
+        "iran",
+        "irgc",
+        "united-states",
+        "trump"
+      ],
+      "mechanism": "A unified Iranian proposal inside Trump's 3-5 day window requires Vahidi to override Pezeshkian OR Pezeshkian to override Vahidi. Vahidi has the kinetic; Pezeshkian has the international megaphone. Either direction would resolve the factional split and produce a proposal. Absence through April 26 = no proposal, Trump strike-list probability dominant. Falsifiable: 23:59 IST Sunday April 26.",
+      "added": "2026-04-23",
+      "status": "watching"
+    }
+  ],
+  "price_snapshots": []
+}
