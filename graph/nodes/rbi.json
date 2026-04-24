@@ -3,8 +3,8 @@
   "name": "Reserve Bank of India",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-23",
-  "summary": "Day 56 Thursday — RBI 'REBUILDING FX RESERVES' (BLOOMBERG) = SIGNAL OF DEFERRED INTERVENTION; MANAGED-DEPRECIATION REGIME CONFIRMED AT ~25-30 PAISE/DAY. USD/INR ₹94.08 Thu (broke ₹94 from morning ₹93.80) — RBI is NOT intervening aggressively to defend rupee. With FX reserves at $700B+, RBI has ammunition but is CHOOSING to let rupee depreciate — intentional policy choice, not capitulation. India 10Y +4bps to 6.95% — FII debt outflows compounding. FII April-MTD outflows ₹37,933 crore. 5.25% benchmark hold (April 8). Markets.md flags RBI signal will arrive if rupee breaks ₹94.50 cleanly — currently 42 paise away. April 28-29 FOMC pre-meeting blackout begins; Fed 3.50-3.75% held, Powell 1 cut signaled. Cross-currency pressure: rupee weakening DESPITE Brent fade Thursday — capital-flow-correlated regime, not oil-correlated. Governor Malhotra: reserves 'sufficient for next 11 months.' Structural resilience LOWERING left-tail but RAISING investor's deployment-opportunity hurdle.",
+  "last_updated": "2026-04-24",
+  "summary": "Day 57 Friday — MANAGED-DEPRECIATION REGIME AT ~25-30 PAISE/DAY CONFIRMED. USD/INR ₹94.23 weakest-of-crisis close. RBI Governor Malhotra: currency curbs are 'temporary' — rollback trajectory signaled. Bloomberg April 20 confirmed RBI EASING SOME forex curbs on banks — partial reversal of managed-depreciation toolkit. RBI cumulative April dollar sales ~$3.6B. FX reserves $700.9B week-ended April 10 (week-over-week flat); March drawdown $30.5B; 11-months-of-imports cushion holds. India 10Y 6.98% (+3bps) — FII debt outflows compounding. FPI YTD outflows ₹1.67 trillion approaching April-2020 pandemic-scale. Markets.md flags Monday ₹94.50 clean break as threshold for renewed RBI curbs per Bloomberg. 5.25% benchmark hold (April 8). Fed FOMC April 28-29 blackout active; 99.4% no-change priced. Cross-currency: rupee weakened DESPITE Brent -$10/bbl two sessions — capital-flow regime dominant. RBI has ammunition but is CHOOSING the policy route of controlled weakening, not defending a specific level. Structural resilience LOWERING left-tail but RAISING investor's deployment-opportunity hurdle.",
   "signals": [
     {
       "date": "2026-03-04",
@@ -358,6 +358,19 @@
         "TradingEconomics/RBI/CCIL (India 10Y)"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "RBI MANAGED-DEPRECIATION REGIME CONFIRMED — GOVERNOR MALHOTRA 'CURBS TEMPORARY' [CONFIRMED policy-signal]. Bloomberg April 20: RBI eased some forex curbs on banks (not tightening) — partial rollback of aggressive March measures. Governor Malhotra April 8 position confirmed through Friday: curbs are 'temporary.' Cumulative April dollar sales ~$3.6B. FX reserves $700.9B week-ended April 10; 11-months-of-imports cushion holds. Managed regime: ~25-30 paise/day controlled depreciation pace; RBI SELLING dollars WHILE easing curbs — controlled weakening with maintained market confidence. India 10Y 6.98% (+3bps Friday) — FII debt outflows on US yield-differential narrowing. FPI YTD outflows ₹1.67 trillion approaching April-2020 pandemic-scale capitulation. Monday watchpoint: break of ₹94.50 cleanly could trigger renewed RBI curbs per Bloomberg flagging. Fed FOMC April 28-29: 99.4% no-change; blackout active; not a Monday catalyst.",
+      "sources": [
+        "Bloomberg April 20 (curb easing)",
+        "scripts/market-data.py",
+        "RBI weekly statistical supplement (relay)",
+        "Business Standard",
+        "Vision IAS"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED policy signalling + market data."
     }
   ],
   "edges": [

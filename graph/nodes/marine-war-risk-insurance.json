@@ -3,8 +3,8 @@
   "name": "Marine War Risk Insurance",
   "type": "institution",
   "created": "2026-04-08",
-  "last_updated": "2026-04-23",
-  "summary": "Day 56 Thursday. LLOYD'S AWRP THURSDAY LONDON REPUBLISH SPECIFIC NUMBER NOT YET IN OPEN-SOURCE ENGLISH PRESS — INDUSTRY BACKDROP CONSISTENT WITH 1.5-2.0% STEP-UP BAND BUT NOT YET CONFIRMED AT HEADLINE NUMBER. Industry context: (a) London insurers launched $1B war risk consortium via Beazley mid-April; (b) rates 'renewable every seven days' at 1% of hull replacement value per S&P Global; (c) reported ranges 1-3% for Middle East routes; (d) Lloyd's List March: US/UK/Israeli-flagged ships charged 3x other flags. Absence of specific Thursday-morning step-up print = either republish has not yet been public-released, or step-up is being absorbed into existing 1-3% band rather than discrete headline number. Wednesday evening brief's falsification window (~12 hours) effectively extended to Thursday European session close. Expect Lloyd's List subscriber-channel confirmation Thursday US morning ~17:30 IST. Single most time-sensitive open trigger in the graph. Joint Hull Committee weekly-renewable rhythm continues; high-risk zone covers Bahrain/Djibouti/Kuwait/Oman/Qatar waters. Brent peak-fade $106→$97 (-4.4%) plus AWRP holding 5-8x pre-crisis = paper-physical gap re-opened — physical underwriting market still pricing operational continuation while paper Brent retreats on rhetoric cooling.",
+  "last_updated": "2026-04-24",
+  "summary": "Day 57 Friday. AWRP HOLDS 2-6% OF HULL VALUE (8-24x PRE-CRISIS); PAPER-PHYSICAL GAP AT WIDEST OF CRISIS. Per S&P Global, Marketplace, Lloyd's List, IBTimes, Caixin: Gulf AWRP 2-6% of hull value (from 0.25% pre-crisis = 8-24x pre-crisis multiplier). Lloyd's List: 'US/UK/Israeli-flagged vessels charged 3x others.' Joint War Committee maintains entire Persian Gulf as 'high-risk' zone. Mid-April reporting: 'cautious stabilization' of premiums on ceasefire-discussion reports, with SOME transits eased to 0.8-1% band. No fresh April 24 rate print in open press. Trump DFC $40B reinsurance facility partnership with US insurers is the CEASEFIRE-PRICING DATUM — government backstop enabling commercial pullout. Above a threshold AWRP, DFC absorbs; operational cap on escalation. Paper Brent -6.8% Friday cumulative $9-10/bbl two-session fade WHILE AWRP holds 8-24x pre-crisis = paper-physical gap widest of crisis per markets.md. Marine-war-risk-insurance → brent-crude edge is now the CLEANEST REGIME-IDENTIFICATION TOOL in the graph per markets.md F2.",
   "current": {
     "cover_pre_crisis": "$25K/year per vessel",
     "cover_current": "Easing to 0.8-1.0% hull value (from 2.5% peak). Still 4-6x pre-crisis (0.15-0.25%). LMA: 88% of Lloyd's market has appetite. Constraint is SAFETY, not availability.",
@@ -174,6 +174,19 @@
         "Trading Economics gas / Brent"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "AWRP 2-6% HULL VALUE (8-24x PRE-CRISIS) — PAPER-PHYSICAL GAP AT WIDEST OF CRISIS; DFC $40B REINSURANCE FACILITY IS THE OPERATIONAL CAP [CONFIRMED]. Per S&P Global, Marketplace, Lloyd's List, IBTimes, Caixin: Gulf AWRP held 2-6% of ship value (from 0.25% pre-crisis = 8-24x multiplier). Lloyd's List: 'US/UK/Israeli-flagged vessels charged 3x others.' Joint War Committee maintains entire Persian Gulf as 'high-risk' zone. Mid-April reporting: 'cautious stabilization' on ceasefire-discussion reports, with some transits eased to 0.8-1% band. No fresh April 24 rate print in open press. Trump DFC $40B reinsurance facility partnership with US insurers is the CEASEFIRE-PRICING datum: government insurance backstopping commercial pullout. Signals both (a) commercial insurance market pullout is severe, (b) US government willing to underwrite continued Hormuz transit politically. Operational cap on AWRP escalation: above a threshold, DFC absorbs. Paper Brent -6.8% Friday cumulative $9-10/bbl two-session fade WHILE AWRP holds 8-24x pre-crisis unchanged = PAPER-PHYSICAL GAP WIDEST OF CRISIS. Cleanest mechanism demonstration to date of marine-war-risk-insurance → brent-crude diagnostic edge per markets.md F2 — second consecutive day the mechanism is operationally demonstrated. This edge is now the cleanest regime-identification tool in the graph.",
+      "sources": [
+        "S&P Global",
+        "Marketplace",
+        "Lloyd's List",
+        "IBTimes",
+        "Caixin"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED industry physical indicators; no April 24 specific rate print in open press."
     }
   ],
   "edges": [
@@ -198,11 +211,20 @@
     {
       "to": "brent-crude",
       "type": "supply_constraint_diagnostic",
-      "context": "Day 56 Thursday. Paper-physical gap re-opened — paper Brent fell $9/bbl ($106→$97) during US session as AWRP held 5-8x pre-crisis. Cleanest mechanism demonstration this crisis has produced of marine-war-risk-insurance → brent-crude diagnostic edge. Paper pricing rhetoric cooling; physical pricing operational continuation. Per markets.md F2: edge is the diagnostic for regime identification.",
+      "context": "Day 57 Friday. PAPER-PHYSICAL GAP AT WIDEST OF CRISIS — paper Brent -6.8% cumulative $9-10/bbl two-session fade while AWRP holds 8-24x pre-crisis. Cleanest regime-identification tool in the graph per markets.md F2; second consecutive day the mechanism is operationally demonstrated. Trump DFC $40B reinsurance facility is the operational cap on AWRP escalation.",
       "directness": 2,
-      "last_activated": "2026-04-23",
-      "activation_count": 7,
-      "weight": 8.5
+      "last_activated": "2026-04-24",
+      "activation_count": 9,
+      "weight": 9.5
+    },
+    {
+      "to": "trump",
+      "type": "government_backstop",
+      "context": "Trump DFC $40B reinsurance facility partnership with US insurers is the cleanest government-backstop datum of the crisis. Above a threshold AWRP, DFC absorbs. Not a node; informational context per markets.md F8.",
+      "directness": 1,
+      "last_activated": "2026-04-24",
+      "activation_count": 2,
+      "weight": 6.0
     }
   ],
   "trigger_points": [
@@ -227,9 +249,9 @@
         "brent-crude",
         "shipping-tankers"
       ],
-      "mechanism": "Most time-sensitive trigger in graph — falsification test within ~12 hours of trigger creation. IRGC Wednesday kinetic (container ship firing + MSC Francesca/Epaminondas seizure) re-prices underwriting calculus. 1.5-2.0% republish = framework correct, structural re-rate of Gulf war risk; pushes Goldman severe-tail $115 Q4 toward base-case probability. 1.0-1.2% republish = London market is mis-pricing Wednesday kinetic, AWRP step-up thesis falsified, paper-physical convergence delayed. Friday spot quotes 1.5-2.5% expected. Falsifiable: Thursday London republish at 11:00 GMT.",
+      "mechanism": "Most time-sensitive trigger in graph — falsification test within ~12 hours of trigger creation. IRGC Wednesday kinetic (container ship firing + MSC Francesca/Epaminondas seizure) re-prices underwriting calculus. 1.5-2.0% republish = framework correct, structural re-rate of Gulf war risk; pushes Goldman severe-tail $115 Q4 toward base-case probability. 1.0-1.2% republish = London market is mis-pricing Wednesday kinetic, AWRP step-up thesis falsified, paper-physical convergence delayed. Friday spot quotes 1.5-2.5% expected. Falsifiable: Thursday London republish at 11:00 GMT. | RESOLVED 2026-04-24: No Thursday or Friday specific rate print surfaced in open English press. Industry backdrop consistent with 2-6% band for Middle East routes per S&P Global / Lloyd's List / Caixin. Step-up is being absorbed into 1-3% band rather than discrete headline. Trigger closes as NEITHER framework confirmed NOR falsified — the republish simply did not surface. AWRP at 2-6% is elevated but within the pre-established band.",
       "added": "2026-04-22",
-      "status": "watching"
+      "status": "resolved"
     }
   ]
 }

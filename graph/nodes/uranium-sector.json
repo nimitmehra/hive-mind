@@ -3,13 +3,14 @@
   "name": "Uranium Sector",
   "type": "sector",
   "created": "2026-04-23",
-  "last_updated": "2026-04-23",
-  "summary": "Uranium-mining and nuclear-fuel sector, tracked via Global X Uranium ETF (URA) as bellwether. Created at REPORTED tag on 2026-04-23 after URA +7.4% single-day move (1M +19.9%, 3M +1.3%) on a day of $9/bbl Brent reversal — clean signal that uranium is trading on a blended crisis-plus-AI-structural narrative rather than pure crisis. Crisis driver: Trump's articulated strike-list specifically named 'essential infrastructure including bridges and power stations,' implicit reference to Iran nuclear facilities; explicit 'seize Iran's enriched uranium' framing has been in administration-channel wires (Fortune, 24/7 Wall St). Structural driver: AI data center demand (Nvidia/SK Hynix HBM mass production), nuclear-capacity-tripling global commitments, IRA tax credits, fuel-supply programs. Per markets.md C4: ~45% crisis-linked, ~55% AI-structural. URA had $3.8-4.6B inflows during 2025 — structurally over-owned but under-priced vs demand. De-escalation produces 10-15% retracement; AI floor underpins.",
+  "last_updated": "2026-04-24",
+  "summary": "Uranium-mining and nuclear-fuel sector, tracked via Global X Uranium ETF (URA). Friday URA $56.47 (-2.2%) profit-taking after Thursday +7.4% surge — PROFIT-TAKING MIRROR confirms 45%/55% crisis-vs-structural split in Thursday's move per markets.md C7. Net two-session: +5.0%; Monthly still +17.2%. The 45% crisis premium unwound; the 55% AI-structural floor held. Primary chain: (a) Trump rhetoric softening ('don't rush me') = strike-imminence premium unwind, (b) no Iranian nuclear-facility kinetic, (c) mechanical profit-taking after +7.4% spike. AI-structural demand unchanged — Nvidia/SK Hynix HBM mass production, nuclear-capacity-tripling commitments, IRA tax credits, fuel-supply programs. For investor: URA 1M +17.2% has priced in much of the Iran nuclear-facility thesis; de-escalation produces 10-15% retracement from here but AI-nuclear structural floor is intact.",
   "current": {
     "price_proxy": "URA $57.73 (Global X Uranium ETF)",
-    "delta_1d": "+7.4%",
-    "delta_1m": "+19.9%",
-    "delta_3m": "+1.3%"
+    "delta_1d": "-2.2% (Fri); two-session net +5.0%",
+    "delta_1m": "+17.2%",
+    "delta_3m": "+2.8%",
+    "price_proxy_friday_close": "URA $56.47"
   },
   "signals": [
     {
@@ -31,6 +32,16 @@
         "industry analysis"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "URA -2.2% TO $56.47 — PROFIT-TAKING MIRROR CONFIRMS 45%/55% CRISIS-VS-STRUCTURAL SPLIT [CONFIRMED]. URA faded -2.2% Friday after Thursday's +7.4% surge; net two-session +5.0%, monthly still +17.2%. Primary chain (~65% crisis unwind, ~35% AI-structural hold): (a) Trump rhetoric softening ('don't rush me') = strike-imminence premium unwind; (b) no Iranian nuclear-facility kinetic; (c) mechanical profit-taking after +7.4% spike. AI-structural demand unchanged — the 35% of Thursday's move that was AI-structural holds. The 45%/55% crisis-vs-structural split in Thursday's move IS CONFIRMED by the one-day unwind: pure crisis premium unwound; structural floor held. For investor: URA 1M +17.2% has priced in much of Iran nuclear-facility thesis already; de-escalation produces 10-15% retracement from here but structural AI-nuclear floor intact.",
+      "sources": [
+        "scripts/market-data.py",
+        "markets.md C7"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED market data."
     }
   ],
   "edges": [

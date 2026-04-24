@@ -3,13 +3,13 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-23",
-  "summary": "Day 56 Thursday — S&P 500 7,137.90 (+1.0%) RECORD HIGH, NASDAQ 24,657.57 (+1.6%) RECORD on AI chip 16th consecutive session rally; DOW 49,490.03 (+0.7%). VIX 19.70 (+4.1% slight fear uptick on Israeli combat-readiness leak; STILL SUB-20 = PHASE 1 MISPRICING CONTINUES). On a day Israel initiated combat-readiness procedures and Trump articulated bridges-and-power-stations strike list, NASDAQ made a record and Broadcom +8%, AMD/Micron +5-8%. SK Hynix Thursday: mass production of HBM4 for Nvidia advanced AI processors. SMH $476.83 (+2.6%, 1M +21.8%, 3M +19.2%) — AI chip complex 16 consecutive sessions. KOSPI +0.9% RECORD on HBM-Nvidia. TAIEX -0.4% but 1M +15.3%. URA URANIUM +7.4% to $57.73 (1M +19.9%) — uranium-sector node CREATED at REPORTED. Lockheed Martin Q1 MISS (EPS $6.44 vs $6.73; FCF -$291M vs +$955M) drove ITA -1.8% — earnings-driven NOT crisis-rotation; macro defense thesis intact. The 'markets shrug' phenomenon perfected. Phase 1 mispricing most visibly expressed in AI-chip rally during wartime. If Friday-Sunday kinetic materialises, AI complex takes biggest drawdown precisely because it has loaded the most risk-on beta during absorption. Friday-Sunday is the inflection window: Trump 3-5 day patience expires ~Sunday + Lebanon ceasefire expires April 26 same day. Asymmetry now maximum: downside on escalation is sharp, upside on de-escalation is modest (already priced).",
+  "last_updated": "2026-04-24",
+  "summary": "Day 57 Friday — S&P 500 7,108.40 (-0.4% OFF THURSDAY RECORD); NASDAQ 24,438.50 (-0.9%); DOW 49,310.32 (-0.4%); VIX 18.50 (-4.2%) BELOW 19 WAR-ERA FLOOR, near April 15-16 low 18.17 = MAXIMUM PHASE 1 MISPRICING of crisis. VIX dropped INTO notional expiry of Trump 3-5 day patience window Sunday, with USS Bush carrier just arrived + Trump destroy-mine-laying-boats ROE active + Mojtaba 'fracture in enemy' statement + Iran coordinated unity push. Institutional fear NOT being priced. Disconnect between VIX and Brent intraday range (Brent $98-107 Friday, $9 range) is sharpest tell of Phase 1 mispricing yet. Put skew at ~2x calls per Saxo (hedging, not panic). US 10Y 4.32% (+0.7bps), US 2Y 3.60% unchanged — no bond-market stress. SMH $481.85 (+1.1%) — Taiwan TAIEX +3.2% on TSMC fund-limit deregulation (JPM $6B+ inflow) spilled over but with non-crisis attribution. URA $56.47 (-2.2%) profit-taking after Thursday +7.4%. LMT $529.79 (-4.6%) extended Q1 miss absorption to -7.4% two-day — ITA flat, LMT-specific. Earnings season 81% beat rate. Fed FOMC April 28-29 blackout; 99.4% no-change priced. Upside-on-escalation asymmetry MAXIMUM: confirmed weekend kinetic spikes VIX +30-40% within hours (18.50 → 24-26), S&P gaps down 2-3% Monday. Nothing reverses the mispricing except a catalyst — institutional fear returns instantaneously on news.",
   "current": {
-    "price": "7,137.90 (Thu close, RECORD); NASDAQ 24,657.57; DOW 49,490.03; VIX 19.70",
-    "delta_1d": "S&P +1.0% RECORD; NASDAQ +1.6% RECORD; DOW +0.7%; VIX +4.1%",
-    "delta_1m": "S&P +8.5%; NASDAQ +12.4%; SMH +21.8%",
-    "delta_3m": "S&P +3.2%; NASDAQ +4.9%; SMH +19.2%"
+    "price": "7,108.40 (Fri close); NASDAQ 24,438.50; DOW 49,310.32; VIX 18.50",
+    "delta_1d": "S&P -0.4%; NASDAQ -0.9%; DOW -0.4%; VIX -4.2%",
+    "delta_1m": "S&P +8.4%; NASDAQ +12.3%; SMH +22.1%",
+    "delta_3m": "S&P +2.3%; NASDAQ +3.5%; SMH +20.8%"
   },
   "price_snapshots": [
     {
@@ -365,6 +365,17 @@
         "Morgan Stanley"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "VIX 18.50 (-4.2%) BELOW 19 WAR-ERA FLOOR — MAXIMUM PHASE 1 MISPRICING [CONFIRMED]. VIX dropped INTO Trump patience-window notional expiry, on a day with USS George H.W. Bush arrival (3rd US carrier, highest since 2003) + Trump new destroy-mine-laying-boats ROE + Mojtaba 'fracture' statement + Iran three-branch unity choreography + Brent $107 Asian spike. Institutional fear NOT priced. Disconnect between VIX 18.50 and Brent intraday $9 range (98-107) = sharpest tell of Phase 1 mispricing the crisis has produced. Put skew at ~2x calls per Saxo (hedging, not panic). Two reads: (a) institutional money believes Trump extends again (priced 'don't rush me' as de-escalation); (b) vol suppressed by month-end rebalancing into equities. S&P 7,108.40 (-0.4%) off Thursday record; NASDAQ 24,438.50 (-0.9%); DOW -0.4%; US 10Y 4.32% (+0.7bps); US 2Y 3.60% unchanged — no bond stress. Upside-on-escalation asymmetry MAXIMUM: confirmed weekend kinetic spikes VIX +30-40% within hours (18.50 → 24-26 range), S&P gaps down 2-3% Monday open. Institutional fear returns instantaneously on news, not gradually. SMH $481.85 (+1.1%) — Taiwan TAIEX +3.2% spill from TSMC single-stock fund-limit deregulation (JPM $6B+ inflow). Earnings at 81% beat rate (87 S&P 500 reported); Texas Instruments +18% Thursday (best day since 2000); Tesla beat; ServiceNow -13% on weak subscription revenue. LMT -4.6% extended Q1 miss absorption; ITA flat.",
+      "sources": [
+        "scripts/market-data.py",
+        "Trading Economics VIX historical",
+        "Saxo Bank Options Brief"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED market data."
     }
   ],
   "edges": [

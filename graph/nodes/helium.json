@@ -3,8 +3,8 @@
   "name": "Helium",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-23",
-  "summary": "Day 56 Thursday. HELIUM SPOT +40% VS PRE-CRISIS PER BOFA — TIGHTENING PER ALLOCATION REPORTS. Qatar providing 27-30% of global helium; Korean chipmakers paying premium for US sources; Samsung/SK Hynix have inventory through June. Fortune $650B AI-economy-helium framing materialising. SK Hynix Thursday: mass production of HBM4 for Nvidia advanced AI processors — KOSPI +0.9% RECORD on this; helium edge to semiconductors structurally tight via the chipmaker route. SMH $476.83 (+2.6% Thu, 1M +21.8%, 3M +19.2%) — AI chip complex 16 consecutive sessions. The chip sector has ~60 days before helium pricing starts hitting margins. If Samsung Q2 guidance flags it, edge strengthens dramatically; if absorbed without earnings impact, edge decreases in consequence. Live test phase per markets.md F3. URA URANIUM +7.4% to $57.73 (uranium-sector node CREATED at REPORTED) — nuclear+AI overlap reinforces semis-uranium-helium triangulation. TSMC 2+ months stock; Samsung HeRS operational covering ~18.6% of consumption. Production-halt trigger effectively dead absent direct Qatar physical attack — but Wednesday IRGC kinetic in Hormuz re-loads conditional probability of escalation against Qatari LNG infrastructure that would have downstream helium consequences.",
+  "last_updated": "2026-04-24",
+  "summary": "Day 57 Friday. HELIUM CASCADE FALSIFIED AT DIRECT-CUSTOMER LEVEL BY SK HYNIX Q1 EARNINGS. SK Hynix reported Q1 2026 operating profit 37.6T won (~$27.2B) on revenue 52.5T won — operating margin ~72% (above Nvidia's 65%, crisis-era record). On helium: 'SK Hynix said it has DIVERSIFIED SUPPLIERS for key industrial inputs such as helium, bromine, and tungsten and has built up SUFFICIENT INVENTORY, with LIMITED IMPACT expected on its production.' Samsung earnings April 29. BofA +40-100% spot premium ($1,000-1,200/Mcf from $500 pre-war per Tom's Hardware / Fortune / Motley Fool) IS REAL but NOT translating into guidance impact. Ras Laffan (Feb 28 Iranian drone strike) removed ~27-30% of global supply; South Korea imports 64.7% from Qatar; repairs estimated 3-5 years. Samsung HeRS operational covers ~18.6% of consumption. Linde (+2.7%) and BASF (+0.3%) both holding gains Friday — chemical/industrial-gas supply-chain rotation thesis intact; semiconductor-direct-impact thesis WEAKER. Helium-cascade play-book for investor deployment is WEAKER than Wednesday brief framed. Per markets.md F4: edge weight REDUCED; tag as 'REPORTED cascade running below model severity.' Mechanism still real but not translating into margin compression at tier-1 chipmakers. Samsung April 29 earnings is the next falsification test — silence on helium in guidance confirms weakening; flag as margin risk reopens the cascade.",
   "current": {
     "price": "~$300+/MCF bulk liquid indicative (Smith, J2 Sourcing); Q2 allocation-notice window pushed to late-May/early-June",
     "delta_1d": "SMH +0.0% Mon (relative outperformance on -0.26% Nasdaq); KOSPI +1.9% Tue; TAIEX +2.0% Tue",
@@ -299,6 +299,20 @@
         "markets.md C5 / C6 indirect"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "SK HYNIX Q1 2026 EARNINGS — 72% OPERATING MARGIN + DIVERSIFIED HELIUM SUPPLIERS = CASCADE FALSIFIED AT DIRECT-CUSTOMER LEVEL [CONFIRMED]. SK Hynix Q1 operating profit 37.6102 trillion won (~$27.2B) on revenue 52.5762 trillion won — operating margin ~72%, materially above Nvidia's 65% and a crisis-era record. On helium: 'SK Hynix said it has DIVERSIFIED SUPPLIERS for key industrial inputs such as helium, bromine, and tungsten and has BUILT UP SUFFICIENT INVENTORY, with LIMITED IMPACT expected on its production.' Samsung earnings April 29. Operational falsification of the helium→semiconductor cascade premium graph modeled Wednesday: major Korean customers have already buffered their supply-chain risk. BofA '+40% spot premium' ($1,000-1,200/Mcf per Tom's Hardware / Fortune / Motley Fool) IS REAL but NOT translating into guidance impact. SK Hynix management guided ongoing HBM4 demand through 2028 — AI-driven rather than crisis-driven. Linde +2.7% and BASF +0.3% held gains Friday → chemical/industrial-gas supply-chain rotation thesis intact; semiconductor-direct-impact thesis WEAKER. Investor-relevant: helium cascade as play-book for sizing entry is WEAKER than Wednesday framing. Per markets.md F4: edge weight REDUCED; tag as 'REPORTED cascade running below model severity.' Samsung April 29 earnings = next falsification test: silence on helium in guidance confirms weakening; flag as margin risk reopens the cascade. (Sources: CNBC SK Hynix earnings coverage, KED Global, Meyka, ICO Optics earnings analysis)",
+      "sources": [
+        "CNBC SK Hynix earnings coverage",
+        "KED Global",
+        "Meyka",
+        "ICO Optics earnings analysis",
+        "Tom's Hardware (helium spot)",
+        "Fortune / Motley Fool / Oregon Group"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED (SK Hynix Q1 earnings release + explicit helium disclosure)."
     }
   ],
   "edges": [
@@ -313,21 +327,21 @@
     },
     {
       "to": "sp-500",
-      "type": "tech_supply_risk",
-      "context": "Helium cliff RESOLVED. SMH +14.2% monthly. No Samsung/SK Hynix production halt by Day 10 of TrendForce window. AI investment cycle (CoreWeave $21B Meta deal) driving semiconductor rally independent of helium.",
+      "type": "tech_supply_risk_weakening",
+      "context": "Day 57 Friday. Cascade REPORTED running below model severity per SK Hynix Q1 disclosure: diversified suppliers + sufficient inventory + limited production impact. Edge weight DOWNGRADED per markets.md F4. Samsung Q1 earnings April 29 = next falsification test.",
       "directness": 2,
-      "last_activated": "2026-04-15",
-      "activation_count": 13,
-      "weight": 10
+      "last_activated": "2026-04-24",
+      "activation_count": 14,
+      "weight": 7.0
     },
     {
       "to": "south-korea",
-      "type": "supply_chain_cascade",
-      "context": "Day 54. KOSPI 6,338.80 (+1.9% Tue, +17.3% 1M) on Samsung Q1 8x YoY record + HeRS operational + TSMC Q1 58% profit absorbing helium-chain fear. Helium cliff further defused by Samsung HeRS ~18.6% consumption coverage + 64.7% Qatar dependency mitigation. Tuesday Asian tape = market verdict on helium risk: helium-solved framing re-engaged the AI trade.",
+      "type": "supply_chain_cascade_defused",
+      "context": "Day 57 Friday. KOSPI +18.6% 1M (+30.8% 3M) on SK Hynix Q1 72% margin + HBM4 mass production for Nvidia + explicit helium-inventory-sufficient disclosure. Samsung HeRS covers ~18.6% of consumption. Cascade structurally defused at tier-1 chipmaker level.",
       "directness": 3,
-      "last_activated": "2026-04-21",
-      "activation_count": 11,
-      "weight": 10
+      "last_activated": "2026-04-24",
+      "activation_count": 12,
+      "weight": 7.0
     }
   ],
   "trigger_points": [

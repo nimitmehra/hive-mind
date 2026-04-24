@@ -3,8 +3,8 @@
   "name": "Israel",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-23",
-  "summary": "Day 56 Thursday — CHANNEL 12/13/KAN COORDINATED LEAK FIRES THE 72-HOUR TRIGGER AT 24-HOUR MARK. Hebrew TV channels Thursday morning IST carry what Times of Israel describes as 'an apparent coordinated leak': (a) Channel 12 reports IDF 'gearing up for renewed conflict with Iran' and preparing for 'a potential Iranian surprise attack on Israel'; (b) Kan public broadcaster cites a 'senior defense official' stating 'Israel is interested in renewing the war against Iran' because the war ended 'too early, without sufficient pressure being applied on Iran regarding the nuclear issue and ballistic missiles'; (c) Channel 13 reports IDF alert level raised 'significantly' and Chief of Staff Eyal Zamir instructed the military 'to prepare for an immediate resumption of fighting and ordered the initiation of combat readiness procedures.' Three-channel simultaneity is the signal — Israeli defense establishment using TV channels as notification mechanism to US, Iranian decision-makers, and Israeli domestic politics simultaneously. Combat-readiness procedures = preparation (operational step) + confirmed rhetoric/signaling. Most structurally significant Israeli-side signal since Operation Epic Fury. Lebanon track Day 8 of 10: Lebanese Ambassador Moawad meets Israeli Ambassador Leiter in Washington for SECOND ROUND of direct talks in three decades; Hezbollah fired rockets and drones at Israeli forces for first time since truce took effect (Democracy Now); Israeli demolition operations continue with Lebanese journalist killed in southern Lebanon airstrike Thursday morning. April 26 carries TWO simultaneous expiries: Trump 3-5 day Iran window AND Lebanon 10-day ceasefire — both depend on US mediation, both have parallel military-readiness escalations. Stacking materially increases kinetic escalation probability in the window.",
+  "last_updated": "2026-04-24",
+  "summary": "Day 57 Friday — COMBAT-READINESS PROCEDURES STILL ACTIVE, NO FRIDAY KINETIC. Channel 12/13/Kan-leaked combat-readiness procedures (Thursday morning) remain active. No Friday kinetic by Israel against Iran. HAARETZ FRAMING SHIFTED from Thursday's 'imminent strike' coordinated leak to Friday's 'Trump Is Fed Up With the Iran War. That's No Guarantee He Won't Restart It' — characteristic pattern that precedes IDF operational-track shift, suggesting Israeli defense establishment has received Trump's 'don't rush me' signal and is not expecting Friday-Saturday combat-readiness activation. Netanyahu has not made a new public statement. Times of Israel reiterates IDF '3 more weeks of operations to systematically degrade Iran's defense industry' without new specifics. LEBANON TRACK: Trump announced Thursday 3-week extension of the Israel-Lebanon ceasefire from the White House (Moawad-Leiter Round 2 at State Department) — runs to ~May 14. Israeli troops remain in southern Lebanon during extension. Hezbollah Shtula rocket salvo + Israeli Yater airstrike continue the kinetic residual. April 26 IST now carries SINGLE expiry (Iran only); double-expiry architecture is dismantled. Compound-failure probability for the weekend materially softer.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -521,16 +521,41 @@
         "Haaretz April 23 liveblog"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "COMBAT-READINESS PROCEDURES HOLD — NO FRIDAY KINETIC; HAARETZ FRAMING SHIFTED TO 'TRUMP IS FED UP' [CONFIRMED non-events + REPORTED framing shift]. The Channel 12/13/Kan-leaked combat-readiness procedures remain active. No Friday kinetic by Israel against Iran. Haaretz's Friday headline — 'Trump Is Fed Up With the Iran War. That's No Guarantee He Won't Restart It' — is notably a shift in framing FROM Thursday's 'imminent strike' leak TO a more analytical framing about restart conditions. This is consistent with Israeli defense establishment holding posture but not escalating in front of Trump weekend window. Haaretz's characteristic pattern: when IDF operational track has shifted, Haaretz's military-desk framing shifts first. Netanyahu has not made a new public statement. Times of Israel reiterated IDF '3 more weeks of operations to systematically degrade Iran's defense industry' framing but without new specifics. Hezbollah Shtula rocket salvo + Israeli Yater airstrike continue the Lebanon-track kinetic. No new movements in Iraq, Syria, or against Iranian nuclear facilities reported.",
+      "sources": [
+        "Haaretz",
+        "Times of Israel",
+        "CNN Iran war live blog April 24"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED combat-readiness posture; CONFIRMED no kinetic Friday; REPORTED on framing shift."
+    },
+    {
+      "date": "2026-04-24",
+      "content": "ISRAEL-LEBANON CEASEFIRE EXTENDED 3 WEEKS — TRUMP WHITE HOUSE ANNOUNCEMENT [CONFIRMED ACTION]. Second round State Department direct talks (Moawad-Leiter) produced 3-week extension announced by Trump Thursday. Runs to ~May 14. Israeli troops remain in southern Lebanon during extension. Israeli airstrike on Yater Thursday followed by Hezbollah rocket salvo on Shtula settlement — kinetic layer persists. Wafiq Safa (Hezbollah): group will not recognise Washington agreements. PM Salam (Lebanon): any deal requires full Israeli withdrawal from buffer zone. April 26 double-expiry architecture dismantled; only Iran track expires this weekend.",
+      "sources": [
+        "Washington Post",
+        "Euronews",
+        "France 24",
+        "The National UAE",
+        "CNN live blog",
+        "Haaretz live blog"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED ACTION."
     }
   ],
   "edges": [
     {
       "to": "iran",
-      "type": "active_conflict_paused",
-      "context": "Day 56 Thursday. CHANNEL 12/13/KAN COORDINATED LEAK FIRES THE 72-HOUR TRIGGER AT 24-HOUR MARK — IDF combat-readiness procedures initiated per Chief of Staff Zamir; 'Israel is interested in renewing the war against Iran' per senior defense official to Kan. Three-channel simultaneity is deliberate signal to Iran + Washington. Combined with Netanyahu Wednesday Kirya statement + IDF Spokesperson Defrin = 72-hour staircase from contingency to combat readiness procedures initiated. Most structurally significant Israeli-side signal since Operation Epic Fury.",
+      "type": "active_conflict_paused_with_readiness",
+      "context": "Day 57 Friday. Combat-readiness procedures remain active; no Friday kinetic. Haaretz framing shifted from Thursday's 'imminent strike' coordinated leak to Friday's 'Trump Fed Up' analytical framing — characteristic pattern suggesting IDF operational-track has received Trump's 'don't rush me' signal and is not expecting weekend activation. Israeli posture: hold combat-readiness, let Trump own timing.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 33,
+      "last_activated": "2026-04-24",
+      "activation_count": 34,
       "weight": 10.0
     },
     {
@@ -544,20 +569,20 @@
     },
     {
       "to": "lebanon",
-      "type": "structured_pause_fraying",
-      "context": "Day 56 Thursday / Lebanon Ceasefire Day 8 of 10. Lebanese Ambassador Moawad meets Israeli Ambassador Leiter in Washington for second round of direct talks in three decades — US-brokered mechanism to extend truce explicit diplomacy now. Israeli demolition operations continue (Bint Jbeil/Khiam/Markaba/Taybeh) + Lebanese journalist killed in Israeli airstrike Thursday morning. April 26 expiry stacked with Trump Iran 3-5 day window — kinetic escalation probability materially elevated.",
+      "type": "ceasefire_extended_3_weeks",
+      "context": "Day 57 / Israel-Lebanon ceasefire EXTENDED 3 weeks by Trump Thursday announcement (following State Department Moawad-Leiter Round 2). Runs to ~May 14. Israeli troops remain in southern Lebanon during extension. Israeli airstrike on Yater Thursday + Hezbollah Shtula rocket salvo — kinetic residual persists under extended legal architecture. April 26 double-expiry architecture dismantled.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 26,
+      "last_activated": "2026-04-24",
+      "activation_count": 27,
       "weight": 10
     },
     {
       "to": "hezbollah",
-      "type": "structured_pause_fraying",
-      "context": "Day 56 Thursday / Lebanon Ceasefire Day 8. Hezbollah fired rockets and drones at Israeli forces FOR THE FIRST TIME SINCE THE TRUCE TOOK EFFECT (Democracy Now April 22) — ceasefire publicly fraying. Builds on Kalfon IED (April 19) first IDF fatality under window. Iran-Hezbollah linkage operationally intact.",
+      "type": "kinetic_residual_under_extended_ceasefire",
+      "context": "Day 57 / Ceasefire extended 3 weeks. Hezbollah rocket salvo on Shtula settlement Thursday for Israeli Yater airstrike — kinetic layer persists but no open rocket war. Wafiq Safa: Hezbollah will not recognise Washington agreements. Rule-set: low-signature kinetic permitted + rejection of political framework, open rocket war withheld.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 26,
+      "last_activated": "2026-04-24",
+      "activation_count": 27,
       "weight": 10
     },
     {
@@ -609,9 +634,9 @@
         "brent-crude",
         "defense-sector"
       ],
-      "mechanism": "Two simultaneous expiries stacked into one weekend — both depend on US mediation; both have parallel military-readiness escalations (IDF combat-readiness procedures on Iran track per Channel 12/13/Kan; Israeli airstrikes continuing on Lebanon track including Lebanese journalist killed Thursday). Hezbollah fired rockets and drones at Israeli forces for first time since truce took effect (Democracy Now). Compound failure path: Lebanon ceasefire lapses + Trump Iran window expires without proposal → Israel resumes Lebanon ops + activates Iran combat-readiness; Hezbollah responds; Iran's IRGC kinetic continues on Hormuz; oil reload to $103-115. Falsifiable: 23:59 IST Sunday April 26.",
+      "mechanism": "Two simultaneous expiries stacked into one weekend — both depend on US mediation; both have parallel military-readiness escalations (IDF combat-readiness procedures on Iran track per Channel 12/13/Kan; Israeli airstrikes continuing on Lebanon track including Lebanese journalist killed Thursday). Hezbollah fired rockets and drones at Israeli forces for first time since truce took effect (Democracy Now). Compound failure path: Lebanon ceasefire lapses + Trump Iran window expires without proposal → Israel resumes Lebanon ops + activates Iran combat-readiness; Hezbollah responds; Iran's IRGC kinetic continues on Hormuz; oil reload to $103-115. Falsifiable: 23:59 IST Sunday April 26. | RESOLVED 2026-04-24 (partial): Lebanon ceasefire EXTENDED 3 weeks to ~May 14 by Trump announcement Thursday — compound-failure path de-risked. Weekend architecture is now SINGLE-expiry (Iran only). Trigger status updated to reflect Lebanon arm no longer firing.",
       "added": "2026-04-23",
-      "status": "watching"
+      "status": "resolved"
     }
   ]
 }

@@ -3,8 +3,8 @@
   "name": "Mojtaba Khamenei",
   "type": "person",
   "created": "2026-03-23",
-  "last_updated": "2026-04-23",
-  "summary": "Day 42 of public absence — no IRNA/Tasnim/Press TV/Fars new Mojtaba-attributed statement Thursday morning. Friday 23:59 IST trigger does not fire until Friday but pre-firing silence continues. CNN April 21 framing: 'Iran's new supreme leader is nowhere to be seen. That might be helping the regime to survive.' Time: 'Iran's Supreme Leader No Longer Reigns Supreme' is now a weekly stablemate. Mojtaba silence operationally functioning as COVER for Vahidi-camp assertion of control rather than as pause before unifying intervention — incapacitation reading (Reuters: severe wounds, possible leg loss) increasingly fits the facts better than tactical-pause reading. Vahidi node CREATED at REPORTED April 23 — 'military council made up of senior IRGC officers controls access to the centre of power.' Vahidi 'only one who meets the new Supreme Leader face-to-face.' If Vahidi-camp orchestrates a hardline statement in Mojtaba's name (or a Vahidi-ghostwritten message), Friday trigger fires but the downstream cascade is OPPOSITE direction from de-escalatory unifying intervention the original framework assumed. Absence of any Mojtaba-in-Vahidi's-name statement through Day 42 is itself consistent with Mojtaba being genuinely incapacitated rather than tactically silent. Forcing function remains Trump's 3-5 day patience window expiring ~Sunday April 26 IST.",
+  "last_updated": "2026-04-24",
+  "summary": "Day 43. SILENCE BROKEN — but in the OPPOSITE direction the original trigger framework predicted. Friday's attributed Mojtaba statement on X, carried by Press TV + Tasnim + IRNA: 'Due to the strange unity created among compatriots, a fracture has occurred in the enemy.' Explicitly inverts Trump's 'seriously fractured' framing onto the US side. Published AFTER three-branch unity statements Thursday evening (Pezeshkian/Ghalibaf/Mohseni-Ejei); ISW reads as 'choreographed response' acknowledging three-branch obeisance, 'likely seeks to demonstrate unity and signal an end to the internal competition.' NYT April 23 scoop: Mojtaba under frequent medical attention, 'heavily reliant on the advice and guidance of senior IRGC commanders led by Vahidi' — cleanest operational confirmation that 'Mojtaba-silence-then-intervention' framework has been supplanted by 'Vahidi-speaks-through-Mojtaba' architecture. Statement is TEXT-only — no video, no audio. Trigger on 'appears on video/audio' remains UNFIRED. Statement authorship tagged REPORTED/CLAIMED: no named source confirms message is genuinely drafted by Mojtaba vs Vahidi-ghostwritten. Content interpretation is the new live question, not silence. The vahidi.json trigger-point file's 'opposite-direction outcome' scenario has operationalised.",
   "signals": [
     {
       "date": "2026-03-08",
@@ -242,16 +242,33 @@
         "The Conversation 'Who is calling the shots in Iran?'"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "DAY 43 — SILENCE BROKEN, OPPOSITE-DIRECTION OUTCOME [CONFIRMED statement content + coordinated Press TV/Tasnim/IRNA relay; CLAIMED author-identity]. Mojtaba's second attributed statement since his March 12 first-message was published on X Thursday and carried by Press TV and Tasnim Friday. Core content: 'Due to the strange unity created among compatriots, a fracture has occurred in the enemy' — explicitly inverting Trump's 'seriously fractured' framing onto the US side. Statement calls for 'expressing gratitude for this blessing through practical steps' to make 'national unity greater and more steely' and warns 'the enemy's media operations, by targeting the minds and psyches of the people, intend to undermine national unity.' Statement was issued AFTER three-branch coordinated unity statements Thursday evening (Pezeshkian/Ghalibaf/Mohseni-Ejei) — ISW reads as 'acknowledging' the three-branch obeisance, 'likely seeks to demonstrate unity and signal an end to the internal competition.' This is the OPPOSITE-DIRECTION outcome the vahidi.json trigger-point file flagged: a Vahidi-orchestrated hardline signal rather than a de-escalatory unifying intervention. Statement is TEXT-only (X post + state-TV relay) — no video, no audio; the 'appears on video/audio' trigger remains UNFIRED. NYT April 23 (relayed via ISW): Mojtaba under frequent medical attention, 'heavily reliant on the advice and guidance of senior IRGC commanders led by Vahidi' — cleanest operational confirmation that 'Mojtaba-silence-then-intervention' framework has been supplanted by 'Vahidi-speaks-through-Mojtaba' architecture. (Sources: Press TV 'Leader: Remarkable unity among Iranians shatters enemy ranks', Tasnim 'Iranian Unity Deals Major Blow to Enemy Front', Business Standard, ANI, Times of Oman, ISW Critical Threats Iran Update April 21-23, NYT April 23)",
+      "sources": [
+        "Press TV",
+        "Tasnim News Agency",
+        "Business Standard",
+        "ANI",
+        "The Tribune",
+        "Times of Oman",
+        "Nepal News",
+        "ISW Critical Threats",
+        "New York Times"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED statement + coordinated relay. CLAIMED (REPORTED) on Vahidi-ghostwriting vs genuine Mojtaba authorship. Video/audio trigger remains UNFIRED."
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "supreme_leader",
-      "context": "Day 42 of public absence. Vahidi node CREATED at REPORTED April 23 — 'military council made up of senior IRGC officers controls access to the centre of power.' Mojtaba silence operationally functioning as cover for Vahidi-camp assertion of control. Incapacitation reading increasingly fits facts (Reuters: severe wounds, possible leg loss).",
+      "context": "Day 43 silence broken with 'fracture in the enemy' statement — OPPOSITE-DIRECTION outcome. ISW reads as Vahidi-orchestrated. NYT: Mojtaba heavily reliant on Vahidi-led IRGC commanders. Statement acknowledged three-branch obeisance (Pezeshkian/Ghalibaf/Mohseni-Ejei). Still text-only; no video/audio.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 8,
+      "last_activated": "2026-04-24",
+      "activation_count": 9,
       "weight": 10.0
     },
     {
@@ -266,11 +283,11 @@
     {
       "to": "vahidi",
       "type": "access_controlled_by",
-      "context": "Vahidi node CREATED at REPORTED April 23. Per Axios: Vahidi 'only one who meets the new Supreme Leader face-to-face.' Military council made up of senior IRGC officers presided over by Vahidi controls access to Mojtaba (the centre of power).",
+      "context": "Per NYT April 23 (via ISW relay): Mojtaba under frequent medical attention and 'heavily reliant on the advice and guidance of senior IRGC commanders led by Vahidi.' Mojtaba's Friday 'fracture in the enemy' statement read by ISW as Vahidi-orchestrated. 'Mojtaba-silence-then-intervention' framework supplanted by 'Vahidi-speaks-through-Mojtaba' architecture.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 1,
-      "weight": 7.0
+      "last_activated": "2026-04-24",
+      "activation_count": 2,
+      "weight": 8.0
     }
   ],
   "trigger_points": [

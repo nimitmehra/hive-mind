@@ -3,13 +3,13 @@
   "name": "INR/USD Exchange Rate",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-23",
-  "summary": "Day 56 Thursday — RUPEE BROKE ₹94 TO WEAKEST OF CRISIS. USD/INR ₹94.08 (+0.5% rupee weaker vs morning ₹93.80; -0.2% 1M; +2.8% vs pre-crisis ₹87). The rupee weakened another ~28 paise INTRADAY after intel morning print — broke toward ₹94 despite Brent FALLING during the US session. This is the most important India datum: rupee is no longer oil-correlated, fully shifted to capital-flow-correlated. India 10Y +4bps to 6.95%. RBI 'rebuilding FX reserves' (Bloomberg) → NOT intervening aggressively to defend rupee — managed-depreciation regime confirmed at ~25-30 paise/day controlled pace. Triangulating with FX reserves at $700B+, RBI has ammunition but is CHOOSING to let rupee depreciate — intentional policy choice, not capitulation. FII April-MTD outflows ₹37,933 crore. Per markets.md C3 sub-chain: India operating in 'dual-track decoupling' — equity markets under sustained FII pressure (Nifty 4th-session negative while US hits records) while rupee slides monotonically. ₹95 trigger remains watching; if Nifty 23,775 breaks (April 9 low), systematic algo selling activates. RBI signal of DEFERRED intervention will arrive if rupee breaks ₹94.50 cleanly per Bloomberg flagging.",
+  "last_updated": "2026-04-24",
+  "summary": "Day 57 Friday — RUPEE ₹94.23 WEAKEST-OF-CRISIS CLOSE. USD/INR ₹94.23 (+0.5% 1D rupee weaker from ₹94.08); -0.5% 1M; +3.0% vs pre-crisis ₹87. The cleanest decoupling signal of the week: Brent fell $10/bbl over two sessions and rupee STILL weakened — rupee is now definitively capital-flow-driven, not oil-import-bill-driven. India 10Y 6.98% (+3bps); FII April outflows ₹1.67T YTD (~$18.5B) approaching April-2020 pandemic-scale capitulation territory. RBI Governor Malhotra confirmed forex curbs are 'temporary' — rollback trajectory signaling managed-depreciation regime at ~25-30 paise/day controlled pace. Bloomberg April 20 confirmed RBI easing SOME curbs (not tightening) — RBI has ammunition (FX reserves $700.9B week-ended Apr 10) but is CHOOSING policy route of controlled weakening, not defense of a specific level. April ~$3.6B cumulative intervention. Managed regime: RBI SELLING dollars while easing curbs = controlled weakening while maintaining market confidence. Near-term path ₹94.50-95.00 this week. ₹95 trigger remains watching; ₹94.50 clean break would trigger renewed RBI curbs per Bloomberg flagging. For the investor, rupee at weakest-of-crisis = maximum import-cost-absorbed pricing = cleanest 'conviction after mapping' deployment signal.",
   "current": {
-    "price": "₹94.08/USD (Thu close)",
-    "delta_1d": "+0.5% rupee weaker (broke ₹94 from morning ₹93.80)",
-    "delta_1m": "+0.6%",
-    "delta_3m": "+2.4%"
+    "price": "₹94.23/USD (Fri close)",
+    "delta_1d": "+0.5% rupee weaker (from ₹94.08)",
+    "delta_1m": "-0.5%",
+    "delta_3m": "+3.0%"
   },
   "price_snapshots": [
     {
@@ -354,34 +354,47 @@
         "TradingEconomics/RBI"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "RUPEE ₹94.23 WEAKEST-OF-CRISIS CLOSE — DECOUPLING FROM OIL CONFIRMED DEFINITIVELY [CONFIRMED]. USD/INR ₹94.23 (+0.5% rupee weaker vs ₹94.08 Thursday). Brent -$10/bbl two sessions; rupee STILL weakened — the cleanest decoupling signal of the week. Rupee now definitively capital-flow-driven, not oil-import-bill-driven. India 10Y 6.98% (+3bps). FII YTD outflows ₹1.67T (~$18.5B) approaching April-2020 pandemic-scale capitulation. RBI Governor Malhotra: currency curbs are 'temporary' (April 8 position affirmed); Bloomberg April 20 confirmed RBI easing SOME curbs (not tightening) — managed-depreciation regime at ~25-30 paise/day controlled pace. FX reserves $700.9B week-ended April 10; March drawdown $30.5B. April ~$3.6B cumulative intervention. RBI is SELLING dollars while easing curbs = controlled weakening with maintained market confidence. Triangulating: RBI has ammunition but is CHOOSING this policy route, not defending ₹94.50. Monday ₹94.50 clean break could trigger renewed RBI curbs per Bloomberg flagging. Investor-relevant: rupee at weakest-of-crisis = maximum import-cost-absorbed pricing — cleanest entry signal on the 3-5 year deployment horizon.",
+      "sources": [
+        "scripts/market-data.py",
+        "Business Standard April 24",
+        "Bloomberg April 20 on RBI forex curb easing",
+        "RBI weekly statistical supplement",
+        "Livemint"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED market data + RBI policy signalling."
     }
   ],
   "edges": [
     {
       "to": "india",
-      "type": "currency_impact",
-      "context": "Day 50 evening. INR Rs92.84 strengthened -0.6% on Brent crash — best since ceasefire. RBI forex reserves +$9.063B to $697.121B (week-end Apr 3) = valuation-effect rebound, not intervention reversal. Net $31B below $728.494B Feb 27 peak. Iran waiver expires Sunday Apr 19; 'Rs 100/USD by June' stress scenario intact if blockade intensifies post-waiver.",
+      "type": "currency_impact_capital_flight",
+      "context": "Day 57 Friday. ₹94.23 weakest-of-crisis close. FII YTD ₹1.67T outflow approaching pandemic-scale capitulation. Rupee capital-flow-driven not oil-import-driven. Managed-depreciation regime: RBI selling dollars while easing curbs = controlled weakening with maintained market confidence. Investor-relevant: maximum import-cost absorbed.",
       "directness": 1,
-      "last_activated": "2026-04-17",
-      "activation_count": 23,
+      "last_activated": "2026-04-24",
+      "activation_count": 24,
       "weight": 10
     },
     {
       "to": "brent-crude",
-      "type": "cost_transmission",
-      "context": "Day 50 evening. Brent $96.16 (-3.3% net) driving rupee +0.6% strengthening to Rs92.84. Oil's ~$3/bbl drop translated mechanically. Physical-futures gap $36 ($132 Dated vs $96 futures) means actual import costs higher than futures. Waiver expiry T-2 is the structural counterweight unpriced.",
+      "type": "cost_transmission_decoupled",
+      "context": "Day 57 Friday. Brent -$10/bbl over two sessions but rupee WEAKENED to ₹94.23. Oil-import-bill correlation structurally broken. Physical-paper gap (AWRP 2-6%, VLCC near peak) means actual import costs remain elevated; OMC daily USD demand $250-300M absorbed into capital flight.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 21,
+      "last_activated": "2026-04-24",
+      "activation_count": 22,
       "weight": 10
     },
     {
       "to": "rbi",
-      "type": "intervention_target",
-      "context": "NOP cap compliance complete (Malhotra confirmed). Forex reserves below $700B. INR at Rs93.03 (evening offshore) — strengthened through session on DXY 98.07. CPI 3.40% with imported inflation 6.49% complicates rate cut pathway.",
+      "type": "intervention_managed_depreciation",
+      "context": "Day 57 Friday. Governor Malhotra: curbs are 'temporary.' Bloomberg April 20: RBI eased some forex curbs. April ~$3.6B intervention. FX reserves $700.9B. Managed depreciation regime at ~25-30 paise/day confirmed — RBI has ammunition but is CHOOSING policy. Monday ₹94.50 clean break triggers renewed curbs per Bloomberg flagging.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 23,
+      "last_activated": "2026-04-24",
+      "activation_count": 24,
       "weight": 10
     },
     {

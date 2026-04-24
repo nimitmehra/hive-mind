@@ -3,8 +3,8 @@
   "name": "Lebanon",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-23",
-  "summary": "Day 56 / Lebanon Ceasefire Day 8 of 10 — DIRECT WASHINGTON TALKS + HEZBOLLAH ROCKETS/DRONES + ISRAELI JOURNALIST KILLED. Lebanese Ambassador to US Nada Hamadeh Moawad meets Israeli Ambassador Yechiel Leiter in Washington for SECOND ROUND of direct talks in three decades — US-brokered mechanism to extend the 10-day truce beyond Sunday April 26 expiry is now explicit diplomacy, not backchannel. Democracy Now April 22 reports Hezbollah fired rockets and drones at Israeli forces FOR THE FIRST TIME SINCE THE TRUCE TOOK EFFECT — ceasefire publicly fraying. Israeli demolition operations continue (Bint Jbeil, Khiam, Markaba, Taybeh); paramedics recovered body of Lebanese journalist hours after Israeli airstrike in southern Lebanon Thursday morning. Israeli officials continue stating troops will remain inside southern Lebanon during any truce extension. Structurally, April 26 IST now carries TWO simultaneous expiries: Trump 3-5 day Iran window AND Lebanon 10-day ceasefire — both depend on US mediation success; both have parallel military-readiness escalations. Stacking of two expiries into one weekend materially increases the probability of kinetic escalation in the window.",
+  "last_updated": "2026-04-24",
+  "summary": "Day 57 / Lebanon Ceasefire EXTENDED 3 WEEKS from April 26 to ~May 14. Trump announced Thursday (April 23) from the White House, following the second round of direct Lebanon-Israel talks at the State Department — Nada Hamadeh Moawad (Lebanon) and Yechiel Leiter (Israel), with Rubio + Needham + Huckabee + Issa representing the US. MATERIALLY CHANGES WEEKEND ARCHITECTURE: April 26 double-expiry (Trump Iran window + Lebanon ceasefire) is now SINGLE-EXPIRY (Iran only). Extension runs approximately to May 14. Hezbollah separately fired rockets at Shtula settlement Thursday in what it called retaliation for an Israeli airstrike on Yater — kinetic layer beneath the ceasefire persists. Hezbollah senior official Wafiq Safa reiterated the group will not recognise any agreements reached in Washington. PM Nawaf Salam told WaPo any deal requires 'full withdrawal' of Israeli forces from the buffer zone. Trump's public cherry-picking of this as a diplomatic win is politically expedient and does not resolve the substantive dispute — but the legal architecture holds for three weeks.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -366,35 +366,51 @@
         "Haaretz April 23 liveblog (Lebanese journalist killed)"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "LEBANON CEASEFIRE EXTENDED 3 WEEKS FROM APRIL 26 TO ~MAY 14 [CONFIRMED ACTION, White House announcement + multi-source]. Trump announced Thursday (April 23) from the White House, following the second round of direct Lebanon-Israel talks at the State Department — Nada Hamadeh Moawad (Lebanon) and Yechiel Leiter (Israel), with Rubio + Needham + Huckabee + Issa representing the US. Materially changes weekend architecture: April 26 double-expiry (Trump Iran window + Lebanon ceasefire) is now SINGLE-EXPIRY (Iran only). Hezbollah separately fired rockets at Shtula settlement Thursday in what it called retaliation for an Israeli airstrike on Yater — kinetic layer beneath the ceasefire persists. Hezbollah senior official Wafiq Safa reiterated the group will not recognise any agreements reached in Washington. PM Nawaf Salam told WaPo any deal requires 'full withdrawal' of Israeli forces from the buffer zone. Trump's public cherry-picking of this as diplomatic win is politically expedient and does not resolve the substantive dispute — but the legal architecture holds for three weeks. (Sources: Washington Post national-security desk, Euronews, France 24, The National UAE, Military.com, CNN live blog, Al Jazeera, Haaretz)",
+      "sources": [
+        "Washington Post",
+        "Euronews",
+        "France 24",
+        "The National UAE",
+        "Military.com",
+        "CNN live blog",
+        "Al Jazeera",
+        "Haaretz"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED ACTION (binding ceasefire extension, White House announcement, 5+ independent sources)."
     }
   ],
   "edges": [
     {
       "to": "hezbollah",
-      "type": "structured_pause_fraying",
-      "context": "Day 56 / Ceasefire Day 8. Hezbollah fired rockets and drones at Israeli forces FOR THE FIRST TIME SINCE THE TRUCE TOOK EFFECT (Democracy Now April 22) — kinetic-quiet count broken. Ceasefire publicly fraying. Two days remain in window before April 26 expiry; without extension, full re-escalation likely.",
+      "type": "ceasefire_extended_with_kinetic_residual",
+      "context": "Day 57 / Ceasefire EXTENDED 3 weeks to ~May 14. Hezbollah fired rockets at Shtula settlement Thursday for Israeli Yater airstrike — kinetic layer persists. Wafiq Safa: Hezbollah will not recognise any Washington agreements. Legal ceasefire architecture holds for three weeks despite kinetic residual.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 25,
+      "last_activated": "2026-04-24",
+      "activation_count": 26,
       "weight": 10
     },
     {
       "to": "israel",
-      "type": "invasion_target",
-      "context": "Day 56 / Ceasefire Day 8. Israeli demolition operations continue (Bint Jbeil, Khiam, Markaba, Taybeh). Lebanese journalist killed in Israeli airstrike Thursday morning. Lebanese Ambassador Moawad meets Israeli Ambassador Leiter in Washington for second round of direct talks in three decades — US-brokered extension mechanism explicit. Two days remain in window.",
+      "type": "invasion_extended_ceasefire",
+      "context": "Day 57 / Ceasefire EXTENDED 3 weeks to ~May 14 following second round direct State Department talks (Moawad-Leiter). Israeli demolition operations continue; Israeli troops remain in southern Lebanon during extension. PM Salam (Lebanon): any deal requires full Israeli withdrawal from buffer zone (unresolved).",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 27,
+      "last_activated": "2026-04-24",
+      "activation_count": 28,
       "weight": 10
     },
     {
       "to": "united-states",
       "type": "diplomatic_mediator",
-      "context": "Day 56. State Department-hosted Israel-Lebanon Round 2 talks Thursday April 23 in Washington — second round of direct talks in three decades. US-brokered mechanism to extend 10-day truce beyond April 26 expiry. April 26 stacks with Trump Iran 3-5 day window — same US mediation team running both tracks.",
+      "context": "Day 57. Trump Thursday April 23 announced 3-week Lebanon ceasefire extension from the White House after second round State Department direct talks. US mediation team: Rubio + Needham + Huckabee + Issa. Extension runs to ~May 14. Kills April 26 double-expiry architecture.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 1,
-      "weight": 7.0
+      "last_activated": "2026-04-24",
+      "activation_count": 2,
+      "weight": 8.0
     }
   ],
   "trigger_points": [
@@ -407,9 +423,9 @@
         "united-states",
         "trump"
       ],
-      "mechanism": "April 26 stacks with Trump Iran 3-5 day window expiry — same US mediation team running both tracks. Hezbollah rockets/drones Thursday signal ceasefire fraying. Without extension, full re-escalation likely. Compound failure path: Lebanon ceasefire lapses + Trump Iran window expires without proposal → Israel resumes Lebanon ops + activates Iran combat-readiness; Hezbollah responds; oil reload to $103-115. Falsifiable: 23:59 IST Sunday April 26.",
+      "mechanism": "April 26 stacks with Trump Iran 3-5 day window expiry — same US mediation team running both tracks. Hezbollah rockets/drones Thursday signal ceasefire fraying. Without extension, full re-escalation likely. Compound failure path: Lebanon ceasefire lapses + Trump Iran window expires without proposal → Israel resumes Lebanon ops + activates Iran combat-readiness; Hezbollah responds; oil reload to $103-115. Falsifiable: 23:59 IST Sunday April 26. | RESOLVED 2026-04-24: EXTENSION BRANCH FIRED. Trump announced 3-week extension from the White House Thursday after State Department direct talks. Single-expiry weekend (Iran only). Ceasefire runs to ~May 14. Compound-failure path de-risked for this weekend.",
       "added": "2026-04-23",
-      "status": "watching"
+      "status": "resolved"
     }
   ]
 }

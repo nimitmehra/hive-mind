@@ -3,8 +3,8 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-04-23",
-  "summary": "Day 56 Thursday. WEDNESDAY KINETIC OPERATIONALLY BIFURCATING — MSC Francesca confirmed seized at anchor in Iranian waters (AIS); Epaminondas transiting back along Iranian waters per AIS; Greek FM Gerapetritis (CNN) says 'severely damaged' but NOT seized. Wednesday's 'two seized' framing downgrades to '1 confirmed seized + 1 fired-on-and-damaged-disputed-as-seized.' UANI April 22: 8 container ships escaped Gulf via Hormuz (industry response: convoy-and-escape). NO third IRGC interdiction Thursday morning IST — 48-hour continuation window runs to Friday evening IST. CENTCOM Thursday: 31 vessels redirected in blockade to date — first systematic US blockade-stat (~1.3 vessels/day). IEA Director Birol Thursday: 'biggest energy security threat in history' citing ~13 mbpd disrupted (REPORTED, Haaretz relay) — higher than analyst estimates of 8-10 mbpd at Hormuz flow peak; if accurate, materially the largest energy-supply disruption in modern industrial history (1973 ~5mbpd, 1979 ~5.7mbpd, 1990 ~4.3mbpd). Lloyd's AWRP Thursday London republish: specific number not yet in open press; Joint Hull Committee 1.5-2.0% step-up band expectation holds, but US session paper-Brent fade ($106→$97) suggests underwriting may absorb into existing 1-3% band rather than discrete headline. Brent peak-faded $106.15→$97.43 (-4.4%) — paper pricing rhetoric cooling, physical (AWRP, helium, natural gas, VLCC rates) pricing operational continuation. Paper-physical gap re-opened.",
+  "last_updated": "2026-04-24",
+  "summary": "Day 57 Friday. NO THIRD IRGC INTERDICTION CONFIRMED THURSDAY OR FRIDAY — 48-hour continuation-trigger window resolved NOT MET. Kinetic paused while Iran consolidated the Mojtaba/unity-messaging narrative. CENTCOM 31-vessel blockade count unchanged publicly Friday (running-rate ~1.3 vessels/day). Trump on April 23 ordered US Navy to destroy Iranian mine-laying boats in Hormuz — new ROE distinct from shadow-fleet interdiction. USS George H.W. Bush arrived in CENTCOM AOR — third US carrier in-region, highest since 2003. Physical-market indicators of disruption intact: AWRP holds 2-6% of hull value (8-24x pre-crisis per S&P Global / Lloyd's List / Caixin); VLCC TD3C rate WS467 ~$474,000/day TCE (near peak); helium +40-100% spot premium; Lloyd's List: 'MEG indices near peak, not collapsed.' Paper Brent -6.8% (yfinance continuous) to $97.94 — second consecutive peak-fade session; cumulative $9-10/bbl two-session unwind. THE PAPER-PHYSICAL GAP IS NOW WIDEST OF THE CRISIS. UANI April 22: 8 container ships escaped Gulf via Hormuz (industry convoy-and-escape response). Trump DFC $40B reinsurance facility partnership with US insurers is the operational cap on AWRP escalation — above a threshold, government backstops commercial pullout.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -786,25 +786,41 @@
         "(pending IEA direct press release)"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "TRUMP ORDERED US NAVY TO DESTROY IRANIAN MINE-LAYING BOATS — NEW ROE [CONFIRMED ORDER]. April 23 rules-of-engagement change distinct from shadow-fleet turn-back blockade activity: kinetic destroy-order, not commercial-interdiction order. Had not been public pre-Thursday. No Friday public reports of actual mine-laying boats destroyed. CENTCOM 31-vessel running rate (~1.3/day) remains operational metric. Separately: USS George H.W. Bush transited into CENTCOM AOR — third US carrier in-region (highest since 2003), strike group accompanied. PHYSICAL-MARKET GAP WIDENED Friday: paper Brent -6.8% to $97.94 (yfinance continuous) while AWRP holds 2-6% of hull value (8-24x pre-crisis per S&P Global / Caixin / IBTimes / Lloyd's List); VLCC TD3C rate WS467 ~$474,000/day TCE Baltic April 20 print (near peak, not collapsed); helium spot $1,000-1,200/Mcf (from $500 pre-war); Lloyd's List: 'US/UK/Israeli-flagged vessels charged 3x others.' Joint War Committee maintains entire Persian Gulf as 'high-risk' zone. No Friday commercial-insurance rate drop corroborates the physical-disruption thesis. UANI April 22 data: 8 container ships escaped the Gulf via Hormuz during the IRGC kinetic — industry convoy-and-escape response. DFC-US insurer $40B reinsurance facility is the operational ceiling on AWRP escalation: above a threshold, government backstops commercial pullout.",
+      "sources": [
+        "Wikipedia 2026 Strait of Hormuz crisis entry (Trump mine-destroy order)",
+        "ABC News CENTCOM relay",
+        "CNN Third US aircraft carrier arrives in Middle East",
+        "Washington Post national-security desk",
+        "S&P Global / Marketplace / Lloyd's List / IBTimes / Caixin",
+        "Baltic Exchange (VLCC TD3C)",
+        "Tom's Hardware / Fortune (helium spot)",
+        "UANI"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED (Trump order, carrier arrival, physical indicators). No confirmed mine-laying boat destroyed yet."
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "territorial_control_institutional_codification",
-      "context": "Day 56 Thursday. Wednesday kinetic operationally bifurcating: MSC Francesca confirmed seized at anchor; Epaminondas transiting back per AIS (Greek FM disputes). NO third Thursday interdiction. CENTCOM 31 vessels redirected to date is operational pressure metric (~1.3/day). UANI: 8 container ships escaped Gulf via Hormuz (industry convoy-and-escape response). IRGC permission/transit-certificate regime continues; physical AWRP holds 5-8x pre-crisis as paper-Brent fades $9/bbl.",
+      "context": "Day 57 Friday. No third IRGC Thursday or Friday interdiction — 48-hour continuation-trigger window resolved NOT MET. Kinetic paused while Iran consolidated Mojtaba/unity-messaging narrative. IRGC permission/transit-certificate regime continues; physical AWRP holds 8-24x pre-crisis as paper-Brent fades further $9-10/bbl.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 34,
+      "last_activated": "2026-04-24",
+      "activation_count": 35,
       "weight": 10
     },
     {
       "to": "brent-crude",
-      "type": "supply_chokepoint",
-      "context": "Day 56 Thursday. Brent peak-faded $106.15→$97.43 (-4.4% 1D) — Asian session combat-readiness leak + Trump strike-list spike; US session sold off on Pakistan mediation surfacing + Trump 'indefinite' reaffirmation + CENTCOM 31-vessel framing. Paper-physical gap re-opened: physical (AWRP, helium +40%, natural gas +5.5%, VLCC rates 'uncharted territory') unchanged while paper Brent -4.4%. Reversibility HIGH on any confirmed Friday-Sunday kinetic.",
+      "type": "supply_chokepoint_paper_physical_gap_widest",
+      "context": "Day 57 Friday. Brent -6.8% to $97.94 (yfinance continuous) — second consecutive peak-fade session; cumulative $9-10/bbl two-session paper unwind. Paper-physical gap NOW WIDEST OF THE CRISIS: physical (AWRP 2-6%, VLCC TD3C near peak, helium +40-100%, three carriers, 31-vessel blockade, new destroy-mine-laying-boats ROE) unchanged. Reversibility HIGH on any confirmed weekend kinetic.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 34,
+      "last_activated": "2026-04-24",
+      "activation_count": 35,
       "weight": 10
     },
     {

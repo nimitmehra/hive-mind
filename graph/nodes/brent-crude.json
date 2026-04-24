@@ -3,13 +3,13 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-23",
-  "summary": "Day 56 Thursday — PEAK-FADE, NOT CRISIS-BID. Brent briefly touched $106.10 intraday in Asian session on Hebrew TV combat-readiness leak + Trump strike-list articulation, then settled back during US session to close $101.56 (-0.3% 1D) on Pakistan mediation surfacing + Trump 'indefinite' reaffirmation + CENTCOM 31-vessel framing. Round-trip peak-to-close ~$4.5/bbl intraday. WTI $92.86 (-0.1%). Close-to-close, Brent is essentially flat Thursday after 3 consecutive session-on-session gains (Apr 20-22). Crisis-premium unwound intraday, not close-to-close — physical (AWRP 5-8x pre-crisis, helium +40%, natural gas +3.4%, VLCC 'uncharted territory') unchanged Thursday. Paper-physical gap narrative holds at intraday level. Morgan Stanley $105 base case modal SURVIVES; conditional probability migrating higher per markets.md. Goldman $115-125 crisis-beta reopening did NOT activate (would have required gold >$4,850; gold closed $4,754 +0.5% — Goldman regime call directionally supported). Reversibility HIGH on any confirmed Friday-Sunday IRGC kinetic on US-flagged vessel or Israeli strike-prep hardening — reload to $103-108 within hours. IEA Director Birol Thursday: 'biggest energy security threat in history' citing ~13 mbpd disrupted (Haaretz relay) — if accurate, materially largest energy-supply disruption in modern industrial history; the fact Brent at $101 not $150+ argues for unannounced strategic-reserve releases. Friday-Sunday is the inflection window: Trump 3-5 day patience expires ~Sunday + Lebanon ceasefire expires April 26 same day + IDF combat-readiness procedures + Mojtaba Friday 23:59 IST trigger.",
+  "last_updated": "2026-04-24",
+  "summary": "Day 57 Friday — SECOND CONSECUTIVE PEAK-FADE SESSION; PAPER-PHYSICAL GAP AT WIDEST OF CRISIS. Brent opened Asian session Friday on Mojtaba 'fracture' statement + USS George H.W. Bush carrier arrival + three-branch unity messaging and spiked to $107.38 intraday (+2.2%), then faded to US close $98.53 (-6.2%) on Trump 'Don't rush me' softening + Lebanon ceasefire 3-week extension absorption + no Friday kinetic. yfinance continuous-contract read: $97.94 (-6.8% 1D). Cumulative $9-10/bbl two-session paper unwind. WTI $94.07 (-1.9% or $94.64 close depending on reference) — smaller decline, Brent-WTI spread widened in Brent's favour. Physical indicators intact: AWRP 2-6% of hull value (8-24x pre-crisis per S&P Global/Caixin/IBTimes/Lloyd's List); VLCC TD3C WS467 ~$474,000/day TCE near peak; helium +40-100%; three carriers in-theater; CENTCOM 31-vessel blockade active; Trump new destroy-mine-laying-boats ROE. Energy sector (XLE +0.8%) and Frontline (BOAT +0.7%) held — physical-exposed assets did not confirm paper de-escalation. Morgan Stanley Q2 $105 base case modal survives (Friday intraday range $98-107, average ~$103). Goldman inflation-regime call 4th consecutive confirming day (gold +0.6% vs expected +1.5-2.5% historical crisis-bid — regime-shifted to DXY/real-yields tracking). Reversibility MAXIMUM on any confirmed weekend kinetic — US-flagged vessel interdiction or Israeli strike on Iranian nuclear facility reloads Brent $103-115 within hours.",
   "current": {
-    "price": "$101.56 (Thu US close); arc $101.91 Wed close → $106.10 Asian high → $101.56 US close",
-    "delta_1d": "-0.3%",
-    "delta_1m": "-2.6%",
-    "delta_3m": "+54.5%"
+    "price": "$97.94 (yfinance continuous); US close $98.53 — two-session $9-10/bbl peak fade",
+    "delta_1d": "-6.8%",
+    "delta_1m": "-4.2%",
+    "delta_3m": "+49.3%"
   },
   "price_snapshots": [
     {
@@ -778,16 +778,29 @@
         "(pending IEA direct press release)"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "BRENT $107 ASIAN PEAK → $98.53 US CLOSE — SECOND CONSECUTIVE PEAK-FADE DAY; PAPER-PHYSICAL GAP WIDENS [CONFIRMED]. Brent opened Asian session Friday on Mojtaba 'fracture in enemy' + USS George H.W. Bush carrier arrival + Iranian three-branch unity messaging and spiked to $107.38 intraday; by the US close it had settled to $98.53 (-6.2%) — a $9/bbl peak-to-close fade, bigger than Thursday's $4.5/bbl fade. yfinance continuous read $97.94 (-6.8%). WTI closed $94.64 (-1.3%) — smaller decline than Brent, widening the Brent-WTI spread in Brent's favour (normally reverse). Natural gas $2.70 (+3.1%), heating oil $3.85 (-3.6%), RBOB $3.29 (-4.9%). Physical indicators (TTF €42.39/MWh soft, AWRP 2-6% / 8-24x pre-crisis with Lloyd's List noting some easing to 0.8-1% band, VLCC TD3C near peak) DID NOT MOVE with the paper decline. Energy (XLE) +0.8% and Frontline (BOAT) +0.7% — physical-exposed assets held. The cleaner read: paper is pricing Trump's 'don't rush me' rhetorical softening + Lebanon ceasefire 3-week extension + unity-messaging de-escalation narrative, while physical markets continue to price operational continuation (three carriers, destroy-mine-laying-boats ROE, 31-vessel blockade, no shipping restoration). Paper-physical divergence running TWO consecutive sessions same direction — historically precedes either (a) paper catching up to physical (reload up) or (b) physical absorbing paper (Phase 2 equilibrium). Reversibility maximum on any confirmed weekend kinetic: reload Brent $103-115 within hours.",
+      "sources": [
+        "scripts/market-data.py yfinance BZ=F",
+        "Al Jazeera 'Oil rises above $106 per barrel'",
+        "CNBC 'Oil rises as Iran war worries keep markets on edge'",
+        "Lloyd's List",
+        "S&P Global"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED (market data + physical indicators)."
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "Day 56 Thursday. Brent peak-faded intraday $106.10→$101.56 close (-0.3% 1D, ~$4.5/bbl peak-to-close) — paper pricing rhetoric cooling intraday, physical (AWRP 5-8x pre-crisis, helium +40%, natural gas +3.4%, VLCC 'uncharted territory') UNCHANGED. Paper-physical gap re-opened at intraday level. Reversibility HIGH on any confirmed Friday-Sunday IRGC kinetic — reload $5-10/bbl within hours.",
+      "context": "Day 57 Friday. Brent second consecutive peak-fade session — $107.38 Asian high → $98.53 US close (-6.2%); yfinance continuous -6.8% to $97.94. Cumulative two-session $9-10/bbl paper unwind. Paper-physical gap at widest of crisis: AWRP 2-6% (8-24x pre-crisis), VLCC TD3C near peak, helium +40-100%, three carriers, destroy-mine-laying-boats ROE — all unchanged. Reversibility MAXIMUM on any confirmed weekend kinetic: reload $103-115 within hours.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 38,
+      "last_activated": "2026-04-24",
+      "activation_count": 39,
       "weight": 10
     },
     {

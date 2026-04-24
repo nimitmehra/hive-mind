@@ -3,8 +3,8 @@
   "name": "Hezbollah",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-23",
-  "summary": "Day 56 / Lebanon Ceasefire Day 8 — KINETIC-QUIET COUNT BROKEN. Democracy Now April 22 reports Hezbollah fired rockets and drones at Israeli forces FOR THE FIRST TIME SINCE THE TRUCE TOOK EFFECT. Compounds with Kalfon IED (April 19) which was first IDF fatality under window. Rule-set calibration shifted from 'pre-placed IEDs + rhetoric only' to actual rocket/drone fire — ceasefire publicly fraying. April 26 expiry approaching with active kinetic + Israeli demolition operations + Lebanese journalist killed Thursday morning + parallel Iran-track combat-readiness leak. The dual April 26 expiry (Lebanon ceasefire + Trump Iran 3-5 day window) is loaded for compound failure path: Lebanon ceasefire lapses + Trump Iran window expires without proposal → Israel resumes Lebanon ops + activates Iran combat-readiness; Hezbollah responds; oil reload to $103-115. Iran-Hezbollah linkage operationally intact via IRGC Quds Force.",
+  "last_updated": "2026-04-24",
+  "summary": "Day 57 / Lebanon Ceasefire EXTENDED 3 weeks to ~May 14. Hezbollah fired rockets at Shtula settlement Thursday for Israeli airstrike on Yater — kinetic layer persists under the extended ceasefire. Senior official Wafiq Safa reiterated Hezbollah will NOT recognise any agreements reached in Washington (Moawad-Leiter Round 2). Naim Qassem April 19 posture holds: defiant rhetoric + operational acceptance of the ceasefire envelope. The extended architecture softens compound-failure risk for the April 26 weekend — Lebanon track is now on a May 14 clock while Iran track runs on its own expiry. Iran-Hezbollah linkage operationally intact via IRGC Quds Force.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -319,6 +319,18 @@
         "Haaretz April 23 liveblog"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "HEZBOLLAH SHTULA ROCKET SALVO + WAFIQ SAFA REJECTS WASHINGTON AGREEMENTS — KINETIC LAYER PERSISTS UNDER EXTENDED CEASEFIRE [CONFIRMED]. Hezbollah fired rockets at Shtula settlement Thursday in what it called retaliation for an Israeli airstrike on Yater. Senior Hezbollah official Wafiq Safa reiterated the group will not recognise any agreements reached at the Washington (Moawad-Leiter) Round 2 talks. Trump's 3-week extension of the Lebanon ceasefire (announced Thursday from the White House, runs ~May 14) is now the operative architecture — kinetic residual fire without open rocket war, consistent with April 19 Qassem posture. PM Nawaf Salam (Lebanon, WaPo): any deal requires full Israeli withdrawal from buffer zone. Substantive ceasefire architecture unresolved while legal framework holds three weeks.",
+      "sources": [
+        "Washington Post",
+        "Haaretz live blog",
+        "CNN live blog",
+        "Al Jazeera"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED (rocket fire + Safa statement)."
     }
   ],
   "edges": [
@@ -333,20 +345,20 @@
     },
     {
       "to": "israel",
-      "type": "structured_pause_fraying",
-      "context": "Day 56 / Ceasefire Day 8. Hezbollah rocket and drone fire on Israeli forces FOR FIRST TIME SINCE TRUCE TOOK EFFECT (Democracy Now April 22). Compounds Kalfon IED April 19. Kinetic-quiet pattern BROKEN. April 26 expiry arrives with active kinetic + ground demolition friction — full re-escalation likely without extension.",
+      "type": "structured_pause_kinetic_residual",
+      "context": "Day 57 / Ceasefire EXTENDED 3 weeks. Hezbollah rocket fire on Shtula settlement Thursday in retaliation for Israeli Yater airstrike — kinetic layer persists under extended ceasefire. Wafiq Safa: Hezbollah will not recognise Washington agreements. Low-signature residual kinetic + rejection of political framework, but no open rocket war.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 26,
+      "last_activated": "2026-04-24",
+      "activation_count": 27,
       "weight": 10
     },
     {
       "to": "lebanon",
-      "type": "operating_base",
-      "context": "Day 56 / Ceasefire Day 8. Hezbollah rocket fire Thursday breaks zero-rocket pattern from Days 1-7. Non-signatory structural fragility now operationally manifest. Two days remain in window before April 26 expiry.",
+      "type": "operating_base_extended_ceasefire",
+      "context": "Day 57 / Ceasefire extended 3 weeks. Hezbollah non-signatory structural fragility unchanged; Wafiq Safa explicit rejection of Washington agreements. Kinetic layer persists (Shtula rockets Thursday). Extended architecture runs to ~May 14.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 22,
+      "last_activated": "2026-04-24",
+      "activation_count": 23,
       "weight": 10
     }
   ],

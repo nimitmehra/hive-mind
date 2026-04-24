@@ -3,8 +3,8 @@
   "name": "Ahmad Vahidi",
   "type": "person",
   "created": "2026-04-23",
-  "last_updated": "2026-04-23",
-  "summary": "IRGC Commander-in-Chief; hardline-faction leader operationally functioning as the dominant decision-maker inside Iran's wartime architecture per Axios, Fox, Euronews, All Israel News, Iran International, The Conversation, Quwa, American Almanac. Created at REPORTED tag on 2026-04-23 after named procedural action (blocked Pezeshkian's appointment of Hossein Dehghan as Intelligence Minister) and named institutional architecture ('military council made up of senior IRGC officers controls access to the centre of power') were corroborated across 6+ independent outlets. Direct adversary to Pezeshkian and Ghalibaf in Axios's factional map (hardliners Vahidi+Zolghadr vs engagement Ghalibaf+Pezeshkian+Araghchi). Operationally controls Hormuz interdiction posture (MSC Francesca seizure 2026-04-22). Iranian state media (IRNA, Tasnim, Press TV) has not addressed the 'in charge' framing — silence consistent with the claim but not confirmation; tag remains REPORTED until Tasnim photograph at SNSC or state-TV interview. Western 'coup in Tehran' editorial framing discounted.",
+  "last_updated": "2026-04-24",
+  "summary": "IRGC Commander-in-Chief; hardline-faction leader operationally functioning as the dominant decision-maker inside Iran's wartime architecture. Friday NYT scoop (via ISW relay): Mojtaba Khamenei under frequent medical attention, 'heavily reliant on the advice and guidance of senior IRGC commanders led by Vahidi' — the cleanest operational confirmation yet that the 'Vahidi-speaks-through-Mojtaba' architecture is structurally in place. Mojtaba's Friday 'fracture has occurred in the enemy' statement is read by ISW as Vahidi-orchestrated — the opposite-direction outcome the vahidi.json trigger-point file flagged. Three-branch unity messaging (Pezeshkian/Ghalibaf/Mohseni-Ejei) Thursday evening is ISW-diagnosed choreography; Wednesday Pezeshkian-accuses-IRGC X post NOT withdrawn — Vahidi's operational grip is intact, the unity messaging is layered on top rather than substantive. Iranian state media (IRNA, Tasnim, Press TV) still has not published a Vahidi photograph at SNSC — tag remains REPORTED, not yet CONFIRMED. Direct adversary to Pezeshkian and Ghalibaf in Axios's factional map. Operationally controls Hormuz interdiction posture; no Friday IRGC kinetic (kinetic paused for narrative consolidation).",
   "current": {
     "role": "IRGC Commander-in-Chief",
     "faction": "hardline",
@@ -56,6 +56,18 @@
         "MarineTraffic"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "NYT SCOOP — MOJTABA 'HEAVILY RELIANT ON THE ADVICE AND GUIDANCE OF SENIOR IRGC COMMANDERS LED BY VAHIDI' [REPORTED single-scoop, David Sanger-desk sourcing]. ISW Critical Threats April 23 relay added the operational reading: Mojtaba's Friday 'fracture has occurred in the enemy' statement is a Vahidi-orchestrated message acknowledging the three-branch obeisance (Pezeshkian/Ghalibaf/Mohseni-Ejei) that itself is 'choreographed response shaped by both internal regime politics and external pressure from the United States.' This is the OPPOSITE-DIRECTION outcome the vahidi.json trigger-point file flagged: a Vahidi-orchestrated hardline signal rather than de-escalatory unifying intervention. Wednesday Pezeshkian-accuses-IRGC X post was NOT withdrawn; the unity messaging was layered on top rather than replacing it — the private factional architecture appears unchanged, while the public information operation has consolidated. No Friday IRGC kinetic — the MSC Francesca/Epaminondas day was Wednesday; kinetic pause during narrative consolidation. (Sources: NYT April 23, ISW Critical Threats Iran Update April 21-23, Press TV, Tasnim)",
+      "sources": [
+        "New York Times",
+        "ISW Critical Threats",
+        "Press TV",
+        "Tasnim"
+      ],
+      "significance": "high",
+      "verification": "REPORTED (NYT single-scoop corroborated by ISW operational reading). Iranian state photograph of Vahidi at SNSC still absent — tag REMAINS at REPORTED."
     }
   ],
   "edges": [
@@ -89,11 +101,11 @@
     {
       "to": "mojtaba-khamenei",
       "type": "access_control",
-      "context": "Military council Vahidi presides over controls access to Mojtaba (the centre of power). The Mojtaba silence Day 42 is increasingly read as cover for Vahidi-camp assertion of control rather than tactical pause.",
+      "context": "Per NYT April 23: Mojtaba under frequent medical attention, 'heavily reliant on the advice and guidance of senior IRGC commanders led by Vahidi.' ISW reads Mojtaba's Friday 'fracture in the enemy' statement as Vahidi-orchestrated. 'Vahidi-speaks-through-Mojtaba' architecture operationally in place.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 1,
-      "weight": 7.0
+      "last_activated": "2026-04-24",
+      "activation_count": 3,
+      "weight": 8.5
     },
     {
       "to": "strait-of-hormuz",
@@ -146,9 +158,9 @@
         "trump",
         "brent-crude"
       ],
-      "mechanism": "Mojtaba silence Day 42 trigger fires Friday 23:59 IST. If Vahidi-camp orchestrates a hardline statement in Mojtaba's name (or a Vahidi-ghostwritten message), the trigger fires but the downstream cascade is the OPPOSITE direction from the de-escalatory unifying intervention the original framework assumed. The fact that no Mojtaba-in-Vahidi's-name statement has been issued through Day 42 is itself consistent with Mojtaba being genuinely incapacitated rather than tactically silent.",
+      "mechanism": "Mojtaba silence Day 42 trigger fires Friday 23:59 IST. If Vahidi-camp orchestrates a hardline statement in Mojtaba's name (or a Vahidi-ghostwritten message), the trigger fires but the downstream cascade is the OPPOSITE direction from the de-escalatory unifying intervention the original framework assumed. The fact that no Mojtaba-in-Vahidi's-name statement has been issued through Day 42 is itself consistent with Mojtaba being genuinely incapacitated rather than tactically silent. | RESOLVED 2026-04-24: TRIGGER FIRED in the OPPOSITE-DIRECTION flavour. Mojtaba's 'fracture has occurred in the enemy' statement published on X Thursday + Press TV/Tasnim/IRNA coordinated relay Friday. ISW reads as Vahidi-orchestrated; NYT April 23 scoop confirms Mojtaba 'heavily reliant on the advice and guidance of senior IRGC commanders led by Vahidi.' Downstream cascade is opposite-direction from de-escalatory unifier: hardline signal acknowledging three-branch obeisance. Content interpretation is the live question, not the silence.",
       "added": "2026-04-23",
-      "status": "watching"
+      "status": "resolved"
     },
     {
       "condition": "Pezeshkian publicly forces Vahidi out OR Vahidi forces Pezeshkian out within Trump's 3-5 day window (~April 26 IST)",

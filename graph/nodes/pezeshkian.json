@@ -3,8 +3,8 @@
   "name": "Masoud Pezeshkian",
   "type": "person",
   "created": "2026-04-11",
-  "last_updated": "2026-04-23",
-  "summary": "Day 56 Thursday. PEZESHKIAN PUBLICLY ACCUSED IRGC OF WRECKING THE CEASEFIRE — IRANIAN FACTIONAL SPLIT GOES OPEN AND LOUD. Wednesday-operative-Thursday online statement explicitly accused IRGC of undermining the ceasefire he and Araghchi negotiated through Pakistan mediation — implicitly naming Vahidi as the obstacle. House of Saud carried under 'Pezeshkian Cannot Fire the Generals Wrecking the Ceasefire'; Iran International 'Rift deepens between Iran's president and Guards chief.' Euronews and Fox News carry 'IRGC sidelines president, blocks appointments.' Pezeshkian's statement naming 'breach of commitments, blockade and threats' as three obstacles deliberately inverts IRGC's framing and places ceasefire-violation responsibility on US — but the fact that Pezeshkian needs to say this publicly is itself the admission that IRGC domestic-critics are pressuring him. IRNA notably did NOT carry the Pezeshkian-accuses-IRGC framing inside Iran — civilian government's most significant rhetorical move of crisis is being suppressed by IRGC-controlled state media. Pezeshkian's online statement reaching international press (Express Tribune, Al Jazeera, NBC) via direct social-media push, not via IRNA. For first time in 56 days, Iran's civilian president has openly blamed Iran's military institution in a way that cannot be walked back. Vahidi node CREATED at REPORTED on this development.",
+  "last_updated": "2026-04-24",
+  "summary": "Day 57 Friday. PEZESHKIAN JOINED THE COORDINATED THREE-BRANCH UNITY PHOTO-STATEMENT — but Wednesday's anti-IRGC X post was NOT withdrawn. Thursday evening Pezeshkian on X: 'One God, one nation, one leader, and one path.' Photo-choreographed with Ghalibaf (parliament speaker) and Mohseni-Ejei (judiciary chief). Araghchi joined. Press TV framing: 'Collective slap: Heads of Iran's three state branches strike back at Trump.' Mojtaba's 'fracture has occurred in the enemy' Friday message acknowledged the three-branch obeisance. ISW Critical Threats April 23: 'choreographed response shaped by both internal regime politics and external pressure from the United States' — unity-front interpretation tagged REPORTED. The substantive question — whether Pezeshkian now has actual influence over executive architecture, or whether this is public-unity theater over unchanged private architecture — remains unresolved. Critical tell: Wednesday Pezeshkian-accuses-IRGC statement was NOT withdrawn; unity messaging was LAYERED ON TOP. NYT's Mojtaba-heavily-reliant-on-Vahidi framing suggests private architecture unchanged. Newsweek framing: 'Iran rejects infighting claim Trump ceasefire.' Tell for real vs performative: (a) Pezeshkian publicly re-raises Vahidi-blocked-Dehghan appointment; (b) unified Iranian proposal arrives Islamabad by Sunday April 26; (c) IRNA retracts or keeps its suppression of Wednesday accusation.",
   "signals": [
     {
       "date": "2026-03-16",
@@ -164,6 +164,21 @@
         "Express Tribune (Pezeshkian primary)"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-24",
+      "content": "PEZESHKIAN JOINED COORDINATED THREE-BRANCH UNITY PHOTO-STATEMENT — WEDNESDAY ANTI-IRGC POST NOT WITHDRAWN [CONFIRMED unity messaging content; REPORTED 'choreography' interpretation per ISW]. Thursday evening Pezeshkian on X: 'One God, one nation, one leader, and one path.' Photo-choreographed statement with Ghalibaf (parliament speaker) and Mohseni-Ejei (judiciary chief); Araghchi joined. Press TV framing: 'Collective slap: Heads of Iran's three state branches strike back at Trump.' Ghalibaf's statement (not Pezeshkian's, as some outlets initially reported): 'In Iran, there are no radicals or moderates; we are all Iranian and revolutionary, and with the iron unity of the nation and government, with complete obedience to the Supreme Leader of the Revolution, we will make the aggressor criminal regret his actions.' Mojtaba's 'fracture has occurred in the enemy' Friday message acknowledged the three-branch obeisance. ISW Critical Threats April 23: 'choreographed response shaped by both internal regime politics and external pressure from the United States.' THE SUBSTANTIVE TELL: Wednesday Pezeshkian-accuses-IRGC X post was NOT withdrawn; unity messaging LAYERED ON TOP rather than replacing it. NYT Mojtaba-medical-attention + Vahidi-reliance framing (April 23) suggests private architecture has not materially shifted. Newsweek: 'Iran rejects infighting claim Trump ceasefire.' Interpretation tagged REPORTED: whether this is genuine institutional unification or public-unity theater over unchanged private architecture remains unresolved. (Sources: Press TV, ISW Critical Threats, Al Jazeera, Newsweek, ANI)",
+      "sources": [
+        "Press TV",
+        "ISW Critical Threats",
+        "Al Jazeera",
+        "Newsweek",
+        "ANI",
+        "Newkerala",
+        "Rising Kashmir"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED (unity statement content + coordinated relay). REPORTED ('choreography not substance' per ISW)."
     }
   ],
   "edges": [
@@ -179,19 +194,19 @@
     {
       "to": "irgc",
       "type": "institutional_conflict",
-      "context": "Day 56. Pezeshkian's Wednesday-operative-Thursday public accusation that IRGC wrecked the ceasefire is the LOUDEST civilian-vs-IRGC rupture of crisis. Accommodation pattern from April 18-22 has fully BROKEN. Pezeshkian implicitly named Vahidi as the obstacle without using his name. IRNA suppressed the accusation inside Iran — IRGC-controlled state media is the structural mechanism by which Pezeshkian's words are blunted domestically.",
+      "context": "Day 57. Pezeshkian Thursday evening joined three-branch unity photo-statement BUT Wednesday anti-IRGC X post was NOT withdrawn — accommodation layered on top. ISW reads as 'choreographed response.' IRGC kinetic arm (Vahidi) paused Friday (no new interdiction) during narrative consolidation. Substantive factional rupture persists under public unity veneer.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 6,
+      "last_activated": "2026-04-24",
+      "activation_count": 7,
       "weight": 10.0
     },
     {
       "to": "vahidi",
       "type": "factional_adversary",
-      "context": "Vahidi node CREATED at REPORTED April 23. Direct named adversary in Axios's factional map. Vahidi blocked Pezeshkian's appointment of Hossein Dehghan as Intelligence Minister. Pezeshkian Wednesday online statement implicitly named Vahidi (without using his name) as wrecker of ceasefire. Per multi-outlet REPORTED, Vahidi 'practically controls the country, blocking Pezeshkian's intel-minister appointments.'",
+      "context": "NYT April 23: Mojtaba 'heavily reliant on the advice and guidance of senior IRGC commanders led by Vahidi.' Mojtaba Friday 'fracture' statement read by ISW as Vahidi-orchestrated. Pezeshkian Wednesday anti-IRGC X post NOT withdrawn even as he joined Thursday three-branch unity photo. Factional adversary architecture unchanged.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 1,
+      "last_activated": "2026-04-24",
+      "activation_count": 2,
       "weight": 7.5
     },
     {
