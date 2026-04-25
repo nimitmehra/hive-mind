@@ -3,8 +3,8 @@
   "name": "Lebanon",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-24",
-  "summary": "Day 57 / Lebanon Ceasefire EXTENDED 3 WEEKS from April 26 to ~May 14. Trump announced Thursday (April 23) from the White House, following the second round of direct Lebanon-Israel talks at the State Department — Nada Hamadeh Moawad (Lebanon) and Yechiel Leiter (Israel), with Rubio + Needham + Huckabee + Issa representing the US. MATERIALLY CHANGES WEEKEND ARCHITECTURE: April 26 double-expiry (Trump Iran window + Lebanon ceasefire) is now SINGLE-EXPIRY (Iran only). Extension runs approximately to May 14. Hezbollah separately fired rockets at Shtula settlement Thursday in what it called retaliation for an Israeli airstrike on Yater — kinetic layer beneath the ceasefire persists. Hezbollah senior official Wafiq Safa reiterated the group will not recognise any agreements reached in Washington. PM Nawaf Salam told WaPo any deal requires 'full withdrawal' of Israeli forces from the buffer zone. Trump's public cherry-picking of this as a diplomatic win is politically expedient and does not resolve the substantive dispute — but the legal architecture holds for three weeks.",
+  "last_updated": "2026-04-25",
+  "summary": "Day 58 Saturday. CEASEFIRE LEGALLY EXTENDED + KINETIC EROSION CONFIRMED. The 3-week political extension (announced April 23, runs ~May 14) holds; the operational kinetic continues. IDF announced Saturday morning it had struck Hezbollah targets across southern Lebanon overnight, naming Al Saamiya, Reman, and Deir El Zahrani in its official statement. Lebanese Health Ministry: two killed at Touline; multiple wounded in Yater artillery strike; forced evacuation order issued for Deir Aames; six Hezbollah fighters killed in Bint Jbeil-area armed exchange. Cumulative Lebanese casualties since March 2 stand at 2,491 killed and 7,719 wounded. Hezbollah lawmaker Ali Fayyad: extension 'meaningless in light of Israel's insistence on hostile acts'; Hezbollah retains 'the right to retaliate.' Hezbollah claimed shooting down an Israeli drone with a missile and resumed rocket and drone fire across the border. PM Netanyahu Friday: Israel 'maintains full freedom of action against any threat'; accused Hezbollah of 'trying to derail talks.' Lebanon's track is dual-layered: political extension is real (May 14 deadline holds), kinetic erosion is real. The political track buys Trump a Sunday Iran-only weekend and the optics of de-escalation; the casualty data and Hezbollah 'right to retaliate' show substantive dispute is unchanged.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -382,34 +382,48 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED ACTION (binding ceasefire extension, White House announcement, 5+ independent sources)."
+    },
+    {
+      "date": "2026-04-25",
+      "content": "IDF STRUCK 6+ SOUTHERN LEBANON LOCATIONS OVERNIGHT — KINETIC EROSION DESPITE 3-WEEK POLITICAL EXTENSION [CONFIRMED ACTION]. The IDF announced Saturday morning it had struck Hezbollah targets across southern Lebanon overnight, naming Al Saamiya, Reman, and Deir El Zahrani in its official statement (CONFIRMED — Siasat April 25, Al Jazeera April 24-25). Lebanese Health Ministry separately reported additional strikes: two killed at Touline; multiple wounded in Yater artillery strike; forced evacuation order issued for Deir Aames; six Hezbollah fighters killed in Bint Jbeil-area armed exchange (CONFIRMED — Al Jazeera, Lebanese Health Ministry primary; Haaretz April 24 'IDF Strikes Hezbollah Targets in Southern Lebanon'). Cumulative Lebanese casualties since March 2 stand at 2,491 killed and 7,719 wounded per the Health Ministry. Hezbollah lawmaker Ali Fayyad publicly called the ceasefire extension 'meaningless in light of Israel's insistence on hostile acts' and asserted Hezbollah retains 'the right to retaliate.' Hezbollah claimed responsibility for shooting down an Israeli drone with a missile and resumed rocket and drone fire across the border. PM Netanyahu Friday: Israel 'maintains full freedom of action against any threat' and accused Hezbollah of 'trying to derail talks.' Yesterday's brief established the Lebanon track as politically de-risked through May 14; the operational reality Saturday is that the kinetic layer never paused. The political track buys Trump a Sunday Iran-only weekend; the casualty data and 'right to retaliate' framing show substantive dispute is unchanged. (Sources: Haaretz, Al Jazeera, Siasat, Lebanese Health Ministry, Al Manar, Hezbollah official statement)",
+      "sources": [
+        "Haaretz",
+        "Al Jazeera",
+        "Siasat",
+        "Lebanese Health Ministry",
+        "Al Manar",
+        "Hezbollah"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED IDF strikes + Lebanese Health Ministry casualty data + Hezbollah retaliation + drone shootdown claim."
     }
   ],
   "edges": [
     {
       "to": "hezbollah",
       "type": "ceasefire_extended_with_kinetic_residual",
-      "context": "Day 57 / Ceasefire EXTENDED 3 weeks to ~May 14. Hezbollah fired rockets at Shtula settlement Thursday for Israeli Yater airstrike — kinetic layer persists. Wafiq Safa: Hezbollah will not recognise any Washington agreements. Legal ceasefire architecture holds for three weeks despite kinetic residual.",
+      "context": "Day 58 Saturday. Hezbollah fired rockets/drones across border in retaliation for IDF Saturday-morning strikes on 6+ southern Lebanon locations. Hezbollah lawmaker Ali Fayyad: extension 'meaningless in light of Israel's insistence on hostile acts'; group retains 'the right to retaliate.' Hezbollah claimed downing an Israeli drone with a missile. Six Hezbollah fighters killed in Bint Jbeil exchange. Legal ceasefire holds, kinetic layer never paused.",
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 26,
+      "last_activated": "2026-04-25",
+      "activation_count": 27,
       "weight": 10
     },
     {
       "to": "israel",
       "type": "invasion_extended_ceasefire",
-      "context": "Day 57 / Ceasefire EXTENDED 3 weeks to ~May 14 following second round direct State Department talks (Moawad-Leiter). Israeli demolition operations continue; Israeli troops remain in southern Lebanon during extension. PM Salam (Lebanon): any deal requires full Israeli withdrawal from buffer zone (unresolved).",
+      "context": "Day 58 Saturday. IDF struck 6+ southern Lebanon locations overnight (Al Saamiya, Reman, Deir El Zahrani, Touline, Yater, Bint Jbeil). Lebanese Health Ministry: 2 killed Touline + 6 Hezbollah killed Bint Jbeil; cumulative 2,491 killed / 7,719 wounded since March 2. Netanyahu: Israel 'maintains full freedom of action.' Forced evacuation order Deir Aames. Political extension layered over kinetic continuation.",
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 28,
+      "last_activated": "2026-04-25",
+      "activation_count": 29,
       "weight": 10
     },
     {
       "to": "united-states",
       "type": "diplomatic_mediator",
-      "context": "Day 57. Trump Thursday April 23 announced 3-week Lebanon ceasefire extension from the White House after second round State Department direct talks. US mediation team: Rubio + Needham + Huckabee + Issa. Extension runs to ~May 14. Kills April 26 double-expiry architecture.",
+      "context": "Day 58 Saturday. Trump 3-week political extension (announced April 23) holds; May 14 deadline. US's Lebanon-track structurally complete for the weekend — Rubio + Needham + Huckabee + Issa team retired pending Round 3. Operational reality: kinetic layer continues outside the diplomatic envelope.",
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 2,
+      "last_activated": "2026-04-25",
+      "activation_count": 3,
       "weight": 8.0
     }
   ],

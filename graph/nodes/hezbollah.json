@@ -3,8 +3,8 @@
   "name": "Hezbollah",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-24",
-  "summary": "Day 57 / Lebanon Ceasefire EXTENDED 3 weeks to ~May 14. Hezbollah fired rockets at Shtula settlement Thursday for Israeli airstrike on Yater — kinetic layer persists under the extended ceasefire. Senior official Wafiq Safa reiterated Hezbollah will NOT recognise any agreements reached in Washington (Moawad-Leiter Round 2). Naim Qassem April 19 posture holds: defiant rhetoric + operational acceptance of the ceasefire envelope. The extended architecture softens compound-failure risk for the April 26 weekend — Lebanon track is now on a May 14 clock while Iran track runs on its own expiry. Iran-Hezbollah linkage operationally intact via IRGC Quds Force.",
+  "last_updated": "2026-04-25",
+  "summary": "Day 58 Saturday. KINETIC LAYER ESCALATES UNDER EXTENDED CEASEFIRE. Hezbollah fired rockets and drones across the border Saturday in response to IDF strikes on 6+ southern Lebanon locations overnight (Al Saamiya, Reman, Deir El Zahrani, Touline, Yater, Bint Jbeil). Hezbollah claimed responsibility for shooting down an Israeli drone with a missile. Six Hezbollah fighters were killed in a Bint Jbeil-area armed exchange. Lawmaker Ali Fayyad publicly called the ceasefire extension 'meaningless in light of Israel's insistence on hostile acts' and asserted Hezbollah retains 'the right to retaliate.' Wafiq Safa April 23 stance (non-recognition of Washington agreements) holds. The 3-week political extension (~May 14) buys legal architecture but fails to halt operational kinetic. Hezbollah posture: now visible kinetic (rockets, drones, drone shootdown) layered on rhetoric, in escalation from April 19 Kalfon-IED-only kinetic.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -331,6 +331,20 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED (rocket fire + Safa statement)."
+    },
+    {
+      "date": "2026-04-25",
+      "content": "HEZBOLLAH ROCKETS/DRONES + DRONE SHOOTDOWN CLAIM + 6 KILLED BINT JBEIL — KINETIC ESCALATES UNDER EXTENDED CEASEFIRE [CONFIRMED]. Following IDF strikes on 6+ southern Lebanon locations overnight Saturday, Hezbollah resumed rocket and drone fire across the border. Hezbollah claimed responsibility for shooting down an Israeli drone with a missile (CONFIRMED via Al Manar relay). Six Hezbollah fighters were killed in a Bint Jbeil-area armed exchange (Lebanese Health Ministry). Lawmaker Ali Fayyad: extension 'meaningless in light of Israel's insistence on hostile acts'; Hezbollah retains 'the right to retaliate.' Posture is materially escalated from April 19-22 (Kalfon IED + zero rockets) to Saturday's rocket/drone fire + drone shootdown claim. The political extension (May 14 deadline) is being operationally hollowed out faster than the diplomatic track can refill it. PM Netanyahu: Israel 'maintains full freedom of action' and accused Hezbollah of 'trying to derail talks.'",
+      "sources": [
+        "Al Jazeera",
+        "Al Manar",
+        "Lebanese Health Ministry",
+        "Haaretz",
+        "Siasat",
+        "IDF official statement"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED ACTION on both sides."
     }
   ],
   "edges": [
@@ -346,10 +360,10 @@
     {
       "to": "israel",
       "type": "structured_pause_kinetic_residual",
-      "context": "Day 57 / Ceasefire EXTENDED 3 weeks. Hezbollah rocket fire on Shtula settlement Thursday in retaliation for Israeli Yater airstrike — kinetic layer persists under extended ceasefire. Wafiq Safa: Hezbollah will not recognise Washington agreements. Low-signature residual kinetic + rejection of political framework, but no open rocket war.",
+      "context": "Day 58 Saturday. Kinetic layer escalates: Hezbollah rocket and drone fire across border + claimed shootdown of Israeli drone with missile + 6 Hezbollah fighters killed in Bint Jbeil-area exchange following IDF Saturday strikes on 6+ locations. Lawmaker Fayyad: extension 'meaningless'; right to retaliate retained. Open kinetic now visible despite political extension to May 14.",
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 27,
+      "last_activated": "2026-04-25",
+      "activation_count": 28,
       "weight": 10
     },
     {

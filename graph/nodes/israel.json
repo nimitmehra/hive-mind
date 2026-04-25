@@ -3,8 +3,8 @@
   "name": "Israel",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-24",
-  "summary": "Day 57 Friday — COMBAT-READINESS PROCEDURES STILL ACTIVE, NO FRIDAY KINETIC. Channel 12/13/Kan-leaked combat-readiness procedures (Thursday morning) remain active. No Friday kinetic by Israel against Iran. HAARETZ FRAMING SHIFTED from Thursday's 'imminent strike' coordinated leak to Friday's 'Trump Is Fed Up With the Iran War. That's No Guarantee He Won't Restart It' — characteristic pattern that precedes IDF operational-track shift, suggesting Israeli defense establishment has received Trump's 'don't rush me' signal and is not expecting Friday-Saturday combat-readiness activation. Netanyahu has not made a new public statement. Times of Israel reiterates IDF '3 more weeks of operations to systematically degrade Iran's defense industry' without new specifics. LEBANON TRACK: Trump announced Thursday 3-week extension of the Israel-Lebanon ceasefire from the White House (Moawad-Leiter Round 2 at State Department) — runs to ~May 14. Israeli troops remain in southern Lebanon during extension. Hezbollah Shtula rocket salvo + Israeli Yater airstrike continue the kinetic residual. April 26 IST now carries SINGLE expiry (Iran only); double-expiry architecture is dismantled. Compound-failure probability for the weekend materially softer.",
+  "last_updated": "2026-04-25",
+  "summary": "Day 58 Saturday. IDF STRUCK 6+ SOUTHERN LEBANON LOCATIONS OVERNIGHT — KINETIC EROSION OF EXTENDED CEASEFIRE. IDF announced Saturday morning strikes on Hezbollah targets across southern Lebanon, naming Al Saamiya, Reman, and Deir El Zahrani in its official statement. Lebanese Health Ministry: 2 killed Touline; multiple wounded Yater artillery strike; forced evacuation Deir Aames; 6 Hezbollah killed Bint Jbeil exchange. Hezbollah retaliated with rockets, drones, and claimed shootdown of Israeli drone with missile. PM Netanyahu Friday: Israel 'maintains full freedom of action against any threat' and accused Hezbollah of 'trying to derail talks.' Lebanon track is now operationally dual-layered: political extension is real (May 14), kinetic erosion is also real. ON IRAN TRACK: Combat-readiness procedures (Channel 12/13/Kan leak Thursday) still active; no Saturday kinetic on Iran. Haaretz softened materially Friday ('Trump Is Fed Up With the Iran War. That's No Guarantee He Won't Restart It'); Saturday's analytical pieces continue that frame. Israeli press treating the Witkoff-Kushner Pakistan dispatch as a US choice it is observing rather than co-authoring — itself intelligence about Israeli government's marginalisation in the diplomatic track. Israel Hayom April 23 carrying NYT Mojtaba-medical relay ('Injured and isolated, Mojtaba Khamenei rules Iran through a tight inner circle'). Net Israeli posture: Iran-track stand-down with combat readiness retained, Lebanon-track active kinetic.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -546,6 +546,32 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED ACTION."
+    },
+    {
+      "date": "2026-04-25",
+      "content": "IDF STRUCK 6+ SOUTHERN LEBANON LOCATIONS OVERNIGHT — KINETIC EROSION OF EXTENDED CEASEFIRE [CONFIRMED ACTION]. The IDF announced Saturday morning it had struck Hezbollah targets across southern Lebanon overnight, naming Al Saamiya, Reman, and Deir El Zahrani in its official statement. Lebanese Health Ministry: two killed at Touline; multiple wounded in Yater artillery strike; forced evacuation order issued for Deir Aames; six Hezbollah fighters killed in Bint Jbeil-area armed exchange. Cumulative Lebanese casualties since March 2 stand at 2,491 killed and 7,719 wounded per the Health Ministry. PM Netanyahu Friday: Israel 'maintains full freedom of action against any threat' and accused Hezbollah of 'trying to derail talks.' Hezbollah retaliated with rockets, drones, and claimed shootdown of Israeli drone with missile. Yesterday's brief established the Lebanon track as politically de-risked through May 14; the operational reality Saturday is that the kinetic layer never paused. (Sources: Haaretz, Al Jazeera, Siasat, Lebanese Health Ministry, IDF official statement, Al Manar)",
+      "sources": [
+        "Haaretz",
+        "Al Jazeera",
+        "Siasat",
+        "Lebanese Health Ministry",
+        "IDF official statement",
+        "Al Manar"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED IDF strikes + Lebanese Health Ministry casualty data + Hezbollah retaliation."
+    },
+    {
+      "date": "2026-04-25",
+      "content": "ISRAELI PRESS SOFTENING ON IRAN TRACK CONTINUES; ISRAELI GOVERNMENT MARGINALISED IN WITKOFF-KUSHNER DISPATCH [REPORTED]. Haaretz softened materially Friday with 'Trump Is Fed Up With the Iran War. That's No Guarantee He Won't Restart It' framing; Saturday's analytical pieces continue that frame. Israeli press is treating the Witkoff-Kushner Pakistan dispatch as a US choice it is observing rather than co-authoring — itself intelligence about Israeli government's marginalisation in the diplomatic track. Israel Hayom continues Mojtaba-medical relay from NYT (April 23 'Injured and isolated, Mojtaba Khamenei rules Iran through a tight inner circle') — pickup consistent with right-of-government press wanting to underscore Iranian leadership weakness. Times of Israel similarly led on Saturday IDF Lebanon strikes without questioning substantive ceasefire validity. Combat-readiness procedures (Channel 12/13/Kan leak Thursday) still active on the Iran track; no Saturday kinetic on Iran. (Sources: Haaretz April 24-25, Times of Israel April 25, Israel Hayom April 23, Al Jazeera April 24-25)",
+      "sources": [
+        "Haaretz",
+        "Times of Israel",
+        "Israel Hayom",
+        "Al Jazeera"
+      ],
+      "significance": "medium",
+      "verification": "REPORTED tonal shift; CONFIRMED Mojtaba-medical relay across Israel Hayom from NYT."
     }
   ],
   "edges": [
@@ -569,20 +595,20 @@
     },
     {
       "to": "lebanon",
-      "type": "ceasefire_extended_3_weeks",
-      "context": "Day 57 / Israel-Lebanon ceasefire EXTENDED 3 weeks by Trump Thursday announcement (following State Department Moawad-Leiter Round 2). Runs to ~May 14. Israeli troops remain in southern Lebanon during extension. Israeli airstrike on Yater Thursday + Hezbollah Shtula rocket salvo — kinetic residual persists under extended legal architecture. April 26 double-expiry architecture dismantled.",
+      "type": "ceasefire_extended_3_weeks_kinetic_active",
+      "context": "Day 58 Saturday. IDF struck 6+ southern Lebanon locations overnight (Al Saamiya, Reman, Deir El Zahrani named by IDF; Touline, Yater, Bint Jbeil casualties per Lebanese Health Ministry). Cumulative 2,491 killed / 7,719 wounded since March 2. Forced evacuation Deir Aames. 3-week political extension layered over operational kinetic continuation. Netanyahu: 'full freedom of action.'",
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 27,
+      "last_activated": "2026-04-25",
+      "activation_count": 28,
       "weight": 10
     },
     {
       "to": "hezbollah",
-      "type": "kinetic_residual_under_extended_ceasefire",
-      "context": "Day 57 / Ceasefire extended 3 weeks. Hezbollah rocket salvo on Shtula settlement Thursday for Israeli Yater airstrike — kinetic layer persists but no open rocket war. Wafiq Safa: Hezbollah will not recognise Washington agreements. Rule-set: low-signature kinetic permitted + rejection of political framework, open rocket war withheld.",
+      "type": "kinetic_open_under_extended_ceasefire",
+      "context": "Day 58 Saturday. Hezbollah rockets/drones across border + claimed drone shootdown via missile + 6 Hezbollah killed Bint Jbeil exchange following IDF Saturday strikes. Lawmaker Fayyad: extension 'meaningless'; right to retaliate retained. Open kinetic now visible — material escalation from prior week's IED-only kinetic.",
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 27,
+      "last_activated": "2026-04-25",
+      "activation_count": 28,
       "weight": 10
     },
     {

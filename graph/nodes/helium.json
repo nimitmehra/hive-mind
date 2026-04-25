@@ -3,8 +3,8 @@
   "name": "Helium",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-24",
-  "summary": "Day 57 Friday. HELIUM CASCADE FALSIFIED AT DIRECT-CUSTOMER LEVEL BY SK HYNIX Q1 EARNINGS. SK Hynix reported Q1 2026 operating profit 37.6T won (~$27.2B) on revenue 52.5T won — operating margin ~72% (above Nvidia's 65%, crisis-era record). On helium: 'SK Hynix said it has DIVERSIFIED SUPPLIERS for key industrial inputs such as helium, bromine, and tungsten and has built up SUFFICIENT INVENTORY, with LIMITED IMPACT expected on its production.' Samsung earnings April 29. BofA +40-100% spot premium ($1,000-1,200/Mcf from $500 pre-war per Tom's Hardware / Fortune / Motley Fool) IS REAL but NOT translating into guidance impact. Ras Laffan (Feb 28 Iranian drone strike) removed ~27-30% of global supply; South Korea imports 64.7% from Qatar; repairs estimated 3-5 years. Samsung HeRS operational covers ~18.6% of consumption. Linde (+2.7%) and BASF (+0.3%) both holding gains Friday — chemical/industrial-gas supply-chain rotation thesis intact; semiconductor-direct-impact thesis WEAKER. Helium-cascade play-book for investor deployment is WEAKER than Wednesday brief framed. Per markets.md F4: edge weight REDUCED; tag as 'REPORTED cascade running below model severity.' Mechanism still real but not translating into margin compression at tier-1 chipmakers. Samsung April 29 earnings is the next falsification test — silence on helium in guidance confirms weakening; flag as margin risk reopens the cascade.",
+  "last_updated": "2026-04-25",
+  "summary": "Day 58 Saturday. HELIUM CASCADE NOW FALSIFIED AT BOTH TIER-1 KOREAN CHIPMAKERS — SAMSUNG Q1 GUIDANCE DISCLOSED HELIUM REUSE SYSTEM. Samsung Electronics issued Q1 2026 earnings guidance: operating profit ₩57.2 trillion (~$37.8 billion), 8x YoY gain and all-time quarterly high; revenue ₩133 trillion (~$88.6 billion), +68% YoY. Crucially, Samsung publicly disclosed deployment of a helium reuse system that reduces annual helium consumption by ~4.7 tons with ~19% reuse rate. Combined with SK Hynix Q1 disclosure (diversified suppliers + sufficient inventory + limited production impact), the tier-1 chipmaker pair has now BOTH publicly confirmed helium diversification/reuse hedging that prevents margin pass-through from the +40% spot premium. The April 30 Samsung full release (date corrected from April 29 in yesterday's brief) is the binary test: if Samsung's earnings call and outlook commentary do not flag helium as a guidance risk for Q2, the helium → semiconductor cascade is fully falsified at the tier-1 level. The industrial-gas-producer rotation (Linde, BASF) is still operationally valid because they capture the spot premium without the margin offset. BofA +40-100% spot premium ($1,000-1,200/Mcf from $500 pre-war per Tom's Hardware / Fortune / Oregon Group) IS REAL but NOT translating into chipmaker guidance impact. Ras Laffan removed ~27-30% of global supply; South Korea imports 64.7% from Qatar; repairs 3-5 years. Per markets.md F2: edge weight REDUCED FURTHER; cascade is in 'REPORTED running below model severity' state at tier-1 chipmaker level.",
   "current": {
     "price": "~$300+/MCF bulk liquid indicative (Smith, J2 Sourcing); Q2 allocation-notice window pushed to late-May/early-June",
     "delta_1d": "SMH +0.0% Mon (relative outperformance on -0.26% Nasdaq); KOSPI +1.9% Tue; TAIEX +2.0% Tue",
@@ -313,6 +313,20 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED (SK Hynix Q1 earnings release + explicit helium disclosure)."
+    },
+    {
+      "date": "2026-04-25",
+      "content": "SAMSUNG Q1 GUIDANCE DISCLOSED HELIUM REUSE SYSTEM — CASCADE FALSIFIED AT BOTH KOREAN TIER-1 CHIPMAKERS [CONFIRMED]. Samsung Electronics Q1 2026 earnings guidance: operating profit ₩57.2 trillion (~$37.8 billion), 8x YoY gain and all-time quarterly high; revenue ₩133 trillion (~$88.6 billion), +68% YoY. Samsung publicly disclosed deployment of a helium reuse system reducing annual consumption by ~4.7 tons with ~19% reuse rate. Combined with SK Hynix Q1 disclosure (diversified suppliers + sufficient inventory + limited production impact), the tier-1 chipmaker pair has BOTH publicly confirmed helium hedging that prevents margin pass-through from the +40% spot premium. Full earnings release date CORRECTED: April 30, not April 29 as yesterday's brief stated. The April 30 release is the binary test: if Samsung's earnings call and outlook commentary do not flag helium as a guidance risk for Q2, the helium → semiconductor cascade is fully falsified at the tier-1 level. Industrial-gas-producer rotation (Linde, BASF) still operationally valid because they capture spot premium without margin offset. Per markets.md F2 directive: edge weight reduced further. (Sources: Samsung Global Newsroom April 7 guidance release; qz.com April 7; SamMobile; TipRanks; Shacknews; SammyGuru)",
+      "sources": [
+        "Samsung Global Newsroom",
+        "qz.com",
+        "SamMobile",
+        "TipRanks",
+        "Shacknews",
+        "SammyGuru"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED (Samsung Global Newsroom primary + multi-source relay)."
     }
   ],
   "edges": [
@@ -327,21 +341,30 @@
     },
     {
       "to": "sp-500",
-      "type": "tech_supply_risk_weakening",
-      "context": "Day 57 Friday. Cascade REPORTED running below model severity per SK Hynix Q1 disclosure: diversified suppliers + sufficient inventory + limited production impact. Edge weight DOWNGRADED per markets.md F4. Samsung Q1 earnings April 29 = next falsification test.",
+      "type": "tech_supply_risk_falsified_tier1",
+      "context": "Day 58 Saturday. Cascade falsified at BOTH Korean tier-1 chipmakers: Samsung Q1 guidance disclosed helium reuse system (+SK Hynix Q1 diversified suppliers). Edge weight FURTHER DOWNGRADED per markets.md F2. April 30 Samsung full release is the binary test for full falsification at tier-1 level. Industrial-gas-producer rotation (Linde, BASF) still operative.",
       "directness": 2,
-      "last_activated": "2026-04-24",
-      "activation_count": 14,
-      "weight": 7.0
+      "last_activated": "2026-04-25",
+      "activation_count": 15,
+      "weight": 5.5
     },
     {
       "to": "south-korea",
       "type": "supply_chain_cascade_defused",
-      "context": "Day 57 Friday. KOSPI +18.6% 1M (+30.8% 3M) on SK Hynix Q1 72% margin + HBM4 mass production for Nvidia + explicit helium-inventory-sufficient disclosure. Samsung HeRS covers ~18.6% of consumption. Cascade structurally defused at tier-1 chipmaker level.",
+      "context": "Day 58 Saturday. KOSPI flat Friday at 6,475.63 (+18.6% 1M / +30.8% 3M) on SK Hynix Q1 + Samsung Q1 guidance (8x YoY operating profit) + helium reuse system disclosure. Cascade structurally defused at tier-1 chipmaker level. Samsung April 30 earnings release is the next binary catalyst.",
       "directness": 3,
-      "last_activated": "2026-04-24",
-      "activation_count": 12,
-      "weight": 7.0
+      "last_activated": "2026-04-25",
+      "activation_count": 13,
+      "weight": 5.5
+    },
+    {
+      "to": "semiconductors",
+      "type": "supply_chain_cascade_falsified",
+      "context": "Day 58 Saturday. SMH +5.1% Friday at $506.44; 16-day SOX consecutive-up streak +38.7% in 4 weeks; record $5.5B April inflows. Helium cascade falsified at tier-1 customer level (Samsung+SK Hynix). Industrial-gas-producer rotation (Linde, BASF) still captures spot premium without margin offset.",
+      "directness": 2,
+      "last_activated": "2026-04-25",
+      "activation_count": 1,
+      "weight": 4.5
     }
   ],
   "trigger_points": [

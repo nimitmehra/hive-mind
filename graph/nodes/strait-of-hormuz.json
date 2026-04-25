@@ -3,8 +3,8 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-04-24",
-  "summary": "Day 57 Friday. NO THIRD IRGC INTERDICTION CONFIRMED THURSDAY OR FRIDAY — 48-hour continuation-trigger window resolved NOT MET. Kinetic paused while Iran consolidated the Mojtaba/unity-messaging narrative. CENTCOM 31-vessel blockade count unchanged publicly Friday (running-rate ~1.3 vessels/day). Trump on April 23 ordered US Navy to destroy Iranian mine-laying boats in Hormuz — new ROE distinct from shadow-fleet interdiction. USS George H.W. Bush arrived in CENTCOM AOR — third US carrier in-region, highest since 2003. Physical-market indicators of disruption intact: AWRP holds 2-6% of hull value (8-24x pre-crisis per S&P Global / Lloyd's List / Caixin); VLCC TD3C rate WS467 ~$474,000/day TCE (near peak); helium +40-100% spot premium; Lloyd's List: 'MEG indices near peak, not collapsed.' Paper Brent -6.8% (yfinance continuous) to $97.94 — second consecutive peak-fade session; cumulative $9-10/bbl two-session unwind. THE PAPER-PHYSICAL GAP IS NOW WIDEST OF THE CRISIS. UANI April 22: 8 container ships escaped Gulf via Hormuz (industry convoy-and-escape response). Trump DFC $40B reinsurance facility partnership with US insurers is the operational cap on AWRP escalation — above a threshold, government backstops commercial pullout.",
+  "last_updated": "2026-04-25",
+  "summary": "Day 58 Saturday. NO IRGC SATURDAY KINETIC — 4-DAY KINETIC PAUSE EXTENDS. CENTCOM 31-vessel blockade unchanged; Trump April 23 destroy-mine-laying-boats ROE remains in effect with no public reports of any actual destroyed mine-laying boats. Three-carrier CENTCOM presence (Bush + Lincoln + Ford — CORRECTION: Lincoln, not Vinson, is the third carrier; Vinson is in Indo-Pacific) signals near-term decision arc weeks 4-6 through late May. Witkoff + Kushner physically dispatched to Islamabad Saturday morning; Iran 'no meeting' framing maintained. CORRECTED PAPER BRENT: yesterday's anomalous $97.94 print is replaced by Saturday script reading $105.33 (+0.2% 1D, +60.6% 3M) — multi-source web confirmation (CNBC, Trading Economics, angle360ng) shows Friday Brent oscillated $104-106 not the -6.8% paper unwind yesterday's brief encoded. Paper-physical gap is materially NARROWER than yesterday's framework implied — paper Brent is also in crisis-pricing mode, not fading. Physical indicators: AWRP $10-14M per Persian Gulf voyage (Lloyd's List); 329 vessels operating in Persian Gulf = ~$352B in coverage that private markets are no longer providing (WEF data); DFC $40B reinsurance facility is the policy backstop. VLCC TD3C softened modestly to WS459.28 / $467,408/day TCE (Baltic Exchange, -1.7% from April 20). UKMTO Update 034 (April 19 cutoff) shows no fresh Red Sea kinetic. The forward asymmetry remains positive for escalation but the magnitude has been overstated.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -802,6 +802,33 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED (Trump order, carrier arrival, physical indicators). No confirmed mine-laying boat destroyed yet."
+    },
+    {
+      "date": "2026-04-25",
+      "content": "BRENT CORRECTION: FRIDAY CLOSE ~$105, NOT $97.94 — PAPER-PHYSICAL GAP MUCH NARROWER THAN YESTERDAY ENCODED [DATA AUDIT]. Yesterday's markets.md recorded Brent at $97.94 (-6.8% 1D). Today's Saturday script reads $105.33 (+0.2% 1D, +60.6% 3M). Multi-source web confirmation: CNBC Apr 23 had Brent Thursday close at $105.07 (+3% intraday); Trading Economics has Brent Friday slipping to ~$104.4; angle360ng has Brent intraday at $106 Friday. Actual Friday trajectory was Brent oscillating in $104-106 band — not a -6.8% peak fade. Yesterday's Brent figure was anomalous (likely a yfinance continuous-contract roll artifact or stale/cached print). Implication: paper Brent has been holding the $103-107 band for several sessions while physical indicators (war risk insurance $10-14M/voyage, VLCC at WS459/$467K-day, helium +40-100%) are also in elevated mode — paper and physical are BOTH in crisis-pricing mode. The 'paper-physical gap at its widest' framework is substantially weakened by the corrected data. Forward bands for Brent: $95-115 (not yesterday's $90-110). A confirmed Sunday Witkoff-Araghchi proposal extracts $5-8/bbl; weekend kinetic adds $5-10/bbl. (Sources: yfinance Saturday script; CNBC April 23; Trading Economics April 24-25; angle360ng April 25)",
+      "sources": [
+        "yfinance",
+        "CNBC",
+        "Trading Economics",
+        "angle360ng"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED via multi-source web cross-reference; CORRECTS yesterday's anomalous yfinance print."
+    },
+    {
+      "date": "2026-04-25",
+      "content": "PHYSICAL INDICATORS CONTINUE CRISIS-PRICING SATURDAY [CONFIRMED]. War risk insurance Persian Gulf voyages: $10-14M per voyage; broad rates 0.8-1.5%; US/UK/Israeli flags 3x base (Lloyd's List / WEF / S&P Global). 329 vessels operating in Persian Gulf = ~$352B in insurance coverage that private markets are no longer providing (WEF data). DFC $40B reinsurance partnership remains the policy backstop. Joint War Committee maintains entire Persian Gulf as high-risk zone. VLCC TD3C softened modestly to WS459.28 / $467,408/day TCE (vs WS467 prior — Baltic Exchange via Lloyd's List / Edge Malaysia). Persian Gulf 'all but closed to shipping' per Lloyd's List. Helium spot $1,000-1,200/Mcf (+40-100% from $500 pre-war) — Qatar 30% global supply still offline. CENTCOM 31-vessel blockade unchanged Saturday. Trump destroy-mine-laying-boats ROE in effect; no destruction publicly reported. Witkoff-Kushner Saturday dispatch + Iran 'no meeting' framing operates above the unchanged operational substrate.",
+      "sources": [
+        "Lloyd's List",
+        "WEF",
+        "S&P Global",
+        "Baltic Exchange",
+        "Tom's Hardware",
+        "Fortune",
+        "Joint War Committee"
+      ],
+      "significance": "medium",
+      "verification": "CONFIRMED operational continuation."
     }
   ],
   "edges": [

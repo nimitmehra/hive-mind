@@ -3,12 +3,12 @@
   "name": "Marine War Risk Insurance",
   "type": "institution",
   "created": "2026-04-08",
-  "last_updated": "2026-04-24",
-  "summary": "Day 57 Friday. AWRP HOLDS 2-6% OF HULL VALUE (8-24x PRE-CRISIS); PAPER-PHYSICAL GAP AT WIDEST OF CRISIS. Per S&P Global, Marketplace, Lloyd's List, IBTimes, Caixin: Gulf AWRP 2-6% of hull value (from 0.25% pre-crisis = 8-24x pre-crisis multiplier). Lloyd's List: 'US/UK/Israeli-flagged vessels charged 3x others.' Joint War Committee maintains entire Persian Gulf as 'high-risk' zone. Mid-April reporting: 'cautious stabilization' of premiums on ceasefire-discussion reports, with SOME transits eased to 0.8-1% band. No fresh April 24 rate print in open press. Trump DFC $40B reinsurance facility partnership with US insurers is the CEASEFIRE-PRICING DATUM — government backstop enabling commercial pullout. Above a threshold AWRP, DFC absorbs; operational cap on escalation. Paper Brent -6.8% Friday cumulative $9-10/bbl two-session fade WHILE AWRP holds 8-24x pre-crisis = paper-physical gap widest of crisis per markets.md. Marine-war-risk-insurance → brent-crude edge is now the CLEANEST REGIME-IDENTIFICATION TOOL in the graph per markets.md F2.",
+  "last_updated": "2026-04-25",
+  "summary": "Day 58 Saturday. PHYSICAL INDICATORS CONTINUE CRISIS-PRICING SATURDAY — AWRP $10-14M PER PERSIAN GULF VOYAGE; 329 VESSELS = ~$352B COVERAGE GAP. Per Lloyd's List / WEF / S&P Global: war risk insurance Persian Gulf voyages now $10-14M per voyage; broad rates 0.8-1.5%; US/UK/Israeli flags 3x base. Some easing to 0.35-0.45% on broader Middle East Gulf routes. 329 vessels operating in Persian Gulf = ~$352B in insurance coverage that private markets are no longer providing (WEF data). DFC $40B reinsurance partnership remains the policy backstop — government-backed cap on commercial pullout above threshold. Joint War Committee maintains entire Persian Gulf as 'high-risk' zone. CRITICAL FRAMEWORK REFINEMENT: Yesterday's brief encoded paper-physical gap as 'widest of crisis' on Brent -6.8% data; Saturday data audit reveals Friday Brent actually closed ~$105 (not $97.94), so paper Brent is also in crisis-pricing mode and the gap is materially NARROWER than yesterday's framework implied. Both paper and physical are pricing crisis continuation. The marine-war-risk-insurance edge to brent-crude remains a regime-identification tool but its DIAGNOSTIC role is unchanged-importance (not 'cleanest' as the corrected paper data converges with physical). Reversibility on AWRP: low — DFC backstop is operational ceiling, but insurer pullout could shift floor downward if confirmed Sunday Witkoff-Araghchi proposal lifts perceived risk.",
   "current": {
     "cover_pre_crisis": "$25K/year per vessel",
-    "cover_current": "Easing to 0.8-1.0% hull value (from 2.5% peak). Still 4-6x pre-crisis (0.15-0.25%). LMA: 88% of Lloyd's market has appetite. Constraint is SAFETY, not availability.",
-    "multiplier_vs_pre_crisis": "32-40x pre-war (0.8-1.0% vs 0.025%). Easing but still extreme."
+    "cover_current": "$10-14M per Persian Gulf voyage; broad rates 0.8-1.5%; US/UK/Israeli flags 3x; some easing to 0.35-0.45% on broader MEG routes. 329 vessels = ~$352B coverage gap.",
+    "multiplier_vs_pre_crisis": "8-24x pre-war (0.8-1.5% vs 0.025-0.04%). Elevated."
   },
   "signals": [
     {
@@ -187,6 +187,18 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED industry physical indicators; no April 24 specific rate print in open press."
+    },
+    {
+      "date": "2026-04-25",
+      "content": "AWRP $10-14M PER PERSIAN GULF VOYAGE; 329 VESSELS = ~$352B COVERAGE GAP; DFC $40B BACKSTOP [CONFIRMED]. War risk insurance Persian Gulf voyages: $10-14M per voyage; broad rates 0.8-1.5%; US/UK/Israeli flags 3x base. Some easing to 0.35-0.45% on broader Middle East Gulf routes. WEF data: 329 vessels operating in Persian Gulf = ~$352B in insurance coverage that private markets are no longer providing — this is the magnitude of the physical-disruption gap, materially larger than any prior crisis. DFC $40B reinsurance partnership remains the policy backstop and operational ceiling. Joint War Committee maintains entire Persian Gulf as 'high-risk' zone. CRITICAL FRAMEWORK REFINEMENT: Yesterday's brief encoded paper-physical gap as 'widest of crisis' on Brent -6.8% data; Saturday data audit reveals Friday Brent actually closed ~$105 (not $97.94). Both paper and physical are now confirmed to be in crisis-pricing mode — paper-physical gap is materially NARROWER than yesterday's framework implied. The marine-war-risk-insurance edge to brent-crude remains a regime-identification tool but its 'cleanest' status (per yesterday) is downgraded — paper has converged with physical at $103-107 band. (Sources: Lloyd's List, WEF, S&P Global, Joint War Committee)",
+      "sources": [
+        "Lloyd's List",
+        "WEF",
+        "S&P Global",
+        "Joint War Committee"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED industry data; CRITICAL FRAMEWORK REFINEMENT post-Brent-correction."
     }
   ],
   "edges": [
@@ -211,11 +223,11 @@
     {
       "to": "brent-crude",
       "type": "supply_constraint_diagnostic",
-      "context": "Day 57 Friday. PAPER-PHYSICAL GAP AT WIDEST OF CRISIS — paper Brent -6.8% cumulative $9-10/bbl two-session fade while AWRP holds 8-24x pre-crisis. Cleanest regime-identification tool in the graph per markets.md F2; second consecutive day the mechanism is operationally demonstrated. Trump DFC $40B reinsurance facility is the operational cap on AWRP escalation.",
+      "context": "Day 58 Saturday. FRAMEWORK REFINEMENT: Yesterday encoded paper-physical gap as 'widest of crisis' on Brent -6.8% data; Saturday data audit reveals Friday Brent actually closed ~$105. Both paper and physical now confirmed to be in crisis-pricing mode — gap materially narrower than yesterday's framework. AWRP $10-14M/voyage holds 8-24x pre-crisis. Edge weight reduced from 9.5 to 8.0 to reflect convergence — diagnostic role retained but 'cleanest regime-identification' status downgraded.",
       "directness": 2,
-      "last_activated": "2026-04-24",
-      "activation_count": 9,
-      "weight": 9.5
+      "last_activated": "2026-04-25",
+      "activation_count": 10,
+      "weight": 8.0
     },
     {
       "to": "trump",

@@ -1,0 +1,126 @@
+{
+  "id": "semiconductors",
+  "name": "Semiconductors (SMH/SOX)",
+  "type": "sector",
+  "created": "2026-04-25",
+  "last_updated": "2026-04-25",
+  "summary": "Day 58 Saturday — SEMICONDUCTOR SECTOR PROMOTED FROM EDGE-ONLY TO FORMAL NODE per markets.md F2. SMH closed $506.44 (+5.1% 1D, +26.9% 1M, +27.0% 3M) — the cleanest non-war-driven equity move of the entire crisis. Per Benzinga April 24, the Philadelphia Semiconductor Index has gained for 16 consecutive trading sessions, +38.7% in roughly four weeks — pace for the biggest monthly gain since February 2000. April fund inflows record: SOXX/SMH combined $5.5B; SMH alone $3.4B all-time fund inflow record. Primary chain ~95% structural / ~5% crisis: Taiwan single-stock fund-limit raised 10% → 25% (JPM $6B+ inflow); TSMC capex +32% to $54B for 2026; SK Hynix Q1 72% operating margin (above Nvidia's 65%); Samsung Q1 guidance ₩57.2T operating profit 8x YoY; SMH 16-day consecutive up streak. Crisis-linked sub-chain (5%): helium-cascade falsification at SK Hynix + Samsung tier-1 level (Q1 disclosures of diversified suppliers + helium reuse system) removes a tail risk. The 'war doesn't break chips' narrative is now operationally proven. The fact that SMH +5.1% Friday occurred ALONGSIDE three carriers in CENTCOM, new Trump destroy-mine-laying-boats ROE, Mojtaba's first attributed statement in 42 days, and Witkoff-Kushner Pakistan dispatch is the empirical demonstration that the crisis is no longer the dominant equity-market driver for the AI-semiconductor cluster. Samsung April 30 earnings is the next binary catalyst: if guidance flags helium/supply concerns, the 16-day streak breaks; if Samsung confirms similar margin pricing power, the streak extends. For investor: chip exposure is the cleanest non-crisis structural-growth window. The SMH +27.0% 3M return has compressed valuation upside meaningfully — entry now is into a momentum-extended leg, not a value entry.",
+  "current": {
+    "price": "SMH $506.44 (Friday close per Saturday script)",
+    "delta_1d": "+5.1%",
+    "delta_1m": "+26.9%",
+    "delta_3m": "+27.0%",
+    "april_inflows": "SOXX/SMH combined $5.5B; SMH alone $3.4B (all-time fund inflow record)",
+    "sox_streak": "16 consecutive up sessions (+38.7% in ~4 weeks) — pace for biggest monthly gain since Feb 2000"
+  },
+  "price_snapshots": [
+    {
+      "date": "2026-04-25",
+      "price": "SMH $506.44 (+5.1% 1D)",
+      "trigger": "Promoted from edge-only to node per markets.md F2; first formal price snapshot. TSMC fund-limit deregulation (JPM $6B+ inflow estimate) + TSMC capex +32% to $54B + 16-day SOX streak + record April inflows + SK Hynix Q1 72% margin + Samsung Q1 8x YoY operating profit guidance + Samsung helium reuse system disclosure.",
+      "delta_context": "16-day SOX streak is the longest momentum-driven rally of 2026; pace for biggest monthly gain since Feb 2000 (the dot-com top). Editor must not attribute meaningful portion of Friday's chip rally to crisis dynamics — rally is regulatory/earnings/structural. Samsung April 30 earnings is the next binary catalyst."
+    }
+  ],
+  "signals": [
+    {
+      "date": "2026-04-25",
+      "content": "SMH $506.44 (+5.1% 1D) — THE FRIDAY MARKET HEADLINE YESTERDAY MISSED [CONFIRMED CORRECTION]. Yesterday's dossier had SMH at $481.85 (+1.1%) — wrong by $25/share and 4 percentage points. Per Benzinga April 24, the Philadelphia Semiconductor Index has now gained for 16 consecutive trading sessions, +38.7% in roughly four weeks — pace for the biggest monthly gain since February 2000. April fund inflows at record: SOXX/SMH combined $5.5B (already exceeding any previous full-month inflow record); SMH alone $3.4B (all-time fund inflow record). Primary chain (~95% structural, ~5% crisis): Taiwan Financial Supervisory Commission single-stock fund-limit raised 10% → 25% (JPM $6B+ inflow estimate) → TSMC ADR rally → SMH top-holding lift; TSMC announces 32% capex hike to $54B for 2026 → multi-year structural AI demand confirmation; SK Hynix Q1 72% operating margin (above Nvidia's 65%) → AI memory pricing power confirmed; SMH 16-day consecutive up streak = longest momentum-driven rally of 2026; record April inflows = systematic+passive money chasing the move. Crisis-linked sub-chain (5%): helium-cascade falsification at SK Hynix + Samsung tier-1 level removes a tail risk that had been overhanging; 'war doesn't break chips' narrative now operationally proven. The fact that SMH +5.1% Friday occurred ALONGSIDE three carriers in CENTCOM, new Trump destroy-mine-laying-boats ROE, Mojtaba's first attributed statement in 42 days, and Witkoff-Kushner Pakistan dispatch — and the chip complex moved purely on TSMC capex + Taiwan regulatory + SK Hynix earnings — is the empirical demonstration that the crisis is no longer the dominant equity-market driver for the AI-semiconductor cluster. (Sources: yfinance Saturday script; Benzinga April 24; TSMC investor release; Samsung Global Newsroom; CNBC; SK Hynix earnings)",
+      "sources": [
+        "yfinance",
+        "Benzinga",
+        "TSMC investor release",
+        "Samsung Global Newsroom",
+        "CNBC",
+        "SK Hynix"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED corrected market data + structural-rally attribution at multi-source level."
+    },
+    {
+      "date": "2026-04-25",
+      "content": "SAMSUNG Q1 GUIDANCE 8x YoY OPERATING PROFIT — HELIUM REUSE SYSTEM DEPLOYED [CONFIRMED]. Samsung Electronics issued Q1 2026 earnings guidance: operating profit ₩57.2 trillion (~$37.8 billion), 8x YoY gain and all-time quarterly high; revenue ₩133 trillion (~$88.6 billion), +68% YoY. Memory-chip demand from AI compute is the structural driver; HBM4 (11.7Gbps) entering production this quarter. Samsung publicly disclosed deployment of helium reuse system reducing annual consumption by ~4.7 tons with ~19% reuse rate. Combined with SK Hynix Q1 disclosure (diversified suppliers + sufficient inventory), the tier-1 chipmaker pair has BOTH publicly confirmed helium hedging that prevents margin pass-through from the +40% spot premium. Full earnings release April 30 (date corrected from April 29 in yesterday's brief) is the binary test for full helium cascade falsification at tier-1 level. Industrial-gas-producer rotation (Linde, BASF) still operationally valid because they capture the spot premium without margin offset. (Sources: Samsung Global Newsroom April 7 guidance release; qz.com; SamMobile; TipRanks; Shacknews; SammyGuru)",
+      "sources": [
+        "Samsung Global Newsroom",
+        "qz.com",
+        "SamMobile",
+        "TipRanks",
+        "Shacknews"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED via Samsung Global Newsroom primary + multi-source relay."
+    }
+  ],
+  "edges": [
+    {
+      "to": "taiwan",
+      "type": "regulatory_direct_driver",
+      "context": "Day 58 Saturday. Taiwan Financial Supervisory Commission single-stock fund-limit raised 10% → 25% (JPM $6B+ inflow). TSMC is ~40% of Taiwanese market cap; every passive and active fund must rebalance. TSMC capex +32% to $54B for 2026 confirms multi-year structural AI demand. TAIEX +3.2% Friday on regulatory catalyst. Direct first-order driver of SMH 16-day streak.",
+      "directness": 1,
+      "last_activated": "2026-04-25",
+      "activation_count": 1,
+      "weight": 8.5
+    },
+    {
+      "to": "south-korea",
+      "type": "ai_memory_supply_dependency",
+      "context": "Day 58 Saturday. KOSPI +18.6% 1M / +30.8% 3M on SK Hynix Q1 72% operating margin (above Nvidia 65%) + Samsung Q1 guidance ₩57.2T operating profit 8x YoY + Samsung HBM4 entering production + helium reuse system disclosure. The Korean tier-1 chipmaker pair structurally drives the AI-memory leg of the chip complex.",
+      "directness": 1,
+      "last_activated": "2026-04-25",
+      "activation_count": 1,
+      "weight": 8.5
+    },
+    {
+      "to": "helium",
+      "type": "supply_chain_cascade_falsified",
+      "context": "Day 58 Saturday. Helium-cascade falsification confirmed at BOTH Korean tier-1 chipmakers: SK Hynix Q1 (diversified suppliers + sufficient inventory + limited production impact) + Samsung Q1 (helium reuse system, ~4.7 tons/yr reduction, ~19% reuse rate). The 'war doesn't break chips' narrative is now operationally proven at tier-1 customer level. Industrial-gas-producer rotation (Linde, BASF) still valid because producers capture spot premium without margin offset.",
+      "directness": 2,
+      "last_activated": "2026-04-25",
+      "activation_count": 1,
+      "weight": 4.5
+    },
+    {
+      "to": "sp-500",
+      "type": "sector_component_structural_bid",
+      "context": "Day 58 Saturday. SMH 16-day SOX consecutive-up streak +38.7% in ~4 weeks — pace for biggest monthly gain since Feb 2000. Record $5.5B April SOXX/SMH inflows. Chip complex is now ~7% of S&P 500 weight; passively bid via index flows. Structural AI-driven rally has decoupled from crisis narrative.",
+      "directness": 1,
+      "last_activated": "2026-04-25",
+      "activation_count": 1,
+      "weight": 7.5
+    },
+    {
+      "to": "united-states",
+      "type": "structural_capital_flow_destination",
+      "context": "Day 58 Saturday. SOXX/SMH April inflows record $5.5B. SMH +27.0% 3M return is the cleanest non-crisis structural-growth window. AI structural-growth thesis attracting US capital independent of geopolitical regime. TSMC US fab buildout ($165B+ capex) is the parallel reshoring leg.",
+      "directness": 2,
+      "last_activated": "2026-04-25",
+      "activation_count": 1,
+      "weight": 6.5
+    }
+  ],
+  "trigger_points": [
+    {
+      "condition": "Samsung April 30 earnings call flags helium/supply as Q2 guidance risk",
+      "cascade": [
+        "semiconductors",
+        "south-korea",
+        "helium",
+        "sp-500"
+      ],
+      "mechanism": "If Samsung's earnings call and outlook commentary flag helium as a guidance risk for Q2, the helium → semiconductor cascade re-opens at tier-1 level and the 16-day SOX streak breaks. SMH would re-price -3 to -5% on the morning. If Samsung confirms similar margin pricing power and helium-reuse-system absorbs the supply tightness without guidance impact, the streak extends and the cascade is fully falsified at tier-1 level. Falsifiable: April 30 8:30 AM KST.",
+      "added": "2026-04-25",
+      "status": "watching"
+    },
+    {
+      "condition": "SOX 16-day consecutive-up streak breaks (any single down session)",
+      "cascade": [
+        "semiconductors",
+        "sp-500",
+        "taiwan",
+        "south-korea"
+      ],
+      "mechanism": "Pace for biggest monthly gain since Feb 2000 (the dot-com top). The streak's length itself is a momentum-extension signal; any single down session would mark the inflection. Falsifiable: weekly SOX close.",
+      "added": "2026-04-25",
+      "status": "watching"
+    }
+  ]
+}

@@ -3,13 +3,13 @@
   "name": "Fertilizer / Urea",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-24",
-  "summary": "Day 57 Friday. CF INDUSTRIES +2.6% TO $125.59 — STRUCTURAL FERTILIZER THESIS INTACT. Nutrien +0.9%; Linde +2.7%; BASF +0.3%. Urea (Yuzhny FOB approx) ~$694.75/mt (Apr 22 print, +0.5% 1D, +3.3% 1M, +60.6% YoY). US urea average $858/ton second-week April (+27% 1M). Black Sea benchmark up sustained; fertilizer structural tightness intact. Qatar urea production remains structurally compromised regardless of ceasefire framing; April 13 IRGC East-West pipeline strike + Hormuz blockade still cuts Gulf urea exports; Qatar facilities require structural restart 'August at earliest' for full recovery. Despite Linde's +2.7% holding gains and helium-cascade running below model severity at tier-1 chipmaker level (SK Hynix Q1 disclosure of diversified supply + sufficient inventory), the chemical/industrial-gas supply-chain rotation thesis is INTACT. Sector rotates INTO fertilizer producers as crisis-beta that does not reverse on Trump tweets. Reversibility LOW for next 60-90 days.",
+  "last_updated": "2026-04-25",
+  "summary": "Day 58 Saturday. CF INDUSTRIES -3.7% TO $120.93 — DATA CORRECTION; FERTILIZER CASCADE THESIS MATERIALLY WEAKER THAN YESTERDAY ENCODED. Yesterday's brief had CF at $125.59 (+2.6%) — Saturday script + Quiver Quant April 24 confirms actual close at $120.93 (-3.7% 1D, -5.6% 1M, +32.7% 3M). Per Quiver Quant: CF pulled back as the fertilizer 'risk premium' cooled ahead of Q1 results, with traders rotating out of nitrogen names that had run on Iran-crisis spillover. Primary chain ~50% crisis de-escalation / ~50% pre-earnings positioning: Witkoff-Kushner Pakistan dispatch → de-escalation pricing → fertilizer risk premium compression; Q1 earnings ahead → traders trimming positions on uncertainty; Urea Yuzhny FOB at $694 (Apr 23) FLAT — no fresh urea-spike to reprice. The Qatar-LNG → Europe-gas → urea → CF chain is being DE-PRICED by traders on diplomatic-track signals despite physical urea pricing holding. This is the second cascade falsification of the week (helium → tier-1 chipmakers being the first). Per markets.md F3: edge weight REDUCED on fertilizer cascade. Nutrien $71.57 (-0.9%). Linde $510.30 (+0.4%) — chemical/industrial-gas rotation still intact at producer level via spot-premium capture. BASF €54.32 (+0.1% 1D, +11.2% 1M) holds. Reversibility: pre-earnings positioning reverses on Q1 print; crisis component re-prices on weekend kinetic.",
   "current": {
-    "price": "Urea Granular FOB ME $702/mt spot / $830/mt forward; CF Industries $115.94; Nutrien $71.17; Linde $498.15",
-    "delta_1d": "CF +2.9% (reversal); Nutrien +0.8%; Linde +1.2%; Urea +81.7% YTD",
-    "delta_1m": "CF -7.7%; Urea +~15%",
-    "delta_3m": "CF +26.9%; Nutrien +4.4%",
+    "price": "CF Industries $120.93 (Friday close); Nutrien $71.57; Linde $510.30; BASF €54.32; Urea Yuzhny ~$694/mt (Apr 23)",
+    "delta_1d": "CF -3.7%; Nutrien -0.9%; Linde +0.4%; BASF +0.1%; Urea -0.1%",
+    "delta_1m": "CF -5.6%; Urea +3.3%; BASF +11.2%",
+    "delta_3m": "CF +32.7%; Nutrien +2.6%; Urea +60% YoY",
     "profercy_world_nitrogen_index": "352.95 — highest since May 2022"
   },
   "price_snapshots": [
@@ -328,35 +328,47 @@
         "markets.md C3 Section E1"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-25",
+      "content": "CF INDUSTRIES -3.7% TO $120.93 — DATA CORRECTION; FERTILIZER CASCADE THESIS WEAKENS [DATA AUDIT, REPORTED]. Yesterday's brief had CF at $125.59 (+2.6%) — Saturday script + Quiver Quant April 24 confirms actual close $120.93 (-3.7% 1D, intraday range $120.50-$125.00). Per Quiver Quant: 'CF pulled back as the fertilizer risk premium cooled ahead of Q1 results, with traders rotating out of nitrogen names that had run on Iran-crisis spillover.' Primary chain ~50% crisis de-escalation / ~50% pre-earnings positioning: Witkoff-Kushner Pakistan dispatch → de-escalation pricing → fertilizer risk premium compression; Q1 earnings ahead → traders trimming positions on uncertainty; Urea Yuzhny FOB at $694 (Apr 23) FLAT — no fresh urea-spike to reprice; Black Sea benchmark stable. The Qatar-LNG → Europe-gas → urea → CF chain is being de-priced by traders on diplomatic-track signals despite physical urea pricing holding. SECOND CASCADE FALSIFICATION OF THE WEEK (helium → tier-1 chipmakers being the first via SK Hynix + Samsung Q1). Per markets.md F3: graph weight should be REDUCED on fertilizer cascade edges. Reversibility: pre-earnings positioning reverses on Q1 print; crisis component re-prices on weekend kinetic. Q1 earnings date is the binary. Nutrien $71.57 (-0.9%); Linde $510.30 (+0.4%) — chemical/industrial-gas rotation still intact at producer level; BASF €54.32 (+0.1% 1D, +11.2% 1M).",
+      "sources": [
+        "yfinance",
+        "Quiver Quant",
+        "Trading Economics",
+        "Argus Media"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED data audit; CASCADE WEAKENING REPORTED."
     }
   ],
   "edges": [
     {
       "to": "natural-gas-lng",
       "type": "feedstock_dependency",
-      "context": "Natural gas is primary input for nitrogen-based fertilizers. Henry Hub -16.6% 1M = US domestic fertilizer input costs falling. But global LNG (TTF) still elevated. US producers (CF, Nutrien) benefit from cheap domestic gas + high urea prices = margin expansion.",
+      "context": "Natural gas is primary input for nitrogen-based fertilizers. Henry Hub -14.5% 1M = US domestic fertilizer input costs falling. But global LNG (TTF) still elevated at €44.72/MWh. US producers (CF, Nutrien) benefit from cheap domestic gas + high urea prices = margin expansion at the structural level even as risk-premium re-pricing trades against the names.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 9,
-      "weight": 9.0
+      "last_activated": "2026-04-25",
+      "activation_count": 10,
+      "weight": 8.5
     },
     {
       "to": "qatar",
-      "type": "production_dependency",
-      "context": "Day 55 Wednesday. QAFCO Mesaieed (world's largest single-site urea plant, 5.6 Mt/y) remains offline. Ras Laffan Trains 4 & 6 = 12.8 Mtpa / 17% global LNG offline; August earliest partial restart, 3-5 years full restoration. April 22 ceasefire extension does NOT fix the physical supply chain. CF +4.6% Wed (DAY'S BIGGEST SINGLE BELLWETHER MOVE on a peace-pricing tape) = equity confirmation of 'elevated through 2027' thesis. Markets.md E1 weight upgrade applied (already capped at 10).",
+      "type": "production_dependency_cascade_weakening",
+      "context": "Day 58 Saturday. QAFCO Mesaieed urea plant remains offline; Ras Laffan Trains 4 & 6 still 17% global LNG offline. Physical supply chain unchanged. BUT CF -3.7% Friday on diplomatic-track signals + pre-earnings positioning shows traders DE-PRICING the cascade despite physical persistence. Per markets.md F3: edge weight reduced to reflect cascade running below model severity at equity-pricing level. Structural physical thesis intact through 2027; risk-premium pricing is being de-prioritised.",
       "directness": 1,
-      "last_activated": "2026-04-22",
-      "activation_count": 10,
-      "weight": 10
+      "last_activated": "2026-04-25",
+      "activation_count": 11,
+      "weight": 8.0
     },
     {
       "to": "india",
       "type": "import_dependency",
-      "context": "Day 55 Wednesday. India imports 40%+ of urea from Middle East. Domestic plants at 70% capacity due to LNG cuts. Quietly approaching China. Kharif 2026 planting season at risk. India March CPI 3.40% with imported inflation at 6.49% (43% of headline). Brazil/India absorbing elevated freight; DAP $722.50/T (+11.6% 1M). CF +4.6% Wed (US producer residual swing supply at premium pricing) is structural-persistence-beyond-ceasefire signal. Markets.md E1: weight upgrade +1.0 reflecting structural-persistence beyond ceasefire framing.",
+      "context": "Day 58 Saturday. India imports 40%+ urea from Middle East; domestic plants at 70% capacity due to LNG cuts. Quietly approaching China. Kharif 2026 planting season at risk. CF -3.7% Friday on diplomatic-track signals reduces near-term cascade severity at the equity-pricing level. Markets.md F3 directs reducing fertilizer-urea cascade weight. Physical supply chain unchanged but risk premium de-priced.",
       "directness": 1,
-      "last_activated": "2026-04-22",
-      "activation_count": 9,
-      "weight": 9.4
+      "last_activated": "2026-04-25",
+      "activation_count": 10,
+      "weight": 8.5
     },
     {
       "to": "strait-of-hormuz",

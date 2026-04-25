@@ -3,8 +3,8 @@
   "name": "Iraq",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-18",
-  "summary": "Day 51. HORMUZ REOPENING ENABLES IRAQ RESTART PATH [REPORTED]. Reuters/Iraqi News report ~6M barrels of Iraqi+Saudi crude exited Hormuz as ceasefire holds. Basra Oil Chief said Iraq can restore exports to pre-war 3.4M bpd within a week if Hormuz fully reopens. Ministry of Oil is expected to officially lift Force Majeure on southern loading terminals if ceasefire holds through T+3 (April 21). Iranian-backed Iraqi militia drone attacks on Gulf states (Bahrain April 14) confirm simultaneity signal still in play — Iran has NOT ordered proxy ceasefire. Production at 900K bpd pending lift. 90%+ of Iraqi income from oil. Iraq is the single largest piece of restorable supply globally — larger than OPEC+ 206K bpd adjustment.",
+  "last_updated": "2026-04-25",
+  "summary": "Day 58 Saturday. WSJ APRIL 21 (VIA ISW): ~HALF OF ~1,000 DRONE ATTACKS ON SAUDI DURING WAR CAME FROM IRAN-BACKED IRAQI MILITIAS [REPORTED]. Wall Street Journal April 21 reported, citing unnamed sources, that Iranian-backed Iraqi militias conducted approximately half of the ~1,000 drone attacks targeting Saudi Arabia during the war (relayed in ISW Critical Threats Iran Update April 21-22). Historical-cumulative claim, not fresh kinetic. Operationally significant because (1) materially upgrades implied weight of Iraq → Iran-axis edge in the graph, and (2) provides cleaner mechanism for Saudi Tadawul -1.2% Friday close. Iraqi government silent; Iranian state media silent; Saudi MoD silent — all three silences are intelligence (each side has reasons not to confirm or deny). Stays REPORTED until Saudi MoD or CENTCOM independently confirms attribution. Hormuz closure persists; Iraq's southern oil exports remain constrained — production ~900K bpd vs pre-war 3.3M bpd. Force majeure path to restart still depends on diplomatic resolution of Hormuz blockade. Witkoff-Kushner Pakistan dispatch + Iran 'no meeting' framing creates near-term Iraq-restart contingency through Sunday April 26 IST window outcome.",
   "signals": [
     {
       "date": "2026-03-11",
@@ -65,6 +65,16 @@
       "content": "HORMUZ REOPENING → IRAQ EXPORT RESTART WINDOW [REPORTED]. Iraqi News and Reuters report ~6M barrels of combined Iraqi and Saudi crude exited Hormuz in the days following Iran FM Araghchi's April 17 'completely open' declaration. Basra Oil Company chief stated Iraq can restore exports to pre-war 3.4M bpd within a week if Hormuz stays open (USNews exclusive). Ministry of Oil expected to formally lift force majeure on southern loading terminals if ceasefire endures through T+3 (April 21 expiry). Operational mechanics: (a) reduced operator risk premium for BP/Eni/CNPC/ExxonMobil partners, (b) lower war-risk insurance, (c) political cover for coordinated restart. This is the single largest restorable supply globally — a ~2.4M bpd swing dwarfs OPEC+'s 206K bpd May adjustment. If confirmed, walks back $5-10/bbl of remaining war premium. Watch: Iraqi oil ministry formal statement, Basra port loading data, Saudi Yanbu bypass coordination. Caveat: dated Brent physical still ~$132 vs futures $91.87 — $40 gap signals physical has NOT yet reconverged.",
       "sources": ["Iraqi News", "Reuters", "USNews (Basra Oil Chief exclusive)", "Al Arabiya"],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-25",
+      "content": "WSJ VIA ISW: ~HALF OF ~1,000 DRONE ATTACKS ON SAUDI DURING WAR CAME FROM IRAN-BACKED IRAQI MILITIAS [REPORTED — single WSJ-source via unnamed officials]. Wall Street Journal April 21 reported, citing unnamed sources, that Iranian-backed Iraqi militias conducted approximately half of the ~1,000 drone attacks targeting Saudi Arabia during the war (relayed in ISW Critical Threats Iran Update April 21-22). Historical-cumulative claim, not fresh kinetic; operationally significant because (1) materially upgrades the implied weight of the Iraq → Iran-axis edge in the graph (Iraq has been Layer 2), and (2) provides a cleaner mechanism for the Saudi anxiety the Saudi Tadawul -1.2% Friday close had been pricing. Single-sourced (WSJ unnamed officials) — should remain REPORTED until either Saudi MoD or CENTCOM independently confirms attribution. Iraqi government has not addressed the claim Saturday. Iranian state media silent; Saudi MoD silent — all three silences are intelligence (each side has reasons not to confirm or deny).",
+      "sources": [
+        "Wall Street Journal April 21",
+        "ISW Critical Threats Iran Update April 21-22"
+      ],
+      "significance": "high",
+      "verification": "REPORTED single WSJ-sources via unnamed officials, ISW relay."
     }
   ],
   "edges": [
@@ -88,12 +98,21 @@
     },
     {
       "to": "iran",
-      "type": "influence_zone",
-      "context": "Day 47. Iraqi militias continue drone attacks on Gulf states despite ceasefire (CONFIRMED) — Iran NOT ordering proxy ceasefire. Bahrain intercepted 7 drones, summoned Iraq's charge d'affaires. Iran has significant political/military influence in Iraq.",
+      "type": "influence_zone_proxy_arc",
+      "context": "Day 58 Saturday. WSJ April 21 (via ISW): ~half of ~1,000 drone attacks on Saudi during war came from Iran-backed Iraqi militias — REPORTED single-source. Materially upgrades Iraq → Iran-axis edge weight if confirmed. Provides cleaner mechanism for Saudi Tadawul -1.2% Friday. Iraqi/Saudi/Iranian official silence on the claim is itself intelligence.",
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 6,
-      "weight": 8.4
+      "last_activated": "2026-04-25",
+      "activation_count": 7,
+      "weight": 9.0
+    },
+    {
+      "to": "saudi-arabia",
+      "type": "drone_attacks_proxy",
+      "context": "WSJ April 21 (via ISW): ~half of ~1,000 drone attacks on Saudi during war came from Iran-backed Iraqi militias — REPORTED single-source. Iraq is the cleaner mechanism for Saudi anxiety pricing (Tadawul -1.2% Friday) than direct Iranian kinetic. Iraqi government silent.",
+      "directness": 1,
+      "last_activated": "2026-04-25",
+      "activation_count": 1,
+      "weight": 7.5
     }
   ],
   "trigger_points": [],

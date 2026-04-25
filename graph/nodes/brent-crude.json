@@ -3,13 +3,13 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-24",
-  "summary": "Day 57 Friday — SECOND CONSECUTIVE PEAK-FADE SESSION; PAPER-PHYSICAL GAP AT WIDEST OF CRISIS. Brent opened Asian session Friday on Mojtaba 'fracture' statement + USS George H.W. Bush carrier arrival + three-branch unity messaging and spiked to $107.38 intraday (+2.2%), then faded to US close $98.53 (-6.2%) on Trump 'Don't rush me' softening + Lebanon ceasefire 3-week extension absorption + no Friday kinetic. yfinance continuous-contract read: $97.94 (-6.8% 1D). Cumulative $9-10/bbl two-session paper unwind. WTI $94.07 (-1.9% or $94.64 close depending on reference) — smaller decline, Brent-WTI spread widened in Brent's favour. Physical indicators intact: AWRP 2-6% of hull value (8-24x pre-crisis per S&P Global/Caixin/IBTimes/Lloyd's List); VLCC TD3C WS467 ~$474,000/day TCE near peak; helium +40-100%; three carriers in-theater; CENTCOM 31-vessel blockade active; Trump new destroy-mine-laying-boats ROE. Energy sector (XLE +0.8%) and Frontline (BOAT +0.7%) held — physical-exposed assets did not confirm paper de-escalation. Morgan Stanley Q2 $105 base case modal survives (Friday intraday range $98-107, average ~$103). Goldman inflation-regime call 4th consecutive confirming day (gold +0.6% vs expected +1.5-2.5% historical crisis-bid — regime-shifted to DXY/real-yields tracking). Reversibility MAXIMUM on any confirmed weekend kinetic — US-flagged vessel interdiction or Israeli strike on Iranian nuclear facility reloads Brent $103-115 within hours.",
+  "last_updated": "2026-04-25",
+  "summary": "Day 58 Saturday — DATA CORRECTION TO YESTERDAY'S BRENT FIGURE. Saturday script reads $105.33 (+0.2% 1D, +60.6% 3M); yesterday's brief encoded $97.94 (-6.8% 1D) as anomalous yfinance print (likely a continuous-contract roll artifact or stale/cached print). Multi-source web confirmation of corrected Friday close: CNBC Apr 23 had Brent Thursday close at $105.07 (+3% intraday); Trading Economics has Brent Friday slipping to ~$104.4; angle360ng has Brent intraday at $106 Friday. Actual Friday trajectory was Brent oscillating in the $104-106 band on slight intraday softening — NOT a -6.8% peak fade. The 'paper Brent rejected escalation' / 'paper-physical gap at widest' thesis from yesterday's brief COLLAPSES on the corrected data. Reality: paper Brent has been holding the $103-107 band for several sessions while physical indicators (war risk insurance $10-14M/voyage, VLCC at WS459/$467K-day, helium +40-100%) are also in elevated mode — paper and physical BOTH in crisis-pricing mode. The forward asymmetry remains positive for escalation but the magnitude has been overstated. Markets closed Saturday/Sunday. Forward bands: $95-115 (not yesterday's $90-110); confirmed Sunday Witkoff-Araghchi proposal extracts $5-8/bbl; weekend kinetic adds $5-10/bbl. Goldman Q2 $90/bbl forecast (cut from $99 April 14-15) operative analytical context. Goldman inflation-regime call (gold tracking DXY/real-rates rather than geopolitical premium) holds 5th consecutive day.",
   "current": {
-    "price": "$97.94 (yfinance continuous); US close $98.53 — two-session $9-10/bbl peak fade",
-    "delta_1d": "-6.8%",
-    "delta_1m": "-4.2%",
-    "delta_3m": "+49.3%"
+    "price": "$105.33 (Saturday script); $103-107 band — CORRECTION from yesterday's anomalous $97.94 print",
+    "delta_1d": "+0.2%",
+    "delta_1m": "+3.0%",
+    "delta_3m": "+60.6%"
   },
   "price_snapshots": [
     {
@@ -185,6 +185,12 @@
       "price": "Wed evening US session ~$99.81 (+1.4% 1D, +$7.33/bbl from morning $92.48 print)",
       "trigger": "IRGC Navy kinetic break inside ceasefire envelope: fast-boats fired without warning on container ship 15nm NE Oman + cargo ship 8nm west of Iran; MSC Francesca + Epaminondas formally seized to Iranian territorial waters",
       "delta_context": "Cleanest single-day demonstration this crisis of Hormuz-paper sensitivity to IRGC operational behaviour — full $7+/bbl roundtrip in <24 hours: $90.38 → $101.97 (Vance-cancel) → $92.48 (Trump extension morning unwind) → $99.81 (US session IRGC kinetic reload). Morgan Stanley $100 convergence trigger fired TWICE in 18 hours. Goldman $100-115 Q3 modal intact, conditional probability up. Paper closed UP toward physical, not the reverse — structural divergence intact. Conviction-entry condition 'Brent below $92 for 5 consecutive sessions' BROKEN. Goldman $96-98 interim band reasserts. Phase 2 reload reverses ONLY on confirmed Mojtaba endorsement of unified proposal AND Vahidi climbdown on commercial-shipping interdictions — both structurally improbable inside Trump's 3-5 day window."
+    },
+    {
+      "date": "2026-04-25",
+      "price": "$105.33 (Saturday script Friday close re-read; +0.2% 1D, +60.6% 3M) — CORRECTION from yesterday's anomalous $97.94 print",
+      "trigger": "Data audit — yesterday's yfinance print captured anomalous read; today's Saturday script + multi-source web confirms Friday actual close",
+      "delta_context": "CNBC Apr 23 had Brent Thursday close at $105.07; Trading Economics has Brent Friday slipping to ~$104.4; angle360ng has Brent intraday at $106 Friday. Actual Friday trajectory was Brent oscillating $104-106 — NOT a -6.8% peak fade. The 'paper-physical gap at widest' framework collapses on corrected data — paper Brent has been holding $103-107 for several sessions while physical indicators (war risk insurance $10-14M/voyage, VLCC at WS459/$467K-day, helium +40-100%) are also in elevated mode. Forward bands $95-115 (not yesterday's $90-110); confirmed Sunday Witkoff-Araghchi proposal extracts $5-8/bbl; weekend kinetic adds $5-10/bbl. Goldman Q2 forecast trim to $90 Brent / $87 WTI on US-Iran ceasefire (April 14-15) operative analytical context. Markets closed Sat/Sun — Monday open is binary."
     }
   ],
   "signals": [
@@ -791,16 +797,28 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED (market data + physical indicators)."
+    },
+    {
+      "date": "2026-04-25",
+      "content": "DATA CORRECTION: FRIDAY BRENT CLOSE ~$105, NOT $97.94 — PAPER-PHYSICAL GAP MUCH NARROWER THAN ENCODED [DATA AUDIT, multi-source]. Yesterday's markets.md recorded Brent at $97.94 (-6.8% 1D). Today's Saturday script reads $105.33 (+0.2% 1D, +60.6% 3M). Multi-source web confirmation: CNBC Apr 23 had Brent Thursday close at $105.07; Trading Economics has Brent Friday slipping to ~$104.4; angle360ng has Brent intraday at $106 Friday. Actual Friday trajectory was Brent oscillating in $104-106 band — NOT a -6.8% peak fade. Yesterday's Brent figure was anomalous (likely yfinance continuous-contract roll artifact or stale cache). The peak-fade narrative collapses; paper-physical gap is materially narrower than yesterday's framework implied — paper Brent has been holding $103-107 for several sessions while physical indicators (war risk insurance $10-14M/voyage, VLCC at WS459/$467K-day, helium +40-100%) are also in elevated mode. Paper and physical BOTH in crisis-pricing mode. Forward bands: $95-115 (not yesterday's $90-110). A confirmed Sunday Witkoff-Araghchi proposal extracts $5-8/bbl; weekend kinetic adds $5-10/bbl. Goldman Q2 forecast trim to $90 Brent / $87 WTI on US-Iran ceasefire (April 14-15) operative. Markets closed Saturday/Sunday — Monday open is binary. (Sources: yfinance Saturday script; CNBC April 23; Trading Economics April 24-25; angle360ng April 25)",
+      "sources": [
+        "yfinance",
+        "CNBC",
+        "Trading Economics",
+        "angle360ng"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED via multi-source web cross-reference; CORRECTS yesterday's anomalous data point."
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "Day 57 Friday. Brent second consecutive peak-fade session — $107.38 Asian high → $98.53 US close (-6.2%); yfinance continuous -6.8% to $97.94. Cumulative two-session $9-10/bbl paper unwind. Paper-physical gap at widest of crisis: AWRP 2-6% (8-24x pre-crisis), VLCC TD3C near peak, helium +40-100%, three carriers, destroy-mine-laying-boats ROE — all unchanged. Reversibility MAXIMUM on any confirmed weekend kinetic: reload $103-115 within hours.",
+      "context": "Day 58 Saturday. Brent corrected to $105.33 (+0.2% 1D, +60.6% 3M) — yesterday's $97.94 was anomalous yfinance print. Paper Brent has been holding $103-107 for several sessions. Physical indicators (AWRP $10-14M/voyage, VLCC WS459/$467K-day, helium +40-100%) in elevated mode. Paper-physical gap is much narrower than yesterday encoded — both in crisis-pricing mode. Forward bands $95-115; Witkoff-Kushner Pakistan dispatch + Sunday window resolution is the binary forcing function.",
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 39,
+      "last_activated": "2026-04-25",
+      "activation_count": 40,
       "weight": 10
     },
     {
