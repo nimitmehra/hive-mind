@@ -3,8 +3,8 @@
   "name": "Lebanon",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-25",
-  "summary": "Day 58 Saturday. CEASEFIRE LEGALLY EXTENDED + KINETIC EROSION CONFIRMED. The 3-week political extension (announced April 23, runs ~May 14) holds; the operational kinetic continues. IDF announced Saturday morning it had struck Hezbollah targets across southern Lebanon overnight, naming Al Saamiya, Reman, and Deir El Zahrani in its official statement. Lebanese Health Ministry: two killed at Touline; multiple wounded in Yater artillery strike; forced evacuation order issued for Deir Aames; six Hezbollah fighters killed in Bint Jbeil-area armed exchange. Cumulative Lebanese casualties since March 2 stand at 2,491 killed and 7,719 wounded. Hezbollah lawmaker Ali Fayyad: extension 'meaningless in light of Israel's insistence on hostile acts'; Hezbollah retains 'the right to retaliate.' Hezbollah claimed shooting down an Israeli drone with a missile and resumed rocket and drone fire across the border. PM Netanyahu Friday: Israel 'maintains full freedom of action against any threat'; accused Hezbollah of 'trying to derail talks.' Lebanon's track is dual-layered: political extension is real (May 14 deadline holds), kinetic erosion is real. The political track buys Trump a Sunday Iran-only weekend and the optics of de-escalation; the casualty data and Hezbollah 'right to retaliate' show substantive dispute is unchanged.",
+  "last_updated": "2026-04-26",
+  "summary": "Day 59 Sunday. CEASEFIRE DAY 2 OF POST-EXTENSION KINETIC: IDF STRIKES 4+ SUNDAY LOCATIONS, '15+ TERRORISTS ELIMINATED.' The 3-week political extension to ~May 14 holds in legal architecture, but the operational kinetic is in its second consecutive day of multi-location strikes. Lebanon's state-run National News Agency reported Sunday April 26 a series of new Israeli strikes in at least four different locations: a pair of strikes in quick succession in a town in Bint Jbeil district; another strike on a town in Tyre district; and strikes on two towns in Nabatieh district. The IDF stated it had 'struck Hezbollah terrorist infrastructure used for military purposes across southern Lebanon' and would 'continue to operate decisively against threats.' The IDF said it had 'eliminated more than 15 terrorists in southern Lebanon,' including three driving a vehicle 'loaded with weapons.' Cumulative Lebanese casualties since March 2 stood at 2,491 killed / 7,719 wounded as of Saturday; Sunday Health Ministry update pending. Times of Israel separately reported Saturday IDF investigation of footage showing soldiers 'damaging solar panels in southern Lebanon town' — discipline issue alongside the kinetic. Hezbollah lawmaker Ali Fayyad's Saturday line — 'meaningless in light of Israel's insistence on hostile acts' — operationally substantiated for second consecutive day. Netanyahu's 'could turn on a dime' Monday cabinet quote remains the operative Israeli framing. The political track buys diplomatic optics; the casualty data confirms the substantive dispute is unchanged. A third consecutive day of multi-location strikes Monday would formally break the political ceasefire substrate even if the May 14 deadline holds legally.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -396,35 +396,49 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED IDF strikes + Lebanese Health Ministry casualty data + Hezbollah retaliation + drone shootdown claim."
+    },
+    {
+      "date": "2026-04-26",
+      "content": "DAY 2 OF POST-EXTENSION KINETIC — IDF STRIKES 4+ SUNDAY LOCATIONS, '15+ TERRORISTS ELIMINATED' [CONFIRMED ACTION]. Lebanon's state-run National News Agency reported Sunday April 26 a series of new Israeli strikes in at least four different locations across the country's south: a pair of strikes in quick succession in a town in Bint Jbeil district; another strike on a town in Tyre district; and strikes on two towns in Nabatieh district. The IDF stated it had 'struck Hezbollah terrorist infrastructure used for military purposes across southern Lebanon' and would 'continue to operate decisively against threats.' In separate statements, the IDF said it had 'eliminated more than 15 terrorists in southern Lebanon,' including three who were driving a vehicle 'loaded with weapons.' This is the second consecutive day of multi-location Lebanon strikes — Saturday's locations (Al Saamiya, Reman, Deir El Zahrani, plus Touline, Yater, Bint Jbeil exchanges) carried 8 dead per Lebanese Health Ministry. Hezbollah lawmaker Ali Fayyad's Saturday line — 'meaningless in light of Israel's insistence on hostile acts' — is now operationally substantiated at Day 2 of the post-extension period. Times of Israel separately reported Saturday IDF investigation of footage showing soldiers 'damaging solar panels in southern Lebanon town' — discipline issue alongside the kinetic. Lebanese Health Ministry has not yet released Sunday casualty figures as of 08:30 IST; Hezbollah has not yet claimed Sunday retaliation. (Sources: Lebanese National News Agency, Al Jazeera, The Times of Israel, Haaretz, Life News Agency, Wion)",
+      "sources": [
+        "Lebanese National News Agency",
+        "Al Jazeera",
+        "The Times of Israel",
+        "Haaretz",
+        "Life News Agency",
+        "Wion"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED Sunday IDF strikes (4+ locations) + IDF '15+ terrorists eliminated' statement."
     }
   ],
   "edges": [
     {
       "to": "hezbollah",
       "type": "ceasefire_extended_with_kinetic_residual",
-      "context": "Day 58 Saturday. Hezbollah fired rockets/drones across border in retaliation for IDF Saturday-morning strikes on 6+ southern Lebanon locations. Hezbollah lawmaker Ali Fayyad: extension 'meaningless in light of Israel's insistence on hostile acts'; group retains 'the right to retaliate.' Hezbollah claimed downing an Israeli drone with a missile. Six Hezbollah fighters killed in Bint Jbeil exchange. Legal ceasefire holds, kinetic layer never paused.",
+      "context": "Day 59 Sunday. Day 2 post-extension IDF kinetic (Bint Jbeil, Tyre, Nabatieh districts; 15+ 'terrorists eliminated' per IDF). Hezbollah has not yet publicly claimed Sunday retaliation as of 08:30 IST. Pattern of legal-extension-with-kinetic-continuation now operationally durable.",
       "directness": 1,
-      "last_activated": "2026-04-25",
-      "activation_count": 27,
+      "last_activated": "2026-04-26",
+      "activation_count": 28,
       "weight": 10
     },
     {
       "to": "israel",
       "type": "invasion_extended_ceasefire",
-      "context": "Day 58 Saturday. IDF struck 6+ southern Lebanon locations overnight (Al Saamiya, Reman, Deir El Zahrani, Touline, Yater, Bint Jbeil). Lebanese Health Ministry: 2 killed Touline + 6 Hezbollah killed Bint Jbeil; cumulative 2,491 killed / 7,719 wounded since March 2. Netanyahu: Israel 'maintains full freedom of action.' Forced evacuation order Deir Aames. Political extension layered over kinetic continuation.",
+      "context": "Day 59 Sunday. IDF Sunday strikes in Bint Jbeil + Tyre + Nabatieh districts; '15+ terrorists eliminated' per IDF including 3 in vehicle 'loaded with weapons.' Second consecutive day of multi-location strikes since the political extension. Times of Israel reports IDF investigating soldier discipline (solar panel damage) — kinetic + discipline issue compound the May 14 deadline integrity question.",
       "directness": 1,
-      "last_activated": "2026-04-25",
-      "activation_count": 29,
+      "last_activated": "2026-04-26",
+      "activation_count": 30,
       "weight": 10
     },
     {
       "to": "united-states",
       "type": "diplomatic_mediator",
-      "context": "Day 58 Saturday. Trump 3-week political extension (announced April 23) holds; May 14 deadline. US's Lebanon-track structurally complete for the weekend — Rubio + Needham + Huckabee + Issa team retired pending Round 3. Operational reality: kinetic layer continues outside the diplomatic envelope.",
+      "context": "Day 59 Sunday. Trump 3-week political extension to ~May 14 holds in legal architecture; US-mediated Round 3 not yet scheduled. Lebanon track is politically de-risked but kinetically eroding. US silence on Sunday Lebanon strikes consistent with Trump's 'low key' instruction to Netanyahu (April 11 Haaretz/Times of Israel) — US does not publicly call out IDF kinetic during ceasefire-window.",
       "directness": 1,
-      "last_activated": "2026-04-25",
-      "activation_count": 3,
-      "weight": 8.0
+      "last_activated": "2026-04-26",
+      "activation_count": 4,
+      "weight": 8.2
     }
   ],
   "trigger_points": [
@@ -440,6 +454,19 @@
       "mechanism": "April 26 stacks with Trump Iran 3-5 day window expiry — same US mediation team running both tracks. Hezbollah rockets/drones Thursday signal ceasefire fraying. Without extension, full re-escalation likely. Compound failure path: Lebanon ceasefire lapses + Trump Iran window expires without proposal → Israel resumes Lebanon ops + activates Iran combat-readiness; Hezbollah responds; oil reload to $103-115. Falsifiable: 23:59 IST Sunday April 26. | RESOLVED 2026-04-24: EXTENSION BRANCH FIRED. Trump announced 3-week extension from the White House Thursday after State Department direct talks. Single-expiry weekend (Iran only). Ceasefire runs to ~May 14. Compound-failure path de-risked for this weekend.",
       "added": "2026-04-23",
       "status": "resolved"
+    },
+    {
+      "condition": "Third consecutive day of multi-location IDF Lebanon strikes Monday April 27 — political ceasefire substrate formally broken even if May 14 legal deadline holds",
+      "cascade": [
+        "lebanon",
+        "israel",
+        "hezbollah",
+        "united-states",
+        "trump"
+      ],
+      "mechanism": "Saturday + Sunday have produced two consecutive days of multi-location IDF strikes in southern Lebanon despite the 3-week political extension. A third consecutive day Monday April 27 would mark the post-extension kinetic as a durable pattern, not a discrete event. Hezbollah's 'right to retaliate' would be operationally substantiated; political-track legitimacy compromised even though May 14 legal deadline holds. Falsifiable: Monday April 27 23:59 IST. | ADDED 2026-04-26 at watching.",
+      "added": "2026-04-26",
+      "status": "watching"
     }
   ]
 }

@@ -3,8 +3,8 @@
   "name": "Russia",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-22",
-  "summary": "Day 53 Monday AM. RUSSIAN-OIL WAIVER RENEWED (30-DAY INDIA EXTENSION) DESPITE BESSENT 'NEITHER' LANGUAGE — ASYMMETRIC US POLICY PRESERVES ~1.9 MBPD RUSSIAN FLOW TO INDIA. Iranian side executed non-renewal 05:30 IST Monday; Russian side RENEWED by Treasury (30-day extension specific to India). Deliberate asymmetry: maximum pressure on Iran's regime + energy supply security for global balance + Indian strategic partner preserved. Russia has not publicly brokered on Iran's behalf; no Moscow framing on Touska seizure as of Monday AM (Xinhua/TASS/Global Times also silent — not framing as multilateral escalation yet). Pakistan-Russia track (if it exists) has not publicly surfaced this week.",
+  "last_updated": "2026-04-26",
+  "summary": "Day 59 Sunday. RUSSIA UPGRADED TO ACTIVE LEG OF IRAN'S MEDIATOR NETWORK — ARAGHCHI MOSCOW VISIT CONFIRMED. Per Press TV April 24 + IRNA Saturday/Sunday updates, Iran's FM Abbas Araghchi is on a 'timely tour' of Islamabad → Muscat → Moscow. Russia has repeatedly offered to take custody of Iran's enriched uranium ('store or reprocess on Russian soil' — Times of Israel). Araghchi told Press TV he believes 'a nuclear deal is possible with the US, so long as Washington does not make unrealistic demands' and 'wants Russia to play a role in the process.' Oman's Sultan separately confirmed to meet Putin in Moscow — Muscat-Moscow choreography. Iran is constructing a multi-track mediation architecture (Pakistan + Oman + Russia) explicitly NOT centered on direct US contact, with Russia now an active leg. Trump's 'if they want to talk, all they have to do is call' framing implicitly rejects this mediator-network architecture. RUSSIAN-OIL WAIVER (30-day India extension) preserves ~1.9 mbpd Russian flow to Indian refiners; Russia structurally bifurcated (rhetorical support for Iran via state media + intelligence support via permanent communications channel + UNSC veto + now active mediator-network leg).",
   "signals": [
     {
       "date": "2026-03-04",
@@ -116,16 +116,30 @@
         "Global Times"
       ],
       "significance": "low"
+    },
+    {
+      "date": "2026-04-26",
+      "content": "ARAGHCHI MOSCOW VISIT CONFIRMED — RUSSIA UPGRADED TO ACTIVE LEG OF IRAN'S MEDIATOR NETWORK [CONFIRMED ACTION, multi-source]. Per Press TV April 24 + IRNA Saturday/Sunday updates, Iranian FM Abbas Araghchi tour: Islamabad → Muscat (departed Saturday) → Moscow. The Moscow leg is operationally significant: Russia has repeatedly offered to take custody of Iran's enriched uranium ('store or reprocess on Russian soil' — Times of Israel). Araghchi told Press TV he believes 'a nuclear deal is possible with the US, so long as Washington does not make unrealistic demands' and 'wants Russia to play a role.' Oman's Sultan separately confirmed to meet Putin in Moscow (Times of Israel) — Muscat-Moscow choreography suggests Oman positioning to mediate alongside Pakistan, with Russia in the architecture. Iran-Russia coordination on negotiation track is parallel to Russia's underlying intelligence support (24 surveys / 46 sites / 11 countries via permanent channel per Ukrainian intel April 14), UNSC veto, and Russian-oil waiver renewal. Kremlin has not publicly commented on Araghchi visit in advance. Russia's structural play continues: war = high oil prices for Russian exports; peace = aggressive market share post-reopening + diplomatic capital from playing mediator role. (Sources: Press TV, IRNA, Xinhua, Times of Israel, Türkiye Today, ANI News)",
+      "sources": [
+        "Press TV",
+        "IRNA",
+        "Xinhua",
+        "Times of Israel",
+        "Türkiye Today",
+        "ANI News"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED Araghchi tour itinerary + departures + Sultan-Putin choreography."
     }
   ],
   "edges": [
     {
       "to": "iran",
-      "type": "intelligence_support",
-      "context": "Providing US military position data. Diplomatic backing at UNSC. UNSC veto blocks any resolution. Satellite intelligence sharing: 24 surveys of 46 sites in 11 countries shared via permanent communications channel (Ukrainian intel, April 14). Active Hormuz surveillance supporting blockade enforcement. But no troops or weapons. Strategic caution.",
+      "type": "intelligence_support_and_mediator_network",
+      "context": "Day 59 Sunday. UPGRADED to active mediator-network leg via Araghchi Moscow visit. Russia repeatedly offering to take custody of Iran's enriched uranium ('store or reprocess on Russian soil' — Times of Israel). Araghchi 'wants Russia to play a role.' Mediator role is parallel to underlying intelligence support: 24 surveys of 46 sites in 11 countries via permanent communications channel (Ukrainian intel, April 14); active Hormuz surveillance supporting blockade enforcement. UNSC veto + state-media echo + Russian-oil waiver renewal. No troops, no weapons.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 8,
+      "last_activated": "2026-04-26",
+      "activation_count": 9,
       "weight": 10
     },
     {

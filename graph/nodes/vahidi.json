@@ -3,8 +3,8 @@
   "name": "Ahmad Vahidi",
   "type": "person",
   "created": "2026-04-23",
-  "last_updated": "2026-04-25",
-  "summary": "Day 58 Saturday. IRAN INTERNATIONAL PEZESHKIAN-VAHIDI-DEHGHAN-BLOCK STORY AMPLIFIED ACROSS 8+ WESTERN OUTLETS WITHOUT NEW INDEPENDENT CORROBORATION. Vahidi's hardline-faction-leader status holds, but Saturday's Western press cluster (Fox, Euronews, NaturalNews, AmericanAlmanac, Townhall, Charisma, TheDeepDive, AllIsraelNews, Trending Politics) is a textbook 'seed and amplify' pattern — one Iran International origin become 'multiple Western reports' by repetition. Underlying claim is structurally consistent with NYT-via-ISW April 23 architecture (Vahidi as the IRGC commander Mojtaba is 'heavily reliant on') and Critical Threats April 21 framing (Ghalibaf-Vahidi power struggle). Substrate plausible; corroboration not produced. Pezeshkian himself has not publicly reiterated Wednesday's accusation Saturday; office has not denied unity messaging. Iranian state outlets (IRNA, Press TV, Tasnim) have not addressed Vahidi-Dehghan claim — silence consistent with state suppression of intra-regime conflict. Mojtaba's Friday 'fracture has occurred in the enemy' statement remains operative — Saturday silence + medical-condition triple sourcing graduates the architecture to stronger REPORTED. No Saturday IRGC kinetic. Vahidi photograph at SNSC still absent; tag remains REPORTED.",
+  "last_updated": "2026-04-26",
+  "summary": "Day 59 Sunday. CNN APRIL 24 LEAK: TRUMP ADMIN REVIEWING OPTIONS THAT INCLUDE TARGETING VAHIDI [REPORTED, single CNN source via unnamed officials]. The CNN leak — relayed by Defense News, Shabtab News, IBTimes Singapore — frames Vahidi as a 'central obstacle to reviving negotiations.' Plausible given operational logic (Vahidi is IRGC nominal commander, architect of Hormuz-interdiction posture) and historical precedent (Soleimani 2020 targeting was preceded by similar option-review leaks). Iran has NOT moved Vahidi to a hardened-shelter posture publicly; Iranian state media has not addressed the leak directly (Tasnim ran a Vahidi-positive 'Trump's strategic failure' framing per Pravda Trump April 24 relay). Open question: leaked TO PRESSURE Iran's negotiation track, or TO PREPARE PUBLIC for actual targeting? Both are operationally significant. PEZESHKIAN-VAHIDI-DEHGHAN-BLOCK STORY LIKELY BUSTED: Pezeshkian's April 22 Press TV IRGC-praising statement + Sunday April 26 phone call to Sharif (publicly hailed Munir's Tehran visit, restated 'imposed/forced negotiations' precondition) substantively contradicts the rupture framing. The Iran International seed-and-amplify cluster (8 Western outlets) has not produced new independent corroboration; Pezeshkian's continued public alignment with Vahidi-camp posture suggests the rupture story was probably one-side-framing-as-fact. Mojtaba Day 45 silence holds Sunday; Time April 21 'AI-generated videos' disclosure adds technical mechanism layer to the medical-incapacitation thesis. 'Vahidi-speaks-through-Mojtaba' architecture intact and now empirically supported (six-source convergence). Vahidi photograph at SNSC still absent.",
   "current": {
     "role": "IRGC Commander-in-Chief",
     "faction": "hardline",
@@ -85,6 +85,32 @@
       ],
       "significance": "medium",
       "verification": "REPORTED single-source origin + amplification cluster; no new independent corroboration."
+    },
+    {
+      "date": "2026-04-26",
+      "content": "CNN APRIL 24 LEAK: TRUMP ADMIN REVIEWING OPTIONS INCLUDING TARGETING VAHIDI [REPORTED, single CNN source]. CNN reported the Trump administration is 'reviewing a range of military and strategic options that include the potential targeting of Ahmad Vahidi, the current commander-in-chief of Iran's Islamic Revolutionary Guard Corps,' framed as Vahidi being a 'central obstacle to reviving negotiations.' Relayed by Defense News April 24, Shabtab News, IBTimes Singapore. Plausible given (a) operational logic — Vahidi is the IRGC's nominal commander and architect of Hormuz-interdiction posture; (b) historical precedent — Soleimani 2020 assassination was preceded by similar option-review leaks. Iran has NOT moved Vahidi to a hardened-shelter posture publicly; Iranian state media has not addressed the leak directly. Tasnim ran a Vahidi-positive 'Trump's strategic failure' framing (per Pravda Trump April 24 relay), suggesting Iran reads the leak as pressure-leverage, not preparation. Open intelligence-grade question: leaked TO PRESSURE Iran's negotiation track (signal: deal or we kill your apex commander) or TO PREPARE PUBLIC for actual targeting? Both operationally significant.",
+      "sources": [
+        "CNN",
+        "Defense News",
+        "Shabtab News",
+        "IBTimes Singapore",
+        "Pravda Trump"
+      ],
+      "significance": "high",
+      "verification": "REPORTED (single CNN source via unnamed officials, downstream relays)."
+    },
+    {
+      "date": "2026-04-26",
+      "content": "PEZESHKIAN-VAHIDI RUPTURE STORY LIKELY BUSTED — PEZESHKIAN'S APRIL 22 IRGC-PRAISE + SUNDAY MUNIR-PRAISE [REPORTED bust]. Pezeshkian's April 22 Press TV statement explicitly praised the IRGC ('IRGC thwarted enemies' plots, sinister goals'); Sunday April 26 45-minute phone call with PM Sharif publicly hailed Munir's Tehran visit and Iranian officials' 'constructive positions' in talks with the IRGC-architecture-aligned military leadership. Both substantively contradict the Iran International / 8-Western-outlet 'Pezeshkian openly accuses IRGC of wrecking ceasefire' framing. The seed-and-amplify cluster has produced no new independent corroboration through Sunday; Pezeshkian's continued public alignment with Vahidi-camp posture suggests the rupture story was probably one-side-framing-as-fact. The substrate of intra-regime tension remains plausible (NYT/ISW Vahidi-architecture framing intact), but the specific 'Pezeshkian publicly broke with Vahidi' claim no longer survives Pezeshkian's own subsequent statements.",
+      "sources": [
+        "Press TV April 22",
+        "Press TV April 26",
+        "ANI News",
+        "Pakistan Today",
+        "ISW Critical Threats"
+      ],
+      "significance": "high",
+      "verification": "REPORTED bust of seed-and-amplify pattern; Pezeshkian's own statements operationally contradict the rupture framing."
     }
   ],
   "edges": [
@@ -135,21 +161,30 @@
     },
     {
       "to": "trump",
-      "type": "counter_party",
-      "context": "Counter-party not interlocutor. Trump's 3-5 day window is structurally incapable of producing a unified Iranian proposal because Vahidi has the kinetic and Pezeshkian has the international megaphone — neither can override the other within Trump's window.",
+      "type": "counter_party_targeting_signal",
+      "context": "Day 59 Sunday. CNN April 24 leak: Trump admin reviewing options including targeting Vahidi. Either pressure-leverage (deal-or-we-strike) or preparation. Trump's 3-5 day window expired Sunday April 26 23:59 IST without unified proposal; Vahidi-as-target framing now structurally elevated. Vahidi's silence post-leak is consistent with discipline restraint OR genuine incapacitation/in-hiding.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 1,
-      "weight": 6.5
+      "last_activated": "2026-04-26",
+      "activation_count": 2,
+      "weight": 7.5
     },
     {
       "to": "united-states",
-      "type": "wartime_adversary",
-      "context": "Operational counter-party to the US blockade architecture (CENTCOM 31 vessels redirected). Vahidi-camp's kinetic response is the operational mechanism by which US pressure is converted into Iranian escalation.",
+      "type": "wartime_adversary_targeting_signal",
+      "context": "Day 59 Sunday. Operational counter-party to the US blockade architecture; CNN April 24 leak adds direct-targeting dimension. CENTCOM 31-vessel blockade running rate ~1.3/day. Pentagon Hormuz-specific strike plans reportedly drafted (Türkiye Today April 24, REPORTED) target IRGC fast-boat infrastructure under Vahidi's operational command.",
       "directness": 1,
-      "last_activated": "2026-04-23",
+      "last_activated": "2026-04-26",
+      "activation_count": 2,
+      "weight": 7.5
+    },
+    {
+      "to": "defense-sector",
+      "type": "kinetic_asymmetric_premium",
+      "context": "Day 59 Sunday. CNN Vahidi-targeting leak (REPORTED single CNN source, April 24) loads conditional defense-rotation. If leak is option-review pre-positioning rather than pressure-leverage, implies operational planning for Iran apex-target strikes — bullish for defense names with delay (equity prices 24-72 hours after operational confirmation). Combined with Pentagon Hormuz strike plans (Türkiye Today April 24, REPORTED) creates dual-leak setup that primes defense-rotation re-activation on confirmation.",
+      "directness": 2,
+      "last_activated": "2026-04-26",
       "activation_count": 1,
-      "weight": 6.5
+      "weight": 4.0
     }
   ],
   "trigger_points": [
@@ -189,8 +224,23 @@
         "united-states",
         "trump"
       ],
-      "mechanism": "A unified Iranian proposal inside Trump's 3-5 day window requires Vahidi to override Pezeshkian OR Pezeshkian to override Vahidi. Vahidi has the kinetic; Pezeshkian has the international megaphone. Either direction would resolve the factional split and produce a proposal. Absence through April 26 = no proposal, Trump strike-list probability dominant. Falsifiable: 23:59 IST Sunday April 26.",
+      "mechanism": "A unified Iranian proposal inside Trump's 3-5 day window requires Vahidi to override Pezeshkian OR Pezeshkian to override Vahidi. Vahidi has the kinetic; Pezeshkian has the international megaphone. Either direction would resolve the factional split and produce a proposal. Absence through April 26 = no proposal, Trump strike-list probability dominant. Falsifiable: 23:59 IST Sunday April 26. | RESOLVED 2026-04-26: TRIGGER NOT FIRED. Window expired without either side forcing the other out. Pezeshkian's April 22 IRGC-praising statement + Sunday April 26 phone call to Sharif (publicly hailed Munir-Tehran visit, restated 'imposed/forced negotiations') indicate factional consolidation by Pezeshkian aligning with Vahidi-camp posture, not by either removing the other. The Iran International seed-and-amplify Pezeshkian-Vahidi rupture story is likely BUSTED. Consolidation character is HARDLINE-REVERTED.",
       "added": "2026-04-23",
+      "status": "resolved"
+    },
+    {
+      "condition": "Vahidi assumes hardened-shelter posture OR Iranian state media issues public denial of CNN targeting leak within 7 days (by 2026-05-03)",
+      "cascade": [
+        "vahidi",
+        "iran",
+        "irgc",
+        "united-states",
+        "trump",
+        "brent-crude",
+        "defense-sector"
+      ],
+      "mechanism": "CNN April 24 leak reports Trump admin reviewing options to target Vahidi. If Iran reads the leak as serious preparation rather than pressure-leverage, Vahidi would be moved to hardened-shelter posture (consistent with Soleimani-2020-precedent post-leak movement) OR Iranian state media would issue public denial/defiance. Neither has occurred Sunday — Iran reading the leak as pressure-leverage. Activation criterion: confirmed Vahidi-shelter movement OR Iranian state-media denial within 7 days. Absence of both confirms Iran-side pressure-leverage read. | ADDED 2026-04-26 at watching.",
+      "added": "2026-04-26",
       "status": "watching"
     }
   ],

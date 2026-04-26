@@ -3,8 +3,8 @@
   "name": "Masoud Pezeshkian",
   "type": "person",
   "created": "2026-04-11",
-  "last_updated": "2026-04-25",
-  "summary": "Day 58 Saturday. NO PUBLIC RE-RAISE FROM PEZESHKIAN SATURDAY — UNITY MESSAGING UNCHANGED, RUPTURE NOT REPAIRED. Pezeshkian himself has not publicly reiterated Wednesday's anti-IRGC accusation Saturday; office has not denied unity messaging. Iran International scoop on Vahidi-blocked-Dehghan amplified across 8+ Western outlets (Fox, Euronews, NaturalNews, AmericanAlmanac, Townhall, Charisma, TheDeepDive, AllIsraelNews) — classic seed-and-amplify pattern, no new independent corroboration. Underlying claim consistent with NYT-via-ISW April 23 (Vahidi as IRGC commander Mojtaba 'heavily reliant' on) but Saturday amplification has not produced independent source. Iranian state media silent on Vahidi-Dehghan claim — consistent with state suppression of intra-regime conflict. Wednesday anti-IRGC X post still not withdrawn; unity messaging layered on top. Witkoff-Kushner Pakistan dispatch + Iran 'no meeting' framing means civilian track (Araghchi-led) has been physically operationalised in Islamabad while public posture maintains denial. The structural reading: unity choreography is layered over an unresolved private rupture, exactly as ISW assessed. Tell for real vs performative: (a) unified Iranian proposal arrives via Pakistan by Sunday April 26 IST close; (b) Pezeshkian publicly re-raises Vahidi-blocked-Dehghan; (c) IRNA retracts or keeps suppression of Wednesday accusation.",
+  "last_updated": "2026-04-26",
+  "summary": "Day 59 Sunday. PEZESHKIAN PUBLICLY RECONCILED WITH IRGC + 45-MINUTE PHONE CALL TO SHARIF — RUPTURE STORY LIKELY BUSTED. Sunday April 26 IST, Iran's President Masoud Pezeshkian held a 45-minute phone call with Pakistan PM Shehbaz Sharif. Per Press TV: Pezeshkian 'hailed Iranian officials' constructive positions in talks with Pakistani Army Chief General Asim Munir in Tehran' and reaffirmed Tehran 'will not enter into imposed/forced negotiations' while US blockade and pressure continue. The US 'should first remove operational obstacles' before negotiators can lay groundwork. This is the public-diplomatic mirror of the IRGC-side hardening: civilian President is now publicly conditioning negotiations on blockade-lifting, structurally reciprocal-mirror to Trump's 'unified proposal' precondition. Both preconditions are mutually exclusive. Pezeshkian's April 22 Press TV IRGC-praising statement ('IRGC thwarted enemies' plots, sinister goals') + Sunday Munir-praise via Sharif call substantively contradicts the Iran International / 8-Western-outlet 'Pezeshkian openly accuses IRGC' framing. The seed-and-amplify Pezeshkian-Vahidi rupture story is likely BUSTED — Pezeshkian's continued public alignment with Vahidi-camp posture suggests the rupture was probably one-side-framing-as-fact. Pezeshkian Sunday electricity-rationing call to citizens is the operational acknowledgement that the US blockade is biting at consumer-utility level. The substrate of intra-regime tension may remain, but the specific Wednesday-only-Pezeshkian-broke-with-Vahidi claim no longer survives Pezeshkian's own subsequent statements.",
   "signals": [
     {
       "date": "2026-03-16",
@@ -195,6 +195,17 @@
       ],
       "significance": "medium",
       "verification": "REPORTED amplification cluster; CONFIRMED absence of Saturday public re-raise."
+    },
+    {
+      "date": "2026-04-26",
+      "content": "PEZESHKIAN-SHARIF 45-MINUTE PHONE CALL — 'IMPOSED/FORCED NEGOTIATIONS' PRECONDITION + ELECTRICITY-RATIONING CALL [CONFIRMED ACTION]. Sunday April 26 IST, Pezeshkian held a 45-minute phone call with PM Sharif. Per Press TV: Pezeshkian 'hailed Iranian officials' constructive positions in talks with Pakistani Army Chief General Asim Munir in Tehran' and reaffirmed Tehran 'will not enter into imposed/forced negotiations' while US blockade and pressure continue. The US 'should first remove operational obstacles' before negotiators can lay groundwork. Pezeshkian also called on Iranians to 'reduce their electricity consumption' — operational acknowledgement that the US blockade is biting at consumer-utility level. Operationally substantively closes the Iran International seed-and-amplify Pezeshkian-Vahidi rupture story: Pezeshkian's continued public alignment with Vahidi-camp posture (April 22 Press TV IRGC-praise + Sunday Munir-praise via Sharif call) suggests the rupture was probably one-side-framing-as-fact. Both preconditions (US 'unified proposal' vs Iran 'blockade lift first') are mutually exclusive on current configuration. (Sources: Press TV, ANI News, Pakistan Today)",
+      "sources": [
+        "Press TV",
+        "ANI News",
+        "Pakistan Today"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED 45-minute call + multi-source relay."
     }
   ],
   "edges": [
@@ -209,21 +220,21 @@
     },
     {
       "to": "irgc",
-      "type": "institutional_conflict",
-      "context": "Day 57. Pezeshkian Thursday evening joined three-branch unity photo-statement BUT Wednesday anti-IRGC X post was NOT withdrawn — accommodation layered on top. ISW reads as 'choreographed response.' IRGC kinetic arm (Vahidi) paused Friday (no new interdiction) during narrative consolidation. Substantive factional rupture persists under public unity veneer.",
+      "type": "institutional_alignment_publicly",
+      "context": "Day 59 Sunday. April 22 Press TV statement: Pezeshkian explicitly praised IRGC ('thwarted enemies' plots, sinister goals'). Sunday April 26 phone call to Sharif: hailed Iranian officials' 'constructive positions' alongside Munir — the IRGC-architecture-aligned military leadership. The Pezeshkian-IRGC rupture as framed by Iran International / 8 Western outlets is substantively contradicted by Pezeshkian's own statements. Public alignment is now load-bearing; substrate of intra-regime tension may remain but cannot be drawn from Pezeshkian's public record.",
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 7,
-      "weight": 10.0
+      "last_activated": "2026-04-26",
+      "activation_count": 8,
+      "weight": 9.5
     },
     {
       "to": "vahidi",
-      "type": "factional_adversary",
-      "context": "NYT April 23: Mojtaba 'heavily reliant on the advice and guidance of senior IRGC commanders led by Vahidi.' Mojtaba Friday 'fracture' statement read by ISW as Vahidi-orchestrated. Pezeshkian Wednesday anti-IRGC X post NOT withdrawn even as he joined Thursday three-branch unity photo. Factional adversary architecture unchanged.",
+      "type": "factional_adversary_diminished",
+      "context": "Day 59 Sunday. The Iran International seed-and-amplify Pezeshkian-Vahidi rupture story is likely BUSTED by Pezeshkian's April 22 IRGC-praising statement + Sunday Munir-praise via Sharif call. The factional-adversary edge persists in substrate but Pezeshkian's continued public alignment with Vahidi-camp posture means the edge cannot be drawn from Pezeshkian's public record. NYT/ISW Vahidi-architecture framing intact at the IRGC-Mojtaba level, not at the Pezeshkian level.",
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 2,
-      "weight": 7.5
+      "last_activated": "2026-04-26",
+      "activation_count": 3,
+      "weight": 6.0
     },
     {
       "to": "mojtaba-khamenei",
@@ -237,11 +248,11 @@
     {
       "to": "pakistan",
       "type": "mediation_channel",
-      "context": "Told Pakistani PM Sharif about personal trauma from prior nuclear talks (two attacks). Civilian government track for Islamabad mediation. Pezeshkian is the principal who would need to ratify any deal Ghalibaf brings back — but his authority is contested.",
+      "context": "Day 59 Sunday. 45-minute phone call to PM Sharif: hailed Munir's Tehran visit, restated 'imposed/forced negotiations' precondition. Pezeshkian is publicly committed to Pakistan-mediation track even after Trump cancellation — operational confirmation that civilian Iranian leadership backs Pakistan as channel. The mediator network now Pakistan + Oman + Russia per Araghchi tour.",
       "directness": 1,
-      "last_activated": "2026-04-03",
-      "activation_count": 1,
-      "weight": 6.0
+      "last_activated": "2026-04-26",
+      "activation_count": 3,
+      "weight": 7.5
     },
     {
       "to": "united-states",

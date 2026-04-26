@@ -3,8 +3,8 @@
   "name": "Marine War Risk Insurance",
   "type": "institution",
   "created": "2026-04-08",
-  "last_updated": "2026-04-25",
-  "summary": "Day 58 Saturday. PHYSICAL INDICATORS CONTINUE CRISIS-PRICING SATURDAY — AWRP $10-14M PER PERSIAN GULF VOYAGE; 329 VESSELS = ~$352B COVERAGE GAP. Per Lloyd's List / WEF / S&P Global: war risk insurance Persian Gulf voyages now $10-14M per voyage; broad rates 0.8-1.5%; US/UK/Israeli flags 3x base. Some easing to 0.35-0.45% on broader Middle East Gulf routes. 329 vessels operating in Persian Gulf = ~$352B in insurance coverage that private markets are no longer providing (WEF data). DFC $40B reinsurance partnership remains the policy backstop — government-backed cap on commercial pullout above threshold. Joint War Committee maintains entire Persian Gulf as 'high-risk' zone. CRITICAL FRAMEWORK REFINEMENT: Yesterday's brief encoded paper-physical gap as 'widest of crisis' on Brent -6.8% data; Saturday data audit reveals Friday Brent actually closed ~$105 (not $97.94), so paper Brent is also in crisis-pricing mode and the gap is materially NARROWER than yesterday's framework implied. Both paper and physical are pricing crisis continuation. The marine-war-risk-insurance edge to brent-crude remains a regime-identification tool but its DIAGNOSTIC role is unchanged-importance (not 'cleanest' as the corrected paper data converges with physical). Reversibility on AWRP: low — DFC backstop is operational ceiling, but insurer pullout could shift floor downward if confirmed Sunday Witkoff-Araghchi proposal lifts perceived risk.",
+  "last_updated": "2026-04-26",
+  "summary": "Day 59 Sunday. AWRP $10-14M/VOYAGE; SUNDAY GLOBEX BRENT IS THE BINARY REPRICING. Per Lloyd's List / WEF / S&P Global: war risk insurance Persian Gulf voyages $10-14M/voyage; broad rates 0.8-1.5%; US/UK/Israeli flags 3x base. 329 vessels in Persian Gulf = ~$352B coverage gap that private markets are no longer providing. DFC $40B reinsurance partnership is policy backstop. Hormuz transit cost stack reportedly $6-10M per voyage all-in (AWRP + IRGC toll + crew/freight surcharges per Lloyd's List + hormuztoll.com April 23). Trump cancellation of Witkoff-Kushner dispatch directly impacts insurer pricing of Persian Gulf voyages via diplomatic-track-breakdown signal. Senior Market F1: NEW EDGE proposed trump → marine-war-risk-insurance, conditional on Branch 1 Monday outcome. Trump DFC backstop is operational cap on commercial pullout above threshold. Branch 1 outcome (Brent above $108) tests rate elevation toward 1.5-2.0% broad rate; DFC backstop is operational ceiling. Branch 2 (band) keeps current 0.8-1.5% structure. Branch 3 (below $103) sees insurer-perceived-risk reduction with delay (insurance restoration requires sequential reinsurance chain rebuild — 'cannot be compressed by political will' per Lloyd's). Joint War Committee maintains entire Persian Gulf as 'high-risk' zone.",
   "current": {
     "cover_pre_crisis": "$25K/year per vessel",
     "cover_current": "$10-14M per Persian Gulf voyage; broad rates 0.8-1.5%; US/UK/Israeli flags 3x; some easing to 0.35-0.45% on broader MEG routes. 329 vessels = ~$352B coverage gap.",
@@ -199,6 +199,17 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED industry data; CRITICAL FRAMEWORK REFINEMENT post-Brent-correction."
+    },
+    {
+      "date": "2026-04-26",
+      "content": "TRUMP CANCELLATION DIRECTLY IMPACTS INSURER PRICING — NEW DIRECT EDGE PROPOSED [PENDING BRANCH 1 ACTIVATION]. Per Senior Market F1: Trump's Saturday cancellation of the Witkoff-Kushner Islamabad dispatch directly impacts insurer pricing of Persian Gulf voyages via diplomatic-track-breakdown signal. Currently routed through the iran-irgc-shipping cascade; the new direct edge shortens the chain by one hop. Activation criterion: Branch 1 Monday outcome (Sunday Globex Brent above $108) confirms structural-break read; AWRP would test rate elevation toward 1.5-2.0% broad rate. Insurance restoration requires sequential reinsurance chain rebuild ('cannot be compressed by political will' per Lloyd's List April 8) so even Branch 3 (below $103) outcomes produce delayed insurer-perceived-risk reduction. Cost-stack on a single Hormuz transit reportedly $6-10M per voyage all-in (AWRP + IRGC toll + crew/freight surcharges per Lloyd's List, hormuztoll.com April 23). DFC $40B reinsurance partnership remains operational ceiling. (Sources: Senior Market F1 dossier; Lloyd's List; hormuztoll.com)",
+      "sources": [
+        "Senior Market dossier",
+        "Lloyd's List",
+        "hormuztoll.com"
+      ],
+      "significance": "high",
+      "verification": "PENDING Branch 1 confirmation."
     }
   ],
   "edges": [
@@ -231,12 +242,12 @@
     },
     {
       "to": "trump",
-      "type": "government_backstop",
-      "context": "Trump DFC $40B reinsurance facility partnership with US insurers is the cleanest government-backstop datum of the crisis. Above a threshold AWRP, DFC absorbs. Not a node; informational context per markets.md F8.",
+      "type": "government_backstop_and_diplomatic_breakdown_signal",
+      "context": "Day 59 Sunday. Two-mechanism connection: (1) DFC $40B reinsurance facility = operational ceiling on AWRP escalation; (2) Trump cancellation of Witkoff-Kushner dispatch = diplomatic-track-breakdown signal that directly impacts insurer pricing (Senior Market F1). New direct edge shortens the chain from iran-irgc-shipping to insurer pricing by one hop. Activation criterion for upgrade to weight 5.0: Branch 1 Monday outcome (Sunday Globex Brent above $108).",
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 2,
-      "weight": 6.0
+      "last_activated": "2026-04-26",
+      "activation_count": 3,
+      "weight": 6.5
     }
   ],
   "trigger_points": [

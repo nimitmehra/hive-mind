@@ -3,8 +3,8 @@
   "name": "Indian Oil Marketing (IOC/BPCL/HPCL)",
   "type": "sector",
   "created": "2026-03-28",
-  "last_updated": "2026-04-24",
-  "summary": "Day 57 Friday — IOC JAYA RE-FRAMED AS US-SANCTIONS-WAIVER WINDOW, NOT DEFIANCE [CORRECTION]. Bloomberg/Reuters clarify the IOC 2M-barrel Iranian oil purchase was executed under a TEMPORARY 30-DAY US Treasury sanctions waiver that Treasury Secretary Scott Bessent announced April 15 would NOT be renewed. Iranian waiver lapsed APRIL 19. Russian-oil waiver separately extended to May 16. IOC reportedly does NOT plan further Iranian oil purchases. Re-frames yesterday's 'India operationally diverging from US blockade architecture' framing — India USED a sanctioned window BEFORE it closed; did NOT defy blockade. The yuan-ICICI rail re-activation (first since 2019) IS the structural datum; the 'India-US divergence' framing is overstated. CENTCOM/Treasury silence is no longer surprising — trade was licit under the waiver. The investor-relevant signal: India did NOT build a permanent Iranian-oil rail; window has closed. Brent peak-faded to $98.53 US close Friday — OMC margin stress relieved Friday. Indian business press framing Friday confirms: oil-marketing companies drag is rupee/FII-flow-driven, not Iran-waiver-story driven. Reliance silent (predictable).",
+  "last_updated": "2026-04-26",
+  "summary": "Day 59 Sunday — STRUCTURAL FUEL-PRICING DETERIORATION CONFIRMED: ₹20/L PETROL + ₹100/L DIESEL LOSSES; PUMP PRICES FROZEN ~4 YEARS. Per Business Standard April 23 (cited again April 25) and government statements: state-owned fuel retailers (IOC, BPCL, HPCL) are incurring losses of ~₹20 per litre on petrol and ~₹100 per litre on diesel as pump prices remain frozen for nearly four years despite the surge in global oil prices. India crude oil basket stood at $100.41 on Friday April 24 vs February average $69.01. The ₹100/litre diesel loss is the sharpest reading — implies the OMC subsidy burden is now genuinely structural, not transitory. Three policy options, all costly: (a) pass-through pricing (politically costly with state elections), (b) OMC equity injection (fiscally costly), (c) Iran-rupee oil purchase resumption via Chabahar (geopolitically costly with US). Branch 1 outcome (Brent above $108) compounds arithmetic — every additional week of $105+ Brent adds ~₹2,800 crore to OMC subsidy burden. Petroleum Ministry confirmed losses but said 'no plan to hike price' (election-cycle constraint). Brent Friday close $105.33 maintains crisis-pricing on procurement. The fuel-pricing constraint is now a hard arithmetic floor on India's diplomatic flexibility. IOC Jaya 2M bbl + Reliance Felicity 2M bbl waiver-window completed before April 19 expiry; Russia 30-day waiver extension preserves ~1.9 mbpd Russian flow. Sunday Globex Brent open is the binary repricing for OMC daily USD demand $250-300M.",
   "signals": [
     {
       "date": "2026-03-28",
@@ -116,16 +116,27 @@
         "Bloomberg"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-26",
+      "content": "STRUCTURAL FUEL-PRICING DETERIORATION CONFIRMED — ₹20/L PETROL + ₹100/L DIESEL LOSSES; PUMP PRICES FROZEN ~4 YEARS [CONFIRMED]. Per Business Standard April 23 + government statements: state-owned fuel retailers (IOC, BPCL, HPCL) incurring losses of ~₹20/litre on petrol and ~₹100/litre on diesel as pump prices remain frozen for ~4 years despite surge in global oil prices. India crude basket stood at $100.41 on Friday April 24 vs February average $69.01. The ₹100/litre diesel loss is the sharpest reading on this — implies OMC subsidy burden is now genuinely structural, not transitory. Three policy options, all costly: (a) pass-through pricing (politically costly with state elections), (b) OMC equity injection (fiscally costly), (c) Iran-rupee oil purchase via Chabahar (geopolitically costly with US). Petroleum Ministry confirmed losses but said 'no plan to hike price.' The fuel-pricing constraint is a hard arithmetic floor on India's diplomatic flexibility — the longer Brent stays elevated, the more India's MEA will be pushed toward the Iran-rupee oil track regardless of US preferences. Branch 1 outcome compounds the arithmetic: every additional week of $105+ Brent adds ~₹2,800 crore to OMC subsidy burden. (Sources: Business Standard, Government Petroleum Ministry, PPAC)",
+      "sources": [
+        "Business Standard",
+        "Government Petroleum Ministry",
+        "PPAC"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED government-data sourcing."
     }
   ],
   "edges": [
     {
       "to": "brent-crude",
       "type": "cost_exposure",
-      "context": "Day 52. Brent Friday $91.87/$90.38 provides transient relief before Sunday SNSC re-pricing. Waiver T-0 Monday; Russian continuity protected by separate 30-day waiver, Iranian continuity foreclosed. OMC daily USD demand $250-300M becomes binding on spot rupee at Brent $95+ Monday.",
+      "context": "Day 59 Sunday. Friday close $105.33; Sunday Globex repricing pending. India crude basket $100.41. ₹100/litre diesel loss is structural; OMC daily USD demand $250-300M binding on spot rupee at Brent $95+ Monday. Branch 1 outcome (above $108) compounds subsidy burden by ~₹2,800 crore/week.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 14,
+      "last_activated": "2026-04-26",
+      "activation_count": 15,
       "weight": 10
     },
     {

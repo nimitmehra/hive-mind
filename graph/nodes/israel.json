@@ -3,8 +3,8 @@
   "name": "Israel",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-25",
-  "summary": "Day 58 Saturday. IDF STRUCK 6+ SOUTHERN LEBANON LOCATIONS OVERNIGHT — KINETIC EROSION OF EXTENDED CEASEFIRE. IDF announced Saturday morning strikes on Hezbollah targets across southern Lebanon, naming Al Saamiya, Reman, and Deir El Zahrani in its official statement. Lebanese Health Ministry: 2 killed Touline; multiple wounded Yater artillery strike; forced evacuation Deir Aames; 6 Hezbollah killed Bint Jbeil exchange. Hezbollah retaliated with rockets, drones, and claimed shootdown of Israeli drone with missile. PM Netanyahu Friday: Israel 'maintains full freedom of action against any threat' and accused Hezbollah of 'trying to derail talks.' Lebanon track is now operationally dual-layered: political extension is real (May 14), kinetic erosion is also real. ON IRAN TRACK: Combat-readiness procedures (Channel 12/13/Kan leak Thursday) still active; no Saturday kinetic on Iran. Haaretz softened materially Friday ('Trump Is Fed Up With the Iran War. That's No Guarantee He Won't Restart It'); Saturday's analytical pieces continue that frame. Israeli press treating the Witkoff-Kushner Pakistan dispatch as a US choice it is observing rather than co-authoring — itself intelligence about Israeli government's marginalisation in the diplomatic track. Israel Hayom April 23 carrying NYT Mojtaba-medical relay ('Injured and isolated, Mojtaba Khamenei rules Iran through a tight inner circle'). Net Israeli posture: Iran-track stand-down with combat readiness retained, Lebanon-track active kinetic.",
+  "last_updated": "2026-04-26",
+  "summary": "Day 59 Sunday. IDF DAY 2 OF POST-EXTENSION KINETIC ON SOUTHERN LEBANON — 4+ LOCATIONS, '15+ TERRORISTS ELIMINATED.' Sunday IDF strikes in Bint Jbeil district (pair of strikes in quick succession), Tyre district, and two Nabatieh district towns. IDF '15+ terrorists eliminated' statement including 3 in vehicle 'loaded with weapons.' This is the second consecutive day of multi-location Lebanon strikes since the political extension. Saturday-Sunday cumulative: 10+ locations, 21+ casualties claimed by IDF; Lebanese Health Ministry casualty figures pending Sunday update. Times of Israel separately reports IDF investigating soldier discipline (solar panel damage in southern Lebanon) — kinetic + discipline issue compound the May 14 deadline integrity question. Netanyahu's 'could turn on a dime' Monday cabinet quote remains operative Israeli framing. ON IRAN TRACK: Combat-readiness procedures still active; no Sunday kinetic on Iran. Israeli press posture COMPARTMENTALISED — escalatory on Lebanon, observant on Iran (Israel Hayom April 25 'All eyes on Pakistan as Iranian delegation leaves' explicitly frames Israel as a watcher, not an actor). Notably absent: any Israeli senior-source leak about coordination with US on the post-cancellation Iran kinetic option. Silence is itself intelligence — Israel's marginalisation in the diplomatic track is being marked by absence rather than active presence. Channel 12/13 polling not yet published Sunday; Monday cabinet meeting may bring public-opinion shifts on the Lebanon kinetic continuation.",
   "signals": [
     {
       "date": "2026-02-28",
@@ -572,16 +572,29 @@
       ],
       "significance": "medium",
       "verification": "REPORTED tonal shift; CONFIRMED Mojtaba-medical relay across Israel Hayom from NYT."
+    },
+    {
+      "date": "2026-04-26",
+      "content": "DAY 2 IDF MULTI-LOCATION KINETIC IN SOUTHERN LEBANON; ISRAELI PRESS COMPARTMENTALISED [CONFIRMED IDF action; CONFIRMED tonal pattern]. IDF Sunday strikes in 4+ locations (Bint Jbeil district pair, Tyre district, Nabatieh district two towns); IDF '15+ terrorists eliminated' including 3 in a vehicle 'loaded with weapons.' Two-day cumulative: 10+ locations across 36 hours. Times of Israel separately reported IDF investigation of footage showing soldiers 'damaging solar panels in southern Lebanon town' — discipline issue alongside the kinetic; Haaretz would normally lead on this but is busy with Iran-Pakistan-talks beat, suggesting Times-of-Israel filling Haaretz space. ISRAELI PRESS PATTERN ON IRAN: COMPARTMENTALISED. Haaretz, Times of Israel, and Israel Hayom Sunday all led with the Lebanon Sunday strikes; on Iran, treatment is observant rather than active. Israel Hayom April 25 'All eyes on Pakistan as Iranian delegation leaves' explicitly frames Israel as a watcher. Notably absent: any Israeli senior-source leak about coordination with the US on the post-cancellation Iran kinetic option. Israel's marginalisation in the diplomatic track is being marked by absence rather than active presence. (Sources: Lebanese National News Agency, Al Jazeera, Times of Israel, Haaretz, Israel Hayom)",
+      "sources": [
+        "Lebanese National News Agency",
+        "Al Jazeera",
+        "Times of Israel",
+        "Haaretz",
+        "Israel Hayom"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED Sunday IDF kinetic; CONFIRMED Israeli-press compartmentalised pattern."
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "active_conflict_paused_with_readiness",
-      "context": "Day 57 Friday. Combat-readiness procedures remain active; no Friday kinetic. Haaretz framing shifted from Thursday's 'imminent strike' coordinated leak to Friday's 'Trump Fed Up' analytical framing — characteristic pattern suggesting IDF operational-track has received Trump's 'don't rush me' signal and is not expecting weekend activation. Israeli posture: hold combat-readiness, let Trump own timing.",
+      "context": "Day 59 Sunday. Combat-readiness procedures still active; no Sunday kinetic on Iran. Israel-press observant rather than active on Iran track post-Trump-cancellation. Senior-source silence on coordination with US on post-cancellation Iran kinetic option = Israel marginalised in diplomatic track. Posture unchanged: hold combat-readiness, let Trump own timing.",
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 34,
+      "last_activated": "2026-04-26",
+      "activation_count": 35,
       "weight": 10.0
     },
     {
@@ -596,19 +609,19 @@
     {
       "to": "lebanon",
       "type": "ceasefire_extended_3_weeks_kinetic_active",
-      "context": "Day 58 Saturday. IDF struck 6+ southern Lebanon locations overnight (Al Saamiya, Reman, Deir El Zahrani named by IDF; Touline, Yater, Bint Jbeil casualties per Lebanese Health Ministry). Cumulative 2,491 killed / 7,719 wounded since March 2. Forced evacuation Deir Aames. 3-week political extension layered over operational kinetic continuation. Netanyahu: 'full freedom of action.'",
+      "context": "Day 59 Sunday. Day 2 of post-extension kinetic — IDF strikes in Bint Jbeil, Tyre, Nabatieh districts; '15+ terrorists eliminated' per IDF. Two-day cumulative 10+ locations. 3-week political extension layered over durable operational kinetic. Times of Israel reports IDF investigation of soldier solar-panel-damage discipline issue.",
       "directness": 1,
-      "last_activated": "2026-04-25",
-      "activation_count": 28,
+      "last_activated": "2026-04-26",
+      "activation_count": 29,
       "weight": 10
     },
     {
       "to": "hezbollah",
       "type": "kinetic_open_under_extended_ceasefire",
-      "context": "Day 58 Saturday. Hezbollah rockets/drones across border + claimed drone shootdown via missile + 6 Hezbollah killed Bint Jbeil exchange following IDF Saturday strikes. Lawmaker Fayyad: extension 'meaningless'; right to retaliate retained. Open kinetic now visible — material escalation from prior week's IED-only kinetic.",
+      "context": "Day 59 Sunday. Day 2 IDF kinetic; Hezbollah Sunday retaliation not yet claimed (Saturday rockets/drones/drone-shootdown was the visible escalation). Two-day pattern operationally substantiates legal-extension-with-kinetic.",
       "directness": 1,
-      "last_activated": "2026-04-25",
-      "activation_count": 28,
+      "last_activated": "2026-04-26",
+      "activation_count": 29,
       "weight": 10
     },
     {

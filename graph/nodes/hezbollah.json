@@ -3,8 +3,8 @@
   "name": "Hezbollah",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-25",
-  "summary": "Day 58 Saturday. KINETIC LAYER ESCALATES UNDER EXTENDED CEASEFIRE. Hezbollah fired rockets and drones across the border Saturday in response to IDF strikes on 6+ southern Lebanon locations overnight (Al Saamiya, Reman, Deir El Zahrani, Touline, Yater, Bint Jbeil). Hezbollah claimed responsibility for shooting down an Israeli drone with a missile. Six Hezbollah fighters were killed in a Bint Jbeil-area armed exchange. Lawmaker Ali Fayyad publicly called the ceasefire extension 'meaningless in light of Israel's insistence on hostile acts' and asserted Hezbollah retains 'the right to retaliate.' Wafiq Safa April 23 stance (non-recognition of Washington agreements) holds. The 3-week political extension (~May 14) buys legal architecture but fails to halt operational kinetic. Hezbollah posture: now visible kinetic (rockets, drones, drone shootdown) layered on rhetoric, in escalation from April 19 Kalfon-IED-only kinetic.",
+  "last_updated": "2026-04-26",
+  "summary": "Day 59 Sunday. SECOND CONSECUTIVE DAY OF IDF MULTI-LOCATION KINETIC ON SOUTHERN LEBANON; HEZBOLLAH RETALIATION NOT YET CLAIMED. Sunday IDF strikes in Bint Jbeil + Tyre + Nabatieh districts; IDF reports '15+ terrorists eliminated' including 3 in vehicle 'loaded with weapons.' Saturday-Sunday: 10+ locations struck across two days, 21+ casualties claimed by IDF. Hezbollah Saturday posture (rockets, drones, drone-shootdown claim, lawmaker Fayyad's 'right to retaliate') has not yet been publicly extended Sunday IST as of 08:30. Wafiq Safa April 23 stance (non-recognition of Washington agreements) holds. The 3-week political extension (~May 14) buys legal architecture but fails to halt operational kinetic — Day 2 of post-extension period confirms a durable pattern of legal-extension-with-kinetic-continuation. A third consecutive day of multi-location strikes Monday would formally break the ceasefire substrate even if May 14 deadline holds.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -345,6 +345,18 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED ACTION on both sides."
+    },
+    {
+      "date": "2026-04-26",
+      "content": "DAY 2 IDF MULTI-LOCATION KINETIC; HEZBOLLAH SUNDAY RETALIATION NOT YET CLAIMED [CONFIRMED IDF strikes; CONFIRMED ABSENCE Hezbollah claim 08:30 IST]. Sunday IDF strikes in Bint Jbeil district (pair of strikes in quick succession), Tyre district, and Nabatieh district (two towns). IDF '15+ terrorists eliminated' statement including 3 in a vehicle 'loaded with weapons.' Hezbollah lawmaker Ali Fayyad's Saturday line ('meaningless in light of Israel's insistence') is the operative rhetorical framing for Sunday Day 2 kinetic; no fresh Sunday Hezbollah statement as of 08:30 IST. Lebanese Health Ministry has not released Sunday casualty figures. The two-day pattern operationally substantiates Hezbollah's 'right to retaliate' rhetoric even as Hezbollah Sunday operational silence holds.",
+      "sources": [
+        "Lebanese National News Agency",
+        "Al Jazeera",
+        "The Times of Israel",
+        "Haaretz"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED IDF kinetic continuation; CONFIRMED ABSENCE of Sunday Hezbollah claim as of 08:30 IST."
     }
   ],
   "edges": [
@@ -360,19 +372,19 @@
     {
       "to": "israel",
       "type": "structured_pause_kinetic_residual",
-      "context": "Day 58 Saturday. Kinetic layer escalates: Hezbollah rocket and drone fire across border + claimed shootdown of Israeli drone with missile + 6 Hezbollah fighters killed in Bint Jbeil-area exchange following IDF Saturday strikes on 6+ locations. Lawmaker Fayyad: extension 'meaningless'; right to retaliate retained. Open kinetic now visible despite political extension to May 14.",
+      "context": "Day 59 Sunday. Day 2 of post-extension kinetic — IDF Bint Jbeil, Tyre, Nabatieh; '15+ terrorists eliminated.' Hezbollah Saturday escalation (rockets, drones, drone-shootdown claim) has not been publicly extended Sunday IST. Two-day pattern marks legal-extension-with-kinetic as operationally durable.",
       "directness": 1,
-      "last_activated": "2026-04-25",
-      "activation_count": 28,
+      "last_activated": "2026-04-26",
+      "activation_count": 29,
       "weight": 10
     },
     {
       "to": "lebanon",
       "type": "operating_base_extended_ceasefire",
-      "context": "Day 57 / Ceasefire extended 3 weeks. Hezbollah non-signatory structural fragility unchanged; Wafiq Safa explicit rejection of Washington agreements. Kinetic layer persists (Shtula rockets Thursday). Extended architecture runs to ~May 14.",
+      "context": "Day 59 Sunday. Hezbollah's 'right to retaliate' framing operationally substantiated for second consecutive day. Hezbollah non-signatory structural fragility unchanged; Wafiq Safa April 23 explicit rejection of Washington agreements holds. Extended architecture runs to ~May 14 but Day 2 of multi-location IDF strikes erodes substrate.",
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 23,
+      "last_activated": "2026-04-26",
+      "activation_count": 24,
       "weight": 10
     }
   ],

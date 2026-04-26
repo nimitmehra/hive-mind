@@ -3,8 +3,8 @@
   "name": "Iraq",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-25",
-  "summary": "Day 58 Saturday. WSJ APRIL 21 (VIA ISW): ~HALF OF ~1,000 DRONE ATTACKS ON SAUDI DURING WAR CAME FROM IRAN-BACKED IRAQI MILITIAS [REPORTED]. Wall Street Journal April 21 reported, citing unnamed sources, that Iranian-backed Iraqi militias conducted approximately half of the ~1,000 drone attacks targeting Saudi Arabia during the war (relayed in ISW Critical Threats Iran Update April 21-22). Historical-cumulative claim, not fresh kinetic. Operationally significant because (1) materially upgrades implied weight of Iraq → Iran-axis edge in the graph, and (2) provides cleaner mechanism for Saudi Tadawul -1.2% Friday close. Iraqi government silent; Iranian state media silent; Saudi MoD silent — all three silences are intelligence (each side has reasons not to confirm or deny). Stays REPORTED until Saudi MoD or CENTCOM independently confirms attribution. Hormuz closure persists; Iraq's southern oil exports remain constrained — production ~900K bpd vs pre-war 3.3M bpd. Force majeure path to restart still depends on diplomatic resolution of Hormuz blockade. Witkoff-Kushner Pakistan dispatch + Iran 'no meeting' framing creates near-term Iraq-restart contingency through Sunday April 26 IST window outcome.",
+  "last_updated": "2026-04-26",
+  "summary": "Day 59 Sunday. WSJ ATTRIBUTION ARCHITECTURE UPGRADED — APRIL 12 SAUDI MoFA PROTEST SUMMONS NOW CONFIRMED + QAANI-BAGHDAD VISIT REPORTED + NAMED MILITIAS KATAIB HEZBOLLAH/ASAIB AHL AL-HAQ. Three operational details surface beyond the WSJ April 21 'half of ~1,000 drone attacks from Iraq' piece: (1) On April 12, 2026, the Saudi Ministry of Foreign Affairs formally summoned Iraq's ambassador to Riyadh and issued a protest note warning that Saudi Arabia 'would take necessary measures to ensure its national security and territorial integrity' (House of Saud, Defense News). Saudi MoFA has not denied. CONFIRMED diplomatic action. (2) Gen. Esmail Qaani — IRGC overseas-operations commander (Quds Force successor to Soleimani) — reportedly visited Baghdad during the period of escalation. REPORTED, indicates direct Tehran-Baghdad militia command coordination. (3) Specific militias named: Kataib Hezbollah and Asaib Ahl al-Haq (post-2003 US-invasion origin). Targets named: Yanbu oil hub on Red Sea, multiple oil installations in Saudi Eastern Province, Kuwait's only civilian airport, sites in Bahrain. UNN April relays the WSJ framing as a 'covert war' between Saudi Arabia and Iraq — strategic-narrative-level reframing that elevates the Saudi-Iraq bilateral from 'drone-attack incident series' to 'low-intensity conflict' classification. Iraqi government has not publicly addressed the Saudi protest summons (silence is data); Iran's state media has not addressed the Qaani-Baghdad visit. The diplomatic-protest substrate is CONFIRMED; the 50% attribution share remains REPORTED. Hormuz closure persists; Iraq's southern oil exports remain constrained — production ~900K bpd vs pre-war 3.3M bpd. Trump cancellation of Witkoff-Kushner dispatch removes the near-term Iraq-restart contingency.",
   "signals": [
     {
       "date": "2026-03-11",
@@ -75,6 +75,20 @@
       ],
       "significance": "high",
       "verification": "REPORTED single WSJ-sources via unnamed officials, ISW relay."
+    },
+    {
+      "date": "2026-04-26",
+      "content": "WSJ IRAQ-DRONE ATTRIBUTION UPGRADED: APRIL 12 SAUDI MoFA PROTEST SUMMONS CONFIRMED + QAANI-BAGHDAD VISIT REPORTED + KATAIB HEZBOLLAH/ASAIB AHL AL-HAQ NAMED [CONFIRMED diplomatic action + REPORTED command-coordination + REPORTED specific militias]. Three operational details: (1) April 12, 2026, Saudi Ministry of Foreign Affairs formally summoned Iraq's ambassador to Riyadh and issued protest note warning Saudi Arabia 'would take necessary measures to ensure its national security and territorial integrity' — CONFIRMED via House of Saud + Defense News; Saudi MoFA has not denied. (2) Gen. Esmail Qaani — IRGC overseas-operations commander — reportedly visited Baghdad during the period of escalation, indicating direct Tehran-Baghdad militia command coordination — REPORTED single-source via WSJ. (3) Specific militias named: Kataib Hezbollah and Asaib Ahl al-Haq, originating post-2003 US invasion. Targets: Yanbu oil hub on Red Sea, multiple oil installations in Saudi Eastern Province, Kuwait's only civilian airport, sites in Bahrain. UNN April relays the WSJ framing as a 'covert war' between Saudi Arabia and Iraq — strategic-narrative-level reframing. Iraqi government has not publicly addressed the Saudi protest summons. Materially upgrades graph encoding: April 12 Saudi-Iraq diplomatic protest is CONFIRMED, supports stronger iraq → saudi-arabia edge weight; Qaani-Baghdad visit reinforces iran → iraq command linkage. (Sources: WSJ, ISW Critical Threats April 21-22, House of Saud, Defense News, UNN, Long War Journal)",
+      "sources": [
+        "Wall Street Journal",
+        "ISW Critical Threats",
+        "House of Saud",
+        "Defense News",
+        "UNN",
+        "Long War Journal"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED April 12 Saudi MoFA protest summons. REPORTED on Qaani-Baghdad visit and 50% attribution share."
     }
   ],
   "edges": [
@@ -99,20 +113,20 @@
     {
       "to": "iran",
       "type": "influence_zone_proxy_arc",
-      "context": "Day 58 Saturday. WSJ April 21 (via ISW): ~half of ~1,000 drone attacks on Saudi during war came from Iran-backed Iraqi militias — REPORTED single-source. Materially upgrades Iraq → Iran-axis edge weight if confirmed. Provides cleaner mechanism for Saudi Tadawul -1.2% Friday. Iraqi/Saudi/Iranian official silence on the claim is itself intelligence.",
+      "context": "Day 59 Sunday. Architecture upgraded: Qaani-Baghdad visit REPORTED indicates direct Tehran-Baghdad militia command coordination; named militias Kataib Hezbollah, Asaib Ahl al-Haq. Reinforces iran → iraq command linkage. Iranian state silence on Qaani visit is consistent with state suppression of operational details.",
       "directness": 1,
-      "last_activated": "2026-04-25",
-      "activation_count": 7,
-      "weight": 9.0
+      "last_activated": "2026-04-26",
+      "activation_count": 8,
+      "weight": 9.3
     },
     {
       "to": "saudi-arabia",
-      "type": "drone_attacks_proxy",
-      "context": "WSJ April 21 (via ISW): ~half of ~1,000 drone attacks on Saudi during war came from Iran-backed Iraqi militias — REPORTED single-source. Iraq is the cleaner mechanism for Saudi anxiety pricing (Tadawul -1.2% Friday) than direct Iranian kinetic. Iraqi government silent.",
+      "type": "covert_war_drone_attacks_proxy",
+      "context": "Day 59 Sunday. April 12 Saudi MoFA formal protest summons of Iraqi ambassador now CONFIRMED (House of Saud, Defense News); WSJ April 21 'half of ~1,000 drone attacks' attribution still REPORTED. UNN frames the bilateral as 'covert war' — strategic-narrative-level reframing. Saudi MoFA acting through diplomatic-protocol channels rather than public messaging. Cleaner mechanism for Saudi Tadawul anxiety than direct Iranian kinetic.",
       "directness": 1,
-      "last_activated": "2026-04-25",
-      "activation_count": 1,
-      "weight": 7.5
+      "last_activated": "2026-04-26",
+      "activation_count": 2,
+      "weight": 8.0
     }
   ],
   "trigger_points": [],

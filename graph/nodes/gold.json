@@ -3,8 +3,8 @@
   "name": "Gold",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-25",
-  "summary": "Day 58 Saturday — GOLDMAN REGIME CALL CONFIRMED FOR 5TH CONSECUTIVE DAY. Gold closed $4,722.30 Friday (+0.4% 1D, +3.8% 1M, -7.0% 3M) per Saturday script. Silver $76.38 (+1.2%); palladium $1,501.50 (+1.1%); platinum $2,015.00 (-0.4%); precious complex broadly higher but modest. $4,850 crisis-beta reopening threshold remains UNBREACHED. On a Friday with carrier arrival + new ROE + Witkoff-Kushner dispatch announcement + IDF Lebanon strikes, gold's +0.4% bid is mild — historical crisis-beta would have produced +1.5-2.5%. Goldman regime diagnostic: gold tracks DXY/real-yields rather than geopolitical premium; DXY -0.3% Friday and US 10Y -0.3% drove the modest bid, not fear. COMEX net longs at 3-year highs (crowded trade restraint). Markets closed Saturday/Sunday — Monday open is the regime-confirmation binary: Hold $4,700-4,800 through Monday → INFLATION trade locked, not CRISIS trade, into May. Break $4,850 on confirmed weekend kinetic → crisis-beta reopens, $5,000 target activates within 2-3 sessions. NEW TRIGGER: Gold sustains above $4,600 for 3+ sessions = regime shift confirmation per Goldman framework. Only a systemic-financial-stress event flips regime back.",
+  "last_updated": "2026-04-26",
+  "summary": "Day 59 Sunday — GOLDMAN REGIME CALL DAY 6 BINARY MONDAY. Friday close $4,722.30 (+0.4% 1D, +3.8% 1M, -7.0% 3M); Sunday script reproduces (markets closed). Goldman regime call (gold tracks DXY/real-yields, not crisis-beta) holds 5 consecutive days. Sunday news exposure binary: Branch 1 (Brent above $108 / structural-break) — Gold breaks $4,850 within Monday morning → regime FLIPS from inflation-trade back to crisis-beta → $5,000 target activates within 2-3 sessions. Branch 2 (band / theatrical) — Gold holds $4,700-4,800 → regime LOCKS through April 30 → inflation-trade dominant. Branch 3 (below $103 / positioning) — Gold weakens to $4,650-4,700 → regime confirms with maximum force → inflation-trade locked into May. Why this is the binary: Goldman Sachs Global Commodities desk made the regime call 5 days ago. Friday's +0.4% on multiple escalation inputs (carrier arrival, new ROE, Witkoff-Kushner dispatch announcement) was the empirical confirmation. Monday Sunday-news repricing is the explicit test: if gold breaks $4,850 on confirmed weekend news (with no kinetic), the regime breaks on leak-and-cancellation alone — meaning the Goldman framework was wrong. If gold holds below $4,800 with Sunday news priced, the regime confirms — meaning the Goldman framework continues to dominate. For investor: Monday's open is the cleanest single binary diagnostic for the regime question. Implication for portfolio construction differs sharply: inflation regime → gold competes with TIPS and short duration; crisis regime → gold is systemic-stress hedge alongside long-vol and yen.",
   "current": {
     "price": "$4,722.30/oz (Friday close per Saturday script)",
     "delta_1d": "+0.4%",
@@ -512,6 +512,18 @@
       ],
       "significance": "medium",
       "verification": "CONFIRMED market data; Goldman regime call OPERATIONAL SIZING BASIS for 5th consecutive day."
+    },
+    {
+      "date": "2026-04-26",
+      "content": "GOLDMAN REGIME CALL DAY 6 — MONDAY OPEN IS THE BINARY [PENDING]. Markets closed Sunday — Friday close $4,722.30 holds. Goldman Sachs Global Commodities desk made the regime call 5 days ago: 'Gold tracking DXY/real-rates rather than geopolitical premium. Gold holds $4,700-$4,800 into Monday close = regime confirmed into May; gold becomes inflation trade not crisis trade.' Sunday Trump cancellation + Pezeshkian hardening + CNN Vahidi-targeting leak is the explicit test: Monday April 27 gold close above $4,850 on confirmed weekend kinetic-or-leak escalation = regime breaks; below $4,800 with no kinetic = regime confirmed. Branch resolution: Branch 1 (Brent above $108 / structural-break) — Gold breaks $4,850 within Monday morning → regime FLIPS, $5,000 target activates within 2-3 sessions. Branch 2 — Gold holds $4,700-4,800 → regime LOCKS through April 30. Branch 3 — Gold weakens to $4,650-4,700 → regime confirms with maximum force. Track record: Goldman regime call held 5 consecutive days. The Monday move resolves which framework is operative: in inflation regime, gold is competing with TIPS and short duration; in crisis regime, gold is the systemic-stress hedge alongside long-vol and yen. (Sources: Senior Market dossier; Goldman Sachs Commodities; yfinance Sunday script reproduces Friday GC=F)",
+      "sources": [
+        "Senior Market dossier",
+        "Goldman Sachs Commodities",
+        "yfinance",
+        "Trading Economics"
+      ],
+      "significance": "high",
+      "verification": "PENDING Monday open; regime binary."
     }
   ],
   "edges": [
@@ -619,9 +631,22 @@
         "us-10y-yield",
         "sp-500"
       ],
-      "mechanism": "Thursday Day 56 datum: gold $4,754.60 +0.5% on combat-readiness leak + Trump strike-list + Brent $106 spike intraday — gold rose only modestly against a backdrop that would historically have produced double-digit-percent crisis bids, tracking DXY/real-yields more than geopolitical premium. Third consecutive datum supporting Goldman regime call directionally. Friday US close is confirmation point. If gold stays $4,700-4,800 through Friday close, regime call confirmed for the week — investor can SIZE on inflation-regime thesis rather than crisis-beta thesis. Falsification path: gold breaks $4,850 on Friday Iranian kinetic on US-flagged vessel or Israeli strike-prep hardening = crisis-beta reopens.",
+      "mechanism": "Thursday Day 56 datum: gold $4,754.60 +0.5% on combat-readiness leak + Trump strike-list + Brent $106 spike intraday — gold rose only modestly against a backdrop that would historically have produced double-digit-percent crisis bids, tracking DXY/real-yields more than geopolitical premium. Third consecutive datum supporting Goldman regime call directionally. Friday US close is confirmation point. If gold stays $4,700-4,800 through Friday close, regime call confirmed for the week — investor can SIZE on inflation-regime thesis rather than crisis-beta thesis. Falsification path: gold breaks $4,850 on Friday Iranian kinetic on US-flagged vessel or Israeli strike-prep hardening = crisis-beta reopens. | UPDATE 2026-04-26 Day 59: STAYS ACTIVE. Friday close $4,722.30 (+0.4% on multi-input escalation day) = regime confirmed. Monday April 27 open is the Day 6 binary: hold $4,700-4,800 = regime LOCKS through April 30; break $4,850 on cancellation alone = regime breaks on leak-and-cancellation alone (Goldman framework wrong).",
       "added": "2026-04-23",
       "status": "active"
+    },
+    {
+      "condition": "Gold sustains above $4,600 for 3+ sessions on regime SHIFT signal (oil up + equities down + gold up = 'systemic crisis' pattern) — REPLACES inflation-regime call",
+      "cascade": [
+        "gold",
+        "fed",
+        "us-10y-yield",
+        "sp-500",
+        "brent-crude"
+      ],
+      "mechanism": "Per Senior Market C4 framework: Goldman regime call holds 5 days. Sunday Globex Brent open is the explicit test. If Branch 1 fires (Brent above $108) AND gold breaks $4,850 within Monday morning AND equities sell off, the correlation pattern flips from 'inflation event' (oil up, gold down on rising real yields) to 'systemic crisis' (risk down, havens up, commodities up) — replacing the regime that has dominated March. Threshold: gold sustains above $4,850 for 3+ sessions. If sustained, regime shift confirmed; $5,000 target activates. | ADDED 2026-04-26 at watching as a refined market-defined trigger; complements the existing Goldman regime call.",
+      "added": "2026-04-26",
+      "status": "watching"
     }
   ]
 }

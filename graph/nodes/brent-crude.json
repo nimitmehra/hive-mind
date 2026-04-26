@@ -3,15 +3,23 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-25",
-  "summary": "Day 58 Saturday — DATA CORRECTION TO YESTERDAY'S BRENT FIGURE. Saturday script reads $105.33 (+0.2% 1D, +60.6% 3M); yesterday's brief encoded $97.94 (-6.8% 1D) as anomalous yfinance print (likely a continuous-contract roll artifact or stale/cached print). Multi-source web confirmation of corrected Friday close: CNBC Apr 23 had Brent Thursday close at $105.07 (+3% intraday); Trading Economics has Brent Friday slipping to ~$104.4; angle360ng has Brent intraday at $106 Friday. Actual Friday trajectory was Brent oscillating in the $104-106 band on slight intraday softening — NOT a -6.8% peak fade. The 'paper Brent rejected escalation' / 'paper-physical gap at widest' thesis from yesterday's brief COLLAPSES on the corrected data. Reality: paper Brent has been holding the $103-107 band for several sessions while physical indicators (war risk insurance $10-14M/voyage, VLCC at WS459/$467K-day, helium +40-100%) are also in elevated mode — paper and physical BOTH in crisis-pricing mode. The forward asymmetry remains positive for escalation but the magnitude has been overstated. Markets closed Saturday/Sunday. Forward bands: $95-115 (not yesterday's $90-110); confirmed Sunday Witkoff-Araghchi proposal extracts $5-8/bbl; weekend kinetic adds $5-10/bbl. Goldman Q2 $90/bbl forecast (cut from $99 April 14-15) operative analytical context. Goldman inflation-regime call (gold tracking DXY/real-rates rather than geopolitical premium) holds 5th consecutive day.",
+  "last_updated": "2026-04-26",
+  "summary": "Day 59 Sunday — SUNDAY GLOBEX BRENT OPEN (03:30 IST MONDAY) IS BINARY REPRICING FOR TRUMP CANCELLATION. Friday close $105.33 (+0.2% 1D, +60.6% 3M, +18% weekly per Trading Economics). Sunday script reproduces Saturday print (no fresh price discovery). Sunday Globex Brent opens 22:00 GMT (03:30 IST Monday) and is the first repricing venue for the cancellation news. Three-branch protocol: Branch 1 (above $108, ~30-35% prob, structural-break read) = kinetic-pricing dominant; cash sessions chase; trigger 'Brent crosses $108 sustained 2+ sessions' activates. Branch 2 ($103-107, ~45-50% base case, theatrical/Trump-pressure-pattern) = March 26/April 6/April 22 projection; muted Monday cash repricing; Friday band persists. Branch 3 (below $103, ~15-20%, positioning/Trump-cancels-then-deals) = de-escalation pricing despite visible setback. Friday's market story Friday is SMH +5.1% chip rally (NOT a Brent move) — chip complex decoupled from crisis (~5% crisis attribution). Forward bands $95-115 durable through April 30 absent kinetic confirmation. Goldman Q2 $90/bbl forecast (cut April 14-15) operative; Branch 1 outcome forces forecast revision UP. The corrected paper data ($105 not $97) means the paper-physical gap is largely closed — both pricing crisis. The trump → brent-crude edge dynamic is now structural — fourth confirmed Trump-post-Brent move pending Sunday Globex. Markets closed Saturday/Sunday — analytic frame is forward-only.",
   "current": {
-    "price": "$105.33 (Saturday script); $103-107 band — CORRECTION from yesterday's anomalous $97.94 print",
+    "price": "$105.33 (Friday Apr 24 close; Sunday script reproduces — markets closed); $103-107 band",
     "delta_1d": "+0.2%",
     "delta_1m": "+3.0%",
-    "delta_3m": "+60.6%"
+    "delta_3m": "+60.6%",
+    "weekly": "+18%",
+    "branch_thresholds": "Sunday Globex above $108 = Branch 1 structural-break; $103-107 = Branch 2 theatrical; below $103 = Branch 3 positioning"
   },
   "price_snapshots": [
+    {
+      "date": "2026-04-26",
+      "price": "$105.33 (Friday Apr 24 close; Sunday script reproduces; weekly +18%)",
+      "trigger": "Sunday news flow — Trump cancellation + Pezeshkian hardening + CNN Vahidi-targeting leak + IDF Day 2 Lebanon kinetic. Sunday Globex open 03:30 IST Monday is binary repricing.",
+      "delta_context": "+18% weekly per Trading Economics; corrected from yesterday's anomalous $97.94 print. Three-branch protocol: above $108 = Branch 1 structural-break (~30-35%); $103-107 = Branch 2 theatrical (~45-50% base); below $103 = Branch 3 positioning (~15-20%)."
+    },
     {
       "date": "2026-02-27",
       "price": "$70/bbl",
@@ -809,16 +817,29 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED via multi-source web cross-reference; CORRECTS yesterday's anomalous data point."
+    },
+    {
+      "date": "2026-04-26",
+      "content": "SUNDAY GLOBEX BRENT OPEN (03:30 IST MONDAY) IS BINARY REPRICING FOR TRUMP CANCELLATION [PENDING]. Markets closed Sunday — script reproduces Friday close $105.33 (+0.2% 1D, +60.6% 3M, +18% weekly per Trading Economics). The forward analysis is news-flow-driven: Trump's Saturday cancellation of Witkoff-Kushner dispatch + Pezeshkian's 'imposed/forced negotiations' precondition + CNN Vahidi-targeting leak + IDF Day 2 Lebanon kinetic. Three branches with explicit triggers: Branch 1 (Globex above $108, +2.5-4.0% gap, ~30-35% prob, structural-break read) — diplomatic-track structural-break + mediator-network read as bypass + Pentagon Hormuz strike-plan optionality priced higher + Brent crosses $108 trigger activates; cascade activates Nifty 23,775 break + Gold $4,850 threshold. Branch 2 (Globex $103-107, ~45-50% base case, theatrical Trump pressure-pattern from March 26/April 6/April 22) — kinetic-branch probability unchanged ~30-35%; muted Monday cash repricing; Friday band persists. Branch 3 (Globex below $103, -2.5%+ gap, ~15-20%, positioning) — mediator-network announcement (Iran proposal via Pakistan or Russia uranium-storage breakthrough) read as bypass-as-substitute; cash market read = risk-on; gold likely sells through $4,700. Saudi Tadawul Sunday close is the pre-Globex tell: -2%+ = Branch 1 likely; -0.5 to -1.5% = Branch 2; flat-to-+1% = Branch 3. (Sources: Senior Market dossier; Trading Economics; Bloomberg; CME Group)",
+      "sources": [
+        "Senior Market dossier",
+        "Trading Economics",
+        "Bloomberg",
+        "CME Group",
+        "The National UAE"
+      ],
+      "significance": "high",
+      "verification": "PENDING Sunday Globex resolution."
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "Day 58 Saturday. Brent corrected to $105.33 (+0.2% 1D, +60.6% 3M) — yesterday's $97.94 was anomalous yfinance print. Paper Brent has been holding $103-107 for several sessions. Physical indicators (AWRP $10-14M/voyage, VLCC WS459/$467K-day, helium +40-100%) in elevated mode. Paper-physical gap is much narrower than yesterday encoded — both in crisis-pricing mode. Forward bands $95-115; Witkoff-Kushner Pakistan dispatch + Sunday window resolution is the binary forcing function.",
+      "context": "Day 59 Sunday. Brent $105.33 Friday close. Sunday Globex Brent open binary for Trump cancellation. April 23 transit dark-only (5 vessels, ALL Northern Corridor, ALL dark via ISDB) extends 96-120 hour kinetic pause. Hormuz cost stack ~$6-10M per voyage all-in. Three-branch repricing pending Globex. Both paper and physical pricing crisis (gap closed).",
       "directness": 1,
-      "last_activated": "2026-04-25",
-      "activation_count": 40,
+      "last_activated": "2026-04-26",
+      "activation_count": 41,
       "weight": 10
     },
     {
