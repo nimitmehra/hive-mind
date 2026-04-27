@@ -3,17 +3,23 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday — SUNDAY GLOBEX BRENT OPEN (03:30 IST MONDAY) IS BINARY REPRICING FOR TRUMP CANCELLATION. Friday close $105.33 (+0.2% 1D, +60.6% 3M, +18% weekly per Trading Economics). Sunday script reproduces Saturday print (no fresh price discovery). Sunday Globex Brent opens 22:00 GMT (03:30 IST Monday) and is the first repricing venue for the cancellation news. Three-branch protocol: Branch 1 (above $108, ~30-35% prob, structural-break read) = kinetic-pricing dominant; cash sessions chase; trigger 'Brent crosses $108 sustained 2+ sessions' activates. Branch 2 ($103-107, ~45-50% base case, theatrical/Trump-pressure-pattern) = March 26/April 6/April 22 projection; muted Monday cash repricing; Friday band persists. Branch 3 (below $103, ~15-20%, positioning/Trump-cancels-then-deals) = de-escalation pricing despite visible setback. Friday's market story Friday is SMH +5.1% chip rally (NOT a Brent move) — chip complex decoupled from crisis (~5% crisis attribution). Forward bands $95-115 durable through April 30 absent kinetic confirmation. Goldman Q2 $90/bbl forecast (cut April 14-15) operative; Branch 1 outcome forces forecast revision UP. The corrected paper data ($105 not $97) means the paper-physical gap is largely closed — both pricing crisis. The trump → brent-crude edge dynamic is now structural — fourth confirmed Trump-post-Brent move pending Sunday Globex. Markets closed Saturday/Sunday — analytic frame is forward-only.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday — BRANCH 3 CONFIRMED. BRENT GAPPED -4.6% TO $100.47 ON SUNDAY GLOBEX / MONDAY ASIA. Friday close $105.33 → Sunday Globex / Monday Asia print $100.47 = -$4.86 (-4.6%) — FIRST SUB-$103 PRINT SINCE APRIL 18; LARGEST SINGLE-SESSION COMPRESSION OF WAR PERIOD. Cleanest single read on weekend's news flow — market reads cluster (Trump cancellation + Hezbollah lethal Sgt. Fooks + 'nuclear dust' Reuters quote + Mojtaba Mashhad mural + Putin-Araghchi Kremlin meeting + Sadara JV CONFIRMED upgrade) as positioning under Russia-mediated architecture, not structural break. Saudi Tadawul Sunday +0.11% close (11,121.56) was the leading-indicator pre-Globex tell — three concurrent escalation inputs absorbed without flinching. Asian Monday session confirmed: KOSPI +2.2%, Taiwan TAIEX +2.7%, Nikkei +1.4% — chip-led risk-on. Branch 1/2/3 redistribution: yesterday weighted 30-35% / 45-50% / 15-20%; Globex action implies revised 10% / 30% / 60%. Crisis duration tail re-priced from 8-16 weeks to 4-8 weeks under Russia-mediated architecture. Crisis premium decomposition: at $105 embedded ~$35; at $100 embedded ~$30; -$5 risk-premium compression (NOT return to pre-crisis). Hormuz still functionally closed (April 23: 5 dark-only transits via Northern Corridor), Sadara JV still shut, war risk insurance still $10-14M/voyage. Compression is a re-rating of TIME-EXTENSION risk, not LEVEL risk. Trump-cancellation pattern empirically priced as theatrical: April 7→8 ceasefire flip + April 22 'hold our Attack' + April 25 dispatch cancellation = THREE reversals in 30 days; market discounts Trump escalation rhetoric ~30-40% on first announcement. Aramco May OSP at +$19.50/bbl premium (announced Apr 6) — RECORD high but Bloomberg refiner survey expected $40+, Aramco 'left $20.50 on the table' = pricing restraint. Goldman Q2 $90/bbl forecast (cut April 14-15) BELOW current spot — no upward revision needed under Branch 3. Reversibility: 60% Branch 3 holds Monday close, 25% partial reversion to $103-105 band, 15% full Branch 1 reactivation above $108. Forward operative band: $95-103, with $98 as 5-day base case if Branch 3 deepens.",
   "current": {
-    "price": "$105.33 (Friday Apr 24 close; Sunday script reproduces — markets closed); $103-107 band",
-    "delta_1d": "+0.2%",
-    "delta_1m": "+3.0%",
-    "delta_3m": "+60.6%",
-    "weekly": "+18%",
-    "branch_thresholds": "Sunday Globex above $108 = Branch 1 structural-break; $103-107 = Branch 2 theatrical; below $103 = Branch 3 positioning"
+    "price": "$100.47 (Sunday Globex / Monday Asia LIVE; -4.6% from Friday $105.33)",
+    "delta_1d": "-4.6%",
+    "delta_1m": "-7.0%",
+    "delta_3m": "+53.2%",
+    "branch_status": "Branch 3 confirmed (positioning); $95-103 operative band",
+    "regime_shift_marker": "April 27 Branch 3 confirmation day — system-level event"
   },
   "price_snapshots": [
+    {
+      "date": "2026-04-27",
+      "price": "$100.47 (Sunday Globex / Monday Asia LIVE)",
+      "trigger": "Branch 3 confirmation — Russia-mediator architecture priced as substitute path post Trump cancellation",
+      "delta_context": "First sub-$103 print since April 18; -4.6% intraday is largest single-session compression of the war period. Market read entire weekend cluster (Trump cancellation + Hezbollah lethal Sgt. Fooks + 'nuclear dust' + Mojtaba mural + Putin-Araghchi Kremlin + Sadara CONFIRMED) as positioning, not structural break. Tadawul Sunday +0.11% leading indicator delivered. Branch 1/2/3 redistribution from 30-35/45-50/15-20% to 10/30/60%. Crisis premium compression: $35 → $30 (not return to pre-crisis). Hormuz still closed; this is re-rating of TIME-EXTENSION risk, not LEVEL risk."
+    },
     {
       "date": "2026-04-26",
       "price": "$105.33 (Friday Apr 24 close; Sunday script reproduces; weekly +18%)",
@@ -830,16 +836,29 @@
       ],
       "significance": "high",
       "verification": "PENDING Sunday Globex resolution."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "BRANCH 3 CONFIRMED — BRENT GAPPED -4.6% TO $100.47 ON SUNDAY GLOBEX / MONDAY ASIA [CONFIRMED MARKET DATA]. Friday close $105.33 → Sunday Globex / Monday Asia print $100.47 = -$4.86 (-4.6%) — first sub-$103 print since April 18; largest single-session compression of war period. Cleanest single read on weekend's news flow: market reads cluster (Trump cancellation + Hezbollah lethal Sgt. Fooks + 'nuclear dust' Reuters quote + Mojtaba Mashhad mural + Putin-Araghchi Kremlin meeting + Sadara JV CONFIRMED upgrade) as positioning under Russia-mediated architecture, not structural break. Saudi Tadawul Sunday +0.11% close (11,121.56) was the leading-indicator pre-Globex tell — three concurrent escalation inputs absorbed without flinching. Asian Monday session confirmed: KOSPI +2.2%, Taiwan TAIEX +2.7%, Nikkei +1.4% — chip-led risk-on. Aramco May OSP at +$19.50/bbl premium — RECORD high but Bloomberg refiner survey expected $40+; Aramco 'left $20.50 on the table' = pricing restraint signals Aramco preparing for Hormuz partial reopening. Branch 1/2/3 redistribution: yesterday weighted 30-35% / 45-50% / 15-20%; empirical evidence implies 10% / 30% / 60%. Crisis duration tail re-priced from 8-16 weeks to 4-8 weeks. Crisis premium: at $105 ~$35 embedded; at $100 ~$30; -$5 risk-premium compression — re-rating of TIME-EXTENSION risk, not LEVEL risk. Hormuz still functionally closed; Sadara JV still shut; war risk insurance still $10-14M/voyage. Reversibility: 60% Branch 3 holds Monday close, 25% partial reversion to $103-105, 15% Branch 1 reactivation above $108. Trump-cancellation pattern empirically priced as theatrical (3rd reversal in 30 days); market discounts Trump escalation rhetoric ~30-40% on first announcement. Forward operative band: $95-103, with $98 as 5-day base case if Branch 3 deepens. (Sources: yfinance Globex BZ=F LIVE; Trading Economics; CNBC; Investing.com; Aramco April 6 OSP)",
+      "sources": [
+        "yfinance",
+        "Trading Economics",
+        "CNBC",
+        "Investing.com",
+        "Bloomberg refiner survey"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED Globex print + Tadawul leading-indicator + Asian session confirmation."
     }
   ],
   "edges": [
     {
       "to": "strait-of-hormuz",
       "type": "supply_dependency",
-      "context": "Day 59 Sunday. Brent $105.33 Friday close. Sunday Globex Brent open binary for Trump cancellation. April 23 transit dark-only (5 vessels, ALL Northern Corridor, ALL dark via ISDB) extends 96-120 hour kinetic pause. Hormuz cost stack ~$6-10M per voyage all-in. Three-branch repricing pending Globex. Both paper and physical pricing crisis (gap closed).",
+      "context": "Day 60 Monday. Brent $100.47 (Globex LIVE, -4.6%). Branch 3 confirmed — paper has decisively repriced duration tail to 4-8 weeks under Russia-mediated architecture. Physical-side stress (TTF, VLCC, war risk insurance, urea) lagging — paper-physical gap re-emerges in REVERSE form vs March/early April pattern: paper now leads de-escalation while physical remains in elevated-crisis pricing. April 23 transit dark-only (5 vessels, ALL Northern Corridor, ALL dark via ISDB); 144-hour kinetic pause holds (longest non-IED IRGC operational quiet of blockade period).",
       "directness": 1,
-      "last_activated": "2026-04-26",
-      "activation_count": 41,
+      "last_activated": "2026-04-27",
+      "activation_count": 42,
       "weight": 10
     },
     {
@@ -963,8 +982,47 @@
         "strait-of-hormuz",
         "marine-war-risk-insurance"
       ],
-      "mechanism": "Paper Brent (futures settle) vs dated Brent or physical-disruption-implied fair value. Direction reversed Wednesday morning: paper $92.48, physical-implied value given Hormuz standstill ~$98-100. Either direction sustained 3 sessions = trigger. Replaces previous one-sided divergence framing.",
+      "mechanism": "Paper Brent (futures settle) vs dated Brent or physical-disruption-implied fair value. Direction reversed Wednesday morning: paper $92.48, physical-implied value given Hormuz standstill ~$98-100. Either direction sustained 3 sessions = trigger. Replaces previous one-sided divergence framing. | UPDATE 2026-04-27: paper has decisively repriced duration tail to 4-8 weeks while physical (TTF, VLCC, war risk insurance, urea) remains lagging at elevated crisis pricing. Paper-physical gap re-emerges in REVERSE form: paper leading de-escalation, physical lagging. Trigger conditions now firing on Branch 3 confirmation; sustained 3-session resolution will be the test.",
       "added": "2026-04-22",
+      "status": "active"
+    },
+    {
+      "condition": "Brent crosses $108 sustained 2+ sessions (Branch 1 reactivation)",
+      "cascade": [
+        "iran",
+        "trump",
+        "marine-war-risk-insurance",
+        "uranium-sector",
+        "defense-sector"
+      ],
+      "mechanism": "Replacement framing for the original Branch 1 trigger. Activation criterion: confirmed Brent close above $108/bbl for 2+ consecutive sessions. Status downgraded to 'watching-low' post Branch 3 confirmation — markets pricing kinetic-branch probability at ~10% (vs prior 30-35%). Most likely activation vector: confirmed strike on Iranian power-grid/bridge target, Vahidi-targeting kinetic, or major IRGC mil-on-mil engagement. | UPDATED 2026-04-27 status from watching to watching-low.",
+      "added": "2026-04-26",
+      "status": "watching"
+    },
+    {
+      "condition": "Brent crosses $95 sustained 3+ sessions (Branch 3 deepening / regime shift confirmation)",
+      "cascade": [
+        "india",
+        "nifty-50",
+        "rbi",
+        "inr-usd",
+        "sp-500",
+        "indian-oil-marketing"
+      ],
+      "mechanism": "Replacement framing for Branch 3 deepening. Activation criterion: confirmed Brent close below $95/bbl for 3+ consecutive sessions. Indicates the Russia-mediated architecture is being priced as durable bypass, not theatrical. India: RBI special-credit-facility OMC dollar-curb could be wound down; Nifty above 24,000 sustained becomes likely; OMC margin recovery accelerates. Branch 3 deepening cascade: USD/INR ₹93.0-93.5 area; gold tested toward $4,650; VIX 16-18 area; Goldman Q2 $90 base case absorbs into spot. | ADDED 2026-04-27 at watching.",
+      "added": "2026-04-27",
+      "status": "watching"
+    },
+    {
+      "condition": "Russia announces formal proposal as nuclear-material custodian within 14 days of Putin-Araghchi meeting (by 2026-05-11)",
+      "cascade": [
+        "russia",
+        "iran",
+        "trump",
+        "brent-crude"
+      ],
+      "mechanism": "Putin-Araghchi Kremlin meeting Monday April 27 (Lavrov in attendance) places Russia formally in mediator architecture as potential nuclear-material custodian. Bridge architecture solving Trump's 'physical removal' demand AND Iran's 'uranium does not leave' objection. If Russia announces formal proposal within 14 days, Brent likely tests sub-$95 sustained (Branch 3 deepening); if silence past 14 days, Branch 2 reasserts at $95-103. Falsifiable: 2026-05-11 23:59 IST. | ADDED 2026-04-27 at watching.",
+      "added": "2026-04-27",
       "status": "watching"
     }
   ]

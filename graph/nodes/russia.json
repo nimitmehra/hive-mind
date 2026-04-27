@@ -3,8 +3,8 @@
   "name": "Russia",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday. RUSSIA UPGRADED TO ACTIVE LEG OF IRAN'S MEDIATOR NETWORK — ARAGHCHI MOSCOW VISIT CONFIRMED. Per Press TV April 24 + IRNA Saturday/Sunday updates, Iran's FM Abbas Araghchi is on a 'timely tour' of Islamabad → Muscat → Moscow. Russia has repeatedly offered to take custody of Iran's enriched uranium ('store or reprocess on Russian soil' — Times of Israel). Araghchi told Press TV he believes 'a nuclear deal is possible with the US, so long as Washington does not make unrealistic demands' and 'wants Russia to play a role in the process.' Oman's Sultan separately confirmed to meet Putin in Moscow — Muscat-Moscow choreography. Iran is constructing a multi-track mediation architecture (Pakistan + Oman + Russia) explicitly NOT centered on direct US contact, with Russia now an active leg. Trump's 'if they want to talk, all they have to do is call' framing implicitly rejects this mediator-network architecture. RUSSIAN-OIL WAIVER (30-day India extension) preserves ~1.9 mbpd Russian flow to Indian refiners; Russia structurally bifurcated (rhetorical support for Iran via state media + intelligence support via permanent communications channel + UNSC veto + now active mediator-network leg).",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday. PUTIN-ARAGHCHI KREMLIN MEETING CONFIRMED — RUSSIA FORMALLY PLACED IN DIPLOMATIC ARCHITECTURE AS POTENTIAL NUCLEAR-MATERIAL CUSTODIAN. Iranian FM Abbas Araghchi met President Putin in the Kremlin Monday April 27 with FM Lavrov and other senior Russian officials in attendance (Kremlin formal readout, Press TV, Pakistan Today, Al Jazeera, Sputnik, Time News). First Putin-Iranian-FM direct meeting since 2026 war start; first time Russia placed in diplomatic architecture as a mediator/consultant rather than as an arms-supply backchannel. Iranian framing: 'consult Russian officials regarding the latest status of the negotiations, ceasefire, and surrounding developments.' Russian framing: 'current state of negotiations between Iran and the US, the conditions of the ceasefire and related issues.' Lavrov's attendance signals operational seriousness (he does not attend ceremonial meetings). Intelligence-grade hypothesis: Russia positioning to insert itself as guarantor of any Iran nuclear-material transfer mechanism — bridge architecture that solves Trump's 'nuclear dust' physical-removal demand AND Iran's 'uranium does not leave country' refusal (uranium leaves Iran but goes to Russia, not US). If this surfaces operationally in the next 7-14 days, it would be the first non-US-centred route since November 2024 to gain Putin-direct visibility on Iran nuclear architecture — Russia's diplomatic comeback into Iran nuclear file. Reuters Sunday-Monday: Iran sought Russian 'diplomatic backing as Iran faces increased isolation and military pressure from Israel and the US.' Trump's Sunday-Monday silence on Moscow leg suggests Washington reading it as posturing rather than genuine alternative track. RUSSIAN-OIL WAIVER (30-day India extension) preserves ~1.9 mbpd Russian flow to Indian refiners; Russia structurally quadri-faceted (rhetorical support for Iran via state media + intelligence support via permanent communications channel + UNSC veto + now ACTIVE mediator-network leg with Putin-direct visibility). New trigger watching: Russia announces formal proposal as nuclear-material custodian within 14 days (by 2026-05-11).",
   "signals": [
     {
       "date": "2026-03-04",
@@ -130,16 +130,31 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED Araghchi tour itinerary + departures + Sultan-Putin choreography."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "PUTIN-ARAGHCHI KREMLIN MEETING — RUSSIA FORMALLY ENTERS DIPLOMATIC ARCHITECTURE AS POTENTIAL NUCLEAR-CUSTODIAN [CONFIRMED ACTION, multi-source]. Iranian FM Abbas Araghchi met with President Putin in the Kremlin Monday April 27, with FM Lavrov and other senior Russian officials in attendance. Kremlin formal readout, Press TV, Pakistan Today, Al Jazeera, Sputnik, Time News, Manila Times, Voice of Emirates, NewsCord all converge. Iranian framing per Press TV: 'consult Russian officials regarding the latest status of the negotiations, ceasefire, and surrounding developments.' Russian framing: 'current state of negotiations between Iran and the US, the conditions of the ceasefire and related issues.' First Putin-Iranian-FM direct meeting since 2026 war start. Lavrov's attendance signals operational seriousness — Lavrov does not attend ceremonial meetings. Intelligence-grade read: Russia positioning to insert itself as (a) guarantor of any Iran nuclear-material transfer mechanism — compatible with Trump's 'nuclear dust' extraction architecture since Russia could be third-party custodian; (b) alternative diplomatic patron for Iran if Pakistan-Oman track exhausts; (c) information-operations partner. Hypothesis (a) is the most consequential — bridge architecture solving both Trump's 'physical removal' demand and Iran's 'uranium does not leave country' objection (it leaves Iran but goes to Russia, not US). Russia is making its diplomatic comeback into the Iran nuclear file. Reuters Sunday-Monday: Iran sought Russian 'diplomatic backing as Iran faces increased isolation.' New trigger watching: Russia announces formal proposal as nuclear-material custodian within 14 days (by 2026-05-11). (Sources: Kremlin formal readout, Press TV, Pakistan Today, Al Jazeera, Sputnik/Pravda USA, Euronews, Fortune)",
+      "sources": [
+        "Kremlin readout",
+        "Press TV",
+        "Pakistan Today",
+        "Al Jazeera",
+        "Sputnik",
+        "Euronews",
+        "Fortune"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED ACTION (physical Kremlin meeting, multi-source). REPORTED on substantive nuclear-custodian outcome."
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "intelligence_support_and_mediator_network",
-      "context": "Day 59 Sunday. UPGRADED to active mediator-network leg via Araghchi Moscow visit. Russia repeatedly offering to take custody of Iran's enriched uranium ('store or reprocess on Russian soil' — Times of Israel). Araghchi 'wants Russia to play a role.' Mediator role is parallel to underlying intelligence support: 24 surveys of 46 sites in 11 countries via permanent communications channel (Ukrainian intel, April 14); active Hormuz surveillance supporting blockade enforcement. UNSC veto + state-media echo + Russian-oil waiver renewal. No troops, no weapons.",
+      "context": "Day 60 Monday. PUTIN-ARAGHCHI KREMLIN MEETING — Russia formally placed in diplomatic architecture. First Putin-Iranian-FM direct meeting since 2026 war start. Lavrov's attendance signals operational seriousness. Russia positioning as potential nuclear-material custodian — bridge architecture solving Trump's 'nuclear dust' physical-removal demand AND Iran's 'uranium does not leave' refusal (uranium leaves Iran but goes to Russia, not US). Reuters: Iran sought Russian 'diplomatic backing as Iran faces increased isolation and military pressure.' Mediator role parallel to underlying intelligence support (24 surveys / 46 sites / 11 countries via permanent channel per Ukrainian intel April 14), UNSC veto, state-media echo, Russian-oil waiver renewal. No troops, no weapons.",
       "directness": 1,
-      "last_activated": "2026-04-26",
-      "activation_count": 9,
+      "last_activated": "2026-04-27",
+      "activation_count": 10,
       "weight": 10
     },
     {
@@ -168,7 +183,29 @@
       "last_activated": "2026-04-06",
       "activation_count": 1,
       "weight": 4.0
+    },
+    {
+      "to": "trump",
+      "type": "alternative_deal_architecture",
+      "context": "Day 60 Monday. Putin-Araghchi Kremlin meeting Monday with Lavrov in attendance positions Russia as potential nuclear-material custodian — bridge architecture between Trump's 'nuclear dust' physical-removal demand (Reuters Saturday/Sunday) and Iran's 'uranium does not leave country' refusal. Trump's Sunday-Monday silence on Moscow leg suggests Washington reading it as posturing rather than genuine alternative track. If Russia announces formal proposal within 14 days (by 2026-05-11), it would be the first non-US-centred route since November 2024 to gain Putin-direct visibility on Iran nuclear architecture. Initial weight reflects single confirmed meeting; substantive proposal REPORTED at most.",
+      "directness": 2,
+      "last_activated": "2026-04-27",
+      "activation_count": 1,
+      "weight": 4.5
     }
   ],
-  "trigger_points": []
+  "trigger_points": [
+    {
+      "condition": "Russia announces formal proposal as nuclear-material custodian within 14 days of Putin-Araghchi meeting (by 2026-05-11)",
+      "cascade": [
+        "iran",
+        "united-states",
+        "trump",
+        "brent-crude"
+      ],
+      "mechanism": "Putin-Araghchi Kremlin meeting Monday April 27 (Lavrov in attendance) places Russia formally in mediator architecture. Hypothesis: Russia positioning as guarantor of Iran nuclear-material transfer mechanism — bridge architecture solving Trump's 'physical removal' demand AND Iran's 'uranium does not leave' objection. Activation criterion: Lavrov or Putin publicly announces formal custodian proposal with operational specifics within 14 days. Currently: meeting CONFIRMED, substantive proposal REPORTED at most. Sadjadpour 'genuine architecture' read confirmed if proposal materializes; theatrical if silence past 14 days. | ADDED 2026-04-27 at watching.",
+      "added": "2026-04-27",
+      "status": "watching"
+    }
+  ]
 }

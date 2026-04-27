@@ -3,10 +3,10 @@
   "name": "US 10-Year Treasury Yield",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday. US 10Y 4.31% Friday (-0.3% 1D, -0.4% 1M, +2.3% 3M); US 2Y 3.59%. Markets closed Sunday — Trump cancellation tests bond-market read that inflation is transitory-on-de-escalation (the read that drove Friday's modest yield decline). Trump cancellation + Pezeshkian hardening + cancellation reversal pattern is BEARISH for bonds (yields up) IF Branch 1 fires (Brent above $108) — inflation pass-through pressure compounds. India 10Y 6.98% (+4bps Apr 24, web-confirmed Trading Economics) — yields rising despite US 10Y -0.3% = purely India-specific stress. Branch 1 outcome tests India 10Y 7.05-7.10% area. Fed FOMC April 28-29 blackout active; 99.5% pause priced per Polymarket. Forward-guidance language is the catalyst, not the rate. A Fed shifting language toward 'data-dependent / energy-price-sensitive' framing (vs recent 'transitory geopolitical pricing') would reprice S&P risk-off independent of Branch 1/2/3. Q1 GDP advance estimate April 30 (1.8-2.1% consensus). Powell term expires May 15, 2026. CPI 3.3% precludes cuts.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday. US 10Y 4.31% Friday (-0.3% 1D, -0.4% 1M, +2.3% 3M); US 2Y 3.59%. BRANCH 3 RESOLUTION (Brent gap -4.6% to $100.47 on Sunday Globex / Monday Asia open) modestly compresses inflation expectations → real yields rise marginally → gold faces continued real-yield headwind. Crisis premium $35 → $30 = re-rating of TIME-EXTENSION risk, not LEVEL risk. Bond market awaits Fed FOMC April 28-29 forward-guidance language (NON-SEP meeting; 99.7% pause priced per Polymarket). Dovish-leaning hold = 10Y likely tests 4.20-4.25%; hawkish energy-pass-through framing = 10Y retests 4.35%+. Q1 GDP advance Wed Apr 29 (1.8-2.1% consensus): print at lower bound supports dovish positioning; print above range supports current 4.30-4.35% range. India 10Y 6.87% (web-confirmed Trading Economics) / ~6.97% per Saturday script — Branch 3 architecture relieves modest pressure on India 10Y; likely tests 6.80-6.85% on rupee-strengthening session. Powell term expires May 15, 2026 (~2.5 weeks); Trump Kevin Warsh-line nominee = hawkish-to-neutral continuity. The bond market's interpretation of crisis as inflation event (not financial-system event) is operative through May.",
   "current": {
-    "price": "4.31% (Saturday script Friday close); US 2Y 3.59%",
+    "price": "4.31% (Friday close); US 2Y 3.59%",
     "delta_1d": "-0.3% 10Y; -0.1% 2Y",
     "delta_1m": "-0.4%",
     "delta_3m": "+2.3%"
@@ -235,35 +235,47 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "BRANCH 3 → MODEST INFLATION-EXPECTATIONS COMPRESSION; FOMC FORWARD-GUIDANCE LANGUAGE THE CATALYST [REPORTED, ANALYTICAL]. Brent gapped -4.6% to $100.47 on Sunday Globex / Monday Asia open — Branch 3 (positioning) defeats Branch 1 (structural break) and Branch 2 (theatrical band). Crisis premium $35 → $30 = re-rating of TIME-EXTENSION risk, not LEVEL risk. For US 10Y: modest inflation-expectations compression → real yields rise marginally (gold real-yield headwind continues; gold $4,720.70 flat across SIX escalation inputs Sat-Sun-Mon = Goldman regime call empirically vindicated Day 7). Bond market awaits FOMC April 29 forward-guidance language. Dovish-leaning hold (most probable on Branch 3): 10Y likely tests 4.20-4.25%; hawkish energy-pass-through: 10Y retests 4.35%+. Q1 GDP advance Wed April 29 (1.8-2.1% consensus): print at lower bound (1.8%) compounds dovish positioning into 4.20% area; print above range (2.1%+) keeps yield in 4.30-4.35% range. India 10Y 6.87% per Trading Economics web-data (vs 6.97-6.98% Saturday script — discrepancy noted; web-data more recent). Branch 3 architecture likely tests India 10Y 6.80-6.85% on rupee-strengthening session; FII debt outflow deceleration likely converts to net inflow into May FOMC dovish-pivot scenario. Powell term expires May 15. (Sources: market data Apr 27; Senior Market dossier Branch 3; Polymarket FOMC pause 99.7%; Trading Economics India 10Y)",
+      "sources": [
+        "Senior Market dossier",
+        "Trading Economics",
+        "Polymarket",
+        "yfinance"
+      ],
+      "significance": "high",
+      "verification": "REPORTED — yield reaction to Branch 3 PENDING April 28 cash open."
     }
   ],
   "edges": [
     {
       "to": "fed",
       "type": "rate_expectations",
-      "context": "Bond-equity divergence at WIDEST of the war. 10Y barely moved (-2bps to 4.30%) while S&P erased ALL war losses. Bond market refuses to commit to deal or escalation narrative. Stagflation trap intact.",
+      "context": "Day 60 Monday. Branch 3 resolution → modest inflation-expectations compression → 10Y likely tests 4.20-4.25% on dovish-leaning FOMC April 29; 4.35%+ retest on hawkish energy-pass-through framing. NON-SEP meeting; forward-guidance language is the catalyst. Q1 GDP advance Apr 29 (1.8-2.1% consensus) compounds the directional move.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 14,
+      "last_activated": "2026-04-27",
+      "activation_count": 15,
       "weight": 10
     },
     {
       "to": "sp-500",
       "type": "discount_rate",
-      "context": "Bond-equity divergence WIDEST of the war: S&P +1.0% to 6,886 (ALL war losses erased), 10Y flat at 4.30%. Equities pricing 'deal within days,' bonds saying 'not sure.' When they disagree, bonds usually right.",
+      "context": "Day 60 Monday. Friday US 10Y 4.31% (-0.3%); S&P 7,165.08 record-area. Branch 3 = risk-on continuation likely. Mag-7 earnings Apr 28-30 + FOMC Apr 28-29 + Q1 GDP advance Apr 29 dominate. 10Y likely range-bound 4.25-4.35% awaiting FOMC text; dovish FOMC = lower discount rate supportive of equity multiple.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 14,
+      "last_activated": "2026-04-27",
+      "activation_count": 15,
       "weight": 10
     },
     {
       "to": "nifty-50",
       "type": "em_capital_flows",
-      "context": "Higher US yields -> capital flows to US -> away from EM including India. India 10Y GOI ~6.90% (+5bps Apr 13). FII debt outflows + oil inflation pressure.",
+      "context": "Day 60 Monday. India 10Y 6.87% (Trading Economics) / ~6.97% Saturday script. Branch 3 architecture relieves modest pressure on India 10Y; likely tests 6.80-6.85% on rupee-strengthening session. FII debt outflow deceleration likely converts to net inflow into May FOMC dovish-pivot scenario. US-India yield differential narrowing supportive.",
       "directness": 2,
-      "last_activated": "2026-04-14",
-      "activation_count": 6,
-      "weight": 6.3
+      "last_activated": "2026-04-27",
+      "activation_count": 7,
+      "weight": 6.5
     }
   ],
   "trigger_points": [

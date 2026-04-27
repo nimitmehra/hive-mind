@@ -3,13 +3,13 @@
   "name": "European TTF Natural Gas",
   "type": "commodity",
   "created": "2026-03-28",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday — TTF €44.72/MWh FRIDAY CLOSE; BRANCH 1 TESTS €48-50/MWh WINDOW. Trading Economics direct cite: TTF +0.5% 1D, +5.5% over the week — firming back toward €45 after multi-week soft phase. TradingPedia April 24: 'European Gas Futures Rise as Hormuz Risks Mount.' Still well below €70+ cascade-intensity threshold. Trump cancellation of Witkoff-Kushner dispatch + Pezeshkian blockade-lift precondition reaffirm Hormuz LNG-export disruption framework. Per Senior Market C7: Branch 1 (Brent above $108) likely tests TTF €48-50/MWh window; Branch 2 holds; Branch 3 likely tests €42-44 area. Cheniere LNG $257.09 flat (-9.6% 1M) despite Henry Hub -3.5% — US-Europe gas arbitrage WIDENING (TTF +5% 1M vs HH -14.5% 1M) structurally favorable for Cheniere export economics. Three drivers persist: (a) Hormuz blockade physical persistence + Trump destroy-mine-laying-boats ROE keeping LNG-tanker risk priced in; (b) European inventory refill window tightening into summer; (c) Qatar Ras Laffan Trains 4/6 (12.8 mtpa, ~17% Qatar LNG) still 3-5yr recovery. Cheniere is structurally LONG the diplomatic-breakdown branch.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday — TTF €44.86/MWh APR 24 LAST; BRANCH 3 RESOLUTION → LIKELY RETREATS TO €42-44 AREA MONDAY. Trading Economics direct cite: TTF +0.8% 1D Friday, +5% 1W, +44% pre-crisis ~€31 baseline. Brent gapped -4.6% to $100.47 on Sunday Globex / Monday Asia open — Branch 3 (positioning) defeats Branch 1 (structural break) and Branch 2 (theatrical band). Yesterday's brief flagged 'Branch 1 likely tests TTF €48-50/MWh window' — Branch 3 RESOLUTION reverses this expectation. TTF likely retreats to €42-44 area Monday on de-escalation pricing extension; well below €70+ cascade-intensity threshold; ECB has not characterised Hormuz risk as systemic. Three structural drivers persist independent of Branch resolution: (a) Hormuz still functionally closed; war-risk insurance still $10-14M/voyage; Sadara JV still shut — paper Brent decoupling from physical operational reality; (b) European inventory refill window tightening into summer (storage ~30% 5-year seasonal low); (c) Qatar Ras Laffan Trains 4/6 (12.8 mtpa, ~17% Qatar LNG) still 3-5yr recovery. Cheniere LNG $257.09 flat Friday → likely tests $250-255 area Monday on Branch 3 (-1 to -2% European-energy-emergency premium compression). The diplomatic-breakdown LONG-Cheniere thesis from yesterday is empirically falsified for this cycle. Cascade-intensity threshold trigger remains WATCHING at €70/MWh sustained 5 sessions.",
   "current": {
-    "price": "€44.72/MWh (April 24 web-confirmed)",
-    "delta_1d": "+0.5%",
+    "price": "€44.86/MWh (Apr 24 last)",
+    "delta_1d": "+0.8% Fri",
     "delta_1m": "~+5%",
-    "delta_3m": "+44% vs pre-crisis ~€31; partial reversal of multi-week softness"
+    "delta_3m": "+44% vs pre-crisis ~€31; multi-week softness with partial reversal week of Apr 24"
   },
   "signals": [
     {
@@ -259,6 +259,18 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED via Trading Economics direct cite + multi-week trend reversal."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "BRANCH 3 RESOLUTION → TTF LIKELY RETREATS TO €42-44 AREA MONDAY [REPORTED + ANALYTICAL]. Brent gapped -4.6% to $100.47 on Sunday Globex / Monday Asia open — Branch 3 (positioning) defeats Branch 1 (structural break) and Branch 2 (theatrical band). Yesterday's 'Branch 1 likely tests TTF €48-50/MWh window' framework is empirically falsified — Branch 3 dominates. TTF likely retreats to €42-44 area Monday on de-escalation pricing extension; well below €70+ cascade-intensity threshold. ECB has not characterised Hormuz risk as systemic — Lagarde April 30 ECB hold (already-priced) supported by softer paper-Brent. Three structural drivers persist independent of Branch resolution: (a) Hormuz still functionally closed; war-risk insurance still $10-14M/voyage; Sadara JV still shut — paper-physical decoupling persists; (b) European inventory refill window tightening into summer (~30% storage 5-year seasonal low); (c) Qatar Ras Laffan Trains 4/6 still 3-5yr recovery. Cheniere LNG flat $257.09 Friday → likely tests $250-255 area Monday on Branch 3 (-1 to -2%). The diplomatic-breakdown LONG-Cheniere thesis from yesterday is empirically falsified for this cycle. Asian LNG imports at 6-year low reduces European cargo competition — supportive of softer TTF on margin. Sustained €70+ for 5 sessions remains the cascade-intensity threshold (currently €25+ away). (Sources: market data Apr 27; Senior Market dossier C5 Branch 3; Trading Economics; ECB)",
+      "sources": [
+        "Senior Market dossier",
+        "Trading Economics",
+        "Bloomberg",
+        "ICE Endex"
+      ],
+      "significance": "high",
+      "verification": "REPORTED — Branch 3 mechanism inferred; Monday cash open resolves direction."
     }
   ],
   "price_snapshots": [
@@ -293,10 +305,10 @@
     {
       "to": "qatar",
       "type": "supply_dependency",
-      "context": "Qatar is the world's largest LNG exporter. Ras Laffan damage (recovery delayed to August 2026) and Hormuz disruption (US blockade + war risk insurance at prohibitive prices) directly reduce European gas supply.",
+      "context": "Day 60 Monday. Branch 3 resolution → TTF likely retreats to €42-44 Monday; well below €70+ cascade-intensity threshold. Qatar Ras Laffan Trains 4/6 (12.8 mtpa) still 3-5yr full recovery; North within one month, South late summer. Hormuz still functionally closed; war-risk insurance still $10-14M/voyage; paper-physical decoupling persists.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 10,
+      "last_activated": "2026-04-27",
+      "activation_count": 11,
       "weight": 10
     },
     {
@@ -337,6 +349,18 @@
       ],
       "mechanism": "Would trigger European emergency energy protocols, industrial demand destruction, and fertilizer production shutdowns. Currently at ~EUR47.14 — needs to more than double. No European energy emergency measures yet (absence signal E5 from intel.md).",
       "added": "2026-03-28",
+      "status": "watching"
+    },
+    {
+      "condition": "TTF crosses €70/MWh sustained 5 sessions (cascade-intensity threshold)",
+      "cascade": [
+        "ecb",
+        "fertilizer-urea",
+        "natural-gas-lng",
+        "qatar"
+      ],
+      "mechanism": "€70/MWh is the empirical cascade-intensity threshold below which ECB does not characterise Hormuz/Qatar risk as systemic. Currently TTF €44.86 (Apr 24 last) — €25+ below threshold. Sustained 5-session breach activates: (a) ECB inflation-expectation re-rating with rate-hike speculation reactivating; (b) European industrial demand destruction (BASF/Linde/chemical complex cost pass-through limits); (c) European fertilizer production shutdowns risk; (d) cascade routes back into Cheniere LNG long thesis at full intensity. Falsifiable: 5 consecutive ICE Endex closes at or above €70.00. Branch 3 resolution Apr 27 takes this trigger further from activation.",
+      "added": "2026-04-27",
       "status": "watching"
     }
   ]

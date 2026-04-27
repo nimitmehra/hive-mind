@@ -3,8 +3,8 @@
   "name": "India",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday — INDIA REPRICES BRANCH 1/2/3 ON SUNDAY GLOBEX BRENT TONIGHT; FUEL-PRICING ARITHMETIC IS NEW INSTITUTIONAL FRAMING. Friday close (no fresh price discovery Sunday): Nifty 23,897.95 (-1.1%); Sensex 76,664.21 (-1.3%); USD/INR ₹94.22; India 10Y 6.98% (+4bps Apr 24). FII deceleration signal: Elara Capital Friday +$106M FPI inflow (first positive in 7 weeks); weekly outflow rate decelerated from peak $1.2B to ~$180M. Long-only continued selling (~$400M out) is structural, not crisis. STRUCTURAL FUEL-PRICING DETERIORATION: Business Standard April 23 — state-owned fuel retailers (IOC, BPCL, HPCL) incurring losses of ~₹20/litre on petrol and ~₹100/litre on diesel as pump prices remain frozen for ~4 years despite Brent surge. India crude basket $100.41 Friday vs February average $69.01. Branch 1 outcome compounds the structural arithmetic — every additional week of $105+ Brent adds approximately ₹2,800 crore to OMC subsidy burden. Government 'no plan to hike price' (election-cycle constraint). The fuel-pricing arithmetic is now the analytical anchor for Indian institutional coverage, not the Trump cancellation drama. INDIA-GULF EVACUATION: 50,000+ Indian nationals repatriated since Feb 28 (Dainik Jagran/The Week/Tribune India); Qatar Airways alone flew 7,600+ from Doha in 3 days; India airlifted 600+ from Iran. MEA reissued caution-advisory April 24. Structurally different from 'watch the situation' posture. Monday levels: Nifty 23,775 = systematic algo-selling activation (Branch 1 likely breaks); USD/INR ₹94.50 = RBI re-intervention trigger; Nifty 23,500 = 'blood in the streets' contrarian entry signal. INDIA STRUCTURALLY WORST-POSITIONED ON BRANCH 1, BEST-POSITIONED ON BRANCH 3.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday — BRANCH 3 CONFIRMED: BRENT GAPPED -4.6% TO $100.47 SUNDAY GLOBEX; INDIA IS THE CLEANEST BRANCH 3 BENEFICIARY. Sunday Globex/Monday Asia tape: Brent gap-down to $100.47 → India CAD pressure releases → import bill arithmetic improves immediately (every $5 Brent move = ~$8B annual import bill change) → rupee structural pressure releases → RBI managed-depreciation regime gets breathing room → FII outflow deceleration crystallises (Elara Capital Apr 24: first +$106M inflow in 7 weeks) → Nifty OMC ₹20/litre petrol + ₹100/litre diesel margin compression unwinds → broader Nifty cap-weighted rebound. Monday cash-open probabilities (Branch 3 base case ~60%): Nifty 23,897 → 24,000-24,200 area on +0.5-1.5% rebound; USD/INR ₹94.22 → ₹93.80-94.10 strengthening band; India 10Y 6.87% → 6.80-6.85% area; OMC stocks IOC/BPCL/HPCL likely +1.5-3% on diesel margin recovery. RBI ASKED OMCs TO USE CRISIS-ERA SPECIAL CREDIT FACILITIES [CONFIRMED]: per Reuters via MarketScreener India and ORF, RBI instructed state-run oil refiners (IOC, HPCL, BPCL — ~50% of India's 5.2M bpd refining) to curb spot dollar buying and use special credit facilities for dollar needs — 'crisis-era measures' in place ~2 weeks. Second confirmed RBI crisis-era measure of war (after cumulative ~$5B+ FX reserve drawdowns earlier April). GOVERNMENT FORCED CHOICE WITHIN 30 DAYS: (a) raise pump prices (politically costly); (b) absorb OMC losses via fiscal subsidy (~₹2,800 crore/week); (c) restart Iran-rupee oil track via Chabahar despite US pressure; (d) wait for ceasefire/Brent normalisation. PPAC publishing daily international crude rates = preparation for fuel-price pass-through. Indian press has correctly identified diplomatic theatre is theatre and operational story is fuel-pricing arithmetic + RBI special-credit-facility activation + INR ₹94.22.",
   "current": {
     "price": "Nifty 23,897.95 / Sensex 76,664.21 / USD-INR ₹94.22 / India 10Y 6.98% (Friday Apr 24 close; Sunday script reproduces)",
     "delta_1d": "Nifty -1.1%; Sensex -1.3%; USD/INR flat (rupee at ₹94.22); 10Y +4bps",
@@ -711,16 +711,55 @@
       ],
       "significance": "high",
       "verification": "Pending Sunday Globex resolution."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "BRANCH 3 CONFIRMED — BRENT GAPPED -4.6% TO $100.47 SUNDAY GLOBEX / MONDAY ASIA; INDIA CLEANEST BRANCH 3 BENEFICIARY [CONFIRMED]. Brent Sunday Globex gap-down to $100.47 (-4.6%) repriced the entire Branch framework into Branch 3 base case (~60% prob). Mechanism: lower crude → India CAD pressure releases (every $5 Brent move = ~$8B annual import bill change) → rupee structural pressure releases → RBI managed-depreciation regime gets breathing room → FII outflow deceleration (Elara Apr 24: +$106M first positive in 7 weeks) crystallises → Nifty OMC ₹20/L petrol + ₹100/L diesel margin compression unwinds → broader cap-weighted rebound. Monday cash-open probabilities: Nifty 23,897 → 24,000-24,200 area (+0.5-1.5%); USD/INR ₹94.22 → ₹93.80-94.10 strengthening band; India 10Y 6.87% → 6.80-6.85%; IOC/BPCL/HPCL +1.5-3% on diesel margin recovery. FII week of April 28 prints could show +$200-400M weekly inflow if Brent holds sub-$103 sustained. India structurally worst-positioned on Branch 1, best-positioned on Branch 3 — Branch 3 confirmed = stabilisation-into-entry phase active. (Sources: Sunday Globex Brent tape, Elara Capital Apr 24, scripts/market-data.py)",
+      "sources": [
+        "Sunday Globex Brent tape",
+        "Elara Capital",
+        "scripts/market-data.py",
+        "Reuters"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED Sunday Globex repricing."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "RBI INSTRUCTED OMCs TO USE CRISIS-ERA SPECIAL CREDIT FACILITIES — SECOND CONFIRMED RBI CRISIS-ERA MEASURE OF WAR [CONFIRMED]. Per Reuters via MarketScreener India and ORF expert-speak Sunday-Monday, the RBI has instructed state-run oil refiners (IOC, HPCL, BPCL — controlling ~50% of India's 5.2M bpd refining capacity) to curb spot dollar buying and use special credit facilities for their dollar needs — described as 'crisis-era measures' that have been 'in place for about two weeks' (i.e., activated ~April 13-15). This formalises what yesterday's brief framed as a 'hard arithmetic floor on India's diplomatic flexibility' into actual operational policy. Second confirmed RBI crisis-era measure of war (after cumulative ~$5B+ FX reserve drawdowns earlier April). Branch 3 Brent sub-$103 sustained 2-3 sessions = facility could be wound down (release rupee-positive flow). Government forced choice within 30 days (by 2026-05-27): (a) raise pump prices (politically costly given upcoming state elections); (b) absorb OMC losses via fiscal subsidy (~₹2,800 crore/week); (c) restart Iran-rupee oil track via Chabahar despite US blockade pressure; (d) wait for ceasefire/Brent normalisation (low-prob given Hormuz operational closure). PPAC publishing daily international crude rates — Economic Times read this as a tell that GoI is preparing public for fuel-price pass-through. Union Bank of India: 'every $10/bbl move in oil price significantly widens the current account deficit and pushes inflation higher.' (Sources: Reuters via MarketScreener India, ORF, Business Standard, Livemint Plain Facts, Economic Times, Union Bank of India)",
+      "sources": [
+        "Reuters via MarketScreener India",
+        "ORF",
+        "Business Standard",
+        "Livemint Plain Facts",
+        "Economic Times",
+        "Union Bank of India"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED Reuters + ORF expert-speak."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "INDIAN PRESS POSTURE — DIPLOMATIC THEATRE IS THEATRE; OPERATIONAL STORY IS FUEL-PRICING ARITHMETIC + RBI SPECIAL-CREDIT-FACILITY + INR ₹94.22 [OBSERVATION]. Business Standard dominated Sunday-Monday by RBI special-credit-facility OMC dollar-curb story. Livemint Plain Facts piece on every $10/bbl Brent move = ~$X-billion-CAD-widening framework. Economic Times picked up PPAC daily international crude rate publication as a tell that GoI is preparing public for fuel-price pass-through. Goodreturns/V3Cars Sunday-Monday fuel prices: petrol ₹94.77/litre Delhi, diesel ₹87.67/litre Delhi, petrol ₹103.54/litre Mumbai. Indian institutional coverage has correctly identified that the diplomatic theatre (cancellation drama, MEA statements) is theatre and the operational story is the fuel-pricing arithmetic + RBI special-credit-facility activation + INR ₹94.22. The press posture confirms institutional convergence on the same analytical anchor (fuel-pricing) as the brief's framing. (Sources: Business Standard, Livemint Plain Facts, Economic Times, Goodreturns, V3Cars)",
+      "sources": [
+        "Business Standard",
+        "Livemint Plain Facts",
+        "Economic Times",
+        "Goodreturns",
+        "V3Cars"
+      ],
+      "significance": "medium",
+      "verification": "OBSERVATION on institutional press convergence."
     }
   ],
   "edges": [
     {
       "to": "brent-crude",
       "type": "import_dependency",
-      "context": "Day 52. India imports 85-90% of crude. Brent $91.87 Friday settle (-7.6% on Araghchi declaration now invalidated by SNSC). Iranian waiver expires 05:30 IST Monday (Bessent confirmed no extension); Russian waiver expired April 11 BUT Treasury issued separate 30-day Russian waiver for India April 18 — protects Russian continuity while foreclosing Iranian. IOC 2M bbl Iranian + Reliance Iranian-to-Sikka discharged; Derya + Lenore rejected. Supply recalibration toward Iraq/UAE/Saudi/Africa is Q2-Q3 structural theme. Monday Brent +5-8% bounce expected on SNSC + kinetic broadening + MEA summons = OMC daily USD demand $250-300M becomes binding on spot rupee.",
+      "context": "Day 60 Monday. India imports 85-90% of crude. Brent gapped -4.6% to $100.47 Sunday Globex / Monday Asia = Branch 3 confirmed. Every $5 Brent move = ~$8B annual import bill change. Branch 3 Brent sub-$103 sustained 2-3 sessions = OMC RBI special-credit-facility could be wound down. India crude basket $100.41 Friday vs February $69.01. Cleanest Branch 3 BENEFICIARY among major equity markets.",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 27,
+      "last_activated": "2026-04-27",
+      "activation_count": 28,
       "weight": 10
     },
     {
@@ -735,28 +774,28 @@
     {
       "to": "inr-usd",
       "type": "trade_balance",
-      "context": "Day 51. INR strengthened -0.9% to Rs92.57 on Brent crash. Tailwind mechanical. RBI reserves ROSE +$3.825B to $700.946B for week-end Apr 10 (FIRST blockade-week print; net drawdown $27.5B from peak, NOT $31B). FPI CY2026 -Rs 1.8 lakh crore cumulative; first 10 days April -Rs 48,213 crore. Business Standard: FPIs monetizing ceasefire rally, not confirming it. Monday waiver double-door closure = material downside (-2-3% Nifty / INR to Rs93-94) if talks collapse.",
+      "context": "Day 60 Monday. Branch 3 confirmed: Brent gap-down to $100.47 → import bill arithmetic improves immediately (every $5 Brent = ~$8B annual change) → rupee structural pressure releases. USD/INR ₹94.22 Friday → expected ₹93.80-94.10 strengthening band Monday open. RBI special-credit-facility removes some OMC USD demand pressure. Cumulative April RBI dollar sales $3.6B+.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 21,
+      "last_activated": "2026-04-27",
+      "activation_count": 22,
       "weight": 10
     },
     {
       "to": "rbi",
       "type": "policy_nexus",
-      "context": "Day 51. RBI forex reserves rose $3.825B to $700.946B for week-end Apr 10 — first blockade-week print. Toolkit-ladder at 3 of 7 deployed (NDF ban + NOP caps + refiner-dollar limits April 10); non-escalation through Day 51 = RBI confidence in current posture. Brent crash provides mechanical CPI relief. June cut pathway opens if oil holds below $95 AND Monday delivers.",
+      "context": "Day 60 Monday. RBI ASKED OMCs TO USE CRISIS-ERA SPECIAL CREDIT FACILITIES [CONFIRMED Reuters via MarketScreener India]. Second confirmed RBI crisis-era measure of war (after cumulative ~$5B+ FX reserve drawdowns). Facility active ~2 weeks (since ~Apr 13-15). Branch 3 Brent sub-$103 sustained 2-3 sessions = facility could be wound down (release rupee-positive flow). Repo held 5.25% (April 8). FX reserves $700.9B.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 18,
+      "last_activated": "2026-04-27",
+      "activation_count": 19,
       "weight": 10
     },
     {
       "to": "nifty-50",
       "type": "market_impact",
-      "context": "Day 51. Nifty 24,353.55 +0.6% UNDERPERFORMED global risk-on (DAX +2.3%, S&P +1.2%). FPIs using ceasefire rally as exit window (Business Standard). FPI intraday Rs 683 cr BUY but DIIs Rs 4,721 cr SELL — the real signal. Monday triple binary: Iranian waiver, Russian waiver (expired), Islamabad uncertainty. Asymmetric risk: +0.5-1% upside if Islamabad delivers, -2-3% downside if collapses or Iranian reciprocal measures fire.",
+      "context": "Day 60 Monday. Branch 3 confirmed: Nifty 23,897 → 24,000-24,200 area on +0.5-1.5% rebound expected. OMC stocks IOC/BPCL/HPCL likely +1.5-3% on diesel margin recovery. FII deceleration (Elara Apr 24 +$106M first positive in 7 weeks) crystallises into entry phase if Brent holds sub-$103. Week of Apr 28 prints could show +$200-400M weekly FII inflow.",
       "directness": 1,
-      "last_activated": "2026-04-18",
-      "activation_count": 24,
+      "last_activated": "2026-04-27",
+      "activation_count": 25,
       "weight": 10
     },
     {
@@ -819,6 +858,18 @@
       ],
       "mechanism": "Brent spiked to $103+ on April 13 blockade, fell back to $97.98 on April 14 on Trump 'deal' claim. Oil oscillating around $100 — not sustained above for 2+ weeks since ceasefire broke the streak on April 8. Physical Dated Brent at $120+ vs futures $98 = $22 gap. Trigger remains watching.",
       "added": "2026-04-01",
+      "status": "watching"
+    },
+    {
+      "condition": "India announces fuel-price pass-through OR Iran-rupee oil track restart via Chabahar within 30 days (by 2026-05-27)",
+      "cascade": [
+        "indian-oil-marketing",
+        "inr-usd",
+        "rbi",
+        "nifty-50"
+      ],
+      "mechanism": "Government forced choice within 30 days driven by ₹100/L diesel + ₹20/L petrol OMC losses + RBI special-credit-facility constraint. Four options: (a) raise pump prices (politically costly, state elections); (b) absorb via fiscal subsidy (~₹2,800 crore/week); (c) restart Iran-rupee oil track via Chabahar despite US blockade pressure; (d) wait for ceasefire/Brent normalisation. PPAC publishing daily international crude rates = preparation tell for pass-through. Either pass-through or Chabahar restart resolves the OMC margin crisis but each has distinct second-order cascades. Pass-through = +20-30bps to headline CPI per ₹10 hike; Chabahar = US sanctions confrontation + INR-positive (rupee oil track).",
+      "added": "2026-04-27",
       "status": "watching"
     }
   ]

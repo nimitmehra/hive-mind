@@ -3,10 +3,10 @@
   "name": "Fertilizer / Urea",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday. CF -3.7% FRIDAY DE-ESCALATION PREMIUM REVERSAL SETUP ON BRANCH 1. Friday close: CF $120.93 (-3.7% 1D, -5.6% 1M, +32.7% 3M); Nutrien $71.57 (-0.9%); Linde $510.30 (+0.4%); BASF €54.32 (+0.1% 1D, +11.2% 1M); Urea Yuzhny FOB $694/mt (Apr 23) FLAT. Trump cancellation REVERSES the de-escalation premium compression that drove Friday's CF -3.7%. Per Senior Market C8: Branch 1 outcome forces CF to reprice fertilizer cascade premium back UP — Friday's -3.7% retraces partially Monday on Branch 1 print. Branch 2 holds CF $118-122 band (continued pre-earnings positioning). Branch 3 sees CF -1 to -2% additional weakness as de-escalation pricing extends. Why interesting: CF's Friday move was OPPOSITE direction to stable urea spot ($694/mt at Yuzhny FOB) — fertilizer-cascade thesis was being de-priced on diplomatic-track signals despite physical urea pricing holding. Sunday news flow re-tests this divergence — if Monday CF gaps up +2-3% on a Branch 1 print while urea spot remains stable, the cascade thesis re-prices structurally. If CF stays weak even on a Branch 1 print, the cascade falsification (alongside helium-tier-1-falsification) is durable. Linde + BASF chemical/industrial-gas rotation still intact at producer level via spot-premium capture.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday. BRANCH 3 RESOLUTION → CF DE-ESCALATION PREMIUM EXTENDS; CF Q1 MAY 6 IS BINARY. Brent gapped -4.6% to $100.47 on Sunday Globex / Monday Asia open — Branch 3 (positioning) defeats Branch 1 (structural break) and Branch 2 (theatrical band). Friday close: CF $120.93 (-3.7% 1D, -5.6% 1M, +32.7% 3M); Nutrien $71.57 (-0.9%); Linde $510.30 (+0.4%); BASF €54.32 (+0.1% 1D, +11.2% 1M); Urea Yuzhny FOB ~$692/mt FLAT. Branch 3 Monday likely sees CF -1 to -2% additional weakness as de-escalation pricing extends; BASF -0.5 to -1.5% Mon possible (Sadara-substitution premium unwinds). The DIVERGENCE between equity de-escalation pricing and stable physical urea spot ($692/mt) PERSISTS — fertilizer-cascade thesis is being de-priced on diplomatic-track signals despite physical urea holding. CF Q1 EARNINGS MAY 6 IS THE BINARY TEST of equity-vs-realized-pricing divergence: physical urea $692/mt 1Q realized pricing → CF base case Q1 reflects strong realized pricing; May 6 print could be POSITIVE SURPRISE vs the de-escalation-discounted equity. BASF +11.2% 1M reflects helium-hedge / Sadara-substitution thesis; Branch 3 partial unwind. QatarEnergy downstream urea HALTED per Carnegie/Brownfield is structural; physical supply chain unchanged 2027. Linde + BASF chemical/industrial-gas rotation still intact at producer level via spot-premium capture. Cascade architecturally diverges into TWO regimes: physical (long-term structural elevation) vs equity (Branch 3 de-priced on resolution architecture).",
   "current": {
-    "price": "CF Industries $120.93 (Friday close); Nutrien $71.57; Linde $510.30; BASF €54.32; Urea Yuzhny ~$694/mt (Apr 23)",
+    "price": "CF Industries $120.93 (Friday close); Nutrien $71.57; Linde $510.30; BASF €54.32; Urea Yuzhny ~$692/mt (Apr 23)",
     "delta_1d": "CF -3.7%; Nutrien -0.9%; Linde +0.4%; BASF +0.1%; Urea -0.1%",
     "delta_1m": "CF -5.6%; Urea +3.3%; BASF +11.2%",
     "delta_3m": "CF +32.7%; Nutrien +2.6%; Urea +60% YoY",
@@ -340,34 +340,46 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED data audit; CASCADE WEAKENING REPORTED."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "BRANCH 3 RESOLUTION → CF DE-ESCALATION PREMIUM EXTENDS; CF Q1 MAY 6 IS THE BINARY TEST OF EQUITY-VS-REALIZED-PRICING DIVERGENCE [REPORTED + STRUCTURAL]. Brent gapped -4.6% to $100.47 on Sunday Globex / Monday Asia open — Branch 3 (positioning) defeats Branch 1 (structural break) and Branch 2 (theatrical band). For fertilizer cascade equity-pricing layer: Branch 3 likely sees CF -1 to -2% additional weakness Monday as de-escalation pricing extends; BASF -0.5 to -1.5% Mon possible as Sadara-substitution premium partially unwinds. PHYSICAL urea $692/mt FLAT — divergence between equity de-escalation pricing and stable physical urea spot PERSISTS structurally. CF Q1 EARNINGS MAY 6 is the binary test: physical urea $692/mt 1Q realized pricing → CF base case Q1 reflects strong realized pricing; cumulative -17.7% LMT-style 1M drawdown has positioned CF at a level where May 6 print could deliver POSITIVE SURPRISE vs the de-escalation-discounted equity. The cascade architecture diverges into TWO regimes: physical (long-term structural elevation through 2027 — Ras Laffan 3-5yr full repair, QatarEnergy downstream urea HALTED per Carnegie/Brownfield, India Kharif 2026 import-dependence) vs equity (Branch 3 de-priced on resolution architecture). For investor: CF $120 area on Branch 3 weakness is constructive entry on the equity-vs-physical divergence; Q1 May 6 is the catalyst. BASF +11.2% 1M reflects helium-hedge / Sadara-substitution thesis; Branch 3 partial unwind likely. Linde + BASF chemical/industrial-gas rotation still intact at producer level via spot-premium capture. (Sources: Senior Market dossier C5 Branch 3; Argus FOB ME urea $692/mt; CF earnings calendar; market data Apr 27)",
+      "sources": [
+        "Senior Market dossier",
+        "Argus Media",
+        "yfinance",
+        "Quiver Quant"
+      ],
+      "significance": "high",
+      "verification": "REPORTED — Branch 3 mechanism inferred; CF Q1 May 6 print resolves equity-vs-physical divergence."
     }
   ],
   "edges": [
     {
       "to": "natural-gas-lng",
       "type": "feedstock_dependency",
-      "context": "Natural gas is primary input for nitrogen-based fertilizers. Henry Hub -14.5% 1M = US domestic fertilizer input costs falling. But global LNG (TTF) still elevated at €44.72/MWh. US producers (CF, Nutrien) benefit from cheap domestic gas + high urea prices = margin expansion at the structural level even as risk-premium re-pricing trades against the names.",
+      "context": "Day 60 Monday. Henry Hub Friday $2.69/MMBtu (+6.8%). TTF €44.86/MWh Apr 24 last (well below €70+ cascade threshold). Branch 3 likely retreats TTF to €42-44 area; Cheniere $250-255 area Mon (-1 to -2%). US producers (CF, Nutrien) margin tailwind from cheap domestic gas vs structural urea elevation; equity-vs-physical divergence persists.",
       "directness": 1,
-      "last_activated": "2026-04-25",
-      "activation_count": 10,
+      "last_activated": "2026-04-27",
+      "activation_count": 11,
       "weight": 8.5
     },
     {
       "to": "qatar",
       "type": "production_dependency_cascade_weakening",
-      "context": "Day 58 Saturday. QAFCO Mesaieed urea plant remains offline; Ras Laffan Trains 4 & 6 still 17% global LNG offline. Physical supply chain unchanged. BUT CF -3.7% Friday on diplomatic-track signals + pre-earnings positioning shows traders DE-PRICING the cascade despite physical persistence. Per markets.md F3: edge weight reduced to reflect cascade running below model severity at equity-pricing level. Structural physical thesis intact through 2027; risk-premium pricing is being de-prioritised.",
+      "context": "Day 60 Monday. QAFCO Mesaieed urea plant remains offline; QatarEnergy downstream urea HALTED per Carnegie/Brownfield; Ras Laffan Trains 4 & 6 still 17% global LNG offline (3-5yr full repair per Al-Kaabi). Physical supply chain unchanged through 2027. Branch 3 likely sees CF -1 to -2% Monday as equity-pricing de-escalation extends; physical structural thesis intact, risk-premium pricing diverges.",
       "directness": 1,
-      "last_activated": "2026-04-25",
-      "activation_count": 11,
+      "last_activated": "2026-04-27",
+      "activation_count": 12,
       "weight": 8.0
     },
     {
       "to": "india",
       "type": "import_dependency",
-      "context": "Day 58 Saturday. India imports 40%+ urea from Middle East; domestic plants at 70% capacity due to LNG cuts. Quietly approaching China. Kharif 2026 planting season at risk. CF -3.7% Friday on diplomatic-track signals reduces near-term cascade severity at the equity-pricing level. Markets.md F3 directs reducing fertilizer-urea cascade weight. Physical supply chain unchanged but risk premium de-priced.",
+      "context": "Day 60 Monday. India imports 40%+ urea from Middle East; domestic plants at 70% capacity due to LNG cuts. Branch 3 (Brent gap-down) provides modest CAD relief but does not solve the Kharif 2026 import-dependency arithmetic. Physical supply chain unchanged structurally. Equity-pricing de-priced under Branch 3; physical pricing $692/mt FLAT through 2027 risk.",
       "directness": 1,
-      "last_activated": "2026-04-25",
-      "activation_count": 10,
+      "last_activated": "2026-04-27",
+      "activation_count": 11,
       "weight": 8.5
     },
     {

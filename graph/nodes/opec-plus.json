@@ -3,8 +3,8 @@
   "name": "OPEC+",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday. NEXT OPEC+ MEETING MAY 3 — 7 DAYS OUT. SAUDI-IRAQ 'COVERT WAR' FRAMING ENTERS OPEC+ DYNAMICS. UNN/WSJ frames Saudi-Iraq bilateral as 'covert war' over Iran-backed Iraqi militia drone attacks (April 26 architecture upgrade: April 12 Saudi MoFA protest summons CONFIRMED). Iraq is OPEC member; Saudi-Iraq bilateral friction inside OPEC matters for crude supply discipline. Friday Brent close $105.33 (corrected from yesterday's $97.94 anomaly — multi-source convergence shows Friday actually closed $104-106). OPEC+'s March 206K bpd raise rendered COUNTERFACTUAL by physical-export blockage. Structural production suppression continues: OPEC overall -27% MoM, Saudi -23% MoM. IEA Director Birol April 23: 'biggest energy security threat in history' citing ~13 mbpd disrupted (Haaretz relay) — for comparison: 1973 ~5 mbpd, 1979 ~5.7 mbpd, 1990 ~4.3 mbpd. Sunday Globex Brent open is binary repricing for Trump cancellation: Branch 1 (above $108) tests Goldman Q2 forecast revision UP; Branch 2 holds; Branch 3 below $103 keeps Goldman $90/bbl Q2 forecast intact. May 3 OPEC+ meeting falls inside 7-day window — Saudi-Iraq tension and Sunday-Globex repricing both feed into supply-discipline calculus.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday. JUNE OPEC+ MINISTERIAL — PRODUCTION UNWIND SPECULATION ACCELERATES UNDER BRANCH 3. Brent gapped -4.6% to $100.47 on Sunday Globex / Monday Asia open — Branch 3 (positioning) defeats Branch 1 (structural break) and Branch 2 (theatrical band). Crisis premium $35 → $30 = re-rating of TIME-EXTENSION risk, not LEVEL risk. Aramco May Official Selling Price set at +$19.50/bbl premium over Oman/Dubai (Apr 6) — RECORD HIGH, but Bloomberg refiner survey expected $40+ premium given physical pricing reality. Aramco 'left $20.50 on the table' = pricing restraint signaling Aramco is preparing for Hormuz partial reopening / quicker resolution architecture, not extending crisis. Saudi-Iraq 'covert war' framing (UNN/WSJ April 26) over Iran-backed Iraqi militia drone attacks remains active inside OPEC. Iraq + Saudi bilateral friction inside OPEC matters for crude supply discipline at June ministerial. Structural production suppression: OPEC overall -27% MoM (28.7 → 20.8 mbpd), Saudi -23% MoM (10.1 → 7.8 mbpd). IEA Director Birol April 23 'biggest energy security threat in history' (~13 mbpd disrupted) — for comparison 1973 ~5 mbpd, 1979 ~5.7 mbpd, 1990 ~4.3 mbpd. Branch 3 environment likely accelerates June production-unwind speculation: under Russia-mediated 4-8 week resolution architecture, OPEC+ pre-positioning to flood markets becomes operational planning rather than rhetorical commitment. Goldman $90/bbl Q2 forecast intact under Branch 3 architecture; the post-resolution unwind path could test $80-85 within 2 weeks of confirmed Hormuz reopening as the 206K bpd May increase becomes physical.",
   "signals": [
     {
       "date": "2026-03-01",
@@ -138,38 +138,65 @@
         "CNBC OPEC+ March production update"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-27",
+      "content": "BRANCH 3 RESOLUTION → JUNE MINISTERIAL PRODUCTION-UNWIND SPECULATION ACCELERATES; ARAMCO MAY OSP +$19.50/BBL PREMIUM SIGNALS PRICING RESTRAINT [CONFIRMED + REPORTED]. Brent gapped -4.6% to $100.47 on Sunday Globex / Monday Asia open — Branch 3 (positioning) defeats Branch 1 (structural break) and Branch 2 (theatrical band). Crisis premium compressed $35 → $30 = re-rating of TIME-EXTENSION risk, not LEVEL risk. Aramco May Official Selling Price set at +$19.50/bbl premium over Oman/Dubai (Apr 6 announcement) — RECORD HIGH absolute level, but Bloomberg refiner survey had expected $40+ premium given physical pricing reality. Aramco 'left $20.50 on the table' = explicit pricing restraint signal. Mechanism: Aramco preparing for Hormuz partial reopening / quicker resolution architecture rather than extending crisis premium. Branch 3 environment makes the June OPEC+ ministerial meeting structurally consequential — under Russia-mediated 4-8 week resolution architecture (Putin-Araghchi diplomatic channel confirmed Saturday April 25), OPEC+ pre-positioning to flood markets becomes operational planning rather than rhetorical commitment. Goldman $90/bbl Q2 forecast intact under Branch 3 architecture; post-resolution unwind path could test $80-85 within 2 weeks of confirmed Hormuz reopening as the 206K bpd May increase becomes physical. Saudi-Iraq 'covert war' framing (April 12 MoFA summons + UNN/WSJ April 26) over Iran-backed Iraqi militia drone attacks remains active inside OPEC; Iraq + Saudi bilateral friction matters for crude supply discipline at June ministerial. (Sources: Aramco May OSP release Apr 6; Bloomberg refiner survey; Senior Market dossier C5 Branch 3; UNN/WSJ Saudi-Iraq covert-war framing)",
+      "sources": [
+        "Aramco",
+        "Bloomberg",
+        "Senior Market dossier",
+        "UNN",
+        "WSJ"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED Aramco OSP + structural production data; June ministerial dynamics REPORTED."
     }
   ],
   "edges": [
     {
       "to": "brent-crude",
       "type": "supply_management",
-      "context": "OPEC+ controls ~40% of global oil production. 206K bpd increase for April but most barrels stranded behind Hormuz. Production increases meaningless without export routes. April 5 meeting decides May levels.",
+      "context": "Day 60 Monday. Branch 3 → June ministerial production-unwind speculation accelerates. Aramco May OSP +$19.50/bbl premium = pricing restraint signaling Aramco preparing for quicker resolution. Goldman $90/bbl Q2 forecast intact; post-resolution unwind could test $80-85 within 2 weeks of confirmed Hormuz reopening. 206K bpd May increase becomes physical under Branch 3 architecture.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 6,
+      "last_activated": "2026-04-27",
+      "activation_count": 7,
       "weight": 10
     },
     {
       "to": "saudi-arabia",
       "type": "leader",
-      "context": "Saudi is de facto leader with significant spare capacity (3-5M bpd). Yanbu bypass at 4.2M bpd is only functioning Gulf export route but now overwhelmed — ~40 VLCCs waiting 5 days. Saudi benefits from high prices but Yanbu capacity is bottleneck.",
+      "context": "Day 60 Monday. Aramco May OSP +$19.50/bbl premium = pricing restraint. Saudi -23% MoM (10.1 → 7.8 mbpd). Yanbu bypass at 4.2M bpd capacity. Saudi-Iraq 'covert war' framing inside OPEC active. Branch 3 makes Saudi pricing restraint operational — preparing for Hormuz partial reopening / June ministerial unwind.",
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 6,
+      "last_activated": "2026-04-27",
+      "activation_count": 7,
       "weight": 10
     },
     {
       "to": "strait-of-hormuz",
       "type": "export_dependency",
-      "context": "Most OPEC Gulf production depends on Hormuz for export. Hormuz toll law passed Majlis — permanent selective control being legislated. Iraq and Kuwait involuntarily shutting production. Production increases moot while Hormuz disrupted.",
+      "context": "Day 60 Monday. Hormuz still functionally closed; war-risk insurance still $10-14M/voyage; Sadara JV still shut. Branch 3 paper Brent decoupling from physical operational reality continues. 206K bpd May increase becomes physical only on confirmed Hormuz reopening.",
       "directness": 1,
-      "last_activated": "2026-04-07",
-      "activation_count": 6,
+      "last_activated": "2026-04-27",
+      "activation_count": 7,
       "weight": 10
     }
   ],
-  "trigger_points": [],
+  "trigger_points": [
+    {
+      "condition": "OPEC+ June ministerial announces production unwind",
+      "cascade": [
+        "brent-crude",
+        "saudi-arabia",
+        "russia",
+        "fed",
+        "us-10y-yield"
+      ],
+      "mechanism": "Under Branch 3 architecture (Russia-mediated 4-8 week resolution; Brent gap -4.6% to $100.47 Apr 27), the June OPEC+ ministerial meeting becomes the operational forum for production-unwind decisions. Aramco May OSP +$19.50/bbl premium (vs Bloomberg refiner survey expected $40+) signals pricing restraint and Aramco preparation for Hormuz partial reopening. A formal OPEC+ June announcement of production-unwind activation (extending the 206K bpd May increase, OR a larger Saudi/Russia coordinated supply commitment) would: (a) accelerate Brent path to $80-85 within 2 weeks; (b) compress US 10Y inflation expectations; (c) free Fed for June dovish-pivot; (d) reverse the energy-crisis-hedge complex (Cheniere, Frontline, BASF) further. Falsifiable: OPEC+ June ministerial communiqué text. Watching: Saudi-Iraq friction inside OPEC could complicate the unwind announcement; Russia-Saudi alignment under Russia-mediated architecture is the supportive factor.",
+      "added": "2026-04-27",
+      "status": "watching"
+    }
+  ],
   "current": {
     "may_increase": "206K bpd (paper, becoming physical with ceasefire)",
     "saudi_position": "needs higher revenue post-Sadara damage",

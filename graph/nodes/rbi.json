@@ -3,8 +3,8 @@
   "name": "Reserve Bank of India",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday — ₹94.50 MONDAY WATCHPOINT IS THE RE-INTERVENTION BINARY. Friday close USD/INR ₹94.22 (Sunday script reproduces). RBI April 21 reversed April 1 NDF curbs (Bloomberg); cumulative April dollar sales ~$3.6B. FX reserves ~$700.9B (April 10 print). Repo rate 5.25% (April 8 statement). Management regime ~25-30 paise/day controlled depreciation. RBI Bulletin April 23 'West Asia crisis: supply woes could trigger demand shock' — first institutional framing of crisis as STAGFLATION. Branch 1 outcome (Brent above $108) likely breaks ₹94.50 → reactivates RBI curbs; Branch 2 holds ₹94.20-94.40; Branch 3 sees rupee strengthen toward ₹93.80. Indian fuel-pricing structural deterioration (₹100/L diesel loss for OMCs) means Brent at $105+ binding on RBI's room to maneuver — every additional week of $105+ Brent adds ~₹2,800 crore to OMC subsidy burden, compounding pressure on rupee and policy space. India 10Y 6.98% (+4bps Apr 24) yields rising despite US 10Y -0.3% = purely India-specific stress; Branch 1 tests 7.05-7.10% area. FII deceleration (+$106M Friday) suggests crisis-driven selling exhausting; Branch 2/3 crystallises into entry phase; Branch 1 reopens outflow regime.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday — RBI INSTRUCTED OMCs TO USE CRISIS-ERA SPECIAL CREDIT FACILITIES; SECOND CONFIRMED CRISIS-ERA MEASURE OF WAR [CONFIRMED Reuters via MarketScreener India + ORF]. RBI instructed state-run oil refiners (IOC, HPCL, BPCL — ~50% of India's 5.2M bpd refining) to curb spot dollar buying and use special credit facilities for dollar needs — described as 'crisis-era measures' in place ~2 weeks (activated ~Apr 13-15). Formalises the 'hard arithmetic floor' on India's diplomatic flexibility into operational policy. Second confirmed RBI crisis-era measure of war (after cumulative ~$5B+ FX reserve drawdowns earlier April). RBI regulatory state timeline: April 21 reversed April 1 NDF curbs (Bloomberg); ~April 13-15 OMC special-credit-facility activated; cumulative April $3.6B+ dollar sales for managed depreciation; repo rate held 5.25% (April 8). Branch 3 confirmed: Brent gapped -4.6% to $100.47 Sunday Globex → managed-depreciation regime gets breathing room. Branch 3 Brent sub-$103 sustained 2-3 sessions = OMC special-credit-facility could be wound down (release rupee-positive flow). USD/INR ₹94.22 Friday → ₹93.80-94.10 expected Monday band. India 10Y 6.87% → 6.80-6.85% area. FII deceleration (+$106M Friday Elara, first positive in 7 weeks) crystallises into entry phase. Management regime ~25-30 paise/day controlled depreciation. FX reserves ~$700.9B (Apr 10 print). The RBI policy posture has shifted from 'managed depreciation' to 'managed depreciation with active OMC dollar-rationing' — a meaningful escalation in the toolkit while maintaining the public posture of orderly markets.",
   "signals": [
     {
       "date": "2026-03-04",
@@ -371,44 +371,77 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED policy signalling + market data."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "RBI ASKED OMCs TO USE CRISIS-ERA SPECIAL CREDIT FACILITIES — SECOND CONFIRMED CRISIS-ERA MEASURE OF WAR [CONFIRMED Reuters via MarketScreener India + ORF Sunday-Monday]. RBI instructed state-run oil refiners (IOC, HPCL, BPCL — controlling ~50% of India's 5.2M bpd refining capacity) to curb spot dollar buying and use special credit facilities for their dollar needs. Described as 'crisis-era measures' in place 'for about two weeks' (activated ~April 13-15). This formalises into operational policy what yesterday's brief framed as a 'hard arithmetic floor' on India's diplomatic flexibility. Mechanism: OMCs were sourcing ~$250-300M/day in spot USD demand to fund ~5M bpd of crude imports at $100+ Brent — that flow now routed through RBI-administered credit windows rather than the open spot market = direct relief on rupee bid-side pressure. Second confirmed RBI crisis-era measure of war (after cumulative ~$5B+ FX reserve drawdowns earlier April). The RBI regulatory state has therefore shifted from 'managed depreciation' to 'managed depreciation with active OMC dollar-rationing' — a meaningful escalation in the toolkit while maintaining the public posture of orderly markets. Branch 3 Brent sub-$103 sustained 2-3 sessions = facility could be wound down (release rupee-positive flow as OMCs return to spot market with reduced dollar demand). (Sources: Reuters via MarketScreener India, ORF expert-speak, Business Standard, Livemint Plain Facts)",
+      "sources": [
+        "Reuters via MarketScreener India",
+        "ORF",
+        "Business Standard",
+        "Livemint Plain Facts"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED Reuters + ORF expert-speak."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "RBI REGULATORY STATE TIMELINE — CRISIS-ERA TOOLKIT NOW MULTI-LAYERED [SUMMARY]. Comprehensive timeline of RBI crisis-era posture: (1) March 27 NOP cap $100M/bank — failed within 4 hours of deployment; (2) April 1 NDF curbs (resident/NRI offer ban); (3) April 8 MPC: repo held 5.25%; FY27 CPI 4.6%, GDP 6.9%; Malhotra 'curbs temporary'; (4) April 10 NOP cap deadline passed, $30B+ unwound; (5) ~April 13-15 OMC SPECIAL-CREDIT-FACILITY ACTIVATED (CONFIRMED Apr 27); (6) April 21 NDF curbs reversed (Bloomberg); (7) Cumulative April $3.6B+ dollar sales for managed depreciation; (8) FX reserves $700.9B (Apr 10 print, +$3.825B WoW). The OMC special-credit-facility is the SECOND confirmed crisis-era measure still active (after spot-market intervention) — escalation ladder is currently at 4 of 7 deployed (NOP cap deactivated, NDF curbs reversed, OMC facility live, dollar sales ongoing). Branch 3 Brent sub-$103 sustained = OMC facility wind-down likely. Branch 1 break ₹94.50 = onshore forward ceiling or special dollar-swap window deployment likely. (Sources: aggregated RBI policy timeline)",
+      "sources": [
+        "Reuters via MarketScreener India",
+        "Bloomberg",
+        "Business Standard",
+        "RBI weekly statistical supplement"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED timeline aggregation."
     }
   ],
   "edges": [
     {
       "to": "india",
       "type": "monetary_policy",
-      "context": "March CPI 3.40% below consensus, within comfort band. But imported inflation 6.49% (43% of CPI) = crisis cost channel dominant. FY27 4.6% projection conservative with blockade. NOP cap compliance done. June cut pathway ambiguous — oil direction decides.",
+      "context": "Day 60 Monday. RBI ASKED OMCs TO USE CRISIS-ERA SPECIAL CREDIT FACILITIES [CONFIRMED Reuters via MarketScreener India + ORF]. Second confirmed RBI crisis-era measure of war. Active ~2 weeks (since ~Apr 13-15). Government forced choice within 30 days on fuel pricing. Branch 3 Brent sub-$103 sustained 2-3 sessions = facility wind-down likely. Repo held 5.25%; FY27 CPI 4.6%; GDP 6.9%.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 16,
+      "last_activated": "2026-04-27",
+      "activation_count": 17,
       "weight": 10
     },
     {
       "to": "inr-usd",
       "type": "intervention",
-      "context": "NOP cap compliance complete per Malhotra. INR at Rs93.28 (offshore). Forex reserves below $700B. Approached 93.50 trigger April 13 (93.39), retreated on oil relief. Rs100/USD scenario now 'credible' per analysts.",
+      "context": "Day 60 Monday. RBI special-credit-facility for OMCs removes ~$250-300M/day OMC spot USD demand from open market. Cumulative April dollar sales $3.6B+. Branch 3 Brent gap-down to $100.47 → managed-depreciation regime gets breathing room. USD/INR ₹94.22 → expected ₹93.80-94.10 Monday band. Break of ₹94.50 cleanly = renewed curbs per Bloomberg flagging (not Branch 3 base case).",
       "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 22,
+      "last_activated": "2026-04-27",
+      "activation_count": 23,
       "weight": 10
     },
     {
       "to": "nifty-50",
       "type": "rate_expectations",
-      "context": "CPI 3.40% below consensus keeps June cut alive if oil cooperates. Bank Nifty 55,605 most leveraged to rate outcome. But Fed hike probability >50% and imported inflation 6.49% rising = external and domestic constraints on cutting.",
+      "context": "Day 60 Monday. Branch 3 Brent gap-down to $100.47 → CPI relief → June cut pathway preserved. India 10Y 6.87% → 6.80-6.85% expected Monday. OMC RBI special-credit-facility = Bank Nifty PSU exposure to OMC credit improved. Bank Nifty likely +0.5-1.5% on Branch 3 confirmation.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 11,
+      "last_activated": "2026-04-27",
+      "activation_count": 12,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "policy_constraint",
-      "context": "Brent at $97.98 — back below $100 after blockade spike. FY27 CPI 4.6% looks conservative given imported inflation 6.49% and oil oscillating around $100. Every Rs 10 fuel hike = 20-30bps CPI. Shell +Rs 25 diesel already passed through.",
+      "context": "Day 60 Monday. Brent gapped -4.6% to $100.47 Sunday Globex. Branch 3 sub-$103 sustained 2-3 sessions = OMC special-credit-facility wind-down likely. Every $10 Brent move significantly widens CAD per Union Bank of India. FY27 CPI 4.6% looks conservative if Brent stays ~$100; Branch 3 hold = projection on track.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 14,
+      "last_activated": "2026-04-27",
+      "activation_count": 15,
       "weight": 10
+    },
+    {
+      "to": "indian-oil-marketing",
+      "type": "dollar_rationing",
+      "context": "Day 60 Monday. RBI special-credit-facility for OMCs CONFIRMED active ~2 weeks. IOC/HPCL/BPCL controlling ~50% of India's 5.2M bpd refining now routed through RBI-administered credit windows rather than spot USD market. Branch 3 sub-$103 sustained = facility wind-down likely.",
+      "directness": 1,
+      "last_activated": "2026-04-27",
+      "activation_count": 1,
+      "weight": 9.0
     }
   ],
   "trigger_points": [
@@ -432,6 +465,17 @@
       ],
       "mechanism": "FURTHER AWAY — MPC held 5.25% with most dovish forward guidance since Malhotra became Governor. June 25bps CUT is now base case if oil stays below $100. Ram Singh dissented toward accommodative, not hawkish. Hike scenario effectively off the table unless oil spikes back above $110+ AND ceasefire collapses.",
       "added": "2026-04-02",
+      "status": "watching"
+    },
+    {
+      "condition": "RBI winds down OMC special-credit-facility on Branch 3 Brent sub-$103 sustained 2-3 sessions",
+      "cascade": [
+        "indian-oil-marketing",
+        "inr-usd",
+        "india"
+      ],
+      "mechanism": "OMC special-credit-facility activated ~Apr 13-15 was a defensive measure when Brent at $105+ + OMC daily USD demand $250-300M was binding on spot rupee. Branch 3 Brent gap-down to $100.47 confirmed Sunday Globex; 2-3 sustained sessions sub-$103 = CAD pressure releases sufficiently for RBI to wind down the facility. Wind-down releases rupee-positive flow as OMCs return to spot market with reduced dollar demand. Confirmation signal: Reuters/Bloomberg/Business Standard report on RBI rolling back the OMC dollar curb specifically (distinct from broader curbs Bloomberg April 20 already flagged easing on).",
+      "added": "2026-04-27",
       "status": "watching"
     }
   ]

@@ -3,8 +3,8 @@
   "name": "Pakistan",
   "type": "country",
   "created": "2026-03-30",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday. PAKISTAN STAYS IN THE GAME DESPITE TRUMP CANCELLATION + ARAGHCHI DEPARTURE — PEZESHKIAN-SHARIF SUNDAY 45-MINUTE CALL OPERATIONALIZES CIVILIAN-TO-CIVILIAN TRACK. Trump cancelled the Witkoff-Kushner Islamabad dispatch Saturday afternoon EDT after Araghchi departed Pakistan for Oman; Pakistan's mediator role has not collapsed — Dawn frames Pakistan as 'continuing peace efforts,' Pezeshkian-Sharif Sunday call reaffirms Pakistan's mediation role even though no US-side principal is in-theatre. The 45-minute call: Pezeshkian publicly hailed Munir's Tehran visit and restated 'will not enter into imposed/forced negotiations' precondition. Pakistan now operates as one leg of a multi-mediator architecture (Pakistan + Oman + Russia per Araghchi tour), explicitly NOT centered on direct US contact. UAE's mediator-credibility competition with Pakistan is decidedly lost — The National (Abu Dhabi) is quiet; Saudi MoFA acting through diplomatic-protocol channels rather than public messaging. Pakistan's structural challenge sharpened: Vahidi has the kinetic; Pezeshkian/Araghchi have the international megaphone but cannot deliver Iran in unified form within Trump's now-expired patience window. The next-stage architecture: Araghchi expected to return to Islamabad after Oman per IRNA, with Iranian delegation already returned to Tehran for 'consultation on issues related to ending the war.'",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday. PAKISTAN FIRST-AMONG-EQUALS IN PAKISTAN + OMAN + RUSSIA MEDIATOR ARCHITECTURE; MUNIR-SHARIF RELAY CONTINUES POST-TRUMP-WINDOW EXPIRY. Trump's 3-5 day patience window expired Sunday April 26 23:59 IST without unified Iranian proposal AND without strike — Pakistan-mediator track persists despite Trump cancellation of Witkoff-Kushner dispatch Saturday EDT. WH Press Sec Leavitt formally removed deadline architecture Monday: 'the timeline will be dictated by the commander in chief.' Pezeshkian-Sharif Sunday 45-minute phone call (Pezeshkian publicly hailed Munir's Tehran visit, restated 'will not enter into imposed/forced negotiations' precondition) operationalized civilian-to-civilian channel. Pakistan now first-among-equals in multi-mediator architecture (Pakistan + Oman + Russia) — Putin-Araghchi Kremlin meeting Monday April 27 with Lavrov in attendance is FIRST Putin-Iranian-FM meeting since 2026 war started, formalizing Russia-as-potential-uranium-custodian role (bridge solving Trump's 'physical removal' precondition + Iran's 'uranium does not leave country' precondition). No US-side principal in-theatre after Trump cancellation; Pakistan retains diplomatic-protocol channel without operational venue role. Pakistan's structural challenge unchanged: Vahidi has kinetic; Pezeshkian aligned with Vahidi-camp posture (rupture story busted) — civilian-to-civilian track operates within consolidated Iranian factional architecture rather than against it.",
   "signals": [
     {
       "date": "2026-03-26",
@@ -352,26 +352,41 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED 45-minute call + multi-source relay."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "DAY 60 MONDAY — PAKISTAN FIRST-AMONG-EQUALS IN PAKISTAN + OMAN + RUSSIA ARCHITECTURE; PUTIN-ARAGHCHI KREMLIN MEETING ADDS RUSSIA-CUSTODIAN LANE [CONFIRMED action; REPORTED on substantive proposal]. Trump's 3-5 day window expired Sunday April 26 23:59 IST without unified Iranian proposal AND without strike. WH Press Sec Leavitt Monday formally removed deadline architecture: 'the timeline will be dictated by the commander in chief.' Pakistan-mediator track persists post-Trump-cancellation through civilian-to-civilian channel; Munir-Sharif relay continues. Pakistan now first-among-equals in multi-mediator architecture (Pakistan + Oman + Russia per Araghchi tour). Putin-Araghchi Kremlin meeting Monday April 27 with Lavrov in attendance is FIRST Putin-Iranian-FM meeting since 2026 war started — Russia formally enters diplomatic architecture as potential nuclear-material custodian (bridge solving Trump's 'physical removal' Reuters quote + Iran's 'uranium does not leave country' Pezeshkian-line precondition). No US-side principal in-theatre. Pakistan structurally retains diplomatic-protocol channel + Iran-acceptable mediator role; UAE quiet; Saudi MoFA continues via diplomatic-protocol channels.",
+      "sources": [
+        "Dawn",
+        "Press TV",
+        "Kremlin readout",
+        "TASS",
+        "Pakistan Today",
+        "Reuters (Trump 'nuclear dust')",
+        "WH Leavitt remarks Monday"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED window expiry + Leavitt remarks + Putin-Araghchi meeting."
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "mediation_channel",
-      "context": "Day 59 Sunday. Pezeshkian-Sharif 45-minute Sunday call: Iran's civilian president publicly endorsed Munir's Tehran visit AND restated 'imposed/forced negotiations' precondition. Pakistan now operates as one leg of multi-mediator architecture (Pakistan + Oman + Russia per Araghchi tour). Iran's continued public commitment to Pakistan-mediation track even after the dispatch was cancelled is the operational confirmation that Pakistan retains its Iran-acceptable channel role.",
+      "context": "Day 60 Monday. Pakistan first-among-equals in Pakistan + Oman + Russia multi-mediator architecture post Trump-window-expiry. Munir-Sharif relay continues post-Trump-cancellation. Pezeshkian-Sharif Sunday 45-min phone call operationalized head-of-state precondition. Iran's continued public commitment to Pakistan-mediation track operational confirmation that Pakistan retains Iran-acceptable channel role.",
       "directness": 1,
-      "last_activated": "2026-04-26",
-      "activation_count": 18,
+      "last_activated": "2026-04-27",
+      "activation_count": 19,
       "weight": 10
     },
     {
       "to": "united-states",
       "type": "mediation_channel",
-      "context": "Day 59 Sunday. Trump cancelled Witkoff-Kushner Islamabad dispatch Saturday afternoon EDT. Pakistan's 'strike-suspension broker' role per Trump April 22 attribution is structurally weaker than 24 hours ago: no US-side principal in-theatre, phone-only-if-they-call-us reverts. Pakistan retains diplomatic-protocol channel but has been displaced from the operational venue role.",
+      "context": "Day 60 Monday. Trump's 3-5 day window expired Sunday without strike; WH Leavitt Monday: 'the timeline will be dictated by the commander in chief.' Pakistan retains diplomatic-protocol channel but no US-side principal in-theatre after Trump cancellation. The 'strike-suspension broker' role attributed to Munir-Sharif by Trump April 22 Truth Social is structurally weaker without a deliverable Iranian unified proposal.",
       "directness": 1,
-      "last_activated": "2026-04-26",
-      "activation_count": 17,
-      "weight": 9.5
+      "last_activated": "2026-04-27",
+      "activation_count": 18,
+      "weight": 9.0
     },
     {
       "to": "saudi-arabia",

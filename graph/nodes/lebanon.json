@@ -3,8 +3,8 @@
   "name": "Lebanon",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday. CEASEFIRE DAY 2 OF POST-EXTENSION KINETIC: IDF STRIKES 4+ SUNDAY LOCATIONS, '15+ TERRORISTS ELIMINATED.' The 3-week political extension to ~May 14 holds in legal architecture, but the operational kinetic is in its second consecutive day of multi-location strikes. Lebanon's state-run National News Agency reported Sunday April 26 a series of new Israeli strikes in at least four different locations: a pair of strikes in quick succession in a town in Bint Jbeil district; another strike on a town in Tyre district; and strikes on two towns in Nabatieh district. The IDF stated it had 'struck Hezbollah terrorist infrastructure used for military purposes across southern Lebanon' and would 'continue to operate decisively against threats.' The IDF said it had 'eliminated more than 15 terrorists in southern Lebanon,' including three driving a vehicle 'loaded with weapons.' Cumulative Lebanese casualties since March 2 stood at 2,491 killed / 7,719 wounded as of Saturday; Sunday Health Ministry update pending. Times of Israel separately reported Saturday IDF investigation of footage showing soldiers 'damaging solar panels in southern Lebanon town' — discipline issue alongside the kinetic. Hezbollah lawmaker Ali Fayyad's Saturday line — 'meaningless in light of Israel's insistence on hostile acts' — operationally substantiated for second consecutive day. Netanyahu's 'could turn on a dime' Monday cabinet quote remains the operative Israeli framing. The political track buys diplomatic optics; the casualty data confirms the substantive dispute is unchanged. A third consecutive day of multi-location strikes Monday would formally break the political ceasefire substrate even if the May 14 deadline holds legally.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday. SUBSTANTIVE CEASEFIRE COLLAPSED — HEZBOLLAH KILLED IDF SGT. FOOKS, IDF KILLED 14 LEBANESE IN RETALIATION. Sunday April 26 morning, Hezbollah explosive drone attack killed Sgt. Idan Fooks (19, 7th Armored Brigade's 77th Battalion) in southern Lebanon — first IDF-soldier death by direct Hezbollah attack since the November ceasefire. One officer + three troops seriously wounded. IDF responded Sunday afternoon with airstrikes and artillery shelling north of the Israeli-declared security zone, killing 14 and wounding 37 (Lebanese Health Ministry). Cumulative Lebanese casualties since March 2: 2,505+ killed, 7,756+ wounded. Israel's Home Front Command issued gathering restrictions in northern border towns from Sunday 22:30 to Monday April 27 20:00 IDT — first time gathering restrictions formally imposed since November ceasefire, itself an operational signal of expected Hezbollah escalation Monday. Trump-brokered ceasefire extension (~May 14) holds in legal architecture, but the substantive ceasefire has collapsed: lethal Hezbollah-on-IDF retaliation is the qualitative threshold the November architecture was meant to suppress, and Sunday breached it. Yesterday's 'third consecutive day of multi-location strikes Monday formally breaks ceasefire substrate' trigger has been operationally pre-empted by Sunday's lethal escalation, which is operationally more severe than the trigger anticipated. The political track is buying diplomatic optics; the substantive trajectory is to full re-escalation absent immediate US-brokered restraint on both sides.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -410,35 +410,50 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED Sunday IDF strikes (4+ locations) + IDF '15+ terrorists eliminated' statement."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "SUBSTANTIVE CEASEFIRE COLLAPSED: HEZBOLLAH LETHAL DRONE KILLED IDF SGT. FOOKS; IDF RETALIATION KILLED 14 LEBANESE [CONFIRMED ACTION]. Hezbollah explosive drone attack Sunday April 26 morning killed Sgt. Idan Fooks (19, 7th Armored Brigade's 77th Battalion, from Petah Tikva) in southern Lebanon — first IDF-soldier death by direct Hezbollah attack since the November ceasefire. One officer + three troops seriously wounded; one moderate, one light. Hezbollah confirmed responsibility, framed as response to 'enemy's persistent violations of the cease-fire.' IDF responded Sunday afternoon with airstrikes and artillery shelling north of Israeli-declared security zone — Lebanese Health Ministry confirms 14 killed, 37 wounded. Cumulative Lebanese casualties since March 2 now 2,505+ killed / 7,756+ wounded. Netanyahu accused Hezbollah of 'repeatedly violating the truce' and 'vowed to act forcefully in response.' Israel's Home Front Command issued gathering restrictions in northern border towns from Sunday 22:30 to Monday April 27 20:00 IDT — first time gathering restrictions formally imposed since November ceasefire, itself an operational signal of expected Hezbollah escalation Monday. The November ceasefire architecture was specifically designed to suppress lethal Hezbollah-on-IDF kinetic; that threshold was breached Sunday. Trump-brokered ceasefire extension running through May 14 holds in legal architecture but the substantive ceasefire is collapsed. (Sources: Times of Israel, Haaretz, Jerusalem Post, Israel Hayom, JNS, Lebanese National News Agency, Hezbollah official statement)",
+      "sources": [
+        "Times of Israel",
+        "Haaretz",
+        "Jerusalem Post",
+        "Israel Hayom",
+        "JNS",
+        "Lebanese National News Agency",
+        "Hezbollah official statement"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED ACTION (multi-source IDF + Hezbollah claim + Lebanese Health Ministry)."
     }
   ],
   "edges": [
     {
       "to": "hezbollah",
-      "type": "ceasefire_extended_with_kinetic_residual",
-      "context": "Day 59 Sunday. Day 2 post-extension IDF kinetic (Bint Jbeil, Tyre, Nabatieh districts; 15+ 'terrorists eliminated' per IDF). Hezbollah has not yet publicly claimed Sunday retaliation as of 08:30 IST. Pattern of legal-extension-with-kinetic-continuation now operationally durable.",
+      "type": "ceasefire_substantively_collapsed",
+      "context": "Day 60 Monday. Hezbollah lethal drone strike killed IDF Sgt. Fooks Sunday — first lethal Hezbollah-on-IDF kinetic of post-extension period. Hezbollah confirmed responsibility framed as response to ceasefire violations. The November-architecture's qualitative threshold (no lethal direct Hezbollah-on-IDF) was breached Sunday. Pattern of legal-extension-with-kinetic-continuation crossed into legal-extension-with-substantive-collapse.",
       "directness": 1,
-      "last_activated": "2026-04-26",
-      "activation_count": 28,
+      "last_activated": "2026-04-27",
+      "activation_count": 29,
       "weight": 10
     },
     {
       "to": "israel",
-      "type": "invasion_extended_ceasefire",
-      "context": "Day 59 Sunday. IDF Sunday strikes in Bint Jbeil + Tyre + Nabatieh districts; '15+ terrorists eliminated' per IDF including 3 in vehicle 'loaded with weapons.' Second consecutive day of multi-location strikes since the political extension. Times of Israel reports IDF investigating soldier discipline (solar panel damage) — kinetic + discipline issue compound the May 14 deadline integrity question.",
+      "type": "ceasefire_substantively_collapsed",
+      "context": "Day 60 Monday. IDF retaliation airstrikes/artillery Sunday afternoon killed 14, wounded 37 in southern Lebanon (Lebanese Health Ministry). Netanyahu 'vowed to act forcefully.' Home Front Command gathering restrictions in northern border towns through Monday April 27 20:00 IDT — first time since November ceasefire. May 14 legal extension is intact but kinetic posture is restored to active-combat mode.",
       "directness": 1,
-      "last_activated": "2026-04-26",
-      "activation_count": 30,
+      "last_activated": "2026-04-27",
+      "activation_count": 31,
       "weight": 10
     },
     {
       "to": "united-states",
       "type": "diplomatic_mediator",
-      "context": "Day 59 Sunday. Trump 3-week political extension to ~May 14 holds in legal architecture; US-mediated Round 3 not yet scheduled. Lebanon track is politically de-risked but kinetically eroding. US silence on Sunday Lebanon strikes consistent with Trump's 'low key' instruction to Netanyahu (April 11 Haaretz/Times of Israel) — US does not publicly call out IDF kinetic during ceasefire-window.",
+      "context": "Day 60 Monday. Trump's 3-week political extension to ~May 14 is legally intact but the substantive ceasefire collapsed Sunday with Hezbollah killing of Sgt. Fooks. US-mediated Round 3 not yet scheduled. Trump's 'low key' instruction to Netanyahu (April 11) is operationally void post-Fooks. US silence Sunday-Monday on the lethal escalation is itself the position — Washington reading Lebanon as kinetic-quiet zone unlikely to drag Iran-track.",
       "directness": 1,
-      "last_activated": "2026-04-26",
-      "activation_count": 4,
-      "weight": 8.2
+      "last_activated": "2026-04-27",
+      "activation_count": 5,
+      "weight": 8.5
     }
   ],
   "trigger_points": [
@@ -464,8 +479,22 @@
         "united-states",
         "trump"
       ],
-      "mechanism": "Saturday + Sunday have produced two consecutive days of multi-location IDF strikes in southern Lebanon despite the 3-week political extension. A third consecutive day Monday April 27 would mark the post-extension kinetic as a durable pattern, not a discrete event. Hezbollah's 'right to retaliate' would be operationally substantiated; political-track legitimacy compromised even though May 14 legal deadline holds. Falsifiable: Monday April 27 23:59 IST. | ADDED 2026-04-26 at watching.",
+      "mechanism": "Saturday + Sunday have produced two consecutive days of multi-location IDF strikes in southern Lebanon despite the 3-week political extension. A third consecutive day Monday April 27 would mark the post-extension kinetic as a durable pattern, not a discrete event. Hezbollah's 'right to retaliate' would be operationally substantiated; political-track legitimacy compromised even though May 14 legal deadline holds. Falsifiable: Monday April 27 23:59 IST. | ADDED 2026-04-26 at watching. | RESOLVED 2026-04-27: PRE-EMPTED. Sunday's lethal Hezbollah drone attack killing IDF Sgt. Fooks + IDF retaliation killing 14 Lebanese is operationally MORE SEVERE than the trigger anticipated. The qualitative threshold (substantive ceasefire collapse) was breached Sunday. Trigger resolves to fired-in-stronger-form: substrate is not just kinetically eroded but lethally breached. Replaced by 'Hezbollah-IDF kinetic produces Israeli civilian casualty within 14 days' on hezbollah.json.",
       "added": "2026-04-26",
+      "status": "resolved"
+    },
+    {
+      "condition": "Hezbollah-IDF kinetic produces Israeli civilian casualty within 14 days (by 2026-05-11) — full re-escalation activated",
+      "cascade": [
+        "lebanon",
+        "israel",
+        "hezbollah",
+        "iran",
+        "trump",
+        "brent-crude"
+      ],
+      "mechanism": "Sunday April 26 lethal drone targeted IDF military (Sgt. Fooks). Home Front Command imposed gathering restrictions in northern border towns through Monday April 27 20:00 IDT — itself a signal of expected Hezbollah escalation. If Hezbollah extends targeting to Israeli civilian population centres within 14 days, Trump-brokered May 14 extension legally collapses, IDF Lebanon ground campaign re-activates. Activation criterion: confirmed Israeli civilian death from Hezbollah ordnance with Israeli/Lebanese sources. | ADDED 2026-04-27 at watching.",
+      "added": "2026-04-27",
       "status": "watching"
     }
   ]

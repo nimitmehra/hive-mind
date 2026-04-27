@@ -3,8 +3,8 @@
   "name": "Shipping / Tanker Rates",
   "type": "sector",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday. FRONTLINE +2.0% FRIDAY ($35.59); VLCC TD3C HOLDING NEAR PEAK; CHENIERE STRUCTURAL LONG vs FRONTLINE PAIR ON BRANCH 1. Friday close: Frontline (Tankers) $35.59 (+2.0% 1D, +5.5% 1M, +37.6% 3M); BOAT $40.37 (+1.0% 1D); VLCC TD3C WS459.28 / $467,408/day TCE (April 24 Baltic print, -1.7% from April 20) — NEAR PEAK. Persian Gulf 'all but closed to shipping' per Lloyd's List. Trump cancellation of Witkoff-Kushner dispatch EXTENDS Hormuz blockade premium — tankers structurally bid into Monday. Branch 1 (Brent above $108) reopens VLCC upside to WS480-500 range. Branch 1 hedge per Senior Market K5: LONG Cheniere / SHORT Frontline pair (LNG benefits more than tankers from Hormuz extension). April 23 transit dark-only (5 vessels, all Northern Corridor, ALL dark via ISDB) — operational suppression continues, declining marginal kinetic input. Houthis Day 63 quiet — UKMTO MODERATE threat. CENTCOM 31-vessel blockade running rate ~1.3/day. Container freight FBX Global $1,886.54 April 24 (flat 1D, +10.5% 1M, +40% YoY). Carriers taking cautious Red Sea returns; Suez resumption likely 2026.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday. 144-HOUR KINETIC PAUSE (LONGEST OF BLOCKADE) + WAR RISK INSURANCE STILL $10-14M/VOYAGE (LAGGING INDICATOR); BRANCH 3 LIKELY ROLLS RATES OVER MON-TUE. No commercial-vessel interdiction confirmed since Wednesday April 22 MSC Francesca/Epaminondas. April 23 ISDB transit dark-only (5 vessels all Northern Corridor) holds. Persian Gulf 'all but closed to shipping' per Lloyd's List. VLCC TD3C peak rates structurally tied to Hormuz duration; with Brent Globex gapping -4.6% to $100.47 Sunday/Monday Asia LIVE = Branch 3 (positioning) confirmed, paper crisis premium compressed from $35 to $30 — VLCC TD3C likely sees rates roll over Mon-Tue as paper repricing flows through Baltic Exchange print and AWRP republish. Frontline / BOAT expected -2 to -4% Monday on paper-Brent slide. War risk insurance remains $10-14M per voyage with Lloyd's AWRP holding 0.8-1.0% hull range (lagging indicator — insurers do NOT step down on rhetoric, require signed framework). Houthis Day 64 quiet — UKMTO Update 034 explicit: 'rhetoric without operational indicators.' CENTCOM 31-vessel blockade running rate ~1.3/day. Trump April 23 destroy-mine-laying-boats ROE in effect; no boats destroyed. Trump 3-5 day patience window expired Sunday without strike — paper-physical mispricing setup persists.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -447,6 +447,31 @@
         "Freightos / MacroMicro"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-27",
+      "content": "DAY 60 — 144-HOUR KINETIC PAUSE + BRANCH 3 PAPER REPRICING LIKELY ROLLS VLCC RATES OVER MON-TUE [CONFIRMED operational + REPORTED rate trajectory]. No commercial-vessel interdiction confirmed since Wednesday April 22 MSC Francesca/Epaminondas — 144-hour kinetic pause is longest non-IED IRGC operational quiet of blockade period. Brent Globex gapped -4.6% to $100.47 Sunday/Monday Asia LIVE = Branch 3 (positioning) confirmed; paper crisis premium compressed from $35 to $30 (re-rating TIME-EXTENSION not LEVEL). VLCC TD3C peak rates structurally tied to Hormuz duration; paper repricing typically flows through Baltic Exchange daily print and AWRP republish with 24-72 hour lag — Mon-Tue likely sees rates roll over from peak (April 24 print WS459.28 / $467,408/day TCE). Frontline / BOAT expected -2 to -4% Monday on paper-Brent slide; Cheniere structurally LONG (Branch 1 hedge inverts on Branch 3 confirmation, so Cheniere/Frontline pair is now compression trade). War risk insurance still $10-14M per voyage with Lloyd's AWRP holding 0.8-1.0% hull range — lagging indicator, insurers do NOT step down on rhetoric, require signed framework. Persian Gulf 'all but closed to shipping' per Lloyd's List unchanged. April 23 ISDB transit dark-only (5 vessels all Northern Corridor) is the latest available physical data — 88% suppression intact while paper compresses.",
+      "sources": [
+        "Bloomberg Globex",
+        "Baltic Exchange",
+        "Lloyd's List",
+        "ISDB",
+        "yfinance",
+        "WEF",
+        "S&P Global"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED operational data + Brent Globex print; REPORTED expected rate trajectory."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "HOUTHI DAY 64 QUIET — UKMTO UPDATE 034 EXPLICITLY DOCUMENTS 'RHETORIC WITHOUT OPERATIONAL INDICATORS' [CONFIRMED ABSENCE]. UKMTO JMIC Update 034 (April 19 cutoff): 'No confirmed maritime attacks, targeting behaviour, or suspicious approaches… Houthi rhetoric continuing without operational indicators.' Day 64 silence holds through (a) IRGC Wednesday kinetic resumption, (b) CENTCOM 31-vessel Hormuz blockade-stat, (c) Trump Saturday cancellation, (d) Trump 3-5 day patience window expiring Sunday without strike. The IntelliNews March 24 'Houthis enter the war' framing is structurally falsified. Edge to houthis maintains durable decay; Bab el-Mandeb commercial closure persists via carrier voluntary withdrawal, not military blockade.",
+      "sources": [
+        "UKMTO JMIC Update 034",
+        "MARAD 2026-006",
+        "EUNAVFOR Aspides"
+      ],
+      "significance": "low"
     }
   ],
   "current": {
@@ -459,19 +484,19 @@
     {
       "to": "strait-of-hormuz",
       "type": "route_dependency_independent_signal",
-      "context": "Day 56 Thursday. Wednesday IRGC kinetic operationally bifurcating; UANI: 8 container ships escaped via Hormuz (convoy-and-escape industry response); CENTCOM 31 vessels redirected to date. VLCC TD3C 'uncharted territory' per Lloyd's List even on ceasefire days. Frontline -2.0% Thursday on absorption mean reversion; BOAT -0.2% (flat — capacity-constrained capturing weakly).",
+      "context": "Day 60 Monday. 144-hour kinetic pause (longest of blockade) extends. April 23 ISDB 5 vessels all dark via Northern Corridor — 88% suppression intact. VLCC TD3C peak rates structurally tied to Hormuz duration; Branch 3 paper repricing (Brent -4.6% Globex Sunday/Monday) likely rolls VLCC rates over Mon-Tue with 24-72hr lag. Persian Gulf 'all but closed to shipping' per Lloyd's List unchanged.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 28,
+      "last_activated": "2026-04-27",
+      "activation_count": 29,
       "weight": 10
     },
     {
       "to": "brent-crude",
-      "type": "transport_cost",
-      "context": "Day 56 Thursday. Brent peak-faded $106.15→$97.43 (-4.4%); Frontline -2.0% on mean reversion. Paper-physical gap re-opened — physical (AWRP 5-8x pre-crisis, VLCC rates 'uncharted', helium +40%, natural gas +5.5%) holding while paper Brent retreats on rhetoric cooling.",
+      "type": "transport_cost_lag",
+      "context": "Day 60 Monday. Brent Globex -4.6% Sunday/Monday Asia LIVE to $100.47 = Branch 3 (positioning) confirmed; paper crisis premium compressed from $35 to $30. Tanker physical lag: VLCC TD3C peak rates likely roll over Mon-Tue as paper repricing flows through. Frontline / BOAT expected -2 to -4% Monday. War risk insurance lagging indicator at $10-14M/voyage; insurers require signed framework, not rhetoric.",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 18,
+      "last_activated": "2026-04-27",
+      "activation_count": 19,
       "weight": 10
     },
     {
@@ -485,12 +510,12 @@
     },
     {
       "to": "houthis",
-      "type": "second_chokepoint_risk",
-      "context": "Day 34 zero confirmed Houthi Red Sea shipping attacks. Bab al-Mandeb in commercial closure via carrier withdrawal. Bloomberg: Iran pressing Houthis to resume but 'divisions within leadership.' Houthis told Lloyd's List 'no reason to prevent' Yanbu trade 'at present' — preserving shipping card as leverage. Washington and Riyadh told European allies they believe Houthis 'currently seek to avoid further escalation.'",
+      "type": "second_chokepoint_risk_decayed",
+      "context": "Day 64 Monday. UKMTO Update 034 explicit: 'rhetoric without operational indicators.' 64 days of Houthi Red Sea silence through IRGC Wednesday kinetic + Trump cancellation + Trump 3-5 day window expiry without strike. Soufan coordination-decay thesis substantially strengthened. The IntelliNews March 24 'Houthis enter the war' framing is structurally falsified. Bab al-Mandeb commercial closure via carrier voluntary withdrawal, not military blockade.",
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 8,
-      "weight": 10
+      "last_activated": "2026-04-27",
+      "activation_count": 9,
+      "weight": 8.5
     }
   ],
   "trigger_points": [
@@ -501,8 +526,20 @@
         "india",
         "natural-gas-lng"
       ],
-      "mechanism": "Double chokepoint: Hormuz AND Red Sea blocked. Only Cape of Good Hope remains. Shipping rates would spike further from already-historic levels. As of Day 33, Houthi threats remain rhetoric only — zero attacks confirmed.",
+      "mechanism": "Double chokepoint: Hormuz AND Red Sea blocked. Only Cape of Good Hope remains. Shipping rates would spike further from already-historic levels. As of Day 64, Houthi threats remain rhetoric only — UKMTO Update 034 explicit: 'rhetoric without operational indicators.'",
       "added": "2026-03-23",
+      "status": "watching"
+    },
+    {
+      "condition": "Lloyd's AWRP Persian Gulf rate falls below 0.8% for 5 consecutive sessions (Branch 3 deepening test)",
+      "cascade": [
+        "shipping-tankers",
+        "marine-war-risk-insurance",
+        "brent-crude",
+        "strait-of-hormuz"
+      ],
+      "mechanism": "AWRP currently holds 0.8-1.0% hull range. AWRP is a lagging indicator — insurers do NOT step down on rhetoric, require signed framework. A sustained step BELOW 0.8% (below 0.8% for 5 consecutive sessions) would confirm insurers are pricing structural Hormuz de-escalation, not transient rhetoric. This is the first hard-money confirmation that Branch 3 (positioning) is becoming Branch 4 (resolution). Cleanest signal that Hormuz disruption is ACTUALLY resolving — not just deal rhetoric. Falsifiable: 5 consecutive Lloyd's London republishes below 0.8%.",
+      "added": "2026-04-27",
       "status": "watching"
     }
   ]

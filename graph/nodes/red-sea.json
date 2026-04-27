@@ -3,8 +3,8 @@
   "name": "Red Sea / Suez Canal",
   "type": "trade_route",
   "created": "2026-03-28",
-  "last_updated": "2026-04-26",
-  "summary": "Day 63 of non-mirror status — LONGEST-RUNNING NEGATIVE CONFIRMATION OF THE BRIEF. UKMTO MODERATE THREAT UNCHANGED — JMIC Update 031 (March 1 - April 12 advisory window) and 030 (April 9 update) document NO confirmed Houthi commercial-shipping attacks. Red Sea track held PRISTINE through IRGC Wednesday kinetic, CENTCOM 31-vessel Hormuz blockade-stat, AND Trump April 25 cancellation of Witkoff-Kushner dispatch — Mansour's 'Gulf state directly involved' conditional doctrine NOT triggered. Soufan coordination-decay thesis strengthens further. Container freight FBX Global April 24: 1,886.54 (flat 1D, +10.5% 1M, +40% YoY) per Trading Economics / Freightos — Red Sea rerouting elevated baseline persists. Windward/Freightos: carriers taking cautious Red Sea returns; Suez traffic resumption likely 2026. Maersk MECL service operational. If 63 days of Hormuz escalation did not produce Houthi Red Sea kinetic, operational linkage may be structurally broken, not just dormant.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 64 of non-mirror status — LONGEST-RUNNING NEGATIVE CONFIRMATION OF THE BRIEF. UKMTO JMIC Update 034 (April 19 cutoff): 'No confirmed maritime attacks, targeting behaviour, or suspicious approaches… Houthi rhetoric continuing without operational indicators.' MODERATE threat level unchanged. Red Sea track held PRISTINE through IRGC Wednesday kinetic resumption, CENTCOM 31-vessel Hormuz blockade-stat, Trump April 25 cancellation of Witkoff-Kushner dispatch, AND Trump's 3-5 day patience window expiring Sunday April 26 23:59 IST without strike — Mansour's 'Gulf state directly involved' conditional doctrine NOT triggered across the most pressure-loaded weekend of the war. Soufan coordination-decay thesis substantially strengthened. Container freight FBX Global ~1,886 baseline persists per Trading Economics / Freightos — Red Sea rerouting elevated. Windward/Freightos: carriers taking cautious Red Sea returns; Maersk MECL service operational. The IntelliNews March 24 'Houthis enter the war' framing is now durably falsified. If 64 days of Hormuz escalation, US blockade, Trump strike-list rhetoric, and now diplomatic collapse did NOT produce Houthi Red Sea kinetic, the operational linkage to Iran is structurally broken or deliberately held in deep reserve.",
   "signals": [
     {
       "date": "2026-03-28",
@@ -148,17 +148,29 @@
         "IEA April report"
       ],
       "significance": "low"
+    },
+    {
+      "date": "2026-04-27",
+      "content": "DAY 64 RED SEA QUIET — UKMTO UPDATE 034 (APRIL 19 CUTOFF) FORMALIZES NON-MIRROR STATUS [CONFIRMED ABSENCE]. UKMTO JMIC Update 034 explicitly states: 'No confirmed maritime attacks, targeting behaviour, or suspicious approaches… Houthi rhetoric continuing without operational indicators.' MODERATE threat-level baseline unchanged. Red Sea has now held pristine through (a) IRGC Wednesday MSC Francesca/Epaminondas kinetic, (b) CENTCOM 31-vessel Hormuz blockade-stat, (c) Trump April 25 cancellation of Witkoff-Kushner dispatch, (d) expiry of Trump's 3-5 day patience window Sunday April 26 23:59 IST without strike. Mansour's 'closing Bab el-Mandeb is among our options' conditional ('any Gulf state directly involved') has NOT fired. The IntelliNews March 24 'Houthis enter the war' framing is now durably falsified. Container freight FBX Global ~1,886 elevated baseline holds — Red Sea rerouting persists. Maersk MECL service continues. Edge to houthis weight stable; edge to shipping-tankers reflects durable decoupling.",
+      "sources": [
+        "UKMTO JMIC Update 034",
+        "Trading Economics",
+        "Freightos",
+        "Maersk service notices"
+      ],
+      "significance": "medium",
+      "verification": "CONFIRMED ABSENCE; UKMTO MODERATE baseline."
     }
   ],
   "edges": [
     {
       "to": "houthis",
       "type": "threat_zone",
-      "context": "Houthi attacks on belligerent-linked vessels resumed April 7 and 9. Neutral shipping untargeted. Bab el-Mandeb closure threatened but not enacted. Bifurcation narrowed to US/UK/Israeli targets only.",
+      "context": "Day 64 Monday. UKMTO Update 034 (April 19 cutoff): 'No confirmed maritime attacks, targeting behaviour, or suspicious approaches.' Mansour's 'Gulf state directly involved' conditional doctrine NOT triggered through Trump's 3-5 day window expiring Sunday without strike. Bifurcation thesis durably intact — Houthi rhetoric without operational indicators across the most pressure-loaded weekend of the war.",
       "directness": 1,
-      "last_activated": "2026-04-19",
-      "activation_count": 7,
-      "weight": 8.4
+      "last_activated": "2026-04-27",
+      "activation_count": 8,
+      "weight": 8.0
     },
     {
       "to": "shipping-tankers",

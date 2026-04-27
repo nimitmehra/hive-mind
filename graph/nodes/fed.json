@@ -3,8 +3,8 @@
   "name": "Federal Reserve",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday. FED FOMC APRIL 28-29 BLACKOUT ACTIVE. Rate 3.5-3.75% unchanged; CME FedWatch 99.5% pause priced per Polymarket; Friday US 10Y 4.31% (-0.3%); US 2Y 3.59%. Powell succession term expires May 15, 2026 (~3 weeks). Q1 GDP advance estimate April 30 (3 trading days out post-FOMC). Goldman regime call held 5 consecutive days — bond market refuses to interpret oil rhetoric as Fed-path information. The forward-guidance language is the live tape risk, not the rate decision: a Fed shifting language toward 'data-dependent / energy-price-sensitive' framing (vs recent 'transitory geopolitical pricing') would re-price S&P risk-off independent of Branch 1/2/3 sub-pattern. Pre-meeting Sunday news flow (Trump cancellation + Pezeshkian hardening + CNN Vahidi-targeting leak): Branch 1 outcome (Brent above $108) compounds inflation pass-through risk into FOMC statement; Branch 2 holds; Branch 3 reduces inflation pressure. Q1 GDP miss would compound any Branch 1 risk-off pricing. Post-FOMC: Powell succession May 15 trims Powell's room to maneuver.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday. FED FOMC APRIL 28-29 — BRANCH 3 RESOLUTION SUPPORTS DOVISH-LEANING HOLD LANGUAGE. Rate 3.5-3.75% unchanged; Polymarket 99.7% pause priced; this is a NON-SEP meeting (no dot plot, no SEP) — forward-guidance language is the sole catalyst. Friday US 10Y 4.31% (-0.3%); US 2Y 3.59%. Powell succession term expires May 15, 2026 (~2.5 weeks). Q1 GDP advance estimate Wed April 29 (1.8-2.1% consensus). Branch 3 resolution (Brent gap -4.6% to $100.47 on Sunday Globex; crisis premium $35 → $30) reduces inflation pass-through pressure into the FOMC statement — supports 'transitory geopolitical pricing' framing surviving April 30. The forward-guidance language tape risk: a Fed shifting toward 'data-dependent / energy-price-sensitive' would still re-price S&P risk-off, but Branch 3 reduces this probability. Goldman gold regime call empirically vindicated Day 7 — bond market interpretation of oil as transitory inflation event holds. Post-FOMC: Powell succession May 15 trims maneuver room; Trump's Kevin Warsh-line nominee likely hawkish-to-neutral continuity. Rate-cut window: with Brent on Branch 3 path, June FOMC dovish-pivot scenario re-opens (was 35% pre-Branch-3; could rise to 40-45% on dovish FOMC language).",
   "signals": [
     {
       "date": "2026-03-18",
@@ -240,43 +240,55 @@
         "JPM rate desk"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-27",
+      "content": "BRANCH 3 RESOLUTION → FOMC APRIL 28-29 DOVISH-LEANING HOLD MOST PROBABLE [REPORTED, ANALYTICAL]. Brent gapped -4.6% to $100.47 on Sunday Globex / Monday Asia open — Branch 3 (positioning) defeats Branch 1 (structural break) and Branch 2 (theatrical band). Crisis premium compressed from $35 → $30 = re-rating of TIME-EXTENSION risk, not LEVEL risk. Polymarket 99.7% pause for FOMC remains priced. NON-SEP meeting (no dot plot, no SEP) → forward-guidance language is the sole catalyst. Branch 3 architecture supports 'transitory geopolitical pricing' framing surviving April 30 statement. The forward-guidance tape risk that yesterday's brief flagged (Fed shift to 'data-dependent / energy-price-sensitive') is now LOWER PROBABILITY but not eliminated. Q1 GDP advance Wed April 29 (1.8-2.1% consensus): a print at 1.8% lower bound would compound dovish-language positioning; print above 2.1% would dampen it. June FOMC dovish-pivot scenario re-opens (was 35% pre-Branch-3; could rise to 40-45% on dovish April 30 language). Powell succession May 15 ahead — Powell's incentive to telegraph dovish path on the way out is non-trivial. Bond reaction Friday: 10Y 4.31% (-0.3%) range-bound; 2Y 3.59% — bond market not yet repricing dovish-shift, awaiting FOMC text. (Sources: Senior Market dossier Branch 3; Polymarket; FOMC calendar; markets data)",
+      "sources": [
+        "Senior Market dossier",
+        "Polymarket",
+        "yfinance",
+        "Bloomberg"
+      ],
+      "significance": "high",
+      "verification": "REPORTED — Branch 3 mechanism inferred; FOMC April 29 statement is the resolution event."
     }
   ],
   "edges": [
     {
       "to": "us-10y-yield",
       "type": "rate_expectations",
-      "context": "Bond-equity divergence at WIDEST of the war: S&P erased all war losses (+1.0%), 10Y barely moved (4.30%, -2bps). Bonds refusing to commit to deal or escalation narrative. When they disagree, bonds usually right.",
+      "context": "Day 60 Monday. Friday US 10Y 4.31% (-0.3%); 2Y 3.59%. Branch 3 resolution (Brent gap -4.6%) likely modestly compresses inflation expectations; bond market awaits FOMC April 29 forward-guidance language for direction. Dovish-leaning hold = 10Y likely tests 4.20-4.25%; hawkish framing = 10Y retests 4.35%+.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 14,
+      "last_activated": "2026-04-27",
+      "activation_count": 15,
       "weight": 10
     },
     {
       "to": "sp-500",
       "type": "discount_rate",
-      "context": "S&P at 6,886 erased ALL war losses. VIX at 19.12 -- maximum complacency. Market pricing 'deal within days' on unverified Trump claim. Repricing risk extreme if Thursday talks don't materialize.",
+      "context": "Day 60 Monday. S&P 7,165.08 record-area Friday close; Branch 3 = risk-on continuation likely. Mag-7 earnings Apr 28-30 (Microsoft/Meta/Apple/Amazon) + Fed FOMC + Q1 GDP advance Apr 29 are the dominant 72-hour catalysts displacing crisis-beta. Dovish-leaning FOMC language supports continued risk-on; hawkish framing = -1.0 to -1.5% S&P retreat.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 14,
+      "last_activated": "2026-04-27",
+      "activation_count": 15,
       "weight": 10
     },
     {
       "to": "gold",
       "type": "rate_policy",
-      "context": "Gold regime CONFIRMED as dollar/monetary hedge. DXY at 98.32 (below 99) -> gold +1.1%. Silver +2.1% outperforming confirms monetary not safe-haven. Gold responds to DXY direction, not crisis headlines.",
+      "context": "Day 60 Monday. Goldman regime call empirically vindicated Day 7 — gold $4,720.70 flat across SIX escalation inputs Sat-Sun-Mon. Gold competes with TIPS / inflation hedge, NOT crisis-beta. Branch 3 reduces inflation-pass-through pressure; modestly real-yield-supportive (rising real yields = gold headwind); dovish FOMC language = gold tailwind via real-yield easing channel.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 11,
+      "last_activated": "2026-04-27",
+      "activation_count": 12,
       "weight": 10
     },
     {
       "to": "brent-crude",
       "type": "inflation_input",
-      "context": "Oil reversed below $100 on Trump 'deal' claim (Brent $97.98, -1.4%). Physical-futures gap persists ($120+ physical vs $98 futures = $22). If oil sustains below $100, 'transitory' CPI narrative survives; if snaps back above $100, May CPI 3.5-4.0% collapses narrative.",
+      "context": "Day 60 Monday. Brent gapped -4.6% to $100.47 on Sunday Globex (Branch 3). Crisis premium $35 → $30. 'Transitory' CPI narrative strengthens; June FOMC dovish-pivot scenario re-opens. Hormuz still functionally closed; Sadara JV still shut — paper-physical decoupling continues but inflation-pass-through pressure compresses with paper Brent.",
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 14,
+      "last_activated": "2026-04-27",
+      "activation_count": 15,
       "weight": 10
     },
     {

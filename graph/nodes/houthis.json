@@ -3,8 +3,8 @@
   "name": "Houthis (Yemen)",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 63 quiet — LONGEST-RUNNING NEGATIVE CONFIRMATION OF THE BRIEF. UKMTO JMIC Advisory Note 031 (April 12 update, 01 March – 12 April 2026 window) and 030 (April 9 update) confirm Bab el-Mandeb and Gulf of Aden remain at MODERATE threat level. 'There is no verified evidence that Houthi forces have resumed attacks on commercial shipping.' Abdul-Malik al-Houthi continues rhetorical positioning ('great victory' on Iran ceasefire, warnings of further attacks 'depending on future developments' per gCaptain) but operational silence has now extended 63 days from pre-ceasefire baseline. Day-63 negative confirmation IS intelligence: in 63 days with Iran-Israel war live, Hormuz blockade active, Iran's missile stockpile reportedly depleted, and Trump cancellation reverting diplomatic track — the Houthi proxy has NOT been activated. The Houthi-Iran command-relationship is therefore weaker in operational practice than the rhetorical alliance suggested, OR Iran is deliberately holding the Houthi card in reserve for higher-pressure escalation. This continues to falsify the IntelliNews March 24 'Houthis enter the war' framing. Soufan coordination-decay thesis survives intact at Day 63. Red Sea corridor 'MODERATE' UKMTO threat level. Axis-of-resistance continues to act sequentially, NOT simultaneously.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 64 quiet — LONGEST-RUNNING NEGATIVE CONFIRMATION OF THE BRIEF. UKMTO JMIC Update 034 (April 19 cutoff): 'No confirmed maritime attacks, targeting behaviour, or suspicious approaches… Houthi rhetoric continuing without operational indicators.' MODERATE threat level unchanged. Abdul-Malik al-Houthi continues rhetorical positioning but operational silence has now extended 64 days from pre-ceasefire baseline through the most pressure-loaded weekend of the war: IRGC Wednesday kinetic resumption, CENTCOM 31-vessel Hormuz blockade-stat, Trump April 25 cancellation of Witkoff-Kushner dispatch, AND Trump's 3-5 day patience window expiring Sunday April 26 23:59 IST without strike. The IntelliNews March 24 'Houthis enter the war' framing is now structurally falsified. The Houthi-Iran command-relationship is operationally weaker than the rhetorical alliance suggests, OR Iran is deliberately holding the Houthi card in reserve. Soufan coordination-decay thesis substantially strengthens at Day 64. Axis-of-resistance continues to act sequentially, NOT simultaneously. Edge to shipping-tankers continues durable decay below 9.0.",
   "signals": [
     {
       "date": "2026-03-05",
@@ -342,26 +342,37 @@
       ],
       "significance": "medium",
       "verification": "CONFIRMED ABSENCE; UKMTO MODERATE threat level baseline."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "DAY 64 RED SEA QUIET — UKMTO UPDATE 034 EXPLICITLY DOCUMENTS HOUTHI RHETORIC-WITHOUT-OPERATIONAL-INDICATORS [CONFIRMED ABSENCE]. UKMTO JMIC Update 034 (April 19 cutoff): 'No confirmed maritime attacks, targeting behaviour, or suspicious approaches… Houthi rhetoric continuing without operational indicators.' MODERATE threat level unchanged. Day-64 silence holds through (a) IRGC Wednesday kinetic resumption (MSC Francesca/Epaminondas), (b) CENTCOM 31-vessel Hormuz blockade-stat, (c) Trump cancellation of Witkoff-Kushner dispatch Saturday, (d) Trump's 3-5 day patience window expiring Sunday April 26 23:59 IST without strike. Mansour's 'closing Bab el-Mandeb is among our options' conditional ('any Gulf state directly involved') has NOT fired across the most pressure-loaded weekend of the war. Negative confirmation IS intelligence: 64 days of opportunity to escalate, NOT taken. Houthi-Iran operational coordination thesis structurally falsified vs. the rhetorical alliance. Two readings persist: (1) Houthi-Iran linkage operationally weaker than rhetoric suggested; (2) Iran holding Houthi card in deep reserve for nuclear-facility-strike contingency. Either way, the IntelliNews March 24 framing does not survive. Edge to shipping-tankers maintains durable decay below 9.0.",
+      "sources": [
+        "UKMTO JMIC Update 034",
+        "MARAD 2026-006",
+        "EUNAVFOR Aspides"
+      ],
+      "significance": "medium",
+      "verification": "CONFIRMED ABSENCE; UKMTO Update 034 cited."
     }
   ],
   "edges": [
     {
       "to": "iran",
       "type": "proxy_alliance",
-      "context": "Iran's proxy in Yemen. Bloomberg: Iran pressing Houthis to resume maritime attacks but leadership divisions real. Day 63 zero Red Sea attacks — IRGC Wednesday kinetic + Trump cancellation Saturday + 63 days of opportunity NOT exploited = operational linkage may be structurally broken, not just dormant.",
+      "context": "Day 64 Monday. Iran's proxy in Yemen. UKMTO Update 034 documents 'rhetoric without operational indicators.' Day 64 zero Red Sea attacks — IRGC Wednesday kinetic + Trump cancellation Saturday + Trump 3-5 day window expiry Sunday + 64 days of opportunity NOT exploited = operational linkage structurally broken or deliberately held in deep reserve. Either reading falsifies the IntelliNews March 24 framing.",
       "directness": 1,
-      "last_activated": "2026-04-26",
-      "activation_count": 10,
-      "weight": 9.5
+      "last_activated": "2026-04-27",
+      "activation_count": 11,
+      "weight": 9.0
     },
     {
       "to": "shipping-tankers",
       "type": "credible_threat_decayed",
-      "context": "Day 63 Sunday. Non-mirroring durable — 63 days of zero Houthi Red Sea / Bab-el-Mandeb attacks. Soufan coordination-decay thesis intact. Edge weight stepped below 9.0; further decay justified absent fresh Houthi kinetic. Attacks on belligerent-linked vessels (US/UK/Israeli) April 7-9 remain in scope on paper; neutral shipping operationally untargeted.",
+      "context": "Day 64 Monday. Non-mirroring durable — 64 days of zero Houthi Red Sea / Bab-el-Mandeb attacks. UKMTO Update 034 explicit: 'rhetoric without operational indicators.' Soufan coordination-decay thesis substantially strengthened. Edge weight further decayed. Attacks on belligerent-linked vessels (US/UK/Israeli) April 7-9 remain on paper; neutral shipping operationally untargeted.",
       "directness": 1,
-      "last_activated": "2026-04-26",
-      "activation_count": 11,
-      "weight": 8.5
+      "last_activated": "2026-04-27",
+      "activation_count": 12,
+      "weight": 8.0
     },
     {
       "to": "brent-crude",

@@ -3,8 +3,8 @@
   "name": "Energy Sector (Global)",
   "type": "sector",
   "created": "2026-03-28",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday. NEW PETCHEM TRANSMISSION CHANNEL VIA SADARA JV SHUTDOWN. House of Saud April: Sadara Chemical (Aramco-Dow $20B JV at Jubail) shut down 1.5M tonnes/year ethylene capacity due to Hormuz supply-chain disruptions — first confirmed industrial-scale petchem shutdown in Saudi Arabia tied directly to Hormuz. Upstream Aramco crude routes via Red Sea (bypassing Hormuz); downstream petchem feedstock requires Hormuz-routed imports. Forward implication: rolling petchem shutdowns across Gulf JV plants if Hormuz disruption persists past June — affects BASF (+11.2% 1M), LG Chem, Reliance. XLE $56.87 Friday close (-0.2% 1D, -6.1% 1M); Exxon $148.91 (-1.1%); Cheniere $257.09 flat (-9.6% 1M); URA $55.31 (-2.1% 1D, +13.0% 1M). Cheniere is structurally LONG the Branch 1 outcome — Henry Hub -3.5% / TTF +5.5% over the week = US-Europe gas arbitrage WIDENING. European TTF €44.72/MWh Friday close (+0.5% 1D, +5.5% week) — partial reversal of multi-week softness. Branch 1 (Brent above $108) tests TTF €48-50/MWh window; Branch 2 holds; Branch 3 tests €42-44 area.",
+  "last_updated": "2026-04-27",
+  "summary": "Day 60 Monday. SADARA JV SHUTDOWN UPGRADED REPORTED → CONFIRMED VIA ARGUS MEDIA + COMPANY STATEMENT; ARAMCO MAY OSP +$19.50/BBL = PRICING RESTRAINT SIGNAL. Sadara Chemical (Aramco-Dow $20B JV at Jubail) shutdown of 1.5M tonnes/year ethylene capacity due to Hormuz supply-chain disruptions is now CONFIRMED — first confirmed industrial-scale petchem shutdown in Saudi Arabia tied directly to Hormuz. Sadara $3.7B debt grace expiry June 15 = first balance-sheet casualty of Hormuz disruption with hard date. Aramco May OSP for Asian buyers set at +$19.50/bbl premium (record, but Bloomberg consensus expected $40+); '$20.50 left on the table' = Aramco-restraint signal indicating preparation for partial Hormuz reopening within May-June window. Brent Globex gapped -4.6% to $100.47 Sunday/Monday Asia LIVE = Branch 3 (positioning) confirmed; crisis premium compressed from $35 to $30 (paper re-rating TIME-EXTENSION risk, not LEVEL risk). Branch 3 unwinds defense-rotation tail. XLE Friday close ~$56.87 (-0.2%); URA $55.31 (-2.1% 1D, +13% 1M). Cheniere structurally LONG Branch 1 outcome — Henry Hub vs TTF widening intact. Forward implication: rolling petchem shutdowns across Gulf JV plants if Hormuz disruption persists past June — affects BASF, LG Chem, Reliance downstream. Trump 3-5 day patience window expired Sunday without strike — paper-physical mispricing setup persists as physical operations remain functionally closed.",
   "current": {
     "price": "XLE: $56.98 (Fri); Exxon: $150.53; Cheniere: $257.19; URA: $56.47",
     "delta_1d": "XLE +0.8%; Exxon +0.7%; Cheniere -0.1%; URA -2.2%",
@@ -125,6 +125,32 @@
         "Trading Economics"
       ],
       "significance": "high"
+    },
+    {
+      "date": "2026-04-27",
+      "content": "SADARA JV SHUTDOWN UPGRADED REPORTED → CONFIRMED + ARAMCO MAY OSP +$19.50/BBL PRICING-RESTRAINT SIGNAL [CONFIRMED]. Sadara Chemical (Aramco-Dow $20B JV at Jubail) shutdown of 1.5M tonnes/year ethylene capacity due to Hormuz supply-chain disruptions is CONFIRMED via Argus Media reporting + Sadara company statement (upgrade from yesterday's House of Saud single-source REPORTED). Sadara $3.7B debt grace expiry June 15 = first balance-sheet casualty of Hormuz disruption with hard date — petchem transmission channel from Hormuz now operationally documented at JV-level. Aramco May OSP for Asian buyers set at +$19.50/bbl premium (record absolute level, but Bloomberg consensus expected $40+); '$20.50 left on the table' is Aramco-restraint pricing signal indicating preparation for partial Hormuz reopening within May-June window. The Aramco-restraint signal is the cleanest Saudi corporate-side bet on resolution. Forward implication: rolling petchem shutdowns across Gulf JV plants if Hormuz disruption persists past June (BASF, LG Chem, Reliance downstream).",
+      "sources": [
+        "Argus Media",
+        "Sadara company statement",
+        "Bloomberg",
+        "Aramco May OSP release"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED Sadara shutdown via Argus + Sadara statement; CONFIRMED Aramco May OSP."
+    },
+    {
+      "date": "2026-04-27",
+      "content": "BRENT GLOBEX -4.6% TO $100.47 SUNDAY/MONDAY ASIA LIVE = BRANCH 3 (POSITIONING) CONFIRMED; UNWINDS DEFENSE-ROTATION TAIL [CONFIRMED]. Brent Globex gapped -4.6% to $100.47 Sunday/Monday Asia LIVE on Trump-window-expiry-without-strike + WH Leavitt deadline-architecture removal + Putin-Araghchi Kremlin meeting Russia-as-uranium-custodian lane opening. Saudi Tadawul Sunday +0.11% close (11,121.56) was the pre-Globex Branch 3 tell. Crisis premium compressed from $35 to $30 — paper re-rating TIME-EXTENSION risk (Hormuz disruption persisting longer in tradable form) rather than LEVEL risk (functional closure intact). Branch 3 unwinds defense-rotation tail (LMT, ITA conditional outflow Mon-Tue). Energy sector positioning: XLE Friday $56.87 likely opens flat-to-down on Brent slide; Exxon similar; Cheniere structural-LONG positioning persists on Henry Hub vs TTF arbitrage widening. URA $55.31 (+13% 1M) holds AI-structural component (~55% AI-structural, ~45% crisis-linked per markets.md C4) — Branch 3 trims crisis component but not structural component.",
+      "sources": [
+        "Bloomberg Globex",
+        "Tadawul",
+        "Reuters",
+        "Press TV",
+        "Kremlin readout",
+        "yfinance"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED Brent Globex print + Tadawul close."
     }
   ],
   "price_snapshots": [
@@ -137,10 +163,10 @@
     {
       "to": "brent-crude",
       "type": "revenue_driver",
-      "context": "Day 56 Thursday. XLE +1.2% on a day of Brent intraday $9/bbl reversal — energy approximately flat to slight bid, structurally bid posture intact. Three-month +15.7% — war gains intact. Natural Gas +5.5%, URA +7.4% — energy complex bid even on paper Brent fade.",
+      "context": "Day 60 Monday. Brent Globex -4.6% Sunday/Monday Asia LIVE to $100.47 = Branch 3 (positioning) confirmed; crisis premium compressed $35 → $30. XLE expected flat-to-down on Brent slide; Exxon similar; Cheniere structural-LONG via Henry Hub vs TTF widening intact. Sadara JV shutdown CONFIRMED — first balance-sheet casualty (June 15 grace expiry).",
       "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 19,
+      "last_activated": "2026-04-27",
+      "activation_count": 20,
       "weight": 10
     },
     {
