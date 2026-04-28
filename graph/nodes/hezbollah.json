@@ -3,8 +3,8 @@
   "name": "Hezbollah",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-04-27",
-  "summary": "Day 60 Monday. HEZBOLLAH KILLED IDF SGT. IDAN FOOKS IN FIRST LETHAL DRONE ATTACK OF POST-EXTENSION PERIOD — SUBSTANTIVE CEASEFIRE COLLAPSED. Sunday April 26 morning, Sgt. Idan Fooks, 19, of the 7th Armored Brigade's 77th Battalion, was killed in a Hezbollah explosive drone strike in southern Lebanon — first IDF-soldier death by direct Hezbollah attack since the November ceasefire (the two prior fatalities post-ceasefire were from pre-planted IEDs assessed as not remotely detonated; Sunday's drone is an active, deliberate strike). One officer and three troops were seriously wounded; one moderate, one light. Hezbollah confirmed the attack as response to 'the enemy's persistent violations of the cease-fire.' IDF responded with a wave of airstrikes and artillery shelling north of the Israeli-declared security zone Sunday afternoon, killing 14 and wounding 37 in southern Lebanon (Lebanese Health Ministry). Cumulative Lebanese casualties since March 2: 2,505+ killed, 7,756+ wounded. Israel's Home Front Command issued gathering restrictions in northern border towns from Sunday 22:30 to Monday April 27 20:00 IDT — the first time gathering restrictions have been formally imposed since the November ceasefire, itself an operational signal of expected Hezbollah escalation Monday. Trump-brokered ceasefire extension running through May 14 holds in legal architecture, but the substantive ceasefire has collapsed: lethal Hezbollah-on-IDF retaliation is the qualitative threshold the November architecture was meant to suppress, and Sunday breached it. Trigger 'third consecutive day of multi-location strikes Monday formally breaks ceasefire substrate' was operationally pre-empted by Sunday's lethal escalation — more severe than the trigger anticipated.",
+  "last_updated": "2026-04-28",
+  "summary": "Day 61 Tuesday. KINETIC DAY 2 — IDF STRUCK 20+ HEZBOLLAH-LINKED SITES MONDAY; ISRAELI-CIVILIAN-CASUALTY TRIGGER STILL OPEN AT WATCHING. The IDF said Monday it struck more than 20 Hezbollah-linked infrastructure sites across the Beqaa Valley and southern Lebanon, targeting weapons manufacturing, storage, and rocket-launch sites. Lebanese Health Ministry: 14 killed, 37 wounded in Sunday April 26 retaliation strikes. Cumulative Lebanese casualties since March 2: 2,491 killed, 7,719 wounded. Critically, the Hezbollah lethal strike on Sgt. Fooks Sunday HAS NOT yet been followed by a Hezbollah strike causing an Israeli civilian casualty — the 14-day watching trigger (by 2026-05-11) is still OPEN. The Lebanon vertical also has NOT spread horizontally: no Hezbollah surface-to-surface against Israeli population centres, no Iranian IRGC direct engagement. Hezbollah's Apr 26 drone framing as response to 'ceasefire violations' continues to operate. UN human rights office said both Israeli strikes AND Hezbollah rocket fire 'may breach international law.' The substantive ceasefire is collapsed, the kinetic exchange is daily, but the high-tier escalation threshold has not been crossed. Iran via state media silent on direct Hezbollah involvement; Lebanese government statements via Health Ministry casualty data only. Trump-brokered legal extension running through May 14 holds in legal architecture but is operationally voided. PRIOR DAY-1 SUMMARY: Sunday Apr 26 Sgt. Fooks killed in first lethal Hezbollah-on-IDF kinetic of post-extension period — substantive ceasefire collapsed. Sunday April 26 morning, Sgt. Idan Fooks, 19, of the 7th Armored Brigade's 77th Battalion, was killed in a Hezbollah explosive drone strike in southern Lebanon — first IDF-soldier death by direct Hezbollah attack since the November ceasefire (the two prior fatalities post-ceasefire were from pre-planted IEDs assessed as not remotely detonated; Sunday's drone is an active, deliberate strike). One officer and three troops were seriously wounded; one moderate, one light. Hezbollah confirmed the attack as response to 'the enemy's persistent violations of the cease-fire.' IDF responded with a wave of airstrikes and artillery shelling north of the Israeli-declared security zone Sunday afternoon, killing 14 and wounding 37 in southern Lebanon (Lebanese Health Ministry). Cumulative Lebanese casualties since March 2: 2,505+ killed, 7,756+ wounded. Israel's Home Front Command issued gathering restrictions in northern border towns from Sunday 22:30 to Monday April 27 20:00 IDT — the first time gathering restrictions have been formally imposed since the November ceasefire, itself an operational signal of expected Hezbollah escalation Monday. Trump-brokered ceasefire extension running through May 14 holds in legal architecture, but the substantive ceasefire has collapsed: lethal Hezbollah-on-IDF retaliation is the qualitative threshold the November architecture was meant to suppress, and Sunday breached it. Trigger 'third consecutive day of multi-location strikes Monday formally breaks ceasefire substrate' was operationally pre-empted by Sunday's lethal escalation — more severe than the trigger anticipated.",
   "signals": [
     {
       "date": "2026-03-02",
@@ -372,6 +372,19 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED ACTION (multi-source IDF announcement + Hezbollah claim of responsibility + Lebanese Health Ministry casualty data)."
+    },
+    {
+      "date": "2026-04-28",
+      "content": "KINETIC DAY 2 — IDF STRUCK 20+ HEZBOLLAH-LINKED SITES MONDAY; CIVILIAN-CASUALTY TRIGGER STILL OPEN [CONFIRMED ACTION]. IDF Mon: struck more than 20 Hezbollah-linked infrastructure sites across the Beqaa Valley and southern Lebanon — weapons manufacturing, storage, rocket-launch sites (Haaretz, Times of Israel). No Hezbollah strike causing Israeli civilian casualty Mon — the 14-day watching trigger (by 2026-05-11) is still OPEN. Lebanon vertical has NOT spread horizontally: no Hezbollah surface-to-surface against Israeli population centres, no IRGC direct engagement, no Iranian state-media amplification of Hezbollah operations. UN human rights office: both Israeli strikes AND Hezbollah rocket fire 'may breach international law.' The substantive ceasefire is collapsed, kinetic exchange is daily, but high-tier escalation threshold has not been crossed. Cumulative Lebanese casualty count revised slightly downward (2,491 killed, 7,719 wounded) from prior brief's 2,505/7,756 — possible Lebanese MoH methodology revision. (Sources: Haaretz live blog, Wikipedia 2026 Lebanon War, Al Jazeera, UN US News, Times of Israel)",
+      "sources": [
+        "Haaretz",
+        "Wikipedia",
+        "Al Jazeera",
+        "UN US News",
+        "Times of Israel"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED IDF strike count + CONFIRMED no Israeli civilian casualty Mon."
     }
   ],
   "edges": [
@@ -387,10 +400,10 @@
     {
       "to": "israel",
       "type": "lethal_kinetic_post_ceasefire",
-      "context": "Day 60 Monday. SUBSTANTIVE CEASEFIRE COLLAPSED. Hezbollah killed IDF Sgt. Idan Fooks Sunday April 26 in explosive-drone attack — first lethal Hezbollah-on-IDF kinetic of post-extension period. IDF retaliated with airstrikes/artillery north of security zone — 14 killed, 37 wounded in southern Lebanon. Netanyahu 'vowed to act forcefully.' Israel Home Front Command gathering restrictions through Monday April 27 20:00 IDT — first time since November ceasefire. Trump's May 14 legal architecture is operationally voided.",
+      "context": "Day 61 Tuesday. Kinetic Day 2: IDF struck 20+ Hezbollah-linked sites Mon (Beqaa Valley + southern Lebanon — weapons manufacturing, storage, rocket-launch). No Hezbollah strike causing Israeli civilian casualty Mon — the 14-day watching trigger (by 2026-05-11) is still OPEN. Lebanon vertical has NOT spread horizontally: no Hezbollah surface-to-surface against Israeli population centres, no IRGC direct engagement. The substantive ceasefire is collapsed, kinetic exchange is daily, but the high-tier escalation threshold has not been crossed.",
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 30,
+      "last_activated": "2026-04-28",
+      "activation_count": 31,
       "weight": 10
     },
     {

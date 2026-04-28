@@ -3,8 +3,8 @@
   "name": "European Central Bank (ECB)",
   "type": "institution",
   "created": "2026-03-28",
-  "last_updated": "2026-04-18",
-  "summary": "Day 51 Saturday. Holds 2.15%. CORRECTION: ECB DID NOT MEET APRIL 17 (prior brief error). ECB's 2026 decision schedule: Feb 4-5, Mar 18-19, APR 29-30, Jun 10-11, Jul 22-23, Sep 9-10, Oct 28-29, Dec 16-17. Most recent decision was March 18-19 (hold). Next decision April 29-30 — 11 days out. The Bloomberg April 15 'ECB officials leaning toward keeping interest rates unchanged this month' article refers to the April 29-30 meeting, NOT April 17. No monetary-policy action occurred on April 17. 'Layer cake of shocks' Lagarde/officials framing accurate but testing date is April 30. TTF €41.59/MWh (-1.96% 1D, -23.9% 1M) is consistent with hold expectations. European gas storage still ~30% (5-year seasonal low) — structural caution remains. Stagflation framing (inflation 2.6% forecast, growth 0.9%) intact; energy-input direction supportive of hold. DAX rallied +2.3% to 24,702.24 Friday — European ceasefire dividend, Germany energy-importer relief.",
+  "last_updated": "2026-04-28",
+  "summary": "Day 61 Tuesday. ECB APRIL 29-30 MEETING IN <48 HOURS — HOLD AT 2.15% MOST PROBABLE; MERZ 'HUMILIATING' FRAMING IS THE EUROPEAN-LEADERSHIP TONE SHIFT TO WATCH. Per Irish Times Apr 27, German Chancellor Friedrich Merz publicly stated that Iran is 'humiliating' the US as talks stall. This is the first major European G7 leader to characterize the diplomatic deadlock in such pointed terms. Operationally significant because Germany has been the European energy-vulnerability bellwether on this crisis. Merz's characterization implies (a) European patience with the US-led blockade is finite, (b) European preference for de-escalation may override Atlantic-alliance restraint as winter-2026 storage refill begins, (c) European institutional capital (ABP, Norges Bank) may find this characterization easier to act on than mainstream Atlanticist coverage. No US response yet. Macron / Starmer have not echoed. TTF €45.17/MWh Apr 27 (+0.75% 1D, +0.5% 1M; €31 pre-crisis = €14 of crisis premium). Critically below the €70 cascade-intensity threshold (industrial demand destruction; German PMI contracts hard). ECB has NOT characterized Hormuz risk as systemic. Holds 2.15%. ECB next decision April 29-30. Stagflation framing (inflation 2.6% forecast 2026, spiking to 3.1% Q2) intact. Bond reaction Friday: 10Y 4.31% (-0.3%) range-bound. CORRECTION: yesterday's $100.47 Brent print was a yfinance contract-roll glitch; live tape Mon $108.23 / Tue $109.39 — oil REVERSED UP, not down. Goldman raised late-2026 Brent forecast to $90 from $80 — under continued $108+ regime, ECB's energy-pass-through risk into the April 30 forward-guidance language is HIGHER than yesterday's framing implied; ECB hold base case still survives but with thicker energy-event tail.",
   "signals": [
     {
       "date": "2026-03-28",
@@ -127,6 +127,21 @@
         "ECB"
       ],
       "significance": "medium"
+    },
+    {
+      "date": "2026-04-28",
+      "content": "MERZ 'HUMILIATING' FRAMING IS FIRST MAJOR EUROPEAN-LEADER TONE SHIFT; ECB APRIL 29-30 MEETING IN <48 HOURS HOLDING AT 2.15% [CONFIRMED RHETORIC]. Per Irish Times Apr 27, German Chancellor Friedrich Merz publicly stated that Iran is 'humiliating' the US as talks stall. First major European G7 leader to characterize the diplomatic deadlock in such pointed terms. Operationally significant because Germany has been the European energy-vulnerability bellwether on this crisis — TTF gas at €45.17/MWh sits below the €70 cascade threshold but Germany has been more public-facing than France/UK on energy security framing. Merz's characterization implies (a) European patience with US-led blockade is finite, (b) European preference for de-escalation may override Atlantic-alliance restraint as winter-2026 storage refill begins, (c) European institutional capital (ABP, Norges Bank) may find this characterization easier to act on than mainstream Atlanticist coverage. No US response yet. Macron / Starmer have not echoed. ECB April 29-30 decision: hold at 2.15% most probable; under continued Brent $108+ regime + Goldman late-2026 forecast revised UP to $90 (from $80), the energy-pass-through risk into ECB forward-guidance language is HIGHER than yesterday's brief implied. The brief's load-bearing Branch 3 thesis ('TTF retreats to €42-44 area') is empirically falsified — TTF actually printed €45.17 on Apr 27 (+0.75% 1D), drifting modestly higher. ECB has NOT characterized Hormuz risk as systemic. (Sources: Irish Times 'Germany's Merz says Iran is humiliating US as talks stall' Apr 27, TradingEconomics TTF, oilpriceapi, CNBC, ECB calendar, Goldman commentary via TheStreet)",
+      "sources": [
+        "Irish Times",
+        "TradingEconomics",
+        "oilpriceapi",
+        "CNBC",
+        "ECB",
+        "TheStreet",
+        "OilPrice"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED Merz framing + CONFIRMED TTF data + CONFIRMED Brent correction."
     }
   ],
   "edges": [

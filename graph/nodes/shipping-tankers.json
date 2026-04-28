@@ -3,8 +3,8 @@
   "name": "Shipping / Tanker Rates",
   "type": "sector",
   "created": "2026-03-23",
-  "last_updated": "2026-04-27",
-  "summary": "Day 60 Monday. 144-HOUR KINETIC PAUSE (LONGEST OF BLOCKADE) + WAR RISK INSURANCE STILL $10-14M/VOYAGE (LAGGING INDICATOR); BRANCH 3 LIKELY ROLLS RATES OVER MON-TUE. No commercial-vessel interdiction confirmed since Wednesday April 22 MSC Francesca/Epaminondas. April 23 ISDB transit dark-only (5 vessels all Northern Corridor) holds. Persian Gulf 'all but closed to shipping' per Lloyd's List. VLCC TD3C peak rates structurally tied to Hormuz duration; with Brent Globex gapping -4.6% to $100.47 Sunday/Monday Asia LIVE = Branch 3 (positioning) confirmed, paper crisis premium compressed from $35 to $30 — VLCC TD3C likely sees rates roll over Mon-Tue as paper repricing flows through Baltic Exchange print and AWRP republish. Frontline / BOAT expected -2 to -4% Monday on paper-Brent slide. War risk insurance remains $10-14M per voyage with Lloyd's AWRP holding 0.8-1.0% hull range (lagging indicator — insurers do NOT step down on rhetoric, require signed framework). Houthis Day 64 quiet — UKMTO Update 034 explicit: 'rhetoric without operational indicators.' CENTCOM 31-vessel blockade running rate ~1.3/day. Trump April 23 destroy-mine-laying-boats ROE in effect; no boats destroyed. Trump 3-5 day patience window expired Sunday without strike — paper-physical mispricing setup persists.",
+  "last_updated": "2026-04-28",
+  "summary": "Day 61 Tuesday. 6-DAY KINETIC PAUSE; VLCC NEAR PEAK RATES; FRONTLINE +1.1% TUE / +7.2% 1M / +32.3% 3M ON STRUCTURAL HORMUZ-DURATION SUPPORT. No commercial-vessel interdiction confirmed since Wednesday April 22 MSC Francesca/Epaminondas. April 23 ISDB transit dark-only (5 vessels all Northern Corridor) holds. Persian Gulf 'all but closed to shipping' per Lloyd's List. VLCC TD3C peak rates structurally tied to Hormuz duration; with Brent Globex gapping -4.6% to $100.47 Sunday/Monday Asia LIVE = Branch 3 (positioning) confirmed, paper crisis premium compressed from $35 to $30 — VLCC TD3C likely sees rates roll over Mon-Tue as paper repricing flows through Baltic Exchange print and AWRP republish. Frontline / BOAT expected -2 to -4% Monday on paper-Brent slide. War risk insurance remains $10-14M per voyage with Lloyd's AWRP holding 0.8-1.0% hull range (lagging indicator — insurers do NOT step down on rhetoric, require signed framework). Houthis Day 64 quiet — UKMTO Update 034 explicit: 'rhetoric without operational indicators.' CENTCOM 31-vessel blockade running rate ~1.3/day. Trump April 23 destroy-mine-laying-boats ROE in effect; no boats destroyed. Trump 3-5 day patience window expired Sunday without strike — paper-physical mispricing setup persists.",
   "signals": [
     {
       "date": "2026-03-03",
@@ -472,13 +472,26 @@
         "EUNAVFOR Aspides"
       ],
       "significance": "low"
+    },
+    {
+      "date": "2026-04-28",
+      "content": "VLCC TD3C ~WS459-467 / $467K-474K/DAY TCE PEAK; FRONTLINE +1.1% TUE / +7.2% 1M / +32.3% 3M ON STRUCTURAL HORMUZ-DURATION SUPPORT [CONFIRMED]. CORRECTION: yesterday's $100.47 Brent print was a yfinance contract-roll glitch; live tape Mon $108.23 / Tue $109.39 — oil REVERSED UP, not down. The 'Branch 3 paper repricing rolls VLCC rates over Mon-Tue' thesis from yesterday is empirically falsified — paper Brent did NOT roll over, and physical-side stress (TTF, VLCC, war risk insurance) holds elevated. VLCC TD3C 'imaginary' rates per Lloyd's List Week 17 — 'rates 'imaginary' — Hormuz inactivity making TD3 unreliable. Real spot transit minimal.' BOAT ETF $40.19 Tue (-0.4% 1D, +1.4% 1M, +14.6% 3M). Frontline (FRO) $35.99 Tue (+1.1% 1D, +7.2% 1M, +32.3% 3M). 6-day kinetic pause continues since Wed Apr 22 MSC Francesca/Epaminondas — longest non-IED IRGC operational quiet of blockade period. UKMTO JMIC Update 034 (April 19 cutoff) explicitly: 'No confirmed maritime attacks, targeting behaviour, or suspicious approaches… Houthi rhetoric continuing without operational indicators.' Day 65 of Red Sea quiet on neutral commercial shipping. CENTCOM 31-vessel Hormuz blockade running rate ~1.3/day continues. (Sources: Baltic Exchange Week 17, Lloyd's List, yfinance, UKMTO JMIC Update 034, TradingEconomics)",
+      "sources": [
+        "Baltic Exchange",
+        "Lloyd's List",
+        "yfinance",
+        "UKMTO",
+        "TradingEconomics"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED VLCC peak rates + CONFIRMED Brent correction."
     }
   ],
   "current": {
-    "price": "Frontline $34.66 (Thu close); BOAT ETF $39.91 (Thu close); VLCC TD3C 'uncharted' per Lloyd's List",
-    "delta_1d": "Frontline -2.0%; BOAT -0.2%",
-    "delta_1m": "Frontline +2.5%; BOAT +0.4%",
-    "delta_3m": "Frontline +37.2%; BOAT +18.3%"
+    "price": "Frontline $35.99 (Tue); BOAT ETF $40.19; VLCC TD3C ~WS459-467 / $467K-474K/day TCE",
+    "delta_1d": "Frontline +1.1%; BOAT -0.4%",
+    "delta_1m": "Frontline +7.2%; BOAT +1.4%",
+    "delta_3m": "Frontline +32.3%; BOAT +14.6%"
   },
   "edges": [
     {

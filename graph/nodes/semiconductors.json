@@ -3,15 +3,16 @@
   "name": "Semiconductors (SMH/SOX)",
   "type": "sector",
   "created": "2026-04-25",
-  "last_updated": "2026-04-27",
-  "summary": "Day 60 Monday. SMH Friday $506.44 (+5.1% 1D, +26.9% 1M, +27.0% 3M) \u2014 16-day SOX consecutive-up streak \u2014 extending into Asian Monday LIVE: KOSPI +2.2%, Taiwan TAIEX +2.7%, Nikkei +1.4%. Chip complex structurally decoupled from crisis (~5% crisis attribution). Branch 3 (Brent gap to $100.47) reinforces structural-decoupling thesis. Drivers: TSMC Q1 + capex +32% to $54B for 2026; 16-day SOX streak with record SOXX/SMH inflows ($5.5B); Taiwan single-stock fund-limit deregulation; Samsung Q1 profit surge + helium-cascade falsification (Phil Kornbluth Day 4 framework holding via SK Hynix 'diversified suppliers + sufficient inventory' + Samsung Q1 helium reuse 4.7 tons/year + 19% reuse rate). Samsung April 30 earnings is next binary close.",
+  "last_updated": "2026-04-28",
+  "summary": "Day 61 Tuesday. SMH $506.26 TUE (FLAT 1D, +32.9% 1M, +21.5% 3M); SAMSUNG Q1 PRELIM RECORD 57.2T WON ($37.9B) +755% YoY \u2014 APR 30 FULL RELEASE IS THE BINARY CLOSE FOR HELIUM-CASCADE FALSIFICATION. Samsung Electronics reported preliminary Q1 2026 operating profit of 57.2 trillion won ($37.9 billion), a 755% jump YoY. Sales 133T won ($88B), +68% YoY. First time any Korean company exceeded 50T won quarterly operating profit. AI memory + HBM-driven. Helium-cascade language: NOTHING in preliminary release flagged helium as a Q2 risk. The preliminary release setup is favorable to the falsification thesis \u2014 record profit + no helium flag in headline = silence on helium is the working scenario for Apr 30 full release. Any Q2 helium guidance flag would reopen the cascade. SK Hynix Q1 already disclosed 'diversified suppliers + sufficient inventory' on helium \u2014 corroborates pre-emptive working-around. Phil Kornbluth (industrial gas analyst) framework remains the falsification benchmark. Asia chip rally extends: KOSPI 6,665.99 +0.8% Tue / +26.3% 1M; Taiwan TAIEX 39,807.72 +0.5% Tue / +19.4% 1M; Nikkei 60,238.21 -0.5% Tue / +16.1% 1M. Chip complex structurally decoupled from crisis (~5% crisis attribution). The rally is an AI-capex confirmation rally, NOT a de-escalation rally \u2014 chip names would be up +20-30% 1M with crisis OR without crisis on the Samsung/SK Hynix earnings cycle alone. The helium-cascade falsification is a tier-1 disconfirmation that ALLOWS the rally; it is NOT the cause. CRITICAL: yesterday's Brent $100.47 print was a yfinance contract-roll glitch; live tape Mon $108.23 / Tue $109.39 \u2014 the chip rally happened DESPITE oil reversing UP, validating the 'AI rally would extend even with crisis' thesis from yesterday's framing.",
   "current": {
-    "price": "SMH $506.44 (Friday close per Saturday script)",
-    "delta_1d": "+5.1%",
-    "delta_1m": "+26.9%",
-    "delta_3m": "+27.0%",
-    "april_inflows": "SOXX/SMH combined $5.5B; SMH alone $3.4B (all-time fund inflow record)",
-    "sox_streak": "16 consecutive up sessions (+38.7% in ~4 weeks) \u2014 pace for biggest monthly gain since Feb 2000"
+    "price": "SMH $506.26 (Tue, flat 1D)",
+    "delta_1d": "flat",
+    "delta_1m": "+32.9%",
+    "delta_3m": "+21.5%",
+    "samsung_q1_prelim": "57.2T won ($37.9B) operating profit, +755% YoY; sales 133T won ($88B), +68% YoY \u2014 first Korean company above 50T won quarterly OP",
+    "kospi": "6,665.99 (+0.8% Tue, +26.3% 1M)",
+    "taiwan_taiex": "39,807.72 (+0.5% Tue, +19.4% 1M)"
   },
   "price_snapshots": [
     {
@@ -59,6 +60,21 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED Asian session live data."
+    },
+    {
+      "date": "2026-04-28",
+      "content": "SAMSUNG Q1 PRELIM RECORD 57.2T WON ($37.9B), +755% YoY — APR 30 IS THE BINARY CLOSE FOR HELIUM-CASCADE FALSIFICATION [CONFIRMED PRELIM]. Samsung Electronics preliminary Q1 2026 operating profit 57.2 trillion won ($37.9 billion), +755% YoY. Sales 133T won ($88B), +68% YoY. First time any Korean company exceeded 50T won quarterly operating profit. AI memory + HBM-driven. NOTHING in preliminary release flagged helium as a Q2 risk. Full release April 30 — that is the binary close for the 'Samsung Q1 silence on helium = Kornbluth tier-1-customer falsification confirmed' trigger. The preliminary release setup is favorable to the falsification thesis. Any Q2 helium guidance flag at the full release (e.g., 'diversified suppliers + sufficient inventory' downgraded, or 'allocation notice to downstream') would reopen the cascade. Asia chip tape continues +5% range Mon-Tue (KOSPI 6,665.99, Taiwan TAIEX 39,807.72). SMH $506.26 Tue flat 1D, +32.9% 1M; helium falsification + Samsung Q1 record + AI capex are independent reinforcement. Chip rally is AN AI-CAPEX CONFIRMATION rally, not a de-escalation rally — chip names would be up +20-30% 1M with crisis OR without crisis on Samsung/SK Hynix earnings alone. CORRECTION: yesterday's Brent $100.47 print was yfinance contract-roll glitch; live tape Mon $108.23 / Tue $109.39 — chip rally happened DESPITE oil reversing UP, validating decoupling thesis. (Sources: Samsung preliminary Q1 release, Quartz, SamMobile, Sammy Fans, IBTimes Australia)",
+      "sources": [
+        "Samsung",
+        "Quartz",
+        "SamMobile",
+        "Sammy Fans",
+        "IBTimes Australia",
+        "TrendForce",
+        "yfinance"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED Samsung preliminary Q1 + CONFIRMED Asian chip tape + CONFIRMED Brent correction."
     }
   ],
   "edges": [

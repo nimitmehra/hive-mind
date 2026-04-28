@@ -3,8 +3,8 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-04-27",
-  "summary": "Day 60 Monday. 144-HOUR KINETIC PAUSE — LONGEST NON-IED IRGC OPERATIONAL QUIET OF BLOCKADE PERIOD; CHOKEPOINT FUNCTIONALLY CLOSED DESPITE PAPER REPRICING. April 23 ISDB / hormuzstraitmonitor.com / SeaVantage transit data: 5 vessels (1 inbound, 4 outbound), all dark via Northern Corridor — 88% suppression vs 138/day pre-crisis baseline holds. No commercial-vessel interdiction confirmed Thursday-Friday-Saturday-Sunday-Monday morning IST since Wednesday April 22 MSC Francesca/Epaminondas. IRGC publicly REAFFIRMED Sunday 'no intention of lifting their blockade' — chokepoint operating as financial-suppression tool with declining marginal kinetic input. Sadara JV (Aramco-Dow $20B Jubail) shutdown UPGRADED REPORTED → CONFIRMED via Argus Media + Sadara company statement; $3.7B debt grace expiry June 15 = first balance-sheet casualty of Hormuz disruption. Brent Globex gapped -4.6% to $100.47 Sunday/Monday Asia LIVE — Branch 3 (positioning) confirmed; crisis premium compressed from $35 to $30 (re-rating of TIME-EXTENSION risk, not LEVEL risk). Saudi Tadawul Sunday +0.11% close (11,121.56) = pre-Globex Branch 3 tell. Aramco May OSP at +$19.50/bbl premium (record, but Bloomberg expected $40+; '$20.50 left on the table' = pricing restraint signaling Aramco preparing for partial reopening). CENTCOM 31-vessel blockade and Trump April 23 destroy-mine-laying-boats ROE remain operational; Pentagon Hormuz-specific strike plans (Türkiye Today April 24) REPORTED single-source. Three-carrier CENTCOM (Bush + Lincoln + Ford) holds. Functional closure persists despite paper repricing.",
+  "last_updated": "2026-04-28",
+  "summary": "Day 61 Tuesday. IRAN'S HORMUZ-FIRST PROPOSAL VIA PAKISTAN OFFERS OPERATIONAL CONTROL OF HORMUZ AS BARGAINING CHIP — TRUMP UNLIKELY TO ACCEPT; CHOKEPOINT FUNCTIONALLY CLOSED DAY 61. Substantive shift: FM Araghchi's weekend proposal trades extended ceasefire OR permanent end to war IN EXCHANGE FOR US lifting naval blockade — with NUCLEAR TALKS DEFERRED until after Hormuz reopens. White House confirmed Trump met NSC team Mon; CNN/Axios source: Trump 'unlikely to accept'; Rubio 'poured cold water.' Structural impasse: US wants uranium out + Hormuz open; Iran wants Hormuz reopened first + uranium retained. The proposal is the cleanest 30-day evidence Iran has internal consensus to make a counter-offer at all. IRGC Khatam al-Anbiya Saturday-evening warning: 'inflict more severe damages on the American-Zionist enemies in case of another aggression' — RHETORIC, not action; AIS shipping data shows no operational change (no new IRGC fast-boat deployments, no new mine-laying, no new tanker seizures). 6-day kinetic pause continues since Wed Apr 22 MSC Francesca/Epaminondas seizure. Brent live tape Mon $108.23 (+2.75%) / Tue $109.39 (+1.08%) — yesterday's $100.47 print was yfinance contract-roll glitch. Brent-WTI spread $11.96 (vs $4-6 typical) holding. Goldman raised late-2026 forecast to $90 from $80 (Iran has curtailed up to 2.5M bpd). IEA: 'biggest energy supply shock on record.' Sadara JV (Aramco-Dow $20B Jubail) shutdown CONFIRMED via Argus + Sadara statement; $3.7B debt grace expiry June 15 = first balance-sheet casualty of Hormuz disruption. CENTCOM 31-vessel blockade + Trump April 23 destroy-mine-laying-boats ROE remain operational; three-carrier CENTCOM (Bush + Lincoln + Ford) holds. Marine war risk insurance ~1% AWRP (down from 2.5% peak) for negotiated transits; $10-14M per voyage; Lloyd's: 'safety concerns, not insurance availability.'",
   "signals": [
     {
       "date": "2026-03-05",
@@ -891,6 +891,24 @@
       ],
       "significance": "high",
       "verification": "CONFIRMED Sadara shutdown via Argus Media + Sadara statement."
+    },
+    {
+      "date": "2026-04-28",
+      "content": "IRAN'S HORMUZ-FIRST PROPOSAL VIA PAKISTAN — TEHRAN OFFERS OPERATIONAL CONTROL OF HORMUZ AS BARGAINING CHIP, TRUMP UNLIKELY TO ACCEPT; KINETIC PAUSE 6 DAYS [CONFIRMED ACTION]. Substantive shift: FM Araghchi's weekend proposal (delivered to Pakistani, Egyptian, Turkish, Qatari mediators) trades extended ceasefire OR permanent end to war IN EXCHANGE FOR US lifting naval blockade — with NUCLEAR TALKS DEFERRED until after Hormuz reopens. White House confirmed Trump met NSC team Mon; CNN/Axios source: Trump 'unlikely to accept'; Rubio 'poured cold water'; Trump told reporters Iran 'much better' offer (vague). The structural impasse remains: US wants uranium out + Hormuz open; Iran wants Hormuz reopened first + uranium retained. IRGC Khatam al-Anbiya Saturday-evening warning: 'inflict more severe damages on the American-Zionist enemies in case of another aggression' — RHETORIC; AIS shipping data shows no operational change. 6-day kinetic pause continues since Wed Apr 22 MSC Francesca/Epaminondas. Goldman raised late-2026 Brent forecast to $90 from $80 (Iran has curtailed up to 2.5M bpd of crude). IEA April Oil Market Report: 'biggest energy supply shock on record.' Brent live tape Mon $108.23 / Tue $109.39 (yesterday's $100.47 was yfinance glitch). Brent-WTI spread $11.96 holding. Marine war risk insurance ~1% AWRP for negotiated transits, $10-14M per voyage. The Hormuz proposal makes the chokepoint a NEGOTIABLE ASSET for the first time in 60 days — but the trade only closes if Trump accepts the deferral architecture. (Sources: Axios, PBS, CNBC, CNN Live, Foreign Policy, Times of Israel, Tasnim, FDD Long War Journal, Goldman commentary, IEA Oil Market Report)",
+      "sources": [
+        "Axios",
+        "PBS",
+        "CNBC",
+        "CNN",
+        "Foreign Policy",
+        "Times of Israel",
+        "Tasnim",
+        "FDD Long War Journal",
+        "Goldman via TheStreet",
+        "IEA"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED proposal delivery + CONFIRMED kinetic pause + CONFIRMED IRGC rhetoric without operational change."
     }
   ],
   "edges": [
@@ -905,11 +923,11 @@
     },
     {
       "to": "brent-crude",
-      "type": "supply_chokepoint_branch_3_positioning",
-      "context": "Day 60 Monday. Brent Globex gapped -4.6% to $100.47 Sunday/Monday Asia LIVE = Branch 3 (positioning) confirmed; crisis premium compressed from $35 to $30 — paper re-rating TIME-EXTENSION risk (Hormuz disruption persisting longer), NOT LEVEL risk (functional closure intact). Saudi Tadawul Sunday +0.11% (11,121.56) was the pre-Globex Branch 3 tell. Hormuz dark-only April 23 + IRGC Sunday public reaffirmation = operational closure intact while paper compresses crisis premium. The CONVERGENCE of paper relief + physical persistence is the Day 60 mispricing setup.",
+      "type": "supply_chokepoint",
+      "context": "Day 61 Tuesday. CORRECTION: yesterday's $100.47/-4.6% Globex print was yfinance contract-roll glitch. Live tape Mon $108.23 (+2.75%) / Tue $109.39 (+1.08%) — oil REVERSED UP, not down. Hormuz functionally closed Day 61. Brent-WTI spread $11.96 (vs $4-6 typical) holding — Persian Gulf war-risk premium intact. Iran's Hormuz-First proposal (offers blockade-lift in exchange for ceasefire / nuclear-talks deferral) makes the chokepoint a NEGOTIABLE ASSET for the first time, but Trump 'unlikely to accept' (Rubio cold water). Goldman raised late-2026 Brent forecast to $90 from $80 (Iran has curtailed up to 2.5M bpd). IEA: 'biggest energy supply shock on record.' Branch 2 (theatrical stalemate) is operative regime; Branch 1 re-elevated as meaningful tail. The convergence of paper repricing UP + physical persistence (TTF €45.17, VLCC $467K-day, war risk insurance $10-14M/voyage) signals paper has caught up to physical reality, not bypassed it.",
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 37,
+      "last_activated": "2026-04-28",
+      "activation_count": 38,
       "weight": 10
     },
     {

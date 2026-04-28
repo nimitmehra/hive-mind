@@ -3,13 +3,13 @@
   "name": "US 10-Year Treasury Yield",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-27",
-  "summary": "Day 60 Monday. US 10Y 4.31% Friday (-0.3% 1D, -0.4% 1M, +2.3% 3M); US 2Y 3.59%. BRANCH 3 RESOLUTION (Brent gap -4.6% to $100.47 on Sunday Globex / Monday Asia open) modestly compresses inflation expectations → real yields rise marginally → gold faces continued real-yield headwind. Crisis premium $35 → $30 = re-rating of TIME-EXTENSION risk, not LEVEL risk. Bond market awaits Fed FOMC April 28-29 forward-guidance language (NON-SEP meeting; 99.7% pause priced per Polymarket). Dovish-leaning hold = 10Y likely tests 4.20-4.25%; hawkish energy-pass-through framing = 10Y retests 4.35%+. Q1 GDP advance Wed Apr 29 (1.8-2.1% consensus): print at lower bound supports dovish positioning; print above range supports current 4.30-4.35% range. India 10Y 6.87% (web-confirmed Trading Economics) / ~6.97% per Saturday script — Branch 3 architecture relieves modest pressure on India 10Y; likely tests 6.80-6.85% on rupee-strengthening session. Powell term expires May 15, 2026 (~2.5 weeks); Trump Kevin Warsh-line nominee = hawkish-to-neutral continuity. The bond market's interpretation of crisis as inflation event (not financial-system event) is operative through May.",
+  "last_updated": "2026-04-28",
+  "summary": "Day 61 Tuesday. US 10Y 4.34% (+0.6% 1D, -1.8% 1M, +2.7% 3M) — SLIGHT STEEPENING ON OIL-INFLATION REFLEX; US 2Y 3.59%. CRITICAL CORRECTION: yesterday's $100.47 Brent print was a yfinance contract-roll glitch; live tape Mon $108.23 / Tue $109.39 — oil REVERSED UP, not down. Yesterday's 'Branch 3 resolution compresses inflation expectations → real yields rise marginally' framework is empirically FALSIFIED on the input — Brent reversed UP, but the OUTPUT (10Y +0.6% on the day) is consistent with oil-inflation reflex. Bond market continues to interpret crisis as inflation event, not financial-system event. Goldman raised late-2026 Brent forecast to $90 from $80 — institutionalizes higher-for-longer; if FOMC text leans hawkish on energy April 30, 10Y tests 4.40-4.45% within 24 hours. India 10Y GOI 6.93% (Apr 24); range-bound, slight ease — softer crude eased fiscal/inflation concerns; Branch 3 reversal stalled the 6.80-6.85% test. Bond market awaits Fed FOMC April 28-29 forward-guidance language (NON-SEP meeting; 99.7% pause priced per Polymarket). Q1 GDP advance Wed Apr 29 (1.8-2.1% consensus). Powell term expires May 15, 2026 (~2.5 weeks); Trump Kevin Warsh-line nominee = hawkish-to-neutral continuity. June FOMC dovish-pivot probability moves DOWN under higher-for-longer (was 40-45% yesterday, now 30-35%).",
   "current": {
-    "price": "4.31% (Friday close); US 2Y 3.59%",
-    "delta_1d": "-0.3% 10Y; -0.1% 2Y",
-    "delta_1m": "-0.4%",
-    "delta_3m": "+2.3%"
+    "price": "4.34% (Tue Apr 28); US 2Y 3.59%",
+    "delta_1d": "+0.6% 10Y; -0.1% 2Y",
+    "delta_1m": "-1.8%",
+    "delta_3m": "+2.7%"
   },
   "signals": [
     {
@@ -247,6 +247,19 @@
       ],
       "significance": "high",
       "verification": "REPORTED — yield reaction to Branch 3 PENDING April 28 cash open."
+    },
+    {
+      "date": "2026-04-28",
+      "content": "10Y AT 4.34% (+0.6% 1D) — SLIGHT STEEPENING ON OIL-INFLATION REFLEX; FOMC FORWARD-GUIDANCE LANGUAGE THE CATALYST [CONFIRMED]. CORRECTION: yesterday's $100.47 Brent print was a yfinance contract-roll glitch; live tape Mon $108.23 / Tue $109.39 — oil REVERSED UP, not down. Yesterday's 'Branch 3 modestly compresses inflation expectations → 10Y tests 4.20-4.25%' framework is empirically falsified on the input. Tue print: 10Y 4.34% +0.6% 1D — slight steepening on oil-inflation reflex. Bond market continues to interpret crisis as inflation event, not financial-system event. Goldman raised late-2026 Brent forecast to $90 from $80 — institutionalizes higher-for-longer. If FOMC text leans hawkish on energy April 30, 10Y tests 4.40-4.45% within 24 hours. India 10Y GOI 6.93% (Apr 24) range-bound — softer crude eased fiscal/inflation concerns; Branch 3 reversal stalled the 6.80-6.85% test. June FOMC dovish-pivot probability moves DOWN under higher-for-longer (was 40-45% yesterday, now 30-35%). Q1 GDP advance Wed Apr 29 (1.8-2.1% consensus): print at lower bound (1.8%) compounds dovish positioning; print above range (2.1%+) keeps yield in 4.30-4.40% range. Powell term expires May 15. (Sources: TradingEconomics, CNBC, Polymarket FOMC, Goldman commentary, India 10Y via TradingEconomics/RBI)",
+      "sources": [
+        "TradingEconomics",
+        "CNBC",
+        "Polymarket",
+        "Goldman via TheStreet",
+        "RBI"
+      ],
+      "significance": "high",
+      "verification": "CONFIRMED 10Y data + CONFIRMED Brent correction."
     }
   ],
   "edges": [
