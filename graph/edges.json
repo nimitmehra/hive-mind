@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-28",
+  "last_updated": "2026-04-29",
   "edges": [
     {
       "from": "aluminum",
@@ -202,7 +202,7 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-04-29"
     },
     {
       "from": "fed",
@@ -314,7 +314,7 @@
       "to": "israel",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-04-29"
     },
     {
       "from": "hezbollah",
@@ -886,9 +886,9 @@
     {
       "from": "pezeshkian",
       "to": "iran",
-      "weight": 9.0,
+      "weight": 6.0,
       "directness": 1,
-      "last_activated": "2026-04-19"
+      "last_activated": "2026-04-29"
     },
     {
       "from": "pezeshkian",
@@ -1292,9 +1292,9 @@
     {
       "from": "uae",
       "to": "brent-crude",
-      "weight": 8.0,
+      "weight": 8.5,
       "directness": 1,
-      "last_activated": "2026-04-07"
+      "last_activated": "2026-04-29"
     },
     {
       "from": "uae",
@@ -1474,16 +1474,16 @@
     {
       "from": "vahidi",
       "to": "irgc",
-      "weight": 9.0,
+      "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-04-29"
     },
     {
       "from": "vahidi",
       "to": "iran",
-      "weight": 8.0,
+      "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-04-29"
     },
     {
       "from": "vahidi",
@@ -1558,9 +1558,9 @@
     {
       "from": "iran",
       "to": "mojtaba-khamenei",
-      "weight": 9.1,
+      "weight": 7.5,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-04-29"
     },
     {
       "from": "uranium-sector",
@@ -1722,6 +1722,48 @@
       "weight": 9.0,
       "directness": 1,
       "last_activated": "2026-04-27"
+    },
+    {
+      "from": "uae",
+      "to": "opec-plus",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-04-29"
+    },
+    {
+      "from": "uae",
+      "to": "united-states",
+      "weight": 7.5,
+      "directness": 1,
+      "last_activated": "2026-04-29"
+    },
+    {
+      "from": "qatar",
+      "to": "strait-of-hormuz",
+      "weight": 5.5,
+      "directness": 1,
+      "last_activated": "2026-04-29"
+    },
+    {
+      "from": "qatar",
+      "to": "united-states",
+      "weight": 6.0,
+      "directness": 1,
+      "last_activated": "2026-04-29"
+    },
+    {
+      "from": "opec-plus",
+      "to": "uae",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-04-29"
+    },
+    {
+      "from": "uae",
+      "to": "india",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-04-29"
     }
   ]
 }
