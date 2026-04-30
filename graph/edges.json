@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-29",
+  "last_updated": "2026-04-30",
   "edges": [
     {
       "from": "aluminum",
@@ -97,7 +97,7 @@
       "to": "strait-of-hormuz",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-04-30"
     },
     {
       "from": "china",
@@ -209,7 +209,7 @@
       "to": "gold",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-04-30"
     },
     {
       "from": "fed",
@@ -489,7 +489,7 @@
       "to": "brent-crude",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-04-30"
     },
     {
       "from": "iran",
@@ -573,7 +573,7 @@
       "to": "united-states",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-04-30"
     },
     {
       "from": "iraq",
@@ -1154,7 +1154,7 @@
       "to": "brent-crude",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-04-30"
     },
     {
       "from": "strait-of-hormuz",
@@ -1229,16 +1229,16 @@
     {
       "from": "trump",
       "to": "brent-crude",
-      "weight": 10.0,
+      "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-04-30"
     },
     {
       "from": "trump",
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-04-30"
     },
     {
       "from": "trump",
@@ -1649,9 +1649,9 @@
     {
       "from": "helium",
       "to": "semiconductors",
-      "weight": 4.5,
-      "directness": 2,
-      "last_activated": "2026-04-28"
+      "weight": 2.0,
+      "directness": 3,
+      "last_activated": "2026-04-30"
     },
     {
       "from": "taiwan",
@@ -1726,9 +1726,9 @@
     {
       "from": "uae",
       "to": "opec-plus",
-      "weight": 7.0,
+      "weight": 8.0,
       "directness": 1,
-      "last_activated": "2026-04-29"
+      "last_activated": "2026-04-30"
     },
     {
       "from": "uae",
@@ -1764,6 +1764,20 @@
       "weight": 7.0,
       "directness": 1,
       "last_activated": "2026-04-29"
+    },
+    {
+      "from": "fed",
+      "to": "inr-usd",
+      "weight": 7.0,
+      "directness": 2,
+      "last_activated": "2026-04-30"
+    },
+    {
+      "from": "iran",
+      "to": "trump",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-04-30"
     }
   ]
 }
