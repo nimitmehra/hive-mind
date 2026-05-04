@@ -35,6 +35,50 @@ The graph IS the system's intelligence. The briefs are daily snapshots, but the 
 ## Before You Do Anything
 
 Read `ARCHITECTURE.md` for schemas, edge weight formula, node creation rules, and layer determination.
+Read `ARCHITECTURE_NODE_TIERING.md` for the bounded hot-tier schema and budget enforcement rules.
+
+---
+
+## NODE FILE SCHEMA (Hot-tier — bounded ~1,500 tokens, hard cap 2,000)
+
+Every node JSON has this shape post-2026-05-04 migration:
+
+```jsonc
+{
+  "id": "iran",
+  "name": "Iran",
+  "type": "country",
+  "created": "2026-03-23",
+  "last_updated": "2026-05-04",
+  "summary": "...",                    // ~500 tokens — institutional memory; rewritten when material change
+  "current": {...},                    // ~100 tokens — live state snapshot
+  "active_triggers": [...],            // max 5 watching/active; resolved triggers DROP and absorb into summary
+  "top_edges": [...],                  // max 8 by weight; full edge graph still in graph/edges.json
+  "recent_signals": [...],             // last 7 days, max 5 entries; older drop from file (preserved in git)
+  "historical_summaries": [...]        // rolling 3 months, 1 bullet per month; auto-generated bullets need re-synthesis
+}
+```
+
+### Hard rules
+
+1. **File MUST be ≤ 2,000 tokens (target 1,500).** Enforced at write time by `cap_and_rolloff` helper.
+2. `recent_signals` keeps last 7 days max, hard cap of 5 entries. Each entry is a HEADLINE (≤120 chars) + 2 sources + verification tag — NOT full content. Full content lives in git.
+3. `active_triggers` keeps only `watching`/`active`/`partially-activated`. Resolved triggers absorb into `summary` text and drop.
+4. `top_edges` keeps top 8 by weight. The full edge graph is in `graph/edges.json`.
+5. `historical_summaries` keeps rolling 3 months. Older bullets drop. **Auto-generated bullets (`auto: true`) should be re-synthesized into proper prose on next material activity.**
+6. When file exceeds budget after a write: drop oldest signal → drop oldest historical bullet → force summary refresh.
+
+### Audit trail = git history
+
+To see older signals or past states:
+
+```bash
+git log -p graph/nodes/iran.json                    # every change with diff
+git show HEAD~50:graph/nodes/iran.json              # state 50 commits ago
+git log -S "rial 1.8M" -- graph/nodes/iran.json     # find when claim was first made
+```
+
+If a fact-checker or researcher needs the full text of a signal that's no longer in `recent_signals`, they use git — DO NOT add it back to the live file.
 
 ---
 
