@@ -3,8 +3,8 @@
   "name": "INR/USD Exchange Rate",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-30",
-  "summary": "Day 63 Thursday — ₹94.82 CLOSE (Apr 29; +0.2% rupee weaker, Day 3 of ₹94.50 breach); ₹95.00 TRIGGER ₹0.18 AWAY; FOMC HAWKISH-SKEWED DISSENT REMOVES THE DXY-RELIEF VECTOR YESTERDAY'S BRIEF FLAGGED. USD/INR closed Wed Apr 29 at ₹94.73 (-0.2% rupee weaker), intraday low ₹94.80 in early trade before RBI selective dollar-sales pared losses (CONFIRMED — Business Standard, TradingEconomics, MultiBagg). Day 2 of post-₹94.50-breach regime — breach held, rupee did NOT snap back with RBI intervention. ₹95.00 round-number trigger now ₹0.27 above spot. All-time low remains ₹95.21 from late-March; rupee fallen ~1.7% over past 7 sessions. Business Standard: 'RBI intervention cushions rupee as oil strain brings record low into sight.' RBI stance: SLOW-THE-DECLINE, NOT defend-fixed-level — selective dollar sales for vol-limit, NOT structural-floor defense. PARALLEL EM-ASIA SIGNAL: Indonesian rupiah record low Wed = broad oil-sensitive-EM-Asia stress NOT idiosyncratic India. Brent breached $115 intraday Wed (close $114.64 +3.04%) — every $1/bbl Brent = ~$1.5B India annual import bill; structural pressure intensifying. UAE OPEC exit Tue Apr 28 bullish-for-India medium-term but does NOT change today's import-bill arithmetic. RBI OMC special-credit-facility (IOC/HPCL/BPCL dollar-rationing) at Day 16-17 of 30-day forced-choice clock. Cumulative April RBI dollar sales $3.6B+. FX reserves ~$700.9B (Apr 10 print). FII April MTD selling ₹56,364 Cr (heavy). [TRUNCATED — needs re-synthesis]",
+  "last_updated": "2026-05-03",
+  "summary": "Day 65. INR ₹95 TRIGGER ACTIVATED APR 30 — record low ₹95.20 intraday; close held at ₹94.88 on RBI defense. The Apr 30 morning brief was composed before the IST close and logged ₹94.82; this dossier corrects: actual session opened ₹95.01 and slipped to ₹95.20 record-low intraday driven by Brent above $120 spillover from Apr 29 US, FII outflows ₹8,047.86 Cr Apr 30 alone (NSDL), and FOMC hawkish-dissent DXY-firming. RBI conducted intermittent dollar-selling defending ₹95 round number — Bloomberg confirmed Governor framing FX curbs 'won't remain forever.' India closed May 1 (Maharashtra Day). Brent's collapse to $108.17 May 1 reduces oil-import-CAD pressure materially. Business Standard analysts now flag ₹96-97 as next levels if relief fades. The ₹95 trigger ACTIVATED on Apr 30; sustaining TBD Monday May 4 IST open.",
   "current": {
     "price": "₹94.17/USD (Tue Apr 28); RBI ref ₹94.1875",
     "delta_1d": "-0.1% (rupee strengthening at margin)",
@@ -62,8 +62,8 @@
       "type": "currency_impact_capital_flight",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 25
+      "last_activated": "2026-05-03",
+      "activation_count": 26
     },
     {
       "to": "brent-crude",
@@ -91,6 +91,15 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-03",
+      "headline": "INR ₹95 TRIGGER ACTIVATED APR 30 — RECORD LOW ₹95.20 INTRADAY; CLOSE HELD ₹94.88 ON RBI DEFENSE",
+      "sources": [
+        "Sunday Guardian",
+        "Business Standard"
+      ],
+      "verification": "CONFIRMED multi-source"
+    },
     {
       "date": "2026-04-30",
       "headline": "USD/INR ₹94.82 (Apr 29 close, +0.2% rupee weaker, DAY 3 OF ₹94.50 BREACH); ₹95.00 TRIGGER ₹0.18 AWAY; FOMC HAWKISH-SKEWE",

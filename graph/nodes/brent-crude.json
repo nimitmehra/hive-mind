@@ -3,8 +3,8 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-30",
-  "summary": "Day 63 Thursday — BRENT CLOSES $118-120 (+6-8% 1D), HIGHEST SINCE JUNE 2022; $115/Branch-1-REACTIVATION TRIGGER NOW DAY 1 CONFIRMED (sustained-close criterion met for first session). Wire-confirmed front-month: TradingEconomics $120.30 (+8.13%), CNBC $118.03 (+6.0%) close, intraday print $120 — yesterday's 19:30-IST estimate of $114.64 close was UNDER actual; the magnitude of the move was nearly double the prior day's print. Drivers: (a) Trump told Axios he REJECTS Iran's Hormuz-First proposal — *'the blockade is somewhat more effective than the bombing. They are choking like a stuffed pig'* — formally answering 'extended economic warfare as base case' on the record (CONFIRMED Axios primary; Bloomberg, NBC, CBS, NewRepublic corroborated); (b) CENTCOM 'short and powerful' strike plan PREPARED-BUT-NOT-ACTIVATED (Axios; preparation-not-action); (c) EIA Apr 29 inventory data: SHARP DRAWS in US crude/fuel stocks; US EXPORTS surged to record >6M bpd (operational confirmation of physical tightness); (d) UAE OPEC exit takes effect May 1 (calendar inflection, ~24 hours away); (e) Iran rial 1.8M/USD black market — the empirical validation of the 'blockade > bombing' strategy (Bloomberg headline literally 'US Naval Blockade Pushes Iran's Currency to Record Low'). Brent-WTI spread NARROWED $15→$13 — WTI catches Brent for first time, US export-arbitrage compressing the spread (a STRUCTURAL RESOLUTION CHANNEL, not Hormuz-resolution-driven). yfinance roll-distortion warning: BZ=F shows $111.92 / +0.6% (June contract base) — IGNORE; use wire $118-120/+6-8%. [TRUNCATED — needs re-synthesis]",
+  "last_updated": "2026-05-03",
+  "summary": "Day 65. BRENT $108.17 (-5.1% 1D, +6.9% 1M, +60.7% 3M) — DOWN $9-12/BBL FROM APR 29 HIGHS IN 2 SESSIONS ON IRAN 14-POINT PROPOSAL. The $115-sustained-2-session trigger RESOLVED-NO (Apr 29 $118-120, Apr 30 ~$110.40, May 1 $108.17). Proximate driver: Iran 14-point proposal delivered via Pakistan May 1 (CNBC primary attribution). Cross-asset: WTI $101.94 -3%, RBOB -4.7%, Heating Oil -4.6%, Urea -14.23%, Iran rial decelerated, VIX -10%, S&P record. Operational reality unchanged: blockade in place, Iran exports 567K bpd (-73%), $500M/day revenue loss, 26-76 day storage runway. DIPLOMATIC RE-PRICING move, not SUPPLY DISRUPTION REVERSAL. If Trump publicly engages within 7 days, Brent likely tests $100-105; if rejects, rebounds to $112-118 within 5 sessions. UAE OPEC exit effective May 1 was calendar-priced through April. Deployment-signal counter-trigger 'Brent <$115 sustained 5+ sessions' Day 2 confirmed.",
   "current": {
     "price": "$118.03 (CNBC close) — $120.30 (TradingEconomics close) — intraday $120; WTI front $106.88 settled +6.7%",
     "delta_1d": "+6-8% (range depending on close convention; 9th straight up session; highest since June 2022)",
@@ -78,8 +78,8 @@
       "type": "supply_dependency",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-30",
-      "activation_count": 45
+      "last_activated": "2026-05-03",
+      "activation_count": 46
     },
     {
       "to": "india",
@@ -139,6 +139,15 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-03",
+      "headline": "BRENT -5.1% TO $108.17 ON IRAN 14-POINT PROPOSAL; $115-SUSTAINED-2-SESSION TRIGGER RESOLVED-NO",
+      "sources": [
+        "CNBC",
+        "TradingEconomics"
+      ],
+      "verification": "CONFIRMED price tape"
+    },
     {
       "date": "2026-04-30",
       "headline": "BRENT CLOSES $118-120 (+6-8% 1D) — DAY 1 OF $115-SUSTAINED-2-SESSION TRIGGER CONFIRMED",

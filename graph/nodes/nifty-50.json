@@ -3,7 +3,7 @@
   "name": "Nifty 50",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-04-30",
+  "last_updated": "2026-05-03",
   "summary": "Day 63 Thursday — APR 30 IST OPENS INTO WORST-POSSIBLE-SETUP. Last printed Apr 29 IST close: Nifty 24,177.65 (+0.76%), Sensex 77,496.36 (+0.79%), Bank Nifty 55,403.60 (FLAT) — back inside 24,000-24,200 deployment zone on UAE-OPEC bullish-for-India narrative + Q4 FY26 earnings. APR 30 IST 9:15 OPEN HEADWINDS: Brent $118-120 close (+6-8% Apr 29 close, Day 1 of $115-sustained CONFIRMED) — every $1/bbl Brent = ~$1.5B India annual import bill; FOMC hawkish-skewed dissent (3:1 hawkish-vs-dovish; Powell 'energy inflation hasn't even peaked yet' — STRUCTURAL framing); DXY firmed +0.4% to 98.99 breaks 98.7 ceiling; US 10Y +7bps to 4.42% (highest 3M); USD/INR ₹94.82 (Day 3 of ₹94.50 breach, ₹95.00 trigger ₹0.18 away); Trump-Axios 'choking like a stuffed pig' rejection of Hormuz-First. Mag 7 beat-and-raise + AI-cycle survives = positive offset for IT services (Infosys, TCS, Wipro). Apple tonight (iPhone-supplier cue Tata Electronics, Wistron India, Foxconn India ecosystem). KEY APR 30 IST LEVELS: Nifty 24,200 break-above confirms re-validation; below 24,000 confirms zone breach is structural. Bank Nifty 55,400 strength if holds. USD/INR ₹95.00 if breached without RBI defense → EM-FX cascade probability rises sharply. India 10Y 7.00% → if breaks, FII debt outflow signal. Apr 29 +0.76% Nifty close looks vulnerable on Apr 30 open unless RBI signals (typically don't pre-open). KOSPI +0.3% Apr 29 / TAIEX +0.7% / SMH +1.7% on Mag 7 beat-and-raise = AI-cycle positive cue offsetting hawkish FOMC. FII April MTD selling ₹56,364 Cr; FY26 cumulative ₹1.75 lakh Cr. UAE OPEC exit takes effect TOMORROW May 1 — UAE bilateral oil supply structural positive (medium-term, not Apr 30). [TRUNCATED — needs re-synthesis]",
   "current": {
     "price": "24,177.65 (Wed Apr 29 close, +0.76%); Sensex 77,496.36 (+0.79%); Bank Nifty 55,403.60 (FLAT)",
@@ -61,16 +61,16 @@
       "type": "equity_market_decoupling",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 28
+      "last_activated": "2026-05-03",
+      "activation_count": 29
     },
     {
       "to": "inr-usd",
       "type": "fii_feedback_loop_breaking",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 22
+      "last_activated": "2026-05-03",
+      "activation_count": 23
     },
     {
       "to": "brent-crude",
@@ -98,6 +98,15 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-03",
+      "headline": "NIFTY 23,997.55 / SENSEX 76,913.50 APR 30 CLOSE; FII -₹8,047 CR; SETUP FOR MONDAY MAY 4 RECALIBRATION",
+      "sources": [
+        "yfinance",
+        "Udaipur Times"
+      ],
+      "verification": "CONFIRMED"
+    },
     {
       "date": "2026-04-29",
       "headline": "NIFTY 24,177.65 (+0.76%) BACK INSIDE DEPLOYMENT ZONE AFTER TUE BREACH; UAE-OPEC BULLISH-FOR-INDIA + Q4 EARNINGS RELIEF; ",

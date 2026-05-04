@@ -3,7 +3,7 @@
   "name": "Helium",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-04-30",
+  "last_updated": "2026-05-03",
   "summary": "Day 63 Thursday. KORNBLUTH HELIUM-CASCADE FALSIFICATION CONFIRMED — DAY 6 BINARY CLOSE: SAMSUNG Q1 RECORD PROFIT (8X YOY) WITH NO HELIUM MENTION IN EARNINGS OR FORWARD GUIDANCE; CASCADE THESIS EMPIRICALLY DEFEATED. Spot helium $1,000-1,200/Mcf (+40-100% from $500 pre-war per Tom's Hardware / Fortune / Oregon Group) — ELEVATED but stable. No new allocation-shock news Wed. Qatar 30% global supply still offline (3-5yr LNG repair timeline). Helium-cascade is FALSIFIED at tier-1 chipmaker level: SK Hynix Q1 'diversified suppliers + sufficient inventory' + Samsung Q1 helium reuse system disclosure (4.7 tons/year reduction, 19% reuse rate). Phil Kornbluth tier-1 framework empirically vindicated 6 consecutive days. Industrial-gas-producer rotation (Linde $510.29, BASF €54.63) still operationally valid. SMH -3.0% Wed (OpenAI Q1 miss-driven, NOT helium-cascade-driven) — chip-cluster decoupled from helium-cascade narrative. APR 30 SAMSUNG FULL RELEASE TOMORROW: silence on helium in guidance commentary completes Kornbluth falsification; any Q2 helium flag reopens it. The TrendForce 'two-week clock' from March 24 expired April 7 without Korean chipmaker production halt — cascade lives in 'REPORTED running below model severity' state at tier-1 level. SADARA CHEMICAL JV shutdown unchanged (June 15 grace expiry $3.7B debt). Structural 18-24mo helium elevation on Ras Laffan offline (30% global) intact. UAE OPEC exit Tue Apr 28 effective May 1 = Gulf realignment but not helium-relevant. 17% Qatar capacity offline persists. Spot helium $1,000-1,200/Mcf (+40-100% from $500 pre-war per Tom's Hardware / Fortune / Oregon Group) — ELEVATED but stable. [TRUNCATED — needs re-synthesis]",
   "current": {
     "price": "~$300+/MCF bulk liquid indicative (Smith, J2 Sourcing); Q2 allocation-notice window pushed to late-May/early-June",
@@ -39,8 +39,8 @@
       "type": "production_dependency",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 12
+      "last_activated": "2026-05-03",
+      "activation_count": 13
     },
     {
       "to": "sp-500",
@@ -61,13 +61,22 @@
     {
       "to": "semiconductors",
       "type": "supply_chain_cascade_falsified",
-      "weight": 2.0,
+      "weight": 4.0,
       "directness": 3,
-      "last_activated": "2026-04-30",
-      "activation_count": 3
+      "last_activated": "2026-05-03",
+      "activation_count": 4
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-03",
+      "headline": "HELIUM FALSIFICATION HOLDS WEEK 2 — CAPE REROUTING WORKING; LINDE +1.4% INSUFFICIENT TO CONFIRM ROTATION",
+      "sources": [
+        "Tom's Hardware",
+        "Foreign Policy"
+      ],
+      "verification": "CONFIRMED"
+    },
     {
       "date": "2026-04-30",
       "headline": "KORNBLUTH FALSIFICATION CONFIRMED — DAY 6 BINARY CLOSE",

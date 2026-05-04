@@ -3,8 +3,8 @@
   "name": "India",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-30",
-  "summary": "Day 63 Thursday — APR 30 IST OPENS INTO WORST-POSSIBLE-SETUP: BRENT +$5 SINCE PREV INDIAN CLOSE, DXY FIRMER +0.4%, US 10Y +7BPS TO 4.42%, FOMC HAWKISH-SKEWED DISSENT REMOVES DXY-RELIEF VECTOR. Apr 29 IST close (last printed): Nifty 24,177.65 (+0.76%), Sensex 77,496.36 (+0.79%), Bank Nifty 55,403.60 (FLAT) — back inside 24,000-24,200 deployment zone on UAE-OPEC bullish-for-India narrative + Q4 FY26 earnings strength. [TRUNCATED — needs re-synthesis]",
+  "last_updated": "2026-05-03",
+  "summary": "Day 65. INR ₹95 TRIGGER ACTIVATED APR 30 (intraday low ₹95.20, close ₹94.88 on RBI defense). NIFTY 23,997.55 (-0.74%) / SENSEX 76,913.50 (-0.75%) Apr 30 close; FII outflows ₹8,047.86 Cr Apr 30 alone. NSE/BSE closed May 1 (Maharashtra Day); first post-INR-breach session is Monday May 4. CHABAHAR US SANCTIONS WAIVER EXPIRED APR 26 — India transferred ~$120M to Iran before sanctions reimposition (ET via Channel I Am, Al Jazeera, ORF). India now negotiating local-Iranian-management mechanism. INSTC 7,200km India-Europe corridor loses India-managed Iranian endpoint. India MEA Operation Sindhu: 2,490 nationals evacuated from Iran via land routes (May 2). India 10Y GOI ~7.0-7.1% (3-week high). Domestic Indian framing through Apr 30 close was bearish; recalibration expected Monday May 4 if Brent stays sub-$110, INR opens stronger, US S&P record + Apple beat price into Asian carry.",
   "current": {
     "price": "Nifty 23,897.95 / Sensex 76,664.21 / USD-INR ₹94.22 / India 10Y 6.98% (Friday Apr 24 close; Sunday script reproduces)",
     "delta_1d": "Nifty -1.1%; Sensex -1.3%; USD/INR flat (rupee at ₹94.22); 10Y +4bps",
@@ -69,8 +69,8 @@
       "type": "trade_balance",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 22
+      "last_activated": "2026-05-03",
+      "activation_count": 23
     },
     {
       "to": "rbi",
@@ -99,10 +99,10 @@
     {
       "to": "iran",
       "type": "waiver_window_used_and_closed",
-      "weight": 8.0,
+      "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 4
+      "last_activated": "2026-05-03",
+      "activation_count": 5
     },
     {
       "to": "fertilizer-urea",
@@ -122,6 +122,15 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-03",
+      "headline": "CHABAHAR WAIVER EXPIRED APR 26 + INR ₹95 ACTIVATED + OPERATION SINDHU 2,490 EVACUATED",
+      "sources": [
+        "Al Jazeera",
+        "ORF"
+      ],
+      "verification": "CONFIRMED multi-source"
+    },
     {
       "date": "2026-04-29",
       "headline": "INDIA RELIEF RALLY ON UAE-OPEC BULLISH-FOR-INDIA NARRATIVE — NIFTY 24,177.65 (+0.76%) BACK INSIDE DEPLOYMENT ZONE; USD/I",
@@ -157,15 +166,6 @@
         "ORF"
       ],
       "verification": "CONFIRMED Reuters + ORF expert-speak."
-    },
-    {
-      "date": "2026-04-27",
-      "headline": "INDIAN PRESS POSTURE — DIPLOMATIC THEATRE IS THEATRE; OPERATIONAL STORY IS FUEL-PRICING ARITHMETIC + RBI SPECIAL-CREDIT-",
-      "sources": [
-        "Business Standard",
-        "Livemint Plain Facts"
-      ],
-      "verification": "OBSERVATION on institutional press convergence."
     }
   ],
   "historical_summaries": [
