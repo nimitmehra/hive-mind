@@ -262,12 +262,13 @@ def compress_node(node):
             tokens = estimate_tokens(new_node)
 
     if tokens > TOKEN_BUDGET:
-        # Step 3: truncate summary
-        # Calculate budget for summary: total target minus other components
+        # Step 3: truncate summary further (already pre-truncated upfront)
+        # Convert remaining token budget to chars for truncate_summary
         other_tokens = tokens - estimate_tokens({"summary": new_node["summary"]})
-        summary_budget = TOKEN_BUDGET - other_tokens - 50  # safety margin
-        if summary_budget > 100:
-            new_node["summary"] = truncate_summary(new_node["summary"], summary_budget)
+        summary_budget_tokens = TOKEN_BUDGET - other_tokens - 50  # safety margin
+        summary_budget_chars = int(summary_budget_tokens * BYTES_PER_TOKEN)
+        if summary_budget_chars > 350:  # ~100 token floor
+            new_node["summary"] = truncate_summary(new_node["summary"], summary_budget_chars)
             tokens = estimate_tokens(new_node)
 
     if tokens > TOKEN_BUDGET:
