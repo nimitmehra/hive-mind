@@ -3,17 +3,17 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-05-03",
-  "summary": "Day 65. BRENT $108.17 (-5.1% 1D, +6.9% 1M, +60.7% 3M) — DOWN $9-12/BBL FROM APR 29 HIGHS IN 2 SESSIONS ON IRAN 14-POINT PROPOSAL. The $115-sustained-2-session trigger RESOLVED-NO (Apr 29 $118-120, Apr 30 ~$110.40, May 1 $108.17). Proximate driver: Iran 14-point proposal delivered via Pakistan May 1 (CNBC primary attribution). Cross-asset: WTI $101.94 -3%, RBOB -4.7%, Heating Oil -4.6%, Urea -14.23%, Iran rial decelerated, VIX -10%, S&P record. Operational reality unchanged: blockade in place, Iran exports 567K bpd (-73%), $500M/day revenue loss, 26-76 day storage runway. DIPLOMATIC RE-PRICING move, not SUPPLY DISRUPTION REVERSAL. If Trump publicly engages within 7 days, Brent likely tests $100-105; if rejects, rebounds to $112-118 within 5 sessions. UAE OPEC exit effective May 1 was calendar-priced through April. Deployment-signal counter-trigger 'Brent <$115 sustained 5+ sessions' Day 2 confirmed.",
+  "last_updated": "2026-05-05",
+  "summary": "Day 67. BRENT $113.48 INTRADAY (Tue May 5 11:23 IST, -0.8% 1D give-back from $114.44 Mon May 4 close which was +5.80%) — 3-DAY ROUND-TRIP after kinetic restart: May 1 close $108.17 (Iran 14-point pricing) → May 4 close $114.44 (Trump rejection + Iran multi-axis kinetic) → Tue intraday $113.48. The $115-sustained-2-session trigger remains RESOLVED-NO; sub-$115 chain extended to Day 3 of 5 (Apr 30 $110.40 + May 1 $108.17 + May 4 $114.44 — ALL <$115) but directional momentum INVERTED. Cross-asset adjudication: VIX +7.7% to 18.29; USD/INR record ₹95.34 (+0.5% Tue, Day 2 sustained); S&P -0.41% off May 1 record close; Apple held flat $280.14; KOSPI +5.1% record DECOUPLED; Linde -2.8% (helium-rotation thesis FAILED); CF Industries +2.6% (fertilizer war-bid); Wheat/Corn/Sugar +2.3-3.0%. Operational reality: Project Freedom convoy operational; 2 US destroyers transited Hormuz under armed escort; Iran exports still 567K bpd (-73% pre-blockade per Kpler); UAE Fujairah Oil Industry Zone hit (Abu Dhabi pipeline = bypass infrastructure). RISK PREMIUM RE-RATE move, not SUPPLY DISRUPTION (Project Freedom WORKING — armed transit successful). Tue give-back of $1 is cleanest signal markets pricing kinetic-restart as continuation of contested-blockade equilibrium, NOT regime change. Forward path: $110-115 hold = contested equilibrium; >$118 sustained = kinetic intensification priced; <$108 = de-escalation possibility re-priced.",
   "current": {
-    "price": "$118.03 (CNBC close) — $120.30 (TradingEconomics close) — intraday $120; WTI front $106.88 settled +6.7%",
-    "delta_1d": "+6-8% (range depending on close convention; 9th straight up session; highest since June 2022)",
-    "delta_1m": "est +12-15% (from ~$104 1M ago)",
-    "delta_3m": "est +66% (from $72.10 Feb 28 baseline)",
-    "branch_status": "Branch 2 (theatrical stalemate at $115-125) ~55%; Branch 1 (kinetic) ~25% (CENTCOM plan prepared but Trump explicitly chose blockade over bombing); Branch 3 (de-escalation) ~20% (rial pressure risi...",
-    "regime_shift_marker": "April 30 — $115-sustained-2-session trigger DAY 1 CONFIRMED. Trump's Axios 'choking like a stuffed pig' rejection of Iran's Hormuz-First is the formal-on-record version of yesterday's operational s...",
-    "brent_wti_spread": "$13 (down from $15+ Apr 28) — NARROWING for first time as WTI catches Brent. The narrowing IS a structural-resolution-channel signal (US export arbitrage at record >6M bpd) but also intersects with...",
-    "dated_vs_june_backwardation": "$20-25/bbl (still extreme; modestly compressed from $25+ Apr 28) — physical buyers continue scrambling for prompt cargoes; physical-tightness signal persists."
+    "price": "$113.48 (Tue May 5 11:23 IST intraday); $114.44 May 4 close",
+    "delta_1d": "-0.8% Tue (give-back); +5.80% Mon May 4 (Iran kinetic restart)",
+    "delta_1m": "+3.4%",
+    "delta_3m": "+68.0%",
+    "branch_status": "Branch 1 (kinetic) ~40-45% (UP from 25% on May 3); Branch 2 (extended-economic-warfare under armed escort) ~40%; Branch 3 (de-escalation) ~15-20% (DOWN from 25%).",
+    "regime_shift_marker": "May 4 — kinetic restart + Project Freedom = HORMUZ CONTESTED-IN-ARMED-ESCORT equilibrium. The May 1-3 'expansion of probability distribution' diplomatic-window framing has been re-compressed within 72 hours.",
+    "brent_wti_spread": "WTI $104.41 -1.9% Tue; spread ~$9 (compressed from $13 May 1)",
+    "dated_vs_june_backwardation": "Compressing as kinetic restart re-prices forward curve; physical-tightness signal moderates"
   },
   "active_triggers": [
     {
@@ -139,6 +139,18 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-05",
+      "headline": "BRENT 3-DAY ROUND-TRIP: $108.17 (May 1) → $114.44 (May 4 +5.80%, kinetic restart) → $113.48 (Tue intraday -0.8%); SUB-$115 CHAIN DAY 3/5 BUT MOMENTUM REVERSED",
+      "sources": [
+        "TradingEconomics",
+        "Fortune",
+        "CNBC",
+        "Yahoo Finance live blog",
+        "market-data.py 11:23 IST"
+      ],
+      "verification": "CONFIRMED price tape multi-source"
+    },
     {
       "date": "2026-05-03",
       "headline": "BRENT -5.1% TO $108.17 ON IRAN 14-POINT PROPOSAL; $115-SUSTAINED-2-SESSION TRIGGER RESOLVED-NO",

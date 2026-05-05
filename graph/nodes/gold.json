@@ -3,15 +3,15 @@
   "name": "Gold",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-05-03",
-  "summary": "Day 63 Thursday — GOLD $4,581/oz (-0.2% 1D, +1.2% 1M, -13.9% 3M); DAY 10 OF INFLATION-REGIME CALL — POWELL VERBAL VALIDATION ON THE RECORD ('IT HASN'T EVEN PEAKED YET'). Gold should have spiked 1-2% on Trump-Axios 'choking like a stuffed pig' rejection of Hormuz-First + Brent $118-120 + Iran rial 1.8M + Hormuz Day 62. Instead gold is FLAT-TO-DOWN (-0.2%). Why underperforming (UNCHANGED but REINFORCED): (1) US 10Y at 4.42% (+1.5% 1D / +7bps) — real yields competing harder; Powell's 'energy inflation hasn't even peaked yet' framing means Fed-cut catalyst is FURTHER out (CME FedWatch: 0% Apr cut, 30% by Dec from prior 70% in Mar). (2) DXY at 98.99 (+0.4% 1D, breaks 98.7 ceiling) — dollar firms on hawkish-skewed FOMC dissent (3 wanted MORE hawkish framing vs 1 dovish); EM-currency safe-haven demand absorbed by USD not gold. (3) Crowded positioning persists (COMEX gold longs near multi-year highs). (4) Crisis priced as INFLATION event, not FINANCIAL-SYSTEM-RISK event. POWELL VERBAL VALIDATION OF REGIME ON THE RECORD: yesterday's brief was at Day 9 of empirical confirmation; today is Day 10 with Powell's explicit verbal validation. The graph downgrade of gold $4,600 trigger from active to watching (yesterday) was correct AND should NOW BE MOVED FROM WATCHING TO RESOLVED-INACTIVE until regime shift signal (EM-Asia FX-stress contagion confirmed via Indonesian rupiah record-low Apr 29 / Indian rupee at ₹95.00+ sustained / Gulf bank or sovereign credit-spread widening / US bank with Iran-counterparty disclosure). For investor: DO NOT add to gold above $4,800 in this regime. [TRUNCATED — needs re-synthesis]",
+  "last_updated": "2026-05-05",
+  "summary": "Day 67 Tuesday. GOLD $4,558.70 (+0.9% Tue 1D, -2.1% 1M, -6.2% 3M) — partial recovery after May 4 dip below $4,600 watching trigger; gave back the May 1 push to $4,644.50. The May 3 brief noted Day 10 of inflation-regime call ('REINFORCED') with Powell 'it hasn't even peaked yet' framing; May 4-5 events partially test that framing — kinetic restart did NOT produce a clean safe-haven bid in gold. US 10Y +1.6% Tue to 4.45% (5-week high) — real yields competing harder. DXY 98.52 (+0.1%) — firm. The 'INR ₹95.00+ sustained' partial regime-shift trigger (which was specified as one path to gold-rally regime change) IS NOW ACTIVATED Day 2 — Tue ₹95.34 — but gold's response is muted (+0.9%), suggesting the regime is still INFLATION-RISK DOMINANT not yet FINANCIAL-SYSTEM-RISK. Crowded COMEX positioning persists. The watching-trigger 'Gulf-exposed bank reports unexpected Q1 loss' has NOT activated. The INFLATION regime call holds. For investor: gold tracks DXY/real-yields, not crisis-beta — kinetic-restart day proved this with $25 round-trip but no regime change.",
   "current": {
-    "price": "$4,581/oz (Thu Apr 30; Wed Apr 29 close)",
-    "delta_1d": "-0.2%",
-    "delta_1m": "+1.2%",
-    "delta_3m": "-13.9%",
-    "regime": "INFLATION-RISK DOMINANT — gold tracks DXY/real-yields, not crisis-beta. Goldman regime call Day 10 of empirical confirmation with POWELL VERBAL VALIDATION on the record ('it hasn't even peaked yet'...",
-    "fomc_outcome": "RESOLVED 2026-04-30: Powell chose STRUCTURAL framing not transitory. DXY firmed +0.4% to 98.99 (breaks 98.7 ceiling); US 10Y +7bps to 4.42%; gold trapped under $4,600. Real-yield competition deepen..."
+    "price": "$4,558.70 (Tue May 5 11:23 IST intraday)",
+    "delta_1d": "+0.9% Tue",
+    "delta_1m": "-2.1%",
+    "delta_3m": "-6.2%",
+    "regime": "INFLATION-RISK DOMINANT — kinetic-restart May 4 produced muted +0.9% gold recovery; INR ₹95+ activation Day 2 produced no regime-shift bid; gold-as-FINANCIAL-SYSTEM-RISK regime NOT yet triggered.",
+    "watching_threshold": "$4,600 watching trigger; Mon May 4 close ~$4,517 was below — would need 3+ sessions sustained above $4,600 for regime-shift confirmation."
   },
   "active_triggers": [
     {
@@ -93,6 +93,17 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-05",
+      "headline": "GOLD $4,558.70 +0.9% TUE — PARTIAL RECOVERY AFTER MAY 4 DIP BELOW $4,600 ON KINETIC RESTART; INR ₹95+ ACTIVATION PRODUCED MUTED BID — INFLATION-REGIME HOLDS",
+      "sources": [
+        "TradingEconomics",
+        "FXDailyReport",
+        "RTTNews",
+        "market-data.py"
+      ],
+      "verification": "CONFIRMED price tape multi-source"
+    },
     {
       "date": "2026-05-03",
       "headline": "GOLD $4,644.50 — HOLDS ABOVE $4,600 ON RISK-ON DAY (NOT REGIME-SHIFT ACTIVATION)",

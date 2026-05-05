@@ -3,8 +3,8 @@
   "name": "Iran",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-05-03",
-  "summary": "Day 65 Sunday. IRAN DELIVERS 14-POINT COUNTER-PROPOSAL VIA PAKISTAN MAY 1-2 — IRNA/Tasnim/Fars/Press TV all carry; Pakistani officials confirmed receipt to MS NOW. Trump 'not satisfied' but reviewing; 'leadership disjointed... two, three, maybe four groups.' Markets adjudicated as substantive: Brent -5.1% to $108.17, VIX -10% to 16.88, S&P record close 7,230. Rial decelerated 1.80M -> 1.83M (only +1.7% in 3D vs +36% prior 6D). Oil exports collapsed 73% to 567K bpd vs 2.1M pre-blockade (Kpler); $500M/day revenue loss; storage runway 26-76 days (Columbia CGEP). Tasnim/Fars (IRGC-linked) carrying proposal validates IRGC nominal alignment — meaningful shift from Apr 30 'operational paralysis.' 14-point asks: 30-day resolution, lift blockade, withdraw US forces from Iran's surroundings, free assets, compensation, full sanctions removal, end fighting on all fronts incl Lebanon, NEW Hormuz governance mechanism. Mojtaba Day 56 absence (Mashhad-mural-refutation window EXPIRED Day 8 of 7). Hezbollah-Lebanon 80+ killed 48hr May 1-2 in IDF strikes despite Apr 17 ceasefire. UAE OPEC exit effective May 1; Saudi MBS conspicuous-quiet Day 5 of 14. Chabahar US sanctions waiver expired Apr 26. Branches: kinetic ~25%, extended-economic-warfare ~50%, negotiated-resolution ~25% (re-priced UP from 10%).",
+  "last_updated": "2026-05-05",
+  "summary": "Day 67 Tuesday. KINETIC RESTART MAY 4 — TRUMP REJECTED 14-POINT PROPOSAL AS 'NOT ACCEPTABLE'; IRAN RESPONDED SAME DAY WITH MULTI-AXIS ATTACKS: cruise missiles + drones + small boats at US Navy + commercial vessels in Hormuz; 4 cruise missiles + drone strike at UAE Fujairah Oil Industry Zone (3 Indian nationals injured); explosion+fire on SK-flagged HMM Namu cargo ship in Hormuz. US helicopters (Apache+Seahawk) sank 6 small Iranian boats (Trump said 7); 2 US destroyers transited Hormuz under 'Project Freedom'. The May 1-3 diplomatic-window thesis is decisively contested. State media REVERSE-CYCLED: IRNA dismissed Project Freedom as 'delirium'; Tasnim threatened UAE ('all of its interests will become Iran's target'); IRGC claimed prevented US warship entry. US response to 14-point conveyed back via Pakistan, under Iranian review (procedural fig leaf). Apr 8 US-Iran ceasefire effectively broken. Markets adjudicated: Brent +5.80% to $114.44 May 4 (-0.8% Tue intraday giveback to $113.48); VIX +7.7% to 18.29; USD/INR fresh record ₹95.34 (+0.5% Tue, Day 2 sustained); S&P -0.41% to 7,200.75 off record close; Apple flat $280.14; KOSPI +5.1% record 6,936.99 (DECOUPLED on AI cycle). Rial decelerated to 1.818M IRR/USD (+0.28% 1D — flat 4 sessions; hyperinflation 2M trigger window extends despite kinetic restart). Mojtaba Day 58 absence; refutation window EXPIRED. Branches: kinetic ~40-45% (UP), extended-economic-warfare ~40%, negotiated-resolution ~15-20% (DOWN from 25%).",
   "current": {},
   "active_triggers": [
     {
@@ -80,11 +80,11 @@
     },
     {
       "to": "united-states",
-      "type": "active_conflict_negotiating",
+      "type": "active_conflict_kinetic_restart",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-03",
-      "activation_count": 46
+      "last_activated": "2026-05-05",
+      "activation_count": 48
     },
     {
       "to": "hezbollah",
@@ -96,11 +96,11 @@
     },
     {
       "to": "uae",
-      "type": "diplomatic_deescalation",
+      "type": "kinetic_strike_oil_infrastructure",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-16",
-      "activation_count": 18
+      "last_activated": "2026-05-05",
+      "activation_count": 19
     },
     {
       "to": "qatar",
@@ -128,6 +128,21 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-05",
+      "headline": "KINETIC RESTART MAY 4: TRUMP REJECTED 14-POINT AS 'NOT ACCEPTABLE'; IRAN MULTI-AXIS ATTACKS — CRUISE MISSILES + DRONES + SMALL BOATS AT US NAVY/COMMERCIAL/UAE FUJAIRAH/SK HMM NAMU; US SANK 6 IRANIAN BOATS UNDER PROJECT FREEDOM; APR 8 CEASEFIRE EFFECTIVELY BROKEN",
+      "sources": [
+        "Al Jazeera",
+        "CNN",
+        "CNBC",
+        "NPR",
+        "CBS",
+        "The National UAE",
+        "CENTCOM",
+        "Trump Truth Social"
+      ],
+      "verification": "CONFIRMED multi-source action; Iranian state media (Tasnim/IRNA) confirmed; CENTCOM/UAE MoD/Korean MFA/India MEA all confirmed kinetic events"
+    },
     {
       "date": "2026-05-03",
       "headline": "IRAN DELIVERS 14-POINT COUNTER-PROPOSAL VIA PAKISTAN; TRUMP 'NOT SATISFIED' BUT REVIEWING; IRGC OUTLETS VALIDATE",

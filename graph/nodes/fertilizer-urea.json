@@ -3,14 +3,14 @@
   "name": "Fertilizer / Urea",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-05-03",
-  "summary": "Day 63 Thursday. CF INDUSTRIES +3.7% 1D TO $126.78 — FERTILIZER FIRMING ON QATAR-FERTILIZER-EXPORT CONCERN + BRENT FEEDSTOCK COST-PASS-THROUGH; CF Q1 MAY 6 STILL THE BINARY TEST. CF $126.78 (+3.7% 1D, -7.9% 1M, +36.7% 3M) — strongest day of fertilizer trade in 2 weeks. Drivers: Brent $118-120 close (+6-8% 1D, Day 1 of $115-sustained CONFIRMED) elevates feedstock cost; Qatar fertilizer-export concern persists (downstream urea HALTED per Carnegie/Brownfield); UAE OPEC exit takes effect TOMORROW May 1 (Gulf realignment indirect-bullish for fertilizer-as-Hormuz-route-dependent). Nutrien +1.7%; Linde -1.1%; BASF data error today. The equity-vs-physical divergence persists: physical urea Yuzhny FOB ~$692/mt FLAT vs equity CF firming. CF Q1 May 6 IS THE BINARY TEST of equity-vs-realized-pricing divergence: physical urea $692/mt 1Q realized pricing → CF base case Q1 reflects strong realized pricing; May 6 print could be POSITIVE SURPRISE vs the de-escalation-discounted equity. QatarEnergy downstream urea HALTED structurally — physical supply chain unchanged 2027. Linde + BASF chemical/industrial-gas rotation intact at producer level via spot-premium capture. Industrial-gas-producer rotation captures helium spot premium ($1,000-1,200/Mcf vs $500 pre-war) without chip-margin pass-through (Samsung Q1 NO HELIUM MENTION confirms tier-1 falsification). PRIOR DAY-1 SUMMARY (preserved): Tue: CF Industries $123.63 (+2.2% 1D, -6.7% 1M, +33.4% 3M); Nutrien $72.37 (+1.1%); Linde $510.75 (+0.1% 1D, +3.1% 1M, +13.5% 3M); Urea Yuzhny FOB ~$692.25/mt (Apr 24, -0.25% 1D, FLAT 1M, +60% YoY). Argus reported Middle East granular urea sold high-$410s/mt FOB recently — wide regional spreads. [TRUNCATED — needs re-synthesis]",
+  "last_updated": "2026-05-05",
+  "summary": "Day 67 Tuesday. **CF INDUSTRIES +2.6% TUE TO $125.89 ON FERTILIZER WAR-BID** — kinetic restart May 4 + Qatar fertilizer-supply concern persisting + Indian RCF tender May 9 = real fertilizer cascade transmission to India. Argus tender data May 4: Egyptian NCIC sold 20,000t DAP at up to $880/t fob (+5-10% over April $805-820/t avg); urea 10,000t at $852/t fob Ain Sokhna; NCIC offering further 30,000t DAP closing May 4. Indian fertilizer producer/importer RCF issued tender to buy phosphate rock and/or DAP/MAP and MOP closing May 9 — Indian government sourcing aggressively, suggesting agriculture-input strategic stockpiling activity. The May 1 urea -14.23% (TradingEconomics) on diplomatic-window pricing has reversed: urea expected to re-rate +5-10% from $585/T baseline on kinetic restart pricing. Wheat/Corn/Sugar all +2.3-3.0% Tue in sympathy. Linde -2.8% Tue (industrial-gas-producer rotation FAILED — see helium node). QatarEnergy downstream urea HALTED structurally; physical supply chain unchanged through 2027. CF Q1 May 6 BINARY TEST UNCHANGED — May 4 kinetic restart elevates equity-fundamentals tilt. Nutrien +0.8% Tue (lagging CF). The equity-vs-physical divergence is now equity catching up: CF +2.6% on Tue while urea repricing back upward. CF cumulative +38.6% 3M — strongest fertilizer-equity arc of crisis.",
   "current": {
-    "price": "CF Industries $120.93 (Friday close); Nutrien $71.57; Linde $510.30; BASF €54.32; Urea Yuzhny ~$692/mt (Apr 23)",
-    "delta_1d": "CF -3.7%; Nutrien -0.9%; Linde +0.4%; BASF +0.1%; Urea -0.1%",
-    "delta_1m": "CF -5.6%; Urea +3.3%; BASF +11.2%",
-    "delta_3m": "CF +32.7%; Nutrien +2.6%; Urea +60% YoY",
-    "profercy_world_nitrogen_index": "352.95 — highest since May 2022"
+    "price": "CF Industries $125.89 (Tue +2.6%); Nutrien $75.82 (+0.8%); Linde $493.55 (-2.8%); BASF €52.85 (+0.7%); Urea TradingEconomics ~$585/T May 1 baseline; DAP NCIC $880/t fob May 4",
+    "delta_1d": "CF +2.6%; Nutrien +0.8%; Linde -2.8%; BASF +0.7%",
+    "delta_1m": "CF -3.1%; Linde -1.8%; BASF +5.2%",
+    "delta_3m": "CF +38.6%; Nutrien +12.3%; Linde +7.7%; BASF +10.8%",
+    "profercy_world_nitrogen_index": "Re-rating upward on May 4 kinetic restart"
   },
   "active_triggers": [
     {
@@ -67,6 +67,17 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-05",
+      "headline": "CF +2.6% TUE TO $125.89 ON FERTILIZER WAR-BID; ARGUS NCIC DAP $880/T FOB MAY 4 (+5-10% OVER APRIL); RCF INDIA TENDER MAY 9 — STRATEGIC STOCKPILING",
+      "sources": [
+        "Argus Media",
+        "TradingEconomics",
+        "market-data.py",
+        "DTN Progressive Farmer"
+      ],
+      "verification": "CONFIRMED Argus tender data + market-data.py price tape"
+    },
     {
       "date": "2026-05-03",
       "headline": "UREA -14.23% TO $585/T MAY 1 — LARGEST SINGLE-DAY MOVE IN DOSSIER (3X BRENT'S MOVE)",

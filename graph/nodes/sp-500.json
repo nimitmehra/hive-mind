@@ -3,13 +3,13 @@
   "name": "S&P 500",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-05-03",
-  "summary": "Day 63 Thursday — S&P 7,135.95 FLAT (-0.0%, NASDAQ +0.0%) ON FOMC HAWKISH-DISSENT + MAG 7 BEAT-AND-RAISE; VIX +5.5% TO 18.81 (FIRST-DAY REVERSAL OF -41.4% 1M EXTREME-COMPLACENCY TREND); SMH +1.7% RECOVERING APR 28 -3.0% SELLOFF. S&P 500 closed Wed Apr 29 at 7,138.80 (-0.5% 1D, +12.1% 1M); NASDAQ 24,663.80 (-0.9% 1D, +17.7% 1M); DOW 49,141.93 (-0.1%); VIX 17.93 (+0.6% 1D, -41.4% 1M); SMH 491.21 (-3.0% 1D, +31.3% 1M); URA 54.23 (-4.4% 1D); XLE 57.71 (+1.7% 1D on oil bid); Cheniere LNG 264.98 (+2.2%); Exxon 150.56 (+1.6%). DOMINANT NON-WAR DRIVER: WSJ Tue Apr 28 reported OpenAI MISSED Q1 INTERNAL TARGETS — 1B WAU goal, actual ~900M; CFO Sarah Friar told leadership she is worried about ability to fund future compute contracts if revenue doesn't accelerate. AI-spend-trajectory thesis cracks: if OpenAI (the demand anchor for Nvidia/AMD/Broadcom hyperscaler-scale orders) slows, the entire AI-capex stack reprices. SMH -3.0% biggest down-day since Mar 30; KOSPI +0.8% Wed DECOUPLED (Korean memory/HBM has its own cycle); TAIEX -0.6% modest pullback. Crisis resolving does NOT fix OpenAI's revenue miss — SEPARATE entry signal independent of war's resolution. MAG 7 EARNINGS TONIGHT (after Wed close): Microsoft Q3 (Azure growth, OpenAI deal revenue cap), Meta (capex $115-135B), Alphabet ($175-185B capex), Amazon ($200B capex). These four reports are the NEXT-24-HOUR BINARY DETERMINANT for AI-capex narrative. Microsoft-OpenAI partnership restructured Apr 27 (Microsoft no longer shares revenue with OpenAI) adds governance uncertainty. [TRUNCATED — needs re-synthesis]",
+  "last_updated": "2026-05-05",
+  "summary": "Day 67 Tuesday — S&P 500 7,200.75 (-0.41% Mon May 4 off May 1 record close 7,230.12); NASDAQ 25,067.80 (-0.19% Mon, -0.2% Tue); DOW 48,941.90 (-1.1% Tue); VIX 18.29 (+7.7% Tue); SMH $506.79 (-0.6% Tue, +29.2% 1M, +33.0% 3M); APPLE flat at $280.14 (Mon close, intraday May 4 range $271.35-$287.21 = $15.86 swing on multi-axis kinetic-restart day); URA $54.77 (-1.9% Tue, +12.0% 1M); XLE $59.39 (+0.9% Tue); Cheniere LNG $272.85 (+1.0% Tue, -3.0% 1M); Exxon $153.69 (+0.6% Tue); Lockheed $518.15 (+1.0% Tue, -16.8% 1M); Linde $493.55 (-2.8% Tue, helium-rotation thesis FAILED). **Mag 7/AI cycle thesis VALIDATED under geopolitical stress** — Apple absorbed Mon multi-axis Iran kinetic + UAE strike + SK ship damage day with intraday swing $15+ and closed FLAT at $280. KOSPI +5.1% record same day = AI-tech demand structurally separated from West Asia risk. The May 1-3 'risk-on coordination' (S&P record + Apple +3.24% + VIX collapse to 16.88) has been partially reversed by May 4 kinetic restart but the AI-capex demand layer holds. CME June cut probability ~28%; Polymarket 56.4% probability of zero 2026 cuts. VIX 22+ trigger (long-vol entry signal) at 18.29 = NOT activated — vol regime 'elevated but not regime-shifted.'",
   "current": {
-    "price": "S&P 500 7,173.91 Tue (+0.1%); NASDAQ 24,887.10 (+0.2%); DOW 49,167.79 (-0.1%); VIX 18.02 (-3.7%); SMH $506.26 (flat 1D)",
-    "delta_1d": "S&P +0.1%; NASDAQ +0.2%; DOW -0.1%; VIX -3.7%; SMH flat",
-    "delta_1m": "S&P +10.8%; NASDAQ +16.3%; SMH +32.9%; VIX -34.3%",
-    "delta_3m": "S&P +2.8%; NASDAQ +4.3%; SMH +21.5%; VIX +10.2%"
+    "price": "S&P 500 7,200.75 (May 4 close); NASDAQ 25,067.80; DOW 48,941.90; VIX 18.29; SMH $506.79; AAPL ~$280.14 (Mon close)",
+    "delta_1d": "S&P -0.41% Mon (off May 1 record); NASDAQ -0.19% Mon, -0.2% Tue; DOW -1.1% Tue; VIX +7.7% Tue; SMH -0.6%; AAPL flat Mon",
+    "delta_1m": "S&P +9.4%; NASDAQ +14.6%; SMH +29.2%; VIX -23.4%",
+    "delta_3m": "S&P +5.9%; NASDAQ +11.2%; SMH +33.0%; VIX -1.9%"
   },
   "active_triggers": [
     {
@@ -92,6 +92,18 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-05",
+      "headline": "S&P -0.41% MAY 4 OFF MAY 1 RECORD; APPLE FLAT $280 ABSORBED MULTI-AXIS IRAN KINETIC DAY (INTRADAY $271-287); VIX +7.7% TO 18.29 PROPER RISK-OFF; KOSPI +5.1% RECORD = AI-CYCLE DECOUPLING",
+      "sources": [
+        "CNBC",
+        "Yahoo Finance live blog",
+        "TheStreet",
+        "Bloomberg",
+        "market-data.py"
+      ],
+      "verification": "CONFIRMED multi-source price tape"
+    },
     {
       "date": "2026-05-03",
       "headline": "S&P 500 RECORD CLOSE 7,230.12 + AAPL +3.24% + VIX -10% + BRENT -2% — RISK-ON COORDINATION",

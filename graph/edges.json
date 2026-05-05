@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30",
+  "last_updated": "2026-05-05",
   "edges": [
     {
       "from": "aluminum",
@@ -62,7 +62,7 @@
       "to": "inr-usd",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "brent-crude",
@@ -97,7 +97,7 @@
       "to": "strait-of-hormuz",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-30"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "china",
@@ -314,7 +314,7 @@
       "to": "israel",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-29"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "hezbollah",
@@ -459,9 +459,9 @@
     {
       "from": "inr-usd",
       "to": "india",
-      "weight": 10,
+      "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "inr-usd",
@@ -559,21 +559,21 @@
       "to": "strait-of-hormuz",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "iran",
       "to": "uae",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-16"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "iran",
       "to": "united-states",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-30"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "iraq",
@@ -720,7 +720,7 @@
       "to": "israel",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "united-states",
@@ -748,7 +748,7 @@
       "to": "strait-of-hormuz",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "mojtaba-khamenei",
@@ -858,9 +858,9 @@
     {
       "from": "pakistan",
       "to": "iran",
-      "weight": 8.5,
+      "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "pakistan",
@@ -879,9 +879,9 @@
     {
       "from": "pakistan",
       "to": "united-states",
-      "weight": 9.0,
+      "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "pezeshkian",
@@ -1154,7 +1154,7 @@
       "to": "brent-crude",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-30"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "strait-of-hormuz",
@@ -1301,7 +1301,7 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-19"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "uae",
@@ -1327,9 +1327,9 @@
     {
       "from": "united-states",
       "to": "iran",
-      "weight": 10,
+      "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "united-states",
@@ -1635,9 +1635,9 @@
     {
       "from": "semiconductors",
       "to": "sp-500",
-      "weight": 7.5,
+      "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "semiconductors",
@@ -1649,9 +1649,9 @@
     {
       "from": "helium",
       "to": "semiconductors",
-      "weight": 2.0,
+      "weight": 4.0,
       "directness": 3,
-      "last_activated": "2026-04-30"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "taiwan",
@@ -1663,9 +1663,9 @@
     {
       "from": "south-korea",
       "to": "semiconductors",
-      "weight": 8.5,
+      "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-04-25"
+      "last_activated": "2026-05-05"
     },
     {
       "from": "trump",
@@ -1778,6 +1778,14 @@
       "weight": 8.0,
       "directness": 1,
       "last_activated": "2026-04-30"
+    },
+    {
+      "from": "iran",
+      "to": "south-korea",
+      "weight": 6.0,
+      "directness": 2,
+      "last_activated": "2026-05-05",
+      "type": "kinetic_to_decoupled"
     }
   ]
 }
