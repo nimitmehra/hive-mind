@@ -23,6 +23,7 @@ Exit codes:
 import argparse
 import json
 import re
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -196,6 +197,55 @@ def send_telegram_message(token: str, chat_id: str, text: str, dry_run: bool) ->
     }
 
 
+def send_telegram_document(
+    token: str, chat_id: str, file_path: Path, caption: str, dry_run: bool
+) -> dict:
+    """Send the full brief as a markdown document via Telegram (multipart upload via curl)."""
+    if dry_run:
+        return {
+            "channel": "telegram_document",
+            "status": "dry_run",
+            "would_send": str(file_path),
+        }
+    if not file_path.exists():
+        return {
+            "channel": "telegram_document",
+            "status": "failed",
+            "error": f"file missing: {file_path}",
+        }
+
+    url = f"{TELEGRAM_API_BASE}{token}/sendDocument"
+    cmd = [
+        "curl", "-s", "-X", "POST", url,
+        "-F", f"chat_id={chat_id}",
+        "-F", f"document=@{file_path}",
+        "-F", f"caption={caption[:1024]}",
+    ]
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+        body = json.loads(result.stdout) if result.stdout else {}
+        if not body.get("ok"):
+            return {
+                "channel": "telegram_document",
+                "status": "failed",
+                "error": body.get("description", result.stderr[:200] or "no body"),
+            }
+        return {
+            "channel": "telegram_document",
+            "status": "sent",
+            "message_id": body["result"]["message_id"],
+            "sent_at": datetime.now(timezone.utc).isoformat(),
+        }
+    except subprocess.TimeoutExpired:
+        return {"channel": "telegram_document", "status": "failed", "error": "timeout"}
+    except Exception as e:
+        return {
+            "channel": "telegram_document",
+            "status": "failed",
+            "error": f"unexpected: {e}",
+        }
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", required=True, help="YYYY-MM-DD")
@@ -222,24 +272,36 @@ def main() -> int:
     parsed = parse_brief(text)
     summary = compose_telegram_summary(parsed, args.date, args.edition)
 
-    result = send_telegram_message(token, chat_id, summary, args.dry_run)
-    print(json.dumps(result, indent=2))
+    msg_result = send_telegram_message(token, chat_id, summary, args.dry_run)
+    print(json.dumps(msg_result, indent=2))
 
-    if result.get("status") in ("sent", "sent_plain", "dry_run"):
-        # Write delivery receipt for audit
-        log_dir = REPO / f"staging/{args.date}-{args.edition}"
-        log_dir.mkdir(parents=True, exist_ok=True)
-        receipt = {
-            "date": args.date,
-            "edition": args.edition,
-            "result": result,
-            "summary_chars": len(summary),
-        }
-        (log_dir / "telegram-delivery-log.json").write_text(
-            json.dumps(receipt, indent=2)
-        )
+    # Always send the full brief as a document so the user can read it on phone
+    # (independent of the summary message — even if message fails, document attempt is worth it)
+    doc_caption = f"Hive-Mind Crisis Brief — {args.date} ({args.edition.capitalize()})"
+    doc_result = send_telegram_document(
+        token, chat_id, brief_path, doc_caption, args.dry_run
+    )
+    print(json.dumps(doc_result, indent=2))
+
+    # Write delivery receipt for audit (records both attempts)
+    log_dir = REPO / f"staging/{args.date}-{args.edition}"
+    log_dir.mkdir(parents=True, exist_ok=True)
+    receipt = {
+        "date": args.date,
+        "edition": args.edition,
+        "summary_chars": len(summary),
+        "message_result": msg_result,
+        "document_result": doc_result,
+    }
+    (log_dir / "telegram-delivery-log.json").write_text(json.dumps(receipt, indent=2))
+
+    # Exit 0 if either channel succeeded; 1 if both failed
+    success_states = ("sent", "sent_plain", "dry_run")
+    if (
+        msg_result.get("status") in success_states
+        or doc_result.get("status") in success_states
+    ):
         return 0
-
     return 1
 
 
