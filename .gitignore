@@ -26,3 +26,7 @@ __pycache__/
 # Environment
 .env
 .claude/settings.local.json
+
+# Secrets — Telegram bot credentials (never commit)
+telegram_bot_token.txt
+telegram_chat_id.txt
