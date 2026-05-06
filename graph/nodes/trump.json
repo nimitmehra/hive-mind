@@ -3,8 +3,8 @@
   "name": "Donald Trump",
   "type": "person",
   "created": "2026-03-30",
-  "last_updated": "2026-05-05",
-  "summary": "Day 67. TRUMP REJECTED IRAN 14-POINT AS 'NOT ACCEPTABLE' MAY 4 (Truth Social: Iran has 'not yet paid a big enough price for what they have done to Humanity'); warned Iranian forces would be 'BLOWN OFF THE FACE OF THE EARTH' if they targeted US ships; on restart of strikes: 'I don't want to say that... if they misbehave... it's a possibility that could happen.' Asked whether US-Iran ceasefire still in effect — declined to confirm. US response to Iran's 14-point conveyed back via Pakistan; Iran reviewing. Same day Iran launched multi-axis kinetic restart — Trump confirmed Iran 'taken some shots' but 'caused little damage' (publicly minimized escalation). Project Freedom announced as ongoing US Navy operation: 2 destroyers transited Hormuz successfully, 6-7 Iranian fast boats sunk. The May 3 watching trigger 'US substantively engages on Iran proposal within 14 days' is RESOLVED-NO at Day 4 (rejected, not engaged). Markets re-priced: Brent +5.80% to $114.44; VIX +7.7% to 18.29; S&P -0.41% off May 1 record. The April 30 'extended-economic-warfare doctrine' under armed-naval-escort is now operationally institutionalized. New trigger watching: 'Trump issues fourth high-profile reversal' Day 5 of 30 — May 4 reversal from May 1-3 'reviewing' to 'not acceptable + kinetic-restart-allowed' qualifies as fourth.",
+  "last_updated": "2026-05-06",
+  "summary": "Day 68 Wednesday. **TRUMP PAUSED PROJECT FREEDOM MAY 5** — within 24 hours of launching the named operation, Truth Social post declared the operation 'paused for a short period of time to see whether or not the Agreement can be finalized and signed,' explicitly citing Pakistan's request and 'Great Progress' toward a 'Complete and Final Agreement' with Iran. CRITICAL FRAMING PIVOT: language reversed from May 4 'Iran has not yet paid a big enough price' to May 5 'great progress' — among the sharpest single-day presidential framing pivots of the 67-day arc. Pentagon backbone confirmed: War Secretary Hegseth + JCS Chairman Gen. Caine reaffirmed ceasefire intact and Iran's May 4 actions 'fall below the threshold of restarting major combat operations.' The pause is on the US convoy operation only — Truth Social explicitly preserved the underlying blockade ('the blockade will remain in full force and effect'). Structural read: Project Freedom was leverage, not commitment — once Iran fired and Pakistan re-engaged, Trump used the cover to return to the Pakistan track on US-favorable terms. Branches re-priced: kinetic ~25-30% (DOWN from 40-45%); negotiated-resolution ~30-35% (UP from 15-20%). Markets: Brent -4% to $109.87 (May 5) extending to $107.96 (May 6); VIX -5% to 17.38 (below pre-May 4 baseline); S&P +0.8%. The 'fourth high-profile reversal within 30 days' trigger watching since Apr 26 — May 4→May 5 pivot qualifies as fifth high-profile reversal in the cycle (Apr 25 patience-window, Apr 28 Hormuz-first, Apr 30 Axios rejection, May 4 14-point rejection, May 5 pause-with-progress).",
   "current": {},
   "active_triggers": [
     {
@@ -44,13 +44,26 @@
     },
     {
       "condition": "Trump issues fourth high-profile reversal within 30 days of April 25 (i.e., before May 25) — confirms reversal-rate is durable",
-      "status": "watching",
+      "status": "active",
       "cascade": [
         "brent-crude",
         "sp-500",
         "marine-war-risk-insurance"
       ],
-      "added": "2026-04-26"
+      "added": "2026-04-26",
+      "activated": "2026-05-05",
+      "activation_note": "May 5 pause-with-progress is the 5th high-profile reversal — durable rate confirmed"
+    },
+    {
+      "condition": "Trump pause holds for 7+ days without further kinetic exchange (Sadjadpour test — by 2026-05-12)",
+      "status": "watching",
+      "cascade": [
+        "brent-crude",
+        "sp-500",
+        "iran",
+        "strait-of-hormuz"
+      ],
+      "added": "2026-05-06"
     },
     {
       "condition": "Russia announces formal proposal as nuclear-material custodian within 14 days of Putin-Araghchi meeting (by 2026-05-11)",
@@ -71,16 +84,16 @@
       "type": "market_mover",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-30",
-      "activation_count": 17
+      "last_activated": "2026-05-06",
+      "activation_count": 18
     },
     {
       "to": "iran",
       "type": "adversary_negotiator",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-03",
-      "activation_count": 23
+      "last_activated": "2026-05-06",
+      "activation_count": 24
     },
     {
       "to": "united-states",
@@ -95,8 +108,8 @@
       "type": "policy_lever",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-03",
-      "activation_count": 10
+      "last_activated": "2026-05-06",
+      "activation_count": 11
     },
     {
       "to": "israel",
@@ -119,8 +132,8 @@
       "type": "diplomatic_channel",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-26",
-      "activation_count": 8
+      "last_activated": "2026-05-06",
+      "activation_count": 9
     },
     {
       "to": "lebanon",
@@ -132,6 +145,24 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-06",
+      "headline": "TRUMP PAUSED PROJECT FREEDOM MAY 5 — TRUTH SOCIAL: 'GREAT PROGRESS' TOWARD 'COMPLETE AND FINAL AGREEMENT' WITH IRAN VIA PAKISTAN; BLOCKADE 'IN FULL FORCE AND EFFECT'; PENTAGON (HEGSETH+CAINE) AFFIRMED CEASEFIRE INTACT — 24-HOUR FRAMING REVERSAL FROM 'NOT YET PAID BIG ENOUGH PRICE'",
+      "sources": [
+        "Trump Truth Social May 5",
+        "Pentagon press conference (Hegseth, Caine)",
+        "Fox News",
+        "CNN",
+        "CNBC",
+        "NPR",
+        "Washington Post",
+        "Al Jazeera",
+        "AP",
+        "Reuters",
+        "ABC News"
+      ],
+      "verification": "CONFIRMED — Trump primary, Pentagon corroborated, Iran responded (Araghchi 'Project Deadlock' framing). Trump's pause = CONFIRMED ACTION; 'Complete and Final Agreement' claim = REPORTED (his framing of progress, not a confirmed agreement)"
+    },
     {
       "date": "2026-05-05",
       "headline": "TRUMP REJECTED 14-POINT AS 'NOT ACCEPTABLE' MAY 4; 'BLOWN OFF FACE OF EARTH' WARNING; PROJECT FREEDOM LAUNCHED; FOURTH HIGH-PROFILE REVERSAL CONFIRMED",

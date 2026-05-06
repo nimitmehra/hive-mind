@@ -3,8 +3,8 @@
   "name": "Pakistan",
   "type": "country",
   "created": "2026-03-30",
-  "last_updated": "2026-05-05",
-  "summary": "Day 63 Thursday. PAKISTAN MEDIATOR ROLE STABILIZES — QATAR PUBLICLY DECLINES TO LEAD; SUPPORTS PAKISTAN AS PRIMARY CHANNEL ('WE DON'T NEED TO EXPAND THE CIRCLE' — al-ANSARI). The Apr 28 trajectory of 'Pakistan mediator role degrading + Qatar emerging' has REVERSED into 'Pakistan stabilizes as primary + Qatar in supporting/parallel-channel role.' Qatari Foreign Ministry Spokesman Majed al-Ansari publicly stated April 29 that Qatar SUPPORTS Pakistan's mediation and that Doha is coordinating with Islamabad to the point that 'we do not need to expand the circle of negotiations' (Voice of Emirates, Tribune India, ANI News). Yesterday's brief watching trigger 'Qatar formally named primary or co-mediator within 14 days' is structurally answered NO. Architecture clarified as MULTI-PARTY: Pakistan + Qatar + Egypt + Turkey + Oman with Pakistan still primary. Iran's FM Araghchi told Pakistani, Egyptian, Turkish AND Qatari mediators over the weekend that 'there's no consensus inside the Iranian leadership about how to address the U.S. demands' — Iran is communicating internal deadlock through ALL four channels simultaneously, which itself signals IRGC consolidation has not produced operational unity (the multi-channel paralysis IS the signal). Reuters Apr 28 wire-tier analysis 'Iran's Guards Seize Wartime Power' was confirmed by 1 PAKISTANI source + 2 Iranian sources — Pakistani-source role in confirming Vahidi-as-central-interlocutor framework CONFIRMS Pakistan's continued operational involvement. [TRUNCATED — needs re-synthesis]",
+  "last_updated": "2026-05-06",
+  "summary": "Day 68 Wednesday. **PAKISTAN MEDIATION DELIVERED THE STRUCTURAL OFF-RAMP — TRUMP'S MAY 5 PROJECT FREEDOM PAUSE EXPLICITLY CITED 'PAKISTAN'S REQUEST' AS DRIVER.** Trump's Truth Social post named Pakistan as the channel through which 'Great Progress' was made toward a 'Complete and Final Agreement' with Iran's representatives. This is the highest-profile validation of Pakistan's mediator role since Day 1 of the crisis: the Pakistan track now has documented operational outcomes (US convoy paused, kinetic-restart contained to one cycle, both sides reverted to negotiation framing within 24h). Architecture: Pakistan PRIMARY, Qatar/Egypt/Turkey/Oman supporting/parallel; Russia uranium-custodian track confirmed sidelined (Kremlin Peskov May 5: 'not currently on the negotiating table'). The yesterday's-watching-trigger 'Pakistan-brokered Iranian unified proposal delivered to US within 21 days' is structurally RESOLVED-YES on the May 5 pause framework — though the substance of any 'Complete and Final Agreement' remains REPORTED only (Trump's framing of progress, not a confirmed agreement). New trigger watching: 'Pakistan-mediated track delivers Iran formal Hormuz reopening within 14-21 days' (by 2026-05-26). The Pakistan + Saudi security partnership context (April activation) provides the bilateral architecture that makes Trump's 'Pakistan request' credible — Munir-Sharif channel verified-functional through the May 4-5 stress.",
   "current": {},
   "active_triggers": [
     {
@@ -50,19 +50,19 @@
     },
     {
       "to": "united-states",
-      "type": "mediation_channel",
+      "type": "mediation_channel_named_in_trump_pause",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-03",
-      "activation_count": 19
+      "last_activated": "2026-05-06",
+      "activation_count": 21
     },
     {
       "to": "iran",
-      "type": "mediation_channel",
+      "type": "mediation_channel_validated_by_araghchi",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-03",
-      "activation_count": 21
+      "last_activated": "2026-05-06",
+      "activation_count": 23
     },
     {
       "to": "brent-crude",
@@ -74,6 +74,19 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-06",
+      "headline": "TRUMP MAY 5 PAUSE OF PROJECT FREEDOM CITED 'PAKISTAN'S REQUEST' AS DRIVER — HIGHEST-PROFILE VALIDATION OF PAKISTAN MEDIATOR ROLE; TRUTH SOCIAL: 'GREAT PROGRESS HAS BEEN MADE TOWARD A COMPLETE AND FINAL AGREEMENT' WITH IRAN VIA PAKISTAN; ARAGHCHI VALIDATED ('NO MILITARY SOLUTION'); RUSSIA URANIUM-CUSTODIAN TRACK SIDELINED",
+      "sources": [
+        "Trump Truth Social May 5",
+        "Pentagon press briefing",
+        "Iran International (Araghchi)",
+        "Reuters",
+        "Al Jazeera",
+        "Kremlin Peskov May 5"
+      ],
+      "verification": "CONFIRMED Trump primary, multi-source amplification; Pakistan operational role = CONFIRMED ACTION (cited in pause framework); 'Complete and Final Agreement' substance = REPORTED only"
+    },
     {
       "date": "2026-05-05",
       "headline": "PAKISTAN ROLE CONTINUES POST-REJECTION — US RESPONSE TO 14-POINT CONVEYED VIA PAKISTAN MAY 4; IRAN REVIEWING; CHANNEL OPERATIONALLY ALIVE DESPITE KINETIC RESTART",

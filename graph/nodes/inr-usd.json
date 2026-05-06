@@ -3,14 +3,14 @@
   "name": "INR/USD Exchange Rate",
   "type": "index",
   "created": "2026-03-23",
-  "last_updated": "2026-05-05",
-  "summary": "Day 67. **INR ₹95 TRIGGER SUSTAINED ACTIVATION DAY 2** — Tue May 5 intraday ₹95.34 (+0.5% 1D fresh record); Mon May 4 closed ₹95.10 (post-Apr 30 ₹95.20 intraday low + ₹94.88 close-on-RBI-defense). The May 3 brief's question 'USD/INR holds below ₹95 sustained through Monday May 4' is RESOLVED-NO — INR did NOT hold below ₹95; broke through to fresh low. The MOST IMPORTANT non-oil deployment-signal of the crisis arc is now in CONFIRMED ACTIVATION mode rather than REVERSAL mode. Drivers: Brent re-rate +5.80% May 4 + kinetic restart + Fed-hawkish DXY firm at 98.52 + Indian capital-inflow shortfall projected $40-50B FY27. RBI intervention threshold identified at ₹95.50+ (16 paise away). Governor Malhotra's 'FX curbs won't remain forever' framing remains operative. FII flow context: April outflow ₹60,847 cr; CY26 outflow ₹1.92 trillion (already exceeds CY25 full-year ₹1.66T). India 10Y GOI eased -6 bps to 7.00% — counter-cyclical to INR (RBI absorption + foreign FAR-debt bid; NOT yet defending INR via rates). Business Standard flagging ₹96-97 next levels. Operational regime: INR-stable-stress headed toward RBI-intervention.",
+  "last_updated": "2026-05-06",
+  "summary": "Day 68 Wednesday. **INR ₹95 TRIGGER BREACHED-AND-REVERSED WITHIN 24 HOURS** — Tue May 5 set fresh intraday record ₹95.36 (the previously identified Day 2 sustained activation); May 6 PULLED BACK to ₹95.13 (also referenced as ₹94.9770 in some reports), -0.14% session, putting INR back below ₹95 trigger for first time since Apr 30. Yesterday's brief framing of 'Day 2 sustained activation' is REVERSED to 'breached-and-reversed within 24 hours.' Drivers of pullback: (1) Brent collapse to $107.96 reduces oil-import-CAD vector; (2) RBI capital-flow defensive escalation FORMALIZED — capped dealer banks' Net Open Position in INR at $100mn/day, barred domestic banks from offering INR NDF to NRIs and related parties (CONFIRMED RBI directive); (3) DXY -0.4% (Trump-comfortable-with-weak-dollar comments + BlackRock Rieder dovish-Fed-chair speculation) → broader EM-FX strength (USD/KRW -1.4%, USD/BRL -1.5%). FX reserves >$700B (~11mo import cover). The ₹95.50 direct-intervention threshold remains UNTESTED — RBI defended via capital-flow controls only. FII context: CY26 outflow ₹1.92 lakh crore (~$23B+) already exceeds CY25 full-year; FPI ownership of Indian equities ~16%, lowest in nearly 2 decades; DII (SIP-driven) absorbed ~90% of FII selling (~₹1.7 lakh crore YTD). Important nuance: NOP/NDF curbs are defensive containment, not sustainable equilibrium — if Brent breaks $115 again or FII outflows accelerate, ₹95.50 still in play. India 10Y GOI ~6.90% (-10 bps area, steady).",
   "current": {
-    "price": "₹95.34/USD (Tue May 5 11:23 IST intraday); ₹95.10 May 4 close",
-    "delta_1d": "+0.5% Tue (rupee weakening; fresh record low)",
+    "price": "₹95.13/USD (May 6 close, also referenced ~₹94.98); ₹95.36 May 5 record",
+    "delta_1d": "-0.14% May 6 (rupee strengthening; pulled back from record)",
     "delta_1m": "+2.5%",
-    "delta_3m": "+5.8%",
-    "regime": "₹95 trigger ACTIVATION confirmed Day 2 sustained; INR-stable-stress regime headed toward RBI-intervention regime if ₹95.50 breached. RBI at ₹95.50 intervention threshold ~16 paise away."
+    "delta_3m": "+5.3%",
+    "regime": "₹95 trigger BREACHED-AND-REVERSED within 24h cycle. NOP/NDF curbs operational and effective. ₹95.50 direct-intervention threshold remains WATCHING (UNTESTED through May 4-5 stress)."
   },
   "active_triggers": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "condition": "USD/INR crosses ₹95/USD — structural trigger",
-      "status": "active",
+      "status": "breached_and_reversed",
       "cascade": [
         "rbi",
         "nifty-50",
@@ -33,7 +33,8 @@
       ],
       "added": "2026-03-23",
       "activated": "2026-04-30",
-      "sustained_day": 2
+      "reversed": "2026-05-06",
+      "reversal_note": "Breached ₹95.36 May 5 record then pulled back to ₹95.13 May 6 within 24h on RBI NOP/NDF curbs + Brent collapse + DXY weakness; ₹95.50 direct-intervention threshold remained UNTESTED"
     },
     {
       "condition": "USD/INR breaks ₹95.50 — RBI direct-intervention threshold",
@@ -87,11 +88,11 @@
     },
     {
       "to": "rbi",
-      "type": "intervention_managed_depreciation",
+      "type": "intervention_capital_flow_controls",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 25
+      "last_activated": "2026-05-06",
+      "activation_count": 27
     },
     {
       "to": "nifty-50",
@@ -103,6 +104,21 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-06",
+      "headline": "INR ₹95 TRIGGER BREACHED-AND-REVERSED IN 24H: ₹95.36 RECORD MAY 5 → ₹95.13 PULLBACK MAY 6 (-0.14%); RBI CAPITAL-FLOW CURBS FORMALIZED (NOP CAP $100MN/DAY + INR NDF RESTRICTION TO NRIs); ₹95.50 DIRECT-INTERVENTION THRESHOLD UNTESTED; FII CY26 OUTFLOW $23B+, FPI OWNERSHIP 16% (2-DECADE LOW), DII ABSORBED 90%",
+      "sources": [
+        "TradingEconomics USD/INR",
+        "Reuters India",
+        "RBI reference rate / directives",
+        "Trading Pedia",
+        "Bloomberg",
+        "Business Standard",
+        "NSDL FPI data",
+        "Outlook Money"
+      ],
+      "verification": "CONFIRMED price tape multi-source + CONFIRMED RBI primary directives on NOP/NDF curbs + CONFIRMED NSDL flow data"
+    },
     {
       "date": "2026-05-05",
       "headline": "INR ₹95.34 FRESH RECORD LOW (Tue +0.5%); ₹95 TRIGGER DAY 2 SUSTAINED — May 4 ₹95.10 close BROKE through; RBI intervention threshold ₹95.50 ~16 paise away",

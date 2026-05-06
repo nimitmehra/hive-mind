@@ -3,8 +3,8 @@
   "name": "Reserve Bank of India",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-05-05",
-  "summary": "Day 63 Thursday — RBI'S STRATEGIC BATTLE INTENSIFIES: USD/INR ₹94.82 (Apr 29 close, Day 3 of ₹94.50 BREACH; ₹95.00 TRIGGER ₹0.18 AWAY); FOMC HAWKISH-SKEWED DISSENT REMOVES THE DXY-RELIEF VECTOR YESTERDAY'S BRIEF FLAGGED. (1) Powell chose STRUCTURAL framing on energy inflation ('it hasn't even peaked yet'); 4-way FOMC dissent with 3:1 hawkish-vs-dovish ratio (Hammack/Kashkari/Logan voted-with-majority but OPPOSED easing bias = HAWKISH dissent; Miran lone dovish for cut). DXY firmed +0.4% to 98.99 breaks 98.7 ceiling; CME FedWatch 0% Apr cut, 30% by Dec from prior 70% in Mar. The DXY-relief vector that could have provided INR catalyst is STRUCTURALLY REMOVED. (2) Brent closes $118-120 Apr 29 (+6-8%, Day 1 of $115-sustained CONFIRMED; highest since June 2022); Trump-Axios 'choking like a stuffed pig' rejection of Hormuz-First makes extended-economic-warfare base case → sustained Brent premium → durable INR pressure. (3) Apr 30 IST 9:15 OPEN faces WORST possible setup: Brent +$5 since previous Indian close, DXY firmer +0.4%, US 10Y +7bps to 4.42% (highest 3M), hawkish FOMC dissent. RBI typically does not pre-signal pre-open. (4) RBI tactical posture: SLOW-THE-DECLINE not defend-fixed-level; selective dollar-sales managing volatility. Indonesian rupiah Apr 29 record low + USD/KRW +1.0% Apr 29 = parallel EM-Asia stress NOT idiosyncratic India. RBI ECL framework clarification settled Bank Nifty FLAT after Tue's -1.5% (regulatory clarification was specific, NOT regime-wide). [TRUNCATED — needs re-synthesis]",
+  "last_updated": "2026-05-06",
+  "summary": "Day 68 Wednesday. **RBI CAPITAL-FLOW DEFENSIVE MEASURES FORMALIZED — DEFENDED INR THROUGH MAY 4-6 STRESS WITHOUT DIRECT INTERVENTION.** Two specific operational tools: (1) capped Net Open Position in INR of dealer banks at $100mn/day; (2) barred domestic banks from offering INR NDF (non-deliverable forward) contracts to non-resident Indians (NRI) and related parties (CONFIRMED — RBI primary directives, Trading Pedia Apr 30 reference, Bloomberg Apr 10 framework). These curbs explain why INR pulled back below ₹95 on May 6 despite the May 4-5 record-low intraday print. RBI policy rate held at 5.25%; FX reserves >$700 billion (~11 months import cover). Governor Malhotra's 'FX curbs won't remain forever' framing remains operative. The ₹95.50 direct-intervention threshold was NOT tested through the kinetic-restart stress — the curbs alone proved sufficient. Important nuance: NOP/NDF curbs are defensive containment, NOT a sustainable equilibrium — if Brent breaks $115 again or FII outflows accelerate beyond ₹2.5 lakh crore CY26, ₹95.50 still in play. India 10Y GOI ~6.90% (-10 bps area, steady). FII outflow context: CY26 cumulative ₹1.92 lakh crore = $23B+; DII (SIP-driven) absorbed ~90%. The RBI's documented preference is volatility management rather than defending a specific level — confirmed through this cycle.",
   "current": {},
   "active_triggers": [
     {
@@ -36,6 +36,18 @@
         "india"
       ],
       "added": "2026-04-27"
+    },
+    {
+      "condition": "RBI direct INR intervention at ₹95.50 — NOP/NDF curbs prove insufficient",
+      "status": "watching",
+      "cascade": [
+        "rbi",
+        "inr-usd",
+        "nifty-50",
+        "india"
+      ],
+      "added": "2026-05-06",
+      "context": "NOP cap $100mn/day + INR NDF restriction held INR through ₹95.36 record May 5; ₹95.50 threshold UNTESTED. If kinetic restart or FII shock accelerates beyond ₹2.5 lakh crore CY26, threshold becomes the next test."
     }
   ],
   "top_edges": [

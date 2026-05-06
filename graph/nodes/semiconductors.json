@@ -3,13 +3,13 @@
   "name": "Semiconductors (SMH/SOX)",
   "type": "sector",
   "created": "2026-04-25",
-  "last_updated": "2026-05-05",
-  "summary": "Day 63 Thursday. SMH $499.58 (+1.7% 1D, +37.8% 1M, +23.8% 3M) — RECOVERING APR 28 -3.0% SELLOFF ON MAG 7 BEAT-AND-RAISE CAPEX; AI-CAPEX THESIS STRUCTURALLY VINDICATED. WSJ Tue Apr 28 reported OpenAI MISSED Q1 INTERNAL TARGETS (1B WAU goal, actual ~900M); CFO Sarah Friar told leadership she is worried about ability to fund future compute contracts if revenue doesn't accelerate. AI-spend-trajectory thesis cracks: if OpenAI (demand anchor for Nvidia/AMD/Broadcom hyperscaler-scale orders) slows, the entire AI-capex stack reprices. Tuesday cascade: Nvidia -1.5% (after Mon record high), AMD -3.1%, Broadcom -3.29%, Arm -6.7%, Intel/Micron/Applied Materials all down. Wed: SMH ETF -3.0% (biggest down-day since Mar 30 per StockAnalysis); URA -4.4% (AI-data-center-demand thesis runs through SMR uranium contracts; AI doubt = uranium doubt); KOSPI +0.8% DECOUPLED (Korean memory/HBM has its own cycle — SK Hynix/Samsung beneficiaries); TAIEX -0.6% modest pullback. CRITICAL INVESTOR READ: 'tech = uncorrelated to West Asia' mental model is correct here — AI selloff is endogenous to AI's own funding/adoption cycle. Crisis resolving does NOT fix OpenAI's revenue miss. Conversely, war ending while AI-cycle deteriorates means tech keeps falling even if Brent crashes. MAG 7 EARNINGS TONIGHT (after Wed close): Microsoft Q3 (Azure growth, OpenAI deal revenue cap), Meta (capex commitments $115-135B), Alphabet ($175-185B capex), Amazon ($200B capex). These four are the NEXT-24-HOUR BINARY DETERMINANT for AI-capex narrative. Microsoft-OpenAI partnership restructured Apr 27 adds governance uncertainty to demand uncertainty. [TRUNCATED — needs re-synthesis]",
+  "last_updated": "2026-05-06",
+  "summary": "Day 68 Wednesday. **SMH $522.69 (+3.1% 1D, +32.0% 1M, +30.1% 3M) — AI-CYCLE STRUCTURAL DECOUPLING FROM WEST ASIA RISK CONFIRMED.** Apple-Samsung-Intel chip-production exploratory talks (CNBC, Yahoo Finance, MarketScreener) — potential diversification beyond TSMC — drove KOSPI +6.7% to record 7,400.32 with Samsung crossing $1 TRILLION market cap (only second Korean company after SK Hynix to cross ₩1,000 trillion). SK Hynix +10%. Combined Samsung + SK Hynix concentration hit RECORD 42.2% of total KOSPI. Taiwan TAIEX 41,138.85 (+0.9% 1D, +26.3% 1M, +29.4% 3M) — TSMC+Samsung halo. The May 4-6 sequence — multi-axis Iran kinetic restart May 4 + Korean-flagged HMM Namu damaged in Hormuz + KOSPI +6.7% to record May 6 with Samsung $1T — is the cleanest STRUCTURAL VALIDATION of the AI-cycle decoupling thesis the May 3-5 briefs introduced. Apple flat $280 on May 4 multi-axis kinetic-restart day was the strongest single-day signal for AI-cycle resilience; KOSPI 7,000 + Samsung $1T = the structural confirmation on the Asian export side. Patel/SemiAnalysis bifurcation thesis sharpens: Apple/Microsoft cash strength vs Alphabet/Meta/Amazon at capex-OCF parity continues to outperform; relative US/US-tech allocation strengthens versus Indian-equity allocation specifically because Indian equities remain INR-FII-exposed while US/Korea/Taiwan tech is structurally decoupled from West Asia geopolitical risk. **For deployment thesis:** AI capex cycle is the dominant flow; crisis dynamics SECONDARY. Bifurcation thesis: long Korea/Taiwan/US tech AI vs short Indian IT services (which are NOT direct AI exposure, see indian-it node).",
   "current": {
-    "price": "SMH $499.58 (Wed Apr 29 close)",
-    "delta_1d": "+1.7% (recovering Apr 28 -3.0% selloff on Mag 7 beat-and-raise)",
-    "delta_1m": "+37.8%",
-    "delta_3m": "+23.8%",
+    "price": "SMH $522.69 (May 6); KOSPI 7,400.32; TAIEX 41,138.85; Samsung $1T mkt cap",
+    "delta_1d": "SMH +3.1%; KOSPI +6.7%; TAIEX +0.9%",
+    "delta_1m": "SMH +32.0%; KOSPI +37.6%; TAIEX +26.3%",
+    "delta_3m": "SMH +30.1%; KOSPI +45.4%; TAIEX +29.4%",
     "mag7_capex": "Combined Mag 7 2026 AI-capex commitment: $630-650B+. Meta raised to $125-145B (+$10B); Alphabet raised to $180-190B (+$5B); AWS ~$200B (+24% growth, fastest in 13 quarters); Microsoft Q1 capex $29....",
     "samsung_q1_full": "Apr 30 release: revenue 133.9T won (~$100B), operating profit 57.2T won (~$36B; 8x YoY); HBM4 mass production for Nvidia Vera Rubin; NO HELIUM MENTION in earnings or forward guidance — Kornbluth ti...",
     "kospi": "6,712.80 (+0.3% 1D, +22.5% 1M)",
@@ -92,6 +92,18 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-06",
+      "headline": "KOSPI BROKE 7,000 + SAMSUNG CROSSED $1T MKT CAP ON APPLE-SAMSUNG-INTEL CHIP-PRODUCTION TALKS; SK HYNIX +10%; SAMSUNG+SK HYNIX = 42.2% OF KOSPI RECORD CONCENTRATION; SMH +3.1% TO $522.69 (+32% 1M); TAIEX +26.3% 1M — STRUCTURAL AI-CYCLE DECOUPLING FROM WEST ASIA RISK CONFIRMED",
+      "sources": [
+        "MarketScreener KOSPI",
+        "CNBC Samsung $1T",
+        "Seoul Economic Daily",
+        "Yahoo Finance",
+        "Let's Data Science"
+      ],
+      "verification": "CONFIRMED — May 6 KOSPI break of 7,000 = primary multi-source. Final May 6 close framing requires May 6 close confirmation; intraday print 7,400.32"
+    },
     {
       "date": "2026-05-05",
       "headline": "AI-CYCLE STRUCTURAL DECOUPLING CONFIRMED MAY 4-5: KOSPI +5.1% RECORD 6,936.99, SK HYNIX +12.52% MKT CAP >₩1T WON, FOREIGN NET BUY ₩3.57T (RECORD 7M); APPLE FLAT $280 ABSORBED MULTI-AXIS IRAN KINETIC; SMH -0.6% TUE / +29.2% 1M; TAIEX 40,769 (+22.9% 1M)",

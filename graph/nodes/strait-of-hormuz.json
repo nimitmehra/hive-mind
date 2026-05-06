@@ -3,8 +3,8 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-05-05",
-  "summary": "Day 67 Tuesday. **HORMUZ NOW CONTESTED IN ACTIVE KINETICS — May 4 Iran multi-axis attack + US Project Freedom convoy operation = first kinetic-vs-armed-escort engagement of the crisis.** Iran launched cruise missiles + drones + small boats at US Navy ships and commercial vessels in Hormuz; US Apache+Seahawk helicopters sank 6 Iranian fast boats; 2 US Navy destroyers transited successfully — first known successful armed transit explicitly defying IRGC blockade since Day 1. SK-flagged HMM Namu cargo ship damaged by explosion+fire near UAE inside Hormuz (24 crew safe). UAE Fujairah Oil Industry Zone hit by drone strike — 3 Indian nationals injured; 4 Iranian cruise missiles at UAE intercepted (3) or fell into sea (1). Iran's claim of striking US destroyer denied by CENTCOM (CLAIMED-DISPUTED). The Apr 8 US-Iran ceasefire is effectively broken; the Hormuz-territorial-control structure has shifted from de facto Iranian blockade to **CONTESTED-BLOCKADE-UNDER-ARMED-ESCORT** equilibrium. Brent +5.80% to $114.44 May 4 (-0.8% Tue intraday giveback to $113.48); $115-sustained-2-session trigger remains RESOLVED-NO; sub-$115 chain Day 3/5 (Apr 30, May 1, May 4 all close <$115) but directional momentum reversed on kinetic restart. AWRP at 0.8-1.5% (re-spike risk on Project Freedom). VLCC TD3C sustained ~$420-474K/day. Iran 14-point's 'NEW Hormuz governance mechanism' demand falsified by Trump rejection.",
+  "last_updated": "2026-05-06",
+  "summary": "Day 68 Wednesday. **PROJECT FREEDOM PAUSED MAY 5 — BUT IRAN'S BLOCKADE REMAINS 'IN FULL FORCE AND EFFECT' (Trump's own Truth Social framing).** Within 24 hours of US convoy launch + kinetic exchange (6 Iranian fast boats sunk, 2 US destroyers transited successfully, SK HMM Namu damaged, UAE Fujairah hit), Trump paused the operation pending 'Complete and Final Agreement' via Pakistan. The Hormuz-territorial-control structure is now BIFURCATED: (1) US-Iran kinetic war probability declines (oil/defense/VIX falls), (2) physical chokepoint persists (Iranian closure of Hormuz unresolved; tanker rates still elevated; AWRP still ~1% baseline). This is the cleanest signal of MARKET BIFURCATION — Brent collapses (-4% May 5 → $107.96 May 6) on diplomatic-track pricing, while Frontline +2.8% / BOAT +3.5% rally on persistent physical disruption. The 'Brent <$115 sustained 5+ sessions' chain extended to Day 5/5 confirmed (Apr 30 $110.40 + May 1 $108.17 + May 4 $114.44 + May 5 $109.87 + May 6 $107.96, all <$115). Iran navigation map warning to US/oil tankers reissued Tue alongside Tehran's hardline Kayhan European-bases threat (RHETORIC, not operational). VLCC TD3C sustained ~$420-474K/day per Lloyd's List. AWRP at ~1% Hull&Mach (down from 2.5% peak); pause likely reduces re-spike risk (now lower probability of 5%+ within 5 sessions). New trigger reframed: AWRP normalization toward 0.5% within 10 sessions = pause priced as durable de-escalation; AWRP staying 0.8-1.5% = pause priced as fragile.",
   "current": {},
   "active_triggers": [
     {
@@ -31,14 +31,26 @@
       "added": "2026-03-23"
     },
     {
-      "condition": "War risk insurance for Gulf transits breaks below 0.5% hull value (normalization threshold)",
+      "condition": "War risk insurance for Gulf transits breaks below 0.5% hull value (normalization threshold) — REFRAMED 2026-05-06: 'AWRP normalization toward 0.5% within 10 sessions' is now the diplomatic-track-durability test under the Trump pause framework",
       "status": "watching",
       "cascade": [
         "shipping-tankers",
         "brent-crude",
         "marine-war-risk-insurance"
       ],
-      "added": "2026-04-16"
+      "added": "2026-04-16",
+      "reframed": "2026-05-06"
+    },
+    {
+      "condition": "Iran formally reopens Hormuz to all traffic within 14-21 days of May 5 pause (by 2026-05-26) — would collapse tanker spot rates -15-25%",
+      "status": "watching",
+      "cascade": [
+        "shipping-tankers",
+        "marine-war-risk-insurance",
+        "brent-crude",
+        "india"
+      ],
+      "added": "2026-05-06"
     },
     {
       "condition": "Hormuz remains under Iranian selective control even within ceasefire framework — ACTIVE 2026-04-08: Iran's 'controlled passage via coordination with armed forces' framing in the ceasefire text formali",
@@ -129,6 +141,19 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-06",
+      "headline": "PROJECT FREEDOM PAUSED MAY 5; BLOCKADE 'REMAINS IN FULL FORCE' PER TRUMP TRUTH SOCIAL — BIFURCATION: KINETIC-WAR PROBABILITY DOWN (BRENT -4%) BUT PHYSICAL CHOKEPOINT PERSISTS (FRONTLINE +2.8%, BOAT +3.5%, VLCC TD3C ~$420-474K/DAY); BRENT <$115 CHAIN DAY 5/5 COMPLETE",
+      "sources": [
+        "Trump Truth Social May 5",
+        "Pentagon press conference",
+        "Lloyd's List VLCC pricing",
+        "Argus Media AWRP",
+        "CNBC oil prices",
+        "TradingEconomics Brent"
+      ],
+      "verification": "CONFIRMED Trump primary + multi-source operational price data; bifurcation framework verified across crude (down) vs tanker (up) divergence"
+    },
     {
       "date": "2026-05-05",
       "headline": "HORMUZ KINETIC-CONTESTED MAY 4: IRAN MULTI-AXIS STRIKE + US PROJECT FREEDOM ARMED-ESCORT TRANSIT; 6 IRANIAN BOATS SUNK; 2 US DESTROYERS TRANSITED; SK HMM NAMU DAMAGED IN-STRAIT",

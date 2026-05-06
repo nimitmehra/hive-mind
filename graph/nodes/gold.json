@@ -3,15 +3,15 @@
   "name": "Gold",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-05-05",
-  "summary": "Day 67 Tuesday. GOLD $4,558.70 (+0.9% Tue 1D, -2.1% 1M, -6.2% 3M) — partial recovery after May 4 dip below $4,600 watching trigger; gave back the May 1 push to $4,644.50. The May 3 brief noted Day 10 of inflation-regime call ('REINFORCED') with Powell 'it hasn't even peaked yet' framing; May 4-5 events partially test that framing — kinetic restart did NOT produce a clean safe-haven bid in gold. US 10Y +1.6% Tue to 4.45% (5-week high) — real yields competing harder. DXY 98.52 (+0.1%) — firm. The 'INR ₹95.00+ sustained' partial regime-shift trigger (which was specified as one path to gold-rally regime change) IS NOW ACTIVATED Day 2 — Tue ₹95.34 — but gold's response is muted (+0.9%), suggesting the regime is still INFLATION-RISK DOMINANT not yet FINANCIAL-SYSTEM-RISK. Crowded COMEX positioning persists. The watching-trigger 'Gulf-exposed bank reports unexpected Q1 loss' has NOT activated. The INFLATION regime call holds. For investor: gold tracks DXY/real-yields, not crisis-beta — kinetic-restart day proved this with $25 round-trip but no regime change.",
+  "last_updated": "2026-05-06",
+  "summary": "Day 68 Wednesday. **GOLD $4,678.70 (+2.7% 1D, +0.5% 1M, -5.5% 3M) — DOLLAR-DRIVEN RALLY, NOT WAR-RISK BID.** CRITICAL DISAMBIGUATION: today's gold +2.7% rally is a CLASSIC FALSE-SIGNAL TRAP. Cross-asset confirmation that this is dollar story not war story: VIX -5% (DOWN), S&P +0.8% (UP), defense ITA -1.8% (DOWN), yields LOWER. Drivers: (1) Trump comments suggesting administration comfortable with weaker dollar (Saxo Bank, FXEmpire); (2) BlackRock's Rick Rieder (vocal advocate of aggressive rate cuts) emerging as leading candidate for next Fed chair → dovish-Fed expectation builds; (3) DXY -0.4% to 98.09 = USD 4-year low. Silver +4.5%, copper +2.6%, platinum +2.8%, palladium +2.0% — ALL precious/industrial metals priced in USD reprice up mechanically on USD weakness. Crisis-relief component is SMALL (~10%): Trump pause reduces tail-risk hedging demand → would normally REDUCE gold bid, but dollar weakness dominates. **For deployment thesis:** dollar-weakness driver is STRUCTURALLY BULLISH for emerging-market equities (Korea/Taiwan/India/Brazil), bullish for commodities, bullish for non-USD assets. If Rieder Fed-chair speculation hardens, multi-quarter tailwind for Indian equities. The $4,600 watching trigger is now CROSSED on the rally; need 3+ sessions sustained above $4,600 for regime-shift confirmation. NEW TRIGGER WATCHING: Rieder confirmed as next Fed chair = dollar-weakness regime confirmed → multi-quarter EM bullish setup.",
   "current": {
-    "price": "$4,558.70 (Tue May 5 11:23 IST intraday)",
-    "delta_1d": "+0.9% Tue",
-    "delta_1m": "-2.1%",
-    "delta_3m": "-6.2%",
-    "regime": "INFLATION-RISK DOMINANT — kinetic-restart May 4 produced muted +0.9% gold recovery; INR ₹95+ activation Day 2 produced no regime-shift bid; gold-as-FINANCIAL-SYSTEM-RISK regime NOT yet triggered.",
-    "watching_threshold": "$4,600 watching trigger; Mon May 4 close ~$4,517 was below — would need 3+ sessions sustained above $4,600 for regime-shift confirmation."
+    "price": "$4,678.70 (May 6)",
+    "delta_1d": "+2.7%",
+    "delta_1m": "+0.5%",
+    "delta_3m": "-5.5%",
+    "regime": "DOLLAR-WEAKNESS-DRIVEN RALLY (~90%) + crisis-relief residual (~10%). NOT a war-risk bid. Watch DXY + Fed-chair appointment dynamics, not crisis events.",
+    "watching_threshold": "$4,600 trigger CROSSED on May 6 rally; need 3+ sessions sustained above $4,600 for regime-shift confirmation. $5,500 ATH watching (was $4,775 ATH from prior cycle)."
   },
   "active_triggers": [
     {
@@ -64,6 +64,34 @@
         "marine-war-risk-insurance"
       ],
       "added": "2026-04-22"
+    },
+    {
+      "condition": "Gold sustains above $4,600 for 3+ sessions = regime-shift confirmation (DOLLAR-WEAKNESS or financial-system-risk regime)",
+      "status": "active",
+      "cascade": [
+        "gold",
+        "us-10y-yield",
+        "fed",
+        "inr-usd",
+        "india",
+        "nifty-50"
+      ],
+      "added": "2026-05-06",
+      "activated": "2026-05-06",
+      "activation_note": "$4,678.70 on May 6 = Day 1 above $4,600 in current cycle; rally is dominantly DXY-driven. If sustains 3 sessions, dollar-weakness regime confirmed → multi-quarter EM-bullish setup"
+    },
+    {
+      "condition": "BlackRock Rick Rieder confirmed/announced as next Fed chair — dollar-weakness regime confirmed",
+      "status": "watching",
+      "cascade": [
+        "gold",
+        "us-10y-yield",
+        "fed",
+        "inr-usd",
+        "india",
+        "sp-500"
+      ],
+      "added": "2026-05-06"
     }
   ],
   "top_edges": [
@@ -93,6 +121,18 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-06",
+      "headline": "GOLD +2.7% TO $4,678.70 ON DOLLAR WEAKNESS — NOT WAR-RISK BID. DXY -0.4% (USD 4-YEAR LOW) ON TRUMP-COMFORTABLE-WITH-WEAK-DOLLAR + RIEDER FED-CHAIR SPECULATION. SILVER +4.5%, COPPER +2.6%, PLATINUM +2.8%. CROSS-ASSET CONFIRMATION DOLLAR STORY NOT WAR STORY: VIX -5%, S&P +0.8%, DEFENSE -1.8%, YIELDS LOWER",
+      "sources": [
+        "FXEmpire (Rieder/DXY)",
+        "Saxo Bank (Trump dollar comments)",
+        "USAGOLD",
+        "TradingEconomics gold",
+        "yfinance"
+      ],
+      "verification": "CONFIRMED price tape multi-source; CRITICAL FRAMING: this is DOLLAR-DRIVEN, NOT WAR-RISK — disambiguation reinforced by VIX/defense/yields confirming dollar narrative"
+    },
     {
       "date": "2026-05-05",
       "headline": "GOLD $4,558.70 +0.9% TUE — PARTIAL RECOVERY AFTER MAY 4 DIP BELOW $4,600 ON KINETIC RESTART; INR ₹95+ ACTIVATION PRODUCED MUTED BID — INFLATION-REGIME HOLDS",
