@@ -3,8 +3,8 @@
   "name": "Indian IT Sector (TCS/Infosys/Wipro)",
   "type": "sector",
   "created": "2026-03-28",
-  "last_updated": "2026-05-06",
-  "summary": "Day 68 Wednesday. **INDIAN IT LAGGING DESPITE BROADER AI-CYCLE TAILWIND — APPLE-SAMSUNG-INTEL CHIP-PRODUCTION TALKS REDIRECTED AI FLOWS TO MANUFACTURERS, NOT IT SERVICES.** TCS, Infosys, Wipro under pressure today even as KOSPI broke 7,000 with Samsung $1T market cap and SMH +3.1%. The structural read: AI capex flows reward DIRECT exposure (semiconductor manufacturers in Korea/Taiwan/US, hyperscaler infrastructure in US) over INDIRECT exposure (IT services implementation lag). Indian IT has the 2026 capex → 2027 services-growth lag, but the real-time market is pricing the direct-exposure beneficiaries. This is the cleanest signal that the AI-infrastructure-build narrative does NOT automatically lift Indian IT services in this cycle. FOMC backdrop: rate-cut catalyst pushed deeper into 2026 (CME FedWatch ~28% June cut); US-recession-risk on discretionary IT spending intact. Q4 FY26 earnings weakness (Infosys, HDFC, Tech Mahindra, Wipro, HCL Tech) remains the dominant DOMESTIC driver. TCS Q4 +25% operating margin + $2.3B annualized AI revenues showed AI materiality threshold crossed at largest Indian IT vendor. Indian IT remains margin-pressure trade with AI-implementation upside on 2027 horizon — but for now, the direct-vs-indirect bifurcation is the dominant flow.",
+  "last_updated": "2026-05-07",
+  "summary": "Day 69 Thursday. **AI-CYCLE DECOUPLING FROM INDIA STRUCTURALLY HARDENS — KOSPI +37.3% / TAIEX +26.2% / SMH +37.5% (1M) WHILE NIFTY UNDERPERFORMS RISK-ON.** Apple-Samsung-Intel chip-production talks (Bloomberg May 5, CNBC corroborated) extend halo to Korea/Taiwan/US tech stack, NOT to Indian IT services. Samsung Q1 net profits 57.2T KRW (~$39B) — single quarter higher than ALL of 2025 combined; Samsung market cap crossed $1T May 6 on KOSPI 7,400 (+6.7%). Nikkei +5.7% Golden Week catch-up (SoftBank +13-16%, Advantest +8%, Tokyo Electron +9%) is international validation of AI-cycle decoupling. **For India deployment thesis:** AI flows continue to bypass India IT services and rotate to Korea/Taiwan/US tech — Indian-equity allocation continues to underperform structurally in this regime. Patel/SemiAnalysis: May 4-6 sequence is structural confirmation; Apple-Samsung-Intel talks specifically signal a US-AI-manufacturing-onshore tailwind that will rotate flows further from Indian IT services. Q4 FY26 earnings weakness (Infosys, HDFC, Tech Mahindra, Wipro, HCL Tech) remains dominant DOMESTIC driver. The peace-dividend session today did NOT lift Indian IT — direct-vs-indirect bifurcation persists.",
   "current": {},
   "active_triggers": [
     {
@@ -24,8 +24,8 @@
       "type": "index_weight",
       "weight": 7.0,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 9
+      "last_activated": "2026-05-07",
+      "activation_count": 10
     },
     {
       "to": "sp-500",
@@ -34,6 +34,14 @@
       "directness": 2,
       "last_activated": "2026-04-27",
       "activation_count": 7
+    },
+    {
+      "to": "semiconductors",
+      "type": "ai_flows_bypass_negative_edge",
+      "weight": 7.5,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "activation_count": 4
     },
     {
       "to": "fed",

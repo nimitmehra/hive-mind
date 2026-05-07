@@ -247,19 +247,31 @@ const GRAPH_DATA = {
       "name": "Brent Crude",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **BRENT COLLAPSE EXTENDED TO $107.96 ON MAY 6 (-1.7% 1D after May 5 -4% to $109.87) \u2014 DAY 5/5 OF SUB-$115 CHAIN COMPLETE; MAY 4 KINETIC POP FULLY UNWOUND.** Round-trip arc: May 1 $108.17 \u2192 May 4 $114.44 (kinetic restart, +5.80%) \u2192 May 5 $109.87 (Trump pause, -4%) \u2192 May 6 $107.96 (-1.7%). Cleanest cross-asset de-escalation re-pricing of the entire 67-day arc. Goldman Sachs CUT Q2 2026 Brent forecast to $90/bbl (from $99) and WTI to $87 (from $91), citing 'reduced geopolitical risk premium' and 'early signs of improving oil flows through the Strait of Hormuz' \u2014 sharp downgrade from April 29 'Brent could top $118.' JPMorgan's $150 overshoot warning substantially deferred. Cross-asset confirmation of de-escalation: VIX -5% to 17.38 (BELOW pre-May 4 baseline); S&P +0.55% Tue + +0.8% Wed; KOSPI +6.7% record on AI cycle; USD/INR pulled back to \u20b995.13 from \u20b995.36. **MARKET BIFURCATION:** Brent collapses on diplomatic-track pricing while tankers RALLY (Frontline +2.8%, BOAT +3.5%) on PERSISTENT physical chokepoint \u2014 Hormuz blockade NOT resolved (Trump pause is on US convoy only; blockade 'remains in full force'). The market is pricing two separate things: kinetic-war probability down + physical disruption persists. Forward path: $105-110 hold = pause-priced equilibrium; <$95 = full diplomatic resolution priced; >$115 = kinetic restart re-priced.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **BRENT COLLAPSED -7% MAY 6 ON AXIOS MOU SCOOP \u2014 TRADING $101.95 MAY 7 MORNING; SUB-$105 CHAIN DAY 1; SUB-$115 CHAIN COMPLETED.** Round-trip arc: May 1 $108.17 \u2192 May 4 $114.44 (kinetic restart) \u2192 May 5 $109.87 (Trump pause) \u2192 May 6 ~$103 (-7% MOU scoop) \u2192 May 7 morning $101.95 (+0.5% modest stabilization). The May 7 morning level is **$6 BELOW the May 6 morning level** \u2014 completing not just the May 4 round-trip but breaking BELOW pre-May-4 baseline. Goldman Sachs Q2 forecast cut to $90/bbl (from $99); World Bank April 28 forecasts Brent averaging $86 in 2026 (vs $69 in 2025) \u2014 'largest energy price surge since 2022.' Institutional forecast band now $86-90 for 2026 average. JPMorgan's $150 overshoot retained ONLY in kinetic-restart scenario. **PAPER-VS-PHYSICAL BIFURCATION REMAINS THE STRUCTURAL INTELLIGENCE:** Hormuz transit volume still 5-6 vessels/day vs 138 norm; AWRP at 0.8-1% (still 6-8x pre-war baseline); CMA CGM San Antonio struck May 5 by cruise missile keeps kinetic-tail risk live. Asymmetric structure: peace-rally more priced than rejection-risk. **48-hour Iran response window closes ~May 8 evening \u2014 the binary test.** If MOU signs: Brent \u2192 $86-90 (Goldman/World Bank base case), another -10 to -15% downside. If Iran rejects: Brent +$8-15 within 24h, round-trip back to $115+ on kinetic-restart pricing. For India: $101 Brent compresses CAD pressure significantly vs $115; combined with USD/INR pulling back from \u20b995.36 record + DXY weakness, India macro stress materially easing \u2014 but contingent on MOU signature.",
       "current": {
-        "price": "$107.96 (May 6); $109.87 May 5 close",
-        "delta_1d": "-1.7% May 6; -4.0% May 5 (Trump pause)",
-        "delta_1m": "-1.2%",
-        "delta_3m": "+58.6%",
-        "branch_status": "Branch 1 (kinetic) ~25-30% (DOWN from 40-45%); Branch 2 (extended-economic-warfare) ~35-40%; Branch 3 (de-escalation/diplomatic) ~30-35% (UP from 15-20%).",
-        "regime_shift_marker": "May 5 \u2014 Trump pause = REVERSAL of May 4 kinetic re-pricing within 24h. Goldman Q2 forecast cut to $90 = institutional acknowledgment that kinetic-spike was mean-reverting. Hormuz blockade UNCHANGED but kinetic-war probability compressed.",
-        "brent_wti_spread": "WTI $100.37 (May 6); spread ~$7.6 (compressed further)",
-        "dated_vs_june_backwardation": "Backwardation eased as forward curve flattens with kinetic risk premium removal; physical-tightness signal residual but de-escalating"
+        "price": "$101.95 (May 7 morning Asian session); ~$103 May 6 close (-7% on MOU scoop)",
+        "delta_1d": "+0.5% May 7 morning; -7% May 6 (MOU Axios scoop)",
+        "delta_1m": "+7.4%",
+        "delta_3m": "+47.5%",
+        "branch_status": "Branch 1 (kinetic) ~20-25% (DOWN from 25-30%); Branch 2 (extended-economic-warfare) ~30-35%; Branch 3 (de-escalation/diplomatic) ~40-50% (UP sharply on MOU framework).",
+        "regime_shift_marker": "May 6 \u2014 MOU framework drafting = institutional re-pricing. Goldman Q2 cut to $90 from $99. World Bank $86 average for 2026. May 4 kinetic $6 pop + pre-May-4 baseline both broken. New chain to watch: 'Brent <$105 sustained 5+ sessions' Day 1 today.",
+        "brent_wti_spread": "WTI $95.55 May 7 morning (+0.5% 1D); spread ~$6.4 (further compression)",
+        "dated_vs_june_backwardation": "Backwardation continues to flatten on diplomatic-track pricing; physical-tightness signal persists at insurance/transit-volume level (paper-vs-physical bifurcation)"
       },
       "active_triggers": [
+        {
+          "condition": "Brent <$105 sustained 5+ sessions (post-MOU peace-dividend confirmation)",
+          "status": "watching",
+          "cascade": [
+            "india",
+            "inr-usd",
+            "rbi",
+            "nifty-50",
+            "energy-sector"
+          ],
+          "added": "2026-05-07"
+        },
         {
           "condition": "Brent sustained above $100 for 4+ weeks",
           "status": "active",
@@ -322,16 +334,16 @@ const GRAPH_DATA = {
           "type": "supply_dependency",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-03",
-          "activation_count": 46
+          "last_activated": "2026-05-07",
+          "activation_count": 48
         },
         {
           "to": "india",
           "type": "import_cost",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-04-19",
-          "activation_count": 25
+          "last_activated": "2026-05-07",
+          "activation_count": 27
         },
         {
           "to": "inr-usd",
@@ -383,6 +395,19 @@ const GRAPH_DATA = {
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "BRENT COLLAPSED -7% MAY 6 ON AXIOS MOU SCOOP TO ~$103; TRADING $101.95 MAY 7 MORNING (+0.5% MODEST STABILIZATION); SUB-$115 CHAIN COMPLETED; SUB-$105 CHAIN DAY 1. World Bank April 28 forecasts Brent averaging $86/bbl in 2026 vs $69 in 2025 \u2014 'largest energy price surge since 2022.' Goldman Q2 cut to $90 (from $99); JPMorgan $150 retained ONLY in kinetic-restart scenario. May 4 kinetic pop + pre-May-4 baseline both broken. 48-hour Iran response window closes ~May 8 evening \u2014 binary test for further leg down to $86-90 (MOU signs) vs +$8-15 bounce to $115+ (Iran rejects).",
+          "sources": [
+            "CNBC May 6 (-7% headline)",
+            "CNBC May 7 (Asian session)",
+            "Yahoo Finance",
+            "TradingEconomics",
+            "Goldman Sachs Q2 research note",
+            "World Bank report April 28 (via Euronews)"
+          ],
+          "verification": "CONFIRMED price tape multi-source; Goldman/World Bank forecasts = primary research, treat as forecast revision NOT a forecast hit (conditional on MOU signature)"
+        },
         {
           "date": "2026-05-06",
           "headline": "BRENT -1.7% TO $107.96 (May 6) AFTER -4% TO $109.87 (May 5) ON TRUMP PAUSE \u2014 DAY 5/5 SUB-$115 CHAIN COMPLETE; GOLDMAN CUT Q2 FORECAST TO $90/BBL FROM $99 ('REDUCED GEOPOLITICAL RISK PREMIUM, EARLY SIGNS OF IMPROVING HORMUZ FLOWS'); MAY 4 KINETIC $6 POP FULLY UNWOUND",
@@ -527,13 +552,13 @@ const GRAPH_DATA = {
       "name": "Defense & Aerospace Sector",
       "type": "sector",
       "created": "2026-03-28",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **DEFENSE DE-RATING ACCELERATES \u2014 LOCKHEED -1.8% TO $508.93, -20.2% 1M (-27% FROM MARCH HIGHS); ITA $215.37 (+0.5% 1D, -4.4% 1M).** The cleanest single-name signal that 'defense as a crisis hedge' trade has STRUCTURALLY FAILED in this cycle \u2014 AI/semiconductor rotation has been the actual crisis hedge. Decomposition: ~50% crisis-de-rating (Trump May 5 pause + diplomatic-track activation reduces defense procurement urgency); ~50% earnings (Q1 2026 EPS $6.44 vs $7.28 prior year miss; supply chain issues across fighter jet and classified programs; Q1 FCF -$291mn; multiple analyst downgrades through April). The May 4 kinetic restart did NOT bid Lockheed (defense was already structurally rotating out). The May 5 pause accelerates it. Importantly: the earnings miss is INDEPENDENT of crisis dynamics \u2014 supply chain delays will not be fixed by diplomatic-track resolution. Trump's defense-budget rhetoric (record budget passed) failed to support stock through earnings reality. Editor MUST NOT attribute 100% of LMT's -20% 1M to crisis dynamics. URA $54.20 -1.0% 1D / +11.5% 1M (uranium primarily AI-power-demand cycle, not crisis). For deployment thesis: defense rotation trade structurally failed; AI/semiconductor rotation has been the actual crisis hedge \u2014 bifurcation thesis reinforced.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **ITA +3.7% TO $223.42 BUT AEROSPACE-LED, NOT DEFENSE-LED \u2014 IMPORTANT ATTRIBUTION FLAG.** ITA's top holdings are GE Aerospace (19.4%), RTX (15.1%), Boeing (10.3%) \u2014 together >40% of the ETF. Boeing 737/787 commercial backlog benefits from peace-track resolution (passenger demand, Gulf carrier orders); GE Aerospace order book at $190B with $1B US-ops investment + 5,000 hire announcement. **Lockheed Martin (pure-play defense, missile systems) only +1.0% \u2014 and -18.1% on the month \u2014 confirming peace-track is BEARISH for pure defense.** The +3.7% ITA print MASKS the underlying split: aerospace ripping, defense flat-to-up modestly. **Critical reading guidance: if you read 'Defense ETF +3.7%' as 'war is back on,' you are wrong.** The signal is the OPPOSITE \u2014 peace track tailwind for commercial aero outweighs defense weakness. Lockheed's -18.1% 1M is the actual defense signal: war-premium has unwound substantially. Crisis-linked attribution: ~20% (peace-track tailwind for commercial aero); ~80% Boeing+GE recovery. Reversibility: if MOU signs, ITA rotation continues toward commercial-aero leadership; LMT continues to bleed. If Iran rejects, LMT/RTX bounce +5-8%, Boeing/GE give back small portion. Bifurcation thesis structurally validated.",
       "current": {
-        "price": "ITA $215.37 (May 6); LMT $508.93; URA $54.20",
-        "delta_1d": "ITA +0.5%; LMT -1.8%; URA -1.0%",
-        "delta_1m": "ITA -4.4%; LMT -20.2%; URA +11.5%",
-        "delta_3m": "ITA -7.9%; LMT -18.0%; URA +3.9%"
+        "price": "ITA $223.42 (May 7); LMT $514.26; URA $58.26",
+        "delta_1d": "ITA +3.7% (aerospace-led); LMT +1.0%; URA +7.5%",
+        "delta_1m": "ITA +0.1%; LMT -18.1%; URA +21.5%",
+        "delta_3m": "ITA -4.8%; LMT -19.0%; URA +6.1%"
       },
       "active_triggers": [
         {
@@ -685,13 +710,13 @@ const GRAPH_DATA = {
       "name": "Energy Sector (Global)",
       "type": "sector",
       "created": "2026-03-28",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **ENERGY SECTOR DIGESTS BRENT COLLAPSE TO $107.96 + GOLDMAN Q2 CUT TO $90 \u2014 XLE +0.1% TO $59.45 (FLAT 1D, -0.4% 1M, +12.4% 3M); EXXON +0.8% TO $154.88 (-5.2% 1M, +4.6% 3M).** Mixed picture: equity sector held up despite Brent -1.7% on the diplomatic-track pricing (would normally see -2 to -3% sector decline on $4 Brent move). Cheniere LNG $269.52 (-1.2% 1D, -5.1% 1M, +26.5% 3M) \u2014 softer on TTF eased to \u20ac46.93 (-2.5% May 5). RBOB Gasoline -5.2% 1D leads energy-complex decline on demand-destruction premium unwind ahead of Memorial Day driving season; Heating Oil -10.8% 1M / -0.9% 1D. WTI Crude $100.37 (-1.9% 1D, -11.1% 1M). For deployment thesis: US energy sector remains the cleanest beneficiary trade architecturally \u2014 pays WTI, sells Brent, exports LNG at TTF premium; structural Hormuz blockade keeps margins high. The 'energy-vs-Brent divergence resolves within 21 days' watching trigger is partially active \u2014 sector held up better than crude on May 5-6, suggesting equity is pricing the structural premium not just spot. Goldman's Q2 $90 forecast is conditional on diplomatic track holding; if pause framework breaks, energy reprices up sharply.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **PEACE-DIVIDEND ROTATION DESPITE FLAT SPOT OIL \u2014 XLE -4.1% TO $57.00; EXXON -4.0% TO $148.69; CHENIERE LNG -3.0% TO $261.42; RBOB GASOLINE -3.7%.** This is the cleanest 'war beneficiary unwind' signal in the tape today. Forward-pricing of Brent $86-90 (Goldman Q2 $90 + World Bank 2026 average $86) is doing the work \u2014 spot Brent is flat today but equity is pricing normalization. Reuters/Investing.com explicit attribution May 7: 'U.S. energy sector stocks falling amid optimism that Middle East diplomacy will yield a peace agreement.' XLE is down -5.3% 1M now. Exxon -4.0% reflects YTD peak unwind + Q1 earnings residual (already reported May 1). **Cheniere -3.0% specific:** LNG-scarcity premium (Qatar Ras Laffan damage thesis) being partially repriced as European TTF gas crashed -6.8% May 6 to ~\u20ac47.4/MWh; Cheniere reported Q1 today with modest miss on guidance forward \u2014 adds to peace-dividend rotation. **Reversibility:** if MOU signs, XLE down another 5-10% on full peace pricing; if Iran rejects, XLE bounces +6-10% within 48hr, Exxon back toward $156-160, Cheniere toward $275-280. URA $58.26 (+7.5%) is the rare asset benefiting from BOTH peace track (HEU custodian path under MOU) and structural AI power demand (Cameco 24% of URA, $2.7B 10-year US enrichment commitment continues).",
       "current": {
-        "price": "XLE $59.45 (May 6); Exxon $154.88; Cheniere $269.52; URA $54.20",
-        "delta_1d": "XLE +0.1%; Exxon +0.8%; Cheniere -1.2%; URA -1.0%",
-        "delta_1m": "XLE -0.4%; Exxon -5.2%; Cheniere -5.1%; URA +11.5%",
-        "delta_3m": "XLE +12.4%; Exxon +4.6%; Cheniere +26.5%; URA +3.9%"
+        "price": "XLE $57.00 (May 7); Exxon $148.69; Cheniere $261.42; URA $58.26; RBOB $3.33/gal",
+        "delta_1d": "XLE -4.1%; Exxon -4.0%; Cheniere -3.0%; URA +7.5%; RBOB -3.7%",
+        "delta_1m": "XLE -5.3%; Exxon -9.3%; Cheniere -8.0%; URA +21.5%; RBOB +10.9%",
+        "delta_3m": "XLE +7.0%; Exxon -1.0%; Cheniere n/a; URA +6.1%; RBOB +67.8%"
       },
       "active_triggers": [
         {
@@ -789,13 +814,13 @@ const GRAPH_DATA = {
       "name": "European TTF Natural Gas",
       "type": "commodity",
       "created": "2026-03-28",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **TTF EASED TO \u20ac46.93/MWh (-2.5% MAY 5) FROM MAY 4'S \u20ac48.98 \u2014 CEASEFIRE-RELIEF UNWIND MATCHING BRENT.** Trump's May 5 pause of Project Freedom triggered European energy-security tail-risk relief; Deutsche Welle emphasized the energy-implications angle. TTF remains BELOW \u20ac70+ cascade-intensity threshold (5-sessions-sustained trigger NOT activated at any point in the May 4-5 stress event). Structural offsets intact: (a) Hormuz still functionally closed Day 68 but kinetic-war probability compressed; (b) European inventory refill window tightening into summer (storage at 5-year seasonal low); (c) Qatar Ras Laffan Trains 4/6 (12.8 mtpa, ~17% Qatar LNG) still 3-5yr recovery. ECB has not characterized Hormuz risk as systemic. The May 4-5 stress did NOT push TTF to crisis-cascade levels \u2014 paper TTF continues to behave more like inflation event than crisis event, validating the structural-offsets framework. The TTF-Brent decoupling persists: TTF -2.5% May 5 vs Brent -4% \u2014 TTF moved less in both directions, confirming structural-anchored pricing. Pre-crisis baseline \u20ac31.20; current premium ~50% above baseline.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **TTF CRASHED -6.8% MAY 6 TO ~\u20ac47.4/MWh ON MOU SCOOP \u2014 PRICING PAUSE AS PLAUSIBLY DURABLE.** TTF -28% est on month; +35% est 3M (vs pre-crisis \u20ac32-35 baseline). The MOU's 'both sides lift Hormuz blockades' provision included Qatar Ras Laffan reopening expectation in market pricing \u2014 TTF moved alongside Brent's -7% but with structural-anchored pricing (TTF moved less in both directions historically). TTF remains BELOW \u20ac70+ cascade-intensity threshold (5-sessions-sustained trigger NOT activated at any point in the May 4-7 stress event). Structural offsets intact: (a) Hormuz still functionally closed (5-6 vessels/day vs 138 norm) but kinetic-war probability compressed; (b) European inventory refill window tightening into summer (storage at 5-year seasonal low); (c) Qatar Ras Laffan Trains 4/6 (12.8 mtpa, ~17% Qatar LNG) still 3-5yr recovery. ECB has not characterized Hormuz risk as systemic. **TTF-Brent decoupling persists** \u2014 paper TTF continues to behave more like inflation event than crisis event. If MOU signs, TTF could continue to compress toward \u20ac40-42 area; if Iran rejects, TTF re-bids back toward \u20ac52-55.",
       "current": {
-        "price": "\u20ac46.93/MWh (May 5)",
-        "delta_1d": "-2.5% (May 5)",
-        "delta_1m": "est -4%",
-        "delta_3m": "est +50% vs pre-crisis \u20ac31.20"
+        "price": "~\u20ac47.4/MWh (May 7)",
+        "delta_1d": "-6.8% (May 6 close, on MOU scoop)",
+        "delta_1m": "est -28%",
+        "delta_3m": "est +35% vs pre-crisis \u20ac32-35"
       },
       "active_triggers": [
         {
@@ -856,6 +881,16 @@ const GRAPH_DATA = {
       ],
       "recent_signals": [
         {
+          "date": "2026-05-07",
+          "headline": "TTF CRASHED -6.8% MAY 6 TO ~\u20ac47.4/MWh ON MOU SCOOP \u2014 pricing pause as plausibly durable. -28% est 1M / +35% est 3M. MOU 'both sides lift Hormuz blockades' provision priced Qatar Ras Laffan reopening expectation. TTF still below \u20ac70+ cascade-intensity threshold; structural offsets (Hormuz closed, inventory tight, Ras Laffan 3-5yr recovery) intact.",
+          "sources": [
+            "ICE Endex / TradingEconomics",
+            "Reuters",
+            "Axios MOU framework"
+          ],
+          "verification": "CONFIRMED price tape (TradingEconomics primary); MOU framework = REPORTED multi-corroborated"
+        },
+        {
           "date": "2026-05-03",
           "headline": "TTF GAS \u20ac45.41/MWh -1.26% MAY 1 \u2014 DECOUPLED FROM BRENT MONTHLY (-3% 1M VS BRENT +6.9%)",
           "sources": [
@@ -903,8 +938,8 @@ const GRAPH_DATA = {
       "name": "Federal Reserve",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-05-05",
-      "summary": "Day 63 Thursday. FOMC HELD 3.5-3.75% WITH FOUR-WAY DISSENT \u2014 MOST SPLINTERED FOMC SINCE OCTOBER 1992. POWELL: 'IT HASN'T EVEN PEAKED YET' ON ENERGY INFLATION = EXPLICIT STRUCTURAL FRAMING (not transitory). 11-1 vote on rate (Stephen Miran lone Trump-nominee dovish dissent for 25bp cut); 4 dissents on statement collectively (Hammack/Cleveland, Kashkari/Minneapolis, Logan/Dallas voted with majority on rate but OPPOSED inclusion of easing bias \u2014 HAWKISH dissents). The 3:1 hawkish-vs-dovish dissent ratio is the operative signal \u2014 even Fed officials disagreeing with the statement language want it MORE hawkish. Powell confirmed final press conference as Chair; Warsh-transition 'very normal, standard.' POWELL'S STRUCTURAL FRAMING IS THE INVERSE OF YESTERDAY'S 'TRANSITORY' BINARY \u2014 yesterday's brief flagged 'transitory vs structural' as the single highest-information-density variable; Powell chose STRUCTURAL on the record. Cascade: DXY firmed +0.4% to 98.99 (breaks 98.7 ceiling); US 10Y +7bps to 4.42% (highest in 3M); CME FedWatch 0% Apr cut, 30% by Dec (down from 70% in Mar); 'Fed pivot is the next catalyst' narrative STRUCTURALLY REJECTED. For gold INFLATION-regime call: Day 10 of empirical confirmation; Powell's verbal validation (gold trapped under $4,600). For INR: no DXY-relief vector \u2192 \u20b994.82 holds, \u20b90.18 from \u20b995. For Indian equities: removes DXY-relief vector flagged as potential catalyst. For US 10Y: pricing structural inflation acceptance; 4.42% close highest in 3M. Goldman gold regime call empirically vindicated Day 10. [TRUNCATED \u2014 needs re-synthesis]",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **DXY 98.03 (4-YEAR LOW; FLAT 1D, -1.1% 1M); RIEDER FED-CHAIR SPECULATION + TRUMP COMFORTABLE-WITH-WEAK-DOLLAR COMMENTS = DOLLAR-WEAKNESS REGIME INTACT.** US 10Y 4.36% (-1.4% 1D, +0.3% 1M). VIX 17.39 cycle-low. Today's metals rally (gold +1.1%, silver +2.9%, copper +1.0%) is dollar-driven not war-risk \u2014 cross-asset confirmation: VIX low, S&P record, defense weak, yields lower. **BlackRock's Rick Rieder (vocal advocate of aggressive rate cuts) emerging as leading candidate for next Fed chair \u2192 dovish-Fed expectation builds.** If Rieder confirmed/announced as next Fed chair, dollar-weakness regime confirmed \u2192 multi-quarter EM-bullish setup including Indian equities. Brent collapse to ~$103 May 6 + World Bank $86 average for 2026 + Goldman Q2 $90 reduces inflation pass-through pressure on Fed; Powell's April 'it hasn't even peaked yet' framing now structurally contradicted by post-MOU energy-price-decline trajectory. CME June cut probability ~28%; Polymarket ~56% zero 2026 cuts \u2014 but the rate path could now reprice dovish if MOU signs and Brent settles at $86-90. **The Fed's biggest single dovish catalyst is now MOU signature** \u2014 institutional energy-inflation acceptance becomes inverse of the kinetic-restart pricing.",
       "current": {},
       "active_triggers": [
         {
@@ -1020,14 +1055,14 @@ const GRAPH_DATA = {
       "name": "Fertilizer / Urea",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-05-05",
-      "summary": "Day 67 Tuesday. **CF INDUSTRIES +2.6% TUE TO $125.89 ON FERTILIZER WAR-BID** \u2014 kinetic restart May 4 + Qatar fertilizer-supply concern persisting + Indian RCF tender May 9 = real fertilizer cascade transmission to India. Argus tender data May 4: Egyptian NCIC sold 20,000t DAP at up to $880/t fob (+5-10% over April $805-820/t avg); urea 10,000t at $852/t fob Ain Sokhna; NCIC offering further 30,000t DAP closing May 4. Indian fertilizer producer/importer RCF issued tender to buy phosphate rock and/or DAP/MAP and MOP closing May 9 \u2014 Indian government sourcing aggressively, suggesting agriculture-input strategic stockpiling activity. The May 1 urea -14.23% (TradingEconomics) on diplomatic-window pricing has reversed: urea expected to re-rate +5-10% from $585/T baseline on kinetic restart pricing. Wheat/Corn/Sugar all +2.3-3.0% Tue in sympathy. Linde -2.8% Tue (industrial-gas-producer rotation FAILED \u2014 see helium node). QatarEnergy downstream urea HALTED structurally; physical supply chain unchanged through 2027. CF Q1 May 6 BINARY TEST UNCHANGED \u2014 May 4 kinetic restart elevates equity-fundamentals tilt. Nutrien +0.8% Tue (lagging CF). The equity-vs-physical divergence is now equity catching up: CF +2.6% on Tue while urea repricing back upward. CF cumulative +38.6% 3M \u2014 strongest fertilizer-equity arc of crisis.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **CF INDUSTRIES -6.5% TO $119.76 / NUTRIEN -4.4% TO $73.81 \u2014 APRIL 17 PLAYBOOK RERUN: HORMUZ REOPENING SIGNAL = QATAR FERTILIZER NORMALIZATION EXPECTATION = SCARCITY-PREMIUM UNWIND.** MOU framework includes explicit Hormuz blockade lift \u2192 Qatar fertilizer/urea export normalization expectation. This is the SECOND-CLEANEST peace-dividend trade after energy. Today: same scarcity-premium unwind triggered by the same kind of news that drove CF -9.6% / NTR -5.2% on April 17 (when Iran first signaled Hormuz reopening). Urea generic at $577.50/T (May 5) drifting lower; Argus Q2 forecast $715 (Yuzhny FOB benchmark) has room to compress further; Egypt NCIC late-April spot $852/t represents the high-water mark; Yuzhny FOB benchmarks softening. CF is now -10.5% on the month and tracking the symmetrical inverse of the Hormuz-closure scarcity rally that drove it +27% in 3 months. **Reversibility:** if MOU signs, CF could give back another 8-12%; urea moderates toward Argus $715 forecast. If Iran rejects, CF bounces +6-9% within 48hr on premium re-pricing.",
       "current": {
-        "price": "CF Industries $125.89 (Tue +2.6%); Nutrien $75.82 (+0.8%); Linde $493.55 (-2.8%); BASF \u20ac52.85 (+0.7%); Urea TradingEconomics ~$585/T May 1 baseline; DAP NCIC $880/t fob May 4",
-        "delta_1d": "CF +2.6%; Nutrien +0.8%; Linde -2.8%; BASF +0.7%",
-        "delta_1m": "CF -3.1%; Linde -1.8%; BASF +5.2%",
-        "delta_3m": "CF +38.6%; Nutrien +12.3%; Linde +7.7%; BASF +10.8%",
-        "profercy_world_nitrogen_index": "Re-rating upward on May 4 kinetic restart"
+        "price": "CF Industries $119.76 (May 7); Nutrien $73.81; Linde $501.87; BASF \u20ac52.52; Urea generic $577.50/T (May 5)",
+        "delta_1d": "CF -6.5%; Nutrien -4.4%; Linde +0.3%; BASF -1.7%; Urea -1.3% (May 5)",
+        "delta_1m": "CF -10.5%; NTR -4.0%; Linde +1.5%; BASF +7.5%; Urea est -10%",
+        "delta_3m": "CF +26.8%; NTR +6.1%; Linde +10.3%; BASF +13.7%; Urea +23%",
+        "profercy_world_nitrogen_index": "Re-pricing downward on MOU framework / Hormuz reopening signal"
       },
       "active_triggers": [
         {
@@ -1079,11 +1114,31 @@ const GRAPH_DATA = {
           "type": "production_dependency_cascade_weakening",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-03",
-          "activation_count": 13
+          "last_activated": "2026-05-07",
+          "activation_count": 14
+        },
+        {
+          "to": "iran",
+          "type": "mou_track_repricing_via_hormuz",
+          "weight": 6.0,
+          "directness": 2,
+          "last_activated": "2026-05-07",
+          "activation_count": 1
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "CF -6.5% / NTR -4.4% \u2014 APRIL 17 PLAYBOOK RERUN: MOU 'BOTH SIDES LIFT HORMUZ BLOCKADES' = QATAR FERTILIZER NORMALIZATION EXPECTATION = SCARCITY-PREMIUM UNWIND. CF -10.5% 1M now tracking symmetrical inverse of Hormuz-closure scarcity rally that drove it +27% in 3M. Urea generic $577.50/T (May 5) drifting lower; Argus Q2 forecast $715 has room to compress further; Egypt NCIC late-April spot $852/t = high-water mark. Second-cleanest peace-dividend trade after energy. If MOU signs: CF could give back another 8-12%. If Iran rejects: CF bounces +6-9% within 48hr.",
+          "sources": [
+            "yfinance CF/NTR",
+            "Axios MOU framework",
+            "Argus Media (urea Q2 $715)",
+            "Trading Economics urea",
+            "GuruFocus (April 17 playbook reference)"
+          ],
+          "verification": "CONFIRMED CF/NTR price tape; MOU framework = REPORTED multi-corroborated; April 17 playbook = CONFIRMED historical (CF -9.6% / NTR -5.2% on prior Hormuz reopening signal)"
+        },
         {
           "date": "2026-05-05",
           "headline": "CF +2.6% TUE TO $125.89 ON FERTILIZER WAR-BID; ARGUS NCIC DAP $880/T FOB MAY 4 (+5-10% OVER APRIL); RCF INDIA TENDER MAY 9 \u2014 STRATEGIC STOCKPILING",
@@ -1138,20 +1193,132 @@ const GRAPH_DATA = {
         }
       ]
     },
+    "france": {
+      "id": "france",
+      "name": "France",
+      "type": "country",
+      "created": "2026-05-07",
+      "last_updated": "2026-05-07",
+      "summary": "Day 1 in graph \u2014 created on May 7 following France's emergence as a distinct maritime/naval principal in the Hormuz crisis. **France's Charles de Gaulle CSG transited Suez to Red Sea/Gulf of Aden following CMA CGM San Antonio strike May 5 \u2014 first major European naval-presence shift of cycle.** CMA CGM San Antonio (Maltese-flagged, Philippine crew, French-owned shipping group) struck by cruise missile while transiting Hormuz May 5; multiple crew injured. CBS attribution to Iran (single-source US officials, IRGC has NOT claimed). Macron leveraged the technicality that the vessel was Maltese-flagged not French-flagged to say 'France is in no way under attack' while simultaneously announcing the redeployment of the Charles de Gaulle carrier strike group from East Med through Suez to Red Sea/Gulf of Aden (CONFIRMED \u2014 Naval News, ABC, NBC, US News, Washington Times). Macron also publicly called for Hormuz to reopen and said he had spoken with the Iranian president (CONFIRMED \u2014 The Hill). **The simultaneity is the signal:** France is deploying force while denying it is being attacked, mirroring the Iranian 'negotiate while bombing' pattern from cycle's earlier phases. **Operational read:** the cruise-missile strike on a non-flagged commercial vessel during the same 48-hour window as the Trump pause and the MOU drafting demonstrates that (a) IRGC tactical leverage continues at operational layer despite civilian-government diplomatic-track signals, (b) the bifurcation between kinetic risk and political track is now structural, and (c) France's deployment adds a NEW NAVAL ACTOR in Hormuz beyond US/UK in addition to UK's conditional joint mission. The National (Abu Dhabi): 'France sends aircraft carrier to Red Sea in new push to open Strait of Hormuz' \u2014 frames the move as Hormuz-reopening tailwind, supportive of UAE position. ABC reports French CSG specifically moved south of Suez 'ahead of conditional UK-French Hormuz mission.'",
+      "current": {},
+      "active_triggers": [
+        {
+          "condition": "France-Iran (Macron-Pezeshkian) channel emerges as parallel diplomatic track within 14 days (by 2026-05-21)",
+          "status": "watching",
+          "cascade": [
+            "france",
+            "iran",
+            "trump",
+            "strait-of-hormuz",
+            "brent-crude"
+          ],
+          "added": "2026-05-07"
+        },
+        {
+          "condition": "Iran or IRGC attacks European-flagged vessel in Hormuz within 14 days (by 2026-05-21) \u2014 direct France-Iran kinetic confrontation activation",
+          "status": "watching",
+          "cascade": [
+            "france",
+            "iran",
+            "irgc",
+            "strait-of-hormuz",
+            "shipping-tankers",
+            "marine-war-risk-insurance"
+          ],
+          "added": "2026-05-07"
+        },
+        {
+          "condition": "French CSG enters Hormuz proper (transit through Strait, not just Red Sea/Gulf of Aden)",
+          "status": "watching",
+          "cascade": [
+            "france",
+            "iran",
+            "strait-of-hormuz",
+            "shipping-tankers"
+          ],
+          "added": "2026-05-07"
+        }
+      ],
+      "top_edges": [
+        {
+          "to": "strait-of-hormuz",
+          "type": "naval_deployment",
+          "weight": 5.0,
+          "directness": 1,
+          "last_activated": "2026-05-07",
+          "activation_count": 1
+        },
+        {
+          "to": "iran",
+          "type": "diplomatic_engagement_with_naval_pressure",
+          "weight": 4.0,
+          "directness": 1,
+          "last_activated": "2026-05-07",
+          "activation_count": 1
+        },
+        {
+          "to": "shipping-tankers",
+          "type": "national_shipping_industry_target",
+          "weight": 4.0,
+          "directness": 1,
+          "last_activated": "2026-05-07",
+          "activation_count": 1
+        },
+        {
+          "to": "marine-war-risk-insurance",
+          "type": "naval_presence_risk_perception",
+          "weight": 3.0,
+          "directness": 1,
+          "last_activated": "2026-05-07",
+          "activation_count": 1
+        },
+        {
+          "to": "united-states",
+          "type": "allied_naval_coordination_with_independence",
+          "weight": 3.5,
+          "directness": 1,
+          "last_activated": "2026-05-07",
+          "activation_count": 1
+        }
+      ],
+      "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "FRANCE CHARLES DE GAULLE CSG TRANSITED SUEZ TO RED SEA / GULF OF ADEN FOLLOWING CMA CGM SAN ANTONIO STRIKE \u2014 FIRST EUROPEAN NAVAL SHIFT OF CYCLE; MACRON CALLED FOR HORMUZ REOPENING AND SPOKE WITH IRANIAN PRESIDENT PEZESHKIAN. CMA CGM San Antonio (Maltese-flagged, Philippine crew, French-owned shipping group) struck by cruise missile in Hormuz May 5; multiple crew injured. CBS attribution to Iran (single-source US officials, IRGC has NOT claimed). Macron: 'France is in no way under attack' (leveraged Maltese-flag technicality) while deploying CSG. The simultaneity (deploying force while denying attack) mirrors Iranian 'negotiate while bombing' pattern. The National UAE frames as Hormuz-reopening tailwind supportive of UAE position. ABC: French CSG specifically moved south of Suez 'ahead of conditional UK-French Hormuz mission.'",
+          "sources": [
+            "French armed forces statement",
+            "Naval News",
+            "ABC News",
+            "NBC News",
+            "Washington Times",
+            "US News",
+            "The Hill (Macron-Pezeshkian call)",
+            "CMA CGM company statement",
+            "CBS News (Iran attribution)",
+            "JPost",
+            "Arab News",
+            "FreightWaves",
+            "The National UAE"
+          ],
+          "verification": "CONFIRMED \u2014 French CSG redeployment multi-source (French armed forces primary + Naval News + ABC + NBC + Washington Times + US News); CMA CGM San Antonio strike = CONFIRMED ACTION (CMA CGM company statement primary); CLAIMED Iran attribution (CBS single-source US officials, IRGC has NOT claimed, no independent corroboration); Macron-Pezeshkian call = CONFIRMED (The Hill primary)"
+        }
+      ],
+      "historical_summaries": []
+    },
     "gold": {
       "id": "gold",
       "name": "Gold",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **GOLD $4,678.70 (+2.7% 1D, +0.5% 1M, -5.5% 3M) \u2014 DOLLAR-DRIVEN RALLY, NOT WAR-RISK BID.** CRITICAL DISAMBIGUATION: today's gold +2.7% rally is a CLASSIC FALSE-SIGNAL TRAP. Cross-asset confirmation that this is dollar story not war story: VIX -5% (DOWN), S&P +0.8% (UP), defense ITA -1.8% (DOWN), yields LOWER. Drivers: (1) Trump comments suggesting administration comfortable with weaker dollar (Saxo Bank, FXEmpire); (2) BlackRock's Rick Rieder (vocal advocate of aggressive rate cuts) emerging as leading candidate for next Fed chair \u2192 dovish-Fed expectation builds; (3) DXY -0.4% to 98.09 = USD 4-year low. Silver +4.5%, copper +2.6%, platinum +2.8%, palladium +2.0% \u2014 ALL precious/industrial metals priced in USD reprice up mechanically on USD weakness. Crisis-relief component is SMALL (~10%): Trump pause reduces tail-risk hedging demand \u2192 would normally REDUCE gold bid, but dollar weakness dominates. **For deployment thesis:** dollar-weakness driver is STRUCTURALLY BULLISH for emerging-market equities (Korea/Taiwan/India/Brazil), bullish for commodities, bullish for non-USD assets. If Rieder Fed-chair speculation hardens, multi-quarter tailwind for Indian equities. The $4,600 watching trigger is now CROSSED on the rally; need 3+ sessions sustained above $4,600 for regime-shift confirmation. NEW TRIGGER WATCHING: Rieder confirmed as next Fed chair = dollar-weakness regime confirmed \u2192 multi-quarter EM bullish setup.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **GOLD $4,732.40 (+1.1% 1D, -0.4% 1M, -6.3% 3M) \u2014 DAY 2 OF '$4,600 SUSTAINED 3+ SESSIONS' TRIGGER ON TRACK; DOLLAR-WEAKNESS REGIME INTACT.** Today's expected behavior on a peace-dividend day: gold should be flat to down (war-risk premium unwinding); actual: gold +1.1% to fresh ~record $4,732. The diagnostic test: if peace-dividend were the dominant regime, gold should be flat \u2014 the fact that gold is still RISING on a record-S&P-and-KOSPI-and-Nikkei day means **dollar-weakness regime is the dominant macro factor, NOT crisis.** Disambiguation: ~85% dollar-weakness driven (DXY 98.03 four-year low, Rieder Fed-chair speculation, Trump weak-dollar comments, EM USD-debt rebalancing); ~15% residual war-risk (Iran 48hr response window still open; tail-risk of MOU rejection). Silver +2.9%, copper +1.0%, platinum +1.6%, palladium +1.0% confirm USD weakness mechanical. **The classification is binary and decision-relevant:** dollar-driven gold = bullish EM tailwind including Indian equities once RBI eases; war-risk-driven gold = bearish for risk assets including Indian equities. If MOU signs: gold continues to be bid on dollar weakness; war-risk component unwinds (-1-2% from current). If Iran rejects: gold gets BOTH war-risk re-bid AND dollar-weakness \u2014 could break $4,800-4,900. The $4,600 trigger remains active (Day 2 above $4,600); need 3+ sessions sustained for regime-shift confirmation \u2014 Day 3 = May 8.",
       "current": {
-        "price": "$4,678.70 (May 6)",
-        "delta_1d": "+2.7%",
-        "delta_1m": "+0.5%",
-        "delta_3m": "-5.5%",
-        "regime": "DOLLAR-WEAKNESS-DRIVEN RALLY (~90%) + crisis-relief residual (~10%). NOT a war-risk bid. Watch DXY + Fed-chair appointment dynamics, not crisis events.",
-        "watching_threshold": "$4,600 trigger CROSSED on May 6 rally; need 3+ sessions sustained above $4,600 for regime-shift confirmation. $5,500 ATH watching (was $4,775 ATH from prior cycle)."
+        "price": "$4,732.40 (May 7)",
+        "delta_1d": "+1.1%",
+        "delta_1m": "-0.4%",
+        "delta_3m": "-6.3%",
+        "regime": "DOLLAR-WEAKNESS-DRIVEN RALLY (~85%) + crisis-relief residual (~15% \u2014 Iran 48hr response window). Day 2 above $4,600. NOT a war-risk bid. Watch DXY + Fed-chair appointment + Iran response, not single crisis events.",
+        "watching_threshold": "Day 2 of $4,600+ sustained chain (regime-shift confirmation if Day 3 sustains). $5,500 ATH watching. If MOU signs: -1-2% war-risk component unwind, dollar-driven bid intact. If Iran rejects: BOTH war-risk + dollar-weakness drivers stack \u2014 could break $4,800-4,900."
       },
       "active_triggers": [
         {
@@ -1261,6 +1428,18 @@ const GRAPH_DATA = {
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "GOLD $4,732.40 (+1.1%) \u2014 DAY 2 OF '$4,600 SUSTAINED 3+ SESSIONS' TRIGGER ON TRACK. DOLLAR-WEAKNESS REGIME INTACT (DXY 98.03, Rieder Fed-chair speculation, Trump weak-dollar comments). On a peace-dividend day with S&P record, gold should be flat \u2014 fact that gold is RISING means dollar-weakness regime DOMINANT, not crisis. Disambiguation ~85% dollar / ~15% war-risk residual. Silver +2.9%, copper +1.0%, platinum +1.6% confirm USD weakness mechanical. Decision-relevant binary: dollar-driven gold = bullish EM tailwind incl India once RBI eases; war-risk-driven gold = bearish for risk assets incl India.",
+          "sources": [
+            "LiteFinance daily forecast",
+            "InvestingCube weekly forecast May 5-8",
+            "World Gold Council 2026 outlook",
+            "TradingEconomics gold",
+            "yfinance"
+          ],
+          "verification": "CONFIRMED price tape multi-source; cross-asset disambiguation (VIX low, S&P record, defense weak, yields lower) confirms dollar-weakness regime"
+        },
         {
           "date": "2026-05-06",
           "headline": "GOLD +2.7% TO $4,678.70 ON DOLLAR WEAKNESS \u2014 NOT WAR-RISK BID. DXY -0.4% (USD 4-YEAR LOW) ON TRUMP-COMFORTABLE-WITH-WEAK-DOLLAR + RIEDER FED-CHAIR SPECULATION. SILVER +4.5%, COPPER +2.6%, PLATINUM +2.8%. CROSS-ASSET CONFIRMATION DOLLAR STORY NOT WAR STORY: VIX -5%, S&P +0.8%, DEFENSE -1.8%, YIELDS LOWER",
@@ -1484,8 +1663,8 @@ const GRAPH_DATA = {
       "name": "Hezbollah",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 63 Thursday. KINETIC ONGOING \u2014 IDF CONTINUED STRIKES BEQAA + SOUTHERN LEBANON APR 27-29; HEZBOLLAH ROCKET/DRONE ATTACKS CONTINUE; NO NEW ISRAELI CIVILIAN CASUALTY INSIDE ISRAEL PROPER SINCE APR 28 DEFENSE-MINISTRY CONTRACTOR DEATH. Hezbollah SG Naim Qassem 'categorically rejects' Lebanon-Israel direct talks (Al Jazeera). Israel operating in security zone south of Litani, north of Litani, in Beqaa Valley, and northern Lebanon (Wikipedia 2026 Lebanon War timeline; SBS News Apr 29; Haaretz). The 14-day Hezbollah-Israeli-civilian-casualty trigger remains at Day 5 of 14 (closes 2026-05-11). Per intel.md A9: this UNCHANGED node gets one-line reference in brief, not full paragraph. PRIOR DAY-1 SUMMARY (preserved): A civilian contractor working for Israel's Defense Ministry was killed Tuesday April 28 by a Hezbollah drone explosion in southern Lebanon; his 19-year-old son lightly injured (CONFIRMED \u2014 Haaretz Israel-security desk, Times of Israel, UPI). The contractors were working on demolition of buildings in southern Lebanese villages on behalf of an Israeli civilian company contracted by the Defense Ministry. CRITICAL CLASSIFICATION: does this trigger the 'Hezbollah-IDF kinetic produces Israeli civilian casualty' 14-day trigger? STRICT INTERPRETATION NO \u2014 contractor was Israeli-employed civilian in active operational duty inside Lebanese territory, materially analogous to a non-uniformed combatant; he is NOT a civilian struck inside Israel proper, which is the scenario the trigger was designed to capture (intent: flag VIX-spike-eligible escalation extending Lebanon front into Israel-civilian-targeting territory). [TRUNCATED \u2014 needs re-synthesis]",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **HEZBOLLAH RADWAN COMMANDER MALEK BALLOUT KILLED IN BEIRUT SUBURBS STRIKE MAY 6 \u2014 FIRST ISRAELI STRIKE ON LEBANESE CAPITAL SINCE MID-APRIL CEASEFIRE; PM NETANYAHU PERSONALLY ANNOUNCED ORDERING IT. HEZBOLLAH HAS NOT RETALIATED.** 13 killed in southern/eastern Lebanon May 5-6; 12-village forced displacement orders (most north of Litani \u2014 outside occupation zones, in violation of April 16 ceasefire). Day 11/14 of Israeli-civilian-casualty trigger window (closes May 11) \u2014 ALL 13+ casualties Lebanese, ZERO Israeli civilian casualties inside Israel proper this cycle. Hezbollah SG Naim Qassem still 'categorically rejects' Lebanon-Israel direct talks. **The structural read:** Israel exploiting diplomatic-track-on-Iran moment to take out high-value Hezbollah targets with minimal blowback risk; Hezbollah's coordination-decay framework holds (Day 76-77 of Houthi quiet, weak retaliation in Lebanon). The IRGC's reduced ability to direct proxy operations is the same factor visible in Houthi non-action despite Iran's May 4 multi-axis kinetic restart. If trigger window closes May 11 without Israeli civilian casualty, asymmetry framework consolidates as structural intelligence \u2014 Hezbollah operationally degraded, NOT just paused.",
       "current": {},
       "active_triggers": [
         {
@@ -1515,19 +1694,32 @@ const GRAPH_DATA = {
           "type": "lethal_kinetic_post_ceasefire_partial_civilian",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-03",
-          "activation_count": 33
+          "last_activated": "2026-05-07",
+          "activation_count": 35
         },
         {
           "to": "lebanon",
           "type": "operating_base_extended_ceasefire",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-03",
-          "activation_count": 26
+          "last_activated": "2026-05-07",
+          "activation_count": 28
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "RADWAN COMMANDER MALEK BALLOUT KILLED IN BEIRUT SUBURBS STRIKE MAY 6 \u2014 FIRST ISRAELI STRIKE ON LEBANESE CAPITAL SINCE MID-APRIL CEASEFIRE; PM NETANYAHU PERSONALLY ANNOUNCED ORDERING IT. HEZBOLLAH HAS NOT RETALIATED. 13 killed in southern/eastern Lebanon May 5-6; 12-village forced displacement orders (most north of Litani \u2014 outside occupation zones, in violation of April 16 ceasefire). Day 11/14 of Israeli-civilian-casualty trigger window \u2014 ALL 13+ casualties Lebanese, ZERO Israeli civilians inside Israel proper. Coordination-decay framework holds (Houthi non-action, weak Lebanon retaliation).",
+          "sources": [
+            "Times of Israel live-blog",
+            "Al Jazeera primary",
+            "Al-Monitor",
+            "Reuters",
+            "Haaretz",
+            "NPR"
+          ],
+          "verification": "CONFIRMED multi-source \u2014 Beirut strike + Ballout killing + 13 casualties + 12-village displacement orders + Hezbollah non-retaliation"
+        },
         {
           "date": "2026-05-06",
           "headline": "DAY 10/14 TRIGGER WINDOW (CLOSES MAY 11) \u2014 HEZBOLLAH ROCKETS+DRONE INTERCEPTED BEFORE ISRAELI TERRITORY; NO IDF/CIVILIAN CASUALTIES; ASYMMETRY HARDENS (2,659+ LEBANESE KILLED VS ZERO ISRAELI CIVILIANS)",
@@ -1598,8 +1790,8 @@ const GRAPH_DATA = {
       "name": "Houthis (Yemen)",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 75-76 quiet \u2014 UKMTO/MARAD/JMIC partner products and gCaptain coverage confirm 'no incidents have been recorded in the Red Sea since September 2025.' **Houthi non-response continues through Trump's May 5 pause cycle.** The May 4 multi-axis Iran kinetic restart did NOT trigger a Red Sea parallel-front; the May 5 Project Freedom pause is being absorbed without Houthi escalation. Through THE highest-pressure escalation moment of the crisis (May 4 kinetic) AND the highest-profile diplomatic re-pricing (May 5 pause), Houthis remain operationally quiet. The May 4 non-response remains the most significant Houthi non-event of the crisis arc. Yemen reported a May 2 oil-tanker hijacking headed for Somalia \u2014 separate piracy event, NOT Houthi maritime-attack signaling. The 'Houthis enter the war' IntelliNews March 24 framing durably falsified. Coordination-decay thesis substantially hardens \u2014 Iran has demonstrated willingness to kinetic-restart against US Navy + UAE without activating the Houthi proxy. Edge to shipping-tankers continues durable decay; the persistent VLCC/Frontline rate elevation (~$420-474K/day) is HORMUZ-driven, NOT Bab el-Mandeb-driven.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 76-77 quiet \u2014 UKMTO and Lloyd's List confirm no Houthi attacks on commercial shipping recorded in the Red Sea / Bab el-Mandeb / Gulf of Aden during Iran war's 2026 phase. Maritime risk remains 'moderate' (not critical) for Bab el-Mandeb. **Houthi non-response continues through both the May 4 multi-axis Iran kinetic restart AND the MOU-framework cycle.** Houthi leadership has issued threatening rhetoric since February 28 but no operational action. **The non-action despite Iran's May 4 multi-axis kinetic restart confirms the coordination-decay thesis:** Iran's ability to direct proxy operations has weakened. The pattern is now corroborated by Hezbollah's non-retaliation against the May 6 Beirut strike on Radwan commander Ballout \u2014 both proxies show coordination-decay relative to historical baseline. Persistent VLCC/Frontline rate elevation is HORMUZ-driven, NOT Bab el-Mandeb-driven. Maritime Executive even reports 'Houthis Announce End of Red Sea attacks' \u2014 though this announcement has not been formally verified via state action.",
       "current": {},
       "active_triggers": [
         {
@@ -1708,14 +1900,14 @@ const GRAPH_DATA = {
       "name": "India",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **PM MODI PERSONALLY CONDEMNED FUJAIRAH ATTACK MAY 5 \u2014 'UNACCEPTABLE'; HIGHEST-LEVEL INDIAN GOVT STATEMENT OF CRISIS ARC.** MEA spokesperson Randhir Jaiswal reiterated demand for 'immediate cessation of hostilities' and called for 'free and unimpeded navigation and commerce through the Strait of Hormuz.' Indian Embassy Abu Dhabi confirmed coordination with local authorities for medical care of 3 injured Indian nationals. Escalation: yesterday's MEA 'unacceptable' framing was the most pointed crisis statement; PM Modi's personal endorsement May 5 ELEVATES diplomatic posture another tier. India did NOT name Iran directly (strategic-autonomy hedge holds) but alignment with US/UAE Hormuz freedom-of-navigation language is now PM-endorsed. **Markets:** USD/INR pulled back to \u20b995.13 from \u20b995.36 record (-0.14% session) on Brent collapse + RBI NOP/NDF curbs + DXY weakness; \u20b995 trigger BREACHED-AND-REVERSED within 24h; \u20b995.50 direct-intervention threshold UNTESTED. Nifty 24,082.50 (+0.2% 1D) UNDERPERFORMED the cross-asset risk-on regime (KOSPI +6.7%, MSCI EM +2.0%, DAX +1.7%, S&P +0.8%) \u2014 Indian equities WORST POSITIONED for crisis-relief regime among major markets because: (1) AI/semis flow rotates to Korea/Taiwan/US not India IT services; (2) Dollar weakness EM-FX strength capped by RBI curbs; (3) Hormuz operationally closed despite pause = OMC stocks (IOC, BPCL, HPCL) still capped. FII CY26 outflow \u20b91.92 lakh crore (~$23B+) already exceeds CY25 full-year \u20b91.66T; FPI ownership ~16%, lowest in 2 decades, BELOW domestic ownership for first time; DII (SIP-driven) absorbed ~90% (~\u20b91.7 lakh crore YTD). India 10Y GOI ~6.90% (-10 bps area, steady). Eight-million-strong Indian Gulf diaspora exposure factor remains active \u2014 UAE airspace closure through May 11.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **IRAN FM ARAGHCHI ARRIVES NEW DELHI MAY 7-8 FOR 20TH JOINT COMMISSION \u2014 FIRST IRANIAN-FM VISIT TO INDIA SINCE AUG 2024; 75TH ANNIVERSARY INDIA-IRAN FRIENDSHIP TREATY; CO-CHAIRS WITH JAISHANKAR + CALLS ON PRESIDENT MURMU.** Diplomatic timing IS the signal: Araghchi moves directly from Pakistan-mediated track into high-tier engagement with India during the same 48-hour window MOU is meant to be finalized. Positions India as parallel diplomatic node \u2014 not the mediator (Pakistan), but a regional power Iran wants to brief in person while a deal is on the table. PM Modi's May 5 Fujairah condemnation (without naming Iran \u2014 strategic-autonomy hedge) elevates to in-person Iranian-FM engagement within 48 hours. Watch for Indian-MEA framing of Hormuz freedom-of-navigation in joint readouts; any Chabahar mentions; any signal on India-Iran rupee-settlement oil track restart. **Markets \u2014 material macro relief contingent on MOU signature:** Brent collapsed -7% May 6 to ~$103, trading $101.95 May 7 morning; USD/INR \u20b994.74 (-0.5% 1D) pulled back further from \u20b995.36 record on Brent collapse + DXY weakness; India 10Y G-Sec ~6.99% (-3-5bps); India VIX -6.88% on the week. Nifty 24,360.45 (+0.12% early May 7); Sensex 77,949.38 (-0.01%); Gift Nifty +0.67% pre-open. **FII flow stress visible:** sustained outflow \u20b93,621.6 cr May 5; week net \u20b913,771 cr selling vs DII \u20b911,585 cr buying = absorption ratio 84% (lower than prior weeks' ~90% \u2014 domestic absorption capacity being tested). Indian equity gap with global risk-on widens slightly \u2014 S&P/KOSPI/MSCI EM rallied; Nifty +0.12% remains within underperformance band. **The deployment-relevant question:** if MOU signs within 7-10 days, with crude $101 + USD/INR \u20b995 + CAD pressure easing, structural argument for India re-rates favorably; question is timing of FPI return. Eight-million-strong Indian Gulf diaspora exposure factor remains active \u2014 UAE airspace closure through May 11; 3 Indian nationals injured in Fujairah strike receiving medical care.",
       "current": {
-        "price": "Nifty 24,082.50 / Sensex 77,175.49 / USD-INR \u20b995.13 / India 10Y ~6.90% (May 6)",
-        "delta_1d": "Nifty +0.2%; Sensex +0.2%; USD/INR -0.14%; 10Y -10 bps area",
-        "delta_1m": "Nifty +6.0%; Sensex +5.3%",
-        "delta_3m": "Nifty -6.3%; Sensex -7.7%",
-        "deployment_context": "Indian equities UNDERPERFORM crisis-relief regime; FII CY26 outflow \u20b91.92 lakh crore (~$23B+); FPI ownership ~16% (2-decade low); DII absorbed 90%; AI flows bypass India IT services; OMCs capped on Hormuz still closed"
+        "price": "Nifty 24,360.45 / Sensex 77,949.38 / USD-INR \u20b994.74 / India 10Y ~6.99% (May 7 early)",
+        "delta_1d": "Nifty +0.12%; Sensex -0.01%; USD/INR -0.5%; 10Y -3-5 bps; India VIX -6.88% on week",
+        "delta_1m": "Nifty +6.1%; Sensex +5.0%; USD/INR +2.0%; 10Y -5 bps",
+        "delta_3m": "Nifty -5.8%; Sensex -7.4%; USD/INR +4.6%; 10Y +25 bps",
+        "deployment_context": "Indian equities still UNDERPERFORM crisis-relief regime but USD/INR pulled back further to \u20b994.74 on Brent collapse + DXY weakness. FII outflow May 5 \u20b93,621 cr; week net \u20b913,771 cr selling vs DII \u20b911,585 cr buying = DII absorption 84% (down from ~90% \u2014 capacity being tested). If MOU signs and FPI rotation reverses, India re-rates favorably. AI flows continue to bypass India IT services (Apple-Samsung-Intel halo to Korea/Taiwan/US)."
       },
       "active_triggers": [
         {
@@ -1806,8 +1998,8 @@ const GRAPH_DATA = {
           "type": "waiver_window_used_and_closed",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-03",
-          "activation_count": 5
+          "last_activated": "2026-05-07",
+          "activation_count": 6
         },
         {
           "to": "fertilizer-urea",
@@ -1827,6 +2019,22 @@ const GRAPH_DATA = {
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "IRAN FM ARAGHCHI ARRIVES NEW DELHI MAY 7-8 \u2014 first Iranian-FM visit to India since Aug 2024; co-chairs 20th India-Iran Joint Commission with Jaishankar at Hyderabad House; calls on President Murmu at Rashtrapati Bhavan; coincides with 75th anniversary India-Iran Friendship Treaty. Diplomatic timing IS the signal \u2014 parallel-track diplomacy during the same 48-hour MOU finalization window. Nifty 24,360 (+0.12%) / Sensex 77,949 (-0.01%); Gift Nifty +0.67% pre-open. USD/INR \u20b994.74 (-0.5%) on Brent collapse + DXY weakness. India 10Y ~6.99% (-3-5bps). FII outflow May 5 \u20b93,621 cr; week net \u20b913,771 cr selling vs DII \u20b911,585 cr buying (absorption 84%, lower than prior ~90%).",
+          "sources": [
+            "India MEA press release",
+            "DD News",
+            "Tribune India",
+            "Hindustan Times",
+            "5paisa share market live",
+            "ICICI Direct",
+            "NSE/NSDL official flow data",
+            "Goodreturns",
+            "TradingEconomics"
+          ],
+          "verification": "Araghchi visit = CONFIRMED (MEA primary, DD News government primary, multiple Indian English press uniformly); FII/DII flow = CONFIRMED (NSE/NSDL primary)"
+        },
         {
           "date": "2026-05-05",
           "headline": "MEA 'UNACCEPTABLE' STATEMENT ON FUJAIRAH ATTACK \u2014 3 INDIAN NATIONALS INJURED; INR \u20b995.34 FRESH RECORD; NIFTY MON +0.51% (ELECTION RALLY) / TUE -0.8% GIVE-BACK; FII APR OUTFLOW \u20b960,847 CR",
@@ -1906,8 +2114,8 @@ const GRAPH_DATA = {
       "name": "Indian IT Sector (TCS/Infosys/Wipro)",
       "type": "sector",
       "created": "2026-03-28",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **INDIAN IT LAGGING DESPITE BROADER AI-CYCLE TAILWIND \u2014 APPLE-SAMSUNG-INTEL CHIP-PRODUCTION TALKS REDIRECTED AI FLOWS TO MANUFACTURERS, NOT IT SERVICES.** TCS, Infosys, Wipro under pressure today even as KOSPI broke 7,000 with Samsung $1T market cap and SMH +3.1%. The structural read: AI capex flows reward DIRECT exposure (semiconductor manufacturers in Korea/Taiwan/US, hyperscaler infrastructure in US) over INDIRECT exposure (IT services implementation lag). Indian IT has the 2026 capex \u2192 2027 services-growth lag, but the real-time market is pricing the direct-exposure beneficiaries. This is the cleanest signal that the AI-infrastructure-build narrative does NOT automatically lift Indian IT services in this cycle. FOMC backdrop: rate-cut catalyst pushed deeper into 2026 (CME FedWatch ~28% June cut); US-recession-risk on discretionary IT spending intact. Q4 FY26 earnings weakness (Infosys, HDFC, Tech Mahindra, Wipro, HCL Tech) remains the dominant DOMESTIC driver. TCS Q4 +25% operating margin + $2.3B annualized AI revenues showed AI materiality threshold crossed at largest Indian IT vendor. Indian IT remains margin-pressure trade with AI-implementation upside on 2027 horizon \u2014 but for now, the direct-vs-indirect bifurcation is the dominant flow.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **AI-CYCLE DECOUPLING FROM INDIA STRUCTURALLY HARDENS \u2014 KOSPI +37.3% / TAIEX +26.2% / SMH +37.5% (1M) WHILE NIFTY UNDERPERFORMS RISK-ON.** Apple-Samsung-Intel chip-production talks (Bloomberg May 5, CNBC corroborated) extend halo to Korea/Taiwan/US tech stack, NOT to Indian IT services. Samsung Q1 net profits 57.2T KRW (~$39B) \u2014 single quarter higher than ALL of 2025 combined; Samsung market cap crossed $1T May 6 on KOSPI 7,400 (+6.7%). Nikkei +5.7% Golden Week catch-up (SoftBank +13-16%, Advantest +8%, Tokyo Electron +9%) is international validation of AI-cycle decoupling. **For India deployment thesis:** AI flows continue to bypass India IT services and rotate to Korea/Taiwan/US tech \u2014 Indian-equity allocation continues to underperform structurally in this regime. Patel/SemiAnalysis: May 4-6 sequence is structural confirmation; Apple-Samsung-Intel talks specifically signal a US-AI-manufacturing-onshore tailwind that will rotate flows further from Indian IT services. Q4 FY26 earnings weakness (Infosys, HDFC, Tech Mahindra, Wipro, HCL Tech) remains dominant DOMESTIC driver. The peace-dividend session today did NOT lift Indian IT \u2014 direct-vs-indirect bifurcation persists.",
       "current": {},
       "active_triggers": [
         {
@@ -1927,8 +2135,8 @@ const GRAPH_DATA = {
           "type": "index_weight",
           "weight": 7.0,
           "directness": 1,
-          "last_activated": "2026-04-27",
-          "activation_count": 9
+          "last_activated": "2026-05-07",
+          "activation_count": 10
         },
         {
           "to": "sp-500",
@@ -1937,6 +2145,14 @@ const GRAPH_DATA = {
           "directness": 2,
           "last_activated": "2026-04-27",
           "activation_count": 7
+        },
+        {
+          "to": "semiconductors",
+          "type": "ai_flows_bypass_negative_edge",
+          "weight": 7.5,
+          "directness": 1,
+          "last_activated": "2026-05-07",
+          "activation_count": 4
         },
         {
           "to": "fed",
@@ -1996,8 +2212,8 @@ const GRAPH_DATA = {
       "name": "Indian Oil Marketing (IOC/BPCL/HPCL)",
       "type": "sector",
       "created": "2026-03-28",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **OMCs CAPPED DESPITE BRENT COLLAPSE TO $107.96 \u2014 HORMUZ STILL OPERATIONALLY CLOSED (TRUMP PAUSE IS ON US CONVOY ONLY).** IOC/BPCL/HPCL did not benefit proportionally from Brent's -4% May 5 \u2192 -1.7% May 6 collapse because: (1) Indian oil import logistics still constrained by Iranian Hormuz blockade (Trump's pause preserved the blockade explicitly: 'remains in full force and effect'); (2) Brent at $108 still WELL above India's structural-loss-threshold (~$85-90 ceiling for OMC profitability without pump-price pass-through); (3) RBI special-credit-facility for OMC USD-demand REMAINS ACTIVE \u2014 not yet wound down despite Brent giveback (Brent <$103 sustained 2-3 sessions trigger NOT yet activated). The OMC forced-choice 30-day window (started ~Apr 13) is at Day ~23, expiring ~May 27. Diesel margin compression continues; \u20b920/L petrol + \u20b9100/L diesel structural losses persist. CHABAHAR EXIT: US sanctions waiver expired April 26; the 'Iran-rupee oil track via Chabahar restart' escape hatch is now closed. The deployment thesis: OMC stocks remain a compressed-spread trade until either (a) pump-price pass-through announced (politically costly), (b) Brent <$95 sustained (low-probability while Hormuz blockade persists), or (c) Iran formally reopens Hormuz (the new May 26 watching trigger).",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **OMC RELIEF ENVELOPE NOW IN-RANGE: BRENT AT $101.95 MAY 7 MORNING (-7% MAY 6 ON MOU SCOOP); WORLD BANK $86 AVERAGE FOR 2026 + GOLDMAN Q2 $90 = INSTITUTIONAL FORECAST BAND BELOW INDIAN OMC LOSS-THRESHOLD.** Brent at $101 compresses CAD pressure significantly vs $115 \u2014 but OMCs remain capped because (1) Hormuz still operationally closed (5-6 vessels/day vs 138 norm; Trump pause preserved blockade explicitly); (2) $101 still above India's structural-loss-threshold (~$85-90 ceiling without pump-price pass-through); (3) Iran's first unconditional Hormuz reopening offer of cycle is REPORTED (PBS/AP/Al Jazeera/IRNA) but NOT yet operationally translated. The OMC forced-choice 30-day window (started ~Apr 13) is at Day ~24, expiring ~May 27. RBI special-credit-facility for OMC USD-demand REMAINS ACTIVE. CHABAHAR remains closed (US waiver expired April 26). **The MOU framework is the structural relief catalyst:** if signed within 14 days (by May 21) AND Hormuz operationally reopens (transit volume above 30/day for 3 consecutive days), OMC compressed-spread trade unwinds \u2014 Brent toward $86-90 (Goldman/World Bank) materially improves IOC/BPCL/HPCL margin profile. Watch Araghchi-India May 7-8 for any signal on India-Iran rupee-settlement oil track restart (would re-open the Chabahar escape hatch).",
       "current": {
         "brent_futures": "$100.47/bbl Sunday Globex / Monday Asia (-4.6% gap-down \u2014 Branch 3 confirmed)",
         "india_crude_basket": "$100.41/bbl Friday April 24 vs February average $69.01",
@@ -2118,14 +2334,14 @@ const GRAPH_DATA = {
       "name": "INR/USD Exchange Rate",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **INR \u20b995 TRIGGER BREACHED-AND-REVERSED WITHIN 24 HOURS** \u2014 Tue May 5 set fresh intraday record \u20b995.36 (the previously identified Day 2 sustained activation); May 6 PULLED BACK to \u20b995.13 (also referenced as \u20b994.9770 in some reports), -0.14% session, putting INR back below \u20b995 trigger for first time since Apr 30. Yesterday's brief framing of 'Day 2 sustained activation' is REVERSED to 'breached-and-reversed within 24 hours.' Drivers of pullback: (1) Brent collapse to $107.96 reduces oil-import-CAD vector; (2) RBI capital-flow defensive escalation FORMALIZED \u2014 capped dealer banks' Net Open Position in INR at $100mn/day, barred domestic banks from offering INR NDF to NRIs and related parties (CONFIRMED RBI directive); (3) DXY -0.4% (Trump-comfortable-with-weak-dollar comments + BlackRock Rieder dovish-Fed-chair speculation) \u2192 broader EM-FX strength (USD/KRW -1.4%, USD/BRL -1.5%). FX reserves >$700B (~11mo import cover). The \u20b995.50 direct-intervention threshold remains UNTESTED \u2014 RBI defended via capital-flow controls only. FII context: CY26 outflow \u20b91.92 lakh crore (~$23B+) already exceeds CY25 full-year; FPI ownership of Indian equities ~16%, lowest in nearly 2 decades; DII (SIP-driven) absorbed ~90% of FII selling (~\u20b91.7 lakh crore YTD). Important nuance: NOP/NDF curbs are defensive containment, not sustainable equilibrium \u2014 if Brent breaks $115 again or FII outflows accelerate, \u20b995.50 still in play. India 10Y GOI ~6.90% (-10 bps area, steady).",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **INR \u20b994.74 (-0.5% 1D) \u2014 RUPEE STRENGTHENED FURTHER ON BRENT COLLAPSE + DXY WEAKNESS; \u20b995 TRIGGER REMAINS REVERSED.** Pullback continued from May 5 \u20b995.36 record on (1) Brent -7% May 6 to ~$103, trading $101.95 May 7 morning \u2014 materially compresses oil-import CAD vector; (2) DXY 98.03 (4-year low) on Rieder Fed-chair speculation + Trump weak-dollar comments; (3) USD/KRW -1.5%, USD/JPY -0.9%, EUR/USD +0.3% \u2014 broader EM/G10 USD weakness regime; (4) RBI capital-flow curbs (NOP cap $100mn/day + INR NDF restriction) remain operational. FX reserves >$700B. \u20b995.50 direct-intervention threshold UNTESTED. India 10Y G-Sec ~6.99% (-3-5bps from recent 7.05% high; about 50% crisis-linked, 50% RBI policy expectations). **The dollar-weakness regime is structurally bullish for INR if Rieder Fed-chair speculation hardens** \u2014 multi-quarter tailwind. Decision-relevant binary: if MOU signs, 5-15% IRR appreciation prices in within 7-14 days as sanctions-relief expectation builds \u2192 INR continued appreciation toward \u20b993-94 range; if Iran rejects, INR weakens back toward \u20b995-96 record territory. FII CY26 outflow already exceeds CY25 full-year \u20b91.66T; FPI ownership ~16% (2-decade low, BELOW domestic).",
       "current": {
-        "price": "\u20b995.13/USD (May 6 close, also referenced ~\u20b994.98); \u20b995.36 May 5 record",
-        "delta_1d": "-0.14% May 6 (rupee strengthening; pulled back from record)",
-        "delta_1m": "+2.5%",
-        "delta_3m": "+5.3%",
-        "regime": "\u20b995 trigger BREACHED-AND-REVERSED within 24h cycle. NOP/NDF curbs operational and effective. \u20b995.50 direct-intervention threshold remains WATCHING (UNTESTED through May 4-5 stress)."
+        "price": "\u20b994.74/USD (May 7); previously \u20b995.13 May 6, \u20b995.36 May 5 record",
+        "delta_1d": "-0.5% May 7 (rupee strengthened further from record)",
+        "delta_1m": "+2.0%",
+        "delta_3m": "+4.6%",
+        "regime": "\u20b995 trigger REMAINS REVERSED \u2014 INR has now strengthened 2 sessions from \u20b995.36 May 5 record. Brent collapse + DXY weakness compound. NOP/NDF curbs operational. \u20b995.50 direct-intervention threshold UNTESTED."
       },
       "active_triggers": [
         {
@@ -2311,8 +2527,8 @@ const GRAPH_DATA = {
       "name": "Iran",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **IRANIAN STATE MESSAGING REVERSE-CYCLED MAY 5: ESCALATING-DEFIANT \u2192 DIPLOMATIC-FORWARD-WITH-HARDLINER-DISSENT.** After Trump's May 5 pause of Project Freedom, FM Abbas Araghchi reframed the now-paused operation as 'Project Deadlock' while signaling the Pakistan track is alive ('there's no military solution to a political crisis') \u2014 language that READS as diplomatic-track validation rather than escalation. IRNA dropped May 4 'delirium' framing and pivoted to acknowledging the Pakistan track. Tasnim/IRGC track maintained UAE pressure ('all UAE interests' as targets) but did NOT escalate vs the US after the pause. INTERNAL POSTURE DIVERGENCE confirmed: Pezeshkian/Araghchi civilian government on negotiating track vs IRGC/hardliner outlets (Kayhan column threatening European military bases as 'legitimate and lawful targets') maintaining leverage rhetoric \u2014 factional bifurcation is structural intelligence, NOT a unified shift. Kinetic restart of May 4 (multi-axis attack on US Navy + UAE Fujairah + SK HMM Namu) was effective LEVERAGE that produced the diplomatic-track re-opening within 24 hours. UAE air-defense engaged 12 ballistic + 3 cruise + 4 drones (refined breakdown vs yesterday's 15+4); 18 of 19 successfully neutralized \u2014 Iran demonstrated coordinated saturation strike capability but achieved one drone breakthrough (Fujairah). Rial flat ~1.81-1.85M IRR/USD; hyperinflation 2M trigger NOT activated. Mojtaba Day 59-60 absent (still no proof-of-life). Branches re-priced: kinetic ~25-30% (DOWN from 40-45%); extended-economic-warfare ~35-40%; negotiated-resolution ~30-35% (UP from 15-20%). Markets adjudicated the diplomatic re-pricing: Brent -4% May 5 \u2192 $107.96 May 6; VIX -5% to 17.38 (below pre-May 4); USD/INR pulled back to \u20b995.13.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **MOU TEXT NOW ON THE TABLE \u2014 14-POINT MEMORANDUM-OF-UNDERSTANDING DRAFTING WITH 48-HOUR IRAN RESPONSE WINDOW (~MAY 8 EVENING).** Axios scoop May 6 (corroborated CNN/JPost/NPR/Hill/Reuters/Times of Israel/Iran International independently) reports White House and Iran closing in on a one-page 14-point MOU that would: (1) declare end-of-war; (2) Iran moratorium on uranium enrichment 12-15 years (compromise between US-demanded 20yr and Iran-offered 5yr); (3) Iran ships out HEU stockpile (custodian still TBD; Russia rejected by US, IAEA/Kazakhstan possible); (4) US lifts sanctions and releases frozen Iranian assets; (5) BOTH sides lift Hormuz blockades; (6) 30-day post-signing window for detailed agreements. The 14-point MOU was originally Iran's proposal in response to a 9-point US plan (Tasnim/Xinhua/Al Jazeera May 3). Witkoff and Kushner negotiating directly with Iranian officials AND through Pakistani mediators. **Iran's posture is BIFURCATED:** FM spokesperson Baqaei (May 6): Iran 'assessing' the proposal; 'termination of war and lasting peace remain Tehran's top priorities' \u2014 conciliatory civilian-government framing; Tasnim (IRGC-aligned): 'more of a wishlist than a reality' \u2014 preserving hardline-leverage rhetoric but not calling for escalation; Press TV (English propaganda): 'Project Freedom perishes in 48 hours as Trump retreats under wall of Iran's asymmetric deterrence' \u2014 triumphalist victory-claim language that historically precedes acceptance of a deal. **Iran also signaled FIRST EXPLICIT REOPENING OFFER OF CYCLE for Hormuz** (PBS/AP/Al Jazeera): 'reopen the Strait of Hormuz if the US lifts its blockade and the war ends' \u2014 IRGC Navy added 'safe transit will be ensured with new procedures.' Operational reality lags rhetoric: 5-6 vessel transits/day vs 138 norm; CMA CGM San Antonio struck May 5 by cruise missile (CBS attribution to Iran, IRGC has NOT claimed). FM Araghchi arrives India May 7-8 (20th Joint Commission, 75th anniversary of India-Iran Friendship Treaty), parallel-track diplomacy with Murmu+Jaishankar while MOU drafted. Mojtaba Day 60-61 absent; AI-generated videos confirmed by TIME \u2014 supreme-leader vacuum is the structural reason for IRGC/civilian factional split. Rial flat ~1.831M IRR/USD remittance (Day 5-6 stable). Trump warned 'bombing starts at significantly higher level and intensity' if no deal \u2014 rhetorical leverage paired with real diplomatic offer. Branches re-priced: kinetic ~20-25%; extended-economic-warfare ~30-35%; negotiated-resolution ~40-50% (UP sharply on MOU framework). Vali Nasr challenges as 'overclaimed'; Sadjadpour: 48hr window structurally inadequate given Mojtaba absence + Pezeshkian-IRGC split \u2014 falsifiable test by May 8 evening.",
       "current": {},
       "active_triggers": [
         {
@@ -2367,6 +2583,45 @@ const GRAPH_DATA = {
             "shipping-tankers"
           ],
           "added": "2026-03-28"
+        },
+        {
+          "condition": "Iran formally accepts/signs 14-point MOU with US (within 14 days = by 2026-05-21) \u2014 Nasr/Sadjadpour falsification test",
+          "status": "watching",
+          "cascade": [
+            "iran",
+            "united-states",
+            "strait-of-hormuz",
+            "brent-crude",
+            "shipping-tankers",
+            "marine-war-risk-insurance",
+            "nifty-50",
+            "india",
+            "inr-usd"
+          ],
+          "added": "2026-05-07"
+        },
+        {
+          "condition": "Iran responds to MOU within Trump's 48-hour window (~by 2026-05-08 evening) with substantive acceptance vs counter-proposal/extension",
+          "status": "watching",
+          "cascade": [
+            "iran",
+            "united-states",
+            "brent-crude",
+            "sp-500"
+          ],
+          "added": "2026-05-07"
+        },
+        {
+          "condition": "Hormuz transit volume above 30 vessels/day for 3 consecutive days (operational reopening, vs current 5-6/day vs 138 norm)",
+          "status": "watching",
+          "cascade": [
+            "strait-of-hormuz",
+            "brent-crude",
+            "shipping-tankers",
+            "marine-war-risk-insurance",
+            "india"
+          ],
+          "added": "2026-05-07"
         }
       ],
       "top_edges": [
@@ -2391,8 +2646,8 @@ const GRAPH_DATA = {
           "type": "active_conflict_with_diplomatic_re_engagement",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-06",
-          "activation_count": 49
+          "last_activated": "2026-05-07",
+          "activation_count": 51
         },
         {
           "to": "hezbollah",
@@ -2436,6 +2691,34 @@ const GRAPH_DATA = {
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "MOU FRAMEWORK CIRCULATING \u2014 14-POINT MEMORANDUM-OF-UNDERSTANDING DRAFTED WITH 48-HOUR IRAN RESPONSE WINDOW. Provisions: end-of-war declaration, 12-15 yr Iran enrichment moratorium (compromise from 20yr-US/5yr-Iran), Iran ships out HEU stockpile (custodian TBD), US lifts sanctions and frozen assets, BOTH sides lift Hormuz blockades, 30-day post-signing detail window. MOU originally Iran's proposal (response to 9-point US plan via Tasnim May 3). Witkoff+Kushner negotiating directly + via Pakistani mediators. **Iran posture bifurcated:** Baqaei (FM): 'assessing,' 'lasting peace top priority' (conciliatory civilian); Tasnim (IRGC-aligned): 'more wishlist than reality' (hardline-leverage, no escalation call); Press TV: 'Project Freedom perishes... Iran's asymmetric deterrence' (triumphalist victory framing \u2014 historically precedes deal acceptance). Trump warned 'bombing starts at significantly higher level and intensity' if no deal. Iran also signaled FIRST EXPLICIT REOPENING OFFER for Hormuz: 'reopen if US lifts blockade and war ends' (PBS/AP/Al Jazeera/IRGC Navy 'safe transit with new procedures'). FM Araghchi arrives India May 7-8 for 20th Joint Commission with Jaishankar+Murmu (75th anniversary India-Iran Friendship Treaty) \u2014 parallel-track diplomacy. CMA CGM San Antonio struck May 5 by cruise missile (CBS attribution to Iran, IRGC has NOT claimed) \u2014 kinetic-tail risk persists despite diplomatic-track pricing. Mojtaba Day 60-61 absent; AI-generated videos confirmed by TIME \u2014 supreme-leader vacuum is structural reason for Pezeshkian-IRGC factional split.",
+          "sources": [
+            "Axios primary scoop",
+            "CNN Politics May 6",
+            "JPost",
+            "NPR May 6",
+            "The Hill",
+            "Reuters/WION",
+            "Iran International",
+            "Times of Israel live-blog",
+            "Tasnim (Xinhua relay)",
+            "Iran FM spokesperson Baqaei",
+            "PBS NewsHour",
+            "AP",
+            "Al Jazeera",
+            "IRNA",
+            "India MEA press release",
+            "DD News",
+            "CMA CGM company statement",
+            "CBS News (Iran attribution)",
+            "TIME (April 21 AI-Mojtaba)",
+            "Bloomberg Vali Nasr Weekend Interview",
+            "Trump Truth Social (bombing warning)"
+          ],
+          "verification": "MOU drafting = REPORTED (Axios scoop multi-corroborated, final text not published); Iran-Hormuz reopening offer = REPORTED\u2192CONFIRMED (PBS/AP direct quotes, IRGC Navy spokesperson statement); Hormuz still operationally closed (5-6 vessels/day vs 138 norm \u2014 CONFIRMED via Strauss Center/Lloyd's List); Iran factional bifurcation = CONFIRMED (Baqaei vs Tasnim vs Press TV multi-outlet); Araghchi India visit = CONFIRMED (MEA primary); CMA CGM strike = CONFIRMED action, CLAIMED Iran attribution (single-source US officials via CBS, no Iranian claim, no independent corroboration); Mojtaba AI-generated videos = REPORTED (TIME single-source, Iran International corroborated, Iranian state has not denied)"
+        },
         {
           "date": "2026-05-06",
           "headline": "IRAN MESSAGING REVERSE-CYCLED MAY 5: ARAGHCHI REFRAMED PAUSED PROJECT FREEDOM AS 'PROJECT DEADLOCK' \u2014 'NO MILITARY SOLUTION'; IRNA DROPPED 'DELIRIUM' FRAMING; HARDLINE KAYHAN COLUMN THREATENED EUROPEAN BASES AS 'LEGITIMATE TARGETS' (RHETORIC, NOT POLICY); UAE INTERCEPT BREAKDOWN REFINED: 12 BALLISTIC + 3 CRUISE + 4 DRONES (18/19 NEUTRALIZED)",
@@ -2613,8 +2896,8 @@ const GRAPH_DATA = {
       "name": "Islamic Revolutionary Guard Corps (IRGC)",
       "type": "institution",
       "created": "2026-03-28",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **IRGC FACTIONAL POSITIONING POST-MAY 5 PAUSE: TASNIM MAINTAINED UAE PRESSURE BUT DID NOT ESCALATE VS US AFTER PAUSE; HARDLINE KAYHAN COLUMN THREATENED EUROPEAN BASES AS 'LEGITIMATE TARGETS.'** Internal Iranian posture divergence is now structural intelligence: Pezeshkian/Araghchi civilian-government track validated by the May 5 pause-with-progress framework; IRGC/hardliners (Tasnim aggressive on UAE; Kayhan hardline column on Europe) maintaining leverage rhetoric against secondary actors (UAE, Europe). The May 4 multi-axis kinetic restart (12 ballistic + 3 cruise + 4 drones at UAE + small boats at US Navy + SK HMM Namu damage) demonstrated IRGC saturation-strike capability; UAE+US air defense neutralized 18 of 19 (~95% intercept rate). The kinetic operation served as LEVERAGE that produced the diplomatic re-opening within 24 hours \u2014 once Iran fired, Trump used the cover to return to the Pakistan track. Important: the Kayhan European-bases column is HARDLINER publication, NOT government policy; no European foreign ministry escalated in response. The IRGC's coordinated saturation strike capability is the highest-stakes operational signal of the crisis arc \u2014 confirms Plan B remains on the shelf for re-activation if the May 5 pause framework fractures. The 'IRGC has overridden civilian government' framing from Apr 28-29 is REFINED: not override but FACTIONAL bifurcation with both tracks operating in parallel, civilian government on negotiating leverage, IRGC on kinetic leverage.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **IRGC FACTIONAL HARDLINE-LEVERAGE TRACK CONTINUES IN PARALLEL TO MOU DIPLOMACY: TASNIM (IRGC-aligned) CALLED THE 14-POINT MOU 'MORE OF A WISHLIST THAN A REALITY' MAY 6 \u2014 preserving hardline-leverage rhetoric but NOT calling for retaliation/escalation.** Press TV (IRGC-adjacent state propaganda, English audience) ran 'Project Freedom perishes in 48 hours as Trump retreats under wall of Iran's asymmetric deterrence' \u2014 triumphalist victory framing, the kind of language that historically PRECEDES acceptance of a deal because it provides rhetorical cover for the regime to claim leverage success regardless of substantive terms. Internal Iranian posture divergence is now structural: Pezeshkian/Araghchi civilian government on negotiating track (Baqaei: 'assessing,' 'lasting peace top priority') vs IRGC/Tasnim leverage track. **CMA CGM San Antonio struck May 5 by cruise missile (CBS attribution to Iranian cruise missile, IRGC has NOT claimed \u2014 itself unusual) demonstrates IRGC tactical leverage continues at operational layer despite civilian-government diplomatic-track signals.** The bifurcation between kinetic risk and political track is now structural \u2014 France's Charles de Gaulle CSG redeployment Suez\u2192Red Sea/Gulf of Aden is the European naval response. Mojtaba Day 60-61 absent (AI-generated videos confirmed by TIME) \u2014 supreme-leader vacuum is the structural reason both tracks are operating in parallel without unified executive resolution.",
       "current": {},
       "active_triggers": [
         {
@@ -2710,13 +2993,28 @@ const GRAPH_DATA = {
         {
           "to": "shipping-tankers",
           "type": "direct_kinetic_action",
-          "weight": 8.0,
+          "weight": 8.5,
           "directness": 1,
-          "last_activated": "2026-04-23",
-          "activation_count": 5
+          "last_activated": "2026-05-07",
+          "activation_count": 6
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "IRGC FACTIONAL HARDLINE-LEVERAGE TRACK CONTINUES IN PARALLEL TO MOU DIPLOMACY: TASNIM (IRGC-aligned) CALLED 14-POINT MOU 'MORE WISHLIST THAN REALITY' MAY 6 (preserving hardline rhetoric, NOT calling for escalation). Press TV: 'Project Freedom perishes... Iran's asymmetric deterrence' \u2014 triumphalist victory framing historically precedes deal acceptance. CMA CGM San Antonio struck May 5 by cruise missile in Hormuz off Dubai (CBS attribution to Iranian cruise missile via US officials; IRGC has NOT claimed \u2014 itself unusual) \u2014 IRGC tactical leverage continues at operational layer despite civilian diplomatic-track signals. France Charles de Gaulle CSG redeployed Suez\u2192Red Sea/Gulf of Aden. Mojtaba Day 60-61 absent (AI-generated videos CONFIRMED by TIME) \u2014 supreme-leader vacuum is structural reason for parallel tracks.",
+          "sources": [
+            "Tasnim (Xinhua relay)",
+            "Press TV",
+            "Iran FM spokesperson Baqaei",
+            "Axios (MOU framework)",
+            "CMA CGM company statement",
+            "CBS News (Iran attribution)",
+            "Naval News (French CSG)",
+            "TIME (AI-Mojtaba)"
+          ],
+          "verification": "Tasnim/Press TV framing = CONFIRMED Iran-side primary; MOU framework = REPORTED multi-corroborated; CMA CGM strike = CONFIRMED action, CLAIMED Iran attribution (single-source US officials via CBS, no IRGC claim); Mojtaba absence = REPORTED extended absence, AI-video usage CONFIRMED by TIME single-source"
+        },
         {
           "date": "2026-05-05",
           "headline": "IRGC LED MAY 4 MULTI-AXIS KINETIC RESTART \u2014 CRUISE MISSILES + DRONES + SMALL BOATS AT US NAVY/UAE FUJAIRAH/HORMUZ; 12-DAY KINETIC PAUSE BROKEN; STATE-MEDIA REVERSE-CYCLED TO ESCALATING-DEFIANT",
@@ -2795,8 +3093,8 @@ const GRAPH_DATA = {
       "name": "Israel",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **STABLE-BIFURCATED POSTURE: ISRAEL COMFORTABLE WITH US HANDLING IRAN; ISRAEL HANDLES LEBANON.** The May 5 Trump pause of Project Freedom did NOT trigger Israeli editorial framing as betrayal or weakness \u2014 Times of Israel and Haaretz led May 5 coverage with LEBANON developments + German FM Baerbock's 'every right' framing on south Lebanon; Iran-direct coverage was secondary and factual. Day 10/14 of Israeli-civilian-casualty trigger window (closes 2026-05-11) \u2014 NO Israeli civilian casualty inside Israel proper. May 5: Hezbollah rocket launches at IDF positions in southern Lebanon (no IDF casualties), drone crashed near Israeli forces (no casualties), IDF intercepted multiple aerial targets following sirens for suspected drone infiltration before crossing into Israeli territory. Asymmetry framework holds: 2,659+ Lebanese killed cumulatively vs ZERO Israeli civilians inside Israel proper. The Trump diplomatic-track activation does NOT constrain Israel's Lebanon operations \u2014 operational division of labor confirmed. If trigger window closes May 11 without Israeli civilian casualty, Hezbollah operational degradation framework consolidates as structural intelligence (the Reuters Apr 28 'IRGC seized wartime power' assessment then must reconcile with persistent inability to deliver Israeli civilian casualty inside Israel proper for ~2 weeks).",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **ISRAEL ESCALATED IN BEIRUT MAY 6 \u2014 KILLED HEZBOLLAH RADWAN COMMANDER MALEK BALLOUT (FIRST ISRAELI STRIKE ON LEBANESE CAPITAL SINCE MID-APRIL CEASEFIRE); 13 KILLED IN SOUTHERN/EASTERN LEBANON; ISRAELI-CIVILIAN-CASUALTY TRIGGER REMAINS UNTRIPPED AT DAY 11/14 (EXPIRES MAY 11); HEZBOLLAH HAS NOT RETALIATED.** PM Netanyahu personally announced he ordered the Beirut suburbs strike to 'neutralize' Ballout, operations commander of Hezbollah's Radwan Force. Separately, Israeli airstrikes on southern and eastern Lebanon killed 13+ and wounded a dozen May 5-6, with forced displacement orders for 12 villages \u2014 most north of the Litani River, OUTSIDE Israeli military occupation zones, in violation of the US-brokered April 16 ceasefire. **Directional asymmetry remains structural: ALL 13+ casualties Lebanese; ZERO Israeli civilian casualties inside Israel proper this cycle.** Israel is exploiting the diplomatic-track-on-Iran moment to take out high-value Hezbollah targets with minimal blowback risk; Hezbollah's coordination-decay framework (Day 76-77 of Houthi quiet, weak retaliation in Lebanon) holds. **Cabinet dissonance signal:** Times of Israel May 6 live-blog reports 'Netanyahu convenes security cabinet, says he will speak to Trump about Iran developments' \u2014 Israeli cabinet may be uncomfortable with Trump pause framework. Pravda Trump claim 'IDF preparing large-scale operation against Iran despite Project Freedom suspension' is REPORTED single-source/Russian adversarial-media chain \u2014 NOT confirmed by mainstream Western media; treated as unverified Russia-aligned framing. If MOU signs, Netanyahu's cabinet may publicly oppose \u2014 a constraint Trump will need to manage.",
       "current": {},
       "active_triggers": [
         {
@@ -2844,16 +3142,16 @@ const GRAPH_DATA = {
           "type": "ceasefire_substantively_collapsed",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-03",
-          "activation_count": 31
+          "last_activated": "2026-05-07",
+          "activation_count": 33
         },
         {
           "to": "hezbollah",
           "type": "lethal_kinetic_post_ceasefire",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-03",
-          "activation_count": 31
+          "last_activated": "2026-05-07",
+          "activation_count": 33
         },
         {
           "to": "houthis",
@@ -2865,6 +3163,20 @@ const GRAPH_DATA = {
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "ISRAEL ESCALATED IN BEIRUT MAY 6 \u2014 KILLED HEZBOLLAH RADWAN COMMANDER MALEK BALLOUT (FIRST ISRAELI STRIKE ON LEBANESE CAPITAL SINCE MID-APRIL CEASEFIRE); 13 KILLED IN SOUTHERN/EASTERN LEBANON MAY 5-6; FORCED DISPLACEMENT ORDERS FOR 12 VILLAGES (most north of Litani \u2014 outside Israeli occupation zones, in violation of April 16 ceasefire); HEZBOLLAH HAS NOT RETALIATED. PM Netanyahu personally announced ordering Beirut strike. Day 11/14 of Israeli-civilian-casualty trigger window (expires May 11) \u2014 directional asymmetry remains ALL Lebanese casualties, ZERO Israeli civilians inside Israel proper. Cabinet dissonance: Times of Israel reports 'Netanyahu convenes security cabinet, says he will speak to Trump about Iran developments.' Pravda Trump 'IDF preparing large-scale Iran op' = REPORTED single-source/Russian adversarial \u2014 NOT verified by mainstream Western, treated as unverified Russia-aligned framing.",
+          "sources": [
+            "Times of Israel live-blog",
+            "Haaretz",
+            "Al Jazeera",
+            "Al-Monitor",
+            "NPR",
+            "Reuters",
+            "Pravda Trump (NOT verified \u2014 flagged adversarial)"
+          ],
+          "verification": "CONFIRMED Beirut strike + commander killing (Times of Israel/Haaretz/Al-Monitor/Reuters); CONFIRMED 13+ Lebanese casualties (Al Jazeera primary); CONFIRMED forced-displacement orders for 12 villages; Pravda Trump IDF Iran-op claim explicitly NOT elevated (single-source/Russian adversarial chain)"
+        },
         {
           "date": "2026-05-06",
           "headline": "ISRAEL STABLE-BIFURCATED ON TRUMP MAY 5 PAUSE: TIMES OF ISRAEL/HAARETZ LED MAY 5 WITH LEBANON + BAERBOCK 'EVERY RIGHT' FRAMING; IRAN COVERAGE FACTUAL NOT EDITORIAL; DAY 10/14 TRIGGER WINDOW NO ISRAELI CIVILIAN CASUALTY INSIDE ISRAEL PROPER",
@@ -2988,8 +3300,8 @@ const GRAPH_DATA = {
       "name": "Lebanon",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **DAY 10/14 OF ISRAELI-CIVILIAN-CASUALTY TRIGGER WINDOW (closes May 11) \u2014 NO ISRAELI CIVILIAN CASUALTY INSIDE ISRAEL PROPER.** May 5 produced Hezbollah rocket launches at IDF positions in southern Lebanon (no IDF casualties), a Hezbollah drone crashed near Israeli forces in southern Lebanon (no casualties), and Israeli Air Force successfully intercepted multiple aerial targets following sirens for a suspected drone infiltration \u2014 targets downed before crossing into Israeli territory. German FM Annalena Baerbock said May 5 Israel has 'every right' to be in south Lebanon while warning of conflict damages. Asymmetry framework holds: 2,659+ Lebanese killed cumulatively since March 2 vs zero Israeli civilian casualties inside Israel proper since latest cycle. Importantly, the Lebanon front remained PARALLEL-PRESSURED while the US-Iran track moved to pause \u2014 Israel comfortable with US handling Iran while Israel handles Lebanon (Israeli editorial outlets framed Trump pause factually, NOT as betrayal). Apr 23 Trump-extension of Lebanon ceasefire technically alive but operationally hollow. Hezbollah SG Naim Qassem still 'categorically rejects' Lebanon-Israel direct talks. Trigger window closes May 11 \u2014 if no civilian casualty by then, asymmetry framework consolidates as structural intelligence (Hezbollah operationally degraded, NOT just paused).",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **DAY 11/14 OF ISRAELI-CIVILIAN-CASUALTY TRIGGER WINDOW (closes May 11) \u2014 NO ISRAELI CIVILIAN CASUALTY INSIDE ISRAEL PROPER. ISRAELI ESCALATION IN LEBANON DESPITE IRAN PAUSE: BEIRUT SUBURBS STRIKE MAY 6 KILLED HEZBOLLAH RADWAN COMMANDER MALEK BALLOUT (FIRST ISRAELI STRIKE ON LEBANESE CAPITAL SINCE MID-APRIL CEASEFIRE); 13 KILLED SOUTHERN/EASTERN LEBANON MAY 5-6; FORCED DISPLACEMENT ORDERS FOR 12 VILLAGES (most north of Litani \u2014 outside occupation zones, ceasefire violation).** PM Netanyahu personally announced ordering the Beirut strike to 'neutralize' Ballout. Hezbollah HAS NOT retaliated against Beirut strike or commander killing. Asymmetry framework holds: ALL 13+ casualties Lebanese; ZERO Israeli civilian casualties inside Israel proper. Israel exploiting diplomatic-track-on-Iran moment to take out high-value Hezbollah targets with minimal blowback risk; coordination-decay framework (Day 76-77 of Houthi quiet, weak retaliation in Lebanon) holds. If trigger window closes May 11 without Israeli civilian casualty, Hezbollah operational degradation framework consolidates as structural intelligence \u2014 the Reuters Apr 28 'IRGC seized wartime power' assessment then must reconcile with persistent inability to deliver Israeli civilian casualty inside Israel proper for ~2 weeks.",
       "current": {},
       "active_triggers": [
         {
@@ -3011,16 +3323,16 @@ const GRAPH_DATA = {
           "type": "ceasefire_substantively_collapsed",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-03",
-          "activation_count": 30
+          "last_activated": "2026-05-07",
+          "activation_count": 32
         },
         {
           "to": "israel",
           "type": "ceasefire_substantively_collapsed",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-03",
-          "activation_count": 32
+          "last_activated": "2026-05-07",
+          "activation_count": 34
         },
         {
           "to": "united-states",
@@ -3032,6 +3344,19 @@ const GRAPH_DATA = {
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "ISRAELI ESCALATION IN LEBANON DESPITE IRAN PAUSE: BEIRUT SUBURBS STRIKE MAY 6 KILLED HEZBOLLAH RADWAN COMMANDER MALEK BALLOUT (FIRST ISRAELI STRIKE ON LEBANESE CAPITAL SINCE MID-APRIL CEASEFIRE); 13 KILLED SOUTHERN/EASTERN LEBANON MAY 5-6; FORCED DISPLACEMENT ORDERS FOR 12 VILLAGES (mostly north of Litani \u2014 outside occupation zones, in violation of April 16 ceasefire). PM Netanyahu personally announced ordering Beirut strike. Day 11/14 trigger window \u2014 Hezbollah HAS NOT retaliated; ALL casualties Lebanese, ZERO Israeli civilians inside Israel proper.",
+          "sources": [
+            "Times of Israel live-blog",
+            "Haaretz",
+            "Al Jazeera primary",
+            "Al-Monitor",
+            "NPR",
+            "Reuters"
+          ],
+          "verification": "CONFIRMED multi-source \u2014 Beirut strike + Ballout killing + 13 casualties + 12-village displacement orders all multi-source confirmed; Hezbollah non-retaliation = CONFIRMED via absence-of-action documented by all sources"
+        },
         {
           "date": "2026-05-06",
           "headline": "DAY 10/14 TRIGGER WINDOW \u2014 HEZBOLLAH ROCKETS+DRONE NO IDF CASUALTIES; IDF SUCCESSFULLY INTERCEPTED AERIAL TARGETS BEFORE ISRAELI TERRITORY; GERMAN FM BAERBOCK 'EVERY RIGHT' FRAMING; ASYMMETRY FRAMEWORK 2,659+ LEBANESE KILLED VS ZERO ISRAELI CIVILIANS",
@@ -3102,8 +3427,8 @@ const GRAPH_DATA = {
       "name": "Marine War Risk Insurance",
       "type": "institution",
       "created": "2026-04-08",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **PAUSE LIKELY REDUCES AWRP RE-SPIKE RISK; VERIFICATION FRAMEWORK REFRAMED.** Yesterday's brief had 'AWRP 5%+ within 5 sessions' as the verification trigger for Project Freedom effectiveness. With Project Freedom paused after one day (May 5) and the diplomatic track re-opened, the structural insurance-pricing pressure has likely eased, NOT intensified. Latest hard data: Argus Media confirms AWRP at ~1% Hull and Machinery value per seven-day period (down from 2.5-5% peak); VLCC TD3C remains at ~$420-474K/day (Lloyd's List). New verification framework: AWRP normalization toward 0.5% within 10 sessions = pause being priced as durable de-escalation; AWRP staying at 0.8-1.5% baseline = market pricing pause as fragile; AWRP re-spiking to 5%+ = pause framework breaking. Joint War Committee Persian Gulf 'high-risk' designation MAINTAINED \u2014 operational chokepoint persists despite kinetic-war probability decline. The market's tanker-paradox confirms this duality: Frontline +2.8%, BOAT +3.5% on May 6 despite Brent collapse \u2014 physical Hormuz blockade NOT resolved, only kinetic-war probability compressed. P&I Club re-pricing typically lags 3-7 sessions; watch May 7-12 for the cleanest read on whether insurers price the pause as durable or fragile.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **AWRP AT ~0.8-1% H&M / 7-DAY BASELINE \u2014 INSURERS NOT YET PRICING MOU FRAMEWORK AS DURABLE; CMA CGM SAN ANTONIO STRIKE MAY 5 KEEPS KINETIC-TAIL RISK LIVE.** Yesterday's reframed trigger ('AWRP normalization toward 0.5% within 10 sessions' by May 16) is on Day 1-2 with no observable normalization yet. Lloyd's List / Strauss Center: AWRP for Gulf transits remains around 0.8-1% Hull-and-Machinery value per 7-day period after no-claims bonuses \u2014 'down from peaks around 2.5-5% but still 5-8x the pre-war 0.1-0.15% norm.' VLCC TD3C MEG-China benchmark sustained at ~$420-474K/day TCE; one peak Indian-petrochemical charter reportedly hit $770K/day during crisis-extreme phase. Hormuz transit volume 5-6 vessels/day (May 3-4) vs 138 historical norm \u2014 pause has not produced transit-volume recovery. **CMA CGM San Antonio cruise-missile strike May 5 demonstrates operational risk persists despite diplomatic pause** \u2014 proximate cause of AWRP staying elevated rather than normalizing; CBS attribution to Iran (single-source US officials, IRGC has NOT claimed). **The paper-vs-physical bifurcation IS the structural intelligence:** paper markets (Brent futures, equities) priced peace-dividend ~50-70%; physical/insurance/IRR markets priced peace-dividend ~10-20%. Joint War Committee Persian Gulf 'high-risk' designation MAINTAINED. France's Charles de Gaulle CSG redeployment Suez\u2192Red Sea/Gulf of Aden adds new naval principal \u2014 could over time depress AWRP if European naval presence reduces transit risk perception, but operational impact is days/weeks away.",
       "current": {
         "cover_pre_crisis": "$25K/year per vessel",
         "cover_current": "$10-14M per Persian Gulf voyage; broad rates 0.8-1.5%; US/UK/Israeli flags 3x; some easing to 0.35-0.45% on broader MEG routes. 329 vessels = ~$352B coverage gap.",
@@ -3170,6 +3495,19 @@ const GRAPH_DATA = {
       ],
       "recent_signals": [
         {
+          "date": "2026-05-07",
+          "headline": "AWRP AT ~0.8-1% H&M / 7-DAY BASELINE \u2014 INSURERS NOT YET PRICING MOU FRAMEWORK AS DURABLE; DAY 1-2 OF 'AWRP NORMALIZATION TOWARD 0.5% WITHIN 10 SESSIONS' TRIGGER (BY MAY 16). VLCC TD3C ~$420-474K/day TCE sustained; STEEPEST 1-DAY DROP IN 5+ YEARS ON MOU NEWS ('LEAD BALLOON' \u2014 Lloyd's List). Hormuz transits 5-6/day vs 138 norm. CMA CGM San Antonio struck May 5 by cruise missile keeps kinetic-tail risk live (CBS attribution to Iran, IRGC has NOT claimed). Paper-vs-physical bifurcation IS the structural intelligence.",
+          "sources": [
+            "Lloyd's List (AWRP, VLCC)",
+            "Strauss Center insurance market tracker",
+            "UNCTAD facts sheet",
+            "S&P Global",
+            "CMA CGM company statement",
+            "CBS News (Iran attribution)"
+          ],
+          "verification": "CONFIRMED operational data multi-source; CMA CGM strike = CONFIRMED action, CLAIMED Iran attribution"
+        },
+        {
           "date": "2026-05-05",
           "headline": "AWRP RE-SPIKE RISK ON PROJECT FREEDOM + SK HMM NAMU DAMAGED \u2014 MAY 4 IRAN MULTI-AXIS STRIKE BREAKS APR 8 CEASEFIRE; INSURERS LIKELY RE-PRICE 3-7 SESSIONS",
           "sources": [
@@ -3228,8 +3566,8 @@ const GRAPH_DATA = {
       "name": "Mojtaba Khamenei",
       "type": "person",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 59-60 of operational silence. **MASHHAD-MURAL-REFUTATION WINDOW EXPIRED (Day 9-10 of 7) \u2014 STILL NO PROOF-OF-LIFE BEYOND AI-GENERATED/WRITTEN STATEMENTS.** Iran International reporting May 5-6 confirms Mojtaba reported 'severely injured' (multiple surgeries on legs and arms, severe burns to face and lips, struggling to speak) per Iranian officials. CNN April 21 framing 'leader no one has seen' holds. Through the highest-pressure events of the crisis arc \u2014 Trump's May 4 14-point rejection, Iran's multi-axis kinetic restart, Trump's May 5 pause/'Complete and Final Agreement' framing via Pakistan \u2014 Mojtaba operationally silent. The Reuters Apr 28 wire-tier 'figurehead not principal' framing operationally vindicated; IRGC inner circle led by Vahidi dominates. Per intel.md A7: UNCHANGED \u2014 non-event IS the signal. The mural-refutation trigger remains UNRESOLVED with the window now 9-10 days expired (RESOLVED-NO).",
+      "last_updated": "2026-05-07",
+      "summary": "Day 60-61 of operational silence. **TIME APRIL 21 ARTICLE FORMALLY CONFIRMED IN MAINSTREAM WESTERN MEDIA: 'THE REGIME HAS EVEN USED AI-GENERATED VIDEOS TO SHOW KHAMENEI DELIVERING MESSAGES, FUELING SPECULATION THAT THE NEW SUPREME LEADER IS INCAPACITATED OR ABROAD.'** Iranian state attribution of statements to Mojtaba relies on synthesized media \u2014 first mainstream Western confirmation. CNN sources report a fractured foot, bruised eye, and minor lacerations from the February 28 strike. **The supreme-leader vacuum is the structural reason the IRGC and civilian government are operating on different tracks** (Tasnim hardline vs Araghchi/Pezeshkian conciliatory) \u2014 there is no unified executive resolving the factional split. The MOU's chance of signature depends partly on whether Mojtaba (or his proxy) issues a clear endorsement; without it, Iran's response to the 48-hour window is structurally constrained (Sadjadpour: 'this Iranian regime, whose senior leadership has been decapitated, going to be able to come to a quick decision on such a monumental set of issues' = 48hr inadequate). Iran International (diaspora) confirms regime use of AI media; Iranian state has not denied the AI claims explicitly. Per intel.md A7: trigger watching at Day 60-61.",
       "current": {},
       "active_triggers": [
         {
@@ -3350,13 +3688,13 @@ const GRAPH_DATA = {
       "name": "Natural Gas / LNG",
       "type": "commodity",
       "created": "2026-03-23",
-      "last_updated": "2026-04-30",
-      "summary": "Day 63 Thursday. CHENIERE LNG +2.7% TO $272.23 (TTF \u20ac44.13/MWh STABLE + QATAR 17% OFFLINE PERSISTS = US LNG EXPORT-ARB AT ALL-TIME-HIGH SPREADS); HH $2.64/MMBtu +3.0% 1D ON US LNG EXPORT PULL. Cheniere is the cleanest pure-play of the US LNG export-arb thesis. Brent at $120 + TTF at \u20ac44.13 = US LNG export-arb at all-time-high spreads. HH +3.0% 1D non-crisis driven (US LNG export pull continues; cold-snap residual). TTF surprisingly decoupled from Brent +12-15% 1M (TTF -19.8% 1M) \u2014 drivers: storage adequate going into spring, US LNG supply firm, mild weather. UAE OPEC exit takes effect TOMORROW May 1 \u2014 primary impact is oil not gas. Structural drivers persist: Hormuz functionally closed Day 62; Qatar Ras Laffan Trains 4/6 (12.8 mtpa, ~17% Qatar LNG) still 3-5yr recovery; partial North restart within 1 month, South late summer. Sadara JV shutdown (June 15 grace expiry). Asian LNG imports at 6-year low reduces European cargo competition. PRIOR DAY-1 SUMMARY (preserved): Brent gapped -4.6% to $100.47 on Sunday Globex / Monday Asia open \u2014 Branch 3 (positioning) defeats Branch 1 (structural break) and Branch 2 (theatrical band). Friday close: HH $2.69/MMBtu (+6.8% 1D \u2014 storage build slowdown + cold-front + LNG export demand, NOT crisis-driven, ~10% crisis attribution); TTF \u20ac44.86/MWh Apr 24 last (+0.8% 1D Friday, +5% 1W, +44% pre-crisis); Cheniere LNG $257.09 (flat 1D Friday, -9.6% 1M, +24.8% 3M). Branch 3 likely tests Cheniere $250-255 area Monday on European-energy-emergency premium compression (-1 to -2% as Branch 3 widens; the diplomatic-breakdown LONG thesis from yesterday is RETIRED). [TRUNCATED \u2014 needs re-synthesis]",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **CHENIERE LNG -3.0% TO $261.42 ON LNG-SCARCITY PREMIUM UNWIND + Q1 EARNINGS RESIDUAL.** TTF crashed -6.8% May 6 to ~\u20ac47.4/MWh on MOU scoop \u2014 pricing pause as plausibly durable. The Cheniere -3.0% specific: LNG-scarcity premium (Qatar Ras Laffan damage thesis) being partially repriced as European TTF gas crashed; Cheniere reported Q1 today with modest miss on guidance forward. Henry Hub $2.72/MMBtu (-0.5% 1D, -0.3% 1M, -13.4% 3M) \u2014 non-crisis driver dominates; cold-snap residual / spring transition. Structural drivers persist: Hormuz functionally closed Day 69 but kinetic-war probability compressed; Qatar Ras Laffan Trains 4/6 (12.8 mtpa, ~17% Qatar LNG) still 3-5yr recovery. **Reversibility:** if MOU signs, Cheniere could give back another 5-10% on full peace pricing; if Iran rejects, Cheniere bounces back toward $275-280 within 48hr on premium re-pricing. The MOU framework is the marginal pricing factor \u2014 Qatar Ras Laffan reopening is in the 'lift Hormuz blockades' provision but physical recovery is years out regardless of diplomatic resolution.",
       "current": {
-        "price": "HH $2.69/MMBtu; TTF \u20ac44.86/MWh (Apr 24 last); Cheniere $257.09",
-        "delta_1d": "HH +6.8%; TTF +0.8%; Cheniere flat (Friday)",
-        "delta_1m": "HH -14.5% (cumulative); TTF ~+5%; Cheniere -9.6%",
-        "delta_3m": "HH -62.9%; TTF +44% vs pre-crisis; Cheniere +24.8%"
+        "price": "HH $2.72/MMBtu (May 7); TTF ~\u20ac47.4/MWh; Cheniere $261.42",
+        "delta_1d": "HH -0.5%; TTF -6.8% (May 6); Cheniere -3.0%",
+        "delta_1m": "HH -0.3%; TTF est -28%; Cheniere -8.0%",
+        "delta_3m": "HH -13.4%; TTF est +35% vs pre-crisis; Cheniere n/a"
       },
       "active_triggers": [
         {
@@ -3442,14 +3780,14 @@ const GRAPH_DATA = {
       "name": "Nifty 50",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **NIFTY UNDERPERFORMS THE CRISIS-RELIEF REGIME \u2014 +0.2% TO 24,082.50 vs KOSPI +6.7%, MSCI EM +2.0%, DAX +1.7%, S&P +0.8%.** Indian equities are the WORST POSITIONED for this risk-on regime among major markets despite cheaper relative valuation. Decomposition: (1) FII outflows continued with \u20b93,200+ crore session outflow vs DII absorption capacity testing; capital-flow curb regime (NOP/NDF) constrains NRI hedging activity; (2) IT sector lagging \u2014 TCS, Infosys, Wipro under pressure as Apple's chip-talks news redirected AI flows to semiconductor manufacturers (Korea/Taiwan/US) rather than IT services; (3) Bank Nifty +0.6% to 54,867.65 modest recovery; Adani complex still digesting Hindenburg/SEBI overhang; (4) Hormuz remains operationally closed (NOT diplomatically resolved) \u2014 Indian oil import logistics still constrained; OMC stocks (IOC, BPCL, HPCL) capped despite Brent collapse to $107.96. **For deployment thesis:** validates bifurcation thesis from May 3-5 briefs. Indian equities are CHEAP relative to crisis fundamentals (still down -7% on 3M while Korea +45%, Taiwan +29%) but require domestic catalyst (RBI cut, fiscal stimulus, FII rotation reversal) to outperform. The 200-DMA at ~24,500 capping; structural breakout requires \u20b993-handle on USD/INR. FII CY26 outflow \u20b91.92 lakh crore (~$23B+) already exceeds CY25 full-year \u20b91.66T. FPI ownership ~16% (2-decade low, BELOW domestic for first time); DII (SIP-driven) absorbed ~90%. The DII-finite-absorption risk: if FII outflows extend beyond \u20b92.5 lakh crore CY26 without DII matching, Nifty support breaks structurally.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **NIFTY 24,360.45 (+0.12%) / SENSEX 77,949.38 (-0.01%) \u2014 INDIAN EQUITIES STILL UNDERPERFORM PEACE-DIVIDEND REGIME (S&P +1.5% RECORD; KOSPI +1.4% RECORD; NIKKEI +5.7% GOLDEN WEEK CATCH-UP).** Gift Nifty +0.67% pre-open suggests continued firmness. India VIX -6.88% on the week. **FII flow stress visible:** sustained outflows \u20b93,621.6 cr on May 5; week net \u20b913,771 cr selling vs DII net buying \u20b911,585 cr \u2014 **DII absorption ratio 84% (LOWER than prior weeks' ~90%, suggesting domestic absorption capacity is being TESTED.** The gap between Indian-equity performance and global risk-on widens slightly \u2014 S&P, KOSPI, MSCI EM all rallied; Nifty's +0.12% remains within the underperformance band but is positive on the day. **The Araghchi-India visit + MOU framework + Brent collapse compound:** if MOU signs within 7-10 days, the deployment-relevant question is whether the FII rotation reverses \u2014 with crude at $101, USD/INR at \u20b994.74, CAD pressure easing, the structural argument for India re-rates favorably; the question is timing of FPI return. Bank Nifty 55,969.15 (-0.0% modest). 200-DMA at ~24,500 still capping; structural breakout requires (a) MOU signature, (b) FII rotation reversal, (c) \u20b993-handle USD/INR. AI flows continue to bypass India IT services (Apple-Samsung-Intel halo to Korea/Taiwan/US). FII CY26 outflow already exceeds CY25 full-year \u20b91.66T. FPI ownership ~16% (2-decade low, below domestic).",
       "current": {
-        "price": "Nifty 24,082.50 (May 6); Sensex 77,175.49; Bank Nifty 54,867.65",
-        "delta_1d": "Nifty +0.2%; Sensex +0.2%; Bank Nifty +0.6%",
-        "delta_1m": "Nifty +6.0%; Sensex +5.3%; Bank Nifty +6.4%",
-        "delta_3m": "Nifty -6.3%; Sensex -7.7%; Bank Nifty -8.7%",
-        "deployment_zone": "Underperforming risk-on regime; structural breakout requires \u20b993-handle USD/INR + domestic catalyst. 24,500 200-DMA capping. Below 23,800 = structural breach; cheap on valuation but flows-constrained."
+        "price": "Nifty 24,360.45 (May 7 early); Sensex 77,949.38; Bank Nifty 55,969.15; Gift Nifty +0.67% pre-open",
+        "delta_1d": "Nifty +0.12%; Sensex -0.01%; Bank Nifty -0.0%; India VIX -6.88% (week)",
+        "delta_1m": "Nifty +6.1%; Sensex +5.0%; Bank Nifty +6.4%",
+        "delta_3m": "Nifty -5.8%; Sensex -7.4%; Bank Nifty -7.7%",
+        "deployment_zone": "Still underperforming peace-dividend regime. FII outflow \u20b93,621 cr May 5; week net \u20b913,771 cr selling vs DII \u20b911,585 cr buying = absorption 84% (down from ~90% \u2014 capacity being tested). 200-DMA at ~24,500 capping. Structural breakout requires (a) MOU signature within 7-10 days, (b) FII rotation reversal, (c) \u20b993-handle USD/INR."
       },
       "active_triggers": [
         {
@@ -3606,8 +3944,8 @@ const GRAPH_DATA = {
       "name": "OPEC+",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **UAE OUT OF CARTEL EFFECTIVE MAY 1; OPEC+ PROCEEDED WITH SYMBOLIC 188 KBPD ADJUSTMENT MAY 3 WITHOUT UAE.** Goldman Sachs CUT Q2 2026 Brent forecast to $90/bbl (from $99) and WTI to $87 (from $91), citing 'reduced geopolitical risk premium' and 'early signs of improving oil flows through the Strait of Hormuz' \u2014 the institutional acknowledgment that the kinetic-spike was mean-reverting. The Goldman revision aligns with Brent's $107.96 May 6 close (down from May 4 $114.44 spike). Saudi MBS Day 8 of 14 silence on UAE OPEC exit; UAE sent FM (not ruler) to May 5 Jeddah summit hosted by MBS \u2014 diplomatic distance compounds. June 7 OPEC+ ministerial is the structural test for substantive Saudi response. With UAE OUT, the post-OPEC architecture rests on Saudi-Russia-Iraq-Kuwait alone \u2014 fundamentally different cartel coordination math. Atlantic Council/Derentz framing for medium-term: UAE 500K-1M bpd unconstrained capacity is medium-term-BEARISH-for-Brent (12-24mo). Saudi production -23% MoM (10.1 \u2192 7.8 MBPD) structural Hormuz-export suppression continues; OPEC overall -27% MoM. The kinetic-restart May 4 \u2192 diplomatic re-pricing May 5-6 cycle did NOT alter Saudi-UAE structural divergence \u2014 May 4 strike on UAE was specifically on the OPEC defector, sequencing isn't coincidence.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **WORLD BANK $86 AVERAGE FOR 2026 + GOLDMAN Q2 $90 FORECAST = INSTITUTIONAL ACKNOWLEDGMENT OF MOU PEACE-DIVIDEND PRICING.** Brent collapsed -7% May 6 to ~$103 on Axios MOU scoop; trading $101.95 May 7 morning \u2014 the institutional forecast band of $86-90 for 2026 average is now in-range. Saudi Tadawul -0.5% only major equity index in red on global risk-on day reflects peace-dividend pricing bearish for the war's primary fiscal beneficiary. Saudi MBS Day 9 of 14 silence on UAE OPEC exit (effective May 1) and May 4 Iran-Fujairah strike continues \u2014 UAE foreign minister rather than ruler at Tuesday Jeddah summit deepens diplomatic distance. June 7 OPEC+ ministerial remains the structural test for substantive Saudi response; with UAE OUT, the post-OPEC architecture rests on Saudi-Russia-Iraq-Kuwait alone. Atlantic Council framing: UAE 500K-1M bpd unconstrained capacity medium-term-BEARISH (12-24mo) for Brent. WoodMac: ADNOC Murban discount potentially widening to $3.50/bbl by Q3. **Critical contradiction in MOU framework:** if Iran ships out HEU and US lifts sanctions per the MOU provisions, eventual Iranian crude return to global market adds another medium-term bearish factor on top of UAE OPEC exit and World Bank/Goldman forecast cuts.",
       "current": {
         "uae_status": "EXITING \u2014 effective May 1, 2026 (CONFIRMED Apr 28)",
         "may_increase": "206K bpd",
@@ -3751,8 +4089,8 @@ const GRAPH_DATA = {
       "name": "Pakistan",
       "type": "country",
       "created": "2026-03-30",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **PAKISTAN MEDIATION DELIVERED THE STRUCTURAL OFF-RAMP \u2014 TRUMP'S MAY 5 PROJECT FREEDOM PAUSE EXPLICITLY CITED 'PAKISTAN'S REQUEST' AS DRIVER.** Trump's Truth Social post named Pakistan as the channel through which 'Great Progress' was made toward a 'Complete and Final Agreement' with Iran's representatives. This is the highest-profile validation of Pakistan's mediator role since Day 1 of the crisis: the Pakistan track now has documented operational outcomes (US convoy paused, kinetic-restart contained to one cycle, both sides reverted to negotiation framing within 24h). Architecture: Pakistan PRIMARY, Qatar/Egypt/Turkey/Oman supporting/parallel; Russia uranium-custodian track confirmed sidelined (Kremlin Peskov May 5: 'not currently on the negotiating table'). The yesterday's-watching-trigger 'Pakistan-brokered Iranian unified proposal delivered to US within 21 days' is structurally RESOLVED-YES on the May 5 pause framework \u2014 though the substance of any 'Complete and Final Agreement' remains REPORTED only (Trump's framing of progress, not a confirmed agreement). New trigger watching: 'Pakistan-mediated track delivers Iran formal Hormuz reopening within 14-21 days' (by 2026-05-26). The Pakistan + Saudi security partnership context (April activation) provides the bilateral architecture that makes Trump's 'Pakistan request' credible \u2014 Munir-Sharif channel verified-functional through the May 4-5 stress.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **PAKISTAN MEDIATION CHANNEL ACTIVELY DELIVERED THE 14-POINT MOU TEXT \u2014 Witkoff and Kushner negotiating directly with Iranian officials AND through Pakistani mediators.** Trump's Truth Social May 6 morning post: conflict 'could soon come to an end if Iran agrees to the terms under discussion' \u2014 same Pakistan-mediated channel that produced the May 5 pause is now structurally responsible for the 48-hour Iran response window. Pakistan PM Shehbaz publicly responded: 'grateful to Trump for courageous leadership' \u2014 explicit Pakistani-government framing of the mediation success. Architecture: Pakistan PRIMARY, supported by direct Witkoff/Kushner channel; Russia uranium-custodian track sidelined as primary mediator but POTENTIALLY REACTIVATED for HEU custody under MOU (Peskov reaffirmed offer 'remains active' but US has rejected the proposal \u2014 alternatives could be IAEA, Kazakhstan). The Pakistan + Saudi security partnership context provides the bilateral architecture; Munir-Sharif channel verified-functional through May 4-5-6 stress. **NEW STRUCTURAL OUTCOME:** Pakistan's mediation has now produced (a) the May 5 pause framework, (b) the 14-point MOU drafting, (c) the explicit 'both sides lift Hormuz blockades' provision, and (d) Iran's first unconditional Hormuz reopening offer of the cycle. If Iran signs MOU within 14 days (by May 21), Pakistan emerges as the structural winner of the diplomatic architecture.",
       "current": {},
       "active_triggers": [
         {
@@ -3801,16 +4139,16 @@ const GRAPH_DATA = {
           "type": "mediation_channel_named_in_trump_pause",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-06",
-          "activation_count": 21
+          "last_activated": "2026-05-07",
+          "activation_count": 23
         },
         {
           "to": "iran",
           "type": "mediation_channel_validated_by_araghchi",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-06",
-          "activation_count": 23
+          "last_activated": "2026-05-07",
+          "activation_count": 25
         },
         {
           "to": "brent-crude",
@@ -3822,6 +4160,19 @@ const GRAPH_DATA = {
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "PAKISTAN MEDIATION DELIVERED 14-POINT MOU TEXT \u2014 Witkoff and Kushner negotiating directly with Iranian officials AND through Pakistani mediators. Pakistan PM Shehbaz: 'grateful to Trump for courageous leadership.' Russia uranium-custodian role potentially REACTIVATED for HEU custody under MOU (Peskov reaffirmed offer 'remains active' but US has rejected; alternatives IAEA, Kazakhstan). Architecture: Pakistan PRIMARY, supported by direct Witkoff/Kushner channel.",
+          "sources": [
+            "Axios primary scoop",
+            "CNN",
+            "Reuters/WION",
+            "Pakistan PM Shehbaz statement",
+            "Pravda EN April 18 (Russia uranium reaffirmation)",
+            "Trump Truth Social (bombing warning)"
+          ],
+          "verification": "MOU framework = REPORTED multi-corroborated; Pakistan mediation channel = CONFIRMED ACTION (cited in MOU framework, PM Shehbaz public statement); Russia uranium offer 'still active' = CONFIRMED Russia-side, but US has rejected"
+        },
         {
           "date": "2026-05-06",
           "headline": "TRUMP MAY 5 PAUSE OF PROJECT FREEDOM CITED 'PAKISTAN'S REQUEST' AS DRIVER \u2014 HIGHEST-PROFILE VALIDATION OF PAKISTAN MEDIATOR ROLE; TRUTH SOCIAL: 'GREAT PROGRESS HAS BEEN MADE TOWARD A COMPLETE AND FINAL AGREEMENT' WITH IRAN VIA PAKISTAN; ARAGHCHI VALIDATED ('NO MILITARY SOLUTION'); RUSSIA URANIUM-CUSTODIAN TRACK SIDELINED",
@@ -4023,8 +4374,8 @@ const GRAPH_DATA = {
       "name": "Qatar",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-05-05",
-      "summary": "Day 63 Thursday. QATAR PUBLICLY DECLINES TO LEAD US-IRAN MEDIATION \u2014 SUPPORTS PAKISTAN AS PRIMARY CHANNEL ('WE DON'T NEED TO EXPAND THE CIRCLE OF NEGOTIATIONS' \u2014 al-ANSARI); YESTERDAY'S 'QATAR REPLACES PAKISTAN' WATCHING TRIGGER STRUCTURALLY ANSWERED NO. Qatari Foreign Ministry Spokesman Majed al-Ansari publicly stated April 29 that Qatar SUPPORTS Pakistan's mediation and that Doha is coordinating with Islamabad to the point that 'we do not need to expand the circle of negotiations' (Voice of Emirates, Tribune India, ANI News, AninEws, Pingtv). Qatari PM and FM Sheikh Mohammed bin Abdulrahman Al Thani held a separate phone call with Iran's FM Araghchi on de-escalation. This is the STRUCTURAL INVERSE of yesterday's brief framing, which logged Qatar's two-month-silence-broken on Hormuz as 'first concrete signal of mediator-architecture upgrade' with watching trigger 'Qatar formally named primary or co-mediator within 14 days.' Today's clarification: Qatar is NOT positioning to replace Pakistan \u2014 Qatar is publicly DECLINING the lead role, choosing the supporting/parallel-channel role. The April 29 brief read needs graph correction: the qatar\u2192united-states (6.0) and qatar\u2192strait-of-hormuz (5.5) edges remain valid (Qatar IS engaged), but the trigger is REFRAMED from 'Qatar formally named primary mediator' to 'mediator architecture diversifies (multi-party Pakistan + Qatar + Egypt + Turkey + Oman) within 14 days' \u2014 Araghchi clearly confirmed the multi-party reality, telling Pakistani, Egyptian, Turkish AND Qatari mediators over the weekend that 'there's no consensus inside the Iranian leadership about how to address the U.S. [TRUNCATED \u2014 needs re-synthesis]",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **QATAR FERTILIZER/UREA EXPORT NORMALIZATION EXPECTATION DRIVING CF -6.5% / NTR -4.4% TODAY (April 17 playbook rerun); MOU 'BOTH SIDES LIFT HORMUZ BLOCKADES' PROVISION INCLUDES IMPLICIT QATAR REOPENING.** Today's fertilizer rotation is the SECOND-cleanest peace-dividend trade after energy: forward-pricing of Qatar Ras Laffan / urea export normalization is repricing the scarcity premium. Urea generic at $577.50/T (May 5) drifting lower; Argus Q2 forecast $715 (Yuzhny FOB benchmark) has room to compress further. Egypt NCIC late-April spot $852/t represents the high-water mark. CF is now -10.5% on the month and tracking the symmetrical inverse of the Hormuz-closure scarcity rally that drove it +27% in 3 months. **Qatar's mediation role:** Doha continues supporting Pakistan as primary channel (Qatari FM al-Ansari: 'we don't need to expand the circle of negotiations'); Qatari PM/FM Sheikh Mohammed bin Abdulrahman Al Thani held separate phone call with Iran's FM Araghchi on de-escalation. **Helium:** spot doubled since Feb 28 crisis start ($163.72/MC April per gasworld); Air Liquide reallocating supply away from ME-dependent regions. Qatar's structural relevance to the brief sits at the intersection of (a) Hormuz reopening would unlock LNG/fertilizer/helium supply, (b) Doha mediation supporting role, (c) Qatar's GCC alignment with Pakistan track.",
       "current": {},
       "active_triggers": [
         {
@@ -4078,10 +4429,10 @@ const GRAPH_DATA = {
         {
           "to": "fertilizer-urea",
           "type": "production_shutdown",
-          "weight": 9,
+          "weight": 9.5,
           "directness": 1,
-          "last_activated": "2026-04-27",
-          "activation_count": 5
+          "last_activated": "2026-05-07",
+          "activation_count": 6
         },
         {
           "to": "united-states",
@@ -4167,8 +4518,8 @@ const GRAPH_DATA = {
       "name": "Reserve Bank of India",
       "type": "institution",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **RBI CAPITAL-FLOW DEFENSIVE MEASURES FORMALIZED \u2014 DEFENDED INR THROUGH MAY 4-6 STRESS WITHOUT DIRECT INTERVENTION.** Two specific operational tools: (1) capped Net Open Position in INR of dealer banks at $100mn/day; (2) barred domestic banks from offering INR NDF (non-deliverable forward) contracts to non-resident Indians (NRI) and related parties (CONFIRMED \u2014 RBI primary directives, Trading Pedia Apr 30 reference, Bloomberg Apr 10 framework). These curbs explain why INR pulled back below \u20b995 on May 6 despite the May 4-5 record-low intraday print. RBI policy rate held at 5.25%; FX reserves >$700 billion (~11 months import cover). Governor Malhotra's 'FX curbs won't remain forever' framing remains operative. The \u20b995.50 direct-intervention threshold was NOT tested through the kinetic-restart stress \u2014 the curbs alone proved sufficient. Important nuance: NOP/NDF curbs are defensive containment, NOT a sustainable equilibrium \u2014 if Brent breaks $115 again or FII outflows accelerate beyond \u20b92.5 lakh crore CY26, \u20b995.50 still in play. India 10Y GOI ~6.90% (-10 bps area, steady). FII outflow context: CY26 cumulative \u20b91.92 lakh crore = $23B+; DII (SIP-driven) absorbed ~90%. The RBI's documented preference is volatility management rather than defending a specific level \u2014 confirmed through this cycle.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **RBI CAPITAL-FLOW CURBS REMAIN OPERATIONAL \u2014 INR \u20b994.74 (-0.5% 1D) STRENGTHENED FURTHER FROM MAY 5 RECORD ON BRENT COLLAPSE + DXY WEAKNESS; \u20b995 TRIGGER DURABLY REVERSED.** RBI defensive toolkit (NOP cap $100mn/day + INR NDF restriction) held INR through \u20b995.36 record May 5, contributed to pullback to \u20b994.74 on May 7 morning. India 10Y G-Sec ~6.99% (-3-5bps from recent 7.05% high); softer crude easing inflation expectations + DXY weakness allowing FII debt return. About 50% crisis-linked, 50% RBI policy expectations. **The MOU framework is the structural relief catalyst:** if signed within 14 days, RBI may begin to wind down OMC special-credit-facility (Brent <$103 sustained 2-3 sessions trigger NOT yet activated but in-range \u2014 Brent $101.95 May 7 morning). FX reserves >$700B (~11mo import cover). Governor Malhotra's 'FX curbs won't remain forever' framing remains operative. **Decision-relevant signal:** if MOU signs and FII rotation reverses (with USD/INR \u20b994, Brent $101, CAD pressure easing), RBI has structural room to ease policy rate from 5.25% \u2014 multi-quarter India equity tailwind setup. If Iran rejects MOU, INR weakens back toward \u20b995-96 territory and RBI defensive escalation continues.",
       "current": {},
       "active_triggers": [
         {
@@ -4314,8 +4665,8 @@ const GRAPH_DATA = {
       "name": "Red Sea / Suez Canal",
       "type": "trade_route",
       "created": "2026-03-28",
-      "last_updated": "2026-05-06",
-      "summary": "Day 75-76 quiet \u2014 UKMTO/MARAD/JMIC: 'no incidents have been recorded in the Red Sea since September 2025.' MARAD 2026-006 advisory + gCaptain coverage confirm operational quiet through May 4 Iran multi-axis kinetic restart AND May 5 Trump Project Freedom pause cycle. Container freight FBX est. ~$2,800-2,900/FEU (per Freightos recent reports), stable at elevated baseline \u2014 Red Sea + Hormuz dual-chokepoint pricing persists. The bifurcation: Red Sea track is operationally clean, but Hormuz remains the kinetic-pressure point. The Houthi non-response across the highest-stress events of the crisis (May 4 kinetic, May 5 pause-with-progress) durably validates the Soufan coordination-decay thesis. Yemen May 2 oil-tanker hijacking headed for Somalia is SEPARATE piracy, not Houthi attack. If 75 days of Hormuz escalation + kinetic restart cycle did not produce Houthi Red Sea kinetic, the operational linkage to Iran is structurally broken or deliberately held in deep reserve.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 76-77 quiet \u2014 UKMTO and Lloyd's List confirm no Houthi attacks on commercial shipping in Red Sea / Bab el-Mandeb / Gulf of Aden during Iran war's 2026 phase; UKMTO maintains 'moderate' (not critical) for Bab el-Mandeb. **NEW NAVAL GEOMETRY: France's Charles de Gaulle CSG transited Suez Canal toward Red Sea / Gulf of Aden following CMA CGM San Antonio strike \u2014 first European naval-presence shift of cycle.** Paris described the move as a 'defensive step in full respect of international law' to 'reassure regional partners and support maritime security.' Deployment is separate from but parallel to the conditional UK-French joint Hormuz mission; ABC reports French CSG specifically moved south of Suez 'ahead of conditional UK-French Hormuz mission.' Container freight FBX: Asia-USWC ~$2,127/FEU; Med ~$3,850/FEU (+15% week \u2014 routing-penalty intact, Med-route elevation reflects Hormuz/Suez dynamic). The Houthi non-response across May 4 kinetic + May 5 pause + May 6 MOU framework continues to validate Soufan coordination-decay thesis.",
       "current": {},
       "active_triggers": [
         {
@@ -4366,6 +4717,22 @@ const GRAPH_DATA = {
       ],
       "recent_signals": [
         {
+          "date": "2026-05-07",
+          "headline": "FRANCE CHARLES DE GAULLE CSG TRANSITED SUEZ TO RED SEA / GULF OF ADEN FOLLOWING CMA CGM SAN ANTONIO STRIKE \u2014 FIRST EUROPEAN NAVAL SHIFT OF CYCLE; Macron called for Hormuz reopening AND spoke with Iranian President Pezeshkian (CONFIRMED \u2014 French armed forces, Naval News, ABC/NBC, US News, Washington Times). Paris: 'defensive step in full respect of international law' to 'reassure regional partners and support maritime security.' Day 76-77 of Houthi quiet sustained. FBX Med ~$3,850/FEU (+15% week \u2014 routing-penalty intact).",
+          "sources": [
+            "French armed forces statement",
+            "Naval News",
+            "ABC News",
+            "NBC News",
+            "Washington Times",
+            "US News",
+            "The Hill (Macron-Pezeshkian call)",
+            "UKMTO",
+            "Freightos FBX"
+          ],
+          "verification": "CONFIRMED \u2014 French CSG redeployment multi-source (French primary + Western corroboration); Houthi quiet = CONFIRMED ABSENCE (UKMTO, Lloyd's List)"
+        },
+        {
           "date": "2026-04-28",
           "headline": "DAY 65 RED SEA QUIET \u2014 IRAN'S HORMUZ-FIRST PROPOSAL + IRGC RHETORIC + LEBANON KINETIC DAY 2 ALL ROLLED PAST WITHOUT HOUT",
           "sources": [
@@ -4404,8 +4771,8 @@ const GRAPH_DATA = {
       "name": "Russia",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **RUSSIA URANIUM-CUSTODIAN TRACK OFFICIALLY SIDELINED \u2014 KREMLIN PESKOV CLARIFIED MAY 5: OFFER 'NOT CURRENTLY ON THE NEGOTIATING TABLE.'** Day 9 of 21 of the Russia-mediator window (closes 2026-05-11) is now structurally answered NO \u2014 Pakistan track is primary; Trump's May 5 pause framework cited 'Pakistan's request' explicitly, not Russia. Lavrov reaffirmed the offer to host Iran's enriched uranium in early May \u2014 but Peskov's May 5 clarification puts the offer on indefinite hold. Iran routed the 14-point proposal via Pakistan (not Russia); the Pakistan-Saudi security architecture has displaced Russia from the operational mediator role. Russia retains structural facets: rhetorical support for Iran via state media, intelligence support via permanent communications channel, UNSC veto, Bushehr two new nuclear units commitment. Russian-oil waiver (30-day India extension) preserves ~1.9 mbpd Russian flow to Indian refiners. The Apr 27 Putin-Araghchi Kremlin meeting produced reaffirmation of standing offers but no architecture-advance; the Russia-custodian 21-day window is now resolved-NO at Day 9. TASS reported the Kremlin uranium-offer reaffirmation factually without escalation \u2014 characteristic of Moscow accepting the sidelined position.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **RUSSIA URANIUM-CUSTODIAN TRACK SIDELINED AS PRIMARY MEDIATOR BUT POTENTIALLY REACTIVATED BY MOU.** The 14-point MOU's 'Iran ships out highly-enriched uranium stockpile' provision necessarily requires a custodian \u2014 if not Russia, then potentially the IAEA, Kazakhstan (mentioned in earlier-cycle reporting), or US-based facility. Peskov reaffirmed via Pravda EN April 18 (and reiterated to India Today early April) that Russia's offer to take Iran's enriched uranium 'remains active' but the US has rejected the proposal. JPost specifically described the MOU provision as 'Tehran give away enriched uranium' (custodian undefined). The Pakistan track has displaced Russia as the operational mediator. **The 21-day formal-proposal window from prior brief (RESOLVED-NO at Day 9) needs reframing: Russia is sidelined as mediator, BUT could be reactivated as uranium custodian \u2014 different role and remains live.** Russia retains structural facets: rhetorical support for Iran via state media (Pravda EN, TASS), intelligence support via permanent communications channel, UNSC veto, Bushehr two new nuclear units commitment. Russian-oil waiver (30-day India extension) preserves ~1.9 mbpd Russian flow to Indian refiners. URA +7.5% partly reflects HEU custodian path legitimization (Cameco 24% of URA, AI power demand intact). Pravda Trump May 6 ran 'IDF preparing large-scale Iran op' single-source claim \u2014 REPORTED only, NOT verified mainstream Western media; Russian adversarial-media chain.",
       "current": {},
       "active_triggers": [
         {
@@ -4511,8 +4878,8 @@ const GRAPH_DATA = {
       "name": "Saudi Arabia",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **SAUDI MBS DAY 8 OF 14 SILENCE ON BOTH UAE OPEC EXIT (May 1) AND MAY 4 STRIKE ON THE GCC OPEC-DEFECTOR.** UAE sent its FOREIGN MINISTER (not its ruler) to the May 5 Gulf leaders' meeting in Jeddah hosted by MBS \u2014 deliberate diplomatic distance signal compounds. OPEC+ proceeded with symbolic 188 thousand bpd production adjustment May 3 with the UAE no longer in the cartel. Atlantic Council Derentz framework continuation: UAE's quiet professionalism in handling the May 4 strike (air-defense success, FM not ruler to Jeddah, no direct Iran-naming) is consistent with the May 1 OPEC exit posture \u2014 UAE committing to a separate-from-cartel strategy that values its US-Hormuz alignment over GCC unity. The June 7 OPEC ministerial is the structural test for MBS substantive response. Vali Nasr 'Gulf monarchies risk-averse' framework holds: Saudi MBS silence reflects same calculus as UAE air-defense+restraint. Tradawul TASI -0.8% Wed reflects Saudi-UAE bifurcation pricing. Saudi Arabia continues structural Hormuz-export suppression; Aramco backstops Sadara JV ($3.7B debt, June 15 grace expiry trigger UNCHANGED). The 14-day MBS-formal-response trigger (closes May 12) at Day 8 of 14 = increasing evidence of NO good response.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **SAUDI MBS DAY 9 OF 14 SILENCE ON UAE OPEC EXIT (May 1) AND MAY 4 STRIKE ON GCC OPEC-DEFECTOR; TADAWUL -0.5% \u2014 ONLY MAJOR EQUITY INDEX IN RED ON GLOBAL RISK-ON DAY.** Aramco fell 4.7% after-hours on UAE OPEC exit news; compounds with Brent's $107 \u2192 $101 round-trip. UAE departure means ADNOC can undercut Saudi pricing (Murban discount potentially widening to $3.50/bbl by Q3 \u2014 WoodMac). Saudi fiscal model structurally pressured: was already at break-even ~$95/bbl; below $90 means deeper deficits. World Bank $86 average for 2026 + Goldman Q2 $90 = institutional forecast band threatens Saudi fiscal runway. **Tadawul is the cleanest 'peace dividend bearish' signal in tape \u2014 peace dividend is bearish for war's primary fiscal beneficiary.** If MOU signs, Saudi has the most to lose: oil normalization + UAE structural competitor + sanctions relief eventually returns Iranian crude to global market. Chatham House (May 2026): 'How the Iran war is reshaping Saudi strategy' frames MBS posture as 'strategic recalibration' \u2014 NOT a rupture with UAE but a pulling-back from full alignment. **Non-statement IS the signal:** MBS preserving optionality as MOU advances; once a deal is signed, MBS will likely be first to publicly endorse to claim Saudi credit for stability. Until then, silence. UAE sent foreign minister rather than ruler to Tuesday Jeddah summit, deepening diplomatic distance. Sadara JV ($3.7B debt, June 15 grace expiry) trigger UNCHANGED.",
       "current": {},
       "active_triggers": [
         {
@@ -4589,6 +4956,21 @@ const GRAPH_DATA = {
       ],
       "recent_signals": [
         {
+          "date": "2026-05-07",
+          "headline": "TADAWUL -0.5% ONLY MAJOR EQUITY INDEX IN RED ON GLOBAL RISK-ON DAY \u2014 peace dividend BEARISH for war's primary fiscal beneficiary. Aramco fell 4.7% after-hours on UAE OPEC exit news; compounds Brent $107\u2192$101 round-trip. ADNOC can undercut Saudi pricing (Murban discount potentially widening to $3.50/bbl by Q3 \u2014 WoodMac). Saudi break-even ~$95/bbl; World Bank $86 average for 2026 + Goldman Q2 $90 threaten fiscal runway. MBS Day 9 of 14 silence on UAE OPEC exit AND May 4 Iran-Fujairah strike. Chatham House: 'strategic recalibration' framing. UAE foreign minister rather than ruler at Jeddah summit \u2014 deepening diplomatic distance.",
+          "sources": [
+            "yfinance Tadawul",
+            "Chatham House May 2026",
+            "Atlantic Council",
+            "Mid-East Council on Global Affairs",
+            "Axios 'Year that shook the Gulf' May 2",
+            "WoodMac (Murban discount)",
+            "World Bank report April 28",
+            "Goldman Sachs Q2 research note"
+          ],
+          "verification": "CONFIRMED Tadawul -0.5% (yfinance multi-source); CONFIRMED Aramco after-hours -4.7% on UAE OPEC exit; CONFIRMED MBS silence pattern via institutional analysis (Chatham House, Atlantic Council); REPORTED ADNOC Murban discount projection (WoodMac base case)"
+        },
+        {
           "date": "2026-05-05",
           "headline": "SAUDI CONSPICUOUS-QUIET DAY 7 OF 14 \u2014 STILL NO MBS DIRECT STATEMENT POST-UAE-OPEC; AND NO RIYADH RESPONSE TO IRAN MAY 4 STRIKE ON UAE FUJAIRAH; SADARA JUNE 15 EXPIRY APPROACHING (~6 WEEKS)",
           "sources": [
@@ -4664,13 +5046,13 @@ const GRAPH_DATA = {
       "name": "Semiconductors (SMH/SOX)",
       "type": "sector",
       "created": "2026-04-25",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **SMH $522.69 (+3.1% 1D, +32.0% 1M, +30.1% 3M) \u2014 AI-CYCLE STRUCTURAL DECOUPLING FROM WEST ASIA RISK CONFIRMED.** Apple-Samsung-Intel chip-production exploratory talks (CNBC, Yahoo Finance, MarketScreener) \u2014 potential diversification beyond TSMC \u2014 drove KOSPI +6.7% to record 7,400.32 with Samsung crossing $1 TRILLION market cap (only second Korean company after SK Hynix to cross \u20a91,000 trillion). SK Hynix +10%. Combined Samsung + SK Hynix concentration hit RECORD 42.2% of total KOSPI. Taiwan TAIEX 41,138.85 (+0.9% 1D, +26.3% 1M, +29.4% 3M) \u2014 TSMC+Samsung halo. The May 4-6 sequence \u2014 multi-axis Iran kinetic restart May 4 + Korean-flagged HMM Namu damaged in Hormuz + KOSPI +6.7% to record May 6 with Samsung $1T \u2014 is the cleanest STRUCTURAL VALIDATION of the AI-cycle decoupling thesis the May 3-5 briefs introduced. Apple flat $280 on May 4 multi-axis kinetic-restart day was the strongest single-day signal for AI-cycle resilience; KOSPI 7,000 + Samsung $1T = the structural confirmation on the Asian export side. Patel/SemiAnalysis bifurcation thesis sharpens: Apple/Microsoft cash strength vs Alphabet/Meta/Amazon at capex-OCF parity continues to outperform; relative US/US-tech allocation strengthens versus Indian-equity allocation specifically because Indian equities remain INR-FII-exposed while US/Korea/Taiwan tech is structurally decoupled from West Asia geopolitical risk. **For deployment thesis:** AI capex cycle is the dominant flow; crisis dynamics SECONDARY. Bifurcation thesis: long Korea/Taiwan/US tech AI vs short Indian IT services (which are NOT direct AI exposure, see indian-it node).",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **SMH $549.76 (+5.2% 1D, +37.5% 1M, +35.2% 3M) \u2014 AI-CYCLE COMPOUNDING + APPLE-SAMSUNG-INTEL CHIP-PRODUCTION TALKS HALO INTACT.** Bloomberg May 5 confirmed Apple has held early talks with Intel and Samsung about producing iPhone main-device chips in the US, currently relying almost entirely on TSMC Taiwan. Critical caveat per Bloomberg: 'talks remain preliminary and no orders have been placed' \u2014 rally is anticipatory. Samsung Q1 2026 net profits 57.2T KRW (~$39B) \u2014 single-quarter higher than ALL of 2025 combined. Samsung market cap crossed $1T May 6. KOSPI 7,485.20 (+1.4% 1D, +37.3% 1M, +41.3% 3M); TAIEX 41,933.78 (+1.9% 1D, +26.2% 1M, +29.4% 3M). **NIKKEI +5.7% MAY 7 IS THE INTERNATIONAL VALIDATION OF AI-CYCLE DECOUPLING:** Nikkei reopened from Golden Week absorbing 3 sessions of US AI records in single day (SoftBank +13-16%, Advantest +8%, Tokyo Electron +9%); USD/JPY \u00a5156.22 (slightly stronger yen, NOT yen-weakness move); BOJ explicitly NOT the driver. Crisis-linked %: ~30% peace dividend; ~70% AI-cycle decoupling (consistent with Patel/SemiAnalysis thesis). Japanese tech now trading on same factor model as NASDAQ. **For India deployment thesis:** AI flows continue to bypass India IT services and rotate to Korea/Taiwan/US tech \u2014 Indian-equity allocation continues to underperform structurally in this regime. Patel/SemiAnalysis bifurcation thesis sharpens; Apple-Samsung-Intel talks specifically signal a US-AI-manufacturing-onshore tailwind that will rotate flows further from Indian IT services.",
       "current": {
-        "price": "SMH $522.69 (May 6); KOSPI 7,400.32; TAIEX 41,138.85; Samsung $1T mkt cap",
-        "delta_1d": "SMH +3.1%; KOSPI +6.7%; TAIEX +0.9%",
-        "delta_1m": "SMH +32.0%; KOSPI +37.6%; TAIEX +26.3%",
-        "delta_3m": "SMH +30.1%; KOSPI +45.4%; TAIEX +29.4%",
+        "price": "SMH $549.76 (May 7); KOSPI 7,485.20; TAIEX 41,933.78; NIKKEI 62,917.61 (Golden Week catch-up)",
+        "delta_1d": "SMH +5.2%; KOSPI +1.4%; TAIEX +1.9%; NIKKEI +5.7%",
+        "delta_1m": "SMH +37.5%; KOSPI +37.3%; TAIEX +26.2%; NIKKEI +19.9%",
+        "delta_3m": "SMH +35.2%; KOSPI +41.3%; TAIEX +29.4%; NIKKEI +11.6%",
         "mag7_capex": "Combined Mag 7 2026 AI-capex commitment: $630-650B+. Meta raised to $125-145B (+$10B); Alphabet raised to $180-190B (+$5B); AWS ~$200B (+24% growth, fastest in 13 quarters); Microsoft Q1 capex $29....",
         "samsung_q1_full": "Apr 30 release: revenue 133.9T won (~$100B), operating profit 57.2T won (~$36B; 8x YoY); HBM4 mass production for Nvidia Vera Rubin; NO HELIUM MENTION in earnings or forward guidance \u2014 Kornbluth ti...",
         "kospi": "6,712.80 (+0.3% 1D, +22.5% 1M)",
@@ -4827,13 +5209,13 @@ const GRAPH_DATA = {
       "name": "Shipping / Tanker Rates",
       "type": "sector",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **TANKER PARADOX: Frontline +2.8% to $38.10 / BOAT +3.5% to $42.97 RALLY DESPITE BRENT COLLAPSE -1.7% to $107.96.** This is the cleanest signal of MARKET BIFURCATION today \u2014 kinetic-war probability priced down (oil down, defense down, VIX down), but physical chokepoint persists (tankers up). Trump's May 5 pause was on the US convoy operation, NOT on Iran's closure of Hormuz \u2014 blockade 'remains in full force' per Trump's own Truth Social framing. VLCC TD3C MEG-China sustained ~$420-474K/day per Lloyd's List/Baltic Exchange \u2014 historically extreme; up from Wk4 $112K and Wk11 $326K levels. Hormuz transits restricted; vessels prefer non-Iran-nexus operators (Frontline benefits). The market is pricing two separate things: (1) US-Iran kinetic war probability is lower (oil/defense/VIX down), (2) Hormuz physical chokepoint persists (tanker rates high, AWRP elevated). For deployment thesis: 'long tankers / short crude' remains the dispersion trade. Reversibility: if Pakistan-mediated track delivers Iran formal Hormuz reopening within 14-21 days (by May 26), tanker stocks reprice -15-25% (rates collapse to normalized levels). Until then, persistent. AWRP ~1% Hull&Mach value/7-day per Argus Media \u2014 pause likely cuts further toward 0.5% normalization threshold over May 6-12 if Pakistan track concretely advances.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **TANKER PARADOX SOFTENING \u2014 FRONTLINE -1.0% TO $37.70 / BOAT -1.2% TO $42.44 ON MOU SCOOP; VLCC TD3C STEEPEST 1-DAY DROP IN 5+ YEARS ON MOU NEWS ('LEAD BALLOON' \u2014 Lloyd's List).** WS408 / ~$407K/day TCE \u2014 off ~$420K peak; still record territory. The MOU 'both sides lift Hormuz blockades' provision is being priced in equity even though physical chokepoint persists (5-6 vessels/day vs 138 norm; AWRP at 0.8-1% still 6-8x baseline). Frontline +33.8% 3M arc unwinding modestly. CMA CGM San Antonio struck May 5 by cruise missile in Hormuz off Dubai keeps kinetic-tail risk live (CBS attribution to Iran, IRGC has NOT claimed); demonstrates operational risk persists despite diplomatic pause. Container freight FBX: Asia-USWC ~$2,127/FEU; Med ~$3,850/FEU (+15% week \u2014 routing-penalty intact, Med-route elevation reflects Hormuz/Suez dynamic). **Reversibility:** if Pakistan-mediated MOU track delivers Iran formal Hormuz reopening within 14-21 days (by May 26), tanker stocks reprice -15-25% (rates collapse to normalized levels). If Iran rejects, tankers re-bid +5-10% on premium re-pricing. France's Charles de Gaulle CSG redeployment Suez\u2192Red Sea/Gulf of Aden adds new naval principal \u2014 could over time reduce transit-risk perception.",
       "current": {
-        "price": "Frontline $38.10 (May 6); BOAT $42.97; VLCC TD3C ~$420-474K/day TCE",
-        "delta_1d": "Frontline +2.8%; BOAT +3.5%",
-        "delta_1m": "Frontline +4.4%; BOAT +4.5%",
-        "delta_3m": "Frontline +33.8%; BOAT +19.2%"
+        "price": "Frontline $37.70 (May 7); BOAT $42.44; VLCC TD3C WS408 / ~$407K/day TCE",
+        "delta_1d": "Frontline -1.0%; BOAT -1.2%",
+        "delta_1m": "Frontline +7.8%; BOAT +3.5%",
+        "delta_3m": "Frontline +33.7%; BOAT +17.7%"
       },
       "active_triggers": [
         {
@@ -4962,13 +5344,13 @@ const GRAPH_DATA = {
       "name": "South Korea",
       "type": "country",
       "created": "2026-03-28",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **KOSPI BROKE 7,000 \u2014 OPENED 7,093.01, ROSE TO ~7,400.32 BY MID-MORNING; SAMSUNG ELECTRONICS CROSSED $1 TRILLION MARKET CAP (ONLY SECOND ASIAN COMPANY AFTER TSMC).** Apple held exploratory talks with Samsung and Intel to produce chips for Apple devices in the US \u2014 potential diversification beyond TSMC drove Samsung +13-15% on session. SK Hynix added another ~10%. Combined Samsung + SK Hynix concentration hit RECORD 42.2% of KOSPI (May 5). KOSPI +6.7% 1D / +37.6% 1M / +45.4% 3M = the cleanest STRUCTURAL VALIDATION of AI-cycle decoupling thesis the May 3-5 briefs introduced. The May 4-6 sequence \u2014 Iran multi-axis kinetic restart May 4, Korean-flagged HMM Namu damaged in Hormuz, then KOSPI +6.7% to record on May 6 \u2014 is the structural decoupling event. USD/KRW -1.4% to \u20a91,454.68 (-3.5% 1M) on broad EM-FX strength + DXY -0.4%. AI capex demand has structurally separated from West Asia geopolitics for major Asian tech exporters; same is NOT true for Asian importers (India). Helium-cascade thesis remains FALSIFIED at tier-1 chipmaker level (Samsung Q1 + SK Hynix Apr 23 framings hold). For deployment: Korea is overweight in AI-cycle bifurcation thesis vs Indian-equity allocation.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **KOSPI 7,485.20 (+1.4% 1D, +37.3% 1M, +41.3% 3M) NEW RECORD; SAMSUNG $1T MARKET CAP HOLDING; APPLE-SAMSUNG-INTEL CHIP-TALK HALO INTACT.** Bloomberg May 5 confirmed Apple has held early talks with Intel and Samsung about producing iPhone main-device chips in the US, currently relying almost entirely on TSMC Taiwan. Critical caveat per Bloomberg: 'talks remain preliminary and no orders have been placed' \u2014 rally is anticipatory. Samsung Q1 2026 net profits 57.2T KRW (~$39B) \u2014 single-quarter higher than ALL of 2025 combined. USD/KRW \u20a91,451.68 (-1.5% 1D, -3.2% 1M) on broad EM-FX strength + DXY 4-year low. AI capex demand has structurally separated from West Asia geopolitics for major Asian tech exporters; same is NOT true for Asian importers (India). Helium-cascade thesis remains FALSIFIED at tier-1 chipmaker level (Samsung Q1 + SK Hynix framings hold). **Today's KOSPI continuation is the structural confirmation of the AI-cycle decoupling thesis** \u2014 peace-dividend session adds tailwind on top of AI cycle. For India deployment: Korea continues to outperform in AI-cycle bifurcation thesis vs Indian-equity allocation.",
       "current": {
-        "price": "KOSPI 7,400.32 (May 6); USD/KRW \u20a91,454.68",
-        "delta_1d": "KOSPI +6.7% (BROKE 7,000; SAMSUNG $1T MKT CAP); USD/KRW -1.4%",
-        "delta_1m": "KOSPI +37.6%; USD/KRW -3.5%",
-        "delta_3m": "KOSPI +45.4%; USD/KRW -1.1%"
+        "price": "KOSPI 7,485.20 (May 7); USD/KRW \u20a91,451.68",
+        "delta_1d": "KOSPI +1.4%; USD/KRW -1.5%",
+        "delta_1m": "KOSPI +37.3%; USD/KRW -3.2%",
+        "delta_3m": "KOSPI +41.3%; USD/KRW -0.7%"
       },
       "active_triggers": [
         {
@@ -5059,15 +5441,27 @@ const GRAPH_DATA = {
       "name": "S&P 500",
       "type": "index",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday \u2014 **S&P 500 7,259.22 (+0.8% combined Tue +0.55% recovering Mon -0.41%); NASDAQ 25,326.13 (+1.0%, +15.1% 1M); DOW 49,298.25 (+0.7%); VIX 17.38 (-5.0%, -28.1% 1M, BELOW PRE-MAY 4 BASELINE); SMH $522.69 (+3.1%, +32.0% 1M); KOSPI 7,400.32 (+6.7% RECORD; SAMSUNG $1T MKT CAP); LOCKHEED $508.93 (-1.8%, -20.2% 1M cumulative defense de-rating).** The cleanest cross-asset risk-on regime of the entire 67-day arc. Trump's May 5 pause of Project Freedom triggered: VIX collapse below pre-May 4 baseline (full risk-off impulse unwound in 36 hours); Russell 2000 +~2% (small-caps lead in pause-pricing); DAX +1.7%; KOSPI +6.7% to record on Samsung $1T market cap (Apple-Samsung-Intel chip-production talks \u2192 AI-cycle decoupling structurally validated). The May 5-6 sequence is the cleanest validation that the AI capex cycle has structurally decoupled from West Asia geopolitical risk for major Asian (Korea, Taiwan) AND US tech exporters. **CRITICAL DISAMBIGUATION: today's metals rally (gold +2.7%, silver +4.5%, copper +2.6%) is DOLLAR-DRIVEN, NOT war-risk bid** \u2014 DXY -0.4% on Trump-comfortable-with-weak-dollar comments + BlackRock Rieder dovish-Fed-chair speculation. Cross-asset confirmation that this is dollar story not war story: VIX DOWN -5%, defense ITA stays weak, S&P UP, yields LOWER. Lockheed's Q1 EPS miss ($6.44 vs $7.28 prior year) + supply chain delays = ~50% earnings, ~50% crisis-de-rating; the 'defense as a crisis hedge' trade has structurally failed \u2014 AI/semiconductor rotation has been the actual hedge. The 'VIX 22+ trigger (long-vol entry signal)' = NOT activated; with VIX at 17.38 the trade has unwound to baseline. Goldman Q2 Brent cut to $90 (from $99) reinforces equity de-risk-premium. CME June cut probability ~28%; Polymarket ~56% zero 2026 cuts.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday \u2014 **TEXTBOOK PEACE-DIVIDEND SESSION: S&P 500 7,365.12 (+1.5% RECORD); NASDAQ 25,838.94 (+2.0%, +17.4% 1M); DOW 49,910.59 (+1.2%); VIX 17.39 (-32.5% 1M); SMH $549.76 (+5.2%, +37.5% 1M); NIKKEI 62,917.61 (+5.7% Golden Week catch-up); KOSPI 7,485.20 (+1.4%, +37.3% 1M); ENERGY XLE -4.1%; FERTILIZERS CF -6.5%/NTR -4.4%; DEFENSE ITA +3.7% BUT AEROSPACE-LED; LOCKHEED $514.26 (-18.1% 1M).** 25 of 62 tracked assets flagged. Single most analytically interesting print: **Nikkei +5.7% (Golden Week reopening absorbing 3 sessions of US AI records in one day; SoftBank +13-16%, Advantest +8%, Tokyo Electron +9%) \u2014 international validation of AI-cycle decoupling.** **Critical attribution: ITA +3.7% MASKS underlying split** \u2014 ITA's top holdings GE Aerospace (19.4%) + RTX (15.1%) + Boeing (10.3%) > 40% of ETF; Boeing/GE commercial-aero recovery + GE Aerospace $190B order book + $1B US-ops + 5,000 hires drives the print, NOT defense; LMT (pure-play defense) only +1.0% and -18.1% 1M = peace-track is BEARISH for pure defense. Cross-asset peace pricing: Brent collapsed -7% May 6 to ~$103 on Axios MOU scoop; XLE -4.1% on forward-curve repricing despite flat spot; CF/NTR -6.5%/-4.4% on April 17 playbook rerun (Hormuz reopening = fertilizer normalization expectation). Saudi Tadawul -0.5% the **only major equity index in red on global risk-on day** \u2014 peace dividend is bearish for war's primary fiscal beneficiary. **VIX 17.39 = cycle-low fear regime \u2014 most fragile structural risk in tape:** if Iran rejects MOU within 48hr window, VIX could spike 17 \u2192 28-32 (60-90% expansion plausible from compressed levels). Long VIX calls dated through May 21 (Iran response + signature window) are cleanest tail hedge. Gold +1.1% to $4,732 \u2014 85% dollar-weakness driven (DXY 4-year low, Rieder Fed-chair speculation), 15% war-risk residual. URA +7.5% \u2014 the rare asset benefiting from BOTH peace track (HEU custodian path) and structural AI power demand.",
       "current": {
-        "price": "S&P 500 7,259.22 (May 6); NASDAQ 25,326.13; DOW 49,298.25; VIX 17.38; SMH $522.69; KOSPI 7,400.32",
-        "delta_1d": "S&P +0.8% combined; NASDAQ +1.0%; DOW +0.7%; VIX -5.0%; SMH +3.1%; KOSPI +6.7%; LMT -1.8%",
-        "delta_1m": "S&P +9.8%; NASDAQ +15.1%; SMH +32.0%; VIX -28.1%; KOSPI +37.6%; LMT -20.2%",
-        "delta_3m": "S&P +4.7%; NASDAQ +10.0%; SMH +30.1%; VIX -20.2%; KOSPI +45.4%"
+        "price": "S&P 500 7,365.12 (May 7); NASDAQ 25,838.94; DOW 49,910.59; VIX 17.39; SMH $549.76; NIKKEI 62,917.61; KOSPI 7,485.20; XLE $57.00; ITA $223.42; LMT $514.26",
+        "delta_1d": "S&P +1.5% RECORD; NASDAQ +2.0%; DOW +1.2%; VIX flat (cycle-low); SMH +5.2%; NIKKEI +5.7% (Golden Week catch-up); KOSPI +1.4%; XLE -4.1%; ITA +3.7% (aerospace-led); LMT +1.0%; CF -6.5%; NTR -4.4%",
+        "delta_1m": "S&P +11.3%; NASDAQ +17.4%; SMH +37.5%; VIX -32.5%; NIKKEI +19.9%; KOSPI +37.3%; XLE -5.3%; LMT -18.1%; URA +21.5%",
+        "delta_3m": "S&P +5.7%; NASDAQ +11.2%; SMH +35.2%; KOSPI +41.3%; TAIEX +29.4%; LMT -19.0%"
       },
       "active_triggers": [
+        {
+          "condition": "VIX spikes 17\u219228+ within 48hr of Iran MOU response (~by 2026-05-09) \u2014 peace-dividend reversal test",
+          "status": "watching",
+          "cascade": [
+            "sp-500",
+            "us-10y-yield",
+            "gold",
+            "brent-crude",
+            "iran"
+          ],
+          "added": "2026-05-07"
+        },
         {
           "condition": "S&P 500 enters bear market (down 20% from peak)",
           "status": "watching",
@@ -5148,6 +5542,22 @@ const GRAPH_DATA = {
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "TEXTBOOK PEACE-DIVIDEND SESSION: S&P RECORD 7,365 (+1.5%) + NASDAQ 25,839 (+2.0%) + NIKKEI 62,918 (+5.7% Golden Week catch-up; SoftBank +13-16%, Advantest +8%, Tokyo Electron +9%) + SMH $549.76 (+5.2%, +37.5% 1M) + KOSPI 7,485 (+1.4% record). XLE -4.1% (forward-curve repricing despite flat spot Brent; Reuters: 'optimism that Middle East diplomacy will yield peace agreement'); CF -6.5% / NTR -4.4% on April-17-playbook rerun (Hormuz reopening = fertilizer normalization expectation); ITA +3.7% MASKS aerospace-vs-defense split (Boeing/GE/RTX > 40% of ETF; LMT only +1.0%, -18.1% 1M = peace bearish for pure defense). Saudi Tadawul -0.5% only major equity index in red on global risk-on day. VIX 17.39 cycle-low \u2014 most fragile structural risk; if Iran rejects MOU 17\u219228-32 plausible. URA +7.5% on HEU custodian path + AI power demand. Gold +1.1% to $4,732 = 85% dollar-driven, 15% war-risk residual.",
+          "sources": [
+            "yfinance",
+            "CNBC",
+            "Yahoo Finance",
+            "TradingEconomics",
+            "Bloomberg (Apple-Samsung-Intel)",
+            "Reuters/Investing.com (XLE attribution)",
+            "Lloyd's List (VLCC)",
+            "24/7 Wall St. (GE Aerospace)",
+            "FXEmpire (DXY/Rieder)"
+          ],
+          "verification": "CONFIRMED multi-source price tape; ITA aerospace-vs-defense split CONFIRMED via composition analysis; cross-asset disambiguation (gold dollar-driven, defense weak, VIX low, S&P record) confirms peace-dividend regime"
+        },
         {
           "date": "2026-05-06",
           "headline": "S&P +0.8% TO 7,259 + NASDAQ +1.0% + VIX -5% TO 17.38 (BELOW PRE-MAY 4 BASELINE) + SMH +3.1% (+32% 1M) + KOSPI +6.7% RECORD ON SAMSUNG $1T \u2014 CLEANEST CROSS-ASSET RISK-ON REGIME OF 67-DAY ARC; LOCKHEED -1.8% (-20.2% 1M) DEFENSE-ROTATION UNWIND",
@@ -5239,8 +5649,8 @@ const GRAPH_DATA = {
       "name": "Strait of Hormuz",
       "type": "trade_route",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **PROJECT FREEDOM PAUSED MAY 5 \u2014 BUT IRAN'S BLOCKADE REMAINS 'IN FULL FORCE AND EFFECT' (Trump's own Truth Social framing).** Within 24 hours of US convoy launch + kinetic exchange (6 Iranian fast boats sunk, 2 US destroyers transited successfully, SK HMM Namu damaged, UAE Fujairah hit), Trump paused the operation pending 'Complete and Final Agreement' via Pakistan. The Hormuz-territorial-control structure is now BIFURCATED: (1) US-Iran kinetic war probability declines (oil/defense/VIX falls), (2) physical chokepoint persists (Iranian closure of Hormuz unresolved; tanker rates still elevated; AWRP still ~1% baseline). This is the cleanest signal of MARKET BIFURCATION \u2014 Brent collapses (-4% May 5 \u2192 $107.96 May 6) on diplomatic-track pricing, while Frontline +2.8% / BOAT +3.5% rally on persistent physical disruption. The 'Brent <$115 sustained 5+ sessions' chain extended to Day 5/5 confirmed (Apr 30 $110.40 + May 1 $108.17 + May 4 $114.44 + May 5 $109.87 + May 6 $107.96, all <$115). Iran navigation map warning to US/oil tankers reissued Tue alongside Tehran's hardline Kayhan European-bases threat (RHETORIC, not operational). VLCC TD3C sustained ~$420-474K/day per Lloyd's List. AWRP at ~1% Hull&Mach (down from 2.5% peak); pause likely reduces re-spike risk (now lower probability of 5%+ within 5 sessions). New trigger reframed: AWRP normalization toward 0.5% within 10 sessions = pause priced as durable de-escalation; AWRP staying 0.8-1.5% = pause priced as fragile.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **MOU FRAMEWORK INCLUDES EXPLICIT 'BOTH SIDES LIFT HORMUZ BLOCKADES' PROVISION; IRAN SIGNALED FIRST UNCONDITIONAL REOPENING OFFER OF CYCLE \u2014 BUT OPERATIONAL REOPENING LAGS RHETORIC.** Iran (PBS/AP/Al Jazeera/IRNA): 'reopen Strait of Hormuz if US lifts blockade and war ends'; IRGC Navy added 'safe transit will be ensured with new procedures.' This is the FIRST TIME during the 67-day arc Iran has stated unconditional intent to reopen the Strait \u2014 prior Iranian framing emphasized 'controlled passage via coordination' which preserved selective control. **Operational data DOES NOT CONFIRM diplomatic-track durability:** Hormuz transit volume 5-6 vessels/day (May 3-4) vs 138 historical norm (Strauss Center / Lloyd's List); AWRP at ~0.8-1% H&M / 7-day baseline (Lloyd's List), down from 2.5% peak but still 6-8x pre-war 0.10-0.15% norm \u2014 insurers NOT pricing pause as durable yet. **CMA CGM San Antonio struck May 5 by cruise missile** off Dubai while transiting Hormuz; multiple crew injured, vessel damaged; CBS attribution to Iran (single-source US officials, IRGC has NOT claimed). France redeployed Charles de Gaulle CSG from East Med through Suez to Red Sea/Gulf of Aden (CONFIRMED \u2014 French armed forces, Naval News, ABC/NBC); first major European naval shift of cycle; Macron called for Hormuz reopening AND spoke with Pezeshkian. The 14-21 day window for Iran formal reopening (by May 26) is now Day 1-2; if signed MOU + actual reopening occur within this window the trigger resolves YES. Brent collapsed -7% May 6 to ~$103 on MOU scoop; trading $101.95 May 7 morning; chain 'Brent <$115 sustained 5+ sessions' resolved YES; new chain 'Brent <$105 sustained 5+ sessions' Day 1. Goldman Q2 forecast cut to $90; World Bank $86 average 2026 (vs $69 in 2025). VLCC TD3C steepest 1-day drop in 5+ years on MOU news ('lead balloon' \u2014 Lloyd's List). Paper-vs-physical bifurcation IS the structural intelligence: paper markets pricing peace ~50-70%, physical/insurance ~10-20%.",
       "current": {},
       "active_triggers": [
         {
@@ -5316,16 +5726,16 @@ const GRAPH_DATA = {
           "type": "territorial_control_institutional_codification",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-03",
-          "activation_count": 39
+          "last_activated": "2026-05-07",
+          "activation_count": 41
         },
         {
           "to": "brent-crude",
           "type": "supply_chokepoint",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-04-30",
-          "activation_count": 40
+          "last_activated": "2026-05-07",
+          "activation_count": 42
         },
         {
           "to": "natural-gas-lng",
@@ -5340,8 +5750,8 @@ const GRAPH_DATA = {
           "type": "route_disruption",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-04-22",
-          "activation_count": 30
+          "last_activated": "2026-05-07",
+          "activation_count": 32
         },
         {
           "to": "india",
@@ -5377,6 +5787,26 @@ const GRAPH_DATA = {
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "MOU FRAMEWORK INCLUDES EXPLICIT 'BOTH SIDES LIFT HORMUZ BLOCKADES'; IRAN SIGNALED FIRST UNCONDITIONAL REOPENING OFFER OF CYCLE \u2014 PBS/AP/AL JAZEERA cite Iranian officials offering to 'reopen Strait of Hormuz if US lifts blockade and war ends'; IRGC Navy added 'safe transit ensured with new procedures.' BUT operational reality lags: 5-6 vessels/day vs 138 norm; AWRP at 0.8-1% (still 6-8x baseline); CMA CGM San Antonio struck May 5 by cruise missile (CBS-attribution to Iran, IRGC has NOT claimed). France Charles de Gaulle CSG transits Suez to Red Sea/Gulf of Aden \u2014 first European naval shift of cycle; Macron called for Hormuz reopening AND spoke with Pezeshkian. Brent collapsed -7% May 6 to ~$103 on MOU scoop; Goldman Q2 cut to $90; World Bank $86 average for 2026. VLCC TD3C steepest 1-day drop in 5+ years on MOU news ('lead balloon' \u2014 Lloyd's List).",
+          "sources": [
+            "Axios primary scoop (MOU)",
+            "PBS NewsHour (Iran reopening offer)",
+            "AP",
+            "Al Jazeera",
+            "IRNA",
+            "Lloyd's List (AWRP, VLCC)",
+            "Strauss Center (transit data)",
+            "Strait of Hormuz Live Tracker",
+            "CMA CGM company statement",
+            "CBS News (Iran attribution)",
+            "Naval News (French CSG)",
+            "Goldman Sachs Q2 research note",
+            "World Bank energy report April 28"
+          ],
+          "verification": "MOU 'both sides lift Hormuz blockades' provision = REPORTED (Axios, multi-corroborated); Iran reopening offer = REPORTED\u2192CONFIRMED (PBS/AP direct quotes); Operational data (transit, AWRP, VLCC) = CONFIRMED (Lloyd's List, Strauss Center, Hormuz tracker); CMA CGM strike = CONFIRMED action, CLAIMED Iran attribution; French CSG = CONFIRMED (French armed forces primary)"
+        },
         {
           "date": "2026-05-06",
           "headline": "PROJECT FREEDOM PAUSED MAY 5; BLOCKADE 'REMAINS IN FULL FORCE' PER TRUMP TRUTH SOCIAL \u2014 BIFURCATION: KINETIC-WAR PROBABILITY DOWN (BRENT -4%) BUT PHYSICAL CHOKEPOINT PERSISTS (FRONTLINE +2.8%, BOAT +3.5%, VLCC TD3C ~$420-474K/DAY); BRENT <$115 CHAIN DAY 5/5 COMPLETE",
@@ -5470,12 +5900,12 @@ const GRAPH_DATA = {
       "name": "Taiwan (TSMC)",
       "type": "country",
       "created": "2026-03-28",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. TAIEX 41,138.85 (+0.9% 1D, +26.3% 1M, +29.4% 3M) \u2014 TSMC + Samsung halo from KOSPI breakthrough + AI capex ecosystem dominance. The May 5-6 sequence (Apple-Samsung-Intel chip-production exploratory talks \u2192 Samsung $1T market cap, KOSPI +6.7% to 7,400) is the structural validation of the AI-cycle decoupling thesis \u2014 for major Asian tech exporters the cycle has structurally separated from West Asia geopolitical risk. Apple's potential diversification beyond TSMC (Apple-Samsung-Intel talks) is a forward demand-channel risk, but TSMC's structural position remains dominant in node leadership. SMH +3.1% to $522.69 (+32.0% 1M) is TSMC ecosystem confirmation. Helium cascade falsification stays intact at tier-1 chipmaker level. Chip complex decoupled from crisis (~5% crisis attribution); 95%+ AI capex driven. Patel/SemiAnalysis bifurcation thesis sharpens: hyperscaler FCF risk by 2027 = forward customer-base risk, but current cycle remains supportive.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **TAIEX 41,933.78 (+1.9% 1D, +26.2% 1M, +29.4% 3M) \u2014 TSMC CONTINUED DOMINANCE AMID APPLE-SAMSUNG-INTEL CHIP-PRODUCTION TALKS.** Apple's potential diversification beyond TSMC (Apple-Samsung-Intel talks) is a forward demand-channel risk, but TSMC's structural position remains dominant in node leadership. SMH +5.2% to $549.76 (+37.5% 1M) is TSMC ecosystem confirmation. Helium cascade falsification stays intact at tier-1 chipmaker level. Chip complex decoupled from crisis (~10% crisis attribution); ~90% AI capex driven. Patel/SemiAnalysis bifurcation thesis sharpens with today's peace-dividend session adding tailwind on top. Today's TAIEX continuation confirms AI-cycle decoupling thesis remains intact post-MOU framework \u2014 peace-dividend pricing + AI cycle compounding.",
       "current": {
-        "price": "TAIEX 41,138.85 (May 6)",
-        "delta_1d": "+0.9%",
-        "delta_1m": "+26.3%",
+        "price": "TAIEX 41,933.78 (May 7)",
+        "delta_1d": "+1.9%",
+        "delta_1m": "+26.2%",
         "delta_3m": "+29.4%"
       },
       "active_triggers": [
@@ -5556,8 +5986,8 @@ const GRAPH_DATA = {
       "name": "Donald Trump",
       "type": "person",
       "created": "2026-03-30",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **TRUMP PAUSED PROJECT FREEDOM MAY 5** \u2014 within 24 hours of launching the named operation, Truth Social post declared the operation 'paused for a short period of time to see whether or not the Agreement can be finalized and signed,' explicitly citing Pakistan's request and 'Great Progress' toward a 'Complete and Final Agreement' with Iran. CRITICAL FRAMING PIVOT: language reversed from May 4 'Iran has not yet paid a big enough price' to May 5 'great progress' \u2014 among the sharpest single-day presidential framing pivots of the 67-day arc. Pentagon backbone confirmed: War Secretary Hegseth + JCS Chairman Gen. Caine reaffirmed ceasefire intact and Iran's May 4 actions 'fall below the threshold of restarting major combat operations.' The pause is on the US convoy operation only \u2014 Truth Social explicitly preserved the underlying blockade ('the blockade will remain in full force and effect'). Structural read: Project Freedom was leverage, not commitment \u2014 once Iran fired and Pakistan re-engaged, Trump used the cover to return to the Pakistan track on US-favorable terms. Branches re-priced: kinetic ~25-30% (DOWN from 40-45%); negotiated-resolution ~30-35% (UP from 15-20%). Markets: Brent -4% to $109.87 (May 5) extending to $107.96 (May 6); VIX -5% to 17.38 (below pre-May 4 baseline); S&P +0.8%. The 'fourth high-profile reversal within 30 days' trigger watching since Apr 26 \u2014 May 4\u2192May 5 pivot qualifies as fifth high-profile reversal in the cycle (Apr 25 patience-window, Apr 28 Hormuz-first, Apr 30 Axios rejection, May 4 14-point rejection, May 5 pause-with-progress).",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **TRUMP-IRAN 14-POINT MOU NOW DRAFTED \u2014 48-HOUR IRAN RESPONSE WINDOW (~MAY 8 EVENING); 'BOMBING STARTS AT SIGNIFICANTLY HIGHER LEVEL AND INTENSITY' IF NO DEAL.** Day 2 of pause framework hardened into substantive memorandum text: Witkoff and Kushner negotiating directly with Iran AND through Pakistani mediators. Provisions explicit: end-of-war declaration, 12-15 yr Iran enrichment moratorium (compromise from 20yr-US/5yr-Iran demand), Iran ships out HEU stockpile, US lifts sanctions and frozen assets, BOTH sides lift Hormuz blockades, 30-day post-signing detail window. Trump posted Truth Social May 6 morning: conflict 'could soon come to an end if Iran agrees,' but warned 'U.S. forces would resume bombing at a significantly higher level and intensity' if not. Classic deal-or-coercion framing \u2014 rhetorical leverage paired with real diplomatic offer (RHETORIC/THREAT, not new escalation). Markets adjudicated the upside (Brent -7% on May 6 to $103, S&P record +1.5%, VIX 17.39, KOSPI 7,485 record) but downside NOT priced \u2014 if Iran rejects, expect Brent +$8-15 within 24h, defense rotation re-engagement, gold continued bid (genuine war-risk this time). Vali Nasr (Bloomberg/DAWN) explicitly challenged Trump's framing as overclaiming: 'claimed Iran had agreed to giving up its nuclear program without actually those agreements having been made.' Sadjadpour: 48hr window 'structurally inadequate' given Mojtaba 60-day absence and Pezeshkian-IRGC factional split \u2014 expect Iran to request extension or counter-proposal that drags timeline past May 14. The 'fourth high-profile reversal within 30 days' trigger remains active (May 5 pause = 5th of cycle); 'Trump pause holds 7+ days without further kinetic exchange' watching trigger now Day 2/7 (test by May 12).",
       "current": {},
       "active_triggers": [
         {
@@ -5637,16 +6067,16 @@ const GRAPH_DATA = {
           "type": "market_mover",
           "weight": 10.0,
           "directness": 1,
-          "last_activated": "2026-05-06",
-          "activation_count": 18
+          "last_activated": "2026-05-07",
+          "activation_count": 20
         },
         {
           "to": "iran",
           "type": "adversary_negotiator",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-06",
-          "activation_count": 24
+          "last_activated": "2026-05-07",
+          "activation_count": 26
         },
         {
           "to": "united-states",
@@ -5661,8 +6091,8 @@ const GRAPH_DATA = {
           "type": "policy_lever",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-06",
-          "activation_count": 11
+          "last_activated": "2026-05-07",
+          "activation_count": 12
         },
         {
           "to": "israel",
@@ -5685,8 +6115,8 @@ const GRAPH_DATA = {
           "type": "diplomatic_channel",
           "weight": 10.0,
           "directness": 1,
-          "last_activated": "2026-05-06",
-          "activation_count": 9
+          "last_activated": "2026-05-07",
+          "activation_count": 10
         },
         {
           "to": "lebanon",
@@ -5698,6 +6128,24 @@ const GRAPH_DATA = {
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "TRUMP-IRAN 14-POINT MOU FRAMEWORK DRAFTED; 48-HR IRAN RESPONSE WINDOW (~MAY 8 PM); 'BOMBING STARTS AT SIGNIFICANTLY HIGHER LEVEL AND INTENSITY' IF NO DEAL. Witkoff+Kushner negotiating directly + via Pakistani mediators. MOU provisions: end-of-war declaration, 12-15 yr Iran enrichment moratorium, Iran ships out HEU stockpile, US lifts sanctions/frozen assets, BOTH sides lift Hormuz blockades, 30-day post-signing detail window. Markets adjudicated upside (Brent -7% May 6 to ~$103, S&P record +1.5%, KOSPI 7,485 record); downside NOT priced \u2014 if Iran rejects expect Brent +$8-15/24h. Vali Nasr (Bloomberg/DAWN) explicitly challenged framing as overclaiming \u2014 'claimed Iran had agreed to giving up its nuclear program without actually those agreements having been made.' Sadjadpour: 48hr window structurally inadequate given Mojtaba absence + factional split.",
+          "sources": [
+            "Axios primary scoop",
+            "CNN Politics May 6",
+            "JPost",
+            "NPR May 6",
+            "The Hill",
+            "Reuters/WION",
+            "Trump Truth Social (bombing warning)",
+            "CBS News (bombing threat corroboration)",
+            "NBC News",
+            "Bloomberg Vali Nasr Weekend Interview",
+            "DAWN MENA Nasr piece"
+          ],
+          "verification": "MOU drafting = REPORTED (Axios scoop multi-corroborated, final text not published); Trump bombing warning = CONFIRMED (Truth Social primary, CBS/NBC corroborated); RHETORIC/THREAT (no operational deployment to support); Nasr critique = CONFIRMED (Bloomberg primary, DAWN MENA primary)"
+        },
         {
           "date": "2026-05-06",
           "headline": "TRUMP PAUSED PROJECT FREEDOM MAY 5 \u2014 TRUTH SOCIAL: 'GREAT PROGRESS' TOWARD 'COMPLETE AND FINAL AGREEMENT' WITH IRAN VIA PAKISTAN; BLOCKADE 'IN FULL FORCE AND EFFECT'; PENTAGON (HEGSETH+CAINE) AFFIRMED CEASEFIRE INTACT \u2014 24-HOUR FRAMING REVERSAL FROM 'NOT YET PAID BIG ENOUGH PRICE'",
@@ -5795,8 +6243,8 @@ const GRAPH_DATA = {
       "name": "United Arab Emirates",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **UAE AIR-DEFENSE BREAKDOWN REFINED: 12 BALLISTIC + 3 CRUISE + 4 DRONES ENGAGED MAY 4 (vs prior 15+4); 18 OF 19 SUCCESSFULLY NEUTRALIZED \u2014 ~95% INTERCEPT EFFECTIVENESS.** One drone breakthrough hit Fujairah Oil Industry Zone (end of Abu Dhabi Crude Oil Pipeline, the UAE's Hormuz-BYPASS infrastructure); 3 Indian nationals injured. UAE positioned itself professionally \u2014 leaning on air-defense success rather than escalating rhetoric. Confirmation of Vali Nasr 'risk-averse Gulf monarchies' framework: UAE sent its FOREIGN MINISTER (not its ruler) to the May 5 Gulf leaders' meeting in Jeddah hosted by MBS \u2014 deliberate diplomatic distance signal. The UAE-Saudi structural divergence on OPEC exit + UAE chose to leave the cartel just as Iran chose to make UAE a kinetic target \u2014 sequencing isn't coincidence. Saudi MBS Day 8/14 silence on UAE strike + UAE OPEC exit. UAE airspace partial closure remains in effect through May 11. PM Modi personally condemned the Fujairah attack May 5 ('unacceptable') \u2014 highest-level Indian government statement on the West Asia crisis since onset; this elevates India's diplomatic posture another tier and aligns India with US/UAE on Hormuz freedom-of-navigation. Iran-UAE: Tasnim continued aggressive UAE rhetoric ('all UAE interests will become Iran's target') while Iran's MFA validated diplomatic track with US \u2014 internal Iranian factional positioning. Tradawul TASI -0.8% Wed reflecting Saudi-UAE bifurcation pricing.",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **UAE AIRSPACE PARTIAL CLOSURE THROUGH MAY 11; 3 INDIAN NATIONALS INJURED IN FUJAIRAH STRIKE RECEIVING MEDICAL CARE PER INDIAN EMBASSY ABU DHABI.** Status quo since May 5 \u2014 no new operational updates. UAE shifted to remote learning post-Fujairah attack. The Saudi-UAE structural overhang persists into MOU framework window: MBS Day 9/14 silence on UAE OPEC exit (May 1 effective) + May 4 Fujairah strike continues. UAE foreign minister rather than ruler at Tuesday Jeddah summit deepens diplomatic distance \u2014 sustained signal of UAE committing to separate-from-cartel strategy that values its US-Hormuz alignment over GCC unity. Tadawul TASI -0.5% only major equity index in red on global risk-on day \u2014 peace dividend bearish for war's primary fiscal beneficiary; UAE's ADNOC structurally positioned to undercut Saudi pricing (Murban discount potentially widening to $3.50/bbl by Q3 \u2014 WoodMac). **Iran-UAE relationship continues bifurcated:** Tasnim (IRGC-aligned) maintained aggressive UAE rhetoric; Iran's civilian government track on negotiating leverage. PM Modi May 5 Fujairah condemnation ('unacceptable') without naming Iran is the structural read \u2014 Indian strategic-autonomy hedge holding while Araghchi arrives India May 7-8 in parallel-track diplomacy.",
       "current": {},
       "active_triggers": [
         {
@@ -5965,8 +6413,8 @@ const GRAPH_DATA = {
       "name": "United States",
       "type": "country",
       "created": "2026-03-23",
-      "last_updated": "2026-05-06",
-      "summary": "Day 68 Wednesday. **PROJECT FREEDOM PAUSED MAY 5 \u2014 TRUMP TRUTH SOCIAL: 'GREAT PROGRESS' TOWARD 'COMPLETE AND FINAL AGREEMENT' VIA PAKISTAN.** Within 24 hours of launching the named convoy operation (Mon May 4) and within 12 hours of the kinetic exchange (sank 6 Iranian fast boats, intercepted multi-axis Iran strike), Trump announced the operation 'paused for a short period of time' pending final agreement. Pentagon backbone confirmed: Hegseth + Caine reaffirmed ceasefire intact, Iran's actions 'fall below the threshold of restarting major combat operations.' Trump's Truth Social explicitly preserved the underlying blockade ('blockade will remain in full force and effect') \u2014 pause is on the US convoy operation, NOT on Iran's closure of Hormuz. Structural read: Project Freedom was leverage, not commitment \u2014 once Iran fired and Pakistan re-engaged, Trump used the cover to return to the Pakistan track on US-favorable terms. Branch re-pricing: kinetic ~25-30% (DOWN from 40-45%); negotiated-resolution ~30-35% (UP from 15-20%). Markets: S&P +0.55% Tuesday recovering Mon -0.41% loss; Brent -4% to $109.87 (May 5) \u2192 $107.96 (May 6); VIX -5% to 17.38 (BELOW pre-May 4 baseline); USD/INR pulled back to \u20b995.13 from \u20b995.36 record. The Russia uranium-custodian track is officially sidelined \u2014 Kremlin's Peskov clarified May 5 the offer is 'not currently on the negotiating table'; Pakistan track is primary. Sadjadpour framework: 'between cold and hot war' \u2014 May 4 kinetic + May 5 pause is the OPERATING EQUILIBRIUM, not a one-off. New trigger watching: pause holds 7+ days without further kinetic exchange (test by May 12).",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **14-POINT MOU SUBSTANTIVE TEXT NOW CIRCULATING \u2014 48-HR IRAN RESPONSE WINDOW (~MAY 8 EVENING).** Day 2 of pause framework hardened from rhetoric into substantive memorandum: Witkoff and Kushner negotiating directly with Iran AND through Pakistani mediators. Provisions: end-of-war declaration; Iran 12-15 yr enrichment moratorium (compromise from US-demanded 20yr / Iran-offered 5yr); Iran ships out HEU stockpile to a third-party custodian (Russia rejected by US, IAEA/Kazakhstan possible); US lifts sanctions and releases frozen Iranian assets; BOTH sides lift Hormuz blockades; 30-day post-signing window for detailed agreements. The MOU was originally Iran's proposal in response to a 9-point US plan (Tasnim/Xinhua/Al Jazeera May 3). Trump warned 'bombing starts at significantly higher level and intensity' if Iran rejects \u2014 RHETORIC/THREAT paired with real diplomatic offer. Markets adjudicated upside (Brent -7% May 6 to ~$103, S&P record +1.5%, VIX 17.39, KOSPI 7,485 record) but downside not priced. **CMA CGM San Antonio struck May 5** by cruise missile in Hormuz off Dubai (Maltese-flagged, Philippine crew, multiple injured); CBS attribution to Iran (single-source US officials, IRGC has NOT claimed). France redeployed Charles de Gaulle CSG from East Med through Suez to Red Sea/Gulf of Aden \u2014 first major European naval-presence shift of cycle. Macron called for Hormuz reopening AND spoke with Pezeshkian. Branch re-pricing: kinetic ~20-25% (DOWN further); negotiated-resolution ~40-50% (UP sharply on MOU framework). Sadjadpour: 48hr window 'structurally inadequate'; Vali Nasr: Trump 'overclaimed' on agreements 'without actually those agreements having been made'; 'Trump pause holds 7+ days without further kinetic exchange' test now Day 2/7 (by May 12).",
       "current": {},
       "active_triggers": [
         {
@@ -6036,8 +6484,8 @@ const GRAPH_DATA = {
           "type": "active_conflict_with_diplomatic_re_engagement",
           "weight": 10,
           "directness": 1,
-          "last_activated": "2026-05-06",
-          "activation_count": 52
+          "last_activated": "2026-05-07",
+          "activation_count": 54
         },
         {
           "to": "israel",
@@ -6073,6 +6521,25 @@ const GRAPH_DATA = {
         }
       ],
       "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "14-POINT MOU SUBSTANTIVE TEXT CIRCULATING \u2014 48-HR IRAN RESPONSE WINDOW (~MAY 8 EVENING). Witkoff+Kushner negotiating directly with Iran AND via Pakistani mediators. MOU provisions: end-of-war declaration; 12-15 yr Iran enrichment moratorium (compromise from US-20yr/Iran-5yr); Iran ships out HEU stockpile (custodian TBD); US lifts sanctions and frozen assets; BOTH sides lift Hormuz blockades; 30-day post-signing detail window. CMA CGM San Antonio struck May 5 by cruise missile in Hormuz; CBS attribution to Iran (single-source US officials, IRGC has NOT claimed). France Charles de Gaulle CSG transits Suez to Red Sea/Gulf of Aden \u2014 first European naval shift of cycle. Vali Nasr (Bloomberg/DAWN) challenges Trump as 'overclaimed.'",
+          "sources": [
+            "Axios primary scoop",
+            "CNN Politics May 6",
+            "JPost",
+            "NPR May 6",
+            "Reuters/WION",
+            "Trump Truth Social (bombing warning)",
+            "CBS News",
+            "Naval News (Charles de Gaulle CSG)",
+            "ABC/NBC News",
+            "Bloomberg Vali Nasr Weekend Interview",
+            "DAWN MENA Nasr piece",
+            "CMA CGM company statement"
+          ],
+          "verification": "MOU framework = REPORTED (Axios scoop multi-corroborated, final text not published); Trump bombing warning = CONFIRMED RHETORIC/THREAT; CMA CGM strike = CONFIRMED action, CLAIMED Iran attribution; French CSG deployment = CONFIRMED (French armed forces primary)"
+        },
         {
           "date": "2026-05-06",
           "headline": "PROJECT FREEDOM PAUSED MAY 5 ~24 HOURS AFTER LAUNCH; TRUMP TRUTH SOCIAL: 'GREAT PROGRESS' TOWARD 'COMPLETE AND FINAL AGREEMENT' VIA PAKISTAN; PENTAGON (HEGSETH+CAINE) AFFIRMED CEASEFIRE INTACT, IRAN'S MAY 4 ACTIONS 'BELOW THRESHOLD'; BLOCKADE REMAINS 'IN FULL FORCE AND EFFECT' \u2014 PAUSE IS ON US CONVOY ONLY",
@@ -6175,14 +6642,13 @@ const GRAPH_DATA = {
       "name": "Uranium Sector",
       "type": "sector",
       "created": "2026-04-23",
-      "last_updated": "2026-04-30",
-      "summary": "Day 63 Thursday. URA $52.89 (-2.5% 1D, +16.8% 1M, -3.8% 3M) \u2014 CONTINUED AI-DOUBT OVERHANG DESPITE MAG 7 BEAT-AND-RAISE; URA STILL +16.8% ABOVE 1M AGO. The Mag 7 beat-and-raise capex ($630-650B 2026 AI commitment) confirmed AI-demand thesis, BUT the AI-data-center-uranium-contracts thesis has its own cycle (~10% crisis / ~90% AI-cycle). URA -2.5% Apr 29 = continuation of Apr 28 selloff suggests AI-pivot trade is decoupling uranium from semis on tactical positioning. 1M still +16.8% (cycle intact medium-term). Brent $118-120 Apr 29 close (+6-8%, Day 1 of $115-sustained CONFIRMED) = energy-security premium proxy intact but dominated by AI-cycle on Apr 28-29 selling. Trump-Axios 'choking like a stuffed pig' + CENTCOM 'short and powerful' strike plan PREPARED-not-activated reinforces tail-risk on Iran-nuclear-facility strike (REPORTED single-source). Apple tonight 5pm ET \u2014 supply-chain disappointment could deepen AI-doubt and pressure URA to $50 support; positive surprise \u2192 URA bounces $58+. Structural nuclear-capacity-tripling commitments intact; nuclear-cycle floor unchanged. PRIOR DAY-1 SUMMARY (preserved): The same OpenAI Q1 user/revenue miss + CFO Friar compute-funding-worry that drove SMH -3.0% Wed flowed through to URA -4.4% \u2014 uranium's AI-data-center-demand thesis runs through SMR uranium contracts and Nvidia capex chain; AI doubt = uranium doubt. ~10% crisis / ~90% AI-thesis unwind decomposition. The 45%/55% crisis-vs-structural split from prior weeks framework is now DOMINATED by AI-cycle reset. Crisis premium component (energy-security proxy on Brent breaching $115 intraday) is intact but dominated by AI-cycle on Wed selling. [TRUNCATED \u2014 needs re-synthesis]",
+      "last_updated": "2026-05-07",
+      "summary": "Day 69 Thursday. **URA $58.26 (+7.5% 1D, +21.5% 1M, +6.1% 3M) \u2014 APPARENT ANOMALY THAT'S ACTUALLY CONSISTENT: BENEFITS FROM BOTH PEACE TRACK (HEU CUSTODIAN PATH UNDER MOU) AND STRUCTURAL AI POWER DEMAND.** The 14-point MOU explicitly requires Iran to ship out HEU stockpile to a third-party custodian (Russia rejected by US; potentially IAEA, Kazakhstan, or US-based facility). This is a NUCLEAR FUEL CYCLE LEGITIMIZATION signal \u2014 civilian uranium custody and processing infrastructure becomes more politically valuable. Plus: $2.7B 10-year US enrichment commitment continues; AI-data-center power demand continues; Cameco (24% of URA) up sharply. Uranium ETF already +117% TTM \u2014 supply-squeeze narrative undisturbed by oil-crash regime. Crisis-linked %: ~50% (HEU custodian path); ~50% structural (AI power demand). **URA does NOT reverse cleanly on either MOU path** \u2014 structural bull intact regardless of Iran response. The dual exposure is the rare beneficial structural setup. JPost specifically described MOU provision as 'Tehran give away enriched uranium' \u2014 custodian undefined, but nuclear-fuel-cycle infrastructure rerates regardless. Trump's 'bombing starts at significantly higher level and intensity' rhetorical leverage maintains tail-risk on Iran-nuclear-facility strike (RHETORIC/THREAT, not active).",
       "current": {
-        "price_proxy": "URA $57.73 (Global X Uranium ETF)",
-        "delta_1d": "-2.2% (Fri); two-session net +5.0%",
-        "delta_1m": "+17.2%",
-        "delta_3m": "+2.8%",
-        "price_proxy_friday_close": "URA $56.47"
+        "price_proxy": "URA $58.26 (May 7)",
+        "delta_1d": "+7.5%",
+        "delta_1m": "+21.5%",
+        "delta_3m": "+6.1%"
       },
       "active_triggers": [
         {
@@ -6249,7 +6715,20 @@ const GRAPH_DATA = {
           "activation_count": 1
         }
       ],
-      "recent_signals": [],
+      "recent_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "URA +7.5% TO $58.26 \u2014 DUAL BENEFICIARY OF MOU HEU-CUSTODIAN PATH AND STRUCTURAL AI POWER DEMAND. 14-point MOU requires Iran to ship out HEU stockpile (Russia rejected by US; alternatives IAEA, Kazakhstan). Nuclear fuel cycle legitimization signal \u2014 civilian uranium custody/processing infrastructure becomes more politically valuable. Cameco 24% of URA up sharply. URA +117% TTM \u2014 supply-squeeze narrative undisturbed by oil-crash regime. ~50% crisis (custodian) / ~50% structural (AI). Does NOT reverse cleanly on either MOU path.",
+          "sources": [
+            "yfinance URA",
+            "Axios MOU framework",
+            "JPost (HEU 'give away')",
+            "Cameco filings",
+            "Pravda EN (Russia uranium offer status)"
+          ],
+          "verification": "CONFIRMED URA price tape (+7.5% multi-source); MOU HEU provision = REPORTED multi-corroborated (custodian undefined); Russia-as-custodian rejected by US = CONFIRMED Russia-side, sidelined as primary mediator"
+        }
+      ],
       "historical_summaries": [
         {
           "period": "2026-04",
@@ -6609,7 +7088,7 @@ const GRAPH_DATA = {
     }
   },
   "edges": {
-    "last_updated": "2026-05-06",
+    "last_updated": "2026-05-07",
     "edges": [
       {
         "from": "aluminum",
@@ -8408,18 +8887,108 @@ const GRAPH_DATA = {
         "type": "named_in_pause_framework",
         "added": "2026-05-06",
         "rationale": "Trump May 5 Truth Social explicitly cited Pakistan's request as driver of Project Freedom pause"
+      },
+      {
+        "from": "iran",
+        "to": "fertilizer-urea",
+        "weight": 6.0,
+        "directness": 2,
+        "last_activated": "2026-05-07",
+        "type": "mou_track_repricing_via_hormuz",
+        "added": "2026-05-07",
+        "rationale": "E2 from markets.md: CF -6.5% / NTR -4.4% on May 7 is direct MOU peace-dividend pricing via Hormuz reopening expectation. April 17 playbook (CF -9.6% on prior Hormuz reopening signal) confirms repeatable causal mechanism. Initial weight 6.0 (high directness, confirmed twice in cycle)."
+      },
+      {
+        "from": "indian-it",
+        "to": "semiconductors",
+        "weight": 7.5,
+        "directness": 1,
+        "last_activated": "2026-05-07",
+        "type": "ai_flows_bypass_negative_edge",
+        "added": "2026-05-07",
+        "rationale": "E4 from markets.md: AI-cycle decoupling persistent over 30+ days; Apple-Samsung-Intel chip-talks halo continues to rotate flows to Korea/Taiwan/US tech NOT Indian IT services. KOSPI +37.3% / TAIEX +26.2% / SMH +37.5% on month vs Nifty IT structurally underperforming. INVERSE relationship \u2014 indian-it loses flow share when semiconductors rallies."
+      },
+      {
+        "from": "saudi-arabia",
+        "to": "uae",
+        "weight": 5.5,
+        "directness": 1,
+        "last_activated": "2026-05-07",
+        "type": "fragmenting_opec_partners",
+        "added": "2026-05-07",
+        "rationale": "E5 from markets.md: relationship degradation from 'ally' to 'fragmenting OPEC partners.' Tadawul -0.5% on global risk-on day; UAE OPEC exit effective May 1; MBS Day 9/14 silence; UAE FM rather than ruler at Jeddah summit. Bilateral relationship overhang now has consistent market evidence."
+      },
+      {
+        "from": "brent-crude",
+        "to": "defense-sector",
+        "weight": 7.0,
+        "directness": 2,
+        "last_activated": "2026-05-07",
+        "type": "inverse_correlation_strengthened",
+        "added": "2026-05-07",
+        "rationale": "E1 from markets.md: Brent collapsed -7% May 6 \u2192 Lockheed Martin -18.1% on the month while ITA +3.7% today is aerospace-led, not defense-led. Strong inverse correlation between oil-war-premium and pure-play defense names confirmed across 3-month window."
+      },
+      {
+        "from": "france",
+        "to": "strait-of-hormuz",
+        "weight": 5.0,
+        "directness": 1,
+        "last_activated": "2026-05-07",
+        "type": "naval_deployment",
+        "added": "2026-05-07",
+        "rationale": "France's Charles de Gaulle CSG transited Suez to Red Sea/Gulf of Aden following CMA CGM San Antonio strike \u2014 first European naval-presence shift of cycle. Macron called for Hormuz reopening."
+      },
+      {
+        "from": "france",
+        "to": "iran",
+        "weight": 4.0,
+        "directness": 1,
+        "last_activated": "2026-05-07",
+        "type": "diplomatic_engagement_with_naval_pressure",
+        "added": "2026-05-07",
+        "rationale": "Macron-Pezeshkian call confirmed; CMA CGM strike (CBS-attributed to Iran, IRGC has NOT claimed) is implicit France-Iran kinetic exchange even though Macron leveraged Maltese-flag technicality."
+      },
+      {
+        "from": "france",
+        "to": "shipping-tankers",
+        "weight": 4.0,
+        "directness": 1,
+        "last_activated": "2026-05-07",
+        "type": "national_shipping_industry_target",
+        "added": "2026-05-07",
+        "rationale": "CMA CGM (world's third-largest container line, French-owned) vessel struck May 5 in Hormuz."
+      },
+      {
+        "from": "france",
+        "to": "marine-war-risk-insurance",
+        "weight": 3.0,
+        "directness": 1,
+        "last_activated": "2026-05-07",
+        "type": "naval_presence_risk_perception",
+        "added": "2026-05-07",
+        "rationale": "French CSG deployment could over time depress AWRP if European naval presence reduces transit risk perception."
+      },
+      {
+        "from": "france",
+        "to": "united-states",
+        "weight": 3.5,
+        "directness": 1,
+        "last_activated": "2026-05-07",
+        "type": "allied_naval_coordination_with_independence",
+        "added": "2026-05-07",
+        "rationale": "France's bifurcated posture \u2014 CSG deployment + Macron-Pezeshkian call \u2014 is European autonomy-positioning rather than US-tail-wagging; UK-French conditional Hormuz mission separate but parallel."
       }
     ]
   },
   "meta": {
-    "last_updated": "2026-05-06",
-    "total_nodes": 49,
-    "total_edges": 256,
-    "briefs_generated": 45,
+    "last_updated": "2026-05-07",
+    "total_nodes": 50,
+    "total_edges": 265,
+    "briefs_generated": 46,
     "node_types": {
       "sector": 7,
       "commodity": 7,
-      "country": 16,
+      "country": 17,
       "institution": 8,
       "index": 4,
       "trade_route": 2,

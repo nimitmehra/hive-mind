@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06",
+  "last_updated": "2026-05-07",
   "edges": [
     {
       "from": "aluminum",
@@ -1798,6 +1798,96 @@
       "type": "named_in_pause_framework",
       "added": "2026-05-06",
       "rationale": "Trump May 5 Truth Social explicitly cited Pakistan's request as driver of Project Freedom pause"
+    },
+    {
+      "from": "iran",
+      "to": "fertilizer-urea",
+      "weight": 6.0,
+      "directness": 2,
+      "last_activated": "2026-05-07",
+      "type": "mou_track_repricing_via_hormuz",
+      "added": "2026-05-07",
+      "rationale": "E2 from markets.md: CF -6.5% / NTR -4.4% on May 7 is direct MOU peace-dividend pricing via Hormuz reopening expectation. April 17 playbook (CF -9.6% on prior Hormuz reopening signal) confirms repeatable causal mechanism. Initial weight 6.0 (high directness, confirmed twice in cycle)."
+    },
+    {
+      "from": "indian-it",
+      "to": "semiconductors",
+      "weight": 7.5,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "type": "ai_flows_bypass_negative_edge",
+      "added": "2026-05-07",
+      "rationale": "E4 from markets.md: AI-cycle decoupling persistent over 30+ days; Apple-Samsung-Intel chip-talks halo continues to rotate flows to Korea/Taiwan/US tech NOT Indian IT services. KOSPI +37.3% / TAIEX +26.2% / SMH +37.5% on month vs Nifty IT structurally underperforming. INVERSE relationship — indian-it loses flow share when semiconductors rallies."
+    },
+    {
+      "from": "saudi-arabia",
+      "to": "uae",
+      "weight": 5.5,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "type": "fragmenting_opec_partners",
+      "added": "2026-05-07",
+      "rationale": "E5 from markets.md: relationship degradation from 'ally' to 'fragmenting OPEC partners.' Tadawul -0.5% on global risk-on day; UAE OPEC exit effective May 1; MBS Day 9/14 silence; UAE FM rather than ruler at Jeddah summit. Bilateral relationship overhang now has consistent market evidence."
+    },
+    {
+      "from": "brent-crude",
+      "to": "defense-sector",
+      "weight": 7.0,
+      "directness": 2,
+      "last_activated": "2026-05-07",
+      "type": "inverse_correlation_strengthened",
+      "added": "2026-05-07",
+      "rationale": "E1 from markets.md: Brent collapsed -7% May 6 → Lockheed Martin -18.1% on the month while ITA +3.7% today is aerospace-led, not defense-led. Strong inverse correlation between oil-war-premium and pure-play defense names confirmed across 3-month window."
+    },
+    {
+      "from": "france",
+      "to": "strait-of-hormuz",
+      "weight": 5.0,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "type": "naval_deployment",
+      "added": "2026-05-07",
+      "rationale": "France's Charles de Gaulle CSG transited Suez to Red Sea/Gulf of Aden following CMA CGM San Antonio strike — first European naval-presence shift of cycle. Macron called for Hormuz reopening."
+    },
+    {
+      "from": "france",
+      "to": "iran",
+      "weight": 4.0,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "type": "diplomatic_engagement_with_naval_pressure",
+      "added": "2026-05-07",
+      "rationale": "Macron-Pezeshkian call confirmed; CMA CGM strike (CBS-attributed to Iran, IRGC has NOT claimed) is implicit France-Iran kinetic exchange even though Macron leveraged Maltese-flag technicality."
+    },
+    {
+      "from": "france",
+      "to": "shipping-tankers",
+      "weight": 4.0,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "type": "national_shipping_industry_target",
+      "added": "2026-05-07",
+      "rationale": "CMA CGM (world's third-largest container line, French-owned) vessel struck May 5 in Hormuz."
+    },
+    {
+      "from": "france",
+      "to": "marine-war-risk-insurance",
+      "weight": 3.0,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "type": "naval_presence_risk_perception",
+      "added": "2026-05-07",
+      "rationale": "French CSG deployment could over time depress AWRP if European naval presence reduces transit risk perception."
+    },
+    {
+      "from": "france",
+      "to": "united-states",
+      "weight": 3.5,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "type": "allied_naval_coordination_with_independence",
+      "added": "2026-05-07",
+      "rationale": "France's bifurcated posture — CSG deployment + Macron-Pezeshkian call — is European autonomy-positioning rather than US-tail-wagging; UK-French conditional Hormuz mission separate but parallel."
     }
   ]
 }

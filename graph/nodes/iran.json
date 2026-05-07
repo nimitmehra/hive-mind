@@ -3,8 +3,8 @@
   "name": "Iran",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-05-06",
-  "summary": "Day 68 Wednesday. **IRANIAN STATE MESSAGING REVERSE-CYCLED MAY 5: ESCALATING-DEFIANT → DIPLOMATIC-FORWARD-WITH-HARDLINER-DISSENT.** After Trump's May 5 pause of Project Freedom, FM Abbas Araghchi reframed the now-paused operation as 'Project Deadlock' while signaling the Pakistan track is alive ('there's no military solution to a political crisis') — language that READS as diplomatic-track validation rather than escalation. IRNA dropped May 4 'delirium' framing and pivoted to acknowledging the Pakistan track. Tasnim/IRGC track maintained UAE pressure ('all UAE interests' as targets) but did NOT escalate vs the US after the pause. INTERNAL POSTURE DIVERGENCE confirmed: Pezeshkian/Araghchi civilian government on negotiating track vs IRGC/hardliner outlets (Kayhan column threatening European military bases as 'legitimate and lawful targets') maintaining leverage rhetoric — factional bifurcation is structural intelligence, NOT a unified shift. Kinetic restart of May 4 (multi-axis attack on US Navy + UAE Fujairah + SK HMM Namu) was effective LEVERAGE that produced the diplomatic-track re-opening within 24 hours. UAE air-defense engaged 12 ballistic + 3 cruise + 4 drones (refined breakdown vs yesterday's 15+4); 18 of 19 successfully neutralized — Iran demonstrated coordinated saturation strike capability but achieved one drone breakthrough (Fujairah). Rial flat ~1.81-1.85M IRR/USD; hyperinflation 2M trigger NOT activated. Mojtaba Day 59-60 absent (still no proof-of-life). Branches re-priced: kinetic ~25-30% (DOWN from 40-45%); extended-economic-warfare ~35-40%; negotiated-resolution ~30-35% (UP from 15-20%). Markets adjudicated the diplomatic re-pricing: Brent -4% May 5 → $107.96 May 6; VIX -5% to 17.38 (below pre-May 4); USD/INR pulled back to ₹95.13.",
+  "last_updated": "2026-05-07",
+  "summary": "Day 69 Thursday. **MOU TEXT NOW ON THE TABLE — 14-POINT MEMORANDUM-OF-UNDERSTANDING DRAFTING WITH 48-HOUR IRAN RESPONSE WINDOW (~MAY 8 EVENING).** Axios scoop May 6 (corroborated CNN/JPost/NPR/Hill/Reuters/Times of Israel/Iran International independently) reports White House and Iran closing in on a one-page 14-point MOU that would: (1) declare end-of-war; (2) Iran moratorium on uranium enrichment 12-15 years (compromise between US-demanded 20yr and Iran-offered 5yr); (3) Iran ships out HEU stockpile (custodian still TBD; Russia rejected by US, IAEA/Kazakhstan possible); (4) US lifts sanctions and releases frozen Iranian assets; (5) BOTH sides lift Hormuz blockades; (6) 30-day post-signing window for detailed agreements. The 14-point MOU was originally Iran's proposal in response to a 9-point US plan (Tasnim/Xinhua/Al Jazeera May 3). Witkoff and Kushner negotiating directly with Iranian officials AND through Pakistani mediators. **Iran's posture is BIFURCATED:** FM spokesperson Baqaei (May 6): Iran 'assessing' the proposal; 'termination of war and lasting peace remain Tehran's top priorities' — conciliatory civilian-government framing; Tasnim (IRGC-aligned): 'more of a wishlist than a reality' — preserving hardline-leverage rhetoric but not calling for escalation; Press TV (English propaganda): 'Project Freedom perishes in 48 hours as Trump retreats under wall of Iran's asymmetric deterrence' — triumphalist victory-claim language that historically precedes acceptance of a deal. **Iran also signaled FIRST EXPLICIT REOPENING OFFER OF CYCLE for Hormuz** (PBS/AP/Al Jazeera): 'reopen the Strait of Hormuz if the US lifts its blockade and the war ends' — IRGC Navy added 'safe transit will be ensured with new procedures.' Operational reality lags rhetoric: 5-6 vessel transits/day vs 138 norm; CMA CGM San Antonio struck May 5 by cruise missile (CBS attribution to Iran, IRGC has NOT claimed). FM Araghchi arrives India May 7-8 (20th Joint Commission, 75th anniversary of India-Iran Friendship Treaty), parallel-track diplomacy with Murmu+Jaishankar while MOU drafted. Mojtaba Day 60-61 absent; AI-generated videos confirmed by TIME — supreme-leader vacuum is the structural reason for IRGC/civilian factional split. Rial flat ~1.831M IRR/USD remittance (Day 5-6 stable). Trump warned 'bombing starts at significantly higher level and intensity' if no deal — rhetorical leverage paired with real diplomatic offer. Branches re-priced: kinetic ~20-25%; extended-economic-warfare ~30-35%; negotiated-resolution ~40-50% (UP sharply on MOU framework). Vali Nasr challenges as 'overclaimed'; Sadjadpour: 48hr window structurally inadequate given Mojtaba absence + Pezeshkian-IRGC split — falsifiable test by May 8 evening.",
   "current": {},
   "active_triggers": [
     {
@@ -59,6 +59,45 @@
         "shipping-tankers"
       ],
       "added": "2026-03-28"
+    },
+    {
+      "condition": "Iran formally accepts/signs 14-point MOU with US (within 14 days = by 2026-05-21) — Nasr/Sadjadpour falsification test",
+      "status": "watching",
+      "cascade": [
+        "iran",
+        "united-states",
+        "strait-of-hormuz",
+        "brent-crude",
+        "shipping-tankers",
+        "marine-war-risk-insurance",
+        "nifty-50",
+        "india",
+        "inr-usd"
+      ],
+      "added": "2026-05-07"
+    },
+    {
+      "condition": "Iran responds to MOU within Trump's 48-hour window (~by 2026-05-08 evening) with substantive acceptance vs counter-proposal/extension",
+      "status": "watching",
+      "cascade": [
+        "iran",
+        "united-states",
+        "brent-crude",
+        "sp-500"
+      ],
+      "added": "2026-05-07"
+    },
+    {
+      "condition": "Hormuz transit volume above 30 vessels/day for 3 consecutive days (operational reopening, vs current 5-6/day vs 138 norm)",
+      "status": "watching",
+      "cascade": [
+        "strait-of-hormuz",
+        "brent-crude",
+        "shipping-tankers",
+        "marine-war-risk-insurance",
+        "india"
+      ],
+      "added": "2026-05-07"
     }
   ],
   "top_edges": [
@@ -83,8 +122,8 @@
       "type": "active_conflict_with_diplomatic_re_engagement",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-06",
-      "activation_count": 49
+      "last_activated": "2026-05-07",
+      "activation_count": 51
     },
     {
       "to": "hezbollah",
@@ -128,6 +167,34 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-07",
+      "headline": "MOU FRAMEWORK CIRCULATING — 14-POINT MEMORANDUM-OF-UNDERSTANDING DRAFTED WITH 48-HOUR IRAN RESPONSE WINDOW. Provisions: end-of-war declaration, 12-15 yr Iran enrichment moratorium (compromise from 20yr-US/5yr-Iran), Iran ships out HEU stockpile (custodian TBD), US lifts sanctions and frozen assets, BOTH sides lift Hormuz blockades, 30-day post-signing detail window. MOU originally Iran's proposal (response to 9-point US plan via Tasnim May 3). Witkoff+Kushner negotiating directly + via Pakistani mediators. **Iran posture bifurcated:** Baqaei (FM): 'assessing,' 'lasting peace top priority' (conciliatory civilian); Tasnim (IRGC-aligned): 'more wishlist than reality' (hardline-leverage, no escalation call); Press TV: 'Project Freedom perishes... Iran's asymmetric deterrence' (triumphalist victory framing — historically precedes deal acceptance). Trump warned 'bombing starts at significantly higher level and intensity' if no deal. Iran also signaled FIRST EXPLICIT REOPENING OFFER for Hormuz: 'reopen if US lifts blockade and war ends' (PBS/AP/Al Jazeera/IRGC Navy 'safe transit with new procedures'). FM Araghchi arrives India May 7-8 for 20th Joint Commission with Jaishankar+Murmu (75th anniversary India-Iran Friendship Treaty) — parallel-track diplomacy. CMA CGM San Antonio struck May 5 by cruise missile (CBS attribution to Iran, IRGC has NOT claimed) — kinetic-tail risk persists despite diplomatic-track pricing. Mojtaba Day 60-61 absent; AI-generated videos confirmed by TIME — supreme-leader vacuum is structural reason for Pezeshkian-IRGC factional split.",
+      "sources": [
+        "Axios primary scoop",
+        "CNN Politics May 6",
+        "JPost",
+        "NPR May 6",
+        "The Hill",
+        "Reuters/WION",
+        "Iran International",
+        "Times of Israel live-blog",
+        "Tasnim (Xinhua relay)",
+        "Iran FM spokesperson Baqaei",
+        "PBS NewsHour",
+        "AP",
+        "Al Jazeera",
+        "IRNA",
+        "India MEA press release",
+        "DD News",
+        "CMA CGM company statement",
+        "CBS News (Iran attribution)",
+        "TIME (April 21 AI-Mojtaba)",
+        "Bloomberg Vali Nasr Weekend Interview",
+        "Trump Truth Social (bombing warning)"
+      ],
+      "verification": "MOU drafting = REPORTED (Axios scoop multi-corroborated, final text not published); Iran-Hormuz reopening offer = REPORTED→CONFIRMED (PBS/AP direct quotes, IRGC Navy spokesperson statement); Hormuz still operationally closed (5-6 vessels/day vs 138 norm — CONFIRMED via Strauss Center/Lloyd's List); Iran factional bifurcation = CONFIRMED (Baqaei vs Tasnim vs Press TV multi-outlet); Araghchi India visit = CONFIRMED (MEA primary); CMA CGM strike = CONFIRMED action, CLAIMED Iran attribution (single-source US officials via CBS, no Iranian claim, no independent corroboration); Mojtaba AI-generated videos = REPORTED (TIME single-source, Iran International corroborated, Iranian state has not denied)"
+    },
     {
       "date": "2026-05-06",
       "headline": "IRAN MESSAGING REVERSE-CYCLED MAY 5: ARAGHCHI REFRAMED PAUSED PROJECT FREEDOM AS 'PROJECT DEADLOCK' — 'NO MILITARY SOLUTION'; IRNA DROPPED 'DELIRIUM' FRAMING; HARDLINE KAYHAN COLUMN THREATENED EUROPEAN BASES AS 'LEGITIMATE TARGETS' (RHETORIC, NOT POLICY); UAE INTERCEPT BREAKDOWN REFINED: 12 BALLISTIC + 3 CRUISE + 4 DRONES (18/19 NEUTRALIZED)",

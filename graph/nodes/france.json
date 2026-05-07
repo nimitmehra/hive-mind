@@ -1,0 +1,112 @@
+{
+  "id": "france",
+  "name": "France",
+  "type": "country",
+  "created": "2026-05-07",
+  "last_updated": "2026-05-07",
+  "summary": "Day 1 in graph — created on May 7 following France's emergence as a distinct maritime/naval principal in the Hormuz crisis. **France's Charles de Gaulle CSG transited Suez to Red Sea/Gulf of Aden following CMA CGM San Antonio strike May 5 — first major European naval-presence shift of cycle.** CMA CGM San Antonio (Maltese-flagged, Philippine crew, French-owned shipping group) struck by cruise missile while transiting Hormuz May 5; multiple crew injured. CBS attribution to Iran (single-source US officials, IRGC has NOT claimed). Macron leveraged the technicality that the vessel was Maltese-flagged not French-flagged to say 'France is in no way under attack' while simultaneously announcing the redeployment of the Charles de Gaulle carrier strike group from East Med through Suez to Red Sea/Gulf of Aden (CONFIRMED — Naval News, ABC, NBC, US News, Washington Times). Macron also publicly called for Hormuz to reopen and said he had spoken with the Iranian president (CONFIRMED — The Hill). **The simultaneity is the signal:** France is deploying force while denying it is being attacked, mirroring the Iranian 'negotiate while bombing' pattern from cycle's earlier phases. **Operational read:** the cruise-missile strike on a non-flagged commercial vessel during the same 48-hour window as the Trump pause and the MOU drafting demonstrates that (a) IRGC tactical leverage continues at operational layer despite civilian-government diplomatic-track signals, (b) the bifurcation between kinetic risk and political track is now structural, and (c) France's deployment adds a NEW NAVAL ACTOR in Hormuz beyond US/UK in addition to UK's conditional joint mission. The National (Abu Dhabi): 'France sends aircraft carrier to Red Sea in new push to open Strait of Hormuz' — frames the move as Hormuz-reopening tailwind, supportive of UAE position. ABC reports French CSG specifically moved south of Suez 'ahead of conditional UK-French Hormuz mission.'",
+  "current": {},
+  "active_triggers": [
+    {
+      "condition": "France-Iran (Macron-Pezeshkian) channel emerges as parallel diplomatic track within 14 days (by 2026-05-21)",
+      "status": "watching",
+      "cascade": [
+        "france",
+        "iran",
+        "trump",
+        "strait-of-hormuz",
+        "brent-crude"
+      ],
+      "added": "2026-05-07"
+    },
+    {
+      "condition": "Iran or IRGC attacks European-flagged vessel in Hormuz within 14 days (by 2026-05-21) — direct France-Iran kinetic confrontation activation",
+      "status": "watching",
+      "cascade": [
+        "france",
+        "iran",
+        "irgc",
+        "strait-of-hormuz",
+        "shipping-tankers",
+        "marine-war-risk-insurance"
+      ],
+      "added": "2026-05-07"
+    },
+    {
+      "condition": "French CSG enters Hormuz proper (transit through Strait, not just Red Sea/Gulf of Aden)",
+      "status": "watching",
+      "cascade": [
+        "france",
+        "iran",
+        "strait-of-hormuz",
+        "shipping-tankers"
+      ],
+      "added": "2026-05-07"
+    }
+  ],
+  "top_edges": [
+    {
+      "to": "strait-of-hormuz",
+      "type": "naval_deployment",
+      "weight": 5.0,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "activation_count": 1
+    },
+    {
+      "to": "iran",
+      "type": "diplomatic_engagement_with_naval_pressure",
+      "weight": 4.0,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "activation_count": 1
+    },
+    {
+      "to": "shipping-tankers",
+      "type": "national_shipping_industry_target",
+      "weight": 4.0,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "activation_count": 1
+    },
+    {
+      "to": "marine-war-risk-insurance",
+      "type": "naval_presence_risk_perception",
+      "weight": 3.0,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "activation_count": 1
+    },
+    {
+      "to": "united-states",
+      "type": "allied_naval_coordination_with_independence",
+      "weight": 3.5,
+      "directness": 1,
+      "last_activated": "2026-05-07",
+      "activation_count": 1
+    }
+  ],
+  "recent_signals": [
+    {
+      "date": "2026-05-07",
+      "headline": "FRANCE CHARLES DE GAULLE CSG TRANSITED SUEZ TO RED SEA / GULF OF ADEN FOLLOWING CMA CGM SAN ANTONIO STRIKE — FIRST EUROPEAN NAVAL SHIFT OF CYCLE; MACRON CALLED FOR HORMUZ REOPENING AND SPOKE WITH IRANIAN PRESIDENT PEZESHKIAN. CMA CGM San Antonio (Maltese-flagged, Philippine crew, French-owned shipping group) struck by cruise missile in Hormuz May 5; multiple crew injured. CBS attribution to Iran (single-source US officials, IRGC has NOT claimed). Macron: 'France is in no way under attack' (leveraged Maltese-flag technicality) while deploying CSG. The simultaneity (deploying force while denying attack) mirrors Iranian 'negotiate while bombing' pattern. The National UAE frames as Hormuz-reopening tailwind supportive of UAE position. ABC: French CSG specifically moved south of Suez 'ahead of conditional UK-French Hormuz mission.'",
+      "sources": [
+        "French armed forces statement",
+        "Naval News",
+        "ABC News",
+        "NBC News",
+        "Washington Times",
+        "US News",
+        "The Hill (Macron-Pezeshkian call)",
+        "CMA CGM company statement",
+        "CBS News (Iran attribution)",
+        "JPost",
+        "Arab News",
+        "FreightWaves",
+        "The National UAE"
+      ],
+      "verification": "CONFIRMED — French CSG redeployment multi-source (French armed forces primary + Naval News + ABC + NBC + Washington Times + US News); CMA CGM San Antonio strike = CONFIRMED ACTION (CMA CGM company statement primary); CLAIMED Iran attribution (CBS single-source US officials, IRGC has NOT claimed, no independent corroboration); Macron-Pezeshkian call = CONFIRMED (The Hill primary)"
+    }
+  ],
+  "historical_summaries": []
+}

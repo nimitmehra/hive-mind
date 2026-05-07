@@ -3,19 +3,31 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-05-06",
-  "summary": "Day 68 Wednesday. **BRENT COLLAPSE EXTENDED TO $107.96 ON MAY 6 (-1.7% 1D after May 5 -4% to $109.87) — DAY 5/5 OF SUB-$115 CHAIN COMPLETE; MAY 4 KINETIC POP FULLY UNWOUND.** Round-trip arc: May 1 $108.17 → May 4 $114.44 (kinetic restart, +5.80%) → May 5 $109.87 (Trump pause, -4%) → May 6 $107.96 (-1.7%). Cleanest cross-asset de-escalation re-pricing of the entire 67-day arc. Goldman Sachs CUT Q2 2026 Brent forecast to $90/bbl (from $99) and WTI to $87 (from $91), citing 'reduced geopolitical risk premium' and 'early signs of improving oil flows through the Strait of Hormuz' — sharp downgrade from April 29 'Brent could top $118.' JPMorgan's $150 overshoot warning substantially deferred. Cross-asset confirmation of de-escalation: VIX -5% to 17.38 (BELOW pre-May 4 baseline); S&P +0.55% Tue + +0.8% Wed; KOSPI +6.7% record on AI cycle; USD/INR pulled back to ₹95.13 from ₹95.36. **MARKET BIFURCATION:** Brent collapses on diplomatic-track pricing while tankers RALLY (Frontline +2.8%, BOAT +3.5%) on PERSISTENT physical chokepoint — Hormuz blockade NOT resolved (Trump pause is on US convoy only; blockade 'remains in full force'). The market is pricing two separate things: kinetic-war probability down + physical disruption persists. Forward path: $105-110 hold = pause-priced equilibrium; <$95 = full diplomatic resolution priced; >$115 = kinetic restart re-priced.",
+  "last_updated": "2026-05-07",
+  "summary": "Day 69 Thursday. **BRENT COLLAPSED -7% MAY 6 ON AXIOS MOU SCOOP — TRADING $101.95 MAY 7 MORNING; SUB-$105 CHAIN DAY 1; SUB-$115 CHAIN COMPLETED.** Round-trip arc: May 1 $108.17 → May 4 $114.44 (kinetic restart) → May 5 $109.87 (Trump pause) → May 6 ~$103 (-7% MOU scoop) → May 7 morning $101.95 (+0.5% modest stabilization). The May 7 morning level is **$6 BELOW the May 6 morning level** — completing not just the May 4 round-trip but breaking BELOW pre-May-4 baseline. Goldman Sachs Q2 forecast cut to $90/bbl (from $99); World Bank April 28 forecasts Brent averaging $86 in 2026 (vs $69 in 2025) — 'largest energy price surge since 2022.' Institutional forecast band now $86-90 for 2026 average. JPMorgan's $150 overshoot retained ONLY in kinetic-restart scenario. **PAPER-VS-PHYSICAL BIFURCATION REMAINS THE STRUCTURAL INTELLIGENCE:** Hormuz transit volume still 5-6 vessels/day vs 138 norm; AWRP at 0.8-1% (still 6-8x pre-war baseline); CMA CGM San Antonio struck May 5 by cruise missile keeps kinetic-tail risk live. Asymmetric structure: peace-rally more priced than rejection-risk. **48-hour Iran response window closes ~May 8 evening — the binary test.** If MOU signs: Brent → $86-90 (Goldman/World Bank base case), another -10 to -15% downside. If Iran rejects: Brent +$8-15 within 24h, round-trip back to $115+ on kinetic-restart pricing. For India: $101 Brent compresses CAD pressure significantly vs $115; combined with USD/INR pulling back from ₹95.36 record + DXY weakness, India macro stress materially easing — but contingent on MOU signature.",
   "current": {
-    "price": "$107.96 (May 6); $109.87 May 5 close",
-    "delta_1d": "-1.7% May 6; -4.0% May 5 (Trump pause)",
-    "delta_1m": "-1.2%",
-    "delta_3m": "+58.6%",
-    "branch_status": "Branch 1 (kinetic) ~25-30% (DOWN from 40-45%); Branch 2 (extended-economic-warfare) ~35-40%; Branch 3 (de-escalation/diplomatic) ~30-35% (UP from 15-20%).",
-    "regime_shift_marker": "May 5 — Trump pause = REVERSAL of May 4 kinetic re-pricing within 24h. Goldman Q2 forecast cut to $90 = institutional acknowledgment that kinetic-spike was mean-reverting. Hormuz blockade UNCHANGED but kinetic-war probability compressed.",
-    "brent_wti_spread": "WTI $100.37 (May 6); spread ~$7.6 (compressed further)",
-    "dated_vs_june_backwardation": "Backwardation eased as forward curve flattens with kinetic risk premium removal; physical-tightness signal residual but de-escalating"
+    "price": "$101.95 (May 7 morning Asian session); ~$103 May 6 close (-7% on MOU scoop)",
+    "delta_1d": "+0.5% May 7 morning; -7% May 6 (MOU Axios scoop)",
+    "delta_1m": "+7.4%",
+    "delta_3m": "+47.5%",
+    "branch_status": "Branch 1 (kinetic) ~20-25% (DOWN from 25-30%); Branch 2 (extended-economic-warfare) ~30-35%; Branch 3 (de-escalation/diplomatic) ~40-50% (UP sharply on MOU framework).",
+    "regime_shift_marker": "May 6 — MOU framework drafting = institutional re-pricing. Goldman Q2 cut to $90 from $99. World Bank $86 average for 2026. May 4 kinetic $6 pop + pre-May-4 baseline both broken. New chain to watch: 'Brent <$105 sustained 5+ sessions' Day 1 today.",
+    "brent_wti_spread": "WTI $95.55 May 7 morning (+0.5% 1D); spread ~$6.4 (further compression)",
+    "dated_vs_june_backwardation": "Backwardation continues to flatten on diplomatic-track pricing; physical-tightness signal persists at insurance/transit-volume level (paper-vs-physical bifurcation)"
   },
   "active_triggers": [
+    {
+      "condition": "Brent <$105 sustained 5+ sessions (post-MOU peace-dividend confirmation)",
+      "status": "watching",
+      "cascade": [
+        "india",
+        "inr-usd",
+        "rbi",
+        "nifty-50",
+        "energy-sector"
+      ],
+      "added": "2026-05-07"
+    },
     {
       "condition": "Brent sustained above $100 for 4+ weeks",
       "status": "active",
@@ -78,16 +90,16 @@
       "type": "supply_dependency",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-03",
-      "activation_count": 46
+      "last_activated": "2026-05-07",
+      "activation_count": 48
     },
     {
       "to": "india",
       "type": "import_cost",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-19",
-      "activation_count": 25
+      "last_activated": "2026-05-07",
+      "activation_count": 27
     },
     {
       "to": "inr-usd",
@@ -139,6 +151,19 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-07",
+      "headline": "BRENT COLLAPSED -7% MAY 6 ON AXIOS MOU SCOOP TO ~$103; TRADING $101.95 MAY 7 MORNING (+0.5% MODEST STABILIZATION); SUB-$115 CHAIN COMPLETED; SUB-$105 CHAIN DAY 1. World Bank April 28 forecasts Brent averaging $86/bbl in 2026 vs $69 in 2025 — 'largest energy price surge since 2022.' Goldman Q2 cut to $90 (from $99); JPMorgan $150 retained ONLY in kinetic-restart scenario. May 4 kinetic pop + pre-May-4 baseline both broken. 48-hour Iran response window closes ~May 8 evening — binary test for further leg down to $86-90 (MOU signs) vs +$8-15 bounce to $115+ (Iran rejects).",
+      "sources": [
+        "CNBC May 6 (-7% headline)",
+        "CNBC May 7 (Asian session)",
+        "Yahoo Finance",
+        "TradingEconomics",
+        "Goldman Sachs Q2 research note",
+        "World Bank report April 28 (via Euronews)"
+      ],
+      "verification": "CONFIRMED price tape multi-source; Goldman/World Bank forecasts = primary research, treat as forecast revision NOT a forecast hit (conditional on MOU signature)"
+    },
     {
       "date": "2026-05-06",
       "headline": "BRENT -1.7% TO $107.96 (May 6) AFTER -4% TO $109.87 (May 5) ON TRUMP PAUSE — DAY 5/5 SUB-$115 CHAIN COMPLETE; GOLDMAN CUT Q2 FORECAST TO $90/BBL FROM $99 ('REDUCED GEOPOLITICAL RISK PREMIUM, EARLY SIGNS OF IMPROVING HORMUZ FLOWS'); MAY 4 KINETIC $6 POP FULLY UNWOUND",
