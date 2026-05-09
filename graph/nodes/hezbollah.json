@@ -3,8 +3,8 @@
   "name": "Hezbollah",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-05-07",
-  "summary": "Day 69 Thursday. **HEZBOLLAH RADWAN COMMANDER MALEK BALLOUT KILLED IN BEIRUT SUBURBS STRIKE MAY 6 — FIRST ISRAELI STRIKE ON LEBANESE CAPITAL SINCE MID-APRIL CEASEFIRE; PM NETANYAHU PERSONALLY ANNOUNCED ORDERING IT. HEZBOLLAH HAS NOT RETALIATED.** 13 killed in southern/eastern Lebanon May 5-6; 12-village forced displacement orders (most north of Litani — outside occupation zones, in violation of April 16 ceasefire). Day 11/14 of Israeli-civilian-casualty trigger window (closes May 11) — ALL 13+ casualties Lebanese, ZERO Israeli civilian casualties inside Israel proper this cycle. Hezbollah SG Naim Qassem still 'categorically rejects' Lebanon-Israel direct talks. **The structural read:** Israel exploiting diplomatic-track-on-Iran moment to take out high-value Hezbollah targets with minimal blowback risk; Hezbollah's coordination-decay framework holds (Day 76-77 of Houthi quiet, weak retaliation in Lebanon). The IRGC's reduced ability to direct proxy operations is the same factor visible in Houthi non-action despite Iran's May 4 multi-axis kinetic restart. If trigger window closes May 11 without Israeli civilian casualty, asymmetry framework consolidates as structural intelligence — Hezbollah operationally degraded, NOT just paused.",
+  "last_updated": "2026-05-09",
+  "summary": "Day 71 Saturday. **HEZBOLLAH DEMONSTRATED FIRST CROSS-BORDER DRONE REACH OF CYCLE — 'SWARM OF DRONES' TARGETED MT. MERON IDF AIR-TRAFFIC-CONTROL BASE INSIDE ISRAEL PROPER (~8 KM FROM LEBANON BORDER) MAY 8; NO ISRAELI CASUALTIES; TRIGGER STILL UNTRIPPED AT DAY 13/14.** Hezbollah claimed retaliation for Israel's May 6 Beirut strike that killed Radwan commander Malek Ballout and two other senior commanders, and for ongoing IDF strikes in southern Lebanon. PBS News reported Hezbollah rockets 'hit open areas in Israel' without inflicting casualties (CONFIRMED — PBS, Al Jazeera, Times of Israel, Britannica/Wikipedia 2026 Lebanon war timeline). Israeli airstrikes Friday killed 5-10 in southern Lebanon (Toura village near Tyre, Kfar Chouba, others; including paramedic with Lebanese Civil Defense, two children, three women per Lebanon's health ministry). Saturday May 9: IDF airstrike on car near Bafliyeh village killed 4 Hezbollah members (CONFIRMED — AP wire, Wikipedia timeline). **Structural read:** picture sharpens in two directions simultaneously — (1) escalation: Hezbollah HAS demonstrated for the first time in cycle it can reach Israel proper with drone swarms targeting infrastructure that matters (Mt. Meron is IDF's primary northern air-traffic-control facility); the capability is visible but the targeting was deliberately military, not civilian; (2) coordination-decay holds: choice of military target (not civilian) and absence of casualties means trigger remains untripped at Day 13/14, with Day 14 (~May 10) the last day of the originally-flagged window. Despite Israel's continued kinetic pressure including Lebanese civilian casualties, Hezbollah has dialed capability without breaking the structural ceiling. Hezbollah SG Naim Qassem still 'categorically rejects' Lebanon-Israel direct talks. The asymmetry continues: 2,659+ Lebanese killed cycle vs zero Israeli civilians inside Israel proper.",
   "current": {},
   "active_triggers": [
     {
@@ -34,19 +34,32 @@
       "type": "lethal_kinetic_post_ceasefire_partial_civilian",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-07",
-      "activation_count": 35
+      "last_activated": "2026-05-09",
+      "activation_count": 37
     },
     {
       "to": "lebanon",
       "type": "operating_base_extended_ceasefire",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-07",
-      "activation_count": 28
+      "last_activated": "2026-05-09",
+      "activation_count": 30
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-09",
+      "headline": "HEZBOLLAH FIRST CROSS-BORDER DRONE REACH OF CYCLE — 'SWARM OF DRONES' TARGETED MT. MERON IDF AIR-TRAFFIC-CONTROL BASE INSIDE ISRAEL PROPER (MILITARY TARGET, NO ISRAELI CASUALTIES); TRIGGER 'ISRAELI CIVILIAN CASUALTY INSIDE ISRAEL PROPER WITHIN 14 DAYS' STILL UNTRIPPED DAY 13/14. Hezbollah claimed retaliation for Israel's May 6 Beirut strike (Ballout + 2 senior commanders) and ongoing IDF strikes in southern Lebanon. PBS reported rockets 'hit open areas in Israel' no casualties. IDF airstrikes Friday killed 5-10 in southern Lebanon (paramedic, 2 children, 3 women per Lebanon health ministry; Toura, Kfar Chouba, others). Saturday May 9: IDF airstrike on car near Bafliyeh killed 4 Hezbollah members. Mt. Meron is IDF's primary northern air-traffic-control facility ~8 km from Lebanon border. Capability demonstrated, military-target ceiling intact. Coordination-decay framework holds at Day 13/14, Day 14 ~May 10 = last day of originally-flagged window.",
+      "sources": [
+        "PBS News (May 8 piece, primary)",
+        "Al Jazeera (Hezbollah-side framing)",
+        "Times of Israel",
+        "Britannica / Wikipedia 2026 Lebanon war timeline",
+        "Lebanon Civil Defense (paramedic casualty primary)",
+        "AP wire (Bafliyeh strike)"
+      ],
+      "verification": "CONFIRMED ACTION — Mt. Meron drone swarm + 5-10 Lebanese killed Friday + 4 Hezbollah killed Saturday Bafliyeh; trigger 'Israeli civilian casualty inside Israel proper' UNTRIPPED at Day 13/14 (capability demonstrated, ceiling intact)"
+    },
     {
       "date": "2026-05-07",
       "headline": "RADWAN COMMANDER MALEK BALLOUT KILLED IN BEIRUT SUBURBS STRIKE MAY 6 — FIRST ISRAELI STRIKE ON LEBANESE CAPITAL SINCE MID-APRIL CEASEFIRE; PM NETANYAHU PERSONALLY ANNOUNCED ORDERING IT. HEZBOLLAH HAS NOT RETALIATED. 13 killed in southern/eastern Lebanon May 5-6; 12-village forced displacement orders (most north of Litani — outside occupation zones, in violation of April 16 ceasefire). Day 11/14 of Israeli-civilian-casualty trigger window — ALL 13+ casualties Lebanese, ZERO Israeli civilians inside Israel proper. Coordination-decay framework holds (Houthi non-action, weak Lebanon retaliation).",

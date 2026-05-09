@@ -3,13 +3,15 @@
   "name": "South Korea",
   "type": "country",
   "created": "2026-03-28",
-  "last_updated": "2026-05-07",
-  "summary": "Day 69 Thursday. **KOSPI 7,485.20 (+1.4% 1D, +37.3% 1M, +41.3% 3M) NEW RECORD; SAMSUNG $1T MARKET CAP HOLDING; APPLE-SAMSUNG-INTEL CHIP-TALK HALO INTACT.** Bloomberg May 5 confirmed Apple has held early talks with Intel and Samsung about producing iPhone main-device chips in the US, currently relying almost entirely on TSMC Taiwan. Critical caveat per Bloomberg: 'talks remain preliminary and no orders have been placed' — rally is anticipatory. Samsung Q1 2026 net profits 57.2T KRW (~$39B) — single-quarter higher than ALL of 2025 combined. USD/KRW ₩1,451.68 (-1.5% 1D, -3.2% 1M) on broad EM-FX strength + DXY 4-year low. AI capex demand has structurally separated from West Asia geopolitics for major Asian tech exporters; same is NOT true for Asian importers (India). Helium-cascade thesis remains FALSIFIED at tier-1 chipmaker level (Samsung Q1 + SK Hynix framings hold). **Today's KOSPI continuation is the structural confirmation of the AI-cycle decoupling thesis** — peace-dividend session adds tailwind on top of AI cycle. For India deployment: Korea continues to outperform in AI-cycle bifurcation thesis vs Indian-equity allocation.",
+  "last_updated": "2026-05-09",
+  "summary": "Day 71 Saturday. **KOSPI 7,498.00 (+0.1% 1D, +36.5% 1M, +41.5% 3M, +78% YTD) — LARGEST 30-DAY MOVE IN ANY MAJOR-MARKET INDEX IN RECENT MEMORY. SAMSUNG +111% YTD, SK HYNIX +144% YTD; SAMSUNG $1T MARKET CAP HOLDING.** With Brent at $101 and Hormuz blocked Day 71, the AI cycle is producing the largest 30-day rally in major-market history. Markets making binary call: AI capex super-cycle DOMINATES Iran-war risk premium. **CONTRADICTION SIGNAL:** USD/KRW ₩1,461.48 (+1.2% 1D) — won WEAKENING despite KOSPI strength. Suggests foreign capital flowing in (KOSPI bid) while broader macro (DXY) and Korean trade data are softer. The won-weakness amid equity strength is the cleanest single tell that the KOSPI gain is now FOREIGN-flow-led not domestic-fundamentals. **Helium-cascade thesis EVOLVED FROM 'FALSIFIED' TO 'BUFFER CLOCK ACTIVE':** Korean fab buffer 6-12 weeks per Smith/Discovery Alert puts absorptive capacity through ~mid-June (~5-6 weeks remaining as of May 9). Cheniere CCO May 7: 'astounded that gas prices have not risen higher with the closure of the Strait of Hormuz disrupting 100 cargoes a month' — markets pricing-through. Samsung Q1 + SK Hynix sufficient-inventory framings still hold; SK hynix says 'diversified supplies' (CLAIMED — one-sided). **STRUCTURAL ASSESSMENT (THE MOST REVERSIBLE POSITION IN THE WORLD):** if Hormuz remains closed past Korean fab buffers depleting (~mid-June), the KOSPI 36.5% MoM gain is the most reversible position in the world. The AI capex story is ~95%; the helium tail is ~5%; only the 5% reverses on ceasefire. Apple-Samsung-Intel chip-production talks remain preliminary, no orders placed. For India deployment: Korea continues to outperform in AI-cycle bifurcation thesis.",
   "current": {
-    "price": "KOSPI 7,485.20 (May 7); USD/KRW ₩1,451.68",
-    "delta_1d": "KOSPI +1.4%; USD/KRW -1.5%",
-    "delta_1m": "KOSPI +37.3%; USD/KRW -3.2%",
-    "delta_3m": "KOSPI +41.3%; USD/KRW -0.7%"
+    "price": "KOSPI 7,498.00 (May 8 close); USD/KRW ₩1,461.48",
+    "delta_1d": "KOSPI +0.1%; USD/KRW +1.2% (won WEAKENING despite KOSPI strength)",
+    "delta_1m": "KOSPI +36.5%; USD/KRW -1.1%",
+    "delta_3m": "KOSPI +41.5%; USD/KRW -0.1%",
+    "ytd_2026": "KOSPI +78% YTD; Samsung +111% YTD; SK Hynix +144% YTD",
+    "buffer_clock": "Korean fab buffer 6-12 weeks per Smith/Discovery Alert = absorptive capacity through ~mid-June (~5-6 weeks remaining as of May 9). Most TIME-SENSITIVE trigger in graph."
   },
   "active_triggers": [
     {
@@ -26,11 +28,27 @@
   "top_edges": [
     {
       "to": "helium",
-      "type": "supply_dependency",
+      "type": "supply_dependency_buffer_clock_active",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 13
+      "last_activated": "2026-05-09",
+      "activation_count": 14
+    },
+    {
+      "to": "semiconductors",
+      "type": "ai_memory_supply",
+      "weight": 9.5,
+      "directness": 1,
+      "last_activated": "2026-05-09",
+      "activation_count": 5
+    },
+    {
+      "to": "qatar",
+      "type": "helium_dependency_65pct",
+      "weight": 7.5,
+      "directness": 1,
+      "last_activated": "2026-05-09",
+      "activation_count": 3
     },
     {
       "to": "brent-crude",
@@ -50,6 +68,21 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-09",
+      "headline": "KOSPI 7,498.00 (+0.1% 1D, +36.5% 1M, +41.5% 3M, +78% YTD) — LARGEST 30-DAY MOVE IN ANY MAJOR-MARKET INDEX IN RECENT MEMORY. SAMSUNG +111% YTD, SK HYNIX +144% YTD; SAMSUNG $1T MARKET CAP HOLDING. **CONTRADICTION SIGNAL: USD/KRW ₩1,461.48 (+1.2% 1D) — WON WEAKENING DESPITE KOSPI STRENGTH = FOREIGN CAPITAL FLOWING IN WHILE BROADER MACRO/TRADE SOFTER.** Won-weakness amid equity strength = cleanest tell KOSPI gain is now FOREIGN-flow-led not domestic-fundamentals. Helium-cascade thesis EVOLVED: 'falsified' → 'BUFFER CLOCK ACTIVE' — Korean fab buffer 6-12 weeks per Smith/Discovery Alert = absorptive capacity through ~mid-June (~5-6 weeks remaining as of May 9). **MOST REVERSIBLE POSITION IN THE WORLD if Hormuz remains closed past Korean fab buffers depleting.** Cheniere CCO May 7: 'astounded that gas prices have not risen higher with the closure of the Strait of Hormuz disrupting 100 cargoes a month' — markets pricing-through. SK hynix says 'diversified supplies' (CLAIMED — one-sided).",
+      "sources": [
+        "yfinance (KOSPI, USD/KRW)",
+        "intel + market dossier",
+        "Smith Web (Korean fab buffers)",
+        "Discovery Alert",
+        "Bloomberg (Cheniere CCO comment)",
+        "TrendForce",
+        "Korea International Trade Association",
+        "Manila Times (Samsung $1T)"
+      ],
+      "verification": "CONFIRMED multi-source price tape; foreign-flow-led KOSPI inferred via cross-asset disambiguation (won-weakness + equity-strength); Korean buffer dates REPORTED via industry analysts"
+    },
     {
       "date": "2026-05-05",
       "headline": "KOSPI +5.1% RECORD CLOSE 6,936.99 — SK HYNIX +12.52% MKT CAP >₩1T WON; FOREIGN NET BUY ₩3.57T (RECORD 7M); CLEANEST DECOUPLING SIGNAL OF CRISIS; HMM NAMU DAMAGED IN HORMUZ SAME DAY",

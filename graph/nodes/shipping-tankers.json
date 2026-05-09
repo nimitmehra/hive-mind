@@ -3,13 +3,16 @@
   "name": "Shipping / Tanker Rates",
   "type": "sector",
   "created": "2026-03-23",
-  "last_updated": "2026-05-07",
-  "summary": "Day 69 Thursday. **TANKER PARADOX SOFTENING — FRONTLINE -1.0% TO $37.70 / BOAT -1.2% TO $42.44 ON MOU SCOOP; VLCC TD3C STEEPEST 1-DAY DROP IN 5+ YEARS ON MOU NEWS ('LEAD BALLOON' — Lloyd's List).** WS408 / ~$407K/day TCE — off ~$420K peak; still record territory. The MOU 'both sides lift Hormuz blockades' provision is being priced in equity even though physical chokepoint persists (5-6 vessels/day vs 138 norm; AWRP at 0.8-1% still 6-8x baseline). Frontline +33.8% 3M arc unwinding modestly. CMA CGM San Antonio struck May 5 by cruise missile in Hormuz off Dubai keeps kinetic-tail risk live (CBS attribution to Iran, IRGC has NOT claimed); demonstrates operational risk persists despite diplomatic pause. Container freight FBX: Asia-USWC ~$2,127/FEU; Med ~$3,850/FEU (+15% week — routing-penalty intact, Med-route elevation reflects Hormuz/Suez dynamic). **Reversibility:** if Pakistan-mediated MOU track delivers Iran formal Hormuz reopening within 14-21 days (by May 26), tanker stocks reprice -15-25% (rates collapse to normalized levels). If Iran rejects, tankers re-bid +5-10% on premium re-pricing. France's Charles de Gaulle CSG redeployment Suez→Red Sea/Gulf of Aden adds new naval principal — could over time reduce transit-risk perception.",
+  "last_updated": "2026-05-09",
+  "summary": "Day 71 Saturday (today markets closed). **TANKER PARADOX REASSERTING — FRONTLINE $39.51 (+3.6% 1D, +13.5% 1M, +40.1% 3M); BOAT $42.77 (+2.3% 1D, +2.6% 1M, +18.6% 3M); VLCC TD3C STABILIZED ~$100K/DAY BASELINE.** Hormuz Day 71 blockade + 1,500 vessels anchored (intel A3) + zero May 7 transits + CENTCOM disclosure of >70 tankers held under blockade has reasserted the trinary-regime trade. Frontline Q1 2026 contracted VLCC spot TCE $107,100/day vs Q4 2025 $74,200/day (+44%). Baltic VLCC TD3C briefly hit WS408 / $407K/day round-trip (Baltic Exchange Week 4); current stable ~$100K/day baseline. Hormuz Strait crisis cuts VLCC volumes 36% but voyages longer (Lloyd's List) — total tonne-miles UP, rates UP. Sector aggregate: FRO +62% YTD, NAT +63%, DHT +59%. **Frontline IS the trinary-regime trade.** As long as Hormuz transit volume stays below 30/day (intel trigger UNTRIPPED at zero), Frontline compounds. **War risk surcharge differential:** Lloyd's List confirms US/UK/Israeli vessels charged 3x non-aligned; persistent through May. Container freight: FBX Asia-N.Eur $2,707/FEU (+11% week, below Red Sea crisis levels); Shanghai-Jebel Ali >$8,000/container (quadrupled from <$2,000 pre-crisis — Gulf-bound containers carrying full crisis premium). **Reversibility:** ~85% crisis-attributable; high reversibility on full Hormuz reopen (FRO -30-40% rates normalize toward pre-crisis ~$50K/day). On Iran rejection scenario, additional +15-20%. France Charles de Gaulle CSG remains pre-positioned in Red Sea / Gulf of Aden — UK-France conditional Hormuz mission framework UNCHANGED.",
   "current": {
-    "price": "Frontline $37.70 (May 7); BOAT $42.44; VLCC TD3C WS408 / ~$407K/day TCE",
-    "delta_1d": "Frontline -1.0%; BOAT -1.2%",
-    "delta_1m": "Frontline +7.8%; BOAT +3.5%",
-    "delta_3m": "Frontline +33.7%; BOAT +17.7%"
+    "price": "Frontline $39.51 (May 8); BOAT $42.77; VLCC TD3C ~$100K/day stable baseline (was WS408 / $407K/day intraday peak)",
+    "delta_1d": "Frontline +3.6%; BOAT +2.3%",
+    "delta_1m": "Frontline +13.5%; BOAT +2.6%",
+    "delta_3m": "Frontline +40.1%; BOAT +18.6%",
+    "ytd_2026": "FRO +62%; NAT +63%; DHT +59%",
+    "vlcc_economics": "Q1 2026 FRO contracted VLCC spot TCE $107,100/day vs Q4 2025 $74,200/day (+44%); Hormuz crisis cuts volumes 36% but voyages +14 days longer (Cape rerouting) — tonne-miles UP, rates UP",
+    "war_risk_differential": "US/UK/Israeli vessels charged 3x non-aligned (Lloyd's List); persistent through May"
   },
   "active_triggers": [
     {
@@ -40,16 +43,16 @@
       "type": "route_dependency_independent_signal",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-03",
-      "activation_count": 30
+      "last_activated": "2026-05-09",
+      "activation_count": 32
     },
     {
       "to": "brent-crude",
       "type": "transport_cost_lag",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 19
+      "last_activated": "2026-05-09",
+      "activation_count": 21
     },
     {
       "to": "houthis",

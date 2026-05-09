@@ -3,8 +3,8 @@
   "name": "Pakistan",
   "type": "country",
   "created": "2026-03-30",
-  "last_updated": "2026-05-07",
-  "summary": "Day 69 Thursday. **PAKISTAN MEDIATION CHANNEL ACTIVELY DELIVERED THE 14-POINT MOU TEXT — Witkoff and Kushner negotiating directly with Iranian officials AND through Pakistani mediators.** Trump's Truth Social May 6 morning post: conflict 'could soon come to an end if Iran agrees to the terms under discussion' — same Pakistan-mediated channel that produced the May 5 pause is now structurally responsible for the 48-hour Iran response window. Pakistan PM Shehbaz publicly responded: 'grateful to Trump for courageous leadership' — explicit Pakistani-government framing of the mediation success. Architecture: Pakistan PRIMARY, supported by direct Witkoff/Kushner channel; Russia uranium-custodian track sidelined as primary mediator but POTENTIALLY REACTIVATED for HEU custody under MOU (Peskov reaffirmed offer 'remains active' but US has rejected the proposal — alternatives could be IAEA, Kazakhstan). The Pakistan + Saudi security partnership context provides the bilateral architecture; Munir-Sharif channel verified-functional through May 4-5-6 stress. **NEW STRUCTURAL OUTCOME:** Pakistan's mediation has now produced (a) the May 5 pause framework, (b) the 14-point MOU drafting, (c) the explicit 'both sides lift Hormuz blockades' provision, and (d) Iran's first unconditional Hormuz reopening offer of the cycle. If Iran signs MOU within 14 days (by May 21), Pakistan emerges as the structural winner of the diplomatic architecture.",
+  "last_updated": "2026-05-09",
+  "summary": "Day 71 Saturday. **TRUMP PUBLICLY ENDORSED PAKISTAN MEDIATION + DISCLOSED PAKISTAN ASKED US 'NOT TO MILITARILY ENGAGE IRAN' DURING NEGOTIATIONS — FIRST PUBLIC TRUMP DESCRIPTION OF PAKISTAN AS ACTIVE DIPLOMATIC CONSTRAINT ON US MILITARY OPERATIONS.** Trump May 7-8: talks 'going well,' Tehran wants peace agreement 'a lot more than I do'; Trump praised 'Pakistani civilian and military leaders for their mediation in the conflict' (CONFIRMED — Pakistan Today primary, Arab News PK, Washington Times). Consistent with the pattern of the May 7 destroyer-attack response being limited to port strikes (no Iranian leadership targeting, no IRGC HQ targeting, no nuclear-infrastructure targeting), as Vali Nasr's framework predicted. The public Pakistani-civilian-and-military attribution also reframes — softly — the IRGC's May 7 destroyer attacks as occurring inside a Pakistani-mediated negotiation envelope. **Pakistan's role formalized further:** FM Baghaei Friday continued framing 'Iran is still considering the proposal, the terms of which had not been made public, and would relay their response to Pakistani mediators when it is complete' (CONFIRMED — IRNA, Tasnim via Al Jazeera). However, Pakistani parliamentary spokesperson Rezaei publicly called the US text 'more of an American wishlist than a reality' — Pakistani-side dissent visible inside the channel, possibly reflecting Iran-aligned parliamentary faction views distinct from Sharif-Munir executive line. Saudi public denial of WSJ scoop (via Al-Hadath) explicitly endorsed 'Pakistan's efforts to broker a peace agreement' — Pakistan now has Saudi public backing on the mediation track. Architecture: Pakistan PRIMARY, supported by direct Witkoff/Kushner channel + Saudi soft-support; Russia uranium-custodian track sidelined. Munir-Sharif channel verified-functional through May 7-8 stress. PRIOR FRAMING (preserved): Pakistan's mediation produced (a) May 5 pause framework, (b) 14-point MOU drafting, (c) explicit 'both sides lift Hormuz blockades' provision, (d) Iran's first unconditional Hormuz reopening offer. If Iran formally signs by May 14 (Trump 1-week clock) or May 21 (Sadjadpour falsification), Pakistan emerges as structural winner of the diplomatic architecture.",
   "current": {},
   "active_triggers": [
     {
@@ -50,19 +50,19 @@
     },
     {
       "to": "united-states",
-      "type": "mediation_channel_named_in_trump_pause",
+      "type": "mediation_channel_with_diplomatic_constraint_on_us_military_action",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-07",
-      "activation_count": 23
+      "last_activated": "2026-05-09",
+      "activation_count": 25
     },
     {
       "to": "iran",
-      "type": "mediation_channel_validated_by_araghchi",
+      "type": "mediation_channel_validated_by_baghaei",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-07",
-      "activation_count": 25
+      "last_activated": "2026-05-09",
+      "activation_count": 27
     },
     {
       "to": "brent-crude",
@@ -74,6 +74,19 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-09",
+      "headline": "TRUMP PUBLICLY ENDORSED PAKISTAN MEDIATION + DISCLOSED PAKISTAN ASKED US 'NOT TO MILITARILY ENGAGE IRAN' DURING NEGOTIATIONS — FIRST PUBLIC TRUMP DESCRIPTION OF PAKISTAN AS ACTIVE DIPLOMATIC CONSTRAINT ON US MILITARY OPERATIONS. Trump May 7-8: talks 'going well,' Tehran wants peace agreement 'a lot more than I do'; praised 'Pakistani civilian and military leaders for their mediation in the conflict.' Consistent with the pattern of the May 7 destroyer-attack response being limited to port strikes (no Iranian leadership targeting, no IRGC HQ targeting, no nuclear-infrastructure targeting). FM Baghaei reiterated Friday Iran would relay response 'to Pakistani mediators when complete.' Pakistani parliamentary spokesperson Rezaei publicly called US text 'more of an American wishlist than a reality' — Pakistani-side dissent visible inside the channel, possibly Iran-aligned parliamentary faction views distinct from Sharif-Munir executive line. Saudi Al-Hadath denial endorsed 'Pakistan's efforts to broker a peace agreement' — Pakistan now has Saudi public backing on mediation track.",
+      "sources": [
+        "Pakistan Today primary (Trump-Pakistan endorsement)",
+        "Arab News PK",
+        "Washington Times",
+        "IRNA (Baghaei)",
+        "Tasnim via Al Jazeera",
+        "Türkiye Today (citing Al-Hadath Saudi endorsement)"
+      ],
+      "verification": "Trump-Pakistan diplomatic-constraint disclosure = CONFIRMED RHETORIC/SIGNAL (Trump primary, Pakistan Today multi-source); Baghaei Pakistan-mediator framing = CONFIRMED multi-source; Rezaei dissent = CONFIRMED multi-source; Saudi public endorsement of Pakistan via Al-Hadath = CONFIRMED"
+    },
     {
       "date": "2026-05-07",
       "headline": "PAKISTAN MEDIATION DELIVERED 14-POINT MOU TEXT — Witkoff and Kushner negotiating directly with Iranian officials AND through Pakistani mediators. Pakistan PM Shehbaz: 'grateful to Trump for courageous leadership.' Russia uranium-custodian role potentially REACTIVATED for HEU custody under MOU (Peskov reaffirmed offer 'remains active' but US has rejected; alternatives IAEA, Kazakhstan). Architecture: Pakistan PRIMARY, supported by direct Witkoff/Kushner channel.",

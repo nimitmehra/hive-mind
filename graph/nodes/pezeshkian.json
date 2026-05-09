@@ -3,8 +3,8 @@
   "name": "Masoud Pezeshkian",
   "type": "person",
   "created": "2026-04-11",
-  "last_updated": "2026-04-30",
-  "summary": "Day 63 Thursday. RIAL 1.8M COLLAPSE VINDICATES PEZESHKIAN'S APR 11 'COLLAPSE WITHIN 3 WEEKS TO 1 MONTH' WARNING (Apr 11 + ~3 weeks = May 1-2; Apr 11 + 1 month = May 11). With rial at 1.8M Apr 29 (-36% in 6 days; ~90% to 2M Brookings hyperinflation trigger), Pezeshkian's economic-warning is functionally CONFIRMED on the timeline he set. But Reuters/Fox wire-tier 'IRGC blocks president' framing means his vindication has limited operational consequence — Vahidi-IRGC inner circle dominates decision-making, not Pezeshkian. Per Axios Apr 27 (corroborated Voice of Emirates), Iran's FM Araghchi told Pakistani, Egyptian, Turkish AND Qatari mediators that 'there's no consensus inside the Iranian leadership' = 'OPERATIONAL PARALYSIS UNDER VAHIDI-IRGC' replaces yesterday's 'unified IRGC defiance' framing. Pezeshkian himself was silent on Trump-Axios doctrine, on rial collapse, and on the FOMC. Pezeshkian's Sunday electricity-rationing call holds as the operational acknowledgement that US blockade is biting at consumer-utility level. PRIOR DAY-1 SUMMARY (preserved): Reuters Apr 28 wire-analysis 'Iran's Guards Seize Wartime Power, Blunting Supreme Leader's Role' (carried by USNews, Times of Israel, Japan Times, Al-Monitor, Express Tribune, Fox News, Israel Hayom, MarketScreener, Kathmandu Post): IRGC consolidation 'now dominates both military strategy AND key political decisions.' Fox News explicit framing: 'IRGC seizes control of Iran state functions, BLOCKS PRESIDENT, report says' — Pezeshkian explicitly named as blocked. The framework graph has encoded under ISW for ~10 days is now CNN/Reuters/USNews-tier wire-source-confirmed. [TRUNCATED — needs re-synthesis]",
+  "last_updated": "2026-05-09",
+  "summary": "Day 71 Saturday. **PEZESHKIAN PUBLIC CLAIM OF 2.5-HOUR FACE-TO-FACE MEETING WITH MOJTABA (NEW MAJOR — STAGE 2 NARRATIVE-MANAGEMENT MOVE).** Speaking at meeting with trade-union and market representatives broadcast on Iranian state TV, Pezeshkian said May 7-8 that he met Mojtaba 'completely unmediated' for two and a half hours but provided NO date, NO location, NO list of other participants, and NO substantive readout (CONFIRMED that statement was made — Times of Israel, Euronews, Al Jazeera, Pakistani Jang, Shafaqna Pakistan; the underlying MEETING is CLAIMED — single-side, no independent verification, no video/audio/photo, no third-party attestation). Same day Al Jazeera ran 'Pezeshkian seeks to quash divided leadership narrative' framing the claim as direct narrative management against Pezeshkian-vs-IRGC factional-divergence reporting. CNN/KVIA same day carried US intel assessment that Mojtaba is 'out of public view but still shaping strategy.' The Pezeshkian claim and US-intel 'out of public view' line operate against each other in the public information space. **Read as intelligence:** Pezeshkian's claim reads as credibility-borrowing move INSIDE the negotiation as much as a domestic-narrative move; the IRGC-vs-civilian-government factional split is not closed by an unverifiable face-to-face claim, particularly one made the same week IRGC publicly attacked three US destroyers (May 7) and Mokhber-adviser delivered the 'atomic-bomb' Hormuz doctrine. The Stage 2 playbook (named senior officials publicly attesting to private contact with the supreme leader without evidence) replaces the prior Stage 1 (written-only statements via state TV). PRIOR FRAMING (preserved as intelligence-context): Reuters/Fox wire-tier 'IRGC blocks president' framing: Vahidi-IRGC inner circle dominates decision-making; Pezeshkian's Apr 11 'collapse within 3 weeks to 1 month' rial warning was vindicated on Apr 29 (rial 1.8M Apr 29; rial 1,812,000 IRR/USD remittance May 8 confirms continued depreciation). Pezeshkian's Sunday electricity-rationing call holds as the operational acknowledgement that US blockade is biting at consumer-utility level.",
   "current": {},
   "active_triggers": [
     {
@@ -70,11 +70,11 @@
     },
     {
       "to": "mojtaba-khamenei",
-      "type": "blocked_access",
-      "weight": 7.0,
+      "type": "blocked_access_with_unverified_meeting_claim",
+      "weight": 7.5,
       "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 2
+      "last_activated": "2026-05-09",
+      "activation_count": 3
     },
     {
       "to": "iran",
@@ -102,6 +102,20 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-09",
+      "headline": "PEZESHKIAN PUBLIC CLAIM OF 2.5-HOUR FACE-TO-FACE MEETING WITH MOJTABA — FIRST SUCH SENIOR-OFFICIAL CLAIM SINCE MOJTABA'S APPOINTMENT 60+ DAYS AGO. Pezeshkian on Iranian state TV said he met Mojtaba 'completely unmediated' for 2.5 hours; provided NO date, NO location, NO participants, NO substantive readout, NO visual evidence. Al Jazeera same day: 'Pezeshkian seeks to quash divided leadership narrative' — framing the claim as direct narrative management against the Pezeshkian-IRGC factional-divergence reporting. CNN/KVIA same day: US intel community formally assesses Mojtaba is alive 'shaping strategy' but injured and 'out of public view' — directly contradicts Pezeshkian's claim. Reads as Stage 2 narrative-management playbook (named senior officials attesting to private contact with the supreme leader without evidence). Pezeshkian's claim is a credibility-borrowing move inside the MOU negotiation as much as a domestic-narrative move; the IRGC-civilian factional split is not closed by an unverifiable face-to-face claim, particularly one made in the same week IRGC publicly attacked three US destroyers and Mokhber delivered the 'atomic-bomb' Hormuz doctrine. Mokhber framed in some Iranian/Pakistani outlets as adviser specifically to Mojtaba — the only Khamenei-adjacent voice publicly speaking in cycle.",
+      "sources": [
+        "Times of Israel liveblog (primary)",
+        "Euronews (European broadcaster)",
+        "Al Jazeera (parallel narrative-management framing piece)",
+        "CNN / KVIA (US intel assessment)",
+        "yournews",
+        "Pakistani Jang / Shafaqna Pakistan",
+        "Nasuba (French)"
+      ],
+      "verification": "Pezeshkian STATEMENT = CONFIRMED multi-source primary; the actual MEETING = CLAIMED single-side, no independent verification, no date/location/witnesses/visual; US intel assessment = REPORTED (CNN/KVIA citing US intel community)"
+    },
     {
       "date": "2026-04-27",
       "headline": "DAY 60 MONDAY — PEZESHKIAN'S HEAD-OF-STATE PRECONDITION HOLDS POST TRUMP-WINDOW EXPIRY",

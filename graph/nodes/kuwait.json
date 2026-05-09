@@ -3,8 +3,8 @@
   "name": "Kuwait",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday. KUWAIT INCLUDED IN INDIA-EVACUATION ARCHITECTURE; IRAQI-MILITIA ATTACK ARCHITECTURE UPGRADED. WSJ Iraq-attribution upgraded April 26: April 12 Saudi MoFA protest summons of Iraqi ambassador CONFIRMED; Kuwait's only civilian airport named among Iraqi-militia drone targets (per WSJ + ISW, named militias Kataib Hezbollah + Asaib Ahl al-Haq). Indian repatriations ~50K total since Feb 28 include Kuwait. Cumulative damage envelope intact: oil ministry HQ, power plants, 3x desalination plants, airport fuel tanks, refinery. Oil exports remain halted under force majeure. IMF cut 2026 MENA growth forecast to 1.1% from 3.9%. Kuwait absent from Iran's mediator-network (Pakistan + Oman + Russia per Araghchi tour). Day 14 of blockade: no Iranian kinetic action against Kuwait-bound vessels.",
+  "last_updated": "2026-05-09",
+  "summary": "Day 71 Saturday. **KUWAIT NAMED IN WSJ SCOOP ON US OFFENSIVE-AIRSPACE ACCESS RESTRICTIONS (alongside Saudi Arabia) — KUWAIT REMAINS PUBLICLY SILENT (UNLIKE SAUDI WHO PUBLICLY DENIED VIA AL-HADATH).** Per the WSJ scoop, Saudi Arabia and Kuwait had denied US base/airspace access for Project Freedom and those restrictions had since been 'lifted' per US officials. Saudi went on record denying via Al-Hadath; Kuwait has not made any public statement. The Kuwaiti silence is the cleanest tell of GCC-coordination on the diplomatic-track posture: Saudi denies publicly while operationally permitting; Kuwait stays silent so no contradiction can be created. PRIOR FRAMING (preserved): Kuwait included in India-evacuation architecture; April 12 Saudi MoFA protest summons of Iraqi ambassador after Iraqi-militia drone targeting of Kuwait's only civilian airport (named militias Kataib Hezbollah + Asaib Ahl al-Haq per WSJ/ISW); cumulative damage envelope: oil ministry HQ, power plants, 3x desalination plants, airport fuel tanks, refinery; oil exports remain halted under force majeure.",
   "current": {},
   "active_triggers": [],
   "top_edges": [
@@ -23,9 +23,29 @@
       "directness": 1,
       "last_activated": "2026-04-07",
       "activation_count": 4
+    },
+    {
+      "to": "united-states",
+      "type": "airspace_access_dispute_silent_partner",
+      "weight": 5.5,
+      "directness": 1,
+      "last_activated": "2026-05-09",
+      "activation_count": 1
     }
   ],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "date": "2026-05-09",
+      "headline": "KUWAIT NAMED IN WSJ SCOOP ON US OFFENSIVE-AIRSPACE ACCESS RESTRICTIONS (alongside Saudi Arabia) — KUWAIT REMAINS PUBLICLY SILENT WHILE SAUDI WENT ON RECORD DENYING VIA AL-HADATH. Cleanest tell of GCC coordination on diplomatic-track posture: Saudi denies publicly while operationally permitting; Kuwait stays silent so no contradiction can be created. No Iranian kinetic action against Kuwait-bound vessels in cycle.",
+      "sources": [
+        "Wall Street Journal (original scoop)",
+        "Türkiye Today (Saudi Al-Hadath denial)",
+        "Iran International",
+        "Times of Israel"
+      ],
+      "verification": "Kuwait public silence = CONFIRMED via absence; WSJ underlying scoop = CONFIRMED REPORTED via wire"
+    }
+  ],
   "historical_summaries": [
     {
       "period": "2026-02",

@@ -31,9 +31,13 @@ TIMEOUT="/opt/homebrew/bin/gtimeout"
 # Per-step wallclock caps (seconds). Sized at ~1.5x typical successful run.
 # Today's run: gather-intel ~10min, gather-markets ~7min, update-graph ~33min,
 # write-brief ~6min, verify-brief ~6min. Caps generous to avoid false-positive timeouts.
+# 2026-05-09: bumped GRAPH_TIMEOUT 2700→3600 after high-volume day (4 proposed new
+# nodes + 30+ existing-node updates) hit the cap at 46 min with all durable writes
+# already on disk but the changelog write left undone. New cap = 80% headroom over
+# typical 33-min run; old cap was 36% headroom.
 INTEL_TIMEOUT=1800       # 30 min — /gather-intel
 MARKETS_TIMEOUT=1800     # 30 min — /gather-markets
-GRAPH_TIMEOUT=2700       # 45 min — /update-graph (longest step today: 33 min)
+GRAPH_TIMEOUT=3600       # 60 min — /update-graph (typical 33 min, 2026-05-09 spike 46 min)
 WRITE_TIMEOUT=2400       # 40 min — /write-brief
 VERIFY_TIMEOUT=1800      # 30 min — /verify-brief
 PUBLISH_TIMEOUT=300      # 5 min  — git add/commit/push + viewer rebuild

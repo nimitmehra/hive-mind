@@ -3,8 +3,8 @@
   "name": "Mojtaba Khamenei",
   "type": "person",
   "created": "2026-03-23",
-  "last_updated": "2026-05-07",
-  "summary": "Day 60-61 of operational silence. **TIME APRIL 21 ARTICLE FORMALLY CONFIRMED IN MAINSTREAM WESTERN MEDIA: 'THE REGIME HAS EVEN USED AI-GENERATED VIDEOS TO SHOW KHAMENEI DELIVERING MESSAGES, FUELING SPECULATION THAT THE NEW SUPREME LEADER IS INCAPACITATED OR ABROAD.'** Iranian state attribution of statements to Mojtaba relies on synthesized media — first mainstream Western confirmation. CNN sources report a fractured foot, bruised eye, and minor lacerations from the February 28 strike. **The supreme-leader vacuum is the structural reason the IRGC and civilian government are operating on different tracks** (Tasnim hardline vs Araghchi/Pezeshkian conciliatory) — there is no unified executive resolving the factional split. The MOU's chance of signature depends partly on whether Mojtaba (or his proxy) issues a clear endorsement; without it, Iran's response to the 48-hour window is structurally constrained (Sadjadpour: 'this Iranian regime, whose senior leadership has been decapitated, going to be able to come to a quick decision on such a monumental set of issues' = 48hr inadequate). Iran International (diaspora) confirms regime use of AI media; Iranian state has not denied the AI claims explicitly. Per intel.md A7: trigger watching at Day 60-61.",
+  "last_updated": "2026-05-09",
+  "summary": "Day 62-63 of operational silence (no verified video/audio). **TWO MAJOR DEVELOPMENTS MAY 8: (1) PEZESHKIAN PUBLICLY CLAIMED 2.5-HOUR FACE-TO-FACE MEETING WITH MOJTABA — FIRST SUCH SENIOR-OFFICIAL CLAIM IN CYCLE (CLAIMED, no independent verification); (2) US INTEL ASSESSMENT (FIRST PUBLIC) THAT MOJTABA IS ALIVE 'SHAPING STRATEGY' BUT INJURED AND 'OUT OF PUBLIC VIEW' (CONFIRMED — CNN/KVIA citing US intel community).** The Pezeshkian claim and US-intel 'out of public view' line operate against each other in the public information space. Pezeshkian provided NO date, NO location, NO list of other participants, NO substantive readout, NO video/audio/photo. Read as intelligence: regime is in second stage of a managed-leadership-vacuum playbook — Stage 1 (March-April) was written-only statements via state TV; Stage 2 (May) is named senior officials publicly attesting to private contact with the supreme leader without producing evidence. **MOKHBER 'ATOMIC-BOMB' SPEECH REINFORCES THE THESIS:** Mohammad Mokhber (described in Pakistani/Iranian outlets as adviser to Mojtaba specifically) publicly delivered the maximalist Hormuz-control doctrine May 8 — leadership-adjacent voices speaking publicly while Mojtaba himself remains absent. Yesterday's TIME April 21 disclosure of AI-generated videos remains structural reason MOU signature within one week is implausible — leadership-decision authority cannot be exercised through proxies on a deal of this scale. The Pezeshkian claim therefore reads as a credibility-borrowing move INSIDE the negotiation as much as a domestic-narrative move. The IRGC-vs-civilian-government factional split is not closed by an unverifiable face-to-face claim, particularly one made in the same week IRGC publicly attacked three US destroyers mid-MOU window. Iran International (diaspora) had run Pezeshkian-IRGC factional-divergence framing this week. Trigger 'Mojtaba appears on video/audio' UNTRIPPED Day 62. CNN sources continue to report fractured foot, bruised eye, minor lacerations from Feb 28 strike.",
   "current": {},
   "active_triggers": [
     {
@@ -43,10 +43,10 @@
     {
       "to": "strait-of-hormuz",
       "type": "closure_order",
-      "weight": 8.4,
+      "weight": 8.7,
       "directness": 1,
-      "last_activated": "2026-04-15",
-      "activation_count": 5
+      "last_activated": "2026-05-09",
+      "activation_count": 6
     },
     {
       "to": "vahidi",
@@ -61,11 +61,34 @@
       "type": "supreme_leader_figurehead",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-03",
-      "activation_count": 13
+      "last_activated": "2026-05-09",
+      "activation_count": 14
+    },
+    {
+      "to": "pezeshkian",
+      "type": "narrative_management_contested",
+      "weight": 6.5,
+      "directness": 1,
+      "last_activated": "2026-05-09",
+      "activation_count": 1
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-09",
+      "headline": "DAY 62-63 ABSENCE HOLDS — PEZESHKIAN PUBLIC CLAIM OF 2.5-HOUR FACE-TO-FACE MEETING (CLAIMED, no independent verification, no date/location/participants/visual evidence); CNN/KVIA CARRIED FIRST PUBLIC US INTEL ASSESSMENT (CONFIRMED): MOJTABA ALIVE 'SHAPING STRATEGY' BUT INJURED AND 'OUT OF PUBLIC VIEW'; MOKHBER (DESCRIBED AS MOJTABA'S ADVISER) PUBLICLY DELIVERED 'ATOMIC-BOMB' HORMUZ DOCTRINE — LEADERSHIP-ADJACENT VOICES ACTIVE WHILE MOJTABA HIMSELF REMAINS ABSENT. The Pezeshkian claim and US-intel 'out of public view' line operate against each other in the public information space. Read as intelligence: Stage 2 of managed-leadership-vacuum playbook — named senior officials publicly attesting to private contact with the supreme leader without producing evidence. Pezeshkian claim reads as credibility-borrowing move INSIDE the negotiation. The IRGC-vs-civilian-government factional split is not closed by an unverifiable face-to-face claim, particularly one made the same week IRGC publicly attacked three US destroyers (May 7). Trigger 'Mojtaba appears on video/audio' UNTRIPPED Day 62.",
+      "sources": [
+        "Times of Israel liveblog (Pezeshkian primary)",
+        "Euronews",
+        "Al Jazeera (Pezeshkian narrative-management framing)",
+        "CNN/KVIA (US intel assessment Mojtaba)",
+        "yournews",
+        "Pakistani Jang / Shafaqna Pakistan",
+        "Nasuba (French)",
+        "Times of Israel + L'Orient + MEE + Deccan Herald (Mokhber speech)"
+      ],
+      "verification": "Pezeshkian STATEMENT = CONFIRMED multi-source primary; the actual MEETING = CLAIMED single-side, no independent verification, no date/location/witnesses/visual; US intel 'shaping strategy out of public view' = REPORTED (CNN/KVIA citing US intel community assessment); Mokhber 'atomic-bomb' speech = CONFIRMED RHETORIC (institutional, multi-source primary)"
+    },
     {
       "date": "2026-05-05",
       "headline": "DAY 58 ABSENCE HOLDS — INDEPENDENT VERIFICATION (Iran International, CNN, Grok) CONFIRMS NO VERIFIED PUBLIC APPEARANCE; APRIL 'COMMAND CENTER VIDEO' AI-GENERATED",

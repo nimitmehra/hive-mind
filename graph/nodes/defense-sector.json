@@ -3,13 +3,13 @@
   "name": "Defense & Aerospace Sector",
   "type": "sector",
   "created": "2026-03-28",
-  "last_updated": "2026-05-07",
-  "summary": "Day 69 Thursday. **ITA +3.7% TO $223.42 BUT AEROSPACE-LED, NOT DEFENSE-LED — IMPORTANT ATTRIBUTION FLAG.** ITA's top holdings are GE Aerospace (19.4%), RTX (15.1%), Boeing (10.3%) — together >40% of the ETF. Boeing 737/787 commercial backlog benefits from peace-track resolution (passenger demand, Gulf carrier orders); GE Aerospace order book at $190B with $1B US-ops investment + 5,000 hire announcement. **Lockheed Martin (pure-play defense, missile systems) only +1.0% — and -18.1% on the month — confirming peace-track is BEARISH for pure defense.** The +3.7% ITA print MASKS the underlying split: aerospace ripping, defense flat-to-up modestly. **Critical reading guidance: if you read 'Defense ETF +3.7%' as 'war is back on,' you are wrong.** The signal is the OPPOSITE — peace track tailwind for commercial aero outweighs defense weakness. Lockheed's -18.1% 1M is the actual defense signal: war-premium has unwound substantially. Crisis-linked attribution: ~20% (peace-track tailwind for commercial aero); ~80% Boeing+GE recovery. Reversibility: if MOU signs, ITA rotation continues toward commercial-aero leadership; LMT continues to bleed. If Iran rejects, LMT/RTX bounce +5-8%, Boeing/GE give back small portion. Bifurcation thesis structurally validated.",
+  "last_updated": "2026-05-09",
+  "summary": "Day 71 Saturday. **DEFENSE ROTATION REVERSAL DEEPENS — LOCKHEED $506.51 (-1.2% 1D, -18.8% 1M, -20.2% 3M) — CLEANEST 'CEASEFIRE TAKES THE WAR PREMIUM OUT' SIGNAL IN THE CYCLE.** ITA $223.49 (+0.4% 1D, -3.6% 1M, -4.8% 3M) confirms sector-wide unwind not LMT-specific. **Critically, LMT decline is happening DESPITE: May 7 IRGC destroyer attacks, May 8 second tanker disabling (M/T Sea Star III + M/T Sevda), CENTCOM 70-tanker blockade scale disclosure, Mokhber 'atomic-bomb' Hormuz speech.** Markets are choosing the diplomatic-track narrative over the trinary-regime operational reality. This is either (a) right that the deal signs by May 14, or (b) a setup for a sharp reversal if Iran rejects past May 21 (StanChart $130-145 path per intel D). **Causal chain (~60% crisis-rotation reversal):** March-April defense bid driven by Iran-war tail risk; ITA peaked early-April; May 5 Trump pause + MOU framework circulation reduced perceived war-tail probability; defense rotation began unwinding mid-April; Lockheed -14.3% in April alone (Yahoo, Motley Fool). **Secondary chain (~40% earnings-specific):** Q1 2026 LMT earnings May 6 — EPS $6.44 vs $7.28 prior year, sales $18B (zero growth); supply-chain delays on F-35 + classified programs; fixed-cost contracts → margin compression; Morningstar trimmed FV to $640 from $660; multiple analyst downgrades. **Falsification:** if Iran rejects MOU and IRGC executes a non-symbolic kinetic action (civilian tanker disabling, Hormuz transit restart blocked at gunpoint), Lockheed back to $620+ within 5 sessions. URA $55.18 (-1.9% 1D, +8.3% 1M, +0.5% 3M) — was previously the rare asset benefiting from BOTH peace track (HEU custodian path) and structural AI power demand; both legs softening but uranium structural-AI bid intact. Reversibility: ~60% crisis component reverses on rejection scenario; ~40% earnings damage persists.",
   "current": {
-    "price": "ITA $223.42 (May 7); LMT $514.26; URA $58.26",
-    "delta_1d": "ITA +3.7% (aerospace-led); LMT +1.0%; URA +7.5%",
-    "delta_1m": "ITA +0.1%; LMT -18.1%; URA +21.5%",
-    "delta_3m": "ITA -4.8%; LMT -19.0%; URA +6.1%"
+    "price": "ITA $223.49 (May 8); LMT $506.51; URA $55.18",
+    "delta_1d": "ITA +0.4%; LMT -1.2%; URA -1.9%",
+    "delta_1m": "ITA -3.6%; LMT -18.8%; URA +8.3%",
+    "delta_3m": "ITA -4.8%; LMT -20.2%; URA +0.5%"
   },
   "active_triggers": [
     {
@@ -29,27 +29,60 @@
         "sp-500"
       ],
       "added": "2026-04-27"
+    },
+    {
+      "condition": "Lockheed bounces +10% in 5 sessions on Iran rejection scenario = falsification of May 5 pause durability (back to $620+)",
+      "status": "watching",
+      "cascade": [
+        "defense-sector",
+        "sp-500",
+        "iran",
+        "united-states"
+      ],
+      "added": "2026-05-09",
+      "note": "LMT $506.51 May 8; -18.8% MoM. Defense rotation reversal = market call MOU signs. If Iran rejects past May 21, sharp reversal expected."
     }
   ],
   "top_edges": [
     {
       "to": "united-states",
-      "type": "budget_dependency",
+      "type": "budget_dependency_with_rotation_reversal",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 9
+      "last_activated": "2026-05-09",
+      "activation_count": 11
     },
     {
       "to": "sp-500",
-      "type": "sector_component",
+      "type": "sector_component_unwinding",
       "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 8
+      "last_activated": "2026-05-09",
+      "activation_count": 10
+    },
+    {
+      "to": "iran",
+      "type": "war_premium_inverse",
+      "weight": 7.5,
+      "directness": 1,
+      "last_activated": "2026-05-09",
+      "activation_count": 1
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-09",
+      "headline": "DEFENSE ROTATION REVERSAL DEEPENS — LOCKHEED $506.51 (-1.2% 1D, -18.8% 1M, -20.2% 3M); ITA $223.49 (+0.4% 1D, -3.6% 1M, -4.8% 3M); URA $55.18 (-1.9% 1D, +8.3% 1M). LMT decline DESPITE MAY 7 IRGC DESTROYER ATTACKS + MAY 8 SECOND TANKER DISABLING + CENTCOM 70-TANKER BLOCKADE SCALE + MOKHBER 'ATOMIC-BOMB' SPEECH. Markets choosing diplomatic-track narrative over trinary-regime operational reality. ~60% crisis-rotation reversal + ~40% Q1 2026 LMT earnings miss (EPS $6.44 vs $7.28 PY, $18B sales zero growth, F-35 supply-chain delays, Morningstar FV cut to $640 from $660). Either (a) right that deal signs by May 14, or (b) setup for sharp reversal if Iran rejects past May 21. **Falsification:** Iran rejects + IRGC non-symbolic kinetic action = LMT back to $620+ within 5 sessions.",
+      "sources": [
+        "yfinance (LMT, ITA, URA)",
+        "intel dossier Section E + market dossier C2",
+        "Yahoo Finance",
+        "Motley Fool (Lockheed -14.3% April)",
+        "Morningstar (FV cut)",
+        "intel dossier D (StanChart $130-145 path)"
+      ],
+      "verification": "CONFIRMED price tape multi-source; rotation reversal mechanism CONFIRMED via cross-asset disambiguation (LMT decline persists despite kinetic events); Q1 LMT earnings = CONFIRMED via company release"
+    },
     {
       "date": "2026-05-03",
       "headline": "LOCKHEED -1.0% (1M -17%) — DEFENSE UNDERPERFORMANCE HARDENS POST-IRAN-PROPOSAL",

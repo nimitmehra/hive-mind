@@ -3,8 +3,8 @@
   "name": "Israel",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-05-07",
-  "summary": "Day 69 Thursday. **ISRAEL ESCALATED IN BEIRUT MAY 6 — KILLED HEZBOLLAH RADWAN COMMANDER MALEK BALLOUT (FIRST ISRAELI STRIKE ON LEBANESE CAPITAL SINCE MID-APRIL CEASEFIRE); 13 KILLED IN SOUTHERN/EASTERN LEBANON; ISRAELI-CIVILIAN-CASUALTY TRIGGER REMAINS UNTRIPPED AT DAY 11/14 (EXPIRES MAY 11); HEZBOLLAH HAS NOT RETALIATED.** PM Netanyahu personally announced he ordered the Beirut suburbs strike to 'neutralize' Ballout, operations commander of Hezbollah's Radwan Force. Separately, Israeli airstrikes on southern and eastern Lebanon killed 13+ and wounded a dozen May 5-6, with forced displacement orders for 12 villages — most north of the Litani River, OUTSIDE Israeli military occupation zones, in violation of the US-brokered April 16 ceasefire. **Directional asymmetry remains structural: ALL 13+ casualties Lebanese; ZERO Israeli civilian casualties inside Israel proper this cycle.** Israel is exploiting the diplomatic-track-on-Iran moment to take out high-value Hezbollah targets with minimal blowback risk; Hezbollah's coordination-decay framework (Day 76-77 of Houthi quiet, weak retaliation in Lebanon) holds. **Cabinet dissonance signal:** Times of Israel May 6 live-blog reports 'Netanyahu convenes security cabinet, says he will speak to Trump about Iran developments' — Israeli cabinet may be uncomfortable with Trump pause framework. Pravda Trump claim 'IDF preparing large-scale operation against Iran despite Project Freedom suspension' is REPORTED single-source/Russian adversarial-media chain — NOT confirmed by mainstream Western media; treated as unverified Russia-aligned framing. If MOU signs, Netanyahu's cabinet may publicly oppose — a constraint Trump will need to manage.",
+  "last_updated": "2026-05-09",
+  "summary": "Day 71 Saturday. **HEZBOLLAH FIRST CROSS-BORDER DRONE REACH OF CYCLE — MT. MERON IDF AIR-TRAFFIC-CONTROL BASE INSIDE ISRAEL PROPER STRUCK BY HEZBOLLAH DRONE SWARM MAY 8 (NO ISRAELI CASUALTIES — MILITARY TARGET, RETALIATION FOR MAY 6 BEIRUT STRIKE).** PBS reports rockets 'hit open areas in Israel' without inflicting casualties. Triggered the 'Israeli civilian casualty inside Israel proper within 14 days' trigger UNTRIPPED at Day 13/14 — capability demonstrated, military-target ceiling intact. IDF airstrikes Friday killed 5-10 in southern Lebanon (paramedic, 2 children, 3 women per Lebanon health ministry; Toura, Kfar Chouba, others). Saturday May 9: IDF airstrike on car near Bafliyeh killed 4 Hezbollah members. Asymmetry continues: 2,659+ Lebanese killed cycle vs zero Israeli civilians inside Israel proper. **CABINET-VS-ESTABLISHMENT DISSONANCE HARDENS:** Haaretz May 8 published 'Israel Can't Afford Netanyahu's Appetite for Endless War' — most direct editorial-position rejection of Netanyahu's Iran policy in cycle — paired with continued security-correspondent reporting that 'Israel's security chiefs say Iran deal disaster for Israel.' Haaretz's 'Trump may have initially blundered into the assault on Iran but realized his mistake soon enough' framing is the first time the paper has explicitly framed Trump's Iran strategy as a self-correcting mistake — i.e., positively. Times of Israel balances Netanyahu's 'full coordination' public line with the Mt. Meron drone reporting. Right-leaning outlets (Israel Hayom, Israel National News) amplifying Pezeshkian-IRGC factional-divergence narratives including the Pezeshkian-Mojtaba meeting claim as Iranian regime weakness. Cabinet-vs-establishment-via-Haaretz gap now wider than at any point in cycle. PM Netanyahu personally ordered the May 6 Beirut strike that killed Hezbollah Radwan commander Ballout + 2 senior commanders.",
   "current": {},
   "active_triggers": [
     {
@@ -52,16 +52,16 @@
       "type": "ceasefire_substantively_collapsed",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-07",
-      "activation_count": 33
+      "last_activated": "2026-05-09",
+      "activation_count": 35
     },
     {
       "to": "hezbollah",
       "type": "lethal_kinetic_post_ceasefire",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-07",
-      "activation_count": 33
+      "last_activated": "2026-05-09",
+      "activation_count": 35
     },
     {
       "to": "houthis",
@@ -73,6 +73,20 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-09",
+      "headline": "HEZBOLLAH FIRST CROSS-BORDER DRONE REACH OF CYCLE — MT. MERON IDF AIR-TRAFFIC-CONTROL BASE INSIDE ISRAEL PROPER STRUCK BY HEZBOLLAH DRONE SWARM MAY 8 (NO ISRAELI CASUALTIES — MILITARY TARGET); IDF AIRSTRIKES KILLED 5-10 IN SOUTHERN LEBANON FRIDAY (PARAMEDIC, 2 CHILDREN, 3 WOMEN); 4 HEZBOLLAH MEMBERS KILLED IN BAFLIYEH CAR STRIKE SATURDAY; CABINET-VS-ESTABLISHMENT DISSONANCE HARDENS — HAARETZ PUBLISHED 'ISRAEL CAN'T AFFORD NETANYAHU'S APPETITE FOR ENDLESS WAR.' Trigger 'Israeli civilian casualty inside Israel proper within 14 days' UNTRIPPED at Day 13/14 (capability demonstrated, military-target ceiling intact). Mt. Meron is IDF's primary northern air-traffic-control facility ~8 km from Lebanon border. Haaretz May 8 also: 'Trump may have initially blundered into the assault on Iran but realized his mistake soon enough' — first time the paper has framed Trump Iran strategy positively. Right-leaning outlets amplifying Pezeshkian-IRGC factional-divergence narratives including Pezeshkian-Mojtaba meeting claim. Cabinet-vs-establishment gap wider than at any point in cycle.",
+      "sources": [
+        "PBS News (May 8 piece, primary)",
+        "Al Jazeera (Hezbollah-side framing)",
+        "Times of Israel",
+        "Haaretz (cabinet dissonance editorial)",
+        "Britannica / Wikipedia 2026 Lebanon war timeline",
+        "Lebanon Civil Defense (paramedic primary)",
+        "AP wire (Bafliyeh strike)"
+      ],
+      "verification": "CONFIRMED — Mt. Meron drone swarm + Lebanese casualties + Bafliyeh strike all multi-source; Haaretz editorial = CONFIRMED primary; trigger 'Israeli civilian casualty inside Israel proper' UNTRIPPED at Day 13/14"
+    },
     {
       "date": "2026-05-07",
       "headline": "ISRAEL ESCALATED IN BEIRUT MAY 6 — KILLED HEZBOLLAH RADWAN COMMANDER MALEK BALLOUT (FIRST ISRAELI STRIKE ON LEBANESE CAPITAL SINCE MID-APRIL CEASEFIRE); 13 KILLED IN SOUTHERN/EASTERN LEBANON MAY 5-6; FORCED DISPLACEMENT ORDERS FOR 12 VILLAGES (most north of Litani — outside Israeli occupation zones, in violation of April 16 ceasefire); HEZBOLLAH HAS NOT RETALIATED. PM Netanyahu personally announced ordering Beirut strike. Day 11/14 of Israeli-civilian-casualty trigger window (expires May 11) — directional asymmetry remains ALL Lebanese casualties, ZERO Israeli civilians inside Israel proper. Cabinet dissonance: Times of Israel reports 'Netanyahu convenes security cabinet, says he will speak to Trump about Iran developments.' Pravda Trump 'IDF preparing large-scale Iran op' = REPORTED single-source/Russian adversarial — NOT verified by mainstream Western, treated as unverified Russia-aligned framing.",

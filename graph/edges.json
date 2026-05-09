@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-05-09",
   "edges": [
     {
       "from": "aluminum",
@@ -315,14 +315,14 @@
       "to": "israel",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-05"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "hezbollah",
       "to": "lebanon",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "houthis",
@@ -490,7 +490,7 @@
       "to": "brent-crude",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "iran",
@@ -530,9 +530,9 @@
     {
       "from": "iran",
       "to": "pakistan",
-      "weight": 8.5,
+      "weight": 8.8,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "iran",
@@ -560,7 +560,7 @@
       "to": "strait-of-hormuz",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "iran",
@@ -574,7 +574,7 @@
       "to": "united-states",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "iraq",
@@ -665,7 +665,7 @@
       "to": "hezbollah",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "israel",
@@ -686,7 +686,7 @@
       "to": "lebanon",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "israel",
@@ -861,7 +861,7 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "pakistan",
@@ -882,7 +882,7 @@
       "to": "united-states",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "pezeshkian",
@@ -1331,7 +1331,7 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "united-states",
@@ -1345,7 +1345,7 @@
       "to": "sp-500",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "us-10y-yield",
@@ -1413,16 +1413,16 @@
     {
       "from": "saudi-arabia",
       "to": "pakistan",
-      "weight": 4.5,
+      "weight": 6.0,
       "directness": 1,
-      "last_activated": "2026-04-20"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "saudi-arabia",
       "to": "united-states",
-      "weight": 4.5,
+      "weight": 5.5,
       "directness": 1,
-      "last_activated": "2026-04-20"
+      "last_activated": "2026-05-09"
     },
     {
       "from": "russia",
@@ -1792,12 +1792,12 @@
     {
       "from": "pakistan",
       "to": "trump",
-      "weight": 9.0,
+      "weight": 9.5,
       "directness": 1,
-      "last_activated": "2026-05-06",
-      "type": "named_in_pause_framework",
+      "last_activated": "2026-05-09",
+      "type": "named_in_pause_framework_with_diplomatic_constraint_disclosure",
       "added": "2026-05-06",
-      "rationale": "Trump May 5 Truth Social explicitly cited Pakistan's request as driver of Project Freedom pause"
+      "rationale": "Trump May 5 Truth Social explicitly cited Pakistan's request as driver of Project Freedom pause; Trump May 7-8 publicly disclosed Pakistan asked US 'not to militarily engage Iran during negotiations' — first public Trump description of Pakistan as active diplomatic constraint on US military operations."
     },
     {
       "from": "iran",
@@ -1888,6 +1888,56 @@
       "type": "allied_naval_coordination_with_independence",
       "added": "2026-05-07",
       "rationale": "France's bifurcated posture — CSG deployment + Macron-Pezeshkian call — is European autonomy-positioning rather than US-tail-wagging; UK-French conditional Hormuz mission separate but parallel."
+    },
+    {
+      "from": "mojtaba-khamenei",
+      "to": "pezeshkian",
+      "weight": 6.5,
+      "directness": 1,
+      "last_activated": "2026-05-09",
+      "type": "narrative_management_contested",
+      "added": "2026-05-09",
+      "rationale": "Pezeshkian May 7-8 public claim of 2.5-hour face-to-face meeting with Mojtaba (CLAIMED — no date/location/witnesses/visual) operates against same-day CNN/KVIA US intel assessment that Mojtaba is alive 'shaping strategy' but 'out of public view.' Stage 2 narrative-management playbook (named senior officials publicly attesting to private contact without evidence)."
+    },
+    {
+      "from": "qatar",
+      "to": "south-korea",
+      "weight": 7.5,
+      "directness": 1,
+      "last_activated": "2026-05-09",
+      "type": "helium_dependency_65pct_buffer_clock_active",
+      "added": "2026-05-09",
+      "rationale": "E6 from markets.md: Korean fabs source 65% helium from Qatar with 6-12 week buffer per Smith/Discovery Alert; Samsung first to bite if disruption persists past mid-June. The most TIME-SENSITIVE chokepoint in graph."
+    },
+    {
+      "from": "defense-sector",
+      "to": "iran",
+      "weight": 7.5,
+      "directness": 1,
+      "last_activated": "2026-05-09",
+      "type": "war_premium_inverse_rotation_unwind",
+      "added": "2026-05-09",
+      "rationale": "E7 from markets.md: Lockheed -18.8% MoM + ITA -3.6% MoM directly attributable to ceasefire/MOU rotation reversal despite May 7 IRGC destroyer attacks + May 8 second tanker disabling + Mokhber 'atomic-bomb' speech. Markets choosing diplomatic-track narrative over trinary-regime operational reality. Cleanest 'ceasefire takes the war premium out' signal in cycle."
+    },
+    {
+      "from": "shipping-tankers",
+      "to": "strait-of-hormuz",
+      "weight": 10,
+      "directness": 1,
+      "last_activated": "2026-05-09",
+      "type": "trinary_regime_tracker_strengthened",
+      "added": "2026-05-09",
+      "rationale": "E8 from markets.md: Frontline +13.5% MoM, BOAT +18.6% 3M, VLCC TCE Q1 $107K vs Q4 $74K, Baltic Exchange TD3C briefly WS408. Multiple consistent activations. Now the most reliable 'trinary regime' tracker after AWRP."
+    },
+    {
+      "from": "saudi-arabia",
+      "to": "iran",
+      "weight": 6.5,
+      "directness": 1,
+      "last_activated": "2026-05-09",
+      "type": "soft_mediator_via_pakistan_endorsement",
+      "added": "2026-05-09",
+      "rationale": "Saudi Al-Hadath May 8 denial of WSJ scoop on offensive-airspace lift + public endorsement of 'Pakistan's efforts to broker a peace agreement' = MBS playbook of operational deniability + public alignment with Iranian-negotiating-side mediation track. Soft-mediator posture activated."
     }
   ]
 }

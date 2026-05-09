@@ -3,8 +3,8 @@
   "name": "Qatar",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-05-07",
-  "summary": "Day 69 Thursday. **QATAR FERTILIZER/UREA EXPORT NORMALIZATION EXPECTATION DRIVING CF -6.5% / NTR -4.4% TODAY (April 17 playbook rerun); MOU 'BOTH SIDES LIFT HORMUZ BLOCKADES' PROVISION INCLUDES IMPLICIT QATAR REOPENING.** Today's fertilizer rotation is the SECOND-cleanest peace-dividend trade after energy: forward-pricing of Qatar Ras Laffan / urea export normalization is repricing the scarcity premium. Urea generic at $577.50/T (May 5) drifting lower; Argus Q2 forecast $715 (Yuzhny FOB benchmark) has room to compress further. Egypt NCIC late-April spot $852/t represents the high-water mark. CF is now -10.5% on the month and tracking the symmetrical inverse of the Hormuz-closure scarcity rally that drove it +27% in 3 months. **Qatar's mediation role:** Doha continues supporting Pakistan as primary channel (Qatari FM al-Ansari: 'we don't need to expand the circle of negotiations'); Qatari PM/FM Sheikh Mohammed bin Abdulrahman Al Thani held separate phone call with Iran's FM Araghchi on de-escalation. **Helium:** spot doubled since Feb 28 crisis start ($163.72/MC April per gasworld); Air Liquide reallocating supply away from ME-dependent regions. Qatar's structural relevance to the brief sits at the intersection of (a) Hormuz reopening would unlock LNG/fertilizer/helium supply, (b) Doha mediation supporting role, (c) Qatar's GCC alignment with Pakistan track.",
+  "last_updated": "2026-05-09",
+  "summary": "Day 71 Saturday. **QATAR'S TRIPLE-CHOKEPOINT (HELIUM/LNG/FERTILIZER) REMAINS BINDING DESPITE MOU FRAMEWORK; MARKETS STILL PRICING-THROUGH BUT BUFFER CLOCK ACTIVE.** **HELIUM:** Korean fab buffer 6-12 weeks per Smith/Discovery Alert puts absorptive capacity through ~mid-June (~5-6 weeks remaining as of May 9). Spot ultra-pure helium up 40-100% (~doubled per Fortune, J2 Sourcing). **The most TIME-SENSITIVE chokepoint in graph:** Korean fabs source 65% helium from Qatar; Samsung HeRS recycling system covers only ~18.6% of consumption. Cheniere CCO May 7: 'astounded that gas prices have not risen higher with the closure of the Strait of Hormuz disrupting 100 cargoes a month.' **LNG:** European TTF €43.99/MWh (+0.98% 1D, ~-8% MoM off March peak, ~+40% from pre-war ~€31.20). 100 LNG cargoes/month disrupted per Cheniere; Qatar's structural role unchanged. **FERTILIZER:** Urea Yuzhny FOB $616.25/T (+6.71% May 6, +15.12% MoM, +81.69% YTD); CF Q1 EPS $3.98 vs $2.50 est (+59% surprise) but stock -3.1% on sell-the-news. Hormuz handles ~35% of global seaborne fertilizer trade; Cape rerouting +10-14 days. **Qatar's mediation role:** Doha continues supporting Pakistan as primary channel; Saudi via Al-Hadath May 8 endorsed 'Pakistan's efforts to broker a peace agreement' = Qatar's parallel mediation track now has Saudi public backing. The 'Qatar formally named primary mediator within 14 days (by 2026-05-12)' trigger from April 29 is at Day 10 of 14 — the Pakistan-led architecture has SIDELINED Qatar from primary mediator role. Qatar's structural relevance unchanged: (a) Hormuz reopening would unlock LNG/fertilizer/helium supply, (b) supporting-role mediation, (c) GCC alignment with Pakistan track.",
   "current": {},
   "active_triggers": [
     {
@@ -49,19 +49,27 @@
     },
     {
       "to": "helium",
-      "type": "major_producer",
+      "type": "major_producer_buffer_clock_active",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 10
+      "last_activated": "2026-05-09",
+      "activation_count": 11
     },
     {
       "to": "fertilizer-urea",
       "type": "production_shutdown",
       "weight": 9.5,
       "directness": 1,
-      "last_activated": "2026-05-07",
-      "activation_count": 6
+      "last_activated": "2026-05-09",
+      "activation_count": 7
+    },
+    {
+      "to": "south-korea",
+      "type": "helium_supplier_65pct",
+      "weight": 7.5,
+      "directness": 1,
+      "last_activated": "2026-05-09",
+      "activation_count": 3
     },
     {
       "to": "united-states",
@@ -81,6 +89,20 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-09",
+      "headline": "QATAR'S TRIPLE-CHOKEPOINT (HELIUM/LNG/FERTILIZER) BINDING DESPITE MOU; HELIUM BUFFER CLOCK 5-6 WEEKS REMAINING (~MID-JUNE). Korean fab buffer 6-12 weeks per Smith/Discovery Alert. Cheniere CCO May 7: 'astounded that gas prices have not risen higher with the closure of the Strait of Hormuz disrupting 100 cargoes a month.' TTF €43.99/MWh; urea Yuzhny FOB $616.25/T (+81.69% YTD); CF Q1 EPS blowout +59% surprise. SAUDI VIA AL-HADATH MAY 8 ENDORSED 'PAKISTAN'S EFFORTS TO BROKER A PEACE AGREEMENT' = QATAR'S PARALLEL MEDIATION TRACK NOW HAS SAUDI PUBLIC BACKING. The 'Qatar formally named primary mediator within 14 days (by 2026-05-12)' trigger from April 29 is at Day 10 of 14 — Pakistan-led architecture has SIDELINED Qatar from primary mediator role. Most TIME-SENSITIVE chokepoint in graph: Korean fab buffer activates trigger or disproves it within 5-6 weeks.",
+      "sources": [
+        "Bloomberg (Cheniere CCO comment)",
+        "yfinance (TTF, urea data via market dossier)",
+        "Smith Web (Korean fab buffers)",
+        "Discovery Alert",
+        "Al Jazeera",
+        "Türkiye Today (Saudi Al-Hadath endorsement of Pakistan)",
+        "Argus / farmdoc (fertilizer trade share)"
+      ],
+      "verification": "CONFIRMED — Cheniere CCO public comment; commodity prices yfinance + intel/markets dossier; Saudi public endorsement of Pakistan via Al-Hadath = CONFIRMED diplomatic signal"
+    },
     {
       "date": "2026-05-03",
       "headline": "QATAR SUPPORTING-MEDIATOR ROLE HOLDS POST-IRAN-PROPOSAL; PAKISTAN PRIMARY",
