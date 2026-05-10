@@ -3,8 +3,8 @@
   "name": "Qatar",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-05-09",
-  "summary": "Day 71 Saturday. **QATAR'S TRIPLE-CHOKEPOINT (HELIUM/LNG/FERTILIZER) REMAINS BINDING DESPITE MOU FRAMEWORK; MARKETS STILL PRICING-THROUGH BUT BUFFER CLOCK ACTIVE.** **HELIUM:** Korean fab buffer 6-12 weeks per Smith/Discovery Alert puts absorptive capacity through ~mid-June (~5-6 weeks remaining as of May 9). Spot ultra-pure helium up 40-100% (~doubled per Fortune, J2 Sourcing). **The most TIME-SENSITIVE chokepoint in graph:** Korean fabs source 65% helium from Qatar; Samsung HeRS recycling system covers only ~18.6% of consumption. Cheniere CCO May 7: 'astounded that gas prices have not risen higher with the closure of the Strait of Hormuz disrupting 100 cargoes a month.' **LNG:** European TTF €43.99/MWh (+0.98% 1D, ~-8% MoM off March peak, ~+40% from pre-war ~€31.20). 100 LNG cargoes/month disrupted per Cheniere; Qatar's structural role unchanged. **FERTILIZER:** Urea Yuzhny FOB $616.25/T (+6.71% May 6, +15.12% MoM, +81.69% YTD); CF Q1 EPS $3.98 vs $2.50 est (+59% surprise) but stock -3.1% on sell-the-news. Hormuz handles ~35% of global seaborne fertilizer trade; Cape rerouting +10-14 days. **Qatar's mediation role:** Doha continues supporting Pakistan as primary channel; Saudi via Al-Hadath May 8 endorsed 'Pakistan's efforts to broker a peace agreement' = Qatar's parallel mediation track now has Saudi public backing. The 'Qatar formally named primary mediator within 14 days (by 2026-05-12)' trigger from April 29 is at Day 10 of 14 — the Pakistan-led architecture has SIDELINED Qatar from primary mediator role. Qatar's structural relevance unchanged: (a) Hormuz reopening would unlock LNG/fertilizer/helium supply, (b) supporting-role mediation, (c) GCC alignment with Pakistan track.",
+  "last_updated": "2026-05-10",
+  "summary": "Day 72 Sunday. **MAJOR STRUCTURAL SHIFT — QATAR FORMALLY RE-EMERGED AS PARALLEL-AND-POSSIBLY-COMPETING MEDIATOR TO PAKISTAN VIA SUBSTANTIVE IRGC-SENIOR-GENERALS CHANNEL.** Qatari PM Mohammed bin Abdulrahman al-Thani met VP JD Vance in Washington Friday May 8, then changed planned return to Doha and instead flew to Miami Saturday May 9 to meet Sec. Rubio and special envoy Witkoff (CONFIRMED — Axios primary scoop by Barak Ravid; Times of Israel, Newsmax, Israel National News, TASS, Tribune India). Per Axios's source: 'While Pakistan has been the official mediator between the U.S. and Iran since the beginning of the war, the Qataris have been working behind the scenes... White House views them as especially effective in negotiations with Iran.' Critically: 'the Qataris are functioning as one of at least three back channels between the U.S. and Iran' and 'are using their contacts with senior Islamic Revolutionary Guard Corps generals involved in Iran's decision-making.' First publicly-reported acknowledgment of: (a) at least three active back channels, (b) Qatar as the most-trusted Iran-side channel from WH perspective, (c) IRGC senior generals as Iran-side counterparties — NOT the FM channel. **Structural read:** Pakistan retains the OFFICIAL mediator title and parliamentary/spokesperson visibility, but the SUBSTANTIVE channel from the US side now appears to flow through Qatar to the IRGC. Political mediation (Pakistan) and operational mediation (Qatar→IRGC) now run on two parallel tracks possibly with different counterparties. **B1 BULK CARRIER STRUCK BY UNKNOWN PROJECTILE 23NM NE OF DOHA (~43KM) SUNDAY MORNING (NEW — MAJOR OPERATIONAL):** First commercial vessel attack since CMA CGM San Antonio (May 5) and FIRST near Qatar's coast — well inside Qatar's EEZ, immediately offshore from Hamad Port and Ras Laffan, ordinarily considered the safest waters in the Persian Gulf. Small fire extinguished by crew, no casualties; UKMTO Warning notice posted; vessel flag/owner not publicly disclosed. NO CLAIM OF RESPONSIBILITY — IRGC has not claimed (consistent with May 5 CMA CGM 'claim-management discrimination pattern'). The geographic significance is acute: location is approximately equidistant from Iran's Bushehr coast and Qatar's main port complex. **Three reading frames operationally consistent:** (i) IRGC signal to Qatar that mediator role does not buy immunity for blockade-aligned shipping — concurrent with al-Thani Miami meeting; (ii) Houthi-style proxy operation (LOW probability — wrong geometry); (iii) misfire/accidental engagement (possible). No Saudi MoFA or Qatar MoFA statement at filing time. **HELIUM/LNG/FERTILIZER TRIPLE-CHOKEPOINT UNCHANGED:** Korean fab buffer 6-12 weeks per Smith/Discovery Alert = ~5 weeks remaining as of May 10 (mid-June exhaustion). Cheniere CCO 'astounded prices haven't risen higher with closure disrupting 100 cargoes a month.' TTF ~€44/MWh (-25%+ from March peak, +40% from pre-war ~€31). Urea Yuzhny FOB $616/mt May 6; DAP NCIC tender $880/mt fob (vs $840 Apr 4). The 'Qatar formally named primary mediator within 14 days (by 2026-05-12)' April 29 trigger is at Day 11 of 14 — re-evaluation is now warranted: Qatar is NOT formally named in public-facing architecture (Pakistan retains OFFICIAL title) but IS the substantive Iran-side channel via IRGC generals. The trigger should be reframed to capture multi-channel structure rather than a single-mediator-named test.",
   "current": {},
   "active_triggers": [
     {
@@ -27,17 +27,44 @@
         "pakistan",
         "strait-of-hormuz"
       ],
-      "added": "2026-04-29"
+      "added": "2026-04-29",
+      "note": "Day 11 of 14 as of 2026-05-10. REFRAME WARRANTED — Qatar is NOT formally named in public-facing architecture (Pakistan retains OFFICIAL title) but IS the substantive Iran-side channel via IRGC generals per Axios scoop. The trigger should be reframed to capture multi-channel structure rather than single-mediator-named test."
+    },
+    {
+      "condition": "Iran formally responds to MOU via Qatar-IRGC channel (rather than Pakistan-FM channel) within 7 days (by 2026-05-17) — confirms multi-channel substantive-mediator-Qatar / political-mediator-Pakistan structure (Sadjadpour subsidiary test)",
+      "status": "watching",
+      "cascade": [
+        "qatar",
+        "iran",
+        "united-states",
+        "pakistan",
+        "strait-of-hormuz",
+        "brent-crude"
+      ],
+      "added": "2026-05-10"
+    },
+    {
+      "condition": "Second commercial vessel attack within 7 days inside Qatari EEZ following Sunday May 10 bulk carrier strike — confirms IRGC graduated-pressure-on-mediator-coastline pattern",
+      "status": "watching",
+      "cascade": [
+        "qatar",
+        "iran",
+        "strait-of-hormuz",
+        "shipping-tankers",
+        "marine-war-risk-insurance",
+        "brent-crude"
+      ],
+      "added": "2026-05-10"
     }
   ],
   "top_edges": [
     {
       "to": "iran",
-      "type": "retaliation_target",
+      "type": "retaliation_target_with_substantive_mediator_via_irgc_senior_generals",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-03",
-      "activation_count": 10
+      "last_activated": "2026-05-10",
+      "activation_count": 11
     },
     {
       "to": "natural-gas-lng",
@@ -73,22 +100,44 @@
     },
     {
       "to": "united-states",
-      "type": "host_basing_mediator_pivot",
-      "weight": 6.0,
+      "type": "substantive_mediator_three_back_channels_irgc_senior_generals",
+      "weight": 7.5,
       "directness": 1,
-      "last_activated": "2026-04-29",
-      "activation_count": 1
+      "last_activated": "2026-05-10",
+      "activation_count": 2
     },
     {
       "to": "strait-of-hormuz",
-      "type": "diplomatic_mediator_engagement",
-      "weight": 5.5,
+      "type": "kinetic_pressure_on_mediator_coastline",
+      "weight": 6.5,
       "directness": 1,
-      "last_activated": "2026-04-29",
-      "activation_count": 1
+      "last_activated": "2026-05-10",
+      "activation_count": 2
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-10",
+      "headline": "QATAR FORMALLY RE-EMERGED AS PARALLEL-AND-POSSIBLY-COMPETING MEDIATOR TO PAKISTAN VIA SUBSTANTIVE IRGC-SENIOR-GENERALS CHANNEL — RUBIO/WITKOFF/AL-THANI MIAMI MEETING SATURDAY MAY 9; AXIOS SCOOP REVEALS 'AT LEAST THREE BACK CHANNELS' AND IRGC SENIOR GENERALS AS IRAN-SIDE COUNTERPARTIES (NOT FM). Qatari PM al-Thani met VP Vance in Washington Friday May 8, then changed planned return to Doha and flew to Miami Saturday May 9 to meet Sec. Rubio + Witkoff. Per Axios's source explicitly: 'While Pakistan has been the official mediator since the beginning of the war, the Qataris have been working behind the scenes... White House views them as especially effective in negotiations with Iran.' 'Qataris functioning as one of at least three back channels' and 'using contacts with senior IRGC generals involved in Iran's decision-making.' Pakistan retains OFFICIAL title; Qatar is the SUBSTANTIVE Iran-side operational channel. Political vs operational mediation now run on parallel tracks. CONCURRENT: BULK CARRIER STRUCK BY UNKNOWN PROJECTILE 23NM NE OF DOHA SUNDAY MORNING (NEW — first commercial vessel attack since CMA CGM May 5 and FIRST near Qatar's coast; small fire, no casualties; UKMTO Warning notice; NO CLAIM OF RESPONSIBILITY). Reads operationally as IRGC pressure-tactic on mediator coastline concurrent with al-Thani Miami meeting — Iran demonstrating that Qatar's mediation does not buy immunity for blockade-aligned shipping. No Qatar MoFA statement at filing time. No Saudi MoFA statement despite GCC fellow status. Triple-chokepoint (helium/LNG/fertilizer) unchanged — buffer clock 5 weeks remaining to mid-June.",
+      "sources": [
+        "Axios primary scoop (Barak Ravid byline)",
+        "Times of Israel live blog May 9-10",
+        "Newsmax",
+        "Israel National News",
+        "TASS",
+        "Tribune India",
+        "UKMTO Warning notice (bulk carrier near Doha)",
+        "AP / Boston Globe (bulk carrier)",
+        "Anadolu Agency",
+        "BNO News",
+        "CNN",
+        "Bloomberg (Cheniere CCO)",
+        "yfinance (TTF, urea)",
+        "Smith Web (Korean fab buffers)",
+        "Discovery Alert"
+      ],
+      "verification": "Qatar mediator-via-IRGC channel = CONFIRMED ACTION (physical meetings al-Thani Washington Friday + Miami Saturday; substantive negotiating activity REPORTED via Axios primary scoop multi-corroborated); Bulk carrier strike near Doha = CONFIRMED ACTION (vessel struck, fire occurred, UKMTO posted Warning notice); perpetrator UNKNOWN (no party has claimed); Iran neither confirms nor denies Qatar channel publicly; Qatar MoFA + Saudi MoFA = CONFIRMED ABSENCE of statement at filing time"
+    },
     {
       "date": "2026-05-09",
       "headline": "QATAR'S TRIPLE-CHOKEPOINT (HELIUM/LNG/FERTILIZER) BINDING DESPITE MOU; HELIUM BUFFER CLOCK 5-6 WEEKS REMAINING (~MID-JUNE). Korean fab buffer 6-12 weeks per Smith/Discovery Alert. Cheniere CCO May 7: 'astounded that gas prices have not risen higher with the closure of the Strait of Hormuz disrupting 100 cargoes a month.' TTF €43.99/MWh; urea Yuzhny FOB $616.25/T (+81.69% YTD); CF Q1 EPS blowout +59% surprise. SAUDI VIA AL-HADATH MAY 8 ENDORSED 'PAKISTAN'S EFFORTS TO BROKER A PEACE AGREEMENT' = QATAR'S PARALLEL MEDIATION TRACK NOW HAS SAUDI PUBLIC BACKING. The 'Qatar formally named primary mediator within 14 days (by 2026-05-12)' trigger from April 29 is at Day 10 of 14 — Pakistan-led architecture has SIDELINED Qatar from primary mediator role. Most TIME-SENSITIVE chokepoint in graph: Korean fab buffer activates trigger or disproves it within 5-6 weeks.",

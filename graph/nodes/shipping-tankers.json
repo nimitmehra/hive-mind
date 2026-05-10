@@ -3,8 +3,8 @@
   "name": "Shipping / Tanker Rates",
   "type": "sector",
   "created": "2026-03-23",
-  "last_updated": "2026-05-09",
-  "summary": "Day 71 Saturday (today markets closed). **TANKER PARADOX REASSERTING — FRONTLINE $39.51 (+3.6% 1D, +13.5% 1M, +40.1% 3M); BOAT $42.77 (+2.3% 1D, +2.6% 1M, +18.6% 3M); VLCC TD3C STABILIZED ~$100K/DAY BASELINE.** Hormuz Day 71 blockade + 1,500 vessels anchored (intel A3) + zero May 7 transits + CENTCOM disclosure of >70 tankers held under blockade has reasserted the trinary-regime trade. Frontline Q1 2026 contracted VLCC spot TCE $107,100/day vs Q4 2025 $74,200/day (+44%). Baltic VLCC TD3C briefly hit WS408 / $407K/day round-trip (Baltic Exchange Week 4); current stable ~$100K/day baseline. Hormuz Strait crisis cuts VLCC volumes 36% but voyages longer (Lloyd's List) — total tonne-miles UP, rates UP. Sector aggregate: FRO +62% YTD, NAT +63%, DHT +59%. **Frontline IS the trinary-regime trade.** As long as Hormuz transit volume stays below 30/day (intel trigger UNTRIPPED at zero), Frontline compounds. **War risk surcharge differential:** Lloyd's List confirms US/UK/Israeli vessels charged 3x non-aligned; persistent through May. Container freight: FBX Asia-N.Eur $2,707/FEU (+11% week, below Red Sea crisis levels); Shanghai-Jebel Ali >$8,000/container (quadrupled from <$2,000 pre-crisis — Gulf-bound containers carrying full crisis premium). **Reversibility:** ~85% crisis-attributable; high reversibility on full Hormuz reopen (FRO -30-40% rates normalize toward pre-crisis ~$50K/day). On Iran rejection scenario, additional +15-20%. France Charles de Gaulle CSG remains pre-positioned in Red Sea / Gulf of Aden — UK-France conditional Hormuz mission framework UNCHANGED.",
+  "last_updated": "2026-05-10",
+  "summary": "Day 72 Sunday (markets closed). **TANKER PARADOX REASSERTING; FRIDAY MAY 8 CLOSES OPERATIVE — FRONTLINE $39.51 (+3.6% 1D, +13.5% 1M, +40.1% 3M); BOAT $42.77 (+2.3% 1D, +2.6% 1M, +18.6% 3M); VLCC TD3C STABILIZED ~$100K/DAY BASELINE.** **B1 BULK CARRIER STRUCK 23NM NE OF DOHA SUNDAY MORNING — first commercial vessel attack since CMA CGM San Antonio (May 5); Qatar's coastal waters (well inside EEZ); UKMTO Warning notice; NO claim of responsibility.** First operational data point of the new week, expect Monday repricing. Container freight Shanghai-Jebel Ali >$8,000/container (quadrupled from <$2,000 pre-crisis). FBX Asia-Med $2,707/FEU (+11% week). 81% of 53 trapped Persian Gulf container vessels still waiting (Kpler May 7). Hormuz Day 71 blockade + 1,500 vessels anchored (intel A3) + zero May 7 transits + CENTCOM disclosure of >70 tankers held under blockade has reasserted the trinary-regime trade. Frontline Q1 2026 contracted VLCC spot TCE $107,100/day vs Q4 2025 $74,200/day (+44%). Baltic VLCC TD3C briefly hit WS408 / $407K/day round-trip (Baltic Exchange Week 4); current stable ~$100K/day baseline. Hormuz Strait crisis cuts VLCC volumes 36% but voyages longer (Lloyd's List) — total tonne-miles UP, rates UP. Sector aggregate: FRO +62% YTD, NAT +63%, DHT +59%. **Frontline IS the trinary-regime trade.** As long as Hormuz transit volume stays below 30/day (intel trigger UNTRIPPED at zero), Frontline compounds. **War risk surcharge differential:** Lloyd's List confirms US/UK/Israeli vessels charged 3x non-aligned; persistent through May. Container freight: FBX Asia-N.Eur $2,707/FEU (+11% week, below Red Sea crisis levels); Shanghai-Jebel Ali >$8,000/container (quadrupled from <$2,000 pre-crisis — Gulf-bound containers carrying full crisis premium). **Reversibility:** ~85% crisis-attributable; high reversibility on full Hormuz reopen (FRO -30-40% rates normalize toward pre-crisis ~$50K/day). On Iran rejection scenario, additional +15-20%. France Charles de Gaulle CSG remains pre-positioned in Red Sea / Gulf of Aden — UK-France conditional Hormuz mission framework UNCHANGED.",
   "current": {
     "price": "Frontline $39.51 (May 8); BOAT $42.77; VLCC TD3C ~$100K/day stable baseline (was WS408 / $407K/day intraday peak)",
     "delta_1d": "Frontline +3.6%; BOAT +2.3%",
@@ -43,16 +43,16 @@
       "type": "route_dependency_independent_signal",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-09",
-      "activation_count": 32
+      "last_activated": "2026-05-10",
+      "activation_count": 33
     },
     {
       "to": "brent-crude",
       "type": "transport_cost_lag",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-09",
-      "activation_count": 21
+      "last_activated": "2026-05-10",
+      "activation_count": 22
     },
     {
       "to": "houthis",
@@ -72,6 +72,28 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-10",
+      "headline": "BULK CARRIER STRUCK 23NM NE OF DOHA SUNDAY MORNING (NEW — first commercial vessel attack since CMA CGM San Antonio May 5; FIRST inside Qatari EEZ; small fire extinguished, no casualties; UKMTO Warning notice; NO claim of responsibility). Friday May 8 closes still operative for traded prices: FRO $39.51 (+3.6% 1D, +13.5% 1M, +40.1% 3M), BOAT $42.77 (+2.3% 1D, +2.6% 1M, +18.6% 3M), VLCC TD3C ~$100K/day baseline; Frontline IS the trinary-regime trade. CENTCOM precision tally May 9: 58 commercial vessels redirected + 4 Iranian-flagged tankers disabled since April 13 (4th identity not publicly disclosed). Lloyd's List ~6 vessels/day Hormuz transit vs ~60 baseline; ~1,500 vessels anchored. AWRP ~1% H&M unchanged at 6-8x pre-war norm; Joint War Committee Persian Gulf 'high-risk' designation MAINTAINED. Container freight Shanghai-Jebel Ali >$8,000/container (quadrupled). Monday May 11 Asian open will be first re-pricing event for accumulated unpriced news (bulk carrier strike + CENTCOM 58/4 tally + Qatar PM Miami + Bahrain detentions). Expect Brent gap-up $2-4 if no countervailing diplomatic news Sunday.",
+      "sources": [
+        "UKMTO Warning notice (bulk carrier near Doha)",
+        "AP / Boston Globe",
+        "Times of Israel",
+        "Anadolu Agency",
+        "BNO News",
+        "CNN",
+        "US CENTCOM official statement May 9",
+        "Washington Examiner",
+        "ANI / Tribune India",
+        "Gulf News",
+        "Lloyd's List Intelligence",
+        "yfinance (FRO, BOAT)",
+        "Strauss Center",
+        "Freightos FBX",
+        "Kpler"
+      ],
+      "verification": "Bulk carrier near Doha = CONFIRMED ACTION (UKMTO primary, multi-source); perpetrator UNKNOWN; CENTCOM 58/4 tally = CONFIRMED ACTION; FRO/BOAT prices = CONFIRMED yfinance"
+    },
     {
       "date": "2026-05-05",
       "headline": "PROJECT FREEDOM LAUNCHED MAY 4 — 2 US DESTROYERS TRANSITED HORMUZ; 6 IRANIAN FAST BOATS SUNK; SK HMM NAMU DAMAGED IN-STRAIT (FIRST KOREAN COMMERCIAL-FLEET DAMAGE OF CRISIS)",

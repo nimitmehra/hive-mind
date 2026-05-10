@@ -3,13 +3,13 @@
   "name": "Natural Gas / LNG",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-05-07",
-  "summary": "Day 69 Thursday. **CHENIERE LNG -3.0% TO $261.42 ON LNG-SCARCITY PREMIUM UNWIND + Q1 EARNINGS RESIDUAL.** TTF crashed -6.8% May 6 to ~€47.4/MWh on MOU scoop — pricing pause as plausibly durable. The Cheniere -3.0% specific: LNG-scarcity premium (Qatar Ras Laffan damage thesis) being partially repriced as European TTF gas crashed; Cheniere reported Q1 today with modest miss on guidance forward. Henry Hub $2.72/MMBtu (-0.5% 1D, -0.3% 1M, -13.4% 3M) — non-crisis driver dominates; cold-snap residual / spring transition. Structural drivers persist: Hormuz functionally closed Day 69 but kinetic-war probability compressed; Qatar Ras Laffan Trains 4/6 (12.8 mtpa, ~17% Qatar LNG) still 3-5yr recovery. **Reversibility:** if MOU signs, Cheniere could give back another 5-10% on full peace pricing; if Iran rejects, Cheniere bounces back toward $275-280 within 48hr on premium re-pricing. The MOU framework is the marginal pricing factor — Qatar Ras Laffan reopening is in the 'lift Hormuz blockades' provision but physical recovery is years out regardless of diplomatic resolution.",
+  "last_updated": "2026-05-10",
+  "summary": "Day 72 Sunday (markets closed; Friday May 8 close still operative). **CHENIERE LNG $240.11 (-2.7% 1D, -9.7% 1M, +11.3% 3M) — Q1 $3.5B GAAP loss on derivative MtM; CCO Anatol Feygin: 'astounded that global gas prices have not risen higher with the closure of the Strait of Hormuz disrupting 100 cargoes a month.'** TTF ~€44/MWh weekly, -25%+ from March peak (€60+), +40%+ vs Feb baseline (~€31/MWh). Henry Hub $2.76/MMBtu (-0.4% 1D, +3.3% 1M, -11.5% 3M). **Sunday bulk-carrier-near-Doha strike is operationally adjacent to Ras Laffan (Qatar's main LNG/helium export complex) — same supply-side concern as helium node; if strike location was deliberate signals graduated escalation against Qatari LNG export infrastructure.** The Cheniere -3.0% specific: LNG-scarcity premium (Qatar Ras Laffan damage thesis) being partially repriced as European TTF gas crashed; Cheniere reported Q1 today with modest miss on guidance forward. Henry Hub $2.72/MMBtu (-0.5% 1D, -0.3% 1M, -13.4% 3M) — non-crisis driver dominates; cold-snap residual / spring transition. Structural drivers persist: Hormuz functionally closed Day 69 but kinetic-war probability compressed; Qatar Ras Laffan Trains 4/6 (12.8 mtpa, ~17% Qatar LNG) still 3-5yr recovery. **Reversibility:** if MOU signs, Cheniere could give back another 5-10% on full peace pricing; if Iran rejects, Cheniere bounces back toward $275-280 within 48hr on premium re-pricing. The MOU framework is the marginal pricing factor — Qatar Ras Laffan reopening is in the 'lift Hormuz blockades' provision but physical recovery is years out regardless of diplomatic resolution.",
   "current": {
-    "price": "HH $2.72/MMBtu (May 7); TTF ~€47.4/MWh; Cheniere $261.42",
-    "delta_1d": "HH -0.5%; TTF -6.8% (May 6); Cheniere -3.0%",
-    "delta_1m": "HH -0.3%; TTF est -28%; Cheniere -8.0%",
-    "delta_3m": "HH -13.4%; TTF est +35% vs pre-crisis; Cheniere n/a"
+    "price": "HH $2.76/MMBtu (May 8); TTF ~€44/MWh weekly; Cheniere $240.11 (May 8 close)",
+    "delta_1d": "HH -0.4%; Cheniere -2.7%",
+    "delta_1m": "HH +3.3%; TTF -25%+ from March peak; Cheniere -9.7%",
+    "delta_3m": "HH -11.5%; TTF +40%+ vs pre-war ~€31; Cheniere +11.3%"
   },
   "active_triggers": [
     {
@@ -65,6 +65,18 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-10",
+      "headline": "SUNDAY HOLIDAY — TTF ~€44/MWh weekly (-25%+ from March €60+ peak, +40%+ vs Feb ~€31 baseline); Cheniere $240.11 May 8 close (-2.7% 1D, -9.7% 1M, +11.3% 3M); Q1 $3.5B GAAP loss on derivative MtM (long-term hedges struck pre-war at lower TTF/HH spread became deep underwater after Qatar force majeure spiked TTF €60+ in March). Cheniere CCO Anatol Feygin: 'astounded that global gas prices have not risen higher with the closure of the Strait of Hormuz disrupting 100 cargoes a month.' 2026 adjusted EBITDA guidance RAISED to $7.25-7.75B (from $6.75-7.25B). HEADLINE GAAP LOSS IS NON-CASH; CASH EARNINGS POWER INCREASED. **Sunday May 10 bulk-carrier-near-Doha strike is operationally adjacent to Ras Laffan — Qatar's main LNG/helium export complex.** If strike location was deliberate, signals graduated escalation against Qatari LNG export infrastructure rather than against US-blockade-facilitating shipping. Qatar Ras Laffan Trains 4/6 (12.8 mtpa, ~17% Qatar LNG) still 3-5yr recovery. Cheniere is cleanest US-LNG-exporter beneficiary of any extended Qatar disruption.",
+      "sources": [
+        "yfinance (May 8 close)",
+        "Bloomberg/EIA/Euronews (TTF)",
+        "Bloomberg (Cheniere CCO comment + Q1 derivative loss)",
+        "UKMTO Warning notice (bulk carrier near Doha)",
+        "Markets dossier May 10 C4"
+      ],
+      "verification": "CONFIRMED prices yfinance multi-source; Cheniere Q1 derivative loss = CONFIRMED Bloomberg primary; Cheniere CCO Hormuz comment = CONFIRMED public; bulk carrier strike near Ras Laffan = CONFIRMED ACTION (UKMTO primary); deliberate-vs-coincidental strike location = OPEN question"
+    },
     {
       "date": "2026-04-27",
       "headline": "BRANCH 3 → CHENIERE EUROPEAN-ENERGY-EMERGENCY PREMIUM COMPRESSION; HH +6.8% NON-CRISIS",

@@ -3,8 +3,8 @@
   "name": "United Arab Emirates",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-05-07",
-  "summary": "Day 69 Thursday. **UAE AIRSPACE PARTIAL CLOSURE THROUGH MAY 11; 3 INDIAN NATIONALS INJURED IN FUJAIRAH STRIKE RECEIVING MEDICAL CARE PER INDIAN EMBASSY ABU DHABI.** Status quo since May 5 — no new operational updates. UAE shifted to remote learning post-Fujairah attack. The Saudi-UAE structural overhang persists into MOU framework window: MBS Day 9/14 silence on UAE OPEC exit (May 1 effective) + May 4 Fujairah strike continues. UAE foreign minister rather than ruler at Tuesday Jeddah summit deepens diplomatic distance — sustained signal of UAE committing to separate-from-cartel strategy that values its US-Hormuz alignment over GCC unity. Tadawul TASI -0.5% only major equity index in red on global risk-on day — peace dividend bearish for war's primary fiscal beneficiary; UAE's ADNOC structurally positioned to undercut Saudi pricing (Murban discount potentially widening to $3.50/bbl by Q3 — WoodMac). **Iran-UAE relationship continues bifurcated:** Tasnim (IRGC-aligned) maintained aggressive UAE rhetoric; Iran's civilian government track on negotiating leverage. PM Modi May 5 Fujairah condemnation ('unacceptable') without naming Iran is the structural read — Indian strategic-autonomy hedge holding while Araghchi arrives India May 7-8 in parallel-track diplomacy.",
+  "last_updated": "2026-05-10",
+  "summary": "Day 72 Sunday. **B4 UAE AIR-DEFENSE ENGAGEMENT MAY 8 SCALE REFINED (UPDATED — yesterday's brief understated): 2 BALLISTIC MISSILES + 3 DRONES LAUNCHED BY IRAN TOWARD THE UAE; UAE DEFENSE MINISTRY CONFIRMED 3 PEOPLE WOUNDED.** Not clear whether all incoming weapons were intercepted. Strike followed CENTCOM's announcement that it had thwarted attacks on three US Navy ships in the Strait of Hormuz earlier same day. **Structural read:** SECOND major UAE-targeted Iranian attack of the cycle (first was the May 4 Fujairah refinery strike). UAE is now demonstrably on the IRGC operational targeting list. UAE response continues hawkish per prior analysis. **The Gulf-state response to Iran is now openly bifurcated:** UAE (Iranian targets / hawkish operationally), Bahrain (US-aligned counter-IRGC; 41 arrests May 9), Qatar (mediating with IRGC contacts via Axios scoop), Saudi (deniable-operational + public-pro-mediation), Oman (silent mediator), Kuwait (denied airspace per WSJ scoop). UAE airspace partial closure post-Fujairah expires today May 11 baseline. The Saudi-UAE structural overhang persists: MBS silence on UAE OPEC exit (May 1 effective) + Fujairah strike continues. UAE FM rather than ruler at Jeddah summit deepens diplomatic distance. ADNOC structurally positioned to undercut Saudi pricing (Murban discount widening to $3.50/bbl by Q3 per WoodMac).",
   "current": {},
   "active_triggers": [
     {
@@ -43,11 +43,11 @@
   "top_edges": [
     {
       "to": "iran",
-      "type": "diplomatic_deescalation",
+      "type": "kinetic_target_irgc_operational_targeting_list",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-19",
-      "activation_count": 20
+      "last_activated": "2026-05-10",
+      "activation_count": 21
     },
     {
       "to": "brent-crude",
@@ -91,6 +91,20 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-10",
+      "headline": "UAE AIR-DEFENSE ENGAGEMENT MAY 8 SCALE REFINED (UPDATED — yesterday's brief understated): 2 BALLISTIC MISSILES + 3 DRONES LAUNCHED BY IRAN TOWARD UAE; 3 PEOPLE WOUNDED CONFIRMED PER UAE DEFENSE MINISTRY; not clear whether all incoming weapons were intercepted. Strike followed CENTCOM's same-day announcement of thwarting attacks on three US Navy ships in Strait of Hormuz. SECOND major UAE-targeted Iranian attack of cycle (first: May 4 Fujairah refinery strike). UAE now demonstrably on IRGC operational targeting list. Gulf bifurcation now operationally specific: UAE (Iranian targets / hawkish), Bahrain (US-aligned counter-IRGC, 41 arrests May 9), Qatar (mediating via IRGC contacts), Saudi (deniable-operational + public-pro-mediation), Oman (silent), Kuwait (denied airspace). The Saudi-UAE structural overhang persists.",
+      "sources": [
+        "UAE Defense Ministry official statement (primary)",
+        "Reuters/AP wires via PBS",
+        "NPR (May 8)",
+        "Local 10 (AP wire pickup)",
+        "KSAT (AP wire pickup)",
+        "Euronews",
+        "ms.now"
+      ],
+      "verification": "CONFIRMED ACTION (UAE Defense Ministry primary; 3 wounded confirmed; 2 ballistic + 3 drones; multi-source AP wire); Iran has not officially claimed but Tasnim/Iranian state media did not deny"
+    },
     {
       "date": "2026-05-06",
       "headline": "UAE AIR-DEFENSE BREAKDOWN REFINED MAY 4 STRIKE: 12 BALLISTIC + 3 CRUISE + 4 DRONES = 19 VEHICLES; 18 INTERCEPTED (~95% EFFECTIVENESS); UAE FM (NOT RULER) SENT TO MBS JEDDAH SUMMIT — DIPLOMATIC DISTANCE SIGNAL; PM MODI PERSONALLY CONDEMNED FUJAIRAH ATTACK ('UNACCEPTABLE')",

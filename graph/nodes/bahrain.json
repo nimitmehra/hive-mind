@@ -3,29 +3,57 @@
   "name": "Bahrain",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-04-26",
-  "summary": "Day 59 Sunday. BAHRAIN IN CUMULATIVE DAMAGE ENVELOPE; INDIA-EVACUATION INCLUDES BAHRAIN; IRAQI-MILITIA ARCHITECTURE UPGRADED. WSJ Iraq-attribution architecture upgraded April 26: April 12 Saudi MoFA protest summons of Iraqi ambassador now CONFIRMED (House of Saud, Defense News); Bahrain among targets named for Iraqi-militia drone attacks (per WSJ + ISW, named militias Kataib Hezbollah + Asaib Ahl al-Haq). Indian repatriations ~50K total since Feb 28 include Bahrain among repatriating countries (per Tribune India / India.com). Bahrain absent from Iran's mediator-network (Pakistan + Oman + Russia per Araghchi tour). Cumulative damage envelope intact: 5th Fleet HQ, Bapco, ALBA (19% offline), Batelco/AWS, King Fahd Causeway still closed. Day 14 of blockade: no Iranian kinetic vs Bahrain-bound vessels. Sporadic Iraqi-militia drone attacks continue.",
+  "last_updated": "2026-05-10",
+  "summary": "Day 72 Sunday. **BAHRAIN MoI ANNOUNCED MAY 9 IT HAD ARRESTED 41 ALLEGED IRGC-LINKED INDIVIDUALS — FIRST MAJOR GULF-STATE INTERNAL ACTION AGAINST ALLEGED IRGC NETWORK DURING THE CYCLE.** Suspects had 'direct contact' with the IRGC and had collected funds intended to be sent to Iran. Investigations continue; further action anticipated (CONFIRMED — Khaleej Times primary, Washington Post, PBS NewsHour, Spectrum News, Anchorage Daily News, Inquirer/AP). Rights groups (HRW, others) argue Bahrain is using the war as cover to crack down on dissent generally — Bahrain hosts US Fifth Fleet and has historical Sunni-government / Shia-majority tensions where the regime has previously used 'Iran proxy' framing against Shia opposition (REPORTED — rights-group framing). **Two readings:** (a) substantive intelligence breakthrough — Bahrain has located IRGC funding/operational network and is dismantling it; (b) opportunistic crackdown using war as pretext — consistent with Bahrain's pattern. The truth may be both. Either way, this is a Gulf-state SIGNAL: Bahrain publicly aligning with the US blockade narrative against Iran, contrasting with Saudi Arabia's deniability-plus-Pakistan-alignment posture and Qatar's emergent IRGC-channel mediator role. **The Gulf-state response to Iran is now openly bifurcated:** Bahrain (pro-US, anti-IRGC), Saudi Arabia (deniable-pro-US-operationally, public-pro-mediation), UAE (continues hawkish per yesterday), Qatar (now openly mediating with IRGC contacts), Oman (silent mediator), Kuwait (denied airspace per WSJ scoop). PRIOR FRAMING (preserved): cumulative damage envelope from earlier cycle — 5th Fleet HQ, Bapco, ALBA, Batelco/AWS — still in effect.",
   "current": {},
-  "active_triggers": [],
+  "active_triggers": [
+    {
+      "condition": "Second Gulf-state-led arrest sweep of alleged IRGC-affiliated network within 14 days (by 2026-05-24) following Bahrain's May 9 41-detentions — confirms US-led intel-sharing-and-disruption campaign against IRGC funding/operational architecture in Gulf",
+      "status": "watching",
+      "cascade": [
+        "bahrain",
+        "iran",
+        "united-states",
+        "saudi-arabia",
+        "uae"
+      ],
+      "added": "2026-05-10"
+    }
+  ],
   "top_edges": [
     {
       "to": "iran",
-      "type": "retaliation_target",
+      "type": "retaliation_target_with_internal_network_disruption",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 10
+      "last_activated": "2026-05-10",
+      "activation_count": 11
     },
     {
       "to": "united-states",
-      "type": "military_host",
+      "type": "military_host_with_pro_us_anti_irgc_alignment",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 6
+      "last_activated": "2026-05-10",
+      "activation_count": 7
     }
   ],
-  "recent_signals": [],
+  "recent_signals": [
+    {
+      "date": "2026-05-10",
+      "headline": "BAHRAIN MOI ANNOUNCED MAY 9 IT HAD ARRESTED 41 ALLEGED IRGC-LINKED INDIVIDUALS — FIRST MAJOR GULF-STATE INTERNAL ACTION AGAINST ALLEGED IRGC NETWORK DURING THE CYCLE. Suspects had 'direct contact' with IRGC and had collected funds intended to be sent to Iran; investigations continue, further action anticipated. Rights groups argue Bahrain may be using war as cover to crack down on dissent generally (Bahrain hosts US Fifth Fleet, historical Sunni-government / Shia-majority tensions). Two readings: (a) substantive intelligence breakthrough; (b) opportunistic crackdown. Either way, Bahrain is publicly aligning with US blockade narrative against Iran. Gulf-state response to Iran now openly bifurcated: Bahrain (pro-US, anti-IRGC), Saudi (deniable-pro-US, public-pro-mediation), UAE (hawkish), Qatar (mediating with IRGC contacts), Oman (silent), Kuwait (denied airspace).",
+      "sources": [
+        "Khaleej Times (Bahrain MoI primary cite)",
+        "Washington Post May 9",
+        "PBS NewsHour",
+        "Spectrum News",
+        "Anchorage Daily News (AP)",
+        "Inquirer / AP (rights-group framing)",
+        "Human Rights Watch (rights framing)"
+      ],
+      "verification": "CONFIRMED ACTION — 41 arrests, public Bahrain MoI statement (Khaleej Times primary, Washington Post + PBS + AP wire pickup multi-source); Iran has NOT commented publicly; rights-group alternative framing = REPORTED (HRW, others)"
+    }
+  ],
   "historical_summaries": [
     {
       "period": "2026-02",

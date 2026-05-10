@@ -3,8 +3,8 @@
   "name": "Brent Crude",
   "type": "commodity",
   "created": "2026-03-23",
-  "last_updated": "2026-05-09",
-  "summary": "Day 71 Saturday (today markets closed). **BRENT CLOSE $101.73 MAY 8 (+1.66% 1D); FRIDAY RANGE $96.07 → $103.96 = ~$8 OSCILLATION = TRINARY-REGIME SIGNATURE; SUB-$105 CHAIN DAY 3 INTACT BUT OSCILLATING.** Friday tape oscillation low → high → close ($96 → $104 → $101) is the cleanest signature of a market that does not believe either side of the binary (deal signs OR full kinetic) and is pricing the trinary middle. The $96 intraday low touched on May 7 reflects MOU-progress hopes; the $104 May 8 intraday high reflects the second day of US tanker strikes + CENTCOM 70-tanker blockade scale disclosure. **Goldman Q2 $90 target now stretched** — 'improving Hormuz flows' assumption is contradicted by Lloyd's List zero-transit print May 7 + 1,500-vessel Persian Gulf standstill (CONFIRMED). Goldman likely revises higher if trinary regime extends past May 21. **Standard Chartered $130-145 path remains conditional on MOU collapse** — currently event-driven on rejection; today's print sits between Goldman and StanChart. **PAPER-VS-PHYSICAL BIFURCATION DEEPENED:** AWRP unchanged at ~1% H&M / 7-day, 6-8x pre-war baseline (insurers have NOT bought peace story); VLCC TD3C ~$100K/day baseline; Frontline +3.6% 1D, +13.5% 1M, +40.1% 3M. Mokhber 'atomic-bomb' Hormuz speech (institutional codification of selective control) + CENTCOM blockade scale + second day of tanker strikes all reinforce the trinary regime. For India: $101 Brent + persistent crude-rebound pressure + INR ₹94.47 + FII outflows ₹340.89 cr May 8 + ₹1.92 lakh cr YTD (already exceeds full-year 2025) — India macro stress NOT easing despite paper-tape softness vs $115. If Iran formally signs by May 14: Brent → $86-90 (Goldman base case), additional -10 to -15% downside. If Iran rejects past May 21: Brent +$8-15 within 24h, StanChart $130-145 path activated.",
+  "last_updated": "2026-05-10",
+  "summary": "Day 72 Sunday (markets closed; Friday May 8 close still operative). **BRENT CLOSE $101.29-$101.73 MAY 8 (+1.2-1.66% 1D); FRIDAY RANGE $96.07 → $103.96 = ~$8 OSCILLATION = TRINARY-REGIME SIGNATURE.** Two days of unsettled news flow has accumulated against frozen prices: (a) Sunday-morning bulk-carrier-near-Doha strike (intel B1, NEW), (b) CENTCOM precision tally 58 redirected + 4 disabled since April 13 (intel A2, UPDATED), (c) Qatar PM Miami trip + Axios scoop on Qatar-IRGC channel (intel A5, UPDATED-MAJOR), (d) Bahrain 41 IRGC-linked detentions (intel A11, NEW), (e) Kharg Island satellite-confirmed slick (intel B2, NEW, first hard-data signal blockade biting at production-export interface), (f) UAE air defense engagement scale refined (intel B4, UPDATED). All sit in 'unpriced' bucket as of Sunday — Monday May 11 Asian open will be first re-pricing event. Expect Brent gap-up of $2-4 if no countervailing diplomatic news Sunday. Friday tape oscillation low → high → close ($96 → $104 → $101) is the cleanest signature of a market that does not believe either side of the binary (deal signs OR full kinetic) and is pricing the trinary middle. The $96 intraday low touched on May 7 reflects MOU-progress hopes; the $104 May 8 intraday high reflects the second day of US tanker strikes + CENTCOM 70-tanker blockade scale disclosure. **Goldman Q2 $90 target now stretched** — 'improving Hormuz flows' assumption is contradicted by Lloyd's List zero-transit print May 7 + 1,500-vessel Persian Gulf standstill (CONFIRMED). Goldman likely revises higher if trinary regime extends past May 21. **Standard Chartered $130-145 path remains conditional on MOU collapse** — currently event-driven on rejection; today's print sits between Goldman and StanChart. **PAPER-VS-PHYSICAL BIFURCATION DEEPENED:** AWRP unchanged at ~1% H&M / 7-day, 6-8x pre-war baseline (insurers have NOT bought peace story); VLCC TD3C ~$100K/day baseline; Frontline +3.6% 1D, +13.5% 1M, +40.1% 3M. Mokhber 'atomic-bomb' Hormuz speech (institutional codification of selective control) + CENTCOM blockade scale + second day of tanker strikes all reinforce the trinary regime. For India: $101 Brent + persistent crude-rebound pressure + INR ₹94.47 + FII outflows ₹340.89 cr May 8 + ₹1.92 lakh cr YTD (already exceeds full-year 2025) — India macro stress NOT easing despite paper-tape softness vs $115. If Iran formally signs by May 14: Brent → $86-90 (Goldman base case), additional -10 to -15% downside. If Iran rejects past May 21: Brent +$8-15 within 24h, StanChart $130-145 path activated.",
   "current": {
     "price": "$101.73 (May 8 close per intel); $101.29 (May 8 close per yfinance); minor intraday vs settlement gap",
     "delta_1d": "+1.66% 1D (May 8); intraday range May 7-8: $96.07 low → $103.96 high = ~$8 oscillation",
@@ -90,16 +90,16 @@
       "type": "supply_dependency",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-09",
-      "activation_count": 50
+      "last_activated": "2026-05-10",
+      "activation_count": 51
     },
     {
       "to": "india",
       "type": "import_cost",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-09",
-      "activation_count": 29
+      "last_activated": "2026-05-10",
+      "activation_count": 30
     },
     {
       "to": "inr-usd",
@@ -151,6 +151,25 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-10",
+      "headline": "SUNDAY HOLIDAY (US, India, most W Europe markets CLOSED) — FRIDAY MAY 8 CLOSE $101.29-$101.73 STILL OPERATIVE. Two days of unsettled news flow accumulated against frozen prices: bulk-carrier-near-Doha strike (NEW — first commercial vessel attack since CMA CGM May 5; first inside Qatari EEZ; UKMTO Warning notice; NO claim of responsibility); CENTCOM precision tally 58 redirected + 4 disabled since April 13 (UPDATED — refines yesterday's >70-tankers-held framing); Qatar PM al-Thani Miami meeting Saturday + Axios scoop on Qatar-IRGC channel (UPDATED-MAJOR); Bahrain 41 IRGC-linked detentions (NEW); KHARG ISLAND SATELLITE-CONFIRMED OIL SLICK (NEW — first hard-data signal blockade biting at production-export interface; CAUSE CONTESTED — Iran blames European tanker waste, Fox-quoted experts suggest storage-overflow dumping); UAE air defense engagement scale refined (UPDATED — 2 ballistic + 3 drones, 3 wounded). Monday May 11 Asian open is first repricing event. Expect Brent gap-up of $2-4 if no countervailing diplomatic news Sunday. AWRP unchanged at ~1% H&M / 7-day baseline; trigger 'AWRP normalization toward 0.5% by May 16' Day 4 of 10 — failing harder. Goldman Q2 $90 target stretched against zero-transit + 1,500-vessel data + Sunday Doha strike — likely revises higher Monday morning if trinary regime persists.",
+      "sources": [
+        "yfinance via market-data.py (Friday May 8 close)",
+        "Intel dossier Section A1, A2, A3, A5, A11, B1, B2, B4",
+        "UKMTO Warning notice (bulk carrier near Doha)",
+        "AP / Boston Globe",
+        "US CENTCOM official statement May 9",
+        "Axios primary scoop (Qatar back channels)",
+        "Khaleej Times (Bahrain MoI)",
+        "Copernicus Sentinel-1/2/3 imagery (Kharg slick)",
+        "UAE Defense Ministry (May 8 engagement)",
+        "Lloyd's List Intelligence",
+        "Goldman Sachs Q2 research note",
+        "Standard Chartered (Business Standard May 6)"
+      ],
+      "verification": "Friday May 8 close = CONFIRMED yfinance multi-source ($101.29-$101.73 settlement vs intraday); Sunday-morning Doha strike = CONFIRMED ACTION (UKMTO primary, multi-source); perpetrator UNKNOWN; CENTCOM 58/4 = CONFIRMED ACTION; Qatar back-channel = REPORTED via Axios primary scoop; Kharg slick = CONFIRMED imagery, CONTESTED on cause; UAE engagement = CONFIRMED multi-source; AWRP unchanged = CONFIRMED multi-source"
+    },
     {
       "date": "2026-05-09",
       "headline": "BRENT CLOSE $101.73 MAY 8 (+1.66% 1D); FRIDAY RANGE $96.07 → $103.96 = TRINARY-REGIME SIGNATURE OSCILLATION; SUB-$105 CHAIN DAY 3 INTACT BUT OSCILLATING. The Friday tape low → high → close sequence ($96 → $104 → $101) is the cleanest signature of a market not believing either binary side (deal signs OR full kinetic) and pricing the trinary middle. The $96 intraday low reflects MOU-progress hopes (May 7); the $104 May 8 intraday high reflects second day of US tanker strikes (M/T Sea Star III, M/T Sevda) + CENTCOM disclosure of 70-tanker blockade scale + Mokhber 'atomic-bomb' Hormuz speech. Goldman Q2 $90 target now stretched against Lloyd's List zero-transit print May 7 + 1,500-vessel Persian Gulf standstill — likely revises higher if trinary regime extends past May 21. Standard Chartered $130-145 path remains conditional on MOU collapse. AWRP unchanged ~1% H&M / 7-day, 6-8x pre-war norm — insurers have NOT bought peace story; physical-paper bifurcation deepened.",
