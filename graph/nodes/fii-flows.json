@@ -1,0 +1,95 @@
+{
+  "id": "fii-flows",
+  "name": "FII (Foreign Institutional Investor) Flows — India",
+  "type": "institution",
+  "created": "2026-05-12",
+  "last_updated": "2026-05-12",
+  "summary": "Created 2026-05-12. FII (Foreign Institutional Investor) net cash-equity flows into Indian listed equities are the **TRANSMISSION MECHANISM** in every India-market causal chain of the cycle. Tracked via NSDL/NSE primary daily prints. **MAY 11 FII SINGLE-DAY NET SELL ₹8,437.56 cr (highest since April 24); DII +₹5,939.65 cr absorbed ~70%; YTD CY26 FII outflow ₹2.06 LAKH CR — already exceeds full-year 2025 ₹1.66 lakh cr by ₹40k cr (+₹14k cr in just 2 sessions May 11-12).** Drivers: Trump rejection of Iran counter-proposal + Brent $105.58 + INR breach of ₹95.50 RBI threshold. **The cascade is now self-reinforcing: weaker rupee → imported inflation → bond yields up (G-Sec 6.96-6.99%) → debt-FPI also out → more INR pressure → more FII exit.** DII absorption (~₹1.7 lakh cr YTD via SIP) covering ~70-90% of FII selling depending on day; gap WIDENING. FPI ownership of Indian equities at ~16%, lowest in nearly two decades. **STRUCTURAL CRACK POINT: if FII outflows accelerate past ₹2.5 lakh cr by end-Q2, DII channel cracks.** Sonal Varma (Nomura): 'Don't expect any sustained pick-up in portfolio flows, as structural concerns over AI-related disruption to India's software industry remain'; recent RBI restrictions on AD forex hedging have increased FX hedge costs, deterring portfolio inflows; sees 'further scope for the rupee to depreciate.'",
+  "current": {
+    "fii_single_day_may_11": "₹-8,437.56 cr (highest since April 24)",
+    "dii_single_day_may_11": "+₹5,939.65 cr (~70% absorption)",
+    "ytd_cy26_fii_outflow": "₹2.06 lakh cr (exceeds full-year 2025 ₹1.66 lakh cr by ₹40k cr)",
+    "fpi_ownership": "~16% (2-decade low)"
+  },
+  "active_triggers": [
+    {
+      "condition": "FII YTD CY26 outflow exceeds ₹2.5 lakh cr by end-Q2 (by 2026-06-30) — DII channel cracks",
+      "status": "watching",
+      "cascade": [
+        "india",
+        "nifty-50",
+        "rbi",
+        "inr-usd"
+      ],
+      "added": "2026-05-12"
+    },
+    {
+      "condition": "FII flow turn POSITIVE for 5 consecutive sessions — confirms India deployment-zone re-entry",
+      "status": "watching",
+      "cascade": [
+        "india",
+        "nifty-50",
+        "inr-usd"
+      ],
+      "added": "2026-05-12"
+    }
+  ],
+  "top_edges": [
+    {
+      "to": "india",
+      "type": "transmission_mechanism_capital_flight",
+      "weight": 10.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    },
+    {
+      "to": "nifty-50",
+      "type": "dominant_marginal_buyer_seller",
+      "weight": 10.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    },
+    {
+      "to": "inr-usd",
+      "type": "fx_pressure_via_dollar_demand",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    },
+    {
+      "to": "rbi",
+      "type": "intervention_trigger_via_reserve_drain",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    },
+    {
+      "to": "bank-nifty",
+      "type": "financials_nim_compression_via_yield_pressure",
+      "weight": 7.0,
+      "directness": 2,
+      "last_activated": "2026-05-12",
+      "activation_count": 1,
+      "note": "bank-nifty is sub-index inside nifty-50 node; edge captures specific bank-financials transmission"
+    }
+  ],
+  "recent_signals": [
+    {
+      "date": "2026-05-12",
+      "headline": "FII SINGLE-DAY NET SELL ₹8,437.56 cr MAY 11 = highest since April 24. DII +₹5,939.65 cr absorbed ~70% (₹5,939.65 cr). YTD CY26 FII outflow ₹2.06 LAKH CR — exceeds full-year 2025 (₹1.66 lakh cr) by ₹40k cr; added ₹14k cr in just 2 sessions May 11-12. Drivers: Trump rejection 'TOTALLY UNACCEPTABLE' + Brent $105.58 + INR ₹95.54 fresh record breaking RBI ₹95.50 threshold + WH Sit-Room weighing renewed strikes. Cascade self-reinforcing: weaker rupee → imported inflation → bond yields up → debt-FPI out → more INR pressure. RBI forex reserves -$7.79bn week ended May 1 to $690.69bn = evidence of active intervention not stopping the move. Sonal Varma (Nomura) flagging 'further depreciation' on AI-disruption + RBI hedging restrictions deterring inflows.",
+      "sources": [
+        "NSDL FPI data (primary)",
+        "NSE official daily flow",
+        "Business Standard May 11 + May 12 live blogs",
+        "Republic World / Outlook Money (₹2.06 lakh cr tally)",
+        "Nomura Sonal Varma research"
+      ],
+      "verification": "FII -₹8,437.56 cr May 11 = CONFIRMED (NSDL primary); DII +₹5,939.65 cr = CONFIRMED (NSDL primary); YTD ₹2.06 lakh cr = CONFIRMED multi-source (Business Standard + Outlook Money); RBI reserves -$7.79bn = CONFIRMED (RBI primary)"
+    }
+  ],
+  "historical_summaries": []
+}

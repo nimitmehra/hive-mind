@@ -1,0 +1,97 @@
+{
+  "id": "kospi",
+  "name": "KOSPI (Korea Composite Stock Index)",
+  "type": "index",
+  "created": "2026-05-12",
+  "last_updated": "2026-05-12",
+  "summary": "Created 2026-05-12. KOSPI is the primary Korean equity benchmark; persistent index referenced repeatedly in graph for the Korean memory-fab + AI-semis + helium-supply cascade path. **KOSPI 7,690.59 May 12 (-1.7% 1D — first profit-taking session of cycle; +33.1% 1M / +39.3% 3M / +78% YTD into May 11).** The largest 30-day move in any major-market index in recent memory. **Crisis-linked cascade path: war → Qatar Ras Laffan offline → helium constraint → 4-week countdown to Korean fab buffer exhaustion (mid-June) → Samsung/SK Hynix production-halt risk.** **B9 HMM Namu forensics public May 11: Korean joint investigation confirmed strike by 2 unidentified aerial objects ~1 min apart at stern; mine + torpedo RULED OUT; SEOUL STOPPED SHORT OF PUBLICLY BLAMING IRAN — creating diplomatic friction with Trump.** Korea has gone from 'passive helium victim' to 'active diplomatic actor.' USD/KRW ₩1,488.28 (+1.9% 1D) on Korea-Iran-attribution friction + capital outflow. Crisis-linked share: ~40% (helium tail + HMM Namu + diplomatic friction); secular ~60% (AI capex super-cycle dominating Samsung +111% YTD / SK Hynix +144% YTD). **STILL MOST REVERSIBLE POSITION IN WORLD if helium buffers deplete past mid-June.** Watch level: KOSPI 7,500 hold within 5 sessions confirms Korea AI-bid intact despite diplomatic friction.",
+  "current": {
+    "price": "KOSPI 7,690.59 May 12",
+    "delta_1d": "-1.7%",
+    "delta_1m": "+33.1%",
+    "delta_3m": "+39.3%",
+    "ytd_into_may_11": "+78%",
+    "pre_crisis_baseline": "~5,520 (Feb 28)"
+  },
+  "active_triggers": [
+    {
+      "condition": "KOSPI breaks below 7,500 sustained 3 sessions — confirms AI-bid cracking under diplomatic friction",
+      "status": "watching",
+      "cascade": [
+        "south-korea",
+        "semiconductors",
+        "helium"
+      ],
+      "added": "2026-05-12"
+    },
+    {
+      "condition": "Samsung or SK hynix announces production halt due to helium shortage by mid-June",
+      "status": "watching",
+      "cascade": [
+        "south-korea",
+        "semiconductors",
+        "helium",
+        "kospi"
+      ],
+      "added": "2026-05-12",
+      "note": "Inherits from helium node — most time-sensitive trigger in graph; ~4 weeks remaining."
+    }
+  ],
+  "top_edges": [
+    {
+      "to": "south-korea",
+      "type": "primary_equity_market",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    },
+    {
+      "to": "semiconductors",
+      "type": "samsung_sk_hynix_dominant_weight",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    },
+    {
+      "to": "helium",
+      "type": "supply_chain_tail_risk_with_countdown",
+      "weight": 7.0,
+      "directness": 2,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    },
+    {
+      "to": "iran",
+      "type": "hmm_namu_attribution_diplomatic_friction",
+      "weight": 5.0,
+      "directness": 2,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    },
+    {
+      "to": "united-states",
+      "type": "trump_iran_attribution_pre_judgement_friction",
+      "weight": 4.0,
+      "directness": 2,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    }
+  ],
+  "recent_signals": [
+    {
+      "date": "2026-05-12",
+      "headline": "KOSPI -1.7% 1D = FIRST PROFIT-TAKING SESSION OF CYCLE after extraordinary +33.1% 1M / +39.3% 3M / +78% YTD into May 11 — largest 30-day move in any major-market index in recent memory. Drivers: (1) HMM Namu forensics public May 11 — Seoul stopped short of publicly blaming Iran, creating diplomatic friction with Trump; (2) USD/KRW ₩1,488.28 +1.9% 1D on capital outflow; (3) mechanical profit-taking in a vertical market. Korea has gone from passive helium victim to active diplomatic actor. SMH $576.31 +1.7% 1D / +31.9% 1M; AI infrastructure CapEx demand from Microsoft/Meta/Amazon unbroken. Helium tail-risk timeline: Korean fab buffer ~4 weeks remaining to mid-June exhaustion. Tier-1 chipmaker production-halt falsification still HOLDS but window contracting.",
+      "sources": [
+        "yfinance (KOSPI 7,690.59)",
+        "Markets dossier 2026-05-12 Section C6",
+        "Intel dossier 2026-05-12 B9 (HMM Namu)",
+        "Seoul official briefing + Bloomberg + Insurance Journal + Korea Herald (HMM Namu forensics)",
+        "TrendForce (helium two-week clock)"
+      ],
+      "verification": "KOSPI -1.7% to 7,690.59 = CONFIRMED yfinance multi-source; HMM Namu forensics + Seoul-Iran-attribution non-call = CONFIRMED (Seoul official briefing); USD/KRW ₩1,488.28 +1.9% 1D = CONFIRMED multi-source"
+    }
+  ],
+  "historical_summaries": []
+}

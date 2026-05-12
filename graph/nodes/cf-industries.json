@@ -1,0 +1,91 @@
+{
+  "id": "cf-industries",
+  "name": "CF Industries Holdings",
+  "type": "company",
+  "created": "2026-05-12",
+  "last_updated": "2026-05-12",
+  "summary": "Created 2026-05-12 in response to **+8.2% 1D move on May 12 = MOVE OF THE DAY** in markets dossier. CF Industries is the world's largest publicly-traded nitrogen-fertilizer producer (urea, ammonia, UAN, AN); Q1 2026: net earnings $615M, EBITDA $983M; 99% available ammonia capacity utilization. **CRISIS LINKAGE: Qatar Ras Laffan offline since Feb 28 (QAFCO + SABIC Agri-Nutrients curtailed) = 35-40% global urea export capacity affected; urea US Gulf FOB futures +50% since war began; CF stock now +71% YTD.** UBS raised CF target $97→$140 May 12 noting target 'may not fully reflect severity of ongoing industry disruptions.' India IPL DAP tender May 11 received offers $935/t cfr east coast / $930/t cfr west coast = extraordinary (normal $580-650). PM Modi May 10-11 Hyderabad address asked Indians to cut fertilizer use ~50% = Indian-government public confirmation of binding shock, NOT hypothetical. CF +8.2% 1D = SUPPLY-DISRUPTION + DEMAND-CONFIRMATION confluence for first time in cycle. **Reversibility LOW: Ras Laffan not coming back inside 60-day window even under ceasefire; QAFCO scarring structural; India's import bill binding through monsoon planting season (June-Aug).** Cleanest crisis-linked long if Brent stays $100+ through Q3.",
+  "current": {
+    "price": "$124.48 May 12",
+    "delta_1d": "+8.2%",
+    "delta_1m": "+2.6%",
+    "delta_3m": "+32.9%",
+    "ytd_2026": "+71%",
+    "fundamentals": "Q1 2026 net earnings $615M; EBITDA $983M; 99% available ammonia capacity utilization; UBS PT $97→$140 May 12"
+  },
+  "active_triggers": [
+    {
+      "condition": "CF Industries shares break $140 (UBS new PT) within 30 days — confirms fertilizer regime shift durable",
+      "status": "watching",
+      "cascade": [
+        "fertilizer-urea",
+        "qatar",
+        "india"
+      ],
+      "added": "2026-05-12"
+    },
+    {
+      "condition": "Qatar Ras Laffan QAFCO + SABIC Agri-Nutrients resume normal exports within 60 days — reverses CF rally",
+      "status": "watching",
+      "cascade": [
+        "fertilizer-urea",
+        "qatar",
+        "india",
+        "cf-industries"
+      ],
+      "added": "2026-05-12"
+    }
+  ],
+  "top_edges": [
+    {
+      "to": "fertilizer-urea",
+      "type": "sector_proxy_pricing_power",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    },
+    {
+      "to": "qatar",
+      "type": "supply_disruption_beneficiary_qafco_offline",
+      "weight": 8.0,
+      "directness": 2,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    },
+    {
+      "to": "india",
+      "type": "demand_confirmation_via_modi_fertilizer_50_cut",
+      "weight": 8.0,
+      "directness": 2,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    },
+    {
+      "to": "sp-500",
+      "type": "fertilizer_sector_rotation_within_equity_complex",
+      "weight": 5.0,
+      "directness": 2,
+      "last_activated": "2026-05-12",
+      "activation_count": 1
+    }
+  ],
+  "recent_signals": [
+    {
+      "date": "2026-05-12",
+      "headline": "CF +8.2% 1D TO $124.48 = MOVE OF THE DAY. Drivers: Modi May 10-11 'cut fertilizer 50%' appeal = Indian-government public confirmation binding shock; Qatar Ras Laffan offline (QAFCO + SABIC Agri-Nutrients curtailed) = ~35-40% global urea export capacity affected; IPL DAP tender May 11 offers $935/t cfr east / $930/t cfr west (normal $580-650); urea US Gulf FOB futures +50% since war began; UBS raised target $97→$140 noting target 'may not fully reflect severity of ongoing industry disruptions'; CF Q1 2026 net earnings $615M / EBITDA $983M / 99% ammonia capacity utilization; YTD +71%. Sector regime shift: Nutrien +4.3%, BASF +3.5%, Linde +2.3% all bid together = not single-stock event. Secondary: Wheat +3.2%/Corn +3.2% same session = fertilizer cost pass-through.",
+      "sources": [
+        "yfinance (CF $124.48 May 12)",
+        "Markets dossier 2026-05-12 Section C1",
+        "Intel dossier 2026-05-12 B8 (Modi address)",
+        "StockTwits + Intellectia + Seeking Alpha (CF coverage)",
+        "UBS research note (PT $97→$140)",
+        "Argus + Indian fertilizer trade (DAP $935/t IPL tender)",
+        "Discovery Alert / Barchart (urea US Gulf futures +50%)",
+        "CF Industries Q1 release"
+      ],
+      "verification": "CF +8.2% to $124.48 = CONFIRMED yfinance multi-source; UBS PT raise = CONFIRMED research note primary; Modi consumption-restraint incl. fertilizer 50% = CONFIRMED multi-source (CNBC + Al Jazeera + DD News + Organiser); IPL DAP tender $935/t = CONFIRMED (Argus + Indian fertilizer trade); urea US Gulf FOB +50% vs pre-war = CONFIRMED (Discovery Alert/Argus); CF Q1 earnings = CONFIRMED company release"
+    }
+  ],
+  "historical_summaries": []
+}

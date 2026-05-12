@@ -3,13 +3,13 @@
   "name": "Uranium Sector",
   "type": "sector",
   "created": "2026-04-23",
-  "last_updated": "2026-05-07",
-  "summary": "Day 69 Thursday. **URA $58.26 (+7.5% 1D, +21.5% 1M, +6.1% 3M) — APPARENT ANOMALY THAT'S ACTUALLY CONSISTENT: BENEFITS FROM BOTH PEACE TRACK (HEU CUSTODIAN PATH UNDER MOU) AND STRUCTURAL AI POWER DEMAND.** The 14-point MOU explicitly requires Iran to ship out HEU stockpile to a third-party custodian (Russia rejected by US; potentially IAEA, Kazakhstan, or US-based facility). This is a NUCLEAR FUEL CYCLE LEGITIMIZATION signal — civilian uranium custody and processing infrastructure becomes more politically valuable. Plus: $2.7B 10-year US enrichment commitment continues; AI-data-center power demand continues; Cameco (24% of URA) up sharply. Uranium ETF already +117% TTM — supply-squeeze narrative undisturbed by oil-crash regime. Crisis-linked %: ~50% (HEU custodian path); ~50% structural (AI power demand). **URA does NOT reverse cleanly on either MOU path** — structural bull intact regardless of Iran response. The dual exposure is the rare beneficial structural setup. JPost specifically described MOU provision as 'Tehran give away enriched uranium' — custodian undefined, but nuclear-fuel-cycle infrastructure rerates regardless. Trump's 'bombing starts at significantly higher level and intensity' rhetorical leverage maintains tail-risk on Iran-nuclear-facility strike (RHETORIC/THREAT, not active).",
+  "last_updated": "2026-05-12",
+  "summary": "Day 73-74 (Mon-Tue). **URA $57.23 (+3.7% 1D, +12.3% 1M, +10.6% 3M) — THE CLEANEST DECOUPLED LONG OF THE CYCLE.** Whereas gold trades inversely with real yields (capped), and Brent has explicit Goldman-vs-JPM-$25 disagreement, uranium gets BOTH the war/HEU geopolitics premium AND the AI-power-demand secular bid — there is NO analogous overhead supply; uranium contract market is structurally undersupplied through 2028. **B2 IRAN'S MAY 10-11 COUNTER-PROPOSAL CONTAINED THE FIRST HEU CONCESSION OF THE CYCLE: dilute portion of stockpile under IAEA supervision + transfer remainder to third country — but with EXPLICIT RETURN CLAUSE demanding HEU returnability if US exits any future deal.** Trump has publicly discussed 'seizing' Iran's enriched-uranium stockpile in prior weeks; Iranian concession-with-return-clause is the precise structural counter. Russia's standing offer (Putin May 9) implicit third-country candidate — never publicly named. **THE NUCLEAR FILE IS NOW THE CENTRAL DIPLOMATIC AXIS OF THE CYCLE — markets pricing nuclear-energy-security premium as durable.** US Trump-admin equity-investment-in-mining policy (loans, offtake agreements, supply-chain reshoring) accelerates secular bid. URA monthly trajectory: +12.3% 1M / +10.6% 3M — outperforming both gold (-0.7% 1M) and oil (+6.3% 1M). **REVERSIBILITY LOW: even a full Iran ceasefire would NOT reverse uranium — secular AI bid persists. This is closer to a 'buy and hold' than a 'reverse on ceasefire' trade.** Crisis-linked %: ~85% (HEU concession + Trump 'seizing' rhetoric); secular ~15% (AI-data-center demand from Microsoft/Amazon/Meta nuclear PPAs). Cameco (~24% of URA), Kazatomprom proxy bid stays strong. JPost-style 'Tehran give away enriched uranium' framing now operative.",
   "current": {
-    "price_proxy": "URA $58.26 (May 7)",
-    "delta_1d": "+7.5%",
-    "delta_1m": "+21.5%",
-    "delta_3m": "+6.1%"
+    "price_proxy": "URA $57.23 (May 12)",
+    "delta_1d": "+3.7%",
+    "delta_1m": "+12.3%",
+    "delta_3m": "+10.6%"
   },
   "active_triggers": [
     {
@@ -32,15 +32,35 @@
         "energy-sector"
       ],
       "added": "2026-04-23"
+    },
+    {
+      "condition": "Russia formally named as HEU custodian for Iran transfer under any framework agreement within 30 days (by 2026-06-11)",
+      "status": "watching",
+      "cascade": [
+        "uranium-sector",
+        "russia",
+        "iran",
+        "united-states"
+      ],
+      "added": "2026-05-12",
+      "note": "Iran's May 10-11 counter-proposal contained first HEU concession (dilute portion under IAEA + transfer remainder to third country, with explicit return clause). Russia's standing offer is implicit candidate. If formally named, uranium-sector + russia + nuclear-program all rerate."
     }
   ],
   "top_edges": [
     {
       "to": "iran",
-      "type": "geopolitical_supply_dependency",
+      "type": "heu_concession_with_return_clause_central_diplomatic_axis",
+      "weight": 8.5,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "activation_count": 3
+    },
+    {
+      "to": "russia",
+      "type": "implicit_heu_custodian_path",
       "weight": 6.0,
       "directness": 1,
-      "last_activated": "2026-04-23",
+      "last_activated": "2026-05-12",
       "activation_count": 1
     },
     {

@@ -3,8 +3,8 @@
   "name": "Reserve Bank of India",
   "type": "institution",
   "created": "2026-03-23",
-  "last_updated": "2026-05-10",
-  "summary": "Day 72 Sunday (markets closed). **RBI CAPITAL-FLOW CURBS REMAIN OPERATIONAL — INR ₹94.47 MAY 8 CLOSE; STABILIZED ₹94.4-94.7 RANGE; ₹95 TRIGGER REVERSED. ₹95 TRIGGER DURABLY REVERSED.** RBI defensive toolkit (NOP cap $100mn/day + INR NDF restriction) held INR through ₹95.36 record May 5, contributed to pullback to ₹94.74 on May 7 morning. India 10Y G-Sec ~6.99% (-3-5bps from recent 7.05% high); softer crude easing inflation expectations + DXY weakness allowing FII debt return. About 50% crisis-linked, 50% RBI policy expectations. **The MOU framework is the structural relief catalyst:** if signed within 14 days, RBI may begin to wind down OMC special-credit-facility (Brent <$103 sustained 2-3 sessions trigger NOT yet activated but in-range — Brent $101.95 May 7 morning). FX reserves >$700B (~11mo import cover). Governor Malhotra's 'FX curbs won't remain forever' framing remains operative. **Decision-relevant signal:** if MOU signs and FII rotation reverses (with USD/INR ₹94, Brent $101, CAD pressure easing), RBI has structural room to ease policy rate from 5.25% — multi-quarter India equity tailwind setup. If Iran rejects MOU, INR weakens back toward ₹95-96 territory and RBI defensive escalation continues.",
+  "last_updated": "2026-05-12",
+  "summary": "Day 73-74 (Mon-Tue). **RBI'S ₹95.50 DIRECT-INTERVENTION THRESHOLD CLEANLY BROKEN — INR ₹95.54/USD MAY 12 (intraday). The macro-prudential toolkit (NOP cap $100mn/day + INR NDF restriction operational since May 5) has been TESTED AND BROKEN.** Trigger 'USD/INR crosses ₹95/USD' RE-BREACHED after May 6 reversal. **RBI FOREX RESERVES -$7.79bn TO $690.69bn WEEK ENDED MAY 1 — sharp drawdown, evidence of active intervention; reserves down ~$38bn from late-Feb peak $728.49bn** (~10.5mo import cover, still safe but visibly draining). The curbs slowed but did not stop the move. Bond market: India 10Y G-Sec 6.96-6.99%; new 10Y auction cut-off near 6.95% — auction-anchored despite crude bid. **The cascade is now self-reinforcing: Brent $105.58 → CAD widening → FII -₹8,437 cr single day (highest since April 24) → ₹2.06 lakh cr YTD (exceeds full-year 2025 by ₹40k cr) → reserves drain → weaker rupee → imported inflation → bond yields up → debt-FPI also out → more INR pressure.** Modi May 10-11 Hyderabad address (defer gold/foreign travel/fertilizer cut/edible oil restraint) explicitly targets FX pressure points (gold imports ~$50bn/yr drain) — first major Indian-government public engagement of cycle. RBI now in position where the next test is ₹96 within 5-7 sessions (markets dossier C2). **Decision-relevant signal:** RBI structural room to ease policy from 5.25% is GONE in current regime — cuts would accelerate FII exit. Bullish reversal requires Brent <$95 sustained 5+ sessions + FII flow turn positive + INR retracement to ₹93 handle. None imminent. FY27 GDP forecast cut 6.7%→6.2% by global brokerage — energy shock 'historically large with asymmetric macro risks.'",
   "current": {},
   "active_triggers": [
     {
@@ -64,16 +64,16 @@
       "type": "intervention",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 23
+      "last_activated": "2026-05-12",
+      "activation_count": 25
     },
     {
       "to": "nifty-50",
       "type": "rate_expectations",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 12
+      "last_activated": "2026-05-12",
+      "activation_count": 13
     },
     {
       "to": "brent-crude",
@@ -93,6 +93,20 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-12",
+      "headline": "RBI ₹95.50 DIRECT-INTERVENTION THRESHOLD CLEANLY BROKEN — INR ₹95.54 May 12 intraday record; toolkit (NOP cap $100mn/day + INR NDF restriction) TESTED AND BROKEN; RBI FOREX RESERVES -$7.79bn TO $690.69bn WEEK ENDED MAY 1 (down ~$38bn from late-Feb peak $728.49bn = active intervention not stopping); India 10Y G-Sec 6.96-6.99% (new 10Y auction cut-off near 6.95%, auction-anchored despite crude bid); FII -₹8,437.56 cr single-day May 11 (highest since April 24); YTD CY26 FII outflow ₹2.06 lakh cr (exceeds full-year 2025 ₹1.66 lakh cr by ₹40k cr); DII absorbed ~70% (₹5,939.65 cr). Modi May 10-11 Hyderabad address explicitly targets FX pressure (defer gold purchases 1 year + foreign travel 1 year + cut fertilizer 50%). FY27 GDP forecast cut 6.7%→6.2% by global brokerage. Reversibility ASYMMETRIC: requires Brent <$95 sustained 5+ sessions + FII positive + INR ₹93. Next test ₹96 within 5-7 sessions.",
+      "sources": [
+        "Business Standard May 11 + May 12 live blogs (primary)",
+        "NSDL / NSE official",
+        "News Orbiter / Whalesbook (forex reserves -$7.79bn)",
+        "RBI weekly statistical supplement",
+        "TradingEconomics India 10Y",
+        "CNBC + Al Jazeera (Modi address)",
+        "MEA official statement"
+      ],
+      "verification": "INR ₹95.54 + ₹95.50 RBI threshold break = CONFIRMED multi-source; RBI reserves -$7.79bn week ended May 1 = CONFIRMED (RBI primary); FII flow data = CONFIRMED (NSDL primary); India 10Y auction cut-off 6.95% = CONFIRMED; FY27 GDP downgrade = CONFIRMED (global brokerage call)"
+    },
     {
       "date": "2026-04-29",
       "headline": "DAY 2 OF ₹94.50 BREACH HOLDING; ECL FRAMEWORK CLARIFICATION SETTLES BANKING STRESS (BANK NIFTY FLAT)",

@@ -3,8 +3,8 @@
   "name": "United Arab Emirates",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-05-10",
-  "summary": "Day 72 Sunday. **B4 UAE AIR-DEFENSE ENGAGEMENT MAY 8 SCALE REFINED (UPDATED — yesterday's brief understated): 2 BALLISTIC MISSILES + 3 DRONES LAUNCHED BY IRAN TOWARD THE UAE; UAE DEFENSE MINISTRY CONFIRMED 3 PEOPLE WOUNDED.** Not clear whether all incoming weapons were intercepted. Strike followed CENTCOM's announcement that it had thwarted attacks on three US Navy ships in the Strait of Hormuz earlier same day. **Structural read:** SECOND major UAE-targeted Iranian attack of the cycle (first was the May 4 Fujairah refinery strike). UAE is now demonstrably on the IRGC operational targeting list. UAE response continues hawkish per prior analysis. **The Gulf-state response to Iran is now openly bifurcated:** UAE (Iranian targets / hawkish operationally), Bahrain (US-aligned counter-IRGC; 41 arrests May 9), Qatar (mediating with IRGC contacts via Axios scoop), Saudi (deniable-operational + public-pro-mediation), Oman (silent mediator), Kuwait (denied airspace per WSJ scoop). UAE airspace partial closure post-Fujairah expires today May 11 baseline. The Saudi-UAE structural overhang persists: MBS silence on UAE OPEC exit (May 1 effective) + Fujairah strike continues. UAE FM rather than ruler at Jeddah summit deepens diplomatic distance. ADNOC structurally positioned to undercut Saudi pricing (Murban discount widening to $3.50/bbl by Q3 per WoodMac).",
+  "last_updated": "2026-05-12",
+  "summary": "Day 73-74 (Mon-Tue). **B6 WSJ REVELATION MAY 11 (MAJOR): UAE AIR FORCE SECRETLY CARRIED OUT AIRSTRIKES INSIDE IRAN DURING THE WAR, INCLUDING AN APRIL 8 STRIKE ON THE LAVAN ISLAND OIL REFINERY (Persian Gulf, 55,000 bpd capacity, knocked offline for months) USING MIRAGE 2000-9 AIRCRAFT.** UAE has not publicly acknowledged. Washington reportedly 'positively received' Abu Dhabi's participation. **REFRAMES ENTIRE REGIONAL ALIGNMENT PICTURE: UAE moves from 'passive US host with hawkish air defense' to THE ONLY THIRD COUNTRY TO JOIN US-ISRAEL KINETIC OPERATIONS AGAINST IRAN.** Iran's prior March/April UAE-targeted missile and drone strikes — previously framed as Iran 'targeting US-aligned Gulf hosts' — are now retroactively contextualized as DIRECT RETALIATION for confirmed covert UAE participation in offensive ops on Iran. Saudi Arabia, by contrast, denied via Al-Hadath May 8 that it allowed offensive airspace use — visibly distancing. **UAE silent on WSJ exposure; The National (UAE state-aligned) conspicuously absent from leading the Lavan story — ran a piece headlined 'Trump heads to Beijing... overshadowed by Iran war' but did NOT amplify WSJ's revelation. UAE state-aligned media treating WSJ scoop as something to wait out, not engage. Iran silent on WSJ exposure (the operational response IS the prior UAE-targeted strikes, retroactively reframed); Khaleej Times continued straight reporting on UAE-Iran kinetic events but did not editorialize.** Gulf-state alignment fracture is now visible: UAE (only third combatant, covertly), Saudi (deniable-operational + public-pro-mediation, distancing from UAE military track), Qatar (mediating with IRGC contacts), Bahrain (US-aligned counter-IRGC), Kuwait (denied airspace), Oman (silent). **Iran on May 8 retaliated against UAE with 2 ballistic + 3 drones (3 wounded confirmed) — now retroactively readable as response to UAE's role.** **Modi 5-nation tour May 15-20 (UAE-Netherlands-Sweden-Norway-Italy) — India is engaging with only third combatant nation simultaneously with diversification framing; UAE leg materially complicated by Lavan revelation.** UAE airspace partial closure post-Fujairah ended on/around May 11 (PRE-confirmed timeline). The Saudi-UAE structural overhang persists.",
   "current": {},
   "active_triggers": [
     {
@@ -43,11 +43,35 @@
   "top_edges": [
     {
       "to": "iran",
-      "type": "kinetic_target_irgc_operational_targeting_list",
+      "type": "kinetic_target_irgc_operational_targeting_list_and_offensive_combatant_retroactively_confirmed",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-10",
-      "activation_count": 21
+      "last_activated": "2026-05-11",
+      "activation_count": 23
+    },
+    {
+      "to": "united-states",
+      "type": "covert_offensive_operations_participant_retroactively_confirmed",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-11",
+      "activation_count": 3
+    },
+    {
+      "to": "israel",
+      "type": "covert_co_combatant_against_iran_per_wsj",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-11",
+      "activation_count": 1
+    },
+    {
+      "to": "saudi-arabia",
+      "type": "intra_gulf_military_track_divergence",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-05-11",
+      "activation_count": 2
     },
     {
       "to": "brent-crude",
@@ -91,6 +115,26 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-12",
+      "headline": "WSJ MAY 11 (MAJOR RETROACTIVE REVELATION): UAE AIR FORCE SECRETLY STRUCK IRAN'S LAVAN ISLAND OIL REFINERY APRIL 8 USING MIRAGE 2000-9 (55,000 bpd capacity offline months) — UAE moves from passive US host with hawkish air defense to THE ONLY THIRD COUNTRY TO JOIN US-ISRAEL KINETIC OPERATIONS AGAINST IRAN. 'Washington reportedly positively received Abu Dhabi's participation.' UAE has not publicly acknowledged. Iran silent on WSJ exposure (operational response IS prior UAE-targeted strikes retroactively reframed). REFRAMES regional alignment: Iran's March/April UAE-targeted missile/drone strikes were direct retaliation for confirmed covert UAE offensive ops, not just 'targeting US-aligned Gulf hosts.' Saudi visibly distancing (denied via Al-Hadath May 8 airspace use for offensive). The National (UAE state-aligned) conspicuously absent from leading WSJ story — UAE state-aligned media treating WSJ scoop as something to wait out. Modi 5-nation tour May 15-20 (UAE first leg) materially complicated by Lavan revelation — India engaging with only third combatant nation simultaneously with diversification framing. UAE airspace partial closure post-Fujairah ended ~May 11.",
+      "sources": [
+        "WSJ (primary, single-source on operational details)",
+        "Times of Israel",
+        "Middle East Eye",
+        "Jerusalem Post",
+        "Mediaite",
+        "Ground News",
+        "Reuters",
+        "Türkiye Today",
+        "FMT",
+        "Western Journal",
+        "JFeed (multi-amplified)",
+        "Al-Hadath (Saudi denial, May 8)",
+        "The National UAE (notable conspicuous absence from leading the story)"
+      ],
+      "verification": "UAE Lavan April 8 strike via Mirage 2000-9 = REPORTED (WSJ primary, single-source on full operational details; UAE has not publicly acknowledged); Saudi denial of offensive airspace use = CONFIRMED DIPLOMATIC SIGNAL via Al-Hadath; UAE state-aligned media non-engagement = CONFIRMED via The National's conspicuous absence from leading the story; Iran-side prior UAE-targeted strikes are the implicit operational response (CONFIRMED ACTION); explicit Iranian re-attribution NOT made publicly"
+    },
     {
       "date": "2026-05-10",
       "headline": "UAE AIR-DEFENSE ENGAGEMENT MAY 8 SCALE REFINED (UPDATED — yesterday's brief understated): 2 BALLISTIC MISSILES + 3 DRONES LAUNCHED BY IRAN TOWARD UAE; 3 PEOPLE WOUNDED CONFIRMED PER UAE DEFENSE MINISTRY; not clear whether all incoming weapons were intercepted. Strike followed CENTCOM's same-day announcement of thwarting attacks on three US Navy ships in Strait of Hormuz. SECOND major UAE-targeted Iranian attack of cycle (first: May 4 Fujairah refinery strike). UAE now demonstrably on IRGC operational targeting list. Gulf bifurcation now operationally specific: UAE (Iranian targets / hawkish), Bahrain (US-aligned counter-IRGC, 41 arrests May 9), Qatar (mediating via IRGC contacts), Saudi (deniable-operational + public-pro-mediation), Oman (silent), Kuwait (denied airspace). The Saudi-UAE structural overhang persists.",

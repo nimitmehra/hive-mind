@@ -3,8 +3,8 @@
   "name": "Lebanon",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-05-10",
-  "summary": "Day 72 Sunday — DAY 14/14 OF ISRAELI-CIVILIAN-CASUALTY TRIGGER WINDOW (closes today; trigger UNTRIPPED). **MAY 9 IDF STRUCK 85+ HEZBOLLAH TARGETS IN SOUTHERN LEBANON IN 24 HOURS, INCL. UNDERGROUND WEAPONS SITE IN BEQAA VALLEY, AFTER EVACUATION WARNINGS FOR 9 VILLAGES (TAYR DEBBA, AABBASIYYEH, BURJ RAHAL, MAAROUB, BARISH, ARZOUN, JANNATA, ZRARIYEH, AIN BAAL); 12 KILLED INCL. 7 IN SINGLE SAKSAKIYEH STRIKE (A GIRL AMONG THE DEAD).** Hezbollah retaliated via drone strike near Misgav Am — IDF confirmed 3 reservists wounded by Hezbollah explosive drones (military targets only). May 8 Mt. Meron drone impact CORRECTED — Times of Israel clarified the impact was in territory ADJACENT to Lebanon border, not in the Meron area itself; 2 soldiers wounded (1 seriously) by drone in adjacent territory. **Coordination-decay framework holds:** capability demonstrated on both sides, but the line between 'military target' and 'civilian inside Israel proper' has HELD. Trigger window expires today with trigger UNTRIPPED. Asymmetry continues: Lebanese casualties cumulating, ZERO Israeli civilians inside Israel proper. Hezbollah SG Naim Qassem still 'categorically rejects' Lebanon-Israel direct talks. Israeli airstrikes Friday May 8 killed 5-10 in southern Lebanon (paramedic with Lebanese Civil Defense, two children, three women per Lebanon health ministry; locations include Toura village near Tyre, Kfar Chouba, others). Saturday May 9: Israeli airstrike on car near Bafliyeh village killed 4 Hezbollah members. Asymmetry continues: Lebanese casualties cumulating, ZERO Israeli civilians inside Israel proper. Hezbollah dialed capability without breaking the structural ceiling — the choice of military target (not civilian) and absence of casualties means trigger remains UNTRIPPED at Day 13/14 with Day 14 (~May 10) the last day of the originally-flagged window. **Coordination-decay framework holds:** despite first cross-border demonstration, deliberate military targeting and absence of casualties keep ceiling intact. Hezbollah SG Naim Qassem still 'categorically rejects' Lebanon-Israel direct talks. PM Netanyahu personally ordered the May 6 Beirut strike that killed Radwan commander Ballout + 2 senior commanders.",
+  "last_updated": "2026-05-12",
+  "summary": "Day 73-74 (Mon-Tue). **IDF STRIKES INTENSIFIED — 30+ LOCATIONS HIT MAY 11 across south and east Lebanon (evacuation warnings for Rihan, Jarjouaa, Kfar Roummane, Nmairiyeh, Arab Salim, Jmaijmeh, Mashgharah, Qellaya, Harouf); drone strike Zebdine killed 2 civilians distributing bread; airstrike on Abba killed 2/wounded 5; FIRST BEIRUT SOUTHERN-SUBURB STRIKE SINCE APRIL 16 CEASEFIRE.** Lebanese Health Ministry: ≥23 killed prior 24h; **cumulative war toll 2,869.** May 12: IDF strikes Adshit (3 strikes), Haris (1 strike, 7th cumulative on Haris), Dabaal — ≥7 killed, 7 wounded (Lebanese NNA). **HEZBOLLAH EXPLOSIVE DRONE STRIKE NEAR MANARA (just inside Israel) MAY 10 ~16:00 KILLED IDF RESERVIST WO ALEXANDER GLOVANYOV** = 5th IDF soldier killed post-April 16 ceasefire (all by FPV/explosive drones); Glovanyov is SOLDIER not CIVILIAN, **MAY 10 trigger for Israeli civilian casualty from Hezbollah EXPIRED UNTRIPPED, holds through May 12.** Civilian-inside-Israel ceiling has HELD across full window. **NEW VARIABLE MAY 12:** surface-to-air missile fired from Lebanon at IAF aircraft over south Lebanon; IDF launched interceptor; alerts triggered along Israel's Mediterranean coast (REPORTED — CGTN single-source, needs Israeli-side corroboration). Hezbollah claimed 24 attacks May 11 (artillery/drones/missiles at Khiam, Deir Seryan, Tayr Harfa, Bayyada, Rashaf, Naqoura) — Hezbollah-side CLAIMED, Israeli side reported only Glovanyov KIA. **Netanyahu CBS 60 Minutes May 11: war 'not over' until proxies neutralized; Haaretz framed as Netanyahu signaling Hezbollah fighting may continue DELIBERATELY after ceasefire.** Asymmetry continues: 2,869+ Lebanese killed cycle vs zero Israeli civilians inside Israel proper. Hezbollah SG Naim Qassem still 'categorically rejects' Lebanon-Israel direct talks. **The Beirut southern-suburb strike May 11 is a meaningful escalation marker — IDF crossed an unofficial post-ceasefire line.**",
   "current": {},
   "active_triggers": [
     {
@@ -44,9 +44,29 @@
       "directness": 1,
       "last_activated": "2026-04-27",
       "activation_count": 5
+    },
+    {
+      "to": "israel",
+      "type": "ceasefire_substantively_collapsed",
+      "weight": 10,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "activation_count": 39
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-12",
+      "headline": "IDF STRIKES INTENSIFIED — 30+ Lebanon locations May 11 (evacuation warnings 9 villages); Zebdine drone strike killed 2 civilians distributing bread; Abba airstrike killed 2/wounded 5; FIRST BEIRUT SOUTHERN-SUBURB STRIKE SINCE APRIL 16 CEASEFIRE. Lebanese Health Ministry ≥23 killed prior 24h; cumulative war toll 2,869. May 12: IDF strikes Adshit (3), Haris (1, 7th cumulative), Dabaal — ≥7 killed, 7 wounded. Hezbollah drone strike near Manara May 10 killed IDF reservist Glovanyov = 5th IDF soldier KIA post-ceasefire (SOLDIER not CIVILIAN — May 10 trigger UNTRIPPED HOLDS through May 12). May 12: SAM fired from Lebanon at IAF aircraft (CGTN single-source, needs Israeli-side corroboration). Hezbollah claimed 24 attacks May 11. Netanyahu CBS 60 Minutes: war 'not over' until proxies neutralized; Haaretz frames as deliberate war-extension signal.",
+      "sources": [
+        "Al Jazeera + Lebanese NNA + Wikipedia 2026 Lebanon war timeline + Detroit News + Democracy Now (IDF strikes Lebanon)",
+        "Lebanese Health Ministry (casualty totals)",
+        "Times of Israel + JPost (Glovanyov KIA)",
+        "CGTN (SAM at IAF aircraft, single-source)",
+        "CBS 60 Minutes (Netanyahu)"
+      ],
+      "verification": "IDF strikes 30+ locations + first Beirut southern-suburb strike since April 16 = CONFIRMED multi-source; Lebanese cumulative toll 2,869 = CONFIRMED (Lebanese Health Ministry primary); Glovanyov KIA = CONFIRMED multi-source; civilian-trigger UNTRIPPED HOLDS; SAM May 12 = REPORTED (CGTN single-source); Netanyahu 60 Minutes 'not over until proxies neutralized' = CONFIRMED RHETORIC"
+    },
     {
       "date": "2026-05-10",
       "headline": "DAY 14/14 OF TRIGGER WINDOW (closes today; trigger UNTRIPPED) — IDF STRUCK 85+ HEZBOLLAH TARGETS IN SOUTHERN LEBANON IN 24 HOURS (INCL. UNDERGROUND WEAPONS SITE IN BEQAA VALLEY, AFTER EVACUATION WARNINGS FOR 9 VILLAGES); 12 KILLED INCL. 7 IN SINGLE SAKSAKIYEH STRIKE (A GIRL AMONG THE DEAD); HEZBOLLAH DRONES WOUNDED 3 IDF RESERVISTS NEAR MISGAV AM (MILITARY TARGETS ONLY); MT. MERON DRONE IMPACT CORRECTED — IN TERRITORY ADJACENT TO LEBANON BORDER, NOT MERON AREA; 2 SOLDIERS WOUNDED (ONE SERIOUSLY). Coordination-decay framework holds: capability demonstrated on both sides, but civilian-inside-Israel ceiling has HELD. Trigger window expires today with trigger UNTRIPPED. Asymmetry continues: Lebanese casualties cumulating, ZERO Israeli civilians inside Israel proper. Hezbollah SG Naim Qassem still 'categorically rejects' Lebanon-Israel direct talks.",

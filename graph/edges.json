@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10",
+  "last_updated": "2026-05-12",
   "edges": [
     {
       "from": "aluminum",
@@ -1996,6 +1996,206 @@
       "type": "parallel_substantive_vs_political_mediator_tracks",
       "added": "2026-05-10",
       "rationale": "Per Axios scoop: 'While Pakistan has been the official mediator since the beginning of the war, the Qataris have been working behind the scenes... White House views them as especially effective in negotiations with Iran. Qataris functioning as one of at least three back channels.' Pakistan retains OFFICIAL/political mediation; Qatar is the SUBSTANTIVE Iran-side operational channel via IRGC senior generals. Edge captures the parallel-track structure (not adversarial; complementary)."
+    },
+    {
+      "from": "uae",
+      "to": "israel",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-11",
+      "type": "covert_co_combatant_against_iran_per_wsj",
+      "added": "2026-05-12",
+      "rationale": "B6 from intel.md: WSJ May 11 revelation (REPORTED via single primary, multi-amplified) that UAE Air Force secretly carried out airstrikes inside Iran during the war, including April 8 strike on Lavan Island oil refinery using Mirage 2000-9 (55,000 bpd capacity offline months). UAE moves from passive US host to ONLY third country to join US-Israel kinetic operations against Iran. Edge captures the covert military co-combatant relationship — UAE has not publicly acknowledged; Iran silent on WSJ exposure. Conservative 8.0 weight on REPORTED single-primary with strong multi-amplification."
+    },
+    {
+      "from": "uae",
+      "to": "united-states",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-11",
+      "type": "covert_offensive_operations_participant_retroactively_confirmed",
+      "added": "2026-05-12",
+      "rationale": "B6 from intel.md: WSJ revealed UAE conducted offensive strikes on Iran's Lavan refinery; 'Washington reportedly positively received Abu Dhabi's participation.' Edge captures the operational co-belligerent relationship vs the prior 'financial/security architecture host' framing. Iran's prior UAE-targeted strikes now retroactively readable as direct retaliation against confirmed third combatant."
+    },
+    {
+      "from": "uae",
+      "to": "saudi-arabia",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-05-11",
+      "type": "intra_gulf_military_track_divergence",
+      "added": "2026-05-12",
+      "rationale": "Saudi visibly distancing from UAE military track in light of WSJ Lavan revelation. Saudi denied via Al-Hadath May 8 that it allowed offensive airspace use. The Gulf-state response now openly fractured: UAE (covert third combatant), Saudi (deniable-operational + public-pro-mediation, distancing), Qatar (substantive mediator), Bahrain (US-aligned counter-IRGC), Kuwait (denied airspace), Oman (silent)."
+    },
+    {
+      "from": "marine-war-risk-insurance",
+      "to": "brent-crude",
+      "weight": 6.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "direct_floor_mechanism_confirmed",
+      "added": "2026-05-12",
+      "rationale": "Per markets dossier E4: AWRP ~1% H&M (8x pre-war baseline) is now a direct mechanism in the Brent floor — confirmed via Lloyd's List + S&P Global + LMA. Promotes from 2nd-order to 1st-order edge as confirmed price-formation mechanism."
+    },
+    {
+      "from": "cf-industries",
+      "to": "fertilizer-urea",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "sector_proxy_pricing_power",
+      "added": "2026-05-12",
+      "rationale": "CF Industries is world's largest publicly-traded nitrogen-fertilizer producer; +8.2% 1D May 12 = MOVE OF THE DAY. CF, Nutrien, BASF, Linde all bid together = sector regime shift, not single-stock event. Q1 EBITDA $983M / 99% ammonia capacity utilization confirms pricing-power capture."
+    },
+    {
+      "from": "cf-industries",
+      "to": "qatar",
+      "weight": 8.0,
+      "directness": 2,
+      "last_activated": "2026-05-12",
+      "type": "supply_disruption_beneficiary_qafco_offline",
+      "added": "2026-05-12",
+      "rationale": "Qatar/Ras Laffan QAFCO + SABIC Agri-Nutrients curtailed since Feb 28 = ~35-40% global urea export capacity affected. CF directly captures the displaced supply via US Gulf urea +50%."
+    },
+    {
+      "from": "cf-industries",
+      "to": "india",
+      "weight": 8.0,
+      "directness": 2,
+      "last_activated": "2026-05-12",
+      "type": "demand_confirmation_via_modi_fertilizer_50_cut",
+      "added": "2026-05-12",
+      "rationale": "Modi May 10-11 'cut fertilizer 50%' appeal = Indian-government public confirmation binding shock. India IPL DAP tender May 11 received offers $935/t cfr (normal $580-650) = extraordinary print. UBS raised CF target $97→$140 explicitly citing severity of disruptions."
+    },
+    {
+      "from": "kospi",
+      "to": "south-korea",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "primary_equity_market",
+      "added": "2026-05-12",
+      "rationale": "KOSPI is the primary Korean equity benchmark. -1.7% 1D first profit-taking session of cycle after +33.1% 1M / +78% YTD vertical run."
+    },
+    {
+      "from": "kospi",
+      "to": "semiconductors",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "samsung_sk_hynix_dominant_weight",
+      "added": "2026-05-12",
+      "rationale": "Samsung +111% YTD / SK Hynix +144% YTD = dominant weights in KOSPI; AI infrastructure CapEx demand cycle."
+    },
+    {
+      "from": "kospi",
+      "to": "helium",
+      "weight": 7.0,
+      "directness": 2,
+      "last_activated": "2026-05-12",
+      "type": "supply_chain_tail_risk_with_countdown",
+      "added": "2026-05-12",
+      "rationale": "Korean fab buffer ~4 weeks remaining to mid-June exhaustion = most time-sensitive trigger in graph. Tier-1 chipmaker production-halt risk."
+    },
+    {
+      "from": "kospi",
+      "to": "iran",
+      "weight": 5.0,
+      "directness": 2,
+      "last_activated": "2026-05-12",
+      "type": "hmm_namu_attribution_diplomatic_friction",
+      "added": "2026-05-12",
+      "rationale": "HMM Namu forensics May 11 — Seoul stopped short of publicly blaming Iran (mine + torpedo ruled out; 2 unidentified aerial objects). Korea moved from passive helium victim to active diplomatic actor."
+    },
+    {
+      "from": "fii-flows",
+      "to": "india",
+      "weight": 10.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "transmission_mechanism_capital_flight",
+      "added": "2026-05-12",
+      "rationale": "FII -₹8,437.56 cr May 11 (highest since April 24); YTD CY26 ₹2.06 lakh cr exceeds full-year 2025 by ₹40k cr. FII is the dominant transmission mechanism in every India-market causal chain."
+    },
+    {
+      "from": "fii-flows",
+      "to": "nifty-50",
+      "weight": 10.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "dominant_marginal_buyer_seller",
+      "added": "2026-05-12",
+      "rationale": "FPI ownership ~16% (2-decade low); DII absorbing ~70-90% of FII selling but gap widening. Nifty -1.49% May 11 directly attributable to FII flow."
+    },
+    {
+      "from": "fii-flows",
+      "to": "inr-usd",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "fx_pressure_via_dollar_demand",
+      "added": "2026-05-12",
+      "rationale": "FII outflow ₹2.06 lakh cr YTD drives USD demand on capital flight; INR ₹95.54 fresh record breaking RBI ₹95.50 threshold directly linked."
+    },
+    {
+      "from": "fii-flows",
+      "to": "rbi",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "intervention_trigger_via_reserve_drain",
+      "added": "2026-05-12",
+      "rationale": "RBI reserves -$7.79bn week ended May 1 = active intervention. NOP cap + NDF restriction operational since May 5 to slow FII-driven dollar demand."
+    },
+    {
+      "from": "nuclear-program",
+      "to": "iran",
+      "weight": 10.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "subject_of_policy_axis_central_diplomatic_file",
+      "added": "2026-05-12",
+      "rationale": "Iran's May 10-11 counter-proposal contained first HEU concession of cycle. Nuclear file is now central diplomatic axis of cycle."
+    },
+    {
+      "from": "nuclear-program",
+      "to": "united-states",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "counterparty_rejection_state",
+      "added": "2026-05-12",
+      "rationale": "Trump publicly rejected Iran HEU concession with return clause as 'TOTALLY UNACCEPTABLE.' New OFAC sanctions May 12 targeted Iranian nuclear research with military applications."
+    },
+    {
+      "from": "nuclear-program",
+      "to": "israel",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "maximalist_position_uranium_removal_strike_ready",
+      "added": "2026-05-12",
+      "rationale": "Netanyahu CBS 60 Minutes May 11: war 'not over' until uranium removed + enrichment sites dismantled — 'you go in and you take it out.' Maximalist position raises ceiling on what counts as a US-Iran deal."
+    },
+    {
+      "from": "nuclear-program",
+      "to": "russia",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "implicit_heu_custodian_path",
+      "added": "2026-05-12",
+      "rationale": "Russia (Putin May 9 standing offer) is implicit third-country candidate for HEU transfer per Iranian counter-proposal terms, but never publicly named. If formally named, uranium-sector + russia + nuclear-program all rerate."
+    },
+    {
+      "from": "nuclear-program",
+      "to": "uranium-sector",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-12",
+      "type": "commodity_proxy_pricing_central_diplomatic_axis",
+      "added": "2026-05-12",
+      "rationale": "URA +3.7% 1D / +12.3% 1M reflects markets pricing nuclear-energy-security premium as durable. Uranium decoupled from gold (-0.7% 1M) and oil (+6.3% 1M)."
     }
   ]
 }

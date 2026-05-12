@@ -24,13 +24,13 @@ An **intelligence system** — not a news aggregator — that produces daily bri
 
 ## The Knowledge Graph
 
-The graph currently tracks **50 nodes** across 7 types and **275 weighted edges** representing causal connections.
+The graph currently tracks **54 nodes** across 8 types and **295 weighted edges** representing causal connections.
 
 ### Node Types
 - **Countries** (17): Bahrain, China, France, India, Iran, Iraq, Israel, Kuwait, Lebanon, Pakistan, Qatar, Russia, Saudi Arabia, South Korea, Taiwan (TSMC), United Arab Emirates, United States
 - **Commodities** (7): Aluminum, Brent Crude, European TTF Natural Gas, Fertilizer / Urea, Gold, Helium, Natural Gas / LNG
-- **Institutions** (8): European Central Bank (ECB), Federal Reserve, Hezbollah, Houthis (Yemen), Islamic Revolutionary Guard Corps (IRGC), Marine War Risk Insurance, OPEC+, Reserve Bank of India
-- **Indices** (4): INR/USD Exchange Rate, Nifty 50, S&P 500, US 10-Year Treasury Yield
+- **Institutions** (10): European Central Bank (ECB), FII (Foreign Institutional Investor) Flows — India, Federal Reserve, Hezbollah, Houthis (Yemen), Iran Nuclear Program & HEU Custody Architecture, Islamic Revolutionary Guard Corps (IRGC), Marine War Risk Insurance, OPEC+, Reserve Bank of India
+- **Indices** (5): INR/USD Exchange Rate, KOSPI (Korea Composite Stock Index), Nifty 50, S&P 500, US 10-Year Treasury Yield
 - **Trade Routes** (2): Red Sea / Suez Canal, Strait of Hormuz
 - **Sectors** (7): Defense & Aerospace Sector, Energy Sector (Global), Indian IT Sector (TCS/Infosys/Wipro), Indian Oil Marketing (IOC/BPCL/HPCL), Semiconductors (SMH/SOX), Shipping / Tanker Rates, Uranium Sector
 - **Persons** (5): Ahmad Vahidi, Donald Trump, JD Vance, Masoud Pezeshkian, Mojtaba Khamenei
