@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12",
+  "last_updated": "2026-05-13",
   "edges": [
     {
       "from": "aluminum",
@@ -50,14 +50,14 @@
       "to": "fed",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "brent-crude",
       "to": "india",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "brent-crude",
@@ -99,14 +99,15 @@
       "to": "strait-of-hormuz",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "china",
       "to": "iran",
-      "weight": 6.0,
+      "weight": 7.5,
       "directness": 1,
-      "last_activated": "2026-03-19"
+      "last_activated": "2026-05-13",
+      "type": "brics_alignment_with_ofac_blocking_rules_invocation"
     },
     {
       "from": "china",
@@ -203,9 +204,12 @@
     {
       "from": "fed",
       "to": "brent-crude",
-      "weight": 10,
+      "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-29"
+      "last_activated": "2026-05-13",
+      "type": "inflation_input_cpi_3_8_pass_through",
+      "added": "2026-05-13",
+      "rationale": "April CPI 3.8% YoY (BLS May 12, three-year high) with energy contributing >40% of headline gain = first cycle inflation print to fully reflect oil pass-through; closes near-term Fed easing door. Fed cannot cut while Brent >$100."
     },
     {
       "from": "fed",
@@ -219,7 +223,7 @@
       "to": "sp-500",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "fed",
@@ -233,14 +237,14 @@
       "to": "us-10y-yield",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "fertilizer-urea",
       "to": "india",
       "weight": 8.5,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "fertilizer-urea",
@@ -254,7 +258,7 @@
       "to": "qatar",
       "weight": 8.0,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "fertilizer-urea",
@@ -317,14 +321,14 @@
       "to": "israel",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-10"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "hezbollah",
       "to": "lebanon",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-10"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "houthis",
@@ -359,7 +363,7 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "india",
@@ -373,14 +377,15 @@
       "to": "inr-usd",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "india",
       "to": "iran",
-      "weight": 8.5,
+      "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-13",
+      "type": "araghchi_brics_visit_strategic_autonomy_axis"
     },
     {
       "from": "india",
@@ -394,14 +399,14 @@
       "to": "nifty-50",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "india",
       "to": "rbi",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "india",
@@ -457,28 +462,28 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "inr-usd",
       "to": "india",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "inr-usd",
       "to": "nifty-50",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "inr-usd",
       "to": "rbi",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "iran",
@@ -521,7 +526,7 @@
       "to": "israel",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-16"
+      "last_activated": "2026-05-12"
     },
     {
       "from": "iran",
@@ -564,21 +569,21 @@
       "to": "strait-of-hormuz",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-10"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "iran",
       "to": "uae",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-10"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "iran",
       "to": "united-states",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-10"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "iraq",
@@ -669,7 +674,8 @@
       "to": "hezbollah",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-10"
+      "last_activated": "2026-05-13",
+      "type": "lethal_kinetic_post_ceasefire_idf_ground_tempo_escalation"
     },
     {
       "from": "israel",
@@ -690,7 +696,8 @@
       "to": "lebanon",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-10"
+      "last_activated": "2026-05-13",
+      "type": "ceasefire_substantively_collapsed_litani_ground_crossing"
     },
     {
       "from": "israel",
@@ -725,7 +732,8 @@
       "to": "israel",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-10"
+      "last_activated": "2026-05-13",
+      "type": "ceasefire_substantively_collapsed_litani_ground_crossing"
     },
     {
       "from": "united-states",
@@ -830,7 +838,7 @@
       "to": "rbi",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-14"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "opec-plus",
@@ -971,7 +979,7 @@
       "to": "inr-usd",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "rbi",
@@ -1047,9 +1055,10 @@
     {
       "from": "saudi-arabia",
       "to": "iran",
-      "weight": 10.0,
+      "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-05-13",
+      "type": "covert_kinetic_participant_late_march_tit_for_tat"
     },
     {
       "from": "saudi-arabia",
@@ -1133,14 +1142,14 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-27"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "sp-500",
       "to": "fed",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "sp-500",
@@ -1154,14 +1163,14 @@
       "to": "united-states",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "strait-of-hormuz",
       "to": "brent-crude",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-10"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "strait-of-hormuz",
@@ -1175,7 +1184,7 @@
       "to": "iran",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-04-28"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "strait-of-hormuz",
@@ -1203,7 +1212,7 @@
       "to": "shipping-tankers",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-10"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "strait-of-hormuz",
@@ -1238,14 +1247,14 @@
       "to": "brent-crude",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "trump",
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "trump",
@@ -1273,7 +1282,7 @@
       "to": "strait-of-hormuz",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "trump",
@@ -1308,7 +1317,7 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "uae",
@@ -1336,7 +1345,7 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-10"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "united-states",
@@ -1574,7 +1583,7 @@
       "to": "iran",
       "weight": 6.0,
       "directness": 1,
-      "last_activated": "2026-04-23"
+      "last_activated": "2026-05-13"
     },
     {
       "from": "uranium-sector",
@@ -1773,7 +1782,10 @@
       "to": "india",
       "weight": 8.0,
       "directness": 1,
-      "last_activated": "2026-05-06"
+      "last_activated": "2026-05-13",
+      "type": "modi_5_nation_tour_strategic_partner_with_combatant_overhang",
+      "added": "2026-05-13",
+      "rationale": "Mirror of india->uae. ~3.5M Indian diaspora in UAE makes any anti-UAE framing politically unworkable for Indian press; Modi UAE first leg cements bilateral despite combatant disclosure."
     },
     {
       "from": "fed",
@@ -1830,12 +1842,12 @@
     {
       "from": "saudi-arabia",
       "to": "uae",
-      "weight": 5.5,
+      "weight": 7.5,
       "directness": 1,
-      "last_activated": "2026-05-07",
-      "type": "fragmenting_opec_partners",
-      "added": "2026-05-07",
-      "rationale": "E5 from markets.md: relationship degradation from 'ally' to 'fragmenting OPEC partners.' Tadawul -0.5% on global risk-on day; UAE OPEC exit effective May 1; MBS Day 9/14 silence; UAE FM rather than ruler at Jeddah summit. Bilateral relationship overhang now has consistent market evidence."
+      "last_activated": "2026-05-13",
+      "type": "intra_gulf_military_track_now_partial_convergence",
+      "added": "2026-05-13",
+      "rationale": "Saudi covert kinetic disclosure (Newsweek+WSJ late-March strikes) moves Saudi from 'distancing from UAE military track' to 'partial convergence' with UAE's confirmed combatant role; structural Gulf-row re-encoding."
     },
     {
       "from": "brent-crude",
@@ -1940,10 +1952,10 @@
     {
       "from": "saudi-arabia",
       "to": "iran",
-      "weight": 6.5,
+      "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-05-09",
-      "type": "soft_mediator_via_pakistan_endorsement",
+      "last_activated": "2026-05-13",
+      "type": "covert_kinetic_participant_late_march_tit_for_tat",
       "added": "2026-05-09",
       "rationale": "Saudi Al-Hadath May 8 denial of WSJ scoop on offensive-airspace lift + public endorsement of 'Pakistan's efforts to broker a peace agreement' = MBS playbook of operational deniability + public alignment with Iranian-negotiating-side mediation track. Soft-mediator posture activated."
     },
@@ -1982,7 +1994,7 @@
       "to": "iran",
       "weight": 6.0,
       "directness": 1,
-      "last_activated": "2026-05-10",
+      "last_activated": "2026-05-13",
       "type": "air_defense_engagement_irgc_targeting_list",
       "added": "2026-05-10",
       "rationale": "B4 from intel.md: UAE Defense Ministry confirmed May 8 that 3 people were wounded after air defenses engaged 2 ballistic missiles + 3 drones launched by Iran toward the UAE (UPDATED — yesterday's brief understated). SECOND major UAE-targeted Iranian attack of cycle (first: May 4 Fujairah refinery strike). UAE now demonstrably on IRGC operational targeting list."
@@ -2042,7 +2054,7 @@
       "to": "fertilizer-urea",
       "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-05-12",
+      "last_activated": "2026-05-13",
       "type": "sector_proxy_pricing_power",
       "added": "2026-05-12",
       "rationale": "CF Industries is world's largest publicly-traded nitrogen-fertilizer producer; +8.2% 1D May 12 = MOVE OF THE DAY. CF, Nutrien, BASF, Linde all bid together = sector regime shift, not single-stock event. Q1 EBITDA $983M / 99% ammonia capacity utilization confirms pricing-power capture."
@@ -2052,7 +2064,7 @@
       "to": "qatar",
       "weight": 8.0,
       "directness": 2,
-      "last_activated": "2026-05-12",
+      "last_activated": "2026-05-13",
       "type": "supply_disruption_beneficiary_qafco_offline",
       "added": "2026-05-12",
       "rationale": "Qatar/Ras Laffan QAFCO + SABIC Agri-Nutrients curtailed since Feb 28 = ~35-40% global urea export capacity affected. CF directly captures the displaced supply via US Gulf urea +50%."
@@ -2062,7 +2074,7 @@
       "to": "india",
       "weight": 8.0,
       "directness": 2,
-      "last_activated": "2026-05-12",
+      "last_activated": "2026-05-13",
       "type": "demand_confirmation_via_modi_fertilizer_50_cut",
       "added": "2026-05-12",
       "rationale": "Modi May 10-11 'cut fertilizer 50%' appeal = Indian-government public confirmation binding shock. India IPL DAP tender May 11 received offers $935/t cfr (normal $580-650) = extraordinary print. UBS raised CF target $97→$140 explicitly citing severity of disruptions."
@@ -2072,7 +2084,7 @@
       "to": "south-korea",
       "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-05-12",
+      "last_activated": "2026-05-13",
       "type": "primary_equity_market",
       "added": "2026-05-12",
       "rationale": "KOSPI is the primary Korean equity benchmark. -1.7% 1D first profit-taking session of cycle after +33.1% 1M / +78% YTD vertical run."
@@ -2082,7 +2094,7 @@
       "to": "semiconductors",
       "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-05-12",
+      "last_activated": "2026-05-13",
       "type": "samsung_sk_hynix_dominant_weight",
       "added": "2026-05-12",
       "rationale": "Samsung +111% YTD / SK Hynix +144% YTD = dominant weights in KOSPI; AI infrastructure CapEx demand cycle."
@@ -2092,7 +2104,7 @@
       "to": "helium",
       "weight": 7.0,
       "directness": 2,
-      "last_activated": "2026-05-12",
+      "last_activated": "2026-05-13",
       "type": "supply_chain_tail_risk_with_countdown",
       "added": "2026-05-12",
       "rationale": "Korean fab buffer ~4 weeks remaining to mid-June exhaustion = most time-sensitive trigger in graph. Tier-1 chipmaker production-halt risk."
@@ -2102,7 +2114,7 @@
       "to": "iran",
       "weight": 5.0,
       "directness": 2,
-      "last_activated": "2026-05-12",
+      "last_activated": "2026-05-13",
       "type": "hmm_namu_attribution_diplomatic_friction",
       "added": "2026-05-12",
       "rationale": "HMM Namu forensics May 11 — Seoul stopped short of publicly blaming Iran (mine + torpedo ruled out; 2 unidentified aerial objects). Korea moved from passive helium victim to active diplomatic actor."
@@ -2152,8 +2164,8 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-12",
-      "type": "subject_of_policy_axis_central_diplomatic_file",
+      "last_activated": "2026-05-13",
+      "type": "subject_of_policy_axis_central_diplomatic_file_with_90_rhetoric_escalation",
       "added": "2026-05-12",
       "rationale": "Iran's May 10-11 counter-proposal contained first HEU concession of cycle. Nuclear file is now central diplomatic axis of cycle."
     },
@@ -2196,6 +2208,96 @@
       "type": "commodity_proxy_pricing_central_diplomatic_axis",
       "added": "2026-05-12",
       "rationale": "URA +3.7% 1D / +12.3% 1M reflects markets pricing nuclear-energy-security premium as durable. Uranium decoupled from gold (-0.7% 1M) and oil (+6.3% 1M)."
+    },
+    {
+      "from": "united-states",
+      "to": "china",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-13",
+      "type": "summit_diplomacy_iran_axis_collision",
+      "added": "2026-05-13",
+      "rationale": "Trump Beijing summit May 14-15; Trump 'doesn't need Xi help on Iran' (CONFIRMED) + China MOFCOM May 2 Prohibition Order under Blocking Rules vs OFAC five-refinery secondary sanctions = first formal Chinese legal countermeasure to US sanctions = explicit legal collision architecture."
+    },
+    {
+      "from": "trump",
+      "to": "china",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-13",
+      "type": "summit_diplomacy_iran_pressure",
+      "added": "2026-05-13",
+      "rationale": "Trump departed Washington for Beijing late May 12 declaring 'does not need Xi's help on Iran' + US will win 'one way or the other'; pre-summit posture hardened from May 6-10 cooperative-language phase."
+    },
+    {
+      "from": "india",
+      "to": "uae",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-13",
+      "type": "modi_5_nation_tour_with_covert_combatant_overhang",
+      "added": "2026-05-13",
+      "rationale": "Modi 5-nation tour May 15-20 confirmed (UAE first leg) + UAE confirmed covert combatant (Lavan April 8 per WSJ); explicit 'energy security amid US-Iran war' framing (Khaleej Times); diplomatically loaded by Saudi-strikes disclosure same week."
+    },
+    {
+      "from": "uranium-sector",
+      "to": "nuclear-program",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-13",
+      "type": "commodity_proxy_pricing_central_diplomatic_axis",
+      "added": "2026-05-13",
+      "rationale": "Per markets E4: confirm uranium-sector as first-class node; add edge to nuclear-program (proposed). Initial weight 8.0 reflects URA pricing of nuclear-diplomacy events (HEU news, custodian announcements, enrichment-strike threats)."
+    },
+    {
+      "from": "vix",
+      "to": "sp-500",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-13",
+      "type": "volatility_proxy_event_window_digital",
+      "added": "2026-05-13",
+      "rationale": "VIX promoted to first-class node per markets E1. VIX 17.99 (-2.1%) as summit-pause digital = key transmission mechanism for binary event-window pricing. Initial weight 8.0 reflects VIX as event-window proxy for S&P direction around discrete kinetic-decision windows."
+    },
+    {
+      "from": "vix",
+      "to": "iran",
+      "weight": 5.0,
+      "directness": 2,
+      "last_activated": "2026-05-13",
+      "type": "event_window_proxy_kinetic_vs_paper",
+      "added": "2026-05-13",
+      "rationale": "VIX prices forcible delay of decision (Trump-in-Beijing pause), not threat universe. Iran-related kinetic events repricer of VIX through equity-market channel."
+    },
+    {
+      "from": "vix",
+      "to": "brent-crude",
+      "weight": 6.0,
+      "directness": 2,
+      "last_activated": "2026-05-13",
+      "type": "summit_pause_ceiling_correlation",
+      "added": "2026-05-13",
+      "rationale": "VIX -2.1% paradox correlates with Brent retrace to $106.29 below $108-110 trigger zone — both pricing summit pause as forced kinetic ceiling May 14-16."
+    },
+    {
+      "from": "vix",
+      "to": "united-states",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-05-13",
+      "type": "summit_diplomacy_window_pricing",
+      "added": "2026-05-13",
+      "rationale": "VIX 17.99 prices NO escalation through Trump-Xi summit + modest probability beyond. Single tweet from Beijing or single missile launch reprices everything within same session = binary digital."
+    },
+    {
+      "from": "sp-500",
+      "to": "vix",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-13",
+      "type": "summit_pause_ceiling_mechanic",
+      "added": "2026-05-13",
+      "rationale": "Mirror of vix->sp-500. VIX behaviour now central to graph because it operationalises the kinetic vs paper-disruption-vs-de-escalation trinary in a tradeable way."
     }
   ]
 }

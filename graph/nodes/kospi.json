@@ -3,14 +3,13 @@
   "name": "KOSPI (Korea Composite Stock Index)",
   "type": "index",
   "created": "2026-05-12",
-  "last_updated": "2026-05-12",
-  "summary": "Created 2026-05-12. KOSPI is the primary Korean equity benchmark; persistent index referenced repeatedly in graph for the Korean memory-fab + AI-semis + helium-supply cascade path. **KOSPI 7,690.59 May 12 (-1.7% 1D — first profit-taking session of cycle; +33.1% 1M / +39.3% 3M / +78% YTD into May 11).** The largest 30-day move in any major-market index in recent memory. **Crisis-linked cascade path: war → Qatar Ras Laffan offline → helium constraint → 4-week countdown to Korean fab buffer exhaustion (mid-June) → Samsung/SK Hynix production-halt risk.** **B9 HMM Namu forensics public May 11: Korean joint investigation confirmed strike by 2 unidentified aerial objects ~1 min apart at stern; mine + torpedo RULED OUT; SEOUL STOPPED SHORT OF PUBLICLY BLAMING IRAN — creating diplomatic friction with Trump.** Korea has gone from 'passive helium victim' to 'active diplomatic actor.' USD/KRW ₩1,488.28 (+1.9% 1D) on Korea-Iran-attribution friction + capital outflow. Crisis-linked share: ~40% (helium tail + HMM Namu + diplomatic friction); secular ~60% (AI capex super-cycle dominating Samsung +111% YTD / SK Hynix +144% YTD). **STILL MOST REVERSIBLE POSITION IN WORLD if helium buffers deplete past mid-June.** Watch level: KOSPI 7,500 hold within 5 sessions confirms Korea AI-bid intact despite diplomatic friction.",
+  "last_updated": "2026-05-13",
+  "summary": "Created 2026-05-12. **C4 KOSPI 7,855.47 MAY 13 (+2.8% 1D, +34.1% 1M, +42.6% 3M) — REBOUND AFTER MAY 12 -1.7% SELL-OFF. FM Cho Hyun's 'too early' on HMM Namu attribution + PPP opposition pressure DEFUSES immediate 'Korea forced to name Iran' diplomatic spiral. The 'double-tap drone' forensic confirmation is OPERATIONAL fact; the diplomatic implication is HEDGED. Korean helium-fab buffer ~4 weeks remains structural ceiling — Kornbluth 'tsunami a thousand miles offshore' thesis intact one more session. KOSPI -1.7% May 12 selloff in yesterday's brief is now BETTER-UNDERSTOOD AS PARTIAL REPRICING OF DIPLOMATIC-FRICTION RISK rather than definitive Iran-attribution event.** USD/KRW ₩1,489.12 (+1.0% 1D = DISCONNECT — currency says capital outflow, equity says relief). If both reverse together, regime change. **Asia split: KOSPI +2.8% relief vs SMH -2.6% / TAIEX -1.3% (semis cooled on AI-megacap profit-take, rotation into industrial-cyclicals Cu +2.5%).** Crisis-linked share: ~35% (relief), ~65% AI semis bid. Brent retrace + Trump-Xi summit-trade hopes = Asia ex-China-Japan reflation bid; KOSPI gets cleanest relief. **Watch USD/KRW: if both KOSPI bounce AND USD/KRW reverse together, regime change. Iran-named-attribution within 14 days would reprice helium tail risk in a hurry.** Reversibility: KOSPI bounce reverses on Iran-named-attribution; SMH unwind reverses on AI-capex catalyst return (NVIDIA earnings May 28). ORIGINAL CONTEXT (May 12): KOSPI is primary Korean equity benchmark; persistent index for Korean memory-fab + AI-semis + helium cascade. **KOSPI 7,690.59 May 12 (-1.7% 1D — first profit-taking session of cycle; +33.1% 1M / +39.3% 3M / +78% YTD into May 11).** The largest 30-day move in any major-market index in recent memory. **Crisis-linked cascade path: war → Qatar Ras Laffan offline → helium constraint → 4-week countdown to Korean fab buffer exhaustion (mid-June) → Samsung/SK Hynix production-halt risk.** **B9 HMM Namu forensics public May 11: Korean joint investigation confirmed strike by 2 unidentified aerial objects ~1 min apart at stern; mine + torpedo RULED OUT; SEOUL STOPPED SHORT OF PUBLICLY BLAMING IRAN — creating diplomatic friction with Trump.** Korea has gone from 'passive helium victim' to 'active diplomatic actor.' USD/KRW ₩1,488.28 (+1.9% 1D) on Korea-Iran-attribution friction + capital outflow. Crisis-linked share: ~40% (helium tail + HMM Namu + diplomatic friction); secular ~60% (AI capex super-cycle dominating Samsung +111% YTD / SK Hynix +144% YTD). **STILL MOST REVERSIBLE POSITION IN WORLD if helium buffers deplete past mid-June.** Watch level: KOSPI 7,500 hold within 5 sessions confirms Korea AI-bid intact despite diplomatic friction.",
   "current": {
-    "price": "KOSPI 7,690.59 May 12",
-    "delta_1d": "-1.7%",
-    "delta_1m": "+33.1%",
-    "delta_3m": "+39.3%",
-    "ytd_into_may_11": "+78%",
+    "price": "KOSPI 7,855.47 May 13 (+2.8% 1D rebound after May 12 -1.7%)",
+    "delta_1d": "+2.8%",
+    "delta_1m": "+34.1%",
+    "delta_3m": "+42.6%",
     "pre_crisis_baseline": "~5,520 (Feb 28)"
   },
   "active_triggers": [
@@ -43,32 +42,32 @@
       "type": "primary_equity_market",
       "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-05-12",
-      "activation_count": 1
+      "last_activated": "2026-05-13",
+      "activation_count": 2
     },
     {
       "to": "semiconductors",
       "type": "samsung_sk_hynix_dominant_weight",
       "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-05-12",
-      "activation_count": 1
+      "last_activated": "2026-05-13",
+      "activation_count": 2
     },
     {
       "to": "helium",
       "type": "supply_chain_tail_risk_with_countdown",
       "weight": 7.0,
       "directness": 2,
-      "last_activated": "2026-05-12",
-      "activation_count": 1
+      "last_activated": "2026-05-13",
+      "activation_count": 2
     },
     {
       "to": "iran",
-      "type": "hmm_namu_attribution_diplomatic_friction",
+      "type": "hmm_namu_attribution_diplomatic_hedge",
       "weight": 5.0,
       "directness": 2,
-      "last_activated": "2026-05-12",
-      "activation_count": 1
+      "last_activated": "2026-05-13",
+      "activation_count": 2
     },
     {
       "to": "united-states",
@@ -80,6 +79,18 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-13",
+      "headline": "C4 KOSPI 7,855.47 +2.8% 1D = REBOUND after May 12 -1.7% sell-off. FM Cho Hyun's 'too early' on HMM Namu attribution + PPP opposition pressure DEFUSES immediate 'Korea forced to name Iran' diplomatic spiral. 'Double-tap drone' forensic confirmation is OPERATIONAL fact; diplomatic implication is HEDGED. Korean helium-fab buffer ~4 weeks remains structural ceiling. KOSPI -1.7% May 12 is now BETTER-UNDERSTOOD AS PARTIAL REPRICING OF DIPLOMATIC-FRICTION RISK rather than definitive Iran-attribution event. USD/KRW ₩1,489.12 (+1.0% 1D) = DISCONNECT — currency says capital outflow, equity says relief. SMH -2.6% / TAIEX -1.3% break synchronicity with KOSPI = rotation from AI-megacap → industrial-cyclical (Cu +2.5%, Ag +2.6%). Crisis-linked ~35% (relief on diplomatic hedge); secular ~65% (AI semis bid intact one more session).",
+      "sources": [
+        "yfinance / markets-dossier (KOSPI 7,855.47 +2.8%; USD/KRW ₩1,489.12 +1.0%; SMH -2.6%; TAIEX -1.3%)",
+        "Markets dossier 2026-05-13 Section C4",
+        "Korea Herald FM Cho remarks + 'Fired upon in Hormuz' editorial",
+        "Seoul Economic Daily 'Presidential Office Condemns HMM Namu'",
+        "UPI + Washington Times (HMM Namu external strike confirmed)"
+      ],
+      "verification": "KOSPI +2.8% 1D = CONFIRMED tape; HMM Namu external strike + FM Cho 'too early' = CONFIRMED (Seoul official briefing + Korea Herald primary); PPP opposition pressure = CONFIRMED (Korean political reporting)."
+    },
     {
       "date": "2026-05-12",
       "headline": "KOSPI -1.7% 1D = FIRST PROFIT-TAKING SESSION OF CYCLE after extraordinary +33.1% 1M / +39.3% 3M / +78% YTD into May 11 — largest 30-day move in any major-market index in recent memory. Drivers: (1) HMM Namu forensics public May 11 — Seoul stopped short of publicly blaming Iran, creating diplomatic friction with Trump; (2) USD/KRW ₩1,488.28 +1.9% 1D on capital outflow; (3) mechanical profit-taking in a vertical market. Korea has gone from passive helium victim to active diplomatic actor. SMH $576.31 +1.7% 1D / +31.9% 1M; AI infrastructure CapEx demand from Microsoft/Meta/Amazon unbroken. Helium tail-risk timeline: Korean fab buffer ~4 weeks remaining to mid-June exhaustion. Tier-1 chipmaker production-halt falsification still HOLDS but window contracting.",

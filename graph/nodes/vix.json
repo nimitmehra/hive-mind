@@ -1,0 +1,102 @@
+{
+  "id": "vix",
+  "name": "VIX (CBOE Volatility Index)",
+  "type": "index",
+  "created": "2026-05-13",
+  "last_updated": "2026-05-13",
+  "summary": "Created 2026-05-13 per markets dossier E1 promotion. VIX has emerged as the cleanest transmission mechanism for binary event-window pricing in the cycle — appearing in 4+ causal chains (C1, C2 direct; C5, C9 indirect). The summit-pause mechanic operationalises VIX as a digital around discrete event windows. **C1 VIX 17.99 (-2.1% 1D, -5.9% 1M, -13.6% 3M) = THE PARADOX OF MAY 13** — expected on day of Trump-rejection-1-week-clock-close + Litani-crossing + 90%-enrichment-rhetoric + Saudi-strikes-disclosure + USD/INR record: VIX +5-10% intraday. Got: -2.1%, below May 6 post-pause low, approaching pre-war territory. **Why: Trump-in-Beijing summit (May 14-15) makes a kinetic strike order operationally impossible through May 15-16. Markets are not pricing the threat universe; they are pricing the FORCIBLE DELAY of decision. Options-positioning desk reads: 48-hour vol kill via timeline mechanics.** Additional drivers: EIA forecast cut to $94.85 (TASS) institutional vote against Brent fear premium; Aramco/ADNOC quiet limited Hormuz resume (World Oil May 8) confirms physical supply ~90% preserved through East-West routing; Iran missile fire rate -92% from peak (JPost + CNN intel) = capability-vs-willingness gap publicly quantified. **Investor implication is asymmetric: if Trump returns from Beijing without an order, VIX 16-handle is plausible and Brent retraces to $97-100. If he returns AND orders, VIX +30% intraday and Brent $115-120. The summit is a binary digital, not a continuous variable. The market is positioned long-vol-cheap into a known event window.** Reversibility: total — VIX 17.99 prices NO escalation through the summit + modest probability beyond; a single tweet from Beijing or a single missile launch reprices everything within the same session. VVIX (vol-of-vol) sitting at low band; pre-CPI hedges unwinding after digestion was orderly. **VIX behaviour now central to graph because it operationalises the kinetic vs paper-disruption-vs-de-escalation trinary in a tradeable way** — the band $15-25 maps to the three branches, and the summit creates a forcible time-window where the binary collapses to a digital.",
+  "current": {
+    "price": "17.99 (May 13)",
+    "delta_1d": "-2.1%",
+    "delta_1m": "-5.9%",
+    "delta_3m": "-13.6%",
+    "regime": "SUMMIT-PAUSE DIGITAL: markets pricing Trump-in-Beijing (May 14-15) as forced kinetic ceiling through May 15-16; VIX as event-window proxy not continuous risk premium."
+  },
+  "active_triggers": [
+    {
+      "condition": "VIX <16 sustained 3 sessions = de-escalation confirmation marker",
+      "status": "watching",
+      "cascade": [
+        "sp-500",
+        "brent-crude",
+        "iran",
+        "united-states"
+      ],
+      "added": "2026-05-13"
+    },
+    {
+      "condition": "VIX >25 intraday = kinetic-event marker (Trump strike order, Iran ballistic launch, Israeli enrichment strike)",
+      "status": "watching",
+      "cascade": [
+        "sp-500",
+        "brent-crude",
+        "iran",
+        "israel",
+        "united-states"
+      ],
+      "added": "2026-05-13"
+    },
+    {
+      "condition": "VIX +30% intraday move within 48h of Trump's return from Beijing (May 15-16)",
+      "status": "watching",
+      "cascade": [
+        "sp-500",
+        "brent-crude",
+        "iran",
+        "united-states"
+      ],
+      "added": "2026-05-13",
+      "note": "Per markets dossier C1: summit is binary digital; Trump returns either with kinetic order (VIX +30% / Brent $115-120) or without (VIX 16-handle / Brent $97-100)."
+    }
+  ],
+  "top_edges": [
+    {
+      "to": "sp-500",
+      "type": "volatility_proxy_event_window_digital",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-13",
+      "activation_count": 1
+    },
+    {
+      "to": "iran",
+      "type": "event_window_proxy_kinetic_vs_paper",
+      "weight": 5.0,
+      "directness": 2,
+      "last_activated": "2026-05-13",
+      "activation_count": 1
+    },
+    {
+      "to": "brent-crude",
+      "type": "summit_pause_ceiling_correlation",
+      "weight": 6.0,
+      "directness": 2,
+      "last_activated": "2026-05-13",
+      "activation_count": 1
+    },
+    {
+      "to": "united-states",
+      "type": "summit_diplomacy_window_pricing",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-05-13",
+      "activation_count": 1
+    }
+  ],
+  "recent_signals": [
+    {
+      "date": "2026-05-13",
+      "headline": "C1 VIX 17.99 (-2.1% 1D, -5.9% 1M, -13.6% 3M) = THE PARADOX OF THE DAY. Expected on Trump-rejection-1-week-clock-close + Litani-crossing + 90%-enrichment-rhetoric + Saudi-strikes-disclosure: VIX +5-10% intraday. Got -2.1%, below May 6 post-pause low, approaching pre-war territory. **Why: Trump-in-Beijing structural ceiling — summit makes kinetic strike order operationally impossible through May 15-16; markets pricing FORCIBLE DELAY of decision, not threat universe; options-positioning desk reads 48-hour vol kill via timeline mechanics.** Additional drivers: EIA forecast cut to $94.85 (institutional vote against Brent fear premium); Aramco+ADNOC quiet limited Hormuz resume (World Oil May 8) confirms physical supply ~90% preserved through East-West routing; Iran missile fire rate -92% from peak (JPost+CNN intel). Investor implication asymmetric: if Trump returns from Beijing without an order → VIX 16-handle plausible + Brent $97-100. If he returns AND orders → VIX +30% intraday + Brent $115-120. **Summit is a binary digital, not a continuous variable. Market positioned long-vol-cheap into known event window.** Secondary (~15% non-crisis): VVIX low band; pre-CPI hedges unwinding after digestion was orderly. CPI 3.8% was hot but expected — no shock-vol bid. Reversibility TOTAL — VIX 17.99 prices NO escalation through summit + modest probability beyond; single tweet from Beijing or single missile launch reprices everything within same session.",
+      "sources": [
+        "yfinance / barchart.com (VIX 17.99)",
+        "Markets dossier 2026-05-13 Sections C1, C2, G1",
+        "TASS EIA 2026 Brent forecast cut to $94.85",
+        "World Oil 'Aramco ADNOC quietly resume limited Hormuz crude exports'",
+        "Jerusalem Post 'Iran missile fire rate collapsed 92%'",
+        "CNN US intel Iran missile capability"
+      ],
+      "verification": "VIX 17.99 = CONFIRMED tape (yfinance multi-source); summit-pause mechanic = INFERENTIAL via cross-asset correlation (VIX -2.1% paradox vs escalation news); EIA $94.85 = CONFIRMED (EIA primary via TASS); ADNOC+Aramco quiet Hormuz resume = REPORTED (World Oil industry); Iran missile fire rate -92% = REPORTED (JPost+CNN intel)."
+    }
+  ],
+  "historical_summaries": []
+}

@@ -3,8 +3,8 @@
   "name": "Donald Trump",
   "type": "person",
   "created": "2026-03-30",
-  "last_updated": "2026-05-10",
-  "summary": "Day 72 Sunday. **TRUMP 1-WEEK CLOCK DAY 3/7 (CLOSES MAY 14); MATERIAL SOFTENING OF US PUBLIC POSTURE — 'NO DEADLINE / WE'LL SEE WHAT HAPPENS' VS YESTERDAY'S 'FRIDAY SHOULD RESPOND.'** Trump told reporters Saturday May 9 at Lincoln Memorial Reflecting Pool: 'The talks are going very well, but they have to understand — if it doesn't get signed, they're going to have a lot of pain'; separately, Trump said US has had 'very good talks with Iran over the past 24 hours' but added 'no deadline... It'll happen, it'll happen, but never a deadline' (CONFIRMED — CNBC, ABC News, CBS News, Times of Israel). The shift from 'Friday should respond' to no-deadline framing is a meaningful tone change consistent with Vali Nasr's frame ('Tehran believes time is on its side; Trump operating inside self-imposed diplomatic ceiling Pakistan demanded'). **TRUMP NOW OPERATING ACROSS THREE BACK CHANNELS, NOT ONE — Saturday's Rubio/Witkoff/al-Thani Miami meeting confirms Qatar (with IRGC senior-generals contacts) has emerged as the substantive Iran-side operational channel parallel to Pakistan's public-facing political mediation** (CONFIRMED — Axios primary scoop). 'White House views [the Qataris] as especially effective in negotiations with Iran.' This is the most consequential US-side architectural shift of the week. Pakistan retains the OFFICIAL title and political-mediation role; Qatar is the SUBSTANTIVE channel. **The 'Trump pause holds 7+ days without further kinetic exchange' trigger remains FAILED but the trinary regime is now stabilizing into a sustainable operational pattern** (US blockade with daily-cadence kinetic enforcement, parallel three-channel diplomacy, no formal Iranian response). PRIOR FRAMING (preserved): Trump May 8 evening Truth Social 'we'll knock them out a lot harder' warning operative; CENTCOM disclosed precision tally 58 vessels redirected + 4 Iranian-flagged tankers disabled since April 13 (refines yesterday's >70-tankers-held framing). Branch re-pricing: kinetic ~20-25%; extended-economic-warfare ~40-45% (UP — trinary regime hardening into sustainable pattern); negotiated-resolution ~30-35% (DOWN as Iran missed Friday May 8 soft deadline AND has not filed formal response by Day 3 of Trump 1-week clock).",
+  "last_updated": "2026-05-13",
+  "summary": "Day 75 of Hormuz blockade / Trump 1-week clock Day 6/7 (closes May 14). **TRUMP DEPARTED WASHINGTON FOR BEIJING LATE MAY 12 DECLARING HE 'DOES NOT NEED XI'S HELP' TO END THE WAR ON IRAN; US WILL WIN 'ONE WAY OR THE OTHER'; ceasefire framework still on 'massive life support'** (CONFIRMED ACTION + CONFIRMED RHETORIC; South Lawn primary). Pre-departure tone materially HARDER than May 6-10 pulse-test phase that floated cooperation language around Chinese leverage on Tehran. Al Jazeera + NPR led with 'doesn't need Xi'; PBS NewsHour + CSIS framed both leaders 'intent on keeping the Iran war from overshadowing the summit' = itself a downgrade from prior Chatham House 'can progress be made on Iran' framing. Delegation of 12+ US CEOs (Tim Cook, Elon Musk) travelling = TRADE-AND-TARIFFS CENTRE OF GRAVITY, not Iran. **STRUCTURAL READ: 1-week clock Day 6/7 expires May 14 while Trump is in Xi's anteroom — rules out an immediate kinetic order but public stance going in is UNCOMPROMISING rather than open.** **B7 OFAC Economic Fury extended May 11-12** (5 Chinese teapot refineries prepared secondary sanctions); China MOFCOM Blocking Rules invoked May 2 = first formal Chinese legal countermeasure. **No Trump strike order post-rejection** — Situation Room weighed Monday, no action ordered before Beijing departure. Trump 'doesn't need Xi' framing reported but not amplified by US press — neither side selling renewed-strikes as inevitable or attractive. PRIOR FRAMING (May 12): Trump publicly REJECTED Iran's formal counter-proposal as 'TOTALLY UNACCEPTABLE' / 'garbage' / 'on massive life support'; convened WH Situation Room May 11 weighing renewed military action. PRIOR FRAMING (May 10): **TRUMP 1-WEEK CLOCK DAY 3/7 (CLOSES MAY 14); MATERIAL SOFTENING OF US PUBLIC POSTURE — 'NO DEADLINE / WE'LL SEE WHAT HAPPENS' VS YESTERDAY'S 'FRIDAY SHOULD RESPOND.'** Trump told reporters Saturday May 9 at Lincoln Memorial Reflecting Pool: 'The talks are going very well, but they have to understand — if it doesn't get signed, they're going to have a lot of pain'; separately, Trump said US has had 'very good talks with Iran over the past 24 hours' but added 'no deadline... It'll happen, it'll happen, but never a deadline' (CONFIRMED — CNBC, ABC News, CBS News, Times of Israel). The shift from 'Friday should respond' to no-deadline framing is a meaningful tone change consistent with Vali Nasr's frame ('Tehran believes time is on its side; Trump operating inside self-imposed diplomatic ceiling Pakistan demanded'). **TRUMP NOW OPERATING ACROSS THREE BACK CHANNELS, NOT ONE — Saturday's Rubio/Witkoff/al-Thani Miami meeting confirms Qatar (with IRGC senior-generals contacts) has emerged as the substantive Iran-side operational channel parallel to Pakistan's public-facing political mediation** (CONFIRMED — Axios primary scoop). 'White House views [the Qataris] as especially effective in negotiations with Iran.' This is the most consequential US-side architectural shift of the week. Pakistan retains the OFFICIAL title and political-mediation role; Qatar is the SUBSTANTIVE channel. **The 'Trump pause holds 7+ days without further kinetic exchange' trigger remains FAILED but the trinary regime is now stabilizing into a sustainable operational pattern** (US blockade with daily-cadence kinetic enforcement, parallel three-channel diplomacy, no formal Iranian response). PRIOR FRAMING (preserved): Trump May 8 evening Truth Social 'we'll knock them out a lot harder' warning operative; CENTCOM disclosed precision tally 58 vessels redirected + 4 Iranian-flagged tankers disabled since April 13 (refines yesterday's >70-tankers-held framing). Branch re-pricing: kinetic ~20-25%; extended-economic-warfare ~40-45% (UP — trinary regime hardening into sustainable pattern); negotiated-resolution ~30-35% (DOWN as Iran missed Friday May 8 soft deadline AND has not filed formal response by Day 3 of Trump 1-week clock).",
   "current": {},
   "active_triggers": [
     {
@@ -84,16 +84,24 @@
       "type": "market_mover",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-07",
-      "activation_count": 20
+      "last_activated": "2026-05-13",
+      "activation_count": 22
     },
     {
       "to": "iran",
       "type": "adversary_negotiator",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-07",
-      "activation_count": 26
+      "last_activated": "2026-05-13",
+      "activation_count": 28
+    },
+    {
+      "to": "china",
+      "type": "summit_diplomacy_iran_pressure",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-13",
+      "activation_count": 4
     },
     {
       "to": "united-states",
@@ -145,6 +153,22 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-13",
+      "headline": "TRUMP DEPARTED FOR BEIJING LATE MAY 12 DECLARING HE 'DOES NOT NEED XI'S HELP' ON IRAN — US WILL WIN 'ONE WAY OR THE OTHER'; framework still on 'massive life support' (CONFIRMED ACTION + RHETORIC; South Lawn primary). Pre-Beijing posture materially HARDER than May 6-10 pulse-test phase that floated cooperation language on Chinese leverage on Tehran. Al Jazeera + NPR led with 'doesn't need Xi'; PBS NewsHour + CSIS framed both leaders 'intent on keeping Iran war from overshadowing summit' = expectation downgrade vs prior Chatham House 'can progress be made on Iran' framing. 12+ US CEOs (Tim Cook, Elon Musk) travelling = trade-and-tariffs centre of gravity, not Iran. Summit May 14-15 closes 1-week clock window May 14 while Trump in Xi's anteroom — RULES OUT immediate kinetic order but public stance going in is UNCOMPROMISING. **NO TRUMP STRIKE ORDER post-rejection** — Situation Room weighed Monday, no action ordered before Beijing departure. Trump's 'we'll win one way or the other' framing reported but NOT amplified by US press — neither side of US press selling renewed-strikes as inevitable or attractive. Russia HEU-custodian Day 14 of 21 watch (post-Putin-Araghchi window May 18) = non-event so far. No formal Iranian kinetic retaliation since May 4-5 UAE small-scale; Iran missile fire rate -92% from peak (JPost + CNN intel).",
+      "sources": [
+        "Al Jazeera 'Trump downplays US-Iran differences as he heads to Beijing'",
+        "NPR 'Trump goes to China as Iran war smolders'",
+        "CNBC Trump-Xi summit Iran agenda",
+        "PBS NewsHour",
+        "CSIS analysis",
+        "BusinessToday India 'Trump Xi Beijing summit begins May 13'",
+        "Truth Social (Trump primary)",
+        "Jerusalem Post 'Iran missile fire rate collapsed 92%'",
+        "CNN US intel Iran missile capability"
+      ],
+      "verification": "Trump Beijing departure + 'doesn't need Xi' = CONFIRMED ACTION + CONFIRMED RHETORIC multi-source primary (South Lawn); summit centre of gravity = CONFIRMED multi-source; no strike order post-rejection = CONFIRMED ABSENCE (no Truth Social/Pentagon announcement); Iran missile fire rate -92% = REPORTED (JPost + CNN intel)."
+    },
     {
       "date": "2026-05-10",
       "headline": "TRUMP 1-WEEK CLOCK DAY 3/7; MATERIAL SOFTENING — 'NO DEADLINE / WE'LL SEE WHAT HAPPENS' VS YESTERDAY'S 'FRIDAY SHOULD RESPOND'; TRUMP NOW OPERATING ACROSS THREE BACK CHANNELS — RUBIO/WITKOFF/AL-THANI MIAMI MEETING SATURDAY CONFIRMS QATAR (WITH IRGC SENIOR-GENERALS CONTACTS) HAS EMERGED AS SUBSTANTIVE IRAN-SIDE OPERATIONAL CHANNEL. Trump at Lincoln Memorial Saturday: 'The talks are going very well, but they have to understand — if it doesn't get signed, they're going to have a lot of pain'; separately: 'no deadline... It'll happen, it'll happen, but never a deadline.' Per Axios scoop, 'White House views [Qataris] as especially effective in negotiations with Iran' — Pakistan retains OFFICIAL title and political-mediation role; Qatar is the SUBSTANTIVE Iran-side channel via IRGC generals. CENTCOM disclosed precision tally May 9: 58 commercial vessels redirected + 4 Iranian-flagged tankers disabled since April 13 (refines yesterday's >70-tankers-held framing). The 'Trump pause holds 7+ days' trigger remains FAILED but trinary regime stabilizing into sustainable pattern (blockade + parallel three-channel diplomacy + no formal Iranian response). Iran formal response still pending as of Day 3 of 7.",
