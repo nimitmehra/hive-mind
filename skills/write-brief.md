@@ -54,6 +54,7 @@ Read all three staging files:
 Also read:
 - `graph/meta.json` — node/edge counts for the header
 - The most recent brief in `briefs/` — to maintain continuity and follow up threads
+- **`CORRECTIONS_PENDING.md` at the repo root — if this file exists, its contents are pending corrections that MUST be issued in this brief.** Surface them as the FIRST item in Section I under a heading "Corrections to prior briefs," in plain factual prose. After writing the brief, **delete `CORRECTIONS_PENDING.md`** so the same correction is not re-issued tomorrow. This file exists to thread post-publication user-flagged errors back into the next published brief — credibility-positive: it shows the verification system works.
 
 **Gate check:** If any staging file is missing, **STOP** and tell the user to run the missing sub-skill first. Do NOT improvise or search the web yourself. You work from the dossier you've been given.
 

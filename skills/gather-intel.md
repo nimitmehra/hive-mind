@@ -46,6 +46,7 @@ Before searching for anything, you must understand what the graph already knows.
 - Read `graph/meta.json` for current stats (nodes, edges, last updated)
 - Read the most recent brief in `briefs/` (sort by filename, read the latest)
 - Read the **trigger points** from key node files. At minimum read: `iran.json`, `strait-of-hormuz.json`, `brent-crude.json`, `india.json`, `united-states.json`, `qatar.json`
+- **Also read every node currently encoded with a claim-bearing role** (mediator, host, neutral, underwriter, ally) that is active in the current crisis arc. As of May 2026 that adds `pakistan.json`, `saudi-arabia.json`, `uae.json` to the minimum. These are the nodes whose role-claims must be defended or falsified each cycle — see Step 1b.F.
 - Read any additional nodes that yesterday's brief flagged — if yesterday mentioned Houthi activity, read `houthis.json`; shipping disruptions, read `shipping.json`
 - Note every trigger point with status "watching" or "active" — these are your FOLLOW-UP PRIORITIES today
 
@@ -84,7 +85,33 @@ Do NOT use a fixed list of queries every day. That produces a static, formulaic 
 **E. Check think tanks and independent analysts** (2-3 per day):
 - CSIS, Brookings, Soufan Center, War on the Rocks, ISW (daily operational assessments), relevant Substacks
 
-**The point:** Your searches are DRIVEN BY THE GRAPH'S KNOWLEDGE, not by a static checklist. As the graph grows (Day 1: 30 nodes → Day 60: maybe 50 nodes), your searches get more targeted and more intelligent because you have more threads to follow and more connections to check.
+**F. Claim-falsification check** (non-optional, one query per cycle):
+
+The graph encodes *claims*, not just facts. Some are robust ("Iran has uranium concession with return clause"). Some are **role-claims that could be falsified at any moment**: "Pakistan is the official neutral mediator," "UAE is a passive US host," "Qatar mediates substantively," "Saudi denied airspace for offensive ops." Sections A–E find evidence that *extends* the graph's existing frame. Section F is the only axis designed to find evidence that *challenges* it. Without this axis, falsification evidence only enters the dossier when it happens to fall inside another section's radius — and stories whose primary subject is a peripheral node (e.g., the May 12 CBS Nur Khan scoop on Pakistan) get missed.
+
+**Procedure:**
+
+1. Before running any Section F query, list **3–5 load-bearing role-claims** the graph currently holds. Pull them from the nodes you read in Step 1a's claim-bearing-role expansion (`pakistan.json`, `saudi-arabia.json`, `uae.json`, `qatar.json`, plus any other node tagged with role ∈ {mediator, host, neutral, underwriter, ally}). For each: what is its current role-claim, in one sentence?
+
+2. Run **one query** designed to surface evidence challenging *any* of those claims. Query template:
+
+   `"[mediator/host/neutral parties in current graph]" covert OR secret OR partiality OR scandal OR credibility OR revelation Iran war [today's date]`
+
+   Concrete example for May 2026: `"Pakistan OR Qatar OR UAE OR Saudi Arabia" covert OR secret OR partiality OR scandal OR credibility Iran war May 2026`.
+
+3. Run **one cross-press sweep** favoring Indian and Middle Eastern press, where mediator-skepticism stories often break before US wires pick them up: `"Pakistan|Qatar|UAE|Saudi Arabia" Iran war controversy OR revelation OR leaked [this week]`. Indian wires (Business Standard, The Tribune, Business Today, The Hindu) and Middle East Eye are typical first-hits for this class.
+
+4. If either query returns evidence of falsification:
+   - Apply the standard verification protocol (action vs rhetoric, cross-reference, check the other side, original source).
+   - Tag CLAIMED / REPORTED / CONFIRMED per the usual rules.
+   - In the intel entry, explicitly state **which load-bearing claim is being challenged** and what the implication is for graph state — this signals to `/update-graph` that an edge-weight change or a new credibility-related node may be warranted.
+   - Add `Nodes affected:` including the falsified-claim node *and* the natural in-world skeptic (e.g., for Pakistan-mediator falsification, include `united-states` — US Congress / administration is the natural skeptic of Pakistan's neutrality claim).
+
+5. If both queries return nothing material, write one line in the dossier: `F. Claim-falsification check: no material evidence today challenging current role-claims [Pakistan-mediator, UAE-neutral-host, Qatar-substantive-mediator, Saudi-denied-airspace].` This is a valid output. The *expected* outcome is that 4 out of 5 cycles return nothing — the cycle where this query catches something is the cycle that would otherwise have missed the story.
+
+**Why this axis exists:** the May 12 2026 brief missed the CBS scoop that Pakistan parked Iranian military aircraft (including an RC-130) at Nur Khan Air Base — a direct falsification of Pakistan's mediator-neutrality claim. The story was the top hit across Indian wires the same day. Sections A–E had no query path that would have surfaced it, because no existing thread in the graph pointed at Pakistan-as-actor (only Pakistan-as-courier). Section F is the structural fix: one query per cycle that *always* looks for claim-falsification, derived mechanically from the graph's current role properties. It generalizes — when the graph adds a new mediator/host/neutral node tomorrow, this query updates automatically with no skill edit.
+
+**The point:** Your searches are DRIVEN BY THE GRAPH'S KNOWLEDGE, not by a static checklist. As the graph grows (Day 1: 30 nodes → Day 60: maybe 50 nodes), your searches get more targeted and more intelligent because you have more threads to follow and more connections to check. Sections A–E extend the graph's current frame; Section F challenges it. Both axes are required.
 
 ---
 
@@ -282,6 +309,7 @@ Did something ACTUALLY HAPPEN (troops moved, missiles launched, port closed, dea
 3. **"Stale source, active event"** — 3-day-old article cited as current. *Counter: check the date, search for updates.*
 4. **"Rhetoric-as-action"** — "X threatens Y" becomes "X does Y" through lazy headline reading. *Counter: your "Action or rhetoric?" field.*
 5. **"Anonymous amplification"** — One "Western official" becomes "officials" (plural) as it's amplified. *Counter: count actual named sources.*
+6. **"Year-stale, current-looking"** — A 2025 article with a "May 7" dateline (year omitted from headline/URL) gets surfaced by search and treated as today's news. THE MAY 2026 LESSON: the brief reported the "20th India-Iran Joint Commission" on May 7-8 2026 — the actual JCM happened in May 2025, and the system found 2025 articles whose date strings matched today's calendar. *Counter: for EVERY source backing a CONFIRMED tag, you must record the publication YEAR-MONTH-DAY captured from the article body or its metadata — NOT inferred from the URL or search snippet. If you cannot confirm a publication date within the last 7 days, the tag drops to REPORTED. No exceptions.*
 
 ### Verification Status Assignments
 
@@ -329,9 +357,9 @@ Generated: [timestamp IST] | Analyst: Senior Intel
 - **What happened:** [Full paragraph — what changed, context, both sides, what it means]
 - **Action or rhetoric?** CONFIRMED ACTION | RHETORIC/THREAT | PREPARATION
 - **Other side checked:** Yes — [what they said, from which outlet] | No — [why not, what you searched]
-- **Sources:** [numbered list with independence assessment]
-  1. [Source] — [official/wire/media/operational] — independent
-  2. [Source] — [type] — cites Source 1 / independent
+- **Sources:** [numbered — outlet, type, publication date, independence]
+  1. [Source] — [official/wire/media/operational] — published YYYY-MM-DD — independent
+  2. [Source] — [type] — published YYYY-MM-DD — cites Source 1 / independent
 - **Nodes affected:** [node IDs for Graph Engineer]
 
 [Repeat for each open thread]
@@ -343,7 +371,8 @@ Generated: [timestamp IST] | Analyst: Senior Intel
 - **Action or rhetoric?** CONFIRMED ACTION | RHETORIC/THREAT | PREPARATION
 - **What:** [Full paragraph — what happened, why it matters, both sides, forward-looking observation]
 - **Other side checked:** Yes — [response, from which outlet] | No — [why not]
-- **Sources:** [numbered, independence assessed]
+- **Sources:** [numbered — outlet, type, publication date, independence]
+  1. [Source] — [type] — published YYYY-MM-DD — independent
 - **Nodes affected:** [node IDs]
 
 [Repeat for each new development]
@@ -389,10 +418,10 @@ Generated: [timestamp IST] | Analyst: Senior Intel
 > - **What:** CENTCOM's daily operational update confirmed "increased IRGC naval activity" in the western Hormuz approaches, and UKMTO issued Advisory 003/2026 warning commercial shipping of "heightened military presence." MarineTraffic AIS data independently shows 3 commercial vessels diverting from standard transit lanes — the first confirmed operational disruption since March 21. Iran's Tasnim described this as "routine naval exercises," contradicted by both CENTCOM and the observable diversions. The deployment mirrors Iran's 2019 tanker crisis playbook: demonstrate capability without engagement. But the larger US naval presence raises miscalculation risk.
 > - **Other side checked:** Yes — Iran (Tasnim: "routine exercises"). US (CENTCOM: "increased activity").
 > - **Sources:**
->   1. CENTCOM daily operational update — official, independent
->   2. UKMTO Advisory 003/2026 — operational, independent
->   3. MarineTraffic AIS data — observational, independent
->   4. Tasnim News Agency — Iranian state-affiliated, provides Iran's position
+>   1. CENTCOM daily operational update — official — published 2026-03-25 — independent
+>   2. UKMTO Advisory 003/2026 — operational — published 2026-03-25 — independent
+>   3. MarineTraffic AIS data — observational — accessed 2026-03-25 (live) — independent
+>   4. Tasnim News Agency — Iranian state-affiliated — published 2026-03-25 — provides Iran's position
 > - **Nodes affected:** iran, strait-of-hormuz, brent-crude, shipping
 
 **Bad Section B entry:**
@@ -461,6 +490,7 @@ On April 5, 2026, the brief recycled the April 3 brief's lead item (WTI +11.9%),
 8. **Note what you DIDN'T find.** Silence on yesterday's story is itself intelligence.
 9. **When in doubt, tag lower.** REPORTED that later becomes CONFIRMED is fine. CONFIRMED that was actually CLAIMED damages the system permanently.
 10. **Editorials from independent media are NOT intelligence.** News desks only. Exception: state media editorials.
+11. **Capture the publication date of every source.** For ANY finding tagged CONFIRMED, you must record the YYYY-MM-DD publication date of each cited source — read from the article body or article metadata, NOT inferred from URL or search snippet. If publication date cannot be confirmed within the last 7 days, the tag drops to REPORTED. This is the year-stale defense (May 2026 lesson — see Disinformation Pattern #6).
 
 ## COMMON FAILURE MODES
 

@@ -10,6 +10,18 @@
 #   - Brief-existence guard before publish — we never push an empty commit
 #   - All v1.0 log markers preserved byte-for-byte for verify-pipeline-run.sh
 #   - NO `set -e` — each command runs regardless; explicit `||` per command
+#
+# v1.2 (2026-05-13) — retry-on-transient-transport-error:
+#   - Anthropic API stream RST / idle-timeout closes (May 11 Step 1, May 13 Step 3)
+#     present as rc=1 with recognizable error strings. These are transport-class
+#     failures, not application-class — safe to retry because skills re-read
+#     staging files and overwrite their outputs.
+#   - update-graph rewrites tracked node/edge files in-place; a mid-stream RST
+#     can leave partial writes (today: iran.json +65 lines, israel.json +4 lines
+#     before the 12:44 close). Reset graph/ to HEAD before each retry attempt of
+#     that step so retries start from the same clean baseline as attempt 1.
+#   - gtimeout kills (rc=124), auth errors, and other non-transient rc≠0 stay
+#     FATAL on attempt 1 — no behavior change for those.
 
 CLAUDE="/Users/nimitmehra/.local/bin/claude"
 DIR="/Users/nimitmehra/Documents/Manus/hive-mind"
@@ -44,6 +56,41 @@ PUBLISH_TIMEOUT=300      # 5 min  — git add/commit/push + viewer rebuild
 TELEGRAM_TIMEOUT=180     # 3 min  — Telegram delivery
 KILL_GRACE=60            # 60s SIGTERM → SIGKILL grace per step
 
+# Retry policy for transient transport-layer errors (v1.2).
+# Worst-case wallclock per step = (MAX_RETRIES+1)*cap + MAX_RETRIES*RETRY_BACKOFF.
+# For Step 3 at 3600s cap: 3*3600 + 2*30 = ~3h. Pipeline runs once daily at noon,
+# so worst-case still finishes well before evening edition.
+MAX_RETRIES=2
+RETRY_BACKOFF=30
+
+# Patterns matched (case-insensitive) against an attempt's combined stdout+stderr
+# to classify rc≠0 as transient. Keep this list narrow — a broad match like
+# bare "API Error" would mask non-retryable failures (auth, malformed prompt).
+TRANSIENT_ERROR_PATTERNS=(
+  "socket connection was closed unexpectedly"
+  "Stream idle timeout"
+  "ECONNRESET"
+  "ETIMEDOUT"
+  "Connection reset by peer"
+  "502 Bad Gateway"
+  "503 Service Unavailable"
+  "504 Gateway Timeout"
+)
+
+# Echoes the first matched pattern to stdout, returns 0 on match / 1 on no match.
+# Caller uses $(is_transient_error "$tmpfile") + [ -n "$matched" ].
+is_transient_error() {
+  local tmpfile="$1"
+  local pattern
+  for pattern in "${TRANSIENT_ERROR_PATTERNS[@]}"; do
+    if grep -qi "$pattern" "$tmpfile"; then
+      echo "$pattern"
+      return 0
+    fi
+  done
+  return 1
+}
+
 cd "$DIR" || {
   echo "$(date): FATAL — cannot cd to $DIR" >> /tmp/hive-mind-cron-fallback.log
   exit 1
@@ -60,24 +107,77 @@ echo "=== Pipeline started at $(date) | edition=$EDITION ===" >> "$LOG"
 
 # Helper: run a Claude headless step under gtimeout with FATAL/WARN classification.
 # Args: step_label, cap_seconds, claude_prompt
-# A 124 exit means gtimeout fired SIGTERM after cap; FATAL aborts the pipeline
-# because every downstream step depends on staging artifacts from this one.
+#
+# Exit-code classification (v1.2):
+#   rc=0   → success, return
+#   rc=124 → gtimeout SIGTERM (wallclock exceeded), FATAL, no retry
+#   rc≠0 with transient transport pattern in output → WARN, retry up to MAX_RETRIES
+#   rc≠0 with no transient pattern → FATAL on first failure (auth, malformed, etc)
+#   rc≠0 after MAX_RETRIES on transient pattern → FATAL
+#
+# Pre-retry cleanup: update-graph rewrites graph/ files in-place, so a mid-stream
+# failure leaves partial writes that would compound on retry. Reset graph/ to HEAD
+# before each retry attempt of that step. Other steps overwrite single output files
+# cleanly, so no per-step cleanup needed.
 run_claude_step() {
   local label="$1"
   local cap="$2"
   local prompt="$3"
   echo "--- $label ---" >> "$LOG"
-  "$TIMEOUT" --kill-after=$KILL_GRACE "$cap" "$CLAUDE" -p "$prompt" $FLAGS >> "$LOG" 2>&1
-  local rc=$?
-  if [ $rc -eq 124 ]; then
-    echo "FATAL: $label exceeded ${cap}s wallclock; SIGTERM sent. Aborting." >> "$LOG"
-    echo "=== Pipeline aborted at $(date) | reason=timeout step='$label' ===" >> "$LOG"
-    exit 1
-  elif [ $rc -ne 0 ]; then
-    echo "FATAL: $label failed (exit $rc). Aborting — downstream depends on this output." >> "$LOG"
+
+  local attempt=0
+  local max_attempts=$((MAX_RETRIES + 1))
+  local rc=0
+  local tmpfile
+  local matched
+
+  while [ $attempt -lt $max_attempts ]; do
+    attempt=$((attempt + 1))
+
+    if [ $attempt -gt 1 ]; then
+      echo "  retry $((attempt - 1))/$MAX_RETRIES after ${RETRY_BACKOFF}s backoff..." >> "$LOG"
+      case "$label" in
+        *update-graph*)
+          echo "  resetting graph/ to HEAD (discards partial node/edge writes)" >> "$LOG"
+          git checkout HEAD -- graph/ >> "$LOG" 2>&1
+          ;;
+      esac
+      sleep $RETRY_BACKOFF
+    fi
+
+    tmpfile=$(mktemp -t hivemind-step.XXXXXX)
+    "$TIMEOUT" --kill-after=$KILL_GRACE "$cap" "$CLAUDE" -p "$prompt" $FLAGS > "$tmpfile" 2>&1
+    rc=$?
+    cat "$tmpfile" >> "$LOG"
+
+    if [ $rc -eq 0 ]; then
+      rm -f "$tmpfile"
+      return 0
+    fi
+
+    if [ $rc -eq 124 ]; then
+      rm -f "$tmpfile"
+      echo "FATAL: $label exceeded ${cap}s wallclock; SIGTERM sent. Aborting." >> "$LOG"
+      echo "=== Pipeline aborted at $(date) | reason=timeout step='$label' ===" >> "$LOG"
+      exit 1
+    fi
+
+    matched=$(is_transient_error "$tmpfile")
+    rm -f "$tmpfile"
+
+    if [ -n "$matched" ] && [ $attempt -lt $max_attempts ]; then
+      echo "  WARN: $label hit transient transport error ('$matched') on attempt $attempt of $max_attempts — will retry." >> "$LOG"
+      continue
+    fi
+
+    if [ -n "$matched" ]; then
+      echo "FATAL: $label exhausted $MAX_RETRIES retries on transient error ('$matched'). Aborting." >> "$LOG"
+    else
+      echo "FATAL: $label failed (exit $rc). Aborting — downstream depends on this output." >> "$LOG"
+    fi
     echo "=== Pipeline aborted at $(date) | reason=exit-$rc step='$label' ===" >> "$LOG"
     exit 1
-  fi
+  done
 }
 
 # Steps 1-5: each is fatal-on-failure (downstream depends on staging artifacts)

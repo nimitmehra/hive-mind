@@ -113,6 +113,22 @@ For each claim attributed to one party, verify the brief includes the other side
 - **If trigger moved on rhetoric → FLAG CRITICAL.** Recommend reverting to "watching."
 - This check matters more than all others because a wrong trigger point corrupts every future analysis.
 
+### Check 7: Source Freshness — THE YEAR-STALE GATE
+
+For every Section I item tagged CONFIRMED ACTION, verify the publication dates of its sources. **Search engines surface year-stale articles whose datelines match today's calendar day; if the year is buried in URL/metadata, the system can mistake a 1-year-old story for current news.** This is the May 2026 lesson — see below.
+
+**The check:**
+- Open the staging file (`intel.md`). Each source under a CONFIRMED-tagged item should carry a `published YYYY-MM-DD` field (added in `/gather-intel` schema).
+- If the date is **missing**: that's a CRITICAL flag — the analyst skipped the year-stale defense. Independently search the source URL or the headline; if you cannot confirm a publication date within the last 7 days, downgrade to REPORTED.
+- If the date is **present and within 7 days**: ✅ pass.
+- If the date is **older than 7 days but the item is tagged CONFIRMED ACTION as if current**: CRITICAL flag. Treat as year-stale or month-stale leakage. Remove the item from Section I or rewrite as historical reference.
+- **At least 2 of the cited sources** must have confirmed-current publication dates. One single-date source is amplification risk.
+- **Spot-check at least one source per Section I item** by independently searching the article (not relying on the staging file's claim). Don't trust upstream — that's how the May 7 / May 8 errors compounded.
+
+**THE MAY 2026 LESSON:** On 2026-05-07 and 2026-05-08, the brief reported the "20th India-Iran Joint Commission" as a current event. The actual JCM happened in May 2025. The pipeline found 2025 articles whose datelines read "May 7" and treated them as today's news. The verification gate said PASS because Checks 1-6 ALL passed (action confirmed, sources existed, both sides covered, headlines matched bodies, multiple outlets, no trigger movement) — none of those checks asked "what year was this article published?" Day 2 then promoted the false item to `[UPDATED]` because yesterday's brief carried it forward. **Check 7 is specifically for catching year-stale content that passes every other check.**
+
+**Special case — items tagged `[UPDATED]` from yesterday's brief:** These are highest risk for year-stale leakage, because the delta-flag system trusts yesterday's brief as ground truth. For any `[UPDATED]` item in Section I, you MUST independently re-verify a fresh publication-date-confirmed source — do NOT accept "the staging file says we covered it yesterday" as evidence the item is real-now.
+
 ---
 
 ## STEP 3: CHECK GRAPH UPDATES
@@ -141,8 +157,8 @@ Market data errors are the EASIEST to verify and the MOST EMBARRASSING if wrong.
 
 ### Severity Classification
 
-- **CRITICAL (must fix before publishing):** Action presented as confirmed when only rhetoric. Wrong market data. Trigger point moved on insufficient evidence. These get fixed immediately.
-- **HIGH (should fix):** Missing the other side's response. Tag drift (REPORTED → appears CONFIRMED). Significant factual errors.
+- **CRITICAL (must fix before publishing):** Action presented as confirmed when only rhetoric. Wrong market data. Trigger point moved on insufficient evidence. **Year-stale content (Check 7 fail) — source publication date older than 7 days for an item presented as current.** These get fixed immediately.
+- **HIGH (should fix):** Missing the other side's response. Tag drift (REPORTED → appears CONFIRMED). Significant factual errors. Missing publication-date metadata on a CONFIRMED source (forces downgrade to REPORTED).
 - **LOW (note for context):** Minor language issues. Proportionality concerns. Missing context that doesn't change substance.
 
 ### Report Format
@@ -184,6 +200,12 @@ Brief checked: briefs/YYYY-MM-DD.md
 | Trigger | Status in Changelog | My Assessment | Agreement? |
 |---|---|---|---|
 | [condition] | [status] | [my assessment] | ✅ AGREE / ❌ DISAGREE — [reason] |
+
+## Source Freshness Audit (Check 7)
+
+| Item | Sources have published-date? | Independently re-verified? | Within 7 days? |
+|---|---|---|---|
+| [headline] | ✅/❌ | ✅/❌ — [outlet checked] | ✅/❌ — [date confirmed] |
 
 ## Market Data Spot-Check
 
@@ -254,6 +276,7 @@ If only LOW flags or no flags:
 8. **Check the exciting stuff hardest.** The more dramatic the claim, the more it needs verification. "Routine shelling" = probably fine. "Nuclear facility targeted" = verify exhaustively.
 9. **Compare brief to staging file.** The staging file is the evidence record. If the brief says something the staging file doesn't support, that's a flag.
 10. **Items that pass need evidence too.** Don't just write "checked: ok." Document WHY it passed so the audit trail is complete.
+11. **Year-stale content can pass every other check.** Check 7 exists because the May 2026 lesson proved that an item can satisfy action-vs-rhetoric, both-sides, source-quality, operational verification, and headline-vs-body — and STILL be a 1-year-old story misread as current. Run Check 7 against every CONFIRMED Section I item with no exceptions.
 
 ## COMMON FAILURE MODES
 
