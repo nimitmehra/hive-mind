@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13",
+  "last_updated": "2026-05-14",
   "edges": [
     {
       "from": "aluminum",
@@ -104,10 +104,10 @@
     {
       "from": "china",
       "to": "iran",
-      "weight": 7.5,
+      "weight": 8.0,
       "directness": 1,
-      "last_activated": "2026-05-13",
-      "type": "brics_alignment_with_ofac_blocking_rules_invocation"
+      "last_activated": "2026-05-14",
+      "type": "brics_alignment_with_ofac_blocking_rules_and_heu_custodian_door_opened_by_trump"
     },
     {
       "from": "china",
@@ -1345,7 +1345,7 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-13"
+      "last_activated": "2026-05-14"
     },
     {
       "from": "united-states",
@@ -2212,32 +2212,82 @@
     {
       "from": "united-states",
       "to": "china",
-      "weight": 9.0,
+      "weight": 9.5,
       "directness": 1,
-      "last_activated": "2026-05-13",
-      "type": "summit_diplomacy_iran_axis_collision",
+      "last_activated": "2026-05-14",
+      "type": "summit_diplomacy_iran_axis_with_heu_via_china_custodian_door_opened",
       "added": "2026-05-13",
-      "rationale": "Trump Beijing summit May 14-15; Trump 'doesn't need Xi help on Iran' (CONFIRMED) + China MOFCOM May 2 Prohibition Order under Blocking Rules vs OFAC five-refinery secondary sanctions = first formal Chinese legal countermeasure to US sanctions = explicit legal collision architecture."
+      "rationale": "Trump Trump-Xi summit Day 1 May 14: Trump PUBLICLY OPENED HEU-via-China custodian door — 'only Washington or Beijing can retrieve Iran's nuclear material if Tehran agrees to hand it over' (CONFIRMED RHETORIC — ToI primary). Material policy signal substitutes China for Russia as proposed HEU custodian. Weight bumped 9.0 → 9.5 on policy-shift confirmation + multi-source corroboration."
     },
     {
       "from": "trump",
       "to": "china",
-      "weight": 9.0,
+      "weight": 9.5,
       "directness": 1,
-      "last_activated": "2026-05-13",
-      "type": "summit_diplomacy_iran_pressure",
+      "last_activated": "2026-05-14",
+      "type": "summit_diplomacy_heu_via_china_custodian_pivot",
       "added": "2026-05-13",
-      "rationale": "Trump departed Washington for Beijing late May 12 declaring 'does not need Xi's help on Iran' + US will win 'one way or the other'; pre-summit posture hardened from May 6-10 cooperative-language phase."
+      "rationale": "Trump Beijing summit Day 1: Trump publicly opened HEU-via-China custodian door (contradicts pre-departure 'doesn't need Xi'). Third high-profile public posture shift in 36 hours. Xi has NOT publicly accepted any custodian role; framework remains stalled on substance — but public custodian door now re-opened in different jurisdiction (Russia-track-stalled now structurally displaced)."
     },
     {
       "from": "india",
       "to": "uae",
-      "weight": 8.0,
+      "weight": 8.5,
       "directness": 1,
-      "last_activated": "2026-05-13",
-      "type": "modi_5_nation_tour_with_covert_combatant_overhang",
+      "last_activated": "2026-05-14",
+      "type": "modi_visits_uae_may_15_while_iran_fm_threatens_uae_from_delhi_soil",
       "added": "2026-05-13",
-      "rationale": "Modi 5-nation tour May 15-20 confirmed (UAE first leg) + UAE confirmed covert combatant (Lavan April 8 per WSJ); explicit 'energy security amid US-Iran war' framing (Khaleej Times); diplomatically loaded by Saudi-strikes disclosure same week."
+      "rationale": "Modi flies UAE May 15 (first leg of 5-nation tour) one day after hosting Iranian FM Araghchi who publicly threatened UAE from BRICS-FM table at Delhi (ToI May 14 liveblog CONFIRMED RHETORIC). Most overt Indian strategic-autonomy choreography of cycle. Weight bumped 8.0 → 8.5 on choreographic loading."
+    },
+    {
+      "from": "iran",
+      "to": "china",
+      "weight": 8.5,
+      "directness": 1,
+      "last_activated": "2026-05-14",
+      "type": "ambassador_to_china_political_balancing_partner_scaffolding_for_heu_via_china_mediation_arc",
+      "added": "2026-05-14",
+      "rationale": "Iran's ambassador to China publicly framed Beijing as 'political balancing' partner — 'China had paved the way for previous direct U.S.-Iran peace talks in Islamabad'; 'predicted Beijing could emerge as a key player in ongoing diplomacy' (Tasnim Iranian state primary + CBS amplification CONFIRMED RHETORIC). Publicly-sanctioned Iranian state-media-side scaffolding for China-mediation arc — institutional ground deliberately laid for HEU-via-China structure Trump opened in Beijing. Diplomatic architecture pivot from Russia-track-stalled to China-track-opening visible from BOTH sides."
+    },
+    {
+      "from": "iran",
+      "to": "uae",
+      "weight": 10.0,
+      "directness": 1,
+      "last_activated": "2026-05-14",
+      "type": "kinetic_target_with_iranian_fm_threatening_uae_from_indian_soil",
+      "added": "2026-05-14",
+      "rationale": "Iran FM Araghchi used Delhi BRICS-FM platform to directly threaten UAE: 'Iranian FM threatens UAE, claims Tehran knew of Netanyahu's visit to Abu Dhabi' (ToI May 14 liveblog primary CONFIRMED RHETORIC). UAE has not publicly responded; UAE state-aligned media institutional silence continues. Iran-UAE conflict surface remains active third-combatant relationship per WSJ Lavan disclosure."
+    },
+    {
+      "from": "saudi-arabia",
+      "to": "iran",
+      "weight": 9.5,
+      "directness": 1,
+      "last_activated": "2026-05-14",
+      "type": "covert_kinetic_late_march_with_subsequent_de_escalation_understanding_per_reuters",
+      "added": "2026-05-14",
+      "rationale": "Reuters May 12-13 cited 'two Western officials and two Iranian officials' (Reuters primary; Times of Israel + Haaretz + JNS + RT + US News + Pravda secondary) — materially strengthens basis from one-cluster (Newsweek-WSJ yesterday) to multi-cluster (WSJ + Reuters independent primary scoops). Reuters adds: 'Saudi Arabia made Iran aware of the strikes... led to an understanding between the two countries to de-escalate.' Saudi-Iran/UAE-Iran trajectories bifurcating: Riyadh paid price of engagement and exited; Abu Dhabi remains operationally engaged. Saudi-strikes remain REPORTED (not CONFIRMED — Saudi/Iran institutionally silent); basis upgrade justifies graph weight bump 9.0 → 9.5."
+    },
+    {
+      "from": "vlcc-td3c-tanker-rate",
+      "to": "brent-crude",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-14",
+      "type": "paper_physical_divergence_flag_when_vlcc_4x_above_recorded_norm",
+      "added": "2026-05-14",
+      "rationale": "Lloyd's List May 11 reports VLCC TD3C 'in unchartered territory' at $420-462K/day vs graph's last-recorded ~$100K = MAJOR ESCALATION SIGNAL. Paper-Brent at $105.68 vs spot VLCC at $420K is the cleanest paper-physical divergence indicator. Per markets dossier E: 1st-order edge (direct mechanism — tanker rate IS the market's assessment of Hormuz risk); source: Lloyd's List primary + Baltic Exchange. Initial weight 9.0; figure flagged for Baltic Exchange cross-verification before propagating to other downstream edges."
+    },
+    {
+      "from": "israel",
+      "to": "lebanon",
+      "weight": 10.0,
+      "directness": 1,
+      "last_activated": "2026-05-14",
+      "type": "weeklong_litani_raid_golani_brigade_with_choreographed_washington_talks_may_14_15",
+      "added": "2026-05-14",
+      "rationale": "IDF announced May 13 it carried out a 'weeklong raid' beyond the Litani River near Zawtar al-Sharqiyah led by the Golani Brigade's Reconnaissance Unit (CONFIRMED — ToI liveblog May 13 + JNS + Haaretz). 'Some 15 Hezbollah operatives' killed past 24h; 'some 45 Hezbollah targets' total over 24h. Meaningful upgrade from yesterday's 'first publicly-acknowledged Litani crossing.' State Department CONFIRMED primary: third round US-facilitated Israel-Lebanon talks Washington May 14-15 (Karam-Dermer); April-23-extended 3-week ceasefire expires May 15 as talks finish — choreographed."
     },
     {
       "from": "uranium-sector",
