@@ -1,0 +1,92 @@
+{
+  "id": "fujairah",
+  "name": "Fujairah",
+  "type": "trade_route",
+  "created": "2026-05-15",
+  "last_updated": "2026-05-15",
+  "summary": "Fujairah is a UAE port complex on the Gulf of Oman side of the Arabian Peninsula — east of (and bypassing) the Strait of Hormuz. **B3 MODI-MBZ ABU DHABI MEETING TODAY: FUJAIRAH EXPANSION ALTERNATIVE-ROUTE PLAN PUBLICLY DISCLOSED** (CONFIRMED — Business Standard, The Tribune, India TV, Khaleej Times, The National, DD News). India and UAE expected to sign two MoUs on LPG supplies and Strategic Petroleum Reserves; alternatives explored include (a) Indian vessels loading more oil and LPG shipments from the Port of Fujairah in the Gulf of Oman, (b) expansion of Fujairah oil terminal capacity, (c) UAE laying an additional cross-peninsula pipeline. **This is operational alternative-route planning being publicly disclosed for the first time** — the structural Indian response to the Hormuz blockade. **UAE Minister of Industry Sultan Al Jaber: 'energy has been weaponised by Hormuz being taken hostage effectively, we are responsible player in energy space'** = cleanest Gulf-state public language framing Hormuz situation as weaponisation by Iran. **B1 HONDURAS-FLAGGED HUI CHUAN SEIZED 38NM NE OF FUJAIRAH MAY 14** by 'unauthorised personnel whilst at anchor,' reportedly bound for Iranian territorial waters (UKMTO primary CONFIRMED ACTION; REPORTED on destination; NO claim of responsibility). Cycle's second confirmed Iranian-direction seizure on a vessel previously at anchor in UAE waters — Fujairah is a high-target zone given its role as anchorage for vessels staging Hormuz transit. **Strategic significance**: Fujairah is the only UAE oil terminal east of the Strait — bulk crude can be exported via Fujairah without transiting Hormuz; current capacity is the binding constraint. Aramco's East-West pipeline + UAE's existing Habshan-Fujairah pipeline (1.8 Mbpd capacity) form the Gulf-state Hormuz-bypass architecture. **NEW TRIGGER**: Fujairah LPG/oil throughput scales >30% of pre-war Hormuz volumes within 6 months — would validate Modi's Hormuz-bypass thesis. Falsification: Fujairah pipeline plan stalls past Q4 2026 on UAE financing or laying timelines.",
+  "current": {
+    "role": "UAE port east of Hormuz; bulk crude staging anchorage; Habshan-Fujairah pipeline 1.8 Mbpd capacity (existing); cross-peninsula pipeline expansion under bilateral discussion with India",
+    "modi_mou_status": "LPG + Strategic Petroleum Reserve MoUs to be signed at Modi-MBZ meeting May 15",
+    "kinetic_exposure": "Hui Chuan seized 38nm NE of Fujairah May 14 (Honduras-flagged, bound for Iranian waters per UKMTO advisory; perpetrator unattributed)"
+  },
+  "active_triggers": [
+    {
+      "condition": "Fujairah oil/LPG throughput scales to >30% of pre-war Hormuz volumes within 6 months — validates Hormuz-bypass thesis",
+      "status": "watching",
+      "cascade": ["india", "uae", "strait-of-hormuz", "brent-crude"],
+      "added": "2026-05-15"
+    },
+    {
+      "condition": "Cross-peninsula pipeline expansion (Habshan-Fujairah scale-up OR new pipeline) operationally announced within 12 months",
+      "status": "watching",
+      "cascade": ["uae", "india", "strait-of-hormuz", "brent-crude"],
+      "added": "2026-05-15"
+    },
+    {
+      "condition": "Second vessel seizure at Fujairah anchorage within 30 days of Hui Chuan (May 14) — confirms targeting pattern",
+      "status": "watching",
+      "cascade": ["fujairah", "iran", "uae", "strait-of-hormuz", "shipping-tankers"],
+      "added": "2026-05-15"
+    }
+  ],
+  "top_edges": [
+    {
+      "to": "uae",
+      "type": "national_port_complex",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    },
+    {
+      "to": "india",
+      "type": "bilateral_lpg_spr_mou_target_hormuz_bypass",
+      "weight": 8.5,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    },
+    {
+      "to": "strait-of-hormuz",
+      "type": "bypass_alternative_route_pipeline_planned",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    },
+    {
+      "to": "brent-crude",
+      "type": "alternative_export_route_pricing_relief_optional",
+      "weight": 7.0,
+      "directness": 2,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    },
+    {
+      "to": "iran",
+      "type": "vessel_seizure_target_anchorage_hui_chuan_may_14",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    }
+  ],
+  "recent_signals": [
+    {
+      "date": "2026-05-15",
+      "headline": "**B3 MODI-MBZ FUJAIRAH EXPANSION ALTERNATIVE-ROUTE PLAN PUBLICLY DISCLOSED** (CONFIRMED — Business Standard, The Tribune, India TV, Khaleej Times, The National, DD News). India and UAE expected to sign two MoUs on LPG supplies and Strategic Petroleum Reserves. Alternatives explored: (a) Indian vessels loading more oil and LPG shipments from Port of Fujairah in Gulf of Oman, (b) expansion of Fujairah oil terminal capacity, (c) UAE laying additional cross-peninsula pipeline. **UAE Minister Sultan Al Jaber: 'energy has been weaponised by Hormuz being taken hostage effectively' = cleanest Gulf-state public language framing Hormuz situation as weaponisation by Iran.** **B1 HUI CHUAN SEIZED 38NM NE OF FUJAIRAH MAY 14** — Honduras-flagged, 'unauthorised personnel whilst at anchor,' reportedly bound for Iranian territorial waters (UKMTO primary CONFIRMED on event; REPORTED on destination; NO claim of responsibility).",
+      "sources": [
+        "Business Standard (Modi-MBZ primary)",
+        "The Tribune India",
+        "India TV (live updates)",
+        "The National (Abu Dhabi) — UAE Minister Al Jaber direct quote",
+        "Khaleej Times (Dubai business community)",
+        "DD News (Doordarshan)",
+        "UKMTO advisory primary (Hui Chuan)",
+        "BBC (Hui Chuan vessel identification)"
+      ],
+      "verification": "Modi-MBZ Fujairah expansion plan disclosed = CONFIRMED multi-cluster (Business Standard + The Tribune + Khaleej Times + The National + Discovery Alert); Al Jaber 'weaponised' framing = CONFIRMED RHETORIC (direct UAE government primary); LPG + SPR MoUs to be signed = CONFIRMED RHETORIC + REPORTED (expected today, not yet signed); Hui Chuan seizure 38nm NE of Fujairah = CONFIRMED ACTION (UKMTO primary), REPORTED on Iranian destination, NO claim of responsibility."
+    }
+  ]
+}

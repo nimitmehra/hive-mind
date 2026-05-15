@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14",
+  "last_updated": "2026-05-15",
   "edges": [
     {
       "from": "aluminum",
@@ -104,10 +104,10 @@
     {
       "from": "china",
       "to": "iran",
-      "weight": 8.0,
+      "weight": 8.5,
       "directness": 1,
-      "last_activated": "2026-05-14",
-      "type": "brics_alignment_with_ofac_blocking_rules_and_heu_custodian_door_opened_by_trump"
+      "last_activated": "2026-05-15",
+      "type": "joint_statement_with_us_iran_no_nuclear_weapon_peaceful_use_preserved"
     },
     {
       "from": "china",
@@ -2222,22 +2222,24 @@
     {
       "from": "trump",
       "to": "china",
-      "weight": 9.5,
+      "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-14",
-      "type": "summit_diplomacy_heu_via_china_custodian_pivot",
+      "last_activated": "2026-05-15",
+      "type": "joint_statement_iran_no_nuclear_weapon_hormuz_must_remain_open_strategic_stability_framework",
       "added": "2026-05-13",
-      "rationale": "Trump Beijing summit Day 1: Trump publicly opened HEU-via-China custodian door (contradicts pre-departure 'doesn't need Xi'). Third high-profile public posture shift in 36 hours. Xi has NOT publicly accepted any custodian role; framework remains stalled on substance — but public custodian door now re-opened in different jurisdiction (Russia-track-stalled now structurally displaced)."
+      "updated": "2026-05-15",
+      "rationale": "Trump-Xi Summit Day 2 produced joint statement: Iran 'can never have a nuclear weapon' + Strait of Hormuz 'must remain open' (CONFIRMED — ToI May 15 liveblog primary, CBS, CNN, China MFA readout, Al Jazeera). Both sides committed to 'constructive China-U.S. relationship of strategic stability' framework guiding next three years. China MFA preserves Iran's 'legitimate right to peaceful use of nuclear energy' escape valve. Weight bumped 9.5 → 10.0 on joint-statement issuance (operational rhetorical alignment achieved, though operational custodian framework not yet announced)."
     },
     {
       "from": "india",
       "to": "uae",
-      "weight": 8.5,
+      "weight": 9.0,
       "directness": 1,
-      "last_activated": "2026-05-14",
-      "type": "modi_visits_uae_may_15_while_iran_fm_threatens_uae_from_delhi_soil",
+      "last_activated": "2026-05-15",
+      "type": "modi_mbz_lpg_spr_mou_fujairah_expansion_publicly_disclosed_as_hormuz_bypass",
       "added": "2026-05-13",
-      "rationale": "Modi flies UAE May 15 (first leg of 5-nation tour) one day after hosting Iranian FM Araghchi who publicly threatened UAE from BRICS-FM table at Delhi (ToI May 14 liveblog CONFIRMED RHETORIC). Most overt Indian strategic-autonomy choreography of cycle. Weight bumped 8.0 → 8.5 on choreographic loading."
+      "updated": "2026-05-15",
+      "rationale": "Modi-MBZ Abu Dhabi meeting May 15: LPG + Strategic Petroleum Reserve MoUs to be signed; Fujairah expansion alternative-route plan publicly disclosed (CONFIRMED — Business Standard + The Tribune + Khaleej Times + The National + DD News). UAE Minister Sultan Al Jaber: 'energy has been weaponised by Hormuz being taken hostage effectively' = cleanest Gulf-state public weaponisation framing of Iran. Alternative-route engineering as Hormuz-bypass strategy publicly disclosed for the first time. Weight bumped 8.5 → 9.0 on operational alternative-route plan + MoUs."
     },
     {
       "from": "iran",
@@ -2348,6 +2350,197 @@
       "type": "summit_pause_ceiling_mechanic",
       "added": "2026-05-13",
       "rationale": "Mirror of vix->sp-500. VIX behaviour now central to graph because it operationalises the kinetic vs paper-disruption-vs-de-escalation trinary in a tradeable way."
+    },
+    {
+      "from": "samsung",
+      "to": "kospi",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "index_concentration_samsung_plus_sk_hynix_42_2_percent",
+      "added": "2026-05-15",
+      "rationale": "Samsung Electronics + SK Hynix = 42.2% of KOSPI weight (record concentration). Samsung intraday -5.4% May 15 from prior-day all-time high contributed materially to KOSPI -6.1% (single largest equity move of cycle)."
+    },
+    {
+      "from": "samsung",
+      "to": "helium",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "helium_consumption_dependency_qatar_64_7_percent_hers_recovery_18_6_percent_coverage",
+      "added": "2026-05-15",
+      "rationale": "Samsung's HeRS helium-recycling system operational but covers only ~18.6% of consumption; Korea sources 64.7% from Qatar. Helium-clock-expiry window May 16-23 begins tomorrow with Samsung at the center of the supply-side stack."
+    },
+    {
+      "from": "samsung",
+      "to": "semiconductors",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "global_memory_leader",
+      "added": "2026-05-15"
+    },
+    {
+      "from": "samsung",
+      "to": "south-korea",
+      "weight": 8.5,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "national_economic_significance_18_day_strike_may_21",
+      "added": "2026-05-15",
+      "rationale": "Samsung 18-day strike planned May 21-June 7 (CONFIRMED — Bloomberg + Korean press). Full-stoppage projection ~1 trillion won/day damage. PM Kim Min-seok emergency ministerial meeting. April one-day strike caused 18% memory fab output drop, 58% foundry output drop per shift."
+    },
+    {
+      "from": "sk-hynix",
+      "to": "kospi",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "index_concentration_with_samsung_42_2_percent",
+      "added": "2026-05-15"
+    },
+    {
+      "from": "sk-hynix",
+      "to": "helium",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "helium_consumption_dependency_diversified_supplies_claimed",
+      "added": "2026-05-15",
+      "rationale": "SK Hynix has publicly claimed 'diversified supplies' on helium (CLAIMED — one-sided, NOT independently corroborated; TrendForce data-driven analysis is REPORTED). Capacity 'essentially zero' through 2027-2030."
+    },
+    {
+      "from": "sk-hynix",
+      "to": "semiconductors",
+      "weight": 9.5,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "dominant_hbm_supplier_for_ai_accelerators_nvidia_lion_share_2026",
+      "added": "2026-05-15",
+      "rationale": "SK Hynix is the dominant HBM supplier for AI accelerators; Nvidia took the lion's share of 2026 output. Available capacity 'essentially zero' per insider reporting (Tom's Hardware + Wccftech + TradingKey + Bloomberg). Alphabet/Meta/Microsoft/Nvidia/Amazon/Google making unprecedented financing proposals to fund dedicated production lines and ASML EUV lithography machines."
+    },
+    {
+      "from": "sk-hynix",
+      "to": "south-korea",
+      "weight": 8.5,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "national_economic_significance_capacity_zero_through_2027_2030",
+      "added": "2026-05-15"
+    },
+    {
+      "from": "fujairah",
+      "to": "uae",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "national_port_complex_east_of_hormuz",
+      "added": "2026-05-15"
+    },
+    {
+      "from": "fujairah",
+      "to": "india",
+      "weight": 8.5,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "bilateral_lpg_spr_mou_target_hormuz_bypass_modi_mbz_may_15",
+      "added": "2026-05-15",
+      "rationale": "Modi-MBZ Abu Dhabi meeting May 15: LPG + Strategic Petroleum Reserve MoUs to be signed; Fujairah expansion alternative-route plan publicly disclosed for first time. India and UAE explored (a) Indian vessels loading more oil and LPG from Fujairah, (b) expansion of Fujairah oil terminal capacity, (c) UAE laying additional cross-peninsula pipeline."
+    },
+    {
+      "from": "fujairah",
+      "to": "strait-of-hormuz",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "bypass_alternative_route_pipeline_planned_habshan_fujairah_1_8_mbpd_existing",
+      "added": "2026-05-15"
+    },
+    {
+      "from": "fujairah",
+      "to": "iran",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "vessel_seizure_target_anchorage_hui_chuan_may_14",
+      "added": "2026-05-15",
+      "rationale": "Hui Chuan seized 38nm NE of Fujairah May 14 (Honduras-flagged, bound for Iranian waters per UKMTO advisory; perpetrator unattributed; NO claim of responsibility). Cycle's second confirmed Iranian-direction seizure on a vessel previously at anchor in UAE waters."
+    },
+    {
+      "from": "artesh",
+      "to": "iran",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "national_military_pillar_distinct_from_irgc",
+      "added": "2026-05-15"
+    },
+    {
+      "from": "artesh",
+      "to": "irgc",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "parallel_institutional_kinetic_readiness_signaling_akraminia_hassanzadeh_synchronised",
+      "added": "2026-05-15",
+      "rationale": "Akraminia (Artesh spokesperson, IRNA) + Hassanzadeh (IRGC drill complete) synchronised kinetic-readiness messaging across both Iranian military pillars on the same day Trump-Xi joint statement said Iran 'can never have a nuclear weapon.'"
+    },
+    {
+      "from": "artesh",
+      "to": "united-states",
+      "weight": 6.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "rhetorical_threat_surprising_options_if_miscalculation",
+      "added": "2026-05-15"
+    },
+    {
+      "from": "india",
+      "to": "fujairah",
+      "weight": 8.5,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "modi_mbz_lpg_spr_mou_alternative_route_engineering_publicly_disclosed",
+      "added": "2026-05-15"
+    },
+    {
+      "from": "uae",
+      "to": "strait-of-hormuz",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "fujairah_expansion_engineering_planning_confirms_uae_alternative_route_strategy",
+      "added": "2026-05-15",
+      "rationale": "UAE Minister Sultan Al Jaber publicly framed Hormuz situation as 'weaponised by Iran' — cleanest Gulf-state public language of cycle. Modi-MBZ Fujairah expansion plan publicly disclosed = operational alternative-route engineering as Hormuz-bypass strategy."
+    },
+    {
+      "from": "iran",
+      "to": "india",
+      "weight": 7.5,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "india_mea_first_unacceptable_condemnation_after_indian_flagged_dhow_sunk",
+      "added": "2026-05-15",
+      "rationale": "MSV Haj Ali (Indian-flagged dhow) sunk off Oman May 13 in suspected drone attack (CONFIRMED sinking; CLAIMED attribution — Iran not confirmed as attacker). India MEA called the attack 'unacceptable' — strongest public Indian condemnation of the cycle. Tag floor: REPORTED on Iranian attribution; CONFIRMED on India MEA condemnation language."
+    },
+    {
+      "from": "hezbollah",
+      "to": "israel",
+      "weight": 10,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "litani_kia_dagan_mortar_fire_trigger_fired_day_2_of_14_transition_to_ground_engagement_casualty_regime",
+      "added": "2026-05-15",
+      "rationale": "Staff Sgt. Negev Dagan, 20, Golani Brigade 12th Battalion killed by Hezbollah mortar fire near Litani May 14 (CONFIRMED — Times of Israel primary, JNS, i24News, Haaretz, Israeli MoD primary). KIA trigger added yesterday at Day 1 of 14 fired on Day 2. Mortar fire distinct from prior drone-attrition pattern = transition to ground-engagement casualty regime confirmed."
+    },
+    {
+      "from": "iran",
+      "to": "strait-of-hormuz",
+      "weight": 10,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "type": "territorial_control_diplomatically_contested_via_joint_statement_must_remain_open",
+      "added": "2026-05-15"
     }
   ]
 }

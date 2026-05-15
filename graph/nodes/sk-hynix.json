@@ -1,0 +1,78 @@
+{
+  "id": "sk-hynix",
+  "name": "SK Hynix",
+  "type": "company",
+  "created": "2026-05-15",
+  "last_updated": "2026-05-15",
+  "summary": "SK Hynix is the world's #2 memory chip producer and the dominant HBM (high-bandwidth memory) supplier for AI accelerators. Samsung + SK Hynix = 42.2% of KOSPI weight. **A9 SK HYNIX AVAILABLE CAPACITY 'ESSENTIALLY ZERO'** per insider reporting (CONFIRMED — Tom's Hardware, TradingKey, Wccftech, ad-hoc-news, Seoul Economic Daily, Bloomberg). Alphabet, Meta, Microsoft, Nvidia, Amazon and Google making unprecedented financing proposals to fund dedicated production lines and ASML EUV lithography machines (each running hundreds of millions of dollars). **Nvidia took the lion's share of 2026 output.** SK Hynix is cautious about accepting customer financing because long-term supply agreements at potentially discounted prices could crimp future profitability. **Memory shortage now expected to last through 2027 or 2030.** SK Hynix +144% YTD into May 14. SK Hynix has publicly claimed 'diversified supplies' on helium (CLAIMED — one-sided, NOT independently corroborated; TrendForce data-driven analysis is REPORTED). **Combined with the helium-clock-expiry window of May 16-23 and Samsung 18-day strike from May 21, SK Hynix sits at the center of the Korean fab complex's three simultaneous supply-side stressors.** **NEW TRIGGER**: 'SK Hynix announces supply guidance cut within 60 days' — would land helium-tsunami thesis. **Memory order-shift risk to SK Hynix and Micron** flagged by TrendForce as Samsung strike consequence — could BENEFIT SK Hynix marginally on order rotation, but capacity-zero constraint limits the upside.",
+  "current": {
+    "price": "SK Hynix peak +144% YTD into May 14; intraday -5%+ on May 15 as KOSPI dropped 6.1%",
+    "delta_ytd_2026": "+144% (peak)",
+    "capacity_status": "Available capacity 'essentially zero' through 2027-2030",
+    "hbm_position": "Dominant HBM supplier; Nvidia took lion's share of 2026 output",
+    "kospi_weight": "Samsung + SK Hynix combined = 42.2% of KOSPI"
+  },
+  "active_triggers": [
+    {
+      "condition": "SK Hynix announces supply guidance cut or formal production halt within 60 days",
+      "status": "watching",
+      "cascade": ["kospi", "south-korea", "semiconductors", "helium"],
+      "added": "2026-05-15"
+    },
+    {
+      "condition": "SK Hynix accepts hyperscaler financing (Alphabet/Meta/Microsoft/Nvidia/Amazon/Google) within 90 days — would confirm capacity-zero structural reality",
+      "status": "watching",
+      "cascade": ["sk-hynix", "semiconductors", "kospi"],
+      "added": "2026-05-15"
+    }
+  ],
+  "top_edges": [
+    {
+      "to": "kospi",
+      "type": "index_concentration_with_samsung_42_2_percent",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    },
+    {
+      "to": "helium",
+      "type": "consumption_dependency_qatar_64_7_percent",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    },
+    {
+      "to": "semiconductors",
+      "type": "dominant_hbm_supplier_for_ai_accelerators",
+      "weight": 9.5,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    },
+    {
+      "to": "south-korea",
+      "type": "national_economic_significance",
+      "weight": 8.5,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    }
+  ],
+  "recent_signals": [
+    {
+      "date": "2026-05-15",
+      "headline": "**SK HYNIX AVAILABLE CAPACITY 'ESSENTIALLY ZERO'** per insider reporting (CONFIRMED — Tom's Hardware, TradingKey, Wccftech, ad-hoc-news, Seoul Economic Daily, Bloomberg). Alphabet, Meta, Microsoft, Nvidia, Amazon and Google making unprecedented financing proposals to fund dedicated production lines and ASML EUV lithography machines. Nvidia took the lion's share of 2026 output. SK Hynix cautious about accepting customer financing because long-term supply agreements at discounted prices could crimp future profitability. **Memory shortage now expected to last through 2027 or 2030.** SK Hynix +144% YTD into May 14. KOSPI -6.1% May 15 (intraday roundtrip from 8,046 to 7,493).",
+      "sources": [
+        "Tom's Hardware (SK Hynix capacity-zero deep-dive)",
+        "TradingKey",
+        "Wccftech",
+        "ad-hoc-news",
+        "Seoul Economic Daily",
+        "Bloomberg"
+      ],
+      "verification": "Capacity 'essentially zero' = CONFIRMED (multi-source insider reporting Tom's Hardware + Wccftech + TradingKey + ad-hoc-news + Seoul Economic Daily + Bloomberg); hyperscaler financing proposals = CONFIRMED ACTION (Tom's Hardware primary); memory shortage through 2027-2030 = REPORTED (analyst estimate); SK Hynix 'diversified supplies' on helium = CLAIMED (one-sided)."
+    }
+  ]
+}

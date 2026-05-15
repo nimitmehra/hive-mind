@@ -1,0 +1,77 @@
+{
+  "id": "samsung",
+  "name": "Samsung Electronics",
+  "type": "company",
+  "created": "2026-05-15",
+  "last_updated": "2026-05-15",
+  "summary": "Samsung Electronics is the world's largest memory chip producer and largest holding in the KOSPI (Samsung + SK Hynix = 42.2% of KOSPI weight). **A9 SAMSUNG 18-DAY STRIKE PLANNED FROM MAY 21** after talks broke down May 12-13 (CONFIRMED — Bloomberg, Tom's Hardware, Korea Herald, Korea Times, Manila Times, Star, UPI). Union demands removing the existing bonus cap, allocating 15% of operating profit to worker bonuses, and formalising terms in employment contracts. **April's one-day strike already caused an 18% drop in memory fab output and a 58% drop in foundry output on the affected night shift**, with full-stoppage projections at approximately 1 trillion won ($700M) per day. PM Kim Min-seok has called an emergency ministerial meeting. **C1 KOSPI -6.1% TO 7,493.20 was driven in part by Samsung Electronics intraday -5.4% from prior-day all-time high 296,000 won as the index briefly broke 8,000 first time ever then reversed violently.** Samsung +111% YTD into May 14 high. Samsung HeRS helium-recycling system operational but covers only ~18.6% of consumption. **Combined with the helium-clock-expiry window of May 16-23 and SK Hynix capacity-zero, Samsung is at the center of the Korean fab complex's three simultaneous supply-side stressors.** **NEW TRIGGER**: 'Samsung announces production halt or supply guidance cut within 60 days' — would land Phil Kornbluth's helium-tsunami thesis. Falsification: spot helium retracing to pre-war by July 1.",
+  "current": {
+    "price": "Samsung Electronics ~280,000 won (down ~5.4% intraday May 15 from prior-day all-time high 296,000 won)",
+    "delta_ytd_2026": "+111% (peak); current down 5.4% intraday",
+    "strike_window": "18-day strike planned May 21-June 7; 45,000+ workers; ~1 trillion won/day damage projection at full stoppage; April one-day strike = 18% memory fab output drop, 58% foundry output drop per shift",
+    "kospi_weight": "Samsung + SK Hynix combined = 42.2% of KOSPI"
+  },
+  "active_triggers": [
+    {
+      "condition": "Samsung announces production halt or supply guidance cut within 60 days",
+      "status": "watching",
+      "cascade": ["kospi", "south-korea", "semiconductors", "helium"],
+      "added": "2026-05-15"
+    },
+    {
+      "condition": "Samsung 18-day strike triggers KOSPI/SMH drawdown >5% within 5 sessions of May 21 start",
+      "status": "watching",
+      "cascade": ["kospi", "south-korea", "semiconductors"],
+      "added": "2026-05-15"
+    }
+  ],
+  "top_edges": [
+    {
+      "to": "kospi",
+      "type": "index_concentration_largest_weighting",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    },
+    {
+      "to": "helium",
+      "type": "consumption_dependency_qatar_64_7_percent",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    },
+    {
+      "to": "south-korea",
+      "type": "national_economic_significance",
+      "weight": 8.5,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    },
+    {
+      "to": "semiconductors",
+      "type": "global_memory_leader",
+      "weight": 9.0,
+      "directness": 1,
+      "last_activated": "2026-05-15",
+      "activation_count": 1
+    }
+  ],
+  "recent_signals": [
+    {
+      "date": "2026-05-15",
+      "headline": "**SAMSUNG 18-DAY STRIKE CONFIRMED MAY 21-JUNE 7** (CONFIRMED — Bloomberg, Tom's Hardware, Korea Herald, Korea Times, Manila Times). Largest labor union failed to reach wage deal May 12-13 after two days of marathon government-mediated talks. Union demands: remove bonus cap, allocate 15% of operating profit to worker bonuses, formalise in employment contracts. **April's one-day strike caused 18% drop in memory fab output, 58% drop in foundry output per shift; full-stoppage projections ~1 trillion won ($700M) per day.** PM Kim Min-seok called emergency ministerial meeting. Samsung Electronics intraday -5.4% May 15 from prior-day all-time high 296,000 won as KOSPI reversed from 8,000 milestone to close -6.1% at 7,493 — single largest equity move of the cycle.",
+      "sources": [
+        "Bloomberg (Samsung labor talks collapse primary)",
+        "Tom's Hardware (Samsung 18-day strike deep-dive)",
+        "Korea Herald + Korea Times (Korean primary press)",
+        "UPI",
+        "Manila Times",
+        "TrendForce May 13 (Samsung strike contained-on-revenue-impact analyst note)"
+      ],
+      "verification": "18-day strike planned May 21-June 7 = CONFIRMED ACTION (Bloomberg + Korean press primary multi-cluster); April 18%/58% output drop = CONFIRMED (Korea Herald primary); KOSPI close 7,493 = CONFIRMED (yfinance/markets dossier); Samsung public statements indicate continued effort to reach agreement."
+    }
+  ]
+}
