@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-05-18",
   "edges": [
     {
       "from": "aluminum",
@@ -2606,12 +2606,63 @@
     {
       "from": "marine-war-risk-insurance",
       "to": "brent-crude",
-      "weight": 6.0,
+      "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-16",
-      "type": "awrp_1_to_5_percent_hm_8_10x_pre_war_direct_mechanism_in_brent_floor",
+      "last_activated": "2026-05-18",
+      "type": "awrp_3_to_8_percent_hm_20_50x_pre_war_direct_mechanism_stanchart_path_active",
       "added": "2026-05-16",
-      "rationale": "Per markets.md E4 proposed edge (carryforward from May 13): AWRP 1-5% H&M = ~8-10x pre-war 0.1-0.15% is direct mechanism in Brent floor. JMIC May 4-5 Hormuz Critical; 6 transits May 3 / 5 transits May 4 vs 138 historical."
+      "updated": "2026-05-18",
+      "rationale": "Per markets.md E4 strengthened: AWRP 3-8% of vessel value ($3-8M/transit) vs 0.1-0.15% pre-war = 20-50x; Hormuz traffic ~30 vessels/day vs 138 pre-war; some transits paying 10% per Lloyd's Market Association. Weight raised from 6.0 to 10.0 reflecting direct mechanism confirmed every day + StanChart $130-145 path activation."
+    },
+    {
+      "from": "uae-barakah-nuclear-plant",
+      "to": "uae",
+      "weight": 10.0,
+      "directness": 1,
+      "last_activated": "2026-05-18",
+      "type": "parent_country",
+      "added": "2026-05-18",
+      "rationale": "Node creation 2026-05-18. Barakah Nuclear Energy Plant is operated by UAE state nuclear corporation (ENEC/Nawah Energy) at Al Dhafra."
+    },
+    {
+      "from": "uae-barakah-nuclear-plant",
+      "to": "iran",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-05-18",
+      "type": "presumed_attacker_unclaimed_deniable_harassment_first_nuclear_adjacent_kinetic",
+      "added": "2026-05-18",
+      "rationale": "Per markets dossier Section E: May 17 drone strike on Barakah perimeter — first nuclear-infrastructure kinetic incident of cycle. Attribution UNCLAIMED but operationally consistent with Iran-aligned proxy (likely Iran-aligned Iraqi militia or other deniable channel). Initial weight 7.0 (1st-order kinetic, nuclear-symbolic). IAEA 'grave concern' primary."
+    },
+    {
+      "from": "uae-barakah-nuclear-plant",
+      "to": "brent-crude",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-05-18",
+      "type": "energy_infrastructure_attack_premium_via_nuclear_symbolic_channel",
+      "added": "2026-05-18",
+      "rationale": "Markets dossier C1: Barakah strike is one of the principal drivers of Monday Brent +2.0% to $111.47 (StanChart $130-145 path activates — 2-session sustain rule met). Nuclear-infrastructure-adjacent attack adds a categorically new escalation tier to the cycle's risk-premium architecture."
+    },
+    {
+      "from": "uae-barakah-nuclear-plant",
+      "to": "nuclear-program",
+      "weight": 6.5,
+      "directness": 1,
+      "last_activated": "2026-05-18",
+      "type": "first_nuclear_infrastructure_adjacent_kinetic_of_cycle_iaea_grave_concern",
+      "added": "2026-05-18",
+      "rationale": "First nuclear-infrastructure-adjacent kinetic incident of the cycle. IAEA 'grave concern' primary statement. Inverts the strategic premise that nuclear infrastructure had been kept off the kinetic target list during the war."
+    },
+    {
+      "from": "iraq",
+      "to": "saudi-arabia",
+      "weight": 6.0,
+      "directness": 2,
+      "last_activated": "2026-05-18",
+      "type": "drone_launch_vector_iraqi_airspace_iran_aligned_militia_proxy_channel",
+      "added": "2026-05-18",
+      "rationale": "Per markets dossier Section E + intel B1: May 17 — 3 drones launched from Iraqi airspace intercepted over Saudi airspace per Brig al-Maliki. First confirmed Saudi territorial breach of cycle. Iraqi government has not claimed responsibility; PMU/Kata'ib Hezbollah/Asa'ib Ahl al-Haq are most likely vectors by capability and prior pattern (same militias named in WSJ April 21 framing). Iran → Iraqi militia → Saudi territory = 2nd-order directness; initial weight 6.0."
     }
   ]
 }

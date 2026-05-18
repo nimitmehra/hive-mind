@@ -24,12 +24,12 @@ An **intelligence system** — not a news aggregator — that produces daily bri
 
 ## The Knowledge Graph
 
-The graph currently tracks **59 nodes** across 8 types and **336 weighted edges** representing causal connections.
+The graph currently tracks **60 nodes** across 8 types and **341 weighted edges** representing causal connections.
 
 ### Node Types
 - **Countries** (17): Bahrain, China, France, India, Iran, Iraq, Israel, Kuwait, Lebanon, Pakistan, Qatar, Russia, Saudi Arabia, South Korea, Taiwan (TSMC), United Arab Emirates, United States
 - **Commodities** (7): Aluminum, Brent Crude, European TTF Natural Gas, Fertilizer / Urea, Gold, Helium, Natural Gas / LNG
-- **Institutions** (11): European Central Bank (ECB), FII (Foreign Institutional Investor) Flows — India, Federal Reserve, Hezbollah, Houthis (Yemen), Iran Nuclear Program & HEU Custody Architecture, Iranian Army (Artesh), Islamic Revolutionary Guard Corps (IRGC), Marine War Risk Insurance, OPEC+, Reserve Bank of India
+- **Institutions** (12): European Central Bank (ECB), FII (Foreign Institutional Investor) Flows — India, Federal Reserve, Hezbollah, Houthis (Yemen), Iran Nuclear Program & HEU Custody Architecture, Iranian Army (Artesh), Islamic Revolutionary Guard Corps (IRGC), Marine War Risk Insurance, OPEC+, Reserve Bank of India, UAE Barakah Nuclear Energy Plant
 - **Indices** (6): INR/USD Exchange Rate, KOSPI (Korea Composite Stock Index), Nifty 50, S&P 500, US 10-Year Treasury Yield, VIX (CBOE Volatility Index)
 - **Trade Routes** (3): Fujairah, Red Sea / Suez Canal, Strait of Hormuz
 - **Sectors** (7): Defense & Aerospace Sector, Energy Sector (Global), Indian IT Sector (TCS/Infosys/Wipro), Indian Oil Marketing (IOC/BPCL/HPCL), Semiconductors (SMH/SOX), Shipping / Tanker Rates, Uranium Sector
