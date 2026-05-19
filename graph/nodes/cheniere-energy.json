@@ -1,0 +1,103 @@
+{
+  "id": "cheniere-energy",
+  "name": "Cheniere Energy",
+  "type": "company",
+  "created": "2026-05-19",
+  "last_updated": "2026-05-19",
+  "summary": "Largest US LNG exporter (Sabine Pass + Corpus Christi). Created 2026-05-19 per markets dossier E1 — appears in 4+ independent sources as transmission mechanism between European TTF gas basis ↔ Hormuz LNG dislocation ↔ US LNG export economics. **Tuesday May 19**: +2.4% to $247.74 on raised 2026 EBITDA guide to $7.25-7.75B (Oilprice / 24/7 Wall St); EU storage 141 cargoes below 5-year low per Cheniere management commentary. **Structural thesis**: with Qatar LNG and Iranian gas off the global market via Hormuz blockade, European emergency-supply needs flow through US LNG exporters; Cheniere is the largest. The Hormuz reopening (Baker Hughes call: not until 2H26) is the only structural reverse for this trade. **Wall Street upgrades** post-EBITDA-guide raise: Cheniere is now positioned as the cleanest non-Iran-conditional long inside the structural-bid trio (XLE, Frontline, Cheniere). Recent moves UP on Brent-down day (+2.4% Tuesday despite Brent -1.6%) confirm war premium has migrated OUT of crude flat-price INTO LNG basis.",
+  "current": {
+    "price": "$247.74",
+    "delta_1d": "+2.4%",
+    "delta_1m": "-1.1%",
+    "delta_3m": "+9.8%"
+  },
+  "price_snapshots": [
+    {
+      "date": "2026-05-19",
+      "price": "$247.74",
+      "trigger": "EBITDA guide raise + structural-bid trio Brent-inverse day",
+      "delta_context": "+2.4% on a Brent -1.6% / WTI -4.7% day = war premium migrating out of crude flat-price into LNG basis"
+    }
+  ],
+  "active_triggers": [
+    {
+      "condition": "Cheniere announces additional EBITDA guide raise within 60 days (by 2026-07-18)",
+      "status": "watching",
+      "cascade": [
+        "natural-gas-lng",
+        "european-ttf-gas",
+        "energy-sector"
+      ],
+      "added": "2026-05-19",
+      "note": "Tuesday's $7.25-7.75B guide raise was off pre-war expectations; if European storage builds slower than expected through summer, another raise within 60 days would confirm structural-bid thesis."
+    },
+    {
+      "condition": "Hormuz reopens (Baker Hughes 2H26 timeline) — bearish reversal trigger",
+      "status": "watching",
+      "cascade": [
+        "natural-gas-lng",
+        "european-ttf-gas",
+        "energy-sector",
+        "strait-of-hormuz"
+      ],
+      "added": "2026-05-19",
+      "note": "The only structural reverse for the Cheniere long thesis. Baker Hughes call: not until 2H26. Tracker: vessel transit returning toward ~138/day pre-war benchmark."
+    }
+  ],
+  "top_edges": [
+    {
+      "to": "european-ttf-gas",
+      "type": "us_lng_substitution_for_european_storage_under_hormuz_blockade",
+      "weight": 7.5,
+      "directness": 1,
+      "last_activated": "2026-05-19",
+      "activation_count": 1
+    },
+    {
+      "to": "natural-gas-lng",
+      "type": "largest_us_lng_exporter_sabine_pass_corpus_christi",
+      "weight": 8.0,
+      "directness": 1,
+      "last_activated": "2026-05-19",
+      "activation_count": 1
+    },
+    {
+      "to": "strait-of-hormuz",
+      "type": "hormuz_lng_dislocation_creates_european_demand_for_us_lng",
+      "weight": 6.0,
+      "directness": 2,
+      "last_activated": "2026-05-19",
+      "activation_count": 1
+    },
+    {
+      "to": "qatar",
+      "type": "qatar_lng_export_constraint_directly_benefits_us_lng_competitive_position",
+      "weight": 5.0,
+      "directness": 2,
+      "last_activated": "2026-05-19",
+      "activation_count": 1
+    },
+    {
+      "to": "energy-sector",
+      "type": "structural_bid_trio_member_xle_frontline_cheniere",
+      "weight": 7.0,
+      "directness": 1,
+      "last_activated": "2026-05-19",
+      "activation_count": 1
+    }
+  ],
+  "recent_signals": [
+    {
+      "date": "2026-05-19",
+      "headline": "**CHENIERE NODE CREATED — +2.4% TO $247.74 ON RAISED 2026 EBITDA GUIDE TO $7.25-7.75B + EU STORAGE 141 CARGOES BELOW 5-YEAR LOW.** Largest US LNG exporter; transmission mechanism between European TTF basis ↔ Hormuz LNG dislocation ↔ US LNG export economics. Cheniere management commentary on European storage 141 cargoes below 5-year low gives structural visibility into European emergency-supply needs. Wall Street upgrades post-EBITDA-guide raise. **Tuesday's +2.4% on a Brent -1.6% / WTI -4.7% day is the cleanest demonstration that war premium has migrated out of crude flat-price into LNG basis** — Cheniere is decoupled from spot oil because cash flows are multi-year contracted offtake, not commodity-linked. Inside the structural-bid trio (XLE, Frontline, Cheniere), Cheniere shares the Hormuz-still-closed structural premium with the other two — all three moved UP on Brent-down day. **The Hormuz reopening (Baker Hughes call: not until 2H26) is the only structural reverse** for this trade.",
+      "sources": [
+        "yfinance LNG",
+        "Oilprice / 24/7 Wall St (Cheniere EBITDA guide)",
+        "Cheniere management commentary (European storage 141 cargoes below 5y low)",
+        "Trading Economics (TTF €50.36)",
+        "Markets dossier C4c E1 F"
+      ],
+      "verification": "Cheniere +2.4% = CONFIRMED operational tape; $7.25-7.75B EBITDA guide = CONFIRMED (Cheniere primary + Oilprice + 24/7 Wall St); EU storage 141 cargoes below 5y low = REPORTED (Cheniere management commentary); structural-bid trio inverse-to-Brent move = CONFIRMED operational pattern."
+    }
+  ]
+}
