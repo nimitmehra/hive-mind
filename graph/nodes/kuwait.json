@@ -3,18 +3,18 @@
   "name": "Kuwait",
   "type": "country",
   "created": "2026-03-23",
-  "last_updated": "2026-05-09",
-  "summary": "Day 71 Saturday. **KUWAIT NAMED IN WSJ SCOOP ON US OFFENSIVE-AIRSPACE ACCESS RESTRICTIONS (alongside Saudi Arabia) — KUWAIT REMAINS PUBLICLY SILENT (UNLIKE SAUDI WHO PUBLICLY DENIED VIA AL-HADATH).** Per the WSJ scoop, Saudi Arabia and Kuwait had denied US base/airspace access for Project Freedom and those restrictions had since been 'lifted' per US officials. Saudi went on record denying via Al-Hadath; Kuwait has not made any public statement. The Kuwaiti silence is the cleanest tell of GCC-coordination on the diplomatic-track posture: Saudi denies publicly while operationally permitting; Kuwait stays silent so no contradiction can be created. PRIOR FRAMING (preserved): Kuwait included in India-evacuation architecture; April 12 Saudi MoFA protest summons of Iraqi ambassador after Iraqi-militia drone targeting of Kuwait's only civilian airport (named militias Kataib Hezbollah + Asaib Ahl al-Haq per WSJ/ISW); cumulative damage envelope: oil ministry HQ, power plants, 3x desalination plants, airport fuel tanks, refinery; oil exports remain halted under force majeure.",
+  "last_updated": "2026-05-28",
+  "summary": "Day 90 (Thursday May 28). **KUWAIT BECAME A DIRECT PARTY TO THE US-IRAN EXCHANGE FOR THE FIRST TIME THIS CYCLE — ITS AIR DEFENSES INTERCEPTED AN IRGC BALLISTIC MISSILE FIRED AT A US AIRBASE ON KUWAITI SOIL AT ~04:50 LOCAL MAY 28. CENTCOM confirmed Iran launched the missile 'toward Kuwait' targeting the 'American airbase, as the origin of the aggression'; Kuwaiti air defenses intercepted it with no damage or casualties; CENTCOM called it an 'egregious ceasefire violation.' Kuwait — previously a silent GCC partner on airspace access — is now the physical venue of an Iranian strike on US forces, notable enough to anchor a dedicated Wikipedia article ('2026 Iranian strikes on Kuwait'). Watch for a Kuwaiti MoFA statement and any GCC condemnation as a tone marker. CRITICAL framing: the strike was telegraphed/intercepted/zero-casualty (the 2020 Ain al-Assad face-saving template), and both Washington and Tehran kept negotiating — NOT a return to full-scale war (Fact-Checker F1).** PRIOR (May 9): Day 71 Saturday. **KUWAIT NAMED IN WSJ SCOOP ON US OFFENSIVE-AIRSPACE ACCESS RESTRICTIONS (alongside Saudi Arabia) — KUWAIT REMAINS PUBLICLY SILENT (UNLIKE SAUDI WHO PUBLICLY DENIED VIA AL-HADATH).** Per the WSJ scoop, Saudi Arabia and Kuwait had denied US base/airspace access for Project Freedom and those restrictions had since been 'lifted' per US officials. Saudi went on record denying via Al-Hadath; Kuwait has not made any public statement. The Kuwaiti silence is the cleanest tell of GCC-coordination on the diplomatic-track posture: Saudi denies publicly while operationally permitting; Kuwait stays silent so no contradiction can be created. PRIOR FRAMING (preserved): Kuwait included in India-evacuation architecture; April 12 Saudi MoFA protest summons of Iraqi ambassador after Iraqi-militia drone targeting of Kuwait's only civilian airport (named militias Kataib Hezbollah + Asaib Ahl al-Haq per WSJ/ISW); cumulative damage envelope: oil ministry HQ, power plants, 3x desalination plants, airport fuel tanks, refinery; oil exports remain halted under force majeure.",
   "current": {},
   "active_triggers": [],
   "top_edges": [
     {
       "to": "iran",
-      "type": "retaliation_target",
+      "type": "direct_target_may28_irgc_ballistic_missile_at_us_airbase_on_kuwaiti_soil_intercepted_by_kuwaiti_air_defenses_zero_casualty",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-04-09",
-      "activation_count": 11
+      "last_activated": "2026-05-28",
+      "activation_count": 12
     },
     {
       "to": "brent-crude",
@@ -26,14 +26,25 @@
     },
     {
       "to": "united-states",
-      "type": "airspace_access_dispute_silent_partner",
-      "weight": 5.5,
+      "type": "host_of_us_airbase_targeted_by_iran_may28_kuwaiti_air_defenses_intercepted_the_irgc_ballistic_missile",
+      "weight": 6.0,
       "directness": 1,
-      "last_activated": "2026-05-09",
-      "activation_count": 1
+      "last_activated": "2026-05-28",
+      "activation_count": 2
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-05-28",
+      "headline": "**KUWAIT'S AIR DEFENSES INTERCEPTED AN IRGC BALLISTIC MISSILE FIRED AT A US AIRBASE ON KUWAITI SOIL AT ~04:50 LOCAL MAY 28 — KUWAIT IS NOW A DIRECT PARTY TO THE US-IRAN EXCHANGE FOR THE FIRST TIME THIS CYCLE.** CENTCOM confirmed Iran launched a ballistic missile 'toward Kuwait' targeting the 'American airbase, as the origin of the aggression,' in response to a second US 'defensive' strike near Bandar Abbas; Kuwaiti air defenses intercepted it with no damage or casualties; CENTCOM called it an 'egregious ceasefire violation.' Kuwait had been a silent GCC partner on airspace access; it is now the physical venue of an Iranian strike on US forces. The strike was calibrated/intercepted/zero-casualty (Ain al-Assad mode) and both sides kept negotiating — NOT a return to full-scale war. Watch for a Kuwaiti MoFA statement and any GCC condemnation as a tone marker.",
+      "sources": [
+        "CENTCOM (ballistic missile toward Kuwait, intercepted, 'egregious ceasefire violation') — official military",
+        "Kuwaiti military / Kuwait MoD (interception confirmed) — official",
+        "Euronews May 28 / CNN live (the exchange)",
+        "Intel dossier 2026-05-28 A1"
+      ],
+      "verification": "Iran ballistic missile fired at US airbase on Kuwaiti soil + Kuwaiti interception, zero casualty = CONFIRMED ACTION (CENTCOM + Kuwait MoD, multi-wire); SIGNIFICANCE = calibrated/contained (Ain al-Assad), NOT escalation-to-war (F1)."
+    },
     {
       "date": "2026-05-09",
       "headline": "KUWAIT NAMED IN WSJ SCOOP ON US OFFENSIVE-AIRSPACE ACCESS RESTRICTIONS (alongside Saudi Arabia) — KUWAIT REMAINS PUBLICLY SILENT WHILE SAUDI WENT ON RECORD DENYING VIA AL-HADATH. Cleanest tell of GCC coordination on diplomatic-track posture: Saudi denies publicly while operationally permitting; Kuwait stays silent so no contradiction can be created. No Iranian kinetic action against Kuwait-bound vessels in cycle.",
