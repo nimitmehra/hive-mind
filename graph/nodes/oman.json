@@ -1,0 +1,79 @@
+{
+  "id": "oman",
+  "name": "Oman",
+  "type": "country",
+  "created": "2026-05-30",
+  "last_updated": "2026-05-30",
+  "summary": "Day 92 (Saturday May 30). **NEW NODE — OMAN IS THE QUIET HINGE OF THE HORMUZ ENDGAME, AND NOW A POINT OF US FRICTION. Oman crossed the node-creation bar this window, appearing across ≥3 independent sources in four distinct causal roles: (1) HORMUZ MEDIATOR — the venue/facilitator for the US-Iran ceasefire-extension track and the proposed Oman-mediated Hormuz toll mechanism in the draft 60-day MOU; (2) MINE-ALERT AUTHORITY — Oman's Maritime Security Centre warned on 30 May of a floating object suspected to be a naval mine, sighted west of the Inshore Traffic Zone within Omani territorial waters, urging vessels to keep clear (CONFIRMED — operational/official); (3) TOLL-MECHANISM PARTY — Iran's desired permanent Hormuz toll mechanism is to be Oman-mediated, which Rubio's red line rejects and Hegseth's 'open, toll-free strait' demand directly opposes; (4) US TREASURY SANCTION TARGET — the US Treasury reportedly threatened to sanction Oman if it imposes Hormuz transit tolls (REPORTED — single ToI liveblog headline, 28 May; needs corroboration). The Lian Star interdiction (6th blockade vessel) occurred in the Gulf of Oman. Net: Oman is simultaneously facilitating the deal and being strained by Washington over the toll question — friction between the US and its own mediator is new intelligence. This is a persistent entity with causal links to strait-of-hormuz, iran, united-states, qatar, and brent-crude.**",
+  "current": {},
+  "active_triggers": [
+    {
+      "condition": "Iran-Oman permanent Hormuz toll mechanism publicly announced within 14 days (by 2026-06-13) OR US sanctions Oman over tolls",
+      "status": "watching",
+      "cascade": [
+        "strait-of-hormuz",
+        "iran",
+        "united-states",
+        "brent-crude"
+      ],
+      "added": "2026-05-30",
+      "note": "Mirrors the iran-node Iran-Oman toll trigger. Rubio's red line rejects an Iran-Oman Hormuz toll mechanism; Hegseth demands an 'open, toll-free strait'; the US Treasury reportedly threatened to sanction Oman over tolls (REPORTED, single headline). If a permanent toll mechanism is announced, Rubio's red line is breached; if the US sanctions its own mediator, the deal's mediation architecture is strained. No mechanism announced and no sanction imposed yet — watching."
+    }
+  ],
+  "top_edges": [
+    {
+      "to": "strait-of-hormuz",
+      "type": "hormuz_mediator_mine_alert_authority_toll_mechanism_venue_territorial_waters",
+      "weight": 4.5,
+      "directness": 1,
+      "last_activated": "2026-05-30",
+      "activation_count": 3
+    },
+    {
+      "to": "iran",
+      "type": "ceasefire_mediator_proposed_oman_mediated_hormuz_toll_mechanism_frozen_asset_track",
+      "weight": 3.0,
+      "directness": 2,
+      "last_activated": "2026-05-30",
+      "activation_count": 2
+    },
+    {
+      "to": "united-states",
+      "type": "us_treasury_threatened_sanction_over_tolls_friction_with_own_mediator",
+      "weight": 3.0,
+      "directness": 2,
+      "last_activated": "2026-05-30",
+      "activation_count": 2
+    },
+    {
+      "to": "qatar",
+      "type": "gulf_mediation_ecosystem_hormuz_endgame",
+      "weight": 1.5,
+      "directness": 2,
+      "last_activated": "2026-05-30",
+      "activation_count": 1
+    },
+    {
+      "to": "brent-crude",
+      "type": "hormuz_toll_dispute_could_re_price_the_strait",
+      "weight": 1.0,
+      "directness": 3,
+      "last_activated": "2026-05-30",
+      "activation_count": 1
+    }
+  ],
+  "recent_signals": [
+    {
+      "date": "2026-05-30",
+      "headline": "**NODE CREATED — OMAN IS THE HORMUZ MEDIATOR, MINE-ALERT AUTHORITY, TOLL-MECHANISM PARTY, AND A NEW US SANCTION TARGET.** Oman's Maritime Security Centre warned on 30 May of a floating object suspected to be a naval mine within Omani territorial waters (west of the Inshore Traffic Zone), urging vessels to keep clear. Oman is the venue for the proposed Oman-mediated Hormuz toll mechanism in the draft 60-day MOU — which Rubio's red line rejects and Hegseth's 'toll-free strait' demand opposes — and the US Treasury reportedly threatened to sanction Oman over tolls. The Lian Star interdiction (6th blockade vessel) occurred in the Gulf of Oman. Oman is simultaneously facilitating the deal and being strained by Washington over the toll question.",
+      "sources": [
+        "Oman Maritime Security Centre advisory 30 May — operational/official",
+        "Milli Chronicle / ABC News live (corroborating the Oman advisory)",
+        "Times of Israel liveblog 28 May (US Treasury-Oman tolls) — REPORTED, single headline",
+        "Iran International liveblog 30 May (Lian Star, Gulf of Oman)",
+        "Intel dossier 2026-05-30 A8 (candidate-new-node flag)"
+      ],
+      "verification": "Suspected-mine advisory = CONFIRMED ACTION (Oman MSC operational/official); Oman as ceasefire/Hormuz mediator + toll-mechanism venue = CONFIRMED (multi-source); US Treasury sanction threat over tolls = REPORTED (single ToI headline, needs corroboration); Lian Star in Gulf of Oman = REPORTED-to-CONFIRMED. Meets node-creation bar: ≥3 independent sources, persistent entity (country), causal links to strait-of-hormuz/iran/united-states/qatar/brent-crude."
+    }
+  ]
+}
