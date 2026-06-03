@@ -1,6 +1,56 @@
 {
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-06-03",
   "edges": [
+    {
+      "from": "united-states",
+      "to": "india",
+      "weight": 4.0,
+      "directness": 1,
+      "last_activated": "2026-06-03",
+      "type": "trade_tariff_channel_NEW_ustr_proposed_12_5pct_section_301_tariff_on_india_forced_labour_goods_vs_10pct_eu_uk_canada_mexico",
+      "added": "2026-06-03",
+      "rationale": "USTR proposed a 12.5% Section 301 tariff on India (forced-labour goods) vs 10% for EU/UK/Canada/Mexico, appearing as a named driver of 2 June rupee/Nifty weakness across The Week + Bloomberg (2 independent sources, CONFIRMED). Mechanism: US tariff threat -> Indian export/IT earnings risk + rupee pressure -> a non-oil, non-FII headwind on the India complex that does NOT reverse on a Hormuz deal. First NON-crisis structural headwind on India to enter the graph (markets E1). Initial weight 4.0 (new, 2-source, causally clean)."
+    },
+    {
+      "from": "iran",
+      "to": "india",
+      "weight": 1.5,
+      "directness": 2,
+      "last_activated": "2026-06-03",
+      "type": "diaspora_casualty_channel_NEW_jun3_first_confirmed_indian_fatality_of_cycle_killed_at_kuwait_airport_drone_strike_mea_missions_region_wide_on_alert",
+      "added": "2026-06-03",
+      "rationale": "First confirmed Indian fatality of the cycle (Kuwait airport drone strike, 3 June); India MEA condemnation + 'missions region-wide on alert' (intel B1, markets E2). Mechanism: crisis kinetic action -> Indian-diaspora casualty -> domestic-political salience of the war in India -> a political risk-premium distinct from the oil/FII channels. 2nd order (via Kuwait); initial weight 1.5 (directness 1.5x, frequency 1, recency 1.0). Not yet an evacuation/market-pricing event."
+    },
+    {
+      "from": "fertilizer-urea",
+      "to": "cf-industries",
+      "weight": 6.5,
+      "directness": 1,
+      "last_activated": "2026-06-03",
+      "type": "nitrogen_tightness_equity_leg_jun3_qatarenergy_urea_halt_us_gulf_683_per_ton_cf_plus_2_5pct_cascade_path_2_equity_manifestation",
+      "added": "2026-06-03",
+      "rationale": "CF Industries +2.5% on 3 June confirming the Qatar-urea-halt -> US-nitrogen-tightness mechanism in price action (urea >$850/mt April, US Gulf $516->$683/ton, NOLA +32%/wk), and it bid UP on a day the broad metals complex sold off (clean crisis-linked signal). The equity leg of cascade path 2 (Qatar -> fertilizer -> India food security) firing (markets E3). 1st order; weight 6.5 with 4 cumulative activations."
+    },
+    {
+      "from": "kuwait",
+      "to": "india",
+      "weight": 4.5,
+      "directness": 1,
+      "last_activated": "2026-06-03",
+      "type": "diaspora_casualty_jun3_indian_national_killed_at_kuwait_airport_drone_strike_several_indians_injured_india_mea_condemned_missions_region_wide_on_alert",
+      "added": "2026-06-03",
+      "rationale": "The 3 June Kuwait-airport drone strike killed an Indian national (several other Indians injured); India MEA condemned and put regional missions 'on alert' (intel B1). Kuwait is the physical venue of the first confirmed Indian fatality of the cycle; the diaspora-casualty channel runs Iran->Kuwait->India. 1st order from Kuwait's perspective; initial weight 4.5."
+    },
+    {
+      "from": "indian-it",
+      "to": "united-states",
+      "weight": 4.0,
+      "directness": 1,
+      "last_activated": "2026-06-03",
+      "type": "trade_tariff_and_demand_channel_NEW_jun3_ustr_proposed_12_5pct_section_301_tariff_drove_it_stock_shock_inverting_rupee_revenue_tailwind",
+      "added": "2026-06-03",
+      "rationale": "USTR's proposed 12.5% Section 301 tariff on India inverted the prior 'weak rupee = IT exporter tailwind' read into a US tariff/demand-risk headwind (the 'IT stock shock,' markets C4). On top of the structural AI-flows-bypass-India bear case. 1st order; initial weight 4.0."
+    },
     {
       "from": "aluminum",
       "to": "bahrain",
@@ -290,8 +340,8 @@
       "to": "fed",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-30",
-      "type": "rate_inverse_may28_oil_up_rate_hike_bets_april_core_pce_3.3pct_real_yields_up_dollar_up_gold_broke_4400_to_2mo_low"
+      "last_activated": "2026-06-03",
+      "type": "rate_inverse_jun3_oil_up_fed_hike_before_year_end_repricing_10y_449_dollar_up_entire_metals_complex_sold_off_on_casualty_day_inflation_regime_not_risk_off"
     },
     {
       "from": "gold",
@@ -518,8 +568,8 @@
       "to": "bahrain",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-05-10",
-      "type": "retaliatory_strikes_with_internal_network_disruption"
+      "last_activated": "2026-06-03",
+      "type": "jun3_bahrain_bdf_intercepted_3_iranian_missiles_and_drones_aimed_at_civilian_sites_no_casualties_irgc_falsely_claimed_fifth_fleet_hq_hit"
     },
     {
       "from": "iran",
@@ -561,7 +611,8 @@
       "to": "kuwait",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-06-02"
+      "last_activated": "2026-06-03",
+      "type": "jun3_iranian_drone_hit_kuwait_airport_terminal_killed_indian_civilian_injured_63_kuwait_expelled_two_iranian_diplomats"
     },
     {
       "from": "iran",
@@ -1429,8 +1480,8 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-06-02",
-      "type": "two_sided_kinetic_exchange_may28_second_us_defensive_strike_4_drones_downed_plus_ground_control_station_near_bandar_abbas_drew_irans_first_retaliatory_missile_intercepted_zero_casualty_both_kept_negotiating"
+      "last_activated": "2026-06-03",
+      "type": "kinetic_exchange_jun3_centcom_defeated_iran_30_projectile_barrage_no_us_casualties_then_self_defence_strike_on_qeshm_rejected_irgc_fifth_fleet_hq_claim_as_false_us_claims_talks_rapid_pace_vs_iran_hardened_suspension"
     },
     {
       "from": "united-states",
