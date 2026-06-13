@@ -1,0 +1,67 @@
+{
+  "id": "jordan",
+  "name": "Jordan",
+  "type": "country",
+  "created": "2026-06-10",
+  "last_updated": "2026-06-11",
+  "summary": "Day 103 / 2026-06-10 (Wednesday): **NODE CREATED — JORDAN ENTERS THE GRAPH AS THE FIRST NON-GULF ARAB US ALLY STRUCK BY IRAN. Early Wednesday the IRGC launched a long-range missile strike on Azraq airbase in Jordan (alongside drones/missiles on the US Fifth Fleet HQ in Bahrain and Ali Al Salem airbase in Kuwait) — the FIRST Iranian strike on Jordanian soil this war, widening the target geography beyond the Gulf.** The IRGC CLAIMED 21 US targets attacked and 4 destroyed including an F-35 hangar at Azraq; against that, **Jordan's military said it intercepted ALL FIVE missiles**, with only shrapnel fall and 'no human injuries or material damage' (CONFIRMED interception — Jordanian military statement, corroborated by US-official 'intercepted nearly all' framing). Jordan's communiqué was studiedly technical (five missiles, intercepted, shrapnel, no damage) — Amman minimising to avoid obligating itself to a response. This is the third iteration of the established Iranian pattern (June 5-6 Kuwait/Bahrain barrage; the CENTCOM-denied Fifth Fleet claim; now this): **spectacular claims, intercepted reality, zero casualties** — performative-deterrence strikes calibrated to demonstrate reach without killing Americans or allied personnel; the genuinely new element is the GEOGRAPHY (a Levant, non-Gulf US ally). The Arab League (Aboul Gheit) condemned the 'brutal' attacks and declared 'full solidarity' with Jordan, Bahrain and Kuwait; no expulsions or diplomatic downgrades followed — words-not-actions continues. Jordan hosts US forces at Azraq (and is a long-standing US security ally and peace-treaty partner of Israel), placing it on the seam of the conflict's geography; it is also, like the Gulf states, a financial beneficiary of the proposed Bessent reconstruction mechanism. **NODE-CREATION JUSTIFICATION:** persistent entity (sovereign state); appears in 2+ independent sources (Jordanian military statement; Al Jazeera; CNN/Reuters/NBC pool; Tasnim's claim channel); causally connected to existing nodes iran (struck it) and united-states (hosts US forces at Azraq, US ally). **TRIGGER DECISIONS (June 10):** NO trigger to active — the strike was intercepted and zero-casualty (CONFIRMED interception; IRGC damage assertions CLAIMED and denied). Added one watching trigger on a confirmed-lethal Iranian strike on Jordanian soil (the threshold that would convert Jordan from a struck-but-intercepting bystander into an active belligerent and test the US/Israel mutual-defence posture).",
+  "current": {},
+  "active_triggers": [
+    {
+      "condition": "Confirmed lethal Iranian strike on Jordanian soil (US/allied-personnel or Jordanian-civilian deaths), verified by 2+ operational sources",
+      "status": "watching",
+      "cascade": [
+        "jordan",
+        "iran",
+        "united-states",
+        "israel",
+        "brent-crude"
+      ],
+      "added": "2026-06-10",
+      "note": "The June 10 Azraq strike was intercepted (all 5 missiles, per Jordan's military) with zero casualties — performative-deterrence, not a lethal escalation. A CONFIRMED lethal strike would break the zero-casualty calibration on a NEW front (a Levant US ally + Israel peace-treaty partner), pulling Jordan toward active belligerency and testing the US mutual-defence posture. Stays watching until a confirmed lethal event crosses the threshold."
+    }
+  ],
+  "top_edges": [
+    {
+      "to": "iran",
+      "type": "jun10_first_iranian_strike_on_jordanian_soil_long_range_missiles_at_azraq_airbase_all_5_intercepted_zero_damage_per_jordan_military_irgc_f35_hangar_claim_denied",
+      "weight": 3.0,
+      "directness": 1,
+      "last_activated": "2026-06-10",
+      "activation_count": 1,
+      "context": "2026-06-10: IRGC fired long-range missiles at Azraq airbase — first Iranian strike on Jordanian soil this war. Jordan's military intercepted all 5 (shrapnel only, no injuries/damage); IRGC's F-35-hangar-destroyed claim DENIED. Performative-deterrence; widens target geography to the Levant."
+    },
+    {
+      "to": "united-states",
+      "type": "jun10_hosts_us_forces_at_azraq_airbase_struck_by_iran_us_ally_zero_us_casualties",
+      "weight": 3.0,
+      "directness": 1,
+      "last_activated": "2026-06-10",
+      "activation_count": 1,
+      "context": "2026-06-10: Jordan hosts US forces at Azraq (long-standing US security ally + Israel peace-treaty partner). Iran's strike on Azraq targeted US presence on Jordanian soil; US reported zero injuries/damage. Jordan minimised publicly to avoid obligating a response."
+    }
+  ],
+  "recent_signals": [
+    {
+      "date": "2026-06-11",
+      "headline": "Hit for a SECOND consecutive day -- ballistic missiles at the Al-Azraq base; Jordan said it intercepted 20 missiles with 'no casualties or material damage.' Confined itself to interception statements -- no expulsion, no escalation. The iran->jordan edge bumped on the second confirmed strike.",
+      "sources": [
+        "Al Jazeera Day 104",
+        "Jordanian military statement"
+      ],
+      "verification": "CONFIRMED"
+    },
+    {
+      "date": "2026-06-10",
+      "headline": "**JORDAN STRUCK BY IRAN FOR THE FIRST TIME — AZRAQ AIRBASE HIT BY LONG-RANGE MISSILES, ALL FIVE INTERCEPTED, ZERO CASUALTIES.** Early Wednesday the IRGC fired long-range missiles at Azraq airbase in Jordan (alongside Bahrain's Fifth Fleet HQ and Kuwait's Ali Al Salem) — the first Iranian strike on Jordanian soil this war, widening the target geography beyond the Gulf to a Levant US ally. Jordan's military said it intercepted all five missiles (shrapnel only, 'no human injuries or material damage'); the IRGC claimed it destroyed an F-35 hangar at Azraq — DENIED. Third iteration of the spectacular-claims/intercepted/zero-casualty pattern. Arab League condemned the 'brutal' attacks and declared 'full solidarity'; no expulsions or downgrades — words, not actions. (CONFIRMED interception — Jordanian military statement; Al Jazeera; CNN/Reuters/NBC pool. CLAIMED damage — Tasnim/IRGC, denied.) (intel A5)",
+      "sources": [
+        "Jordanian military statement (5 missiles intercepted)",
+        "Al Jazeera (June 10 liveblog)",
+        "US official via Reuters/CNN/NBC pool (no injuries/damage)",
+        "Tasnim (IRGC claim channel)",
+        "The Media Line"
+      ],
+      "verification": "CONFIRMED (strike occurred + interceptions) / CLAIMED (IRGC damage assertions, denied)"
+    }
+  ]
+}
