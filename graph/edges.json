@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11",
+  "last_updated": "2026-06-12",
   "edges": [
     {
       "from": "united-states",
@@ -102,16 +102,17 @@
       "to": "fed",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-06-11",
-      "context": "2026-06-11: May CPI 4.2% (energy ~60% of the monthly increase) -- the oil->CPI->Fed chain is now the PRIMARY crisis-transmission channel into US assets."
+      "last_activated": "2026-06-12",
+      "context": "2026-06-12: Oil -4% but 10Y flat (4.49%) -- de-escalation does NOT un-print May CPI 4.2%; the oil->CPI->Fed channel is sticky, not symmetric."
     },
     {
       "from": "brent-crude",
       "to": "india",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-06-04",
-      "type": "relief_leg_fired_clean_oil_down_india_up_nifty_plus132_clean_room_session"
+      "last_activated": "2026-06-12",
+      "type": "relief_leg_fired_clean_oil_down_india_up_nifty_plus132_clean_room_session",
+      "context": "2026-06-12: Oil -4% on deal hopes fired POSITIVE for India (import-cost relief) -> Nifty +2.0%; the de-escalation/oil-down channel is symmetric (helps India as much as oil-up hurt it)."
     },
     {
       "from": "brent-crude",
@@ -1304,8 +1305,9 @@
       "to": "brent-crude",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-06-02",
-      "type": "stanchart_130_145_path_active_2_session_sustain_fired_may18"
+      "last_activated": "2026-06-12",
+      "type": "stanchart_130_145_path_active_2_session_sustain_fired_may18",
+      "context": "2026-06-12: Deal-reopening hope priced Brent -4.1% to $86.71; Iran intends to retain Hormuz \"control\" even post-deal."
     },
     {
       "from": "strait-of-hormuz",
@@ -1349,7 +1351,8 @@
       "to": "shipping-tankers",
       "weight": 10,
       "directness": 1,
-      "last_activated": "2026-05-13"
+      "last_activated": "2026-06-12",
+      "context": "2026-06-12: Reopening read as VOLUME-bullish for tankers (Frontline +9.8%) -- idled-fleet re-employment."
     },
     {
       "from": "strait-of-hormuz",
@@ -1488,9 +1491,9 @@
       "to": "iran",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-06-11",
+      "last_activated": "2026-06-12",
       "type": "negotiation_hardening_jun7_bessent_inverts_iran_24bn_precondition",
-      "context": "2026-06-11: Second, larger US strike round (49 Tomahawks per Trump), widening into Iranian energy infrastructure (South Pars)."
+      "context": "2026-06-12: Trump cancelled the third strike round and announced a \"great settlement\"; de-escalation, UNSIGNED."
     },
     {
       "from": "united-states",
