@@ -32,7 +32,7 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 
-REPO = Path("/Users/nimitmehra/Documents/Manus/hive-mind")
+REPO = Path("/Users/nimitmehra/Manus/hive-mind")
 TELEGRAM_TOKEN_FILE = REPO / "telegram_bot_token.txt"
 TELEGRAM_CHAT_ID_FILE = REPO / "telegram_chat_id.txt"
 

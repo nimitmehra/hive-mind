@@ -24,7 +24,7 @@
 #     FATAL on attempt 1 — no behavior change for those.
 
 CLAUDE="/Users/nimitmehra/.local/bin/claude"
-DIR="/Users/nimitmehra/Documents/Manus/hive-mind"
+DIR="/Users/nimitmehra/Manus/hive-mind"
 FLAGS="--dangerously-skip-permissions"
 DATE=$(date +%Y-%m-%d)
 HOUR=$(date +%H)

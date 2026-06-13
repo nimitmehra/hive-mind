@@ -8,7 +8,7 @@ import json, os, math
 from pathlib import Path
 from datetime import date, datetime
 
-ROOT = Path('/Users/nimitmehra/Documents/Manus/hive-mind')
+ROOT = Path('/Users/nimitmehra/Manus/hive-mind')
 NODES = ROOT / 'graph' / 'nodes'
 TODAY = '2026-04-20'
 

@@ -24,10 +24,10 @@ An **intelligence system** — not a news aggregator — that produces daily bri
 
 ## The Knowledge Graph
 
-The graph currently tracks **62 nodes** across 8 types and **376 weighted edges** representing causal connections.
+The graph currently tracks **63 nodes** across 8 types and **387 weighted edges** representing causal connections.
 
 ### Node Types
-- **Countries** (18): Bahrain, China, France, India, Iran, Iraq, Israel, Kuwait, Lebanon, Oman, Pakistan, Qatar, Russia, Saudi Arabia, South Korea, Taiwan (TSMC), United Arab Emirates, United States
+- **Countries** (19): Bahrain, China, France, India, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Pakistan, Qatar, Russia, Saudi Arabia, South Korea, Taiwan (TSMC), United Arab Emirates, United States
 - **Commodities** (7): Aluminum, Brent Crude, European TTF Natural Gas, Fertilizer / Urea, Gold, Helium, Natural Gas / LNG
 - **Institutions** (12): European Central Bank (ECB), FII (Foreign Institutional Investor) Flows — India, Federal Reserve, Hezbollah, Houthis (Yemen), Iran Nuclear Program & HEU Custody Architecture, Iranian Army (Artesh), Islamic Revolutionary Guard Corps (IRGC), Marine War Risk Insurance, OPEC+, Reserve Bank of India, UAE Barakah Nuclear Energy Plant
 - **Indices** (6): INR/USD Exchange Rate, KOSPI (Korea Composite Stock Index), Nifty 50, S&P 500, US 10-Year Treasury Yield, VIX (CBOE Volatility Index)

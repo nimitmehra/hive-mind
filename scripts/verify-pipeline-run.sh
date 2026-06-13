@@ -14,7 +14,7 @@
 #
 # Exit codes: 0 = clean (PASS or PASS+WARN); 1 = at least one FAIL.
 
-DIR="/Users/nimitmehra/Documents/Manus/hive-mind"
+DIR="/Users/nimitmehra/Manus/hive-mind"
 DATE="${1:-$(date +%Y-%m-%d)}"
 
 # Edition: explicit arg wins; otherwise infer from clock (matches run-brief.sh logic)
