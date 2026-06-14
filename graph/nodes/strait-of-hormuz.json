@@ -3,7 +3,7 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-06-12",
+  "last_updated": "2026-06-13",
   "summary": "Day 105 / 2026-06-12. **THE STRAIT BECAME THE CENTRAL BARGAINING CHIP — A DEAL WOULD REOPEN IT IN ~30 DAYS, BUT IRAN INTENDS TO KEEP 'CONTROL' AND THE BLOCKADE STAYS UNTIL SIGNING.** Reported deal terms have Hormuz reopening to pre-war volumes within 30 days and the US lifting its naval blockade. Two caveats define the trade: (1) Araghchi says Iran will 'maintain control' of the Strait even under a deal — reopening restores FLOW but not necessarily the pre-war freedom-of-navigation regime, so the structural floor under oil may be higher than a clean reopening implies; (2) Trump says the blockade stays 'in full force until finalized,' so the ~5%-of-normal-flow paralysis and the lethal enforcement campaign continue until a signature. The market priced the reopening hope hard: Brent -4.1% to $86.71 (WTI below $85), the war premium finally deflating DOWN on de-escalation after refusing to bid UP through the kinetic escalation. Physical (VLCC rates, war-risk cover ~7-10% of hull) has NOT unwound — paper-oil drops on hope, physical waits for the signature. Tanker equities (Frontline +9.8%) priced reopening as VOLUME-bullish (idled-fleet re-employment).",
   "current": {},
   "active_triggers": [
@@ -20,7 +20,8 @@
       "added": "2026-03-23",
       "note_2026-06-06": "STAYS WATCHING. No reopening on Day ~99 — transits still ~10/day vs ~95 normal. The 5-6 June overnight exchange (4 drones toward Hormuz, all intercepted; US Goruk/Qeshm strike) and Rezaei's sovereignty/Oman/toll rhetoric are NOT closure or reopening acts; throughput unchanged. No move.",
       "note_2026-06-10": "STAYS WATCHING. No reopening — the Strait became the locus of a US-Iran kinetic exchange (Apache downed over Hormuz 8 Jun; US strikes on Iranian coastal air-defense near the Strait 9 Jun; Iran's 10-June Gulf strikes launched from the region). Traffic ~-95%; IEA 'largest supply disruption in history.' Structure unchanged.",
-      "note_2026-06-12": "STAYS WATCHING — but for the first time the vector points TOWARD reopening (deal terms: pre-war volumes within 30 days). NOT fired: unsigned, and Araghchi says Iran retains 'control' even post-deal, so a clean reopening is not assured. Fires only on operationally-confirmed restored transit."
+      "note_2026-06-12": "STAYS WATCHING — but for the first time the vector points TOWARD reopening (deal terms: pre-war volumes within 30 days). NOT fired: unsigned, and Araghchi says Iran retains 'control' even post-deal, so a clean reopening is not assured. Fires only on operationally-confirmed restored transit.",
+      "note_2026-06-13": "STAYS WATCHING. A signed deal would reopen 'immediately without tolls' (~30 days to pre-war volumes) — but it is unsigned, Iran retains a 'service fee' role, and demining/restart delays actual normalization. Fires only on operationally-confirmed restored transit."
     },
     {
       "condition": "US attempts naval escort or forced opening of Hormuz",
@@ -189,9 +190,9 @@
       "type": "complete_closure_threat_jun1_re_priced_brent_plus_7_3_pct_intraday_to_97_then_faded_to_94_5_risk_premium_re_entry_not_supply_disruption_throughput_unchanged",
       "weight": 10.0,
       "directness": 1,
-      "last_activated": "2026-06-12",
-      "activation_count": 55,
-      "context": "2026-06-12: Deal-driven reopening hope priced Brent -4.1% to $86.71 — the war premium deflating DOWN; but Iran intends to retain Hormuz 'control' even post-deal."
+      "last_activated": "2026-06-13",
+      "activation_count": 56,
+      "context": "2026-06-13: A signed deal reopens Hormuz but normalization is slow (demining/restart) and Iran keeps a ~$1/bbl service fee — the oil downside is capped above the pre-war baseline."
     },
     {
       "to": "natural-gas-lng",
@@ -244,6 +245,17 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-06-13",
+      "headline": "DEAL WOULD REOPEN HORMUZ 'IMMEDIATELY WITHOUT TOLLS' (~30 DAYS TO PRE-WAR VOLUMES) — BUT IRAN KEEPS A 'SERVICE FEE' (~$1/BBL) AND NORMALIZATION IS SLOW (DEMINING). Araghchi: international law bars 'tolls' but Iran collects 'service fees' (the Persian Gulf Strait Authority's ~$1/bbl since 5 May), with compensation to Iran in the plan; Trump called the fee 'a beautiful thing.' A subsequent deal phase is DEMINING the waterway; analysts stress idled fields must restart and damaged facilities be repaired before flows normalize. So a signed deal ends the acute crisis but leaves a structurally HIGHER chokepoint cost-floor and a multi-week physical normalization — capping the oil downside.",
+      "sources": [
+        "The National (service fees)",
+        "Gulf News (Trump)",
+        "CNBC (demining)",
+        "NBC"
+      ],
+      "verification": "REPORTED (reopening terms); CONFIRMED (service-fee + demining caveats)"
+    },
     {
       "date": "2026-06-12",
       "headline": "DEAL WOULD REOPEN HORMUZ IN ~30 DAYS — BUT IRAN INTENDS TO RETAIN 'CONTROL' EVEN POST-DEAL, AND THE BLOCKADE STAYS UNTIL SIGNING. Reported terms (CBS/CNBC): reopening to pre-war volumes within 30 days + US lifting the naval blockade. BUT Araghchi: 'Iran will maintain control over the Strait of Hormuz... the future of the Strait will not be the same as in the past.' And Trump: 'The Naval Blockade will remain in full force until this Transaction is finalized.' So a signed deal reopens FLOW but may NOT restore pre-war freedom-of-navigation; until signing, the ~5%-flow blockade persists. Oil priced the reopening hope hard: Brent -4.1% to $86.71.",
@@ -615,15 +627,6 @@
         "PBS"
       ],
       "verification": "CONFIRMED proposal delivery + CONFIRMED kinetic pa"
-    },
-    {
-      "date": "2026-04-27",
-      "headline": "DAY 60 — 144-HOUR KINETIC PAUSE EXTENDS; HORMUZ FUNCTIONALLY CLOSED DESPITE BRANCH 3 PAPER REPRICING",
-      "sources": [
-        "ISDB",
-        "SeaVantage"
-      ],
-      "verification": "CONFIRMED operational data + IRGC public statement"
     }
   ],
   "historical_summaries": [
