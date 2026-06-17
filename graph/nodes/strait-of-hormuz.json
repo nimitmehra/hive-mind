@@ -3,13 +3,15 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-06-16",
+  "last_updated": "2026-06-17",
   "summary": "Day 105 / 2026-06-12. **THE STRAIT BECAME THE CENTRAL BARGAINING CHIP — A DEAL WOULD REOPEN IT IN ~30 DAYS, BUT IRAN INTENDS TO KEEP 'CONTROL' AND THE BLOCKADE STAYS UNTIL SIGNING.** Reported deal terms have Hormuz reopening to pre-war volumes within 30 days and the US lifting its naval blockade. Two caveats define the trade: (1) Araghchi says Iran will 'maintain control' of the Strait even under a deal — reopening restores FLOW but not necessarily the pre-war freedom-of-navigation regime, so the structural floor under oil may be higher than a clean reopening implies; (2) Trump says the blockade stays 'in full force until finalized,' so the ~5%-of-normal-flow paralysis and the lethal enforcement campaign continue until a signature. The market priced the reopening hope hard: Brent -4.1% to $86.71 (WTI below $85), the war premium finally deflating DOWN on de-escalation after refusing to bid UP through the kinetic escalation. Physical (VLCC rates, war-risk cover ~7-10% of hull) has NOT unwound — paper-oil drops on hope, physical waits for the signature. Tanker equities (Frontline +9.8%) priced reopening as VOLUME-bullish (idled-fleet re-employment).",
-  "current": {},
+  "current": {
+    "status": "BLOCKADE LIFTING (2026-06-17): Trump ordered immediate removal of US naval blockade (14 Jun, CONFIRMED); Iranian tankers reportedly transiting Hormuz (REPORTED, single maritime source). ~118 tankers stuck in Gulf to exit ~15d; transits toward ~50% pre-war in 30d. Demining of 20+ mines still up to ~6mo for full normalization."
+  },
   "active_triggers": [
     {
       "condition": "Hormuz reopens to all traffic (even partially)",
-      "status": "watching",
+      "status": "active",
       "cascade": [
         "brent-crude",
         "india",
@@ -22,7 +24,8 @@
       "note_2026-06-10": "STAYS WATCHING. No reopening — the Strait became the locus of a US-Iran kinetic exchange (Apache downed over Hormuz 8 Jun; US strikes on Iranian coastal air-defense near the Strait 9 Jun; Iran's 10-June Gulf strikes launched from the region). Traffic ~-95%; IEA 'largest supply disruption in history.' Structure unchanged.",
       "note_2026-06-12": "STAYS WATCHING — but for the first time the vector points TOWARD reopening (deal terms: pre-war volumes within 30 days). NOT fired: unsigned, and Araghchi says Iran retains 'control' even post-deal, so a clean reopening is not assured. Fires only on operationally-confirmed restored transit.",
       "note_2026-06-13": "STAYS WATCHING. A signed deal would reopen 'immediately without tolls' (~30 days to pre-war volumes) — but it is unsigned, Iran retains a 'service fee' role, and demining/restart delays actual normalization. Fires only on operationally-confirmed restored transit.",
-      "note_2026-06-16": "2026-06-16: Reopening AGREED on paper (within 30d) but NOT operational — strait still closed Day 107, zero transit surge. STAYS watching until actual transits resume."
+      "note_2026-06-16": "2026-06-16: Reopening AGREED on paper (within 30d) but NOT operational — strait still closed Day 107, zero transit surge. STAYS watching until actual transits resume.",
+      "note_2026-06-17": "2026-06-17: MOVED watching->active. The US naval blockade — the mechanism that closed Hormuz — is being removed by CONFIRMED order of two governments (Trump's authorisation + Iran's confirmation), and first transits are reported. 'Even partially' threshold met by the confirmed blockade removal. This is a confirmed de-escalation ACTION, not rhetoric."
     },
     {
       "condition": "US attempts naval escort or forced opening of Hormuz",
@@ -46,7 +49,8 @@
       "added": "2026-04-16",
       "reframed": "2026-05-06",
       "note_2026-06-10": "STAYS WATCHING — and a correction-grade RE-BASE: Gulf war-risk cover is now ~4% of hull value per 7-day transit (The National, 3 Jun), NOT the ~1% carried in recent briefs. Far from the 0.5% normalization threshold; cover RISING, not normalizing. The US directed the DFC to provide a political-risk reinsurance facility up to $40bn to keep Hormuz shipping moving.",
-      "note_2026-06-16": "2026-06-16: Premiums (~0.5% of cargo, up from ~0.2%) now signalled to DECLINE and VLCC rates easing off the ~$50K/day Israel-strike spike — the unwind is BEGINNING from the physical side, but not yet below 0.5% normalized and strait still closed. STAYS watching; convergence underway."
+      "note_2026-06-16": "2026-06-16: Premiums (~0.5% of cargo, up from ~0.2%) now signalled to DECLINE and VLCC rates easing off the ~$50K/day Israel-strike spike — the unwind is BEGINNING from the physical side, but not yet below 0.5% normalized and strait still closed. STAYS watching; convergence underway.",
+      "note_2026-06-17": "2026-06-17: Blockade lift should drive sharp insurance/VLCC normalization, but no confirmed sub-0.5% level yet. STAYS watching; unwind accelerating."
     },
     {
       "condition": "Iran formally reopens Hormuz to all traffic within 14-21 days of May 5 pause (by 2026-05-26) — would collapse tanker spot rates -15-25%",
@@ -166,7 +170,8 @@
       "added": "2026-06-11",
       "note": "As of 11 Jun the closure is a DECLARATION; the only enforcement is the IRGC's uncorroborated 2-tanker claim, which CENTCOM contradicts. This trigger fires only on operationally-verified enforcement against a neutral hull -- the event that would convert the dead war-premium into a violent Brent gap toward $110+ and double AWRP. The market is positioned for choreography; this is the un-priced tail.",
       "note_2026-06-12": "STAYS WATCHING. No new operationally-confirmed strike on a neutral hull this window; the blockade stays 'in full force until finalized' but the deal track lowers near-term enforcement-escalation risk.",
-      "note_2026-06-16": "2026-06-16: No new enforcement action; ceasefire holding. De-escalation, no fresh closure-enforcement signal."
+      "note_2026-06-16": "2026-06-16: No new enforcement action; ceasefire holding. De-escalation, no fresh closure-enforcement signal.",
+      "note_2026-06-17": "2026-06-17: Superseded — blockade now lifting, not enforcing closure."
     }
   ],
   "top_edges": [
@@ -248,6 +253,10 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-06-17",
+      "headline": "PARTIAL REOPENING UNDERWAY. Trump authorised the immediate removal of the US naval blockade (CONFIRMED — Truth Social/PBS/CBS) and Iran confirmed the blockade is lifting; specialised maritime reporting says Iranian tankers have begun transiting Hormuz (REPORTED, single-source). This is the first operational reopening signal of the war — distinct from the paper framework. Sustained-volume confirmation (>30 vessels/day x3) and independent AIS still pending; full normalization lags on ~6-month demining. CONFIRMED (blockade-removal order) / REPORTED (actual transit)."
+    },
     {
       "date": "2026-06-16",
       "headline": "STILL CLOSED, Day 107 — despite the framework. The 14 Jun deal commits to reopening within ~30 days 'under Iranian arrangements' and lifting the US blockade within ~30 days, but operational trackers show no transits resumed. Pentagon planners assess clearing 20+ naval mines at up to ~6 months even at accelerated pace; the 107-day standoff cut crude transits ~95% and LNG ~99%. Political agreement != physical reopening. CONFIRMED still-closed (trackers) / REPORTED timelines."
