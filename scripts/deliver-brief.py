@@ -35,6 +35,7 @@ from urllib.request import Request, urlopen
 REPO = Path("/Users/nimitmehra/Manus/hive-mind")
 TELEGRAM_TOKEN_FILE = REPO / "telegram_bot_token.txt"
 TELEGRAM_CHAT_ID_FILE = REPO / "telegram_chat_id.txt"
+IMESSAGE_RECIPIENT_FILE = REPO / "imessage_recipient.txt"
 
 GITHUB_BRIEF_URL_TEMPLATE = (
     "https://github.com/nimitmehra/hive-mind/blob/main/briefs/{date}-{edition}.md"
@@ -166,6 +167,10 @@ def send_telegram_message(token: str, chat_id: str, text: str, dry_run: bool) ->
             except Exception:
                 err = {"description": str(e)}
             return e.code, err
+        except Exception as e:
+            # Network error / timeout — return a sentinel so the channel fails
+            # gracefully instead of crashing the whole run (and other channels).
+            return 0, {"description": f"network error: {e}"}
 
     status, body = post({"chat_id": chat_id, "text": text, "parse_mode": "Markdown"})
     if status == 200 and body.get("ok"):
@@ -246,10 +251,83 @@ def send_telegram_document(
         }
 
 
+def strip_markdown(text: str) -> str:
+    """Remove Telegram/Markdown markers so the text reads cleanly in Messages."""
+    text = text.replace("`", "")
+    # Asterisks are only ever emphasis markers here (never in our URLs) → strip all.
+    text = text.replace("*", "")
+    # Underscores: unwrap _emphasis_ only when the span contains a space, so
+    # URL slugs / file paths with underscores are left intact.
+    text = re.sub(r"_([^_]*\s[^_]*)_", r"\1", text)
+    return text
+
+
+def compose_imessage_summary(parsed: dict, date: str, edition: str) -> str:
+    """Plain-text summary for iMessage (no Markdown; links render tappable)."""
+    full = compose_telegram_summary(parsed, date, edition)
+    return strip_markdown(full)
+
+
+def send_imessage(recipient: str, text: str, dry_run: bool) -> dict:
+    """Send via macOS Messages.app over iMessage using osascript (AppleScript)."""
+    if dry_run:
+        return {
+            "channel": "imessage",
+            "status": "dry_run",
+            "recipient": recipient,
+            "would_send_chars": len(text),
+            "preview": text,
+        }
+
+    # AppleScript: send `text` to `recipient` over the iMessage service.
+    script = (
+        'on run {targetHandle, msgText}\n'
+        '    tell application "Messages"\n'
+        '        set targetService to 1st account whose service type = iMessage\n'
+        '        set targetBuddy to participant targetHandle of targetService\n'
+        '        send msgText to targetBuddy\n'
+        '    end tell\n'
+        'end run'
+    )
+    try:
+        result = subprocess.run(
+            ["osascript", "-", recipient, text],
+            input=script,
+            capture_output=True,
+            text=True,
+            timeout=30,
+        )
+        if result.returncode == 0:
+            return {
+                "channel": "imessage",
+                "status": "sent",
+                "recipient": recipient,
+                "sent_at": datetime.now(timezone.utc).isoformat(),
+            }
+        return {
+            "channel": "imessage",
+            "status": "failed",
+            "recipient": recipient,
+            "error": (result.stderr or "osascript nonzero exit").strip()[:300],
+        }
+    except subprocess.TimeoutExpired:
+        return {"channel": "imessage", "status": "failed", "error": "timeout"}
+    except FileNotFoundError:
+        return {"channel": "imessage", "status": "failed", "error": "osascript not found (not macOS?)"}
+    except Exception as e:
+        return {"channel": "imessage", "status": "failed", "error": f"unexpected: {e}"}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", required=True, help="YYYY-MM-DD")
     ap.add_argument("--edition", choices=["morning", "evening"], default="morning")
+    ap.add_argument(
+        "--channel",
+        choices=["telegram", "imessage", "both"],
+        default="both",
+        help="Delivery channel(s). Each is skipped gracefully if its credentials are missing.",
+    )
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -258,49 +336,70 @@ def main() -> int:
         print(f"ERROR: brief not found at {brief_path}", file=sys.stderr)
         return 1
 
-    token = read_credential(TELEGRAM_TOKEN_FILE)
-    chat_id = read_credential(TELEGRAM_CHAT_ID_FILE)
-    if not token or not chat_id:
-        print(
-            "ERROR: missing telegram_bot_token.txt or telegram_chat_id.txt at "
-            f"{REPO}",
-            file=sys.stderr,
-        )
-        return 2
-
     text = brief_path.read_text()
     parsed = parse_brief(text)
-    summary = compose_telegram_summary(parsed, args.date, args.edition)
 
-    msg_result = send_telegram_message(token, chat_id, summary, args.dry_run)
-    print(json.dumps(msg_result, indent=2))
+    want_tg = args.channel in ("telegram", "both")
+    want_im = args.channel in ("imessage", "both")
+    results = []
 
-    # Always send the full brief as a document so the user can read it on phone
-    # (independent of the summary message — even if message fails, document attempt is worth it)
-    doc_caption = f"Hive-Mind Crisis Brief — {args.date} ({args.edition.capitalize()})"
-    doc_result = send_telegram_document(
-        token, chat_id, brief_path, doc_caption, args.dry_run
-    )
-    print(json.dumps(doc_result, indent=2))
+    # --- Telegram channel ---
+    if want_tg:
+        token = read_credential(TELEGRAM_TOKEN_FILE)
+        chat_id = read_credential(TELEGRAM_CHAT_ID_FILE)
+        if not token or not chat_id:
+            print(
+                "WARN: skipping Telegram — missing telegram_bot_token.txt or "
+                f"telegram_chat_id.txt at {REPO}",
+                file=sys.stderr,
+            )
+        else:
+            summary = compose_telegram_summary(parsed, args.date, args.edition)
+            msg_result = send_telegram_message(token, chat_id, summary, args.dry_run)
+            print(json.dumps(msg_result, indent=2))
+            results.append(msg_result)
+            doc_caption = (
+                f"Hive-Mind Crisis Brief — {args.date} ({args.edition.capitalize()})"
+            )
+            doc_result = send_telegram_document(
+                token, chat_id, brief_path, doc_caption, args.dry_run
+            )
+            print(json.dumps(doc_result, indent=2))
+            results.append(doc_result)
 
-    # Write delivery receipt for audit (records both attempts)
+    # --- iMessage (Apple Messages) channel ---
+    if want_im:
+        recipient = read_credential(IMESSAGE_RECIPIENT_FILE)
+        if not recipient:
+            print(
+                "WARN: skipping iMessage — missing imessage_recipient.txt at "
+                f"{REPO} (put your phone number, e.g. +919004031732)",
+                file=sys.stderr,
+            )
+        else:
+            im_summary = compose_imessage_summary(parsed, args.date, args.edition)
+            im_result = send_imessage(recipient, im_summary, args.dry_run)
+            print(json.dumps(im_result, indent=2))
+            results.append(im_result)
+
+    # Write delivery receipt for audit (records all attempted channels)
     log_dir = REPO / f"staging/{args.date}-{args.edition}"
     log_dir.mkdir(parents=True, exist_ok=True)
     receipt = {
         "date": args.date,
         "edition": args.edition,
-        "summary_chars": len(summary),
-        "message_result": msg_result,
-        "document_result": doc_result,
+        "channel": args.channel,
+        "results": results,
     }
-    (log_dir / "telegram-delivery-log.json").write_text(json.dumps(receipt, indent=2))
+    (log_dir / "delivery-log.json").write_text(json.dumps(receipt, indent=2))
 
-    # Exit 0 if either channel succeeded; 1 if both failed
+    if not results:
+        print("ERROR: no channels attempted (all credentials missing)", file=sys.stderr)
+        return 2
+
+    # Exit 0 if any channel succeeded; 1 if all attempted channels failed
     success_states = ("sent", "sent_plain", "dry_run")
-    if (
-        msg_result.get("status") in success_states
-        or doc_result.get("status") in success_states
-    ):
+    if any(r.get("status") in success_states for r in results):
         return 0
     return 1
 
