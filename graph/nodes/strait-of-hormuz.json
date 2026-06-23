@@ -3,10 +3,10 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-06-20",
+  "last_updated": "2026-06-22",
   "summary": "Day 105 / 2026-06-12. **THE STRAIT BECAME THE CENTRAL BARGAINING CHIP — A DEAL WOULD REOPEN IT IN ~30 DAYS, BUT IRAN INTENDS TO KEEP 'CONTROL' AND THE BLOCKADE STAYS UNTIL SIGNING.** Reported deal terms have Hormuz reopening to pre-war volumes within 30 days and the US lifting its naval blockade. Two caveats define the trade: (1) Araghchi says Iran will 'maintain control' of the Strait even under a deal — reopening restores FLOW but not necessarily the pre-war freedom-of-navigation regime, so the structural floor under oil may be higher than a clean reopening implies; (2) Trump says the blockade stays 'in full force until finalized,' so the ~5%-of-normal-flow paralysis and the lethal enforcement campaign continue until a signature. The market priced the reopening hope hard: Brent -4.1% to $86.71 (WTI below $85), the war premium finally deflating DOWN on de-escalation after refusing to bid UP through the kinetic escalation. Physical (VLCC rates, war-risk cover ~7-10% of hull) has NOT unwound — paper-oil drops on hope, physical waits for the signature. Tanker equities (Frontline +9.8%) priced reopening as VOLUME-bullish (idled-fleet re-employment).",
   "current": {
-    "status": "PARTIAL REOPENING UNDERWAY, AIS-CONFIRMED (2026-06-19): ~13 foreign tankers transited (Starboard AIS) — first confirmed foreign transits since the blockade — though most reversed; flow still ~95% below pre-war (<10/day). US blockade lifted per signed MoU; free passage 60 days; full normalisation weeks/months (mine-clearance, backlog, insurance)."
+    "status": "REOPENING REAL, IRAN VERBAL CLOSURE NOT ENFORCED (2026-06-22): CENTCOM reports 55 ships / 17M bbl transited (20 Jun), 20 tankers 19 Jun — reopening accelerating. Iran (IRGC) DECLARED closure (20 Jun) over Lebanon but no enforcement observed; 'Iran does not control the Strait' (CENTCOM). Oil FELL on the declaration — market called the bluff."
   },
   "active_triggers": [
     {
@@ -28,7 +28,8 @@
       "note_2026-06-17": "2026-06-17: MOVED watching->active. The US naval blockade — the mechanism that closed Hormuz — is being removed by CONFIRMED order of two governments (Trump's authorisation + Iran's confirmation), and first transits are reported. 'Even partially' threshold met by the confirmed blockade removal. This is a confirmed de-escalation ACTION, not rhetoric.",
       "note_2026-06-18": "2026-06-18: WALKED BACK active->watching. Yesterday's activation rested partly on a single-source transit report; independent AIS now shows traffic UNCHANGED (foreign-flag absent, ~95% below pre-war). The 48h reconfirm flagged in the 17 Jun verification FAILED. The blockade-removal ORDER stays confirmed, but 'reopens even partially' requires actual traffic, which is not occurring. Disciplined self-correction -- revert to watching until AIS shows foreign-flag transit resumption.",
       "note_2026-06-19": "2026-06-19: RE-ACTIVATED watching->active. Distinct from the 18 Jun walk-back: this time ~13 foreign transits are AIS-CONFIRMED (Starboard), not a single-source claim, alongside the signed MoU and lifted blockade. 'Even partially' threshold met by operational data. Full normalisation still pending (95% below pre-war).",
-      "note_2026-06-20": "2026-06-20: STAYS active. ~7 ships through since the deal confirms the partial reopening continues; full-normalisation (>30/day) still pending."
+      "note_2026-06-20": "2026-06-20: STAYS active. ~7 ships through since the deal confirms the partial reopening continues; full-normalisation (>30/day) still pending.",
+      "note_2026-06-22": "2026-06-22: STAYS active. 55 ships transited — reopening accelerating. Iran's verbal closure does NOT reverse this (no enforcement; rhetoric-not-action discipline)."
     },
     {
       "condition": "US attempts naval escort or forced opening of Hormuz",
@@ -175,7 +176,8 @@
       "note": "As of 11 Jun the closure is a DECLARATION; the only enforcement is the IRGC's uncorroborated 2-tanker claim, which CENTCOM contradicts. This trigger fires only on operationally-verified enforcement against a neutral hull -- the event that would convert the dead war-premium into a violent Brent gap toward $110+ and double AWRP. The market is positioned for choreography; this is the un-priced tail.",
       "note_2026-06-12": "STAYS WATCHING. No new operationally-confirmed strike on a neutral hull this window; the blockade stays 'in full force until finalized' but the deal track lowers near-term enforcement-escalation risk.",
       "note_2026-06-16": "2026-06-16: No new enforcement action; ceasefire holding. De-escalation, no fresh closure-enforcement signal.",
-      "note_2026-06-17": "2026-06-17: Superseded — blockade now lifting, not enforcing closure."
+      "note_2026-06-17": "2026-06-17: Superseded — blockade now lifting, not enforcing closure.",
+      "note_2026-06-22": "2026-06-22: Iran DECLARED closure (20 Jun) but NO operational enforcement — 55 ships transited. STAYS watching — fires only if Iran actually fires on/turns back a vessel."
     }
   ],
   "top_edges": [
@@ -257,6 +259,10 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-06-22",
+      "headline": "Reopening is REAL and accelerating — 55 ships / 17M barrels transited 20 Jun (CENTCOM), up from ~20 on 19 Jun and the ~7-13 trickle earlier. Iran (IRGC) declared the strait closed (20 Jun) over Lebanon violations, but CENTCOM observed no enforced closure ('Iran does not control the Strait; traffic continues'). DECISIVE TELL: oil FELL (Brent -1.2% to $76.99) on the closure declaration — the market priced it as rhetoric. CONFIRMED (CENTCOM operational) / Iran closure = CLAIMED."
+    },
     {
       "date": "2026-06-20",
       "headline": "Reopening a slow trickle over the weekend — only ~7 ships through since the deal (MarineTraffic; ~13 on Starboard earlier). Free passage (no tolls, 60 days) confirmed; oil tankers/LNG to get priority. But backlog clears over 10-15 days, full normalisation weeks-months, and firms have restructured 2026 schedules around the Cape of Good Hope. Partial reopening intact but throughput a small fraction of pre-war. CONFIRMED (AIS)."
