@@ -3,10 +3,10 @@
   "name": "Strait of Hormuz",
   "type": "trade_route",
   "created": "2026-03-23",
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-26",
   "summary": "Day 105 / 2026-06-12. **THE STRAIT BECAME THE CENTRAL BARGAINING CHIP — A DEAL WOULD REOPEN IT IN ~30 DAYS, BUT IRAN INTENDS TO KEEP 'CONTROL' AND THE BLOCKADE STAYS UNTIL SIGNING.** Reported deal terms have Hormuz reopening to pre-war volumes within 30 days and the US lifting its naval blockade. Two caveats define the trade: (1) Araghchi says Iran will 'maintain control' of the Strait even under a deal — reopening restores FLOW but not necessarily the pre-war freedom-of-navigation regime, so the structural floor under oil may be higher than a clean reopening implies; (2) Trump says the blockade stays 'in full force until finalized,' so the ~5%-of-normal-flow paralysis and the lethal enforcement campaign continue until a signature. The market priced the reopening hope hard: Brent -4.1% to $86.71 (WTI below $85), the war premium finally deflating DOWN on de-escalation after refusing to bid UP through the kinetic escalation. Physical (VLCC rates, war-risk cover ~7-10% of hull) has NOT unwound — paper-oil drops on hope, physical waits for the signature. Tanker equities (Frontline +9.8%) priced reopening as VOLUME-bullish (idled-fleet re-employment).",
   "current": {
-    "status": "CONTESTED BUT OPEN, REOPENING FALTERING (2026-06-23): transits FELL to 12 (Sun) from 55 (Sat); 5/8 inbound vessels DARK (AIS off) -- a 'late-blockade' profile (Windward). Iran military 'closed' (20 Jun) but Iran MFA says 'operating normally' and CENTCOM says traffic flows. Chilling effect via caution, NOT enforcement."
+    "status": "RECOVERING UNDER IRGC ENFORCEMENT (2026-06-26): 49 transits 24 Jun (wartime high), 43 on 25 Jun -- recovery real, BUT the IRGC turned ships back 25 Jun (Windward: 5 vessels turned, 1 dark) and now polices the southern corridor ('transit at own risk'). A cargo ship was attacked off Oman (Thu). Partial enforcement, not blockade. Oil still fell to $73.57 (pre-war)."
   },
   "active_triggers": [
     {
@@ -30,7 +30,8 @@
       "note_2026-06-19": "2026-06-19: RE-ACTIVATED watching->active. Distinct from the 18 Jun walk-back: this time ~13 foreign transits are AIS-CONFIRMED (Starboard), not a single-source claim, alongside the signed MoU and lifted blockade. 'Even partially' threshold met by operational data. Full normalisation still pending (95% below pre-war).",
       "note_2026-06-20": "2026-06-20: STAYS active. ~7 ships through since the deal confirms the partial reopening continues; full-normalisation (>30/day) still pending.",
       "note_2026-06-22": "2026-06-22: STAYS active. 55 ships transited — reopening accelerating. Iran's verbal closure does NOT reverse this (no enforcement; rhetoric-not-action discipline).",
-      "note_2026-06-23": "2026-06-23: STAYS active but FALTERING — transits fell to 12 (Sun); chilling effect via caution. Watch for re-closure if transits trend to zero. No enforced blockade (CENTCOM: traffic flows)."
+      "note_2026-06-23": "2026-06-23: STAYS active but FALTERING — transits fell to 12 (Sun); chilling effect via caution. Watch for re-closure if transits trend to zero. No enforced blockade (CENTCOM: traffic flows).",
+      "note_2026-06-26": "2026-06-26: STAYS active — 49 transits 24 Jun (wartime high), 43 on 25 Jun. Recovery real but now IRGC-policed."
     },
     {
       "condition": "US attempts naval escort or forced opening of Hormuz",
@@ -165,7 +166,7 @@
     },
     {
       "condition": "Operationally-confirmed ENFORCEMENT of the 10 Jun complete-closure declaration -- Iran actually fires on / disables a transiting NEUTRAL vessel, verified by UKMTO or an independent maritime tracker (not an IRGC claim) -- converts the declaration from policy to action",
-      "status": "watching",
+      "status": "active",
       "cascade": [
         "brent-crude",
         "marine-war-risk-insurance",
@@ -179,7 +180,8 @@
       "note_2026-06-16": "2026-06-16: No new enforcement action; ceasefire holding. De-escalation, no fresh closure-enforcement signal.",
       "note_2026-06-17": "2026-06-17: Superseded — blockade now lifting, not enforcing closure.",
       "note_2026-06-22": "2026-06-22: Iran DECLARED closure (20 Jun) but NO operational enforcement — 55 ships transited. STAYS watching — fires only if Iran actually fires on/turns back a vessel.",
-      "note_2026-06-23": "2026-06-23: Still no Iranian enforcement — dark vessels are shipowner caution, not interdiction. STAYS watching."
+      "note_2026-06-23": "2026-06-23: Still no Iranian enforcement — dark vessels are shipowner caution, not interdiction. STAYS watching.",
+      "note_2026-06-26": "2026-06-26: ACTIVATED watching->active. IRGC turn-backs 25 Jun are CONFIRMED ACTION — Windward corroborated 5 vessels turned + 1 dark, matching the IRGC claim (2 sources, operational). Distinct from the 20 Jun verbal 'closure' (which CENTCOM refuted): this time vessels were actually turned back. Partial enforcement, not full blockade (43 transits still occurred)."
     }
   ],
   "top_edges": [
@@ -261,6 +263,10 @@
     }
   ],
   "recent_signals": [
+    {
+      "date": "2026-06-26",
+      "headline": "Recovery hit a wartime high (49 transits 24 Jun) then the IRGC ENFORCED turn-backs on 25 Jun — Windward independently corroborated 5 vessels turning around + 1 losing AIS, matching the IRGC's Telegram claim. The southern corridor (previously believed free of Iranian approval) is now actively policed (VHF Ch16: transit without AIS/IRGC permission 'at your own risk'). NOT a blockade — 43 transits still occurred 25 Jun — but this is the first OPERATIONALLY-CONFIRMED Iranian enforcement since the signing: rhetoric became partial action. Separately a cargo ship was attacked off Oman (Thu, attacker unconfirmed). CONFIRMED (Windward + IRGC)."
+    },
     {
       "date": "2026-06-23",
       "headline": "Reopening FALTERING (corrects 06-22's clean 'bluff called'): transits fell to 12 Sunday from 55 Saturday, with 5 of 8 inbound vessels going dark (AIS disabled) — Windward calls it a 'late-blockade baseline more than a functioning open strait.' Iran's closure declaration (no enforcement per CENTCOM) plus shipowner caution is recreating a partial blockade by sentiment. Notably Iran's OWN foreign ministry says shipping is 'operating normally,' contradicting its military. CONFIRMED (Windward AIS / CENTCOM)."
