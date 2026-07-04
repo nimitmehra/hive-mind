@@ -1,134 +1,144 @@
 {
-  "id": "vance",
-  "name": "JD Vance",
-  "type": "person",
-  "created": "2026-04-11",
-  "last_updated": "2026-06-27",
-  "summary": "**B1 VANCE PUBLICLY VISIBLE TONE-DIVERGENCE FROM TRUMP — MAY 13: US negotiators 'still making progress' with Iran despite a series of 'unsatisfying responses from Tehran'** (CONFIRMED RHETORIC — Haaretz live blog May 13, The Hill, CNN, CBS). Vance also defended administration: 'of course' the administration cares about Americans' financial situation = soft-power messaging counter-weight to Trump's 'I don't think about Americans' financial situation' line from yesterday. Softer line than Trump's 'TOTALLY UNACCEPTABLE / massive life support / 1% chance of living' framing from May 11 and the pre-Beijing-departure South Lawn line 'doesn't need Xi's help / one way or the other.' Intra-administration tone divergence now publicly visible — Trump's own Beijing-day shift (HEU-via-China door-opening) is structurally consistent with softening of May 11 line. Combined picture: Vance keeps the diplomatic door open, Pentagon prepares the kinetic option (Sledgehammer naming NBC May 12), Trump positions himself in the middle with a HEU-via-China lever that does NOT require either Russia or full-rejection. The 'Vance publicly breaks with Trump on Iran policy' trigger has now ARGUABLY FIRED on tone (the staging file explicitly says: 'do not over-encode as broken administration — encode as visible internal tone gap'). Trigger reclassified to NUANCE-FIRED: tone-gap-not-policy-split. PRIOR (April 22): Vance led Islamabad delegation with Witkoff and Kushner; mediation channel-level engagement.",
-  "current": {},
-  "active_triggers": [
-    {
-      "condition": "Vance announces any Islamabad framework extension or deal",
-      "status": "watching",
-      "cascade": [
-        "brent-crude",
-        "strait-of-hormuz",
-        "sp-500",
-        "nifty-50",
-        "iran"
-      ],
-      "added": "2026-04-11"
-    },
-    {
-      "condition": "Vance publicly breaks with Trump on Iran policy",
-      "status": "nuance_fired_tone_not_policy",
-      "cascade": [
-        "trump",
-        "united-states",
-        "sp-500"
-      ],
-      "added": "2026-04-11",
-      "note_2026-05-14": "May 13 Vance public 'still making progress' line is softer than Trump's pre-Beijing 'TOTALLY UNACCEPTABLE / massive life support' framing. Cleanest publicly-visible US-internal tone gap of cycle. Per staging file CRITICAL TAG-DISCIPLINE FLAG 6: 'do NOT over-encode as broken administration — encode as visible internal tone gap.' Trigger reclassified to nuance-fired (tone gap visible, not policy split — both Vance/Pentagon/Trump signaling consistent with one optionality-spread strategy not three competing positions)."
-    },
-    {
-      "condition": "Vance publicly endorses continued Israeli Lebanon operations",
-      "status": "watching",
-      "cascade": [
-        "israel",
-        "lebanon",
-        "hezbollah",
-        "iran"
-      ],
-      "added": "2026-04-11"
-    }
-  ],
-  "top_edges": [
-    {
-      "to": "trump",
-      "type": "subordinate_with_publicly_visible_tone_gap",
-      "weight": 10.0,
-      "directness": 1,
-      "last_activated": "2026-05-14",
-      "activation_count": 6
-    },
-    {
-      "to": "iran",
-      "type": "lead_negotiator_with_softer_public_tone",
-      "weight": 10.0,
-      "directness": 1,
-      "last_activated": "2026-05-14",
-      "activation_count": 3
-    },
-    {
-      "to": "united-states",
-      "type": "delegation_leader",
-      "weight": 9.0,
-      "directness": 1,
-      "last_activated": "2026-04-11",
-      "activation_count": 3
-    },
-    {
-      "to": "pakistan",
-      "type": "mediation_partnership",
-      "weight": 9.0,
-      "directness": 1,
-      "last_activated": "2026-04-20",
-      "activation_count": 3
-    },
-    {
-      "to": "israel",
-      "type": "friction_back_channel",
-      "weight": 7.0,
-      "directness": 1,
-      "last_activated": "2026-04-10",
-      "activation_count": 2
-    }
-  ],
-  "recent_signals": [
-    {
-      "date": "2026-06-27",
-      "headline": "Vance framed the 27 Jun strike as MoU enforcement — Iran 'signed a ceasefire' and 'can pick up the phone if it has issues.' The administration's calibrated, deal-preserving messaging. CONFIRMED."
-    },
-    {
-      "date": "2026-06-26",
-      "headline": "VP Vance is the public face of the roadmap — called Iran inviting IAEA inspectors back 'the first step in permanently ending' the weapons program; flagged IAEA contact could start Monday. CONFIRMED."
-    },
-    {
-      "date": "2026-06-23",
-      "headline": "Vance scrapped the original Switzerland trip (talks had been postponed), but technical-level talks restarted Sunday at Geneva without him. REPORTED."
-    },
-    {
-      "date": "2026-06-22",
-      "headline": "VP Vance's trip to the Switzerland implementation/nuclear talks was PULLED — the talks postponed over the Lebanon fighting (18-20 Jun). CONFIRMED."
-    },
-    {
-      "date": "2026-06-19",
-      "headline": "VP Vance co-signed the US-Iran MoU electronically (with Trump) — named signatory on the war-ending interim deal. CONFIRMED."
-    },
-    {
-      "date": "2026-05-14",
-      "headline": "**B1 VANCE PUBLICLY VISIBLE TONE-DIVERGENCE FROM TRUMP** — VP Vance May 13 publicly said US negotiators 'still making progress' with Iran despite 'unsatisfying responses' (CONFIRMED RHETORIC — Haaretz live blog May 13, The Hill, CNN). Vance also 'of course' defending administration caring about Americans' financial situation = soft-power messaging counter-weight to Trump's 'I don't think about Americans' financial situation' line. Softer line than Trump's pre-Beijing 'TOTALLY UNACCEPTABLE / massive life support' framing. Cleanest publicly-visible US-internal-administration tone divergence of cycle. Combined with Pentagon Sledgehammer naming (B2) and Trump's Beijing-day HEU-via-China door-opening (A1), the picture is one of administrations on both sides actively preparing optionality across post-summit decision window May 15-20: Vance keeps diplomatic door, Pentagon prepares kinetic, Trump positions in middle. **Tone divergence is VISIBLE BUT IS NOT POLICY SPLIT** — per staging file's CRITICAL TAG-DISCIPLINE FLAG: 'do not over-encode as broken administration.' Both can be true: Vance keeps the diplomatic option, Pentagon prepares the kinetic option, Trump maneuvers in the middle.",
-      "sources": [
-        "Haaretz live May 13 (Vance 'still making progress')",
-        "The Hill (Vance 'no headway' earlier; 'making progress' May 13)",
-        "CNN Day 75 liveblog (Vance progress)",
-        "CBS Live updates May 14"
-      ],
-      "verification": "Vance 'still making progress' = CONFIRMED RHETORIC multi-source primary; tone-gap reading = CONFIRMED analytical observation (Trump/Vance/Pentagon trio publicly visible in print)."
-    }
-  ],
-  "historical_summaries": [
-    {
-      "period": "2026-03",
-      "summary": "2 signals. FIRST DISTINCT VANCE SIGNAL — DIVERGENCE FROM NETANYAHU",
-      "signal_count": 2,
-      "auto": true
-    },
-    {
-      "period": "2026-04",
-      "summary": "6 signals. 'IN CONTACT ALL NIGHT LONG' WITH ASIM MUNIR DURING ISLAMABAD ACCORD COLLAPSE | ISLAMABAD DELEGATION LEADER CONFIRMED | Day 44",
-      "signal_count": 6,
-      "auto": true
-    }
-  ]
+ "id": "vance",
+ "name": "JD Vance",
+ "type": "person",
+ "created": "2026-04-11",
+ "last_updated": "2026-07-04",
+ "summary": "**B1 VANCE PUBLICLY VISIBLE TONE-DIVERGENCE FROM TRUMP — MAY 13: US negotiators 'still making progress' with Iran despite a series of 'unsatisfying responses from Tehran'** (CONFIRMED RHETORIC — Haaretz live blog May 13, The Hill, CNN, CBS). Vance also defended administration: 'of course' the administration cares about Americans' financial situation = soft-power messaging counter-weight to Trump's 'I don't think about Americans' financial situation' line from yesterday. Softer line than Trump's 'TOTALLY UNACCEPTABLE / massive life support / 1% chance of living' framing from May 11 and the pre-Beijing-departure South Lawn line 'doesn't need Xi's help / one way or the other.' Intra-administration tone divergence now publicly visible — Trump's own Beijing-day shift (HEU-via-China door-opening) is structurally consistent with softening of May 11 line. Combined picture: Vance keeps the diplomatic door open, Pentagon prepares the kinetic option (Sledgehammer naming NBC May 12), Trump positions himself in the middle with a HEU-via-China lever that does NOT require either Russia or full-rejection. The 'Vance publicly breaks with Trump on Iran policy' trigger has now ARGUABLY FIRED on tone (the staging file explicitly says: 'do not over-encode as broken administration — encode as visible internal tone gap'). Trigger reclassified to NUANCE-FIRED: tone-gap-not-policy-split. PRIOR (April 22): Vance led Islamabad delegation with Witkoff and Kushner; mediation channel-level engagement.",
+ "current": {},
+ "active_triggers": [
+  {
+   "condition": "Vance announces any Islamabad framework extension or deal",
+   "status": "watching",
+   "cascade": [
+    "brent-crude",
+    "strait-of-hormuz",
+    "sp-500",
+    "nifty-50",
+    "iran"
+   ],
+   "added": "2026-04-11"
+  },
+  {
+   "condition": "Vance publicly breaks with Trump on Iran policy",
+   "status": "nuance_fired_tone_not_policy",
+   "cascade": [
+    "trump",
+    "united-states",
+    "sp-500"
+   ],
+   "added": "2026-04-11",
+   "note_2026-05-14": "May 13 Vance public 'still making progress' line is softer than Trump's pre-Beijing 'TOTALLY UNACCEPTABLE / massive life support' framing. Cleanest publicly-visible US-internal tone gap of cycle. Per staging file CRITICAL TAG-DISCIPLINE FLAG 6: 'do NOT over-encode as broken administration — encode as visible internal tone gap.' Trigger reclassified to nuance-fired (tone gap visible, not policy split — both Vance/Pentagon/Trump signaling consistent with one optionality-spread strategy not three competing positions)."
+  },
+  {
+   "condition": "Vance publicly endorses continued Israeli Lebanon operations",
+   "status": "watching",
+   "cascade": [
+    "israel",
+    "lebanon",
+    "hezbollah",
+    "iran"
+   ],
+   "added": "2026-04-11"
+  }
+ ],
+ "top_edges": [
+  {
+   "to": "trump",
+   "type": "subordinate_with_publicly_visible_tone_gap",
+   "weight": 10.0,
+   "directness": 1,
+   "last_activated": "2026-05-14",
+   "activation_count": 6
+  },
+  {
+   "to": "iran",
+   "type": "lead_negotiator_with_softer_public_tone",
+   "weight": 10.0,
+   "directness": 1,
+   "last_activated": "2026-05-14",
+   "activation_count": 3
+  },
+  {
+   "to": "united-states",
+   "type": "delegation_leader",
+   "weight": 9.0,
+   "directness": 1,
+   "last_activated": "2026-04-11",
+   "activation_count": 3
+  },
+  {
+   "to": "pakistan",
+   "type": "mediation_partnership",
+   "weight": 9.0,
+   "directness": 1,
+   "last_activated": "2026-04-20",
+   "activation_count": 3
+  },
+  {
+   "to": "israel",
+   "type": "friction_back_channel",
+   "weight": 7.0,
+   "directness": 1,
+   "last_activated": "2026-04-10",
+   "activation_count": 2
+  }
+ ],
+ "recent_signals": [
+  {
+   "date": "2026-06-27",
+   "headline": "Vance framed the 27 Jun strike as MoU enforcement — Iran 'signed a ceasefire' and 'can pick up the phone if it has issues.' The administration's calibrated, deal-preserving messaging. CONFIRMED."
+  },
+  {
+   "date": "2026-06-26",
+   "headline": "VP Vance is the public face of the roadmap — called Iran inviting IAEA inspectors back 'the first step in permanently ending' the weapons program; flagged IAEA contact could start Monday. CONFIRMED."
+  },
+  {
+   "date": "2026-06-23",
+   "headline": "Vance scrapped the original Switzerland trip (talks had been postponed), but technical-level talks restarted Sunday at Geneva without him. REPORTED."
+  },
+  {
+   "date": "2026-06-22",
+   "headline": "VP Vance's trip to the Switzerland implementation/nuclear talks was PULLED — the talks postponed over the Lebanon fighting (18-20 Jun). CONFIRMED."
+  },
+  {
+   "date": "2026-06-19",
+   "headline": "VP Vance co-signed the US-Iran MoU electronically (with Trump) — named signatory on the war-ending interim deal. CONFIRMED."
+  },
+  {
+   "date": "2026-05-14",
+   "headline": "**B1 VANCE PUBLICLY VISIBLE TONE-DIVERGENCE FROM TRUMP** — VP Vance May 13 publicly said US negotiators 'still making progress' with Iran despite 'unsatisfying responses' (CONFIRMED RHETORIC — Haaretz live blog May 13, The Hill, CNN). Vance also 'of course' defending administration caring about Americans' financial situation = soft-power messaging counter-weight to Trump's 'I don't think about Americans' financial situation' line. Softer line than Trump's pre-Beijing 'TOTALLY UNACCEPTABLE / massive life support' framing. Cleanest publicly-visible US-internal-administration tone divergence of cycle. Combined with Pentagon Sledgehammer naming (B2) and Trump's Beijing-day HEU-via-China door-opening (A1), the picture is one of administrations on both sides actively preparing optionality across post-summit decision window May 15-20: Vance keeps diplomatic door, Pentagon prepares kinetic, Trump positions in middle. **Tone divergence is VISIBLE BUT IS NOT POLICY SPLIT** — per staging file's CRITICAL TAG-DISCIPLINE FLAG: 'do not over-encode as broken administration.' Both can be true: Vance keeps the diplomatic option, Pentagon prepares the kinetic option, Trump maneuvers in the middle.",
+   "sources": [
+    "Haaretz live May 13 (Vance 'still making progress')",
+    "The Hill (Vance 'no headway' earlier; 'making progress' May 13)",
+    "CNN Day 75 liveblog (Vance progress)",
+    "CBS Live updates May 14"
+   ],
+   "verification": "Vance 'still making progress' = CONFIRMED RHETORIC multi-source primary; tone-gap reading = CONFIRMED analytical observation (Trump/Vance/Pentagon trio publicly visible in print)."
+  },
+  {
+   "date": "2026-07-01",
+   "headline": "VANCE: TALKS 'GOING WELL... STILL PRETTY EARLY'; NEGOTIATING 'OUT OF STRENGTH'; NUCLEAR TALKS 'SOON'; DISMISSED IRAN'S INDIRECT-TALKS INSISTENCE AS 'A PERSIAN NEGOTIATION TACTIC'; EARLIER: 'VIOLENCE WILL BE MET WITH VIOLENCE' (28 Jun)",
+   "sources": [
+    "JPost (Oceana remarks)",
+    "CNN 1 Jul",
+    "Fox"
+   ],
+   "verification": "CONFIRMED statements"
+  }
+ ],
+ "historical_summaries": [
+  {
+   "period": "2026-03",
+   "summary": "2 signals. FIRST DISTINCT VANCE SIGNAL — DIVERGENCE FROM NETANYAHU",
+   "signal_count": 2,
+   "auto": true
+  },
+  {
+   "period": "2026-04",
+   "summary": "6 signals. 'IN CONTACT ALL NIGHT LONG' WITH ASIM MUNIR DURING ISLAMABAD ACCORD COLLAPSE | ISLAMABAD DELEGATION LEADER CONFIRMED | Day 44",
+   "signal_count": 6,
+   "auto": true
+  }
+ ]
 }

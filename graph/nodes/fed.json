@@ -1,228 +1,238 @@
 {
-  "id": "fed",
-  "name": "Federal Reserve",
-  "type": "institution",
-  "created": "2026-03-23",
-  "last_updated": "2026-06-18",
-  "summary": "**MAY CPI 4.2% (3-YR HIGH) LOCKS IN THE 'RATES-NOT-WAR' ENGINE.** The Fed's problem is no longer separable from the war: energy (war-derived via the Hormuz blockade) drove ~60% of the May monthly CPI increase to a 4.2% YoY headline, but core at 2.9% has its own momentum. Market pricing: a near-certain hold at the 17 Jun meeting, but a December HIKE is now priced as live base-risk (odds disputed 30->70%+ across CME FedWatch / Yahoo / Polymarket -- the graph's prior '~70%' read now looks like the top of the range). THE STRUCTURAL EDGE FOR THE INVESTOR: the crisis now transmits into US assets through the CPI/Fed channel (slow, sticky) rather than the war-premium channel (fast, reversible -- dead since late May). Even a signed Iran deal does NOT buy back this drawdown on a short horizon; the December-hike repricing is the regime fact under gold's collapse, the dollar's firmness, and the equity selloff.",
-  "current": {
-    "status": "HAWKISH HOLD + HIKE SIGNAL (2026-06-18): 17 Jun FOMC held at 3.5-3.75%, dot-plot flipped to +0.25% hike this year (from a cut projected 3mo ago); cuts off the table on 3-yr-high inflation. First decision under new chair Kevin Warsh (hawk); Powell stays on the board, low-profile."
+ "id": "fed",
+ "name": "Federal Reserve",
+ "type": "institution",
+ "created": "2026-03-23",
+ "last_updated": "2026-07-04",
+ "summary": "**MAY CPI 4.2% (3-YR HIGH) LOCKS IN THE 'RATES-NOT-WAR' ENGINE.** The Fed's problem is no longer separable from the war: energy (war-derived via the Hormuz blockade) drove ~60% of the May monthly CPI increase to a 4.2% YoY headline, but core at 2.9% has its own momentum. Market pricing: a near-certain hold at the 17 Jun meeting, but a December HIKE is now priced as live base-risk (odds disputed 30->70%+ across CME FedWatch / Yahoo / Polymarket -- the graph's prior '~70%' read now looks like the top of the range). THE STRUCTURAL EDGE FOR THE INVESTOR: the crisis now transmits into US assets through the CPI/Fed channel (slow, sticky) rather than the war-premium channel (fast, reversible -- dead since late May). Even a signed Iran deal does NOT buy back this drawdown on a short horizon; the December-hike repricing is the regime fact under gold's collapse, the dollar's firmness, and the equity selloff.",
+ "current": {
+  "status": "HAWKISH HOLD + HIKE SIGNAL (2026-06-18): 17 Jun FOMC held at 3.5-3.75%, dot-plot flipped to +0.25% hike this year (from a cut projected 3mo ago); cuts off the table on 3-yr-high inflation. First decision under new chair Kevin Warsh (hawk); Powell stays on the board, low-profile."
+ },
+ "active_triggers": [
+  {
+   "condition": "Fed signals rate HIKE",
+   "status": "watching",
+   "cascade": [
+    "sp-500",
+    "us-10y-yield",
+    "gold",
+    "nifty-50",
+    "inr-usd"
+   ],
+   "added": "2026-03-23",
+   "note_2026-06-10": "STAYS watching — but the market-implied odds of a December HIKE have ADVANCED to ~70% (from ~45% a week ago) on the hot May jobs print + oil-fed inflation. This is the closest the cycle has come, and the repricing is already the engine under the metals collapse, firm dollar (DXY ~99.9), and 4.52% 10Y. The trigger requires an actual FED signal/action; a market-implied repricing on a data print does NOT fire it. Document the ~70% odds; the 2Y at 3.63% (below the funds-range top) confirms a hike is priced/odds, not executed. Critical: this repricing would NOT fully reverse on Gulf de-escalation (sticky inflation + hot labour market are independent)."
+  }
+ ],
+ "top_edges": [
+  {
+   "to": "us-10y-yield",
+   "type": "rate_expectations",
+   "weight": 10,
+   "directness": 1,
+   "last_activated": "2026-06-10",
+   "activation_count": 19,
+   "context": "2026-06-10: the December Fed-HIKE odds jumped to ~70% (from ~45% a week ago) on hot May jobs + oil-fed inflation, pinning the 10Y at 4.52% and lifting DXY to ~99.9 — the engine under the metals collapse and the non-bid of the war-risk complex. Weight stays 10 (formula caps; already at ceiling)."
   },
-  "active_triggers": [
-    {
-      "condition": "Fed signals rate HIKE",
-      "status": "watching",
-      "cascade": [
-        "sp-500",
-        "us-10y-yield",
-        "gold",
-        "nifty-50",
-        "inr-usd"
-      ],
-      "added": "2026-03-23",
-      "note_2026-06-10": "STAYS watching — but the market-implied odds of a December HIKE have ADVANCED to ~70% (from ~45% a week ago) on the hot May jobs print + oil-fed inflation. This is the closest the cycle has come, and the repricing is already the engine under the metals collapse, firm dollar (DXY ~99.9), and 4.52% 10Y. The trigger requires an actual FED signal/action; a market-implied repricing on a data print does NOT fire it. Document the ~70% odds; the 2Y at 3.63% (below the funds-range top) confirms a hike is priced/odds, not executed. Critical: this repricing would NOT fully reverse on Gulf de-escalation (sticky inflation + hot labour market are independent)."
-    }
-  ],
-  "top_edges": [
-    {
-      "to": "us-10y-yield",
-      "type": "rate_expectations",
-      "weight": 10,
-      "directness": 1,
-      "last_activated": "2026-06-10",
-      "activation_count": 19,
-      "context": "2026-06-10: the December Fed-HIKE odds jumped to ~70% (from ~45% a week ago) on hot May jobs + oil-fed inflation, pinning the 10Y at 4.52% and lifting DXY to ~99.9 — the engine under the metals collapse and the non-bid of the war-risk complex. Weight stays 10 (formula caps; already at ceiling)."
-    },
-    {
-      "to": "sp-500",
-      "type": "discount_rate",
-      "weight": 10,
-      "directness": 1,
-      "last_activated": "2026-06-06",
-      "activation_count": 19,
-      "context": "2026-06-06: the hot-jobs rate repricing compressed equity multiples — the rates co-driver (with the Broadcom AI crack) of the 5-June risk-off (S&P -2.6%, NASDAQ -4.2%). Weight stays 10 (formula caps; already at ceiling)."
-    },
-    {
-      "to": "semiconductors",
-      "type": "rate_path_duration_tech_compression_hot_jobs_no_cuts_into_ai_rout",
-      "weight": 5.0,
-      "directness": 2,
-      "last_activated": "2026-06-06",
-      "activation_count": 1,
-      "context": "2026-06-06 (markets E1): ADDED. The hot May jobs print -> no cuts / hike priced -> higher 10Y compressed long-duration tech multiples directly into the Broadcom-led AI rout (SOX largest 1D plunge since March 2020). STRENGTHEN per the edge proposal; first explicit activation (act 1). Initial weight 5.0 for a 2nd-order systemic channel that genuinely fired (directness 1.5; not inflated on one session)."
-    },
-    {
-      "to": "brent-crude",
-      "type": "inflation_input_cpi_3_8_pass_through",
-      "weight": 10,
-      "directness": 1,
-      "last_activated": "2026-05-13",
-      "activation_count": 6
-    },
-    {
-      "to": "gold",
-      "type": "real_yield_channel_jun10_dec_hike_repricing_70pct_real_yields_dxy_up_gold_fell_2.1pct_during_three_country_strike",
-      "weight": 10.0,
-      "directness": 1,
-      "last_activated": "2026-06-10",
-      "activation_count": 16,
-      "context": "2026-06-10: the Fed-hike repricing (Dec hike ~70% from ~45%) lifted real yields + DXY (~99.9), repricing zero-yield gold DOWN 2.1% to a ~23-March low DURING a three-country missile strike on US installations — the channel by which the Iran shock is gold-NEGATIVE (shock->oil->inflation->yields/dollar->gold down). Weight stays 10 (formula caps; at ceiling)."
-    },
-    {
-      "to": "brent-crude",
-      "type": "inflation_input",
-      "weight": 10,
-      "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 15
-    },
-    {
-      "to": "united-states",
-      "type": "monetary_authority",
-      "weight": 10.0,
-      "directness": 1,
-      "last_activated": "2026-04-14",
-      "activation_count": 9
-    }
-  ],
-  "recent_signals": [
-    {
-      "date": "2026-06-18",
-      "headline": "FOMC (17 Jun) held at 3.5-3.75% and SIGNALLED A HIKE this year -- the dot-plot flipped from a projected cut to a +0.25% hike, citing 3-year-high inflation (partly the wartime energy spike). New chair Kevin Warsh's first meeting; hawkish. The oil collapse did NOT buy a dovish pivot. Market reaction: S&P -1.2%, NASDAQ -1.3%, VIX +12.4% to 18.44, DXY +0.8% to >100, US 2Y +0.8%. This is the dominant NON-crisis driver -- it does not reverse on Friday's signing. CONFIRMED (official)."
-    },
-    {
-      "date": "2026-06-17",
-      "headline": "FOMC two-day meeting began 16 Jun; rate decision + guidance due TODAY 17 Jun. The catalyst capping the de-escalation rally: a dovish tilt (acknowledging oil's ~20% collapse easing inflation) compounds the equity tailwind; a hawkish hold keeps the US rates channel sticky (10Y 4.43%). Markets consolidated into it. PREPARATION (scheduled)."
-    },
-    {
-      "date": "2026-06-12",
-      "headline": "THE DEAL DOESN'T FIX THE FED. Oil fell 4% on de-escalation but the December-hike repricing held (10Y 4.49% flat) -- May CPI 4.2% does not un-print, energy base effects take 2+ quarters to flush. The crisis transmits to US assets via the sticky CPI/rates channel, so a Hormuz deal helps oil-IMPORTERS (India) far more than US assets. A SUSTAINED oil-down (if the deal holds) would, over quarters, ease the energy-CPI impulse -- but not on a headline.",
-      "sources": [
-        "market-data.py",
-        "markets.md C6/D"
-      ],
-      "verification": "CONFIRMED"
-    },
-    {
-      "date": "2026-06-11",
-      "headline": "MAY CPI 4.2% YoY (0.5% m/m) -- 3-YEAR HIGH, highest since Apr 2023. Energy +23.5% YoY = ~60% of the monthly increase (the oil->CPI->Fed chain is now the PRIMARY crisis-transmission channel into US assets); core 2.9% with its own momentum. Fed-cut hopes dead; ~98% hold priced for 17 Jun, but the market now prices a December HIKE as live base-risk (odds disputed across sources: CME FedWatch, Yahoo ~30% rising, Polymarket >50%). This print does NOT un-print on Gulf de-escalation -- energy base effects take 2+ quarters to flush.",
-      "sources": [
-        "BLS (via TechTimes/Yahoo)",
-        "CME FedWatch",
-        "CBS/CNBC",
-        "Polymarket"
-      ],
-      "verification": "CONFIRMED (published data)"
-    },
-    {
-      "date": "2026-06-10",
-      "headline": "**THE DECEMBER FED-HIKE ODDS JUMPED TO ~70% (FROM ~45% A WEEK AGO) — THE ENGINE UNDER THE METALS COLLAPSE, THE FIRM DOLLAR, AND THE 4.52% 10Y, AND THE REASON THE WAR-RISK COMPLEX DID NOT BID.** Oil-fed inflation + a hot May jobs print pushed market-implied December Fed-HIKE odds to ~70%, lifting DXY (~99.9) and pinning the 10Y at 4.52% — which crushed the precious-metals complex (gold -2.1% to a ~23-March low, silver -24.7% 1M) and is the proximate reason zero-yield gold could not bid a three-country missile strike on US installations (an INFLATION/real-yields event, not risk-off). CRITICAL FOR DEPLOYMENT TIMING: this repricing is TRIGGERED by the crisis (oil -> inflation) but would NOT fully reverse on Gulf de-escalation — sticky inflation + a hot labour market persist INDEPENDENTLY of the war; the war is paradoxically gold-negative / dollar-positive via the Fed channel. TAG DISCIPLINE: a hike is PRICED/odds (~70%, now data-backed by the May jobs print), NOT EXECUTED; the 2Y at 3.63% sits below the funds-range top — encode 'hike odds ~70% / higher-for-longer hardened,' not 'hike confirmed.' RBI mirrored: HELD repo 5.25% (3rd straight hold, neutral, hike-bias). 'Fed signals rate HIKE' trigger stays watching (the ~70% odds advance toward it but a market repricing does not fire it).",
-      "sources": [
-        "Market-implied December Fed-HIKE odds ~70% (from ~45% a week ago), on hot May jobs + oil-fed inflation (CME FedWatch / market-implied)",
-        "Market data 2026-06-09/10 (10Y 4.52%, 2Y 3.63%, DXY 99.91; gold -2.1% to ~23-March low, silver -24.7% 1M)",
-        "Intel 2026-06-10 (RBI held repo 5.25%, neutral, hike-bias); war-risk complex (gold, Brent, VIX) did not bid the maximum kinetic escalation"
-      ],
-      "verification": "December Fed-HIKE odds ~70% from ~45% = REPORTED (market-implied / CME FedWatch), now data-backed by the confirmed May jobs print; 10Y 4.52% / 2Y 3.63% / DXY 99.91 = CONFIRMED market data; 'engine under the metals collapse + non-bid' = STRUCTURAL ANALYSIS anchored to the confirmed gold/silver tape + firm DXY; 'triggered by crisis but does not reverse on de-escalation' = STRUCTURAL ANALYSIS (sticky inflation + hot labour market are domestic). TAG DISCIPLINE: hike priced/odds, NOT executed (2Y below funds-range top). RBI hold 5.25% = CONFIRMED. No trigger to active ('Fed signals rate HIKE' requires an actual Fed signal, not a market repricing)."
-    },
-    {
-      "date": "2026-06-06",
-      "headline": "**HOT MAY JOBS KILLED FED-CUT HOPES AND PRICED A QUARTER-POINT HIKE BY YEAR-END (CME FEDWATCH) — DATA-BACKED THIS TIME, AND THE RATES LEG OF A BROAD RISK-OFF.** May NFP +172K vs ~85K expected, U-rate 4.3%, AHE +0.3% m/m / +3.4% YoY, Mar/Apr revised +93K — a decisively hot read. Unlike the 3/4-June 'hike' framing (downgraded because the 2Y did not corroborate it), this is a genuine BLS datum that materially repriced the path: CME FedWatch moved to a quarter-point HIKE by year-end, 10Y 4.54% (highest since 21 May), DXY +0.7% to 100.07. A DOMESTIC MACRO datum — does NOT reverse on crisis resolution. Transmission: hot jobs -> no cuts -> 10Y 4.54% -> duration-tech multiple compression, the rates co-driver (with Broadcom's AI miss) of the 5-June rout (S&P -2.6%, NASDAQ -4.2%, SOX largest 1D plunge since March 2020). THE TELL: gold FELL 3.1% and oil FELL 2% as 10Y/DXY rose and VIX spiked ~40% — a rates/AI de-risking, not a war risk-off. RBI mirrored: HELD repo 5.25% (3rd straight hold, neutral, hike-bias).",
-      "sources": [
-        "BLS May jobs report (+172K vs ~85K exp, U-rate 4.3%, AHE +0.3% m/m / +3.4% YoY, Mar/Apr revised +93K)",
-        "Markets dossier 2026-06-06 (CME FedWatch quarter-point hike by year-end; 10Y 4.54%, DXY 100.07 +0.7%; rates -> duration-tech channel into AI rout)",
-        "Intel 2026-06-06 (RBI held repo 5.25%, neutral, hike-bias); cross-asset tell gold -3.1% / oil -2% as VIX +~40%"
-      ],
-      "verification": "May jobs +172K / U-rate 4.3% / AHE +3.4% YoY / +93K revisions = CONFIRMED (BLS print); 10Y 4.54% / DXY 100.07 = CONFIRMED (market data); quarter-point-hike-by-year-end = REPORTED (CME FedWatch market-implied) and now DATA-BACKED by the BLS print (distinct from the 3/4-June framing that the fact-check downgraded), though the 2Y at 3.62% still sits below the funds-range top — encode as 'hike priced/odds, higher-for-longer hardened,' not 'hike confirmed'; RBI hold 5.25% = CONFIRMED; rates/AI-de-risking-not-war attribution = STRUCTURAL ANALYSIS anchored to confirmed gold -3.1% + oil -2% as 10Y/DXY rose. No trigger to active (the 'Fed signals rate HIKE' trigger requires an actual Fed signal/action, not a market-implied repricing on a data print)."
-    },
-    {
-      "date": "2026-06-04",
-      "headline": "**THE RATE-PATH REGIME HELD — METALS STABILISED AS OIL EASED; 2Y HELD 3.62%. TAG DISCIPLINE ON THE 'HIKE' FRAMING.** The 4-June market dossier cites 'Fed expected to HIKE >=25bps by year-end (CME FedWatch)' — the SAME framing the 3-June fact-check downgraded; the 2Y holding flat at 3.62% (below the funds-range top) is consistent with cuts-priced-out / higher-for-longer, NOT a priced hike. Encoded as higher-for-longer, NOT 'hike confirmed.' The read confirmed in mirror image: Brent down ~1% -> less inflation impulse -> metals STOPPED falling (gold a non-mover at -0.2%), confirming gold trades the real-yield/Fed channel not the crisis. May NFP (Fri 5 Jun) expected light ~85K. India's RBI mirrored: held 5.25% (neutral, hike-bias). The PPI/Warsh regime is structural, not reversible on a Hormuz deal.",
-      "sources": [
-        "Markets dossier 2026-06-04 C6/D3 ('Fed expected to hike >=25bps by year-end, CME FedWatch'; rates backdrop suppressing gold); fed node 3-June fact-check (2Y 3.62%, CME ~65% hold)",
-        "Intel 2026-06-04 A6 (RBI held 5.25%, hike-bias)"
-      ],
-      "verification": "Metals-stabilised-as-oil-eased = CONFIRMED (market data). The 'Fed hike by year-end' framing = REPORTED (markets dossier citing CME FedWatch) but NOT elevated to CONFIRMED — it is the same claim the 3-June fact-check downgraded, and the 2Y at 3.62% does not corroborate a priced hike. Encoded as higher-for-longer/cuts-pushed-out. RBI hold 5.25% = CONFIRMED. No trigger to active."
-    },
-    {
-      "date": "2026-05-30",
-      "headline": "**SOFTER APRIL MONTHLY PCE (+0.4% vs +0.5% EXP) DROVE THE GOLD REBOUND AND EQUITY RECORDS — BUT CUTS STILL PRICED OUT.** April PCE headline 3.8% YoY (3-yr high), core 3.3% in-line, monthly +0.4% below the +0.5% expected. The softer monthly read dialed back rate-HIKE bets (lifting gold) and lifted equities; Fed cuts remain fully priced out (PPI/Warsh inflation regime, structural through Q3). Does not reverse on a Hormuz deal.",
-      "sources": [
-        "TheStreet 28 May (S&P/Nasdaq records despite highest PCE in ~3yr); markets dossier D1, C4",
-        "Intel/Market dossier 2026-05-30 (April PCE released 28 May)"
-      ],
-      "verification": "April PCE 3.8% YoY headline / 3.3% core / +0.4% monthly (vs +0.5% exp) = CONFIRMED (data); cuts priced out = market-implied; structural-through-Q3 regime = analyst assessment. No weight elevation beyond the data linkage."
-    },
-    {
-      "date": "2026-05-28",
-      "headline": "**A4 APRIL PCE DEFLATOR RELEASED TODAY (MAY 28) — HEADLINE PCE 3.8% (HIGHEST SINCE MAY 2023); CORE PCE 3.3% (AS EXPECTED, STRONGEST SINCE OCT). FED CUTS NOW FULLY PRICED OUT; MARKET BEGINNING TO PRICE HIKES.** (1) **The print and its caveat**: the Fed's preferred inflation gauge confirmed the stagflation regime — headline 3.8% is a fresh ~3-year high; core 3.3% printed IN-LINE with expectations, so the rates reaction was MUTED (10Y -0.7% 1D to 4.45%) rather than a fresh spike. The signal is not the daily move; it is that the easing path is closed indefinitely and the asymmetry has bent toward a HIKE — cuts are fully priced out. (2) **The transmission to gold (the day's cleanest channel)**: oil↑→inflation↑→real-yields↑ kept real yields elevated, which pinned GOLD to a 2-month low BELOW $4,400 even on a day with a live US-Iran ballistic-missile exchange (IRGC fired one calibrated missile at a US base in Kuwait, intercepted, zero casualty). Zero-yield gold lost the opportunity-cost contest decisively — the crisis bid the dollar, not gold. (3) **Institutional frame**: Fed held at 3.5-3.75% for a 3rd consecutive meeting under new Chair Kevin Warsh on a historic-dissent vote (first multi-dissent of this magnitude since 1992) — operative context, with the April PCE print as today's NEW input. **Reversibility ASYMMETRIC**: the energy contribution reverses on an oil retrace; core is sticky and structural through Q3 2026.",
-      "sources": [
-        "BEA/BLS PCE release April 2026 (primary, May 28 — headline 3.8% highest since May 2023; core 3.3% as expected, strongest since Oct)",
-        "Markets dossier 2026-05-28 A4 / Section A (10Y -0.7% 1D to 4.45% — muted on in-line core; cuts fully priced out, hikes being priced)",
-        "Markets dossier 2026-05-28 (oil→inflation→real-yield channel pinned gold below $4,400 to a 2-month low on a missile-exchange day)"
-      ],
-      "verification": "April PCE headline 3.8% / core 3.3% = CONFIRMED (BEA primary release May 28); core in-line with expectations = CONFIRMED; cuts-fully-priced-out / hikes-being-priced = CONFIRMED market pricing; real-yield channel pinning gold below $4,400 = STRUCTURAL ANALYSIS supported by confirmed gold-tape; 3rd-meeting hold under Warsh / 1992-dissent frame = CONFIRMED (carry-forward operative context)."
-    },
-    {
-      "date": "2026-05-13",
-      "headline": "A2 APRIL CPI 3.8% YoY (BLS MAY 12) = THREE-YEAR HIGH (highest since May 2023); +0.6% MoM matching expectations; CORE +2.8% YoY / +0.4% MoM (highest monthly print since Jan 2025); ENERGY contributed >40% of headline gain (+3.8% MoM, +17.9% YoY); GASOLINE +28.4% YoY; SHELTER +0.6%. BLS itself flagged inflation 'a problem beyond Iran war impacts.' First cycle inflation print to fully reflect oil pass-through. US 10Y bid at 4.46% (+5bps); real-yield channel tightens; gold +0.8% only on 3-year-high CPI (real-yield channel competing with safe-haven bid); URA -5.0% (positioning unwind). S&P 500 -0.29% May 12 to 7,392 (off May 11 record). Fed cannot cut while Brent >$100 — 90%-confidence trigger ('Brent sustained >$100 for 4+ weeks') activated April 22 now fully visible in macro data. Fed-rate-cut-driven US equity rally thesis OUT for 2026 unless either Brent breaks $95 sustained OR core inflation reverses <2.5% — neither imminent. Fed-speak embargo through May 15.",
-      "sources": [
-        "BLS CPI release April 2026 (primary)",
-        "CNBC inflation breakdown",
-        "CNN Business 'US inflation rose to 3.8% in April'",
-        "Kiplinger / Stocktwits CPI analysis",
-        "yfinance / barchart.com (US 10Y 4.46%, S&P -0.29%)"
-      ],
-      "verification": "CPI 3.8% YoY = CONFIRMED (BLS primary statistic, multi-source); core +2.8% / +0.4% MoM = CONFIRMED (BLS primary); energy contribution >40% of headline gain = CONFIRMED (BLS data); US 10Y +5bps = CONFIRMED tape (yfinance)."
-    },
-    {
-      "date": "2026-05-03",
-      "headline": "CME FEDWATCH JUNE CUT 28% / HOLD 70%; POLYMARKET 56.4% PROBABILITY ZERO 2026 CUTS",
-      "sources": [
-        "CME FedWatch",
-        "Polymarket"
-      ],
-      "verification": "CONFIRMED"
-    },
-    {
-      "date": "2026-04-30",
-      "headline": "FOMC HELD 3.5-3.75% WITH FOUR-WAY DISSENT (MOST SPLINTERED SINCE OCT 1992); POWELL: 'IT HASN'T EVEN PEAKED YET' ON ENERG",
-      "sources": [
-        "CNBC",
-        "Fox Business"
-      ],
-      "verification": "CONFIRMED FOMC voting structure (6+ wires) + CONFI"
-    },
-    {
-      "date": "2026-04-28",
-      "headline": "BRANCH 3 THESIS FALSIFIED → FOMC FORWARD-GUIDANCE LANGUAGE FACES HIGHER ENERGY-PASS-THROUGH RISK",
-      "sources": [
-        "TradingEconomics",
-        "CNBC"
-      ],
-      "verification": "CONFIRMED Brent correction + REPORTED FOMC text-ri"
-    },
-    {
-      "date": "2026-04-27",
-      "headline": "BRANCH 3 RESOLUTION → FOMC APRIL 28-29 DOVISH-LEANING HOLD MOST PROBABLE",
-      "sources": [
-        "Senior Market dossier",
-        "Polymarket"
-      ],
-      "verification": "REPORTED — Branch 3 mechanism inferred; FOMC April"
-    }
-  ],
-  "historical_summaries": [
-    {
-      "period": "2026-03",
-      "summary": "4 signals. FOMC voted 11-1 to hold rates at 3 | Market removed basically every rate cut for 2026, now pricing odds of a HIKE | Fed remains trapped -- 10Y at 4",
-      "signal_count": 4,
-      "auto": true
-    },
-    {
-      "period": "2026-04",
-      "summary": "19 signals. Eurozone inflation surged to 2 | Fed trapped in stagflation -- ISM Prices Index at 78 | DXY fell to 99",
-      "signal_count": 19,
-      "auto": true
-    }
-  ]
+  {
+   "to": "sp-500",
+   "type": "discount_rate",
+   "weight": 10,
+   "directness": 1,
+   "last_activated": "2026-06-06",
+   "activation_count": 19,
+   "context": "2026-06-06: the hot-jobs rate repricing compressed equity multiples — the rates co-driver (with the Broadcom AI crack) of the 5-June risk-off (S&P -2.6%, NASDAQ -4.2%). Weight stays 10 (formula caps; already at ceiling)."
+  },
+  {
+   "to": "semiconductors",
+   "type": "rate_path_duration_tech_compression_hot_jobs_no_cuts_into_ai_rout",
+   "weight": 5.0,
+   "directness": 2,
+   "last_activated": "2026-06-06",
+   "activation_count": 1,
+   "context": "2026-06-06 (markets E1): ADDED. The hot May jobs print -> no cuts / hike priced -> higher 10Y compressed long-duration tech multiples directly into the Broadcom-led AI rout (SOX largest 1D plunge since March 2020). STRENGTHEN per the edge proposal; first explicit activation (act 1). Initial weight 5.0 for a 2nd-order systemic channel that genuinely fired (directness 1.5; not inflated on one session)."
+  },
+  {
+   "to": "brent-crude",
+   "type": "inflation_input_cpi_3_8_pass_through",
+   "weight": 10,
+   "directness": 1,
+   "last_activated": "2026-05-13",
+   "activation_count": 6
+  },
+  {
+   "to": "gold",
+   "type": "real_yield_channel_jun10_dec_hike_repricing_70pct_real_yields_dxy_up_gold_fell_2.1pct_during_three_country_strike",
+   "weight": 10.0,
+   "directness": 1,
+   "last_activated": "2026-06-10",
+   "activation_count": 16,
+   "context": "2026-06-10: the Fed-hike repricing (Dec hike ~70% from ~45%) lifted real yields + DXY (~99.9), repricing zero-yield gold DOWN 2.1% to a ~23-March low DURING a three-country missile strike on US installations — the channel by which the Iran shock is gold-NEGATIVE (shock->oil->inflation->yields/dollar->gold down). Weight stays 10 (formula caps; at ceiling)."
+  },
+  {
+   "to": "brent-crude",
+   "type": "inflation_input",
+   "weight": 10,
+   "directness": 1,
+   "last_activated": "2026-04-27",
+   "activation_count": 15
+  },
+  {
+   "to": "united-states",
+   "type": "monetary_authority",
+   "weight": 10.0,
+   "directness": 1,
+   "last_activated": "2026-04-14",
+   "activation_count": 9
+  }
+ ],
+ "recent_signals": [
+  {
+   "date": "2026-06-18",
+   "headline": "FOMC (17 Jun) held at 3.5-3.75% and SIGNALLED A HIKE this year -- the dot-plot flipped from a projected cut to a +0.25% hike, citing 3-year-high inflation (partly the wartime energy spike). New chair Kevin Warsh's first meeting; hawkish. The oil collapse did NOT buy a dovish pivot. Market reaction: S&P -1.2%, NASDAQ -1.3%, VIX +12.4% to 18.44, DXY +0.8% to >100, US 2Y +0.8%. This is the dominant NON-crisis driver -- it does not reverse on Friday's signing. CONFIRMED (official)."
+  },
+  {
+   "date": "2026-06-17",
+   "headline": "FOMC two-day meeting began 16 Jun; rate decision + guidance due TODAY 17 Jun. The catalyst capping the de-escalation rally: a dovish tilt (acknowledging oil's ~20% collapse easing inflation) compounds the equity tailwind; a hawkish hold keeps the US rates channel sticky (10Y 4.43%). Markets consolidated into it. PREPARATION (scheduled)."
+  },
+  {
+   "date": "2026-06-12",
+   "headline": "THE DEAL DOESN'T FIX THE FED. Oil fell 4% on de-escalation but the December-hike repricing held (10Y 4.49% flat) -- May CPI 4.2% does not un-print, energy base effects take 2+ quarters to flush. The crisis transmits to US assets via the sticky CPI/rates channel, so a Hormuz deal helps oil-IMPORTERS (India) far more than US assets. A SUSTAINED oil-down (if the deal holds) would, over quarters, ease the energy-CPI impulse -- but not on a headline.",
+   "sources": [
+    "market-data.py",
+    "markets.md C6/D"
+   ],
+   "verification": "CONFIRMED"
+  },
+  {
+   "date": "2026-06-11",
+   "headline": "MAY CPI 4.2% YoY (0.5% m/m) -- 3-YEAR HIGH, highest since Apr 2023. Energy +23.5% YoY = ~60% of the monthly increase (the oil->CPI->Fed chain is now the PRIMARY crisis-transmission channel into US assets); core 2.9% with its own momentum. Fed-cut hopes dead; ~98% hold priced for 17 Jun, but the market now prices a December HIKE as live base-risk (odds disputed across sources: CME FedWatch, Yahoo ~30% rising, Polymarket >50%). This print does NOT un-print on Gulf de-escalation -- energy base effects take 2+ quarters to flush.",
+   "sources": [
+    "BLS (via TechTimes/Yahoo)",
+    "CME FedWatch",
+    "CBS/CNBC",
+    "Polymarket"
+   ],
+   "verification": "CONFIRMED (published data)"
+  },
+  {
+   "date": "2026-06-10",
+   "headline": "**THE DECEMBER FED-HIKE ODDS JUMPED TO ~70% (FROM ~45% A WEEK AGO) — THE ENGINE UNDER THE METALS COLLAPSE, THE FIRM DOLLAR, AND THE 4.52% 10Y, AND THE REASON THE WAR-RISK COMPLEX DID NOT BID.** Oil-fed inflation + a hot May jobs print pushed market-implied December Fed-HIKE odds to ~70%, lifting DXY (~99.9) and pinning the 10Y at 4.52% — which crushed the precious-metals complex (gold -2.1% to a ~23-March low, silver -24.7% 1M) and is the proximate reason zero-yield gold could not bid a three-country missile strike on US installations (an INFLATION/real-yields event, not risk-off). CRITICAL FOR DEPLOYMENT TIMING: this repricing is TRIGGERED by the crisis (oil -> inflation) but would NOT fully reverse on Gulf de-escalation — sticky inflation + a hot labour market persist INDEPENDENTLY of the war; the war is paradoxically gold-negative / dollar-positive via the Fed channel. TAG DISCIPLINE: a hike is PRICED/odds (~70%, now data-backed by the May jobs print), NOT EXECUTED; the 2Y at 3.63% sits below the funds-range top — encode 'hike odds ~70% / higher-for-longer hardened,' not 'hike confirmed.' RBI mirrored: HELD repo 5.25% (3rd straight hold, neutral, hike-bias). 'Fed signals rate HIKE' trigger stays watching (the ~70% odds advance toward it but a market repricing does not fire it).",
+   "sources": [
+    "Market-implied December Fed-HIKE odds ~70% (from ~45% a week ago), on hot May jobs + oil-fed inflation (CME FedWatch / market-implied)",
+    "Market data 2026-06-09/10 (10Y 4.52%, 2Y 3.63%, DXY 99.91; gold -2.1% to ~23-March low, silver -24.7% 1M)",
+    "Intel 2026-06-10 (RBI held repo 5.25%, neutral, hike-bias); war-risk complex (gold, Brent, VIX) did not bid the maximum kinetic escalation"
+   ],
+   "verification": "December Fed-HIKE odds ~70% from ~45% = REPORTED (market-implied / CME FedWatch), now data-backed by the confirmed May jobs print; 10Y 4.52% / 2Y 3.63% / DXY 99.91 = CONFIRMED market data; 'engine under the metals collapse + non-bid' = STRUCTURAL ANALYSIS anchored to the confirmed gold/silver tape + firm DXY; 'triggered by crisis but does not reverse on de-escalation' = STRUCTURAL ANALYSIS (sticky inflation + hot labour market are domestic). TAG DISCIPLINE: hike priced/odds, NOT executed (2Y below funds-range top). RBI hold 5.25% = CONFIRMED. No trigger to active ('Fed signals rate HIKE' requires an actual Fed signal, not a market repricing)."
+  },
+  {
+   "date": "2026-06-06",
+   "headline": "**HOT MAY JOBS KILLED FED-CUT HOPES AND PRICED A QUARTER-POINT HIKE BY YEAR-END (CME FEDWATCH) — DATA-BACKED THIS TIME, AND THE RATES LEG OF A BROAD RISK-OFF.** May NFP +172K vs ~85K expected, U-rate 4.3%, AHE +0.3% m/m / +3.4% YoY, Mar/Apr revised +93K — a decisively hot read. Unlike the 3/4-June 'hike' framing (downgraded because the 2Y did not corroborate it), this is a genuine BLS datum that materially repriced the path: CME FedWatch moved to a quarter-point HIKE by year-end, 10Y 4.54% (highest since 21 May), DXY +0.7% to 100.07. A DOMESTIC MACRO datum — does NOT reverse on crisis resolution. Transmission: hot jobs -> no cuts -> 10Y 4.54% -> duration-tech multiple compression, the rates co-driver (with Broadcom's AI miss) of the 5-June rout (S&P -2.6%, NASDAQ -4.2%, SOX largest 1D plunge since March 2020). THE TELL: gold FELL 3.1% and oil FELL 2% as 10Y/DXY rose and VIX spiked ~40% — a rates/AI de-risking, not a war risk-off. RBI mirrored: HELD repo 5.25% (3rd straight hold, neutral, hike-bias).",
+   "sources": [
+    "BLS May jobs report (+172K vs ~85K exp, U-rate 4.3%, AHE +0.3% m/m / +3.4% YoY, Mar/Apr revised +93K)",
+    "Markets dossier 2026-06-06 (CME FedWatch quarter-point hike by year-end; 10Y 4.54%, DXY 100.07 +0.7%; rates -> duration-tech channel into AI rout)",
+    "Intel 2026-06-06 (RBI held repo 5.25%, neutral, hike-bias); cross-asset tell gold -3.1% / oil -2% as VIX +~40%"
+   ],
+   "verification": "May jobs +172K / U-rate 4.3% / AHE +3.4% YoY / +93K revisions = CONFIRMED (BLS print); 10Y 4.54% / DXY 100.07 = CONFIRMED (market data); quarter-point-hike-by-year-end = REPORTED (CME FedWatch market-implied) and now DATA-BACKED by the BLS print (distinct from the 3/4-June framing that the fact-check downgraded), though the 2Y at 3.62% still sits below the funds-range top — encode as 'hike priced/odds, higher-for-longer hardened,' not 'hike confirmed'; RBI hold 5.25% = CONFIRMED; rates/AI-de-risking-not-war attribution = STRUCTURAL ANALYSIS anchored to confirmed gold -3.1% + oil -2% as 10Y/DXY rose. No trigger to active (the 'Fed signals rate HIKE' trigger requires an actual Fed signal/action, not a market-implied repricing on a data print)."
+  },
+  {
+   "date": "2026-06-04",
+   "headline": "**THE RATE-PATH REGIME HELD — METALS STABILISED AS OIL EASED; 2Y HELD 3.62%. TAG DISCIPLINE ON THE 'HIKE' FRAMING.** The 4-June market dossier cites 'Fed expected to HIKE >=25bps by year-end (CME FedWatch)' — the SAME framing the 3-June fact-check downgraded; the 2Y holding flat at 3.62% (below the funds-range top) is consistent with cuts-priced-out / higher-for-longer, NOT a priced hike. Encoded as higher-for-longer, NOT 'hike confirmed.' The read confirmed in mirror image: Brent down ~1% -> less inflation impulse -> metals STOPPED falling (gold a non-mover at -0.2%), confirming gold trades the real-yield/Fed channel not the crisis. May NFP (Fri 5 Jun) expected light ~85K. India's RBI mirrored: held 5.25% (neutral, hike-bias). The PPI/Warsh regime is structural, not reversible on a Hormuz deal.",
+   "sources": [
+    "Markets dossier 2026-06-04 C6/D3 ('Fed expected to hike >=25bps by year-end, CME FedWatch'; rates backdrop suppressing gold); fed node 3-June fact-check (2Y 3.62%, CME ~65% hold)",
+    "Intel 2026-06-04 A6 (RBI held 5.25%, hike-bias)"
+   ],
+   "verification": "Metals-stabilised-as-oil-eased = CONFIRMED (market data). The 'Fed hike by year-end' framing = REPORTED (markets dossier citing CME FedWatch) but NOT elevated to CONFIRMED — it is the same claim the 3-June fact-check downgraded, and the 2Y at 3.62% does not corroborate a priced hike. Encoded as higher-for-longer/cuts-pushed-out. RBI hold 5.25% = CONFIRMED. No trigger to active."
+  },
+  {
+   "date": "2026-05-30",
+   "headline": "**SOFTER APRIL MONTHLY PCE (+0.4% vs +0.5% EXP) DROVE THE GOLD REBOUND AND EQUITY RECORDS — BUT CUTS STILL PRICED OUT.** April PCE headline 3.8% YoY (3-yr high), core 3.3% in-line, monthly +0.4% below the +0.5% expected. The softer monthly read dialed back rate-HIKE bets (lifting gold) and lifted equities; Fed cuts remain fully priced out (PPI/Warsh inflation regime, structural through Q3). Does not reverse on a Hormuz deal.",
+   "sources": [
+    "TheStreet 28 May (S&P/Nasdaq records despite highest PCE in ~3yr); markets dossier D1, C4",
+    "Intel/Market dossier 2026-05-30 (April PCE released 28 May)"
+   ],
+   "verification": "April PCE 3.8% YoY headline / 3.3% core / +0.4% monthly (vs +0.5% exp) = CONFIRMED (data); cuts priced out = market-implied; structural-through-Q3 regime = analyst assessment. No weight elevation beyond the data linkage."
+  },
+  {
+   "date": "2026-05-28",
+   "headline": "**A4 APRIL PCE DEFLATOR RELEASED TODAY (MAY 28) — HEADLINE PCE 3.8% (HIGHEST SINCE MAY 2023); CORE PCE 3.3% (AS EXPECTED, STRONGEST SINCE OCT). FED CUTS NOW FULLY PRICED OUT; MARKET BEGINNING TO PRICE HIKES.** (1) **The print and its caveat**: the Fed's preferred inflation gauge confirmed the stagflation regime — headline 3.8% is a fresh ~3-year high; core 3.3% printed IN-LINE with expectations, so the rates reaction was MUTED (10Y -0.7% 1D to 4.45%) rather than a fresh spike. The signal is not the daily move; it is that the easing path is closed indefinitely and the asymmetry has bent toward a HIKE — cuts are fully priced out. (2) **The transmission to gold (the day's cleanest channel)**: oil↑→inflation↑→real-yields↑ kept real yields elevated, which pinned GOLD to a 2-month low BELOW $4,400 even on a day with a live US-Iran ballistic-missile exchange (IRGC fired one calibrated missile at a US base in Kuwait, intercepted, zero casualty). Zero-yield gold lost the opportunity-cost contest decisively — the crisis bid the dollar, not gold. (3) **Institutional frame**: Fed held at 3.5-3.75% for a 3rd consecutive meeting under new Chair Kevin Warsh on a historic-dissent vote (first multi-dissent of this magnitude since 1992) — operative context, with the April PCE print as today's NEW input. **Reversibility ASYMMETRIC**: the energy contribution reverses on an oil retrace; core is sticky and structural through Q3 2026.",
+   "sources": [
+    "BEA/BLS PCE release April 2026 (primary, May 28 — headline 3.8% highest since May 2023; core 3.3% as expected, strongest since Oct)",
+    "Markets dossier 2026-05-28 A4 / Section A (10Y -0.7% 1D to 4.45% — muted on in-line core; cuts fully priced out, hikes being priced)",
+    "Markets dossier 2026-05-28 (oil→inflation→real-yield channel pinned gold below $4,400 to a 2-month low on a missile-exchange day)"
+   ],
+   "verification": "April PCE headline 3.8% / core 3.3% = CONFIRMED (BEA primary release May 28); core in-line with expectations = CONFIRMED; cuts-fully-priced-out / hikes-being-priced = CONFIRMED market pricing; real-yield channel pinning gold below $4,400 = STRUCTURAL ANALYSIS supported by confirmed gold-tape; 3rd-meeting hold under Warsh / 1992-dissent frame = CONFIRMED (carry-forward operative context)."
+  },
+  {
+   "date": "2026-05-13",
+   "headline": "A2 APRIL CPI 3.8% YoY (BLS MAY 12) = THREE-YEAR HIGH (highest since May 2023); +0.6% MoM matching expectations; CORE +2.8% YoY / +0.4% MoM (highest monthly print since Jan 2025); ENERGY contributed >40% of headline gain (+3.8% MoM, +17.9% YoY); GASOLINE +28.4% YoY; SHELTER +0.6%. BLS itself flagged inflation 'a problem beyond Iran war impacts.' First cycle inflation print to fully reflect oil pass-through. US 10Y bid at 4.46% (+5bps); real-yield channel tightens; gold +0.8% only on 3-year-high CPI (real-yield channel competing with safe-haven bid); URA -5.0% (positioning unwind). S&P 500 -0.29% May 12 to 7,392 (off May 11 record). Fed cannot cut while Brent >$100 — 90%-confidence trigger ('Brent sustained >$100 for 4+ weeks') activated April 22 now fully visible in macro data. Fed-rate-cut-driven US equity rally thesis OUT for 2026 unless either Brent breaks $95 sustained OR core inflation reverses <2.5% — neither imminent. Fed-speak embargo through May 15.",
+   "sources": [
+    "BLS CPI release April 2026 (primary)",
+    "CNBC inflation breakdown",
+    "CNN Business 'US inflation rose to 3.8% in April'",
+    "Kiplinger / Stocktwits CPI analysis",
+    "yfinance / barchart.com (US 10Y 4.46%, S&P -0.29%)"
+   ],
+   "verification": "CPI 3.8% YoY = CONFIRMED (BLS primary statistic, multi-source); core +2.8% / +0.4% MoM = CONFIRMED (BLS primary); energy contribution >40% of headline gain = CONFIRMED (BLS data); US 10Y +5bps = CONFIRMED tape (yfinance)."
+  },
+  {
+   "date": "2026-05-03",
+   "headline": "CME FEDWATCH JUNE CUT 28% / HOLD 70%; POLYMARKET 56.4% PROBABILITY ZERO 2026 CUTS",
+   "sources": [
+    "CME FedWatch",
+    "Polymarket"
+   ],
+   "verification": "CONFIRMED"
+  },
+  {
+   "date": "2026-04-30",
+   "headline": "FOMC HELD 3.5-3.75% WITH FOUR-WAY DISSENT (MOST SPLINTERED SINCE OCT 1992); POWELL: 'IT HASN'T EVEN PEAKED YET' ON ENERG",
+   "sources": [
+    "CNBC",
+    "Fox Business"
+   ],
+   "verification": "CONFIRMED FOMC voting structure (6+ wires) + CONFI"
+  },
+  {
+   "date": "2026-04-28",
+   "headline": "BRANCH 3 THESIS FALSIFIED → FOMC FORWARD-GUIDANCE LANGUAGE FACES HIGHER ENERGY-PASS-THROUGH RISK",
+   "sources": [
+    "TradingEconomics",
+    "CNBC"
+   ],
+   "verification": "CONFIRMED Brent correction + REPORTED FOMC text-ri"
+  },
+  {
+   "date": "2026-04-27",
+   "headline": "BRANCH 3 RESOLUTION → FOMC APRIL 28-29 DOVISH-LEANING HOLD MOST PROBABLE",
+   "sources": [
+    "Senior Market dossier",
+    "Polymarket"
+   ],
+   "verification": "REPORTED — Branch 3 mechanism inferred; FOMC April"
+  },
+  {
+   "date": "2026-07-02",
+   "headline": "WARSH-FED PIVOT SIGNAL: WEAK JUNE NFP KILLED THE HIKE-REPRICING (Sept <50% from ~65%); WARSH AT SINTRA — INFLATION EXPECTATIONS EASED, 'NO URGENCY TO RAISE RATES'; OIL AT PRE-WAR IS DOING THE FED'S DISINFLATION JOB (ISM prices-paid 73.0 from 82.1); JULY 28-29 FOMC EXPECTED ON HOLD",
+   "sources": [
+    "CNBC",
+    "Sintra remarks via sweep",
+    "Advisor Perspectives"
+   ],
+   "verification": "CONFIRMED data; REPORTED (odds pricing)"
+  }
+ ],
+ "historical_summaries": [
+  {
+   "period": "2026-03",
+   "summary": "4 signals. FOMC voted 11-1 to hold rates at 3 | Market removed basically every rate cut for 2026, now pricing odds of a HIKE | Fed remains trapped -- 10Y at 4",
+   "signal_count": 4,
+   "auto": true
+  },
+  {
+   "period": "2026-04",
+   "summary": "19 signals. Eurozone inflation surged to 2 | Fed trapped in stagflation -- ISM Prices Index at 78 | DXY fell to 99",
+   "signal_count": 19,
+   "auto": true
+  }
+ ]
 }

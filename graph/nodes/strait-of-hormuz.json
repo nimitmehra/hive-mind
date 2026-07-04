@@ -1,701 +1,740 @@
 {
-  "id": "strait-of-hormuz",
-  "name": "Strait of Hormuz",
-  "type": "trade_route",
-  "created": "2026-03-23",
-  "last_updated": "2026-06-27",
-  "summary": "Day 105 / 2026-06-12. **THE STRAIT BECAME THE CENTRAL BARGAINING CHIP — A DEAL WOULD REOPEN IT IN ~30 DAYS, BUT IRAN INTENDS TO KEEP 'CONTROL' AND THE BLOCKADE STAYS UNTIL SIGNING.** Reported deal terms have Hormuz reopening to pre-war volumes within 30 days and the US lifting its naval blockade. Two caveats define the trade: (1) Araghchi says Iran will 'maintain control' of the Strait even under a deal — reopening restores FLOW but not necessarily the pre-war freedom-of-navigation regime, so the structural floor under oil may be higher than a clean reopening implies; (2) Trump says the blockade stays 'in full force until finalized,' so the ~5%-of-normal-flow paralysis and the lethal enforcement campaign continue until a signature. The market priced the reopening hope hard: Brent -4.1% to $86.71 (WTI below $85), the war premium finally deflating DOWN on de-escalation after refusing to bid UP through the kinetic escalation. Physical (VLCC rates, war-risk cover ~7-10% of hull) has NOT unwound — paper-oil drops on hope, physical waits for the signature. Tanker equities (Frontline +9.8%) priced reopening as VOLUME-bullish (idled-fleet re-employment).",
-  "current": {
-    "status": "ESCALATION (2026-06-27): Iranian drone struck a Singapore-flagged cargo ship in Hormuz (25-26 Jun) -> US retaliatory strike on Iran (27 Jun, CENTCOM, 6 aircraft/4 coastal targets). The IRGC turn-back enforcement escalated into a strike cycle. Reopening now at acute risk; Iran's response pending. Markets closed."
+ "id": "strait-of-hormuz",
+ "name": "Strait of Hormuz",
+ "type": "trade_route",
+ "created": "2026-03-23",
+ "last_updated": "2026-07-04",
+ "summary": "Day 127 / 2026-07-04. **RECOVERING FAST, ON IRAN'S TERMS — TRANSIT COUNTS UP 2-3x (43 ON 1 JUL vs ~12 PRIOR WEEK) BUT THE FLOW-QUALITY PICTURE IS CONTESTED, AND THE FIGHT HAS MOVED FROM KINETICS TO ROUTES AND TOLLS.** Counts (Windward-family): 1 Jul 43 transits (24 in/19 out; 12/24 inbound tankers; 4 dark) = ~28-50% of the 84-95/day norm; a CBS/official claim says 258 transits last week vs 138 prior. CONFLICTING flow data: The National reports crude flows >10 mb/d (Saudi ~90% pre-war, UAE 3.9 mb/d incl. Habshan-Fujairah bypass) vs trackers showing crude 7dMA near zero, zero AIS-visible LNG since the MoU, ~820 vessels still stranded, 'effectively closed' — DO NOT encode a flow recovery as CONFIRMED. The friction is now a ROUTE DISPUTE: JMIC announced a widened Oman-side route 27 Jun; IRGC insists only Iran-designated routes are authorized (vessels must contact IRGC Navy); Iran military HQ 2 Jul threatened 'decisive and swift response' to US interference — RHETORIC so far: NO confirmed turn-back/seizure/attack since the 27-Jun Kiku strike. Iran's TRANSIT-TOLL demand is now a formal negotiation file (Oman proposal ~30 Jun: navigation-safety regime with 'service fees' — Oman says voluntary, Iran says mandatory, US lobbying against). Escorts reportedly suspended post-containership attack. War-risk 3-8% hull (Marsh 28 Jun — did NOT soften; underwriters want 2-4 weeks of calm). VLCC Hormuz-transit fixtures ~$470k/day (war premium embedded in freight, not insurance relief).",
+ "current": {
+  "status": "Open-on-Iran's-terms: counts recovering (43/day 1 Jul), flows contested, route dispute live (JMIC Oman-side route vs IRGC-designated routes), toll demand formalized via Oman proposal, no enforcement incident since 27-Jun Kiku strike. Stand-down clause: 'vessels can move freely.'"
+ },
+ "active_triggers": [
+  {
+   "condition": "Hormuz reopens to all traffic (even partially)",
+   "status": "active",
+   "cascade": [
+    "brent-crude",
+    "india",
+    "inr-usd",
+    "shipping-tankers",
+    "nifty-50"
+   ],
+   "added": "2026-03-23",
+   "note_2026-06-06": "STAYS WATCHING. No reopening on Day ~99 — transits still ~10/day vs ~95 normal. The 5-6 June overnight exchange (4 drones toward Hormuz, all intercepted; US Goruk/Qeshm strike) and Rezaei's sovereignty/Oman/toll rhetoric are NOT closure or reopening acts; throughput unchanged. No move.",
+   "note_2026-06-10": "STAYS WATCHING. No reopening — the Strait became the locus of a US-Iran kinetic exchange (Apache downed over Hormuz 8 Jun; US strikes on Iranian coastal air-defense near the Strait 9 Jun; Iran's 10-June Gulf strikes launched from the region). Traffic ~-95%; IEA 'largest supply disruption in history.' Structure unchanged.",
+   "note_2026-06-12": "STAYS WATCHING — but for the first time the vector points TOWARD reopening (deal terms: pre-war volumes within 30 days). NOT fired: unsigned, and Araghchi says Iran retains 'control' even post-deal, so a clean reopening is not assured. Fires only on operationally-confirmed restored transit.",
+   "note_2026-06-13": "STAYS WATCHING. A signed deal would reopen 'immediately without tolls' (~30 days to pre-war volumes) — but it is unsigned, Iran retains a 'service fee' role, and demining/restart delays actual normalization. Fires only on operationally-confirmed restored transit.",
+   "note_2026-06-16": "2026-06-16: Reopening AGREED on paper (within 30d) but NOT operational — strait still closed Day 107, zero transit surge. STAYS watching until actual transits resume.",
+   "note_2026-06-17": "2026-06-17: MOVED watching->active. The US naval blockade — the mechanism that closed Hormuz — is being removed by CONFIRMED order of two governments (Trump's authorisation + Iran's confirmation), and first transits are reported. 'Even partially' threshold met by the confirmed blockade removal. This is a confirmed de-escalation ACTION, not rhetoric.",
+   "note_2026-06-18": "2026-06-18: WALKED BACK active->watching. Yesterday's activation rested partly on a single-source transit report; independent AIS now shows traffic UNCHANGED (foreign-flag absent, ~95% below pre-war). The 48h reconfirm flagged in the 17 Jun verification FAILED. The blockade-removal ORDER stays confirmed, but 'reopens even partially' requires actual traffic, which is not occurring. Disciplined self-correction -- revert to watching until AIS shows foreign-flag transit resumption.",
+   "note_2026-06-19": "2026-06-19: RE-ACTIVATED watching->active. Distinct from the 18 Jun walk-back: this time ~13 foreign transits are AIS-CONFIRMED (Starboard), not a single-source claim, alongside the signed MoU and lifted blockade. 'Even partially' threshold met by operational data. Full normalisation still pending (95% below pre-war).",
+   "note_2026-06-20": "2026-06-20: STAYS active. ~7 ships through since the deal confirms the partial reopening continues; full-normalisation (>30/day) still pending.",
+   "note_2026-06-22": "2026-06-22: STAYS active. 55 ships transited — reopening accelerating. Iran's verbal closure does NOT reverse this (no enforcement; rhetoric-not-action discipline).",
+   "note_2026-06-23": "2026-06-23: STAYS active but FALTERING — transits fell to 12 (Sun); chilling effect via caution. Watch for re-closure if transits trend to zero. No enforced blockade (CENTCOM: traffic flows).",
+   "note_2026-06-26": "2026-06-26: STAYS active — 49 transits 24 Jun (wartime high), 43 on 25 Jun. Recovery real but now IRGC-policed.",
+   "note_2026-07-04": "2026-07-04: STAYS active (partial reopening real: counts 2-3x w/w) — but 'all traffic' is false while Iran designates routes, demands tolls, and LNG shows zero AIS-visible flow. Reopening is PARTIAL + CONDITIONAL."
   },
-  "active_triggers": [
-    {
-      "condition": "Hormuz reopens to all traffic (even partially)",
-      "status": "active",
-      "cascade": [
-        "brent-crude",
-        "india",
-        "inr-usd",
-        "shipping-tankers",
-        "nifty-50"
-      ],
-      "added": "2026-03-23",
-      "note_2026-06-06": "STAYS WATCHING. No reopening on Day ~99 — transits still ~10/day vs ~95 normal. The 5-6 June overnight exchange (4 drones toward Hormuz, all intercepted; US Goruk/Qeshm strike) and Rezaei's sovereignty/Oman/toll rhetoric are NOT closure or reopening acts; throughput unchanged. No move.",
-      "note_2026-06-10": "STAYS WATCHING. No reopening — the Strait became the locus of a US-Iran kinetic exchange (Apache downed over Hormuz 8 Jun; US strikes on Iranian coastal air-defense near the Strait 9 Jun; Iran's 10-June Gulf strikes launched from the region). Traffic ~-95%; IEA 'largest supply disruption in history.' Structure unchanged.",
-      "note_2026-06-12": "STAYS WATCHING — but for the first time the vector points TOWARD reopening (deal terms: pre-war volumes within 30 days). NOT fired: unsigned, and Araghchi says Iran retains 'control' even post-deal, so a clean reopening is not assured. Fires only on operationally-confirmed restored transit.",
-      "note_2026-06-13": "STAYS WATCHING. A signed deal would reopen 'immediately without tolls' (~30 days to pre-war volumes) — but it is unsigned, Iran retains a 'service fee' role, and demining/restart delays actual normalization. Fires only on operationally-confirmed restored transit.",
-      "note_2026-06-16": "2026-06-16: Reopening AGREED on paper (within 30d) but NOT operational — strait still closed Day 107, zero transit surge. STAYS watching until actual transits resume.",
-      "note_2026-06-17": "2026-06-17: MOVED watching->active. The US naval blockade — the mechanism that closed Hormuz — is being removed by CONFIRMED order of two governments (Trump's authorisation + Iran's confirmation), and first transits are reported. 'Even partially' threshold met by the confirmed blockade removal. This is a confirmed de-escalation ACTION, not rhetoric.",
-      "note_2026-06-18": "2026-06-18: WALKED BACK active->watching. Yesterday's activation rested partly on a single-source transit report; independent AIS now shows traffic UNCHANGED (foreign-flag absent, ~95% below pre-war). The 48h reconfirm flagged in the 17 Jun verification FAILED. The blockade-removal ORDER stays confirmed, but 'reopens even partially' requires actual traffic, which is not occurring. Disciplined self-correction -- revert to watching until AIS shows foreign-flag transit resumption.",
-      "note_2026-06-19": "2026-06-19: RE-ACTIVATED watching->active. Distinct from the 18 Jun walk-back: this time ~13 foreign transits are AIS-CONFIRMED (Starboard), not a single-source claim, alongside the signed MoU and lifted blockade. 'Even partially' threshold met by operational data. Full normalisation still pending (95% below pre-war).",
-      "note_2026-06-20": "2026-06-20: STAYS active. ~7 ships through since the deal confirms the partial reopening continues; full-normalisation (>30/day) still pending.",
-      "note_2026-06-22": "2026-06-22: STAYS active. 55 ships transited — reopening accelerating. Iran's verbal closure does NOT reverse this (no enforcement; rhetoric-not-action discipline).",
-      "note_2026-06-23": "2026-06-23: STAYS active but FALTERING — transits fell to 12 (Sun); chilling effect via caution. Watch for re-closure if transits trend to zero. No enforced blockade (CENTCOM: traffic flows).",
-      "note_2026-06-26": "2026-06-26: STAYS active — 49 transits 24 Jun (wartime high), 43 on 25 Jun. Recovery real but now IRGC-policed."
-    },
-    {
-      "condition": "US attempts naval escort or forced opening of Hormuz",
-      "status": "watching",
-      "cascade": [
-        "iran",
-        "brent-crude",
-        "united-states",
-        "shipping-tankers"
-      ],
-      "added": "2026-03-23"
-    },
-    {
-      "condition": "War risk insurance for Gulf transits breaks below 0.5% hull value (normalization threshold) — REFRAMED 2026-05-06: 'AWRP normalization toward 0.5% within 10 sessions' is now the diplomatic-track-durability test under the Trump pause framework",
-      "status": "watching",
-      "cascade": [
-        "shipping-tankers",
-        "brent-crude",
-        "marine-war-risk-insurance"
-      ],
-      "added": "2026-04-16",
-      "reframed": "2026-05-06",
-      "note_2026-06-10": "STAYS WATCHING — and a correction-grade RE-BASE: Gulf war-risk cover is now ~4% of hull value per 7-day transit (The National, 3 Jun), NOT the ~1% carried in recent briefs. Far from the 0.5% normalization threshold; cover RISING, not normalizing. The US directed the DFC to provide a political-risk reinsurance facility up to $40bn to keep Hormuz shipping moving.",
-      "note_2026-06-16": "2026-06-16: Premiums (~0.5% of cargo, up from ~0.2%) now signalled to DECLINE and VLCC rates easing off the ~$50K/day Israel-strike spike — the unwind is BEGINNING from the physical side, but not yet below 0.5% normalized and strait still closed. STAYS watching; convergence underway.",
-      "note_2026-06-17": "2026-06-17: Blockade lift should drive sharp insurance/VLCC normalization, but no confirmed sub-0.5% level yet. STAYS watching; unwind accelerating.",
-      "note_2026-06-19": "2026-06-19: First transits + signing should start normalization; insurers easing but not yet below pre-war 0.2-0.5%. STAYS watching."
-    },
-    {
-      "condition": "Iran formally reopens Hormuz to all traffic within 14-21 days of May 5 pause (by 2026-05-26) — would collapse tanker spot rates -15-25%",
-      "status": "resolved",
-      "cascade": [
-        "shipping-tankers",
-        "marine-war-risk-insurance",
-        "brent-crude",
-        "india"
-      ],
-      "added": "2026-05-06",
-      "note_2026-06-02": "EXPIRED UNTRIPPED. The deadline (2026-05-26) passed with no reopening, and the vector has since INVERTED: on 1 June Iran threatened to 'completely close' Hormuz (CLAIMED escalation from selective control). Operationally the strait remains at ~4 ships/day (CNN '94 days of paralysis'). Status moved `watching` -> `resolved` (expired untripped) — a confirmed non-event on the reopening side; the live risk is fuller closure, not reopening."
-    },
-    {
-      "condition": "Second commercial vessel attack within 7 days inside Qatari EEZ following Sunday May 10 bulk carrier strike — confirms IRGC graduated-pressure-on-mediator-coastline pattern",
-      "status": "watching",
-      "cascade": [
-        "qatar",
-        "iran",
-        "strait-of-hormuz",
-        "shipping-tankers",
-        "marine-war-risk-insurance",
-        "brent-crude"
-      ],
-      "added": "2026-05-10"
-    },
-    {
-      "condition": "Kharg Island slick re-appears on subsequent satellite passes (Copernicus Sentinel) within 14 days — confirms Iran storage-overflow / regime-dumping hypothesis vs European-tanker-waste counter-claim",
-      "status": "activated",
-      "cascade": [
-        "iran",
-        "brent-crude",
-        "strait-of-hormuz",
-        "shipping-tankers"
-      ],
-      "added": "2026-05-10",
-      "activated": "2026-05-12",
-      "activation_note": "Second slick detected May 11-12 (~12-20 sq km, smaller but persistent; UN warned 'major disaster' risk). Re-appearance has now occurred. Hypothesis tilt toward storage-overflow / regime-dumping has strengthened modestly; CAUSE remains formally contested (Iran maintains European tanker waste claim).",
-      "note_2026-06-11": "STAYS WATCHING. Trump's 11 Jun Truth Social Kharg-seizure post is the strongest rhetorical signal yet but was walked back same-cycle ('not sure America has the stomach') with NO force-posture/amphibious-group reporting. Window closes 2026-06-15; watch daily through Sunday.",
-      "note_2026-06-12": "STAYS WATCHING — probability fallen with the cancelled strikes and the deal track. Window closes 15 Jun."
-    },
-    {
-      "condition": "Second Red Sea shipping incident within 7 days of May 11 Hodeidah-area UKMTO advisory — would collapse Houthi non-action read",
-      "status": "untripped_expired",
-      "cascade": [
-        "houthis",
-        "iran",
-        "shipping-tankers",
-        "brent-crude",
-        "red-sea"
-      ],
-      "added": "2026-05-12",
-      "expired": "2026-05-18",
-      "expiry_note": "Day 7 of 7 closes Monday May 18 with no second incident confirmed. UKMTO recent-incidents page shows no new advisory through Monday morning IST; MARAD 2026-006 stands without supplement. **Houthi non-action during a publicly-hardening US kinetic-preparation phase** (NYT preparation report May 16, Trump 'clock is ticking' May 17, Trump-Netanyahu call May 17, Saudi drone interception May 17, UAE Barakah drone strike May 17) **is the cleanest behavioural divergence from the March-April pattern** when Houthi attacks compounded with US escalation rhetoric. The May 11 Hodeidah unclaimed incident now reverts to 'single unclaimed event' rather than start of a new pattern. Pair with TASS/Xinhua non-amplification of Trump posts — coordinated quietism across Iran's proxy and patron networks against US kinetic noise. The investor read: Iran signalling escalation control, not escalation."
-    },
-    {
-      "condition": "US ground operation against Kharg Island launched within 30 days of NYT preparation report (by 2026-06-15)",
-      "status": "watching",
-      "cascade": [
-        "iran",
-        "united-states",
-        "israel",
-        "brent-crude",
-        "strait-of-hormuz",
-        "marine-war-risk-insurance",
-        "shipping-tankers"
-      ],
-      "added": "2026-05-17",
-      "note": "NYT (Friday May 15 / Saturday May 16, citing two Middle Eastern officials) REPORTED ground forces to seize Kharg Island as one of two options for renewed US strikes. Kharg handles up to 90% of Iranian oil exports. Iran has REPORTEDLY moved air defenses to Kharg in recent weeks. If operation launches, Brent gaps +$8-15 toward $130-145 per markets-dossier reversibility map; AWRP doubles; VLCC rates re-rate.",
-      "note_2026-06-10": "STAYS WATCHING. No Kharg ground operation; the US response to the Apache downing was air/missile 'warning-shot' strikes on ~20 Iranian coastal air-defense sites near the Strait, not a ground op."
-    },
-    {
-      "condition": "Iran-permitted Chinese transit exceeds 50 vessels/week sustained 2 weeks (the selective-transit instrument becomes a structural rather than diplomatic-event signal)",
-      "status": "watching",
-      "cascade": [
-        "iran",
-        "china",
-        "strait-of-hormuz",
-        "brent-crude"
-      ],
-      "added": "2026-05-17",
-      "note": "Day 3 of 14 measurement window. No incremental vessel-count update published over the weekend. If sustained, Iran's selective Hormuz instrument is operationally durable, not a one-week diplomatic gesture."
-    },
-    {
-      "condition": "Hormuz remains under Iranian selective control even within ceasefire framework — ACTIVE 2026-04-08: Iran's 'controlled passage via coordination with armed forces' framing in the ceasefire text formali",
-      "status": "active",
-      "cascade": [
-        "brent-crude",
-        "india",
-        "shipping-tankers",
-        "inr-usd"
-      ],
-      "added": "2026-03-31",
-      "note_2026-06-10": "STAYS active. The 7-10 June US-Iran kinetic exchange occurred AROUND the Strait (Apache downing, US coastal-air-defense strikes, Iran's Gulf strikes launched from the region) but did not change the selective-control structure; ISW (6 Jun) reads Iran's 'protection racket' continuing.",
-      "note_2026-06-11": "STAYS active. The 10 Jun 'complete closure' declaration supersedes the selective-control framing as POLICY (no nationality exceptions), but enforcement is unconfirmed and CENTCOM says transits continue -- the operative regime on the water is unchanged. Stays active pending operational confirmation of the closure."
-    },
-    {
-      "condition": "Physical-futures gap closes below $10/bbl (Dated Brent converges to Brent futures)",
-      "status": "watching",
-      "cascade": [
-        "brent-crude",
-        "shipping-tankers",
-        "marine-war-risk-insurance"
-      ],
-      "added": "2026-04-18"
-    },
-    {
-      "condition": "Operationally-confirmed ENFORCEMENT of the 10 Jun complete-closure declaration -- Iran actually fires on / disables a transiting NEUTRAL vessel, verified by UKMTO or an independent maritime tracker (not an IRGC claim) -- converts the declaration from policy to action",
-      "status": "active",
-      "cascade": [
-        "brent-crude",
-        "marine-war-risk-insurance",
-        "shipping-tankers",
-        "india",
-        "vix"
-      ],
-      "added": "2026-06-11",
-      "note": "As of 11 Jun the closure is a DECLARATION; the only enforcement is the IRGC's uncorroborated 2-tanker claim, which CENTCOM contradicts. This trigger fires only on operationally-verified enforcement against a neutral hull -- the event that would convert the dead war-premium into a violent Brent gap toward $110+ and double AWRP. The market is positioned for choreography; this is the un-priced tail.",
-      "note_2026-06-12": "STAYS WATCHING. No new operationally-confirmed strike on a neutral hull this window; the blockade stays 'in full force until finalized' but the deal track lowers near-term enforcement-escalation risk.",
-      "note_2026-06-16": "2026-06-16: No new enforcement action; ceasefire holding. De-escalation, no fresh closure-enforcement signal.",
-      "note_2026-06-17": "2026-06-17: Superseded — blockade now lifting, not enforcing closure.",
-      "note_2026-06-22": "2026-06-22: Iran DECLARED closure (20 Jun) but NO operational enforcement — 55 ships transited. STAYS watching — fires only if Iran actually fires on/turns back a vessel.",
-      "note_2026-06-23": "2026-06-23: Still no Iranian enforcement — dark vessels are shipowner caution, not interdiction. STAYS watching.",
-      "note_2026-06-26": "2026-06-26: ACTIVATED watching->active. IRGC turn-backs 25 Jun are CONFIRMED ACTION — Windward corroborated 5 vessels turned + 1 dark, matching the IRGC claim (2 sources, operational). Distinct from the 20 Jun verbal 'closure' (which CENTCOM refuted): this time vessels were actually turned back. Partial enforcement, not full blockade (43 transits still occurred).",
-      "note_2026-06-27": "2026-06-27: Escalated — the IRGC enforcement (turn-backs) led to a cargo-ship drone attack and a US retaliatory strike. Stays active; now part of a kinetic cycle."
-    }
-  ],
-  "top_edges": [
-    {
-      "to": "iran",
-      "type": "jun8_10_iran_downed_us_apache_over_hormuz_ran_strait_and_israel_axes_separately_until_apache_event_refused_them_protection_racket_continues_isw_larak_island_warning_shots_no_new_closure_act",
-      "weight": 10.0,
-      "directness": 1,
-      "last_activated": "2026-06-11",
-      "activation_count": 58,
-      "context": "2026-06-11: Iran's top joint military command formally declared 'complete closure' of Hormuz (no nationality exceptions) -- ends the selective-control regime as POLICY; enforcement CLAIMED/contested (CENTCOM says transits continue)."
-    },
-    {
-      "to": "united-states",
-      "type": "jun8_10_strait_locus_of_us_iran_kinetic_exchange_apache_downed_over_hormuz_us_strikes_on_iranian_coastal_air_defense_radar_ground_control_near_strait_plus_dfc_40bn_reinsurance_facility_for_hormuz_shipping",
-      "weight": 10.0,
-      "directness": 1,
-      "last_activated": "2026-06-10",
-      "activation_count": 6,
-      "context": "2026-06-10: The Strait became the locus of the new US-Iran exchange — Iran downed a US Apache over Hormuz (8 Jun), US struck Iranian coastal air-defense/radar/ground-control near the Strait (9 Jun, 'warning shot'). The US also directed the DFC to provide a political-risk reinsurance facility up to $40bn to keep Hormuz shipping moving. CONFIRMED action; operational structure unchanged."
-    },
-    {
-      "to": "brent-crude",
-      "type": "complete_closure_threat_jun1_re_priced_brent_plus_7_3_pct_intraday_to_97_then_faded_to_94_5_risk_premium_re_entry_not_supply_disruption_throughput_unchanged",
-      "weight": 10.0,
-      "directness": 1,
-      "last_activated": "2026-06-13",
-      "activation_count": 56,
-      "context": "2026-06-13: A signed deal reopens Hormuz but normalization is slow (demining/restart) and Iran keeps a ~$1/bbl service fee — the oil downside is capped above the pre-war baseline."
-    },
-    {
-      "to": "natural-gas-lng",
-      "type": "supply_chokepoint",
-      "weight": 10,
-      "directness": 1,
-      "last_activated": "2026-04-02",
-      "activation_count": 11
-    },
-    {
-      "to": "shipping-tankers",
-      "type": "route_disruption_vlcc_td3c_467k_per_day_baltic_week17_confirmed",
-      "weight": 10,
-      "directness": 1,
-      "last_activated": "2026-06-12",
-      "activation_count": 39,
-      "context": "2026-06-12: Reopening read as VOLUME-bullish for tankers (Frontline +9.8%) — idled-fleet re-employment; physical rates still elevated until signing."
-    },
-    {
-      "to": "india",
-      "type": "supply_dependency",
-      "weight": 10,
-      "directness": 1,
-      "last_activated": "2026-04-19",
-      "activation_count": 15
-    },
-    {
-      "to": "saudi-arabia",
-      "type": "bypass_dependency_with_petchem_transmission",
-      "weight": 10,
-      "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 14
-    },
-    {
-      "to": "irgc",
-      "type": "operational_permission_regime",
-      "weight": 9.5,
-      "directness": 1,
-      "last_activated": "2026-04-22",
-      "activation_count": 6
-    },
-    {
-      "to": "iraq",
-      "type": "export_dependency",
-      "weight": 4.5,
-      "directness": 1,
-      "last_activated": "2026-03-20",
-      "activation_count": 5
-    }
-  ],
-  "recent_signals": [
-    {
-      "date": "2026-06-27",
-      "headline": "The Hormuz escalation cycle turned kinetic: IRGC turn-backs (25 Jun) -> Iranian drone hits a Singapore-flagged cargo ship -> US retaliatory strike on Iranian coastal sites (27 Jun, CENTCOM). The strait is now the flashpoint of a live strike exchange, not just a chilling effect. Reopening/recovery at acute risk pending Iran's response; oil re-arm likely at the next open. CONFIRMED (CENTCOM + cargo-ship attack)."
-    },
-    {
-      "date": "2026-06-26",
-      "headline": "Recovery hit a wartime high (49 transits 24 Jun) then the IRGC ENFORCED turn-backs on 25 Jun — Windward independently corroborated 5 vessels turning around + 1 losing AIS, matching the IRGC's Telegram claim. The southern corridor (previously believed free of Iranian approval) is now actively policed (VHF Ch16: transit without AIS/IRGC permission 'at your own risk'). NOT a blockade — 43 transits still occurred 25 Jun — but this is the first OPERATIONALLY-CONFIRMED Iranian enforcement since the signing: rhetoric became partial action. Separately a cargo ship was attacked off Oman (Thu, attacker unconfirmed). CONFIRMED (Windward + IRGC)."
-    },
-    {
-      "date": "2026-06-23",
-      "headline": "Reopening FALTERING (corrects 06-22's clean 'bluff called'): transits fell to 12 Sunday from 55 Saturday, with 5 of 8 inbound vessels going dark (AIS disabled) — Windward calls it a 'late-blockade baseline more than a functioning open strait.' Iran's closure declaration (no enforcement per CENTCOM) plus shipowner caution is recreating a partial blockade by sentiment. Notably Iran's OWN foreign ministry says shipping is 'operating normally,' contradicting its military. CONFIRMED (Windward AIS / CENTCOM)."
-    },
-    {
-      "date": "2026-06-22",
-      "headline": "Reopening is REAL and accelerating — 55 ships / 17M barrels transited 20 Jun (CENTCOM), up from ~20 on 19 Jun and the ~7-13 trickle earlier. Iran (IRGC) declared the strait closed (20 Jun) over Lebanon violations, but CENTCOM observed no enforced closure ('Iran does not control the Strait; traffic continues'). DECISIVE TELL: oil FELL (Brent -1.2% to $76.99) on the closure declaration — the market priced it as rhetoric. CONFIRMED (CENTCOM operational) / Iran closure = CLAIMED."
-    },
-    {
-      "date": "2026-06-20",
-      "headline": "Reopening a slow trickle over the weekend — only ~7 ships through since the deal (MarineTraffic; ~13 on Starboard earlier). Free passage (no tolls, 60 days) confirmed; oil tankers/LNG to get priority. But backlog clears over 10-15 days, full normalisation weeks-months, and firms have restructured 2026 schedules around the Cape of Good Hope. Partial reopening intact but throughput a small fraction of pre-war. CONFIRMED (AIS)."
-    },
-    {
-      "date": "2026-06-19",
-      "headline": "PARTIAL REOPENING NOW AIS-CONFIRMED. At least 13 foreign tankers transited the strait (Starboard Maritime AIS) — the first confirmed foreign transits, following the signed MoU and lifted blockade. CRITICAL distinction from the 18 Jun single-source claim (which AIS contradicted, prompting a walk-back): this is operational AIS data. BUT most tankers reversed course and flow remains ~95% below pre-war (<10 vessels/day); mine-clearance, the tanker backlog and insurance normalisation mean full flow is weeks-to-months out. MoU: free passage 60 days, then an Iran-Oman fee structure. CONFIRMED (Starboard AIS)."
-    },
-    {
-      "date": "2026-06-18",
-      "headline": "REOPENING NOT MATERIALISING ON THE WATER. Independent AIS audits (Argus 'Hormuz tanker traffic unchanged after US-Iran deal'; GEF: ~18 vessels, Iranian-domestic-flag only, foreign-flag absent, ~95% below pre-war) contradict the 17 Jun single-source claim that tankers had begun transiting. Shipowners are waiting for Friday's signing + details before attempting transits. The blockade-removal ORDER remains confirmed, but the physical reopening is ORDERED, NOT OCCURRING. CONFIRMED (operational AIS)."
-    },
-    {
-      "date": "2026-06-17",
-      "headline": "PARTIAL REOPENING UNDERWAY. Trump authorised the immediate removal of the US naval blockade (CONFIRMED — Truth Social/PBS/CBS) and Iran confirmed the blockade is lifting; specialised maritime reporting says Iranian tankers have begun transiting Hormuz (REPORTED, single-source). This is the first operational reopening signal of the war — distinct from the paper framework. Sustained-volume confirmation (>30 vessels/day x3) and independent AIS still pending; full normalization lags on ~6-month demining. CONFIRMED (blockade-removal order) / REPORTED (actual transit)."
-    },
-    {
-      "date": "2026-06-16",
-      "headline": "STILL CLOSED, Day 107 — despite the framework. The 14 Jun deal commits to reopening within ~30 days 'under Iranian arrangements' and lifting the US blockade within ~30 days, but operational trackers show no transits resumed. Pentagon planners assess clearing 20+ naval mines at up to ~6 months even at accelerated pace; the 107-day standoff cut crude transits ~95% and LNG ~99%. Political agreement != physical reopening. CONFIRMED still-closed (trackers) / REPORTED timelines."
-    },
-    {
-      "date": "2026-06-13",
-      "headline": "DEAL WOULD REOPEN HORMUZ 'IMMEDIATELY WITHOUT TOLLS' (~30 DAYS TO PRE-WAR VOLUMES) — BUT IRAN KEEPS A 'SERVICE FEE' (~$1/BBL) AND NORMALIZATION IS SLOW (DEMINING). Araghchi: international law bars 'tolls' but Iran collects 'service fees' (the Persian Gulf Strait Authority's ~$1/bbl since 5 May), with compensation to Iran in the plan; Trump called the fee 'a beautiful thing.' A subsequent deal phase is DEMINING the waterway; analysts stress idled fields must restart and damaged facilities be repaired before flows normalize. So a signed deal ends the acute crisis but leaves a structurally HIGHER chokepoint cost-floor and a multi-week physical normalization — capping the oil downside.",
-      "sources": [
-        "The National (service fees)",
-        "Gulf News (Trump)",
-        "CNBC (demining)",
-        "NBC"
-      ],
-      "verification": "REPORTED (reopening terms); CONFIRMED (service-fee + demining caveats)"
-    },
-    {
-      "date": "2026-06-12",
-      "headline": "DEAL WOULD REOPEN HORMUZ IN ~30 DAYS — BUT IRAN INTENDS TO RETAIN 'CONTROL' EVEN POST-DEAL, AND THE BLOCKADE STAYS UNTIL SIGNING. Reported terms (CBS/CNBC): reopening to pre-war volumes within 30 days + US lifting the naval blockade. BUT Araghchi: 'Iran will maintain control over the Strait of Hormuz... the future of the Strait will not be the same as in the past.' And Trump: 'The Naval Blockade will remain in full force until this Transaction is finalized.' So a signed deal reopens FLOW but may NOT restore pre-war freedom-of-navigation; until signing, the ~5%-flow blockade persists. Oil priced the reopening hope hard: Brent -4.1% to $86.71.",
-      "sources": [
-        "Al Jazeera/IRNA (Araghchi)",
-        "RFE/RL (Trump blockade)",
-        "CBS/CNBC (terms)"
-      ],
-      "verification": "REPORTED (reopening term); CONFIRMED (Iran-retains-control + blockade-stays positions)"
-    },
-    {
-      "date": "2026-06-11",
-      "headline": "FORMAL 'COMPLETE CLOSURE' DECLARED -- announcement CONFIRMED, operational delta CONTESTED. Iran's top joint military command announced Hormuz 'closed until further notice' for oil tankers AND commercial vessels, 'will be shot at,' NO nationality exceptions -- formally ending the selective/coordinated-passage regime (incl. the permitted Chinese transits the graph tracked). IRGC claimed 2 transiting tankers hit (CLAIMED -- no UKMTO/independent corroboration; UKMTO page 403). CENTCOM countered that commercial ships continue to transit (direct contradiction). Strait already ~5% of normal flow (Day ~104), so the declaration shifts the POLICY perimeter more than observed throughput. Aluminum recovered toward ~$3,600 on the formalization where gold did not move.",
-      "sources": [
-        "Al Jazeera 10 Jun",
-        "Haaretz live",
-        "NBC",
-        "CENTCOM (contra)",
-        "SeaVantage (vintage unconfirmed)"
-      ],
-      "verification": "CONFIRMED (the declaration); CLAIMED (tanker hits); CONTESTED (actual throughput change)"
-    },
-    {
-      "date": "2026-06-10",
-      "headline": "**THE STRAIT BECAME THE LOCUS OF A NEW US-IRAN KINETIC EXCHANGE — APACHE DOWNED OVER HORMUZ (8 JUN), US STRIKES ON IRANIAN COASTAL AIR-DEFENSE/RADAR/GROUND-CONTROL SITES NEAR THE STRAIT (9 JUN), IRAN'S 10-JUNE GULF STRIKES LAUNCHED FROM THE REGION — STRUCTURE UNCHANGED (~-95% TRAFFIC, IEA 'LARGEST SUPPLY DISRUPTION IN HISTORY'). CORRECTION: GULF WAR-RISK COVER IS NOW ~4% OF HULL VALUE PER 7-DAY TRANSIT (NOT THE ~1% CARRIED IN RECENT BRIEFS). NEW: US DIRECTED THE DFC TO PROVIDE A POLITICAL-RISK REINSURANCE FACILITY UP TO $40 BILLION TO KEEP HORMUZ SHIPPING MOVING.** Iran downed a US Apache over Hormuz (8 Jun); US struck Iranian coastal radar/air-defense/ground-control near the Strait (9 Jun); Iran's 10-June strikes launched from the region — but no new physical closure act. Western-allied traffic near-zero; the US-guided Oman-coast channel carried ~70 ships in 3 weeks to 1 Jun; ~20,000 seafarers stranded on ~2,000 vessels; ISW (6 Jun) reads Iran's 'protection racket' continuing (IRGC 'warning shots' near Larak Island). Iran ran the Strait and Israel axes SEPARATELY during the 7-8 June exchange (no Strait drones) until the Apache event re-fused them 8-9 June. INSURANCE RE-BASE (correction-grade, REPORTED): ~4% of hull value per 7-day transit (The National, 3 Jun). DFC $40bn reinsurance facility is new. No Hormuz trigger fires (structure unchanged).",
-      "sources": [
-        "CENTCOM / US military (Apache downed over Hormuz 8 Jun; US strikes on Iranian coastal air-defense/radar/ground-control near the Strait 9 Jun)",
-        "IEA ('largest supply disruption in the history of the global oil market')",
-        "ISW/Critical Threats (6 Jun: Iran 'protection racket'; IRGC 'warning shots' near Larak Island)",
-        "Independent Hormuz transit trackers (~-95% traffic; ~70 ships in 3 weeks via Oman-coast channel; ~20,000 seafarers on ~2,000 vessels)",
-        "The National (3 Jun: Gulf war-risk cover ~4% of hull value per 7-day transit — correction-grade re-base)",
-        "US DFC (Development Finance Corp political-risk reinsurance facility up to $40bn for Hormuz shipping)"
-      ],
-      "verification": "CONFIRMED ACTION (Apache downing over Hormuz; US coastal-site strikes near the Strait; operational chokehold ~-95%, IEA characterization) / REPORTED (insurance ~4% re-base; DFC $40bn reinsurance facility; ISW 'protection racket'). No new physical closure act; no trigger moves to active."
-    },
-    {
-      "date": "2026-06-06",
-      "headline": "**OPERATIONALLY UNCHANGED ON DAY ~99 (~10 SHIPS/DAY VS ~95 NORMAL, EFFECTIVELY CLOSED) — 4 IRANIAN DRONES LAUNCHED TOWARD HORMUZ (ALL INTERCEPTED); REZAEI SOVEREIGNTY/OMAN/TOLL FRAMING IS RHETORIC, NO NEW CLOSURE ACT.** No operational change: ~10 ships/day vs ~95 pre-crisis; Maersk/CMA CGM/MSC/Hapag-Lloyd still suspended; ~405 vessels anchored; CENTCOM has escorted ~70 vessels cumulatively. In the 5-6 June overnight exchange Iran launched 4 one-way attack drones toward Hormuz — all 4 intercepted/downed by US — and the US struck Iranian coastal radar at Goruk + Qeshm in self-defence; NO new physical closure act, throughput unchanged. Rezaei reasserted the 'sovereignty + Oman joint-management + transit-tolls' framing = RHETORIC on top of an already-throttled strait. Brent fell ~2% to ~$93 over the window on weak China demand, not on any Hormuz throughput change. No Hormuz trigger fires on rhetoric or an intercepted drone launch.",
-      "sources": [
-        "Independent Hormuz transit trackers / shipping maps (~10 ships/day vs ~95; ~405 anchored; ~70 CENTCOM-escorted cumulatively)",
-        "CENTCOM / US military (official) — 4 drones toward Hormuz intercepted; US self-defence strikes on Goruk + Qeshm coastal radar",
-        "IRGC / Rezaei — Hormuz sovereignty + Oman joint-management + transit-toll framing (Iran rhetoric, not an act)",
-        "Intel dossier 2026-06-06 A6, A2, A3"
-      ],
-      "verification": "Operational chokehold persists (~10 ships/day, ~405 anchored, ~70 escorted) = CONFIRMED (independent trackers); 4 drones toward Hormuz all intercepted + US Goruk/Qeshm strike = CONFIRMED ACTION; Rezaei sovereignty/Oman/toll framing = RHETORIC (not an act, not elevated). No new physical closure act; no trigger moves to active."
-    },
-    {
-      "date": "2026-06-03",
-      "headline": "**OPERATIONALLY UNCHANGED (~5% OF PRE-WAR TRAFFIC) ON DAY 96 — BUT A US SELF-DEFENCE STRIKE LANDED ON QESHM ISLAND INSIDE THE STRAIT, AND IRAN CLAIMED THE US HIT AN OIL TANKER.** In the 3 June exchange CENTCOM struck an Iranian ground-control station on Qeshm Island in the strait (and reportedly Goruk); Iran/IRGC claimed the US hit an oil tanker and a 'communications tower south of Qeshm,' and that it coordinated 26 vessels through under 'intelligent control' (CLAIMED, discrepant with ~4-5/day trackers — NOT elevated). No confirmed change to the throughput regime — no full closure, no forced reopening; 'complete closure' stays RHETORIC. DHL still forecasts 4-6 months to normalisation. No Hormuz trigger fires on rhetoric or an intraday Brent tag.",
-      "sources": [
-        "CENTCOM (Qeshm self-defence strike) — official military; IRGC/Tasnim (US hit oil tanker / 26 vessels claim) — Iran claim",
-        "2026 Strait of Hormuz crisis tracker / CNN shipping maps (~5% of normal); DHL normalisation forecast (4-6 months)",
-        "Intel dossier 2026-06-03 A4"
-      ],
-      "verification": "US Qeshm strike = CONFIRMED ACTION; '~5% of pre-war traffic / no operational change' = CONFIRMED (independent trackers); Iran 'US hit oil tanker' + '26 vessels intelligent control' + 'complete closure' = CLAIM/RHETORIC (not elevated). No trigger to active."
-    },
-    {
-      "date": "2026-06-02",
-      "headline": "**IRAN THREATENED TO 'COMPLETELY CLOSE' HORMUZ (ESCALATION FROM SELECTIVE CONTROL) — BUT OPERATIONALLY UNCHANGED AT ~4 SHIPS/DAY; IRGC '24 VESSELS / INTELLIGENT CONTROL' CLAIM IS DISCREPANT.** Tied to the 1 June suspension of US talks, Tasnim vowed the 'resistance front' would 'completely close the Strait of Hormuz.' Per CNBC/IBTimes this is a THREAT, not an implemented closure ('no operational blockade confirmed as implemented'). CNN's 2 June piece ('94 days of paralysis') reports only ~4 vessels/day vs ~95 normal — effectively closed since 28 Feb, unchanged. The IRGC claimed 24 vessels passed under 'intelligent control' (CLAIMED Iran, discrepant with independent ~4/day — NOT elevated; Tehran projecting control ahead of threatening to remove it). The 1 June closure threat re-priced Brent +7.3% intraday to ~$97 then faded to ~$94.5 — risk-premium re-entry, not supply disruption (throughput unchanged). No reopening trigger fires; the 'complete closure' threat moves no trigger to active (rhetoric). Watch the independent transit count, not the IRGC's number.",
-      "sources": [
-        "CNBC — 'Iran vows to completely block Strait of Hormuz' — independent",
-        "IBTimes UK — 'no operational blockade confirmed as implemented' (threat, not action) — independent",
-        "CNN (2 June) — '94 days of paralysis... handful of vessels vs ~95' — operational reporting — independent",
-        "straits.live (status: Closed, June 2026) — operational tracker — independent",
-        "IRGC / Tasnim — '24 vessels / intelligent control' — Iran claim (NOT elevated)",
-        "Intel dossier 2026-06-02 A4, B1"
-      ],
-      "verification": "Operational chokehold persists at ~4 ships/day = CONFIRMED (CNN + straits.live); 'complete closure' = RHETORIC/THREAT (CNBC/IBTimes, not implemented); IRGC '24 vessels / intelligent control' = CLAIMED Iran, discrepant with independent trackers, NOT elevated. No trigger moves to active."
-    },
-    {
-      "date": "2026-05-30",
-      "headline": "**NEW SUSPECTED MINE OFF OMAN (30 MAY); LIAN STAR INTERDICTION (6th VESSEL); US-TREASURY-VS-OMAN TOLL FRICTION.** Oman's Maritime Security Centre warned (30 May) of a floating object suspected to be a naval mine within Omani territorial waters, urging vessels to keep clear. The US disabled the Lian Star in the Gulf of Oman (6th blockade vessel); Hegseth said the blockade is 'very much still in place' and Hormuz must remain 'open, toll-free.' The US Treasury reportedly threatened to sanction Oman over Hormuz tolls — colliding with Iran's Oman-mediated toll ambition in the draft MOU. Hormuz remains mined and contested inside the ceasefire — the physical floor under oil even as the tail de-prices.",
-      "sources": [
-        "Oman Maritime Security Centre advisory 30 May — operational/official",
-        "Iran International liveblog 30 May (Lian Star); Hegseth on record 30 May",
-        "Times of Israel liveblog 28 May (US Treasury-Oman tolls) — REPORTED, single headline",
-        "Intel dossier 2026-05-30 A8, A1"
-      ],
-      "verification": "Suspected-mine advisory = CONFIRMED ACTION (Oman MSC operational/official); Lian Star interdiction = REPORTED-to-CONFIRMED; Hegseth 'blockade still in place / toll-free' = CONFIRMED; US Treasury-Oman toll threat = REPORTED (single headline)."
-    },
-    {
-      "date": "2026-05-28",
-      "headline": "**THE STRAIT IS STILL ACTIVELY CONTESTED INSIDE THE CEASEFIRE — US DOWNED 4 IRANIAN DRONES NEAR HORMUZ + STRUCK A GROUND-CONTROL STATION; NO REOPENING ON DAY 90; THE 'SECOND SEIZURE IN 7 DAYS' WATCH EXPIRED UNTRIPPED.** Early May 28 US forces shot down four Iranian one-way attack drones near Hormuz and struck an Iranian ground-control station near Bandar Abbas the Pentagon said was 'reportedly preparing to launch a fifth' drone (CONFIRMED ACTION — CENTCOM via CNN/NBC/Euronews/WaPo). The cleanest operational support yet for the 'physical risk persists' thesis: Iran is still contesting the strait with drones and mines even as the unsigned MOU calls for Hormuz 'open with no tolls' and Iran to clear the mines it laid. The IRGC's intercepted ballistic missile at Kuwait was the retaliation (A1); the maritime story is the drone/mine contest, NOT a fresh seizure — the 'second Iranian commercial-vessel seizure within 7 days' watch EXPIRED UNTRIPPED (last confirmed seizure remains May 14 Fujairah). UKMTO has logged 41+ incidents since late February; mines in/near the TSS persist; GNSS interference 'sporadic but reduced from March.' Hormuz remains effectively BLOCKED on Day 90 — no operational reopening. TRIGGERS: Hormuz-reopening/transit-volume stay watching; Iran-Oman toll-mechanism stays watching (no formal announcement).",
-      "sources": [
-        "CENTCOM (4 drones downed near Hormuz + ground-control station struck near Bandar Abbas) — official military",
-        "UKMTO recent-incidents / Wikipedia '2026 Strait of Hormuz crisis' (41+ incidents; mines persist) — operational",
-        "UN News ('Uncertainty continues over safety in the Strait of Hormuz') — official",
-        "Euronews / CNN live May 28 (the exchange)",
-        "Intel dossier 2026-05-28 A6, A1"
-      ],
-      "verification": "US downing of 4 Iranian drones near Hormuz + strike on a ground-control station near Bandar Abbas = CONFIRMED ACTION (CENTCOM + multi-wire); Iran still contesting the strait with drones/mines inside the ceasefire = CONFIRMED; no operational reopening Day 90 = CONFIRMED (transits minimal); no new Iranian commercial-vessel seizure (watch expired untripped) = CONFIRMED non-event (negative search); UKMTO 41+ incidents / mines persist = REPORTED (operational aggregator)."
-    },
-    {
-      "date": "2026-05-27",
-      "headline": "**THE US STRUCK IRGC FAST BOATS LAYING MINES *IN* HORMUZ (CONFIRMED ACTION, May 25) — mines still being laid even as the deal requires Iran to *clear* them. On Monday May 25 US forces struck two IRGC fast boats laying mines in the Strait of Hormuz + a Bandar Abbas SAM site that CENTCOM said was targeting US aircraft (CONFIRMED ACTION — CENTCOM/Hawkins 'self-defense,' 'restraint'; CNN/NBC/Al Jazeera/NPR). The targeting is the intelligence: it is the cleanest confirmation the physical risk inside the strait remains active even inside the ceasefire — validating Croft's 'fine print / insurers and shippers won't rush back if Iran continues to have the final say on passage' thesis. The deal is 'largely negotiated' (Trump): Hormuz reopened 'with no tolls' + Iran clears its mines, US lifts the blockade + sanctions waivers — but Hormuz control/status is one of three unresolved sticking points and Deputy FM Bagheri Kani said 'the two sides had not yet agreed on lifting the blockade.'** (1) **US strike on IRGC mine-laying boats in Hormuz (CONFIRMED ACTION)**: Iran was still laying mines in the strait the deal would require it to clear. (2) **Quad Foreign Ministers, New Delhi, May 26 — anti-toll UNCLOS statement (CONFIRMED diplomatic action — US State Dept joint statement, ANI, WaPo)**: 'deep concern over the Iranian closure' of Hormuz; reiterated UNCLOS navigational rights; condemned attacks on commercial shipping; and 'opposed any future measures that are inconsistent with UNCLOS, including imposition of tolls.' India put its name to language that attributes the closure to Iran and explicitly opposes Hormuz tolls — directly relevant to the deal's unresolved 'Hormuz management/tolls' clause. (3) **Operationally unchanged**: transits remain minimal; no operational reopening; the strait has been effectively closed 89 days. **TRIGGER DECISIONS**: transit-volume and second-seizure triggers stay watching (no Iranian seizure — the maritime story is the US strike on IRGC boats); Iran-Oman permanent toll mechanism trigger stays watching (Fars 'management' = pre-positioning, not a formal announcement).",
-      "sources": [
-        "CENTCOM spokesman Timothy Hawkins (via CNBC/NBC/WaPo) — official military",
-        "CNN / Al Jazeera / NPR May 25-26 (US strikes on IRGC mine-laying boats + Bandar Abbas SAM site)",
-        "US State Department 'Joint Statement from the Quad Foreign Ministers' Meeting in New Delhi'",
-        "ANI May 26 (Quad ministers anti-toll/Hormuz framing)",
-        "Washington Post May 26 (Quad Indo-Pacific maritime-security initiatives)",
-        "CNBC 'Trump says Iran deal reopening Strait of Hormuz largely negotiated'",
-        "Intel dossier 2026-05-27 A1, A5, A6"
-      ],
-      "verification": "US strike on two IRGC fast boats laying mines in Hormuz + Bandar Abbas SAM site May 25 = CONFIRMED ACTION (CENTCOM official + CNN/NBC/Al Jazeera/NPR); Iran still laying mines = CONFIRMED (the struck boats were laying mines); Quad FMs joint statement opposing Hormuz tolls / 'Iranian closure' / UNCLOS = CONFIRMED diplomatic action (US State Dept primary + ANI + WaPo); deal 'largely negotiated' (no tolls + Iran clears mines) = CONFIRMED framework / CONTESTED contents; Bagheri Kani 'blockade-lifting not yet agreed' = CONFIRMED RHETORIC; operational Hormuz state minimal / no reopening = CONFIRMED."
-    },
-    {
-      "date": "2026-05-25",
-      "headline": "**MANAGEMENT-VS-NO-TOLLS CONTRADICTION SHARPENED + NEW 30-DAY HORMUZ / 60-DAY NUCLEAR SPLIT; EU HORMUZ-DISRUPTION SANCTIONS FRAMEWORK NOW CONFIRMED-ADOPTED (MAY 22) — BUT NO DESIGNATIONS YET. HORMUZ TRANSITS REMAIN MINIMAL — NO OPERATIONAL REOPENING, DAY 87.** (1) **US/Axios framing now 'open with no tolls, mines cleared' [CONFIRMED — Axios May 24, CNN May 25]**: during the window the strait would be 'open with no tolls,' Iran clears the mines it laid, US lifts the blockade in exchange. (2) **Iranian framing still 'management, not free passage' [CONFIRMED — Times of Israel May 23 liveblog / BOE Report (Fars), Tasnim via aggregation]**: Fars's 'Iran's management / not free passage as before the war' line stands uncorrected; Tasnim allocates '30 days for procedures related to the Strait of Hormuz and 60 days for nuclear talks' — a bifurcated timeline beginning only after the framework is 'formally agreed' (Baghaei). (3) **The contradiction is not resolving toward either pole — both sides keep publishing their own version [CONTESTED which is in the text]**; Rubio's May 21 red line: a tolling/selective-management mechanism makes a deal 'unfeasible.' (4) **EU Hormuz sanctions framework — UPGRADED TO CONFIRMED [Brussels Signal, Marine Insight, Express Tribune, Sofia Globe, News24]**: the EU Council formally adopted on May 22 a framework allowing travel bans / asset freezes on individuals/entities disrupting Strait of Hormuz shipping, delivering the April 21 Foreign Affairs Council political agreement. **NO specific names designated yet — enabling instrument; listings 'would follow at a later stage.'** Cross-current worth flagging: the EU is erecting a Hormuz-disruption sanctions architecture at the exact moment the US-Iran deal would reopen the strait — a potential transatlantic divergence if the deal lands. (The action is 3 days old; only the corroboration is new.) (5) **Operationally unchanged**: transits remain minimal; no operational reopening; the strait has been effectively closed 87 days. Iran-Oman permanent toll mechanism trigger Day 4 of 14 stays `watching` — Fars 'management' = pre-positioning, not a formal announcement.",
-      "sources": [
-        "Axios May 24 'What's inside the Iran deal' (US-side 'no tolls' text)",
-        "CNN liveblog May 25 (Rubio + deal mechanics)",
-        "Times of Israel May 23 liveblog / BOE Report (Fars 'management' line)",
-        "Tasnim (via search aggregation) — 30-day Hormuz / 60-day nuclear split",
-        "Brussels Signal 'EU adopts sanctions targeting Iran's blockade of Hormuz'",
-        "Marine Insight / Express Tribune / Sofia Globe / News24 (EU framework corroboration)",
-        "Intel dossier 2026-05-25 A4, B1, A3"
-      ],
-      "verification": "Both Hormuz framings on the record = CONFIRMED (Axios/CNN US-side 'no tolls'; Fars/Tasnim Iranian 'management' + 30/60-day split); which framing is in the deal text = CONTESTED; Rubio 'unfeasible' red line = CONFIRMED RHETORIC; EU Council May 22 Hormuz-disruption sanctions framework adoption = CONFIRMED (multiple independent European outlets, upgraded from May 24 single-source low-confidence) — NO designations yet (enabling instrument); operational Hormuz state minimal / no reopening = CONFIRMED."
-    },
-    {
-      "date": "2026-05-19",
-      "headline": "**HORMUZ STATUS UNCHANGED ON POSTPONEMENT — ~1-30 VESSELS/DAY VS 138 PRE-WAR; AWRP 4-6X PRE-CRISIS; IRGC QESHM ISLAND DEFENSE-SYSTEMS REPORTEDLY ACTIVATED LATE MONDAY (REPORTED single-source).** Brent retraced -1.6% to $110.32 on the postponement (tail-risk de-pricing) but the structural premium is intact: $110.32 is still 51% above the $73 pre-crisis baseline. **The postponement re-prices the TAIL, not the structural premium.** Baker Hughes call: full Hormuz reopen NOT until 2H26. Turkey FM Hakan Fidan publicly stated the immediate concern of US-Iran negotiations is keeping the Strait of Hormuz open, but Iran's nuclear program remains a central issue (CONFIRMED RHETORIC) — first clean Turkish public framing of the cycle. **AWRP holds at 3-8% of vessel value (some 10%), 'double-digit millions per trip'** still operative. **The structural war premium has migrated OUT of crude flat-price INTO ton-miles (Frontline +2.9%), LNG basis (Cheniere +2.4%), and defense backlog (Lockheed +2.4% on $879M F-35 contract)** — these don't reverse on a single postponement.",
-      "sources": [
-        "Trump Truth Social (postponement)",
-        "Turkey FM Fidan public statement",
-        "Baker Hughes / shipping community (vessel transit data)",
-        "Lloyd's List / Insurance Business Mag (AWRP)",
-        "Intel dossier 2026-05-19 B2; Markets dossier C1, C4"
-      ],
-      "verification": "Hormuz vessel transit ~1-30/day = CONFIRMED (Baker Hughes operational); AWRP 4-6x pre-crisis = CONFIRMED (Lloyd's data); Brent -1.6% to $110.32 = CONFIRMED operational; structural premium intact = CONFIRMED ($110.32 vs $73 baseline math); Turkey FM Fidan statement = CONFIRMED RHETORIC; Qeshm defense activation = REPORTED single-source."
-    },
-    {
-      "date": "2026-05-18",
-      "headline": "**STANCHART $130-145 PATH ACTIVATES MAY 18 — Brent 2-session sustain rule met** ($109.26 Friday close + $111.47 Monday intraday, range $110.13-$111.99). The May 12-added 'Brent breaks $108-110 sustained 2 sessions' trigger fires (brent-crude node). Cascade fires same day: inr-usd ₹96.29 record low (trigger fires Day 6 of 5-7); Sensex/Nifty open -1.30%/-1.04%; energy-sector XLE +2.4%; marine-war-risk-insurance edge weight raised to 10.0. **HOUTHI RED SEA DAY 7 OF 7 NEGATIVE-SPACE WINDOW CLOSES UNTRIPPED** — May 11 Hodeidah incident reverts to 'single unclaimed event'; no second incident through Monday IST per UKMTO. Houthi non-action during a publicly-hardening US kinetic-preparation phase (NYT preparation May 16, Trump 'clock is ticking' May 17, Trump-Netanyahu call May 17, Saudi/UAE drone events May 17) is the cleanest behavioural divergence from the March-April pattern. **NEW WEEKEND KINETIC EVENTS**: (i) UAE Barakah Nuclear Energy Plant — May 17 drone strike on perimeter generator (3 drones from western border; 2 intercepted; 1 caused fire outside inner perimeter); IAEA expressed 'grave concern,' radiation normal, all units operating — first nuclear-infrastructure-adjacent kinetic of cycle; (ii) Saudi defense ministry — May 17 3 drones from Iraqi airspace intercepted over Saudi airspace; Brig Turki al-Maliki: 'right to respond at the appropriate time and place'; UAE MoFA formal condemnation May 18 — first confirmed Saudi territorial breach of cycle; Iraqi militia (PMU/Kata'ib Hezbollah/Asa'ib Ahl al-Haq) most likely vectors by capability and prior pattern; no group claimed responsibility, consistent with deniable harassment. **Hormuz physical state unchanged**: ~30 vessels/day vs 138 pre-war (Aramco CEO Nasser); VLCC TD3C Baltic Exchange Week 18 partial WS408.13 (~$370-410K/day); AWRP 3-8% of vessel value ($3-8M/transit) vs 0.1-0.15% pre-war (20-50x). **Kharg Island NYT-reported preparation report stands; Tuesday May 19 Trump NSC meeting is operational binary** for the May 24 'NYT as soon as next week' window — Day 1 of 6 remaining. **Iran-permitted Chinese transit Day 4 of 14 measurement window**; no incremental vessel-count update over Monday morning IST. **WTI live $108.20 +2.6% per OilPrice/Investing — yfinance $103.41 -1.9% is stale-comparator artifact; Brent-WTI spread COMPRESSED to $3-4, not widened.**",
-      "sources": [
-        "Investing.com / Barchart Brent BZ=F live (Monday May 18)",
-        "Saudi Gazette 'Al-Maliki: Three drones from Iraq intercepted' (Saudi state primary)",
-        "Times of Israel May 17 liveblog (UAE Barakah + Saudi drone primary)",
-        "UAE Ministry of Defence statement May 17",
-        "IAEA primary statement on Barakah",
-        "UAE MoFA May 18 condemnation",
-        "UKMTO recent-incidents page May 18 (no new advisory)",
-        "Markets dossier 2026-05-18 Section A + C1 + C8",
-        "Intel dossier 2026-05-18 A1, A4, B1",
-        "Aramco CEO Nasser line (carries forward)",
-        "Baltic Exchange Week 18 partial WS408.13",
-        "OilPrice.com / Investing.com WTI $108.20 live"
-      ],
-      "verification": "Brent $111.47 + Monday range = CONFIRMED operational tape; UAE Barakah drone strike = CONFIRMED (UAE MoD + IAEA + 6+ outlets); Saudi drone intercept = CONFIRMED ACTION (Saudi MoD primary + UAE MoFA condemnation + multi-source); Iraqi militia attribution = UNCLAIMED (no claim through search window — operationally consistent with deniable harassment); Red Sea Day 7 untripped = CONFIRMED ABSENCE (UKMTO operational primary); Hormuz throughput unchanged = CONFIRMED (Aramco CEO carry-forward); WTI yfinance artifact = CONFIRMED analytical flag (OilPrice/Investing $108.20 cross-check); Tuesday NSC meeting = REPORTED (single Israeli sourcing chain via Haaretz)."
-    },
-    {
-      "date": "2026-05-15",
-      "headline": "**TRUMP-XI JOINT STATEMENT NAMES HORMUZ DIRECTLY: 'MUST REMAIN OPEN'** (CONFIRMED — ToI May 15 liveblog primary, China MFA readout). Xi opposed 'the militarization of the Strait' and any effort to 'charge a toll' for its use (direct rhetorical strike at Mokhber's 'atomic-bomb' doctrine); said China is interested in purchasing more American oil to reduce dependence on the Strait. **THE STRAIT REMAINS PHYSICALLY CLOSED**: ~30 vessels/day vs ~140 pre-war (Aramco CEO Nasser unchanged), Iran is proactively curbing output because storage tanks are filling, EIA confirmed Hormuz oil flows fell nearly 30% in Q1 2026. **Diplomatic words don't reopen shipping lanes that IRGC mines and small-boat attacks are physically closing.** **B1 HUI CHUAN SEIZURE — UKMTO advisory May 14: Honduras-flagged vessel taken by 'unauthorised personnel whilst at anchor' 38nm NE of Fujairah, 'now bound for Iranian territorial waters'** (CONFIRMED on event — UKMTO primary; REPORTED on Iranian destination — investigating; NO claim of responsibility). BBC identified the vessel; Fox News reports possible 'floating armory.' Cycle's second confirmed Iranian-direction seizure on a vessel previously at anchor in UAE waters. **B2 MSV HAJ ALI sunk off Oman in suspected drone attack** (CONFIRMED sinking — Bloomberg, Business Standard, MEA primary; CLAIMED attribution). All 14 crew rescued by Omani Coast Guard. India MEA called the attack 'unacceptable' = strongest public Indian language on a Gulf incident in the cycle. **A10 VLCC TD3C TANKER RATE NOW CONFIRMED via Baltic Exchange Week 17 report at WS459.28 / TCE $467,408/day** — Lloyd's List $420-462K range earlier this week corroborated; ~4.2x late-January reading and ~12-15x pre-war ~$30-40K range. Markets dossier flags Week 18 partial: WS408.13 (Lloyd's 'steepest one-day plunge in over half-decade') — still ~9x pre-war. **The 'VLCC TD3C sustained above $200K/day for 5+ sessions' trigger added yesterday at watching: basis CONFIRMED ($467K far above $200K), 5-session sustain pending daily-print verification — upgrade to confirmed_basis_pending_sustain.** **A11 HORMUZ/RED SEA NEGATIVE SPACE HOLDS**: No fresh UKMTO advisory; Project Freedom Day 10 paused; CENTCOM redirect tally 61; Safesea Neha strike Day 5 of 7, no claim, no Qatar MoFA statement. **B3 MODI-MBZ ENERGY MoUs (LPG + Strategic Petroleum Reserves) + FUJAIRAH EXPANSION ALTERNATIVE-ROUTE PLAN PUBLICLY DISCLOSED** = India operational alternative-route engineering as Hormuz-bypass strategy. UAE Minister Sultan Al Jaber: 'energy has been weaponised by Hormuz being taken hostage effectively' = cleanest Gulf-state public language framing Hormuz situation as weaponisation by Iran. **EIA May STEO: Hormuz assumed effectively closed until late May; Gulf states shut in 10.5 MMbpd April; Brent $89 4Q26.** AWRP ~1% H&M (8x pre-war). Mokhber 'atomic-bomb' doctrine unchanged but now diplomatically isolated — Xi rhetorically attacked the toll-booth premise.",
-      "sources": [
-        "Times of Israel May 15 liveblog (joint statement primary, Hormuz language)",
-        "China MFA official readout fmprc.gov.cn 2026-05-14",
-        "CBS News liveblog",
-        "UKMTO advisory May 14 (Hui Chuan primary)",
-        "BBC (Hui Chuan vessel identification)",
-        "Fox News (floating armory)",
-        "Euronews",
-        "CBS News liveblog",
-        "Bloomberg (Haj Ali primary)",
-        "Business Standard (India MEA primary)",
-        "India MEA primary statement",
-        "Crescent Shift (vessel origin)",
-        "Baltic Exchange Week 17 Tanker Report (VLCC TD3C primary)",
-        "Lloyd's List Week 18 partial (operational primary)",
-        "The National (Abu Dhabi) — UAE Minister Sultan Al Jaber 'weaponised' language",
-        "Khaleej Times (LPG/SPR MoUs)"
-      ],
-      "verification": "Joint statement Hormuz 'must remain open' language = CONFIRMED multi-cluster (ToI primary + China MFA readout); Xi anti-toll-militarization framing = CONFIRMED (joint statement primary); Hui Chuan seizure = CONFIRMED ACTION (UKMTO primary), REPORTED on Iranian destination, NO claim of responsibility; Haj Ali sinking = CONFIRMED ACTION (Bloomberg + Business Standard + MEA primary), CLAIMED attribution; India MEA 'unacceptable' condemnation = CONFIRMED RHETORIC (MEA primary); VLCC TD3C $467,408/day = CONFIRMED via Baltic Exchange Week 17 (independent operational primary); Week 18 partial WS408.13 = REPORTED (Lloyd's List primary, basis confirmed but multi-session sustain still pending); Modi-MBZ Fujairah expansion = CONFIRMED (Business Standard + Khaleej Times + The National + Sultan Al Jaber direct primary)."
-    },
-    {
-      "date": "2026-05-14",
-      "headline": "**A8 NEGATIVE-SPACE CHAIN: Day 3/7 since May 11 Hodeidah unclaimed (no 2nd Red Sea incident); Day 4/7 since May 10 Safesea Neha Qatari EEZ strike (no 2nd strike); Project Freedom pause holds Day 9; CENTCOM redirect tally unchanged at 61; no 5th disabled Iranian-flagged tanker** (CONFIRMED ABSENCE — UKMTO + CENTCOM operational primary). **A9 BLOOMBERG MAY 13 SATELLITE: KHARG ISLAND OIL JETTIES EMPTY AGAIN** = second satellite snapshot of empty jetties this cycle, operational confirmation of Iranian export collapse without kinetic premium. The National (Abu Dhabi) carried sober analytical piece May 13 explicitly NOT attributing slick to Iran. **EIA confirmed (Bloomberg May 13): Hormuz oil flows fell nearly 30% in Q1 2026** = official-data confirmation. **B3 EIA MAY STEO: Hormuz assumed effectively closed until late May; Gulf states shut in 10.5 MMbpd April; Brent $89 4Q26.** Aramco CEO Nasser 2-5 ships/day carries forward. **VLCC TD3C ~$420-462K/day per Lloyd's List May 11 'in unchartered territory'** vs graph's last-recorded ~$100K — MAJOR escalation signal; paper-Brent at $105.68 vs spot VLCC at $420K = cleanest paper-physical divergence indicator we have. AWRP ~1% (8x pre-war). FBX13 China-Mediterranean $4,179/FEU week ending May 12 (-5% w/w). Mokhber 'atomic-bomb' Hormuz doctrine unchanged.",
-      "sources": [
-        "UKMTO 'Recent Incidents' (operational primary)",
-        "CENTCOM (redirect tally — held at 61)",
-        "Bloomberg 'Iran's Kharg Island Oil Jetties Empty Again, Satellite Shows' May 13 primary",
-        "Bloomberg 'Hormuz Oil Shipments Drop Nearly 30% in First Quarter, EIA Reports' May 13 primary",
-        "EIA May STEO PDF + landing page (primary)",
-        "World Oil 'Aramco, ADNOC quietly resume limited Hormuz crude exports'",
-        "Lloyd's List May 11 (VLCC TD3C 'in unchartered territory' ~$420-462K/day)",
-        "Baltic Exchange WS data (corroborator)",
-        "S&P Global / Strauss Center (AWRP ~1%)",
-        "Freightos FBX13 (container freight)",
-        "The National (Abu Dhabi) 'where did the slick come from'"
-      ],
-      "verification": "Negative-space chain = CONFIRMED ABSENCE multi-source; Bloomberg Kharg jetties empty + EIA Hormuz Q1 -30% = CONFIRMED satellite + official forecaster primary; EIA May STEO = CONFIRMED (EIA primary); VLCC TD3C $420-462K/day = REPORTED (Lloyd's List primary — operationally large figure flagged for cross-verification)."
-    },
-    {
-      "date": "2026-05-13",
-      "headline": "A8 NEGATIVE-SPACE INTELLIGENCE: NO 2ND RED SEA INCIDENT in 7-day window from May 11 Hodeidah (Day 2 of 7, single unclaimed remains); NO 2ND STRIKE inside Qatari EEZ following May 10 Safesea Neha (Day 3 of 7); Project Freedom pause holds Day 8 since May 5-6; CENTCOM redirect tally unchanged at 61; NO 5TH disabled tanker. UKMTO 'Recent Incidents' page does not log second incident through May 12-13 morning. The non-event IS the intelligence: 75 days into Hormuz blockade + 8 days into Project Freedom pause, kinetic ceiling held through diplomatic-rejection shock — Iran did NOT use opening to escalate maritime pressure on either Qatari coastline or Bab el-Mandeb (predictable retaliation playbook). **A9 KHARG SLICK CONSOLIDATED — Copernicus Sentinel-1/-2/-3 imagery now amplified by Al Jazeera + ynet + Jerusalem Post + Conflict and Environment Observatory: ~45 sq km west of Kharg, May 6-8 detection (largest since war began). Iranian VP Shina Ansari denied Iranian-facility origin: 'foreign tanker dumping ballast water.' Fox May 11-12 second ~12-20 sq km slick is consistent with drift south rather than separate origin event = re-appearance trigger AMBIGUOUSLY ACTIVATED (drift ≠ re-appearance, ballast counter-claim not formally falsified). Western wires in slow-amplification mode on attribution.** **B3 ARAMCO STRATEGIC NARRATIVE CONFIRMED: Q1 +25% off East-West rerouting (Yanbu 770K bpd Jan-Feb → ~4 MMbpd late March → 3.66-4 MMbpd through mid-May; East-West pipeline pushed to 7 MMbpd); Aramco + ADNOC reportedly 'quietly resumed limited Hormuz crude exports' (World Oil May 8). Saudi-Emirati supply ~90% preserved despite headline -96% non-Iranian Hormuz throughput collapse. Explains why Brent has not gone parabolic.** **A13 KOREA HMM NAMU MAY 4: South Korean government CONFIRMED external strike — TWO unidentified airborne objects struck stern at ~1 min intervals ('double-tap' drone pattern); mine + torpedo formally ruled out. FM Cho Hyun May 13: 'too early to determine who was responsible.' PPP opposition criticised government for omitting Iran. Seoul institutionally maintaining 'various actors' hedge.** Aramco CEO Nasser '2-5 ships/day, market won't normalise until 2027 if Hormuz persists past mid-June' carries forward. AWRP unchanged ~1% H&M / 7-day (8x pre-war 0.1-0.15% baseline); 'AWRP normalisation toward 0.5% by May 16' Day 7 of 10 — FAILING HARDER. VLCC TD3C ~$100K/day; Frontline +1.0% 1D / +10.6% 1M / +28.6% 3M (insurers + tanker market HAVE NOT bought de-escalation). FBX13 China/E.Asia → Med $4,179 week ending May 12 (-5% w/w) — tanker-container divergence persists.",
-      "sources": [
-        "UKMTO 'Recent Incidents' operational primary",
-        "Lloyd's List 'Reported Houthi attacks in the Red Sea' operational",
-        "Crisis Group Red Sea visual map",
-        "Al Jazeera + Times of Israel + Jerusalem Post (Kharg slick amplification)",
-        "Conflict and Environment Observatory NGO",
-        "Copernicus Sentinel-1/2/3 operational primary",
-        "CNBC Aramco Nasser interview",
-        "Discovery Alert 'Aramco ADNOC Hormuz adapting'",
-        "World Oil 'Aramco ADNOC quietly resume limited Hormuz crude exports'",
-        "Korea Herald 'Fired upon in Hormuz' editorial + FM Cho remarks",
-        "Seoul Economic Daily 'Presidential Office Condemns HMM Namu'",
-        "UPI 'South Korea says HMM Namu hit by two unidentified objects'",
-        "Washington Times 'Seoul on the spot after likely drone damage'",
-        "Insurance Journal industry",
-        "EIA Strait of Hormuz factsheet (official, non-Iranian crude data)",
-        "Freightos (FBX13 container rate)"
-      ],
-      "verification": "NO 2nd Red Sea incident Day 2 of 7 + NO 2nd Qatari EEZ Day 3 of 7 = CONFIRMED ABSENCE (UKMTO + Lloyd's List); Project Freedom pause Day 8 + CENTCOM 61 unchanged = CONFIRMED ABSENCE; Kharg slick ~45 sq km May 6-8 = CONFIRMED Copernicus (multi-amplified); second slick consistency with drift = PARTIALLY CONFIRMED (Fox primary, mainstream lagging); re-appearance trigger AMBIGUOUSLY activated; HMM Namu external strike + double-tap drone pattern = CONFIRMED (Seoul official briefing); attribution = UNCONFIRMED (FM Cho hedge); Aramco Q1 +25% + ADNOC quiet Hormuz resume = CONFIRMED (corporate financials + World Oil industry); EIA non-Iranian Hormuz ~500K bpd avg = CONFIRMED (EIA primary)."
-    },
-    {
-      "date": "2026-05-12",
-      "headline": "HORMUZ THROUGHPUT DETERIORATED TO 2-5 SHIPS/DAY PER ARAMCO CEO NASSER MAY 11 (vs ~6/day May 10, ~70 pre-war); 100M bbl/week lost; 880M cumulative; market won't normalize until 2027 if disruption persists past mid-June. CENTCOM tally 58→61 redirected + 4 disabled holds (3 redirects in 48h below early-May pace — Project Freedom remains paused since May 5/6); footprint USS Bush + USS Lincoln + 20+ warships + 200+ aircraft + 15,000 troops; USS Gerald R. Ford transiting Gibraltar westbound (Day 322, home to Norfolk); USS Boxer ARG + 11th MEU imminent arrival; George Washington CSG departed Yokosuka May 10 — footprint holding/reinforcing despite Ford rotation. **VLCC Agios Fanourios I (Iraqi Basra crude bound Vietnam Nghi Son) reversed course back into Gulf of Oman at ~5 knots without crossing US blockade line** = confidence-collapse signature even for compliant non-Iranian VLCCs (Bloomberg + gCaptain). SECOND KHARG SLICK DETECTED MAY 11-12 (~12-20 sq km, persistent; UN warned 'major disaster' risk) — Kharg re-appearance trigger ACTIVATED, hypothesis tilt toward storage-overflow/regime-dumping strengthened. Second commercial vessel attack inside Qatari EEZ trigger NOT TRIPPED Day 2 of 7. VESSEL ATTRIBUTION OF MAY 10 STRIKE CLARIFIED: Marshall Islands-flagged Safesea Neha, US-managed Safesea Group (NJ — UN peacekeeping/WFP/GSA logistics); 2nd Safesea vessel hit cycle (Safesea Vishnu March 12 Iraqi waters killed one Indian crew); NO claim; Pravda attribution to two Iranian UAVs UNCONFIRMED by Western forensics. **HOUTHI DAY 80 RED SEA QUIET POSSIBLY BROKEN MAY 11** — UKMTO confirmed multiple explosions near vessel 130km SW of Hodeidah; no injuries; vessel briefly 'not under command'; NO Houthi claim (the non-claim itself a signal). UAE LAVAN APRIL 8 STRIKE CONFIRMED VIA WSJ MAY 11 — 55,000 bpd capacity offline months (UAE Mirage 2000-9 aircraft). New OFAC sanctions wave May 11-12: 12 entities (4 HK, 4 UAE, 1 Oman) + 3 individuals on IRGC Shaid Purja'fari + Golden Globe Turkey-cover company. AWRP unchanged ~1% H&M / 7-day (8x pre-war 0.1-0.15%) — insurers have NOT bought peace story; trigger 'AWRP normalization toward 0.5% by May 16' Day 6 of 10 FAILING HARD. Brent $105.58 May 12 (+1.3% 1D). Container freight separately: FBX13 China/East Asia → Mediterranean = $4,179 week ending May 12 (-5% w/w) — capacity has caught up; tanker market diverging from container market.",
-      "sources": [
-        "CNBC + Yahoo Finance + Eastern Herald (Aramco CEO Nasser quotes)",
-        "Bloomberg + gCaptain (Agios Fanourios)",
-        "CENTCOM official press releases",
-        "TWZ + Atlantic Council asset tracker (carrier disposition)",
-        "Fox News (second Kharg slick)",
-        "Iran International (Iran Oil Terminals + Bushehr MP denial)",
-        "UKMTO advisory (Hodeidah vessel)",
-        "Times of Israel + Yemen Press + AP-sourced wires",
-        "IndexBox + FreightWaves + Seatrade Maritime (Safesea Neha vessel ID)",
-        "Pravda (Russian state, attribution claim UNCONFIRMED)",
-        "WSJ primary (UAE Lavan)",
-        "Treasury primary (OFAC May 11-12)",
-        "Lloyd's List Intelligence",
-        "S&P Global / Strauss Center (AWRP)",
-        "Freightos (FBX13 container rate)"
-      ],
-      "verification": "Hormuz 2-5 ships/day = CONFIRMED industry-CEO authority (Nasser primary multi-source); CENTCOM 58→61 = CONFIRMED ACTION; Agios Fanourios U-turn = CONFIRMED (Bloomberg primary, gCaptain secondary); Second Kharg slick = PARTIALLY CONFIRMED (Fox primary, mainstream wires lagging, commercial-satellite verification pending); Safesea Neha attribution = CONFIRMED (IndexBox/FreightWaves/Seatrade); Hodeidah vessel attack = CONFIRMED ACTION (UKMTO primary) + UNCONFIRMED attribution; UAE Lavan April 8 = REPORTED (WSJ primary single-source operational, UAE has not acknowledged); OFAC May 11-12 = CONFIRMED (Treasury primary); AWRP unchanged = CONFIRMED multi-source baseline"
-    },
-    {
-      "date": "2026-05-10",
-      "headline": "BULK CARRIER STRUCK BY UNKNOWN PROJECTILE 23NM NE OF DOHA SUNDAY MORNING (NEW — FIRST COMMERCIAL VESSEL ATTACK SINCE CMA CGM SAN ANTONIO MAY 5; FIRST NEAR QATAR'S COAST; SMALL FIRE EXTINGUISHED, NO CASUALTIES; UKMTO WARNING NOTICE; NO CLAIM OF RESPONSIBILITY); KHARG ISLAND SATELLITE-CONFIRMED OIL SLICK MAY 6-8 (NEW — FIRST HARD-DATA SIGNAL BLOCKADE BITING AT PRODUCTION-EXPORT INTERFACE; CAUSE CONTESTED — Iran blames European tanker waste, Fox-quoted experts suggest storage-overflow dumping); CENTCOM PRECISION TALLY 58 VESSELS REDIRECTED + 4 IRANIAN-FLAGGED TANKERS DISABLED SINCE APRIL 13 (UPDATED — refines yesterday's >70-tankers-held framing; 4 disabled tankers: M/T Hasna May 7, M/T Sea Star III + M/T Sevda May 8, 4th identity not publicly disclosed); LLOYD'S LIST TRANSIT ~6 VESSELS/DAY VS ~60 BASELINE (latest data point); ~1,500 COMMERCIAL VESSELS ANCHORED. Bulk carrier strike geographic significance is acute: 23nm NE of Doha is well inside Qatar's EEZ, immediately offshore from Hamad Port and Ras Laffan, ordinarily considered the safest waters in the Persian Gulf. Three reading frames operationally consistent: (i) IRGC pressure-tactic on mediator coastline concurrent with al-Thani Miami meeting; (ii) Houthi-style proxy operation (LOW probability — wrong geometry); (iii) misfire/accidental engagement. AWRP unchanged at ~1% H&M / 7-day baseline (6-8x pre-war norm) — insurers have NOT bought peace story; trigger 'AWRP normalization toward 0.5% by May 16' Day 4 of 10 — failing harder. Brent close $101.29 May 8 (yfinance); Friday range $96.07 → $103.96 = trinary-regime signature oscillation. Lloyd's reports ~10% of normal Hormuz throughput. UK-France conditional Hormuz mission framework UNCHANGED. The trinary regime is now stabilizing into sustainable operational pattern: US blockade fully in force, Iran selectively enforcing PGSA rules, both sides engaging kinetically against each other's vessels and now near mediator coastline.",
-      "sources": [
-        "UKMTO Warning notice (bulk carrier near Doha)",
-        "AP / Boston Globe (bulk carrier wire)",
-        "Times of Israel live blog",
-        "Anadolu Agency",
-        "BNO News",
-        "CNN",
-        "Copernicus Sentinel-1/2/3 imagery (Kharg slick, primary)",
-        "Jerusalem Post (Kharg satellite)",
-        "Iran International (Iran lawmaker denial via Maariv)",
-        "NewsNation",
-        "Fox News (regime-dumping framing)",
-        "France 24",
-        "Anadolu Agency (Kharg)",
-        "US CENTCOM official statement May 9",
-        "Washington Examiner",
-        "ANI / Tribune India",
-        "Gulf News",
-        "Middle East Monitor",
-        "Lloyd's List Intelligence (transit data, primary)",
-        "S&P Global (AWRP)",
-        "Strauss Center insurance market tracker"
-      ],
-      "verification": "Bulk carrier strike near Doha = CONFIRMED ACTION (UKMTO primary, multi-source); perpetrator UNKNOWN (no party has claimed); Kharg satellite slick = CONFIRMED imagery (Copernicus + multiple Western corroborators); CAUSE CONTESTED (Iran lawmaker via Iran International/Maariv vs Fox News-quoted unnamed experts — neither side independently confirmed); CENTCOM 58/4 tally = CONFIRMED ACTION (CENTCOM primary, multi-source); Lloyd's List transit + 1,500 anchored = CONFIRMED OPERATIONAL FACT (Lloyd's + CNN); AWRP unchanged = CONFIRMED multi-source baseline"
-    },
-    {
-      "date": "2026-05-09",
-      "headline": "ZERO HORMUZ TRANSITS MAY 7 + ~1,500 VESSELS ANCHORED IN PERSIAN GULF (largest standstill of cycle); CENTCOM DISCLOSED >70 TANKERS HELD UNDER BLOCKADE + 20 WARSHIPS, 200 AIRCRAFT, 15,000 TROOPS ENFORCING; SECOND DAY OF US TANKER STRIKES (M/T SEA STAR III + M/T SEVDA, MAY 8); MOKHBER 'ATOMIC-BOMB' DOCTRINE INSTITUTIONALIZES SELECTIVE HORMUZ CONTROL AS PERMANENT STRATEGIC ASSET. The 7→0 transit count is a meaningful operational deterioration. AWRP unchanged at ~1% H&M (6-8x pre-war), 'AWRP normalization toward 0.5% by May 16' trigger Day 3/10 — failing. Mokhber (described as Mojtaba's adviser): 'Strait of Hormuz represents an opportunity as precious as an atomic bomb'; pledged Iran 'will change the [legal] regime of this strait — through international law if possible, and unilaterally if not' — first leadership-adjacent voice publicly endorsing unilateral codification of selective Hormuz control as permanent strategic asset; substantively contradicts MOU's 'BOTH sides lift Hormuz blockades' provision. CENTCOM blockade scale formally disclosed for first time: '20 warships stocked with over 200 aircraft and 15,000 troops are carrying out the blockade, which remains fully in effect.' Brent close $101.73 May 8 (+1.66% 1D); Friday range $96.07 → $103.96 = trinary-regime signature oscillation. France Charles de Gaulle CSG remains pre-positioned in Red Sea / Gulf of Aden — UK-France conditional Hormuz mission framework UNCHANGED at 51-nation Paris summit (April 17) framework.",
-      "sources": [
-        "Lloyd's List Intelligence (transit data, primary)",
-        "CNN (citing Lloyd's List + anonymous shipping industry source on 1,500-vessel figure)",
-        "Gulf News (Iran defies maritime law)",
-        "HormuzStraitMonitor.com (operational tracker)",
-        "Times of Israel liveblog (Mokhber primary)",
-        "L'Orient Today (Mokhber)",
-        "Middle East Eye (Mokhber)",
-        "Deccan Herald (Mokhber)",
-        "UPI primary on CENTCOM disclosure",
-        "Stars and Stripes (military daily)",
-        "NPR live updates",
-        "CBS News live updates",
-        "Fox News liveblog",
-        "TWZ (defense-niche sourcing)",
-        "S&P Global (AWRP)",
-        "Strauss Center insurance market tracker",
-        "USNI / NBC / Defense News / Naval News (French CSG status)"
-      ],
-      "verification": "Hormuz transit data + 1,500 vessel anchored = CONFIRMED OPERATIONAL FACT; Mokhber 'atomic-bomb' speech = CONFIRMED RHETORIC/THREAT (institutional, multi-source primary); CENTCOM blockade scale + tanker disabling = CONFIRMED ACTION (CENTCOM primary, multi-source); AWRP unchanged = CONFIRMED multi-source baseline; French CSG = CONFIRMED PREPARATION POSTURE (no operational deployment to Hormuz)"
-    },
-    {
-      "date": "2026-05-07",
-      "headline": "MOU FRAMEWORK INCLUDES EXPLICIT 'BOTH SIDES LIFT HORMUZ BLOCKADES'; IRAN SIGNALED FIRST UNCONDITIONAL REOPENING OFFER OF CYCLE — PBS/AP/AL JAZEERA cite Iranian officials offering to 'reopen Strait of Hormuz if US lifts blockade and war ends'; IRGC Navy added 'safe transit ensured with new procedures.' BUT operational reality lags: 5-6 vessels/day vs 138 norm; AWRP at 0.8-1% (still 6-8x baseline); CMA CGM San Antonio struck May 5 by cruise missile (CBS-attribution to Iran, IRGC has NOT claimed). France Charles de Gaulle CSG transits Suez to Red Sea/Gulf of Aden — first European naval shift of cycle; Macron called for Hormuz reopening AND spoke with Pezeshkian. Brent collapsed -7% May 6 to ~$103 on MOU scoop; Goldman Q2 cut to $90; World Bank $86 average for 2026. VLCC TD3C steepest 1-day drop in 5+ years on MOU news ('lead balloon' — Lloyd's List).",
-      "sources": [
-        "Axios primary scoop (MOU)",
-        "PBS NewsHour (Iran reopening offer)",
-        "AP",
-        "Al Jazeera",
-        "IRNA",
-        "Lloyd's List (AWRP, VLCC)",
-        "Strauss Center (transit data)",
-        "Strait of Hormuz Live Tracker",
-        "CMA CGM company statement",
-        "CBS News (Iran attribution)",
-        "Naval News (French CSG)",
-        "Goldman Sachs Q2 research note",
-        "World Bank energy report April 28"
-      ],
-      "verification": "MOU 'both sides lift Hormuz blockades' provision = REPORTED (Axios, multi-corroborated); Iran reopening offer = REPORTED→CONFIRMED (PBS/AP direct quotes); Operational data (transit, AWRP, VLCC) = CONFIRMED (Lloyd's List, Strauss Center, Hormuz tracker); CMA CGM strike = CONFIRMED action, CLAIMED Iran attribution; French CSG = CONFIRMED (French armed forces primary)"
-    },
-    {
-      "date": "2026-05-06",
-      "headline": "PROJECT FREEDOM PAUSED MAY 5; BLOCKADE 'REMAINS IN FULL FORCE' PER TRUMP TRUTH SOCIAL — BIFURCATION: KINETIC-WAR PROBABILITY DOWN (BRENT -4%) BUT PHYSICAL CHOKEPOINT PERSISTS (FRONTLINE +2.8%, BOAT +3.5%, VLCC TD3C ~$420-474K/DAY); BRENT <$115 CHAIN DAY 5/5 COMPLETE",
-      "sources": [
-        "Trump Truth Social May 5",
-        "Pentagon press conference",
-        "Lloyd's List VLCC pricing",
-        "Argus Media AWRP",
-        "CNBC oil prices",
-        "TradingEconomics Brent"
-      ],
-      "verification": "CONFIRMED Trump primary + multi-source operational price data; bifurcation framework verified across crude (down) vs tanker (up) divergence"
-    },
-    {
-      "date": "2026-05-05",
-      "headline": "HORMUZ KINETIC-CONTESTED MAY 4: IRAN MULTI-AXIS STRIKE + US PROJECT FREEDOM ARMED-ESCORT TRANSIT; 6 IRANIAN BOATS SUNK; 2 US DESTROYERS TRANSITED; SK HMM NAMU DAMAGED IN-STRAIT",
-      "sources": [
-        "CENTCOM (Adm. Cooper)",
-        "Stars and Stripes",
-        "Al Jazeera",
-        "CNN",
-        "Bloomberg",
-        "Times of Israel",
-        "Korean MFA"
-      ],
-      "verification": "CONFIRMED multi-source operational + primary military"
-    },
-    {
-      "date": "2026-05-03",
-      "headline": "IRAN 14-POINT PROPOSAL INCLUDES 'NEW HORMUZ GOVERNANCE MECHANISM' — DAY 65 DUAL BLOCKADE PERSISTS",
-      "sources": [
-        "NPR",
-        "Al Jazeera"
-      ],
-      "verification": "CONFIRMED"
-    },
-    {
-      "date": "2026-04-30",
-      "headline": "TRUMP REJECTS HORMUZ-FIRST ON RECORD VIA AXIOS — 'BLOCKADE MORE EFFECTIVE THAN BOMBING",
-      "sources": [
-        "Axios",
-        "Bloomberg"
-      ],
-      "verification": "CONFIRMED Trump-Axios direct quote + CONFIRMED CEN"
-    },
-    {
-      "date": "2026-04-29",
-      "headline": "HORMUZ NOW MULTILATERAL-INSTITUTIONAL: IRAN FORMAL UN PROTEST + QATAR PUBLIC ENGAGEMENT + TRUMP EXTENDED-BLOCKADE PREP —",
-      "sources": [
-        "ANI News",
-        "Business Standard"
-      ],
-      "verification": "CONFIRMED: Iran UN protest (Iranian FM statement),"
-    },
-    {
-      "date": "2026-04-28",
-      "headline": "IRAN'S HORMUZ-FIRST PROPOSAL VIA PAKISTAN — TEHRAN OFFERS OPERATIONAL CONTROL OF HORMUZ AS BARGAINING CHIP, TRUMP UNLIKE",
-      "sources": [
-        "Axios",
-        "PBS"
-      ],
-      "verification": "CONFIRMED proposal delivery + CONFIRMED kinetic pa"
-    }
-  ],
-  "historical_summaries": [
-    {
-      "period": "2026-03",
-      "summary": "12 signals. IRGC announced Hormuz closed to US, Israeli, and Western allied ships | Dallas Federal Reserve described closure as 'largest disruption to energy supply since the 1970s energy crisis' and 'largest in the history | Mojtaba Khamenei's first statement confirmed Hormuz would remain closed to pressure Iran's enemies",
-      "signal_count": 12,
-      "auto": true
-    },
-    {
-      "period": "2026-04",
-      "summary": "64 signals. WSJ paradigm shift CORROBORATED by CNN: 'Trump administration believes it will have to end Iran war with oil chokepoint still closed | Al-Salmi VLCC attacked at Dubai port anchorage — 31 nautical miles NW of Dubai, OUTSIDE Hormuz proper | CONFIRMED: Hormuz toll law passed FULL Majlis (not just committee)",
-      "signal_count": 64,
-      "auto": true
-    }
-  ]
+  {
+   "condition": "US attempts naval escort or forced opening of Hormuz",
+   "status": "watching",
+   "cascade": [
+    "iran",
+    "brent-crude",
+    "united-states",
+    "shipping-tankers"
+   ],
+   "added": "2026-03-23"
+  },
+  {
+   "condition": "War risk insurance for Gulf transits breaks below 0.5% hull value (normalization threshold) — REFRAMED 2026-05-06: 'AWRP normalization toward 0.5% within 10 sessions' is now the diplomatic-track-durability test under the Trump pause framework",
+   "status": "watching",
+   "cascade": [
+    "shipping-tankers",
+    "brent-crude",
+    "marine-war-risk-insurance"
+   ],
+   "added": "2026-04-16",
+   "reframed": "2026-05-06",
+   "note_2026-06-10": "STAYS WATCHING — and a correction-grade RE-BASE: Gulf war-risk cover is now ~4% of hull value per 7-day transit (The National, 3 Jun), NOT the ~1% carried in recent briefs. Far from the 0.5% normalization threshold; cover RISING, not normalizing. The US directed the DFC to provide a political-risk reinsurance facility up to $40bn to keep Hormuz shipping moving.",
+   "note_2026-06-16": "2026-06-16: Premiums (~0.5% of cargo, up from ~0.2%) now signalled to DECLINE and VLCC rates easing off the ~$50K/day Israel-strike spike — the unwind is BEGINNING from the physical side, but not yet below 0.5% normalized and strait still closed. STAYS watching; convergence underway.",
+   "note_2026-06-17": "2026-06-17: Blockade lift should drive sharp insurance/VLCC normalization, but no confirmed sub-0.5% level yet. STAYS watching; unwind accelerating.",
+   "note_2026-06-19": "2026-06-19: First transits + signing should start normalization; insurers easing but not yet below pre-war 0.2-0.5%. STAYS watching."
+  },
+  {
+   "condition": "Iran formally reopens Hormuz to all traffic within 14-21 days of May 5 pause (by 2026-05-26) — would collapse tanker spot rates -15-25%",
+   "status": "resolved",
+   "cascade": [
+    "shipping-tankers",
+    "marine-war-risk-insurance",
+    "brent-crude",
+    "india"
+   ],
+   "added": "2026-05-06",
+   "note_2026-06-02": "EXPIRED UNTRIPPED. The deadline (2026-05-26) passed with no reopening, and the vector has since INVERTED: on 1 June Iran threatened to 'completely close' Hormuz (CLAIMED escalation from selective control). Operationally the strait remains at ~4 ships/day (CNN '94 days of paralysis'). Status moved `watching` -> `resolved` (expired untripped) — a confirmed non-event on the reopening side; the live risk is fuller closure, not reopening."
+  },
+  {
+   "condition": "Second commercial vessel attack within 7 days inside Qatari EEZ following Sunday May 10 bulk carrier strike — confirms IRGC graduated-pressure-on-mediator-coastline pattern",
+   "status": "watching",
+   "cascade": [
+    "qatar",
+    "iran",
+    "strait-of-hormuz",
+    "shipping-tankers",
+    "marine-war-risk-insurance",
+    "brent-crude"
+   ],
+   "added": "2026-05-10"
+  },
+  {
+   "condition": "Kharg Island slick re-appears on subsequent satellite passes (Copernicus Sentinel) within 14 days — confirms Iran storage-overflow / regime-dumping hypothesis vs European-tanker-waste counter-claim",
+   "status": "activated",
+   "cascade": [
+    "iran",
+    "brent-crude",
+    "strait-of-hormuz",
+    "shipping-tankers"
+   ],
+   "added": "2026-05-10",
+   "activated": "2026-05-12",
+   "activation_note": "Second slick detected May 11-12 (~12-20 sq km, smaller but persistent; UN warned 'major disaster' risk). Re-appearance has now occurred. Hypothesis tilt toward storage-overflow / regime-dumping has strengthened modestly; CAUSE remains formally contested (Iran maintains European tanker waste claim).",
+   "note_2026-06-11": "STAYS WATCHING. Trump's 11 Jun Truth Social Kharg-seizure post is the strongest rhetorical signal yet but was walked back same-cycle ('not sure America has the stomach') with NO force-posture/amphibious-group reporting. Window closes 2026-06-15; watch daily through Sunday.",
+   "note_2026-06-12": "STAYS WATCHING — probability fallen with the cancelled strikes and the deal track. Window closes 15 Jun."
+  },
+  {
+   "condition": "Second Red Sea shipping incident within 7 days of May 11 Hodeidah-area UKMTO advisory — would collapse Houthi non-action read",
+   "status": "untripped_expired",
+   "cascade": [
+    "houthis",
+    "iran",
+    "shipping-tankers",
+    "brent-crude",
+    "red-sea"
+   ],
+   "added": "2026-05-12",
+   "expired": "2026-05-18",
+   "expiry_note": "Day 7 of 7 closes Monday May 18 with no second incident confirmed. UKMTO recent-incidents page shows no new advisory through Monday morning IST; MARAD 2026-006 stands without supplement. **Houthi non-action during a publicly-hardening US kinetic-preparation phase** (NYT preparation report May 16, Trump 'clock is ticking' May 17, Trump-Netanyahu call May 17, Saudi drone interception May 17, UAE Barakah drone strike May 17) **is the cleanest behavioural divergence from the March-April pattern** when Houthi attacks compounded with US escalation rhetoric. The May 11 Hodeidah unclaimed incident now reverts to 'single unclaimed event' rather than start of a new pattern. Pair with TASS/Xinhua non-amplification of Trump posts — coordinated quietism across Iran's proxy and patron networks against US kinetic noise. The investor read: Iran signalling escalation control, not escalation."
+  },
+  {
+   "condition": "US ground operation against Kharg Island launched within 30 days of NYT preparation report (by 2026-06-15)",
+   "status": "watching",
+   "cascade": [
+    "iran",
+    "united-states",
+    "israel",
+    "brent-crude",
+    "strait-of-hormuz",
+    "marine-war-risk-insurance",
+    "shipping-tankers"
+   ],
+   "added": "2026-05-17",
+   "note": "NYT (Friday May 15 / Saturday May 16, citing two Middle Eastern officials) REPORTED ground forces to seize Kharg Island as one of two options for renewed US strikes. Kharg handles up to 90% of Iranian oil exports. Iran has REPORTEDLY moved air defenses to Kharg in recent weeks. If operation launches, Brent gaps +$8-15 toward $130-145 per markets-dossier reversibility map; AWRP doubles; VLCC rates re-rate.",
+   "note_2026-06-10": "STAYS WATCHING. No Kharg ground operation; the US response to the Apache downing was air/missile 'warning-shot' strikes on ~20 Iranian coastal air-defense sites near the Strait, not a ground op."
+  },
+  {
+   "condition": "Iran-permitted Chinese transit exceeds 50 vessels/week sustained 2 weeks (the selective-transit instrument becomes a structural rather than diplomatic-event signal)",
+   "status": "watching",
+   "cascade": [
+    "iran",
+    "china",
+    "strait-of-hormuz",
+    "brent-crude"
+   ],
+   "added": "2026-05-17",
+   "note": "Day 3 of 14 measurement window. No incremental vessel-count update published over the weekend. If sustained, Iran's selective Hormuz instrument is operationally durable, not a one-week diplomatic gesture."
+  },
+  {
+   "condition": "Hormuz remains under Iranian selective control even within ceasefire framework — ACTIVE 2026-04-08: Iran's 'controlled passage via coordination with armed forces' framing in the ceasefire text formali",
+   "status": "active",
+   "cascade": [
+    "brent-crude",
+    "india",
+    "shipping-tankers",
+    "inr-usd"
+   ],
+   "added": "2026-03-31",
+   "note_2026-06-10": "STAYS active. The 7-10 June US-Iran kinetic exchange occurred AROUND the Strait (Apache downing, US coastal-air-defense strikes, Iran's Gulf strikes launched from the region) but did not change the selective-control structure; ISW (6 Jun) reads Iran's 'protection racket' continuing.",
+   "note_2026-06-11": "STAYS active. The 10 Jun 'complete closure' declaration supersedes the selective-control framing as POLICY (no nationality exceptions), but enforcement is unconfirmed and CENTCOM says transits continue -- the operative regime on the water is unchanged. Stays active pending operational confirmation of the closure."
+  },
+  {
+   "condition": "Physical-futures gap closes below $10/bbl (Dated Brent converges to Brent futures)",
+   "status": "watching",
+   "cascade": [
+    "brent-crude",
+    "shipping-tankers",
+    "marine-war-risk-insurance"
+   ],
+   "added": "2026-04-18"
+  },
+  {
+   "condition": "Operationally-confirmed ENFORCEMENT of the 10 Jun complete-closure declaration -- Iran actually fires on / disables a transiting NEUTRAL vessel, verified by UKMTO or an independent maritime tracker (not an IRGC claim) -- converts the declaration from policy to action",
+   "status": "active",
+   "cascade": [
+    "brent-crude",
+    "marine-war-risk-insurance",
+    "shipping-tankers",
+    "india",
+    "vix"
+   ],
+   "added": "2026-06-11",
+   "note": "As of 11 Jun the closure is a DECLARATION; the only enforcement is the IRGC's uncorroborated 2-tanker claim, which CENTCOM contradicts. This trigger fires only on operationally-verified enforcement against a neutral hull -- the event that would convert the dead war-premium into a violent Brent gap toward $110+ and double AWRP. The market is positioned for choreography; this is the un-priced tail.",
+   "note_2026-06-12": "STAYS WATCHING. No new operationally-confirmed strike on a neutral hull this window; the blockade stays 'in full force until finalized' but the deal track lowers near-term enforcement-escalation risk.",
+   "note_2026-06-16": "2026-06-16: No new enforcement action; ceasefire holding. De-escalation, no fresh closure-enforcement signal.",
+   "note_2026-06-17": "2026-06-17: Superseded — blockade now lifting, not enforcing closure.",
+   "note_2026-06-22": "2026-06-22: Iran DECLARED closure (20 Jun) but NO operational enforcement — 55 ships transited. STAYS watching — fires only if Iran actually fires on/turns back a vessel.",
+   "note_2026-06-23": "2026-06-23: Still no Iranian enforcement — dark vessels are shipowner caution, not interdiction. STAYS watching.",
+   "note_2026-06-26": "2026-06-26: ACTIVATED watching->active. IRGC turn-backs 25 Jun are CONFIRMED ACTION — Windward corroborated 5 vessels turned + 1 dark, matching the IRGC claim (2 sources, operational). Distinct from the 20 Jun verbal 'closure' (which CENTCOM refuted): this time vessels were actually turned back. Partial enforcement, not full blockade (43 transits still occurred).",
+   "note_2026-06-27": "2026-06-27: Escalated — the IRGC enforcement (turn-backs) led to a cargo-ship drone attack and a US retaliatory strike. Stays active; now part of a kinetic cycle.",
+   "note_2026-07-04": "2026-07-04: STAYS active — the 27-Jun Kiku drone strike was the last CONFIRMED enforcement act (operational, CENTCOM/AP-verified). Since the 28-29 Jun stand-down: zero confirmed enforcement incidents in 6 days; IRGC route threats are RHETORIC. De-activation condition: 14 days without an enforcement incident AND war-risk premium softening (Marsh says underwriters want 2-4 weeks)."
+  }
+ ],
+ "top_edges": [
+  {
+   "to": "iran",
+   "type": "jun8_10_iran_downed_us_apache_over_hormuz_ran_strait_and_israel_axes_separately_until_apache_event_refused_them_protection_racket_continues_isw_larak_island_warning_shots_no_new_closure_act",
+   "weight": 10.0,
+   "directness": 1,
+   "last_activated": "2026-06-11",
+   "activation_count": 58,
+   "context": "2026-06-11: Iran's top joint military command formally declared 'complete closure' of Hormuz (no nationality exceptions) -- ends the selective-control regime as POLICY; enforcement CLAIMED/contested (CENTCOM says transits continue)."
+  },
+  {
+   "to": "united-states",
+   "type": "jun8_10_strait_locus_of_us_iran_kinetic_exchange_apache_downed_over_hormuz_us_strikes_on_iranian_coastal_air_defense_radar_ground_control_near_strait_plus_dfc_40bn_reinsurance_facility_for_hormuz_shipping",
+   "weight": 10.0,
+   "directness": 1,
+   "last_activated": "2026-06-10",
+   "activation_count": 6,
+   "context": "2026-06-10: The Strait became the locus of the new US-Iran exchange — Iran downed a US Apache over Hormuz (8 Jun), US struck Iranian coastal air-defense/radar/ground-control near the Strait (9 Jun, 'warning shot'). The US also directed the DFC to provide a political-risk reinsurance facility up to $40bn to keep Hormuz shipping moving. CONFIRMED action; operational structure unchanged."
+  },
+  {
+   "to": "brent-crude",
+   "type": "complete_closure_threat_jun1_re_priced_brent_plus_7_3_pct_intraday_to_97_then_faded_to_94_5_risk_premium_re_entry_not_supply_disruption_throughput_unchanged",
+   "weight": 10.0,
+   "directness": 1,
+   "last_activated": "2026-06-13",
+   "activation_count": 56,
+   "context": "2026-06-13: A signed deal reopens Hormuz but normalization is slow (demining/restart) and Iran keeps a ~$1/bbl service fee — the oil downside is capped above the pre-war baseline."
+  },
+  {
+   "to": "natural-gas-lng",
+   "type": "supply_chokepoint",
+   "weight": 10,
+   "directness": 1,
+   "last_activated": "2026-04-02",
+   "activation_count": 11
+  },
+  {
+   "to": "shipping-tankers",
+   "type": "route_disruption_vlcc_td3c_467k_per_day_baltic_week17_confirmed",
+   "weight": 10,
+   "directness": 1,
+   "last_activated": "2026-06-12",
+   "activation_count": 39,
+   "context": "2026-06-12: Reopening read as VOLUME-bullish for tankers (Frontline +9.8%) — idled-fleet re-employment; physical rates still elevated until signing."
+  },
+  {
+   "to": "india",
+   "type": "supply_dependency",
+   "weight": 10,
+   "directness": 1,
+   "last_activated": "2026-04-19",
+   "activation_count": 15
+  },
+  {
+   "to": "saudi-arabia",
+   "type": "bypass_dependency_with_petchem_transmission",
+   "weight": 10,
+   "directness": 1,
+   "last_activated": "2026-04-27",
+   "activation_count": 14
+  },
+  {
+   "to": "irgc",
+   "type": "operational_permission_regime",
+   "weight": 9.5,
+   "directness": 1,
+   "last_activated": "2026-04-22",
+   "activation_count": 6
+  },
+  {
+   "to": "iraq",
+   "type": "export_dependency",
+   "weight": 4.5,
+   "directness": 1,
+   "last_activated": "2026-03-20",
+   "activation_count": 5
+  }
+ ],
+ "recent_signals": [
+  {
+   "date": "2026-06-27",
+   "headline": "The Hormuz escalation cycle turned kinetic: IRGC turn-backs (25 Jun) -> Iranian drone hits a Singapore-flagged cargo ship -> US retaliatory strike on Iranian coastal sites (27 Jun, CENTCOM). The strait is now the flashpoint of a live strike exchange, not just a chilling effect. Reopening/recovery at acute risk pending Iran's response; oil re-arm likely at the next open. CONFIRMED (CENTCOM + cargo-ship attack)."
+  },
+  {
+   "date": "2026-06-26",
+   "headline": "Recovery hit a wartime high (49 transits 24 Jun) then the IRGC ENFORCED turn-backs on 25 Jun — Windward independently corroborated 5 vessels turning around + 1 losing AIS, matching the IRGC's Telegram claim. The southern corridor (previously believed free of Iranian approval) is now actively policed (VHF Ch16: transit without AIS/IRGC permission 'at your own risk'). NOT a blockade — 43 transits still occurred 25 Jun — but this is the first OPERATIONALLY-CONFIRMED Iranian enforcement since the signing: rhetoric became partial action. Separately a cargo ship was attacked off Oman (Thu, attacker unconfirmed). CONFIRMED (Windward + IRGC)."
+  },
+  {
+   "date": "2026-06-23",
+   "headline": "Reopening FALTERING (corrects 06-22's clean 'bluff called'): transits fell to 12 Sunday from 55 Saturday, with 5 of 8 inbound vessels going dark (AIS disabled) — Windward calls it a 'late-blockade baseline more than a functioning open strait.' Iran's closure declaration (no enforcement per CENTCOM) plus shipowner caution is recreating a partial blockade by sentiment. Notably Iran's OWN foreign ministry says shipping is 'operating normally,' contradicting its military. CONFIRMED (Windward AIS / CENTCOM)."
+  },
+  {
+   "date": "2026-06-22",
+   "headline": "Reopening is REAL and accelerating — 55 ships / 17M barrels transited 20 Jun (CENTCOM), up from ~20 on 19 Jun and the ~7-13 trickle earlier. Iran (IRGC) declared the strait closed (20 Jun) over Lebanon violations, but CENTCOM observed no enforced closure ('Iran does not control the Strait; traffic continues'). DECISIVE TELL: oil FELL (Brent -1.2% to $76.99) on the closure declaration — the market priced it as rhetoric. CONFIRMED (CENTCOM operational) / Iran closure = CLAIMED."
+  },
+  {
+   "date": "2026-06-20",
+   "headline": "Reopening a slow trickle over the weekend — only ~7 ships through since the deal (MarineTraffic; ~13 on Starboard earlier). Free passage (no tolls, 60 days) confirmed; oil tankers/LNG to get priority. But backlog clears over 10-15 days, full normalisation weeks-months, and firms have restructured 2026 schedules around the Cape of Good Hope. Partial reopening intact but throughput a small fraction of pre-war. CONFIRMED (AIS)."
+  },
+  {
+   "date": "2026-06-19",
+   "headline": "PARTIAL REOPENING NOW AIS-CONFIRMED. At least 13 foreign tankers transited the strait (Starboard Maritime AIS) — the first confirmed foreign transits, following the signed MoU and lifted blockade. CRITICAL distinction from the 18 Jun single-source claim (which AIS contradicted, prompting a walk-back): this is operational AIS data. BUT most tankers reversed course and flow remains ~95% below pre-war (<10 vessels/day); mine-clearance, the tanker backlog and insurance normalisation mean full flow is weeks-to-months out. MoU: free passage 60 days, then an Iran-Oman fee structure. CONFIRMED (Starboard AIS)."
+  },
+  {
+   "date": "2026-06-18",
+   "headline": "REOPENING NOT MATERIALISING ON THE WATER. Independent AIS audits (Argus 'Hormuz tanker traffic unchanged after US-Iran deal'; GEF: ~18 vessels, Iranian-domestic-flag only, foreign-flag absent, ~95% below pre-war) contradict the 17 Jun single-source claim that tankers had begun transiting. Shipowners are waiting for Friday's signing + details before attempting transits. The blockade-removal ORDER remains confirmed, but the physical reopening is ORDERED, NOT OCCURRING. CONFIRMED (operational AIS)."
+  },
+  {
+   "date": "2026-06-17",
+   "headline": "PARTIAL REOPENING UNDERWAY. Trump authorised the immediate removal of the US naval blockade (CONFIRMED — Truth Social/PBS/CBS) and Iran confirmed the blockade is lifting; specialised maritime reporting says Iranian tankers have begun transiting Hormuz (REPORTED, single-source). This is the first operational reopening signal of the war — distinct from the paper framework. Sustained-volume confirmation (>30 vessels/day x3) and independent AIS still pending; full normalization lags on ~6-month demining. CONFIRMED (blockade-removal order) / REPORTED (actual transit)."
+  },
+  {
+   "date": "2026-06-16",
+   "headline": "STILL CLOSED, Day 107 — despite the framework. The 14 Jun deal commits to reopening within ~30 days 'under Iranian arrangements' and lifting the US blockade within ~30 days, but operational trackers show no transits resumed. Pentagon planners assess clearing 20+ naval mines at up to ~6 months even at accelerated pace; the 107-day standoff cut crude transits ~95% and LNG ~99%. Political agreement != physical reopening. CONFIRMED still-closed (trackers) / REPORTED timelines."
+  },
+  {
+   "date": "2026-06-13",
+   "headline": "DEAL WOULD REOPEN HORMUZ 'IMMEDIATELY WITHOUT TOLLS' (~30 DAYS TO PRE-WAR VOLUMES) — BUT IRAN KEEPS A 'SERVICE FEE' (~$1/BBL) AND NORMALIZATION IS SLOW (DEMINING). Araghchi: international law bars 'tolls' but Iran collects 'service fees' (the Persian Gulf Strait Authority's ~$1/bbl since 5 May), with compensation to Iran in the plan; Trump called the fee 'a beautiful thing.' A subsequent deal phase is DEMINING the waterway; analysts stress idled fields must restart and damaged facilities be repaired before flows normalize. So a signed deal ends the acute crisis but leaves a structurally HIGHER chokepoint cost-floor and a multi-week physical normalization — capping the oil downside.",
+   "sources": [
+    "The National (service fees)",
+    "Gulf News (Trump)",
+    "CNBC (demining)",
+    "NBC"
+   ],
+   "verification": "REPORTED (reopening terms); CONFIRMED (service-fee + demining caveats)"
+  },
+  {
+   "date": "2026-06-12",
+   "headline": "DEAL WOULD REOPEN HORMUZ IN ~30 DAYS — BUT IRAN INTENDS TO RETAIN 'CONTROL' EVEN POST-DEAL, AND THE BLOCKADE STAYS UNTIL SIGNING. Reported terms (CBS/CNBC): reopening to pre-war volumes within 30 days + US lifting the naval blockade. BUT Araghchi: 'Iran will maintain control over the Strait of Hormuz... the future of the Strait will not be the same as in the past.' And Trump: 'The Naval Blockade will remain in full force until this Transaction is finalized.' So a signed deal reopens FLOW but may NOT restore pre-war freedom-of-navigation; until signing, the ~5%-flow blockade persists. Oil priced the reopening hope hard: Brent -4.1% to $86.71.",
+   "sources": [
+    "Al Jazeera/IRNA (Araghchi)",
+    "RFE/RL (Trump blockade)",
+    "CBS/CNBC (terms)"
+   ],
+   "verification": "REPORTED (reopening term); CONFIRMED (Iran-retains-control + blockade-stays positions)"
+  },
+  {
+   "date": "2026-06-11",
+   "headline": "FORMAL 'COMPLETE CLOSURE' DECLARED -- announcement CONFIRMED, operational delta CONTESTED. Iran's top joint military command announced Hormuz 'closed until further notice' for oil tankers AND commercial vessels, 'will be shot at,' NO nationality exceptions -- formally ending the selective/coordinated-passage regime (incl. the permitted Chinese transits the graph tracked). IRGC claimed 2 transiting tankers hit (CLAIMED -- no UKMTO/independent corroboration; UKMTO page 403). CENTCOM countered that commercial ships continue to transit (direct contradiction). Strait already ~5% of normal flow (Day ~104), so the declaration shifts the POLICY perimeter more than observed throughput. Aluminum recovered toward ~$3,600 on the formalization where gold did not move.",
+   "sources": [
+    "Al Jazeera 10 Jun",
+    "Haaretz live",
+    "NBC",
+    "CENTCOM (contra)",
+    "SeaVantage (vintage unconfirmed)"
+   ],
+   "verification": "CONFIRMED (the declaration); CLAIMED (tanker hits); CONTESTED (actual throughput change)"
+  },
+  {
+   "date": "2026-06-10",
+   "headline": "**THE STRAIT BECAME THE LOCUS OF A NEW US-IRAN KINETIC EXCHANGE — APACHE DOWNED OVER HORMUZ (8 JUN), US STRIKES ON IRANIAN COASTAL AIR-DEFENSE/RADAR/GROUND-CONTROL SITES NEAR THE STRAIT (9 JUN), IRAN'S 10-JUNE GULF STRIKES LAUNCHED FROM THE REGION — STRUCTURE UNCHANGED (~-95% TRAFFIC, IEA 'LARGEST SUPPLY DISRUPTION IN HISTORY'). CORRECTION: GULF WAR-RISK COVER IS NOW ~4% OF HULL VALUE PER 7-DAY TRANSIT (NOT THE ~1% CARRIED IN RECENT BRIEFS). NEW: US DIRECTED THE DFC TO PROVIDE A POLITICAL-RISK REINSURANCE FACILITY UP TO $40 BILLION TO KEEP HORMUZ SHIPPING MOVING.** Iran downed a US Apache over Hormuz (8 Jun); US struck Iranian coastal radar/air-defense/ground-control near the Strait (9 Jun); Iran's 10-June strikes launched from the region — but no new physical closure act. Western-allied traffic near-zero; the US-guided Oman-coast channel carried ~70 ships in 3 weeks to 1 Jun; ~20,000 seafarers stranded on ~2,000 vessels; ISW (6 Jun) reads Iran's 'protection racket' continuing (IRGC 'warning shots' near Larak Island). Iran ran the Strait and Israel axes SEPARATELY during the 7-8 June exchange (no Strait drones) until the Apache event re-fused them 8-9 June. INSURANCE RE-BASE (correction-grade, REPORTED): ~4% of hull value per 7-day transit (The National, 3 Jun). DFC $40bn reinsurance facility is new. No Hormuz trigger fires (structure unchanged).",
+   "sources": [
+    "CENTCOM / US military (Apache downed over Hormuz 8 Jun; US strikes on Iranian coastal air-defense/radar/ground-control near the Strait 9 Jun)",
+    "IEA ('largest supply disruption in the history of the global oil market')",
+    "ISW/Critical Threats (6 Jun: Iran 'protection racket'; IRGC 'warning shots' near Larak Island)",
+    "Independent Hormuz transit trackers (~-95% traffic; ~70 ships in 3 weeks via Oman-coast channel; ~20,000 seafarers on ~2,000 vessels)",
+    "The National (3 Jun: Gulf war-risk cover ~4% of hull value per 7-day transit — correction-grade re-base)",
+    "US DFC (Development Finance Corp political-risk reinsurance facility up to $40bn for Hormuz shipping)"
+   ],
+   "verification": "CONFIRMED ACTION (Apache downing over Hormuz; US coastal-site strikes near the Strait; operational chokehold ~-95%, IEA characterization) / REPORTED (insurance ~4% re-base; DFC $40bn reinsurance facility; ISW 'protection racket'). No new physical closure act; no trigger moves to active."
+  },
+  {
+   "date": "2026-06-06",
+   "headline": "**OPERATIONALLY UNCHANGED ON DAY ~99 (~10 SHIPS/DAY VS ~95 NORMAL, EFFECTIVELY CLOSED) — 4 IRANIAN DRONES LAUNCHED TOWARD HORMUZ (ALL INTERCEPTED); REZAEI SOVEREIGNTY/OMAN/TOLL FRAMING IS RHETORIC, NO NEW CLOSURE ACT.** No operational change: ~10 ships/day vs ~95 pre-crisis; Maersk/CMA CGM/MSC/Hapag-Lloyd still suspended; ~405 vessels anchored; CENTCOM has escorted ~70 vessels cumulatively. In the 5-6 June overnight exchange Iran launched 4 one-way attack drones toward Hormuz — all 4 intercepted/downed by US — and the US struck Iranian coastal radar at Goruk + Qeshm in self-defence; NO new physical closure act, throughput unchanged. Rezaei reasserted the 'sovereignty + Oman joint-management + transit-tolls' framing = RHETORIC on top of an already-throttled strait. Brent fell ~2% to ~$93 over the window on weak China demand, not on any Hormuz throughput change. No Hormuz trigger fires on rhetoric or an intercepted drone launch.",
+   "sources": [
+    "Independent Hormuz transit trackers / shipping maps (~10 ships/day vs ~95; ~405 anchored; ~70 CENTCOM-escorted cumulatively)",
+    "CENTCOM / US military (official) — 4 drones toward Hormuz intercepted; US self-defence strikes on Goruk + Qeshm coastal radar",
+    "IRGC / Rezaei — Hormuz sovereignty + Oman joint-management + transit-toll framing (Iran rhetoric, not an act)",
+    "Intel dossier 2026-06-06 A6, A2, A3"
+   ],
+   "verification": "Operational chokehold persists (~10 ships/day, ~405 anchored, ~70 escorted) = CONFIRMED (independent trackers); 4 drones toward Hormuz all intercepted + US Goruk/Qeshm strike = CONFIRMED ACTION; Rezaei sovereignty/Oman/toll framing = RHETORIC (not an act, not elevated). No new physical closure act; no trigger moves to active."
+  },
+  {
+   "date": "2026-06-03",
+   "headline": "**OPERATIONALLY UNCHANGED (~5% OF PRE-WAR TRAFFIC) ON DAY 96 — BUT A US SELF-DEFENCE STRIKE LANDED ON QESHM ISLAND INSIDE THE STRAIT, AND IRAN CLAIMED THE US HIT AN OIL TANKER.** In the 3 June exchange CENTCOM struck an Iranian ground-control station on Qeshm Island in the strait (and reportedly Goruk); Iran/IRGC claimed the US hit an oil tanker and a 'communications tower south of Qeshm,' and that it coordinated 26 vessels through under 'intelligent control' (CLAIMED, discrepant with ~4-5/day trackers — NOT elevated). No confirmed change to the throughput regime — no full closure, no forced reopening; 'complete closure' stays RHETORIC. DHL still forecasts 4-6 months to normalisation. No Hormuz trigger fires on rhetoric or an intraday Brent tag.",
+   "sources": [
+    "CENTCOM (Qeshm self-defence strike) — official military; IRGC/Tasnim (US hit oil tanker / 26 vessels claim) — Iran claim",
+    "2026 Strait of Hormuz crisis tracker / CNN shipping maps (~5% of normal); DHL normalisation forecast (4-6 months)",
+    "Intel dossier 2026-06-03 A4"
+   ],
+   "verification": "US Qeshm strike = CONFIRMED ACTION; '~5% of pre-war traffic / no operational change' = CONFIRMED (independent trackers); Iran 'US hit oil tanker' + '26 vessels intelligent control' + 'complete closure' = CLAIM/RHETORIC (not elevated). No trigger to active."
+  },
+  {
+   "date": "2026-06-02",
+   "headline": "**IRAN THREATENED TO 'COMPLETELY CLOSE' HORMUZ (ESCALATION FROM SELECTIVE CONTROL) — BUT OPERATIONALLY UNCHANGED AT ~4 SHIPS/DAY; IRGC '24 VESSELS / INTELLIGENT CONTROL' CLAIM IS DISCREPANT.** Tied to the 1 June suspension of US talks, Tasnim vowed the 'resistance front' would 'completely close the Strait of Hormuz.' Per CNBC/IBTimes this is a THREAT, not an implemented closure ('no operational blockade confirmed as implemented'). CNN's 2 June piece ('94 days of paralysis') reports only ~4 vessels/day vs ~95 normal — effectively closed since 28 Feb, unchanged. The IRGC claimed 24 vessels passed under 'intelligent control' (CLAIMED Iran, discrepant with independent ~4/day — NOT elevated; Tehran projecting control ahead of threatening to remove it). The 1 June closure threat re-priced Brent +7.3% intraday to ~$97 then faded to ~$94.5 — risk-premium re-entry, not supply disruption (throughput unchanged). No reopening trigger fires; the 'complete closure' threat moves no trigger to active (rhetoric). Watch the independent transit count, not the IRGC's number.",
+   "sources": [
+    "CNBC — 'Iran vows to completely block Strait of Hormuz' — independent",
+    "IBTimes UK — 'no operational blockade confirmed as implemented' (threat, not action) — independent",
+    "CNN (2 June) — '94 days of paralysis... handful of vessels vs ~95' — operational reporting — independent",
+    "straits.live (status: Closed, June 2026) — operational tracker — independent",
+    "IRGC / Tasnim — '24 vessels / intelligent control' — Iran claim (NOT elevated)",
+    "Intel dossier 2026-06-02 A4, B1"
+   ],
+   "verification": "Operational chokehold persists at ~4 ships/day = CONFIRMED (CNN + straits.live); 'complete closure' = RHETORIC/THREAT (CNBC/IBTimes, not implemented); IRGC '24 vessels / intelligent control' = CLAIMED Iran, discrepant with independent trackers, NOT elevated. No trigger moves to active."
+  },
+  {
+   "date": "2026-05-30",
+   "headline": "**NEW SUSPECTED MINE OFF OMAN (30 MAY); LIAN STAR INTERDICTION (6th VESSEL); US-TREASURY-VS-OMAN TOLL FRICTION.** Oman's Maritime Security Centre warned (30 May) of a floating object suspected to be a naval mine within Omani territorial waters, urging vessels to keep clear. The US disabled the Lian Star in the Gulf of Oman (6th blockade vessel); Hegseth said the blockade is 'very much still in place' and Hormuz must remain 'open, toll-free.' The US Treasury reportedly threatened to sanction Oman over Hormuz tolls — colliding with Iran's Oman-mediated toll ambition in the draft MOU. Hormuz remains mined and contested inside the ceasefire — the physical floor under oil even as the tail de-prices.",
+   "sources": [
+    "Oman Maritime Security Centre advisory 30 May — operational/official",
+    "Iran International liveblog 30 May (Lian Star); Hegseth on record 30 May",
+    "Times of Israel liveblog 28 May (US Treasury-Oman tolls) — REPORTED, single headline",
+    "Intel dossier 2026-05-30 A8, A1"
+   ],
+   "verification": "Suspected-mine advisory = CONFIRMED ACTION (Oman MSC operational/official); Lian Star interdiction = REPORTED-to-CONFIRMED; Hegseth 'blockade still in place / toll-free' = CONFIRMED; US Treasury-Oman toll threat = REPORTED (single headline)."
+  },
+  {
+   "date": "2026-05-28",
+   "headline": "**THE STRAIT IS STILL ACTIVELY CONTESTED INSIDE THE CEASEFIRE — US DOWNED 4 IRANIAN DRONES NEAR HORMUZ + STRUCK A GROUND-CONTROL STATION; NO REOPENING ON DAY 90; THE 'SECOND SEIZURE IN 7 DAYS' WATCH EXPIRED UNTRIPPED.** Early May 28 US forces shot down four Iranian one-way attack drones near Hormuz and struck an Iranian ground-control station near Bandar Abbas the Pentagon said was 'reportedly preparing to launch a fifth' drone (CONFIRMED ACTION — CENTCOM via CNN/NBC/Euronews/WaPo). The cleanest operational support yet for the 'physical risk persists' thesis: Iran is still contesting the strait with drones and mines even as the unsigned MOU calls for Hormuz 'open with no tolls' and Iran to clear the mines it laid. The IRGC's intercepted ballistic missile at Kuwait was the retaliation (A1); the maritime story is the drone/mine contest, NOT a fresh seizure — the 'second Iranian commercial-vessel seizure within 7 days' watch EXPIRED UNTRIPPED (last confirmed seizure remains May 14 Fujairah). UKMTO has logged 41+ incidents since late February; mines in/near the TSS persist; GNSS interference 'sporadic but reduced from March.' Hormuz remains effectively BLOCKED on Day 90 — no operational reopening. TRIGGERS: Hormuz-reopening/transit-volume stay watching; Iran-Oman toll-mechanism stays watching (no formal announcement).",
+   "sources": [
+    "CENTCOM (4 drones downed near Hormuz + ground-control station struck near Bandar Abbas) — official military",
+    "UKMTO recent-incidents / Wikipedia '2026 Strait of Hormuz crisis' (41+ incidents; mines persist) — operational",
+    "UN News ('Uncertainty continues over safety in the Strait of Hormuz') — official",
+    "Euronews / CNN live May 28 (the exchange)",
+    "Intel dossier 2026-05-28 A6, A1"
+   ],
+   "verification": "US downing of 4 Iranian drones near Hormuz + strike on a ground-control station near Bandar Abbas = CONFIRMED ACTION (CENTCOM + multi-wire); Iran still contesting the strait with drones/mines inside the ceasefire = CONFIRMED; no operational reopening Day 90 = CONFIRMED (transits minimal); no new Iranian commercial-vessel seizure (watch expired untripped) = CONFIRMED non-event (negative search); UKMTO 41+ incidents / mines persist = REPORTED (operational aggregator)."
+  },
+  {
+   "date": "2026-05-27",
+   "headline": "**THE US STRUCK IRGC FAST BOATS LAYING MINES *IN* HORMUZ (CONFIRMED ACTION, May 25) — mines still being laid even as the deal requires Iran to *clear* them. On Monday May 25 US forces struck two IRGC fast boats laying mines in the Strait of Hormuz + a Bandar Abbas SAM site that CENTCOM said was targeting US aircraft (CONFIRMED ACTION — CENTCOM/Hawkins 'self-defense,' 'restraint'; CNN/NBC/Al Jazeera/NPR). The targeting is the intelligence: it is the cleanest confirmation the physical risk inside the strait remains active even inside the ceasefire — validating Croft's 'fine print / insurers and shippers won't rush back if Iran continues to have the final say on passage' thesis. The deal is 'largely negotiated' (Trump): Hormuz reopened 'with no tolls' + Iran clears its mines, US lifts the blockade + sanctions waivers — but Hormuz control/status is one of three unresolved sticking points and Deputy FM Bagheri Kani said 'the two sides had not yet agreed on lifting the blockade.'** (1) **US strike on IRGC mine-laying boats in Hormuz (CONFIRMED ACTION)**: Iran was still laying mines in the strait the deal would require it to clear. (2) **Quad Foreign Ministers, New Delhi, May 26 — anti-toll UNCLOS statement (CONFIRMED diplomatic action — US State Dept joint statement, ANI, WaPo)**: 'deep concern over the Iranian closure' of Hormuz; reiterated UNCLOS navigational rights; condemned attacks on commercial shipping; and 'opposed any future measures that are inconsistent with UNCLOS, including imposition of tolls.' India put its name to language that attributes the closure to Iran and explicitly opposes Hormuz tolls — directly relevant to the deal's unresolved 'Hormuz management/tolls' clause. (3) **Operationally unchanged**: transits remain minimal; no operational reopening; the strait has been effectively closed 89 days. **TRIGGER DECISIONS**: transit-volume and second-seizure triggers stay watching (no Iranian seizure — the maritime story is the US strike on IRGC boats); Iran-Oman permanent toll mechanism trigger stays watching (Fars 'management' = pre-positioning, not a formal announcement).",
+   "sources": [
+    "CENTCOM spokesman Timothy Hawkins (via CNBC/NBC/WaPo) — official military",
+    "CNN / Al Jazeera / NPR May 25-26 (US strikes on IRGC mine-laying boats + Bandar Abbas SAM site)",
+    "US State Department 'Joint Statement from the Quad Foreign Ministers' Meeting in New Delhi'",
+    "ANI May 26 (Quad ministers anti-toll/Hormuz framing)",
+    "Washington Post May 26 (Quad Indo-Pacific maritime-security initiatives)",
+    "CNBC 'Trump says Iran deal reopening Strait of Hormuz largely negotiated'",
+    "Intel dossier 2026-05-27 A1, A5, A6"
+   ],
+   "verification": "US strike on two IRGC fast boats laying mines in Hormuz + Bandar Abbas SAM site May 25 = CONFIRMED ACTION (CENTCOM official + CNN/NBC/Al Jazeera/NPR); Iran still laying mines = CONFIRMED (the struck boats were laying mines); Quad FMs joint statement opposing Hormuz tolls / 'Iranian closure' / UNCLOS = CONFIRMED diplomatic action (US State Dept primary + ANI + WaPo); deal 'largely negotiated' (no tolls + Iran clears mines) = CONFIRMED framework / CONTESTED contents; Bagheri Kani 'blockade-lifting not yet agreed' = CONFIRMED RHETORIC; operational Hormuz state minimal / no reopening = CONFIRMED."
+  },
+  {
+   "date": "2026-05-25",
+   "headline": "**MANAGEMENT-VS-NO-TOLLS CONTRADICTION SHARPENED + NEW 30-DAY HORMUZ / 60-DAY NUCLEAR SPLIT; EU HORMUZ-DISRUPTION SANCTIONS FRAMEWORK NOW CONFIRMED-ADOPTED (MAY 22) — BUT NO DESIGNATIONS YET. HORMUZ TRANSITS REMAIN MINIMAL — NO OPERATIONAL REOPENING, DAY 87.** (1) **US/Axios framing now 'open with no tolls, mines cleared' [CONFIRMED — Axios May 24, CNN May 25]**: during the window the strait would be 'open with no tolls,' Iran clears the mines it laid, US lifts the blockade in exchange. (2) **Iranian framing still 'management, not free passage' [CONFIRMED — Times of Israel May 23 liveblog / BOE Report (Fars), Tasnim via aggregation]**: Fars's 'Iran's management / not free passage as before the war' line stands uncorrected; Tasnim allocates '30 days for procedures related to the Strait of Hormuz and 60 days for nuclear talks' — a bifurcated timeline beginning only after the framework is 'formally agreed' (Baghaei). (3) **The contradiction is not resolving toward either pole — both sides keep publishing their own version [CONTESTED which is in the text]**; Rubio's May 21 red line: a tolling/selective-management mechanism makes a deal 'unfeasible.' (4) **EU Hormuz sanctions framework — UPGRADED TO CONFIRMED [Brussels Signal, Marine Insight, Express Tribune, Sofia Globe, News24]**: the EU Council formally adopted on May 22 a framework allowing travel bans / asset freezes on individuals/entities disrupting Strait of Hormuz shipping, delivering the April 21 Foreign Affairs Council political agreement. **NO specific names designated yet — enabling instrument; listings 'would follow at a later stage.'** Cross-current worth flagging: the EU is erecting a Hormuz-disruption sanctions architecture at the exact moment the US-Iran deal would reopen the strait — a potential transatlantic divergence if the deal lands. (The action is 3 days old; only the corroboration is new.) (5) **Operationally unchanged**: transits remain minimal; no operational reopening; the strait has been effectively closed 87 days. Iran-Oman permanent toll mechanism trigger Day 4 of 14 stays `watching` — Fars 'management' = pre-positioning, not a formal announcement.",
+   "sources": [
+    "Axios May 24 'What's inside the Iran deal' (US-side 'no tolls' text)",
+    "CNN liveblog May 25 (Rubio + deal mechanics)",
+    "Times of Israel May 23 liveblog / BOE Report (Fars 'management' line)",
+    "Tasnim (via search aggregation) — 30-day Hormuz / 60-day nuclear split",
+    "Brussels Signal 'EU adopts sanctions targeting Iran's blockade of Hormuz'",
+    "Marine Insight / Express Tribune / Sofia Globe / News24 (EU framework corroboration)",
+    "Intel dossier 2026-05-25 A4, B1, A3"
+   ],
+   "verification": "Both Hormuz framings on the record = CONFIRMED (Axios/CNN US-side 'no tolls'; Fars/Tasnim Iranian 'management' + 30/60-day split); which framing is in the deal text = CONTESTED; Rubio 'unfeasible' red line = CONFIRMED RHETORIC; EU Council May 22 Hormuz-disruption sanctions framework adoption = CONFIRMED (multiple independent European outlets, upgraded from May 24 single-source low-confidence) — NO designations yet (enabling instrument); operational Hormuz state minimal / no reopening = CONFIRMED."
+  },
+  {
+   "date": "2026-05-19",
+   "headline": "**HORMUZ STATUS UNCHANGED ON POSTPONEMENT — ~1-30 VESSELS/DAY VS 138 PRE-WAR; AWRP 4-6X PRE-CRISIS; IRGC QESHM ISLAND DEFENSE-SYSTEMS REPORTEDLY ACTIVATED LATE MONDAY (REPORTED single-source).** Brent retraced -1.6% to $110.32 on the postponement (tail-risk de-pricing) but the structural premium is intact: $110.32 is still 51% above the $73 pre-crisis baseline. **The postponement re-prices the TAIL, not the structural premium.** Baker Hughes call: full Hormuz reopen NOT until 2H26. Turkey FM Hakan Fidan publicly stated the immediate concern of US-Iran negotiations is keeping the Strait of Hormuz open, but Iran's nuclear program remains a central issue (CONFIRMED RHETORIC) — first clean Turkish public framing of the cycle. **AWRP holds at 3-8% of vessel value (some 10%), 'double-digit millions per trip'** still operative. **The structural war premium has migrated OUT of crude flat-price INTO ton-miles (Frontline +2.9%), LNG basis (Cheniere +2.4%), and defense backlog (Lockheed +2.4% on $879M F-35 contract)** — these don't reverse on a single postponement.",
+   "sources": [
+    "Trump Truth Social (postponement)",
+    "Turkey FM Fidan public statement",
+    "Baker Hughes / shipping community (vessel transit data)",
+    "Lloyd's List / Insurance Business Mag (AWRP)",
+    "Intel dossier 2026-05-19 B2; Markets dossier C1, C4"
+   ],
+   "verification": "Hormuz vessel transit ~1-30/day = CONFIRMED (Baker Hughes operational); AWRP 4-6x pre-crisis = CONFIRMED (Lloyd's data); Brent -1.6% to $110.32 = CONFIRMED operational; structural premium intact = CONFIRMED ($110.32 vs $73 baseline math); Turkey FM Fidan statement = CONFIRMED RHETORIC; Qeshm defense activation = REPORTED single-source."
+  },
+  {
+   "date": "2026-05-18",
+   "headline": "**STANCHART $130-145 PATH ACTIVATES MAY 18 — Brent 2-session sustain rule met** ($109.26 Friday close + $111.47 Monday intraday, range $110.13-$111.99). The May 12-added 'Brent breaks $108-110 sustained 2 sessions' trigger fires (brent-crude node). Cascade fires same day: inr-usd ₹96.29 record low (trigger fires Day 6 of 5-7); Sensex/Nifty open -1.30%/-1.04%; energy-sector XLE +2.4%; marine-war-risk-insurance edge weight raised to 10.0. **HOUTHI RED SEA DAY 7 OF 7 NEGATIVE-SPACE WINDOW CLOSES UNTRIPPED** — May 11 Hodeidah incident reverts to 'single unclaimed event'; no second incident through Monday IST per UKMTO. Houthi non-action during a publicly-hardening US kinetic-preparation phase (NYT preparation May 16, Trump 'clock is ticking' May 17, Trump-Netanyahu call May 17, Saudi/UAE drone events May 17) is the cleanest behavioural divergence from the March-April pattern. **NEW WEEKEND KINETIC EVENTS**: (i) UAE Barakah Nuclear Energy Plant — May 17 drone strike on perimeter generator (3 drones from western border; 2 intercepted; 1 caused fire outside inner perimeter); IAEA expressed 'grave concern,' radiation normal, all units operating — first nuclear-infrastructure-adjacent kinetic of cycle; (ii) Saudi defense ministry — May 17 3 drones from Iraqi airspace intercepted over Saudi airspace; Brig Turki al-Maliki: 'right to respond at the appropriate time and place'; UAE MoFA formal condemnation May 18 — first confirmed Saudi territorial breach of cycle; Iraqi militia (PMU/Kata'ib Hezbollah/Asa'ib Ahl al-Haq) most likely vectors by capability and prior pattern; no group claimed responsibility, consistent with deniable harassment. **Hormuz physical state unchanged**: ~30 vessels/day vs 138 pre-war (Aramco CEO Nasser); VLCC TD3C Baltic Exchange Week 18 partial WS408.13 (~$370-410K/day); AWRP 3-8% of vessel value ($3-8M/transit) vs 0.1-0.15% pre-war (20-50x). **Kharg Island NYT-reported preparation report stands; Tuesday May 19 Trump NSC meeting is operational binary** for the May 24 'NYT as soon as next week' window — Day 1 of 6 remaining. **Iran-permitted Chinese transit Day 4 of 14 measurement window**; no incremental vessel-count update over Monday morning IST. **WTI live $108.20 +2.6% per OilPrice/Investing — yfinance $103.41 -1.9% is stale-comparator artifact; Brent-WTI spread COMPRESSED to $3-4, not widened.**",
+   "sources": [
+    "Investing.com / Barchart Brent BZ=F live (Monday May 18)",
+    "Saudi Gazette 'Al-Maliki: Three drones from Iraq intercepted' (Saudi state primary)",
+    "Times of Israel May 17 liveblog (UAE Barakah + Saudi drone primary)",
+    "UAE Ministry of Defence statement May 17",
+    "IAEA primary statement on Barakah",
+    "UAE MoFA May 18 condemnation",
+    "UKMTO recent-incidents page May 18 (no new advisory)",
+    "Markets dossier 2026-05-18 Section A + C1 + C8",
+    "Intel dossier 2026-05-18 A1, A4, B1",
+    "Aramco CEO Nasser line (carries forward)",
+    "Baltic Exchange Week 18 partial WS408.13",
+    "OilPrice.com / Investing.com WTI $108.20 live"
+   ],
+   "verification": "Brent $111.47 + Monday range = CONFIRMED operational tape; UAE Barakah drone strike = CONFIRMED (UAE MoD + IAEA + 6+ outlets); Saudi drone intercept = CONFIRMED ACTION (Saudi MoD primary + UAE MoFA condemnation + multi-source); Iraqi militia attribution = UNCLAIMED (no claim through search window — operationally consistent with deniable harassment); Red Sea Day 7 untripped = CONFIRMED ABSENCE (UKMTO operational primary); Hormuz throughput unchanged = CONFIRMED (Aramco CEO carry-forward); WTI yfinance artifact = CONFIRMED analytical flag (OilPrice/Investing $108.20 cross-check); Tuesday NSC meeting = REPORTED (single Israeli sourcing chain via Haaretz)."
+  },
+  {
+   "date": "2026-05-15",
+   "headline": "**TRUMP-XI JOINT STATEMENT NAMES HORMUZ DIRECTLY: 'MUST REMAIN OPEN'** (CONFIRMED — ToI May 15 liveblog primary, China MFA readout). Xi opposed 'the militarization of the Strait' and any effort to 'charge a toll' for its use (direct rhetorical strike at Mokhber's 'atomic-bomb' doctrine); said China is interested in purchasing more American oil to reduce dependence on the Strait. **THE STRAIT REMAINS PHYSICALLY CLOSED**: ~30 vessels/day vs ~140 pre-war (Aramco CEO Nasser unchanged), Iran is proactively curbing output because storage tanks are filling, EIA confirmed Hormuz oil flows fell nearly 30% in Q1 2026. **Diplomatic words don't reopen shipping lanes that IRGC mines and small-boat attacks are physically closing.** **B1 HUI CHUAN SEIZURE — UKMTO advisory May 14: Honduras-flagged vessel taken by 'unauthorised personnel whilst at anchor' 38nm NE of Fujairah, 'now bound for Iranian territorial waters'** (CONFIRMED on event — UKMTO primary; REPORTED on Iranian destination — investigating; NO claim of responsibility). BBC identified the vessel; Fox News reports possible 'floating armory.' Cycle's second confirmed Iranian-direction seizure on a vessel previously at anchor in UAE waters. **B2 MSV HAJ ALI sunk off Oman in suspected drone attack** (CONFIRMED sinking — Bloomberg, Business Standard, MEA primary; CLAIMED attribution). All 14 crew rescued by Omani Coast Guard. India MEA called the attack 'unacceptable' = strongest public Indian language on a Gulf incident in the cycle. **A10 VLCC TD3C TANKER RATE NOW CONFIRMED via Baltic Exchange Week 17 report at WS459.28 / TCE $467,408/day** — Lloyd's List $420-462K range earlier this week corroborated; ~4.2x late-January reading and ~12-15x pre-war ~$30-40K range. Markets dossier flags Week 18 partial: WS408.13 (Lloyd's 'steepest one-day plunge in over half-decade') — still ~9x pre-war. **The 'VLCC TD3C sustained above $200K/day for 5+ sessions' trigger added yesterday at watching: basis CONFIRMED ($467K far above $200K), 5-session sustain pending daily-print verification — upgrade to confirmed_basis_pending_sustain.** **A11 HORMUZ/RED SEA NEGATIVE SPACE HOLDS**: No fresh UKMTO advisory; Project Freedom Day 10 paused; CENTCOM redirect tally 61; Safesea Neha strike Day 5 of 7, no claim, no Qatar MoFA statement. **B3 MODI-MBZ ENERGY MoUs (LPG + Strategic Petroleum Reserves) + FUJAIRAH EXPANSION ALTERNATIVE-ROUTE PLAN PUBLICLY DISCLOSED** = India operational alternative-route engineering as Hormuz-bypass strategy. UAE Minister Sultan Al Jaber: 'energy has been weaponised by Hormuz being taken hostage effectively' = cleanest Gulf-state public language framing Hormuz situation as weaponisation by Iran. **EIA May STEO: Hormuz assumed effectively closed until late May; Gulf states shut in 10.5 MMbpd April; Brent $89 4Q26.** AWRP ~1% H&M (8x pre-war). Mokhber 'atomic-bomb' doctrine unchanged but now diplomatically isolated — Xi rhetorically attacked the toll-booth premise.",
+   "sources": [
+    "Times of Israel May 15 liveblog (joint statement primary, Hormuz language)",
+    "China MFA official readout fmprc.gov.cn 2026-05-14",
+    "CBS News liveblog",
+    "UKMTO advisory May 14 (Hui Chuan primary)",
+    "BBC (Hui Chuan vessel identification)",
+    "Fox News (floating armory)",
+    "Euronews",
+    "CBS News liveblog",
+    "Bloomberg (Haj Ali primary)",
+    "Business Standard (India MEA primary)",
+    "India MEA primary statement",
+    "Crescent Shift (vessel origin)",
+    "Baltic Exchange Week 17 Tanker Report (VLCC TD3C primary)",
+    "Lloyd's List Week 18 partial (operational primary)",
+    "The National (Abu Dhabi) — UAE Minister Sultan Al Jaber 'weaponised' language",
+    "Khaleej Times (LPG/SPR MoUs)"
+   ],
+   "verification": "Joint statement Hormuz 'must remain open' language = CONFIRMED multi-cluster (ToI primary + China MFA readout); Xi anti-toll-militarization framing = CONFIRMED (joint statement primary); Hui Chuan seizure = CONFIRMED ACTION (UKMTO primary), REPORTED on Iranian destination, NO claim of responsibility; Haj Ali sinking = CONFIRMED ACTION (Bloomberg + Business Standard + MEA primary), CLAIMED attribution; India MEA 'unacceptable' condemnation = CONFIRMED RHETORIC (MEA primary); VLCC TD3C $467,408/day = CONFIRMED via Baltic Exchange Week 17 (independent operational primary); Week 18 partial WS408.13 = REPORTED (Lloyd's List primary, basis confirmed but multi-session sustain still pending); Modi-MBZ Fujairah expansion = CONFIRMED (Business Standard + Khaleej Times + The National + Sultan Al Jaber direct primary)."
+  },
+  {
+   "date": "2026-05-14",
+   "headline": "**A8 NEGATIVE-SPACE CHAIN: Day 3/7 since May 11 Hodeidah unclaimed (no 2nd Red Sea incident); Day 4/7 since May 10 Safesea Neha Qatari EEZ strike (no 2nd strike); Project Freedom pause holds Day 9; CENTCOM redirect tally unchanged at 61; no 5th disabled Iranian-flagged tanker** (CONFIRMED ABSENCE — UKMTO + CENTCOM operational primary). **A9 BLOOMBERG MAY 13 SATELLITE: KHARG ISLAND OIL JETTIES EMPTY AGAIN** = second satellite snapshot of empty jetties this cycle, operational confirmation of Iranian export collapse without kinetic premium. The National (Abu Dhabi) carried sober analytical piece May 13 explicitly NOT attributing slick to Iran. **EIA confirmed (Bloomberg May 13): Hormuz oil flows fell nearly 30% in Q1 2026** = official-data confirmation. **B3 EIA MAY STEO: Hormuz assumed effectively closed until late May; Gulf states shut in 10.5 MMbpd April; Brent $89 4Q26.** Aramco CEO Nasser 2-5 ships/day carries forward. **VLCC TD3C ~$420-462K/day per Lloyd's List May 11 'in unchartered territory'** vs graph's last-recorded ~$100K — MAJOR escalation signal; paper-Brent at $105.68 vs spot VLCC at $420K = cleanest paper-physical divergence indicator we have. AWRP ~1% (8x pre-war). FBX13 China-Mediterranean $4,179/FEU week ending May 12 (-5% w/w). Mokhber 'atomic-bomb' Hormuz doctrine unchanged.",
+   "sources": [
+    "UKMTO 'Recent Incidents' (operational primary)",
+    "CENTCOM (redirect tally — held at 61)",
+    "Bloomberg 'Iran's Kharg Island Oil Jetties Empty Again, Satellite Shows' May 13 primary",
+    "Bloomberg 'Hormuz Oil Shipments Drop Nearly 30% in First Quarter, EIA Reports' May 13 primary",
+    "EIA May STEO PDF + landing page (primary)",
+    "World Oil 'Aramco, ADNOC quietly resume limited Hormuz crude exports'",
+    "Lloyd's List May 11 (VLCC TD3C 'in unchartered territory' ~$420-462K/day)",
+    "Baltic Exchange WS data (corroborator)",
+    "S&P Global / Strauss Center (AWRP ~1%)",
+    "Freightos FBX13 (container freight)",
+    "The National (Abu Dhabi) 'where did the slick come from'"
+   ],
+   "verification": "Negative-space chain = CONFIRMED ABSENCE multi-source; Bloomberg Kharg jetties empty + EIA Hormuz Q1 -30% = CONFIRMED satellite + official forecaster primary; EIA May STEO = CONFIRMED (EIA primary); VLCC TD3C $420-462K/day = REPORTED (Lloyd's List primary — operationally large figure flagged for cross-verification)."
+  },
+  {
+   "date": "2026-05-13",
+   "headline": "A8 NEGATIVE-SPACE INTELLIGENCE: NO 2ND RED SEA INCIDENT in 7-day window from May 11 Hodeidah (Day 2 of 7, single unclaimed remains); NO 2ND STRIKE inside Qatari EEZ following May 10 Safesea Neha (Day 3 of 7); Project Freedom pause holds Day 8 since May 5-6; CENTCOM redirect tally unchanged at 61; NO 5TH disabled tanker. UKMTO 'Recent Incidents' page does not log second incident through May 12-13 morning. The non-event IS the intelligence: 75 days into Hormuz blockade + 8 days into Project Freedom pause, kinetic ceiling held through diplomatic-rejection shock — Iran did NOT use opening to escalate maritime pressure on either Qatari coastline or Bab el-Mandeb (predictable retaliation playbook). **A9 KHARG SLICK CONSOLIDATED — Copernicus Sentinel-1/-2/-3 imagery now amplified by Al Jazeera + ynet + Jerusalem Post + Conflict and Environment Observatory: ~45 sq km west of Kharg, May 6-8 detection (largest since war began). Iranian VP Shina Ansari denied Iranian-facility origin: 'foreign tanker dumping ballast water.' Fox May 11-12 second ~12-20 sq km slick is consistent with drift south rather than separate origin event = re-appearance trigger AMBIGUOUSLY ACTIVATED (drift ≠ re-appearance, ballast counter-claim not formally falsified). Western wires in slow-amplification mode on attribution.** **B3 ARAMCO STRATEGIC NARRATIVE CONFIRMED: Q1 +25% off East-West rerouting (Yanbu 770K bpd Jan-Feb → ~4 MMbpd late March → 3.66-4 MMbpd through mid-May; East-West pipeline pushed to 7 MMbpd); Aramco + ADNOC reportedly 'quietly resumed limited Hormuz crude exports' (World Oil May 8). Saudi-Emirati supply ~90% preserved despite headline -96% non-Iranian Hormuz throughput collapse. Explains why Brent has not gone parabolic.** **A13 KOREA HMM NAMU MAY 4: South Korean government CONFIRMED external strike — TWO unidentified airborne objects struck stern at ~1 min intervals ('double-tap' drone pattern); mine + torpedo formally ruled out. FM Cho Hyun May 13: 'too early to determine who was responsible.' PPP opposition criticised government for omitting Iran. Seoul institutionally maintaining 'various actors' hedge.** Aramco CEO Nasser '2-5 ships/day, market won't normalise until 2027 if Hormuz persists past mid-June' carries forward. AWRP unchanged ~1% H&M / 7-day (8x pre-war 0.1-0.15% baseline); 'AWRP normalisation toward 0.5% by May 16' Day 7 of 10 — FAILING HARDER. VLCC TD3C ~$100K/day; Frontline +1.0% 1D / +10.6% 1M / +28.6% 3M (insurers + tanker market HAVE NOT bought de-escalation). FBX13 China/E.Asia → Med $4,179 week ending May 12 (-5% w/w) — tanker-container divergence persists.",
+   "sources": [
+    "UKMTO 'Recent Incidents' operational primary",
+    "Lloyd's List 'Reported Houthi attacks in the Red Sea' operational",
+    "Crisis Group Red Sea visual map",
+    "Al Jazeera + Times of Israel + Jerusalem Post (Kharg slick amplification)",
+    "Conflict and Environment Observatory NGO",
+    "Copernicus Sentinel-1/2/3 operational primary",
+    "CNBC Aramco Nasser interview",
+    "Discovery Alert 'Aramco ADNOC Hormuz adapting'",
+    "World Oil 'Aramco ADNOC quietly resume limited Hormuz crude exports'",
+    "Korea Herald 'Fired upon in Hormuz' editorial + FM Cho remarks",
+    "Seoul Economic Daily 'Presidential Office Condemns HMM Namu'",
+    "UPI 'South Korea says HMM Namu hit by two unidentified objects'",
+    "Washington Times 'Seoul on the spot after likely drone damage'",
+    "Insurance Journal industry",
+    "EIA Strait of Hormuz factsheet (official, non-Iranian crude data)",
+    "Freightos (FBX13 container rate)"
+   ],
+   "verification": "NO 2nd Red Sea incident Day 2 of 7 + NO 2nd Qatari EEZ Day 3 of 7 = CONFIRMED ABSENCE (UKMTO + Lloyd's List); Project Freedom pause Day 8 + CENTCOM 61 unchanged = CONFIRMED ABSENCE; Kharg slick ~45 sq km May 6-8 = CONFIRMED Copernicus (multi-amplified); second slick consistency with drift = PARTIALLY CONFIRMED (Fox primary, mainstream lagging); re-appearance trigger AMBIGUOUSLY activated; HMM Namu external strike + double-tap drone pattern = CONFIRMED (Seoul official briefing); attribution = UNCONFIRMED (FM Cho hedge); Aramco Q1 +25% + ADNOC quiet Hormuz resume = CONFIRMED (corporate financials + World Oil industry); EIA non-Iranian Hormuz ~500K bpd avg = CONFIRMED (EIA primary)."
+  },
+  {
+   "date": "2026-05-12",
+   "headline": "HORMUZ THROUGHPUT DETERIORATED TO 2-5 SHIPS/DAY PER ARAMCO CEO NASSER MAY 11 (vs ~6/day May 10, ~70 pre-war); 100M bbl/week lost; 880M cumulative; market won't normalize until 2027 if disruption persists past mid-June. CENTCOM tally 58→61 redirected + 4 disabled holds (3 redirects in 48h below early-May pace — Project Freedom remains paused since May 5/6); footprint USS Bush + USS Lincoln + 20+ warships + 200+ aircraft + 15,000 troops; USS Gerald R. Ford transiting Gibraltar westbound (Day 322, home to Norfolk); USS Boxer ARG + 11th MEU imminent arrival; George Washington CSG departed Yokosuka May 10 — footprint holding/reinforcing despite Ford rotation. **VLCC Agios Fanourios I (Iraqi Basra crude bound Vietnam Nghi Son) reversed course back into Gulf of Oman at ~5 knots without crossing US blockade line** = confidence-collapse signature even for compliant non-Iranian VLCCs (Bloomberg + gCaptain). SECOND KHARG SLICK DETECTED MAY 11-12 (~12-20 sq km, persistent; UN warned 'major disaster' risk) — Kharg re-appearance trigger ACTIVATED, hypothesis tilt toward storage-overflow/regime-dumping strengthened. Second commercial vessel attack inside Qatari EEZ trigger NOT TRIPPED Day 2 of 7. VESSEL ATTRIBUTION OF MAY 10 STRIKE CLARIFIED: Marshall Islands-flagged Safesea Neha, US-managed Safesea Group (NJ — UN peacekeeping/WFP/GSA logistics); 2nd Safesea vessel hit cycle (Safesea Vishnu March 12 Iraqi waters killed one Indian crew); NO claim; Pravda attribution to two Iranian UAVs UNCONFIRMED by Western forensics. **HOUTHI DAY 80 RED SEA QUIET POSSIBLY BROKEN MAY 11** — UKMTO confirmed multiple explosions near vessel 130km SW of Hodeidah; no injuries; vessel briefly 'not under command'; NO Houthi claim (the non-claim itself a signal). UAE LAVAN APRIL 8 STRIKE CONFIRMED VIA WSJ MAY 11 — 55,000 bpd capacity offline months (UAE Mirage 2000-9 aircraft). New OFAC sanctions wave May 11-12: 12 entities (4 HK, 4 UAE, 1 Oman) + 3 individuals on IRGC Shaid Purja'fari + Golden Globe Turkey-cover company. AWRP unchanged ~1% H&M / 7-day (8x pre-war 0.1-0.15%) — insurers have NOT bought peace story; trigger 'AWRP normalization toward 0.5% by May 16' Day 6 of 10 FAILING HARD. Brent $105.58 May 12 (+1.3% 1D). Container freight separately: FBX13 China/East Asia → Mediterranean = $4,179 week ending May 12 (-5% w/w) — capacity has caught up; tanker market diverging from container market.",
+   "sources": [
+    "CNBC + Yahoo Finance + Eastern Herald (Aramco CEO Nasser quotes)",
+    "Bloomberg + gCaptain (Agios Fanourios)",
+    "CENTCOM official press releases",
+    "TWZ + Atlantic Council asset tracker (carrier disposition)",
+    "Fox News (second Kharg slick)",
+    "Iran International (Iran Oil Terminals + Bushehr MP denial)",
+    "UKMTO advisory (Hodeidah vessel)",
+    "Times of Israel + Yemen Press + AP-sourced wires",
+    "IndexBox + FreightWaves + Seatrade Maritime (Safesea Neha vessel ID)",
+    "Pravda (Russian state, attribution claim UNCONFIRMED)",
+    "WSJ primary (UAE Lavan)",
+    "Treasury primary (OFAC May 11-12)",
+    "Lloyd's List Intelligence",
+    "S&P Global / Strauss Center (AWRP)",
+    "Freightos (FBX13 container rate)"
+   ],
+   "verification": "Hormuz 2-5 ships/day = CONFIRMED industry-CEO authority (Nasser primary multi-source); CENTCOM 58→61 = CONFIRMED ACTION; Agios Fanourios U-turn = CONFIRMED (Bloomberg primary, gCaptain secondary); Second Kharg slick = PARTIALLY CONFIRMED (Fox primary, mainstream wires lagging, commercial-satellite verification pending); Safesea Neha attribution = CONFIRMED (IndexBox/FreightWaves/Seatrade); Hodeidah vessel attack = CONFIRMED ACTION (UKMTO primary) + UNCONFIRMED attribution; UAE Lavan April 8 = REPORTED (WSJ primary single-source operational, UAE has not acknowledged); OFAC May 11-12 = CONFIRMED (Treasury primary); AWRP unchanged = CONFIRMED multi-source baseline"
+  },
+  {
+   "date": "2026-05-10",
+   "headline": "BULK CARRIER STRUCK BY UNKNOWN PROJECTILE 23NM NE OF DOHA SUNDAY MORNING (NEW — FIRST COMMERCIAL VESSEL ATTACK SINCE CMA CGM SAN ANTONIO MAY 5; FIRST NEAR QATAR'S COAST; SMALL FIRE EXTINGUISHED, NO CASUALTIES; UKMTO WARNING NOTICE; NO CLAIM OF RESPONSIBILITY); KHARG ISLAND SATELLITE-CONFIRMED OIL SLICK MAY 6-8 (NEW — FIRST HARD-DATA SIGNAL BLOCKADE BITING AT PRODUCTION-EXPORT INTERFACE; CAUSE CONTESTED — Iran blames European tanker waste, Fox-quoted experts suggest storage-overflow dumping); CENTCOM PRECISION TALLY 58 VESSELS REDIRECTED + 4 IRANIAN-FLAGGED TANKERS DISABLED SINCE APRIL 13 (UPDATED — refines yesterday's >70-tankers-held framing; 4 disabled tankers: M/T Hasna May 7, M/T Sea Star III + M/T Sevda May 8, 4th identity not publicly disclosed); LLOYD'S LIST TRANSIT ~6 VESSELS/DAY VS ~60 BASELINE (latest data point); ~1,500 COMMERCIAL VESSELS ANCHORED. Bulk carrier strike geographic significance is acute: 23nm NE of Doha is well inside Qatar's EEZ, immediately offshore from Hamad Port and Ras Laffan, ordinarily considered the safest waters in the Persian Gulf. Three reading frames operationally consistent: (i) IRGC pressure-tactic on mediator coastline concurrent with al-Thani Miami meeting; (ii) Houthi-style proxy operation (LOW probability — wrong geometry); (iii) misfire/accidental engagement. AWRP unchanged at ~1% H&M / 7-day baseline (6-8x pre-war norm) — insurers have NOT bought peace story; trigger 'AWRP normalization toward 0.5% by May 16' Day 4 of 10 — failing harder. Brent close $101.29 May 8 (yfinance); Friday range $96.07 → $103.96 = trinary-regime signature oscillation. Lloyd's reports ~10% of normal Hormuz throughput. UK-France conditional Hormuz mission framework UNCHANGED. The trinary regime is now stabilizing into sustainable operational pattern: US blockade fully in force, Iran selectively enforcing PGSA rules, both sides engaging kinetically against each other's vessels and now near mediator coastline.",
+   "sources": [
+    "UKMTO Warning notice (bulk carrier near Doha)",
+    "AP / Boston Globe (bulk carrier wire)",
+    "Times of Israel live blog",
+    "Anadolu Agency",
+    "BNO News",
+    "CNN",
+    "Copernicus Sentinel-1/2/3 imagery (Kharg slick, primary)",
+    "Jerusalem Post (Kharg satellite)",
+    "Iran International (Iran lawmaker denial via Maariv)",
+    "NewsNation",
+    "Fox News (regime-dumping framing)",
+    "France 24",
+    "Anadolu Agency (Kharg)",
+    "US CENTCOM official statement May 9",
+    "Washington Examiner",
+    "ANI / Tribune India",
+    "Gulf News",
+    "Middle East Monitor",
+    "Lloyd's List Intelligence (transit data, primary)",
+    "S&P Global (AWRP)",
+    "Strauss Center insurance market tracker"
+   ],
+   "verification": "Bulk carrier strike near Doha = CONFIRMED ACTION (UKMTO primary, multi-source); perpetrator UNKNOWN (no party has claimed); Kharg satellite slick = CONFIRMED imagery (Copernicus + multiple Western corroborators); CAUSE CONTESTED (Iran lawmaker via Iran International/Maariv vs Fox News-quoted unnamed experts — neither side independently confirmed); CENTCOM 58/4 tally = CONFIRMED ACTION (CENTCOM primary, multi-source); Lloyd's List transit + 1,500 anchored = CONFIRMED OPERATIONAL FACT (Lloyd's + CNN); AWRP unchanged = CONFIRMED multi-source baseline"
+  },
+  {
+   "date": "2026-05-09",
+   "headline": "ZERO HORMUZ TRANSITS MAY 7 + ~1,500 VESSELS ANCHORED IN PERSIAN GULF (largest standstill of cycle); CENTCOM DISCLOSED >70 TANKERS HELD UNDER BLOCKADE + 20 WARSHIPS, 200 AIRCRAFT, 15,000 TROOPS ENFORCING; SECOND DAY OF US TANKER STRIKES (M/T SEA STAR III + M/T SEVDA, MAY 8); MOKHBER 'ATOMIC-BOMB' DOCTRINE INSTITUTIONALIZES SELECTIVE HORMUZ CONTROL AS PERMANENT STRATEGIC ASSET. The 7→0 transit count is a meaningful operational deterioration. AWRP unchanged at ~1% H&M (6-8x pre-war), 'AWRP normalization toward 0.5% by May 16' trigger Day 3/10 — failing. Mokhber (described as Mojtaba's adviser): 'Strait of Hormuz represents an opportunity as precious as an atomic bomb'; pledged Iran 'will change the [legal] regime of this strait — through international law if possible, and unilaterally if not' — first leadership-adjacent voice publicly endorsing unilateral codification of selective Hormuz control as permanent strategic asset; substantively contradicts MOU's 'BOTH sides lift Hormuz blockades' provision. CENTCOM blockade scale formally disclosed for first time: '20 warships stocked with over 200 aircraft and 15,000 troops are carrying out the blockade, which remains fully in effect.' Brent close $101.73 May 8 (+1.66% 1D); Friday range $96.07 → $103.96 = trinary-regime signature oscillation. France Charles de Gaulle CSG remains pre-positioned in Red Sea / Gulf of Aden — UK-France conditional Hormuz mission framework UNCHANGED at 51-nation Paris summit (April 17) framework.",
+   "sources": [
+    "Lloyd's List Intelligence (transit data, primary)",
+    "CNN (citing Lloyd's List + anonymous shipping industry source on 1,500-vessel figure)",
+    "Gulf News (Iran defies maritime law)",
+    "HormuzStraitMonitor.com (operational tracker)",
+    "Times of Israel liveblog (Mokhber primary)",
+    "L'Orient Today (Mokhber)",
+    "Middle East Eye (Mokhber)",
+    "Deccan Herald (Mokhber)",
+    "UPI primary on CENTCOM disclosure",
+    "Stars and Stripes (military daily)",
+    "NPR live updates",
+    "CBS News live updates",
+    "Fox News liveblog",
+    "TWZ (defense-niche sourcing)",
+    "S&P Global (AWRP)",
+    "Strauss Center insurance market tracker",
+    "USNI / NBC / Defense News / Naval News (French CSG status)"
+   ],
+   "verification": "Hormuz transit data + 1,500 vessel anchored = CONFIRMED OPERATIONAL FACT; Mokhber 'atomic-bomb' speech = CONFIRMED RHETORIC/THREAT (institutional, multi-source primary); CENTCOM blockade scale + tanker disabling = CONFIRMED ACTION (CENTCOM primary, multi-source); AWRP unchanged = CONFIRMED multi-source baseline; French CSG = CONFIRMED PREPARATION POSTURE (no operational deployment to Hormuz)"
+  },
+  {
+   "date": "2026-05-07",
+   "headline": "MOU FRAMEWORK INCLUDES EXPLICIT 'BOTH SIDES LIFT HORMUZ BLOCKADES'; IRAN SIGNALED FIRST UNCONDITIONAL REOPENING OFFER OF CYCLE — PBS/AP/AL JAZEERA cite Iranian officials offering to 'reopen Strait of Hormuz if US lifts blockade and war ends'; IRGC Navy added 'safe transit ensured with new procedures.' BUT operational reality lags: 5-6 vessels/day vs 138 norm; AWRP at 0.8-1% (still 6-8x baseline); CMA CGM San Antonio struck May 5 by cruise missile (CBS-attribution to Iran, IRGC has NOT claimed). France Charles de Gaulle CSG transits Suez to Red Sea/Gulf of Aden — first European naval shift of cycle; Macron called for Hormuz reopening AND spoke with Pezeshkian. Brent collapsed -7% May 6 to ~$103 on MOU scoop; Goldman Q2 cut to $90; World Bank $86 average for 2026. VLCC TD3C steepest 1-day drop in 5+ years on MOU news ('lead balloon' — Lloyd's List).",
+   "sources": [
+    "Axios primary scoop (MOU)",
+    "PBS NewsHour (Iran reopening offer)",
+    "AP",
+    "Al Jazeera",
+    "IRNA",
+    "Lloyd's List (AWRP, VLCC)",
+    "Strauss Center (transit data)",
+    "Strait of Hormuz Live Tracker",
+    "CMA CGM company statement",
+    "CBS News (Iran attribution)",
+    "Naval News (French CSG)",
+    "Goldman Sachs Q2 research note",
+    "World Bank energy report April 28"
+   ],
+   "verification": "MOU 'both sides lift Hormuz blockades' provision = REPORTED (Axios, multi-corroborated); Iran reopening offer = REPORTED→CONFIRMED (PBS/AP direct quotes); Operational data (transit, AWRP, VLCC) = CONFIRMED (Lloyd's List, Strauss Center, Hormuz tracker); CMA CGM strike = CONFIRMED action, CLAIMED Iran attribution; French CSG = CONFIRMED (French armed forces primary)"
+  },
+  {
+   "date": "2026-05-06",
+   "headline": "PROJECT FREEDOM PAUSED MAY 5; BLOCKADE 'REMAINS IN FULL FORCE' PER TRUMP TRUTH SOCIAL — BIFURCATION: KINETIC-WAR PROBABILITY DOWN (BRENT -4%) BUT PHYSICAL CHOKEPOINT PERSISTS (FRONTLINE +2.8%, BOAT +3.5%, VLCC TD3C ~$420-474K/DAY); BRENT <$115 CHAIN DAY 5/5 COMPLETE",
+   "sources": [
+    "Trump Truth Social May 5",
+    "Pentagon press conference",
+    "Lloyd's List VLCC pricing",
+    "Argus Media AWRP",
+    "CNBC oil prices",
+    "TradingEconomics Brent"
+   ],
+   "verification": "CONFIRMED Trump primary + multi-source operational price data; bifurcation framework verified across crude (down) vs tanker (up) divergence"
+  },
+  {
+   "date": "2026-05-05",
+   "headline": "HORMUZ KINETIC-CONTESTED MAY 4: IRAN MULTI-AXIS STRIKE + US PROJECT FREEDOM ARMED-ESCORT TRANSIT; 6 IRANIAN BOATS SUNK; 2 US DESTROYERS TRANSITED; SK HMM NAMU DAMAGED IN-STRAIT",
+   "sources": [
+    "CENTCOM (Adm. Cooper)",
+    "Stars and Stripes",
+    "Al Jazeera",
+    "CNN",
+    "Bloomberg",
+    "Times of Israel",
+    "Korean MFA"
+   ],
+   "verification": "CONFIRMED multi-source operational + primary military"
+  },
+  {
+   "date": "2026-05-03",
+   "headline": "IRAN 14-POINT PROPOSAL INCLUDES 'NEW HORMUZ GOVERNANCE MECHANISM' — DAY 65 DUAL BLOCKADE PERSISTS",
+   "sources": [
+    "NPR",
+    "Al Jazeera"
+   ],
+   "verification": "CONFIRMED"
+  },
+  {
+   "date": "2026-04-30",
+   "headline": "TRUMP REJECTS HORMUZ-FIRST ON RECORD VIA AXIOS — 'BLOCKADE MORE EFFECTIVE THAN BOMBING",
+   "sources": [
+    "Axios",
+    "Bloomberg"
+   ],
+   "verification": "CONFIRMED Trump-Axios direct quote + CONFIRMED CEN"
+  },
+  {
+   "date": "2026-04-29",
+   "headline": "HORMUZ NOW MULTILATERAL-INSTITUTIONAL: IRAN FORMAL UN PROTEST + QATAR PUBLIC ENGAGEMENT + TRUMP EXTENDED-BLOCKADE PREP —",
+   "sources": [
+    "ANI News",
+    "Business Standard"
+   ],
+   "verification": "CONFIRMED: Iran UN protest (Iranian FM statement),"
+  },
+  {
+   "date": "2026-04-28",
+   "headline": "IRAN'S HORMUZ-FIRST PROPOSAL VIA PAKISTAN — TEHRAN OFFERS OPERATIONAL CONTROL OF HORMUZ AS BARGAINING CHIP, TRUMP UNLIKE",
+   "sources": [
+    "Axios",
+    "PBS"
+   ],
+   "verification": "CONFIRMED proposal delivery + CONFIRMED kinetic pa"
+  },
+  {
+   "date": "2026-06-27",
+   "headline": "IRANIAN DRONE HIT TANKER KIKU (PANAMA-FLAGGED, >2M BBL) IN HORMUZ — THE ENFORCEMENT ACT THAT TRIGGERED US STRIKE NIGHT 2; JMIC SAME DAY ANNOUNCED WIDENED OMAN-SIDE TRANSIT ROUTE",
+   "sources": [
+    "PBS/AP",
+    "CENTCOM",
+    "Wikipedia crisis timeline",
+    "SeaVantage"
+   ],
+   "verification": "CONFIRMED ACTION (Kiku); CONFIRMED (JMIC route)"
+  },
+  {
+   "date": "2026-07-01",
+   "headline": "TRANSITS 43/DAY (24 IN/19 OUT, 4 DARK) — 2-3x PRIOR WEEK, ~28-50% OF NORM; FLOW DATA CONFLICTS (>10 MB/D CRUDE PER THE NATIONAL vs NEAR-ZERO 7dMA + ZERO AIS-VISIBLE LNG PER TRACKERS; ~820 SHIPS STRANDED) — COUNT TREND CONFIRMED, FLOW RECOVERY CONTESTED",
+   "sources": [
+    "UANI/Windward 2 Jul",
+    "straits.live",
+    "CBS/official (258/wk)",
+    "The National 3 Jul"
+   ],
+   "verification": "REPORTED — single Windward data family for counts; flow claims CONTESTED across sources"
+  },
+  {
+   "date": "2026-07-02",
+   "headline": "IRGC ROUTE-DESIGNATION ULTIMATUM + IRAN MILITARY HQ 'DECISIVE AND SWIFT RESPONSE' WARNING — RHETORIC ONLY: NO CONFIRMED TURN-BACK/SEIZURE/ATTACK SINCE KIKU (27 JUN); TOLL DEMAND NOW FORMALIZED VIA OMAN PROPOSAL (Oman: voluntary fees; Iran: mandatory; US: opposed)",
+   "sources": [
+    "HSToday",
+    "Al Jazeera 2 Jul",
+    "Axios (tolls)",
+    "ISW 30 Jun"
+   ],
+   "verification": "CONFIRMED statements = RHETORIC/THREAT; enforcement NOT re-tripped"
+  }
+ ],
+ "historical_summaries": [
+  {
+   "period": "2026-03",
+   "summary": "12 signals. IRGC announced Hormuz closed to US, Israeli, and Western allied ships | Dallas Federal Reserve described closure as 'largest disruption to energy supply since the 1970s energy crisis' and 'largest in the history | Mojtaba Khamenei's first statement confirmed Hormuz would remain closed to pressure Iran's enemies",
+   "signal_count": 12,
+   "auto": true
+  },
+  {
+   "period": "2026-04",
+   "summary": "64 signals. WSJ paradigm shift CORROBORATED by CNN: 'Trump administration believes it will have to end Iran war with oil chokepoint still closed | Al-Salmi VLCC attacked at Dubai port anchorage — 31 nautical miles NW of Dubai, OUTSIDE Hormuz proper | CONFIRMED: Hormuz toll law passed FULL Majlis (not just committee)",
+   "signal_count": 64,
+   "auto": true
+  },
+  {
+   "as_of": "2026-06-27",
+   "summary": "Day 105 / 2026-06-12. **THE STRAIT BECAME THE CENTRAL BARGAINING CHIP — A DEAL WOULD REOPEN IT IN ~30 DAYS, BUT IRAN INTENDS TO KEEP 'CONTROL' AND THE BLOCKADE STAYS UNTIL SIGNING.** Reported deal terms have Hormuz reopening to pre-war volumes within 30 days and the US lifting its naval blockade. Two caveats define the trade: (1) Araghchi says Iran will 'maintain control' of the Strait even under a deal — reopening restores FLOW but not necessarily the pre-war freedom-of-navigation regime, so the structural floor under oil may be higher than a clean reopening implies; (2) Trump says the blockade stays 'in full force until finalized,' so the ~5%-of-normal-flow paralysis and the lethal enforcement campaign continue until a signature. The market priced the reopening hope hard: Brent -4.1% to $86.71 (WTI below $85), the war premium finally deflating DOWN on de-escalation after refusing to bid UP through the kinetic escalation. Physical (VLCC rates, war-risk cover ~7-10% of hull) has NOT unwound — paper-oil drops on hope, physical waits for the signature. Tanker equities (Frontline +9.8%) priced reopening as VOLUME-bullish (idled-fleet re-employment)."
+  }
+ ]
 }
