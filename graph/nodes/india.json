@@ -3,11 +3,11 @@
  "name": "India",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-07-04",
- "summary": "Day 127 / 2026-07-04. **INDIA GOT ITS IMPORTER DIVIDEND BACK — AND SPENT $5.65BN OF RESERVES HOLDING THE RUPEE WHILE FIIs SOLD A RECORD H1.** The week: 2 hostage days (Mon-Tue, strike exchange) then 3 decoupled up days (Doha relief). Brent $70-72 = OMC margin rebuild (PSU OMCs made NO retail cut while private Nayara cut petrol Rs5/diesel Rs3 from 1 Jul — margin rebuild over politics; commercial LPG -183.50). India 10Y 6.72% (15-WEEK LOW; FPIs BUYING debt while selling equities = carry trade, not growth conviction). Rupee: 94.54 (29 Jun) -> 95.23-95.35 mid-week -> 95.21 Fri (-0.7% w/w) DESPITE RBI reserves -$5.65bn to $666.93bn (w/e 26 Jun; onshore spot + NDF intervention noted) — an unintervened week was 95.50+. NOTE: prior graph carried ~95.40 (10 Jun) as current; the rupee had STRENGTHENED to ~94.3-94.5 by 25-26 Jun post-signing before this week's slide — level corrected. Domestic: GST 1.94 lakh cr +13.9% YoY (record); IMD BELOW-NORMAL July monsoon warning (<94% LPA — genuine domestic risk); India-US trade deadline is 24 JULY (10% temporary tariff-regime expiry; 'July 9' references falsified — CORRECTED); Modi-Pezeshkian call 1 Jul (freedom of navigation, dialogue, BRICS invite) — studied neutrality intact, no MEA condemnation of US strikes (confirmed absence). Diaspora/evacuation indicators: none. Fertilizer relief: world urea -~50% from Apr peak (Profercy 196.91, lowest since mid-Jan) = subsidy-bill windfall.",
+ "last_updated": "2026-07-17",
+ "summary": "Day 140 / 2026-07-17. **INDIA'S EQUITY MARKET DECOUPLED FROM THE WAR; ITS MACRO DID NOT.** The importer dividend is DEAD at $86 Brent (the 4-Jul fired trigger reversed 14 Jul); rupee at RECORD LOW (96.60 intraday / 96.52 close ~14 Jul; 96.27-96.30 Fri after measured RBI intervention, spot+NDF; reserves ROSE $8.2bn over two weeks to $675.16bn — valuation effects, war chest intact); June CPI 4.38% (first >4% of the new series; food 5.32%); WPI 9.87% with FUEL +27.4% — the war is fully in the wholesale pipeline; kharif sowing -20.8% on a -20% monsoon deficit (rice +19% 1M globally; watch for an Indian export restriction — the classic next domino); urea re-inflated (+16% m/m benchmark; FOB ME ~$795/t) — the subsidy windfall REVERSED; OMC margin cushion (Rs 8-10/L) burning at $86 with pumps never cut. TWO INDIAN SEAFARERS KILLED by Iranian tanker strikes (GFS Galaxy 11 Jul; Al Bahyah/Mombasa B 14 Jul; 3 missing) — a direct Indian-casualty vector the MEA must navigate. Trade deal: NOT signed at T-5-to-7 days (22-24 Jul deadline conflict); Goyal denied rejecting a quick deal; 'emboldened India holds out' (Reuters analysis); Russia still ~50% of crude imports (record 2.7 mb/d June) in direct tension with the framework. India 10Y 6.72% (13 Jul print — STALE, risk higher).",
  "current": {
-  "status": "Importer dividend re-engaged; hostage machinery intact (falls when crisis fires); FII exodus continues at slowing pace; RBI actively defending 95.2; monsoon + 24-Jul tariff cliff are the next NON-crisis tests.",
-  "rupee": "95.21 (Fri 3 Jul close; w/w -0.7%; RBI reserves $666.93bn, -$5.65bn intervention week)"
+  "status": "Equity decoupled (DII wall + earnings), macro hostage (rupee record low, CPI>4%, WPI fuel +27%, dividend dead, monsoon deficit). Twin binaries in 7 days: trade cliff 22-24 Jul + oil path. Two Indian seafarers killed — diplomatic vector live.",
+  "rupee": "96.27-96.30 Fri (record 96.52 close ~14 Jul); reserves $675.16bn (w/e 10 Jul)"
  },
  "active_triggers": [
   {
@@ -19,11 +19,12 @@
    ],
    "added": "2026-03-23",
    "note_2026-06-10": "2026-06-10: CORRECTED a badly stale '₹92.55' current-level reference — the rupee is at ~₹95.40 (closed ₹95.71 Mon 8 Jun on escalation, firmed since on Trump's tone). The ₹95 level is long since re-breached; ₹94.50 decisively broken; ₹96 pressed but not breached onshore. Stays WATCHING (the meaningful live level is the ₹96 RBI-direct-intervention trigger on inr-usd).",
-   "note_2026-07-04": "2026-07-04: LEVEL CORRECTED + WATCHING — rupee had strengthened to ~94.3-94.5 by 25-26 Jun (post-signing), then slid to 95.21 Fri (mid-week 95.35) with RBI spending $5.65bn. The 95-line is live again but this is managed depreciation, not disorder."
+   "note_2026-07-04": "2026-07-04: LEVEL CORRECTED + WATCHING — rupee had strengthened to ~94.3-94.5 by 25-26 Jun (post-signing), then slid to 95.21 Fri (mid-week 95.35) with RBI spending $5.65bn. The 95-line is live again but this is managed depreciation, not disorder.",
+   "note_2026-07-17": "2026-07-17: BREACHED DEEPER — RECORD LOW 96.52 close (~14 Jul), 96.60 intraday; Fri 96.30. Managed depreciation with measured intervention; reserves intact at $675bn (valuation-boosted). Not disorder — but the war is now visibly priced in the currency, not the index."
   },
   {
    "condition": "Oil drops below $85 sustained",
-   "status": "fired_active",
+   "status": "reversed_unfired",
    "cascade": [
     "inr-usd",
     "rbi",
@@ -33,7 +34,8 @@
    "note_2026-06-16": "2026-06-16: Brent $82.92 (one session sub-$85) but Tuesday reversing on Lebanon — not yet sustained. STAYS watching.",
    "note_2026-06-17": "2026-06-17: Now sustained sub-$85 for 2 sessions (Brent $78.65) as blockade lifts -- the import-cost relief is materialising. The India-positive condition is firming.",
    "note_2026-06-19": "2026-06-19: Sustained sub-$85 (Brent $79.64) — the importer dividend is locked in by the signed deal. The India-positive oil condition is met; the binding constraint is now the Fed/FII, not oil.",
-   "note_2026-07-04": "2026-07-04: FIRED/ACTIVE — Brent sub-$85 for 12+ consecutive sessions since ~17 Jun (now $71-72). Import-cost relief is live: OMC margin rebuild, 10Y at 15-week lows, urea -50% from peak. The dividend is flowing to OMC margins and the subsidy bill, NOT yet to pump prices (PSU OMCs holding retail)."
+   "note_2026-07-04": "2026-07-04: FIRED/ACTIVE — Brent sub-$85 for 12+ consecutive sessions since ~17 Jun (now $71-72). Import-cost relief is live: OMC margin rebuild, 10Y at 15-week lows, urea -50% from peak. The dividend is flowing to OMC margins and the subsidy bill, NOT yet to pump prices (PSU OMCs holding retail).",
+   "note_2026-07-17": "2026-07-17: REVERSED/UN-FIRED — Brent broke back above $85 on 14 Jul; $86 Fri. The importer-dividend cascade is DEAD: urea re-inflated, OMC cushion burning, WPI fuel +27.4%."
   },
   {
    "condition": "$100 oil sustained 2+ weeks",
@@ -59,7 +61,8 @@
    "activated": "2026-05-19",
    "activation_note": "Petrol/diesel raised ~90 paise on May 19 — SECOND hike in a week (first on May 12). The pass-through-as-policy choice is operationally fired inside the 30-day window (window opened 2026-04-27, closes 2026-05-27).",
    "update_2026-05-25": "Now firing HARDER — FOURTH hike May 25 (+₹2.61-2.71/L, the LARGEST single hike of the sequence), breaks the Saturday-only political-tolerance pattern (big Monday hike on a US/UK holiday). Cumulative ~₹7.5/L since May 15. Reads as cost-recovery/refining-margin + weak-rupee pass-through, not a political cadence. Stays `active_fired`.",
-   "note_2026-07-04": "2026-07-04: PARTIAL — private Nayara cut petrol Rs5/diesel Rs3 from 1 Jul; PSU OMCs (IOC/BPCL/HPCL) made NO matching cut, rebuilding margins (~Rs3/L petrol, Rs27/L diesel under-recovery legacy). Politically awkward, financially bullish OMCs."
+   "note_2026-07-04": "2026-07-04: PARTIAL — private Nayara cut petrol Rs5/diesel Rs3 from 1 Jul; PSU OMCs (IOC/BPCL/HPCL) made NO matching cut, rebuilding margins (~Rs3/L petrol, Rs27/L diesel under-recovery legacy). Politically awkward, financially bullish OMCs.",
+   "note_2026-07-17": "2026-07-17: STASIS — no PSU retail cut ever came; the margin cushion is now being consumed by $86 Brent. Politically stable only while crude's rise is gradual."
   }
  ],
  "top_edges": [
@@ -474,6 +477,20 @@
     "Profercy Wk26"
    ],
    "verification": "CONFIRMED (hard data); REPORTED (intervention mechanics)"
+  },
+  {
+   "date": "2026-07-17",
+   "headline": "INDIA MACRO RE-HOSTAGED: RUPEE RECORD LOW 96.52 (~14 Jul), CPI 4.38%, WPI FUEL +27.4%, KHARIF -20.8%, UREA RE-INFLATED (+16% m/m), OMC CUSHION BURNING, 2 INDIAN SEAFARERS KILLED; TRADE DEAL UNSIGNED AT T-5-7 (22-24 JUL CONFLICT FLAGGED); RUSSIA STILL ~50% OF CRUDE (2.7 MB/D JUNE — framework tension)",
+   "sources": [
+    "RBI weekly",
+    "CNBC (CPI)",
+    "Business Standard (WPI)",
+    "Deccan Herald (rupee, date REPORTED)",
+    "IMO/CNN (seafarers)",
+    "ThePrint (Russian crude)",
+    "US News/Reuters (trade)"
+   ],
+   "verification": "CONFIRMED (hard data); REPORTED (deadline conflict, rupee date)"
   }
  ],
  "historical_summaries": [
@@ -492,6 +509,10 @@
   {
    "as_of": "2026-06-26",
    "summary": "Day 105 / 2026-06-12. **THE WAR FINALLY HELPED INDIA — A DEAL+OIL RELIEF RALLY (NIFTY +2.0%, SENSEX +2.3%, RUPEE FIRMER) AS THE DE-ESCALATION/OIL-DOWN CHANNEL FIRED POSITIVE FOR THE FIRST TIME.** US-Iran deal hopes plus Brent -4% eased India's import-cost, fiscal and inflation pressure; financials led (Bank Nifty +3.0%) and the rupee firmed to ₹95.10, AWAY from the ₹96 line that was un-ticking yesterday. The Indian press swung from the Settebello sovereignty-grievance back to the upside within a day. The Settebello fallout advanced only procedurally (demarche to US Charge Jason Meeks; 'deepest concern over the ongoing incidents'); with the blockade staying until a deal signs, the irritant persists short-term but the deal track caps the rupture risk. Deployment scorecard, IMPROVING for the first time: Brent <$95 [✓ $86.71], organic rupee toward ₹93-94 [closer, ₹95.10], FII net-positive 3+ sessions [STILL UNCONFIRMED]. The conditions are improving — but on a ~80-85% deal HOPE, not a signature, and not yet an FII-flow turn. No deployment signal yet."
+  },
+  {
+   "as_of": "2026-07-04",
+   "summary": "Day 127 / 2026-07-04. **INDIA GOT ITS IMPORTER DIVIDEND BACK — AND SPENT $5.65BN OF RESERVES HOLDING THE RUPEE WHILE FIIs SOLD A RECORD H1.** The week: 2 hostage days (Mon-Tue, strike exchange) then 3 decoupled up days (Doha relief). Brent $70-72 = OMC margin rebuild (PSU OMCs made NO retail cut while private Nayara cut petrol Rs5/diesel Rs3 from 1 Jul — margin rebuild over politics; commercial LPG -183.50). India 10Y 6.72% (15-WEEK LOW; FPIs BUYING debt while selling equities = carry trade, not growth conviction). Rupee: 94.54 (29 Jun) -> 95.23-95.35 mid-week -> 95.21 Fri (-0.7% w/w) DESPITE RBI reserves -$5.65bn to $666.93bn (w/e 26 Jun; onshore spot + NDF intervention noted) — an unintervened week was 95.50+. NOTE: prior graph carried ~95.40 (10 Jun) as current; the rupee had STRENGTHENED to ~94.3-94.5 by 25-26 Jun post-signing before this week's slide — level corrected. Domestic: GST 1.94 lakh cr +13.9% YoY (record); IMD BELOW-NORMAL July monsoon warning (<94% LPA — genuine domestic risk); India-US trade deadline is 24 JULY (10% temporary tariff-regime expiry; 'July 9' references falsified — CORRECTED); Modi-Pezeshkian call 1 Jul (freedom of navigation, dialogue, BRICS invite) — studied neutrality intact, no MEA condemnation of US strikes (confirmed absence). Diaspora/evacuation indicators: none. Fertilizer relief: world urea -~50% from Apr peak (Profercy 196.91, lowest since mid-Jan) = subsidy-bill windfall."
   }
  ]
 }

@@ -3,14 +3,11 @@
  "name": "VIX (CBOE Volatility Index)",
  "type": "index",
  "created": "2026-05-13",
- "last_updated": "2026-07-04",
+ "last_updated": "2026-07-17",
  "summary": "Day 127 / 2026-07-04. **VIX 15.81 — LOWEST OF THE WAR, PRINTED IN A WEEK CONTAINING A US-IRAN MISSILE EXCHANGE. THE OPTIONS MARKET HAS STOPPED PAYING FOR TAIL RISK.** Expected on a base-strike-exchange week: 20+. Got: 15.81 (-2.1% Thu; -34.6% 3M), India VIX at a one-month low the same week. The market prices the stand-down/deal as terminal. THIS IS THE CHEAPEST CONVEXITY OF THE CYCLE: the live re-gap vectors are (1) Lebanon militia-cycle escalation (2-3 Jul reservist->10-site exchange; Ghalibaf wired Lebanon into the US-Iran track), (2) post-funeral talks failure (~10-14 Jul), (3) a new Hormuz enforcement incident. The >22 trigger is ~6 points away — moot as a warning, potent as a re-gap marker.",
  "current": {
-  "price": "VIX 15.81 (Thu 2 Jul close) — lowest since pre-war.",
-  "delta_1d": "-2.1%",
-  "delta_1m": "-1.6%",
-  "delta_3m": "-34.6%",
-  "read": "Tail risk unpriced through an actual missile exchange; cheapest convexity of the cycle. Re-gap vectors: Lebanon, post-funeral talks failure, Hormuz enforcement."
+  "price": "VIX 18.31-18.42 (+9.4-10.1% Fri intraday).",
+  "read": "STILL ONLY 18 DURING A BLOCKADE WAR — the US index-level Iran premium is tiny; the war is priced in oil/rates/fertilizer. The 4-Jul 'cheapest convexity' call partially paid (15.8->18.4); remaining re-gap vectors: Iranian energy-infrastructure strikes, Bab el-Mandeb, FOMC 28-29 Jul."
  },
  "active_triggers": [
   {
@@ -235,6 +232,16 @@
     "India Infoline 2 Jul"
    ],
    "verification": "CONFIRMED tape; convexity read = analyst assessment"
+  },
+  {
+   "date": "2026-07-17",
+   "headline": "VIX 18.4 — UP 16% FROM THE 4-JUL 15.8 LOW BUT STILL PRICING THE WAR AS CONTAINED; FRIDAY'S +10% IS AS MUCH THE ASIA TECH CRASH AS IRAN (attribution split: ~50% AI-unwind contagion / 25% earnings / 15% Fed / 10% Iran per attribution sweep)",
+   "sources": [
+    "market-data.py",
+    "Yahoo live blog",
+    "TheStreet"
+   ],
+   "verification": "CONFIRMED tape; attribution REPORTED"
   }
  ],
  "historical_summaries": [

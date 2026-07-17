@@ -3,15 +3,15 @@
  "name": "Strait of Hormuz",
  "type": "trade_route",
  "created": "2026-03-23",
- "last_updated": "2026-07-04",
- "summary": "Day 127 / 2026-07-04. **RECOVERING FAST, ON IRAN'S TERMS — TRANSIT COUNTS UP 2-3x (43 ON 1 JUL vs ~12 PRIOR WEEK) BUT THE FLOW-QUALITY PICTURE IS CONTESTED, AND THE FIGHT HAS MOVED FROM KINETICS TO ROUTES AND TOLLS.** Counts (Windward-family): 1 Jul 43 transits (24 in/19 out; 12/24 inbound tankers; 4 dark) = ~28-50% of the 84-95/day norm; a CBS/official claim says 258 transits last week vs 138 prior. CONFLICTING flow data: The National reports crude flows >10 mb/d (Saudi ~90% pre-war, UAE 3.9 mb/d incl. Habshan-Fujairah bypass) vs trackers showing crude 7dMA near zero, zero AIS-visible LNG since the MoU, ~820 vessels still stranded, 'effectively closed' — DO NOT encode a flow recovery as CONFIRMED. The friction is now a ROUTE DISPUTE: JMIC announced a widened Oman-side route 27 Jun; IRGC insists only Iran-designated routes are authorized (vessels must contact IRGC Navy); Iran military HQ 2 Jul threatened 'decisive and swift response' to US interference — RHETORIC so far: NO confirmed turn-back/seizure/attack since the 27-Jun Kiku strike. Iran's TRANSIT-TOLL demand is now a formal negotiation file (Oman proposal ~30 Jun: navigation-safety regime with 'service fees' — Oman says voluntary, Iran says mandatory, US lobbying against). Escorts reportedly suspended post-containership attack. War-risk 3-8% hull (Marsh 28 Jun — did NOT soften; underwriters want 2-4 weeks of calm). VLCC Hormuz-transit fixtures ~$470k/day (war premium embedded in freight, not insurance relief).",
+ "last_updated": "2026-07-17",
+ "summary": "Day 140 / 2026-07-17. **CLOSED-IN-FACT: IRGC DECLARED CLOSURE 11-12 JUL (FIRST FORMAL DECLARATION, BACKED BY CONFIRMED VESSEL KILLS) AND THE US BLOCKADE IS BACK — TRANSITS COLLAPSED 49/DAY (7 JUL PEAK) -> 22 (9 Jul) -> 10-14 (12 Jul, conflicting) -> 13 -> 7 -> 3 IN THE 24H TO 16-17 JUL.** Unlike the 20-Jun 'closure' (rhetoric, debunked), THIS one is operationally real: 6+ vessels attacked 6-14 Jul (Al Rekayyat LNG, Wedyan, disputed third, Stolt Magnesium, Mombasa B, Al Bahyah; GFS Galaxy 11 Jul — engine room destroyed, Indian crewman killed; 2 seafarers confirmed dead by IMO, 2 Indians total in window), ~50 tankers running dark, ~6,000 seafarers stranded, evacuations ON HOLD, IMO advising against ALL transit. CENTCOM contests the closure (claims 8+ mb transited 12 Jul under escort — CLAIMED) and Vance vows the strait 'is going to be open.' Oman's dual-corridor proposal died when Iran struck Oman (12 Jul); Trump's 20% toll came and went in 24h (14 Jul). Zero Qatari LNG since 7 Jul. War-risk insurance NEVER softened: 3-10% hull, ~5% 'new norm', $10-14m/voyage, US/UK/Israel-nexus ships nicknamed 'missile magnets' — some owners simply not sailing. Brew (Eurasia): 'It's not Iran or the US who decide that the strait is open — it's shipping and insurance companies' — currently vindicated. Polymarket: ~3% normalization by 31 Jul, ~17% by 31 Aug. ISW 15 Jul: Iran's attacks ARE deterring use of non-Iranian routes — Iran winning the coercion contest at the margin despite the bombing.",
  "current": {
-  "status": "Open-on-Iran's-terms: counts recovering (43/day 1 Jul), flows contested, route dispute live (JMIC Oman-side route vs IRGC-designated routes), toll demand formalized via Oman proposal, no enforcement incident since 27-Jun Kiku strike. Stand-down clause: 'vessels can move freely.'"
+  "status": "Closed-in-fact (3 transits/24h; declaration + confirmed kills + blockade). The chokepoint is now the war's center of gravity — the toll/route dispute that broke the deal is unresolved and kinetic."
  },
  "active_triggers": [
   {
    "condition": "Hormuz reopens to all traffic (even partially)",
-   "status": "active",
+   "status": "reversed_closed",
    "cascade": [
     "brent-crude",
     "india",
@@ -32,18 +32,20 @@
    "note_2026-06-22": "2026-06-22: STAYS active. 55 ships transited — reopening accelerating. Iran's verbal closure does NOT reverse this (no enforcement; rhetoric-not-action discipline).",
    "note_2026-06-23": "2026-06-23: STAYS active but FALTERING — transits fell to 12 (Sun); chilling effect via caution. Watch for re-closure if transits trend to zero. No enforced blockade (CENTCOM: traffic flows).",
    "note_2026-06-26": "2026-06-26: STAYS active — 49 transits 24 Jun (wartime high), 43 on 25 Jun. Recovery real but now IRGC-policed.",
-   "note_2026-07-04": "2026-07-04: STAYS active (partial reopening real: counts 2-3x w/w) — but 'all traffic' is false while Iran designates routes, demands tolls, and LNG shows zero AIS-visible flow. Reopening is PARTIAL + CONDITIONAL."
+   "note_2026-07-04": "2026-07-04: STAYS active (partial reopening real: counts 2-3x w/w) — but 'all traffic' is false while Iran designates routes, demands tolls, and LNG shows zero AIS-visible flow. Reopening is PARTIAL + CONDITIONAL.",
+   "note_2026-07-17": "2026-07-17: REVERSED to closed-in-fact — the partial reopening (peak 49/day) died 6-14 Jul. Status returned to the closure regime with BOTH an Iranian declaration and a US blockade layered on top."
   },
   {
    "condition": "US attempts naval escort or forced opening of Hormuz",
-   "status": "watching",
+   "status": "fired_active",
    "cascade": [
     "iran",
     "brent-crude",
     "united-states",
     "shipping-tankers"
    ],
-   "added": "2026-03-23"
+   "added": "2026-03-23",
+   "note_2026-07-17": "2026-07-17: FIRED — the US IS attempting exactly this: blockade of Iranian ports + escort claims (8+ mb 12 Jul) + Vance 'it will be open' + Trump 'guardian of Hormuz'. The trigger's cascade (Iran counter-response) also fired: tanker cruise-missile attacks 13-14 Jul."
   },
   {
    "condition": "War risk insurance for Gulf transits breaks below 0.5% hull value (normalization threshold) — REFRAMED 2026-05-06: 'AWRP normalization toward 0.5% within 10 sessions' is now the diplomatic-track-durability test under the Trump pause framework",
@@ -184,7 +186,8 @@
    "note_2026-06-23": "2026-06-23: Still no Iranian enforcement — dark vessels are shipowner caution, not interdiction. STAYS watching.",
    "note_2026-06-26": "2026-06-26: ACTIVATED watching->active. IRGC turn-backs 25 Jun are CONFIRMED ACTION — Windward corroborated 5 vessels turned + 1 dark, matching the IRGC claim (2 sources, operational). Distinct from the 20 Jun verbal 'closure' (which CENTCOM refuted): this time vessels were actually turned back. Partial enforcement, not full blockade (43 transits still occurred).",
    "note_2026-06-27": "2026-06-27: Escalated — the IRGC enforcement (turn-backs) led to a cargo-ship drone attack and a US retaliatory strike. Stays active; now part of a kinetic cycle.",
-   "note_2026-07-04": "2026-07-04: STAYS active — the 27-Jun Kiku drone strike was the last CONFIRMED enforcement act (operational, CENTCOM/AP-verified). Since the 28-29 Jun stand-down: zero confirmed enforcement incidents in 6 days; IRGC route threats are RHETORIC. De-activation condition: 14 days without an enforcement incident AND war-risk premium softening (Marsh says underwriters want 2-4 weeks)."
+   "note_2026-07-04": "2026-07-04: STAYS active — the 27-Jun Kiku drone strike was the last CONFIRMED enforcement act (operational, CENTCOM/AP-verified). Since the 28-29 Jun stand-down: zero confirmed enforcement incidents in 6 days; IRGC route threats are RHETORIC. De-activation condition: 14 days without an enforcement incident AND war-risk premium softening (Marsh says underwriters want 2-4 weeks).",
+   "note_2026-07-17": "2026-07-17: ACTIVE-ESCALATED — 6+ confirmed vessel attacks 6-14 Jul with seafarer deaths; the de-activation clock (14 clean days) reset repeatedly and is now moot. This trigger's condition is the war's daily reality."
   }
  ],
  "top_edges": [
@@ -717,6 +720,29 @@
     "ISW 30 Jun"
    ],
    "verification": "CONFIRMED statements = RHETORIC/THREAT; enforcement NOT re-tripped"
+  },
+  {
+   "date": "2026-07-12",
+   "headline": "IRGC DECLARED HORMUZ CLOSED 'UNTIL FURTHER NOTICE' (11-12 Jul, date conflicts by outlet) — FIRST FORMAL CLOSURE DECLARATION OF THE WAR, AND UNLIKE 20-JUN IT IS BACKED BY CONFIRMED VESSEL KILLS; IRAN STRUCK OMAN (THE MEDIATOR/CORRIDOR AUTHOR) SAME WINDOW; CENTCOM CONTESTS ('8+ MB TRANSITED SUNDAY UNDER ESCORT' — CLAIMED)",
+   "sources": [
+    "NPR 11 Jul",
+    "Windward",
+    "Al Jazeera 12 Jul explainer",
+    "CENTCOM (claim)"
+   ],
+   "verification": "CONFIRMED (declaration + enforcement); CLAIMED (escort volumes)"
+  },
+  {
+   "date": "2026-07-17",
+   "headline": "TRANSITS 3/DAY (24H TO 16-17 JUL) vs 49 PEAK 7 JUL vs 84-95 NORM; ~6,000 SEAFARERS STRANDED, EVACUATIONS HELD, IMO ADVISES AGAINST ALL TRANSIT; WAR-RISK 3-10% HULL ($10-14M/VOYAGE, 'MISSILE MAGNETS' PRICING) — NEVER SOFTENED; ZERO QATARI LNG SINCE AL REKAYYAT (7 JUL)",
+   "sources": [
+    "CNN",
+    "Kpler/PortWatch (conflicting count families flagged)",
+    "UN/IMO",
+    "The National 17 Jul",
+    "Lloyd's List"
+   ],
+   "verification": "CONFIRMED (operational reversal); counts REPORTED"
   }
  ],
  "historical_summaries": [
@@ -735,6 +761,10 @@
   {
    "as_of": "2026-06-27",
    "summary": "Day 105 / 2026-06-12. **THE STRAIT BECAME THE CENTRAL BARGAINING CHIP — A DEAL WOULD REOPEN IT IN ~30 DAYS, BUT IRAN INTENDS TO KEEP 'CONTROL' AND THE BLOCKADE STAYS UNTIL SIGNING.** Reported deal terms have Hormuz reopening to pre-war volumes within 30 days and the US lifting its naval blockade. Two caveats define the trade: (1) Araghchi says Iran will 'maintain control' of the Strait even under a deal — reopening restores FLOW but not necessarily the pre-war freedom-of-navigation regime, so the structural floor under oil may be higher than a clean reopening implies; (2) Trump says the blockade stays 'in full force until finalized,' so the ~5%-of-normal-flow paralysis and the lethal enforcement campaign continue until a signature. The market priced the reopening hope hard: Brent -4.1% to $86.71 (WTI below $85), the war premium finally deflating DOWN on de-escalation after refusing to bid UP through the kinetic escalation. Physical (VLCC rates, war-risk cover ~7-10% of hull) has NOT unwound — paper-oil drops on hope, physical waits for the signature. Tanker equities (Frontline +9.8%) priced reopening as VOLUME-bullish (idled-fleet re-employment)."
+  },
+  {
+   "as_of": "2026-07-04",
+   "summary": "Day 127 / 2026-07-04. **RECOVERING FAST, ON IRAN'S TERMS — TRANSIT COUNTS UP 2-3x (43 ON 1 JUL vs ~12 PRIOR WEEK) BUT THE FLOW-QUALITY PICTURE IS CONTESTED, AND THE FIGHT HAS MOVED FROM KINETICS TO ROUTES AND TOLLS.** Counts (Windward-family): 1 Jul 43 transits (24 in/19 out; 12/24 inbound tankers; 4 dark) = ~28-50% of the 84-95/day norm; a CBS/official claim says 258 transits last week vs 138 prior. CONFLICTING flow data: The National reports crude flows >10 mb/d (Saudi ~90% pre-war, UAE 3.9 mb/d incl. Habshan-Fujairah bypass) vs trackers showing crude 7dMA near zero, zero AIS-visible LNG since the MoU, ~820 vessels still stranded, 'effectively closed' — DO NOT encode a flow recovery as CONFIRMED. The friction is now a ROUTE DISPUTE: JMIC announced a widened Oman-side route 27 Jun; IRGC insists only Iran-designated routes are authorized (vessels must contact IRGC Navy); Iran military HQ 2 Jul threatened 'decisive and swift response' to US interference — RHETORIC so far: NO confirmed turn-back/seizure/attack since the 27-Jun Kiku strike. Iran's TRANSIT-TOLL demand is now a formal negotiation file (Oman proposal ~30 Jun: navigation-safety regime with 'service fees' — Oman says voluntary, Iran says mandatory, US lobbying against). Escorts reportedly suspended post-containership attack. War-risk 3-8% hull (Marsh 28 Jun — did NOT soften; underwriters want 2-4 weeks of calm). VLCC Hormuz-transit fixtures ~$470k/day (war premium embedded in freight, not insurance relief)."
   }
  ]
 }

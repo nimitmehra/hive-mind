@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-07-04",
+ "last_updated": "2026-07-17",
  "edges": [
   {
    "from": "united-states",
@@ -86,7 +86,7 @@
    "to": "iran",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-07-04",
+   "last_activated": "2026-07-17",
    "type": "retaliation_target_with_internal_network_disruption"
   },
   {
@@ -102,7 +102,7 @@
    "to": "fed",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-06-12",
+   "last_activated": "2026-07-17",
    "context": "2026-06-12: Oil -4% but 10Y flat (4.49%) -- de-escalation does NOT un-print May CPI 4.2%; the oil->CPI->Fed channel is sticky, not symmetric."
   },
   {
@@ -156,7 +156,7 @@
    "to": "strait-of-hormuz",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-07-04",
+   "last_activated": "2026-07-17",
    "type": "supply_dependency_may28_convexity_fired_on_iranian_kinetic_act_then_absorbed_brent_plus2.4pct_intraday_faded_to_93_96_sub100_de_pricing_continues"
   },
   {
@@ -277,7 +277,7 @@
    "to": "gold",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-07-04",
+   "last_activated": "2026-07-17",
    "type": "real_yield_channel_pce_3_8_pins_gold_below_4400"
   },
   {
@@ -304,9 +304,9 @@
   {
    "from": "fertilizer-urea",
    "to": "india",
-   "weight": 8.5,
+   "weight": 10,
    "directness": 1,
-   "last_activated": "2026-05-13"
+   "last_activated": "2026-07-17"
   },
   {
    "from": "fertilizer-urea",
@@ -367,7 +367,7 @@
    "to": "south-korea",
    "weight": 5.5,
    "directness": 3,
-   "last_activated": "2026-04-27"
+   "last_activated": "2026-07-17"
   },
   {
    "from": "helium",
@@ -616,7 +616,7 @@
    "to": "kuwait",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-07-04",
+   "last_activated": "2026-07-17",
    "type": "jun6_iran_fired_7_ballistic_missiles_at_kuwait_and_bahrain_us_intercepted_6_of_7_7th_missed_zero_casualties_smaller_than_jun3_irgc_claimed_ali_al_salem_airbase_hit_centcom_says_false",
    "context": "2026-06-11: Second-wave missiles at Ali Al Salem & Ahmad Al-Jaber; airspace closed."
   },
@@ -633,7 +633,7 @@
    "to": "qatar",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-07-04",
+   "last_activated": "2026-07-17",
    "type": "retaliatory_strikes_with_kinetic_pressure_on_mediator_coastline"
   },
   {
@@ -655,7 +655,7 @@
    "to": "strait-of-hormuz",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-07-04",
+   "last_activated": "2026-07-17",
    "type": "jun7_2_more_drones_downed_near_hormuz_blockade_day100_ongoing"
   },
   {
@@ -670,7 +670,7 @@
    "to": "united-states",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-07-04",
+   "last_activated": "2026-07-17",
    "type": "negotiation_hardening_jun7_bessent_inverts_24bn_demand"
   },
   {
@@ -846,7 +846,7 @@
    "to": "shipping-tankers",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-07-04",
+   "last_activated": "2026-07-17",
    "type": "cost_structure_nonconfirmation_rates_stable_100k_volumes_minus36_NOT_unwinding"
   },
   {
@@ -921,9 +921,9 @@
   {
    "from": "natural-gas-lng",
    "to": "qatar",
-   "weight": 10.0,
+   "weight": 10,
    "directness": 1,
-   "last_activated": "2026-06-10",
+   "last_activated": "2026-07-17",
    "type": "production_dependency"
   },
   {
@@ -1129,9 +1129,9 @@
   {
    "from": "red-sea",
    "to": "houthis",
-   "weight": 8.0,
+   "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-06-10"
+   "last_activated": "2026-07-17"
   },
   {
    "from": "red-sea",
@@ -1186,9 +1186,9 @@
   {
    "from": "saudi-arabia",
    "to": "iran",
-   "weight": 9.0,
+   "weight": 10,
    "directness": 1,
-   "last_activated": "2026-05-19",
+   "last_activated": "2026-07-17",
    "type": "covert_kinetic_participant_late_march_tit_for_tat"
   },
   {
@@ -1247,7 +1247,7 @@
    "to": "strait-of-hormuz",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-07-04",
+   "last_activated": "2026-07-17",
    "type": "route_dependency_volumes_minus36_NOT_unwinding_on_deal_anticipation_physical_floor"
   },
   {
@@ -1599,9 +1599,10 @@
   {
    "from": "russia",
    "to": "india",
-   "weight": 4.5,
+   "weight": 6.0,
    "directness": 1,
-   "last_activated": "2026-04-20"
+   "last_activated": "2026-07-17",
+   "note_2026-07-17": "Black Sea wheat channel + 50% crude dependence activated"
   },
   {
    "from": "india",
@@ -2260,12 +2261,13 @@
   {
    "from": "kospi",
    "to": "helium",
-   "weight": 7.0,
+   "weight": 8.0,
    "directness": 2,
-   "last_activated": "2026-05-13",
+   "last_activated": "2026-07-17",
    "type": "supply_chain_tail_risk_with_countdown",
    "added": "2026-05-12",
-   "rationale": "Korean fab buffer ~4 weeks remaining to mid-June exhaustion = most time-sensitive trigger in graph. Tier-1 chipmaker production-halt risk."
+   "rationale": "Korean fab buffer ~4 weeks remaining to mid-June exhaustion = most time-sensitive trigger in graph. Tier-1 chipmaker production-halt risk.",
+   "note_2026-07-17": "Cascade PRINTED: helium rationing named a KOSPI 'Black Monday' (13 Jul) amplifier (KED Global/Tom's Hardware). Minority driver (~35% of the -23% crash is crisis-linked incl. this) — modest +1.0."
   },
   {
    "from": "kospi",
@@ -2561,9 +2563,9 @@
   {
    "from": "sk-hynix",
    "to": "helium",
-   "weight": 8.0,
+   "weight": 9.0,
    "directness": 1,
-   "last_activated": "2026-05-15",
+   "last_activated": "2026-07-17",
    "type": "helium_consumption_dependency_diversified_supplies_claimed",
    "added": "2026-05-15",
    "rationale": "SK Hynix has publicly claimed 'diversified supplies' on helium (CLAIMED — one-sided, NOT independently corroborated; TrendForce data-driven analysis is REPORTED). Capacity 'essentially zero' through 2027-2030."
@@ -3000,9 +3002,9 @@
   {
    "from": "oman",
    "to": "strait-of-hormuz",
-   "weight": 5.0,
+   "weight": 6.0,
    "directness": 1,
-   "last_activated": "2026-07-04",
+   "last_activated": "2026-07-17",
    "type": "hormuz_mediator_mine_alert_authority_toll_mechanism_venue_territorial_waters"
   },
   {
