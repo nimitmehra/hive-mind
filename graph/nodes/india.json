@@ -3,11 +3,14 @@
  "name": "India",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-07-17",
+ "last_updated": "2026-07-19",
  "summary": "Day 140 / 2026-07-17. **INDIA'S EQUITY MARKET DECOUPLED FROM THE WAR; ITS MACRO DID NOT.** The importer dividend is DEAD at $86 Brent (the 4-Jul fired trigger reversed 14 Jul); rupee at RECORD LOW (96.60 intraday / 96.52 close ~14 Jul; 96.27-96.30 Fri after measured RBI intervention, spot+NDF; reserves ROSE $8.2bn over two weeks to $675.16bn — valuation effects, war chest intact); June CPI 4.38% (first >4% of the new series; food 5.32%); WPI 9.87% with FUEL +27.4% — the war is fully in the wholesale pipeline; kharif sowing -20.8% on a -20% monsoon deficit (rice +19% 1M globally; watch for an Indian export restriction — the classic next domino); urea re-inflated (+16% m/m benchmark; FOB ME ~$795/t) — the subsidy windfall REVERSED; OMC margin cushion (Rs 8-10/L) burning at $86 with pumps never cut. TWO INDIAN SEAFARERS KILLED by Iranian tanker strikes (GFS Galaxy 11 Jul; Al Bahyah/Mombasa B 14 Jul; 3 missing) — a direct Indian-casualty vector the MEA must navigate. Trade deal: NOT signed at T-5-to-7 days (22-24 Jul deadline conflict); Goyal denied rejecting a quick deal; 'emboldened India holds out' (Reuters analysis); Russia still ~50% of crude imports (record 2.7 mb/d June) in direct tension with the framework. India 10Y 6.72% (13 Jul print — STALE, risk higher).",
  "current": {
   "status": "Equity decoupled (DII wall + earnings), macro hostage (rupee record low, CPI>4%, WPI fuel +27%, dividend dead, monsoon deficit). Twin binaries in 7 days: trade cliff 22-24 Jul + oil path. Two Indian seafarers killed — diplomatic vector live.",
-  "rupee": "96.27-96.30 Fri (record 96.52 close ~14 Jul); reserves $675.16bn (w/e 10 Jul)"
+  "rupee": "96.27-96.30 Fri (record 96.52 close ~14 Jul); reserves $675.16bn (w/e 10 Jul)",
+  "price": "Nifty 24,334.30 (+1.1% Fri, +1.0% 1M); Sensex 78,151.45; Bank Nifty 58,521.40 (+1.6%); USD/INR 96.27 (-0.4%, off the 96.52/96.60 record of ~14 Jul); India 10Y ~6.74%; India VIX 12.88; forex reserves $675.157bn (wk ended 10 Jul, +$964mn).",
+  "delta_1d": "Nifty +1.1% | INR +0.4% (stronger)",
+  "regime": "EQUITY DECOUPLED / MACRO DETERIORATING — and the decoupling is now ASSET-CLASS-SPECIFIC: FPIs sold equity while buying >$4.2bn of FAR bonds since 1 Jun. Nifty pricing benign resolution of BOTH binaries; one (29 Jul Fed hike) just improved, the other (24 Jul tariff cliff) is unchanged and unsigned. Hormuz exposure reframed from CRUDE (~70% now bypasses) to LPG/LNG (running 50% below pre-conflict)."
  },
  "active_triggers": [
   {
@@ -63,6 +66,31 @@
    "update_2026-05-25": "Now firing HARDER — FOURTH hike May 25 (+₹2.61-2.71/L, the LARGEST single hike of the sequence), breaks the Saturday-only political-tolerance pattern (big Monday hike on a US/UK holiday). Cumulative ~₹7.5/L since May 15. Reads as cost-recovery/refining-margin + weak-rupee pass-through, not a political cadence. Stays `active_fired`.",
    "note_2026-07-04": "2026-07-04: PARTIAL — private Nayara cut petrol Rs5/diesel Rs3 from 1 Jul; PSU OMCs (IOC/BPCL/HPCL) made NO matching cut, rebuilding margins (~Rs3/L petrol, Rs27/L diesel under-recovery legacy). Politically awkward, financially bullish OMCs.",
    "note_2026-07-17": "2026-07-17: STASIS — no PSU retail cut ever came; the margin cushion is now being consumed by $86 Brent. Politically stable only while crude's rise is gradual."
+  },
+  {
+   "condition": "India-US trade deal SIGNED (published text) before the 24 July Section 122 tariff expiry",
+   "status": "watching",
+   "cascade": [
+    "nifty-50",
+    "fii-flows",
+    "inr-usd",
+    "indian-it",
+    "united-states"
+   ],
+   "added": "2026-07-19",
+   "notes": "ADDED 19 Jul, replacing the ambiguous 22-24 July framing. DEADLINE RESOLVED: 24 July — the lapse of a 10% Section 122 balance-of-payments tariff imposed 24 Feb 2026 for 150 days; Section 122 is statutorily time-limited, which is why the date is hard. UNSIGNED at T-5 with five days of ministerial silence. Highest-value early tell: confirmation that the Indian delegation has departed for Washington — no travel by Tue 21 Jul reads as the deal slipping past the cliff. NON-CONSENSUS CAVEAT: a clean lapse may be NEUTRAL-to-POSITIVE for Indian exporters, since the 10% layer sits ON TOP and MFN reversion is 0% for generic pharma and 0-2.5% for machinery; the real exposure is the separate reciprocal-tariff track (25%->18% in February)."
+  },
+  {
+   "condition": "Iranian crude purchases by Indian state refiners (IOC/BPCL/HPCL) resume — requires the 21 August sanctions waiver to be extended",
+   "status": "watching",
+   "cascade": [
+    "iran",
+    "brent-crude",
+    "inr-usd",
+    "indian-oil-marketing"
+   ],
+   "added": "2026-07-19",
+   "notes": "ADDED 19 Jul. Currently a hard NEGATIVE: Iranian crude is offered at $4-5/bbl under Brent but Russian Urals at ~$6/bbl under, so Russian barrels are cheaper AND lower-compliance-risk; Indian refinery intake is fully contracted through August 2026; and the relevant sanctions waiver expires 21 AUGUST. None of the four stated preconditions are met. Calendar item: 21 August."
   }
  ],
  "top_edges": [
@@ -491,6 +519,22 @@
     "US News/Reuters (trade)"
    ],
    "verification": "CONFIRMED (hard data); REPORTED (deadline conflict, rupee date)"
+  },
+  {
+   "date": "2026-07-19",
+   "headline": "**INDIA ACTED — AND IT ACTED AGAINST TEHRAN, NOT WASHINGTON.** Two hard actions, both new to the graph. (1) The MEA SUMMONED IRAN'S DEPUTY AMBASSADOR in New Delhi to lodge a strong protest, condemning 'these attacks and acts of violence targeting seafarers and disrupting free and safe navigation through international waterways.' (2) The DGMA issued **Circular No. 36 of 2026 on 15 July**, directing ship owners, ship managers and RPSL companies to AVOID DEPLOYING INDIAN SEAFARERS on any vessel transiting the Strait of Hormuz until further orders — a de facto deployment ban branded 'Seafarer-First.' **This is not symbolic: Indians are ~9-10% of the global seafaring workforce and are heavily concentrated in tanker crews, so a blanket Indian-crew withdrawal is a real constraint on global tanker manning through the strait — a CREWING constraint compounding the transit collapse and the insurance-capacity cap.** **The vector question is now answered and the answer is ASYMMETRIC: India formally protested to Tehran and has NOT protested to Washington**, maintaining a studiously neutral public line on the US strikes ('exercise restraint, avoid escalation, ensure uninterrupted energy supply') and condemning strikes on American bases WITHOUT NAMING IRAN. That tilt sits alongside an unsigned trade deal five days from a cliff; the two are not unrelated. CORRECTION: MEA confirms ONE Indian seafarer killed, not two. CONFIRMED (strong independence: Indian, Emirati and Gulf outlets separately)."
+  },
+  {
+   "date": "2026-07-19",
+   "headline": "**INDIA'S HORMUZ EXPOSURE IS NOT CRUDE — IT IS LPG AND LNG. This reframes the graph's core India-energy mechanism.** Per Kpler (via ThePrint, 16 Jul): Russian crude 2.5 mbpd as of 15 Jul (~50% of imports); Gulf supply (Saudi+UAE) ~1.8 mbpd; **Iraqi crude COLLAPSED to negligible from 1 mbpd in January**; Venezuelan 300-400 kbpd. Net: **~70% of India's crude imports now BYPASS the Strait of Hormuz** — 'Russian crude has become its strongest energy-security hedge, particularly since the Strait of Hormuz disruptions' (Kpler's Sumit Ritolia). **The sting is in the tail: LPG and LNG imports remain critically Hormuz-dependent and are running 50% BELOW pre-conflict levels.** That is India's live shortage — Qatari LPG for subsidised domestic cooking-gas cylinders (a direct FISCAL hit) and LNG for industry and FERTILISER FEEDSTOCK. Hard negative on the Iranian-oil question: Iranian crude is offered at $4-5/bbl under Brent but Russian Urals at ~$6/bbl under, so Russian barrels are cheaper AND lower-compliance-risk; Indian refinery intake is fully contracted through August 2026 and the relevant sanctions waiver expires **21 AUGUST**. None of the four preconditions for Indian state refiners to buy Iranian crude are met. **India is not buying Iranian oil in the near term.** REPORTED (Kpler underneath; high confidence on direction, moderate on the exact 70%)."
+  },
+  {
+   "date": "2026-07-19",
+   "headline": "**THE TARIFF DEADLINE QUESTION IS RESOLVED: 24 JULY, not 22 or 23 — and the cliff may run DOWNWARD.** The mechanism is the lapse of a **10% Section 122 balance-of-payments tariff imposed on all trading partners on 24 February 2026 for 150 days** (24 Feb + 150 = 24 July); Section 122 tariffs are statutorily time-limited, which is why the date is hard. Deal still UNSIGNED at T-5, with the Commerce Secretary saying only that 'the framework deal is ready... to be signed at the right time' with NO timeline — **five days of ministerial silence into a cliff is itself the finding.** Reuters frames India as deliberately holding out for better terms rather than negotiating to the calendar. **NON-CONSENSUS FINDING (moderate confidence on mechanics, low on behaviour): the 10% Section 122 layer is a FLOOR ADDED ON TOP. If it lapses without replacement, Indian goods revert toward MFN — reportedly ~16.5% for cotton apparel but 0% for GENERIC PHARMACEUTICALS and 0-2.5% for machinery, materially BETTER for large parts of India's export book. The real exposure sits in the separate reciprocal-tariff track (cut 25%->18% in February), which is what would actually snap back. Do NOT assume a clean lapse is bearish for Indian exporters.** NEGATIVE FINDING: despite the ~50% Russian crude share, **no sourced report places Russian crude explicitly on the BTA negotiating table** — the energy channel appears as a US ask to 'boost US energy exports to India', a positive ask not a punitive one. Watch item: confirmation of the Indian delegation's departure for Washington is the highest-value tell; no travel by Tue 21 Jul = the deal slips past the cliff. CONFIRMED."
+  },
+  {
+   "date": "2026-07-19",
+   "headline": "Monsoon improving faster than the graph assumed, but fuel policy is frozen and the official loss numbers are badly stale. **SOWING CORRECTION: 531.25 lakh ha as of 10 Jul, ~16% below year-ago — versus -23% as of 25 Jun. The graph's -21% is STALE; the gap is closing ~5-7pp per fortnight on catch-up sowing. Do NOT extrapolate a crop failure.** Still severe: 397 of 741 districts below-normal rainfall as of 13 Jul (326 deficient, 71 large deficiency), IMD estimating July rainfall below 94% of LPA. Worst crop shortfall is OILSEEDS (-3.13 mn ha), directly inflationary through edible oil where India is ~55-60% import-dependent — a rupee-sensitive import bill at 96.3/USD. FUEL: no excise cut, no OMC compensation, no SPR release 17-19 Jul; the standing position remains Puri's 2 Jul line that any cut is '2-3 months away'. **CRITICAL STALENESS: Puri framed that around crude at ~$70. Brent is now $88. The cited Q1 FY27 under-recoveries of ~Rs1.88 lakh cr and OMC losses of ~Rs74,781 cr PREDATE the July spike, and no updated official figure exists — the OMC hole is materially larger than the last official number.** Expect this to become a FISCAL story before a pump-price story. No GST Council meeting convened; no stimulus. Given Rs1 lakh cr of excise already sacrificed, the absence of action may be fiscal CAPACITY, not choice. CONFIRMED."
   }
  ],
  "historical_summaries": [

@@ -3,14 +3,14 @@
  "name": "Brent Crude",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-07-17",
+ "last_updated": "2026-07-19",
  "summary": "Day 140 / 2026-07-17. **THE WAR PREMIUM RE-ARMED +19% IN A FORTNIGHT ($72.15 -> $86.09 intraday Fri) — BUT $86 IS FAR BELOW THE FEB-MAY PEAKS: THE MARKET PRICES A CONTAINED ENFORCEMENT WAR AGAINST FIVE-YEAR-LOW INVENTORIES.** Path: ~$72.15 (6-7 Jul, four-month lows post-OPEC+ +188k Aug decision 5 Jul) -> $78.02 settle 8 Jul (+5.2%, war restart) -> +9.6% intraday 13 Jul (closure/'guardian') -> $84.73 settle 14 Jul -> $84.37 settle 16 Jul -> ~$85.95-86.09 intraday 17 Jul (+11% wk, best since late April). The 4-Jul asymmetry call ('remaining downside is fundamentals; re-escalation upside violent — no inventory cushion') landed exactly. Inventory runway is the tripwire: IEA OMR 10 Jul (supply -3.7 mb/d 2026; surplus returns ONLY if strait flows recover); IMF: global inventories to a FIVE-YEAR LOW (~7.5bn bbl) in July after drawing ~3.8 mb/d since 28 Feb. Analyst map: Citi's $60-65 YE is functionally dead; Goldman's April scenario ('another month of closure => >$100 H2, $120 Q3 extended') has its clock RUNNING from the 11-12 Jul closure declaration — falsified if closure persists past ~mid-Aug with Brent still in the $80s; Croft's $146 tail needs sustained closure + inventory exhaustion. Polymarket: ~3% normalization by 31 Jul. Products: diesel cracks at RECORD highs (heating oil +24% 1M) while Henry Hub -11% (zero Hormuz exposure). US June CPI 3.5% was the cheap-oil month — Jul/Aug CPI reverses it, feeding the Warsh hike-repricing (46.5% July FOMC).",
  "current": {
-  "price": "Brent $86.09 intraday Fri 17 Jul (settle 16 Jul $84.37); WTI $80.06.",
-  "delta_1d": "+2.2%",
-  "delta_1m": "+9.0%",
+  "price": "Brent $88.10 (+4.6% 1D, +11.6% 1M, **-7.7% 3M**); WTI $81.78 (+3.6% 1D). Heating oil $3.94 (-2.3% 1D, +24.2% 1M); RBOB $3.19 (-2.8% 1D, +10.8% 1M); Henry Hub $2.91 (-10.1% 1M, DECOUPLED).",
+  "delta_1d": "+4.6%",
+  "delta_1m": "+11.6%",
   "delta_vs_4jul": "+19%",
-  "regime": "ENFORCEMENT-WAR PREMIUM vs 5-yr-low inventories; demand destruction + OPEC+ barrels capping vs Feb-May peaks. Reversibility: HIGH on de-escalation; escalation rung = Iranian energy infrastructure / Bab el-Mandeb."
+  "regime": "ENFORCEMENT-WAR PRICING, NOT CLOSURE PRICING — -7.7% over 3M despite declared closure + blockade + 8 strike nights. Trigger for the Friday move was KUWAITI INFRASTRUCTURE, not US casualties (which were unannounced at the close and remain UNPRICED). Inventory runway: IEA June 'build' was entirely oil-on-water (+117mb) while onshore FELL 96mb; SPR at a 43-year low. Diesel crack hit an all-time record $91/bbl on 16 Jul."
  },
  "price_snapshots": [
   {
@@ -48,6 +48,11 @@
    "price": "ICE Brent ~$100.21 (intraday sub-$100 ~$98); WTI ~$91 LIVE",
    "trigger": "Sub-$100 trigger FIRES Day 1 — US-Iran deal progress (Doha delegation working Hormuz + frozen-asset mechanics) dumps the Hormuz tail-risk premium; Brent breaks $100 in a thin holiday LIVE session while NYMEX/WTI sits frozen at Friday's print.",
    "delta_context": "-3.2% LIVE (>-5%+ intraday from Friday $103.54). Tail-risk DE-pricing, not structural de-pricing — physical (insurance 8x, VLCC volumes -36%, TTF +25% YoY) NOT unwinding. Convexity skewed to upside-shock: a kinetic event or formal Iranian rejection gaps Brent +$8-15 toward $112-120."
+  },
+  {
+   "date": "2026-07-19",
+   "price": "$88.10 (+4.6% 1D, +14% on the week)",
+   "trigger": "Iran struck Kuwaiti power/desalination plants and al-Ahmadi oil facilities (host-confirmed) — first sustained Iranian targeting of GULF PRODUCER energy infrastructure, repricing risk from transit disruption to production/export-infrastructure disruption. Best week since April. US casualties announced AFTER the close and therefore NOT in this price."
   }
  ],
  "active_triggers": [
@@ -182,7 +187,9 @@
     "shipping-tankers"
    ],
    "added": "2026-03-24",
-   "note_2026-07-17": "2026-07-17: WATCHING, MECHANISM ARMED — Houthis sank Eternity C 9 Jul then paused; Iranian instruction to close Bab el-Mandeb if US hits energy infrastructure is REPORTED. The trigger's exact scenario is now the named next rung."
+   "note_2026-07-17": "2026-07-17: WATCHING, MECHANISM ARMED — Houthis sank Eternity C 9 Jul then paused; Iranian instruction to close Bab el-Mandeb if US hits energy infrastructure is REPORTED. The trigger's exact scenario is now the named next rung.",
+   "status_changed": "2026-07-19",
+   "notes": "REVIEWED 19 Jul — REMAINS AT WATCHING and remote at $88.10. This trigger's named scenario is exactly the live question: Iran's reserved instruction to the Houthis to close Bab el-Mandeb had a stated precondition (US strikes on Iranian POWER infrastructure) which is now arguably SATISFIED (AP-confirmed strike on a Hormozgan electricity+desalination plant; Iran's Energy Ministry acknowledged 'attacks on power infrastructure' 17 Jul; 4,200 MW grid loss per the national electricity CEO) — YET NO HOUTHI ACTION has followed. The condition fired and the response did not come. Discipline on the other side: Brent is -7.7% over THREE MONTHS despite a declared closure, a naval blockade and 8 strike nights, and energy EQUITIES badly lagged crude (XLE +1.2% vs Brent +4.6%) — the market prices a temporary risk premium, not a durable supply loss. A second chokepoint closing is the scenario that puts $130 in play."
   },
   {
    "condition": "Brent-Hormuz paper-physical divergence >$10/bbl in EITHER direction sustained 3 sessions",
@@ -193,6 +200,19 @@
     "marine-war-risk-insurance"
    ],
    "added": "2026-04-22"
+  },
+  {
+   "condition": "Brent sustained above $100 for 5+ sessions by ~18 August — the falsification test for Goldman's 'another month of closure' scenario",
+   "status": "watching",
+   "cascade": [
+    "india",
+    "fed",
+    "gold",
+    "strait-of-hormuz",
+    "energy-sector"
+   ],
+   "added": "2026-07-19",
+   "notes": "ADDED 19 Jul as a dated, falsifiable test. Goldman: another month of mostly-shut Hormuz implies Brent above $100 through H2-2026 ($120 Q3 / $115 Q4 if extended). At $88.10 on day ~8 of a formally declared closure this is roughly half-priced. The contradiction worth tracking: the Reuters survey of 31 analysts CUT its 2026 Brent average to $84.50 from $90.44 in the same week the war restarted, on an assumption of near-term normalisation — while Polymarket prices Hormuz normalisation by 31 August at just 12%. Consensus and the prediction market are flatly contradicting each other."
   }
  ],
  "top_edges": [
@@ -694,6 +714,18 @@
     "Al Jazeera 13-14 Jul"
    ],
    "verification": "CONFIRMED tape + agency data"
+  },
+  {
+   "date": "2026-07-19",
+   "headline": "**BRENT +4.6% TO $88.10 — AND THE TRIGGER WAS KUWAIT'S INFRASTRUCTURE, NOT THE AMERICAN DEATHS.** Best week since April, +14% on the week. Chain: Iran struck Kuwait's power-and-desalination plant and al-Ahmadi oil facilities (host-confirmed 17 Jul) -> first sustained Iranian targeting of GULF PRODUCER energy/utility infrastructure rather than shipping -> risk repriced from 'transit disruption' to 'production-and-export-infrastructure disruption', a categorically larger tail -> compounded by blockade enforcement maturing (Hellfire disabling of the Belma 15 Jul, 11th MEU boarding the Wen Yao 16 Jul). ~85% crisis-linked; ~0.7pp of the move is weekend short-covering plus the IEA's July OMR. **CRITICAL ATTRIBUTION POINT: the two US service members died on the night of 17 Jul and CENTCOM announced it on 18 Jul, AFTER THE CLOSE. Friday's price contains ZERO pricing of American casualties — the market is pricing GULF INFRASTRUCTURE, NOT AMERICAN BLOOD. That is diagnostic of what this market actually fears, and it means the casualty news is UNPRICED into Monday.** THE DISCIPLINE CHECK: **Brent is -7.7% over THREE MONTHS** and far below the $110-120 Feb-May peaks despite a formally declared closure, a naval blockade and eight nights of bombing. Still an ENFORCEMENT-WAR price, not a CLOSURE price. CONFIRMED."
+  },
+  {
+   "date": "2026-07-19",
+   "headline": "**THE IEA'S JULY OMR KILLED THE 'INVENTORIES ARE REBUILDING' COMFORT.** Global observed inventories rose in June for the first time since the war began — **but ENTIRELY as oil on water (+117 mb) while ONSHORE stocks FELL ~96 mb.** The apparent build is STRANDED CARGO, not usable supply, and the onshore runway is still burning down. Corroborating: Vortexa puts ~63m bbl at sea with no designated destination or buyer. **And the reserve buffer is spent: the US SPR is at ~316.5 mn bbl, the LOWEST SINCE APRIL 1983 — 56% empty — and the IEA's 400 mn bbl March collective release (the sixth and largest ever) was fired at a crisis that has since RESTARTED and worsened; the US portion is legally an EXCHANGE requiring repurchase with interest. There is no second bullet.** Bypass arithmetic is structurally insufficient: Saudi East-West (3-5 mb/d spare, but exits into the RED SEA with its own war-risk premium) plus UAE ADCOP-Fujairah (~700 kb/d spare, genuinely clean) = 3.5-5.5 mb/d against Hormuz's ~20 mb/d, i.e. **18-28% coverage**; the UAE's capacity-doubling second line is 2027. If Hormuz stays shut through Q4 the policy response set is DEMAND DESTRUCTION, not supply — which is what makes the Fed's problem non-transitory. CONFIRMED."
+  },
+  {
+   "date": "2026-07-19",
+   "headline": "**PRODUCTS FELL WHILE CRUDE ROSE — a record crack spread mean-reverting, NOT demand destruction.** Friday: Brent +4.6% and WTI +3.6%, but heating oil **-2.3%** and RBOB **-2.8%** — a ~7pp divergence. Explanation: on Thursday 16 Jul the matched-month US **diesel crack settled above $91/bbl, an ALL-TIME RECORD**; the benchmark **3-2-1 crack closed at a record $69.66/bbl**; and the gasoline crack settled near $59, last seen in the 2022 energy shock. Friday was profit-taking in the most stretched refining margin in history. **Do NOT read Friday's product weakness as demand destruction or de-escalation — the monthly picture is intact (heating oil +24.2% 1M, RBOB +10.8% 1M).** Diesel remains the hidden inflation channel and the single most important price for the Fed's problem: it transmits into freight, agriculture and core goods, and into India's WPI fuel at +27.4%. The crack is a refining-capacity story compounded by the loss of Gulf product exports — it reverses more slowly than crude. CONFIRMED."
   }
  ],
  "historical_summaries": [

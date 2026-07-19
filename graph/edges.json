@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-07-17",
+ "last_updated": "2026-07-19",
  "edges": [
   {
    "from": "united-states",
@@ -108,11 +108,13 @@
   {
    "from": "brent-crude",
    "to": "india",
-   "weight": 10,
+   "weight": 8.5,
    "directness": 1,
-   "last_activated": "2026-07-04",
+   "last_activated": "2026-07-19",
    "type": "relief_leg_fired_clean_oil_down_india_up_nifty_plus132_clean_room_session",
-   "context": "2026-06-12: Oil -4% on deal hopes fired POSITIVE for India (import-cost relief) -> Nifty +2.0%; the de-escalation/oil-down channel is symmetric (helps India as much as oil-up hurt it)."
+   "context": "2026-06-12: Oil -4% on deal hopes fired POSITIVE for India (import-cost relief) -> Nifty +2.0%; the de-escalation/oil-down channel is symmetric (helps India as much as oil-up hurt it).",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] DELIBERATE DOWNGRADE 10 -> 8.5, justified by a structural change in the mechanism, not by decay. Per Kpler, ~70% of India's crude imports now BYPASS the Strait of Hormuz (Russia 2.5 mbpd ~50%, Gulf 1.8 mbpd, Iraq collapsed to negligible from 1 mbpd in January, Venezuela 300-400 kbpd). The crude channel from a Hormuz disruption to India is genuinely weaker than when this edge was set. India's live Hormuz exposure has MOVED to LPG/LNG (running 50% below pre-conflict) — encoded as the new natural-gas-lng->india weighting. The oil-PRICE channel to India remains strong (Brent $88 with pump prices uncut, OMC under-recoveries badly understated), which is why this stays high at 8.5 rather than falling further."
   },
   {
    "from": "brent-crude",
@@ -275,10 +277,12 @@
   {
    "from": "fed",
    "to": "gold",
-   "weight": 10,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-07-17",
-   "type": "real_yield_channel_pce_3_8_pins_gold_below_4400"
+   "last_activated": "2026-07-19",
+   "type": "real_yield_channel_pce_3_8_pins_gold_below_4400",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] 5th and most extreme inverted-haven confirmation on the month (-7.2% 1M, -16.4% 3M through an escalating war; silver -19.4%, platinum -11.0% = whole complex). BUT the front-end transmission LOOSENED 17 Jul: July hike odds collapsed 46.5%->13.3% (86.7% hold), 10Y fell to 4.54%, gold ROSE 0.8% despite oil +4.6%. Hike moved OUT (~73% by Dec), not away. (was 10)"
   },
   {
    "from": "fed",
@@ -614,11 +618,13 @@
   {
    "from": "iran",
    "to": "kuwait",
-   "weight": 10,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-07-17",
+   "last_activated": "2026-07-19",
    "type": "jun6_iran_fired_7_ballistic_missiles_at_kuwait_and_bahrain_us_intercepted_6_of_7_7th_missed_zero_casualties_smaller_than_jun3_irgc_claimed_ali_al_salem_airbase_hit_centcom_says_false",
-   "context": "2026-06-11: Second-wave missiles at Ali Al Salem & Ahmad Al-Jaber; airspace closed."
+   "context": "2026-06-11: Second-wave missiles at Ali Al Salem & Ahmad Al-Jaber; airspace closed.",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] Iran struck Kuwaiti power+desalination plants on TWO consecutive days (17,18 Jul) plus al-Ahmadi oil facilities — host-nation CONFIRMED, injuries, ministry-mandated demand conservation. ~90% of Kuwait's water is desalinated. This was the trigger for Brent +4.6%, not the US casualties. HELD AT MAX — the mechanism strengthened, it did not weaken."
   },
   {
    "from": "iran",
@@ -668,10 +674,12 @@
   {
    "from": "iran",
    "to": "united-states",
-   "weight": 10,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-07-17",
-   "type": "negotiation_hardening_jun7_bessent_inverts_24bn_demand"
+   "last_activated": "2026-07-19",
+   "type": "negotiation_hardening_jun7_bessent_inverts_24bn_demand",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] Iran killed 2 US service members + 1 MIA at Al-Azraq, Jordan (17 Jul, CENTCOM CONFIRMED) — first US fatalities from Iranian fire since March, ending the war's defining 'zero US casualties' statistic. Abandons the 28 Jun zero-casualty calibration that saved the deal. Max weight on a confirmed lethal direct action. (was 10)"
   },
   {
    "from": "iraq",
@@ -852,10 +860,12 @@
   {
    "from": "marine-war-risk-insurance",
    "to": "strait-of-hormuz",
-   "weight": 10,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-05-25",
-   "type": "operational_chokepoint_insurance_8x_NOT_unwinding_on_deal_anticipation_physical_floor"
+   "last_activated": "2026-07-19",
+   "type": "operational_chokepoint_insurance_8x_NOT_unwinding_on_deal_anticipation_physical_floor",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] MECHANISM REFRAMED from PRICE to CAPACITY and this is now the single highest-conviction transmission in the graph: per-transit underwriting capacity $2-3bn -> $500m-$1.5bn; 6 of 13 IG P&I clubs have withdrawn Gulf war cover; price IS clearing (VLCC fixtures $469k/day) but a vessel without P&I cannot legally trade — a hard QUANTITY cap. CONSEQUENCE: a ceasefire does NOT reopen Hormuz; expect a 4-8 week underwriting lag. HELD AT MAX."
   },
   {
    "from": "mojtaba-khamenei",
@@ -1069,9 +1079,11 @@
   {
    "from": "qatar",
    "to": "helium",
-   "weight": 10,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-04-28"
+   "last_activated": "2026-07-19",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] ~30-35% of global helium offline with a 3-5 YEAR repair (helium is an LNG-liquefaction byproduct — the same event as the LNG outage). Korea 64.7% Qatar-dependent, Taiwan ~69% GCC-dependent; ultra-pure prices DOUBLED; 8-12 week rationing-to-shipment lag means March/April constraints land NOW, Jul-Sep. HELD AT MAX — nothing about this dependence weakened."
   },
   {
    "from": "qatar",
@@ -1305,9 +1317,11 @@
    "to": "brent-crude",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-27",
+   "last_activated": "2026-07-19",
    "type": "stanchart_130_145_path_active_2_session_sustain_fired_may18",
-   "context": "2026-06-12: Deal-reopening hope priced Brent -4.1% to $86.71; Iran intends to retain Hormuz \"control\" even post-deal."
+   "context": "2026-06-12: Deal-reopening hope priced Brent -4.1% to $86.71; Iran intends to retain Hormuz \"control\" even post-deal.",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] Brent +4.6% to $88.10 (+14% wk) on Gulf-producer infrastructure strikes plus blockade enforcement. HELD AT MAX — the transmission fired cleanly again. The offsetting observation (Brent -7.7% over 3M = enforcement pricing not closure pricing) is about the LEVEL the market assigns, not about whether the mechanism works."
   },
   {
    "from": "strait-of-hormuz",
@@ -1349,10 +1363,12 @@
   {
    "from": "strait-of-hormuz",
    "to": "shipping-tankers",
-   "weight": 10,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-26",
-   "context": "2026-06-12: Reopening read as VOLUME-bullish for tankers (Frontline +9.8%) -- idled-fleet re-employment."
+   "last_activated": "2026-07-19",
+   "context": "2026-06-12: Reopening read as VOLUME-bullish for tankers (Frontline +9.8%) -- idled-fleet re-employment.",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] Frontline -7.4% 1M WHILE oil +11.6% 1M — the blockade destroys transit VOLUME; utilisation not spot rate drives the equity. ~530 ships stranded; 8 major container carriers suspended Hormuz or rerouted via the Cape. Iran's 5-day anti-shipping pause reads as TARGET SCARCITY, not restraint. HELD AT MAX."
   },
   {
    "from": "strait-of-hormuz",
@@ -1491,9 +1507,11 @@
    "to": "iran",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-27",
+   "last_activated": "2026-07-19",
    "type": "negotiation_hardening_jun7_bessent_inverts_iran_24bn_precondition",
-   "context": "2026-06-12: Trump cancelled the third strike round and announced a \"great settlement\"; de-escalation, UNSIGNED."
+   "context": "2026-06-12: Trump cancelled the third strike round and announced a \"great settlement\"; de-escalation, UNSIGNED.",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] Strike nights 7-8 executed (17-19 Jul); CENTCOM language shifted 'degrade'->'swiftly punish'. Bridges/tunnels/rail severing Bandar Abbas CONFIRMED; power grid degraded 4,200 MW per Iran's own national electricity CEO with the Energy Ministry publicly acknowledging 'attacks on power infrastructure' for the first time. Both of Trump's threatened rungs crossed. (was 10.0)"
   },
   {
    "from": "united-states",
@@ -1571,9 +1589,11 @@
   {
    "from": "qatar",
    "to": "european-ttf-gas",
-   "weight": 7.0,
+   "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-04-20"
+   "last_activated": "2026-07-19",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] TTF EUR57.49-58.91 (+29-42% 1M), JKM +18.5% in ONE day to $19.93. Qatar 12.8 mtpa (17%) offline for 3-5 YEARS, force majeure in month 4 extended to early Sept, and QatarEnergy PAUSED its restart ramp after its own tanker was hit — constraint is Hormuz safety, not repairs. EU storage 53% vs 75% norm, lowest in 15 years; mandatory target already relaxed 90%->80%. (was 7.0)"
   },
   {
    "from": "saudi-arabia",
@@ -1599,10 +1619,12 @@
   {
    "from": "russia",
    "to": "india",
-   "weight": 6.0,
+   "weight": 7.5,
    "directness": 1,
-   "last_activated": "2026-07-17",
-   "note_2026-07-17": "Black Sea wheat channel + 50% crude dependence activated"
+   "last_activated": "2026-07-19",
+   "note_2026-07-17": "Black Sea wheat channel + 50% crude dependence activated",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] UPGRADED from 6.0 — the Black Sea war is now a CONFIRMED CLOSURE, not a threat: Kerch Strait AND Don-Azov Canal shut indefinitely from 10 Jul after 100+ Russian vessels struck in 8 days. Wheat +14.6% 1M with ~25% of Russian exports (22% of world trade) affected. Plus Russia now supplies ~50% of India's crude and is India's strongest energy-security hedge (~70% of Indian crude bypasses Hormuz). (was 6.0)"
   },
   {
    "from": "india",
@@ -1822,10 +1844,12 @@
   {
    "from": "helium",
    "to": "semiconductors",
-   "weight": 7.0,
+   "weight": 8.0,
    "directness": 3,
-   "last_activated": "2026-05-30",
-   "type": "supply_chain_delayed_cascade_buffered_~6mo_stockpile_reemergence_horizon_~nov_2026"
+   "last_activated": "2026-07-19",
+   "type": "supply_chain_delayed_cascade_buffered_~6mo_stockpile_reemergence_horizon_~nov_2026",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] Raised 7.0 -> 8.0 on the timing mechanism becoming concrete: helium rationing shows up in wafer starts within 1-2 weeks but in SHIPMENTS on an 8-12 WEEK lag — March/April constraints therefore land NOW (Jul-Sep). Korea 64.7% Qatar-dependent, Taiwan ~69% GCC-dependent, ~30-35% of global supply offline for 3-5 years, ultra-pure prices doubled. Samsung and SK Hynix are drawing safety stock with NO formal production cut announced; TSMC expects no near-term impact citing on-site recycling capex the Korean memory fabs lack."
   },
   {
    "from": "taiwan",
@@ -2263,11 +2287,12 @@
    "to": "helium",
    "weight": 8.0,
    "directness": 2,
-   "last_activated": "2026-07-17",
+   "last_activated": "2026-07-19",
    "type": "supply_chain_tail_risk_with_countdown",
    "added": "2026-05-12",
-   "rationale": "Korean fab buffer ~4 weeks remaining to mid-June exhaustion = most time-sensitive trigger in graph. Tier-1 chipmaker production-halt risk.",
-   "note_2026-07-17": "Cascade PRINTED: helium rationing named a KOSPI 'Black Monday' (13 Jul) amplifier (KED Global/Tom's Hardware). Minority driver (~35% of the -23% crash is crisis-linked incl. this) — modest +1.0."
+   "rationale": "[2026-07-19] Held at 8.0 — deliberately NOT raised. KOSPI -23.1% on the month but ~65% NON-war (DRAM price-fixing class action, CXMT, Kimi K3, ASML-TSMC pricing, BoK hike to 2.75% on 16 Jul). Helium is the genuine war leg and it is STRUCTURAL (30-35% of global supply offline, 3-5 year repair, Korea 64.7% Qatar-dependent) — but the graph must not over-attribute the Asian tech crash to Iran. NEW THIS WINDOW: the 8-12 week rationing-to-shipment lag means March/April constraints land in Jul-Sep prints, so a SUPPLY-constrained memory market now sits inside a DEMAND downturn — an unusual configuration that should not be modelled as a pure demand story.",
+   "note_2026-07-17": "Cascade PRINTED: helium rationing named a KOSPI 'Black Monday' (13 Jul) amplifier (KED Global/Tom's Hardware). Minority driver (~35% of the -23% crash is crisis-linked incl. this) — modest +1.0.",
+   "activation_count": 1
   },
   {
    "from": "kospi",
@@ -2292,12 +2317,13 @@
   {
    "from": "fii-flows",
    "to": "nifty-50",
-   "weight": 10.0,
+   "weight": 7.0,
    "directness": 1,
-   "last_activated": "2026-06-23",
+   "last_activated": "2026-07-19",
    "type": "dominant_marginal_buyer_seller_jun6_DII_buffer_absorbing_90pct_is_proximate_support_keeping_nifty_rangebound_fii_still_net_selling",
    "added": "2026-05-12",
-   "rationale": "FPI ownership ~16% (2-decade low); DII absorbing ~70-90% of FII selling but gap widening. Nifty -1.49% May 11 directly attributable to FII flow."
+   "rationale": "[2026-07-19] DELIBERATE DOWNGRADE 10 -> 7.0, justified by observed transmission weakening. Friday's FII print was -Rs376.40 cr against Thursday's -Rs4,205.56 cr — a 91% collapse in the daily selling rate — and the Nifty rose 1.1% and is +1.0% ON THE MONTH through a war restart, a declared closure and a blockade. The DII wall plus a bank-earnings sweep absorbed the flow. CRUCIALLY the relationship also became ASSET-CLASS-SPECIFIC: FPIs bought >$4.2bn of Fully Accessible Route BONDS since 1 June while selling equity, and FIIs hold a net SHORT 216,528 index-futures position that the cash de-escalation has not matched. 'FII flow = war thermometer for the Nifty' is no longer a clean 1:1 mechanism. Held at 7.0, not lower, because the derivatives short means the bearish positioning is intact and could still transmit.",
+   "activation_count": 1
   },
   {
    "from": "fii-flows",
@@ -2527,10 +2553,11 @@
    "to": "helium",
    "weight": 8.0,
    "directness": 1,
-   "last_activated": "2026-05-15",
+   "last_activated": "2026-07-19",
    "type": "helium_consumption_dependency_qatar_64_7_percent_hers_recovery_18_6_percent_coverage",
    "added": "2026-05-15",
-   "rationale": "Samsung's HeRS helium-recycling system operational but covers only ~18.6% of consumption; Korea sources 64.7% from Qatar. Helium-clock-expiry window May 16-23 begins tomorrow with Samsung at the center of the supply-side stack."
+   "rationale": "[2026-07-19] Held at 8.0. Conservation protocols active since March (non-critical use cut, high-value lines prioritised, safety stock drawn down, US/Russia sourcing) with NO formal production cut announced — the trigger requires a confirmed halt, and reduced output is not a halt.",
+   "activation_count": 1
   },
   {
    "from": "samsung",
@@ -2697,11 +2724,13 @@
   {
    "from": "iran",
    "to": "strait-of-hormuz",
-   "weight": 10,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-27",
+   "last_activated": "2026-07-19",
    "type": "active_blockade_continues_jun6_iran_launched_4_owa_drones_toward_strait_all_shot_down_us_self_defence_strikes_on_iranian_coastal_radar_at_goruk_and_qeshm_island_complete_closure_stays_rhetoric",
-   "added": "2026-05-15"
+   "added": "2026-05-15",
+   "activation_count": 1,
+   "rationale": "[2026-07-19] Routing coercion CONFIRMED WORKING IN THE DATA: of 8 crossings 16-17 Jul, 7 used Iranian territorial-water routes (Kpler); transits ~8-15/day vs 88-100+/day normal; CTP-ISW's compliance thesis vindicated despite 8 nights of bombing. HELD AT MAX — Iran's operational control of the strait strengthened this window."
   },
   {
    "from": "china",
@@ -3110,13 +3139,14 @@
   {
    "from": "iran",
    "to": "jordan",
-   "weight": 4.5,
+   "weight": 9.0,
    "directness": 1,
-   "last_activated": "2026-06-11",
+   "last_activated": "2026-07-19",
    "type": "jun10_first_iranian_strike_on_jordanian_soil_azraq_airbase_all_5_missiles_intercepted_zero_damage_irgc_f35_claim_denied",
    "added": "2026-06-10",
-   "rationale": "First Iranian strike on Jordanian soil this war (Azraq airbase, June 10). Jordan's military intercepted all 5 missiles (shrapnel only, no injuries/damage); IRGC F-35-hangar claim denied. CONFIRMED action (strike+interception), CLAIMED damage. Widens target geography to a Levant US ally. Initial weight 3.0 (1 activation x recency 1.0 x directness 3.0).",
-   "context": "2026-06-11: Second consecutive day Jordan hit (Al-Azraq base); 20 intercepted, no casualties."
+   "rationale": "[2026-07-19] Al-Azraq/Muwaffaq Salti struck 17 Jul killing 2 US service members; further Iranian missiles at Aqaba 19 Jul intercepted by US air defences. Jordan is now the war's deadliest vector for the US. (was 4.5)",
+   "context": "2026-06-11: Second consecutive day Jordan hit (Al-Azraq base); 20 intercepted, no casualties.",
+   "activation_count": 1
   },
   {
    "from": "jordan",
@@ -3157,6 +3187,26 @@
    "type": "capital_substitution_INVERTED_jun16_north_asia_AI_complex_ripping_kospi_plus6.8pct_record_vs_nifty_plus1pct_same_riskon_day_AI_supercycle_pulls_EM_tech_allocation_away_from_india",
    "added": "2026-06-16",
    "rationale": "On the 15 Jun framework risk-on day, KOSPI +6.8% (record) / Nikkei +4.9% / TAIEX +3.2% vs Nifty +1.0%. The AI semiconductor supercycle (SK Hynix +11%) is an active capital competitor absorbing the EM/tech allocation that might otherwise rotate to India. Inverse of the existing capital_substitution trigger (which watches for N-Asia to CORRECT and India FII to turn positive). 2 sources (Nikkei Asia, TradingKey)."
+  },
+  {
+   "from": "china",
+   "to": "fertilizer-urea",
+   "weight": 6.0,
+   "directness": 1,
+   "last_activated": "2026-07-19",
+   "type": "export_quota_supply_channel_jul19_china_reopened_urea_export_window_after_8mo_suspension_india_tender_cleared_445_vs_890_april_halved_oversubscribed",
+   "added": "2026-07-19",
+   "rationale": "markets.md E2. China reopened its urea export window after an ~8-month suspension, issuing Jun-Aug quotas. India's June tender cleared at ~$445/t CFR, DOWN ~50% from ~$890/t in April, heavily oversubscribed. This — NOT Hormuz — is why urea de-escalated. Corrects a mis-attribution: the graph took fertilizer-urea->india to weight 10 on 17 Jul on an Iran mechanism. Nitrogen is loose; PHOSPHATE (DAP $920-935/t, highest since mid-2022) is the tight leg. Initial weight 6.0 (2 sources, causally clean, REPORTED)."
+  },
+  {
+   "from": "india",
+   "to": "shipping-tankers",
+   "weight": 6.0,
+   "directness": 1,
+   "last_activated": "2026-07-19",
+   "type": "crewing_constraint_jul19_dgma_circular_36_bars_indian_seafarers_from_hormuz_voyages_indians_are_9_10pct_of_global_seafaring_workforce_concentrated_in_tanker_crews",
+   "added": "2026-07-19",
+   "rationale": "intel.md A12. DGMA Circular No. 36 of 2026 (15 Jul) directs ship owners, managers and RPSL companies to stop deploying Indian seafarers on any vessel transiting Hormuz until further orders. NOT symbolic: Indians are ~9-10% of the global seafaring workforce and heavily concentrated in tanker crews, so this is a real CREWING constraint on global tanker manning through the strait — a third binding constraint alongside the transit collapse and the insurance-capacity cap. Strong source independence (Indian, Emirati and Gulf outlets separately). Initial weight 6.0."
   }
  ]
 }
