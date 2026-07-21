@@ -1,63 +1,77 @@
 {
-  "id": "artesh",
-  "name": "Iranian Army (Artesh)",
-  "type": "institution",
-  "created": "2026-05-15",
-  "last_updated": "2026-05-15",
-  "summary": "The Iranian Army (Artesh) is the conventional regular military of the Islamic Republic, institutionally distinct from the Islamic Revolutionary Guard Corps (IRGC). Artesh reports through the Ministry of Defense to the President; the IRGC reports directly to the Supreme Leader. **B5 ARTESH SPOKESPERSON BRIG. GEN. MOHAMMAD AKRAMINIA WARNED IN IRNA INTERVIEW OF 'SURPRISING OPTIONS' IF ADVERSARIES MAKE ANOTHER 'MISCALCULATION'** — saying any future aggression would take the conflict into areas 'the enemy has not anticipated' (CONFIRMED RHETORIC — IRNA primary). **This is fresh kinetic-preparation rhetoric from a uniformed Artesh spokesperson on the same day the IRGC closed its 'Martyred Commander' 5-day drill and the Trump-Xi joint statement said Iran 'can never have a nuclear weapon.' An Artesh spokesperson making a 'surprising options' claim alongside an active IRGC drill is the cleanest signal yet of COORDINATED KINETIC-READINESS MESSAGING ACROSS BOTH IRANIAN MILITARY PILLARS.** Tehran is signaling readiness from both Artesh and IRGC channels even as China rhetorically aligns with the US on the nuclear-weapons line. **NEW NODE — created May 15 to capture the institutional separation from IRGC and track future Artesh signaling distinct from IRGC operations.** No operational deployment named or observed (per CRITICAL TAG-DISCIPLINE: rhetoric ≠ action). Pezeshkian (civilian government) + Akraminia (Artesh) + Hassanzadeh (IRGC drill complete) all running the same kinetic-readiness theme = synchronized institutional posture across all three Iranian military-political pillars exactly as the Trump-Xi joint statement was being issued.",
-  "current": {
-    "institutional_position": "Conventional regular military; reports through MoD to President; institutionally distinct from IRGC (which reports directly to Supreme Leader)",
-    "spokesperson": "Brig. Gen. Mohammad Akraminia (May 14-15 IRNA interview)",
-    "tone_signal": "Akraminia 'surprising options if miscalculation recurs' — fresh kinetic-preparation rhetoric, no operational deployment named or observed (RHETORIC/THREAT, NOT ACTION)"
+ "id": "artesh",
+ "name": "Iranian Army (Artesh)",
+ "type": "institution",
+ "created": "2026-05-15",
+ "last_updated": "2026-07-21",
+ "summary": "The Iranian Army (Artesh) is the conventional regular military of the Islamic Republic, institutionally distinct from the Islamic Revolutionary Guard Corps (IRGC). Artesh reports through the Ministry of Defense to the President; the IRGC reports directly to the Supreme Leader. **B5 ARTESH SPOKESPERSON BRIG. GEN. MOHAMMAD AKRAMINIA WARNED IN IRNA INTERVIEW OF 'SURPRISING OPTIONS' IF ADVERSARIES MAKE ANOTHER 'MISCALCULATION'** — saying any future aggression would take the conflict into areas 'the enemy has not anticipated' (CONFIRMED RHETORIC — IRNA primary). **This is fresh kinetic-preparation rhetoric from a uniformed Artesh spokesperson on the same day the IRGC closed its 'Martyred Commander' 5-day drill and the Trump-Xi joint statement said Iran 'can never have a nuclear weapon.' An Artesh spokesperson making a 'surprising options' claim alongside an active IRGC drill is the cleanest signal yet of COORDINATED KINETIC-READINESS MESSAGING ACROSS BOTH IRANIAN MILITARY PILLARS.** Tehran is signaling readiness from both Artesh and IRGC channels even as China rhetorically aligns with the US on the nuclear-weapons line. **NEW NODE — created May 15 to capture the institutional separation from IRGC and track future Artesh signaling distinct from IRGC operations.** No operational deployment named or observed (per CRITICAL TAG-DISCIPLINE: rhetoric ≠ action). Pezeshkian (civilian government) + Akraminia (Artesh) + Hassanzadeh (IRGC drill complete) all running the same kinetic-readiness theme = synchronized institutional posture across all three Iranian military-political pillars exactly as the Trump-Xi joint statement was being issued.",
+ "current": {
+  "institutional_position": "Conventional regular military; reports through MoD to President; institutionally distinct from IRGC (which reports directly to Supreme Leader)",
+  "spokesperson": "Brig. Gen. Mohammad Akraminia (May 14-15 IRNA interview)",
+  "tone_signal": "Akraminia 'surprising options if miscalculation recurs' — fresh kinetic-preparation rhetoric, no operational deployment named or observed (RHETORIC/THREAT, NOT ACTION)"
+ },
+ "active_triggers": [
+  {
+   "condition": "Akraminia or any uniformed Artesh spokesperson announces specific operational deployment within 14 days",
+   "status": "watching",
+   "cascade": [
+    "iran",
+    "strait-of-hormuz",
+    "brent-crude",
+    "united-states"
+   ],
+   "added": "2026-05-15"
   },
-  "active_triggers": [
-    {
-      "condition": "Akraminia or any uniformed Artesh spokesperson announces specific operational deployment within 14 days",
-      "status": "watching",
-      "cascade": ["iran", "strait-of-hormuz", "brent-crude", "united-states"],
-      "added": "2026-05-15"
-    },
-    {
-      "condition": "Artesh and IRGC issue joint operational statement (institutional convergence signal)",
-      "status": "watching",
-      "cascade": ["iran", "irgc", "united-states", "brent-crude"],
-      "added": "2026-05-15"
-    }
-  ],
-  "top_edges": [
-    {
-      "to": "iran",
-      "type": "national_military_pillar_distinct_from_irgc",
-      "weight": 9.0,
-      "directness": 1,
-      "last_activated": "2026-05-15",
-      "activation_count": 1
-    },
-    {
-      "to": "irgc",
-      "type": "parallel_institutional_kinetic_readiness_signaling",
-      "weight": 7.0,
-      "directness": 1,
-      "last_activated": "2026-05-15",
-      "activation_count": 1
-    },
-    {
-      "to": "united-states",
-      "type": "rhetorical_threat_surprising_options_if_miscalculation",
-      "weight": 6.0,
-      "directness": 1,
-      "last_activated": "2026-05-15",
-      "activation_count": 1
-    }
-  ],
-  "recent_signals": [
-    {
-      "date": "2026-05-15",
-      "headline": "**B5 ARTESH SPOKESPERSON BRIG. GEN. AKRAMINIA WARNED IN IRNA INTERVIEW OF 'SURPRISING OPTIONS' IF ADVERSARIES MAKE ANOTHER 'MISCALCULATION'** — saying any future aggression would take the conflict into areas 'the enemy has not anticipated' (CONFIRMED RHETORIC — IRNA primary). Distinct from Pezeshkian's civilian 'never bow' framing and from IRGC drill-based readiness signaling. An Artesh spokesperson making a 'surprising options' claim alongside an active IRGC drill is the cleanest signal yet of coordinated kinetic-readiness messaging across both Iranian military pillars exactly as the Trump-Xi joint statement was being issued (Iran 'can never have a nuclear weapon'). **The brief notes this as additional escalation rhetoric on the Iran side**: Tehran signaling readiness from BOTH Artesh and IRGC channels even as China rhetorically aligns with the US on the nuclear-weapons line.",
-      "sources": [
-        "IRNA — Iranian state primary"
-      ],
-      "verification": "Akraminia 'surprising options' = CONFIRMED RHETORIC (IRNA primary, single source but on-record Artesh spokesperson statement). No operational deployment named or observed."
-    }
-  ]
+  {
+   "condition": "Artesh and IRGC issue joint operational statement (institutional convergence signal)",
+   "status": "watching",
+   "cascade": [
+    "iran",
+    "irgc",
+    "united-states",
+    "brent-crude"
+   ],
+   "added": "2026-05-15"
+  }
+ ],
+ "top_edges": [
+  {
+   "to": "iran",
+   "type": "national_military_pillar_distinct_from_irgc",
+   "weight": 9.0,
+   "directness": 1,
+   "last_activated": "2026-05-15",
+   "activation_count": 1
+  },
+  {
+   "to": "irgc",
+   "type": "parallel_institutional_kinetic_readiness_signaling",
+   "weight": 7.0,
+   "directness": 1,
+   "last_activated": "2026-05-15",
+   "activation_count": 1
+  },
+  {
+   "to": "united-states",
+   "type": "rhetorical_threat_surprising_options_if_miscalculation",
+   "weight": 6.0,
+   "directness": 1,
+   "last_activated": "2026-05-15",
+   "activation_count": 1
+  }
+ ],
+ "recent_signals": [
+  {
+   "date": "2026-05-15",
+   "headline": "**B5 ARTESH SPOKESPERSON BRIG. GEN. AKRAMINIA WARNED IN IRNA INTERVIEW OF 'SURPRISING OPTIONS' IF ADVERSARIES MAKE ANOTHER 'MISCALCULATION'** — saying any future aggression would take the conflict into areas 'the enemy has not anticipated' (CONFIRMED RHETORIC — IRNA primary). Distinct from Pezeshkian's civilian 'never bow' framing and from IRGC drill-based readiness signaling. An Artesh spokesperson making a 'surprising options' claim alongside an active IRGC drill is the cleanest signal yet of coordinated kinetic-readiness messaging across both Iranian military pillars exactly as the Trump-Xi joint statement was being issued (Iran 'can never have a nuclear weapon'). **The brief notes this as additional escalation rhetoric on the Iran side**: Tehran signaling readiness from BOTH Artesh and IRGC channels even as China rhetorically aligns with the US on the nuclear-weapons line.",
+   "sources": [
+    "IRNA — Iranian state primary"
+   ],
+   "verification": "Akraminia 'surprising options' = CONFIRMED RHETORIC (IRNA primary, single source but on-record Artesh spokesperson statement). No operational deployment named or observed."
+  },
+  {
+   "date": "2026-07-21",
+   "headline": "**THE ARTESH — NOT THE IRGC — IS BEING CREDITED WITH THE GULF STRIKES, AND THIS IS A GENUINE UNRESOLVED ANOMALY.** IRNA and Mehr credit 'Iran's Army' with the missile and drone attacks on US bases in Kuwait: 'The army's ground forces targeted the HIMARS missile systems of the US terrorist army stationed at the Arifjan base in Kuwait with surface-to-surface missiles.' Press TV attributes to the Army one-way drones against Camp Arifjan, Al Udairi Camp and Ahmad Al Jaber Air Base. **An ARTESH spokesman, Mohammad Akrami Nia, is issuing the doctrinal statements** — 'War will continue until full deterrence is achieved' and 'Rationality dictates that the war continue' — and the Army declared that 'no equipment intended for use against Iran can transit the Strait of Hormuz.' The IRGC is simultaneously claiming Bahrain, the Hormuz tanker strikes and Syria. **Regular-army units publicly credited with cross-border strikes on US bases, with an Artesh rather than IRGC spokesman issuing war aims, is NOT the normal division of labour.** Two readings, and they cannot yet be discriminated: **(a)** burden-sharing because IRGC missile and launcher inventories are degraded after ten nights of strikes on launch sites; **(b)** a deliberate rebalancing of institutional credit inside a regime with a contested leadership — which would connect directly to the elite split and to Vahidi's reported centrality. **ISW's 20 July report does NOT mention Artesh involvement at all and describes the IRGC as the dominant offensive force.** Flagged as unresolved and tracked. REPORTED."
+  }
+ ]
 }

@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-07-19",
+ "last_updated": "2026-07-21",
  "edges": [
   {
    "from": "united-states",
@@ -110,11 +110,11 @@
    "to": "india",
    "weight": 8.5,
    "directness": 1,
-   "last_activated": "2026-07-19",
+   "last_activated": "2026-07-21",
    "type": "relief_leg_fired_clean_oil_down_india_up_nifty_plus132_clean_room_session",
    "context": "2026-06-12: Oil -4% on deal hopes fired POSITIVE for India (import-cost relief) -> Nifty +2.0%; the de-escalation/oil-down channel is symmetric (helps India as much as oil-up hurt it).",
-   "activation_count": 1,
-   "rationale": "[2026-07-19] DELIBERATE DOWNGRADE 10 -> 8.5, justified by a structural change in the mechanism, not by decay. Per Kpler, ~70% of India's crude imports now BYPASS the Strait of Hormuz (Russia 2.5 mbpd ~50%, Gulf 1.8 mbpd, Iraq collapsed to negligible from 1 mbpd in January, Venezuela 300-400 kbpd). The crude channel from a Hormuz disruption to India is genuinely weaker than when this edge was set. India's live Hormuz exposure has MOVED to LPG/LNG (running 50% below pre-conflict) — encoded as the new natural-gas-lng->india weighting. The oil-PRICE channel to India remains strong (Brent $88 with pump prices uncut, OMC under-recoveries badly understated), which is why this stays high at 8.5 rather than falling further."
+   "activation_count": 2,
+   "rationale": "[2026-07-21] HELD at 8.5. India's June crude import bill rose 48% to $14.7bn — and that PRE-DATES the $90 Brent, so July will be materially worse. But the crude-channel weakening recorded on 19 Jul stands: ~70% of India's imports bypass Hormuz, Russian crude is at all-time highs, and no fuel-price, excise or OMC action was taken. The transmission is now FISCAL (import bill, OMC under-recoveries) rather than physical. (was 8.5)"
   },
   {
    "from": "brent-crude",
@@ -277,12 +277,12 @@
   {
    "from": "fed",
    "to": "gold",
-   "weight": 10.0,
+   "weight": 9.0,
    "directness": 1,
-   "last_activated": "2026-07-19",
+   "last_activated": "2026-07-21",
    "type": "real_yield_channel_pce_3_8_pins_gold_below_4400",
-   "activation_count": 1,
-   "rationale": "[2026-07-19] 5th and most extreme inverted-haven confirmation on the month (-7.2% 1M, -16.4% 3M through an escalating war; silver -19.4%, platinum -11.0% = whole complex). BUT the front-end transmission LOOSENED 17 Jul: July hike odds collapsed 46.5%->13.3% (86.7% hold), 10Y fell to 4.54%, gold ROSE 0.8% despite oil +4.6%. Hike moved OUT (~73% by Dec), not away. (was 10)"
+   "activation_count": 2,
+   "rationale": "[2026-07-21] LOWERED 10 -> 9.0 because THE TRANSMISSION HAS GONE QUIET, not because the mechanism is wrong. Brent went to $90 and US pump prices to $4.00/gal WITHOUT moving July hike odds materially (15.5%, vs 46.5% on 13 Jul). Gold rose 1.3% and silver 4.2% as real-yield pressure released. The inverted-haven regime holds on 1M/3M (-3.8%/-13.5%) but the war input has stopped moving the Fed input — so the edge is currently dormant rather than firing. (was 10.0)"
   },
   {
    "from": "fed",
@@ -659,10 +659,12 @@
   {
    "from": "iran",
    "to": "strait-of-hormuz",
-   "weight": 10,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-07-17",
-   "type": "jun7_2_more_drones_downed_near_hormuz_blockade_day100_ongoing"
+   "last_activated": "2026-07-21",
+   "type": "jun7_2_more_drones_downed_near_hormuz_blockade_day100_ongoing",
+   "activation_count": 1,
+   "rationale": "[2026-07-21] HELD AT MAX. Iran's routing coercion is now near-total: of 104 crossings since 6 Jul, 103 carried a risk marker and EXACTLY ONE was fully conventional; the US-escorted southern corridor collapsed from a 22% share to 2%; transits 4/day on 20 Jul against a resolved ~125/day pre-war baseline. Iran struck two vessels simultaneously INSIDE the escorted corridor. (was 10)"
   },
   {
    "from": "iran",
@@ -860,12 +862,12 @@
   {
    "from": "marine-war-risk-insurance",
    "to": "strait-of-hormuz",
-   "weight": 10.0,
+   "weight": 7.0,
    "directness": 1,
-   "last_activated": "2026-07-19",
+   "last_activated": "2026-07-21",
    "type": "operational_chokepoint_insurance_8x_NOT_unwinding_on_deal_anticipation_physical_floor",
-   "activation_count": 1,
-   "rationale": "[2026-07-19] MECHANISM REFRAMED from PRICE to CAPACITY and this is now the single highest-conviction transmission in the graph: per-transit underwriting capacity $2-3bn -> $500m-$1.5bn; 6 of 13 IG P&I clubs have withdrawn Gulf war cover; price IS clearing (VLCC fixtures $469k/day) but a vessel without P&I cannot legally trade — a hard QUANTITY cap. CONSEQUENCE: a ceasefire does NOT reopen Hormuz; expect a 4-8 week underwriting lag. HELD AT MAX."
+   "activation_count": 2,
+   "rationale": "[2026-07-21] **DOWNGRADED 10 -> 7.0 AND THE MECHANISM RE-SPECIFIED. The capacity thesis is falsified on three legs.** (1) Marsh's OWN figure FELL from 3-8% of hull (28 Jun) to 2-6% of vessel value (Bloomberg, 9 Jul) — same broker, later date, lower range — with Baker noting rates had drifted BELOW 2% before the July attacks. (2) The 'six P&I clubs withholding cover' claim is a CATEGORY ERROR and stale: Lloyd's List (Osler, 4 Mar) establishes war risk is a SEPARATE insurance class excluded by club rulebooks by design, with IG excess war cover unaffected; the six-club episode was 1-5 March and was resolved. (3) Cover is available and being written — WTW, 9 Jul: 'terms are available.' **The binding constraint is OWNER AND CREW APPETITE, not underwriting capacity.** The '4-8 week reopening lag' was INFERRED, not sourced — retired. Held at 7.0 rather than lower because insurance remains a real gate on reopening; it is simply not a quantity cap. (was 10.0)"
   },
   {
    "from": "mojtaba-khamenei",
@@ -1250,9 +1252,11 @@
   {
    "from": "shipping-tankers",
    "to": "india",
-   "weight": 2.7,
+   "weight": 7.5,
    "directness": 2,
-   "last_activated": "2026-03-24"
+   "last_activated": "2026-07-21",
+   "activation_count": 1,
+   "rationale": "[2026-07-21] REWEIGHTED 2.7 -> 7.5 and re-specified as the CREW-SUPPLY channel — the corrected quantity constraint replacing the falsified insurance-capacity story. Sinokor, the world's largest supertanker owner, is offering seafarers SIX MONTHS' salary for a single ~30-day Hormuz round trip (~$90,000 for a master vs ~$15,000/month), ~3x the prevailing norm. IMO: 59 ships attacked, 17 seafarers killed since late February; ~6,000 trapped in the Gulf; evacuation frozen 24 days. India's DGMA bars Indian crews from Hormuz voyages and Indians are ~9-10% of the global seafaring workforce, concentrated in tanker crews. WHEN THE LABOUR MARKET PRICES RISK ABOVE THE INSURANCE MARKET, CREW SUPPLY IS THE BINDING CONSTRAINT. Separately: FOUR Indian seafarers killed off Odesa 20 Jul by a Russian missile — India's maritime exposure is at least as much a Black Sea problem as a Gulf one."
   },
   {
    "from": "shipping-tankers",
@@ -1507,11 +1511,11 @@
    "to": "iran",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-07-19",
+   "last_activated": "2026-07-21",
    "type": "negotiation_hardening_jun7_bessent_inverts_iran_24bn_precondition",
    "context": "2026-06-12: Trump cancelled the third strike round and announced a \"great settlement\"; de-escalation, UNSIGNED.",
-   "activation_count": 1,
-   "rationale": "[2026-07-19] Strike nights 7-8 executed (17-19 Jul); CENTCOM language shifted 'degrade'->'swiftly punish'. Bridges/tunnels/rail severing Bandar Abbas CONFIRMED; power grid degraded 4,200 MW per Iran's own national electricity CEO with the Energy Ministry publicly acknowledging 'attacks on power infrastructure' for the first time. Both of Trump's threatened rungs crossed. (was 10.0)"
+   "activation_count": 2,
+   "rationale": "[2026-07-21] HELD AT MAX. Strike nights 9 and 10 executed. NOTE the textual reversion: CENTCOM's framing moved BACK from 'swiftly punish' to the shipping-protection rationale, with the punishment framing now carried politically by Trump rather than in operational releases — a de-escalatory signal inside the military language. (was 10.0)"
   },
   {
    "from": "united-states",
@@ -1589,11 +1593,11 @@
   {
    "from": "qatar",
    "to": "european-ttf-gas",
-   "weight": 9.5,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-07-19",
-   "activation_count": 1,
-   "rationale": "[2026-07-19] TTF EUR57.49-58.91 (+29-42% 1M), JKM +18.5% in ONE day to $19.93. Qatar 12.8 mtpa (17%) offline for 3-5 YEARS, force majeure in month 4 extended to early Sept, and QatarEnergy PAUSED its restart ramp after its own tanker was hit — constraint is Hormuz safety, not repairs. EU storage 53% vs 75% norm, lowest in 15 years; mandatory target already relaxed 90%->80%. (was 7.0)"
+   "last_activated": "2026-07-21",
+   "activation_count": 2,
+   "rationale": "[2026-07-21] RAISED TO MAX. TTF broke to a new cycle high of EUR58.74 (20 Jul), highest since 23 March, on the Hormuz tanker fire — with the physical driver being that NO laden Qatari LNG carrier appears to have transited Hormuz in nearly two weeks. EU storage ~51.8%, lowest in 15 years, mandatory target already relaxed 90%->80%. (was 9.5)"
   },
   {
    "from": "saudi-arabia",
@@ -1619,12 +1623,12 @@
   {
    "from": "russia",
    "to": "india",
-   "weight": 7.5,
+   "weight": 8.0,
    "directness": 1,
-   "last_activated": "2026-07-19",
+   "last_activated": "2026-07-21",
    "note_2026-07-17": "Black Sea wheat channel + 50% crude dependence activated",
-   "activation_count": 1,
-   "rationale": "[2026-07-19] UPGRADED from 6.0 — the Black Sea war is now a CONFIRMED CLOSURE, not a threat: Kerch Strait AND Don-Azov Canal shut indefinitely from 10 Jul after 100+ Russian vessels struck in 8 days. Wheat +14.6% 1M with ~25% of Russian exports (22% of world trade) affected. Plus Russia now supplies ~50% of India's crude and is India's strongest energy-security hedge (~70% of Indian crude bypasses Hormuz). (was 6.0)"
+   "activation_count": 2,
+   "rationale": "[2026-07-21] RAISED 7.5 -> 8.0. Russia killed FOUR Indian seafarers off Odesa on 20 July and India SUMMONED THE RUSSIAN ENVOY — the sharpest Delhi-Moscow friction of the war period, landing while Russia supplies ~50% of India's crude at all-time-high volumes and Washington threatens 100% tariffs over that relationship. India's energy hedge and its trade-deal risk are the same position. Separately the Kerch/Azov closure (~25% of Russian wheat exports) remains the wheat bid, not Iran. (was 7.5)"
   },
   {
    "from": "india",
@@ -1844,12 +1848,12 @@
   {
    "from": "helium",
    "to": "semiconductors",
-   "weight": 8.0,
+   "weight": 7.5,
    "directness": 3,
-   "last_activated": "2026-07-19",
+   "last_activated": "2026-07-21",
    "type": "supply_chain_delayed_cascade_buffered_~6mo_stockpile_reemergence_horizon_~nov_2026",
-   "activation_count": 1,
-   "rationale": "[2026-07-19] Raised 7.0 -> 8.0 on the timing mechanism becoming concrete: helium rationing shows up in wafer starts within 1-2 weeks but in SHIPMENTS on an 8-12 WEEK lag — March/April constraints therefore land NOW (Jul-Sep). Korea 64.7% Qatar-dependent, Taiwan ~69% GCC-dependent, ~30-35% of global supply offline for 3-5 years, ultra-pure prices doubled. Samsung and SK Hynix are drawing safety stock with NO formal production cut announced; TSMC expects no near-term impact citing on-site recycling capex the Korean memory fabs lack."
+   "activation_count": 2,
+   "rationale": "[2026-07-21] LOWERED 8.0 -> 7.5. The 8-12 week rationing-to-shipment lag implied March/April constraints would land in July-September output; NO production cut has been announced by Samsung, SK Hynix or TSMC. The thesis is beginning to fail on TIMING — either conservation and safety stock are absorbing more than modelled, or the effect is appearing in yield and cost rather than headline output. Hold the edge, do not raise it. (was 8.0)"
   },
   {
    "from": "taiwan",
@@ -3207,6 +3211,36 @@
    "type": "crewing_constraint_jul19_dgma_circular_36_bars_indian_seafarers_from_hormuz_voyages_indians_are_9_10pct_of_global_seafaring_workforce_concentrated_in_tanker_crews",
    "added": "2026-07-19",
    "rationale": "intel.md A12. DGMA Circular No. 36 of 2026 (15 Jul) directs ship owners, managers and RPSL companies to stop deploying Indian seafarers on any vessel transiting Hormuz until further orders. NOT symbolic: Indians are ~9-10% of the global seafaring workforce and heavily concentrated in tanker crews, so this is a real CREWING constraint on global tanker manning through the strait — a third binding constraint alongside the transit collapse and the insurance-capacity cap. Strong source independence (Indian, Emirati and Gulf outlets separately). Initial weight 6.0."
+  },
+  {
+   "from": "houthis",
+   "to": "saudi-arabia",
+   "weight": 7.0,
+   "directness": 1,
+   "last_activated": "2026-07-21",
+   "type": "maritime_embargo_jul20_declared_on_yemen_internal_grounds_targets_the_east_west_petroline_yanbu_hormuz_bypass_not_iran_retaliation",
+   "added": "2026-07-21",
+   "rationale": "intel A11. Yahya Saree declared a maritime embargo on Saudi Arabia effective immediately (20 Jul), citing the Sanaa airport strike and Saudi 'blockade' — explicitly NOT framed as retaliation for US strikes on Iran. Precipitated by the 13 Jul Houthi ballistic-missile salvo at Abha airport, the first Houthi-Saudi exchange in years. COMMERCIALLY PRECISE: it targets Saudi Arabia's East-West Petroline to Yanbu, where loadings run ~4m bpd against ~973k a year earlier, and Bab el-Mandeb throughput is UP (7.4m bpd June vs 4.2m) BECAUSE it is the Hormuz workaround. MEE reports Riyadh mulling military escalation — the first sign of a Gulf state considering kinetic counter-escalation this cycle. Initial weight 7.0: declaration confirmed, enforcement unproven."
+  },
+  {
+   "from": "iran",
+   "to": "shipping-tankers",
+   "weight": 9.5,
+   "directness": 1,
+   "last_activated": "2026-07-21",
+   "type": "anti_shipping_campaign_jul20_pause_ended_kavomaleas_acheloos_kaifan_struck_two_simultaneously_inside_us_escorted_corridor_deniable_accident_framing",
+   "added": "2026-07-21",
+   "rationale": "intel A4. The six-day anti-shipping pause ended 20 July: Kavomaleas (2 projectiles, engine-room fire, crew abandoned, adrift and burning), Acheloos (Liberian VLCC), and Kaifan (Kuwait Oil Tanker Co, REPORTED on one named analyst). Marisks reports Kavomaleas and Acheloos were struck SIMULTANEOUSLY and both were in the US-facilitated southern corridor — Dynacom being the largest non-Iranian operator still working it. This reads as a deliberate coordinated strike on the American lane. Iran's framing is the intelligence: the IRGC does NOT claim these as attacks but as CONSEQUENCES — 'vessels... enter unsafe routes will certainly face accidents' — asserting a de facto prohibition using deniable language. Initial weight 9.5: confirmed action, both belligerent and independent maritime corroboration."
+  },
+  {
+   "from": "houthis",
+   "to": "red-sea",
+   "weight": 7.5,
+   "directness": 1,
+   "last_activated": "2026-07-21",
+   "type": "bab_el_mandeb_second_chokepoint_jul20_embargo_declared_not_enforced_isw_no_houthi_attack_on_shipping_since_7_jul_throughput_UP_on_saudi_bypass",
+   "added": "2026-07-21",
+   "rationale": "intel A11 / B-red-sea. The Houthis declared a maritime embargo on Saudi Arabia effective 20 July, making Bab el-Mandeb a declared second chokepoint. BUT: no vessel attacked; ISW-CTP records NO Houthi attack on shipping since 7 July; enforcement is by radio turn-back orders only. Counter-intuitive datum that must travel with it: Bab el-Mandeb throughput is UP — 7.4m bpd in June vs 4.2m a year earlier — because it is the Hormuz workaround via Saudi Arabia's Petroline to Yanbu. Closing it atop a shut Hormuz would put ~25% of world oil and gas at risk (Al Jazeera); Reuters assesses workarounds would limit impact. Red Sea war-risk costs rose on the declaration alone — the first economic transmission, on words. Initial weight 7.5, deliberately not higher: declaration confirmed, enforcement unproven."
   }
  ]
 }
