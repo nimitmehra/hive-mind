@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-07-22",
+ "last_updated": "2026-07-23",
  "edges": [
   {
    "from": "united-states",
@@ -108,13 +108,13 @@
   {
    "from": "brent-crude",
    "to": "india",
-   "weight": 9.0,
+   "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-07-22",
+   "last_activated": "2026-07-23",
    "type": "relief_leg_fired_clean_oil_down_india_up_nifty_plus132_clean_room_session",
    "context": "2026-06-12: Oil -4% on deal hopes fired POSITIVE for India (import-cost relief) -> Nifty +2.0%; the de-escalation/oil-down channel is symmetric (helps India as much as oil-up hurt it).",
-   "activation_count": 3,
-   "rationale": "[2026-07-22] RAISED 8.5 -> 9.0. The oil channel to India RE-ARMED: Brent $94 into a June import bill already +48%, and for the first time this cycle oil clearly LED the Indian tape lower (Nifty <24,000, -0.9%) alongside the rupee touching its record. The importer transmission that had lived only in the rupee is now hitting equity too. (was 8.5)"
+   "activation_count": 4,
+   "rationale": "[2026-07-23] RAISED 9.0 -> 9.5. Oil near $100 into a June import bill already +48% is now a lead driver of a 3rd straight down day in Indian equity, alongside the rupee held at its record. The importer channel is transmitting hard to both equity and FX simultaneously. (was 9.0)"
   },
   {
    "from": "brent-crude",
@@ -279,10 +279,10 @@
    "to": "gold",
    "weight": 9.0,
    "directness": 1,
-   "last_activated": "2026-07-22",
+   "last_activated": "2026-07-23",
    "type": "real_yield_channel_pce_3_8_pins_gold_below_4400",
-   "activation_count": 3,
-   "rationale": "[2026-07-22] HELD at 9.0 — the oil-to-Fed transmission has INVERTED, not merely gone quiet. July hike odds fell to ~7.6% at Brent $94 and $4.00 gasoline. Gold +1.3% to $4,122, trading the ABSENCE of a Fed response. The edge is directionally correct but the mechanism is deferred to September; the live channel is now political, not monetary. (was 9.0)"
+   "activation_count": 4,
+   "rationale": "[2026-07-23] HELD at 9.0. Transmission stays INVERTED — July hike odds ~7.6% at Brent $97; gold NOT spiking (-0.7%, 10Y up to 4.66% capping it). The ECB pause today confirms the deferral. Gold trading the absence of a Fed response, deferred to September. (was 9.0)"
   },
   {
    "from": "fed",
@@ -407,9 +407,11 @@
   {
    "from": "houthis",
    "to": "brent-crude",
-   "weight": 10,
+   "weight": 9.0,
    "directness": 1,
-   "last_activated": "2026-04-02"
+   "last_activated": "2026-07-23",
+   "activation_count": 1,
+   "rationale": "[2026-07-23] HELD-HIGH at 9.0 (correcting an erroneous same-session downgrade to 7.5 that was mislabelled 'raised'). The Red Sea front went KINETIC on 23 July — two Saudi tankers struck, one ablaze — and this was a named contributor to Brent's charge toward $100 (Al Jazeera: 'Oil rises above $96 after Houthi attacks on Saudi ships'). On a kinetic-escalation day this edge should NOT be lowered. Held at 9.0 rather than 10.0 only because Bab el-Mandeb is NOT closed (ISW: transits halved to 30 from 64, not shut) and a sanctioned Iranian vessel transits freely — a coercive second-chokepoint risk premium in oil, not a supply cutoff."
   },
   {
    "from": "houthis",
@@ -663,10 +665,10 @@
    "to": "strait-of-hormuz",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-07-22",
+   "last_activated": "2026-07-23",
    "type": "jun7_2_more_drones_downed_near_hormuz_blockade_day100_ongoing",
-   "activation_count": 2,
-   "rationale": "[2026-07-22] HELD AT MAX. A fourth tanker struck 21 Jul off UAE/Oman; the IRGC shifted from deniable 'accidents' to CLAIMING it 'stopped two oil tankers' — converting a deniable campaign into an asserted enforcement regime. Transits still ~4/day. (was 10.0)"
+   "activation_count": 3,
+   "rationale": "[2026-07-23] HELD AT MAX. The IRGC shifted to a MINE tactic (a tanker exploded on a mine, 2 turned back) and now claims 'three tankers stopped'; declared the strait 'completely closed.' Iran converting a deniable campaign into an asserted closure regime. (was 10.0)"
   },
   {
    "from": "iran",
@@ -1323,11 +1325,11 @@
    "to": "brent-crude",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-07-22",
+   "last_activated": "2026-07-23",
    "type": "stanchart_130_145_path_active_2_session_sustain_fired_may18",
    "context": "2026-06-12: Deal-reopening hope priced Brent -4.1% to $86.71; Iran intends to retain Hormuz \"control\" even post-deal.",
-   "activation_count": 2,
-   "rationale": "[2026-07-22] RAISED to MAX. Crude FINALLY COUPLED in flat price: Brent +3.1% to $93.84, the war-restart high, +20.5% 1M — the first time this cycle the flat price, not just cracks, priced the war. Trigger was the escalation tilt (Trump 'not done,' declined the Iraqi channel, night 11, a 4th ship, the Houthi Saudi embargo). Still -7.9% 3M = re-arming toward not through the Feb-May peaks. (was 10.0)"
+   "activation_count": 3,
+   "rationale": "[2026-07-23] HELD AT MAX. Brent charging toward $100 ($96.93 -> $97.32, +25.8% 1M) — 2nd straight +3% day; the IRGC declared Hormuz 'completely closed' and shifted to mine-laying. The flat price is pricing the war. Still -7.7% 3M = toward not through the peaks. (was 10.0)"
   },
   {
    "from": "strait-of-hormuz",
@@ -1597,9 +1599,9 @@
    "to": "european-ttf-gas",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-07-22",
-   "activation_count": 3,
-   "rationale": "[2026-07-22] HELD AT MAX. TTF hit a new cycle high EUR61.37 (+44.8% 1M) on the continued absence of Qatari LNG through Hormuz — now the clearest single price expression of the Qatari outage. Pakistan paid its highest LNG spot since 2022. (was 10.0)"
+   "last_activated": "2026-07-23",
+   "activation_count": 4,
+   "rationale": "[2026-07-23] HELD AT MAX. TTF new cycle high EUR63.75 (+EUR2.38) on the continued absence of Qatari LNG through Hormuz; the ECB explicitly cited energy risk in pausing today. The clearest single price expression of the Qatari outage. (was 10.0)"
   },
   {
    "from": "saudi-arabia",
@@ -2323,13 +2325,13 @@
   {
    "from": "fii-flows",
    "to": "nifty-50",
-   "weight": 7.0,
+   "weight": 7.5,
    "directness": 1,
-   "last_activated": "2026-07-19",
+   "last_activated": "2026-07-23",
    "type": "dominant_marginal_buyer_seller_jun6_DII_buffer_absorbing_90pct_is_proximate_support_keeping_nifty_rangebound_fii_still_net_selling",
    "added": "2026-05-12",
-   "rationale": "[2026-07-19] DELIBERATE DOWNGRADE 10 -> 7.0, justified by observed transmission weakening. Friday's FII print was -Rs376.40 cr against Thursday's -Rs4,205.56 cr — a 91% collapse in the daily selling rate — and the Nifty rose 1.1% and is +1.0% ON THE MONTH through a war restart, a declared closure and a blockade. The DII wall plus a bank-earnings sweep absorbed the flow. CRUCIALLY the relationship also became ASSET-CLASS-SPECIFIC: FPIs bought >$4.2bn of Fully Accessible Route BONDS since 1 June while selling equity, and FIIs hold a net SHORT 216,528 index-futures position that the cash de-escalation has not matched. 'FII flow = war thermometer for the Nifty' is no longer a clean 1:1 mechanism. Held at 7.0, not lower, because the derivatives short means the bearish positioning is intact and could still transmit.",
-   "activation_count": 1
+   "rationale": "[2026-07-23] RAISED 7.0 -> 7.5 — the DII wall CRACKED. On 22 July both FIIs (-Rs819 cr) AND DIIs (-Rs418 cr) were net sellers, DIIs selling two sessions; the domestic bid that absorbed every war gap-down turned seller. The flow->index transmission strengthened because the absorptive counterparty weakened — the persistent (not instantly-bought) 3-day grind lower is the evidence. (was 7.0)",
+   "activation_count": 2
   },
   {
    "from": "fii-flows",
@@ -3217,13 +3219,13 @@
   {
    "from": "houthis",
    "to": "saudi-arabia",
-   "weight": 7.0,
+   "weight": 9.0,
    "directness": 1,
-   "last_activated": "2026-07-22",
+   "last_activated": "2026-07-23",
    "type": "maritime_embargo_jul20_declared_on_yemen_internal_grounds_targets_the_east_west_petroline_yanbu_hormuz_bypass_not_iran_retaliation",
    "added": "2026-07-21",
-   "rationale": "[2026-07-22] HELD at 7.0 — declaration weight, deliberately NOT upgraded. The Saudi-shipping embargo produced measurable effect (three Saudi-crude tankers U-turned, AIS-confirmed; Saudi loadings -36%) but NO kinetic strike; enforcement is by email/radio. Saudi 'vows to protect shipping,' no offensive action. Announce-vs-enforce discipline: a declaration with effect is not an attack. (was 7.0)",
-   "activation_count": 1
+   "rationale": "[2026-07-23] UPGRADED 7.0 -> 9.0 — from DECLARATION to CONFIRMED KINETIC. The Houthis struck two Saudi crude tankers (Encelia, Layla; one ablaze, crew safe) on 23 July, confirmed by Saudi SPA (host) + UKMTO (authority) + multiple wires. This crosses the 'first kinetic Houthi attack on a Saudi hull' trigger, which FIRED. Held at 9.0 not 10.0 because the strike is CALIBRATED — tankers not warships, crew safe, no Saudi retaliation, Bab el-Mandeb NOT closed (ISW: 30 transits vs 64 prior day). A confirmed kinetic front, not yet a full escalation. (was 7.0)",
+   "activation_count": 2
   },
   {
    "from": "iran",
@@ -3238,12 +3240,13 @@
   {
    "from": "houthis",
    "to": "red-sea",
-   "weight": 7.5,
+   "weight": 8.5,
    "directness": 1,
-   "last_activated": "2026-07-21",
+   "last_activated": "2026-07-23",
    "type": "bab_el_mandeb_second_chokepoint_jul20_embargo_declared_not_enforced_isw_no_houthi_attack_on_shipping_since_7_jul_throughput_UP_on_saudi_bypass",
    "added": "2026-07-21",
-   "rationale": "intel A11 / B-red-sea. The Houthis declared a maritime embargo on Saudi Arabia effective 20 July, making Bab el-Mandeb a declared second chokepoint. BUT: no vessel attacked; ISW-CTP records NO Houthi attack on shipping since 7 July; enforcement is by radio turn-back orders only. Counter-intuitive datum that must travel with it: Bab el-Mandeb throughput is UP — 7.4m bpd in June vs 4.2m a year earlier — because it is the Hormuz workaround via Saudi Arabia's Petroline to Yanbu. Closing it atop a shut Hormuz would put ~25% of world oil and gas at risk (Al Jazeera); Reuters assesses workarounds would limit impact. Red Sea war-risk costs rose on the declaration alone — the first economic transmission, on words. Initial weight 7.5, deliberately not higher: declaration confirmed, enforcement unproven."
+   "rationale": "[2026-07-23] RAISED 7.5 -> 8.5 on the kinetic event. Two Saudi tankers struck in the Red Sea; ISW counts Bab el-Mandeb transits halved (30 vs 64). But the strait is NOT closed and a sanctioned Iranian vessel transits freely — a coercive halving of Saudi-directed traffic, not a general closure. Raised for the confirmed kinetic action; capped below 9 because the chokepoint remains open. (was 7.5)",
+   "activation_count": 1
   },
   {
    "from": "united-states",
@@ -3254,6 +3257,16 @@
    "type": "phased_generic_pharma_tariff_jul22_0pct_2yr_then_100_200_targets_india_9.7bn_generic_exports_medium_term_relocation_pressure_non_crisis_structural",
    "added": "2026-07-22",
    "rationale": "intel A13/B2. Trump announced a phased tariff on generic drugs — 0% for ~2 years from ~1 Aug, then 100% (~2028), up to 200% (~2029) — targeting India's ~$9.7bn US generic exports; it hit Aurobindo/Sun/Cipla/Lupin/Glenmark/Biocon. A NON-crisis structural headwind on India that does NOT reverse on a Hormuz ceasefire, analogous to the Section 301 track. The 2-year grace means near-term cash impact is nil, so it registered as a re-rating not an earnings event. indian-it is the closest available node (India lacks a clean pharma node); label makes clear it is pharma. Initial weight 4.0 (announcement, 2-year grace, 2 sources — Reuters/CNBC original + Indian amplification)."
+  },
+  {
+   "from": "united-states",
+   "to": "saudi-arabia",
+   "weight": 6.5,
+   "directness": 1,
+   "last_activated": "2026-07-23",
+   "type": "us_saudi_nuclear_cooperation_pact_jul23_historic_binds_riyadh_closer_to_washington_as_tankers_burn_alarms_israel_losing_seat_at_table",
+   "added": "2026-07-23",
+   "rationale": "intel B2. A US-Saudi nuclear cooperation pact was announced 23 July ('historic'), the same window Saudi tankers were struck by the Houthis. Strategic effect: binds Riyadh CLOSER to Washington under fire (reducing any chance Saudi restricts US operations), ALARMS Israel (flipping its anxiety to fear of being diplomatically sidelined — 'losing its seat at the table'), and hands Iran a fresh regional-nuclearization grievance. A structural realignment edge, not a war-kinetics one. Initial weight 6.5 (announced agreement, 2 sources)."
   }
  ]
 }
