@@ -1852,12 +1852,13 @@
   {
    "from": "helium",
    "to": "semiconductors",
-   "weight": 7.5,
+   "weight": 2.0,
    "directness": 3,
    "last_activated": "2026-07-21",
    "type": "supply_chain_delayed_cascade_buffered_~6mo_stockpile_reemergence_horizon_~nov_2026",
    "activation_count": 2,
-   "rationale": "[2026-07-21] LOWERED 8.0 -> 7.5. The 8-12 week rationing-to-shipment lag implied March/April constraints would land in July-September output; NO production cut has been announced by Samsung, SK Hynix or TSMC. The thesis is beginning to fail on TIMING — either conservation and safety stock are absorbing more than modelled, or the effect is appearing in yield and cost rather than headline output. Hold the edge, do not raise it. (was 8.0)"
+   "rationale": "[2026-07-21] LOWERED 8.0 -> 7.5. The 8-12 week rationing-to-shipment lag implied March/April constraints would land in July-September output; NO production cut has been announced by Samsung, SK Hynix or TSMC. The thesis is beginning to fail on TIMING — either conservation and safety stock are absorbing more than modelled, or the effect is appearing in yield and cost rather than headline output. Hold the edge, do not raise it. (was 8.0)",
+   "note_2026-07-30": "DEMOTED 7.5->2.0 — cascade FALSIFIED. The KOSPI -35% July collapse is China-DUV-lithography competition + AI valuation, NOT helium supply; 4+ weeks past every fab-cliff estimate with no helium-driven Tier-1 production cut. Helium retained as a latent TTF/industrial-gas cost node only."
   },
   {
    "from": "taiwan",
@@ -3219,13 +3220,14 @@
   {
    "from": "houthis",
    "to": "saudi-arabia",
-   "weight": 9.0,
+   "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-07-23",
+   "last_activated": "2026-07-30",
    "type": "maritime_embargo_jul20_declared_on_yemen_internal_grounds_targets_the_east_west_petroline_yanbu_hormuz_bypass_not_iran_retaliation",
    "added": "2026-07-21",
    "rationale": "[2026-07-23] UPGRADED 7.0 -> 9.0 — from DECLARATION to CONFIRMED KINETIC. The Houthis struck two Saudi crude tankers (Encelia, Layla; one ablaze, crew safe) on 23 July, confirmed by Saudi SPA (host) + UKMTO (authority) + multiple wires. This crosses the 'first kinetic Houthi attack on a Saudi hull' trigger, which FIRED. Held at 9.0 not 10.0 because the strike is CALIBRATED — tankers not warships, crew safe, no Saudi retaliation, Bab el-Mandeb NOT closed (ISW: 30 transits vs 64 prior day). A confirmed kinetic front, not yet a full escalation. (was 7.0)",
-   "activation_count": 2
+   "activation_count": 3,
+   "note_2026-07-30": "Activation bump 9.0->9.5 on the confirmed Saudi coalition counterstrike (25 Jul) + Houthi missiles at Yanbu — the front is now openly kinetic both ways."
   },
   {
    "from": "iran",
@@ -3267,6 +3269,16 @@
    "type": "us_saudi_nuclear_cooperation_pact_jul23_historic_binds_riyadh_closer_to_washington_as_tankers_burn_alarms_israel_losing_seat_at_table",
    "added": "2026-07-23",
    "rationale": "intel B2. A US-Saudi nuclear cooperation pact was announced 23 July ('historic'), the same window Saudi tankers were struck by the Houthis. Strategic effect: binds Riyadh CLOSER to Washington under fire (reducing any chance Saudi restricts US operations), ALARMS Israel (flipping its anxiety to fear of being diplomatically sidelined — 'losing its seat at the table'), and hands Iran a fresh regional-nuclearization grievance. A structural realignment edge, not a war-kinetics one. Initial weight 6.5 (announced agreement, 2 sources)."
+  },
+  {
+   "from": "china",
+   "to": "semiconductors",
+   "weight": 6.0,
+   "directness": 1,
+   "last_activated": "2026-07-30",
+   "activation_count": 1,
+   "type": "domestic_duv_lithography_mass_production_threatens_samsung_skhynix_asml_moat_kospi_minus35pct_july",
+   "context": "2026-07-30 (markets E): ADDED. A 27-Jul report (The Information, corroborated by CNBC/cryptobriefing) that China has begun MASS-PRODUCING domestic immersion DUV lithography machines is the causal trigger of the Korean/Taiwan chip rout (KOSPI -33 to -35% July, circuit breakers; Samsung -13.4%, SK Hynix -14.7%; SMH -20% 1M). A China-competition edge, distinct from the war and replacing the falsified helium->semis cascade as the operative chip-sector driver. Initial weight 6.0 (1st-order, 2 sources, not inflated on one episode)."
   }
  ]
 }
