@@ -3,14 +3,14 @@
  "name": "Brent Crude",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-08-03",
+ "last_updated": "2026-08-07",
  "summary": "Day 147 / 2026-07-24. **$100 TOUCHED OVERNIGHT THEN REJECTED — BRENT CRASHED ~8% INTRADAY TO $92.71 ON A REPORTED DE-ESCALATION (Qatari 'breakthroughs' + a 15-point US proposal + reports Trump PAUSED planned strikes) EVEN AS TRUMP PUBLICLY DEMANDS 'UNCONDITIONAL SURRENDER' — NEGOTIATE-WHILE-BOMBING, AND THE TAPE CHOSE THE DIPLOMACY LEG.** Path into today: $88.10 (19 Jul) -> $90.37 (21) -> $93.84 (22, war-restart high) -> $96.93->$97.32 (23) -> topped $100 overnight (CNN 'oil tops $100', 23 Jul) -> **$92.71 (-7.9% 1D) at 13:19 IST 24 Jul.** The 8% intraday range on a REPORTED (not signed) breakthrough is the intelligence: the war premium deflates far faster than it built. **The sustained-$100 trigger did NOT fire — $100 was a touch, not 5 sustained sessions.** Goldman's base case ($80 Q4, $75 2027) explicitly assumes 'normalization by end-July'; the market at $100 was pricing AGAINST it, and today's crash is the market half-believing Goldman after all — but reversibility is symmetric and violent: the June-17 MoU also produced 'breakthroughs' then collapsed, and if these reports prove hollow Brent snaps back through $100. **CRITICAL DIVERGENCE: the PHYSICAL market has NOT relaxed — VLCC rates at an all-time high $423,736/day (LSEG), insurers scrapping Gulf cover, Hormuz at 1 transit/day — while the FUTURE prices resolution.** Distillate still the tight leg (heating oil +31.5% 1M). Still -12.0% 3M — a re-arm toward, not through, the Feb-May peaks.",
  "current": {
-  "price": "Brent $83.71 (-7.1% 1D, +16.6% 1M, -26.9% 3M); WTI $79.61 (-6.0%, below $80). Heating oil $3.98 (+25.0% 1M); RBOB $3.02 (-6.3%). Crashed on the strike pause + OPEC+ +188k bpd Sept.",
-  "delta_1d": "-7.1%",
-  "delta_1m": "+16.6%",
+  "price": "Brent $83.24 (+0.9% 1D, +9.1% 1M, -16.8% 3M); WTI $77.92 (+0.8%, below $78). Heating oil $3.91; RBOB $2.71 (-7.8%, seasonal). Steady low-$80s; war premium gone.",
+  "delta_1d": "+0.9%",
+  "delta_1m": "+9.1%",
   "delta_vs_4jul": "+~14%",
-  "regime": "WAR PREMIUM DEFLATING HARD — Brent -7.1% to $83.71 (WTI below $80) on the strike pause (Trump called off the weekend attack) + OPEC+ +188k bpd Sept (cut rollback complete). -26.9% 3M — well below the peaks, a re-arm fully unwound. ~65% de-escalation / ~35% supply. REVERSIBLE: Iran disputes Trump's talks account (Oman-only, sovereignty preserved); this is the THIRD pause — a collapse snaps Brent back toward $90+. But the physical is ALSO easing (first Qatar LNG tanker through Hormuz in >3 weeks; TTF off highs) — a genuine de-escalation datum. JPM: Brent ~$86 Q3."
+  "regime": "WAR PREMIUM GONE — STEADY LOW-$80s. Brent $83.24 (-16.8% 3M) on the third pause holding + the Iran-Oman route agreement + OPEC+ September barrels. Oil no longer a day-to-day crisis instrument. BRENT BELOW $85 IS NOW SUSTAINED (5+ sessions) — the India importer-dividend cascade re-fires. Binary: a pause collapse re-arms toward $90+; a confirmed Hormuz reopening pulls toward $80/high-$70s. JPM $86 Q3 looks slightly high vs spot."
  },
  "price_snapshots": [
   {
@@ -190,7 +190,7 @@
   },
   {
    "condition": "Brent drops below $85 sustained",
-   "status": "reversed_unfired",
+   "status": "fired",
    "cascade": [
     "india",
     "inr-usd",
@@ -207,7 +207,8 @@
    "note_2026-06-22": "2026-06-22: Sustained sub-$80 ($76.99). War premium spent; floor ~$73-77.",
    "note_2026-06-26": "2026-06-26: At $73.57 — pre-war baseline reached. War premium fully out.",
    "note_2026-07-04": "2026-07-04: FIRED/ACTIVE — Brent has printed sub-$85 EVERY session since ~17 Jun ($78.65 on 17 Jun -> $73.57 26 Jun -> $71.57 settle 1 Jul): 12+ consecutive sessions, unambiguous 'sustained'. The India importer-dividend cascade is live (OMC rally, 10Y at 15-week lows).",
-   "note_2026-07-17": "2026-07-17: REVERSED/UN-FIRED — the 4-Jul fired_active state ended 14 Jul when Brent settled $84.73 and broke above $85 intraday; now $86. The importer-dividend cascade this tracked is DEAD (see india). Status back to watching-the-other-way."
+   "note_2026-07-17": "2026-07-17: REVERSED/UN-FIRED — the 4-Jul fired_active state ended 14 Jul when Brent settled $84.73 and broke above $85 intraday; now $86. The importer-dividend cascade this tracked is DEAD (see india). Status back to watching-the-other-way.",
+   "fired_2026-08-07": "FIRED 2026-08-07 — Brent below $85 for 5+ consecutive sessions ($83.71 on 3 Aug -> $83.24 on 7 Aug; WTI $77.92) on the sustained de-escalation (third pause holding + Iran-Oman route agreement + OPEC+ supply). Confirmed sustained, not a one-day dip. The India importer-dividend cascade (OMC margins, lower CAD/import bill, rupee support, disinflation) is LIVE — reinforcing the strongest India setup of the cycle. Reverses only on a pause collapse that re-arms the war premium."
   },
   {
    "condition": "Brent spikes above $130 on Houthi Red Sea entry",

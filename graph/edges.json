@@ -110,11 +110,12 @@
    "to": "india",
    "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-07-23",
+   "last_activated": "2026-08-07",
    "type": "relief_leg_fired_clean_oil_down_india_up_nifty_plus132_clean_room_session",
    "context": "2026-06-12: Oil -4% on deal hopes fired POSITIVE for India (import-cost relief) -> Nifty +2.0%; the de-escalation/oil-down channel is symmetric (helps India as much as oil-up hurt it).",
-   "activation_count": 4,
-   "rationale": "[2026-07-23] RAISED 9.0 -> 9.5. Oil near $100 into a June import bill already +48% is now a lead driver of a 3rd straight down day in Indian equity, alongside the rupee held at its record. The importer channel is transmitting hard to both equity and FX simultaneously. (was 9.0)"
+   "activation_count": 5,
+   "rationale": "[2026-07-23] RAISED 9.0 -> 9.5. Oil near $100 into a June import bill already +48% is now a lead driver of a 3rd straight down day in Indian equity, alongside the rupee held at its record. The importer channel is transmitting hard to both equity and FX simultaneously. (was 9.0)",
+   "note_2026-08-07": "Activated in the IMPORTER-DIVIDEND direction — Brent below $85 sustained (5+ sessions) is a tailwind for India (lower import bill/CAD, OMC margins, rupee support, disinflation)."
   },
   {
    "from": "brent-crude",
@@ -277,12 +278,13 @@
   {
    "from": "fed",
    "to": "gold",
-   "weight": 9.0,
+   "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-07-23",
+   "last_activated": "2026-08-07",
    "type": "real_yield_channel_pce_3_8_pins_gold_below_4400",
-   "activation_count": 4,
-   "rationale": "[2026-07-23] HELD at 9.0. Transmission stays INVERTED — July hike odds ~7.6% at Brent $97; gold NOT spiking (-0.7%, 10Y up to 4.66% capping it). The ECB pause today confirms the deferral. Gold trading the absence of a Fed response, deferred to September. (was 9.0)"
+   "activation_count": 5,
+   "rationale": "[2026-07-23] HELD at 9.0. Transmission stays INVERTED — July hike odds ~7.6% at Brent $97; gold NOT spiking (-0.7%, 10Y up to 4.66% capping it). The ECB pause today confirms the deferral. Gold trading the absence of a Fed response, deferred to September. (was 9.0)",
+   "note_2026-08-07": "Strengthened — gold made a RECORD on the Fed pivot to cuts (weak jobs). fed->gold is the dominant gold driver (rate-cut catalyst); war-haven channel dead."
   },
   {
    "from": "fed",
@@ -3279,6 +3281,16 @@
    "activation_count": 1,
    "type": "domestic_duv_lithography_mass_production_threatens_samsung_skhynix_asml_moat_kospi_minus35pct_july",
    "context": "2026-07-30 (markets E): ADDED. A 27-Jul report (The Information, corroborated by CNBC/cryptobriefing) that China has begun MASS-PRODUCING domestic immersion DUV lithography machines is the causal trigger of the Korean/Taiwan chip rout (KOSPI -33 to -35% July, circuit breakers; Samsung -13.4%, SK Hynix -14.7%; SMH -20% 1M). A China-competition edge, distinct from the war and replacing the falsified helium->semis cascade as the operative chip-sector driver. Initial weight 6.0 (1st-order, 2 sources, not inflated on one episode)."
+  },
+  {
+   "from": "fed",
+   "to": "india",
+   "weight": 5.0,
+   "directness": 2,
+   "last_activated": "2026-08-07",
+   "activation_count": 1,
+   "type": "us_monetary_pivot_to_cuts_em_tailwind_softer_dollar_capital_inflows",
+   "context": "2026-08-07 (markets E): ADDED. The US Fed pivot to a September CUT (weak Aug jobs, ~22k NFP, unemployment 4.3%) is a classic EM/India tailwind — softer dollar, resumed inflows. With the war premium gone, US monetary policy is now a larger swing factor for Indian equities than the war. Initial weight 5.0 (2nd-order, dovish=tailwind)."
   }
  ]
 }
