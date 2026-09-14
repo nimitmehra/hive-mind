@@ -3,14 +3,14 @@
  "name": "Brent Crude",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-08-13",
- "summary": "Day 147 / 2026-07-24. **$100 TOUCHED OVERNIGHT THEN REJECTED — BRENT CRASHED ~8% INTRADAY TO $92.71 ON A REPORTED DE-ESCALATION (Qatari 'breakthroughs' + a 15-point US proposal + reports Trump PAUSED planned strikes) EVEN AS TRUMP PUBLICLY DEMANDS 'UNCONDITIONAL SURRENDER' — NEGOTIATE-WHILE-BOMBING, AND THE TAPE CHOSE THE DIPLOMACY LEG.** Path into today: $88.10 (19 Jul) -> $90.37 (21) -> $93.84 (22, war-restart high) -> $96.93->$97.32 (23) -> topped $100 overnight (CNN 'oil tops $100', 23 Jul) -> **$92.71 (-7.9% 1D) at 13:19 IST 24 Jul.** The 8% intraday range on a REPORTED (not signed) breakthrough is the intelligence: the war premium deflates far faster than it built. **The sustained-$100 trigger did NOT fire — $100 was a touch, not 5 sustained sessions.** Goldman's base case ($80 Q4, $75 2027) explicitly assumes 'normalization by end-July'; the market at $100 was pricing AGAINST it, and today's crash is the market half-believing Goldman after all — but reversibility is symmetric and violent: the June-17 MoU also produced 'breakthroughs' then collapsed, and if these reports prove hollow Brent snaps back through $100. **CRITICAL DIVERGENCE: the PHYSICAL market has NOT relaxed — VLCC rates at an all-time high $423,736/day (LSEG), insurers scrapping Gulf cover, Hormuz at 1 transit/day — while the FUTURE prices resolution.** Distillate still the tight leg (heating oil +31.5% 1M). Still -12.0% 3M — a re-arm toward, not through, the Feb-May peaks.",
+ "last_updated": "2026-09-14",
+ "summary": "Brent, Day 199. The August thesis ('oil re-armed to $87 on the blockade; sub-$85 refires the India dividend') is dead: Brent is $107, +23% in a month, above $100 since 9 Sep, $108 touched this morning. This is not the July risk-premium run toward $100 — it is a physical shortfall from two simultaneous outages layered on a chokepoint at 5% of throughput: Saudi's Hormuz-bypass pipeline is shut (drone strikes, weeks to repair, Yanbu stock 5–7 days) and the Houthis physically hold the Bab el-Mandeb that Yanbu cargoes use. Diesel is the crisis product (US record >$6.20). The oil price is now the Fed's reaction function (hike priced) and therefore the global rates regime. Bank forecasts span $60–$120+, which is the honest statement of model failure. Reversibility is low until the pipeline restarts or a Hormuz lane convenes; both are weeks away at best.",
  "current": {
-  "price": "Brent $87.31 (-1.9% 1D, +2.8% 1M, -17.3% 3M); WTI $81.50 (-2.1%). Heating oil $4.26; RBOB $2.87 (-9.0%, seasonal). Re-armed above $85 on the blockade/IEA-shortfall; pulling back today.",
-  "delta_1d": "-1.9%",
-  "delta_1m": "+2.8%",
-  "delta_vs_4jul": "+~14%",
-  "regime": "RE-ARMED TO ~$87 ON THE BLOCKADE + SUPPLY SHORTFALL. Brent back to $87 (+2.8% 1M) from $83 (7 Aug): the US blockade near-halted Iranian oil EXPORTS (a real supply loss), the IEA flags a 1.8 mb/d shortfall, the EIA RAISED shut-in estimates, and talks deadlocked. The Brent-<$85 trigger (fired 7 Aug) has REVERSED — oil back above $85, the India importer-dividend fading. Still -17.3% 3M (below the peaks). Binary: a deal lifting the blockade + reopening fades it toward $80; a kinetic re-escalation gaps it toward $95+."
+  "price": "Brent $106.95 (+2.2% 1D, +22.8% 1M, +28.6% 3M; Fri 11 Sep intraday HIGH $110.19 then settle $104.61; $108.46 high 14 Sep); WTI $102.32 (+25.9% 1M). Heating oil $4.84 (+48% 3M); RBOB $3.17 (+1.4% 1M). US retail diesel record $6.05–6.20.",
+  "delta_1d": "+2.2%",
+  "delta_1m": "+22.8%",
+  "delta_vs_4jul": "+~38%",
+  "regime": "DOUBLE PHYSICAL OUTAGE, NOT PREMIUM (14 Sep). Brent >$100 for the first time since July on (1) Hormuz at 7 transits/day and kinetic again, (2) Saudi's East-West bypass SHUT (11 Sep, weeks to repair), (3) Houthi control of the Bab el-Mandeb. The buffers (OPEC spare, Saudi rerouting, SPR, demand softness) are 'worn away' (Cahill). The Fed now trades this price (hike 83–85%). Binary: pipeline restart + a Hormuz lane → $90s; a first non-Saudi Houthi hit or a Pickaxe strike → Goldman's $120+."
  },
  "price_snapshots": [
   {
@@ -86,6 +86,11 @@
    "date": "2026-07-23",
    "price": "$96.93 (->$97.32) (+3.0%) — 2nd straight +3% day",
    "trigger": "Escalation vector broke open: strike night 12, B-1 bombers surging, Rubio declared the ceasefire 'killed,' IRGC declared Hormuz 'completely closed,' and the Houthis went KINETIC on two Saudi tankers. +25.8% 1M. Knocking on the sustained-$100 trigger and ~half-way to Goldman's $120 conditional. Still -7.7% 3M."
+  },
+  {
+   "date": "2026-09-14",
+   "price": "$106.95–107.21 (14 Sep intraday; high $108.46); Fri 11 Sep high $110.19 / settle $104.61; $107.63 10 Sep settle",
+   "trigger": "DOUBLE PHYSICAL OUTAGE: Saudi East-West pipeline shut (11 Sep) + Houthis hold Bab el-Mandeb (11 Sep) on top of Hormuz at 7 transits/day; first >$100 since July (9 Sep); +22.8% 1M."
   }
  ],
  "active_triggers": [
@@ -139,7 +144,7 @@
   },
   {
    "condition": "VLCC TD3C tanker rate sustained above $200K/day for 5+ sessions — paper-physical divergence terminal escalation",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "marine-war-risk-insurance",
     "shipping-tankers",
@@ -149,11 +154,13 @@
    "added": "2026-05-14",
    "note": "Lloyd's List May 11 reports VLCC TD3C 'in unchartered territory' at $420-462K/day vs graph's last-recorded ~$100K (markets dossier May 13). MAJOR escalation signal — paper-Brent at $105 vs spot VLCC at $420K is the cleanest paper-physical divergence indicator we have. If sustained 5+ sessions, terminal escalation of physical-disruption regime. Source verification: Lloyd's List primary + Baltic Exchange data. Trigger added at ACTIVE not WATCHING because the $420K figure is operationally massive and 4x the prior recorded peak; if Lloyd's $420K is accurate, the threshold is already breached. Tomorrow's pipeline should explicitly cross-check Baltic Exchange WS prints for verification. | 2026-05-14 fact-check: demoted from active → watching. Basis is single Lloyd's List May 11 print at $420-462K/day pending Baltic Exchange WS cross-verification; the 5-session-sustain requirement is not established from a single data point.",
    "note_2026-06-16": "2026-06-16: Divergence now NARROWING from the physical side — TTF -5%, VLCC rates easing, insurer premiums signalled to decline alongside Brent -5%. Stays active but convergence underway; the physical complex is starting to validate the paper move.",
-   "note_2026-06-17": "2026-06-17: Divergence resolving -- blockade lift + tanker transits mean physical now confirming the paper move. Convergence near-complete."
+   "note_2026-06-17": "2026-06-17: Divergence resolving -- blockade lift + tanker transits mean physical now confirming the paper move. Convergence near-complete.",
+   "status_changed": "2026-09-14",
+   "notes": "REVIEWED 2026-09-14 — FIRED — TD3C ~$982k/day (Fri 11 Sep; Clarksons >$1m), doubled in a month from ~$498k; corroborated by Frontline +24.4% 1M and BOAT +17.2%. 2 sources (Baltic/Clarksons via Time.news/Hellenic; equity prices). Caveat: assessed index, few fixtures — direction unimpeachable. CONFIRMED."
   },
   {
    "condition": "Brent gaps -$8-12 to $93-97 within 5 sessions on Trump-Xi deliverable",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "india",
     "inr-usd",
@@ -162,7 +169,9 @@
     "fertilizer-urea"
    ],
    "added": "2026-05-14",
-   "note": "Markets dossier C1 scenario A: Paper proven right — Trump-Xi delivers HEU-custodian framework, MOU signs by May 17-20, Hormuz transit ramps back, Brent gaps -$8-12. If this trigger fires, crisis-trade unwind completes (defense bid further, gold under more pressure, India equities rally toward Nifty 24,500-25,000)."
+   "note": "Markets dossier C1 scenario A: Paper proven right — Trump-Xi delivers HEU-custodian framework, MOU signs by May 17-20, Hormuz transit ramps back, Brent gaps -$8-12. If this trigger fires, crisis-trade unwind completes (defense bid further, gold under more pressure, India equities rally toward Nifty 24,500-25,000).",
+   "status_changed": "2026-09-14",
+   "notes": "REVIEWED 2026-09-14 — EXPIRED (May scenario)."
   },
   {
    "condition": "Brent sustained above $100 for 4+ weeks",
@@ -175,7 +184,8 @@
    ],
    "added": "2026-03-23",
    "note_2026-07-04": "2026-07-04: OBSOLETE-DIRECTION — Brent is $72; retain as dormant tail-risk marker only.",
-   "note_2026-07-17": "2026-07-17: DORMANT-BUT-LIVE AGAIN — $86 with the Goldman >$100 scenario clock running from the closure declaration. Watch mid-Aug."
+   "note_2026-07-17": "2026-07-17: DORMANT-BUT-LIVE AGAIN — $86 with the Goldman >$100 scenario clock running from the closure declaration. Watch mid-Aug.",
+   "notes": "REVIEWED 2026-09-14 — Legacy 'active' status (March) retained; the current run is 3 sessions — see the 2-week trigger."
   },
   {
    "condition": "Brent crosses $100/barrel sustained for 2+ weeks",
@@ -186,7 +196,8 @@
     "rbi",
     "nifty-50"
    ],
-   "added": "2026-03-23"
+   "added": "2026-03-23",
+   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — 3 sessions of ~10 needed. Approaching."
   },
   {
    "condition": "Brent drops below $85 sustained",
@@ -224,7 +235,7 @@
    "added": "2026-03-24",
    "note_2026-07-17": "2026-07-17: WATCHING, MECHANISM ARMED — Houthis sank Eternity C 9 Jul then paused; Iranian instruction to close Bab el-Mandeb if US hits energy infrastructure is REPORTED. The trigger's exact scenario is now the named next rung.",
    "status_changed": "2026-07-19",
-   "notes": "REVIEWED 19 Jul — REMAINS AT WATCHING and remote at $88.10. This trigger's named scenario is exactly the live question: Iran's reserved instruction to the Houthis to close Bab el-Mandeb had a stated precondition (US strikes on Iranian POWER infrastructure) which is now arguably SATISFIED (AP-confirmed strike on a Hormozgan electricity+desalination plant; Iran's Energy Ministry acknowledged 'attacks on power infrastructure' 17 Jul; 4,200 MW grid loss per the national electricity CEO) — YET NO HOUTHI ACTION has followed. The condition fired and the response did not come. Discipline on the other side: Brent is -7.7% over THREE MONTHS despite a declared closure, a naval blockade and 8 strike nights, and energy EQUITIES badly lagged crude (XLE +1.2% vs Brent +4.6%) — the market prices a temporary risk premium, not a durable supply loss. A second chokepoint closing is the scenario that puts $130 in play."
+   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — the precondition (Houthis hold the Bab el-Mandeb) is now met; the price ($108) is not. Do not pre-fire.\n[prior] REVIEWED 19 Jul — REMAINS AT WATCHING and remote at $88.10. This trigger's named scenario is exactly the live question: Iran's reserved instruction to the Houthis to close Bab el-Mandeb had a stated precondition (US strikes on Iranian POWER infrastructure) which is now arguably SATISFIED (AP-confirmed strike on a Hormozgan electricity+desalination plant; Iran's Energy Ministry acknowledged 'attacks on power infrastructure' 17 Jul; 4,200 MW grid loss per the national electricity CEO) — YET NO HOUTHI ACTION has followed. The condition fired and the response did not come. Discipline on the other "
   },
   {
    "condition": "Brent-Hormuz paper-physical divergence >$10/bbl in EITHER direction sustained 3 sessions",
@@ -234,7 +245,8 @@
     "strait-of-hormuz",
     "marine-war-risk-insurance"
    ],
-   "added": "2026-04-22"
+   "added": "2026-04-22",
+   "notes": "REVIEWED 2026-09-14 — REMAINS ACTIVE — divergence now runs physical-over-paper (TD3C 2x; Yanbu outage) rather than paper-over-physical."
   },
   {
    "condition": "Brent sustained above $100 for 5+ sessions by ~18 August — the falsification test for Goldman's 'another month of closure' scenario",
@@ -247,7 +259,7 @@
     "energy-sector"
    ],
    "added": "2026-07-19",
-   "notes": "REVIEWED 23 Jul — REMAINS AT WATCHING, and this is the closest approach yet. Brent $96.93 (->$97.32 intraday), a SECOND straight +3% day, +25.8% 1M — knocking on $100 but not sustained above it. Goldman's $120 conditional is back in headlines; at $97 the market is ~half-way there. THE BINARY: Rubio pronounced the ceasefire 'killed' and B-1s are surging, so a formal joint-campaign decision plausibly gaps Brent through $100 and fires this within days; a ceasefire acceptance (now unlikely) collapses it. Still -7.7% 3M — not yet through the Feb-May peaks. Do not pre-fire on an approach.",
+   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING but RE-ARMED past its date: 3 settles >$100 (9/10/11 Sep) + 14 Sep live; fires on Tuesday's settle if held. Goldman's scenario is now being tested in September, not August.\n[prior] REVIEWED 23 Jul — REMAINS AT WATCHING, and this is the closest approach yet. Brent $96.93 (->$97.32 intraday), a SECOND straight +3% day, +25.8% 1M — knocking on $100 but not sustained above it. Goldman's $120 conditional is back in headlines; at $97 the market is ~half-way there. THE BINARY: Rubio pronounced the ceasefire 'killed' and B-1s are surging, so a formal joint-campaign decision plausibly gaps Brent through $100 and fires this within days; a ceasefire acceptance (now unlikely) collapses it. Still -7.7% 3M — not yet through the Feb-May peaks. Do not pre-fire on an approach.",
    "status_changed": "2026-07-23"
   }
  ],
@@ -336,6 +348,14 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-09-14",
+   "headline": "**Trigger arithmetic.** Sessions with a settle >$100: 9, 10, 11 Sep (3) + 14 Sep live. The Goldman-falsification trigger ('5+ sessions') fires on Tuesday's settle if held; the 'sustained 2+ weeks' trigger needs ~10 sessions; the 'above $130 on Houthi Red Sea entry' trigger now has its precondition (Houthis hold the strait) but not its price. VLCC TD3C ~$982k/day (>$1m Clarksons) — the '>$200k for 5+ sessions' paper-physical divergence trigger is 5x through; physical leads paper. The 13-Aug 'oil back below $85' re-green-light tell is $22 away."
+  },
+  {
+   "date": "2026-09-14",
+   "headline": "**BRENT $107 (+22.8% 1M; $108 TOUCHED 14 SEP) — from risk premium to a DOUBLE PHYSICAL OUTAGE.** Path: $87 (13 Aug) → $89 (28 Aug) → $94.65 (1 Sep, US–Iran strikes resume) → $101.21 (9 Sep, first >$100 since July) → $107.63 (10 Sep) → $104.61 Fri settle (−2.8% on the Salalah-talks headline) → $108 Mon 00:37 CDT after Oman POSTPONED the talks; WTI $102.3. Three stacked supply facts: (1) Hormuz transits 7/day, crude flows ~4.9 mb/d vs 21.6 pre-war, US air cover rationed, tanker-for-tanker; (2) Saudi's 4–5 mb/d East-West bypass SHUT 11 Sep (repairs partial → 5–6 wks; Yanbu 5–7 days of stock); (3) the Houthis hold the Bab el-Mandeb through which Yanbu cargoes to Asia (8.1 mb/d in Q2) must pass. Cahill (Atlantic Council): 'the key buffers that got us through the last six months have basically been worn away.' Distillate is the tight leg: heating oil +48% 3M, US diesel record $6.05 → >$6.20; RBOB only +1.4% 1M. Bank dispersion = nobody's model has two chokepoints + a bypass outage: Goldman >$120 Q4 if Hormuz stays restricted (+$25 if Bab el-Mandeb/Suez), ING $80 Q4 base ('sizeable volumes still moving'), JPM ~$60, HSBC $90. ~95% crisis-linked; reversibility LOW near-term (pipeline weeks, Perim territorial, no US–Iran channel). The Friday −2.8% on a talks HEADLINE shows the diplomatic option still embedded — and Monday's $108 shows it decays within a session. (yfinance; Reuters/FinanceFeeds; OilPrice 14 Sep; Al Jazeera; Kpler/Reuters; EIA — CONFIRMED)"
+  },
   {
    "date": "2026-06-27",
    "headline": "ESCALATION — re-arm risk now live. The US strike on Iran (27 Jun) + the cargo-ship drone attack hit while markets were closed (Brent last $73.57, pre-war). Expect a war-premium re-arm at the next open; magnitude depends on Iran's response. NOTE: circulating 'Brent +3%/$80-82' figures are STALE (May strikes), not 27 Jun. Live data pending the next session. REPORTED (expectation) — not yet priced."

@@ -3,11 +3,11 @@
  "name": "Shipping / Tanker Rates",
  "type": "sector",
  "created": "2026-03-23",
- "last_updated": "2026-08-13",
- "summary": "Day 140 / 2026-07-17. **THE BLOCKADE INVERTED THE TANKER TRADE: FRONTLINE -8.3% 1M WITH OIL +19% — UTILIZATION COLLAPSE DOMINATES EXTREME RATES.** 4-Jul state: reopening surge + $470k fixtures = FRO +5.9%. Now: 3 transits/day, ~50 dark, escorts contested, ~6,000 seafarers stranded, evacuations held — almost no cargoes to fix; TD3C last hard print $296,175/day (6 Jul, Baltic) then 'spiking again' with fixing activity dying (index reverting to 'imaginary', Lloyd's List). War-risk NEVER softened: 3-10% hull, ~5% norm, $10-14m/voyage, 'missile magnets' for US/UK/IL-nexus; owners simply not sailing. CONTAINER DECOUPLED: WCI $4,639 (9 Jul) -> $4,547 (16 Jul, first dip -2%) as tariff front-loading ends — the 4-Jul 'still building premium' thread RESOLVED into plateau. Reversibility: a real de-escalation now means a REOPENING VOLUME BOOM for tankers (the June pattern) — the trade is two-sided around the war state.",
+ "last_updated": "2026-09-14",
+ "summary": "Tankers, Day 199. VLCC rates on the Gulf–China route have gone from ~$498k/day (13 Aug, 'near the all-time high') to ~$982k/day — more than $1m by Clarksons' count — doubling in a month as Hormuz went kinetic (7 transits/day, US air cover rationed) and Saudi's Yanbu bypass shut, removing the one alternative loading point. Tanker equities confirm it (Frontline +24%). This is the physical market's verdict on the war, and it is the opposite of the equity market's (VIX 15.8). Container rates are flat because box shipping was already Cape-routed — the Bab el-Mandeb seizure hits tankers and LNG, not boxes.",
  "current": {
-  "status": "VLCC ME-China rates ~$498,000/day (13 Aug) — near the all-time high, ~10x baseline — on the US blockade + Hormuz transit constraints. Frontline +3.7%, BOAT +2.0%. Tanker rates are the physical war premium re-intensifying while equity vol prices calm.",
-  "frontline": "$36.15 (-2.8% Fri)"
+  "status": "VLCC TD3C ~$982k/day (Fri 11 Sep; Clarksons >$1m) — 2x in a month, ~20x baseline; Frontline +24.4% 1M, BOAT +17.2%. The physical war premium at its extreme; containers flat (WCI $4,476).",
+  "frontline": "$49.21 (+1.7% Fri)"
  },
  "active_triggers": [
   {
@@ -19,7 +19,8 @@
     "natural-gas-lng"
    ],
    "added": "2026-03-23",
-   "note_2026-06-10": "STAYS watching. Following the June 8-9 US/Israeli strikes on Iran, the Houthis signalled renewed Red Sea attacks and declared a 'complete ban on enemy navigation' (gCaptain) — RHETORIC, the strongest Houthi signal since the IntelliNews false alarm. Operationally, UKMTO reported June 10 a cargo vessel SW of Balhaf, Yemen was approached by a small craft with six armed individuals; the embarked security team exchanged fire and the attackers broke off (no casualties, no damage, attribution UNDER INVESTIGATION — The National). A six-man small-boat boarding reads as plausibly PIRACY, not a Houthi missile/drone profile — NOT attributed to Houthis. ELEVATED-probability watch, NOT activation."
+   "note_2026-06-10": "STAYS watching. Following the June 8-9 US/Israeli strikes on Iran, the Houthis signalled renewed Red Sea attacks and declared a 'complete ban on enemy navigation' (gCaptain) — RHETORIC, the strongest Houthi signal since the IntelliNews false alarm. Operationally, UKMTO reported June 10 a cargo vessel SW of Balhaf, Yemen was approached by a small craft with six armed individuals; the embarked security team exchanged fire and the attackers broke off (no casualties, no damage, attribution UNDER INVESTIGATION — The National). A six-man small-boat boarding reads as plausibly PIRACY, not a Houthi missile/drone profile — NOT attributed to Houthis. ELEVATED-probability watch, NOT activation.",
+   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — position changed (Houthis hold the strait), action against neutral hulls not confirmed; declared exemption for non-Saudi ships holding so far."
   },
   {
    "condition": "Lloyd's AWRP Persian Gulf rate falls below 0.8% for 5 consecutive sessions (Branch 3 deepening test)",
@@ -31,7 +32,8 @@
     "strait-of-hormuz"
    ],
    "added": "2026-04-27",
-   "note_2026-06-10": "STAYS watching. War-risk insurance has RE-BASED UP this window (The National June 3: Gulf war-risk cover ~4% of hull per 7-day transit), plus a US DFC political-risk reinsurance facility up to $40bn backstops Hormuz shipping — both move the premium structure UP, not toward the 0.8% normalization threshold. No move toward trigger."
+   "note_2026-06-10": "STAYS watching. War-risk insurance has RE-BASED UP this window (The National June 3: Gulf war-risk cover ~4% of hull per 7-day transit), plus a US DFC political-risk reinsurance facility up to $40bn backstops Hormuz shipping — both move the premium structure UP, not toward the 0.8% normalization threshold. No move toward trigger.",
+   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — no Sep print (GAP); last 7.5–10%; direction worse."
   }
  ],
  "top_edges": [
@@ -69,6 +71,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-09-14",
+   "headline": "**VLCC TD3C ~$982,072/day (Fri 11 Sep; Clarksons Securities: just over $1m/day) — DOUBLED in a month from ~$498k; Frontline $49.21 (+24.4% 1M), BOAT $52 (+17.2% 1M).** Drivers: Hormuz 7 transits/day and kinetic (owners won't fix into the Gulf; those that do command $1m), the Yanbu outage removing the alternative loading point ('shuttle-tanker workarounds operating inefficiently'), Cape routing for Red Sea-averse owners. Poten's Broekhuizen: 'even seasoned veterans… are scratching their heads'; Vortexa's Papadimitriou: US–Iran attacks 'continue to push freight rates around the Gulf to new highs'. Clarksons: 130 earning days = a 10-year-old VLCC's value. Caveat (Fairway/Lloyd's List): TD3C is an assessed index with few actual fixtures at these levels — direction unimpeachable, absolute notional. Containers unmoved (Drewry WCI $4,476/FEU, flat) — already Cape-routed. (Baltic/Clarksons via Time.news/Hellenic; Drewry; yfinance — CONFIRMED)"
+  },
   {
    "date": "2026-06-26",
    "headline": "Frontline -7.7% to $35.52 — the tanker scarcity trade is reversing: as transits recover (49 on 24 Jun) and war-risk/rerouting premia deflate, tanker day-rates fall. Reopening flipped from a tanker POSITIVE (war-premium phase) to a NEGATIVE (normalization). The IRGC turn-backs add uncertainty but normalization dominates. CONFIRMED."
@@ -365,6 +371,13 @@
   {
    "as_of": "2026-07-04",
    "summary": "Day 127 / 2026-07-04. **TANKERS ARE THE LAST ASSET STILL PRICING THE WAR: VLCC HORMUZ-TRANSIT FIXTURES ~$470K/DAY WHILE OIL SITS AT PRE-WAR.** Rate sequence: ~$412k mid-June (Lloyd's List) -> TD3C ~$313k/day w/e 26 Jun (Baltic via IndexBox, -33% w/w) -> ~$218k/day latest print — NORMALIZING but still 2-4x the ~$100k norm, with Hormuz-transit fixtures at ~$470k (2019-built VLCC fixed AG-China; even non-Hormuz Gulf-of-Oman loadings $220-230k). Mechanism: reopening = surge of delayed liftings (Saudi ~90%, UAE 3.9mb/d) WHILE war-risk stays embedded in fixtures — charterers paying up to move cargo before any re-escalation. FRO +5.9% Thu (+57% YTD); BOAT +3.2%. THE INSURANCE CONTRADICTION: Marsh (28 Jun) war-risk 3-8% hull value, did NOT soften — underwriters want 2-4 weeks of confirmed calm; 6 P&I clubs still withdrawn; escorts reportedly suspended. Freight says 'pay anything to move now'; insurance says 'not over' — both pricing the same residual risk. MOST REVERSIBLE crisis trade on the board (Frontline itself forecasts 'violent' rate moves both ways; durable deal = rates toward $80-100k = FRO -30-50%). CONTAINER is the ONE shipping market still BUILDING premium: Drewry WCI $4,530/FEU +9% w/w (2 Jul; Shanghai-Rotterdam +15%), FBX01 $6,200 +8% — tariff-cliff rush (24 Jul) + Gulf war-risk surcharges up to $1,500/TEU."
+  }
+ ],
+ "price_snapshots": [
+  {
+   "date": "2026-09-14",
+   "price": "TD3C ~$982k/day (Fri 11 Sep); Frontline $49.21",
+   "trigger": "Doubled in a month: Hormuz kinetic + Yanbu outage; Clarksons >$1m/day."
   }
  ]
 }

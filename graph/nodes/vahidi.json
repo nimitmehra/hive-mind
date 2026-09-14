@@ -1,142 +1,146 @@
 {
-  "id": "vahidi",
-  "name": "Ahmad Vahidi",
-  "type": "person",
-  "created": "2026-04-23",
-  "last_updated": "2026-05-05",
-  "summary": "Day 63 Thursday — DAY 7 OF 7-DAY VAHIDI-TARGETING TRIGGER WINDOW (CLOSES TODAY 2026-05-03; final day of CNN-strike-leak watching); CENTCOM 'SHORT AND POWERFUL' STRIKE PLAN PREPARED-NOT-ACTIVATED ELEVATES THE READINESS TIER. Per Axios Apr 29: U.S. Central Command has prepared a plan for a 'short and powerful' wave of strikes on Iran in hopes of breaking the negotiating deadlock, likely including infrastructure targets. Trump as of Tuesday night had NOT ordered any kinetic action, preferring blockade-as-economic-warfare. This is OPERATIONAL-READINESS intelligence, not activation. The strike-list-activation watching trigger from yesterday remains at Day 6 of 14 (closes 2026-05-10). The rhetoric+preparation pattern from yesterday holds, with one update: CENTCOM's plan being 'prepared and held' is closer to active than yesterday's framing — but the operational test (no Pentagon ROE escalation, no targeting kinetic) holds NOT-ACTIVATED. Reuters Apr 28 wire-tier 'central interlocutor has been IRGC commander Ahmad Vahidi' framework intact; ISW Day 8 'Vahidi inner circle dominates' intact. Per Axios Apr 27: Iran's FM Araghchi told all 4 mediator channels 'no consensus inside Iranian leadership' = OPERATIONAL PARALYSIS UNDER VAHIDI-IRGC. Iran rial 1.8M (90% to 2M trigger) is the empirical economic-pressure validation. Trump-Axios 'choking like a stuffed pig' rejection of Hormuz-First. 8-day kinetic pause continues. Mashhad 'Martyrs' mural Day 5 of 7-day refutation window. [TRUNCATED — needs re-synthesis]",
-  "current": {
-    "role": "IRGC Commander-in-Chief",
-    "faction": "hardline",
-    "status": "operationally controlling state functions per multi-source REPORTED",
-    "last_named_action": "Blocked Pezeshkian's intel-minister appointment (April 22-23 reporting)"
+ "id": "vahidi",
+ "name": "Ahmad Vahidi",
+ "type": "person",
+ "created": "2026-04-23",
+ "last_updated": "2026-09-14",
+ "summary": "Day 63 Thursday — DAY 7 OF 7-DAY VAHIDI-TARGETING TRIGGER WINDOW (CLOSES TODAY 2026-05-03; final day of CNN-strike-leak watching); CENTCOM 'SHORT AND POWERFUL' STRIKE PLAN PREPARED-NOT-ACTIVATED ELEVATES THE READINESS TIER. Per Axios Apr 29: U.S. Central Command has prepared a plan for a 'short and powerful' wave of strikes on Iran in hopes of breaking the negotiating deadlock, likely including infrastructure targets. Trump as of Tuesday night had NOT ordered any kinetic action, preferring blockade-as-economic-warfare. This is OPERATIONAL-READINESS intelligence, not activation. The strike-list-activation watching trigger from yesterday remains at Day 6 of 14 (closes 2026-05-10). The rhetoric+preparation pattern from yesterday holds, with one update: CENTCOM's plan being 'prepared and held' is closer to active than yesterday's framing — but the operational test (no Pentagon ROE escalation, no targeting kinetic) holds NOT-ACTIVATED. Reuters Apr 28 wire-tier 'central interlocutor has been IRGC commander Ahmad Vahidi' framework intact; ISW Day 8 'Vahidi inner circle dominates' intact. Per Axios Apr 27: Iran's FM Araghchi told all 4 mediator channels 'no consensus inside Iranian leadership' = OPERATIONAL PARALYSIS UNDER VAHIDI-IRGC. Iran rial 1.8M (90% to 2M trigger) is the empirical economic-pressure validation. Trump-Axios 'choking like a stuffed pig' rejection of Hormuz-First. 8-day kinetic pause continues. Mashhad 'Martyrs' mural Day 5 of 7-day refutation window. [TRUNCATED — needs re-synthesis]",
+ "current": {
+  "role": "IRGC Commander-in-Chief",
+  "faction": "hardline",
+  "status": "Command authority questioned (NYT 13 Sep): July ship attacks ran without his knowledge; Taeb faction identified.",
+  "last_named_action": "Blocked Pezeshkian's intel-minister appointment (April 22-23 reporting)"
+ },
+ "active_triggers": [
+  {
+   "condition": "Tasnim or IRNA publishes photograph of Vahidi at SNSC, Mojtaba meeting, or substantive state-TV interview confirming 'in charge' role",
+   "status": "watching",
+   "cascade": [
+    "vahidi",
+    "iran",
+    "irgc",
+    "mojtaba-khamenei"
+   ],
+   "added": "2026-04-23"
   },
-  "active_triggers": [
-    {
-      "condition": "Tasnim or IRNA publishes photograph of Vahidi at SNSC, Mojtaba meeting, or substantive state-TV interview confirming 'in charge' role",
-      "status": "watching",
-      "cascade": [
-        "vahidi",
-        "iran",
-        "irgc",
-        "mojtaba-khamenei"
-      ],
-      "added": "2026-04-23"
-    },
-    {
-      "condition": "Vahidi assumes hardened-shelter posture OR Iranian state media issues public denial of CNN targeting leak within 7 days (by 2026-05-03)",
-      "status": "watching",
-      "cascade": [
-        "vahidi",
-        "iran",
-        "irgc",
-        "united-states",
-        "trump"
-      ],
-      "added": "2026-04-26"
-    }
-  ],
-  "top_edges": [
-    {
-      "to": "irgc",
-      "type": "command_authority",
-      "weight": 10.0,
-      "directness": 1,
-      "last_activated": "2026-04-29",
-      "activation_count": 4
-    },
-    {
-      "to": "iran",
-      "type": "de_facto_control",
-      "weight": 9.0,
-      "directness": 1,
-      "last_activated": "2026-04-29",
-      "activation_count": 4
-    },
-    {
-      "to": "mojtaba-khamenei",
-      "type": "access_control",
-      "weight": 8.5,
-      "directness": 1,
-      "last_activated": "2026-04-24",
-      "activation_count": 3
-    },
-    {
-      "to": "pezeshkian",
-      "type": "factional_adversary",
-      "weight": 7.5,
-      "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 2
-    },
-    {
-      "to": "strait-of-hormuz",
-      "type": "operational_authority",
-      "weight": 7.5,
-      "directness": 1,
-      "last_activated": "2026-04-23",
-      "activation_count": 1
-    },
-    {
-      "to": "trump",
-      "type": "counter_party_targeting_signal",
-      "weight": 7.5,
-      "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 3
-    },
-    {
-      "to": "united-states",
-      "type": "wartime_adversary_targeting_signal",
-      "weight": 7.5,
-      "directness": 1,
-      "last_activated": "2026-04-27",
-      "activation_count": 3
-    },
-    {
-      "to": "defense-sector",
-      "type": "kinetic_asymmetric_premium",
-      "weight": 4.0,
-      "directness": 2,
-      "last_activated": "2026-04-26",
-      "activation_count": 1
-    }
-  ],
-  "recent_signals": [
-    {
-      "date": "2026-04-29",
-      "headline": "REUTERS WIRE-TIER NAMES VAHIDI 'CENTRAL INTERLOCUTOR' — VAHIDI-AS-APEX FRAMEWORK NOW WIRE-LEVEL SOURCED",
-      "sources": [
-        "Reuters via USNews",
-        "Times of Israel"
-      ],
-      "verification": "CONFIRMED via 9+ wire-tier outlets carrying Reuter"
-    },
-    {
-      "date": "2026-04-28",
-      "headline": "DAY 5 OF 7-DAY TRIGGER WINDOW; ISW DAY 8 FORMALLY ADOPTS VAHIDI-AS-APEX OPERATIVE JUDGMENT; IRGC KHATAM AL-ANBIYA THREAT",
-      "sources": [
-        "ISW",
-        "Tasnim"
-      ],
-      "verification": "REPORTED ISW operative-judgment + CONFIRMED IRGC K"
-    },
-    {
-      "date": "2026-04-27",
-      "headline": "DAY 60 — DAY 4 OF 7-DAY VAHIDI-SHELTER/DENIAL TRIGGER WINDOW; TASNIM RAN VAHIDI-POSITIVE CONTENT",
-      "sources": [
-        "CNN April 24",
-        "Tasnim"
-      ],
-      "verification": "CONFIRMED absence of public Vahidi appearance + st"
-    }
-  ],
-  "historical_summaries": [
-    {
-      "period": "2026-04",
-      "summary": "8 signals. Axios (REPORTED, three US-officials) named Vahidi (IRGC C-in-C) and Zolghadr (SNSC Sec) as the war-continuation hardliners against the Ghali | Multi-outlet convergence on 'IRGC sidelines president, blocks appointments' framing: Fox News ('IRGC seizes control of Iran state functions, | Pezeshkian Wednesday online statement (operative Thursday) accused IRGC of undermining the ceasefire he and Araghchi negotiated through Paki",
-      "signal_count": 8,
-      "auto": true
-    }
-  ]
+  {
+   "condition": "Vahidi assumes hardened-shelter posture OR Iranian state media issues public denial of CNN targeting leak within 7 days (by 2026-05-03)",
+   "status": "watching",
+   "cascade": [
+    "vahidi",
+    "iran",
+    "irgc",
+    "united-states",
+    "trump"
+   ],
+   "added": "2026-04-26"
+  }
+ ],
+ "top_edges": [
+  {
+   "to": "irgc",
+   "type": "command_authority",
+   "weight": 10.0,
+   "directness": 1,
+   "last_activated": "2026-04-29",
+   "activation_count": 4
+  },
+  {
+   "to": "iran",
+   "type": "de_facto_control",
+   "weight": 9.0,
+   "directness": 1,
+   "last_activated": "2026-04-29",
+   "activation_count": 4
+  },
+  {
+   "to": "mojtaba-khamenei",
+   "type": "access_control",
+   "weight": 8.5,
+   "directness": 1,
+   "last_activated": "2026-04-24",
+   "activation_count": 3
+  },
+  {
+   "to": "pezeshkian",
+   "type": "factional_adversary",
+   "weight": 7.5,
+   "directness": 1,
+   "last_activated": "2026-04-23",
+   "activation_count": 2
+  },
+  {
+   "to": "strait-of-hormuz",
+   "type": "operational_authority",
+   "weight": 7.5,
+   "directness": 1,
+   "last_activated": "2026-04-23",
+   "activation_count": 1
+  },
+  {
+   "to": "trump",
+   "type": "counter_party_targeting_signal",
+   "weight": 7.5,
+   "directness": 1,
+   "last_activated": "2026-04-27",
+   "activation_count": 3
+  },
+  {
+   "to": "united-states",
+   "type": "wartime_adversary_targeting_signal",
+   "weight": 7.5,
+   "directness": 1,
+   "last_activated": "2026-04-27",
+   "activation_count": 3
+  },
+  {
+   "to": "defense-sector",
+   "type": "kinetic_asymmetric_premium",
+   "weight": 4.0,
+   "directness": 2,
+   "last_activated": "2026-04-26",
+   "activation_count": 1
+  }
+ ],
+ "recent_signals": [
+  {
+   "date": "2026-09-14",
+   "headline": "NYT (13 Sep, REPORTED, multiple unnamed Iranian/IRGC officials): IRGC chief Ahmad Vahidi told an 'enraged' Pezeshkian he had neither authorised nor known of the 6–7 July attacks on three ships (incl. a Qatari LNG carrier) that ended the June MoU; the internal probe traced them to Hossein Taeb. Vahidi's command authority over hardline cells is therefore in question — a structural reason the US has no counterpart who can guarantee a ceasefire at sea."
+  },
+  {
+   "date": "2026-04-29",
+   "headline": "REUTERS WIRE-TIER NAMES VAHIDI 'CENTRAL INTERLOCUTOR' — VAHIDI-AS-APEX FRAMEWORK NOW WIRE-LEVEL SOURCED",
+   "sources": [
+    "Reuters via USNews",
+    "Times of Israel"
+   ],
+   "verification": "CONFIRMED via 9+ wire-tier outlets carrying Reuter"
+  },
+  {
+   "date": "2026-04-28",
+   "headline": "DAY 5 OF 7-DAY TRIGGER WINDOW; ISW DAY 8 FORMALLY ADOPTS VAHIDI-AS-APEX OPERATIVE JUDGMENT; IRGC KHATAM AL-ANBIYA THREAT",
+   "sources": [
+    "ISW",
+    "Tasnim"
+   ],
+   "verification": "REPORTED ISW operative-judgment + CONFIRMED IRGC K"
+  },
+  {
+   "date": "2026-04-27",
+   "headline": "DAY 60 — DAY 4 OF 7-DAY VAHIDI-SHELTER/DENIAL TRIGGER WINDOW; TASNIM RAN VAHIDI-POSITIVE CONTENT",
+   "sources": [
+    "CNN April 24",
+    "Tasnim"
+   ],
+   "verification": "CONFIRMED absence of public Vahidi appearance + st"
+  }
+ ],
+ "historical_summaries": [
+  {
+   "period": "2026-04",
+   "summary": "8 signals. Axios (REPORTED, three US-officials) named Vahidi (IRGC C-in-C) and Zolghadr (SNSC Sec) as the war-continuation hardliners against the Ghali | Multi-outlet convergence on 'IRGC sidelines president, blocks appointments' framing: Fox News ('IRGC seizes control of Iran state functions, | Pezeshkian Wednesday online statement (operative Thursday) accused IRGC of undermining the ceasefire he and Araghchi negotiated through Paki",
+   "signal_count": 8,
+   "auto": true
+  }
+ ]
 }

@@ -3,10 +3,10 @@
  "name": "Strait of Hormuz",
  "type": "trade_route",
  "created": "2026-03-23",
- "last_updated": "2026-08-13",
- "summary": "Day 140 / 2026-07-17. **CLOSED-IN-FACT: IRGC DECLARED CLOSURE 11-12 JUL (FIRST FORMAL DECLARATION, BACKED BY CONFIRMED VESSEL KILLS) AND THE US BLOCKADE IS BACK — TRANSITS COLLAPSED 49/DAY (7 JUL PEAK) -> 22 (9 Jul) -> 10-14 (12 Jul, conflicting) -> 13 -> 7 -> 3 IN THE 24H TO 16-17 JUL.** Unlike the 20-Jun 'closure' (rhetoric, debunked), THIS one is operationally real: 6+ vessels attacked 6-14 Jul (Al Rekayyat LNG, Wedyan, disputed third, Stolt Magnesium, Mombasa B, Al Bahyah; GFS Galaxy 11 Jul — engine room destroyed, Indian crewman killed; 2 seafarers confirmed dead by IMO, 2 Indians total in window), ~50 tankers running dark, ~6,000 seafarers stranded, evacuations ON HOLD, IMO advising against ALL transit. CENTCOM contests the closure (claims 8+ mb transited 12 Jul under escort — CLAIMED) and Vance vows the strait 'is going to be open.' Oman's dual-corridor proposal died when Iran struck Oman (12 Jul); Trump's 20% toll came and went in 24h (14 Jul). Zero Qatari LNG since 7 Jul. War-risk insurance NEVER softened: 3-10% hull, ~5% 'new norm', $10-14m/voyage, US/UK/Israel-nexus ships nicknamed 'missile magnets' — some owners simply not sailing. Brew (Eurasia): 'It's not Iran or the US who decide that the strait is open — it's shipping and insurance companies' — currently vindicated. Polymarket: ~3% normalization by 31 Jul, ~17% by 31 Aug. ISW 15 Jul: Iran's attacks ARE deterring use of non-Iranian routes — Iran winning the coercion contest at the margin despite the bombing.",
+ "last_updated": "2026-09-14",
+ "summary": "Strait of Hormuz, Day 199. The chokepoint has moved from Iranian ADMINISTRATIVE control (tolls/permits — which Kpler judged failing by mid-August as Gulf tankers used the Omani route and US mine-clearance completed) to renewed KINETIC denial: night attacks on corridor transits, mine-rocket preparation (Larak, struck), a declared 'restricted zone' beyond the strait, and a 45-tanker blacklist — answered by US tanker-for-tanker strikes and a rationing of air-defence cover to two daily slots. Throughput ~7 vessels/day (5% of pre-war); crude flows ~4.9 mb/d vs 21.6. The only institutional path — the Iran–Oman revenue-share lane — failed to win Gulf endorsement (Salalah postponed 13 Sep; Bahrain out, Saudi amendments). Two unattributed hull strikes on 13 Sep on the Omani side. The physical market (VLCC ~$982k/day, Brent $107) is pricing this; equity vol is not.",
  "current": {
-  "status": "STRANDED — the Iran-Oman route did NOT reopen the strait (13 Aug). The 5-Aug bilateral agreement is unbridged: Trump conditions talks on Iranian 'compensation,' Iran conditions transit on US concessions, and the US naval BLOCKADE has near-halted Iranian oil EXPORTS (Kharg empty). Transits still severely constrained — the EIA RAISED its Middle East shut-in estimate; the IEA flags a 1.8 mb/d global shortfall. The physical war complex is RE-INTENSIFYING: VLCC ME-China rates ~$498,000/day (near all-time high), war-risk insurance 7.5-10% of hull ($10-21M/transit). No operationally-confirmed reopening; the reopening trigger stays reversed-closed."
+  "status": "KINETIC LANE (14 Sep): 7 transits/day (9–10 Sep) vs ~125 pre-war; Iranian night attacks on the Omani corridor; US air cover rationed to two daily slots; tanker-for-tanker strikes; US blockade intact (100 ships redirected). Two unattributed hull strikes 13 Sep (Iranian vessel off Qeshm, 1 dead; MT El Gaia off Oman, 1 Indian missing). Iran–Oman revenue-share deal (26 Aug); Gulf-wide Salalah meeting POSTPONED 13 Sep. VLCC TD3C ~$982k/day (2x in a month)."
  },
  "active_triggers": [
   {
@@ -60,7 +60,8 @@
    "note_2026-06-10": "STAYS WATCHING — and a correction-grade RE-BASE: Gulf war-risk cover is now ~4% of hull value per 7-day transit (The National, 3 Jun), NOT the ~1% carried in recent briefs. Far from the 0.5% normalization threshold; cover RISING, not normalizing. The US directed the DFC to provide a political-risk reinsurance facility up to $40bn to keep Hormuz shipping moving.",
    "note_2026-06-16": "2026-06-16: Premiums (~0.5% of cargo, up from ~0.2%) now signalled to DECLINE and VLCC rates easing off the ~$50K/day Israel-strike spike — the unwind is BEGINNING from the physical side, but not yet below 0.5% normalized and strait still closed. STAYS watching; convergence underway.",
    "note_2026-06-17": "2026-06-17: Blockade lift should drive sharp insurance/VLCC normalization, but no confirmed sub-0.5% level yet. STAYS watching; unwind accelerating.",
-   "note_2026-06-19": "2026-06-19: First transits + signing should start normalization; insurers easing but not yet below pre-war 0.2-0.5%. STAYS watching."
+   "note_2026-06-19": "2026-06-19: First transits + signing should start normalization; insurers easing but not yet below pre-war 0.2-0.5%. STAYS watching.",
+   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — no fresh Sep print (GAP); last hard print 7.5–10% of hull; direction worse (air-cover rationing, TD3C doubling)."
   },
   {
    "condition": "Iran formally reopens Hormuz to all traffic within 14-21 days of May 5 pause (by 2026-05-26) — would collapse tanker spot rates -15-25%",
@@ -76,7 +77,7 @@
   },
   {
    "condition": "Second commercial vessel attack within 7 days inside Qatari EEZ following Sunday May 10 bulk carrier strike — confirms IRGC graduated-pressure-on-mediator-coastline pattern",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "qatar",
     "iran",
@@ -85,7 +86,9 @@
     "marine-war-risk-insurance",
     "brent-crude"
    ],
-   "added": "2026-05-10"
+   "added": "2026-05-10",
+   "status_changed": "2026-09-14",
+   "notes": "REVIEWED 2026-09-14 — EXPIRED — May-dated window; superseded by the general Sept re-escalation."
   },
   {
    "condition": "Kharg Island slick re-appears on subsequent satellite passes (Copernicus Sentinel) within 14 days — confirms Iran storage-overflow / regime-dumping hypothesis vs European-tanker-waste counter-claim",
@@ -118,7 +121,7 @@
   },
   {
    "condition": "US ground operation against Kharg Island launched within 30 days of NYT preparation report (by 2026-06-15)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "iran",
     "united-states",
@@ -130,7 +133,9 @@
    ],
    "added": "2026-05-17",
    "note": "NYT (Friday May 15 / Saturday May 16, citing two Middle Eastern officials) REPORTED ground forces to seize Kharg Island as one of two options for renewed US strikes. Kharg handles up to 90% of Iranian oil exports. Iran has REPORTEDLY moved air defenses to Kharg in recent weeks. If operation launches, Brent gaps +$8-15 toward $130-145 per markets-dossier reversibility map; AWRP doubles; VLCC rates re-rate.",
-   "note_2026-06-10": "STAYS WATCHING. No Kharg ground operation; the US response to the Apache downing was air/missile 'warning-shot' strikes on ~20 Iranian coastal air-defense sites near the Strait, not a ground op."
+   "note_2026-06-10": "STAYS WATCHING. No Kharg ground operation; the US response to the Apache downing was air/missile 'warning-shot' strikes on ~20 Iranian coastal air-defense sites near the Strait, not a ground op.",
+   "status_changed": "2026-09-14",
+   "notes": "REVIEWED 2026-09-14 — EXPIRED (by-date passed 15 Jun; no ground op). Kharg was instead the target of tanker strikes (4 Sep, off Kharg)."
   },
   {
    "condition": "Iran-permitted Chinese transit exceeds 50 vessels/week sustained 2 weeks (the selective-transit instrument becomes a structural rather than diplomatic-event signal)",
@@ -142,7 +147,8 @@
     "brent-crude"
    ],
    "added": "2026-05-17",
-   "note": "Day 3 of 14 measurement window. No incremental vessel-count update published over the weekend. If sustained, Iran's selective Hormuz instrument is operationally durable, not a one-week diplomatic gesture."
+   "note": "Day 3 of 14 measurement window. No incremental vessel-count update published over the weekend. If sustained, Iran's selective Hormuz instrument is operationally durable, not a one-week diplomatic gesture.",
+   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — instrument overtaken: Kpler says Iranian permit control eroded in Aug; Iran granted Iraqi tankers permits (22 Aug). No 50/week data."
   },
   {
    "condition": "Hormuz remains under Iranian selective control even within ceasefire framework — ACTIVE 2026-04-08: Iran's 'controlled passage via coordination with armed forces' framing in the ceasefire text formali",
@@ -165,7 +171,8 @@
     "shipping-tankers",
     "marine-war-risk-insurance"
    ],
-   "added": "2026-04-18"
+   "added": "2026-04-18",
+   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — inverted: physical leads (TD3C 2x; Yanbu outage). Gap widening, not closing."
   },
   {
    "condition": "Operationally-confirmed ENFORCEMENT of the 10 Jun complete-closure declaration -- Iran actually fires on / disables a transiting NEUTRAL vessel, verified by UKMTO or an independent maritime tracker (not an IRGC claim) -- converts the declaration from policy to action",
@@ -187,7 +194,33 @@
    "note_2026-06-26": "2026-06-26: ACTIVATED watching->active. IRGC turn-backs 25 Jun are CONFIRMED ACTION — Windward corroborated 5 vessels turned + 1 dark, matching the IRGC claim (2 sources, operational). Distinct from the 20 Jun verbal 'closure' (which CENTCOM refuted): this time vessels were actually turned back. Partial enforcement, not full blockade (43 transits still occurred).",
    "note_2026-06-27": "2026-06-27: Escalated — the IRGC enforcement (turn-backs) led to a cargo-ship drone attack and a US retaliatory strike. Stays active; now part of a kinetic cycle.",
    "note_2026-07-04": "2026-07-04: STAYS active — the 27-Jun Kiku drone strike was the last CONFIRMED enforcement act (operational, CENTCOM/AP-verified). Since the 28-29 Jun stand-down: zero confirmed enforcement incidents in 6 days; IRGC route threats are RHETORIC. De-activation condition: 14 days without an enforcement incident AND war-risk premium softening (Marsh says underwriters want 2-4 weeks).",
-   "note_2026-07-17": "2026-07-17: ACTIVE-ESCALATED — 6+ confirmed vessel attacks 6-14 Jul with seafarer deaths; the de-activation clock (14 clean days) reset repeatedly and is now moot. This trigger's condition is the war's daily reality."
+   "note_2026-07-17": "2026-07-17: ACTIVE-ESCALATED — 6+ confirmed vessel attacks 6-14 Jul with seafarer deaths; the de-activation clock (14 clean days) reset repeatedly and is now moot. This trigger's condition is the war's daily reality.",
+   "notes": "REVIEWED 2026-09-14 — REMAINS ACTIVE — and this is where the 13-Aug 'Iranian kinetic re-escalation as the blockade bites' watch FIRED: UKMTO-logged projectile hits on transiting hulls (1 Sep; multiple 9 Sep; 13 Sep Qeshm/El Gaia), FT-reported US rationing of air cover to two daily slots because of night attacks. CONFIRMED action, 2+ operational sources (UKMTO, US naval coordination centre via FT, CENTCOM)."
+  },
+  {
+   "condition": "Hormuz transits recover to 15+/day for 5 consecutive days (Kpler) WITH no UKMTO-logged attack in the window — the minimum 'lane is working' test",
+   "cascade": [
+    "brent-crude",
+    "shipping-tankers",
+    "marine-war-risk-insurance",
+    "india"
+   ],
+   "notes": "Replaces the 30/day reopening bar as the near-term operational test. Current 7/day.",
+   "status": "watching",
+   "added": "2026-09-14"
+  },
+  {
+   "condition": "The postponed Salalah Iran–Gulf Hormuz meeting CONVENES with Saudi Arabia AND Bahrain attending and a signed lane text",
+   "cascade": [
+    "oman",
+    "saudi-arabia",
+    "bahrain",
+    "brent-crude",
+    "strait-of-hormuz"
+   ],
+   "notes": "Bahrain refused, Saudi filed amendments, Oman postponed 13 Sep 'in the interests of consensus'. Fires only on a convened meeting with a published text.",
+   "status": "watching",
+   "added": "2026-09-14"
   }
  ],
  "top_edges": [
@@ -269,6 +302,18 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-09-14",
+   "headline": "**The Oman channel: revenue-share agreed, regionalisation POSTPONED.** IRGC (26 Aug): Iran–Oman agreements on 'the share of Hormuz and its revenues'. Iran convened Gulf littoral FMs in Salalah for 14 Sep to endorse a 'temporary shipping lane' on those terms; Bahrain refused (security), Saudi filed amendments (GCC impact), Trump 'don't care'; Oman postponed it 13 Sep 'in the interests of consensus' (Iran: at 'the request of some regional countries', jointly with Muscat). Araghchi: the strait will not reopen until the US 'corrects' its behaviour/compensates. (Reuters, Bloomberg/CNN/AP, Fars — CONFIRMED)"
+  },
+  {
+   "date": "2026-09-14",
+   "headline": "**Two hulls hit in 24h on the 'safe' Omani side, attribution UNKNOWN.** ~05:00 13 Sep an Iranian cargo vessel (10 crew) was hit near Hengam/Qeshm — 1 killed, 3–4 wounded, fire; UKMTO: 'an unidentified vessel was hit by an unknown projectile while transiting the strait'; the Qeshm governor blamed a 'terrorist enemy'; Trump: 'I don't want to say'; CENTCOM no comment. Same day the Panama-flagged tanker MT El Gaia was attacked off Oman — 14 Indian crew, 13 rescued, 1 missing; India's MEA condemned it. Neither IRGC nor US has claimed either. Encode attribution as CLAIMED/UNKNOWN. (UKMTO via Marine Insight/CNBC; AP; CBS; India News Network — CONFIRMED incidents)"
+  },
+  {
+   "date": "2026-09-14",
+   "headline": "**THE KINETIC RE-ESCALATION WATCH FIRED — the strait is a shooting lane again and transits collapsed to 7/day.** Sequence: Kpler/CNN (18 Aug) assessed Iran had LOST significant control (tolls unenforceable as Gulf tankers used the Omani route, transponders off); the US said the Traffic Separation Scheme was cleared of mines (>100 objects; Axios 25 Aug). Iran reverted from administrative to KINETIC denial: 45-tanker blacklist (24 Aug), Larak mine-rocket prep (struck 30 Aug), fire on transits at night (a tanker hit by three projectiles exiting the strait, 1 Sep; 'several merchant vessels' disabled in the northern Gulf/Gulf of Oman, New Andros drone-struck in Iraqi waters, a death + missing on Hercules Star off Dubai — all 9 Sep, Reuters/UKMTO), then the 'restricted zone' declaration (7 Sep). US: tanker-for-tanker strikes (8+ Iranian tankers destroyed, Riesco sunk); guaranteed air cover CUT to two daily slots because darkness transits 'have not proven to be the most secure' (FT 12 Sep, REPORTED). **Transits: 7 on 9–10 Sep vs 14–15 10-day avg vs ~125 pre-war (Kpler/Reuters); Hormuz crude flows ~4.9 mb/d vs 21.6 pre-war (EIA).** CENTCOM: 100 ships redirected in 60 days; zero through the blockade unpermitted. (CONFIRMED)"
+  },
   {
    "date": "2026-07-24",
    "headline": "REDUCED TO A TRICKLE, NOT 'CLOSED' — Kpler/LSEG (via Jerusalem Post) show 1 tanker crossed Hormuz on 23 Jul, down from 3 on 22 Jul, the LOWEST SINCE 7 MAY. This is a dramatic collapse from the ~4-10/day the graph carried, and is the operational reality behind oil's overnight spike above $100. BUT 'closed/zero transits' framing (straits.live 'Day 145 closed'; Al Jazeera 'Hormuz and Bab al-Mandeb shut down') is OVERSTATED — 1 transit is not zero, and Bab el-Mandeb is UP (32 vs 26). A Hormuz 'middle corridor' between Omani and Iranian waters is a named element of the reported 15-point US ceasefire proposal. CONFIRMED (Kpler/LSEG operational) / the 'closed' claim REJECTED as overstated.",

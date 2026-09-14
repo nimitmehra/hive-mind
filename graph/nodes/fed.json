@@ -3,10 +3,10 @@
  "name": "Federal Reserve",
  "type": "institution",
  "created": "2026-03-23",
- "last_updated": "2026-08-13",
- "summary": "**MAY CPI 4.2% (3-YR HIGH) LOCKS IN THE 'RATES-NOT-WAR' ENGINE.** The Fed's problem is no longer separable from the war: energy (war-derived via the Hormuz blockade) drove ~60% of the May monthly CPI increase to a 4.2% YoY headline, but core at 2.9% has its own momentum. Market pricing: a near-certain hold at the 17 Jun meeting, but a December HIKE is now priced as live base-risk (odds disputed 30->70%+ across CME FedWatch / Yahoo / Polymarket -- the graph's prior '~70%' read now looks like the top of the range). THE STRUCTURAL EDGE FOR THE INVESTOR: the crisis now transmits into US assets through the CPI/Fed channel (slow, sticky) rather than the war-premium channel (fast, reversible -- dead since late May). Even a signed Iran deal does NOT buy back this drawdown on a short horizon; the December-hike repricing is the regime fact under gold's collapse, the dollar's firmness, and the equity selloff.",
+ "last_updated": "2026-09-14",
+ "summary": "Fed, Day 199. The most consequential non-kinetic reversal of the cycle: the September CUT that was a 'foregone conclusion' on 13 Aug is now an ~83–85%-priced HIKE for 16 Sep, after Warsh's Jackson Hole 'work to do' and a hot August CPI driven almost entirely by energy (gasoline +27% y/y, fuel oil +52%; core only 2.4% y/y). The Fed is tightening into an oil supply shock; its reaction function is now the oil price, which is now two chokepoints and a pipeline. Consequences: gold flat despite the war (real yields), EM carry unwinding (India FPI exits), defense de-rated, and BoJ/BoK tightening in parallel. A hold on Wednesday would be the dovish surprise that flips the dollar/gold regime; a hike with hawkish guidance confirms the regime.",
  "current": {
-  "status": "SEPTEMBER CUT NOW A FOREGONE CONCLUSION (13 Aug). July CPI (12 Aug) printed SOFT — +0.1% MoM, 3.4% YoY (down 0.1pp), core +0.2% — sealing the dovish pivot. Rate markets price a 25bp SEPTEMBER cut as near-certain, with ~95% odds of follow-up cuts on 29 Oct and 10 Dec — a full easing cycle. This confirms the 7-Aug pivot thesis on hard data. Residual tension: 3.4% CPI is above target and chair Warsh is a hawk, so the cut is labour-market-driven; the 11-Sept August CPI (pre-FOMC) is the last test.",
+  "status": "HIKE ~83–85% PRICED FOR 16 SEP (14 Sep). Aug CPI 0.4% m/m / 3.4% y/y (energy +16.3% y/y, gasoline +27.4%); core 2.4% y/y. Warsh 'work to do'. 10Y 4.97%, 2Y 3.91%. ~54bp of hikes priced through Dec. Fed funds 3.50–3.75%. The inverse of 13 Aug.",
   "price": "Funds rate 3.50-3.75%; SEPTEMBER 25bp CUT priced as a foregone conclusion; ~95% odds of Oct 29 + Dec 10 cuts. US 10Y 4.68%; July CPI 3.4%.",
   "delta_1d": "hike odds 15.5% -> ~7.6%",
   "regime": "DOVISH EASING CYCLE CONFIRMED. July CPI soft (3.4%) locked in the September cut; a full cut cycle (Sept/Oct/Dec) is priced. A standing TAILWIND for EM/India (softer dollar, inflows) and gold (record $4,453). The war-inflation hike case is dead — oil at $87 has not re-armed it because the labour market cracked.",
@@ -15,7 +15,7 @@
  "active_triggers": [
   {
    "condition": "Fed signals rate HIKE",
-   "status": "watching",
+   "status": "active",
    "cascade": [
     "sp-500",
     "us-10y-yield",
@@ -25,8 +25,25 @@
    ],
    "added": "2026-03-23",
    "note_2026-06-10": "STAYS watching — but the market-implied odds of a December HIKE have ADVANCED to ~70% (from ~45% a week ago) on the hot May jobs print + oil-fed inflation. This is the closest the cycle has come, and the repricing is already the engine under the metals collapse, firm dollar (DXY ~99.9), and 4.52% 10Y. The trigger requires an actual FED signal/action; a market-implied repricing on a data print does NOT fire it. Document the ~70% odds; the 2Y at 3.63% (below the funds-range top) confirms a hike is priced/odds, not executed. Critical: this repricing would NOT fully reverse on Gulf de-escalation (sticky inflation + hot labour market are independent).",
-   "status_changed": "2026-07-19",
-   "notes": "REVIEWED 19 Jul — REMAINS AT WATCHING, and the near-term probability FELL sharply. CME FedWatch: 29 July hike odds collapsed from 46.5% (13 Jul) to ~13.3% (18 Jul), i.e. 86.7% HOLD. This REMOVES one of the two near-term binaries the 17 Jul brief flagged. The Fed has not turned dovish — ~73% odds of >=1 hike by December remain and Warsh's 14 July congressional testimony pledged a policy 'regime change' with 'no tolerance for persistently elevated inflation' — the hike moved OUT past July, not away. Blackout began ~18 Jul; next signal is the 29 Jul decision and presser. Trigger requires an actual Fed signal, not market-implied odds."
+   "status_changed": "2026-09-14",
+   "notes": "REVIEWED 2026-09-14 — ACTIVE — CONFIRMED signal: Chair Warsh's on-record Jackson Hole guidance ('work to do') + BLS Aug CPI (0.4% m/m; energy +16.3% y/y) + CME pricing 83–85% for 16 Sep / ~54bp through Dec (2+ independent sources: BLS, CME, CNBC/Forbes). The DECISION is 16 Sep — see new trigger. Not rhetoric: it is the central bank's own guidance corroborated by hard data and market pricing.\n[prior] REVIEWED 19 Jul — REMAINS AT WATCHING, and the near-term probability FELL sharply. CME FedWatch: 29 July hike odds collapsed from 46.5% (13 Jul) to ~13.3% (18 Jul), i.e. 86.7% HOLD. This REMOVES one of the two near-term binaries the 17 Jul brief flagged. The Fed has not turned dovish — ~73% odds of >=1 hike by December remain and Warsh's 14 July congressional testimony pledged a policy 'regime change' with 'no tolerance for persistently elevated inflation' — the hike moved OUT past July, not away. Blackout began ~18 Jul; next signal is the 29 Jul decision and presser. Trigger requires an actua"
+  },
+  {
+   "condition": "FOMC HIKES 25bp on 16 Sep (decision + statement) — OR HOLDS despite 83–85% pricing (dovish surprise)",
+   "cascade": [
+    "us-10y-yield",
+    "gold",
+    "sp-500",
+    "vix",
+    "inr-usd",
+    "fii-flows",
+    "india",
+    "nifty-50",
+    "kospi"
+   ],
+   "notes": "Binary resolves Wednesday US time. A hike with hawkish guidance confirms the tightening-into-oil regime; a hold flips gold/dollar toward the 'dollar-weakness' regime and relieves EM.",
+   "status": "watching",
+   "added": "2026-09-14"
   }
  ],
  "top_edges": [
@@ -92,6 +109,14 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-09-14",
+   "headline": "**Cross-asset consequences.** Gold FLAT 1M ($4,372; −2.4% from the 28-Aug high) on a $20 oil spike — the Fed-cut bid that made the August record was withdrawn on the same days the war escalated; DXY only −0.6% so it is real yields, not the dollar. Defense (ITA/LMT −12% 1M) and EM (FPI −₹13,138 cr from India; KOSPI −3.4% Mon) de-rated on the same repricing. BoJ (hike bets/intervention; yen +3.3%) and BoK (back-to-back hikes; won +5%) are tightening in parallel — a global tightening wave into an oil shock. The 16-Sep FOMC is the last before the 3-Nov midterms."
+  },
+  {
+   "date": "2026-09-14",
+   "headline": "**THE PIVOT INVERTED: from 'September cut foregone' (13 Aug) to ~83–85% HIKE for 16 Sep.** Warsh at Jackson Hole (~28 Aug): the Fed still has 'work to do' on 2% — hike odds 35% → 57–66% within days (CNBC/Forbes/CME). Then August CPI (BLS, 11 Sep): +0.4% m/m (July +0.1%), 3.4% y/y; core +0.3% m/m (0.1 hot), 2.4% y/y; energy +2.1% m/m / +16.3% y/y; gasoline +3.9% m/m / +27.4% y/y; fuel oil +10.1% m/m / +52% y/y — gasoline alone >1/3 of the monthly rise; shelter re-accelerated to +0.3%. Market-implied (11–12 Sep): hike 83–85% on 16 Sep (0% cut), 91% by 28 Oct, 99% by 9 Dec; ~54bp priced (centralbank.watch/FedWatch). 10Y 4.64 → 4.97% (+33bp), 2Y +21bp. The graph's 'Fed signals rate HIKE' trigger (watching since March) is met on the chair's on-record guidance + hard data + pricing. Core at 2.4% says the hike is PURELY energy pass-through/expectations — the Fed is tightening INTO an oil supply shock, and if oil falls the hike path collapses as fast as the cut path did in August. The oil price is now the Fed's reaction function. (BLS; CME/centralbank.watch; CNBC — CONFIRMED)"
+  },
   {
    "date": "2026-08-13",
    "headline": "SEPTEMBER CUT SEALED. July CPI (12 Aug) soft at 3.4% (core +0.2%) locked in a 25bp September cut as a foregone conclusion, with ~95% odds of Oct 29 + Dec 10 follow-ups — a full easing cycle. Confirms the 7-Aug pivot on hard data. A standing EM/India + gold tailwind. Residual: 3.4% is above target, Warsh is a hawk, so it's labour-market-driven; the 11-Sept CPI is the last pre-FOMC test. CONFIRMED (BLS + CME).",
@@ -275,6 +300,13 @@
    "summary": "19 signals. Eurozone inflation surged to 2 | Fed trapped in stagflation -- ISM Prices Index at 78 | DXY fell to 99",
    "signal_count": 19,
    "auto": true
+  }
+ ],
+ "price_snapshots": [
+  {
+   "date": "2026-09-14",
+   "price": "Hike odds 83–85% (16 Sep); 10Y 4.97%; 2Y 3.91%",
+   "trigger": "Warsh Jackson Hole 'work to do' + Aug CPI 0.4% m/m (energy +16.3% y/y) inverted the September cut into a hike; ~54bp priced through Dec."
   }
  ]
 }

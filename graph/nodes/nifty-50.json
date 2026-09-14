@@ -3,13 +3,14 @@
  "name": "Nifty 50",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-08-13",
+ "last_updated": "2026-09-14",
  "summary": "Day 140 / 2026-07-17. **THE NIFTY ABSORBED AN ACTIVE US-IRAN WAR AND CLOSED THE FORTNIGHT HIGHER (24,334.30, +1.1% FRI; SENSEX 78,151.45) WITH INDIA VIX AT 12.88 — BELOW ITS PRE-CRASH LEVEL. DII LIQUIDITY HAS REPRICED WHAT 'WAR RISK' MEANS FOR INDIAN EQUITIES.** Path: 6 Jul +159 (trade-deal hopes) -> 8 Jul CRASH -516/-2.1% (war restart; VIX +26% to 14.68) -> 10 Jul +1.02% (TCS Q1 beat: PAT 13,349 cr) -> 13 Jul gapped down ~600-700 on the closure declaration and RECOVERED 931 POINTS INTRADAY to close flat -> 17 Jul +261 on private banks (+2.1%) + IT (+1.75%; Infosys/TechM/HCLTech +3% on Q1s) + Jio Financial/RIL. Every war gap-down was bought within hours. FII: the 4-Jul deployment condition FIRED (net buys 6, 7, 10 Jul + likely 8 Jul; CDSL +15,157 cr July inflows by the 12th — 'reversing four months of selling') then FAILED — five consecutive sell days 13-17 Jul (~-6,950 cr; -4,206 cr on 16 Jul the largest) after the closure declaration. DIIs bought EVERY session. The vulnerability is not the index — it's the rupee (record 96.52) + twin deadlines: the 22-24 Jul trade cliff and the oil path. An index at highs pricing benign resolutions of both.",
  "current": {
-  "price": "Nifty 24,334.30 / Sensex 78,151.45 (Fri 17 Jul close, confirmed); India VIX 12.88 (16 Jul, last confirmed print).",
-  "delta_1d": "+1.1%",
+  "price": "Nifty 23,398.10 / Sensex 74,781.76 / Bank Nifty 56,606.55 (Fri 11 Sep close; market closed Mon 14 Sep — Ganesh Chaturthi; reopens Tue 15 Sep). India VIX 12.29 (12 Sep).",
+  "delta_1d": "-0.3%",
   "delta_fortnight": "+0.3% vs 3 Jul — HIGHER through a war restart",
-  "driver": "Q1 earnings (TCS/Infosys/HCLTech) + DII absorption vs FII 5-day re-exodus + record-low rupee + dead importer dividend."
+  "driver": "Oil >$100 → INR/FPI (−₹13,138 cr) → 10Y 6.96%; Fed hike priced; CPI ~4.9% poll; DII wall limiting the drawdown.",
+  "delta_1m": "-4.1%"
  },
  "active_triggers": [
   {
@@ -132,6 +133,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-09-14",
+   "headline": "**Nifty 23,398 (Fri 11 Sep): −0.3% d/d, −2%+ w/w, −4.1% 1M, −4.8% over 5 weeks; Sensex 74,782; Bank Nifty 56,607 (−1.8% 1M — DII wall); India VIX 12.29.** Drivers: Brent >$100 (OMCs margin-squeezed; import bill), US 10Y 4.97% + Fed hike priced (FPI −₹13,138 cr 1–11 Sep; IT sold on US rates), India 10Y 6.96%, CPI ~4.9% poll (RBI cut off the table). 14 of 16 sectors down on the week. **Market CLOSED Mon 14 Sep (Ganesh Chaturthi); the August CPI (17:30 IST) prints into the holiday; Tuesday's open absorbs CPI + $108 Brent + FOMC anticipation in one gap.** 23,400 held Friday; a CPI ≥5.0% with Brent >$105 likely tests 23,000. ~75% of the 1M move is crisis-transmitted (oil/US yields), ~25% domestic inflation. (yfinance, Mint, NSDL — CONFIRMED)"
+  },
   {
    "date": "2026-06-26",
    "headline": "Nifty +0.83% to ~24,021 (Sensex +1.04%), +1.7% on the week — held 24,000 on oil-at-pre-war + DII buying (+₹3,637cr) despite FII selling (-₹1,843cr). Domestic-flow rally; the importer dividend is fully banked (oil $73.57) but the FII confirmation is absent. CONFIRMED."
@@ -424,6 +429,13 @@
   {
    "as_of": "2026-07-04",
    "summary": "Day 127 / 2026-07-04. **HOSTAGE MON-TUE, DECOUPLED WED-FRI: NIFTY +~0.9% W/W TO 24,270.85 (3 STRAIGHT UP DAYS), INDIA VIX AT A 1-MONTH LOW — THE IMPORTER DIVIDEND RE-ENGAGED.** Tape: Mon 29 Jun -0.46% (23,946; strike-exchange risk-off + Kotak bank-specific), Tue -0.34% (23,866 week low; IT -2.7% on US rates = US-macro not Hormuz), Wed +0.51% (23,988; 'Iran hints at Doha participation'), Thu +0.71% (24,175; IT +4.64% post-US-NFP, crude to $70-71, every sector green), Fri +0.39% (24,270.85; IT/pharma/realty led). OMCs rallied on cheap crude (2 Jul: HPCL +3.6%, BPCL +3.3%, IOC +2.75%; ICICI Sec HPCL upgrade). Defense (HAL/BEL) bid on ORDER BOOKS not war news. FII selling continued every confirmed day but decelerated (-1,350 -> -2,557 -> -1,141 -> ~-312 cr; Fri print CONFLICTS: -311.8 vs +1,355 — unresolved, NSE archive check Mon); June FPI -49,340 cr; H1 -2.74 lakh cr RECORD exodus; DIIs +4.16 lakh cr YTD absorbed it. Crisis share of the week's up-move ~60% (Doha relief); ~40% domestic (GST +13.9%, DII bid, US rate relief via IT). The hostage machinery is INTACT: Mon-Tue proved India still falls when the crisis fires."
+  }
+ ],
+ "price_snapshots": [
+  {
+   "date": "2026-09-14",
+   "price": "23,398 (Fri 11 Sep)",
+   "trigger": "−4.1% 1M / −4.8% over 5 wks as Brent re-broke $100, the Fed flipped to a hike, FPIs sold ₹13,138 cr; CPI print due 14 Sep into a closed market."
   }
  ]
 }

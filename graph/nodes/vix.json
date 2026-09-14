@@ -3,11 +3,11 @@
  "name": "VIX (CBOE Volatility Index)",
  "type": "index",
  "created": "2026-05-13",
- "last_updated": "2026-08-13",
+ "last_updated": "2026-09-14",
  "summary": "Day 127 / 2026-07-04. **VIX 15.81 — LOWEST OF THE WAR, PRINTED IN A WEEK CONTAINING A US-IRAN MISSILE EXCHANGE. THE OPTIONS MARKET HAS STOPPED PAYING FOR TAIL RISK.** Expected on a base-strike-exchange week: 20+. Got: 15.81 (-2.1% Thu; -34.6% 3M), India VIX at a one-month low the same week. The market prices the stand-down/deal as terminal. THIS IS THE CHEAPEST CONVEXITY OF THE CYCLE: the live re-gap vectors are (1) Lebanon militia-cycle escalation (2-3 Jul reservist->10-site exchange; Ghalibaf wired Lebanon into the US-Iran track), (2) post-funeral talks failure (~10-14 Jul), (3) a new Hormuz enforcement incident. The >22 trigger is ~6 points away — moot as a warning, potent as a re-gap marker.",
  "current": {
-  "price": "VIX 14.59 (-6.9% 1M, -18.4% 3M) — near the pre-war low.",
-  "read": "PAPER PRICES CALM WHILE THE PHYSICAL WAR RE-INTENSIFIES. VIX at 14.59 (near pre-war lows), US equities near records, gold a record on the Fed cut — the equity market reads the war as a contained ECONOMIC standoff (blockade/sanctions, no new kinetic strikes). But the PHYSICAL complex diverges hard: VLCC ~$498k/day, war-risk insurance 7.5-10%, oil $87, Iranian exports near-halted. The cleanest paper-physical divergence of the cycle, INVERTED from early August. VIX 14.6 is the mispriced object if the deadlock produces a kinetic re-escalation."
+  "price": "VIX 15.84 (Fri 11 Sep; −11.2% d/d; 17.84 Thu; +8.3% 1M).",
+  "read": "Physical war re-intensified and the Fed flipped, and VIX only reached 17.8 before a one-headline collapse. Equity vol still prices a contained standoff; the physical market (TD3C $982k, Brent $108) does not. Sessions <16: 1 (needs 3)."
  },
  "active_triggers": [
   {
@@ -19,7 +19,8 @@
     "iran",
     "united-states"
    ],
-   "added": "2026-05-13"
+   "added": "2026-05-13",
+   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — 1 session (Fri 15.84) after 16.46/17.84; not sustained, and driven by a talks headline that was reversed Saturday."
   },
   {
    "condition": "VIX >25 intraday = kinetic-event marker (Trump strike order, Iran ballistic launch, Israeli enrichment strike)",
@@ -32,11 +33,12 @@
     "united-states"
    ],
    "added": "2026-05-13",
-   "note_2026-06-11": "STAYS WATCHING. Not crossed (peak ~22.22 close)."
+   "note_2026-06-11": "STAYS WATCHING. Not crossed (peak ~22.22 close).",
+   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — max 17.84 despite tanker sinkings and the pipeline shutdown; the paper-calm anomaly persists."
   },
   {
    "condition": "VIX +30% intraday move within 48h of Trump's return from Beijing (May 15-16)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "sp-500",
     "brent-crude",
@@ -44,7 +46,9 @@
     "united-states"
    ],
    "added": "2026-05-13",
-   "note": "Per markets dossier C1: summit is binary digital; Trump returns either with kinetic order (VIX +30% / Brent $115-120) or without (VIX 16-handle / Brent $97-100)."
+   "note": "Per markets dossier C1: summit is binary digital; Trump returns either with kinetic order (VIX +30% / Brent $115-120) or without (VIX 16-handle / Brent $97-100).",
+   "status_changed": "2026-09-14",
+   "notes": "REVIEWED 2026-09-14 — EXPIRED (May window)."
   }
  ],
  "top_edges": [
@@ -92,6 +96,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-09-14",
+   "headline": "**VIX 15.84 (Fri, −11.2%) after a 17.84 print Thursday; +8.3% 1M from 14.59.** The August 'paper calm vs physical war' split has partly resolved: VIX rose from 14.6 to 17.8 as oil broke $100 and the Fed flipped, then collapsed on a single talks headline + in-line CPI. Not the 3-session <16 de-escalation marker (16.46 → 17.84 → 15.84). India VIX 12.29 — the complacent one now. Stale into Monday: Salalah postponed, Brent $108, FOMC Wednesday. (yfinance — CONFIRMED)"
+  },
   {
    "date": "2026-08-13",
    "headline": "PAPER-PHYSICAL DIVERGENCE, INVERTED. VIX fell to 14.59 (near pre-war low), US equities near records, gold a record on the Fed cut — the equity market prices the war as a contained ECONOMIC standoff (blockade/sanctions, no new kinetic strikes). But the physical complex re-intensifies: VLCC ~$498k/day, war-risk insurance 7.5-10%, oil $87, Iranian exports near-halted. The cleanest paper-physical divergence of the cycle. VIX 14.6 is the mispriced object on any kinetic re-escalation. CONFIRMED (yfinance + shipping data).",
