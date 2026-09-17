@@ -3,10 +3,10 @@
  "name": "Houthis (Yemen)",
  "type": "institution",
  "created": "2026-03-23",
- "last_updated": "2026-09-14",
+ "last_updated": "2026-09-17",
  "summary": "Houthis, Day 199. From an announced Saudi-shipping embargo (July) and a first tanker strike (22 Jul) to TERRITORIAL control of the Bab el-Mandeb (11 Sep): Mocha, Dhubab, the Hanish islands and Perim — the island that splits the strait's two channels — after Yemeni government forces withdrew. The declared rule is 'safe for all except Saudi ships', and so far no non-Saudi merchant hit is confirmed, but the option to deny ~12% of global trade / 11% of seaborne oil / 8% of LNG is now physically held by an Iranian proxy, at the moment Saudi's Yanbu bypass is shut. A full two-way war with Riyadh (Jazan/Abha/Najran energy strikes; Saudi strikes on Mocha/Saada) is running; Washington has declined to join it directly. Watch: the first non-Saudi hull.",
  "current": {
-  "status": "HOLD THE BAB EL-MANDEB (Perim/Mocha/Dhubab/Hanish, 10–11 Sep). Declared navigation safe for all but Saudi ships; no confirmed non-Saudi hit yet. Striking Saudi energy sites (73 wounded 8 Sep; Sharurah 13 Sep); being struck by Saudi (Mocha/Saada). US declined direct strikes (13 Sep)."
+  "status": "Hold Perim/Mocha/Dhubab (day 6). NO merchant attack since seizure (neutral trigger unfired). Mecca drone 15 Sep: coalition attributes, Houthis deny. F-15 claim unconfirmed. Qatar has turned against them rhetorically. Fire on Saudi cities continues (13 wounded)."
  },
  "active_triggers": [
   {
@@ -23,7 +23,7 @@
    "note_2026-06-11": "STAYS UNFIRED. Day ~104, still zero confirmed Houthi attacks on neutral commercial shipping despite the declared Israeli-navigation ban. UKMTO page inaccessible (flagged). The declaration is rhetoric until a hull is struck.",
    "note_2026-06-12": "STAYS UNFIRED. Day ~105, still zero confirmed Houthi attacks on neutral shipping; folding into the reported all-fronts ceasefire.",
    "status_changed": "2026-07-19",
-   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — the Houthi declaration explicitly EXEMPTS non-Saudi vessels and no UKMTO-verified non-Saudi hit was found since the Perim seizure. Position changed (they hold the strait); action against neutrals has not. Do not pre-fire on capability.\n[prior] REVIEWED 19 Jul — REMAINS AT WATCHING. The Iranian instruction's precondition (US strikes on Iranian POWER infrastructure) is now arguably SATISFIED: AP confirms a strike on an electricity-and-desalination plant in Hormozgan, Iran's Energy Ministry acknowledged 'attacks on power infrastructure' for the first time on 17 Jul, and the national electricity CEO reported a 4,200 MW grid loss across 2,000+ damaged points. YET NO HOUTHI ACTION: no UKMTO/JMIC incident, no closure move, no launch at Israel, 17-19 Jul. Per the March 2026 doctrine, this trigger requires a CONFIRMED ATTACK verified by mari"
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — as above; capability held, action absent.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — the Houthi declaration explicitly EXEMPTS non-Saudi vessels and no UKMTO-verified non-Saudi hit was found since the Perim seizure. Position changed (they hold the strait); action against neutrals has not. Do not pre-fire on capability.\n[prior] REVIEWED 19 Jul —"
   },
   {
    "condition": "Houthis launch confirmed attack on Israel (missile/drone reaching Israeli territory)",
@@ -75,7 +75,7 @@
     "iran"
    ],
    "added": "2026-07-19",
-   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — resolved differently: the Houthis' Bab el-Mandeb action is framed as anti-Saudi, not as Iran's reserved response to US power-infrastructure strikes.\n[prior] REVIEWED 23 Jul — the SAUDI-directed response fired (kinetic strike on two Saudi tankers) but the ORIGINAL Reuters conditional — close Bab el-Mandeb if the US hits Iranian POWER infrastructure — STILL has not fired its predicted response: Bab el-Mandeb is NOT closed (ISW: 30 transits on 22 Jul, a halving not a closure). The Houthi action remains Saudi-directed on Yemen-internal grounds, NOT a general strait closure tied to the US-Iran power-infrastructure trigger. Reading (c) 'the Houthis pursue their own agenda' is now strongly confirmed by the kinetic strike being aimed at SAUDI cargo specif",
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — no Iranian Bab el-Mandeb order; Houthis acting on the Saudi embargo logic only.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — resolved differently: the Houthis' Bab el-Mandeb action is framed as anti-Saudi, not as Iran's reserved response to US power-infrastructure strikes.\n[prior] REVIEWED 23 Jul — the SAUDI-directed response fired (kinetic strike on two Saudi tankers) but the ORIGIN",
    "status_changed": "2026-07-23"
   },
   {
@@ -101,7 +101,7 @@
     "natural-gas-lng",
     "india"
    ],
-   "notes": "Converts the position into a general second chokepoint; the Houthi declaration exempts non-Saudi ships, so this is the falsification test of that exemption (Krieg, 14-day window).",
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — no UKMTO/Ambrey/JMIC-logged attack on ANY merchant hull post-Perim (6 days). The exemption holds. The 12-Aug Tihamah attack surfaced in search is STALE — do not count it.\n[prior] Converts the position into a general second chokepoint; the Houthi declaration exempts non-Saudi ships, so this is the falsification test of that exemption (Krieg, 14-day window).",
    "status": "watching",
    "added": "2026-09-14"
   },
@@ -112,9 +112,22 @@
     "saudi-arabia",
     "brent-crude"
    ],
-   "notes": "The reversal test. Government forces claimed strikes near Mocha/Dhubab 13 Sep; no retaking confirmed.",
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — no retaking confirmed.\n[prior] The reversal test. Government forces claimed strikes near Mocha/Dhubab 13 Sep; no retaking confirmed.",
    "status": "watching",
    "added": "2026-09-14"
+  },
+  {
+   "condition": "Coalition publishes forensic/wreckage attribution of the 15-Sep Mecca-area drone to the Houthis OR a second holy-city (Mecca/Medina) interception is announced",
+   "status": "watching",
+   "cascade": [
+    "saudi-arabia",
+    "qatar",
+    "red-sea",
+    "brent-crude",
+    "united-states"
+   ],
+   "added": "2026-09-17",
+   "notes": "Added 2026-09-17. Interception CONFIRMED (Saudi air defence; first Mecca alert in ~a decade); Houthi origin CLAIMED by the coalition and DENIED by the Houthis. A holy-city strike would be a qualitatively different rung — it has already cost the Houthis Qatar's neutrality rhetorically. Resolve on forensics or repetition, not on either side's assertion."
   }
  ],
  "top_edges": [
@@ -152,6 +165,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-09-17",
+   "headline": "**Six days after Perim: NO attack on any merchant vessel — Saudi or neutral — in the Bab el-Mandeb/southern Red Sea (UKMTO/Ambrey/JMIC/MARAD: none logged). The NEUTRAL-shipping trigger stays unfired; the declared non-Saudi exemption has held.** What DID happen: the Saudi coalition intercepted a drone 'south of Makkah' at 18:50 on 15 Sep and attributed it to the Houthis (al-Maliki: second attempt since 2017; holy mosques a 'red line'); the Houthis CATEGORICALLY DENY it (Saba military source; Saree: 'our operations target their oil facilities and military bases, far removed from holy places') and CLAIM a Saudi F-15 shot down over Marib with a 'locally manufactured' SAM (no Saudi confirmation, no imagery). Coalition confirms Houthi fire wounded 13 civilians in Khamis Mushait/Abha/Taif. QATAR — the mediator state — condemned the Mecca incident as 'a shameful act of aggression… a grave escalation' and separately warned closing the Bab al-Mandeb would be 'catastrophic for the entire world.' US adviser Boulos: 'freedom of navigation in the Red Sea is a red line.' Assessment: whoever launched it, the Mecca incident has cost the Houthis Qatar's neutrality. A stale item surfaced in this sweep — the Egyptian-owned Tihamah struck near Perim with 4 crew killed — is from 12 AUGUST and already in the graph; it is NOT new. (Al Jazeera; CNBC; Euronews; ToI liveblog; MARAD/UKMTO) — Interception CONFIRMED / attribution CLAIMED / non-event CONFIRMED."
+  },
   {
    "date": "2026-09-14",
    "headline": "**Strikes on Saudi energy: 73 wounded, Jazan refinery hit (8 Sep); Sharurah base (13 Sep).** Drone/missile wave on Abha, Khamis Mushait, Jizan, Najran — fires at oil facilities/utilities, operations halted at some energy sites, FT: Aramco Jazan hit. Amer: 'the time for committing crimes… without response has ended.' 13 Sep Saree claimed hits on Sharurah's 'weapons depots and command and control centres'; Saudi civil defence: projectile in Jazan/al-Tawwal wounded two. The Saudi-linked-vessel trigger (FIRED 21 Jul) has escalated into a land/energy campaign. (AP/NPR/ToI/The National; Al Jazeera; AP roundup — CONFIRMED)"

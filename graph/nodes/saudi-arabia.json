@@ -3,10 +3,11 @@
  "name": "Saudi Arabia",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-09-14",
- "summary": "Saudi Arabia, Day 199. The kingdom's war has gone from 'relative lull' (3 Aug) to a two-front physical emergency: (1) the East-West pipeline — its only Hormuz bypass, 4–5 mb/d — was shut 11 Sep after Iraq-origin drones burned pumping stations (Yanbu trigger FIRED; repairs weeks); (2) the Houthis, whom it is now bombing daily, hold the Bab el-Mandeb through which every Yanbu cargo to Asia must pass, and struck Jazan/Abha/Najran energy sites (73 wounded, 8 Sep). Riyadh blames Iraq-based militias, Trump blames Iran, and MBS asked for — and was refused — direct US strikes on the Houthis. Saudi is also the veto on Iran's Oman lane (Salalah amendments). Global oil has lost its last buffer: Brent $107.",
+ "last_updated": "2026-09-17",
+ "summary": "Saudi Arabia, Day 202. The Kingdom is fighting on two fronts it did not choose and absorbing a third. (1) The East-West pipeline — its only Hormuz bypass — has been shut since drones from Iraq's Maysan province hit its pumping stations on 10–11 Sep; Yanbu has loaded nothing since; late-September European cargoes are cancelled. Restart is GUIDED, not confirmed: Bloomberg's company sources say half capacity 'within days' via a bypass (full in ~6 weeks), the US Energy Secretary says 'days,' independent analysts reading satellite imagery say weeks. Riyadh's workaround is to push crude THROUGH Hormuz under US escort — Vortexa shows Gulf-side loadings roughly doubled — which is why tanker equities rose on an oil-down day. (2) The Houthis, who hold the Bab el-Mandeb since 11 Sep, are firing into the Kingdom (Khamis Mushait, Abha, Taif) and on 15 Sep Saudi air defences intercepted a drone south of Mecca — the first holy-city alert in nearly a decade; the Houthis deny it, Qatar condemned it as a 'grave escalation.' (3) Toward Iraq, Riyadh is holding fire at Baghdad's request for a fifth day while building posture — MBS received CENTCOM's Cooper in Jeddah, then flew to Cairo, and Saudi chiefs sat at a secret US-convened table with Israel and six Arab states in Germany; Riyadh reportedly seeks Israeli help against the Houthis but 'won't budge' on normalisation. The graph's two Saudi triggers — pipeline RESTART and a second Iraq-origin attack/Saudi strike on Iraq — are both unfired; the first has a 'days' clock on it that expires around 23 Sep.",
  "current": {
-  "status": "TWO EXPORT ROUTES UNDER FIRE (14 Sep): Hormuz (5% throughput) and the East-West/Yanbu bypass SHUT since 11 Sep (repairs up to 5–6 wks; Yanbu 5–7 days of stock). Houthi strikes on Jazan/Abha/Najran (73 wounded, energy sites halted 8 Sep); Saudi strikes on Mocha/Saada; Houthis hold Bab el-Mandeb. Holding off on Iraq at Baghdad's request; US declined direct Houthi strikes. Blocked the Iran–Oman lane at Salalah."
+  "status": "EAST-WEST SHUT (day 6), restart GUIDED to 'half within days' (Bloomberg/Wright, unverified); Yanbu zero since 11 Sep; crude re-routed via Hormuz under US escort (Vortexa 12 VLCCs/wk). Mecca drone alert 15 Sep (interception confirmed; Houthi attribution contested). No retaliation on Iraq (day 5). MBS: Cooper in Jeddah, then Cairo.",
+  "pipeline": "Shut since 11 Sep. Targets: ~50% 'within days' (Bloomberg co. sources), full ~6 wks; AP 3–5 wks. Independent analysts: weeks (satellite). Yanbu export stock was 5–7 days."
  },
  "active_triggers": [
   {
@@ -19,7 +20,7 @@
    ],
    "added": "2026-03-23",
    "status_changed": "2026-09-14",
-   "notes": "REVIEWED 2026-09-14 — FIRED on CONFIRMED action: Saudi announced the East-West pipeline closure 11 Sep after 10-Sep UAV strikes (official statement + Reuters-verified satellite imagery + NASA thermal data + Bloomberg/CNBC/CNN). Repairs 'partial → 5–6 weeks' (Reuters sources, REPORTED). Cascade: Yanbu stock 5–7 days; Brent $108."
+   "notes": "REVIEWED 2026-09-17 — fired trigger stands; outage day 6; restart guided not confirmed.\n[prior] REVIEWED 2026-09-14 — FIRED on CONFIRMED action: Saudi announced the East-West pipeline closure 11 Sep after 10-Sep UAV strikes (official statement + Reuters-verified satellite imagery + NASA thermal data + Bloomberg/CNBC/CNN). Repairs 'partial → 5–6 weeks' (Reuters sources, REPORTED). Cascade: Yanb"
   },
   {
    "condition": "Sadara JV ($3.7B debt) defaults at June 15 grace expiry without operational recovery",
@@ -31,7 +32,7 @@
     "iran"
    ],
    "added": "2026-04-27",
-   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — no update this sweep."
+   "notes": "REVIEWED 2026-09-17 — no update.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no update this sweep."
   },
   {
    "condition": "Saudi formally named primary mediator (or co-mediator) for US-Iran Hormuz channel within 14 days (by 2026-05-22)",
@@ -100,7 +101,7 @@
     "india",
     "indian-oil-marketing"
    ],
-   "notes": "The de-escalation counterpart to the fired Yanbu trigger. Reuters sources: partial restoration to 5–6 weeks. Until this fires, Brent >$100 is a supply fact, not a premium.",
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — guidance only (Bloomberg co. sources 'half within days'; Wright 'days'); Vortexa: Yanbu zero since 11 Sep; no Aramco/SPA restart statement; cargoes cancelled. The 'days' claim is now a dated test: if no Yanbu loading is tracker-verified by ~23 Sep, the guidance is falsified and Brent's Wed retrace reverses.\n[prior] The de-escalation counterpart to the fired Yanbu trigger. Reuters sources: partial restoration to 5–6 weeks. Until this fires, Brent >$100 is a supply fact, not a premium.",
    "status": "watching",
    "added": "2026-09-14"
   }
@@ -141,10 +142,11 @@
   {
    "to": "brent-crude",
    "type": "swing_producer",
-   "weight": 8.5,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-04-07",
-   "activation_count": 8
+   "last_activated": "2026-09-17",
+   "activation_count": 8,
+   "context": "2026-09-17: CONFIRMED: restart guidance (Bloomberg/Wright) moved Brent −2.7% (markets C1). At cap."
   },
   {
    "to": "opec-plus",
@@ -169,9 +171,26 @@
    "directness": 2,
    "last_activated": "2026-04-27",
    "activation_count": 2
+  },
+  {
+   "to": "shipping-tankers",
+   "type": "yanbu_outage_reroutes_saudi_crude_via_hormuz_escort",
+   "weight": 5.0,
+   "directness": 1,
+   "last_activated": "2026-09-17",
+   "activation_count": 1,
+   "context": "2026-09-17: ADDED — Saudi crude re-routed via Hormuz under US escort (Vortexa 12 VLCCs/wk vs 6–7; Axios); Frontline +4% on an oil-down day. | verify-brief 2026-09-17: weight → 5.0"
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-09-17",
+   "headline": "**A drone intercepted 'south of Makkah' at 18:50 on 15 Sep — the first Mecca air-defence alert in nearly a decade.** Coalition spokesman al-Maliki attributed it to the Houthis, called it the second attempt on Mecca after a July 2017 missile, and said the two holy mosques are a 'red line'; coalition also confirmed 13 civilians wounded and 7 houses damaged at Khamis Mushait, Abha and Taif from Houthi fire. The Houthis CATEGORICALLY DENY targeting Mecca (Saba: 'we categorically deny… any threat… directed at the city of Mecca'; Saree: operations 'far removed from holy places') and CLAIM a Saudi F-15 downed over Marib (no Saudi confirmation, no wreckage). Qatar — the Gulf's mediator — called it 'a shameful act of aggression' and 'a grave escalation.' Saudi strikes on Taiz killed 3 incl. 2 children (Houthi Health Ministry, CLAIMED). Interception = CONFIRMED (Saudi); Houthi origin = CLAIMED vs DENIED; F-15 = CLAIMED. (Al Jazeera/CNBC/Yemen Monitor; Saba via Euronews; ToI for Qatar)."
+  },
+  {
+   "date": "2026-09-17",
+   "headline": "**East-West pipeline: restart GUIDED, not confirmed.** Bloomberg (16 Sep, company sources): Aramco targets ~HALF of the 4–5 mb/d line 'within days' by bypassing the damaged section, full capacity in ~6 weeks; AP: pumping-station repairs 3–5 weeks with 'partial operations possible'; US Energy Sec Wright (CNBC, 15 Sep, from the G20 energy meeting): 'a brief and temporary interruption… measured in days' — a US official guiding Saudi infrastructure; CNBC's caveat: independent analysts read satellite imagery of a pumping station as weeks. FACTS: Yanbu loadings suspended, ZERO Saudi crude departed since 11 Sep (Vortexa); Aramco cancelled some late-Sept European cargoes; Yanbu held 5–7 days of export stock. THE WORKAROUND IS THROUGH HORMUZ: Vortexa shows 22mb loaded on 12 VLCCs at Ras Tanura/Juaymah in the week of 7–13 Sep vs 6–7 vessels in prior weeks, under US escort (Axios: Saudi 'significantly increased' tankers through the strait; daytime escorts begun). Brent −2.7% on the guidance. The RESTART trigger (Aramco/SPA statement OR Kpler-verified Yanbu >2 mb/d) has NOT fired. Retaliation: NO Saudi response to Iraq for a 5th day ('holding off at Baghdad's request'); Cabinet (15 Sep) affirmed the 'legitimate right to defend itself'; MBS received CENTCOM's Adm. Cooper in Jeddah (14 Sep, SPA) and flew to Cairo (15 Sep); Egypt: Saudi security is 'an integral part of Egypt's national security.' Iraq: investigation continues; suspicion on Badr and Harakat Ansar Allah al-Awfiya (FDD, hawkish; JPost concurs). (Bloomberg via Investing.com; CNBC; OilPrice; Vortexa via oprep; SPA/The National) — CONFIRMED (shut, cancellations, re-routing) / REPORTED (restart timeline)."
+  },
   {
    "date": "2026-09-14",
    "headline": "**A full second war with the Houthis, in both directions.** 8 Sep: a Houthi drone/missile wave on Abha, Khamis Mushait, Jizan and Najran wounded 73 civilians, ignited fires at several oil facilities and utilities and halted operations at some energy sites; FT: Aramco's Jazan facilities (400 kb/d refinery) hit; Aramco no comment (AP/NPR/ToI/The National — CONFIRMED). Coalition (al-Malki): 'all necessary operational measures'. Saudi air strikes on Mocha airport and Saada (13 Sep, Houthi media/CBS); Houthis claim a drone/missile strike on Sharurah base (13 Sep, Saree); a projectile wounded two and damaged a mosque in Jazan/al-Tawwal (Saudi civil defence, 13 Sep). The Houthis now hold the entire Yemeni Red Sea coast and Perim — the Yanbu-to-Asia route runs under their guns. Saudi filed amendments to the Iran–Oman lane and (with Bahrain) effectively blocked the Salalah meeting. TASI 10,864.57 (13 Sep)."

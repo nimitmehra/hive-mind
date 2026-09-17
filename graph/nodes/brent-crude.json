@@ -3,14 +3,14 @@
  "name": "Brent Crude",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-09-14",
- "summary": "Brent, Day 199. The August thesis ('oil re-armed to $87 on the blockade; sub-$85 refires the India dividend') is dead: Brent is $107, +23% in a month, above $100 since 9 Sep, $108 touched this morning. This is not the July risk-premium run toward $100 — it is a physical shortfall from two simultaneous outages layered on a chokepoint at 5% of throughput: Saudi's Hormuz-bypass pipeline is shut (drone strikes, weeks to repair, Yanbu stock 5–7 days) and the Houthis physically hold the Bab el-Mandeb that Yanbu cargoes use. Diesel is the crisis product (US record >$6.20). The oil price is now the Fed's reaction function (hike priced) and therefore the global rates regime. Bank forecasts span $60–$120+, which is the honest statement of model failure. Reversibility is low until the pipeline restarts or a Hormuz lane convenes; both are weeks away at best.",
+ "last_updated": "2026-09-17",
+ "summary": "Brent, Day 202. Oil has now settled above $100 for six consecutive sessions (9–16 Sep) — the 5-session test the graph set to falsify Goldman's 'another month of closure' scenario has fired in Goldman's favour — and printed a four-month closing high of $108.75 on 15 Sep before giving back 2.7% on 16 Sep when Bloomberg and the US Energy Secretary guided the Saudi East-West pipeline to 'half capacity within days.' That guidance is unverified: Yanbu has loaded nothing since 11 Sep; Aramco has cancelled late-September European cargoes; independent analysts read satellite imagery as weeks, not days. The retrace is a futures move — Dated Brent is above $130 (Bloomberg) / ~$122 (Reuters), a >$20 physical premium that is the widest of the cycle and runs physical-over-paper; Shanghai crude is at a record $138; US diesel at a record $6.27. The mechanism is the 14-Sep one: Hormuz at 4–18 transits/day (vs 125), the Saudi bypass shut, the Houthis on the Bab el-Mandeb — with a new wrinkle that Saudi barrels are being re-routed INTO Hormuz under US escort (Vortexa: 12 VLCCs/wk vs 6–7), which is why tankers rose on an oil-down day. The Fed hiked on this price. Downside test: Kpler/Vortexa-verified Yanbu loadings within ~7 days → $100 at risk; upside: the 'days' slips to weeks → $108.75 retested with the physical premium pulling futures up; Goldman's >$120 branch stays open.",
  "current": {
-  "price": "Brent $106.95 (+2.2% 1D, +22.8% 1M, +28.6% 3M; Fri 11 Sep intraday HIGH $110.19 then settle $104.61; $108.46 high 14 Sep); WTI $102.32 (+25.9% 1M). Heating oil $4.84 (+48% 3M); RBOB $3.17 (+1.4% 1M). US retail diesel record $6.05–6.20.",
-  "delta_1d": "+2.2%",
-  "delta_1m": "+22.8%",
+  "price": "Brent $105.70 live (Wed settle $105.83, −2.7%; Tue $108.75 4-mo high); WTI $102.12 (Wed $102.43). Heating oil $4.98 (−5.0% Wed; +56% 3M; Tue = record); RBOB $3.25 (−6.8% Wed). Dated Brent >$130 (Bbg)/~$122 (Reuters) = >$20 physical premium. US retail diesel $6.27 record.",
+  "delta_1d": "−2.7% Wed; ~flat Thu",
+  "delta_1m": "+16.1% (vs 17 Aug base)",
   "delta_vs_4jul": "+~38%",
-  "regime": "DOUBLE PHYSICAL OUTAGE, NOT PREMIUM (14 Sep). Brent >$100 for the first time since July on (1) Hormuz at 7 transits/day and kinetic again, (2) Saudi's East-West bypass SHUT (11 Sep, weeks to repair), (3) Houthi control of the Bab el-Mandeb. The buffers (OPEC spare, Saudi rerouting, SPR, demand softness) are 'worn away' (Cahill). The Fed now trades this price (hike 83–85%). Binary: pipeline restart + a Hormuz lane → $90s; a first non-Saudi Houthi hit or a Pickaxe strike → Goldman's $120+."
+  "regime": "PHYSICAL SHORTFALL WITH A GUIDANCE-DRIVEN FUTURES RETRACE (17 Sep). Six settles >$100 (5-session trigger fired). Wednesday's −2.7% is the Bloomberg/Wright 'half capacity within days' headline, not a restart — Yanbu still zero; Saudi crude is being pushed THROUGH Hormuz under US escort instead (Vortexa 12 VLCCs/wk vs 6–7). Paper-physical gap >$20, physical over paper. The $100 floor is structural until East-West >2 mb/d AND Hormuz >15/day; the ~$3 retrace is the reversible-on-bad-news piece."
  },
  "price_snapshots": [
   {
@@ -91,6 +91,11 @@
    "date": "2026-09-14",
    "price": "$106.95–107.21 (14 Sep intraday; high $108.46); Fri 11 Sep high $110.19 / settle $104.61; $107.63 10 Sep settle",
    "trigger": "DOUBLE PHYSICAL OUTAGE: Saudi East-West pipeline shut (11 Sep) + Houthis hold Bab el-Mandeb (11 Sep) on top of Hormuz at 7 transits/day; first >$100 since July (9 Sep); +22.8% 1M."
+  },
+  {
+   "date": "2026-09-17",
+   "price": "$105.83 settle 16 Sep (−2.7%); Tue $108.75; six settles >$100",
+   "trigger": "5-session >$100 trigger FIRED; guidance-driven retrace on pipeline restart headlines"
   }
  ],
  "active_triggers": [
@@ -185,7 +190,7 @@
    "added": "2026-03-23",
    "note_2026-07-04": "2026-07-04: OBSOLETE-DIRECTION — Brent is $72; retain as dormant tail-risk marker only.",
    "note_2026-07-17": "2026-07-17: DORMANT-BUT-LIVE AGAIN — $86 with the Goldman >$100 scenario clock running from the closure declaration. Watch mid-Aug.",
-   "notes": "REVIEWED 2026-09-14 — Legacy 'active' status (March) retained; the current run is 3 sessions — see the 2-week trigger."
+   "notes": "REVIEWED 2026-09-17 — legacy active; current run = 6 sessions.\n[prior] REVIEWED 2026-09-14 — Legacy 'active' status (March) retained; the current run is 3 sessions — see the 2-week trigger."
   },
   {
    "condition": "Brent crosses $100/barrel sustained for 2+ weeks",
@@ -197,7 +202,7 @@
     "nifty-50"
    ],
    "added": "2026-03-23",
-   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — 3 sessions of ~10 needed. Approaching."
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — 6 of ~10 settles. Fires ~23 Sep if held; Wed's retrace to $105.83 keeps it alive.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — 3 sessions of ~10 needed. Approaching."
   },
   {
    "condition": "Brent drops below $85 sustained",
@@ -235,7 +240,7 @@
    "added": "2026-03-24",
    "note_2026-07-17": "2026-07-17: WATCHING, MECHANISM ARMED — Houthis sank Eternity C 9 Jul then paused; Iranian instruction to close Bab el-Mandeb if US hits energy infrastructure is REPORTED. The trigger's exact scenario is now the named next rung.",
    "status_changed": "2026-07-19",
-   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — the precondition (Houthis hold the Bab el-Mandeb) is now met; the price ($108) is not. Do not pre-fire.\n[prior] REVIEWED 19 Jul — REMAINS AT WATCHING and remote at $88.10. This trigger's named scenario is exactly the live question: Iran's reserved instruction to the Houthis to close Bab el-Mandeb had a stated precondition (US strikes on Iranian POWER infrastructure) which is now arguably SATISFIED (AP-confirmed strike on a Hormozgan electricity+desalination plant; Iran's Energy Ministry acknowledged 'attacks on power infrastructure' 17 Jul; 4,200 MW grid loss per the national electricity CEO) — YET NO HOUTHI ACTION has followed. The condition fired and the response did not come. Discipline on the other "
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — futures $105–109; DATED Brent did print >$130 (Bloomberg) but the trigger is written on the futures benchmark. Do not pre-fire on the physical print; noted as approaching in substance.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — the precondition (Houthis hold the Bab el-Mandeb) is now met; the price ($108) is not. Do not pre-fire.\n[prior] REVIEWED 19 Jul — REMAINS AT WATCHING and remote at $88.10. This trigger's named scenario is exactly the live question: Iran's reserved instruction t"
   },
   {
    "condition": "Brent-Hormuz paper-physical divergence >$10/bbl in EITHER direction sustained 3 sessions",
@@ -246,11 +251,11 @@
     "marine-war-risk-insurance"
    ],
    "added": "2026-04-22",
-   "notes": "REVIEWED 2026-09-14 — REMAINS ACTIVE — divergence now runs physical-over-paper (TD3C 2x; Yanbu outage) rather than paper-over-physical."
+   "notes": "REVIEWED 2026-09-17 — REMAINS ACTIVE — gap widened to >$20 (Dated >$130 Bbg / ~$122 Reuters vs futures $105–108), physical OVER paper; widest of the cycle.\n[prior] REVIEWED 2026-09-14 — REMAINS ACTIVE — divergence now runs physical-over-paper (TD3C 2x; Yanbu outage) rather than paper-over-physical."
   },
   {
    "condition": "Brent sustained above $100 for 5+ sessions by ~18 August — the falsification test for Goldman's 'another month of closure' scenario",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "india",
     "fed",
@@ -259,8 +264,8 @@
     "energy-sector"
    ],
    "added": "2026-07-19",
-   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING but RE-ARMED past its date: 3 settles >$100 (9/10/11 Sep) + 14 Sep live; fires on Tuesday's settle if held. Goldman's scenario is now being tested in September, not August.\n[prior] REVIEWED 23 Jul — REMAINS AT WATCHING, and this is the closest approach yet. Brent $96.93 (->$97.32 intraday), a SECOND straight +3% day, +25.8% 1M — knocking on $100 but not sustained above it. Goldman's $120 conditional is back in headlines; at $97 the market is ~half-way there. THE BINARY: Rubio pronounced the ceasefire 'killed' and B-1s are surging, so a formal joint-campaign decision plausibly gaps Brent through $100 and fires this within days; a ceasefire acceptance (now unlikely) collapses it. Still -7.7% 3M — not yet through the Feb-May peaks. Do not pre-fire on an approach.",
-   "status_changed": "2026-07-23"
+   "notes": "REVIEWED 2026-09-17 — FIRED. Six consecutive settles >$100 (9, 10, 11, 14, 15, 16 Sep; CNBC/Trading Economics/Fortune, 3 independent price sources). Goldman's 'severe restriction' scenario is vindicated for now; ING's $80 Q4 call is the one under pressure. Re-armed past its August date; the condition is met on hard data.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING but RE-ARMED past its date: 3 settles >$100 (9/10/11 Sep) + 14 Sep live; fires on Tuesday's settle if held. Goldman's scenario is now being tested in September, not August.\n[prior] REVIEWED 23 Jul — REMAINS AT WATCHING, and this is the closest approach yet. Brent $96.93 (->$97.32 intraday), a SECOND straight +3% day, +25.8% 1M — knocking on $100 but not sustain",
+   "status_changed": "2026-09-17"
   }
  ],
  "top_edges": [
@@ -286,24 +291,27 @@
    "type": "relief_leg_jun4_brent_softened_to_95_on_de_escalation_crisis_component_of_india_weakness_fading_nifty_stabilised",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-04",
-   "activation_count": 36
+   "last_activated": "2026-09-17",
+   "activation_count": 36,
+   "context": "2026-09-17: CONFIRMED: Tue Nifty 5-mo low on oil+yields (markets C4). At cap."
   },
   {
    "to": "inr-usd",
    "type": "relief_leg_jun4_oil_softened_to_95_rupee_firmed_to_9540_sub_96_import_bill_relief",
-   "weight": 10,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-04",
-   "activation_count": 23
+   "last_activated": "2026-09-17",
+   "activation_count": 23,
+   "context": "2026-09-17: CONFIRMED: Brent >$105 + INR 96. At cap."
   },
   {
    "to": "fed",
    "type": "inflation_input_ppi_pass_through",
-   "weight": 10,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-05-18",
-   "activation_count": 19
+   "last_activated": "2026-09-17",
+   "activation_count": 19,
+   "context": "2026-09-17: CONFIRMED: Warsh hiked on energy CPI while disclaiming oil. At cap."
   },
   {
    "to": "sp-500",
@@ -348,6 +356,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-09-17",
+   "headline": "**SIX CONSECUTIVE SETTLES ABOVE $100 — the 5-session Goldman-falsification trigger FIRED — then a −2.7% guidance-driven retrace.** Brent settled $108.75 on Tue 15 Sep (+2.9%, highest close in ~4 months; intraday ~$109.25) on the Yanbu suspension, Aramco's cancellation of late-Sept European cargoes, Houthi fire on Saudi targets, the Gulf–Iran meeting postponement and a Libyan field shutdown (Reuters' driver list); then $105.83 on Wed 16 Sep (−2.7%; WTI $102.43, −3.2%) after Bloomberg (company sources) reported Aramco targets ~HALF East-West capacity 'within days' via a bypass and US Energy Sec Wright told CNBC the outage 'will be measured in days' — plus API +7.1mb crude and EIA product builds. Live Thu ~$104–106. Settles >$100: 9, 10, 11, 14, 15, 16 Sep. **The screen hides the physical: Dated Brent >$130 (Bloomberg, first since April) / ~$122 (Reuters) — a >$20 premium to futures, the widest of the cycle; Shanghai INE crude record $138; diesel futures a record Tuesday; US retail diesel record $6.27.** Nothing has restarted: Yanbu loadings ZERO since 11 Sep (Vortexa). Goldman (Grigsby): attacks 'increase the probability of the price upside scenario where Brent exceeds $120.' (CNBC settles; Fortune; Trading Economics; Morgan Downey/Energy Intelligence for Dated; Bloomberg via Investing.com) — CONFIRMED."
+  },
   {
    "date": "2026-09-14",
    "headline": "**Trigger arithmetic.** Sessions with a settle >$100: 9, 10, 11 Sep (3) + 14 Sep live. The Goldman-falsification trigger ('5+ sessions') fires on Tuesday's settle if held; the 'sustained 2+ weeks' trigger needs ~10 sessions; the 'above $130 on Houthi Red Sea entry' trigger now has its precondition (Houthis hold the strait) but not its price. VLCC TD3C ~$982k/day (>$1m Clarksons) — the '>$200k for 5+ sessions' paper-physical divergence trigger is 5x through; physical leads paper. The 13-Aug 'oil back below $85' re-green-light tell is $22 away."

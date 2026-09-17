@@ -3,11 +3,13 @@
  "name": "Shipping / Tanker Rates",
  "type": "sector",
  "created": "2026-03-23",
- "last_updated": "2026-09-14",
+ "last_updated": "2026-09-17",
  "summary": "Tankers, Day 199. VLCC rates on the Gulf–China route have gone from ~$498k/day (13 Aug, 'near the all-time high') to ~$982k/day — more than $1m by Clarksons' count — doubling in a month as Hormuz went kinetic (7 transits/day, US air cover rationed) and Saudi's Yanbu bypass shut, removing the one alternative loading point. Tanker equities confirm it (Frontline +24%). This is the physical market's verdict on the war, and it is the opposite of the equity market's (VIX 15.8). Container rates are flat because box shipping was already Cape-routed — the Bab el-Mandeb seizure hits tankers and LNG, not boxes.",
  "current": {
   "status": "VLCC TD3C ~$982k/day (Fri 11 Sep; Clarksons >$1m) — 2x in a month, ~20x baseline; Frontline +24.4% 1M, BOAT +17.2%. The physical war premium at its extreme; containers flat (WCI $4,476).",
-  "frontline": "$49.21 (+1.7% Fri)"
+  "frontline": "$49.21 (+1.7% Fri)",
+  "price": "Frontline $53.67 (+4.0% 1D; +27.2% 1M); BOAT $52.54 (+0.4%; +10.3% 1M). TD3C last ~$982k/day (11 Sep; Clarksons >$1m) — no newer print.",
+  "driver": "Saudi crude re-routed via Hormuz under US escort (Vortexa 12 VLCCs/wk vs 6–7); daytime escorts; Yanbu shut."
  },
  "active_triggers": [
   {
@@ -33,7 +35,7 @@
    ],
    "added": "2026-04-27",
    "note_2026-06-10": "STAYS watching. War-risk insurance has RE-BASED UP this window (The National June 3: Gulf war-risk cover ~4% of hull per 7-day transit), plus a US DFC political-risk reinsurance facility up to $40bn backstops Hormuz shipping — both move the premium structure UP, not toward the 0.8% normalization threshold. No move toward trigger.",
-   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — no Sep print (GAP); last 7.5–10%; direction worse."
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — no Gulf AWRP print since July (7.5–10%); GAP third brief running.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no Sep print (GAP); last 7.5–10%; direction worse."
   }
  ],
  "top_edges": [
@@ -71,6 +73,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-09-17",
+   "headline": "**Frontline +4.0% to $53.67 on a −2.7% OIL day (+27.2% 1M; +38% 3M); BOAT +0.4% (+10.3% 1M) — the tell of the week.** Mechanism: Saudi crude that cannot load at Yanbu is being pushed THROUGH Hormuz under US escort — Vortexa: 22mb on 12 VLCCs at Ras Tanura/Juaymah in the week of 7–13 Sep vs 6–7 vessels prior; Axios: daytime escorts begun, Saudi 'significantly increased' tankers — i.e., more Gulf fixtures at ~$1m/day. The market is saying the Saudi barrels MOVE, at a freight cost: bullish tonne-miles, bearish the oil *premium*, simultaneously. RATE DATA GAP: no fresh Baltic TD3C print after Fri 11 Sep (~$982k/day; Clarksons >$1m). Source-quality flags: the Lloyd's List 'VLCC rates fall like lead balloon' headline surfaced in search is article LL1155947 — it sequences BEFORE the April '$420k' (LL1156492) and September 'ballistic' (LL1158430) pieces, so it is STALE (~Mar/Apr), NOT this week; and LL's 'imaginary Middle East VLCC rates' piece warns thin Gulf fixtures inflate the assessed index — treat ~$1m as an assessment, not a fixture. Red Sea: Saudi-flagged fleet 99% sheltering in national waters (Windward, 11 Sep). (yfinance; Vortexa/Axios via oprep; Lloyd's List IDs) — CONFIRMED (prices, loadings) / GAP (rate)."
+  },
   {
    "date": "2026-09-14",
    "headline": "**VLCC TD3C ~$982,072/day (Fri 11 Sep; Clarksons Securities: just over $1m/day) — DOUBLED in a month from ~$498k; Frontline $49.21 (+24.4% 1M), BOAT $52 (+17.2% 1M).** Drivers: Hormuz 7 transits/day and kinetic (owners won't fix into the Gulf; those that do command $1m), the Yanbu outage removing the alternative loading point ('shuttle-tanker workarounds operating inefficiently'), Cape routing for Red Sea-averse owners. Poten's Broekhuizen: 'even seasoned veterans… are scratching their heads'; Vortexa's Papadimitriou: US–Iran attacks 'continue to push freight rates around the Gulf to new highs'. Clarksons: 130 earning days = a 10-year-old VLCC's value. Caveat (Fairway/Lloyd's List): TD3C is an assessed index with few actual fixtures at these levels — direction unimpeachable, absolute notional. Containers unmoved (Drewry WCI $4,476/FEU, flat) — already Cape-routed. (Baltic/Clarksons via Time.news/Hellenic; Drewry; yfinance — CONFIRMED)"
@@ -378,6 +384,11 @@
    "date": "2026-09-14",
    "price": "TD3C ~$982k/day (Fri 11 Sep); Frontline $49.21",
    "trigger": "Doubled in a month: Hormuz kinetic + Yanbu outage; Clarksons >$1m/day."
+  },
+  {
+   "date": "2026-09-17",
+   "price": "FRO $53.67 (+4.0%) on Brent −2.7%",
+   "trigger": "Saudi Hormuz re-routing — tankers up on an oil-down day"
   }
  ]
 }
