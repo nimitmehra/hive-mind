@@ -3,10 +3,10 @@
  "name": "Federal Reserve",
  "type": "institution",
  "created": "2026-03-23",
- "last_updated": "2026-09-17",
+ "last_updated": "2026-09-22",
  "summary": "Fed, Day 202. On 16 Sep the FOMC delivered the hike the 14-Sep brief flagged — 25bp to 3.75–4.00%, 12–0, first since July 2023 — with a dot median of one more in 2026. Warsh: 'inflation is too high and has been for too long'; 'we cannot affect any individual price… oil.' This completes the cycle's central inversion: the September CUT that was 'foregone' on 13 Aug became a HIKE because August CPI was almost entirely energy (gasoline +27%, fuel oil +52% y/y; core 2.4%). The Fed's reaction function is the oil price, and the oil price is two chokepoints and a shut Saudi pipeline. Day-of consequences: 10Y through 5% for the first time this cycle, DXY >100, gold −1.1% (haven regime inverted, now confirmed by the test), rupee through ₹96, defense and EM de-rated; Trump attacked the decision but spared Warsh. Brazil CUT the same day (Selic 13.75%) — the Fed is the tightening outlier among EM-relevant central banks. The next binary is 28 Oct: a second hike vs a pause; only a sustained fall in Brent changes the path, and CBO's +0.5pp PCE war-inflation estimate says that is not imminent.",
  "current": {
-  "status": "HIKED 25bp to 3.75–4.00% on 16 Sep, 12–0; dots = one more 2026 hike (median ~4.125%). 10Y 5.01–5.02%, 2Y 3.97%, DXY 100.3. Next: 28 Oct.",
+  "status": "3.75–4.00% (hiked 16 Sep). 10Y 4.96% (Mon), 2Y 3.98%, DXY 100.35. Brent −7.7% since the decision; retail gasoline $4.47/diesel $6.31 still rising. Next: 28 Oct; eight speakers this week.",
   "price": "Funds rate 3.75–4.00% (16 Sep, +25bp, unanimous). US 10Y 5.02%; Aug CPI 3.4% (energy +16.3% y/y; core 2.4%). Dot median: +25bp more in 2026.",
   "delta_1d": "HIKE delivered (was 83–93% priced)",
   "regime": "TIGHTENING INTO AN OIL SUPPLY SHOCK — CONFIRMED BY ACTION (17 Sep). Core 2.4%, so the hike path is an energy bet; Warsh disclaims oil ('cannot affect any individual price') but is hiking on it. Consequences realised on the day: gold −1.1% (inverted haven confirmed), rupee through 96, 10Y >5%, defense/EM de-rated. A pause on 28 Oct needs Brent visibly falling; CBO says the war adds +0.5pp to PCE by Q1-27 — the Fed is fighting a number it cannot move.",
@@ -26,7 +26,7 @@
    "added": "2026-03-23",
    "note_2026-06-10": "STAYS watching — but the market-implied odds of a December HIKE have ADVANCED to ~70% (from ~45% a week ago) on the hot May jobs print + oil-fed inflation. This is the closest the cycle has come, and the repricing is already the engine under the metals collapse, firm dollar (DXY ~99.9), and 4.52% 10Y. The trigger requires an actual FED signal/action; a market-implied repricing on a data print does NOT fire it. Document the ~70% odds; the 2Y at 3.63% (below the funds-range top) confirms a hike is priced/odds, not executed. Critical: this repricing would NOT fully reverse on Gulf de-escalation (sticky inflation + hot labour market are independent).",
    "status_changed": "2026-09-14",
-   "notes": "REVIEWED 2026-09-17 — REMAINS ACTIVE, now EXECUTED (hike delivered 16 Sep). Guidance for a further hike (dot median) keeps the signal live.\n[prior] REVIEWED 2026-09-14 — ACTIVE — CONFIRMED signal: Chair Warsh's on-record Jackson Hole guidance ('work to do') + BLS Aug CPI (0.4% m/m; energy +16.3% y/y) + CME pricing 83–85% for 16 Sep / ~54bp through Dec (2+ independent sources: BLS, CME, CNBC/Forbes). The DECISION is 16 Sep — see new trigger. Not"
+   "notes": "REVIEWED 2026-09-22 — REMAINS ACTIVE (executed 16 Sep; dots one more).\n[prior] REVIEWED 2026-09-17 — REMAINS ACTIVE, now EXECUTED (hike delivered 16 Sep). Guidance for a further hike (dot median) keeps the signal live.\n[prior] REVIEWED 2026-09-14 — ACTIVE — CONFIRMED signal: Chair Warsh's on-record Jackson Hole guidance ('work to do') + BLS Aug CPI (0.4% m/m; energy +16.3% y/y"
   },
   {
    "condition": "FOMC HIKES 25bp on 16 Sep (decision + statement) — OR HOLDS despite 83–85% pricing (dovish surprise)",
@@ -60,7 +60,7 @@
     "kospi"
    ],
    "added": "2026-09-17",
-   "notes": "Added 2026-09-17. The market's Oct hike odds were ~91% pre-decision; the dot median is one more. A hold on 28 Oct is the dovish branch; it needs energy CPI to roll over, which needs Brent <$95 sustained through the September/October prints. CBO's +0.5pp PCE war estimate argues against it."
+   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — Brent's −7.7% is the first move toward the 'pause' branch, but retail fuel is still rising (lag) and the fall is rhetoric-driven; no Fed speaker has shifted.\n[prior] Added 2026-09-17. The market's Oct hike odds were ~91% pre-decision; the dot median is one more. A hold on 28 Oct is the dovish branch; it needs energy CPI to roll over, which needs Brent <$95 sustained through the September/October prints. CBO's +0.5pp PCE war estimate argues against it."
   }
  ],
  "top_edges": [
@@ -104,9 +104,9 @@
    "type": "real_yield_channel_jun10_dec_hike_repricing_70pct_real_yields_dxy_up_gold_fell_2.1pct_during_three_country_strike",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-09-17",
-   "activation_count": 16,
-   "context": "2026-09-17: CONFIRMED: FOMC hiked 16 Sep; gold −1.1% same day — negative sign confirmed by the test (markets C5). At cap."
+   "last_activated": "2026-09-22",
+   "activation_count": 17,
+   "context": "CONFIRMED sign: gold +1.0% since the hike as 10Y fell 5.01→4.96; sold on risk-on Mon. Negative-sign regime intact for a 2nd week. At cap; activation logged (markets C4)."
   },
   {
    "to": "brent-crude",
@@ -126,6 +126,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-09-22",
+   "headline": "**Post-hike week: 10Y 5.01% (16 Sep) → 4.95% → 5.00% → 4.96% (Mon 21 Sep) as Brent fell 7.7%; DXY 100.2–100.4; eight Fed speakers scheduled this week (none market-moving by Monday).** Trump (18 Sep): war will 'end soon' and 'gas prices are going to drop'; Speaker Johnson (17 Sep): Hormuz resolution will 'directly' cut gas prices 'ahead of midterms' — the political leg of the Fed's reaction function is now explicit. AAA gasoline $4.47 (18 Sep, +1.6% w/w), diesel record $6.31: the 'rockets and feathers' lag means September/October energy CPI will not reflect this week's crude fall. Brazil cut; ECB held (Lagarde 18 Sep: rates 'do not move in lockstep with the price of energy'). 28-Oct binary unchanged: a pause needs Brent visibly lower through the prints. (yfinance; Yahoo Finance; Fox live; Bloomberg) — CONFIRMED."
+  },
   {
    "date": "2026-09-17",
    "headline": "**THE BINARY RESOLVED: FOMC HIKED 25bp to 3.75–4.00% on 16 Sep, 12–0 — the first hike since July 2023.** Statement: inflation 'remains elevated'; supply shocks have 'driven price increases in certain sectors, including energy.' Warsh: 'The plain fact is that inflation is too high and has been for too long'; 'We cannot affect any individual price, whether it be oil prices'; 'We stay in our lane.' Dot plot: median ONE more 25bp hike in 2026 (12–16 of 18 members; year-end ~4.125%). Reaction: 10Y >5.00% (5.02% close, first 5-handle of the cycle), DXY >100, gold −1.1%, Dow −1.2%, XLF −1.5%, S&P −0.4%. Trump (Truth Social): rates 'should be 1%, or less… LOWER THE INTEREST RATES… AND FAST!' — but kept confidence in Warsh; no institutional move. The 'Fed is tightening into an oil supply shock' regime is CONFIRMED by the decision itself; the July 3-dissent minority became the unanimous majority. (Fox Business/Schwab/CNBC 12–0; Yahoo/Kiplinger quotes; BS 17 Sep) — CONFIRMED."

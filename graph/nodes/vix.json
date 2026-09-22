@@ -3,17 +3,17 @@
  "name": "VIX (CBOE Volatility Index)",
  "type": "index",
  "created": "2026-05-13",
- "last_updated": "2026-09-17",
+ "last_updated": "2026-09-22",
  "summary": "Day 127 / 2026-07-04. **VIX 15.81 — LOWEST OF THE WAR, PRINTED IN A WEEK CONTAINING A US-IRAN MISSILE EXCHANGE. THE OPTIONS MARKET HAS STOPPED PAYING FOR TAIL RISK.** Expected on a base-strike-exchange week: 20+. Got: 15.81 (-2.1% Thu; -34.6% 3M), India VIX at a one-month low the same week. The market prices the stand-down/deal as terminal. THIS IS THE CHEAPEST CONVEXITY OF THE CYCLE: the live re-gap vectors are (1) Lebanon militia-cycle escalation (2-3 Jul reservist->10-site exchange; Ghalibaf wired Lebanon into the US-Iran track), (2) post-funeral talks failure (~10-14 Jul), (3) a new Hormuz enforcement incident. The >22 trigger is ~6 points away — moot as a warning, potent as a re-gap marker.",
  "current": {
-  "price": "17.71 (+3.0% 1D; +11.8% 1M).",
-  "read": "Physical war re-intensified and the Fed flipped, and VIX only reached 17.8 before a one-headline collapse. Equity vol still prices a contained standoff; the physical market (TD3C $982k, Brent $108) does not. Sessions <16: 1 (needs 3).",
+  "price": "14.87 (Mon 21 Sep; 15.44/14.81/14.87 = 3 closes <16; 16-Sep 17.71). India VIX 10.90.",
+  "read": "EQUITY-VOL DE-ESCALATION MARKER FIRED (2026-09-22) against an unchanged-to-worse physical market — the fourth paper-vs-physical divergence flag of the cycle and the first with the marker actually triggered. Driver mix ~50% crisis-relief read / ~50% AI-rally beta.",
   "driver": "Fed regime + Hormuz kinetic + House vote — but equities are pricing the midterm end-date narrative; complacency vs the physical market."
  },
  "active_triggers": [
   {
    "condition": "VIX <16 sustained 3 sessions = de-escalation confirmation marker",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "sp-500",
     "brent-crude",
@@ -21,7 +21,8 @@
     "united-states"
    ],
    "added": "2026-05-13",
-   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — 1 session (Fri 15.84) after 16.46/17.84; not sustained, and driven by a talks headline that was reversed Saturday."
+   "notes": "REVIEWED 2026-09-22 — FIRED ON DATA: three consecutive closes <16 (15.44 Thu 17 Sep, 14.81 Fri 18 Sep, 14.87 Mon 21 Sep; yfinance). CAVEAT FOR THE EDITOR: this confirms that EQUITIES are pricing de-escalation (Trump 'open to meeting', Houthi stand-down, Cooper flows, AI rally), not that de-escalation has occurred — no diplomatic contact, no restart, five tanker strikes, Riyadh hit. Cascade to sp-500/brent-crude is the complacency read, not a risk-off signal.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — 1 session (Fri 15.84) after 16.46/17.84; not sustained, and driven by a talks headline that was reversed Saturday.",
+   "status_changed": "2026-09-22"
   },
   {
    "condition": "VIX >25 intraday = kinetic-event marker (Trump strike order, Iran ballistic launch, Israeli enrichment strike)",
@@ -35,7 +36,7 @@
    ],
    "added": "2026-05-13",
    "note_2026-06-11": "STAYS WATCHING. Not crossed (peak ~22.22 close).",
-   "notes": "REVIEWED 2026-09-14 — STAYS WATCHING — max 17.84 despite tanker sinkings and the pipeline shutdown; the paper-calm anomaly persists."
+   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — max 17.71 in the window; 14.87 now.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — max 17.84 despite tanker sinkings and the pipeline shutdown; the paper-calm anomaly persists."
   },
   {
    "condition": "VIX +30% intraday move within 48h of Trump's return from Beijing (May 15-16)",
@@ -97,6 +98,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-09-22",
+   "headline": "**VIX 14.87 Mon 21 Sep — THIRD straight close below 16 (Thu 17 Sep 15.44 / Fri 14.81 / Mon 14.87) after 17.71 on Fed day.** The 'de-escalation confirmation marker' has fired ON DATA — during a week with a Houthi missile at Riyadh, five UKMTO tanker strikes in Hormuz, a US strike order given and cancelled, and 'blow the entire nation up' on Fox. What it confirms is EQUITY pricing of de-escalation (Nasdaq record on AI + oil/yield relief), not de-escalation; the physical complex (Oman/Dated >$130, TD3C $1.1m/day) says the opposite. India VIX 10.90 tracks it. (yfinance) — CONFIRMED."
+  },
   {
    "date": "2026-09-17",
    "headline": "**VIX 17.71 (+3.0% Wed; +11.8% 1M) — the non-mover that should have moved.** A first Fed hike in three years, 10Y through 5%, a proxy holding a second chokepoint, a Mecca air-defence alert and a House vote to end the war produced a 17-handle. Why: the hike was ~93% priced; S&P fell only 0.4%; the equity market is buying the administration's calendar (Vance 'first phase is done'; Trump 'hopefully towards the end'; GCC meeting 22 Sep) and the Saudi restart guidance. Same mispricing the graph flagged at 14.6 (Aug) and 15.8 (14 Sep) — now with a Fed hike inside it. The physical market (Dated Brent +$20 over paper; TD3C ~$1m) and the vol market are pricing two different wars. (yfinance; CNBC) — CONFIRMED."
