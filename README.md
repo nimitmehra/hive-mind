@@ -1,235 +1,123 @@
-# Hive Mind — Crisis Intelligence System
+# Hive Mind
 
-A knowledge-graph-driven intelligence system that tracks the 2026 West Asia crisis (US-Israel war on Iran) and its cascading effects on global energy, commodities, currencies, and equity markets. Built entirely with Claude Code.
+A knowledge graph and daily brief that track the 2026 West Asia crisis (the US–Israel war on Iran) and how it spreads into oil, gas, shipping, rates, currencies and equity markets. Built with Claude Code.
 
-**[Explore the Live Knowledge Graph](https://nimitmehra.github.io/hive-mind/viewer.html)**
+**[Open the live knowledge graph](https://nimitmehra.com/hive-mind/viewer.html)**
 
----
+## What this is
 
-## What This Is
+Hive Mind is an intelligence pipeline, not a news feed. Each run gathers the day's crisis developments and market moves, records them in a persistent graph of countries, institutions, commodities, trade routes, indices and people, and writes a brief from what changed. A separate fact-checker then audits the brief.
 
-An **intelligence system** — not a news aggregator — that produces daily briefs giving complete situational awareness. The crisis is the epicenter, but the shockwaves hit markets worldwide and THOSE markets create secondary effects and new connections.
+The brief tries to answer, in order: what happened in the war, what happened in markets, why each market moved, whether the move was crisis-driven or not, which connections strengthened or appeared, and which trigger points are getting close.
 
-**For whom:** An investor sitting on significant cash, waiting for deep conviction to deploy into Indian and US equities with a 3-5 year horizon. The system tracks when conditions are right — and more importantly, when they're not.
+It was the first system of its kind that [Nimit Mehra](https://github.com/nimitmehra) built. The US equity pipeline he built later reuses its graph design, provenance tags and writer/verifier split. The code and skills were written by Claude Code to his specifications. The same pattern now runs on US equities, Indian equities, global macro and crypto.
 
-**The system must understand:** What happened in the war → What happened in global markets → WHY each market moved → Whether the move is crisis-linked or driven by something else → What new connections emerged → What trigger points are approaching.
+## Pipeline
 
-### Core Outputs
-
-1. **Daily Intelligence Brief** — 5-minute read, Economist World in Brief style. Verified, both-sides-checked, graph-driven analysis.
-2. **Living Knowledge Graph** — Accumulates signals, strengthens connections, tracks cascade paths. Gets smarter each day.
-3. **Interactive Viewer** — Click any node to see its signals, connections, trigger points, and price data.
-
----
-
-## The Knowledge Graph
-
-The graph currently tracks **63 nodes** across 8 types and **406 weighted edges** representing causal connections.
-
-### Node Types
-- **Countries** (19): Bahrain, China, France, India, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Pakistan, Qatar, Russia, Saudi Arabia, South Korea, Taiwan (TSMC), United Arab Emirates, United States
-- **Commodities** (7): Aluminum, Brent Crude, European TTF Natural Gas, Fertilizer / Urea, Gold, Helium, Natural Gas / LNG
-- **Institutions** (12): European Central Bank (ECB), FII (Foreign Institutional Investor) Flows — India, Federal Reserve, Hezbollah, Houthis (Yemen), Iran Nuclear Program & HEU Custody Architecture, Iranian Army (Artesh), Islamic Revolutionary Guard Corps (IRGC), Marine War Risk Insurance, OPEC+, Reserve Bank of India, UAE Barakah Nuclear Energy Plant
-- **Indices** (6): INR/USD Exchange Rate, KOSPI (Korea Composite Stock Index), Nifty 50, S&P 500, US 10-Year Treasury Yield, VIX (CBOE Volatility Index)
-- **Trade Routes** (3): Fujairah, Red Sea / Suez Canal, Strait of Hormuz
-- **Sectors** (7): Defense & Aerospace Sector, Energy Sector (Global), Indian IT Sector (TCS/Infosys/Wipro), Indian Oil Marketing (IOC/BPCL/HPCL), Semiconductors (SMH/SOX), Shipping / Tanker Rates, Uranium Sector
-- **Persons** (5): Ahmad Vahidi, Donald Trump, JD Vance, Masoud Pezeshkian, Mojtaba Khamenei
-
-### How the Graph Works
-
-Every node has **signals** (context-complete, sourced observations), **edges** (weighted causal connections to other nodes), and **trigger points** (thresholds that change the game if crossed).
-
-Edge weights are calculated using: `weight = min(10, frequency x recency_factor x directness_multiplier)`
-
-The graph doesn't just grow — it gets **smarter**. Day 30's analysis is materially better than Day 1 because the graph has 30 days of refined edge weights and tested trigger points.
-
-### Cascade Paths (Verified)
-
-These are the documented cascade paths the system tracks:
-
-1. **Hormuz → Oil → India CAD → Rupee → RBI dilemma → Nifty**
-2. **South Pars attack → Iran retaliates on Qatar → LNG crisis → European gas → Fertilizer → India food security**
-3. **Ras Laffan damage → Helium shortage → Semiconductor fabs → HBM memory → NVIDIA GPUs → Magnificent 7 → S&P 500**
-4. **Oil → Inflation → Fed/ECB/RBI can't cut → Bond yields rise → Equity pressure everywhere**
-5. **Houthi Red Sea threat → Carrier voluntary withdrawal → Effective Bab al-Mandeb closure → Double chokepoint risk**
-6. **Fertilizer disruption → Kharif 2026 sowing risk → India food inflation (Oct-Nov) → RBI rate cycle reversal**
-7. **ALBA/EGA attacks → Aluminum $3,500 → Auto/construction/aerospace cost pressure**
-8. **Hormuz decoupling → Oil stays $90-100+ even with ceasefire → Structural floor, not crisis premium**
-9. **Defense sector decline during war → Political sustainability eroding → Market pricing stalemate**
-
----
-
-## The Pipeline
-
-The daily brief is produced by a 5-step pipeline. Each step is a separate Claude Code skill with a single job. The pipeline enforces structural separation — the researcher and the fact-checker are different "people" with different mindsets, preventing the kind of verification shortcut that caused the March 24 Houthi error.
-
-```
-/gather-intel    → staging/YYYY-MM-DD/intel.md         (The Researcher)
-/gather-markets  → staging/YYYY-MM-DD/markets.md       (The Market Analyst)
-/update-graph    → staging/YYYY-MM-DD/graph-changelog.md (The Graph Engineer)
-/write-brief     → briefs/YYYY-MM-DD.md                (The Editor)
-/verify-brief    → corrections applied                  (The Fact-Checker)
+```mermaid
+flowchart LR
+    GI["/gather-intel<br/>crisis news, tagged"] --> GM["/gather-markets<br/>62 assets, causal chains"]
+    GM --> UG["/update-graph<br/>signals, edges, triggers"]
+    UG --> WB["/write-brief"]
+    WB --> VB["/verify-brief<br/>adversarial fact-check"]
+    VB --> P["briefs/ + viewer.html"]
 ```
 
-### The Team
+The orchestrator skill `/crisis-brief` runs the five steps in order and checks the output after each one.
 
-Each pipeline step is designed as a **full job description** for a senior professional — not a checklist, but a persona with psychology, thinking process, media literacy, and examples of good and bad work.
+| Step | Skill | Job |
+|---|---|---|
+| 1 | `/gather-intel` | Collect and verify the day's developments. Tag every finding. Check both sides. Keep rhetoric apart from action. |
+| 2 | `/gather-markets` | Pull 62 assets via `scripts/market-data.py` (energy, metals, agriculture, indices, sector ETFs, bellwether stocks, bonds, volatility, currencies) and explain each significant move. |
+| 3 | `/update-graph` | Add signals to nodes, re-weight edges, and move trigger points only on confirmed action. |
+| 4 | `/write-brief` | Compose the brief. The source tag of each item decides how it is worded. |
+| 5 | `/verify-brief` | Challenge every claim, record corrections, and check that no item's tag was quietly upgraded. |
 
-| Role | Skill | Persona | Key Responsibility |
-|---|---|---|---|
-| **Senior Intel Analyst** | `/gather-intel` | 15-year RAW/MI6 veteran | Gather, verify, tag every finding. Separate rhetoric from action. Check both sides. |
-| **Senior Market Analyst** | `/gather-markets` | 12-year macro hedge fund | Trace causal chains. Separate crisis-linked from non-crisis drivers. Every move needs a WHY. |
-| **Graph Engineer** | `/update-graph` | Intelligence database specialist | Update the living knowledge graph. Respect verification tags. Triggers require confirmed actions. |
-| **Senior Editor** | `/write-brief` | 20-year Economist writer | Compose the brief from dossiers. Verification status drives language. Page 1 = 5 minutes. |
-| **Chief Fact-Checker** | `/verify-brief` | Der Spiegel verification dept | Adversarially challenge every claim. Default to skepticism. Better to under-report. |
-| **Chief of Station** | `/crisis-brief` | 25-year intelligence manager | Orchestrate the pipeline. Gate checks after each step. Quality control. |
+Each skill is written as a full job description with a persona, a way of thinking, and examples of good and bad work. `OPERATIONS.md` is the team handbook.
 
-### Why a Pipeline (Not a Monolith)
+## Key design ideas
 
-On March 24, 2026, when this was a single monolithic skill, an aggressive IntelliNews headline ("Houthi join the fight") was elevated to a factual claim. Deep verification found ZERO confirmed Houthi attacks in 25 days — only escalating rhetoric. The researcher and fact-checker were the same cognitive flow, so verification was skipped in the excitement of a big finding.
+**Provenance tags.** Every finding is CONFIRMED (two or more independent sources, both sides checked), REPORTED (one credible source) or CLAIMED (one side's assertion). Rhetoric is tracked separately from action. The graph step gives CONFIRMED items full weight and CLAIMED items none. The writer states CONFIRMED items as fact, writes REPORTED items as reports, and always attributes CLAIMED items to the party making them.
 
-The pipeline fixes this by structural separation. Each sub-skill has one job, one mindset, and cannot shortcut the others.
+**Trigger points move on action, not words.** A trigger becomes `active` only on a confirmed action seen by two or more independent operational sources, such as maritime trackers, insurers, military channels or published data. Threats and preparations leave it at `watching`.
 
----
+**Researcher and fact-checker are separate.** The pipeline began as one skill. On 24 March 2026 that skill turned a single outlet's "Houthi join the fight" headline into a fact, when no Houthi attack had been confirmed in 25 days. Research and verification were the same pass, so verification was skipped. Splitting them into separate steps with separate prompts is the fix. (The Houthis did enter the war four days later, and the system then tagged it CONFIRMED on IDF, Houthi and independent reporting.)
 
-## Verification Architecture
+**Edge weights decay fast.** `weight = min(10, frequency × recency × directness)`. Recency falls from 1.0 today to about 0.3 after 30 days, because crisis information goes stale quickly.
 
-The system enforces a verification chain from research to publication:
+**Bounded node files.** Each node keeps a current summary, active triggers, top edges, recent signals and rolled-up historical summaries. Git history is the full audit trail, which keeps every node small enough to read in one pass. `graph/edges.json` is the master edge index.
 
-### Verification Tags
-- **CONFIRMED** — 2+ independent sources, both sides checked, operational data supports
-- **REPORTED** — 1 credible source, plausible but not independently verified
-- **CLAIMED** — One side's assertion only, other side denies or hasn't responded
+**Media literacy.** `OPERATIONS.md` contains a source guide covering more than 50 outlets across Iran, Israel, the US, India, the Gulf and Europe. The core rule: editorials from independent media are not intelligence, while editorials from state-controlled media do show a government's position.
 
-### Tag Flow Through Pipeline
-1. `/gather-intel` tags each finding with verification status
-2. `/update-graph` respects tags: CONFIRMED = full weight. RHETORIC = modest increase. CLAIMED = no weight change
-3. `/write-brief` maps tags to language: CONFIRMED = stated as fact. REPORTED = "reports suggest." CLAIMED = "[party] claims; [other party] denies"
-4. `/verify-brief` cross-checks: Was anything elevated from its original tag?
+## Numbers
 
-### Trigger Point Rules
-Trigger points move to "active" ONLY on confirmed actions verified by 2+ independent operational sources (maritime trackers, military channels, shipping insurers, published data). Threats, rhetoric, and preparations keep it at "watching" — no matter how aggressive the language.
+As of 2026-09-26 (last run 2026-09-22):
 
----
+| | |
+|---|---|
+| Nodes | 63: 19 countries, 12 institutions, 7 commodities, 7 sectors, 6 indices, 5 persons, 4 companies, 3 trade routes |
+| Weighted edges | 406 (in `graph/edges.json`) |
+| Active trigger points | 260 across all nodes |
+| Brief files | 103 (morning, evening and special editions) on 88 dates, 2026-03-23 to 2026-09-22 |
+| Verification reports | 62 |
+| Market assets tracked | 62 |
+| Commits | 158 |
 
-## Media Literacy Guide
-
-The system includes a comprehensive media bias guide covering 50+ outlets across 6 regions, with political alignment, editorial context, and what-to-watch-for for each:
-
-- **Iranian media** — IRNA (state), Tasnim (IRGC-linked), Press TV (propaganda), Iran International (diaspora)
-- **Israeli media** — Haaretz (left, military sources), Times of Israel (centrist), Jerusalem Post (right/government)
-- **US media** — Political map: CNN/WaPo/NYT (Democrat-aligned), Fox (Republican-aligned), NPR (most careful), AP/Reuters (neutral wire), WSJ (split: news centrist, editorial conservative)
-- **Indian media** — BS/Livemint (centrist business), The Hindu (centre-left), HT (centre-right/government access), Republic/Times Now/Zee (propaganda)
-- **Gulf media** — State-controlled (editorials ARE intelligence here). Al Jazeera (Qatar), The National (UAE), Arab News (Saudi)
-- **European/Global** — FT (gold standard), Economist (pro-Western lens), BBC (careful), Reuters (foundation)
-
-**Critical rule:** Editorials from independent media are NOT intelligence. Only state-controlled media editorials (IRNA, The National, TASS) reflect government positions.
-
----
-
-## Project Structure
+## Repository layout
 
 ```
 hive-mind/
-├── .claude/commands/           ← 6 pipeline skills (Claude Code runs these)
-│   ├── crisis-brief.md         ← Orchestrator
-│   ├── gather-intel.md         ← Step 1: Crisis news + media tone
-│   ├── gather-markets.md       ← Step 2: Market data + causal chains
-│   ├── update-graph.md         ← Step 3: Graph updates
-│   ├── write-brief.md          ← Step 4: Compose the brief
-│   └── verify-brief.md         ← Step 5: Adversarial fact-check
-├── briefs/                     ← Daily intelligence briefs (final output)
-│   ├── 2026-03-23.md through 2026-04-01-morning.md (10 briefs)
+├── .claude/commands/     The six pipeline skills Claude Code runs
+├── skills/               Readable copies of the same skills
+├── briefs/               Briefs and their verification reports
 ├── graph/
-│   ├── nodes/*.json            ← 43 entity files with signals, edges, triggers
-│   ├── edges.json              ← Master edge index (171 weighted connections)
-│   └── meta.json               ← Graph statistics
+│   ├── nodes/*.json      One file per node: summary, triggers, top edges, signals
+│   ├── edges.json        Master edge index
+│   └── meta.json         Graph statistics
 ├── scripts/
-│   ├── market-data.py          ← Pulls 62 assets via yfinance, flags significant moves
-│   └── rebuild-viewer.py       ← Regenerates viewer.html with latest graph data
-├── skills/                     ← Readable copies of the skills
-├── research/                   ← Deep research documents
-│   └── backfill-feb28-mar23.md ← Initial 24-day crisis research
-├── viewer.html                 ← Self-contained interactive graph viewer
-├── ARCHITECTURE.md             ← System design, schemas, verification rules
-├── OPERATIONS.md               ← Full team handbook with personas, examples, media guide
-└── README.md                   ← This file
+│   ├── market-data.py    62-asset market pull via yfinance
+│   ├── rebuild-viewer.py Regenerates viewer.html from the graph
+│   └── update_graph_*.py Dated one-off graph update scripts
+├── research/             Backfill research for 28 Feb – 23 Mar 2026
+├── viewer.html           Self-contained interactive graph (Cytoscape.js)
+├── ARCHITECTURE.md       Schemas, weighting and verification rules
+├── ARCHITECTURE_NODE_TIERING.md   Decision record for bounded node files
+└── OPERATIONS.md         Team handbook: roles, personas, examples, media guide
 ```
 
----
+## How to run
 
-## How to Use
-
-### Prerequisites
-- [Claude Code](https://claude.ai/claude-code) CLI installed
-- Python 3.8+ with `yfinance` package (`pip3 install yfinance`)
-
-### Running the Daily Brief
+Requires [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and Python 3 with `yfinance`.
 
 ```bash
-# Run the full pipeline (orchestrator guides you through all 5 steps)
-/crisis-brief
-
-# Or run individual steps
-/gather-intel       # Gather and verify today's crisis developments
-/gather-markets     # Pull market data and trace causal chains
-/update-graph       # Update the knowledge graph from staging files
-/write-brief        # Compose the brief from all dossiers
-/verify-brief       # Adversarially fact-check before publishing
+pip install yfinance
+python3 scripts/market-data.py           # full report with alerts
+python3 scripts/market-data.py --alerts  # significant moves only
+python3 scripts/market-data.py --json    # structured output for the graph step
 ```
 
-### Viewing the Knowledge Graph
+In Claude Code, from the repository root:
 
-Open `viewer.html` in any browser. Click nodes to see their signals, connections, trigger points, and price data. No server needed — fully self-contained.
-
-Or view the live version: **[nimitmehra.github.io/hive-mind/viewer.html](https://nimitmehra.github.io/hive-mind/viewer.html)**
-
-### Market Data
-
-```bash
-python3 scripts/market-data.py           # Full report with alerts
-python3 scripts/market-data.py --alerts  # Only significant moves
-python3 scripts/market-data.py --json    # Structured JSON for graph updates
+```
+/crisis-brief        # full pipeline
+/gather-intel        # or one step at a time
+/gather-markets
+/update-graph
+/write-brief
+/verify-brief
+python3 scripts/rebuild-viewer.py        # refresh viewer.html
 ```
 
-Tracks 62 assets across 8 categories: Energy, Metals (incl. Aluminum), Agriculture/Food (incl. Rice, Sugar, Soybean Oil), Equity Indices (incl. Bank Nifty, Saudi Tadawul), Sector ETFs, Bellwether Stocks (incl. CF Industries, Linde, Nutrien, BASF), Bonds/Volatility, Currencies.
+Open `viewer.html` in a browser. It needs no server.
 
----
+## Status and limitations
 
-## Design Principles
-
-1. **Information first, architecture second.** If the brief takes 10 minutes, it failed.
-2. **Signal over noise.** Every node, edge, signal must earn its place. 2-source minimum.
-3. **The graph gets smarter, not bigger.** Growth = edge weight accuracy + trigger point quality, not raw node count.
-4. **No external APIs.** Everything runs through Claude Code's WebSearch + yfinance.
-5. **Accumulated intelligence.** The knowledge graph IS the memory. The brief IS the daily changelog.
-6. **Structural verification.** The researcher and fact-checker are structurally separated — different prompts, different mindsets, different pipeline stages.
-
----
-
-## The March 24 Lesson
-
-The entire pipeline architecture exists because of one error. On March 24, 2026, the monolithic skill elevated an aggressive IntelliNews headline ("Houthi join the fight") into a factual claim. Deep verification found ZERO confirmed Houthi attacks in 25 days — only escalating rhetoric that one outlet inflated to "entering the war."
-
-The verification protocol existed within the skill but was skipped because the researcher and fact-checker were the same cognitive flow. The pipeline fixes this by structural separation — each sub-skill has one role and cannot shortcut the others.
-
-Ironically, on March 28 (4 days later), the Houthis DID enter the war with a confirmed missile strike on Israel. The system correctly identified this as CONFIRMED ACTION — verified by IDF (interception), Houthi claim (Al-Masirah TV), and 4+ independent media sources. The lesson isn't that the Houthis weren't a threat — it's that 28 days of threats without action should not have been reported as action.
-
----
-
-## Built With
-
-- **[Claude Code](https://claude.ai/claude-code)** — AI-powered CLI for the entire pipeline
-- **[Claude Opus 4.6](https://anthropic.com)** — Powers all 6 pipeline skills
-- **[yfinance](https://pypi.org/project/yfinance/)** — Market data for 62 assets
-- **[Cytoscape.js](https://js.cytoscape.org/)** — Interactive graph visualization (embedded in viewer.html)
-
----
+- **Runs are manual and irregular.** Scheduled runs were turned off in June 2026. Since then a run happens when one is started by hand, so there are gaps of days or weeks between briefs.
+- **Edge weights are judgments.** Directness and edge creation are decided by the model under written rules. They are not estimated statistically from price data.
+- **Sources are web search and yfinance.** Futures prices jump on contract-roll days, and the briefs note this when it affects a figure. Single-source reports are labelled, not dropped.
+- **Written by AI agents.** Briefs are model-written and model-checked. Each verification report lists the corrections it made. That shows errors being caught, not that none remain.
+- **Not investment advice.** The briefs discuss markets and positioning in general terms for research purposes.
 
 ## License
 
-This project is open source. The intelligence analysis, graph data, and daily briefs reflect real-world events as of the 2026 West Asia crisis (February-April 2026) and are provided for educational and research purposes.
-
----
-
-*Built by [Nimit Mehra](https://github.com/nimitmehra) with Claude Code*
+MIT. See [LICENSE](LICENSE).
