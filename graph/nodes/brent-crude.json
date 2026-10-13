@@ -3,14 +3,14 @@
  "name": "Brent Crude",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-09-22",
- "summary": "Brent, Day 207. The $100 floor the graph has carried since 9 Sep was tested and — on the settle — held by 34 cents: Nov Brent fell four straight sessions from the 15-Sep four-month high of $108.75 to $100.34 on Mon 21 Sep (−7.7%), dipped below $100 intraday for the first time since ~9 Sep, and is bouncing to ~$101.5 Tuesday. The two-week sustained->$100 trigger therefore did not cleanly fire (8–9 settles >$100; momentum broken) and did not cleanly fail (no settle <$100); it stays watching with $100.34 as the test. What drove the fall was not a barrel: Trump saying he is 'probably open' to meeting Pezeshkian and standing down a Houthi strike; CENTCOM's Cooper announcing six-month-high Hormuz flows; Aramco loading 14mb onto seven VLCCs at Ras Tanura as Saudi crude is pushed THROUGH the strait at 2.8–2.9 mb/d (vs 0.7 in Aug) because Yanbu is still at zero; and JPMorgan's $90 'fair value' note. What did not change: Kpler says Yanbu comes back 'within a month', not 'days'; Europe's October Saudi term allocations are zero; UKMTO has logged five tanker strikes in the Strait since 16 Sep; Oman/Dated is reported above $130, a ~$30 physical premium that is the widest of the cycle. This is the third time (June, August, now) the futures screen has sold a US de-escalation narrative while the physical market did not; each time the reversal came from Tehran, not Washington. The week's binaries are Washington's: the Trump–GCC meeting (22 Sep), Pezeshkian's speech (23 Sep), Xi's visit (23–25 Sep). A US–Iran contact of any kind is worth ~$5 down to JPM's fair value; a hard Iranian week rebuilds the premium; an attributed tanker strike gaps it.",
+ "last_updated": "2026-10-13",
+ "summary": "Brent, Day 228. The 22-Sep 'test of $100' failed by one settle ($99.25 on 22 Sep) and then reversed hard: front-month Brent has settled above $100 for 14 straight sessions (23 Sep–12 Oct), peaking at $106.65 on 12 Oct, with intraday lows of $96.56 (1 Oct) and $97.08 (6 Oct); like-for-like December is +9.5% since the last brief. The mechanism changed from 'premium on words' to 'disruption plus premium': Saudi Arabia's East-West bypass came back (5.8 mb/d by 6 Oct) and Gulf export volumes are near pre-war, but the safety of the barrels that cross Hormuz collapsed (~25 tankers struck, IRGC now claiming them), Asian buyers refuse to load inside the strait, and the Houthis struck Saudi civil airports and claim Aramco plants. The physical market tells it more sharply than futures: Dated ~$125–134 ($25–28 over), Dubai at an $11 premium, Urals above Brent, the Indian basket $116–121, VLCC freight a record $1.41m/day. Washington's pre-midterm fuel campaign (G7 100mb release, Trump's no-strike pledge, Russian diesel licence) produced only 1–2 day dips. Agencies: EIA Q4 $104.69; Goldman Dec $90 (implies ~$20 of premium decay). Asymmetry: a confirmed hit on Saudi processing (Shedgum/Abqaiq) or a post-3-Nov US strike cycle takes futures toward the physical ~$130; a credible Hormuz safety improvement plus a US–Iran paper is worth ~$8–12 down.",
  "current": {
-  "price": "Brent (Nov, front) $101.55 live Tue; Mon 21 Sep settle $100.34 (−3.4%); Fri $103.87; Thu $104.82; 15-Sep high $108.75. WTI Nov $93.23 (Oct expired $95.78). Nov HO $4.72, Nov RBOB $3.21 (roll — like-for-like flat). Oman/Dated >$130 reported → ~$30 physical premium. US retail gasoline $4.47, diesel $6.31 record.",
-  "delta_1d": "−3.4% Mon; +1.2% live Tue",
-  "delta_1m": "~+7% (vs 21 Aug); −7.7% from 15-Sep high",
+  "price": "Brent Dec (front since 1 Oct) $104.50 live 13 Oct (−2.0%); 12 Oct settle $106.65; Jan-27 $101.38. WTI Nov $91.86. Dated (EIA) $125.44 (6 Oct); indicative $134.25 (12 Oct). Indian basket ~$116–121. US diesel $6.26, gasoline $4.36.",
+  "delta_1d": "−2.0%",
+  "delta_1m": "−1.1% (front); like-for-like Dec +9.5% since 22 Sep",
   "delta_vs_4jul": "+~38%",
-  "regime": "PREMIUM UNWIND ON WORDS AND REROUTING, NOT BARRELS (22 Sep). Four straight declines took Nov Brent to $100.34 — sub-$100 intraday — on Trump 'open to meeting'/Houthi stand-down + Cooper's six-month-high flows + Saudi 14mb/7 VLCCs at Ras Tanura + JPM's $90 fair value. Yanbu still zero, Europe cut off for October, five tanker strikes in Hormuz since 16 Sep, physical >$130. Third narrative-driven futures retrace of the cycle against an unchanged physical market. Asymmetric this week: no GCC text/hard Pezeshkian speech → premium rebuilds; any US–Iran contact → ~$95; attributed IRGC tanker hit → $105+."
+  "regime": "DISRUPTION-PLUS-PREMIUM (13 Oct): Saudi bypass restored (East-West 5.8 mb/d) but Hormuz safety collapsed (~25 hulls struck 23 Sep–12 Oct) and Saudi airports/Aramco targeted by Houthis. Futures $100–107 for three weeks; Dated $25–28 over; VLCC $1.41m/day. De-escalation headlines (pledge, G7, Russian diesel) dent but do not break $97. Post-3-Nov US decision window is the next binary."
  },
  "price_snapshots": [
   {
@@ -101,6 +101,11 @@
    "date": "2026-09-22",
    "price": "$100.34 Nov settle 21 Sep (−3.4%); 4 straight declines from $108.75; sub-$100 intraday",
    "trigger": "The $100 floor tested: de-escalation rhetoric + Saudi Hormuz rerouting + Cooper 'six-month-high flows' — no Yanbu restart, five Hormuz tanker strikes, physical >$130"
+  },
+  {
+   "date": "2026-10-13",
+   "price": "$106.65 Dec settle 12 Oct (highest since 15 Sep); 14th straight front-month settle >$100",
+   "trigger": "Houthi mass-casualty strike on Riyadh airport (10 Oct) + six Hormuz tanker strikes (11 Oct) — 2-week >$100 trigger fires on the front-month convention"
   }
  ],
  "active_triggers": [
@@ -195,11 +200,11 @@
    "added": "2026-03-23",
    "note_2026-07-04": "2026-07-04: OBSOLETE-DIRECTION — Brent is $72; retain as dormant tail-risk marker only.",
    "note_2026-07-17": "2026-07-17: DORMANT-BUT-LIVE AGAIN — $86 with the Goldman >$100 scenario clock running from the closure declaration. Watch mid-Aug.",
-   "notes": "REVIEWED 2026-09-22 — REMAINS ACTIVE (carried from earlier cycle); the current run is ~2 weeks and under test at $100.34.\n[prior] REVIEWED 2026-09-17 — legacy active; current run = 6 sessions.\n[prior] REVIEWED 2026-09-14 — Legacy 'active' status (March) retained; the current run is 3 sessions — see the 2-week trigger."
+   "notes": "REVIEWED 2026-10-13 — carried ACTIVE from the earlier cycle; the NEW run is 3 weeks (since 23 Sep) and reaches 4 weeks ~21 Oct.\n[prior] REVIEWED 2026-09-22 — REMAINS ACTIVE (carried from earlier cycle); the current run is ~2 weeks and under test at $100.34.\n[prior] REVIEWED 2026-09-17 — legacy active; current run = 6 sessions.\n[prior] REVIEWED 2026-09-14 — Legacy 'active' status (March) retained; the current run is 3 sessions — see "
   },
   {
    "condition": "Brent crosses $100/barrel sustained for 2+ weeks",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "india",
     "inr-usd",
@@ -207,7 +212,8 @@
     "nifty-50"
    ],
    "added": "2026-03-23",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — TESTED, NOT RESOLVED. Nov Brent settled >$100 on every session 9–21 Sep (9 settles) but momentum broke: $108.75→$100.34 in four sessions, intraday <$100 Mon. 'Sustained' is not met in spirit; 'below $100' is not met on the settle. A Tuesday settle <$100 resolves it UNFIRED; a hold >$100 through ~23 Sep resolves it FIRED. Do not pre-judge either way.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — 6 of ~10 settles. Fires ~23 Sep if held; Wed's retrace to $105.83 keeps it alive.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — 3 sessions of ~10 needed. Approaching."
+   "notes": "FIRED 2026-10-13 on the graph's front-month convention: 14 consecutive settles ≥$100.20, 23 Sep–12 Oct (Nov to 30 Sep, Dec from 1 Oct). Contract caveat: on Dec like-for-like the run starts 1 Oct (8 settles to 12 Oct) and completes two weeks ~14 Oct if Dec holds $100. The earlier 9–21 Sep run died on the 22-Sep $99.25 settle.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — TESTED, NOT RESOLVED. Nov Brent settled >$100 on every session 9–21 Sep (9 settles) but momentum broke: $108.75→$100.34 in four sessions, intraday <$100 Mon. 'Sustained' is not met in spirit; 'below $100' is not met on the settle. A Tuesday settle <$100 resolves it UNFIRED; a hold >$100 through ~23 Sep resolves it FIRED. Do not pre-judge either way.\n[prior] R",
+   "status_changed": "2026-10-13"
   },
   {
    "condition": "Brent drops below $85 sustained",
@@ -230,7 +236,8 @@
    "note_2026-07-04": "2026-07-04: FIRED/ACTIVE — Brent has printed sub-$85 EVERY session since ~17 Jun ($78.65 on 17 Jun -> $73.57 26 Jun -> $71.57 settle 1 Jul): 12+ consecutive sessions, unambiguous 'sustained'. The India importer-dividend cascade is live (OMC rally, 10Y at 15-week lows).",
    "note_2026-07-17": "2026-07-17: REVERSED/UN-FIRED — the 4-Jul fired_active state ended 14 Jul when Brent settled $84.73 and broke above $85 intraday; now $86. The importer-dividend cascade this tracked is DEAD (see india). Status back to watching-the-other-way.",
    "fired_2026-08-07": "FIRED 2026-08-07 — Brent below $85 for 5+ consecutive sessions ($83.71 on 3 Aug -> $83.24 on 7 Aug; WTI $77.92) on the sustained de-escalation (third pause holding + Iran-Oman route agreement + OPEC+ supply). Confirmed sustained, not a one-day dip. The India importer-dividend cascade (OMC margins, lower CAD/import bill, rupee support, disinflation) is LIVE — reinforcing the strongest India setup of the cycle. Reverses only on a pause collapse that re-arms the war premium.",
-   "reversed_2026-08-13": "REVERSED 2026-08-13 — Brent back ABOVE $85 ($87.31; +2.8% 1M) after the fire on 7 Aug. The US blockade near-halting Iranian oil exports + the IEA 1.8 mb/d shortfall + the EIA raised shut-in estimate + the deadlock re-armed the premium. The India importer-dividend cascade this tracked is fading. Status back to watching-the-other-way; fires again on a sustained sub-$85 (needs a Hormuz deal lifting the blockade)."
+   "reversed_2026-08-13": "REVERSED 2026-08-13 — Brent back ABOVE $85 ($87.31; +2.8% 1M) after the fire on 7 Aug. The US blockade near-halting Iranian oil exports + the IEA 1.8 mb/d shortfall + the EIA raised shut-in estimate + the deadlock re-armed the premium. The India importer-dividend cascade this tracked is fading. Status back to watching-the-other-way; fires again on a sustained sub-$85 (needs a Hormuz deal lifting the blockade).",
+   "notes": "REVIEWED 2026-10-13 — reversed_unfired carried; window low $97.06."
   },
   {
    "condition": "Brent spikes above $130 on Houthi Red Sea entry",
@@ -245,7 +252,7 @@
    "added": "2026-03-24",
    "note_2026-07-17": "2026-07-17: WATCHING, MECHANISM ARMED — Houthis sank Eternity C 9 Jul then paused; Iranian instruction to close Bab el-Mandeb if US hits energy infrastructure is REPORTED. The trigger's exact scenario is now the named next rung.",
    "status_changed": "2026-07-19",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — futures $100–102; Houthis have not attacked a non-Saudi hull (day 11/14 of the Krieg test). Physical Oman/Dated >$130 is NOT the trigger (written on futures).\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — futures $105–109; DATED Brent did print >$130 (Bloomberg) but the trigger is written on the futures benchmark. Do not pre-fire on the physical print; noted as approaching in substance.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — the precondition (Houthis hol"
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — physical leg met (Dated ~$125–135) but futures peaked $107.33 intraday (12 Oct); not 'Houthi Red Sea entry' (Houthis still spare neutral hulls).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — futures $100–102; Houthis have not attacked a non-Saudi hull (day 11/14 of the Krieg test). Physical Oman/Dated >$130 is NOT the trigger (written on futures).\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — futures $105–109; DATED Brent did print >$130 (Bloomber"
   },
   {
    "condition": "Brent-Hormuz paper-physical divergence >$10/bbl in EITHER direction sustained 3 sessions",
@@ -256,7 +263,7 @@
     "marine-war-risk-insurance"
    ],
    "added": "2026-04-22",
-   "notes": "REVIEWED 2026-09-22 — REMAINS ACTIVE and WIDER: Nov futures $100–102 vs Oman/Dated >$130 reported (oprep 19 Sep; OilPrice 18 Sep) = ~$30 — widest of the cycle. Physical over paper. No fresh Platts/Argus print retrieved — REPORTED.\n[prior] REVIEWED 2026-09-17 — REMAINS ACTIVE — gap widened to >$20 (Dated >$130 Bbg / ~$122 Reuters vs futures $105–108), physical OVER paper; widest of the cycle.\n[prior] REVIEWED 2026-09-14 — REMAINS ACTIVE — divergence now runs physical-over-paper (TD3C 2x; Yanbu outage) rather than paper-over-physical."
+   "notes": "REVIEWED 2026-10-13 — REMAINS ACTIVE, RE-CONFIRMED: >$10 on every EIA print in the window; ~$25–28 from 5 Oct.\n[prior] REVIEWED 2026-09-22 — REMAINS ACTIVE and WIDER: Nov futures $100–102 vs Oman/Dated >$130 reported (oprep 19 Sep; OilPrice 18 Sep) = ~$30 — widest of the cycle. Physical over paper. No fresh Platts/Argus print retrieved — REPORTED.\n[prior] REVIEWED 2026-09-17 — REMAINS ACTIVE — gap widened to >$20 (D"
   },
   {
    "condition": "Brent sustained above $100 for 5+ sessions by ~18 August — the falsification test for Goldman's 'another month of closure' scenario",
@@ -305,9 +312,9 @@
    "type": "relief_leg_jun4_oil_softened_to_95_rupee_firmed_to_9540_sub_96_import_bill_relief",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-09-22",
-   "activation_count": 24,
-   "context": "CONFIRMED: Brent −7.7% → rupee 96.13→95.81 without testing 96.60 (markets C6). At cap; activation logged."
+   "last_activated": "2026-10-13",
+   "activation_count": 25,
+   "context": "CONFIRMED: Brent back >$100 (1 Oct) → rupee 96.31 → 96.88 (8 Oct). At cap; activation logged."
   },
   {
    "to": "fed",
@@ -361,6 +368,14 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-13",
+   "headline": "**Physical premium re-widened: EIA Dated-type spot $125.44 (6 Oct) vs futures $100.58 = ~$25; CommodityScope indicative Dated $134.25 (12 Oct, +$27.6); EIA 2-Oct $135.51 (+$33) possibly a window artefact. Late September it had briefly narrowed to $11–15.** Dubai $11.46 over Brent (vs $2.44 a month earlier); **Urals at a +$3.30 premium to Brent** (normal discount $20–35). Indian basket $116.1 Sept avg (RBI), ~$121 around 10–11 Oct (BusinessToday). Aramco Nov OSP −$5 vs Oman/Dubai but delivered spot ~$20 over (Reuters 12 Oct). EIA STEO (6 Oct): Q4 Brent $104.69 (+$14), 2026 $96.32, 2027 $83.74, ME shut-ins 4.5 mb/d, Q3 draw 1.9 mb/d. Goldman (11–12 Oct): Dec-26 $90 (from $85), 2027 $80, $125 risk case. Analyst scoring: JPM '$90 fair value' NOT vindicated (never below ~$96.5); Eurasia $90–110 INTACT; Kpler Yanbu call too slow. — REPORTED (EIA spot is official but not Platts/Argus)."
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "**Back above $100 — 14 straight front-month settles ≥$100.20 (23 Sep–12 Oct); the 2-week trigger FIRES on the front-month convention.** Nov settled $99.25 on 22 Sep (low of the window; killed the earlier test) → 23 Sep $103.08 (Pezeshkian 'did not bend the knee') → 24 Sep $106.60 (Houthi missiles at Riyadh/Yanbu) → Nov expired $103.53 (30 Sep); **Dec**: 1 Oct $102.31 (TR CSG/Makin Island ordered), intraday lows $96.56 (1 Oct, Dec's first front-month day) and **$97.08** (6 Oct; JPM/Goldman 'flows ~98% of pre-war'), 8 Oct $104.28 (+4.1%; ~12 tanker attacks + Axios/NBC strike planning + Hurricane Isaias shutting 63–72% of GoM output), **12 Oct $106.65** (+1.8%; Riyadh airport massacre + six Hormuz strikes; highest settle since 15 Sep), 13 Oct $104.50 (−2.0%; wires cite Russian supply prospects). Like-for-like Dec: $95.41 (22 Sep) → $104.50 (+9.5%). WTI Nov $91.86 (Brent–WTI ~$12.6 — Isaias/SPR/G7 barrels on WTI). Every de-escalation catalyst (G7 100mb release 2 Oct, Trump pledge 8 Oct, Russian diesel 9–12 Oct) took $2–5 off intraday, mostly recovered by the settle; floor ~$97. Split: ~80% crisis / ~10% Isaias / ~10% Russia (negative). (yfinance BZ=F/BZZ26/BZF27; AP; Bloomberg via The Nation; NBC; CNBC) — CONFIRMED."
+  },
   {
    "date": "2026-09-22",
    "headline": "**FOUR STRAIGHT DECLINES — Nov Brent $108.75 (15 Sep) → $105.83 → $104.82 → $103.87 → $100.34 (Mon 21 Sep, −3.4%; −7.7% from the high); intraday ~$100.17 and both Brent and WTI 'temporarily dipped below $100' (Fox/Reuters) — first sub-$100 print since ~9 Sep; live Tue $101.55 (+1.2%).** Oct WTI expired at $95.78; Nov WTI $92.37 → $93.23. **Contract-roll warning: BZ=F/CL=F/RB=F/HO=F rolled overnight — the Dec Brent $97.35 and the −7.5% RBOB are artefacts, not moves; like-for-like Nov RBOB +0.3%, Nov HO +0.2%.** Drivers in the order the market cited them: (i) Trump 'probably open' to meeting Pezeshkian at UNGA + 'deciding mode' (Fox, Sun 20 Sep) — RHETORIC; (ii) Trump cancelled a Houthi air campaign with bombs loading (NYT, Sun) — a non-action; (iii) CENTCOM's Cooper (video, Sat 19 Sep): Hormuz oil/LNG flows a six-month high, primary lanes mine-cleared, '>1 billion barrels' out 'in the last couple months', 2,000+ escorted transits; (iv) Aramco loaded ~14mb onto seven VLCCs at Ras Tanura on Sun 20 Sep; satellite/JPM: Saudi 2.8–2.9 mb/d THROUGH Hormuz over six days vs ~0.7 in Aug; (v) JPMorgan (17–18 Sep): Sept 'fair value' ~$90, ~$16 premium; ~10 mb/d offline masked by demand 4.4 mb/d below year-ago and a 555mb inventory draw — 'we simply don't know how to model the endgame.' **Nothing physical improved at the source: Yanbu ZERO since 11 Sep (Kpler: half of exports back 'within a month', not 'days'); Aramco told all European term buyers October allocations are ZERO (Bloomberg 18 Sep); UKMTO logged FIVE tanker strikes in the Strait since 16 Sep (two Mon 21 Sep, crew injured), unattributed; Oman/Dated >$130 reported (oprep 19 Sep; OilPrice 18 Sep) = ~$30 paper-physical gap.** Eurasia Group: $90–110 through year-end. Weekly: −1.4%, first weekly loss in three. (yfinance settles; TE; Fox live; Kpler; Bloomberg via OilPrice; Pembroke/TheStreet for JPM) — price action CONFIRMED; driver split ~85% premium-unwind on rhetoric+rerouting / ~15% JPM fundamentals."

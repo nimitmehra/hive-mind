@@ -3,8 +3,8 @@
  "name": "United States",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-09-22",
- "summary": "United States, Day 207. Washington spent the week saying two opposite things and doing neither. Trump told Fox he is in 'deciding mode' between 'wipe it out, let it rot with the economy, or make a deal', asked aloud 'if and when do I blow the entire nation up', and in the same interview said he is 'probably open' to meeting Pezeshkian in New York; his ambassador-designate Waltz then set a condition — the Iranian negotiator 'must speak for the Ayatollah' — that no Iranian president meets. On the Houthis he ordered an air campaign on 17 Sep after a call from MBS and cancelled it on 20 Sep with bombs loading, because Oman's channel had delivered a Houthi pledge to spare US and non-Saudi ships. What the US actually did was economic and logistical: a five-year extension of the Iran Sanctions Act, secondary sanctions that ground every Iranian airline from 23 Sep, a blockade that has redirected 110 vessels and — per Cooper — kept Iran at 'zero barrels', escorts that moved a six-month high of Gulf oil and LNG, and a $24.3bn F-35 approval for Riyadh. The Pentagon's own tally is now $43.6bn, 18 dead and 830+ wounded, and the House is out until mid-November. The market bought the meeting half of the interview (Brent −7.7% in four sessions, VIX <15); the graph holds every trigger at watching because nothing kinetic or diplomatic has actually happened — today's Trump–GCC meeting, Trump's UNGA speech, Pezeshkian's speech tomorrow and Xi's visit are the first events that can convert words into a document or a strike.",
+ "last_updated": "2026-10-13",
+ "summary": "United States, Day 228. Washington has put a calendar on the war: Trump pledged in writing (8 Oct) not to attack Iran before the 3 Nov midterms while the blockade stays 'in full force', a day after three outlets reported CENTCOM had been told to finish preparing for major combat (incl. a ~3-day campaign on missiles, energy and nuclear targets) and as a second carrier group plus ~10,000 sailors and Marines head to the region. The public record therefore dates the highest-risk window to 4 Nov onward; WSJ reported Trump told aides he sees renewed bombing after the midterms as likely. Diplomacy produced one proximity round (Witkoff/Kushner–Araghchi, New York, 22 Sep) and a paper exchange that Tehran's SNSC calls 'insufficient'; Vance moved the ask from 'zero enrichment' to a 'meaningful' cut. The Trump–GCC meeting published nothing; the Trump–Xi summit gave no Hormuz commitment. Economic war is the active instrument: zero Iranian crude loadings in September, 135 ships turned around, OFAC rounds on shadow fleet/banking. On Yemen, the US is not striking despite an American killed at Riyadh's airport ('We may'); the Houthis threaten US interests if it does. Domestic constraint is real but expressed through the pledge (polls ~65–71% disapprove; Senate war-powers failed 49–50). Pre-midterm fuel campaign: G7 100mb release, Russian diesel licence. Casualties: 21 killed/865 wounded.",
  "current": {
   "status": "Talking annihilation and a meeting in the same interview while acting only through sanctions and escorts; Congress recessed to mid-Nov.",
   "status_2026_08_03": "Trump called off a planned weekend strike on Iran 'at the request of Gulf allies' (1-2 Aug), pausing 'subject to rapidly making a DEAL'; claims an imminent Hormuz + denuclearization deal with US-Iran talks 'Monday.' Iran disputes there are any US talks. State Dept urged Americans across the ME to consider leaving (1 Aug) — security posture NOT pricing the deal as done. Fed held 29 Jul (9-3, 3 hike-dissents; ~63% Sept-hike odds).",
@@ -160,7 +160,7 @@
     "vix",
     "gold"
    ],
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no strike on Iranian territory for 12+ operational periods; 'deciding mode' is RHETORIC.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — the opposite direction: no strike ashore for 9 periods; Vance 'first phase is done'. Rhetoric of de-escalation, not action; do not move.\n[prior] Distinguishes Sept's pattern (respond to IRGC fire) from July's nightly campaign. Would reverse the defense de-ratin",
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — NOT FIRED: no strike on Iranian territory since 1 Sep; Trump's 8-Oct written pledge holds it to 3 Nov; CENTCOM preparation (Axios 7 Oct) is PREPARATION. Ocean Molica (10 Oct) was blockade enforcement at sea.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no strike on Iranian territory for 12+ operational periods; 'deciding mode' is RHETORIC.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — the opposite direction: no strike ashore for 9 periods; Vance 'first phase is done'. Rhetoric of de-escalation, not action; d",
    "status": "watching",
    "added": "2026-09-14"
   },
@@ -172,13 +172,13 @@
     "saudi-arabia",
     "brent-crude"
    ],
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — NOT FIRED. Strikes were ORDERED (Thu 17 Sep, after MBS call) and CANCELLED (Sun 20 Sep, bombs loading) per NYT/Axios/partial Reuters — REPORTED. No CENTCOM announcement; no strike occurred. The reversal is logged on `trump`.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — none; Boulos 'Red Sea red line' is rhetoric; Israel–Saudi assistance under discussion (REPORTED).\n[prior] Trump declined direct strikes 13 Sep, offering targeting support. A reversal opens a third US kinetic front.",
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — NOT FIRED: 'We may… look at it' (10 Oct) and 'misbehaving very badly' (12 Oct) are RHETORIC; no CENTCOM strike; US support = intel/targeting only. Now the single most consequential Red Sea binary.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — NOT FIRED. Strikes were ORDERED (Thu 17 Sep, after MBS call) and CANCELLED (Sun 20 Sep, bombs loading) per NYT/Axios/partial Reuters — REPORTED. No CENTCOM announcement; no strike occurred. The reversal is logged on `trump`.\n[prior] REVIEWED 2026-09-17 — STAYS ",
    "status": "watching",
    "added": "2026-09-14"
   },
   {
    "condition": "The 22-Sep Trump–GCC UNGA meeting produces a PUBLISHED framework (Hormuz lane, postwar/day-after text, or a named US–Iran channel with venue) — OR ends with no document",
-   "status": "watching",
+   "status": "resolved",
    "cascade": [
     "strait-of-hormuz",
     "oman",
@@ -188,7 +188,29 @@
     "vix"
    ],
    "added": "2026-09-17",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — PENDING: the meeting is TODAY (US time); no text previewed by any outlet. Resolve in the evening edition/next brief on a PUBLISHED document or its absence. Do not pre-judge.\n[prior] Added 2026-09-17. Axios scoop (REPORTED): all six GCC states; 'postwar strategy'; 'day-after plan expected to be finalized after the midterms.' The market is pricing the calendar (VIX 17.7; ITA −14% 1M). A document would be the first US-authored text since the June MoU; no document keeps the rhetori"
+   "notes": "RESOLVED 2026-10-13 — NO DOCUMENT: no framework, Hormuz-lane text, day-after text or named channel published (GDN, Al Jazeera, Yournews, Fortune); day-after plan deferred to after 3 Nov. The separate 22-Sep Witkoff/Kushner–Araghchi proximity round was a different track.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — PENDING: the meeting is TODAY (US time); no text previewed by any outlet. Resolve in the evening edition/next brief on a PUBLISHED document or its absence. Do not pre-judge.\n[prior] Added 2026-09-17. Axios scoop (REPORTED): all six GCC states; 'postwar strategy'; 'day-after plan expected to be finalized after the midterms.' The market is pricing the calendar ",
+   "status_changed": "2026-10-13"
+  },
+  {
+   "condition": "Trump's no-strike pledge holds — no US strike on Iranian territory between 8 Oct and 3 Nov",
+   "status": "watching",
+   "cascade": "A breach is the largest credibility event of the cycle (VIX/defence/oil gap); a hold dates the decision window to 4 Nov+.",
+   "added": "2026-10-13",
+   "notes": "Added 2026-10-13 (Truth Social 8 Oct)."
+  },
+  {
+   "condition": "US strikes on Iranian territory resume between 4 Nov and 30 Nov (post-midterm window; WSJ/Axios/NYT-reported planning)",
+   "status": "watching",
+   "cascade": "Ends the 'pledged quiet'; tests Iranian retaliation threats on Gulf infrastructure, Saudi oil, US warships; nuclear firebreak at risk (nuclear targets in option set).",
+   "added": "2026-10-13",
+   "notes": "Added 2026-10-13."
+  },
+  {
+   "condition": "Trump decides to join Saudi strikes on the Houthis (CENTCOM-announced strike) within 21 days (by 3 Nov)",
+   "status": "watching",
+   "cascade": "Per the 22-Sep NYT official and Bukhaiti (12–13 Oct), most likely event to convert Bab el-Mandeb from Saudi-only to all-flags.",
+   "added": "2026-10-13",
+   "notes": "Added 2026-10-13 ('We may', 10 Oct)."
   }
  ],
  "top_edges": [
@@ -197,9 +219,9 @@
    "type": "us_iran_axis_went_kinetic_jun8_10_apache_downed_over_hormuz_then_us_warning_shot_strikes_on_20_air_defense_sites_jun9_then_iran_gulf_retaliation_jun10_zero_us_casualties_executing_strike_trigger_fired",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-09-22",
-   "activation_count": 74,
-   "context": "RHETORIC both ways ('deciding mode' / 'new weapons, new geography') + CONFIRMED sanctions (ISA extension; airline secondary sanctions 23 Sep; blockade 110). At cap; activation logged (intel A7)."
+   "last_activated": "2026-10-13",
+   "activation_count": 75,
+   "context": "CONFIRMED: blockade (zero Iranian loadings in Sept; 135 turned around; Ocean Molica disabled 10 Oct) + OFAC rounds + one proximity round (22 Sep) + dated no-strike pledge (8 Oct). At cap; activation logged."
   },
   {
    "to": "israel",
@@ -287,6 +309,14 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-13",
+   "headline": "**US–Saudi/Houthi: no US strike; Trump 'We may. We're gonna look at it' (10 Oct) and 'The Houthis are misbehaving very badly' after an MBS call (12 Oct).** An American was killed at KKIA (Rubio confirmed 10 Oct). US gives intelligence/targeting support but no strikes or refuelling (AP 12 Oct). F-35 $24.3bn sale's 30-day congressional window expires ~17 Oct. Two more Patriot batteries to Qatar/Saudi (Axios). — CONFIRMED (absence of strike; statements)."
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "**Trump–GCC (22 Sep, UNGA) produced NO document; trigger resolved 'no document'.** ~12 delegations; Trump: the Iran situation 'could end right after the (November 3) midterm elections, maybe before'; the day-after plan deferred until after the midterms (Axios). The same day Witkoff/Kushner held ~3h of mediated talks with Araghchi's delegation (first since June). **8 Oct Truth Social: 'We will not be attacking Iran at any time prior to the Midterm Elections… November 3rd'**, blockade 'in full force' — one day after The Atlantic (WH asked for pre-vote options), NYT (a ~3-day campaign option) and Axios (Pentagon told CENTCOM 'several days ago' to conclude preparations for major combat; targets incl. energy, infrastructure, nuclear) reported strike planning. Force flow: TR CSG + Makin Island ARG/13th MEU (~10,000 personnel) en route; GW sole carrier in CENTCOM early Oct; Lincoln home. Only US kinetic act: a jet disabled blockade-runner *Ocean Molica* in the Gulf of Oman (10 Oct). No US strike on Iranian territory since 1 Sep. Casualties raised to 21 killed/865 wounded (DCAS); CRS: 81 aircraft lost/damaged. Senate war-powers resolution failed 49–50 (24 Sep); polls: AP-NORC ~70% 'not worth it', Pew 65% disapprove. — pledge CONFIRMED; planning REPORTED (three independent anonymous-sourced outlets)."
+  },
   {
    "date": "2026-09-22",
    "headline": "**TRUMP–GCC MEETING IS TODAY (Tue 22 Sep, UNGA sidelines) — no outcome yet.** All six GCC states (leaders/FMs), possibly widened to other Arab/Muslim leaders; agenda per Axios: 'next steps in the war' and 'U.S. ideas for a strategy after the conflict concludes', with the 'day-after' plan to be finalised after the 3-Nov midterms. Into the room: Riyadh's unanswered request for US strikes on the Houthis; Doha carrying Iran's seven conditions; Muscat carrying the Houthi no-attack pledge; Abu Dhabi asking in print 'Is the US poised to hit the Houthis?' Xi Jinping's state visit follows 23–25 Sep (Beijing confirmed 21 Sep) with Iran/Hormuz and secondary sanctions on Iran's buyers on the agenda; Wang Yi (19 Sep) publicly urged Iran to open the strait 'at an early date'. Trigger PENDING — resolves on a published text or its absence. (Axios 16 Sep origin; Gulf News/JPost/TRT repeats; Bloomberg 21 Sep for Xi; Fox live 19 Sep for Wang) — scheduling CONFIRMED."

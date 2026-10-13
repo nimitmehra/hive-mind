@@ -3,8 +3,8 @@
  "name": "Red Sea / Suez Canal",
  "type": "trade_route",
  "created": "2026-03-28",
- "last_updated": "2026-09-22",
- "summary": "Red Sea / Bab el-Mandeb, Day 199. The July 'second chokepoint by declaration' became a second chokepoint by OCCUPATION on 11 Sep: the Houthis hold Perim (mid-strait), Mocha, Dhubab and the Hanish islands. Their declared rule exempts non-Saudi shipping and no neutral hull has been confirmed hit — but the denial option is now held physically, and it lands on the exact barrels (Saudi Yanbu exports) whose pipeline source was shut the same day. Suez/Egypt is bleeding but restrained; containers are already Cape-routed so the box market hasn't moved; tankers have (TD3C ~$982k/day). This node is now a first-order oil driver, not a firewall.",
+ "last_updated": "2026-10-13",
+ "summary": "Red Sea / Bab el-Mandeb, Day 228. A held, pledged, unused chokepoint for neutral shipping and a war zone for Saudi Arabia. The Houthis have held Perim/Mayun since 11 Sep and have not attacked a non-Saudi merchant hull in 32 days (Krieg's test expired unfired; one unattributed near-miss 4 Oct); container lines added Suez services; neutral war-risk fell to 0.2–0.3% while Saudi-linked calls pay 3–7%. Riyadh's ground offensive took Dhubab airfield but not Mayun (AFP 10 Oct). The hinge is a US decision: Trump 'may' join Saudi strikes; the Houthis promise a 'swift and painful' response against US interests if he does — the event most likely to make the strait all-flags.",
  "current": {
   "status": "Bab el-Mandeb under Houthi territorial control (11 Sep); Saudi ships targeted, others declared safe; Yanbu feed pipeline shut; container rates flat (already Cape-routed); Red Sea war-risk print GAP."
  },
@@ -22,7 +22,7 @@
    "note_2026-05-25": "Red Sea corridor remains quiet through May 25 — CONFIRMED non-event, no incident beyond the May 11 unclaimed Hodeidah event. The Lloyd's-JWC Eastern-Med/Haifa 7-day window (tracked on the houthis node) is Day 7 of 7 and expires TOMORROW (May 26) on track to close UNTRIPPED — NOT marked tripped, since it expires tomorrow not today. The day's regional kinetic intensification is on the LEBANON front (Hezbollah 1,000+ drones / 700+ rockets over 8 days), a separate axis — no Red-Sea action.",
    "note_2026-05-27": "Red Sea corridor stays quiet through May 27 — CONFIRMED non-event, no incident beyond the May 11 unclaimed Hodeidah event. The companion Lloyd's-JWC Eastern-Med/Haifa trigger (on the houthis node) EXPIRED UNTRIPPED May 26 (no JWC listing) — the Haifa-blockade rhetoric is falsified by the insurance market. The ~48h kinetic escalation is on the IRAN axis (US strikes on IRGC mine-laying boats in Hormuz + a Bandar Abbas SAM site) and the LEBANON front — neither a Red-Sea action. Status stays `watching`.",
    "note_2026-06-10": "STAYS watching, watch ELEVATED — NOT fired. After the June 8-9 US/Israeli strikes on Iran the Houthis declared a 'complete ban on enemy navigation' and signalled renewed Red Sea attacks (gCaptain) — RHETORIC. The only operational event: UKMTO reported June 10 a cargo vessel SW of Balhaf, Yemen approached by a small craft with six armed individuals; embarked security exchanged fire, attackers broke off — no casualties/damage, attribution UNDER INVESTIGATION (The National). A six-man small-boat boarding is a likely PIRACY profile, NOT a Houthi missile/drone strike — not a qualifying confirmed Houthi attack. UKMTO describes the region as highly volatile with sustained GNSS/AIS/VHF interference.",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — none 17–21 Sep; pledge to spare non-Saudi hulls on record.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — none logged this window."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — only Saudi-linked hulls targeted to date; none since 24 Aug per ACLED.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — none 17–21 Sep; pledge to spare non-Saudi hulls on record.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — none logged this window."
   },
   {
    "condition": "Red Sea/Bab el-Mandeb war-risk premium print ≥2% of hull (Lloyd's/Marsh) OR a major container line announces suspension of remaining Red Sea/Suez services citing Perim",
@@ -32,9 +32,10 @@
     "brent-crude",
     "european-ttf-gas"
    ],
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no post-Perim print (GAP, 4th brief); no liner suspension announced.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no Red Sea/Bab el-Mandeb premium print since July (GAP); no container-line suspension citing Perim.\n[prior] July print was 0.5–0.75%. This is the market's own verdict on whether Houthi 'safe for all but Saudi' is believed.",
+   "notes": "REVERTED 2026-10-13 by Fact-Checker (HIGH H7): NOT FIRED — neutral Red Sea transit 0.2–0.3% (falling; below July's 0.5%); the 3–7% figures are broker quotes for Saudi PORT CALLS (Yanbu ~3%, Jizan/south >7%; Reuters 25 Sep), not a Lloyd's/Marsh transit print; liner leg unmet (lines added Suez services). The market's verdict on the Houthi 'all but Saudi' pledge: believed. Saudi port-call premia logged as a separate signal.\n[prior] FIRED 2026-10-13 — SPLIT, recorded as fired for Saudi-linked tonnage only: Reuters (25 Sep) Yanbu ~3%, Jizan/south >7% (≥2% met; broker quotes, not Lloyd's/Marsh). NOT met for neutral transit (0.2–0.3%, falling) and the liner-suspension leg is NOT met (lines expanded). The insurance market priced the Houthi war as Saudi-specific.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no post-Perim print (",
    "status": "watching",
-   "added": "2026-09-14"
+   "added": "2026-09-14",
+   "status_changed": "2026-10-13"
   }
  ],
  "top_edges": [
@@ -72,6 +73,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-13",
+   "headline": "**War-risk split confirmed: Saudi-linked calls Yanbu ~3% of hull, Jizan/south 'north of 7%'; neutral Red Sea transits 0.2–0.3% 'with discounts often available' (Reuters, 25 Sep; McGill's David Smith on record) — below July's 0.5%.** ~$3m war cover per Yanbu call vs ~$100k pre-war. Container lines expanded Suez services after Perim (Gemini, MSC, OOCL); Suez ~41 ships/day (PortWatch) vs 74 in 2023. No Houthi attack on a non-Saudi hull in 32 days; one unattributed near-miss (Chrystal Sky, 4 Oct). JWC last circular JWLA-034 (29 Jul) put Jeddah/Yanbu inside the listed area. — REPORTED (broker quotes)."
+  },
   {
    "date": "2026-09-22",
    "headline": "**No merchant-vessel incident logged in the southern Red Sea/Bab el-Mandeb 17–21 Sep (UKMTO/JMIC/Ambrey — negative finding; JMIC September PDF not retrievable).** Kpler: five laden Saudi tankers exited via Bab el-Mandeb in the week. Houthi pledge (AP 20 Sep): no nation targeted 'with the sole exception of the Saudi enemy'; Muscat US–Houthi contact reported (The National), unconfirmed by State. No Red Sea war-risk premium print since July (0.5%+) — the ≥2% trigger is unassessable (GAP). Perim/Mocha held. — no-attack CONFIRMED; pledge RHETORIC."

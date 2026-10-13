@@ -3,8 +3,8 @@
  "name": "Marine War Risk Insurance",
  "type": "institution",
  "created": "2026-04-08",
- "last_updated": "2026-09-22",
- "summary": "Marine war risk, Day 199. The premium never normalised (7.5–10% of hull since late July) and the September evidence — rationed US air cover, repeated UKMTO-logged hits including on the 'safe' Omani side, tanker rates at $1m/day — all points to cover tightening further, not easing; a fresh percentage print is the one data gap this sweep. The Red Sea leg (0.5–0.75% in July) now faces a Houthi-held Bab el-Mandeb and must reprice. Iran has explicitly weaponised the insurance mechanism via its 'restricted zone' sanctions list. Normalisation triggers (JWC delisting, sub-0.5–0.8% AWRP) are as far away as at any point in the war.",
+ "last_updated": "2026-10-13",
+ "summary": "Marine war risk, Day 228. The September gap is closed: Hormuz cover is quoted at 6–9% of hull (Reuters, 25 Sep) and 6–10%, up to $20m per VLCC (FT, October) — above Marsh's July 2–6% (trigger fired) and between the graph's escalation bands (not ≥10% confirmed, not ≤5% disbelief). The Red Sea is split: Saudi-linked Yanbu ~3%, southern Saudi ports >7%, neutral transits 0.2–0.3%. Cover is 7-day, re-priced every 24h; a Saudi war-risk pool is forming; JWC's last circular was 29 Jul. With ~25 Hormuz strikes since 23 Sep and attacks on anchorages, the next print is more likely up than down.",
  "current": {
   "status": "PRINT GAP, DIRECTION WORSE (14 Sep): last Gulf print 7.5–10% of hull; air cover rationed; hulls hit 1/9/13 Sep; TD3C ~$982k. Red Sea last 0.5–0.75% (Jul) — Perim repricing pending. Iran's 'restricted zone' weaponises insurance lists."
  },
@@ -22,7 +22,7 @@
    "added": "2026-04-08",
    "note_2026-06-16": "2026-06-16: No JWC reclassification yet despite the framework. STAYS watching.",
    "note_2026-06-17": "2026-06-17: No JWC reclassification yet; blockade lift makes it more likely near-term. STAYS watching.",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no print/no delisting; GAP 4th brief.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — inconceivable at present."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no print/no delisting; GAP 4th brief.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — inconceivable at present."
   },
   {
    "condition": "AWRP normalization toward 0.5% within 10 sessions (by 2026-05-16) = pause priced as durable de-escalation",
@@ -51,18 +51,19 @@
     "brent-crude"
    ],
    "added": "2026-07-19",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no print/no delisting; GAP 4th brief.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no.\n[prior] ADDED 19 Jul. This reframes reopening from a DIPLOMATIC gate to an UNDERWRITING gate — the most important mechanism finding of this window. Price is clearing (VLCC fixtures at $469k/day) but CAPACITY is not: per-transit underwriting capacity has fal"
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no; JWLA-034 (29 Jul) last change.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no print/no delisting; GAP 4th brief.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no.\n[prior] ADDED 19 Jul. This reframes reopening from a DIPLOMATIC gate to an UNDERWRITING gate — the most important mechanism finding of this window. Price is clearing (VLCC "
   },
   {
    "condition": "A war-risk premium print materially ABOVE the Marsh 9 July range of 2-6% of vessel value — the test of whether the 20 July corridor attacks repriced the market",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "strait-of-hormuz",
     "shipping-tankers",
     "brent-crude"
    ],
    "added": "2026-07-21",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no print/no delisting; GAP 4th brief.\n[prior] REVIEWED 2026-09-14 — REMAINS WATCHING technically FIRED in July (7.5–10% > 2–6%); no Sep print to update. Keep for the next print.\n[prior] ADDED 21 Jul, replacing the retired capacity-cap framing. The three-leg falsification is documented in the node signal: Marsh's own figure FELL from 3-8% of hul"
+   "notes": "FIRED 2026-10-13: 6–9% / 6–10% of hull is materially above Marsh's 9-Jul 2–6% range (REPORTED, broker quotes via Reuters and FT).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no print/no delisting; GAP 4th brief.\n[prior] REVIEWED 2026-09-14 — REMAINS WATCHING technically FIRED in July (7.5–10% > 2–6%); no Sep print to update. Keep for the next print.\n[prior] ADDED 21 Jul, replacing the retired capacity-cap framing. The three-leg falsification is documented in the node signal: Marsh's own figure FELL from 3-8% of hul",
+   "status_changed": "2026-10-13"
   },
   {
    "condition": "A dated Gulf war-risk premium print (Marsh/Lloyd's/Insurance Journal) — any number — to close the September GAP; ≥10% of hull = escalation confirmed, ≤5% = the market disbelieves the kinetic re-escalation",
@@ -71,9 +72,10 @@
     "brent-crude",
     "strait-of-hormuz"
    ],
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no print/no delisting; GAP 4th brief.\n[prior] Data-gap trigger: the Researcher/Market Analyst must find a print; the direction from proxies is up.",
-   "status": "watching",
-   "added": "2026-09-14"
+   "notes": "RESOLVED 2026-10-13: dated prints found — 6–9% (Reuters 25 Sep) and 6–10% (FT, ~5–10 Oct). Between the bands (not ≥10% confirmed escalation, not ≤5% disbelief; top of range touches 10%): the market does NOT disbelieve the escalation.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no print/no delisting; GAP 4th brief.\n[prior] Data-gap trigger: the Researcher/Market Analyst must find a print; the direction from proxies is up.",
+   "status": "resolved",
+   "added": "2026-09-14",
+   "status_changed": "2026-10-13"
   }
  ],
  "top_edges": [
@@ -98,8 +100,9 @@
    "type": "cost_structure_nonconfirmation_rates_stable_100k_volumes_minus36_NOT_unwinding",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-05-25",
-   "activation_count": 11
+   "last_activated": "2026-10-13",
+   "activation_count": 12,
+   "context": "REPORTED (dated prints at last): Hormuz 6–9% (Reuters 25 Sep) / 6–10% (FT, Oct), up to $20m per VLCC. At cap; activation logged."
   },
   {
    "to": "brent-crude",
@@ -119,6 +122,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-13",
+   "headline": "**GAP CLOSED (4 briefs): Hormuz war-risk 6–9% of hull (Reuters, 25 Sep, broker/underwriter quotes) and 6–10%, up to $20m per VLCC (FT via Fortune, ~5–10 Oct).** Yanbu Saudi-linked ~3% (from <1% July); Jizan/south 'north of 7%' (McGill's David Smith); neutral Red Sea 0.2–0.3%. Cover 7-day, reviewed every 24h; ~$7m war cover per Hormuz voyage vs ≥$100k pre-war. Heidmar's Khanna: Hormuz 'easier' (US cover) while 'in the Red Sea, there's nothing'. Saudi Re to lead a Saudi war-risk pool. JWC: last circular JWLA-034 (29 Jul). IMO: ≥93 ships hit, 24 seafarers killed since 28 Feb. — REPORTED (quotes; 'no public data for agreed rates')."
+  },
   {
    "date": "2026-09-22",
    "headline": "**NO SEPTEMBER PREMIUM PRINT — fourth consecutive brief (Gulf last Marsh 7.5–10% of hull, 22 Jul; Business Insurance 26 Aug repeats 7.5–10%; TankerBrief 17 Sep flags the Marsh figure as '59 days stale'; Red Sea last 0.5%+ July, no post-Perim print).** Underwriting facts that would move it: five UKMTO tanker strikes in Hormuz 16–21 Sep (two with crew injured), a Houthi missile at Riyadh, and — the other way — a Houthi public pledge to spare non-Saudi hulls and Cooper's six-month-high escorted flows. JMIC: Strait 'SEVERE'. — GAP CONFIRMED; no data."

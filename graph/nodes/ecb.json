@@ -3,10 +3,10 @@
  "name": "European Central Bank (ECB)",
  "type": "institution",
  "created": "2026-03-28",
- "last_updated": "2026-09-22",
- "summary": "Day 85 (Saturday May 23). **AL JAZEERA MAY 22 MENTIONED 'EU MOVES TO SANCTION IRAN OVER HORMUZ BLOCKADE' — REPORTED LOW-CONFIDENCE; NOT YET INDEPENDENTLY CORROBORATED BY REUTERS/FT/POLITICO EUROPE/EURACTIV. If REAL, would mark BREAKDOWN OF EUROPEAN 'WE'RE NOT IN THIS FIGHT' POSITIONING THAT HAS HELD SINCE MARCH. If NOT REAL, single-source Gulf-media framing being floated to pressure Iran into deal acceptance.** Trigger to watch: official EU Council statement OR Federica Mogherini-successor statement on Iran sanctions within 7 days = confirmation; silence by May 30 = Al Jazeera framing was speculative. **TTF Gas €48.69/MWh May 22 close (-1.46% 1D, +2.1% MoM, +30%+ vs ~€31 baseline)** — flat-to-easing; Qatar Ras Laffan FM 17% liquefaction persists but Norway maintenance ease holding. **The European posture is 'watching the US-Iran-Pakistan-Gulf track resolve, not intervening'**: Reuters Europe / Politico Europe / Euractiv silent on Munir visit beyond wire amplification; no fresh emergency measures published. ECB Lagarde 'new energy shock' framing carries forward as operative anchor; ECB holds 2.15%. **The trigger 'TTF crosses €70/MWh sustained 5 sessions' remains NOT activated** (current €48.69 vs €70 threshold). PRIOR (May 16): **TTF €49.86/MWh May 15 (+4.63% 1D, third consecutive daily increase, highest since April; ~+60% from pre-war €31.20)** — driver chain ongoing Qatar Ras Laffan force majeure on ~17% of liquefaction capacity (recovery 'in years not months'); Hormuz tensions; Europe's pre-winter storage rebuild. **Europe is no longer in 'alarm nor relief' mode but in 'creeping pricing-in' mode** — the Goldman tail scenario of ~€72/MWh remains above today's print but the trajectory has clearly turned over the past week. **DAX -2.1% 1D**: HeidelbergCement -7.16%, Siemens -4.94%, MTU Aero -4.87% — capex-intensive industrials hit on inflation/yield-shock + Iran stall. **ECB Lagarde 'new energy shock: economic scenarios and policy implications' May 6 speech framing structural-energy-inflation regime** continues to be the operative anchor. ECB held 2.15% in April; next decision approaches with the inflation-pass-through case strengthening. **The trigger 'TTF crosses €70/MWh sustained 5 sessions' is NOT activated but the +4.63% acceleration that crossed €48 and €49 in one session is the cleanest pricing-in signal of the week.** PRIOR (April 28): Day 61 Tuesday. ECB APRIL 29-30 MEETING IN <48 HOURS — HOLD AT 2.15% MOST PROBABLE; MERZ 'HUMILIATING' FRAMING IS THE EUROPEAN-LEADERSHIP TONE SHIFT TO WATCH. Per Irish Times Apr 27, German Chancellor Friedrich Merz publicly stated that Iran is 'humiliating' the US as talks stall. This is the first major European G7 leader to characterize the diplomatic deadlock in such pointed terms. Operationally significant because Germany has been the European energy-vulnerability bellwether on this crisis. Merz's characterization implies (a) European patience with the US-led blockade is finite, (b) European preference for de-escalation may override Atlantic-alliance restraint as winter-2026 storage refill begins, (c) European institutional capital (ABP, Norges Bank) may find this characterization easier to act on than mainstream Atlanticist coverage. No US response yet. Macron / Starmer have not echoed. TTF €45.17/MWh Apr 27 (+0.75% 1D, +0.5% 1M; €31 pre-crisis = €14 of crisis premium). Critically below the €70 cascade-intensity threshold (industrial demand destruction; German PMI contracts hard). ECB has NOT characterized Hormuz risk as systemic. Holds 2.15%. ECB next decision April 29-30. Stagflation framing (inflation 2.6% forecast 2026, spiking to 3.1% Q2) intact. Bond reaction Friday: 10Y 4.31% (-0.3%) range-bound. CORRECTION: yesterday's $100.47 Brent print was a yfinance contract-roll glitch; live tape Mon $108.23 / Tue $109.39 — oil REVERSED UP, not down. [TRUNCATED — needs re-synthesis]",
+ "last_updated": "2026-10-13",
+ "summary": "ECB, Day 228. CORRECTED: the ECB hiked 25bp on 10 Sep 2026 to a 2.50% deposit rate (MRO 2.65%) — its second hike of 2026 after June; the graph had recorded a September hold (wrong). Lagarde's 'not in lockstep with energy' was about the pace after hiking. Euro-area September HICP 3.8% (energy +18.8%); TTF €86.65 on a Qatar LNG collapse, storage ~73.6%; French OAT–Bund spread 154bp (2 Oct, widest since 2011). Markets price a hold on 29 Oct and a December hike (64 of 73 economists); peak 2.75–3.00%. The tension: an LNG-driven winter squeeze plus French fiscal stress against energy-led inflation near double target.",
  "current": {
-  "status": "HELD in September; Lagarde: not 'in lockstep' with energy (18 Sep). Europe: zero Oct Saudi crude allocations; storage 68%; TTF €73. Next binary: October meeting vs a winter supply squeeze (2026-09-22)."
+  "status": "DFR 2.50% after a 25bp HIKE on 10 Sep (corrected 2026-10-13); Sept HICP 3.8%; 29 Oct hold priced, December hike consensus; OAT–Bund 154bp."
  },
  "active_triggers": [
   {
@@ -18,11 +18,11 @@
     "gold"
    ],
    "added": "2026-03-28",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — Lagarde pushed back; storage 68% and zero Saudi Oct barrels are the winter risk."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no inter-meeting action; 29 Oct hold priced.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Lagarde pushed back; storage 68% and zero Saudi Oct barrels are the winter risk."
   },
   {
    "condition": "The ECB HIKES in September (or explicitly signals a September hike), OR the energy-inflation deferral breaks and it is forced to act sooner — the 'September reckoning' the graph has flagged",
-   "status": "expired",
+   "status": "fired",
    "cascade": [
     "fed",
     "european-ttf-gas",
@@ -30,8 +30,15 @@
     "gold"
    ],
    "added": "2026-07-23",
-   "notes": "REVIEWED 2026-09-22 — RESOLVED UNFIRED/EXPIRED: no September hike and Lagarde explicitly rejected energy-lockstep hiking (18 Sep). The energy-inflation deferral held. Graph Engineer note: meeting date/levels not verified in staging — status set on the hold + quote only.\n[prior] ADDED 23 Jul. The ECB PAUSED on 23 July explicitly citing Middle East/oil risk, with September flagged as the decision point and the debate framed as a HIKE not a cut (eurozone CPI 2.8%, TTF at a cycle high EUR63.75). This mirrors the Fed deferring the oil shock to Q3 (July hike odds ~7.6%). The trigger tests whether the deferral holds to September or breaks sooner if Brent gaps through $100 on a ",
-   "status_changed": "2026-09-22"
+   "notes": "RETRO-CORRECTED 2026-10-13 → FIRED (10 Sep): the ECB raised the DFR 25bp to 2.50% on 10 Sep 2026. The 22-Sep 'RESOLVED UNFIRED/EXPIRED' status was based on a false premise (the node recorded a hold).\n[prior] REVIEWED 2026-09-22 — RESOLVED UNFIRED/EXPIRED: no September hike and Lagarde explicitly rejected energy-lockstep hiking (18 Sep). The energy-inflation deferral held. Graph Engineer note: meeting date/levels not verified in staging — status set on the hold + quote only.\n[prior] ADDED 23 Jul. The ECB PAUSED on 23 July explicitly citing Middle East/oil risk, with September flagged as the decision po",
+   "status_changed": "2026-10-13"
+  },
+  {
+   "condition": "29 Oct ECB: holds at 2.50% (consensus) — OR hikes; and does Lagarde pre-signal a December hike",
+   "status": "watching",
+   "cascade": "A hike or a December pre-signal tightens EUR conditions into an LNG-driven winter; a dovish hold with French spread stress is the alternative.",
+   "added": "2026-10-13",
+   "notes": "Added 2026-10-13."
   }
  ],
  "top_edges": [
@@ -61,6 +68,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-13",
+   "headline": "**CORRECTION (HIGH): the ECB HIKED 25bp on 10 Sep 2026 to a 2.50% deposit rate (MRO 2.65%, MLF 2.90%) — its second 2026 hike after 11 June. The 22-Sep node entry 'ECB HELD in September' was WRONG** (Chief-of-Station spot-check: Euronews, CNBC, admiralmarkets, BTA — independent). Lagarde's 'not in lockstep' (18/28 Sep) was about pace after hiking. Euro-area Sept HICP flash 3.8% (energy +18.8% y/y; core 2.5%). French OAT–Bund 154bp (2 Oct, widest since 2011); Spain snap election 29 Nov. Money markets 0.28 hikes for 29 Oct; Reuters poll (8 Oct): hold at 2.50% on 29 Oct (all but 3 of 73), December hike (64 of 73), peak 2.75–3.00%. BoE held 3.75% (6–3) 17 Sep; next 5 Nov. — CONFIRMED."
+  },
   {
    "date": "2026-09-22",
    "headline": "**ECB HELD in September; Lagarde (Bloomberg, 18 Sep): 'Interest rates do not move in lockstep with the price of energy' — pushing back on automatic energy-driven hikes.** Same week Europe's physical exposure rose: Aramco zero October allocations to all European term buyers (Bloomberg), EU gas storage 68% (two-decade low for the date), TTF €73 after −7.9% Mon. The 'September reckoning' trigger resolves UNFIRED. (Bloomberg; investinglive; OilPrice; TE) — hold REPORTED (search summary; rate levels in results appear stale-year — not encoded); Lagarde quote CONFIRMED."

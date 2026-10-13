@@ -3,14 +3,14 @@
  "name": "Shipping / Tanker Rates",
  "type": "sector",
  "created": "2026-03-23",
- "last_updated": "2026-09-22",
- "summary": "Tankers, Day 199. VLCC rates on the Gulf–China route have gone from ~$498k/day (13 Aug, 'near the all-time high') to ~$982k/day — more than $1m by Clarksons' count — doubling in a month as Hormuz went kinetic (7 transits/day, US air cover rationed) and Saudi's Yanbu bypass shut, removing the one alternative loading point. Tanker equities confirm it (Frontline +24%). This is the physical market's verdict on the war, and it is the opposite of the equity market's (VIX 15.8). Container rates are flat because box shipping was already Cape-routed — the Bab el-Mandeb seizure hits tankers and LNG, not boxes.",
+ "last_updated": "2026-10-13",
+ "summary": "Tankers, Day 228. Freight is at all-time highs because of safety and logistics, not volume: VLCC TD3C hit $1.41m/day (week to 9 Oct), Suezmax and Aframax indices set records, and 1-year time charters reached $213k/day. Gulf crude volumes are near pre-war, but ~40% now leaves via Yanbu, Fujairah and Gulf of Oman ship-to-ship (~12 mb/d with week-long waits), needing ~40 VLCCs to do 24's work; the ~25 Hormuz strikes since 23 Sep, Fujairah turn-backs and 6–10% war-risk premia add cost; freight is ~27% of delivered crude cost. Frontline +18.8% since 22 Sep. The 22-Sep thesis held: the Yanbu restart did not hurt tankers because it lengthened routes while Hormuz STS demand rose. The forward curve prices a collapse with peace (WS246 by Q3-27) and a 2027 delivery wave — this is the most reversible high in the graph.",
  "current": {
   "status": "VLCC TD3C ~$982k/day (Fri 11 Sep; Clarksons >$1m) — 2x in a month, ~20x baseline; Frontline +24.4% 1M, BOAT +17.2%. The physical war premium at its extreme; containers flat (WCI $4,476).",
   "frontline": "$49.21 (+1.7% Fri)",
-  "price": "FRO $49.81 (−3.1% Mon; +22.1% 1M; 52-wk high $51.42 Fri). BOAT $53.25 (+0.1%; +10.0% 1M). TD3C $1.099m/day (15 Sep) — last print.",
+  "price": "TD3C WS1,318.75 / $1,412,594/day (wk to 9 Oct, record); 1-yr TC $213k/day; FRO $59.19, DHT $26.22, BOAT $54.50 (12 Oct)",
   "driver": "Saudi crude re-routed via Hormuz under US escort (Vortexa 12 VLCCs/wk vs 6–7); daytime escorts; Yanbu shut.",
-  "regime": "PREMIUM LEG SOLD, TONNE-MILE LEG HELD (2026-09-22): de-escalation talk vs Saudi crude rerouted through the chokepoint. Two-way: Yanbu restart = bearish tonne-miles; escorted Hormuz with Yanbu shut = bullish tonne-miles even as premium fades."
+  "regime": "RECORD FREIGHT ON SAFETY, NOT VOLUME (13 Oct): ship war + STS bottleneck + longer Saudi routes + 6–10% war-risk. Forward curve prices a collapse with peace (WS246 by Q3-27)."
  },
  "active_triggers": [
   {
@@ -36,7 +36,7 @@
    ],
    "added": "2026-04-27",
    "note_2026-06-10": "STAYS watching. War-risk insurance has RE-BASED UP this window (The National June 3: Gulf war-risk cover ~4% of hull per 7-day transit), plus a US DFC political-risk reinsurance facility up to $40bn backstops Hormuz shipping — both move the premium structure UP, not toward the 0.8% normalization threshold. No move toward trigger.",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no print (GAP).\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no Gulf AWRP print since July (7.5–10%); GAP third brief running.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no Sep print (GAP); last 7.5–10%; direction worse."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — 6–10% of hull.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no print (GAP).\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no Gulf AWRP print since July (7.5–10%); GAP third brief running.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no Sep print (GAP); last 7.5–10%; direction worse."
   }
  ],
  "top_edges": [
@@ -74,6 +74,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-13",
+   "headline": "**VLCC TD3C all-time high WS1,318.75 / $1,412,594/day (week to 9 Oct, Baltic) — +29% vs 15-Sep $1.099m; Suezmax/Aframax indices at records; 1-yr TC $213k/day.** Mechanism (Clarksons/OilPrice/Poten): Gulf of Oman STS ~12 mb/d (from 5–6) with 7–10-day waits; VLCCs needed rose 24 (Aug) → 40 (Sep); freight = 27% of delivered crude cost (Jan ~3%); Oman–Asia ~$21/bbl; crew $100k/month + $50k per Hormuz transit (FT). USG–China VLCC lump sum $79.6m. Frontline $49.81 → $59.19 (+18.8%; +5.5% Mon 12 Oct as ≥10 VLCCs turned back from Fujairah); DHT +16.8%. Forward curve: TD3C Oct WS1,175, Q3-27 WS246; 63 VLCC deliveries due 2027. The 22-Sep 'Signal' held: Yanbu restart moved barrels onto longer routes while Hormuz STS demand rose — both legs up. — CONFIRMED (Baltic)."
+  },
   {
    "date": "2026-09-22",
    "headline": "**Frontline −3.1% to $49.81 Mon (from a 52-wk high $51.42 Fri; +22.1% 1M) while BOAT was flat (+0.1%, +10.0% 1M) — the two legs of tanker economics separated: the Hormuz war-risk-premium leg sold on the de-escalation read; the tonne-mile leg held because Saudi crude is being pushed THROUGH Hormuz at 2.8–2.9 mb/d (7 VLCCs/14mb at Ras Tanura Sun 20 Sep; STS off Sohar) with Yanbu at zero.** TD3C $1.099m/day (15 Sep, Seatrade; +12% vs 11-Sep $982k) — no later print (GAP); Lloyd's List: Hormuz crisis cut VLCC volumes 36% but voyages longer; TankerBrief: MEG→Asia freight ~$30/bbl vs Gulf of Oman→Asia ~$20 (Sohar channel spread ~$10). Five UKMTO tanker strikes in Hormuz 16–21 Sep (unattributed). Houthi pledge (AP 20 Sep) to spare non-Saudi hulls; five laden Saudi tankers exited Bab el-Mandeb unmolested (Kpler). `saudi-arabia → shipping-tankers` (5.0) confirmed by three sources → 5.5. (yfinance; Seatrade; Lloyd's List; TankerBrief; Kpler; UKMTO via gCaptain) — CONFIRMED."
@@ -394,6 +398,11 @@
    "date": "2026-09-17",
    "price": "FRO $53.67 (+4.0%) on Brent −2.7%",
    "trigger": "Saudi Hormuz re-routing — tankers up on an oil-down day"
+  },
+  {
+   "date": "2026-10-13",
+   "price": "TD3C $1,412,594/day (wk to 9 Oct) — all-time high; Frontline $59.19 (12 Oct, +5.5%)",
+   "trigger": "Hormuz ship war (~25 hulls struck) + Fujairah VLCC turn-backs + Gulf of Oman STS congestion"
   }
  ]
 }

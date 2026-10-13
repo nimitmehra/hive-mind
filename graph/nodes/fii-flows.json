@@ -3,8 +3,8 @@
  "name": "FII (Foreign Institutional Investor) Flows — India",
  "type": "institution",
  "created": "2026-05-12",
- "last_updated": "2026-09-22",
- "summary": "Day 140 / 2026-07-17. **THE TURN CAME AND DIED IN ONE WEEK — THE CLEANEST TEST YET OF THE FII DEPLOYMENT CONDITION.** Net buys 6 Jul (+243), 7 Jul (~+468), 8 Jul (net-buy ON THE CRASH DAY), 10 Jul (+2,604); CDSL custody +15,157 cr July by the 12th ('FPIs reverse 4-month selling trend' — BS headline). Then the 11-12 Jul closure declaration: FIVE consecutive sell days 13-17 Jul (-891, -739, -736, **-4,206 (16 Jul)**, -376) ~= -6,950 cr. DIIs bought every session (peak +6,842 30 Jun; +2,986 16 Jul). Reading: foreign money will buy India within 48h of de-escalation signals and flees within 24h of escalation — the flow is a pure war-thermometer now, while domestic flow is structural. The disputed 3-Jul print remains UNRESOLVED. FPI debt-buying continued (+6,625 cr FAR July).",
+ "last_updated": "2026-10-13",
+ "summary": "FII/FPI flows, Day 228. The heaviest foreign selling of the war: −₹35,861 cr in September (NSDL month column; the ₹25k trigger fired), a further −₹44,166 cr in October to ~9 Oct (including ₹9,232 cr traded 30 Sep), 2026 YTD −₹3.04 lakh cr — the largest foreign-selling year on record. Selling concentrated in financials, oil & gas and autos. The reasons have broadened from oil and the North-Asian AI rally to US rates: the US 10Y above 5.2% (term premium, not Fed odds — October hike odds fell while selling intensified) and an India–US 10Y spread near a 22-year low (~194bp). The AI complex's >10% correction did NOT send money back to India. DIIs (+₹64.8k cr in September) and record SIPs (₹32,490 cr) absorbed it. The deployment condition (5 consecutive net-buy sessions) is further away; next test: does October exceed September.",
  "current": {
   "status": "SELLING RESUMED, TRIGGER ₹1.3k cr AWAY (2026-09-22); AI-complex substitution strengthening.",
   "september": "−₹23,676 cr via exchanges to 19 Sep (NSDL); +₹2,703 cr primary; Fri 18 Sep +₹600 cr (1 session). DII +₹36,219 cr MTD."
@@ -42,7 +42,14 @@
    "note_2026-06-22": "2026-06-22: TURNING — first net-positive week (+Rs3,386cr) after months of selling, but NOT yet 5 consecutive sessions confirmed. STAYS watching; this is THE India trigger to confirm. The closest it has been.",
    "note_2026-06-23": "2026-06-23: NOT met and REVERTED — FIIs back to selling (−₹635cr Mon). The one positive week did not hold. STAYS watching; the India deployment trigger remains unconfirmed.",
    "note_2026-06-26": "2026-06-26: NOT met — FIIs net sold -₹1,843cr (25 Jun); the turn is dead. STAYS watching; remains the unmet India deployment trigger.",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — one positive session (Fri 18 Sep, +₹600 cr); MTD −₹23,676 cr.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no positive streak; selling intensified.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — one positive session (Fri 18 Sep, +₹600 cr); MTD −₹23,676 cr.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no."
+  },
+  {
+   "condition": "October FPI selling exceeds September's ₹35,861 cr (NSDL month column) by 31 Oct",
+   "status": "watching",
+   "cascade": "Already −₹44,166 cr by ~9 Oct (incl. 30-Sep trade) — on pace; confirms the UST-driven EM outflow regime.",
+   "added": "2026-10-13",
+   "notes": "Added 2026-10-13."
   }
  ],
  "top_edges": [
@@ -58,11 +65,11 @@
   {
    "to": "nifty-50",
    "type": "dominant_marginal_buyer_seller_jun8_DII_plus5165cr_absorbed_93pct_of_fii_minus5556cr_held_23000_floor_index_rose_on_trump_tone_despite_fii_selling",
-   "weight": 10.0,
+   "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-06-10",
-   "activation_count": 6,
-   "context": "2026-06-10 (markets E4): the cleanest single-session proof this cycle — DII +Rs5,165cr absorbed ~93% of FII -Rs5,556cr on Mon 8 Jun, holding the Nifty 23,000 floor (close 23,123); the index then ROSE Tue/Wed on Trump's tone despite continued FII selling. The DII buffer is the proximate support. Weight held at 10, retained per the FII-edge exception."
+   "last_activated": "2026-10-13",
+   "activation_count": 7,
+   "context": "CONFIRMED: FPI −₹35.9k cr Sept → Nifty −6.0% Sept; DII +₹64.8k cr absorbed. At 9.5; activation logged."
   },
   {
    "to": "inr-usd",
@@ -92,6 +99,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-13",
+   "headline": "**FPI equity: September −₹35,861 cr (NSDL month column; fortnights −₹14,116 / −₹21,745 cr); a further −₹9,232 cr traded 30 Sep booked in October; October MTD −₹44,166 cr to ~9 Oct (PTI, incl. the 30-Sep trade); 2026 YTD −₹3.04 lakh cr (largest foreign selling year on record; Kotak Neo ~$30bn net).** Sept selling concentrated in financials (−₹13,147 cr), oil & gas (−₹6,854 cr), autos (−₹6,212 cr). Exchange provisional: 5 Oct −₹4,699 cr, 7 Oct −₹6,121 cr, 9 Oct −₹3,569 cr. Reasons (PTI/Geojit/Trackk): crude, stronger dollar, **US 10Y above 5.2%**, AI rally in North Asia on cheaper valuations. DIIs +₹64,759 cr Sept; SIP record ₹32,490 cr. **Series note: the baseline's Aug +₹10,231 cr (exchange) vs PTI/Kotak +₹29,631 cr (incl. primary) — name the series.** — CONFIRMED (NSDL via PTI)."
+  },
   {
    "date": "2026-09-22",
    "headline": "**NSDL: FPIs sold ₹23,676 cr via exchanges 1–19 Sep (ET, Podishetti Akash); primary-market +₹2,703 cr (YTD primary ₹48,550 cr).** After +₹11,045 cr (Jul) and +₹10,231 cr (Aug). Drivers cited: crude, US 10Y ~5%, Iran–US risk, rupee. V K Vijayakumar: flows 'again turning negative'; Dheeraj Gaur (Choice Wealth): 'FPIs still don't want much to do with the secondary market.' DIIs +₹11,232 cr in the week to 19 Sep, +₹36,219 cr MTD (5th straight week). NSE provisional Fri 18 Sep: FII +₹599.54 cr (one session). Counter-current: North-Asia AI complex at records (Nasdaq 27,122; KOSPI 7,008; TAIEX +6.9% 1M) — the capital-substitution channel is pulling harder. ₹25,000 cr September trigger: ₹1,324 cr away. (ET via inkl; PTI) — REPORTED (single outlet; depository data)."

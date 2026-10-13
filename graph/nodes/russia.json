@@ -3,8 +3,8 @@
  "name": "Russia",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-09-17",
- "summary": "Day 76. **RUSSIA-CUSTODIAN PATH NOW STRUCTURALLY DISPLACED BY TRUMP CHINA-CUSTODIAN DOOR-OPENING (A1 May 14)**: Trump publicly stated 'only Washington or Beijing can retrieve Iran's nuclear material if Tehran agrees to hand it over' (CONFIRMED RHETORIC — Times of Israel May 14 liveblog primary) — explicitly substituting China for Russia as the proposed HEU custodian. US officials had reportedly ruled out Russia-as-custodian per multiple May reports. The Russia-HEU-custodian non-event is now MEANINGFUL: at Day 15 of 21 from Putin-Araghchi meeting there is no formal announcement, AND the picture has shifted today by Trump's explicit 'Washington or Beijing' framing in Beijing. The 21-day window (closes 2026-05-18) is now operationally vestigial — even if Putin formalises the offer, the US has publicly pivoted to a different jurisdiction. **Russia structurally sidelined on the operational diplomatic architecture** but retains: rhetorical support for Iran via state media (Pravda EN, TASS — TASS continues to amplify EIA forecast cuts as 'the West cannot sustain $100 oil'), UNSC veto, Bushehr commitment, Russian-oil waiver to India (~1.9 mbpd preserved). Pravda May 14: silent on Trump's China-HEU-custodian statement. TASS continues bearish-oil amplification. PRIOR (May 13): No party publicly named Russia as the custodian candidate, but Putin's standing offer (May 9) is the implicit candidate per market analyst read. **US has not confirmed the uranium-transfer detail's specific custodian — Russia formally sidelined but operationally available.** **TRUMP REJECTED IRAN'S RESPONSE AS 'TOTALLY UNACCEPTABLE'** — so the HEU-transfer-with-return-clause is now in rejection state; if any framework is salvaged, Russia-custodian path remains open. **B3 TRUMP WH SIT-ROOM MAY 11 considering renewed strikes; Trump China visit May 14-15 = forced pause window** — Russia not at the table in Beijing. Pravda (Russian state) published the May 10 Doha bulk-carrier-strike attribution to 'two Iranian UAVs' — UNCONFIRMED by Western forensics; Russian-state single-side adversarial chain. TASS/Pravda SILENT on the WSJ UAE-Lavan revelation (likely because UAE-as-third-combatant complicates Russia's preferred US-Israel-vs-Iran framing). Russian oil flow to Indian refiners ~1.9 mbpd preserved under 30-day waiver. Uranium URA +3.7% 1D / +12.3% 1M — Cameco/Kazatomprom proxy bid stays strong on Iran HEU concession + AI-power demand. PRIOR FRAMING (preserved): Russia retains rhetorical support for Iran via state media + UNSC veto + Bushehr two new nuclear units commitment. **The HEU-custodian path is the most consequential structural opening for Russia in cycle — if Iran's response is salvaged (post-Beijing) and Russia is formally named as HEU custodian, Russia's strategic position vis-à-vis nuclear file regulation strengthens materially.** The 14-point MOU's 'Iran ships out highly-enriched uranium stockpile' provision necessarily requires a custodian — if not Russia, then potentially the IAEA, Kazakhstan (mentioned in earlier-cycle reporting), or US-based facility. Peskov reaffirmed via Pravda EN April 18 (and reiterated to India Today early April) that Russia's offer to take Iran's enriched uranium 'remains active' but the US has rejected the proposal. JPost specifically described the MOU provision as 'Tehran give away enriched uranium' (custodian undefined). The Pakistan track has displaced Russia as the operational mediator. **The 21-day formal-proposal window from prior brief (RESOLVED-NO at Day 9) needs reframing: Russia is sidelined as mediator, BUT could be reactivated as uranium custodian — different role and remains live.** Russia retains structural facets: rhetorical support for Iran via state media (Pravda EN, TASS), intelligence support via permanent communications channel, UNSC veto, Bushehr two new nuclear units commitment. Russian-oil waiver (30-day India extension) preserves ~1.9 mbpd Russian flow to Indian refiners. URA +7.5% partly reflects HEU custodian path legitimization (Cameco 24% of URA, AI power demand intact). Pravda Trump May 6 ran 'IDF preparing large-scale Iran op' single-source claim — REPORTED only, NOT verified mainstream Western media; Russian adversarial-media chain.",
+ "last_updated": "2026-10-13",
+ "summary": "Russia, Day 228. Moscow is now a swing supplier licensed by Washington during the Iran war, a would-be broker, and — per Western officials — Iran's arms supplier. Trump's diesel deal with Putin (9 Oct) came with an OFAC licence on Russian diesel to 7 Apr 2027 and an early lift of Russia's export ban; Trump claimed a Russia–Ukraine 'energy ceasefire' (11 Oct) that Moscow has not confirmed. Putin re-tabled holding Iran's HEU and called a ground operation in Iran 'unacceptable' (9 Oct), and told Pezeshkian Russia will 'do everything' to help (8 Oct). Bloomberg (9 Oct): Russia supplying Iran missiles (WH rejects). Despite Urals at a premium to Brent, Russia's oil-and-gas tax take fell 17% y/y (Ukrainian refinery strikes, strong rouble). EU calls the diesel deal 'concerning'.",
  "current": {
   "status": "BRICS Delhi attendee; Black Sea grain shutdown driving global grains (non-Iran driver)."
  },
@@ -33,6 +33,13 @@
    ],
    "added": "2026-05-14",
    "note": "Trump publicly opened HEU-via-China custodian door at Trump-Xi summit Day 1 (CONFIRMED RHETORIC). Xi has NOT publicly accepted. Iran ambassador to China already laid public scaffolding for China as 'political balancing partner.' Trigger requires operational acceptance, not rhetorical door-opening."
+  },
+  {
+   "condition": "Russia named as HEU custodian in any US–Iran paper, OR both Washington and Tehran publicly accept the custody offer, by 3 Nov",
+   "status": "watching",
+   "cascade": "New channel alongside Qatar/Pakistan/Iraq; would move the nuclear-sequencing gap.",
+   "added": "2026-10-13",
+   "notes": "Added 2026-10-13 (Putin 9 Oct; replaces the stale China/Russia custodian windows)."
   }
  ],
  "top_edges": [
@@ -55,10 +62,11 @@
   {
    "to": "brent-crude",
    "type": "price_beneficiary",
-   "weight": 5.0,
+   "weight": 5.5,
    "directness": 2,
-   "last_activated": "2026-04-06",
-   "activation_count": 4
+   "last_activated": "2026-10-13",
+   "activation_count": 5,
+   "context": "CONFIRMED (licence) + CLAIMED (ceasefire): Trump–Putin diesel deal + OFAC licence to 7 Apr 2027 + claimed energy ceasefire took ~$1–2 off (12–13 Oct); Urals at a premium to Brent. 5.0→5.5."
   },
   {
    "to": "trump",
@@ -78,6 +86,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-13",
+   "headline": "**Moscow inserts itself on three tracks at once.** (1) Putin–Pezeshkian (Avaza, 8 Oct): Russia will 'do everything' to help; Putin–Trump call (9 Oct, ~90 min): HEU-custody offer 'remains in force', a ground operation in Iran 'unacceptable'; Kremlin says Trump 'welcomed Moscow's involvement' — CLAIMED (no WH readout). (2) Trump–Putin diesel deal: OFAC general licence on Russian diesel to 7 Apr 2027; Russia lifts its export ban early (300kt Oct/500kt Nov/1Mt Dec per Novak — volumes conflict); claimed 'energy ceasefire' (11 Oct) unconfirmed by Moscow; EU ministers call it 'concerning' and adopt the largest Russia sanctions listing yet (12 Oct). (3) Bloomberg (9 Oct, Western officials): Russia supplying Iran with missiles — REPORTED; White House rejects. Russia's Jan–Sep oil/gas tax take fell 17% y/y despite Urals ~$92 (Reuters 5 Oct); Urals traded at a premium to Brent (~+$3.30, early Oct). — mixed tags."
+  },
   {
    "date": "2026-09-17",
    "headline": "**Lavrov positions Moscow as guarantor of the Gulf–Iran track: the meeting is postponed 'for several days' and will convene 'in one of the cities of the Sultanate of Oman in the near future' — no Omani confirmation of any date. Also accused Austria of 'grossly' violating obligations by excluding AEOI chief Eslami.** TASS carried Araghchi's 'agreed with Oman' line. Diplomatic signalling, not fact. (TASS; oprep) — REPORTED/RHETORIC."

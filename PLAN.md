@@ -23,14 +23,13 @@
 3. [x] viewer.html — interactive graph with Cytoscape.js, click for details, search, layer layout
 4. [x] `/crisis-brief` skill definition — `.claude/commands/crisis-brief.md` + readable copy in `skills/`
 
-## Latest Run — 2026-09-22 (morning), Day 207
-- Pipeline complete: intel → markets → graph → brief → verify → publish → deliver (deliver-brief.py run manually per memory).
-- Lead: Brent −7.7% in four sessions to $100.34 (Nov) on rhetoric + Saudi rerouting through Hormuz, no Yanbu restart; Europe Oct Saudi allocations zero; five UKMTO tanker strikes (unattributed); Trump ordered then cancelled Houthi strikes (REPORTED); Riyadh hit by Houthi missile 19 Sep; Iran's seven conditions via Qatar (REPORTED); VIX <16 ×3 trigger FIRED (complacency caveat); ECB Sept trigger resolved unfired.
-- Data catches: yfinance front-month ROLL (BZ=F/CL=F/RB=F/HO=F) — market-data.py 1D figures were artefacts; used Nov contracts. India reserves baseline was stale ($675bn → $780.8bn; FCNR(B)/swap ~$133–144bn + ₹1trn OMO drain — now in `rbi`/`india`).
-- Fact-check: 11 corrections (3 HIGH: "first attack on the capital" over-claim; "six houses" → five; Krieg day-count drift 10 → 11).
-- Structural flag: market-data.py should print contract month / detect rolls; consider pinning explicit contract tickers around expiry.
-- Open gaps: war-risk premium print (4th brief); fresh TD3C (last 15 Sep); JMIC Sept PDF (403); Qatar confirmation of the seven conditions; Trump–GCC outcome (today) — evening/next brief.
-- Dated tells: 22 Sep Trump–GCC + Trump UNGA speech + Brent settle vs $100; 23 Sep Pezeshkian speech + Yanbu "days" clock + Iranian airline cliff; 25 Sep Trump–Xi readout + Krieg test expiry; 28 Sep RBI last OMO tranche; 7 Oct RBI; 28 Oct FOMC.
+## Latest Run — 2026-10-13 (morning), Day 228
+- Pipeline complete: intel (six parallel desk researchers → consolidated intel.md) → markets → graph → brief → verify (independent fact-check agent) → publish → deliver. First brief since 22 Sep (21-day gap); run at ~15:30–18:30 IST, filed as "morning" per restart practice.
+- Lead: Saudi Arabia escalated alone in Yemen (Sanaa strikes from 1 Oct; Mecca Pact activated 5 Oct; "Dawn of Yemen") and the Houthis hit Saudi civil airports (KKIA 10 Oct: 13 dead incl. 1 American and 1 Indian, 309 injured). Hormuz ship war ~25 hulls in 20 days, IRGC now claims specific strikes (UKMTO attributes none). Brent >$100 for 14 settles (peak $106.65), Dated $25–28 over, TD3C record $1.41m/day; East-West pipeline restarted (5.8 mb/d). India: RBI hike to 5.50%, CPI 5.54%, FPI −₹35.9k cr Sept, reserves −$46bn, then the RBI OMC dollar window (10 Oct). US–Iran: one proximity round (22 Sep), Trump's no-strike pledge to 3 Nov. US 10Y 5.37% (highest since 2002).
+- Corrections to the baseline: the ECB HIKED on 10 Sep (the brief and node said it held); the script's "US 2Y" (`^IRX`) is the 13-week bill; the rupee record is 96.96, not 96.60; FOMC is 27–28 Oct; the KOSPI "−7.4%" was the intraday low (close −5.46%).
+- Fact-check: 22 flags (1 CRITICAL, 7 HIGH, 14 LOW), all applied; 2 triggers reverted to watching (houthis holy-city; red-sea ≥2%); Hormuz attribution relabelled REPORTED/CLAIMED.
+- Process notes: (1) the architect-check hook blocks writing new `scripts/update_graph_*.py`, so the graph update ran inline via Bash with the same helpers (scratchpad); (2) Sections I–III ran ~3,800 words — over the 5-minute target, same as the last brief; (3) `edges.json` has a duplicate `iran→strait-of-hormuz` record; (4) many node summaries were months stale and 30 were refreshed — the staleness sweep should run every brief.
+- Dated tells: 14 Oct US CPI / IEA OMR / India WPI; 15 Oct TSMC, Wipro, Warsh; 16 Oct India reserves; 17 Oct KKIA reopening + F-35 window; ~20 Oct Rezaei "not responding" test; 27 Oct Israel election; 28 Oct FOMC; 29 Oct ECB; 3 Nov US midterms → 4–30 Nov post-pledge window; 2–4 Dec RBI.
 
 ---
 

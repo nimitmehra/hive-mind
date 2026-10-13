@@ -3,8 +3,8 @@
  "name": "Saudi Arabia",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-09-22",
- "summary": "Saudi Arabia, Day 207. Three things converged in five days. First, the pipeline: Bloomberg's 16-Sep 'half capacity within days' has produced no barrel — Yanbu has loaded nothing since 11 Sep and Kpler's independent estimate is half of exports 'within a month'. The kingdom's answer has been to push crude the other way, THROUGH Hormuz under US escort at 2.8–2.9 mb/d (four times August), loading seven VLCCs at once at Ras Tanura on 20 Sep and transferring ship-to-ship off Sohar — and to tell every European term buyer that October allocations are zero, the first direct Saudi supply cut to Europe of the cycle. Second, the war reached the capital: a Houthi ballistic missile at Riyadh was intercepted at dawn on 19 Sep while Reuters imagery and the WSJ showed a fire at King Khalid airport's fuel farm; two days earlier drone debris in Taif produced the first Saudi civilian death since the 2022 truce. Third, the ally declined: after MBS's 17-Sep call Trump ordered the Pentagon to prepare strikes on the Houthis, then cancelled them on 20 Sep with bombs loading, because the Houthis had promised Oman's channel they would spare everyone but Saudi hulls and his advisers did not want a new front. What Riyadh got instead was a $24.3bn F-35 approval, British refuelling tankers, Turkish and Pakistani pledges under a Mecca Pact nobody has activated, and a seat at today's Trump–GCC meeting. The graph's RESTART trigger stays watching; the new watch is whether Riyadh escalates alone against Sanaa or invokes the pact within 14 days.",
+ "last_updated": "2026-10-13",
+ "summary": "Saudi Arabia, Day 228. The kingdom is now a primary belligerent in its own war with the Houthis, and the bypass that protects the oil market is back. The Houthi campaign moved from Yanbu and Riyadh's outskirts to mass-casualty strikes on civil airports: KKIA was attacked on five days and hit on four (6–12 Oct), 13 died on 10 Oct (incl. an American and an Indian) and 309 were injured; GACA counts 20 dead/356 injured 6–11 Oct; KKIA is shut to 17 Oct; Saudi air defence is short of interceptors (WSJ). Riyadh escalated alone — Sanaa struck from 1 Oct, a Saudi-directed ground offensive ('Dawn of Yemen') from 5 Oct with ~100 aircraft, and the Mecca Pact formally activated 5 Oct (Pakistan in-kingdom; Türkiye air defence only) — while Washington gives intelligence and targeting but not strikes (Trump: 'We may'). The offensive has not retaken Perim/Mayun (AFP), and the Houthis gained at Taiz. On oil, the East-West pipeline restarted 22 Sep and carried 5.8 mb/d by 6 Oct (minister); September exports 6.67 mb/d; Europe's November allocations restored; but Asian buyers refuse to load inside Hormuz, so Aramco sells delivered cargoes at ~$20 over a −$5 OSP — the paper-physical gap inside Aramco's own price list. Claimed Houthi hits on Aramco processing (Shedgum, Tanajib) are unconfirmed and are the tail risk. Riyadh has not blamed Tehran in public and took Araghchi's 11-Oct call; Abu Dhabi has re-aligned behind it. Binaries: KKIA reopening (17 Oct); a US decision on joining strikes; any confirmed damage at Eastern Province processing; Perim/Mocha control.",
  "current": {
   "status": "BYPASS SHUT, CAPITAL STRUCK, ALLY DECLINED TO STRIKE (2026-09-22). Saudi crude flows through Hormuz under US escort; Europe cut off; the Houthi war has reached Riyadh; Washington will not open a Yemen front. Trump–GCC meeting today is where the ask lands.",
   "pipeline": "East-West SHUT since 11 Sep; Yanbu ZERO loadings (Kpler); 'half within days' (Bloomberg 16 Sep) UNMET as the ~23 Sep clock expires; Kpler: half of exports 'within a month'. Gulf-side: 2.8–2.9 mb/d via Hormuz; 7 VLCCs/14mb Ras Tanura 20 Sep; Europe October allocations ZERO.",
@@ -102,13 +102,14 @@
     "india",
     "indian-oil-marketing"
    ],
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — NOT FIRED. No Aramco/SPA statement; no Kpler/Vortexa Yanbu loading print (Kpler: zero since 11 Sep; 'half within a month'). The Bloomberg/Wright 'days' guidance (16 Sep) expires ~23 Sep unmet. The market has priced the SUBSTITUTE (escorted Hormuz) as if it were the restart — the graph has not.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — guidance only (Bloomberg co. sources 'half within days'; Wright 'days'); Vortexa: Yanbu zero since 11 Sep; no Aramco/SPA restart statement; cargoes cancelled. The 'days' claim is now a dated test: if no Yanbu loading is tracker-verified by ~23 Sep, the guidance",
-   "status": "watching",
-   "added": "2026-09-14"
+   "notes": "FIRED 2026-10-13 — restart 22 Sep (Reuters/Kpler/TankerTrackers); official leg met by Energy Minister on record (6 Oct: 'operational… ~5.8 mb/d'); tracker leg met in substance (~2 mb/d Yanbu loadings late Sep; Kpler-derived ~4 mb/d exportable 8 Oct). Kpler's 'half within a month' too slow; 'days' guidance vindicated. Threat leg remains live (Yanbu targeted 19/24 Sep).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — NOT FIRED. No Aramco/SPA statement; no Kpler/Vortexa Yanbu loading print (Kpler: zero since 11 Sep; 'half within a month'). The Bloomberg/Wright 'days' guidance (16 Sep) expires ~23 Sep unmet. The market has priced the SUBSTITUTE (escorted Hormuz) as if it were the restart — the graph has not.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — guidance only (Bloo",
+   "status": "fired",
+   "added": "2026-09-14",
+   "status_changed": "2026-10-13"
   },
   {
    "condition": "Saudi Arabia ESCALATES ALONE after the 19-Sep Riyadh strike — confirmed Saudi strikes on Houthi leadership/Sanaa civil infrastructure, OR formal activation of the Mecca Joint Defence Agreement (Pakistan/Turkey forces committed), within 14 days (by ~5 Oct)",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "houthis",
     "red-sea",
@@ -118,7 +119,22 @@
     "united-states"
    ],
    "added": "2026-09-22",
-   "notes": "Added 2026-09-22. Riyadh asked for US strikes and did not get them (NYT); the capital and its airport fuel farm were hit; Pakistan has pledged 'physically' but the pact is 'referenced, not activated' (Al Jazeera 18 Sep). Either leg converts the Saudi–Houthi war from attrition to a regional war. Resolve on AFP/Reuters on-ground reporting or an official pact activation, not on rhetoric."
+   "notes": "FIRED 2026-10-13 — BOTH LEGS, on the deadline: Saudi strikes on Sanaa from 1 Oct (AFP eyewitness; coalition confirmed a Sanaa launch-platform strike 6 Oct; Sanaa airport 9–10 Oct per Houthis) AND formal Mecca Pact activation 5 Oct (Saudi/Pakistan/Türkiye ministers; Pakistan forces in-kingdom; Türkiye non-offensive). Plus a Saudi-directed ground offensive from 5 Oct. CONFIRMED by 3+ independent sources.\n[prior] Added 2026-09-22. Riyadh asked for US strikes and did not get them (NYT); the capital and its airport fuel farm were hit; Pakistan has pledged 'physically' but the pact is 'referenced, not activated' (Al Jazeera 18 Sep). Either leg converts the Saudi–Houthi war from attrition to a regional war. Resolve on AFP/Reuters on-ground reporting or an official pact activation, not on rhetoric.",
+   "status_changed": "2026-10-13"
+  },
+  {
+   "condition": "KKIA (Riyadh airport) reopens on schedule by 18 Oct — OR the closure is extended / a further Houthi strike kills ≥5 in a Saudi city within 14 days (by 27 Oct)",
+   "status": "watching",
+   "cascade": "Extension or a new mass-casualty strike = the airport war is sustained; raises odds of US strikes (and of the Houthis widening to non-Saudi targets).",
+   "added": "2026-10-13",
+   "notes": "Added 2026-10-13 after the 6–13 Oct airport campaign (GACA 20 killed/356 injured)."
+  },
+  {
+   "condition": "Aramco/SPA acknowledges damage at an Eastern Province processing site (Shedgum/Abqaiq/Tanajib) OR satellite imagery (Planet/Sentinel/Reuters) confirms a hit, within 14 days (by 27 Oct)",
+   "status": "watching",
+   "cascade": "Step-change for saudi-arabia→brent-crude: Houthi reach to the 2019 Abqaiq geography; futures to the physical price (~$130).",
+   "added": "2026-10-13",
+   "notes": "Added 2026-10-13. Houthi claims on Shedgum/Tanajib (11 Oct) are CLAIMED only."
   }
  ],
  "top_edges": [
@@ -190,14 +206,30 @@
   {
    "to": "shipping-tankers",
    "type": "yanbu_outage_reroutes_saudi_crude_via_hormuz_escort",
-   "weight": 5.5,
+   "weight": 6.0,
    "directness": 1,
-   "last_activated": "2026-09-22",
-   "activation_count": 2,
-   "context": "CONFIRMED by 3 sources (JPM/satellite 2.8–2.9 mb/d via Hormuz; Bloomberg 60mb Ras Tanura + STS Sohar; Fox 7 VLCCs/14mb Sun 20 Sep): Yanbu shut → Saudi crude through Hormuz → tonne-miles up. FRO −3.1% Mon is the premium leg; BOAT flat is the tonne-mile leg holding. 5.0→5.5 (markets C5/E3)."
+   "last_activated": "2026-10-13",
+   "activation_count": 3,
+   "context": "CONFIRMED both legs: Yanbu restart lengthened Saudi routes (Red Sea→Asia) while Hormuz STS demand rose; Aramco charters/delivers itself as Asian buyers refuse to load in Hormuz (Reuters/Bloomberg); TD3C record. 5.5→6.0."
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-13",
+   "headline": "**Houthi claims on Aramco plants — Riyadh refinery (3 Oct; AFP journalist saw fire at the facility), Rabigh (~5 Oct; fire indications), Shedgum gas plant and Tanajib (11 Oct) — Aramco silent; minister/Nasser call the system 'intact'.** Riyadh refinery and Rabigh fires REPORTED; Shedgum/Tanajib CLAIMED only — no imagery, no Saudi confirmation. If an Eastern Province processing hit is confirmed, it is the 2019 Abqaiq geography. First Saudi–Iranian FM contact surfaced in the war: Araghchi phoned Faisal 11 Oct offering to help start 'Saudi-Yemeni dialogue' (Iranian readout); SPA confirmed the call, omitted the offer. UAE's Mansour bin Zayed visited Riyadh 29 Sep — first senior UAE visit since the 2025 rift; Gargash (12 Oct) called for 'joint Gulf action' against 'Iran and its allies'. (AFP, Reuters, Al Jazeera, Xinhua, SPA, AP) — mixed tags as stated."
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "**EAST-WEST PIPELINE RESTARTED 22 Sep — RESTART trigger FIRED.** Reuters (29 Sep): operations resumed 'last Tuesday'; Yanbu stocks rose ~1mb on 22 Sep (Kpler); ~2 mb/d Yanbu loadings week of 22 Sep (two trade sources); Kpler throughput 2.65 mb/d (28 Sep); Nasser (5 Oct): 'about 80%'; **Energy Minister Abdulaziz (Manama, 6 Oct): 'operational now… around 5.8 million barrels' through the line** (capacity 7). Kpler-derived ~4 mb/d exportable from Yanbu by 8 Oct. Saudi crude exports **6.67 mb/d in September** (7-month high; Aug 3.4); production ~7.4 mb/d October (~75% of pre-war; Kpler) — the ministry's 'back to pre-war' line is contradicted by Kpler. **Europe: full November allocations restored** (Bloomberg, 9 Oct; ≥3 refiners). **Asia: Nov OSP cut $3 to −$5.00 vs Oman/Dubai (deepest since Jun 2020)** but Asian term buyers refused to charter inside Hormuz → Aramco sells delivered spot, cargoes ~$20 over OSP (Reuters, 12 Oct). Minister (12 Oct): study to raise non-Gulf bypass to 10 mb/d in 2–3 years; Nasser: 'no nation… can safeguard [energy routes] alone.' Threat leg live: Houthi missiles at Yanbu 19/24 Sep intercepted (Greek Patriot); AFP single-source 'pumping station hit' 5 Oct — CLAIMED, denied by people familiar. Kpler's 'half within a month' was too conservative; Bloomberg/Wright 'days' guidance vindicated on the restart. — CONFIRMED."
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "**THE HOUTHI AIRPORT WAR (6–13 Oct) — deadliest attack on the kingdom in over a decade.** KKIA Riyadh attacked on five days and hit on four (6/7, 8, 10, 11 Oct); **10 Oct a missile hit terminals 3/4: 12 killed (4 Saudi, 2 Bangladeshi, 1 each US/Egypt/Jordan/Palestine/Syria/Sudan) + an Indian who died 11 Oct = 13; 309 injured; 3 Indians in ICU**. 8 Oct: three Saudis killed incl. a Saudia captain, an A320 destroyed. Abha (2 killed), Dammam (King Fahd airport tarmac hit 11 Oct), Najran/Jizan (5 Oct) also struck; GACA: **20 killed / 356 injured 6–11 Oct**. Initial Saudi inquiry (AP): drones first, then cruise and ballistic missiles >1,000 km; maneuvering warheads challenged Patriot; an air-defence-failure probe opened; WSJ (12 Oct): Saudi Arabia running low on interceptors, asked Washington for immediate support. **KKIA closed to midnight 17 Oct**; FAA NOTAM to 10 Dec; Etihad/Gulf Air/Qatar Airways/EgyptAir/SIA suspended; Exxon/Total/Shell/BP CEOs skipped WPC Riyadh. Energy Minister: 'our response must be equally serious… We are like a phoenix.' Riyadh has NOT publicly blamed Iran. (Al Jazeera, NPR, AP, Arab News, GACA via ABC, Indian Embassy) — CONFIRMED."
+  },
+  {
+   "date": "2026-10-13",
+   "headline": "**RIYADH ESCALATED ALONE — trigger FIRED on both legs (1–5 Oct).** (1) Saudi jets struck Sanaa from the night of Thu 1 Oct — first since fighting resumed in July (Al-Masirah 26 strikes; two AFP correspondents saw warplanes firing); coalition (SPA, 6 Oct) confirmed destroying a ballistic-missile launch platform in Sanaa 'used in the attack on Riyadh'; Sanaa airport struck 9–10 Oct (Houthi claim). (2) **Mecca Pact formally ACTIVATED 5 Oct** after an emergency Riyadh meeting of Saudi, Pakistani and Turkish defence/foreign ministers — 'activate collective deterrence measures' (Khalid bin Salman); 'provide the agreed military forces… rapid deployment' (Pakistan FM joint statement). Pakistan: forces in the kingdom 'in multiple capabilities and domains' (ISPR to CNN, 7 Oct); Türkiye (Fidan, 8 Oct): air defence/EW/technical support only, 'will not send troops… to carry out attacks'. (3) **'Dawn of Yemen' ground offensive launched 4–5 Oct** under Saudi direction with ~100 Saudi aircraft, led by the Giants Brigades; Dhubab airfield taken; **AFP's own government sources (10 Oct): Mayun/Perim 'remained in Houthi hands', Mocha unconfirmed**; Houthis took all four exits of Taiz (12 Oct). US gives intelligence/targeting support but no strikes or refuelling. (Reuters 2 Oct; Al Jazeera 5 Oct; AFP 3/10 Oct; Arab News PK/CNN; Defense News) — CONFIRMED (action); battlefield claims CLAIMED."
+  },
   {
    "date": "2026-09-22",
    "headline": "**WASHINGTON ORDERED, THEN CANCELLED, A US AIR CAMPAIGN AGAINST THE HOUTHIS AT MBS'S REQUEST — the Saudi ask into today's Trump–GCC meeting is unanswered.** NYT (multi-official, 20–21 Sep): Wed 16 Sep Trump told advisers he opposed strikes; Thu 17 Sep after a call with MBS he reversed and ordered the Pentagon to prepare; midday Sun 20 Sep — target lists approved, munitions being loaded, first wave imminent — he cancelled. Reasons per NYT: the Houthis, via Oman, had assured Washington they would not attack US forces or non-Saudi shipping and an official warned strikes 'would likely collapse' that understanding; Trump's inner circle 'deeply skeptical of or directly opposed'; strain on forces engaged with Iran; doubts that limited strikes would force Houthi talks. Axios ran its own sourced account; Reuters partly confirmed; CENTCOM referred to the White House, which declined on-record comment. Trump (Fox, Sun): 'The Houthis… have so far agreed not to attack American forces… they don't want to fight us.' Framing caution: Euronews/JPost headlines say cancelled 'after Saudi plea/MBS call' — the NYT sequence has MBS's call TRIGGERING preparation; 'Saudi plea caused the stand-down' is unsupported. No Saudi public reaction found. — REPORTED (strong: NYT + Axios + partial Reuters + Trump on record)."

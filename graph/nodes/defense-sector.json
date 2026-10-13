@@ -3,8 +3,8 @@
  "name": "Defense & Aerospace Sector",
  "type": "sector",
  "created": "2026-03-28",
- "last_updated": "2026-09-22",
- "summary": "Defense sector, Day 199. The August 'durable bid' (Lockheed +18% 1M, record backlog) reversed into a −12% month — not because the war eased (it escalated: tanker sinkings, a second chokepoint, troops extended to 2027) but because the administration DATED its end ('immediately after our election') and pledged 'strikes → sanctions'. Equities are pricing the political calendar; oil and tankers are pricing the battlefield. The structural multi-year leg (NATO, Ukraine, contracted backlog) is intact; the Iran-specific premium is what came out and what a declared campaign or a Pickaxe strike would put back. Also rates: a long-duration industrial into a Fed hike.",
+ "last_updated": "2026-10-13",
+ "summary": "Defence sector, Day 228. Down under an escalating war: ITA −4.7% since 22 Sep (four closes below $208), Northrop −7.9%, Lockheed −4.4% — because the market prices the US exit (Trump's no-strike-before-3-Nov pledge, 'war ends very soon'), a stalled $67.1bn supplemental and analyst target cuts, not the Gulf escalation (Riyadh massacre, carrier deployment, CENTCOM combat preparation). Replacement demand is real (CRS: 81 US aircraft lost/damaged; Saudi interceptor shortage) but not priced. If the post-3-Nov strike window opens, the sector is under-owned. India defence (HAL, BEL) rallied 13 Oct.",
  "current": {
   "price": "ITA $216.14 (+1.1% Mon; −8.9% 1M); LMT $535.40 (+0.4%; −5.7% 1M).",
   "delta_1d": "-1.1% / +0.3%",
@@ -22,17 +22,18 @@
     "sp-500"
    ],
    "added": "2026-03-28",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — House recessed to mid-Nov; Pentagon tally $43.6bn.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — House recessed to mid-Nov; no supplemental possible before then."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — $67.1bn request, no action; House in recess.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — House recessed to mid-Nov; Pentagon tally $43.6bn.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — House recessed to mid-Nov; no supplemental possible before then."
   },
   {
    "condition": "ITA tests $208 sustained on Branch 3 deepening (3+ sessions)",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "defense-sector",
     "sp-500"
    ],
    "added": "2026-04-27",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — low $213.84 (18 Sep); $216.14 now.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — $215.27; ~3% above. Bounced on IG/CBO replenishment read."
+   "notes": "FIRED 2026-10-13 on PRICE (four closes <$208, 7–12 Oct; $206.03) — NARRATIVE CAVEAT: cause is the end-date/supplemental-stall narrative, not 'Branch 3 deepening'.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — low $213.84 (18 Sep); $216.14 now.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — $215.27; ~3% above. Bounced on IG/CBO replenishment read.",
+   "status_changed": "2026-10-13"
   },
   {
    "condition": "Lockheed bounces +10% in 5 sessions on Iran rejection scenario = falsification of May 5 pause durability (back to $620+)",
@@ -85,6 +86,10 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-13",
+   "headline": "**Defence fell under an escalating war: ITA $216.14 → $206.03 (−4.7%; four closes below $208, 7–12 Oct), NOC −7.9%, LMT −4.4%.** Why: the end-date narrative (Trump: war ends 'very soon', oil 'will drop like a rock'; pledged no strike before 3 Nov), a $67.1bn supplemental with no congressional action, Bernstein NOC target cut ($653→$620); offset only by Redburn Buy initiations. CRS: 81 US aircraft lost/damaged; Saudi interceptor shortage (WSJ 12 Oct). India defence (HAL +4.6%, BEL +3.2% on 13 Oct). Equity investors price the US exit, not the Gulf war. — CONFIRMED (prices)."
+  },
   {
    "date": "2026-09-22",
    "headline": "**ITA +1.1% to $216.14 / Lockheed +0.4% to $535.40 Mon — barely moved on a $24.3bn/48-jet Saudi F-35 approval (State, 18 Sep), a Pentagon cost print of $43.6bn/18 KIA/830+ WIA (to 3 Sep) and a Lockheed next-gen missile production framework; still −8.9%/−5.7% 1M.** The end-date narrative (Trump 'end soon', Vance 'different phase', House recess) outweighs order flow; a US Houthi campaign that would have been a bid was cancelled with bombs loading. ITA $208 'Branch 3' trigger: not reached (low $213.84 Fri). (yfinance; Fox live 17–19 Sep) — CONFIRMED."
