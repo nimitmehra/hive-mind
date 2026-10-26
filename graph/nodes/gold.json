@@ -3,13 +3,13 @@
  "name": "Gold",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "Gold, Day 228. Gold is not a war hedge in this regime; it is a short-real-yield trade, and the war is pushing real yields up. Through the most violent month since July — the Riyadh airport massacre, ~25 Hormuz tanker strikes, a carrier group and 10,000 troops dispatched — gold fell 3.8% to ~$4,208 (low ~$4,090 on 7 Oct) as the 10Y hit a 2002 high with breakevens flat, the dollar hit an 18-month high and December Fed-hike odds held ~85%. The negative oil→gold sign (via fed→real yields) first flagged 14 Sep is confirmed and sharpened. Regime-break tells: a credit event (HY spreads already +47bp), the Fed explicitly capping, or a dollar reversal. State Street's $4,000 'structural floor' (central-bank buying) is the support thesis.",
+ "last_updated": "2026-10-26",
+ "summary": "Gold, Day 241. Gold failed as a hedge twice over. It fell about 4% in the week to 23 Oct and closed below $4,000 (spot ~$3,996) for the first time since mid-July — in a fortnight when oil hit a six-month high, a US–Iran campaign was being planned in the press, and US real yields fell 16bp in three sessions. The graph's trigger for exactly that real-yield move fired, and the expected gold rally did not come. The pattern is deleveraging plus the Fed: silver, platinum and Japanese equities fell with it; markets price a December hike almost unanimously; the dollar was flat; and on 22 Oct, the day of the AI-credit scare, investors bought Treasuries, not gold. The inverted-haven regime that began in July — gold trading inverse to oil via the Fed — has deepened into gold as a funding asset in risk-off. A regime change would need a falling dollar or a genuine financial-system scare; neither is visible. All-time high $5,175 (January); $4,600 regime test far away.",
  "current": {
-  "price": "$4,207.70 (Dec, 13 Oct); low ~$4,090 spot (7 Oct); −3.8% since 22 Sep",
-  "delta_1d": "−0.9% Mon; −0.2% live",
-  "delta_1m": "−6.5% (vs 24-Aug spike)",
-  "regime": "SHORT-REAL-YIELD TRADE (13 Oct): inverse to oil via fed→real yields; not a war hedge."
+  "price": "Spot ~$3,996 (23 Oct); Dec futures $4,007.90 (23 Oct), ~$4,026 live 26 Oct",
+  "delta_1d": "+0.4% live",
+  "delta_1m": "−6.7% (script)",
+  "regime": "INVERTED HAVEN DEEPENED (26 Oct): fell 4% while real yields fell 16bp; sold as a funding asset in the 22-Oct risk-off."
  },
  "active_triggers": [
   {
@@ -20,7 +20,8 @@
     "sp-500"
    ],
    "added": "2026-03-23",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-"
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "Gold/silver ratio exceeds 80:1",
@@ -30,11 +31,12 @@
     "sp-500"
    ],
    "added": "2026-04-02",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-"
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — ~74 ($3,996/$53.7)."
   },
   {
    "condition": "US 10Y real yield falls 15bps in 3 sessions (inflation-regime trigger — more predictive than crisis-escalation)",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "gold",
     "us-10y-yield",
@@ -42,22 +44,26 @@
     "sp-500"
    ],
    "added": "2026-04-21",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — opposite: nominal 10Y through 5% on the hike; gold −1.1%.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — opposite: nominal +33bp 1M."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — opposite: nominal 10Y through 5% on the hike; gold −1.1%.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — opposite: nominal +33bp 1M.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → fired] FIRED 22 Oct (DFII10 2.80→2.64, −16bp over 19–22 Oct) — and the thesis FAILED: gold fell 2.2% that day and broke $4,000 the next. Record the failure: in the current regime the real-yield signal is swamped by deleveraging and the forward Fed path. (markets C4)"
   },
   {
    "condition": "Gulf-exposed bank reports unexpected Q1 loss OR Hormuz-action triggers CEF forced closure → credit stress routes into gold",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "gold",
     "sp-500",
     "marine-war-risk-insurance"
    ],
    "added": "2026-04-21",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no credit event found; this is the trigger that would flip the regime."
+   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no credit event found; this is the trigger that would flip the regime.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Q1 window lapsed. Housekeeping."
   },
   {
    "condition": "Gold breaks $4,850+ on continued IRGC operations Thursday-Friday — crisis-beta thesis re-opens, regime call wrong-framed",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "gold",
     "fed",
@@ -66,7 +72,9 @@
     "marine-war-risk-insurance"
    ],
    "added": "2026-04-22",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-"
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated 22 Apr; lapsed. Housekeeping."
   },
   {
    "condition": "Gold sustains above $4,600 for 3+ sessions = regime-shift confirmation (DOLLAR-WEAKNESS or financial-system-risk regime)",
@@ -90,7 +98,8 @@
    "note_2026-06-10": "STAYS WATCHING, ~$430 BELOW AND MOVING AWAY (WRONG DIRECTION). The regime's hardest stress-test was passed: gold FELL 2.1% to $4,168.90 (lowest since ~23 March) DURING a three-country Iranian missile strike on US-allied capitals — the war-risk complex did not bid the maximum kinetic escalation of the post-April war. Mechanism: shock -> oil -> inflation -> Fed-hike repricing (Dec hike ~70% from ~45% a week ago) -> real yields + DXY ~99.9 up -> zero-yield gold down. Gold is falling BECAUSE of the Iran shock, not despite it. The trigger flips ONLY if the crisis MUTATES from inflation/oil risk to FINANCIAL-system risk (Gulf-bank wobble, sovereign stress, confirmed US deaths) — then gold/silver gap UP. The opposite sub-$4,400 watch is well tripped but is RATES/inflation-driven, not a crisis-regime change.",
    "note_2026-06-11": "STAYS WATCHING. Gold $4,109.50 -- ~$490 below the $4,600 regime trigger and moving AWAY through a 4.2% CPI + US-Iran strike day. The non-bid is terminal confirmation of the inflation/real-yields regime; only a mutation to financial-system risk re-bids gold.",
    "note_2026-06-12": "STAYS WATCHING. Gold bounced +3.7% to $4,239 but on a BENIGN inflation-unwind mechanism (oil down -> real yields ease), NOT the financial-system-risk mutation the trigger requires. Copper +3.4% same day confirms risk-ON, not haven. ~$360 below; do not misread the bounce as a regime flip.",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-"
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — ~$4,000."
   },
   {
    "condition": "BlackRock Rick Rieder confirmed/announced as next Fed chair — dollar-weakness regime confirmed",
@@ -138,6 +147,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**THE FAILED HEDGE — GOLD BROKE $4,000 WHILE REAL YIELDS FELL.** Spot ~$3,995.9 on 23 Oct (first close <$4,000 since mid-July; low ~$3,986.5), −4.1% on the week, worst since June; December futures $4,177.30 (13 Oct) → $4,007.90 (23 Oct) → ~$4,026 live. It fell even though the 10Y real yield dropped 16bp in three sessions (DFII10 2.80 → 2.64, 19→22 Oct) — the graph's real-yield trigger FIRED and the predicted gold rally FAILED. Drivers: cross-asset deleveraging (silver −9%, platinum −10%, Nikkei −8%), the December hike path (100/100), a flat dollar, and Treasuries taking the haven role on 22 Oct. Crisis-linked ~0%: the inverted-haven regime (since July) deepened — gold is a funding asset in risk-off. (CONFIRMED; markets C4)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Gold −3.8% since 22 Sep ($4,374 → $4,207.70) — two-month low ~$4,090 on 7 Oct — through a month of escalation (Riyadh massacre, ~25 Hormuz strikes, carrier deployment).** Now trades INVERSE to oil: oil up → hike odds up → real yields up → gold down (Natixis' Dahdah: 'negative correlation with oil' re-established). DXY 102.6, 10Y real +~28bp. Silver −8.6% to $60.72; gold/silver ~69. No haven bid on the 10-Oct Riyadh strike. State Street: $4,000 a 'structural floor'. Chinese gold imports YTD record 1,141t. — CONFIRMED (prices)."
@@ -538,6 +552,11 @@
    "date": "2026-09-17",
    "price": "$4,337 (−1.1%)",
    "trigger": "FOMC hike — inverted-haven regime confirmed"
+  },
+  {
+   "date": "2026-10-26",
+   "price": "Spot ~$3,996 (23 Oct) — first close <$4,000 since mid-July; −4.1% week",
+   "trigger": "Real-yield trigger fired (−16bp in 3 sessions) and gold FELL — deleveraging + December hike path; Treasuries took the haven role"
   }
  ]
 }

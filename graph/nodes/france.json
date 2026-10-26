@@ -3,13 +3,13 @@
  "name": "France",
  "type": "country",
  "created": "2026-05-07",
- "last_updated": "2026-10-13",
- "summary": "Day 85 (Saturday May 23). **EU SANCTIONS IRAN OVER HORMUZ BLOCKADE — AL JAZEERA MAY 22 SINGLE-SOURCE MENTION, REPORTED LOW-CONFIDENCE PENDING EUROPEAN-SIDE PRIMARY CONFIRMATION (Reuters Europe, Politico Europe, Euractiv, Le Monde, Der Spiegel have NOT corroborated through May 23 IST). If REAL, marks BREAKDOWN OF EUROPEAN 'WE'RE NOT IN THIS FIGHT' POSITIONING. France remains pre-positioned via CSG; no formal French foreign ministry statement on the alleged EU sanctions track.** France Charles de Gaulle CSG remains pre-positioned in Red Sea / Gulf of Aden following CMA CGM San Antonio strike; UK-France conditional Hormuz mission framework intact (51-nation Paris summit April 17); no operational change; CSG has NOT entered Hormuz proper. **The cleanest European media read**: no European institutional escalation in the public record, TTF easing slightly (€48.69 May 22), no major energy-security headlines today — European posture remains 'watching the US-Iran-Pakistan-Gulf track resolve, not intervening.' PRIOR (May 9): **FRANCE CHARLES DE GAULLE CSG REMAINS PRE-POSITIONED IN RED SEA / GULF OF ADEN — UK-FRANCE CONDITIONAL HORMUZ MISSION FRAMEWORK NOW MULTI-CONFIRMED AT 51-NATION PARIS SUMMIT (APRIL 17). NO OPERATIONAL CHANGE; CSG HAS NOT ENTERED HORMUZ PROPER.** Per USNI News, NBC, Defense News, Naval News and Euronews, FS Charles de Gaulle (R91) and escorts (FS Chevalier Paul, 1-2 FREMM-class frigates, fleet oiler FS Jacques Chevallier, possibly an SSN) remain pre-positioned. Mission described as 'would be entirely defensive and only deployed once lasting peace in the region was agreed' (CONFIRMED — USNI primary, NBC, Defense News, Naval News, Euronews, Aljazeera, US News, Washington Times, Business Standard). Trigger 'French CSG enters Hormuz proper' UNTRIPPED. PRIOR FRAMING (preserved as cycle-context): Macron leveraged technicality that CMA CGM San Antonio was Maltese-flagged not French-flagged to say 'France is in no way under attack' while simultaneously announcing CSG redeployment from East Med — Iranian 'negotiate while bombing' pattern mirrored. Russia/Pravda continues 'meddling' framing. Iran has not yet specifically responded to the conditional mission framework. The structural significance: this is the first formal European-autonomy posture of the cycle and it remains intact today with no escalation or retreat.",
+ "last_updated": "2026-10-26",
+ "summary": "France, Day 241. Diplomacy abroad, crisis at home. Foreign Minister Barrot joined the R4+E3+Italy meeting in Istanbul (23 Oct) that opposed a new strike on Iran. At home, riots (17 and 24 Oct), a 10Y OAT above 5% and a ~150–170bp spread to Bunds make France the euro area's main market risk before the 3-Nov budget vote. No direct France–Iran channel; the French carrier has not entered Hormuz.",
  "current": {},
  "active_triggers": [
   {
    "condition": "France-Iran (Macron-Pezeshkian) channel emerges as parallel diplomatic track within 14 days (by 2026-05-21)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "france",
     "iran",
@@ -17,11 +17,13 @@
     "strait-of-hormuz",
     "brent-crude"
    ],
-   "added": "2026-05-07"
+   "added": "2026-05-07",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Window (by 21 May) lapsed. Housekeeping."
   },
   {
    "condition": "Iran or IRGC attacks European-flagged vessel in Hormuz within 14 days (by 2026-05-21) — direct France-Iran kinetic confrontation activation",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "france",
     "iran",
@@ -30,7 +32,9 @@
     "shipping-tankers",
     "marine-war-risk-insurance"
    ],
-   "added": "2026-05-07"
+   "added": "2026-05-07",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Window (by 21 May) lapsed. (A Netherlands-flag tug was hit 18 Oct off Khor Fakkan — unattributed — outside the window.) Housekeeping."
   },
   {
    "condition": "French CSG enters Hormuz proper (transit through Strait, not just Red Sea/Gulf of Aden)",
@@ -88,6 +92,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "France: domestic crisis is now a market event — riots 17 and 24 Oct, 70,000 police, 10Y OAT >5% (24-year high), OAT–Bund ~150–170bp; Moody's affirmed Aa3 (23 Oct); budget vote 3 Nov. Barrot in Istanbul (23 Oct, R4+E3+Italy): escalation 'would create nothing but losers… very serious consequences for hydrocarbon prices'. Macron plans a post-election LAF conference. (CONFIRMED; intel ISR-B3, DIP-B2)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**France: Macron pledged 'soldiers, radars and defence systems' for Yanbu (24–25 Sep); as G7 president announced the 100mb stock release (2 Oct) after Trump threatened to halt US diesel exports to Europe; condemned the 'heinous' Riyadh attack (11 Oct); says no Russian 'energy truce' seen (12 Oct).** French OAT–Bund spread 154bp (2 Oct, widest since 2011). No French CSG position reported in October; no French-flag vessel hit. — CONFIRMED."

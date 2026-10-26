@@ -3,14 +3,14 @@
  "name": "INR/USD Exchange Rate",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "USD/INR, Day 228. The rupee went through its stated 96.60 line — closes of 96.78, ~96.88 and 96.71 on 7–9 Oct after the RBI's hike failed to stop the slide — but the true record (96.96, May) held, and the graph's 96.60 anchor was mis-specified. On Saturday 10 Oct the RBI opened a window supplying the oil companies' entire daily dollar needs from reserves and imposed derivative curbs (no rebooking, $5mn hedging threshold, a 20% cash FX Risk Reserve); the rupee gained 93p on 12 Oct (95.78), its best day in six months, and traded ~95.3 on 13 Oct. Drivers: Brent >$100 and the $116–121 Indian basket, FPI outflows, US 10Y >5.2%, DXY at an 18-month high. Cost: reserves −$46bn in three weeks to $734.6bn, plus a ~$200bn net short forward book. Analysts: range 94–97 (Kotak), fair value 94.50–95 (Finrex). Tests: re-weakening through 96.50 with the window running (= not enough); a close below 95.00 (= floor credible); RBI withdrawing the window (the 2013 stabilisation tell).",
+ "last_updated": "2026-10-26",
+ "summary": "USD/INR, Day 241. Policy floor, oil ceiling. After the RBI's 10-Oct window reversed the slide, the rupee rallied eight sessions to a six-week high of 94.38 (21 Oct), helped by dollar inflows into the record Jio Platforms IPO, then lost three straight sessions to 95.22 (26 Oct) as December Brent ran to $116.72. The 15-Oct close of 94.99 fired the 'below 95.00' test; the 96.96 record was never approached. The band now depends on oil and on how long the RBI will spend reserves and liquidity; S&P Global sees ~97 by year-end.",
  "current": {
-  "price": "~95.3 (13 Oct; yf 95.27); 95.78 (12 Oct close); 96.71–96.88 (7–9 Oct closes); record low 96.96 (May)",
+  "price": "95.22 (PTI, 26 Oct); 94.38 high (21 Oct); record 96.96",
   "note": "Fortnight -1.2%. RBI: near-daily measured intervention (spot+NDF); gold/silver import duties reportedly raised to curb dollar outflows (R). Reserves +$8.2bn over 2 wks to $675.16bn (valuation). The war premium lives HERE, not in the Nifty.",
-  "driver": "Fed hike → DXY >100 + Brent >$105 + FPI exits; RBI likely intervening (Reuters). Worst week since May was last week; this week adds the dollar leg.",
-  "delta_1d": "rupee +15p Mon; +5p live",
-  "regime": "POLICY FLOOR (13 Oct): RBI supplies OMC dollars from reserves + derivative curbs; rupee rallied ~1.6% off the 96.8 closes. Sustainability depends on reserves and Brent."
+  "driver": "Jio IPO inflows + RBI window (rally) → Brent $117 (reversal)",
+  "delta_1d": "rupee −0.5%",
+  "regime": "POLICY FLOOR, OIL CEILING (26 Oct)."
  },
  "active_triggers": [
   {
@@ -79,7 +79,8 @@
     "rbi"
    ],
    "added": "2026-04-22",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — INR ~95.3; Brent $104.5 (> $103).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Brent leg now met on the settle ($100.34 <$103) but INR 95.8 is far from 93.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — opposite direction."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — INR ~95.3; Brent $104.5 (> $103).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Brent leg now met on the settle ($100.34 <$103) but INR 95.8 is far from 93.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — opposite direction.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "RBI OMC special-credit-facility wound down (Branch 3 sub-$103 sustained 2-3 sessions)",
@@ -91,7 +92,8 @@
     "india"
    ],
    "added": "2026-04-27",
-   "notes": "REVIEWED 2026-10-13 — opposite: support expanded via the OMC dollar window (10 Oct).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no news.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — Brent >$100; not conceivable."
+   "notes": "REVIEWED 2026-10-13 — opposite: support expanded via the OMC dollar window (10 Oct).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no news.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — Brent >$100; not conceivable.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "USD/INR breaks ₹96.60 cleanly and holds for 3+ sessions — a clean break of the all-time record, distinct from the current touch-and-hold",
@@ -108,10 +110,12 @@
   },
   {
    "condition": "USD/INR re-weakens through 96.50 with the RBI OMC window running — OR closes below 95.00 (Finrex fair-value test) by 31 Oct",
-   "status": "watching",
+   "status": "fired",
    "cascade": "Through 96.50 = the window is not enough (reserve-stamina question); <95 = policy floor credible.",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13."
+   "notes": "Added 2026-10-13.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → fired] FIRES on the 'closes below 95.00 by 31 Oct' leg: PTI 94.99 on 15 Oct, low close 94.38 on 21 Oct. Then reversed to 95.22 (26 Oct). The 96.50 leg not met. CONFIRMED (PTI closes, cross-checked). (intel IND-A1)"
   }
  ],
  "top_edges": [
@@ -152,6 +156,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "Rupee (PTI closes): ~95.36 (13 Oct) → 94.99 (15 Oct; first close below 95.00 — the Finrex test fires) → 94.38 (21 Oct, six-week high; eight-session rally on Jio IPO inflows + RBI) → three straight falls to 95.22 (26 Oct) as Brent Dec ran $108.8 → $116.7. Rally ~30% crisis-policy / ~70% non-war (IPO flows); reversal ~85% crisis (oil). The 96.96 record was never approached. S&P Global sees ~97 by end-2026; Kotak 94–97 range intact. (CONFIRMED PTI; markets C7, intel IND-A1)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Rupee: 95.81 (21 Sep) → 95.96 (24 Sep) → 96.31 (1 Oct, Brent >$100) → 96.78 close (7 Oct, post-hike; 'second-weakest close… lowest since May 20') → 96.71–96.88 (8–9 Oct; state banks selling past 96.80) → [Sat 10 Oct RBI OMC dollar window + derivative curbs] → 95.78 (12 Oct, +93p, biggest gain in 6 months) → ~95.3 (13 Oct; yfinance 95.27; TE ~95.4–95.5).** **Baseline correction: the all-time low is 96.96 (May, intraday; record close 20 May) — NOT 96.60.** Rupee −7% in 2026; Asia's worst. Kotak Neo's Banerjee: working range 94–97; Finrex: fair value 94.50–95. — CONFIRMED (PTI/Reuters closes)."
@@ -507,6 +516,11 @@
    "date": "2026-10-13",
    "price": "96.78–96.88 closes 7–9 Oct → 95.78 (12 Oct, +93p) → ~95.3 (13 Oct)",
    "trigger": "RBI hike failed to stop the slide; Saturday OMC dollar window reversed it"
+  },
+  {
+   "date": "2026-10-26",
+   "price": "94.38 (21 Oct, six-week high) → 95.22 (26 Oct)",
+   "trigger": "Jio IPO inflows + RBI window, then Brent $117"
   }
  ]
 }

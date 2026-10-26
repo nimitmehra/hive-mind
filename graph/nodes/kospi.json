@@ -3,11 +3,11 @@
  "name": "KOSPI (Korea Composite Stock Index)",
  "type": "index",
  "created": "2026-05-12",
- "last_updated": "2026-10-13",
- "summary": "KOSPI, Day 228. 6,035.35 on 13 Oct (−5.46%; intraday low 5,911; sell-side sidecar), the lowest close since 30 Jul and −13.9% since 22 Sep — an AI/memory selloff, ~90% non-war: the FT's report that OpenAI's annualised revenue is ~$50bn not ~$70bn (8 Oct) and China's CXMT memory announcement (12 Oct) hit Samsung (−7.39%) and SK hynix (−10.09%); foreigners net sold ₩4.52trn. The war's share is via US 10Y >5.2% compressing long-duration valuations; no helium-driven fab notice. For India, the AI complex's correction has not released capital toward India — the substitution edge's release valve stays shut. Next: TSMC results 15 Oct.",
+ "last_updated": "2026-10-26",
+ "summary": "KOSPI, Day 241. 5,469 (26 Oct): −9.4% since 13 Oct and −22% in a month, after a 7.6% crash with a circuit breaker on 15 Oct on hot US CPI and AI-debt fears; foreigners sold ₩11.5trn in a week. Memory profits are at records while multiples sit at 3–3.3× forward earnings, so the selloff is about AI financing, not chip demand. ~85% non-war. The money leaving Korea did not go to India. Tests: SK hynix (28 Oct), Samsung (29 Oct), and a 5,000 floor.",
  "current": {
-  "price": "6,035.35 (13 Oct close, −5.46%); intraday low 5,911; −13.9% since 22 Sep",
-  "driver": "Bargain-hunting chips; Fed-driven won weakness; helium a slow drag."
+  "price": "5,469.47 (26 Oct, −1.46%); 15 Oct 5,554.22 (−7.57%, circuit breaker); −9.4% since 13 Oct; −22.0% 1M",
+  "driver": "AI-credit + hot US CPI + foreign selling ₩11.5trn (8–15 Oct); ~15% crisis via oil→CPI→Fed"
  },
  "price_snapshots": [
   {
@@ -31,12 +31,17 @@
    "date": "2026-10-13",
    "price": "6,035.35 (−5.46%, 13 Oct) — sidecar triggered",
    "trigger": "AI/memory selloff (CXMT + OpenAI revenue report); foreigners −₩4.52trn"
+  },
+  {
+   "date": "2026-10-26",
+   "price": "5,554.22 (−7.57%, 15 Oct) — circuit breaker; 5,469.47 (26 Oct)",
+   "trigger": "Hot US CPI + AI-debt fears; foreigners −₩3.62trn that day"
   }
  ],
  "active_triggers": [
   {
    "condition": "KOSPI breaks below 7,500 sustained 3 sessions — confirms AI-bid cracking under diplomatic friction",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "south-korea",
     "semiconductors",
@@ -44,11 +49,13 @@
    ],
    "added": "2026-05-12",
    "note_2026-06-10": "STAYS watching. KOSPI 7,730.82 (Jun 9) rebounded ~4.8% ABOVE 7,500 after a brief Jun 8 plunge; no 3-session sustained break below 7,500. The Jun 9 NVIDIA-Korea-AI-deal rebound reasserts the AI bid. Not triggered.",
-   "notes": "REVIEWED 2026-10-13 — long since true (6,035).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — reclaimed 7,000 from below; the AI bid is intact under diplomatic friction (opposite direction to the trigger's thesis)."
+   "notes": "REVIEWED 2026-10-13 — long since true (6,035).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — reclaimed 7,000 from below; the AI bid is intact under diplomatic friction (opposite direction to the trigger's thesis).",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → fired] Long since true (stale): KOSPI 5,469 (26 Oct). Housekeeping; replaced by a 5,000 watch."
   },
   {
    "condition": "Samsung or SK hynix announces production halt due to helium shortage by mid-June",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "south-korea",
     "semiconductors",
@@ -57,7 +64,22 @@
    ],
    "added": "2026-05-12",
    "note": "Inherits from helium node — most time-sensitive trigger in graph; ~4 weeks remaining.",
-   "note_2026-06-10": "STAYS watching. Helium near-term cliff remains DEFUSED by SK Hynix's secured inventory (carry-forward); no production halt announced. Samsung/SK Hynix each +~6% Jun 9 was an AI-rotation rebound, not an input-supply event."
+   "note_2026-06-10": "STAYS watching. Helium near-term cliff remains DEFUSED by SK Hynix's secured inventory (carry-forward); no production halt announced. Samsung/SK Hynix each +~6% Jun 9 was an AI-rotation rebound, not an input-supply event.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Window lapsed unfired. Housekeeping."
+  },
+  {
+   "condition": "KOSPI closes below 5,000 OR SK hynix (28 Oct) / Samsung (29 Oct) guide memory pricing down",
+   "status": "watching",
+   "cascade": [
+    "kospi",
+    "samsung",
+    "sk-hynix",
+    "semiconductors",
+    "fii-flows"
+   ],
+   "added": "2026-10-26",
+   "notes": "26 Oct close 5,469.47; memory multiples at 3.0–3.3× forward."
   }
  ],
  "top_edges": [
@@ -104,6 +126,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "KOSPI −7.57% to 5,554.22 on 15 Oct (sell-sidecar 09:07, market-wide circuit breaker 12:38 for 20 minutes; first double breaker since 29 Jul) on the hot US CPI (0.6% m/m) and AI-debt fears; foreigners sold ₩3.62trn that day and ₩11.5trn over 8–15 Oct; won touched 1,353. Close 26 Oct 5,469.47 (−1.46%): −9.4% since 13 Oct, −22% in a month. Samsung ₩213,000, SK hynix ₩1,279,000 (special dividend up to ₩16trn reported). SK Securities: memory at 3.0–3.3× forward P/E 'pricing in an extreme downturn'. (CONFIRMED closes via Korea Herald/TradingKey/yfinance; markets C5)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**KOSPI −5.46% to 6,035.35 on 13 Oct (intraday low 5,911; sell-side sidecar 09:47) — lowest close since 30 Jul; −13.9% since 22 Sep (7,007.72).** Samsung −7.39% (₩232,000), SK hynix −10.09% (₩1,443,000); foreigners net sold ₩4.52trn (Seoul Economic Daily). Drivers: AI-overinvestment worry + China CXMT memory announcement; ~10% crisis (UST yields). **Correction for the record: AP's '−7.4% to 5,914' was the intraday low, not the close.** — CONFIRMED."

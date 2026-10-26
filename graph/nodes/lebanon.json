@@ -3,8 +3,8 @@
  "name": "Lebanon",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "Lebanon, Day 228. A one-sided occupation-attrition front: Israel holds a ~10km zone, struck 370+ Hezbollah targets in September and continues demolitions and shelling into October; Hezbollah has not fired into Israel and reportedly will not act as a 'support front' if the US–Iran war resumes. Diplomacy is alive procedurally (round 8 of direct talks expected in Tampa ~20 Oct, unconfirmed; an EU support mission approved 12 Oct as UNIFIL ends 31 Dec) and stalled substantively (US ties withdrawal to measurable disarmament; Kan says Hezbollah is back in pilot villages; a 500kg explosives truck seized 12 Oct). Toll >4,300. Stable for markets, unstable for the framework.",
+ "last_updated": "2026-10-26",
+ "summary": "Lebanon, Day 241. A one-sided front: Israel strikes and demolishes in the south weekly and threatens to seize Nabatieh, while Hezbollah has not fired into Israel. The Tampa military round (20–22 Oct) produced no breakthrough, UNIFIL's exit looms, and US staff in Beirut moved to restricted operations after the DNI's threat memo. Lebanon matters to this graph mainly as a front that has stayed quiet through the Iran escalation.",
  "current": {
   "status": "Active Israeli ground operation in the south (Ali al-Taher taken/demolished); 4,362 killed since 2 Mar; talks slipped to October.",
   "status_2026_08_07": "7th round of US-mediated direct Lebanon-Israel talks concluded in Rome (4-6 Aug), still SPLIT on the core issue — Hezbollah disarmament. Framework: Israeli withdrawal from south Lebanon, Lebanese army deployment, Hezbollah disarmament (3 parallel tracks). Hezbollah (not a party) will pull back south of the Litani but REFUSES to disarm north of it; leader Qassem called the talks 'nothing but shame.' A continuing process (7 rounds of direct talks is itself notable de-escalation), not a settlement."
@@ -12,7 +12,7 @@
  "active_triggers": [
   {
    "condition": "US greenlights OR Israel launches an expanded military operation against Hezbollah in Lebanon within 14 days (by 2026-06-08)",
-   "status": "active",
+   "status": "resolved",
    "cascade": [
     "israel",
     "hezbollah",
@@ -36,7 +36,9 @@
    "note_2026-06-22": "2026-06-22: Ceasefire holding (border restrictions lifted) but fragile — localized clashes at Ali al-Taher Hill, IDF stays in the buffer. The dependency Iran is using for its Hormuz leverage.",
    "note_2026-06-23": "2026-06-23: Ceasefire FRAYING — fresh flare-up (2 killed) after 2 days of calm; the dependency tying Lebanon to both the Hormuz chilling effect and the Geneva talks' fragility.",
    "note_2026-06-26": "2026-06-26: Ceasefire notional — Israeli strikes continued (12+ raids, drone killed 2). Fraying, not healing; the proximate cause of Iran's Hormuz turn-backs.",
-   "notes": "REVIEWED 2026-10-13 — carried (fired May); no new expansion in window.\n[prior] REVIEWED 2026-09-22 — REMAINS ACTIVE (carried); quiet.\n[prior] REVIEWED 2026-09-17 — REMAINS ACTIVE (historical) — occupation ~10km deep; demolitions continue; no new offensive; no Hezbollah fire.\n[prior] REVIEWED 2026-09-14 — REMAINS ACTIVE — confirmed and consolidated: Ali al-Taher ridge operation"
+   "notes": "REVIEWED 2026-10-13 — carried (fired May); no new expansion in window.\n[prior] REVIEWED 2026-09-22 — REMAINS ACTIVE (carried); quiet.\n[prior] REVIEWED 2026-09-17 — REMAINS ACTIVE (historical) — occupation ~10km deep; demolitions continue; no new offensive; no Hezbollah fire.\n[prior] REVIEWED 2026-09-14 — REMAINS ACTIVE — confirmed and consolidated: Ali al-Taher ridge operation",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[active → resolved] Met within its window (previously active); window lapsed — closed 2026-10-26 as housekeeping (corrected from 'expired' after fact-check L16)."
   },
   {
    "condition": "Hezbollah-IDF kinetic produces Israeli civilian casualty within 14 days (by 2026-05-11) — full re-escalation activated",
@@ -104,6 +106,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "One-sided attrition continued 13–26 Oct: 'dozens' of IAF/artillery strikes and demolitions a week; Katz's 'Gaza model' and a conditional threat to seize Nabatieh; no Hezbollah fire into Israel found. The Tampa military round (20–22 Oct, CENTCOM HQ) ended without a breakthrough; IDF–LAF public spat; UNIFIL exit looming; Macron plans a post-election LAF conference. US staff at Embassy Beirut moved to 'restricted operations' (23–24 Oct). (REPORTED; no itemised strike/casualty log found; intel ISR-A5/A6)",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Not 'silent' — one-sided occupation-attrition.** IDF: 370+ Hezbollah targets struck in September; demolitions and shelling in Mansouri, Khiam, Houla, Kfar Tibnit and others into October; IDF officer killed in a Humvee accident along the Litani (8 Oct); two Lebanese killed during the olive harvest (11 Oct). No Hezbollah fire into Israel found; one Hezbollah drone at IDF troops (no casualties). Round 8 of direct Israel–Lebanon talks expected in Tampa ~20 Oct (unconfirmed). Lebanese authorities seized a truck with 250kg TNT + 250kg C4 (12 Oct; Salam: 'required firmness'); Kan (7 Oct): Hezbollah quietly back in pilot villages; EU approved a new support mission for the LAF/ISF (12 Oct; UNIFIL ends 31 Dec). Health ministry toll >4,300. — REPORTED/CONFIRMED as stated."

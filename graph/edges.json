@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-13",
+ "last_updated": "2026-10-26",
  "edges": [
   {
    "from": "united-states",
@@ -115,28 +115,30 @@
    "to": "india",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-09-22",
+   "last_activated": "2026-10-26",
    "type": "relief_leg_fired_clean_oil_down_india_up_nifty_plus132_clean_room_session",
    "context": "2026-06-12: Oil -4% on deal hopes fired POSITIVE for India (import-cost relief) -> Nifty +2.0%; the de-escalation/oil-down channel is symmetric (helps India as much as oil-up hurt it).",
-   "activation_count": 8,
+   "activation_count": 9,
    "rationale": "[2026-07-23] RAISED 9.0 -> 9.5. Oil near $100 into a June import bill already +48% is now a lead driver of a 3rd straight down day in Indian equity, alongside the rupee held at its record. The importer channel is transmitting hard to both equity and FX simultaneously. (was 9.0)",
    "note_2026-08-07": "Activated in the IMPORTER-DIVIDEND direction — Brent below $85 sustained (5+ sessions) is a tailwind for India (lower import bill/CAD, OMC margins, rupee support, disinflation).",
    "note_2026-09-14": "CONFIRMED Brent >$100 → INR worst week since May, Nifty −4.1% 1M (markets C5)",
    "note_2026-09-17": "CONFIRMED: Tue Nifty 5-mo low on oil+yields (markets C4). At cap.",
-   "context_2026-09-22": "CONFIRMED: oil-led Nifty bounce (4 up days, +1.5% off low), India VIX −11%; FPI unchanged (markets C6). At cap."
+   "context_2026-09-22": "CONFIRMED: oil-led Nifty bounce (4 up days, +1.5% off low), India VIX −11%; FPI unchanged (markets C6). At cap.",
+   "context_2026-10-26": "CONFIRMED: Indian basket ~$120; WPI fuel & power 25.85%; diesel under-recovery ~₹20/L (ICRA). At cap; activation logged."
   },
   {
    "from": "brent-crude",
    "to": "inr-usd",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "relief_leg_fired_oil_down_rupee_firmer_inr9522_minus1pct_import_bill_relief",
-   "activation_count": 5,
+   "activation_count": 6,
    "note_2026-09-14": "CONFIRMED 94.49→95.69 on oil >$100 + US yields (markets C5)",
    "note_2026-09-17": "CONFIRMED: Brent >$105 + INR 96. At cap.",
    "context_2026-09-22": "CONFIRMED: Brent −7.7% → rupee 96.13→95.81 without testing 96.60 (markets C6). At cap; activation logged.",
-   "context_2026-10-13": "CONFIRMED: Brent back >$100 (1 Oct) → rupee 96.31 → 96.88 (8 Oct). At cap; activation logged."
+   "context_2026-10-13": "CONFIRMED: Brent back >$100 (1 Oct) → rupee 96.31 → 96.88 (8 Oct). At cap; activation logged.",
+   "context_2026-10-26": "CONFIRMED: the rupee's 22–26 Oct reversal (94.38→95.22) tracked Brent Dec $108.8→$116.7. At cap; activation logged (markets C7)."
   },
   {
    "from": "brent-crude",
@@ -297,15 +299,16 @@
    "to": "gold",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "real_yield_channel_pce_3_8_pins_gold_below_4400",
-   "activation_count": 9,
+   "activation_count": 10,
    "rationale": "[2026-07-23] HELD at 9.0. Transmission stays INVERTED — July hike odds ~7.6% at Brent $97; gold NOT spiking (-0.7%, 10Y up to 4.66% capping it). The ECB pause today confirms the deferral. Gold trading the absence of a Fed response, deferred to September. (was 9.0)",
    "note_2026-08-07": "Strengthened — gold made a RECORD on the Fed pivot to cuts (weak jobs). fed->gold is the dominant gold driver (rate-cut catalyst); war-haven channel dead.",
    "note_2026-09-14": "SIGN FLIP: the cut-driven bid withdrawn — gold flat through the oil shock as hike odds rose (markets C3)",
    "note_2026-09-17": "CONFIRMED: FOMC hiked 16 Sep; gold −1.1% same day — negative sign confirmed by the test (markets C5). At cap.",
    "context_2026-09-22": "CONFIRMED sign: gold +1.0% since the hike as 10Y fell 5.01→4.96; sold on risk-on Mon. Negative-sign regime intact for a 2nd week. At cap; activation logged (markets C4).",
-   "context_2026-10-13": "CONFIRMED negative sign sharpened: gold −3.8% in an escalation month as real yields rose; oil→gold now inverse via fed. At cap; activation logged."
+   "context_2026-10-13": "CONFIRMED negative sign sharpened: gold −3.8% in an escalation month as real yields rose; oil→gold now inverse via fed. At cap; activation logged.",
+   "context_2026-10-26": "CONFIRMED negative sign: December hike 100/100 economists → gold −4.1% to <$4,000 even as the 10Y spot rallied. At cap; activation logged (markets C4)."
   },
   {
    "from": "fed",
@@ -441,10 +444,11 @@
    "to": "brent-crude",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-09-14",
-   "activation_count": 2,
+   "last_activated": "2026-10-26",
+   "activation_count": 3,
    "rationale": "[2026-07-23] HELD-HIGH at 9.0 (correcting an erroneous same-session downgrade to 7.5 that was mislabelled 'raised'). The Red Sea front went KINETIC on 23 July — two Saudi tankers struck, one ablaze — and this was a named contributor to Brent's charge toward $100 (Al Jazeera: 'Oil rises above $96 after Houthi attacks on Saudi ships'). On a kinetic-escalation day this edge should NOT be lowered. Held at 9.0 rather than 10.0 only because Bab el-Mandeb is NOT closed (ISW: transits halved to 30 from 64, not shut) and a sanctioned Iranian vessel transits freely — a coercive second-chokepoint risk premium in oil, not a supply cutoff.",
-   "note_2026-09-14": "CONFIRMED Perim seizure priced: Goldman +$25 scenario; Brent $108 (markets C1)"
+   "note_2026-09-14": "CONFIRMED Perim seizure priced: Goldman +$25 scenario; Brent $108 (markets C1)",
+   "context_2026-10-26": "CONFIRMED price effect of Houthi strikes on Saudi energy/airports (16, 22, 23 Oct legs). At cap; activation logged."
   },
   {
    "from": "houthis",
@@ -822,10 +826,11 @@
    "to": "strait-of-hormuz",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "management_not_free_passage_pre_positioning_iran_oman_toll_mechanism_day4_of_14",
-   "activation_count": 1,
-   "context_2026-10-13": "CONFIRMED: IRGC claims + published targeting rule (12 Oct) + Vahidi 'strategic red line' (8 Oct). At cap; activation logged."
+   "activation_count": 2,
+   "context_2026-10-13": "CONFIRMED: IRGC claims + published targeting rule (12 Oct) + Vahidi 'strategic red line' (8 Oct). At cap; activation logged.",
+   "context_2026-10-26": "CONFIRMED tactics shift (engine-room hits, small-boat RPG, spotter dhows) + PGSA list 124. At cap; activation logged (intel KIN-B2)."
   },
   {
    "from": "israel",
@@ -1077,17 +1082,20 @@
    "to": "iran",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-10"
+   "last_activated": "2026-10-26",
+   "activation_count": 1,
+   "context_2026-10-26": "CONFIRMED: Munir in Tehran 20 Oct and 26 Oct (proposed the Saudi–Turkish–Pakistani meeting). At cap; activation logged (intel DIP-A4)."
   },
   {
    "from": "pakistan",
    "to": "saudi-arabia",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
-   "activation_count": 2,
+   "last_activated": "2026-10-26",
+   "activation_count": 3,
    "context_2026-09-22": "CONFIRMED statement (ISPR 'to any extent… physically'; Asif 'time has come'); pact NOT activated. Held at cap; activation logged (intel B1).",
-   "context_2026-10-13": "CONFIRMED: Mecca Pact formally activated 5 Oct; Pakistani forces in-kingdom 'in multiple capabilities and domains' (ISPR). At cap; activation logged."
+   "context_2026-10-13": "CONFIRMED: Mecca Pact formally activated 5 Oct; Pakistani forces in-kingdom 'in multiple capabilities and domains' (ISPR). At cap; activation logged.",
+   "context_2026-10-26": "CONFIRMED: Munir accompanies the Saudi DM to Tehran as a Mecca-pact member (26 Oct). At cap; activation logged."
   },
   {
    "from": "pakistan",
@@ -1163,10 +1171,11 @@
    "to": "iran",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-09-22",
+   "last_activated": "2026-10-26",
    "type": "doha_delegation_ghalibaf_araghchi_hemmati_frozen_asset_track",
-   "activation_count": 1,
-   "context_2026-09-22": "REPORTED (one side): Rezaei — seven conditions conveyed 'through Qatar' (Al Jazeera). No weight change (at cap); activation logged (intel B3)."
+   "activation_count": 2,
+   "context_2026-09-22": "REPORTED (one side): Rezaei — seven conditions conveyed 'through Qatar' (Al Jazeera). No weight change (at cap); activation logged (intel B3).",
+   "context_2026-10-26": "REPORTED: Qatari mediators in Tehran 25 Oct 'in coordination with Washington' (Reuters, one official). At cap; activation logged (intel DIP-A4)."
   },
   {
    "from": "qatar",
@@ -1188,28 +1197,32 @@
    "to": "india",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-09-22",
+   "last_activated": "2026-10-26",
    "type": "monetary_policy_inr_undervalued_jawboning_pre_swap_auction",
-   "activation_count": 1,
-   "context_2026-09-22": "CONFIRMED ACTION: ₹1trn Sept OMO sale programme (₹75k cr executed) draining FCNR(B)/swap liquidity; reserves baseline $675bn→$780.8bn. At cap; activation logged (markets C6/E1)."
+   "activation_count": 2,
+   "context_2026-09-22": "CONFIRMED ACTION: ₹1trn Sept OMO sale programme (₹75k cr executed) draining FCNR(B)/swap liquidity; reserves baseline $675bn→$780.8bn. At cap; activation logged (markets C6/E1).",
+   "context_2026-10-26": "CONFIRMED: FX defence drained the liquidity surplus to ~₹542 cr (REPORTED) and lifted the 10Y to 7.48%. At cap; activation logged (markets C7)."
   },
   {
    "from": "rbi",
    "to": "inr-usd",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "intervention_macroprudential_escalation_deep_in_toolbox_yet_inr_wont_hold_95_stress_signal",
-   "activation_count": 3,
+   "activation_count": 4,
    "note_2026-09-14": "CONFIRMED defence at ~95.5–95.7 (markets A)",
-   "context_2026-10-13": "CONFIRMED ACTION: 10-Oct OMC dollar window + derivative curbs → rupee +93p (12 Oct). At cap; activation logged."
+   "context_2026-10-13": "CONFIRMED ACTION: 10-Oct OMC dollar window + derivative curbs → rupee +93p (12 Oct). At cap; activation logged.",
+   "context_2026-10-26": "CONFIRMED: window + reserves held the rupee in a 94.38–95.36 band. At cap; activation logged."
   },
   {
    "from": "rbi",
    "to": "nifty-50",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-06-10"
+   "last_activated": "2026-10-26",
+   "activation_count": 1,
+   "context_2026-10-26": "CONFIRMED (liquidity channel): surplus ₹4.87 lakh cr → ₹542 cr → Bank Nifty −2.0%, 10Y 7.48%. At cap; activation logged (markets E)."
   },
   {
    "from": "red-sea",
@@ -1269,20 +1282,23 @@
   {
    "from": "russia",
    "to": "iran",
-   "weight": 8.5,
+   "weight": 9.0,
    "directness": 1,
-   "last_activated": "2026-05-06",
-   "weight_note": "Decreased from 9.5 — Russia uranium-custodian track sidelined per Peskov May 5; Pakistan track primary"
+   "last_activated": "2026-10-26",
+   "weight_note": "Decreased from 9.5 — Russia uranium-custodian track sidelined per Peskov May 5; Pakistan track primary",
+   "activation_count": 1,
+   "context_2026-10-26": "CONFIRMED meetings: Lavrov's first Tehran visit of the war (19 Oct), Putin's mediation offer to Witkoff (21 Oct), Pezeshkian–Putin 27 Oct scheduled. 8.5→9.0. Content (custody) blocked by Rezaei."
   },
   {
    "from": "saudi-arabia",
    "to": "brent-crude",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-09-17",
-   "activation_count": 3,
+   "last_activated": "2026-10-26",
+   "activation_count": 4,
    "note_2026-09-14": "CONFIRMED East-West pipeline shutdown 11 Sep (4–5 mb/d bypass) → Brent $108 (intel B2; markets C1)",
-   "note_2026-09-17": "CONFIRMED: restart guidance (Bloomberg/Wright) moved Brent −2.7% (markets C1). At cap."
+   "note_2026-09-17": "CONFIRMED: restart guidance (Bloomberg/Wright) moved Brent −2.7% (markets C1). At cap.",
+   "context_2026-10-26": "CONFIRMED: Saudi-theatre strikes drove ~40% of the 13–23 Oct rally (Dhahran, Dammam, Shaybah, ordered departure). At cap; activation logged (markets C1)."
   },
   {
    "from": "saudi-arabia",
@@ -1408,13 +1424,14 @@
    "to": "brent-crude",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-09-22",
+   "last_activated": "2026-10-26",
    "type": "stanchart_130_145_path_active_2_session_sustain_fired_may18",
    "context": "2026-06-12: Deal-reopening hope priced Brent -4.1% to $86.71; Iran intends to retain Hormuz \"control\" even post-deal.",
-   "activation_count": 5,
+   "activation_count": 6,
    "rationale": "[2026-07-23] HELD AT MAX. Brent charging toward $100 ($96.93 -> $97.32, +25.8% 1M) — 2nd straight +3% day; the IRGC declared Hormuz 'completely closed' and shifted to mine-laying. The flat price is pricing the war. Still -7.7% 3M = toward not through the peaks. (was 10.0)",
    "note_2026-09-14": "CONFIRMED transits 7/day; crude flows 4.9 mb/d; Brent >$100 (markets C1)",
-   "context_2026-09-22": "CONFIRMED inverse: Cooper 'six-month-high flows' + Saudi 2.9 mb/d via strait → futures −7.7% despite five strikes; physical >$130. At cap; activation logged (markets C1)."
+   "context_2026-09-22": "CONFIRMED inverse: Cooper 'six-month-high flows' + Saudi 2.9 mb/d via strait → futures −7.7% despite five strikes; physical >$130. At cap; activation logged (markets C1).",
+   "context_2026-10-26": "CONFIRMED, mixed sign: record month of strikes added premium while flows near pre-war collapsed the physical premium. At cap; activation logged (markets C1/C2)."
   },
   {
    "from": "strait-of-hormuz",
@@ -1460,13 +1477,14 @@
    "to": "shipping-tankers",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "context": "2026-06-12: Reopening read as VOLUME-bullish for tankers (Frontline +9.8%) -- idled-fleet re-employment.",
-   "activation_count": 4,
+   "activation_count": 5,
    "rationale": "[2026-07-19] Frontline -7.4% 1M WHILE oil +11.6% 1M — the blockade destroys transit VOLUME; utilisation not spot rate drives the equity. ~530 ships stranded; 8 major container carriers suspended Hormuz or rerouted via the Cape. Iran's 5-day anti-shipping pause reads as TARGET SCARCITY, not restraint. HELD AT MAX.",
    "note_2026-09-14": "CONFIRMED TD3C ~$982k/day, 2x in a month (markets C6)",
    "note_2026-09-17": "CONFIRMED: Saudi re-routing via Hormuz under escort → Frontline +4% on an oil-down day (markets C6). At cap.",
-   "context_2026-10-13": "CONFIRMED: ship war + Fujairah turn-backs → TD3C record $1.41m/day (wk to 9 Oct). At cap; activation logged."
+   "context_2026-10-13": "CONFIRMED: ship war + Fujairah turn-backs → TD3C record $1.41m/day (wk to 9 Oct). At cap; activation logged.",
+   "context_2026-10-26": "ANNOTATE NON-MONOTONIC: record month of attacks coincided with TD3C −8% and tanker equities −10%, because Iran targeted the Gulf of Oman STS trade (−2.2 mb/d). Weight held at cap; sign of the rate response is regime-dependent (markets C9/E)."
   },
   {
    "from": "strait-of-hormuz",
@@ -1501,11 +1519,12 @@
    "to": "brent-crude",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "no_rush_sunday_pivot_drove_brent_minus_5pct_weekly_to_103_54_paper_deal_anticipation_dominant",
-   "activation_count": 2,
+   "activation_count": 3,
    "context_2026-09-22": "RHETORIC-DRIVEN, CONFIRMED price effect: 'open to meeting' + Houthi strike cancellation → ~$8 premium unwind with zero physical change — same mechanism as June/Aug. Weight held at cap; activation logged (markets E5).",
-   "context_2026-10-13": "RHETORIC with fading price effect: the 8-Oct pledge and 'oil will drop like a rock' produced 1–2-day dips only; physical floor held ~$97. At cap; activation logged."
+   "context_2026-10-13": "RHETORIC with fading price effect: the 8-Oct pledge and 'oil will drop like a rock' produced 1–2-day dips only; physical floor held ~$97. At cap; activation logged.",
+   "context_2026-10-26": "CONFIRMED price effect of rhetoric: 'maybe tomorrow' (24 Oct) then 'not today' (25 Oct) → Brent Dec −1.3% on 26 Oct. At cap; activation logged (markets C1)."
   },
   {
    "from": "trump",
@@ -1610,15 +1629,16 @@
    "to": "iran",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "negotiation_hardening_jun7_bessent_inverts_iran_24bn_precondition",
    "context": "2026-06-12: Trump cancelled the third strike round and announced a \"great settlement\"; de-escalation, UNSIGNED.",
-   "activation_count": 6,
+   "activation_count": 7,
    "rationale": "[2026-07-21] HELD AT MAX. Strike nights 9 and 10 executed. NOTE the textual reversion: CENTCOM's framing moved BACK from 'swiftly punish' to the shipping-protection rationale, with the punishment framing now carried politically by Trump rather than in operational releases — a de-escalatory signal inside the military language. (was 10.0)",
    "note_2026-09-14": "CONFIRMED tanker-for-tanker strikes 1/5/9 Sep; Economic Outcast; contact cut (intel A1/A2)",
    "note_2026-09-17": "CONFIRMED (US-announced, CENTCOM to Axios): drone destroyed 2 IRGC boats 14 Sep (intel A6). At cap.",
    "context_2026-09-22": "RHETORIC both ways ('deciding mode' / 'new weapons, new geography') + CONFIRMED sanctions (ISA extension; airline secondary sanctions 23 Sep; blockade 110). At cap; activation logged (intel A7).",
-   "context_2026-10-13": "CONFIRMED: blockade (zero Iranian loadings in Sept; 135 turned around; Ocean Molica disabled 10 Oct) + OFAC rounds + one proximity round (22 Sep) + dated no-strike pledge (8 Oct). At cap; activation logged."
+   "context_2026-10-13": "CONFIRMED: blockade (zero Iranian loadings in Sept; 135 turned around; Ocean Molica disabled 10 Oct) + OFAC rounds + one proximity round (22 Sep) + dated no-strike pledge (8 Oct). At cap; activation logged.",
+   "context_2026-10-26": "CONFIRMED pledge restated + REPORTED post-3-Nov planning (NYT/WSJ/Hill/NBC/CNN) + OFAC designations (21 Oct). At cap; activation logged (intel DIP-A2/A3)."
   },
   {
    "from": "united-states",
@@ -1702,11 +1722,12 @@
    "to": "european-ttf-gas",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
-   "activation_count": 6,
+   "last_activated": "2026-10-26",
+   "activation_count": 7,
    "rationale": "[2026-07-23] HELD AT MAX. TTF new cycle high EUR63.75 (+EUR2.38) on the continued absence of Qatari LNG through Hormuz; the ECB explicitly cited energy risk in pausing today. The clearest single price expression of the Qatari outage. (was 10.0)",
    "note_2026-09-14": "CONFIRMED Qatar LNG exits near zero → TTF >€80, highest since Dec 2022 (markets F)",
-   "context_2026-10-13": "CONFIRMED operative channel: Qatar Oct LNG tracking 0.6 Mt (Kpler) → TTF €86.65 (+18%). At cap; activation logged."
+   "context_2026-10-13": "CONFIRMED operative channel: Qatar Oct LNG tracking 0.6 Mt (Kpler) → TTF €86.65 (+18%). At cap; activation logged.",
+   "context_2026-10-26": "CONFIRMED: October Qatar LNG ~0.6 Mt → TTF €97 intraday (26 Oct). At cap; activation logged (markets C6)."
   },
   {
    "from": "saudi-arabia",
@@ -1944,8 +1965,10 @@
    "to": "sp-500",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-10",
-   "type": "sector_component_systemic_risk_transmitter_ai_valuation_crack_drove_broad_us_risk_off"
+   "last_activated": "2026-10-26",
+   "type": "sector_component_systemic_risk_transmitter_ai_valuation_crack_drove_broad_us_risk_off",
+   "activation_count": 1,
+   "context_2026-10-26": "CONFIRMED: Nasdaq −4.6%, S&P −2.3% since 13 Oct led by SOX/Meta. At cap; activation logged."
   },
   {
    "from": "semiconductors",
@@ -2038,9 +2061,10 @@
    "to": "indian-oil-marketing",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
-   "activation_count": 1,
-   "context_2026-10-13": "CONFIRMED: RBI meets IOC/BPCL/HPCL's entire daily dollar needs from reserves (press release 1305, 10 Oct) — most direct RBI–OMC link of the cycle. 9.0→10.0."
+   "last_activated": "2026-10-26",
+   "activation_count": 2,
+   "context_2026-10-13": "CONFIRMED: RBI meets IOC/BPCL/HPCL's entire daily dollar needs from reserves (press release 1305, 10 Oct) — most direct RBI–OMC link of the cycle. 9.0→10.0.",
+   "context_2026-10-26": "CONFIRMED: OMC dollar window unchanged; OMC equities rose with crude — the policy put is priced. At cap; activation logged (markets C9)."
   },
   {
    "from": "uae",
@@ -2444,13 +2468,14 @@
    "to": "nifty-50",
    "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "dominant_marginal_buyer_seller_jun6_DII_buffer_absorbing_90pct_is_proximate_support_keeping_nifty_rangebound_fii_still_net_selling",
    "added": "2026-05-12",
    "rationale": "[2026-07-23] RAISED 7.0 -> 7.5 — the DII wall CRACKED. On 22 July both FIIs (-Rs819 cr) AND DIIs (-Rs418 cr) were net sellers, DIIs selling two sessions; the domestic bid that absorbed every war gap-down turned seller. The flow->index transmission strengthened because the absorptive counterparty weakened — the persistent (not instantly-bought) 3-day grind lower is the evidence. (was 7.0)",
-   "activation_count": 4,
+   "activation_count": 5,
    "note_2026-09-14": "CONFIRMED FPI −₹13,138 cr 1–11 Sep; Nifty −4.1% 1M; DII absorbing (markets C5)",
-   "context_2026-10-13": "CONFIRMED: FPI −₹35.9k cr Sept → Nifty −6.0% Sept; DII +₹64.8k cr absorbed. At 9.5; activation logged."
+   "context_2026-10-13": "CONFIRMED: FPI −₹35.9k cr Sept → Nifty −6.0% Sept; DII +₹64.8k cr absorbed. At 9.5; activation logged.",
+   "context_2026-10-26": "CONFIRMED: FPI −₹48k cr Oct; small caps −7.1% (wk to 23 Oct). Held; activation logged."
   },
   {
    "from": "fii-flows",
@@ -2581,10 +2606,12 @@
    "to": "iran",
    "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-05-19",
+   "last_activated": "2026-10-26",
    "type": "saudi_helsinki_accords_non_aggression_pact_proposal_pending_eu_backed_no_iran_response",
    "added": "2026-05-14",
-   "rationale": "Reuters May 12-13 cited 'two Western officials and two Iranian officials' (Reuters primary; Times of Israel + Haaretz + JNS + RT + US News + Pravda secondary) — materially strengthens basis from one-cluster (Newsweek-WSJ yesterday) to multi-cluster (WSJ + Reuters independent primary scoops). Reuters adds: 'Saudi Arabia made Iran aware of the strikes... led to an understanding between the two countries to de-escalate.' Saudi-Iran/UAE-Iran trajectories bifurcating: Riyadh paid price of engagement and exited; Abu Dhabi remains operationally engaged. Saudi-strikes remain REPORTED (not CONFIRMED — Saudi/Iran institutionally silent); basis upgrade justifies graph weight bump 9.0 → 9.5."
+   "rationale": "Reuters May 12-13 cited 'two Western officials and two Iranian officials' (Reuters primary; Times of Israel + Haaretz + JNS + RT + US News + Pravda secondary) — materially strengthens basis from one-cluster (Newsweek-WSJ yesterday) to multi-cluster (WSJ + Reuters independent primary scoops). Reuters adds: 'Saudi Arabia made Iran aware of the strikes... led to an understanding between the two countries to de-escalate.' Saudi-Iran/UAE-Iran trajectories bifurcating: Riyadh paid price of engagement and exited; Abu Dhabi remains operationally engaged. Saudi-strikes remain REPORTED (not CONFIRMED — Saudi/Iran institutionally silent); basis upgrade justifies graph weight bump 9.0 → 9.5.",
+   "activation_count": 1,
+   "context_2026-10-26": "CONFIRMED: first Saudi attribution to Iran of 'encouraging' the Houthis (15–16 Oct) and the Saudi DM-led Mecca-pact delegation in Tehran (26 Oct). Held 9.5; activation logged (intel SAU-A9/B1, DIP-A12)."
   },
   {
    "from": "vlcc-td3c-tanker-rate",
@@ -2855,13 +2882,14 @@
    "to": "strait-of-hormuz",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "active_blockade_continues_jun6_iran_launched_4_owa_drones_toward_strait_all_shot_down_us_self_defence_strikes_on_iranian_coastal_radar_at_goruk_and_qeshm_island_complete_closure_stays_rhetoric",
    "added": "2026-05-15",
-   "activation_count": 3,
+   "activation_count": 4,
    "rationale": "[2026-07-19] Routing coercion CONFIRMED WORKING IN THE DATA: of 8 crossings 16-17 Jul, 7 used Iranian territorial-water routes (Kpler); transits ~8-15/day vs 88-100+/day normal; CTP-ISW's compliance thesis vindicated despite 8 nights of bombing. HELD AT MAX — Iran's operational control of the strait strengthened this window.",
    "context_2026-09-22": "CONFIRMED-UNATTRIBUTED: five UKMTO tanker strikes 16–21 Sep (JMIC: IRGC 'highly likely') + Ghalibaf/Zolqadr 'remain closed'. At cap; activation logged; attribution missing so no upgrade beyond cap (intel B4).",
-   "context_2026-10-13": "CONFIRMED strikes, attribution REPORTED/CLAIMED (corrected after fact-check): ~25 strikes 23 Sep–12 Oct; IRGC claims specific strikes (9/10/12 Oct; one shown false); Artesh's Sayyari general statement (no referent, conditional threat); JMIC (US-led) calls them Iranian; UKMTO attributes none. At cap; activation logged."
+   "context_2026-10-13": "CONFIRMED strikes, attribution REPORTED/CLAIMED (corrected after fact-check): ~25 strikes 23 Sep–12 Oct; IRGC claims specific strikes (9/10/12 Oct; one shown false); Artesh's Sayyari general statement (no referent, conditional threat); JMIC (US-led) calls them Iranian; UKMTO attributes none. At cap; activation logged.",
+   "context_2026-10-26": "CONFIRMED strikes (11 UKMTO-logged 13–23 Oct; GFS Pride sunk) + attribution upgraded at campaign level (Reuters Iranian officials; Rezaei; CENTCOM; Lloyd's List). At cap; activation logged (intel KIN-A1/A2)."
   },
   {
    "from": "china",
@@ -2921,10 +2949,12 @@
    "to": "ecb",
    "weight": 7.5,
    "directness": 1,
-   "last_activated": "2026-05-16",
+   "last_activated": "2026-10-26",
    "type": "ttf_4_63_percent_acceleration_creeping_pricing_in_lagarde_new_energy_shock_framework",
    "added": "2026-05-16",
-   "rationale": "TTF €49.86 +4.63% third consecutive daily increase, highest since April. Europe no longer in 'alarm nor relief' mode; ECB Lagarde 'new energy shock' framework operative."
+   "rationale": "TTF €49.86 +4.63% third consecutive daily increase, highest since April. Europe no longer in 'alarm nor relief' mode; ECB Lagarde 'new energy shock' framework operative.",
+   "activation_count": 1,
+   "context_2026-10-26": "REPORTED: TTF €97 intraday + 3.8% HICP feed the December-hike consensus (Nomura). Held 7.5; activation logged."
   },
   {
    "from": "marine-war-risk-insurance",
@@ -3122,12 +3152,13 @@
   {
    "from": "us-10y-yield",
    "to": "gold",
-   "weight": 2.5,
+   "weight": 2.0,
    "directness": 2,
-   "last_activated": "2026-09-17",
+   "last_activated": "2026-10-26",
    "type": "real_yield_suppression_caps_zero_yield_gold",
-   "activation_count": 1,
-   "note_2026-09-17": "+1.0 CONFIRMED data: 10Y >5% ↔ gold −1.1% on Fed day (markets C5)."
+   "activation_count": 2,
+   "note_2026-09-17": "+1.0 CONFIRMED data: 10Y >5% ↔ gold −1.1% on Fed day (markets C5).",
+   "context_2026-10-26": "WEAKENED/ANNOTATED: real yields −16bp in 3 sessions and gold −4% — sign failed; regime-dependent (inverted since July). 2.5→2.0 (markets C4/E)."
   },
   {
    "from": "india",
@@ -3155,13 +3186,14 @@
   {
    "from": "semiconductors",
    "to": "nifty-50",
-   "weight": 6.5,
+   "weight": 5.5,
    "directness": 2,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "capital_substitution_jun4_FIRST_CRACK_broadcom_miss_kospi_-5.3pct_potential_REVERSE_firing_NOT_flipped_one_session",
-   "activation_count": 2,
+   "activation_count": 3,
    "context_2026-09-22": "CONFIRMED (two independent series): Nasdaq/SMH records + KOSPI >7,000 while FPI −₹23,676 cr MTD (NSDL) — capital substitution strengthening. 6.0→6.5 (markets C2/E2).",
-   "context_2026-10-13": "SIGNAL, NO WEIGHT CHANGE: as kospi→nifty-50 (AI complex sold; India not bought)."
+   "context_2026-10-13": "SIGNAL, NO WEIGHT CHANGE: as kospi→nifty-50 (AI complex sold; India not bought).",
+   "context_2026-10-26": "WEAKENED on data: the capital-substitution thesis (AI boom pulls FPI money from India; AI crack sends it back) failed again — SOX −11.7%, KOSPI −22% 1M, yet FPI −₹48,056 cr from India in October. 6.5→5.5 (markets C5/C7)."
   },
   {
    "from": "nifty-50",
@@ -3331,15 +3363,16 @@
   {
    "from": "kospi",
    "to": "nifty-50",
-   "weight": 3.5,
+   "weight": 3.0,
    "directness": 2,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "capital_substitution_INVERTED_jun16_north_asia_AI_complex_ripping_kospi_plus6.8pct_record_vs_nifty_plus1pct_same_riskon_day_AI_supercycle_pulls_EM_tech_allocation_away_from_india",
    "added": "2026-06-16",
    "rationale": "On the 15 Jun framework risk-on day, KOSPI +6.8% (record) / Nikkei +4.9% / TAIEX +3.2% vs Nifty +1.0%. The AI semiconductor supercycle (SK Hynix +11%) is an active capital competitor absorbing the EM/tech allocation that might otherwise rotate to India. Inverse of the existing capital_substitution trigger (which watches for N-Asia to CORRECT and India FII to turn positive). 2 sources (Nikkei Asia, TradingKey).",
-   "activation_count": 2,
+   "activation_count": 3,
    "context_2026-09-22": "CONFIRMED (same mechanism as semiconductors→nifty): KOSPI +5.8% 1M vs FPI selling India. 3.0→3.5 (markets E2).",
-   "context_2026-10-13": "SIGNAL, NO WEIGHT CHANGE: AI complex −>10% but FPIs still sold India — substitution release valve did not open; binding constraint is dollar rates."
+   "context_2026-10-13": "SIGNAL, NO WEIGHT CHANGE: AI complex −>10% but FPIs still sold India — substitution release valve did not open; binding constraint is dollar rates.",
+   "context_2026-10-26": "WEAKENED: KOSPI −9.4% since 13 Oct with foreign selling ₩11.5trn, yet no rotation into India (FPI −₹48k cr Oct). 3.5→3.0 (markets C5)."
   },
   {
    "from": "china",
@@ -3460,13 +3493,14 @@
    "to": "saudi-arabia",
    "weight": 9.0,
    "directness": 2,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "added": "2026-09-14",
-   "activation_count": 3,
+   "activation_count": 4,
    "type": "yanbu_route_under_houthi_guns_perim_seizure_meets_pipeline_outage",
    "rationale": "Distinct from the kinetic edge: the Houthi hold on the Bab el-Mandeb (11 Sep) lands on the same Saudi barrels whose bypass pipeline shut the same day — Yanbu-to-Asia flows (8.1 mb/d in Q2) now transit a proxy-held strait. NBC + EIA/FinanceFeeds flows data. 2nd order; 7.0 per markets.md E.",
    "context_2026-09-22": "CONFIRMED escalation: ballistic missile at Riyadh intercepted 19 Sep; fire at KKIA fuel storage (Reuters imagery/WSJ); first Saudi civilian death since 2022 (Taif 17 Sep); Yanbu attempts. First Houthi attack on the capital this war. 7.0→8.0 (intel B2).",
-   "context_2026-10-13": "CONFIRMED top rung: mass-casualty strikes on Saudi civil airports 6–13 Oct (KKIA five days; 13 dead 10 Oct; GACA 20 dead/356 injured); Dammam reached (Eastern Province range); Medina power station (coalition-attributed). 8.0→9.0."
+   "context_2026-10-13": "CONFIRMED top rung: mass-casualty strikes on Saudi civil airports 6–13 Oct (KKIA five days; 13 dead 10 Oct; GACA 20 dead/356 injured); Dammam reached (Eastern Province range); Medina power station (coalition-attributed). 8.0→9.0.",
+   "context_2026-10-26": "CONFIRMED: Aramco HQ hit (13–14 Oct), Dammam airport 2 killed and Shaybah 2 killed (21 Oct), 10+ BMs 25 Oct, holy-city interceptions (24 Oct). Held at 9.0 (top rung); activation logged (intel SAU-A2/A4)."
   },
   {
    "from": "iraq",
@@ -3506,16 +3540,17 @@
   {
    "from": "brent-crude",
    "to": "us-10y-yield",
-   "weight": 8.0,
+   "weight": 7.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "added": "2026-09-14",
-   "activation_count": 4,
+   "activation_count": 5,
    "type": "energy_cpi_passthrough_gasoline_27pct_fueloil_52pct_10y_4_97",
    "rationale": "Aug CPI energy +16.3% y/y drove the 0.4% m/m print that repriced the curve (+33bp 1M) — a direct oil→yields channel the graph lacked (BLS; CME/centralbank.watch). 1st order; 6.0.",
    "note_2026-09-17": "+1.0 CONFIRMED: CBO attributes >40% of Q2 PCE inflation to Hormuz/Red Sea energy; 10Y >5% (markets C3, intel B1).",
    "context_2026-09-22": "CONFIRMED transmission in reverse: Brent −7.7% (16–21 Sep) → 10Y 5.01%→4.96% (markets C1/C4). Third activation; 7.0→7.5.",
-   "context_2026-10-13": "CONFIRMED with mechanism note: one-month crude/10Y correlation 0.96 (BMO) but breakevens flat — transmission via Fed reaction function + term premium; 10Y 5.37% intraday (highest since 2002). 7.5→8.0."
+   "context_2026-10-13": "CONFIRMED with mechanism note: one-month crude/10Y correlation 0.96 (BMO) but breakevens flat — transmission via Fed reaction function + term premium; 10Y 5.37% intraday (highest since 2002). 7.5→8.0.",
+   "context_2026-10-26": "WEAKENED on data: Brent +10.4% while the US 10Y fell 21bp and 10Y breakevens stayed flat (2.33→2.34) — the oil→inflation-expectations→yields channel did not transmit this window; yields moved on AI credit and the Fed path. 8.0→7.0 (markets C3/C8)."
   },
   {
    "from": "saudi-arabia",
@@ -3536,12 +3571,13 @@
    "to": "united-states",
    "weight": 6.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "houthi_pledge_via_oman_deters_us_strikes_sep20",
    "added": "2026-09-22",
    "rationale": "NEW (2nd order → 1st?): Houthi no-attack pledge via Oman (AP; The National) → US cancelled an ordered air campaign (NYT/Axios). REPORTED-strong + on-record Trump. Seeded 6.0, directness 1.",
-   "activation_count": 2,
-   "context_2026-10-13": "HELD: pledge-for-restraint holds by non-action; Bukhaiti (12–13 Oct) explicit conditional threat against US interests if Washington joins. Activation logged."
+   "activation_count": 3,
+   "context_2026-10-13": "HELD: pledge-for-restraint holds by non-action; Bukhaiti (12–13 Oct) explicit conditional threat against US interests if Washington joins. Activation logged.",
+   "context_2026-10-26": "CONFIRMED: State ordered US non-emergency staff out of Saudi Arabia 'about the Houthis' (21 Oct); US still declines to strike. Held 6.0; activation logged (intel SAU-A6)."
   },
   {
    "from": "saudi-arabia",
@@ -3558,35 +3594,38 @@
   {
    "from": "saudi-arabia",
    "to": "houthis",
-   "weight": 8.0,
+   "weight": 8.5,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "saudi_escalates_alone_sanaa_strikes_mecca_pact_ground_offensive_oct2026",
    "added": "2026-10-13",
    "rationale": "NEW (reverse direction): Riyadh escalated alone — Sanaa strikes from 1 Oct, Mecca Pact activated 5 Oct, Saudi-directed 'Dawn of Yemen' offensive from 5 Oct (~100 aircraft). CONFIRMED by AFP/Al Jazeera/SPA/Pakistan FM.",
-   "activation_count": 1
+   "activation_count": 2,
+   "context_2026-10-26": "CONFIRMED: Saudi strikes on Houthi fuel infrastructure (13 Oct) and launchers/tunnels (17, 24, 26 Oct) — a daily counter-launcher campaign. 8.0→8.5 (intel SAU-A5)."
   },
   {
    "from": "us-10y-yield",
    "to": "fii-flows",
    "weight": 6.5,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "term_premium_duration_competition_india_us_spread_22yr_low_oct2026",
    "added": "2026-10-13",
    "rationale": "NEW: UST 4.96→5.37% (term premium, flat breakevens) as FPIs sold ~₹80k cr in ~5 weeks; PTI/Geojit cite 'US 10Y above 5.2%'; India–US 10Y spread ~194bp near a 22-year low (BS 8 Oct). Distinct from fed→fii-flows (moved while Fed odds fell). 2+ independent sources.",
-   "activation_count": 1
+   "activation_count": 2,
+   "context_2026-10-26": "HELD: the 10Y's 21bp fall (one close <5%) coincided with slower FPI selling in the last week but not a reversal; HY widening. Activation logged."
   },
   {
    "from": "semiconductors",
    "to": "kospi",
-   "weight": 9.0,
+   "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "index_heavyweights_memory_cycle",
    "added": "2026-10-13",
    "rationale": "NEW (housekeeping): Samsung −7.39%/SK hynix −10.09% → KOSPI −5.46% (13 Oct; sidecar); KOSPI −13.9% since 22 Sep on CXMT + OpenAI revenue news (Seoul Economic Daily, AP, Investing.com).",
-   "activation_count": 1
+   "activation_count": 2,
+   "context_2026-10-26": "CONFIRMED: KOSPI −7.57% on 15 Oct (circuit breaker; Samsung −9.48%, SK hynix −11.06%) and −9.4% over the window on the AI-credit selloff. 9.0→9.5 (markets C5)."
   },
   {
    "from": "saudi-arabia",
@@ -3602,12 +3641,35 @@
   {
    "from": "houthis",
    "to": "india",
-   "weight": 3.5,
+   "weight": 4.5,
    "directness": 2,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "type": "diaspora_and_gulf_travel_corridor",
    "added": "2026-10-13",
    "rationale": "NEW WATCH-EDGE: Indian national killed and 3 in ICU from the 10-Oct KKIA strike (Indian Embassy); Saree declares all Saudi airports 'unsafe' — Gulf travel corridor for ~2.5m Indians in KSA. Weak market channel today.",
+   "activation_count": 2,
+   "context_2026-10-26": "CONFIRMED: an Indian resident killed at Dammam airport (21 Oct, Saudi GACA via Al Jazeera/Khaleej Times) after the 10-Oct KKIA death; Indians injured at Dammam and Shaybah; Air India/IndiGo Saudi suspensions to 31 Oct/7 Nov; ~3–4k pilgrims disrupted; MEA statement 22 Oct. 3.5→4.5 (intel IND-B1; markets E)."
+  },
+  {
+   "from": "qatar",
+   "to": "cheniere-energy",
+   "weight": 6.0,
+   "directness": 1,
+   "last_activated": "2026-10-26",
+   "type": "structural_offtake_hedge",
+   "added": "2026-10-26",
+   "rationale": "NEW: QatarEnergy–Cheniere SPA (up to 4 Mtpa, 2031–2054, 22 Oct) — Qatar buying US LNG because Ras Laffan cannot be relied on; Cheniere +4.1%. 2+ sources (company releases via multiple outlets). Seeded 6.0, directness 1.",
+   "activation_count": 1
+  },
+  {
+   "from": "semiconductors",
+   "to": "us-10y-yield",
+   "weight": 4.0,
+   "directness": 1,
+   "last_activated": "2026-10-26",
+   "type": "risk_off_flight_to_quality",
+   "added": "2026-10-26",
+   "rationale": "NEW (inverse, risk-off channel): 22 Oct SOX −6.7%/Meta −7.0% with 10Y −17bp, real yields −12bp, breakevens −5bp, HY +13bp; 15 Oct KOSPI breaker with 10Y −9bp. The AI-credit channel moved US duration more than the war did this window. 2+ sources (Treasury/FRED + CNBC/Reuters/MarketWatch attributions). Seeded 4.0 as a watch.",
    "activation_count": 1
   }
  ]

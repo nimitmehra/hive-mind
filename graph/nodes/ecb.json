@@ -3,10 +3,10 @@
  "name": "European Central Bank (ECB)",
  "type": "institution",
  "created": "2026-03-28",
- "last_updated": "2026-10-13",
- "summary": "ECB, Day 228. CORRECTED: the ECB hiked 25bp on 10 Sep 2026 to a 2.50% deposit rate (MRO 2.65%) — its second hike of 2026 after June; the graph had recorded a September hold (wrong). Lagarde's 'not in lockstep with energy' was about the pace after hiking. Euro-area September HICP 3.8% (energy +18.8%); TTF €86.65 on a Qatar LNG collapse, storage ~73.6%; French OAT–Bund spread 154bp (2 Oct, widest since 2011). Markets price a hold on 29 Oct and a December hike (64 of 73 economists); peak 2.75–3.00%. The tension: an LNG-driven winter squeeze plus French fiscal stress against energy-led inflation near double target.",
+ "last_updated": "2026-10-26",
+ "summary": "ECB, Day 241. Deposit rate 2.50% after the 10-Sep hike. A hold on 29 Oct is ~97% priced and a December hike is consensus; the October flash HICP comes on 4 Nov, after the meeting. TTF at €97 supports the December case, while France's bond stress (OAT >5%, riots) is now the market's main European worry.",
  "current": {
-  "status": "DFR 2.50% after a 25bp HIKE on 10 Sep (corrected 2026-10-13); Sept HICP 3.8%; 29 Oct hold priced, December hike consensus; OAT–Bund 154bp."
+  "status": "Hold ~97% priced for 29 Oct (DFR 2.50%); December hike consensus; flash HICP 4 Nov."
  },
  "active_triggers": [
   {
@@ -18,7 +18,8 @@
     "gold"
    ],
    "added": "2026-03-28",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no inter-meeting action; 29 Oct hold priced.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Lagarde pushed back; storage 68% and zero Saudi Oct barrels are the winter risk."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no inter-meeting action; 29 Oct hold priced.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Lagarde pushed back; storage 68% and zero Saudi Oct barrels are the winter risk.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "The ECB HIKES in September (or explicitly signals a September hike), OR the energy-inflation deferral breaks and it is forced to act sooner — the 'September reckoning' the graph has flagged",
@@ -38,7 +39,8 @@
    "status": "watching",
    "cascade": "A hike or a December pre-signal tightens EUR conditions into an LNG-driven winter; a dovish hold with French spread stress is the alternative.",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13."
+   "notes": "Added 2026-10-13.",
+   "note_2026-10-26": "[reviewed, stays watching] PENDING 29 Oct — hold ~97% priced; watch for explicit December guidance (Nomura vs ING)."
   }
  ],
  "top_edges": [
@@ -68,6 +70,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "29 Oct: a hold at DFR 2.50% is ~97% priced; December hike consensus ('a done deal' — Nomura; ING: 'the bond market has taken over the ECB's job'). Euro-area October flash HICP is 4 Nov (not 30 Oct) — the ECB meets without it; September HICP final 3.8%. France is the bigger story: OAT >5%, spread ~150–170bp, riots. Schnabel's early exit reshapes the debate. TTF €97 intraday feeds the December case. (REPORTED pricing; intel ISR-A10/B3)",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**CORRECTION (HIGH): the ECB HIKED 25bp on 10 Sep 2026 to a 2.50% deposit rate (MRO 2.65%, MLF 2.90%) — its second 2026 hike after 11 June. The 22-Sep node entry 'ECB HELD in September' was WRONG** (Chief-of-Station spot-check: Euronews, CNBC, admiralmarkets, BTA — independent). Lagarde's 'not in lockstep' (18/28 Sep) was about pace after hiking. Euro-area Sept HICP flash 3.8% (energy +18.8% y/y; core 2.5%). French OAT–Bund 154bp (2 Oct, widest since 2011); Spain snap election 29 Nov. Money markets 0.28 hikes for 29 Oct; Reuters poll (8 Oct): hold at 2.50% on 29 Oct (all but 3 of 73), December hike (64 of 73), peak 2.75–3.00%. BoE held 3.75% (6–3) 17 Sep; next 5 Nov. — CONFIRMED."

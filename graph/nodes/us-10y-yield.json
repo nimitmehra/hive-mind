@@ -3,12 +3,12 @@
  "name": "US 10-Year Treasury Yield",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "US 10Y, Day 228. The highest since 2002: 5.35–5.37% intraday on 7 Oct, 5.24% on 9 Oct, above 5% at every close since 23 Sep (the 5% trigger fired). The rise is entirely real yield and term premium — the 10Y breakeven is unchanged at 2.33% — driven by the Fed's tightening path, ~$1.9trn of issuance, AI-capex bond supply and a global long-end selloff (30Y JGB record, French spreads at a 2011 high). Oil and the 10Y move together (BMO one-month correlation 0.96), but through the Fed's reaction function, not inflation expectations. Consequences in the graph: gold down ~4% in an escalation month; HY spreads +47bp; the dollar at an 18-month high; India–US spread near a 22-year low, now an FPI-selling driver (new edge us-10y-yield→fii-flows). Next: US CPI 14 Oct; FOMC 27–28 Oct.",
+ "last_updated": "2026-10-26",
+ "summary": "US 10-year, Day 241. The yield fell 21bp in a fortnight to 5.00% and closed below 5% once (4.96% on 22 Oct) — its first sub-5% close since 22 September — but the cause matters more than the level. The whole move was real yield (breakevens flat at ~2.34%) and it came on the day an AI-credit scare hit equities (Meta's first negative free cash flow in over a decade, chip stocks −6.7%, high-yield spreads wider) while Brent rose 4%. That is a flight to quality, not a calmer war: oil's channel into yields via inflation expectations did not transmit this window, and the Fed's December hike is still ~76–80% priced. The 13-Oct regime test fired on its 'below 5.00%' leg on that single close; the deployment condition the brief uses — the 10Y back below 5% — is touched, not met, because the next close was 5.00% and the driver would reverse if AI credit stabilises. For India the relevant read is the spread: India's 10Y rose to 7.48% while Treasuries rallied, widening the gap to ~248bp from ~216bp — the yield argument for foreign money improved slightly, but FPIs still sold.",
  "current": {
-  "price": "5.24% (9 Oct close; 12 Oct holiday); intraday high 5.35–5.37% on 7 Oct (highest since 2002); 30Y 5.60%; 2Y 4.80%; 10Y BE 2.33%",
-  "driver": "Brent −7.7% → breakevens; a week after the hike. India's curve decoupled by domestic liquidity drain.",
-  "regime": "TERM-PREMIUM REGIME (13 Oct): oil reaches yields through the Fed reaction function and term premium, not inflation expectations (breakevens flat)."
+  "price": "5.00% (23 Oct, Treasury); 4.96% (22 Oct, FRED); ~4.99% live 26 Oct; 2Y 4.69%; 30Y 5.33%; 10Y real 2.66%; BE 2.34%; HY OAS 3.40% (22 Oct)",
+  "driver": "AI-credit flight to quality (22 Oct) + fading October hike odds + long-end short-covering; breakevens pinned",
+  "regime": "RISK-OFF RALLY, NOT A REGIME CHANGE (26 Oct): one close below 5%, then back to 5.00%."
  },
  "active_triggers": [
   {
@@ -25,10 +25,24 @@
   },
   {
    "condition": "US 10Y closes above 5.50% OR falls back below 5.00% (regime test) by 28 Oct FOMC",
-   "status": "watching",
+   "status": "fired",
    "cascade": ">5.50% = term-premium spiral (EM outflows intensify, India spread <170bp); <5.00% = relief for gold, EM and India FPI.",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13."
+   "notes": "Added 2026-10-13.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → fired] FIRES on the 'falls back below 5.00%' leg on ONE close (4.96%, 22 Oct, FRED DGS10); 5.00% on 23 Oct (Treasury); ~4.99% live. Caveat: a risk-off rally on AI credit, not inflation relief — breakevens flat, HY wider. Do not read as a regime change. (markets C8)"
+  },
+  {
+   "condition": "US 10Y closes below 5.00% for 3 consecutive sessions by 30 Nov WITH HY OAS not widening (the 13-Oct deployment condition met, not merely touched)",
+   "status": "watching",
+   "cascade": [
+    "us-10y-yield",
+    "fii-flows",
+    "inr-usd",
+    "nifty-50"
+   ],
+   "added": "2026-10-26",
+   "notes": "Single close 4.96% (22 Oct) then 5.00%; HY OAS 3.40% (+24bp). The quality of the rally decides whether it helps EM flows."
   }
  ],
  "top_edges": [
@@ -70,14 +84,19 @@
   {
    "to": "gold",
    "type": "real_yield_suppression",
-   "weight": 2.5,
+   "weight": 2.0,
    "directness": 2,
-   "last_activated": "2026-09-17",
+   "last_activated": "2026-10-26",
    "activation_count": 1,
-   "context": "2026-09-17: +1.0 CONFIRMED data: 10Y >5% ↔ gold −1.1% on Fed day (markets C5)."
+   "context": "WEAKENED/ANNOTATED: real yields −16bp in 3 sessions and gold −4% — sign failed; regime-dependent (inverted since July). 2.5→2.0 (markets C4/E)."
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**FIRST CLOSE BELOW 5% SINCE 22 SEP — ON AN AI-CREDIT SCARE, NOT A CALMER WAR.** 10Y 5.21% (13 Oct) → 5.13% (21 Oct) → **4.96% on 22 Oct (−17bp, biggest one-day fall since Mar 2023)** → 5.00% (23 Oct, Treasury) → ~4.99% live. 2Y 4.79 → 4.65 → 4.69%; 30Y 5.56 → 5.33%. 10Y real 2.88 → 2.64–2.66%; breakevens flat (2.33 → 2.34); ACM term premium −7bp. Same day: Meta −7.0%, SOX −6.7%, HY +13bp (HY OAS 3.40%, +24bp since 13 Oct) while Brent rose 4% — a flight to quality. October hike odds faded (~17% → 7–10%); December hike ~76–80%. Crisis contribution ~15% and acting AGAINST the move. (CONFIRMED FRED/Treasury; markets C3/C8)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**10Y to the highest since 2002: 4.96% (22 Sep) → 5.31% close (5 Oct) → intraday 5.35–5.37% (7 Oct) → 5.24% (9 Oct; 12 Oct bond holiday). Closed above 5% every session since 23 Sep (13 sessions) — trigger FIRED (sustained).** 10Y breakeven 2.33% → 2.33%, 5y5y 2.35 → 2.32 — the whole rise is real yield + term premium. 30Y 5.73% intraday (7 Oct); 2Y (real) 4.71 → 4.80% (the script's '2Y' is the 13-week bill). HY OAS 2.66 → 3.15 (+47bp). DXY 102.58 (12 Oct), strongest since Apr 2025. Drivers: Fed path, ~$1.9trn deficit/issuance, AI-capex bond supply, global long-end selloff (30Y JGB record 4.235%; OAT–Bund 154bp). BMO: one-month crude/10Y correlation 0.96. **Second-order for India: India–US 10Y spread ~194bp, near a 22-year low (BS, 8 Oct); PTI/Geojit cite 'US 10Y above 5.2%' among top FPI-selling reasons.** — CONFIRMED (FRED)."
@@ -289,6 +308,11 @@
    "date": "2026-10-13",
    "price": "5.35–5.37% intraday 7 Oct — highest since 2002",
    "trigger": "Term premium + issuance + global long-end selloff; breakevens flat"
+  },
+  {
+   "date": "2026-10-26",
+   "price": "4.96% close 22 Oct (−17bp) — first close <5% since 22 Sep; 5.00% on 23 Oct",
+   "trigger": "AI-credit flight to quality (Meta, SOX −6.7%) — real yields −12bp, breakevens flat"
   }
  ]
 }

@@ -3,12 +3,12 @@
  "name": "Saudi Arabia",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "Saudi Arabia, Day 228. The kingdom is now a primary belligerent in its own war with the Houthis, and the bypass that protects the oil market is back. The Houthi campaign moved from Yanbu and Riyadh's outskirts to mass-casualty strikes on civil airports: KKIA was attacked on five days and hit on four (6–12 Oct), 13 died on 10 Oct (incl. an American and an Indian) and 309 were injured; GACA counts 20 dead/356 injured 6–11 Oct; KKIA is shut to 17 Oct; Saudi air defence is short of interceptors (WSJ). Riyadh escalated alone — Sanaa struck from 1 Oct, a Saudi-directed ground offensive ('Dawn of Yemen') from 5 Oct with ~100 aircraft, and the Mecca Pact formally activated 5 Oct (Pakistan in-kingdom; Türkiye air defence only) — while Washington gives intelligence and targeting but not strikes (Trump: 'We may'). The offensive has not retaken Perim/Mayun (AFP), and the Houthis gained at Taiz. On oil, the East-West pipeline restarted 22 Sep and carried 5.8 mb/d by 6 Oct (minister); September exports 6.67 mb/d; Europe's November allocations restored; but Asian buyers refuse to load inside Hormuz, so Aramco sells delivered cargoes at ~$20 over a −$5 OSP — the paper-physical gap inside Aramco's own price list. Claimed Houthi hits on Aramco processing (Shedgum, Tanajib) are unconfirmed and are the tail risk. Riyadh has not blamed Tehran in public and took Araghchi's 11-Oct call; Abu Dhabi has re-aligned behind it. Binaries: KKIA reopening (17 Oct); a US decision on joining strikes; any confirmed damage at Eastern Province processing; Perim/Mocha control.",
+ "last_updated": "2026-10-26",
+ "summary": "Saudi Arabia, Day 241. Riyadh is fighting the Houthis alone in the air, collecting defenders rather than co-belligerents, and — new this window — talking to Tehran. The Houthi campaign widened from airports to the Eastern Province: Aramco's Dhahran headquarters was hit, Dammam airport (Houthi-claimed) and the Shaybah oilfield (unclaimed) saw deaths on 21 Oct, missiles were intercepted over Makkah province on 24 Oct (Riyadh says toward the Makkah and Madinah regions; the Houthis say they targeted Rabigh and Yanbu), and at least 22 people have been killed by Houthi fire in the kingdom in October (24 with the unclaimed Shaybah drone). No processing-site damage is acknowledged and no barrel is confirmed lost, but the US ordered its staff out and the Riyadh investment conference is postponed. Washington still will not strike; the UK, Greece, Egypt, Pakistan and Türkiye supply air defence and the Mecca pact. On 15 Oct Riyadh for the first time blamed Iran for 'encouraging' the Houthis; on 26 Oct its defence minister sat with Iran's security chief in Tehran alongside Pakistan's army chief and Türkiye's spy chief. The export picture is disputed: Kpler has Yanbu loading ~2.3 mb/d, far below the 5.8 mb/d pipeline claim. Tests now: a Tehran readout or mechanism by 9 Nov, and whether the Houthi tempo falls.",
  "current": {
-  "status": "BYPASS SHUT, CAPITAL STRUCK, ALLY DECLINED TO STRIKE (2026-09-22). Saudi crude flows through Hormuz under US escort; Europe cut off; the Houthi war has reached Riyadh; Washington will not open a Yemen front. Trump–GCC meeting today is where the ask lands.",
-  "pipeline": "East-West SHUT since 11 Sep; Yanbu ZERO loadings (Kpler); 'half within days' (Bloomberg 16 Sep) UNMET as the ~23 Sep clock expires; Kpler: half of exports 'within a month'. Gulf-side: 2.8–2.9 mb/d via Hormuz; 7 VLCCs/14mb Ras Tanura 20 Sep; Europe October allocations ZERO.",
-  "security": "Riyadh missile intercepted 19 Sep; KKIA fuel-farm fire (Reuters imagery/WSJ); Taif civilian death 17 Sep; US strikes on Houthis ordered then cancelled 20 Sep; UK Voyagers; $24.3bn F-35 approval; Pakistan pledge (Mecca Pact not activated)."
+  "status": "BELLIGERENT UNDER FIRE, NOW TALKING TO TEHRAN (26 Oct). Houthi strikes: Aramco HQ (13–14 Oct), Dammam airport 2 killed, Shaybah 2 killed (21 Oct), holy-city interceptions (24 Oct). DM Khalid bin Salman in Tehran 26 Oct. US ordered departure; FII10 postponed.",
+  "pipeline": "East-West running (minister 5.8 mb/d throughput, 6 Oct) but Kpler puts Yanbu EXPORTS ~2.3 mb/d (1–15 Oct); total exports disputed 5.55 (Kpler) vs 8.165 (TankerTrackers) mb/d.",
+  "security": "KKIA reopened formally 25 Oct after missing 17 Oct; UK Typhoons, Greek Patriot, Egypt vote, Mecca pact to Turkish parliament; no US strike on the Houthis."
  },
  "active_triggers": [
   {
@@ -25,7 +25,7 @@
   },
   {
    "condition": "Sadara JV ($3.7B debt) defaults at June 15 grace expiry without operational recovery",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "saudi-arabia",
     "energy-sector",
@@ -33,7 +33,9 @@
     "iran"
    ],
    "added": "2026-04-27",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no new reporting.\n[prior] REVIEWED 2026-09-17 — no update.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no update this sweep."
+   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no new reporting.\n[prior] REVIEWED 2026-09-17 — no update.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no update this sweep.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] 15-Jun window lapsed. Housekeeping."
   },
   {
    "condition": "Saudi formally named primary mediator (or co-mediator) for US-Iran Hormuz channel within 14 days (by 2026-05-22)",
@@ -124,17 +126,31 @@
   },
   {
    "condition": "KKIA (Riyadh airport) reopens on schedule by 18 Oct — OR the closure is extended / a further Houthi strike kills ≥5 in a Saudi city within 14 days (by 27 Oct)",
-   "status": "watching",
+   "status": "fired",
    "cascade": "Extension or a new mass-casualty strike = the airport war is sustained; raises odds of US strikes (and of the Houthis widening to non-Saudi targets).",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13 after the 6–13 Oct airport campaign (GACA 20 killed/356 injured)."
+   "notes": "Added 2026-10-13 after the 6–13 Oct airport campaign (GACA 20 killed/356 injured).",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → fired] FIRES on the 'closure extended' leg: KKIA missed its 17/18-Oct reopening (NOTAM A3604/26), resumed only limited domestic flights 21 Oct and formally reopened 25 Oct; ~86% of flights 8–25 Oct cancelled (Reuters). The '≥5 killed in a Saudi city' leg is NOT met (worst: Dammam 2, Shaybah 2, 21 Oct). CONFIRMED (airport statement via Arab News; AP; Reuters). (intel SAU-A1)"
   },
   {
    "condition": "Aramco/SPA acknowledges damage at an Eastern Province processing site (Shedgum/Abqaiq/Tanajib) OR satellite imagery (Planet/Sentinel/Reuters) confirms a hit, within 14 days (by 27 Oct)",
    "status": "watching",
    "cascade": "Step-change for saudi-arabia→brent-crude: Houthi reach to the 2019 Abqaiq geography; futures to the physical price (~$130).",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13. Houthi claims on Shedgum/Tanajib (11 Oct) are CLAIMED only."
+   "notes": "Added 2026-10-13. Houthi claims on Shedgum/Tanajib (11 Oct) are CLAIMED only.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED (expires 27 Oct). Dhahran HQ 'limited fire' is an office building, not processing; Shaybah 'no impact' (Energy Ministry); Houthi claims on pumping stations unconfirmed; no satellite confirmation. (intel SAU-A3)"
+  },
+  {
+   "condition": "Egyptian parliament authorises the deployment AND Egyptian air-defence units are confirmed in the kingdom by 30 Nov",
+   "status": "watching",
+   "cascade": [
+    "saudi-arabia",
+    "houthis",
+    "red-sea"
+   ],
+   "added": "2026-10-26",
+   "notes": "Egypt's defence council approved support 18 Oct; roll-call vote 26 Oct (result not found). No egypt node — routed via saudi-arabia. (intel SAU-B2)"
   }
  ],
  "top_edges": [
@@ -151,8 +167,9 @@
    "type": "helsinki_pact_day4_plus_iraqi_militia_drone_breach_kinetic_response_window",
    "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-05-18",
-   "activation_count": 20
+   "last_activated": "2026-10-26",
+   "activation_count": 20,
+   "context": "CONFIRMED: first Saudi attribution to Iran of 'encouraging' the Houthis (15–16 Oct) and the Saudi DM-led Mecca-pact delegation in Tehran (26 Oct). Held 9.5; activation logged (intel SAU-A9/B1, DIP-A12)."
   },
   {
    "to": "iraq",
@@ -175,9 +192,9 @@
    "type": "swing_producer",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-09-17",
+   "last_activated": "2026-10-26",
    "activation_count": 8,
-   "context": "2026-09-17: CONFIRMED: restart guidance (Bloomberg/Wright) moved Brent −2.7% (markets C1). At cap."
+   "context": "CONFIRMED: Saudi-theatre strikes drove ~40% of the 13–23 Oct rally (Dhahran, Dammam, Shaybah, ordered departure). At cap; activation logged (markets C1)."
   },
   {
    "to": "opec-plus",
@@ -214,6 +231,26 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**EXPORT DATA DISPUTE — THE 13-OCT 'BYPASS RESTORED' READ IS OVERSTATED.** Kpler: Saudi exports 5.55 mb/d for 1–15 Oct (Yanbu 2.34, Ras Tanura 2.98); TankerTrackers: 8.165 mb/d; IEA: September Saudi crude supply 8.3 mb/d. The minister's 5.8 mb/d (6 Oct) was East-West pipeline throughput, not exports. Physical Gulf grades softened (Oman–Dubai $4.22, lowest since July) while Brent December hit a six-month high. (REPORTED, trackers conflict; intel SAU-A8)",
+   "verification": "REPORTED"
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "**DEFENDERS, NOT STRIKERS.** UK RAF Typhoons on 'defensive counter-air' over the kingdom (20 Oct); Greece's Yanbu Patriot stays (25 Oct); Egypt's National Defence Council approved support (18 Oct), parliament votes 26 Oct (result not found); Türkiye sent the Mecca pact to parliament (20 Oct); GCC invoked collective defence (Manama, 18 Oct); UNSC press statement (15 Oct). Washington: 'logistical support' only (Barrack, 20 Oct); ordered departure of US staff (21 Oct). Saudi strikes on Houthi fuel infrastructure (13 Oct), launchers and tunnels (17, 24, 26 Oct); 'Dawn of Yemen' has not retaken Mocha/Mayun. (CONFIRMED; intel SAU-A5/A6/A10/B2/B3)",
+   "verification": "CONFIRMED"
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "**RIYADH WENT TO TEHRAN.** 15 Oct: Deputy Minister Krimly — 'We have not asked Iran to mediate'; Al Arabiya (16 Oct) carried an official naming Iran for 'encouraging' the Houthis — the first Saudi attribution to Iran of this war. 26 Oct: Defence Minister Khalid bin Salman led a Mecca-pact delegation (with Munir, Kalin) to meet Rezaei and Pezeshkian in Tehran; Saudi MFA: to 'open channels of negotiation to prevent a resurgence' of escalation and support Qatar/Pakistan mediation. No readout yet. KKIA missed its 17-Oct reopening; limited domestic flights 21 Oct, formal reopening 25 Oct; ~86% of flights 8–25 Oct cancelled (Reuters). FII10 postponed to 2027 (19 Oct). (CONFIRMED; intel SAU-A1/A9/B1/B4)",
+   "verification": "CONFIRMED"
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "**THE HOUTHI CAMPAIGN WIDENED TO ARAMCO'S HQ AND THE EASTERN PROVINCE.** Aramco's Dhahran headquarters hit 13–14 Oct (Energy Ministry: 'limited fire'; AP: CEO's floor damaged); staff told to leave ~21–22 Oct (Reuters, six sources). 21 Oct: Dammam's King Fahd airport struck — 2 killed (a Saudi and an Indian resident, per GACA), 8 injured; debris from a drone aimed at Shaybah oilfield killed 2 (Filipino, Nepali). 25 Oct: 10+ ballistic missiles intercepted. At least 22 killed by Houthi fire in Saudi Arabia in October (our arithmetic on GACA counts), 24 including Shaybah — which is UNATTRIBUTED (Energy Ministry named no attacker; not in Houthi claims; Saree denied 'deep' operations 21 Oct). Houthi claims on Yanbu, Rabigh, East-West pumping stations (24, 26 Oct) unconfirmed — an Argus source says Yanbu and Shaybah undamaged; Aramco silent. (CONFIRMED deaths/HQ fire; CLAIMED energy hits; intel SAU-A2/A3)",
+   "verification": "CONFIRMED/CLAIMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Houthi claims on Aramco plants — Riyadh refinery (3 Oct; AFP journalist saw fire at the facility), Rabigh (~5 Oct; fire indications), Shedgum gas plant and Tanajib (11 Oct) — Aramco silent; minister/Nasser call the system 'intact'.** Riyadh refinery and Rabigh fires REPORTED; Shedgum/Tanajib CLAIMED only — no imagery, no Saudi confirmation. If an Eastern Province processing hit is confirmed, it is the 2019 Abqaiq geography. First Saudi–Iranian FM contact surfaced in the war: Araghchi phoned Faisal 11 Oct offering to help start 'Saudi-Yemeni dialogue' (Iranian readout); SPA confirmed the call, omitted the offer. UAE's Mansour bin Zayed visited Riyadh 29 Sep — first senior UAE visit since the 2025 rift; Gargash (12 Oct) called for 'joint Gulf action' against 'Iran and its allies'. (AFP, Reuters, Al Jazeera, Xinhua, SPA, AP) — mixed tags as stated."

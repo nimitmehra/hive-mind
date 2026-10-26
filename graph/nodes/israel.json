@@ -3,15 +3,15 @@
  "name": "Israel",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "Israel, Day 228. Israel is out of the shooting war with Iran (no exchange since 7–9 June) but inside the argument about restarting it: Channel 12 reports US officers told the IDF to prepare for a 'massive attack on Iran within three weeks', Trump publicly pledged no US attack before 3 Nov, Haaretz says the IDF wants any strike after the 27-Oct election and believes Iran has replenished its missiles, and a columnist says Washington briefly asked Israel to strike alone. The election (27 Oct) is close to a tie with neither bloc at 61 outside Channel 14 (nine-poll average Netanyahu bloc 51.2; Likud 21.9 vs Yashar 21.6); Herzog is pre-empting a repeat vote. Lebanon is a one-sided occupation-attrition front — 370+ IAF strikes in September, demolitions, no Hezbollah fire into Israel; a legacy Hezbollah cluster bomblet killed a 14-year-old on 12 Oct. The Houthi front against Israel is dormant since June; Netanyahu condemned the Riyadh attack. Binaries: an Israeli unilateral strike before 27 Oct (low probability given Trump's pledge and the IDF line); the 27-Oct result; Israel–Lebanon round 8 (Tampa, ~20 Oct, unconfirmed).",
+ "last_updated": "2026-10-26",
+ "summary": "Israel, Day 241. Israel votes on 27 Oct with no mainstream poll giving Netanyahu's bloc the 61 seats it needs (final polls 48–50; only Channel 14 and i24 near a majority). On Iran, the fortnight's story was who stopped whom: the FT says a multi-day campaign was readied for about 10 Oct and Trump blocked it; Channel 12 says the IDF chief demanded written authorisation for a Netanyahu directive; CNN says Trump refused a pre-vote joint strike and promised joint action 'soon'. All anonymous and denied. A strike-shaped IAF flight to Iran's border on 19 Oct, Hegseth at Ovda, and NYT reporting of a ~3-day joint plan for after the US midterms make 4–30 Nov the window. Trump has endorsed Netanyahu twice. Lebanon remains one-sided attrition; no Iranian or Houthi fire at Israel in the window.",
  "current": {
-  "status": "Not striking Iran. At the CENTCOM-convened Germany chiefs' meeting with 7 Arab states (first of the war). Election 27 Oct: dead heat; newest TV poll Netanyahu bloc slightly ahead, <61. Lebanon: State Dept ambassadors' meeting; no Hezbollah fire."
+  "status": "ELECTION EVE, STRIKE HELD (26 Oct): no Israel–Iran exchange in the window; FT/Ch12/CNN say Netanyahu pushed and Trump/Zamir restrained (REPORTED, denied); post-3-Nov joint plan reported; bloc 48–50 in mainstream polls."
  },
  "active_triggers": [
   {
    "condition": "US greenlights OR Israel launches an expanded military operation against Hezbollah in Lebanon within 14 days (by 2026-06-08)",
-   "status": "active",
+   "status": "resolved",
    "cascade": [
     "israel",
     "hezbollah",
@@ -26,7 +26,9 @@
    "note": "The binding constraint on the Iran deal. Iran treats 'end the war on all fronts including Lebanon' as a precondition of any US-Iran MOU (Baghaei restated May 25). A US official (Channel 12 + Axios via TOI May 25) signalled Washington could greenlight a larger Israeli operation against Hezbollah after a reported 1,000+ drones / 700+ rockets over 8 days; IDF Northern Command 'at war'; IDF has drawn up expanded Lebanon plans; far-right cabinet ministers demanded renewed Lebanon operations. If the greenlight converts to a launched operation, Iran's 'all fronts' precondition is breached and the deal stalls/collapses.",
    "note_2026-06-06": "STAYS ACTIVE (deadline 2026-06-08). Despite the renewed 3-June ceasefire ('pilot/safe zones,' rejected by Qassem), the IDF kept striking southern Lebanon — >=21 killed Friday 5 June (Tyre/Sidon/Nabatieh; CONFIRMED — Al Jazeera, CBS) — and ordered evacuations north of the Litani ahead of expected operations. The south-Lebanon war continues, so the trigger stays active. CRITICALLY the strikes stayed OUT of Beirut, so Iran's full-scale-resumption red-line was NOT crossed and no Iran-resumption trigger moves to active.",
    "note_2026-06-07": "2026-06-07: STAYS ACTIVE, intensifying-within-active — Saturday strikes killed 9 incl 3 Lebanese army; Katz 'no withdrawal.' Still SUB-BEIRUT (intel A2).",
-   "note_2026-06-10": "2026-06-10: STAYS ACTIVE and INTENSIFIED. The June 7 'sub-Beirut' read reversed within hours: after Hezbollah fired rockets near Yiftach, Israel struck a 'Hezbollah command centre' in Beirut's Dahiyeh suburb (≥2 killed, 11-20 wounded; first capital strike since the renewed truce) — crossing the watched Beirut red-line. That triggered Iran's first ballistic salvo since April 8 and Israel's June 8 deep strikes on Iran, but BOTH sides stood down within 24h under Trump pressure, so it did NOT become full-scale war resumption. Israel's freedom of action then narrowed to Lebanon: a first-ever whole-city Tyre evacuation order (June 8) and the deadliest Tyre raid of the war (June 9, ≥8 killed), continuing AFTER the Israel-Iran suspension — intensification within the active expanded operation, not a new activation. (CONFIRMED — ISW, Al Jazeera, NPR, Axios)"
+   "note_2026-06-10": "2026-06-10: STAYS ACTIVE and INTENSIFIED. The June 7 'sub-Beirut' read reversed within hours: after Hezbollah fired rockets near Yiftach, Israel struck a 'Hezbollah command centre' in Beirut's Dahiyeh suburb (≥2 killed, 11-20 wounded; first capital strike since the renewed truce) — crossing the watched Beirut red-line. That triggered Iran's first ballistic salvo since April 8 and Israel's June 8 deep strikes on Iran, but BOTH sides stood down within 24h under Trump pressure, so it did NOT become full-scale war resumption. Israel's freedom of action then narrowed to Lebanon: a first-ever whole-city Tyre evacuation order (June 8) and the deadliest Tyre raid of the war (June 9, ≥8 killed), continuing AFTER the Israel-Iran suspension — intensification within the active expanded operation, not a new activation. (CONFIRMED — ISW, Al Jazeera, NPR, Axios)",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[active → resolved] Met within its window (previously active); window lapsed — closed 2026-10-26 as housekeeping (corrected from 'expired' after fact-check L16)."
   },
   {
    "condition": "Iran strikes Dimona nuclear reactor directly",
@@ -37,7 +39,8 @@
     "brent-crude"
    ],
    "added": "2026-03-23",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — nothing.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — nothing."
+   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — nothing.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — nothing.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "Channel 12/13 or Haaretz publishes IDF imminent-strike preparation on Iran track within 72 hours",
@@ -50,7 +53,8 @@
     "gold"
    ],
    "added": "2026-04-22",
-   "notes": "REVIEWED 2026-10-13 — NEAR-MISS, NOT RE-FIRED: the 8-Oct Channel 12 report describes a US instruction to prepare within three weeks, contradicted by the President the same day; Haaretz (10 Oct) has the IDF arguing for delay.\n[prior] REVIEWED 2026-09-22 — REMAINS ACTIVE (carried) — NOT met this window: no such report 17–21 Sep; Washington, not Jerusalem, is the decision node.\n[prior] REVIEWED 2026-09-17 — REMAINS ACTIVE (historical) — NOT acted on; Israel stayed out of the Sept US–Iran cycles; the Germany meeting is coordination"
+   "notes": "REVIEWED 2026-10-13 — NEAR-MISS, NOT RE-FIRED: the 8-Oct Channel 12 report describes a US instruction to prepare within three weeks, contradicted by the President the same day; Haaretz (10 Oct) has the IDF arguing for delay.\n[prior] REVIEWED 2026-09-22 — REMAINS ACTIVE (carried) — NOT met this window: no such report 17–21 Sep; Washington, not Jerusalem, is the decision node.\n[prior] REVIEWED 2026-09-17 — REMAINS ACTIVE (historical) — NOT acted on; Israel stayed out of the Sept US–Iran cycles; the Germany meeting is coordination",
+   "note_2026-10-26": "[reviewed, stays active] Stays active (standing trigger). Channel 12 (25 Oct) reported a Netanyahu directive and Zamir's demand for authorisation — a command dispute, not an IDF imminent-strike preparation report; denied by Katz."
   },
   {
    "condition": "Second IDF KIA in southern Lebanon during the 45-day ceasefire extension window (by ~2026-06-29) — would test Pentagon-track-May29 architecture",
@@ -110,14 +114,16 @@
    "status": "watching",
    "cascade": "Caspit's US-request scenario; would collapse the US pledged quiet and invite Iranian fire at Israel (Zamir's warning).",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13. Low probability (Trump pledge; IDF line via Haaretz)."
+   "notes": "Added 2026-10-13. Low probability (Trump pledge; IDF line via Haaretz).",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED as of 26 Oct; resolves with tomorrow's vote. Katz (26 Oct): no intention to attack before the election."
   },
   {
    "condition": "27 Oct election: any bloc reaches 61 seats, OR Herzog's consultations begin by ~5 Nov without a 61 path (repeat-election risk)",
    "status": "watching",
    "cascade": "Government formation determines whether Jerusalem pushes the post-3-Nov US strike decision.",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13."
+   "notes": "Added 2026-10-13.",
+   "note_2026-10-26": "[reviewed, stays watching] PENDING — vote 27 Oct; mainstream final polls 48–50 for Netanyahu's bloc."
   }
  ],
  "top_edges": [
@@ -166,6 +172,16 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**ISRAEL VOTES TUE 27 OCT WITH NO MAINSTREAM POLL AT 61.** Final polls (23 Oct): Netanyahu bloc 50 (Channel 12 Midgam, Channel 13, Kan), 48 (Maariv); only i24 (59) and Channel 14 (60–62) near a majority. Trump endorsed Netanyahu 18 Oct ('If Israel has the wrong Leader… America will have to do this work ourselves, and I am not inclined to do so') and 25 Oct. Exit polls ~01:30 IST 28 Oct. Ynet analysts' top scenario: another election, possibly 2027. (CONFIRMED poll numbers; intel ISR-A4/B2)",
+   "verification": "CONFIRMED"
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "**NO STRIKE EITHER WAY 13–26 OCT; THE STORY BECAME 'WHO STOPPED WHOM'.** FT (21 Oct, three sources): Netanyahu had a multi-day campaign ready for the weekend of ~10 Oct and Trump blocked it (JPost's IDF sources dispute; Netanyahu denies). Channel 12 (25 Oct): the political echelon issued a directive that would trigger rapid escalation with Iran; IDF chief Zamir demanded formal written authorisation (Army Radio similar). CNN (26 Oct): Netanyahu pushed for a JOINT pre-vote strike; Trump said wait, joint action 'soon'. PMO 'fake news'; Katz 'entirely baseless', no intention to attack before the election. 19 Oct: dozens of IAF jets and tankers flew a strike-shaped route >800 miles to Iran's border and turned back as Hegseth met Netanyahu at Ovda (Axios). (CONFIRMED absence; REPORTED leaks, single-outlet each; intel ISR-A1/B1)",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Pre-election strike argument broke into the open; nothing kinetic.** Channel 12 (8 Oct): US officers told IDF chief Zamir they were 'instructed… to prepare for a massive attack on Iran within the next three weeks'; Zamir warned it could force the 27-Oct election's postponement — REPORTED (single TV outlet). Same day Trump pledged no US attack before 3 Nov. Haaretz/Kubovich (10 Oct): IDF believes Iran 'has replenished much of its ballistic missile stockpile' but a strike 'can wait until after Israel's upcoming election' — REPORTED. Ben Caspit (11 Oct): Washington had asked Israel to strike alone, 'for now… halted' — CLAIMED. Netanyahu convened security chiefs at the Kirya (11 Oct). No Israel–Iran exchange since 7–9 June. **Election Tue 27 Oct**: nine-pollster latest average Likud 21.9 / Yashar 21.6 / Together 12.0 / Netanyahu bloc 51.2 — only Channel 14 gives 61; Fitch (13 Oct): 'no consistent polling evidence' either bloc reaches 61; Herzog (12 Oct) will work to avoid a repeat vote. Netanyahu condemned the Riyadh airport attack (11 Oct, rare). Omani flydubai co-pilot's attempted 9/11-style crash into Ben Gurion thwarted (30 Sep; UAE AG 9 Oct). — mixed tags."

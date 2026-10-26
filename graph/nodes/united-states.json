@@ -3,15 +3,15 @@
  "name": "United States",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "United States, Day 228. Washington has put a calendar on the war: Trump pledged in writing (8 Oct) not to attack Iran before the 3 Nov midterms while the blockade stays 'in full force', a day after three outlets reported CENTCOM had been told to finish preparing for major combat (incl. a ~3-day campaign on missiles, energy and nuclear targets) and as a second carrier group plus ~10,000 sailors and Marines head to the region. The public record therefore dates the highest-risk window to 4 Nov onward; WSJ reported Trump told aides he sees renewed bombing after the midterms as likely. Diplomacy produced one proximity round (Witkoff/Kushner–Araghchi, New York, 22 Sep) and a paper exchange that Tehran's SNSC calls 'insufficient'; Vance moved the ask from 'zero enrichment' to a 'meaningful' cut. The Trump–GCC meeting published nothing; the Trump–Xi summit gave no Hormuz commitment. Economic war is the active instrument: zero Iranian crude loadings in September, 135 ships turned around, OFAC rounds on shadow fleet/banking. On Yemen, the US is not striking despite an American killed at Riyadh's airport ('We may'); the Houthis threaten US interests if it does. Domestic constraint is real but expressed through the pledge (polls ~65–71% disapprove; Senate war-powers failed 49–50). Pre-midterm fuel campaign: G7 100mb release, Russian diesel licence. Casualties: 21 killed/865 wounded.",
+ "last_updated": "2026-10-26",
+ "summary": "United States, Day 241. Washington is running a dated pause ashore and a visible build-up for after it. Trump's written pledge — no attack on Iran before the 3-Nov midterms — has held on the record and was restated by the White House on 20 and 22 Oct, even as Trump swung between 'maybe tomorrow' (24 Oct), 'decision time… finish them off or make a deal' (25 Oct) and 'not today'. Around the pledge, five outlets now describe ready plans for a short, intense joint US–Israeli campaign after the midterms (nuclear, energy and missile targets), a carrier rearming with bunker-busters, troops pulled from Jordan, Kuwait and Qatar bases, rotations halted and 'within 96 hours' readiness — all anonymous, none an order. The DNI warns of Iranian plots against US personnel; staff were drawn down region-wide and ordered out of Saudi Arabia because of the Houthis, whom Washington still declines to strike. At sea, the blockade is in its fourth month and the escorted lane moves most pre-war barrels while independent hull counts stay at 10–14 a day. The domestic constraint is real (approval at record lows, 35% say the war is worth current gas prices) and expires on 3 Nov. The decision window is 4–30 Nov.",
  "current": {
   "status": "Talking annihilation and a meeting in the same interview while acting only through sanctions and escorts; Congress recessed to mid-Nov.",
   "status_2026_08_03": "Trump called off a planned weekend strike on Iran 'at the request of Gulf allies' (1-2 Aug), pausing 'subject to rapidly making a DEAL'; claims an imminent Hormuz + denuclearization deal with US-Iran talks 'Monday.' Iran disputes there are any US talks. State Dept urged Americans across the ME to consider leaving (1 Aug) — security posture NOT pricing the deal as done. Fed held 29 Jul (9-3, 3 hike-dissents; ~63% Sept-hike odds).",
   "status_2026_08_07": "The third pause HELD (~9 days; Trump held off the bombing campaign 1 Aug, no strikes since 29 Jul). Trump claims an imminent Hormuz + denuclearization deal; the concrete result is an Iran-OMAN bilateral route agreement (5 Aug) that institutionalises Iranian control — 'not one Trump wants' (CNN); the US-Iran piece (conditions/full opening) is unresolved. Fed pivot: weak Aug jobs (22k NFP) flipped the Fed to a Sept CUT.",
   "status_2026_08_13": "ECONOMIC ESCALATION as talks deadlock (13 Aug). The military campaign 'has so far failed to force capitulation'; the US pivoted to a naval blockade near-halting Iranian oil exports (Kharg empty) + new sanctions (7 Aug); Trump declared 'total control' of Hormuz and demanded Iranian 'compensation' as a condition for talks (10 Aug). No confirmed new kinetic strikes — the strike pause holds; the escalation is economic. Fed cut CONFIRMED (July CPI 3.4% soft -> Sept cut foregone).",
-  "posture": "ESCORT-AND-SANCTION, NO STRIKES (2026-09-22): 12+ periods without a strike ashore; Houthi campaign ordered then cancelled 20 Sep; blockade 110 vessels; airline secondary sanctions 23 Sep; Iran Sanctions Act extended 5 yrs; $24.3bn F-35s to Saudi; Pentagon cost $43.6bn/18 KIA/830+ WIA (to 3 Sep).",
-  "diplomacy": "Trump 'deciding mode' + 'probably open' to Pezeshkian (Fox 20 Sep); Waltz: negotiator 'must speak for the Ayatollah'; Trump–GCC 22 Sep (today); Xi 23–25 Sep; Iran's seven conditions via Qatar unanswered."
+  "posture": "PLEDGED PAUSE ASHORE TO 3 NOV + VISIBLE PREPARATION FOR 4–30 NOV (26 Oct). No confirmed strike on Iranian territory since 1 Sep. NYT/WSJ/Hill/NBC/CNN planning leaks (REPORTED); DNI threat memo; Saudi ordered departure; blockade day ~104; Waltz 'another year'.",
+  "diplomacy": "No US–Iran round since 22 Sep; Trump 'I think we're not negotiating' (21 Oct); Qatari shuttle 'in coordination with Washington' (REPORTED, 25 Oct); no US comment on the Saudi–Iran Tehran meeting."
  },
  "active_triggers": [
   {
@@ -82,7 +82,7 @@
   },
   {
    "condition": "Third US enforcement action against Iran-linked shipping outside Middle East area within 14 days (Tifani+1)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "united-states",
     "iran",
@@ -92,7 +92,9 @@
    ],
    "added": "2026-04-22",
    "note_2026-06-10": "STAYS watching. The 7-10 June activity was a direct US-Iran kinetic exchange near Hormuz (Apache downing, ~20-site strikes), not an out-of-area shipping-enforcement action.",
-   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — enforcement in-theatre only (103 redirected).\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — enforcement is now IN-theatre (blockade + tanker strikes); no out-of-area seizure reported."
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — enforcement in-theatre only (103 redirected).\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — enforcement is now IN-theatre (blockade + tanker strikes); no out-of-area seizure reported.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] 14-day window from 22 Apr lapsed. Housekeeping."
   },
   {
    "condition": "Any of the named Muslim nations (originally Saudi, Qatar, Pakistan, Egypt, Jordan, Turkey; widened May 26 to 8 with UAE + Bahrain) publicly accepts OR rejects Trump's mandatory-Abraham-Accords condition within 7 days (by 2026-06-01)",
@@ -112,7 +114,7 @@
   },
   {
    "condition": "India takes material retaliatory/policy action against the US over the Settebello seafarer deaths beyond diplomatic protest (envoy recall, trade/tariff measure, basing or strategic-autonomy shift) within 30 days",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "india",
     "inr-usd",
@@ -122,7 +124,9 @@
    "added": "2026-06-11",
    "note": "As of 11 Jun India's response is a summons of the US Charge + 'strong protest' + repatriation order -- diplomatic, not material. 3 weeks to the Section 301 tariff comment deadline; ~8m Indians in the Gulf. Watch for escalation beyond words.",
    "note_2026-06-12": "STAYS WATCHING. India's response remains a demarche (US Charge Jason Meeks) + 'deepest concern' — diplomatic, not material. The deal track caps the escalation risk; the blockade staying until signing means the irritant persists short-term.",
-   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — no Indian action; MEA rhetoric only (El Gaia).\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — MEA condemnation of the MT El Gaia attack (13 Sep) is diplomatic protest only."
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — no Indian action; MEA rhetoric only (El Gaia).\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — MEA condemnation of the MT El Gaia attack (13 Sep) is diplomatic protest only.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] 30-day window from 11 Jun lapsed without Indian retaliatory action. Housekeeping."
   },
   {
    "condition": "US combat fatalities from Iranian fire in a single incident reach 5+, OR the missing Al-Azraq service member is confirmed dead or held captive",
@@ -135,7 +139,8 @@
    ],
    "added": "2026-07-19",
    "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — 18 KIA unchanged (Pentagon, 3 Sep tally); 830+ WIA.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no US death this window (IG: 11 KIA/non-hostile through 30 Jun; 417 WIA).\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — Jordan salvos intercepted (10/13; 18/20); aircraft damaged (CBS), no confirmed US deaths this window. Iranian claims of US dead are CLAIMED.",
-   "status_changed": "2026-07-21"
+   "status_changed": "2026-07-21",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "US authorises a ground operation into Iran, OR explicitly rules one out — the 'ground invasion looms' scenario (Haaretz, 22 Jul) that neither markets nor prediction data are pricing",
@@ -148,7 +153,8 @@
    ],
    "added": "2026-07-22",
    "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — neither authorised nor ruled out; 'blow the entire nation up' is rhetoric.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — nothing; CBO interceptor depletion argues against expansion.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no ground op; the escalation went to tankers, not territory.\n[prior] REVIEWED 23 Jul — REMAINS AT WATCHING, probability rising. Haaretz's 'ground invasio",
-   "status_changed": "2026-07-23"
+   "status_changed": "2026-07-23",
+   "note_2026-10-26": "[reviewed, stays watching] HOLD — Trump (~16 Oct, Newsmax) 'No, I don't see that' re ground troops for a Pickaxe strike: a statement on one operation, not a formal ruling-out."
   },
   {
    "condition": "US shifts from REACTIVE tanker-for-tanker strikes to a DECLARED sustained campaign — 3+ consecutive nights of strikes on Iranian territory announced as a campaign, OR a strike on Pickaxe/the enrichment complex",
@@ -162,7 +168,8 @@
    ],
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — NOT FIRED: no strike on Iranian territory since 1 Sep; Trump's 8-Oct written pledge holds it to 3 Nov; CENTCOM preparation (Axios 7 Oct) is PREPARATION. Ocean Molica (10 Oct) was blockade enforcement at sea.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no strike on Iranian territory for 12+ operational periods; 'deciding mode' is RHETORIC.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — the opposite direction: no strike ashore for 9 periods; Vance 'first phase is done'. Rhetoric of de-escalation, not action; d",
    "status": "watching",
-   "added": "2026-09-14"
+   "added": "2026-09-14",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — pledged pause."
   },
   {
    "condition": "US conducts a confirmed strike on Houthi positions at Perim/Mocha/Bab el-Mandeb (CENTCOM-announced) — reversing Trump's 13-Sep refusal of MBS's request",
@@ -174,7 +181,8 @@
    ],
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — NOT FIRED: 'We may… look at it' (10 Oct) and 'misbehaving very badly' (12 Oct) are RHETORIC; no CENTCOM strike; US support = intel/targeting only. Now the single most consequential Red Sea binary.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — NOT FIRED. Strikes were ORDERED (Thu 17 Sep, after MBS call) and CANCELLED (Sun 20 Sep, bombs loading) per NYT/Axios/partial Reuters — REPORTED. No CENTCOM announcement; no strike occurred. The reversal is logged on `trump`.\n[prior] REVIEWED 2026-09-17 — STAYS ",
    "status": "watching",
-   "added": "2026-09-14"
+   "added": "2026-09-14",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "The 22-Sep Trump–GCC UNGA meeting produces a PUBLISHED framework (Hormuz lane, postwar/day-after text, or a named US–Iran channel with venue) — OR ends with no document",
@@ -196,21 +204,36 @@
    "status": "watching",
    "cascade": "A breach is the largest credibility event of the cycle (VIX/defence/oil gap); a hold dates the decision window to 4 Nov+.",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13 (Truth Social 8 Oct)."
+   "notes": "Added 2026-10-13 (Truth Social 8 Oct).",
+   "note_2026-10-26": "[reviewed, stays watching] HOLDING (tested). No confirmed US strike on Iranian territory 8–26 Oct; White House restated 20 and 22 Oct. Tested by unverified Sirik claims (22, 25 Oct) and Iran's LUCAS claim (25 Oct) — neither confirmed; a drone shot down over Iran is not a US strike. 8 days left. (intel DIP-A2, KIN-A6)"
   },
   {
    "condition": "US strikes on Iranian territory resume between 4 Nov and 30 Nov (post-midterm window; WSJ/Axios/NYT-reported planning)",
    "status": "watching",
    "cascade": "Ends the 'pledged quiet'; tests Iranian retaliation threats on Gulf infrastructure, Saudi oil, US warships; nuclear firebreak at risk (nuclear targets in option set).",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13."
+   "notes": "Added 2026-10-13.",
+   "note_2026-10-26": "[reviewed, stays watching] WATCHING — preparation evidence strengthened materially (NYT 21/24 Oct, WSJ, The Hill, NBC base moves, CNN '96 hours'); all REPORTED/anonymous; no order. (intel DIP-A3, KIN-A7)"
   },
   {
    "condition": "Trump decides to join Saudi strikes on the Houthis (CENTCOM-announced strike) within 21 days (by 3 Nov)",
    "status": "watching",
    "cascade": "Per the 22-Sep NYT official and Bukhaiti (12–13 Oct), most likely event to convert Bab el-Mandeb from Saudi-only to all-flags.",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13 ('We may', 10 Oct)."
+   "notes": "Added 2026-10-13 ('We may', 10 Oct).",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED (8 days left). Barrack (20 Oct): 'logistical support' only; allies filled the defensive gap (UK Typhoons, Greek Patriot, Egypt vote). (intel SAU-A6/B3)"
+  },
+  {
+   "condition": "Trump withdraws or re-dates the 8-Oct no-strike pledge in WRITING (Truth Social or a spokesperson statement — not rally/interview rhetoric) before 3 Nov",
+   "status": "watching",
+   "cascade": [
+    "united-states",
+    "trump",
+    "iran",
+    "brent-crude"
+   ],
+   "added": "2026-10-26",
+   "notes": "Separates rally rhetoric ('maybe tomorrow') from policy. White House restated the pledge 20 and 22 Oct."
   }
  ],
  "top_edges": [
@@ -219,9 +242,9 @@
    "type": "us_iran_axis_went_kinetic_jun8_10_apache_downed_over_hormuz_then_us_warning_shot_strikes_on_20_air_defense_sites_jun9_then_iran_gulf_retaliation_jun10_zero_us_casualties_executing_strike_trigger_fired",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "activation_count": 75,
-   "context": "CONFIRMED: blockade (zero Iranian loadings in Sept; 135 turned around; Ocean Molica disabled 10 Oct) + OFAC rounds + one proximity round (22 Sep) + dated no-strike pledge (8 Oct). At cap; activation logged."
+   "context": "CONFIRMED pledge restated + REPORTED post-3-Nov planning (NYT/WSJ/Hill/NBC/CNN) + OFAC designations (21 Oct). At cap; activation logged (intel DIP-A2/A3)."
   },
   {
    "to": "israel",
@@ -309,6 +332,16 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**FORCE PROTECTION WENT OFFICIAL.** DNI Jay Clayton's memo to Rubio (Axios 23 Oct; CBS/Fox confirmed): Iran has 'substantially increased efforts to target U.S. personnel', lethal plots at 'advanced stages' (no imminence claimed). State: 'restricted operations' at embassies in Jordan, Lebanon, Qatar, UAE; ORDERED DEPARTURE of non-emergency staff from Saudi Arabia (21 Oct; 'This is about the Houthis'). Waltz (FT ~22–23 Oct): the war could last 'another year'; blockade sustainable 'for the foreseeable future'; goals need HEU 'disposal'. OFAC (21 Oct) designated Karnakis and Karnakis, 3 firms, 9 vessels. CENTCOM (25 Oct): >3,000 escorted transits in six months, >1.5bn bbl exported, >95% safe. Unverified: Sirik strike claims (22, 25 Oct), Iran's LUCAS-drone shoot-down claim (25 Oct). The '24 Oct US strikes on launchers' story is a misdated August report — excluded. (CONFIRMED official actions; CLAIMED Sirik/LUCAS; intel DIP-A3/A5, KIN-A6/A7)",
+   "verification": "CONFIRMED/CLAIMED"
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "**THE PLEDGE HOLDS; THE PLAN HARDENS.** No US strike on Iranian territory confirmed 8–26 Oct (last confirmed round 30 Aug–1 Sep). White House restated 'will not be attacking Iran at any time prior to the midterm elections' on 20 Oct (Kelly to Al Jazeera) and 22 Oct; blockade 'in full force'. Post-3-Nov preparation REPORTED by independent outlets (all anonymous): NYT 21 Oct (~3-day US–Israeli campaign on nuclear, energy, missile targets) and 24 Oct (Trump 'privately leaning' to a major round incl. energy targets); WSJ 24 Oct (USS George Washington rearming with bunker-busters, no decision); The Hill 24 Oct (CENTCOM options to Hegseth); NBC 21 Oct (troops quietly moved out of Jordan/Kuwait/Qatar bases — pattern that preceded 28 Feb); CNN 26 Oct (rotations halted; 'within 96 hours' of an order; 'when, not if'). Hegseth–Netanyahu at Ovda (19 Oct). (CONFIRMED absence/quotes; REPORTED planning; intel DIP-A2/A3, KIN-A6/A7)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**US–Saudi/Houthi: no US strike; Trump 'We may. We're gonna look at it' (10 Oct) and 'The Houthis are misbehaving very badly' after an MBS call (12 Oct).** An American was killed at KKIA (Rubio confirmed 10 Oct). US gives intelligence/targeting support but no strikes or refuelling (AP 12 Oct). F-35 $24.3bn sale's 30-day congressional window expires ~17 Oct. Two more Patriot batteries to Qatar/Saudi (Axios). — CONFIRMED (absence of strike; statements)."

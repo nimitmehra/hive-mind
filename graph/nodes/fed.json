@@ -3,13 +3,13 @@
  "name": "Federal Reserve",
  "type": "institution",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "Fed, Day 228. Funds rate 3.75–4.00% after the 16-Sep hike (12–0); the dots imply one more. The market has decided the Fed will look through oil in October and hike in December: October odds fell from ~73% (23 Sep) to ~17% (12 Oct) on a 29k payrolls print and 3.0% core PCE, even as Brent rose ~$6 — which falsifies the premise of the graph's 28-Oct trigger (that a pause would require a visible fall in Brent). Hawks (Logan '50bp or more', Waller 'additional hikes… flexibility about when') and doves (Williams 'no urgency') agree on direction, not timing. The term premium is doing part of the Fed's work: the 10Y hit 5.35–5.37% intraday on 7 Oct (highest since 2002) with breakevens flat, gold fell ~4%, the dollar hit an 18-month high. Next: Sept CPI (14 Oct), FOMC 27–28 Oct (decision 28 Oct), Warsh in Bangkok (15 Oct). Trump attacks the board but not Warsh.",
+ "last_updated": "2026-10-26",
+ "summary": "Fed, Day 241. Funds 3.75–4.00%. The market expects the FOMC to look through $115 oil on 28 Oct (hold ~90% priced) and to hike in December (~76–80%; 100 of 100 economists in Reuters' poll). September CPI was hot (3.7%, +0.6% m/m, core 2.6%). Warsh calls AI an inflation shock and will not pre-commit. The Fed's reaction function runs through December, so the war's oil premium matters for the December meeting more than for this week's.",
  "current": {
-  "status": "3.75–4.00% (hiked 16 Sep). 10Y 4.96% (Mon), 2Y 3.98%, DXY 100.35. Brent −7.7% since the decision; retail gasoline $4.47/diesel $6.31 still rising. Next: 28 Oct; eight speakers this week.",
-  "price": "Funds rate 3.75–4.00% (16 Sep, +25bp, unanimous). US 10Y 5.02%; Aug CPI 3.4% (energy +16.3% y/y; core 2.4%). Dot median: +25bp more in 2026.",
+  "status": "Hold ~90% priced for 28 Oct; December hike ~76–80%",
+  "price": "Funds 3.75–4.00%",
   "delta_1d": "HIKE delivered (was 83–93% priced)",
-  "regime": "TIGHTENING INTO AN OIL SUPPLY SHOCK — CONFIRMED BY ACTION (17 Sep). Core 2.4%, so the hike path is an energy bet; Warsh disclaims oil ('cannot affect any individual price') but is hiking on it. Consequences realised on the day: gold −1.1% (inverted haven confirmed), rupee through 96, 10Y >5%, defense/EM de-rated. A pause on 28 Oct needs Brent visibly falling; CBO says the war adds +0.5pp to PCE by Q1-27 — the Fed is fighting a number it cannot move.",
+  "regime": "LOOK-THROUGH IN OCTOBER, HIKE IN DECEMBER (26 Oct).",
   "aug_2026": "Held 3.50-3.75% (29 Jul, 9-3, three hike-dissents); markets price ~63% odds of a SEPTEMBER hike and two hikes for 2026. NFP + ISM PMI this week are the near-term US catalysts. The war-inflation channel is easing at the margin as oil crashes (-7% to $84) — a durable ceasefire that keeps oil low would vindicate the 9-member hold; a restrike re-arms the hike case."
  },
  "active_triggers": [
@@ -60,14 +60,16 @@
     "kospi"
    ],
    "added": "2026-09-17",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING (pending 28 Oct) — PREMISE FALSIFIED: a hold is ~83% priced WITHOUT any fall in Brent (+$6 since 22 Sep); the market reads the Fed as looking through energy. Rewrite proposed: 'holds 28 Oct despite Brent >$100 = Fed looks through energy; hikes in December = reaction function confirmed'. Meeting is 27–28 Oct (not 28–29).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Brent's −7.7% is the first move toward the 'pause' branch, but retail fuel is still rising (lag) and the fall is rhetoric-driven; no Fed speaker has shifted.\n[prior] Added 2026-09-17. The market's Oct hike odds were ~91% pre-decision; the dot median is one more. A hold on 28 Oct is the dovish branch; it needs energy CPI to roll over, which needs Brent <$95 su"
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING (pending 28 Oct) — PREMISE FALSIFIED: a hold is ~83% priced WITHOUT any fall in Brent (+$6 since 22 Sep); the market reads the Fed as looking through energy. Rewrite proposed: 'holds 28 Oct despite Brent >$100 = Fed looks through energy; hikes in December = reaction function confirmed'. Meeting is 27–28 Oct (not 28–29).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Brent's −7.7% is the first move toward the 'pause' branch, but retail fuel is still rising (lag) and the fall is rhetoric-driven; no Fed speaker has shifted.\n[prior] Added 2026-09-17. The market's Oct hike odds were ~91% pre-decision; the dot median is one more. A hold on 28 Oct is the dovish branch; it needs energy CPI to roll over, which needs Brent <$95 su",
+   "note_2026-10-26": "[reviewed, stays watching] Premise falsified on 13 Oct (hold priced without a Brent fall); decision 28 Oct."
   },
   {
    "condition": "FOMC 28 Oct holds despite Brent >$100 (Fed looks through energy) — AND the 9 Dec meeting hikes (reaction function confirmed)",
    "status": "watching",
    "cascade": "Replaces the falsified 'pause requires a Brent fall' logic; a 28-Oct hike would be a hawkish shock for EM/India flows.",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13."
+   "notes": "Added 2026-10-13.",
+   "note_2026-10-26": "[reviewed, stays watching] PENDING 28 Oct: hold ~90% priced with Brent Dec $115+; December hike ~76–80% — the trigger's two-meeting reaction function is on track."
   }
  ],
  "top_edges": [
@@ -111,9 +113,9 @@
    "type": "real_yield_channel_jun10_dec_hike_repricing_70pct_real_yields_dxy_up_gold_fell_2.1pct_during_three_country_strike",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "activation_count": 18,
-   "context": "CONFIRMED negative sign sharpened: gold −3.8% in an escalation month as real yields rose; oil→gold now inverse via fed. At cap; activation logged."
+   "context": "CONFIRMED negative sign: December hike 100/100 economists → gold −4.1% to <$4,000 even as the 10Y spot rallied. At cap; activation logged (markets C4)."
   },
   {
    "to": "brent-crude",
@@ -133,6 +135,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "FOMC 27–28 Oct: a hold is ~90% priced (October hike odds fell from ~17% on 13 Oct to ~7–10%); December hike ~76–80% (Reuters poll: 100 of 100 economists expect December). September CPI 3.7% y/y / +0.6% m/m (energy +5.2% m/m), core 2.6% / +0.3% — above consensus; retail sales +0.8% (control +0.1%). Warsh (16 Oct): AI is an inflation 'shock'; no pre-commitment. The Fed looks through $115 oil in October but not in December. (CONFIRMED data; REPORTED pricing; intel MAC-A4/A5)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**The market moved the second hike from October to December — while Brent rose $6.** CME October-hike odds ~73% (23 Sep, after Barr 'more work to do') → ~35% (30 Sep, core PCE 3.0%) → ~22% (2 Oct, payrolls +29k, −60k revisions, unemployment 4.2%) → **~17–22% (8–12 Oct; sources differ)**; December ~85%. Speakers: Williams 'no need for urgency… one further upward adjustment… late this year' (29 Sep); **Logan 'an additional 50 basis points or more'** (1 Oct); minutes (7 Oct) unanimous on the hike, divided on path; **Waller 'I anticipate additional hikes… some flexibility about when'** (8 Oct); Hammack 'smaller, frequent adjustments' (12 Oct, headline). Trump (Time, 1 Oct): Warsh should have voted no; board 'very hostile'. NY Fed 1-yr expectations 3.9% (highest since May 2023). **FOMC is 27–28 Oct (decision Wed 28 Oct) — the 22-Sep '28–29 Oct' was wrong.** Sept CPI due 14 Oct 08:30 ET (consensus ~3.6–3.7% headline / 2.5–2.6% core). — CONFIRMED (speakers via wires); odds REPORTED."

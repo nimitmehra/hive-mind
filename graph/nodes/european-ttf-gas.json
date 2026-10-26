@@ -3,13 +3,13 @@
  "name": "European TTF Natural Gas",
  "type": "commodity",
  "created": "2026-03-28",
- "last_updated": "2026-10-13",
- "summary": "TTF, Day 228. European gas has decoupled upward from crude's de-escalation headlines: €86.65 (+18% since 22 Sep; highest since late 2022/early 2023) after a 29-Sep dip below €70. The driver is LNG, not oil: Qatar's October exports are tracking just 0.6 Mt (vs 1.6 Mt in September) as the Hormuz ship war hits LNG carriers, force majeure is extended, and North Asia bids cargoes away at ~3× pre-war. EU storage 73.6% (10 Oct) vs ~83% a year ago, on course for ~78% by 1 Nov — short of even the relaxed 80% target; Germany ~60%. Brussels sees no supply emergency. The Saudi crude cut-off that seeded the 22-Sep saudi→TTF watch edge reversed for November while TTF rose — that edge was the wrong mechanism; qatar→TTF is the operative channel. Next: €100 trigger (~€13 away), ministers 29 Oct, the ECB (29 Oct) facing 3.8% HICP.",
+ "last_updated": "2026-10-26",
+ "summary": "TTF, Day 241. Europe's winter squeeze arrived: €97.19 intraday on 26 Oct, the highest since late 2022 and €3 from the €100 trigger, up 10% from the €87.22 close on 13 Oct. Qatar's LNG is still collapsed (~0.6 Mt in October), Asian prices hit a near-four-year high ($30.76 JKM) and pull cargoes east, and EU storage has stalled at 74.6% — the lowest for late October since 2009. The driver is liquefaction and shipping, not US supply (Henry Hub fell 23%). Relief needs Qatari volumes, not a ceasefire headline. It feeds the ECB's December hike case.",
  "current": {
-  "price": "€86.65/MWh (13 Oct); €84.74 close 12 Oct; low €69.81 (29 Sep). EU storage 73.61% (10 Oct) vs ~83% y/y.",
-  "driver": "Storage deficit + Hormuz LNG outage; no new Ras Laffan timeline.",
-  "delta_1m": "+29% to +42%",
-  "regime": "LNG-DRIVEN WINTER SQUEEZE (13 Oct): Qatar October exports collapsing on Hormuz ship war; Asian competition; storage ~78% by 1 Nov."
+  "price": "€96.08 live 26 Oct; €97.19 intraday high (highest since late 2022); €93.85 close 23 Oct; €87.22 close 13 Oct",
+  "driver": "Qatar LNG ~0.6 Mt/month + JKM $30.76 + EU storage stalled 74.6%",
+  "delta_1m": "+10% since 13 Oct",
+  "regime": "WINTER SQUEEZE (26 Oct): storage lowest for late Oct since 2009; €100 trigger ~€3 away."
  },
  "price_snapshots": [
   {
@@ -32,6 +32,11 @@
    "date": "2026-10-13",
    "price": "€84.74 close 12 Oct (+4.05%); €86.65 13 Oct — +18% since 22 Sep",
    "trigger": "Hormuz LNG-carrier attacks + Qatar Oct LNG 0.6 Mt + cold forecast; storage 73.6%"
+  },
+  {
+   "date": "2026-10-26",
+   "price": "€97.19 intraday 26 Oct (highest since late 2022); €93.85 close 23 Oct",
+   "trigger": "Qatar LNG collapse + JKM $30.76 + storage stall at 74.6%"
   }
  ],
  "active_triggers": [
@@ -45,7 +50,8 @@
    ],
    "added": "2026-03-28",
    "note_2026-06-10": "STAYS watching. ~€51/MWh (Jun 9), ~€49 below the €100 2022-crisis level. The +~11% 1M move is the Qatar/Hormuz crisis premium, not a 2022-scale shock. Not crossed.",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — €86.65; ~€13 away.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — peak €82.57 (14 Sep)."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — €86.65; ~€13 away.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — peak €82.57 (14 Sep).",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — €97.19 intraday 26 Oct, the closest yet."
   },
   {
    "condition": "TTF crosses €70/MWh sustained 5 sessions (cascade-intensity threshold)",
@@ -59,7 +65,8 @@
    "added": "2026-04-27",
    "note_2026-06-10": "STAYS watching (Day 0 of 5). ~€51/MWh (Jun 9) vs €70 threshold = ~€19 gap; the +~5% 1D / +~11% 1M Iran-Israel-escalation + Qatar-premium bid did NOT approach the threshold. Not crossed.",
    "notes": "RE-MET 2026-10-13: de-activated 29 Sep (one close €69.81) per its own rule; met again from 6 Oct (5th consecutive close >€70 since 30 Sep); 10 consecutive closes >€70 through 13 Oct (€86.65).\n[prior] REVIEWED 2026-09-22 — REMAINS MET/ACTIVE — every session since ~3 Sep >€70; €73.25 now. A close <€70 de-activates.",
-   "status_changed": "2026-10-13"
+   "status_changed": "2026-10-13",
+   "note_2026-10-26": "[reviewed, stays active] Remains active — every session since 6 Oct above €84."
   }
  ],
  "top_edges": [
@@ -91,13 +98,19 @@
   {
    "to": "ecb",
    "type": "inflation_driver",
-   "weight": 10,
+   "weight": 7.5,
    "directness": 1,
-   "last_activated": "2026-04-15",
-   "activation_count": 7
+   "last_activated": "2026-10-26",
+   "activation_count": 7,
+   "context": "REPORTED: TTF €97 intraday + 3.8% HICP feed the December-hike consensus (Nomura). Held 7.5; activation logged."
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**TTF €97.19 INTRADAY ON 26 OCT — HIGHEST SINCE LATE 2022, ~€3 FROM €100.** ICE close €87.22 (13 Oct; the brief's €86.65 was an indicative tick) → €93.85 (23 Oct) → ~€96 live 26 Oct (+10%). Chain: Qatar LNG still ~0.6 Mt/month (force majeure monthly since March) → JKM $30.76 (22 Oct, highest since Dec 2022) pulls cargoes to Asia → EU storage stalls at 74.6% (lowest for late October since 2009; injections ~+0.09pp/day, some states withdrawing). ~75% crisis / ~25% weather. BofA's Q4 ~€100 tracking; Citi's €56 effectively falsified. (CONFIRMED prices; REPORTED storage; markets C6, intel ISR-A8)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**TTF €73.25 (22 Sep) → €69.81 low (29 Sep) → €84.74 close (12 Oct, +4.05%) → €86.65 (13 Oct) — +18%; highest since late 2022/early 2023.** Drivers: Hormuz attacks on LNG carriers (Maran Gas Mystras hit 4–5 Oct) and rerouting; **Qatar October LNG tracking 0.6 Mt vs 1.6 Mt in September** (Kpler); QatarEnergy force majeure extended; North-Asian LNG ~3× pre-war bidding cargoes away; cold second-half-October forecast. EU storage (AGSI+ trackers) 70.87% (26 Sep) → 73.61% (10 Oct) vs ~83% a year ago; Germany ~60%; ~+0.20pp/day → ~78% by 1 Nov, short of the relaxed 80% target. Commission (8 Oct): system 'sufficiently flexible', no emergency measures; energy ministers 29 Oct. **The Saudi crude cut reversed for November while TTF rose — the gas cascade runs on Qatar LNG, not Saudi crude.** Baseline correction: 22-Sep storage was ~69.5–70%, not 68%. Citi Q4 €56 (relayed, low confidence). — CONFIRMED (prices, storage)."

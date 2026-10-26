@@ -3,14 +3,14 @@
  "name": "Shipping / Tanker Rates",
  "type": "sector",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "Tankers, Day 228. Freight is at all-time highs because of safety and logistics, not volume: VLCC TD3C hit $1.41m/day (week to 9 Oct), Suezmax and Aframax indices set records, and 1-year time charters reached $213k/day. Gulf crude volumes are near pre-war, but ~40% now leaves via Yanbu, Fujairah and Gulf of Oman ship-to-ship (~12 mb/d with week-long waits), needing ~40 VLCCs to do 24's work; the ~25 Hormuz strikes since 23 Sep, Fujairah turn-backs and 6–10% war-risk premia add cost; freight is ~27% of delivered crude cost. Frontline +18.8% since 22 Sep. The 22-Sep thesis held: the Yanbu restart did not hurt tankers because it lengthened routes while Hormuz STS demand rose. The forward curve prices a collapse with peace (WS246 by Q3-27) and a 2027 delivery wave — this is the most reversible high in the graph.",
+ "last_updated": "2026-10-26",
+ "summary": "Tankers, Day 241. Freight eased while the war hit its worst month: VLCC TD3C fell from the $1.41m/day record (9 Oct) to $1.29m (23 Oct) and tanker equities fell ~10%, because Iran's campaign targets the Gulf of Oman ship-to-ship trade that had created the extra tonne-miles (STS volumes −2.2 mb/d) while escorted exports run near pre-war. The benchmark itself is in court (Mercuria v Baltic Exchange, opened 26 Oct). More attacks no longer mean higher rates — the edge is non-monotonic. War-risk cover stays 6–10% of hull.",
  "current": {
   "status": "VLCC TD3C ~$982k/day (Fri 11 Sep; Clarksons >$1m) — 2x in a month, ~20x baseline; Frontline +24.4% 1M, BOAT +17.2%. The physical war premium at its extreme; containers flat (WCI $4,476).",
-  "frontline": "$49.21 (+1.7% Fri)",
-  "price": "TD3C WS1,318.75 / $1,412,594/day (wk to 9 Oct, record); 1-yr TC $213k/day; FRO $59.19, DHT $26.22, BOAT $54.50 (12 Oct)",
-  "driver": "Saudi crude re-routed via Hormuz under US escort (Vortexa 12 VLCCs/wk vs 6–7); daytime escorts; Yanbu shut.",
-  "regime": "RECORD FREIGHT ON SAFETY, NOT VOLUME (13 Oct): ship war + STS bottleneck + longer Saudi routes + 6–10% war-risk. Forward curve prices a collapse with peace (WS246 by Q3-27)."
+  "frontline": "$52.94 (23 Oct), −10.3% since 13 Oct",
+  "price": "TD3C WS1,208.13 / $1.29m/day (23 Oct), −8.4% from the 9-Oct record",
+  "driver": "STS disruption cuts tonne-miles; benchmark litigation; Gulf exports near pre-war",
+  "regime": "NON-MONOTONIC: more attacks ≠ higher rates once attacks target the STS trade that created the tonne-miles (26 Oct)."
  },
  "active_triggers": [
   {
@@ -23,7 +23,8 @@
    ],
    "added": "2026-03-23",
    "note_2026-06-10": "STAYS watching. Following the June 8-9 US/Israeli strikes on Iran, the Houthis signalled renewed Red Sea attacks and declared a 'complete ban on enemy navigation' (gCaptain) — RHETORIC, the strongest Houthi signal since the IntelliNews false alarm. Operationally, UKMTO reported June 10 a cargo vessel SW of Balhaf, Yemen was approached by a small craft with six armed individuals; the embarked security team exchanged fire and the attackers broke off (no casualties, no damage, attribution UNDER INVESTIGATION — The National). A six-man small-boat boarding reads as plausibly PIRACY, not a Houthi missile/drone profile — NOT attributed to Houthis. ELEVATED-probability watch, NOT activation.",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — none; pledge on record.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — position changed (Houthis hold the strait), action against neutral hulls not confirmed; declared exemption for non-Saudi ships holding so far."
+   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — none; pledge on record.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — position changed (Houthis hold the strait), action against neutral hulls not confirmed; declared exemption for non-Saudi ships holding so far.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "Lloyd's AWRP Persian Gulf rate falls below 0.8% for 5 consecutive sessions (Branch 3 deepening test)",
@@ -36,7 +37,8 @@
    ],
    "added": "2026-04-27",
    "note_2026-06-10": "STAYS watching. War-risk insurance has RE-BASED UP this window (The National June 3: Gulf war-risk cover ~4% of hull per 7-day transit), plus a US DFC political-risk reinsurance facility up to $40bn backstops Hormuz shipping — both move the premium structure UP, not toward the 0.8% normalization threshold. No move toward trigger.",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — 6–10% of hull.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no print (GAP).\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no Gulf AWRP print since July (7.5–10%); GAP third brief running.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no Sep print (GAP); last 7.5–10%; direction worse."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — 6–10% of hull.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no print (GAP).\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no Gulf AWRP print since July (7.5–10%); GAP third brief running.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no Sep print (GAP); last 7.5–10%; direction worse.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED (6–10%)."
   }
  ],
  "top_edges": [
@@ -74,6 +76,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**FREIGHT EASED WHILE THE WAR HIT A RECORD MONTH.** VLCC TD3C WS1,318.75/$1.41m (9 Oct record) → WS1,281.25/$1.37m (16 Oct) → WS1,208.13/$1.29m (23 Oct); TD34 −26%, LR2 TC1 +16%. Gulf of Oman STS volumes −2.2 mb/d as Iran targets the transfer trade (Khor Fakkan/Fujairah/Sohar STS ~3.97 mb/d mid-Oct, Windward). Frontline −10.3%, DHT −7.5% since 13 Oct. Mercuria's UK High Court challenge to the Baltic's TD3C assessments since March opened 26 Oct; the Baltic warns hundreds of trades could unwind. Clarksons' 'below WS1,000 before 31 Oct' test not met. (CONFIRMED Baltic prints; intel MAC-A8/B2, KIN-A5)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**VLCC TD3C all-time high WS1,318.75 / $1,412,594/day (week to 9 Oct, Baltic) — +29% vs 15-Sep $1.099m; Suezmax/Aframax indices at records; 1-yr TC $213k/day.** Mechanism (Clarksons/OilPrice/Poten): Gulf of Oman STS ~12 mb/d (from 5–6) with 7–10-day waits; VLCCs needed rose 24 (Aug) → 40 (Sep); freight = 27% of delivered crude cost (Jan ~3%); Oman–Asia ~$21/bbl; crew $100k/month + $50k per Hormuz transit (FT). USG–China VLCC lump sum $79.6m. Frontline $49.81 → $59.19 (+18.8%; +5.5% Mon 12 Oct as ≥10 VLCCs turned back from Fujairah); DHT +16.8%. Forward curve: TD3C Oct WS1,175, Q3-27 WS246; 63 VLCC deliveries due 2027. The 22-Sep 'Signal' held: Yanbu restart moved barrels onto longer routes while Hormuz STS demand rose — both legs up. — CONFIRMED (Baltic)."

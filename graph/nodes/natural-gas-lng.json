@@ -3,14 +3,14 @@
  "name": "Natural Gas / LNG",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "Natural gas / LNG, Day 228. Two markets again: European TTF €86.65 (+18% since 22 Sep) on a war-driven LNG squeeze — Qatar's October exports tracking 0.6 Mt as Hormuz attacks reach LNG carriers, force majeure extended, Asia bidding at ~3× pre-war, EU storage 73.6% — while Henry Hub ($3.13) moves on US weather and Hurricane Isaias. US LNG (Cheniere) is the beneficiary. Do not encode Henry Hub strength as crisis-driven.",
+ "last_updated": "2026-10-26",
+ "summary": "Natural gas / LNG, Day 241. Two markets. Asia and Europe are short — JKM $30.76 (22 Oct, highest since Dec 2022) and TTF €97 intraday (26 Oct) — because Qatar's exports are still collapsed and LNG carriers face Hormuz risk; the US is long, with Henry Hub down ~23% on mild weather and storage. Qatar's 28-year purchase of US LNG from Cheniere (22 Oct) is the structural signal: the Gulf's biggest exporter is hedging with American supply.",
  "current": {
-  "price": "Henry Hub $3.22 (+2.6% 1D, +10.7% MoM — WEATHER, ~0% crisis); European TTF ~EUR51/MWh (+~5% 1D Jun 9, +~11% 1M, ~70% crisis); Cheniere $239.40 (+1.2% 1D)",
+  "price": "Henry Hub Nov $2.53 (26 Oct, −4.2%); Dec $3.00; JKM $30.76 (22 Oct)",
   "driver_split": "CRITICAL (markets Section E): Henry Hub and TTF share elevated 1M prints but NOT a cause. HENRY HUB = DOMESTIC WEATHER (~0% crisis): US summer heat demand (above-normal temps through June 24) DESPITE ample storage (~5% above 5-yr avg) + softer LNG-export flows (seasonal maintenance Golden Pass/Freeport). Does NOT reverse on a Hormuz deal. EUROPEAN TTF = CRISIS gauge (~70% crisis): Qatar ~17% liquefaction (Ras Laffan) offline + Iran-Israel escalation; still sub-EUR70. Do NOT encode Henry Hub strength as crisis-driven — that would be a textbook attribution error.",
   "henry_hub_driver": "WEATHER (~0% crisis): US summer heat demand, above-normal temps forecast through June 24. Strength persists DESPITE ample storage (~5% above 5-yr avg) and softer LNG feedgas (seasonal maintenance). Do NOT let +10.7% MoM contaminate the energy-crisis read; does NOT reverse on a Hormuz deal.",
   "lng_premium": "Cheniere +4.3% (7 Aug) as a Hormuz-REOPENING proxy (the Iran-Oman route agreement raises odds LNG flows normalize) + Train 6 Corpus Christi completion + the structural Qatar-offline tailwind (US Gulf Coast captures share). TTF easing on the de-escalation but still elevated. The LNG trade is now pricing reopening odds, not just disruption.",
-  "status": "Qatar exits ~zero; TTF >€80; Bab el-Mandeb (8% of LNG) Houthi-held; HH $2.88."
+  "status": "Atlantic–Pacific split: US gas glut vs Asian/European scarcity (26 Oct)."
  },
  "price_snapshots": [
   {
@@ -36,7 +36,8 @@
    ],
    "added": "2026-03-23",
    "note_2026-06-10": "STAYS watching. TTF ~EUR51/MWh (Jun 9), still ~EUR49 below the EUR100 2022-crisis level. The +~11% 1M TTF move is the Qatar/Hormuz crisis premium (~70% crisis); the parallel Henry Hub +10.7% 1M is domestic weather (~0% crisis) and is irrelevant to this trigger. Not crossed.",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — TTF €86.65.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — €73."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — TTF €86.65.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — €73.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — €97.19 intraday."
   }
  ],
  "top_edges": [
@@ -84,6 +85,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "Asian LNG (JKM December) hit $30.76/MMBtu on 22 Oct, highest since Dec 2022 (Platts via Forbes); Henry Hub November fell ~23% since 13 Oct to $2.53 on mild weather and storage — US supply is not the constraint, liquefaction and shipping are. QatarEnergy signed to buy up to 4 Mtpa of US LNG from Cheniere (2031–2054, 22 Oct). NG=F rolled to December on 26 Oct (its '+13.8%' is an artefact). (CONFIRMED; markets C6, A)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Qatar LNG October tracking 0.6 Mt (Kpler) after September's war-high 1.6 Mt; LNG carriers now in the strike set (Maran Gas Mystras, 4–5 Oct).** Henry Hub $3.13 (+10% since 22 Sep; Isaias shut 59% of GoM gas 9 Oct). Cheniere $282.49 (+2.7%). TTF €86.65. — CONFIRMED."

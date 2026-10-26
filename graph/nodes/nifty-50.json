@@ -3,15 +3,15 @@
  "name": "Nifty 50",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "Nifty 50, Day 228. 22,721.95 (13 Oct, +1.6%) after a 5% slide from the 22-Sep level to 22,231.80 on 8 Oct — the lowest since April 2025 and ~1% above the 22,000 (200-day EMA) trigger. September −6.0% was the worst month of 2026. Drivers of the slide (~65% crisis): Brent back above $100 with the Indian basket at $116–121, the rupee to 96.8, the RBI's 7-Oct hike, FPI selling of ~₹80k cr in five weeks; (~35% non-crisis) a US 10Y above 5.2% and an 18-month-high dollar pulling capital from all EM, and onion-driven food CPI. What held it: DII buying (+₹64.8k cr in September, 38th straight month) and record SIP inflows. The 13-Oct bounce was IT earnings (HCLTech guidance raise, TCS beat; Nifty IT +5.2%) plus the RBI's Saturday rupee floor. The capital-substitution story changed: the North-Asia AI complex has fallen >10% (KOSPI −13.9% since 22 Sep) but foreigners did not rotate into India — money is leaving EM on dollar rates. India VIX 14.1 (peak 15.3). Levels: 22,000 trigger; 23,400 (22-Sep).",
+ "last_updated": "2026-10-26",
+ "summary": "Nifty 50, Day 241. 22,753 (26 Oct), flat on the fortnight but with a rotation underneath: IT rallied 8% on earnings (best week since 2008) while banks fell 2% on the liquidity squeeze and small caps had their worst week since February (−7.1%) on the Jio IPO cash call, crude at $117 and rising volatility. The 22,000 trigger was not tested (low 22,600). India VIX 17. The index is held up by its largest sector's earnings, not by flows or oil — which means it is exposed if IT's rally fades before Brent falls.",
  "current": {
-  "price": "22,721.95 (13 Oct, +1.6%); low 22,231.80 (8 Oct); −3.0% since 22 Sep; India VIX 14.12",
-  "delta_1d": "+0.2% Thu (Wed +0.43%; Tue −1.19%)",
-  "delta_fortnight": "+0.3% vs 3 Jul — HIGHER through a war restart",
-  "driver": "Oil $105–109 → INR 96 → GOI 7.06% → RBI-hike consensus; Fed hike; DII wall (+₹3,908 cr Wed) holding ~23,100–23,300.",
-  "delta_1m": "-4.1%",
-  "regime": "OIL-LED BOUNCE ON FOREIGN SELLING (2026-09-22): +1.5% off the low on Brent −7.7%; FPI −₹23.7k cr MTD; DII-held tape; AI complex at records pulls capital the other way."
+  "price": "22,753.20 (26 Oct, +0.7%); window 22,600–23,146; −3.0% 1M",
+  "delta_1d": "+0.7%",
+  "delta_fortnight": "+0.1% since 13 Oct",
+  "driver": "IT earnings rally vs bank/small-cap selloff (liquidity, crude, IPO cash call)",
+  "delta_1m": "−3.0%",
+  "regime": "FLAT INDEX, ROTATION UNDERNEATH (26 Oct)."
  },
  "active_triggers": [
   {
@@ -33,7 +33,8 @@
    "note_2026-06-19": "2026-06-19: India fell (-0.6%) on the signing day while N-Asia AI hit records (KOSPI +24.5% 1M); the inverted dynamic persists — capital to AI, not India. Hawkish Fed a shared but India-heavier drag. STAYS watching.",
    "note_2026-06-22": "2026-06-22: INVERSION turning favourable — India green vs a red US/AI tape; the FII turn (+Rs3,386cr/wk) begins to reverse the capital-away-from-India dynamic. STAYS watching pending 5-session FII confirmation.",
    "note_2026-06-23": "2026-06-23: FII turn reverted; India range-bound at 24,000 on DII. The favourable inversion is NOT confirmed. STAYS watching.",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — leg 1 MET (KOSPI −13.9% since 22 Sep; SMH −6.8% from peak); leg 2 NOT MET (FPI −₹80k cr in ~5 weeks; no 3-session buying run). Capital is leaving EM, not rotating to India.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — moving AWAY: Nasdaq record/KOSPI >7,000/TAIEX +6.9% 1M and FPI −₹23.7k cr MTD. Neither leg met."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — leg 1 MET (KOSPI −13.9% since 22 Sep; SMH −6.8% from peak); leg 2 NOT MET (FPI −₹80k cr in ~5 weeks; no 3-session buying run). Capital is leaving EM, not rotating to India.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — moving AWAY: Nasdaq record/KOSPI >7,000/TAIEX +6.9% 1M and FPI −₹23.7k cr MTD. Neither leg met.",
+   "note_2026-10-26": "[reviewed, stays watching] Leg 1 MET (KOSPI −22% 1M, SMH −10%); leg 2 NOT met (FPI −₹48k cr Oct). The substitution thesis is failing — see edge semiconductors→nifty-50 cut to 5.5."
   },
   {
    "condition": "Nifty breaks below 22,000",
@@ -44,7 +45,8 @@
     "inr-usd"
    ],
    "added": "2026-03-23",
-   "note_2026-06-10": "2026-06-10: FAR from firing — Monday 8 Jun's gap-down low-water mark was 23,123 (close), ~1,100 pts clear of 22,000; the index recovered to ~23,398 by Wed midday. STAYS WATCHING."
+   "note_2026-06-10": "2026-06-10: FAR from firing — Monday 8 Jun's gap-down low-water mark was 23,123 (close), ~1,100 pts clear of 22,000; the index recovered to ~23,398 by Wed midday. STAYS WATCHING.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — low 22,600."
   },
   {
    "condition": "Nifty breaks below 22,000 (200-day EMA)",
@@ -55,11 +57,12 @@
     "rbi"
    ],
    "added": "2026-04-01",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — NOT FIRED: lowest close 22,231.80 (8 Oct); 22,721.95 now.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — 23,463; +1.5% off the 15-Sep low."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — NOT FIRED: lowest close 22,231.80 (8 Oct); 22,721.95 now.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — 23,463; +1.5% off the 15-Sep low.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — low 22,600 (23 Oct)."
   },
   {
    "condition": "Nifty 23,775 (April 9 ceasefire-fracture low) broken Monday on weekend kinetic gap-down",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "nifty-50",
     "india",
@@ -67,18 +70,22 @@
     "rbi"
    ],
    "added": "2026-04-24",
-   "note_2026-06-10": "2026-06-10: CONTEXT — the index has been trading BELOW 23,775 throughout this window (23,123 Mon -> ~23,398 Wed midday), so 23,775 now reads as overhead resistance/reclaim-level rather than a break-watch. The Monday gap-down test resolved bullishly (shallow drag, DII-held floor). STAYS WATCHING."
+   "note_2026-06-10": "2026-06-10: CONTEXT — the index has been trading BELOW 23,775 throughout this window (23,123 Mon -> ~23,398 Wed midday), so 23,775 now reads as overhead resistance/reclaim-level rather than a break-watch. The Monday gap-down test resolved bullishly (shallow drag, DII-held floor). STAYS WATCHING.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated 24-Apr test lapsed. Housekeeping."
   },
   {
    "condition": "Nifty rebounds into 24,000-24,200 area Monday Apr 27 on Branch 3 confirmation = deployment window entry on conviction-after-mapping framework",
-   "status": "active",
+   "status": "resolved",
    "cascade": [
     "nifty-50",
     "india",
     "inr-usd"
    ],
    "added": "2026-04-27",
-   "update_2026-05-25": "Nifty closed 24,031.70 (+1.32%) May 25 — back INSIDE the 24,000-24,200 zone on the deal-relief bounce, partway toward the 24,500-25,000 positive case (got +1.32%). BUT this is a crisis-relief bounce on a clean-room domestic session, NOT a structural re-rating — the conviction-after-mapping deployment condition (Brent <$95 sustained + FII positive + organic ₹93-94 INR) is NOT met; ~75% of the gain reverses on deal-failure + oil re-spike. Zone re-entry on paper, not on positioning."
+   "update_2026-05-25": "Nifty closed 24,031.70 (+1.32%) May 25 — back INSIDE the 24,000-24,200 zone on the deal-relief bounce, partway toward the 24,500-25,000 positive case (got +1.32%). BUT this is a crisis-relief bounce on a clean-room domestic session, NOT a structural re-rating — the conviction-after-mapping deployment condition (Brent <$95 sustained + FII positive + organic ₹93-94 INR) is NOT met; ~75% of the gain reverses on deal-failure + oil re-spike. Zone re-entry on paper, not on positioning.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[active → resolved] Met within its window (previously active); window lapsed — closed 2026-10-26 as housekeeping (corrected from 'expired' after fact-check L16)."
   }
  ],
  "top_edges": [
@@ -136,6 +143,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "Nifty 22,721.95 (13 Oct) → 23,146.15 (16 Oct; Nifty IT best week since Apr 2008) → four straight falls to 22,600.00 (23 Oct) → 22,753.20 (26 Oct): +0.1% on the window. Composition: Nifty IT +8.2% (HCLTech guidance raise, TCS beat; Infosys's FY27 cut to 1–2% largely ignored) vs Bank Nifty −2.0% (liquidity, 10Y 7.48%) vs Smallcap −7.1% in the week to 23 Oct (Jio IPO cash call, crude, VIX). India VIX 14.12 → 17.16. 22,000 not tested. Crisis-linked ~55%. (CONFIRMED; markets C7)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Nifty 23,414.30 (21 Sep) → 22,620.45 (30 Sep; Sept −6.0%, worst month of 2026) → 22,603.05 (7 Oct, hike) → 22,231.80 (8 Oct, −1.64%; lowest since Apr 2025; ~1.0% above the 22,000 trigger) → 22,520.45 (9 Oct; TCS) → 22,363.35 (12 Oct) → 22,721.95 (13 Oct, +1.6%; Nifty IT +5.2% on HCLTech guidance; RBI rupee floor; Brent −2%).** Window split ~65% crisis (oil/basket $116, rupee, RBI hike, FPI) / ~35% non-crisis (UST 5.2%, DXY, onion-driven food CPI). India VIX 10.90 → 15.33 peak (8 Oct) → 14.12. **Capital-substitution read: North-Asia AI complex −>10% (KOSPI −13.9% since 22 Sep) but FPIs sold India through the same window — money left EM, not rotated to India; reversal trigger's FII leg unmet.** — CONFIRMED."

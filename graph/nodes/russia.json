@@ -3,8 +3,8 @@
  "name": "Russia",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "Russia, Day 228. Moscow is now a swing supplier licensed by Washington during the Iran war, a would-be broker, and — per Western officials — Iran's arms supplier. Trump's diesel deal with Putin (9 Oct) came with an OFAC licence on Russian diesel to 7 Apr 2027 and an early lift of Russia's export ban; Trump claimed a Russia–Ukraine 'energy ceasefire' (11 Oct) that Moscow has not confirmed. Putin re-tabled holding Iran's HEU and called a ground operation in Iran 'unacceptable' (9 Oct), and told Pezeshkian Russia will 'do everything' to help (8 Oct). Bloomberg (9 Oct): Russia supplying Iran missiles (WH rejects). Despite Urals at a premium to Brent, Russia's oil-and-gas tax take fell 17% y/y (Ukrainian refinery strikes, strong rouble). EU calls the diesel deal 'concerning'.",
+ "last_updated": "2026-10-26",
+ "summary": "Russia, Day 241. Moscow is bidding to be the fourth channel on Iran: Lavrov's first wartime visit to Tehran (19 Oct), a GCC dialogue in Manama (18 Oct), Putin's offer of mediation to Witkoff (21 Oct) and Pezeshkian in Moscow on 27 Oct. The one concrete asset it brings, custody of Iran's enriched uranium, was refused by Rezaei ('not a single gram'). On energy the 11-Oct 'energy ceasefire' collapsed within days, the Trump–Putin diesel flows are modest, and Urals has swung from a premium to a ~$31 discount to Dated.",
  "current": {
   "status": "BRICS Delhi attendee; Black Sea grain shutdown driving global grains (non-Iran driver)."
  },
@@ -23,7 +23,7 @@
   },
   {
    "condition": "China-as-HEU-custodian framework formally accepted by Iran + US within 30 days (by 2026-06-13)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "china",
     "iran",
@@ -32,24 +32,40 @@
     "brent-crude"
    ],
    "added": "2026-05-14",
-   "note": "Trump publicly opened HEU-via-China custodian door at Trump-Xi summit Day 1 (CONFIRMED RHETORIC). Xi has NOT publicly accepted. Iran ambassador to China already laid public scaffolding for China as 'political balancing partner.' Trigger requires operational acceptance, not rhetorical door-opening."
+   "note": "Trump publicly opened HEU-via-China custodian door at Trump-Xi summit Day 1 (CONFIRMED RHETORIC). Xi has NOT publicly accepted. Iran ambassador to China already laid public scaffolding for China as 'political balancing partner.' Trigger requires operational acceptance, not rhetorical door-opening.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Window (by 13 Jun) lapsed. Housekeeping."
   },
   {
    "condition": "Russia named as HEU custodian in any US–Iran paper, OR both Washington and Tehran publicly accept the custody offer, by 3 Nov",
    "status": "watching",
    "cascade": "New channel alongside Qatar/Pakistan/Iraq; would move the nuclear-sequencing gap.",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13 (Putin 9 Oct; replaces the stale China/Russia custodian windows)."
+   "notes": "Added 2026-10-13 (Putin 9 Oct; replaces the stale China/Russia custodian windows).",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED and effectively blocked (Rezaei 20 Oct)."
+  },
+  {
+   "condition": "Pezeshkian–Putin (Moscow, 27 Oct) produces a Russia-carried proposal OR a named Russia–US channel on Iran by 3 Nov",
+   "status": "watching",
+   "cascade": [
+    "russia",
+    "iran",
+    "united-states",
+    "nuclear-program"
+   ],
+   "added": "2026-10-26",
+   "notes": "Putin offered Witkoff mediation 21 Oct; Lavrov in Tehran 19 Oct. (intel DIP-A7/A10)"
   }
  ],
  "top_edges": [
   {
    "to": "iran",
    "type": "intelligence_support_and_mediator_network",
-   "weight": 10,
+   "weight": 9.0,
    "directness": 1,
-   "last_activated": "2026-05-03",
-   "activation_count": 12
+   "last_activated": "2026-10-26",
+   "activation_count": 12,
+   "context": "CONFIRMED meetings: Lavrov's first Tehran visit of the war (19 Oct), Putin's mediation offer to Witkoff (21 Oct), Pezeshkian–Putin 27 Oct scheduled. 8.5→9.0. Content (custody) blocked by Rezaei."
   },
   {
    "to": "china",
@@ -86,6 +102,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**MOSCOW BIDS TO BE THE FOURTH CHANNEL.** Lavrov at the Russia–GCC dialogue in Manama (18 Oct) and in Tehran (19 Oct, first visit of the war): 'readiness to help find acceptable negotiated solutions'; Bushehr staff to 'soon return'. Putin offered Witkoff Russian mediation on Iran (St Petersburg, 21 Oct; CNN/Axios). Pezeshkian meets Putin in Moscow 27 Oct (GECF). But Rezaei (20 Oct): 'Not a single gram' of enriched uranium leaves Iran — the HEU-custodian route is blocked. Energy: the 11-Oct 'energy ceasefire' collapsed ~15 Oct (Ukraine hit Ryazan); Trump–Putin diesel flows modest (~156–210 kt loaded 11–20 Oct, Kpler; first US-bound cargo 22 Oct); Urals ~$80 FOB, a ~$31 discount to Dated. (CONFIRMED meetings; REPORTED content/flows; intel DIP-A10, ISR-A13–A15)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Moscow inserts itself on three tracks at once.** (1) Putin–Pezeshkian (Avaza, 8 Oct): Russia will 'do everything' to help; Putin–Trump call (9 Oct, ~90 min): HEU-custody offer 'remains in force', a ground operation in Iran 'unacceptable'; Kremlin says Trump 'welcomed Moscow's involvement' — CLAIMED (no WH readout). (2) Trump–Putin diesel deal: OFAC general licence on Russian diesel to 7 Apr 2027; Russia lifts its export ban early (300kt Oct/500kt Nov/1Mt Dec per Novak — volumes conflict); claimed 'energy ceasefire' (11 Oct) unconfirmed by Moscow; EU ministers call it 'concerning' and adopt the largest Russia sanctions listing yet (12 Oct). (3) Bloomberg (9 Oct, Western officials): Russia supplying Iran with missiles — REPORTED; White House rejects. Russia's Jan–Sep oil/gas tax take fell 17% y/y despite Urals ~$92 (Reuters 5 Oct); Urals traded at a premium to Brent (~+$3.30, early Oct). — mixed tags."

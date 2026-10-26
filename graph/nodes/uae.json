@@ -3,8 +3,8 @@
  "name": "United Arab Emirates",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "UAE, Day 228. Re-aligned behind Riyadh and the Gulf state most willing to name Iran: Mansour bin Zayed visited Riyadh (29 Sep, first senior visit since the 2025 rift), the UAE backs 'all measures', Gargash calls for 'joint Gulf action' against 'Iran and its allies' (12 Oct), and the UAE-built Giants Brigades lead the Saudi-directed Yemen offensive. UAE waters are in the ship war (Gem No. 2 hit at anchor 9 Oct; RAK anchorages ordered out 10 Oct; Fujairah VLCC turn-backs 12 Oct), though no strike on UAE territory in the window. Production ~4.2 mb/d outside OPEC. Rezaei says the 'most valuable UAE holdings' are 'not yet' on Iran's target list.",
+ "last_updated": "2026-10-26",
+ "summary": "UAE, Day 241. Aligned behind Riyadh, hit at sea but not on its soil: AD Ports-linked container ships were struck (GFS Pride sank 14 Oct), a tug was hit off Khor Fakkan on the Gulf of Oman coast (18 Oct), and spilled oil closed northern beaches (23–25 Oct). Abu Dhabi reportedly re-funds southern Yemeni forces under Saudi air cover. Outside OPEC, it pumped a record >4.4 mb/d in September (IEA via aggregator). Not a combatant.",
  "current": {
   "status": "Trade/finance with Iran HALTED since 18 Aug (CONFIRMED); missile incident disputed (CLAIMED); Delhi meeting with Pezeshkian 12 Sep."
  },
@@ -18,7 +18,8 @@
     "opec-plus"
    ],
    "added": "2026-03-23",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no UAE kinetic role; political alignment with Riyadh; Giants Brigades are Yemeni.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — coordination (Germany meeting), not combat."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no UAE kinetic role; political alignment with Riyadh; Giants Brigades are Yemeni.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — coordination (Germany meeting), not combat.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — financing proxies is not combat."
   },
   {
    "condition": "UAE adds 500K-1M bpd of supply within 6 months of OPEC exit (May 1) confirming Atlantic Council/Derentz medium-term-bearish thesis",
@@ -30,18 +31,21 @@
     "india"
    ],
    "added": "2026-04-29",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — ~+0.3 mb/d over pre-war (Kpler); window closes ~1 Nov."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — ~+0.3 mb/d over pre-war (Kpler); window closes ~1 Nov.",
+   "note_2026-10-26": "[reviewed, stays watching] HOLD (borderline; window closes ~1 Nov). IEA September >4.4 mb/d vs Kpler's 3.9 mb/d pre-war baseline ≈ +0.5 mb/d — the lower bound — via an aggregator relay of the OMR. SAU desk recommended fire; held pending the OMR table (tag lower)."
   },
   {
    "condition": "Saudi Arabia issues formal public response to UAE OPEC exit within 14 days (by 2026-05-12)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "saudi-arabia",
     "uae",
     "opec-plus",
     "iran"
    ],
-   "added": "2026-04-29"
+   "added": "2026-04-29",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Window (by 12 May) lapsed. Housekeeping."
   }
  ],
  "top_edges": [
@@ -136,6 +140,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "The war reached UAE waters and coasts, not its soil: a tug hit ~20 nm NE of Khor Fakkan (18 Oct); oil from the tanker Gem No. 2 (hit 9 Oct) closed beaches in Umm Al Quwain, Sharjah and RAK (23–25 Oct). AD Ports-linked container ships GFS Pride (sank 14 Oct), GFS Giselle and Al Saadiyat hit 13 Oct. Abu Dhabi reportedly agreed to re-fund southern Yemeni forces with Saudi air cover (Guardian, 17 Oct, REPORTED). IEA: UAE September crude >4.4 mb/d (aggregator relay), ≈+0.5 mb/d vs Kpler's pre-war baseline. US 'restricted operations' at its UAE embassy. (CONFIRMED incidents; REPORTED funding/output; intel KIN-A1/A11, SAU-A11/A13)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Abu Dhabi re-aligned behind Riyadh and names Iran.** Sheikh Mansour bin Zayed visited Riyadh 29 Sep (first senior UAE visit since the 2025 rift); MoFA (8 Oct): 'full solidarity… all measures'; Gargash (12 Oct): 'joint Gulf action' against 'Iran and its allies' (AP). UAE-built Giants Brigades lead the Saudi-directed Yemen offensive. UAE waters inside the ship war: *Gem No. 2* struck at anchor off Al Jazeera/Sharjah (9 Oct, 22 Indian crew safe); RAK anchorages ordered out by VHF (10 Oct); UAE coastguard rescued 22 crew from a burning tanker (11 Oct). UAE suspended all Iranian carriers from 24 Sep (US airline ban). UAE output ~4.2 mb/d since June (+0.3 vs pre-war; Kpler). No strike on UAE territory in the window. — CONFIRMED."

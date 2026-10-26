@@ -3,13 +3,13 @@
  "name": "Fertilizer / Urea",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "Urea/fertiliser, Day 228. The cascade the graph built in April ($935/t peak) has unwound: India's 7-Oct IPL tender drew 5.35 Mt of offers for 1.7 Mt at $352–465/t CFR, ~10% below August; China opened another export tranche; CF −7% and Nutrien −9% since 22 Sep. DAP stayed above $900 through August (trigger resolved met). The residual crisis link is through gas prices and Gulf shipping; currently ~20%.",
+ "last_updated": "2026-10-26",
+ "summary": "Urea / fertiliser, Day 241. A glut, not a shortage: India's 7-Oct tender drew 5.35 Mt of offers at $352–465/t for 1.7 Mt, and rabi opened with urea stocks of 8.33 Mt (+54% y/y). The cascade the graph built in April ($935/t peak) has fully unwound; the risk now is fiscal (subsidy) rather than physical.",
  "current": {
-  "price": "Urea ME FOB $390–410/t; TE $459.50 (15 Sep). India Aug tender $390 CFR. −58% from Apr peak. CF $131.99 (−2.6%; +12.1% 1M); NTR $77.68 (+13.8% 1M).",
-  "driver": "Grains + gas drive the equities; urea itself cheap; India covered via China (1.2mt by 24 Sep).",
+  "price": "India tender offers $352–465/t CFR (7 Oct)",
+  "driver": "Supply glut; rabi stocks 8.33 Mt (+54% y/y)",
   "delta_1m": "+1.6% (urea); DAP flat at multi-year highs",
-  "regime": "ATTRIBUTION CORRECTED — urea de-escalated ~50% from April on CHINESE EXPORT QUOTAS reopening after an 8-month suspension, NOT on Hormuz. Nitrogen is loose; PHOSPHATE (DAP) is the tight leg and is a separate story. India's live fertiliser exposure runs through LNG FEEDSTOCK (imports 50% below pre-conflict), not through urea freight."
+  "regime": "GLUT (26 Oct) — the urea cascade has faded."
  },
  "active_triggers": [
   {
@@ -19,17 +19,20 @@
     "india"
    ],
    "added": "2026-03-23",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — ~$352–465.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING/EXPIRING — urea $390–410; no subsidy revision news; DAP not surfaced."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — ~$352–465.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING/EXPIRING — urea $390–410; no subsidy revision news; DAP not surfaced.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — offers $352–465/t."
   },
   {
    "condition": "India urea stocks fall below 40 LMT by May 1, 2026",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "india",
     "rbi",
     "nifty-50"
    ],
-   "added": "2026-03-31"
+   "added": "2026-03-31",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Window lapsed; stocks now 8.33 Mt (+54% y/y). Housekeeping."
   },
   {
    "condition": "DAP India CFR remains above $900/t through end of monsoon planting (Aug 2026) — confirms structural input-cost reset",
@@ -46,7 +49,7 @@
   },
   {
    "condition": "Indian fertilizer subsidy bill 2026-27 budget revision (rumored to overshoot ₹1.95 lakh cr) within 30 days — confirms binding fiscal cost on India",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "india",
     "rbi",
@@ -54,7 +57,9 @@
     "fertilizer-urea"
    ],
    "added": "2026-05-12",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING/EXPIRING — urea $390–410; no subsidy revision news; DAP not surfaced."
+   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING/EXPIRING — urea $390–410; no subsidy revision news; DAP not surfaced.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] 30-day window from 12 May lapsed. Housekeeping."
   }
  ],
  "top_edges": [
@@ -110,6 +115,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "Still a glut, not a shortage: India's 7-Oct urea tender drew 5.35 Mt of offers at $352–465/t CFR for 1.7 Mt sought; rabi opened with urea stocks of 8.33 Mt (+54% y/y); award and rabi subsidy rates not found. CF Industries +2.9%, Nutrien +2.6% since 13 Oct. (REPORTED; intel IND-A15)",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Urea cascade unwound: India IPL tender (closed 7 Oct) drew 5.35 Mt of offers for 1.7 Mt at $352–465/t CFR (WC $356.25–416.50; EC $352.10–465) — ~10% below August; April peak $935.** China opened a fourth export tranche; CF −7.0%, Nutrien −8.8% since 22 Sep. DAP India CFR last $915–935 (late Aug). ME granular FOB October not found. — REPORTED (Bloomberg)."

@@ -3,15 +3,15 @@
  "name": "Oman",
  "type": "country",
  "created": "2026-05-30",
- "last_updated": "2026-10-13",
- "summary": "Oman, Day 228. The broker that does not take sides: Muscat hosts the US–Houthi channel behind the September understanding, carried a Saudi truce offer to the Houthis (overtaken by the war), and is the only Gulf capital pairing condemnation of the Riyadh attack with a call for restraint on all sides. Its Iran–Oman joint-management proposal for Hormuz was rejected by the US (The National, 11 Oct); the Salalah Iran–Gulf meeting has not reconvened. Omani waters are now in the ship war (Sohar anchorage UAV strike 11 Oct, 2 Indians missing; Royal Navy of Oman evacuations). An Omani flydubai co-pilot's attempted attack on Ben Gurion (30 Sep) was a lone actor per the UAE.",
+ "last_updated": "2026-10-26",
+ "summary": "Oman, Day 241. The quiet broker, publicly silent. Rezaei claims an 'understanding with Oman' on a new Hormuz corridor to operate once Iran's conditions are met, and the Houthis say Muscat offered a five-day truce — neither confirmed by Muscat. Ships were hit in Omani waters off Musandam and Sohar. The US–Houthi channel it hosted in September did not stop the Saudi–Houthi war.",
  "current": {
   "status": "Sole live mediator; Salalah Gulf–Iran meeting POSTPONED 13 Sep (no date); revenue-share deal with Iran (26 Aug); El Gaia attacked off its coast 13 Sep."
  },
  "active_triggers": [
   {
    "condition": "Iran-Oman permanent Hormuz toll mechanism publicly announced within 14 days (by 2026-06-13) OR US sanctions Oman over tolls",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "strait-of-hormuz",
     "iran",
@@ -22,7 +22,9 @@
    "note": "Mirrors the iran-node Iran-Oman toll trigger. Rubio's red line rejects an Iran-Oman Hormuz toll mechanism; Hegseth demands an 'open, toll-free strait'; the US Treasury reportedly threatened to sanction Oman over tolls (REPORTED, single headline). If a permanent toll mechanism is announced, Rubio's red line is breached; if the US sanctions its own mediator, the deal's mediation architecture is strained. No mechanism announced and no sanction imposed yet — watching.",
    "note_2026-06-06": "STAYS WATCHING. Rezaei's 5-6 June reassertion of the Hormuz 'joint-management-with-Oman + transit-toll' proposal is RHETORIC/positional — NOT a published permanent mechanism and NOT a US sanction action. Neither limb of the condition is met; no move.",
    "note_2026-06-07": "2026-06-07: STAYS WATCHING — Rezaei reasserted the Oman-joint-management/toll proposal but NO mechanism announced; the companion iran-node trigger (by 06-05) EXPIRED un-met. US-Treasury-sanctions-Oman limb also not fired (intel A5/A6).",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no toll; Salalah meeting undated.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — Iran still seeks fees; Oman rejects (Iranian official via Reuters). No mechanism announced."
+   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no toll; Salalah meeting undated.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — Iran still seeks fees; Oman rejects (Iranian official via Reuters). No mechanism announced.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Window (by 13 Jun) lapsed; Rezaei's 21-Oct corridor claim is unconfirmed. Housekeeping."
   }
  ],
  "top_edges": [
@@ -71,6 +73,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "Oman publicly silent through the window; Rezaei (Drop Site, 21 Oct) CLAIMS an 'understanding with Oman on a new maritime corridor' to operate after Iran's conditions are met — no Omani confirmation found. The Houthis say Muscat offered a five-day truce (CLAIMED). Ships hit off Musandam (Bukha 21 Oct; Limah 22 Oct) and Sohar (11 Oct). (CLAIMED; CONFIRMED incidents; intel DIP-A4, SAU-A12, KIN-A3)",
+   "verification": "CLAIMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Muscat is the only Gulf capital pairing condemnation with restraint on all sides.** FM Albusaidi to Faisal (~11 Oct): condemned the Riyadh attack, urged 'self-restraint… avoiding actions that would expand the scope of escalation'. Hosts the US–Houthi channel (origin of the mid-Sep understanding); carried a Saudi two-week truce offer to the Houthis in September (Al Akhbar, single origin) overtaken by events. Salalah Iran–Gulf Hormuz meeting not reconvened; the US rejected Iran's Iran–Oman joint-management proposal (The National, 11 Oct) — no Omani comment found. Oman's waters now inside the ship war: *Petro Dolphin* hit by a UAV at Sohar anchorage (11 Oct; 2 Indians missing); Royal Navy of Oman ran evacuations (Cape Dao, On Peace). — CONFIRMED (incidents); truce offer REPORTED."

@@ -3,8 +3,8 @@
  "name": "Iranian Army (Artesh)",
  "type": "institution",
  "created": "2026-05-15",
- "last_updated": "2026-10-13",
- "summary": "The Iranian Army (Artesh) is the conventional regular military of the Islamic Republic, institutionally distinct from the Islamic Revolutionary Guard Corps (IRGC). Artesh reports through the Ministry of Defense to the President; the IRGC reports directly to the Supreme Leader. **B5 ARTESH SPOKESPERSON BRIG. GEN. MOHAMMAD AKRAMINIA WARNED IN IRNA INTERVIEW OF 'SURPRISING OPTIONS' IF ADVERSARIES MAKE ANOTHER 'MISCALCULATION'** — saying any future aggression would take the conflict into areas 'the enemy has not anticipated' (CONFIRMED RHETORIC — IRNA primary). **This is fresh kinetic-preparation rhetoric from a uniformed Artesh spokesperson on the same day the IRGC closed its 'Martyred Commander' 5-day drill and the Trump-Xi joint statement said Iran 'can never have a nuclear weapon.' An Artesh spokesperson making a 'surprising options' claim alongside an active IRGC drill is the cleanest signal yet of COORDINATED KINETIC-READINESS MESSAGING ACROSS BOTH IRANIAN MILITARY PILLARS.** Tehran is signaling readiness from both Artesh and IRGC channels even as China rhetorically aligns with the US on the nuclear-weapons line. **NEW NODE — created May 15 to capture the institutional separation from IRGC and track future Artesh signaling distinct from IRGC operations.** No operational deployment named or observed (per CRITICAL TAG-DISCIPLINE: rhetoric ≠ action). Pezeshkian (civilian government) + Akraminia (Artesh) + Hassanzadeh (IRGC drill complete) all running the same kinetic-readiness theme = synchronized institutional posture across all three Iranian military-political pillars exactly as the Trump-Xi joint statement was being issued.",
+ "last_updated": "2026-10-26",
+ "summary": "Artesh (Iran's regular army), Day 241. More visible this window: its Navy announced new units in the Sea of Oman and Arabian Sea (13 Oct), its chief of staff said US warships will not be allowed in the Gulf 'under any circumstances' (24 Oct), and it claims to have shot down a US LUCAS drone over Bandar Abbas (25 Oct; unverified). In October Artesh chief Sayyari spoke of having 'struck blows against enemy vessels'. No joint Artesh–IRGC operational statement.",
  "current": {
   "institutional_position": "Conventional regular military; reports through MoD to President; institutionally distinct from IRGC (which reports directly to Supreme Leader)",
   "spokesperson": "Brig. Gen. Mohammad Akraminia (May 14-15 IRNA interview)",
@@ -13,14 +13,16 @@
  "active_triggers": [
   {
    "condition": "Akraminia or any uniformed Artesh spokesperson announces specific operational deployment within 14 days",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "iran",
     "strait-of-hormuz",
     "brent-crude",
     "united-states"
    ],
-   "added": "2026-05-15"
+   "added": "2026-05-15",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Window (14 days from 15 May) long lapsed; met in substance by the Navy's 13-Oct Sea of Oman deployment announcement, too late to count. Housekeeping."
   },
   {
    "condition": "Artesh and IRGC issue joint operational statement (institutional convergence signal)",
@@ -62,6 +64,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "Iran's regular Navy announced (13 Oct) new units deployed east of the strait 'across the Sea of Oman and the Arabian Sea' for 'real time surveillance', warning ships not to switch off AIS; Armed Forces Chief of Staff Abdollahi (24 Oct): 'We will not allow U.S. military ships in the Persian Gulf under any circumstances and at any time'; the Army claims it downed a US LUCAS drone over Bandar Abbas (25 Oct; US silent). (CONFIRMED statements; LUCAS CLAIMED; intel KIN-A3/A6)",
+   "verification": "CONFIRMED/CLAIMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Artesh chief of staff/joint coordinator Maj. Gen. Habibollah Sayyari (11 Oct): 'We have struck blows against enemy vessels. If anything else happens against Iran, we will strike them again.'** — a general statement with no referent (Press TV ran it as a conditional threat), not an admission of specific merchant-ship strikes; Artesh threatened pre-emptive strikes on US positions (7 Oct, CBS); army commander: 50+ units deployed on borders (10 Oct). (Al Jazeera, The National, CBS) — CONFIRMED as statements. Bears on the artesh 'specific operational deployment' and 'joint Artesh–IRGC statement' triggers: convergence of line (both claim the campaign) without a joint statement — not fired."

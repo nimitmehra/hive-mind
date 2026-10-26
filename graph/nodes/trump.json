@@ -3,11 +3,11 @@
  "name": "Donald Trump",
  "type": "person",
  "created": "2026-03-30",
- "last_updated": "2026-10-13",
- "summary": "Trump, Day 228. Two instruments, one calendar. On Iran, the language moved from weighing options ('wipe it out, let it rot, or make a deal', Sept) to ultimatum ('give us everything or not exist', 9 Oct) while he committed in writing (8 Oct) to no attack before the 3 Nov midterms, blockade 'in full force' — a day after reports that CENTCOM was told to finish combat preparations. He rejected Iran's seven-day plan (26 Sep), sent envoys to one proximity round (22 Sep), and says the war ends 'very soon' and oil will 'drop like a rock'. On Yemen he has not struck despite an American killed at Riyadh's airport ('We may'). Pre-midterm fuel campaign: G7 100mb release (2 Oct, after threatening to cut diesel to Europe), Russian diesel licence and a claimed Russia–Ukraine 'energy ceasefire' (unconfirmed). Polls: ~65–71% disapprove of his Iran handling. Attacks the Fed board, not Warsh. Watch: whether the pledge holds to 3 Nov and what he orders after.",
+ "last_updated": "2026-10-26",
+ "summary": "Trump, Day 241. One written pledge, many spoken threats. The 8-Oct promise of no attack on Iran before the 3-Nov midterms stands and was restated by the White House twice, while Trump said 'maybe tomorrow' (24 Oct), 'decision time… finish them off or make a deal' (25 Oct) and 'not today'. He blames Iran for high oil before the election, calls the waterway 'the Trump Strait', endorses Netanyahu, and declines to strike the Houthis. Oil moves on his words in both directions.",
  "current": {
-  "status": "'Hopefully towards the end of the war' (17 Sep); GCC meeting 22 Sep; 'ends after our election' line consistent. Attacked Fed hike, spared Warsh. House 220–204 against him; recess to mid-Nov.",
-  "posture": "'DECIDING MODE' (2026-09-22): three options stated on Fox; Houthi strikes ordered 17 Sep, cancelled 20 Sep; 'probably open' to Pezeshkian; UNGA speech Tue 22 Sep (nuclear + Gaza plan); GCC meeting Tue; Xi 23–25 Sep. Belarus potash post 21 Sep."
+  "status": "DECISION-TIME RHETORIC, PLEDGE INTACT (26 Oct): 'finish them off or deal'; 'not today'; White House restated no strike before 3 Nov.",
+  "posture": "Uses ambiguity as leverage; blames Iran for oil before the midterms; endorses Netanyahu; declines to strike the Houthis."
  },
  "active_triggers": [
   {
@@ -19,7 +19,8 @@
     "iran",
     "sp-500"
    ],
-   "added": "2026-03-30"
+   "added": "2026-03-30",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "Trump announces ceasefire deal",
@@ -33,11 +34,12 @@
    ],
    "added": "2026-03-30",
    "note_2026-06-10": "STAYS watching. No formal ceasefire DEAL — but Trump brokered/claimed the 24-hour Israel-Iran stand-down ('Each of them had their fun... we don't need another one') and forced Netanyahu to call off a second strike ('on your own'). This is a stand-down, not a signed deal; the nuclear-letter accept/reject deadline (15 Jun) remains unanswered.",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no Iran deal; the 'energy ceasefire' (11 Oct) is Russia–Ukraine and unconfirmed by Moscow.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — 'open to meeting' is not a deal; Iran has not acknowledged the offer.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — 'they want to make a deal' ≠ a deal; Rezaei: 'Period!'"
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no Iran deal; the 'energy ceasefire' (11 Oct) is Russia–Ukraine and unconfirmed by Moscow.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — 'open to meeting' is not a deal; Iran has not acknowledged the offer.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — 'they want to make a deal' ≠ a deal; Rezaei: 'Period!'",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "Trump activates strike-list (bridges, power stations, IRGC mine-laying boats) within 14 days of patience-window expiry (by 2026-05-10)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "iran",
     "united-states",
@@ -45,11 +47,13 @@
     "defense-sector",
     "sp-500"
    ],
-   "added": "2026-04-27"
+   "added": "2026-04-27",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated May/June window long lapsed. Housekeeping on 26 Oct; outcome not separately re-adjudicated."
   },
   {
    "condition": "Trump issues fourth high-profile reversal within 30 days of April 25 (i.e., before May 25) — confirms reversal-rate is durable",
-   "status": "active",
+   "status": "resolved",
    "cascade": [
     "brent-crude",
     "sp-500",
@@ -58,22 +62,26 @@
    "added": "2026-04-26",
    "activated": "2026-05-05",
    "activation_note": "May 5 pause-with-progress is the 5th high-profile reversal — durable rate confirmed",
-   "notes": "REVIEWED 2026-09-22 — REMAINS ACTIVE — reconfirmed by the Houthi order/cancel sequence."
+   "notes": "REVIEWED 2026-09-22 — REMAINS ACTIVE — reconfirmed by the Houthi order/cancel sequence.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[active → resolved] Met within its window (previously active); window lapsed — closed 2026-10-26 as housekeeping (corrected from 'expired' after fact-check L16)."
   },
   {
    "condition": "Trump pause holds for 7+ days without further kinetic exchange (Sadjadpour test — by 2026-05-12)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "brent-crude",
     "sp-500",
     "iran",
     "strait-of-hormuz"
    ],
-   "added": "2026-05-06"
+   "added": "2026-05-06",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated May/June window long lapsed. Housekeeping on 26 Oct; outcome not separately re-adjudicated."
   },
   {
    "condition": "Russia announces formal proposal as nuclear-material custodian within 14 days of Putin-Araghchi meeting (by 2026-05-11)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "russia",
     "iran",
@@ -81,11 +89,13 @@
     "trump",
     "brent-crude"
    ],
-   "added": "2026-04-27"
+   "added": "2026-04-27",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated May/June window long lapsed. Housekeeping on 26 Oct; outcome not separately re-adjudicated."
   },
   {
    "condition": "Iran formally accepts or rejects the May 16 Trump nuclear letter (full dismantling + 2-month compliance) within 30 days (by 2026-06-15)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "iran",
     "united-states",
@@ -96,11 +106,13 @@
    ],
    "added": "2026-05-16",
    "note": "Defines the binding decision-tree input for the next 60 days. Iran's response will validate or falsify the Sadjadpour multi-track-posture-as-leverage thesis and the Nasr structural-mismatch thesis.",
-   "note_2026-06-10": "STAYS watching. 5 days from the 2026-06-15 deadline, NO formal Iranian response; talks in 'reassessment' (Baghaei) and an anonymous Iranian official called a Trump deal 'no longer feasible' (CLAIMED, single source). Trajectory is EXPIRY-UNANSWERED."
+   "note_2026-06-10": "STAYS watching. 5 days from the 2026-06-15 deadline, NO formal Iranian response; talks in 'reassessment' (Baghaei) and an anonymous Iranian official called a Trump deal 'no longer feasible' (CLAIMED, single source). Trajectory is EXPIRY-UNANSWERED.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated May/June window long lapsed. Housekeeping on 26 Oct; outcome not separately re-adjudicated."
   },
   {
    "condition": "Trump issues sixth high-profile reversal by 2026-06-15 — confirms structural rather than transient reversal pattern",
-   "status": "active",
+   "status": "resolved",
    "cascade": [
     "brent-crude",
     "sp-500",
@@ -110,11 +122,13 @@
    "activated": "2026-05-17",
    "activation_note": "Sixth reversal fired May 17 with 'Calm Before the Storm' Truth Social post + warship-Iran animation arriving 36 hours after the joint statement → decimation → new letter sequence. The reversal pattern is now base case, not tail.",
    "note_2026-06-10": "STAYS active/structural. The 24-hour swing 'final throes... two or three days' -> 'Iran took too long... will have to pay the price' is the ~7th soft deadline since mid-March — reinforces the durable reversal pattern.",
-   "notes": "REVIEWED 2026-09-22 — REMAINS ACTIVE — the Houthi order/cancel (17→20 Sep) is another confirmed instance of the reversal pattern."
+   "notes": "REVIEWED 2026-09-22 — REMAINS ACTIVE — the Houthi order/cancel (17→20 Sep) is another confirmed instance of the reversal pattern.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[active → resolved] Met within its window (previously active); window lapsed — closed 2026-10-26 as housekeeping (corrected from 'expired' after fact-check L16)."
   },
   {
    "condition": "Trump orders strike on Iranian nuclear infrastructure (or Kharg Island ground operation) within NYT-reported 'as soon as next week' window (by 2026-05-24)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "iran",
     "united-states",
@@ -131,7 +145,9 @@
    "resolved": "2026-05-19",
    "resolution_note": "Trump's Truth Social post late May 18 US time announced postponement of the planned May 19 strike at the request of Qatar, Saudi Arabia, UAE for a '2-3 day / five-day' window. Status changed from 'watching' to 'postponed_within_window' — NOT 'untripped_expired' — because Trump explicitly framed the postponement as a pause ('remain prepared for a full-scale assault at a moment's notice if negotiations fail'), keeping the option active inside the May 24 window. Brent fell -2% to ~$109.15 on the post; tail-risk de-priced but structural premium intact. Sadjadpour 'two hubris' frame validated.",
    "note": "NYT (citing two Middle Eastern officials) reported Israel + US conducting 'most intense preparations yet' to renew attacks 'possibly as early as next week.' This is REPORTED only — no on-record Pentagon/WH confirmation. Sadjadpour 'if US strikes commence within 7 days (by 2026-05-24), rhetoric-without-action leg fails' test. If trigger fires, Brent gaps +$8-15 toward $130-145 per markets-dossier reversibility map; VIX 28-32; defense +10-15% snap.",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — 'blow the entire nation up' is rhetoric; no order reported."
+   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — 'blow the entire nation up' is rhetoric; no order reported.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated May/June window long lapsed. Housekeeping on 26 Oct; outcome not separately re-adjudicated."
   },
   {
    "condition": "Trump issues strike orders for Iranian targets within 5 days of postponement window (by 2026-05-24)",
@@ -152,7 +168,7 @@
   },
   {
    "condition": "Trump publicly accepts/rejects the leaked MOU text OR pivots back to kinetic ultimatum within 7 days (by 2026-05-31)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "iran",
     "united-states",
@@ -165,11 +181,13 @@
    "added": "2026-05-24",
    "note": "Trump's Sunday 'no rush' pivot is either a 24-hour adjustment or a structural shift toward the Baghaei 30-60-day timeline. If Trump returns to 'decide tomorrow' framing within 7 days, the Sunday pivot was tactical. If Trump sustains 'no rush' for 7+ days with active deal-text negotiation visible, the bifurcation thesis is operationally validated. If Trump pivots to kinetic ultimatum + Brent gaps +$8-15, Sadjadpour two-hubris frame collapses into kinetic binary. Markets are pricing deliberate ambiguity at high probability; the Iranian regime is preparing for deal-failure — asymmetric convexity to downside.",
    "note_2026-05-25": "Day 1 of 7. STAYS watching. Monday Trump held 'no rush' ('proceeding nicely') AND added the maximalist mandatory-Abraham-Accords condition — neither accepted nor rejected the MOU, and did NOT pivot to a kinetic ultimatum. The Sunday 'no rush' posture is sustaining, not reverting to 'decide tomorrow.' No upgrade; today is rhetoric/diplomatic posture.",
-   "note_2026-05-28": "Day 4 of 7. STAYS watching. Trump did NEITHER — he neither accepted/rejected the MOU nor pivoted to a kinetic ultimatum. Instead he HARDENED terms ('No sanctions, no money, no nothing'; HEU 'will be destroyed'; opposes Russia/China custody) while a 60-day-ceasefire-extension MOU reportedly sits awaiting his signature (REPORTED, US News). The White House also branded Iran's state-TV draft a 'complete fabrication.' This is a third path — raise the price, leave the MOU unsigned, don't walk to kinetic. Brent's muted reaction (+2-3% fade to ~$93-96) and gold's two-month low say the market read the hardening as posture, not deal-collapse. No upgrade."
+   "note_2026-05-28": "Day 4 of 7. STAYS watching. Trump did NEITHER — he neither accepted/rejected the MOU nor pivoted to a kinetic ultimatum. Instead he HARDENED terms ('No sanctions, no money, no nothing'; HEU 'will be destroyed'; opposes Russia/China custody) while a 60-day-ceasefire-extension MOU reportedly sits awaiting his signature (REPORTED, US News). The White House also branded Iran's state-TV draft a 'complete fabrication.' This is a third path — raise the price, leave the MOU unsigned, don't walk to kinetic. Brent's muted reaction (+2-3% fade to ~$93-96) and gold's two-month low say the market read the hardening as posture, not deal-collapse. No upgrade.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated May/June window long lapsed. Housekeeping on 26 Oct; outcome not separately re-adjudicated."
   },
   {
    "condition": "Any of the named Muslim nations publicly accepts OR rejects Trump's mandatory-Abraham-Accords condition within 7 days (by 2026-06-01) — list WIDENED May 26 from six (Saudi, Qatar, Pakistan, Egypt, Jordan, Turkey) to EIGHT (adds UAE + Bahrain, both already signatories); demand now framed 'all of these countries simultaneously'",
-   "status": "active",
+   "status": "resolved",
    "cascade": [
     "trump",
     "united-states",
@@ -182,7 +200,9 @@
    "added": "2026-05-25",
    "activated": "2026-05-27",
    "activation_note": "FIRED 2026-05-27 on the REJECTION limb: Pakistan's Defence Minister Khawaja Muhammad Asif publicly REJECTED joining the Accords — 'clashes with our fundamental ideologies' (CONFIRMED diplomatic action, via Samaa TV). Trump (May 26 Truth Social) responded that the signatories 'should not be part of this Deal' and that refusal 'shows bad intention,' telling Saudi Arabia and Qatar to 'go first'; per a US official cited by Axios the leaders on the weekend call — 'especially those of Saudi Arabia, Qatar, and Pakistan' — 'appeared stunned' (REPORTED, single Axios channel). Qatar has NOT publicly responded; Saudi conspicuously silent (slow-walk); UAE/MbZ the lone supporter (already a signatory). The rejection raises the activation energy for any signature and hands reluctant capitals a fresh reason to slow-walk the Iran deal. Condition text and node list updated to reflect the May 26 widening to 8 nations (UAE + Bahrain added).",
-   "note": "Tests whether the Accords gambit is a poison pill that stalls the Iran deal. Trump declared it 'should be mandatory' that the named nations simultaneously sign the Abraham Accords as part of the Iran deal, starting with Saudi/Qatar, and invited Iran into the 'World Coalition.' Targeted capitals met it privately with 'silence on the line' (Axios) and Gulf state media did NOT amplify. The Pakistani public 'no' is the first CONFIRMED accept/reject — a near-term dealbreaker raising activation energy for any signature; continued Saudi/Qatari silence = slow-walk; a public acceptance would convert the Iran deal into a regional normalisation package. The underlying demand remains RHETORIC / NEGOTIATING DEMAND — no signed accords yet."
+   "note": "Tests whether the Accords gambit is a poison pill that stalls the Iran deal. Trump declared it 'should be mandatory' that the named nations simultaneously sign the Abraham Accords as part of the Iran deal, starting with Saudi/Qatar, and invited Iran into the 'World Coalition.' Targeted capitals met it privately with 'silence on the line' (Axios) and Gulf state media did NOT amplify. The Pakistani public 'no' is the first CONFIRMED accept/reject — a near-term dealbreaker raising activation energy for any signature; continued Saudi/Qatari silence = slow-walk; a public acceptance would convert the Iran deal into a regional normalisation package. The underlying demand remains RHETORIC / NEGOTIATING DEMAND — no signed accords yet.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[active → resolved] Met within its window (previously active); window lapsed — closed 2026-10-26 as housekeeping (corrected from 'expired' after fact-check L16)."
   },
   {
    "condition": "Trump or Iran formal acceptance/rejection of framework deliverable within Pakistan-mediation '2-3 day' window (by 2026-05-22)",
@@ -201,7 +221,7 @@
   },
   {
    "condition": "Trump publicly accepts or rejects the leaked Al Arabiya draft text within 7 days (by 2026-05-29)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "iran",
     "united-states",
@@ -212,11 +232,13 @@
     "vix"
    ],
    "added": "2026-05-22",
-   "note": "Next operational binary on the Pakistan-mediation deal axis. The leaked Al Arabiya text addresses Hormuz / ceasefire / sanctions but NOT uranium — Trump's May 16 letter centered nuclear dismantlement. Acceptance = Brent -$8-12 to $93-97 + VIX +2-4 then collapse; rejection = Brent +$8-15 to $112-120 + VIX +6-10; silence = trigger collapses back into kinetic binary."
+   "note": "Next operational binary on the Pakistan-mediation deal axis. The leaked Al Arabiya text addresses Hormuz / ceasefire / sanctions but NOT uranium — Trump's May 16 letter centered nuclear dismantlement. Acceptance = Brent -$8-12 to $93-97 + VIX +2-4 then collapse; rejection = Brent +$8-15 to $112-120 + VIX +6-10; silence = trigger collapses back into kinetic binary.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated May/June window long lapsed. Housekeeping on 26 Oct; outcome not separately re-adjudicated."
   },
   {
    "condition": "Second senior IC/national-security cabinet departure within 30 days of Gabbard resignation (by 2026-06-21)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "united-states",
     "trump",
@@ -225,11 +247,13 @@
     "vix"
    ],
    "added": "2026-05-22",
-   "note": "Gabbard resignation May 22 is the second senior Iran-skeptic IC departure of cycle (first: Joe Kent's March NCTC exit). A third departure within 30 days = institutional brake-failure signal: whatever IC restraint existed on the Iran kinetic track is now substantially weaker. Removes brake from BOTH branches (kinetic restart easier, deal acceptance easier)."
+   "note": "Gabbard resignation May 22 is the second senior Iran-skeptic IC departure of cycle (first: Joe Kent's March NCTC exit). A third departure within 30 days = institutional brake-failure signal: whatever IC restraint existed on the Iran kinetic track is now substantially weaker. Removes brake from BOTH branches (kinetic restart easier, deal acceptance easier).",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated May/June window long lapsed. Housekeeping on 26 Oct; outcome not separately re-adjudicated."
   },
   {
    "condition": "Trump issues public framework deliverable or formal back-off from 2-month dismantlement timeline within 10 days (by 2026-05-27)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "iran",
     "united-states",
@@ -238,7 +262,9 @@
     "trump"
    ],
    "added": "2026-05-17",
-   "note": "Nasr falsifiable test: if Trump's 'Calm Before the Storm' post is followed within 10 days by either (a) a public framework deliverable with verification, or (b) actual strikes, the framing is testable. If neither (rhetoric without follow-on), the reversal-as-base-case reading further confirms."
+   "note": "Nasr falsifiable test: if Trump's 'Calm Before the Storm' post is followed within 10 days by either (a) a public framework deliverable with verification, or (b) actual strikes, the framing is testable. If neither (rhetoric without follow-on), the reversal-as-base-case reading further confirms.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated May/June window long lapsed. Housekeeping on 26 Oct; outcome not separately re-adjudicated."
   }
  ],
  "top_edges": [
@@ -247,9 +273,9 @@
    "type": "may24_no_rush_pivot_drove_brent_weekly_minus_5_percent_to_103_54_paper_deal_anticipation_dominant_physical_unchanged",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "activation_count": 33,
-   "context": "RHETORIC with fading price effect: the 8-Oct pledge and 'oil will drop like a rock' produced 1–2-day dips only; physical floor held ~$97. At cap; activation logged."
+   "context": "CONFIRMED price effect of rhetoric: 'maybe tomorrow' (24 Oct) then 'not today' (25 Oct) → Brent Dec −1.3% on 26 Oct. At cap; activation logged (markets C1)."
   },
   {
    "to": "iran",
@@ -352,6 +378,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**'DEAL OR FINISH THEM OFF' — RHETORIC AROUND A HELD PLEDGE.** 21 Oct: 'Most people seem to think it's after the election'; 'I think we're not negotiating'; 'I call it the Trump Strait'. 22 Oct Truth Social: Iran 'doing everything they can to drive up the price of Oil prior to the U.S. Midterm Election' and 'making up fake hits, mines'. 23 Oct (Fort Myers): 'We may do another little Epic Fury'. 24 Oct: 'We're thinking about doing it, and maybe tomorrow… Either way, we win'. 25 Oct (Fox, Bartiromo): 'Do I finish it off, which would be very easy to do, or do I make a deal?… Getting to be decision time'; later 'There will not be a strike today' — Brent December −1.3% on 26 Oct. Endorsed Netanyahu twice (18, 25 Oct: 'we have to finish the job that we started!'). (CONFIRMED quotes — RHETORIC; intel DIP-A2, ISR-B2)",
+   "verification": "CONFIRMED (rhetoric)"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Language moved from weighing options to ultimatum + a dated pledge.** 'Will a deal be made… or do I annihilate the Islamic Republic and do it quickly?' (UNGA 22 Sep); rejected Iran's seven-day plan (26 Sep: 'that deal would not be acceptable'); 'I offered them NOTHING' (~29 Sep); 'easy way or the hard way' (3 Oct); 'nice way or the not-so-nice way' (6 Oct); 'Oil will drop like a rock as soon as we're finished with the war, which will be very soon' (7 & 12 Oct); **8 Oct Truth Social: no attack on Iran before 3 Nov**, blockade stays; 'Either they give us everything, or they don't exist any longer' (9 Oct); 'They'll probably do a little bit extra before the election' (10 Oct). Houthis: 'We may' join Saudi strikes (10 Oct). Russia: diesel deal + OFAC licence to 7 Apr 2027 (9 Oct); claimed Russia–Ukraine 'ENERGY CEASEFIRE' (11 Oct) — unconfirmed by Moscow, violated per Kyiv. Fed: Warsh should have voted against the hike; board 'very hostile' (Time, 1 Oct). — statements CONFIRMED; claims as tagged."

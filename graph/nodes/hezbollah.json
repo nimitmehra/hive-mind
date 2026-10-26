@@ -3,15 +3,15 @@
  "name": "Hezbollah",
  "type": "institution",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "Hezbollah, Day 228. Militarily silent against Israel since the summer while absorbing daily Israeli strikes in the south; Qassem conditions any arms dialogue on Israeli withdrawal. A legacy Hezbollah cluster submunition killed a 14-year-old Israeli on a school hike near the border (12 Oct) — politically salient two weeks before Israel's election, not a new attack. Reported to be re-establishing in pilot villages under civilian cover (Kan) and not planning to open a front if the US resumes strikes on Iran. The Iran→Hezbollah channel is quiet; Iran's prepare-to-respond message (Reuters 1 Oct) included Lebanon.",
+ "last_updated": "2026-10-26",
+ "summary": "Hezbollah, Day 241. Silent against Israel through the window despite daily Israeli strikes in the south and detailed reporting of a post-3-Nov US–Israeli campaign on Iran. Its restraint is one of the graph's stable threads; a strike on Iran would test whether it holds.",
  "current": {
   "status": "Ali al-Taher tunnel complex captured/destroyed (3–10 Sep); front active but not escalatory beyond Lebanon."
  },
  "active_triggers": [
   {
    "condition": "US greenlights OR Israel launches an expanded military operation against Hezbollah in Lebanon within 14 days (by 2026-06-08)",
-   "status": "active",
+   "status": "resolved",
    "cascade": [
     "israel",
     "hezbollah",
@@ -27,7 +27,9 @@
    "note_2026-06-02": "STAYS ACTIVE (deadline 2026-06-08). PARTIALLY CAPPED: the Lebanese presidency confirmed Hezbollah's agreement to a 'reciprocal cessation,' and Hezbollah pulled back on cross-border fire (no new cross-border rockets 2 June vs 50+ on 31 May). BUT Israel did not independently confirm a ceasefire and the south-Lebanon ground war continued — Hezbollah ran two operations against IDF inside south Lebanon, killing a Golani soldier. This binding constraint became operative this window: Iran cited Israel's continued Lebanon campaign as the reason to SUSPEND the US talks (intel A1). Trigger stays active — a partial cap, not a resolution.",
    "note_2026-06-06": "STAYS ACTIVE (deadline 2026-06-08). The renewed 3-June ceasefire ('pilot/safe zones') was publicly REJECTED by SG Naim Qassem ('a roadmap to annihilate part of the Lebanese people'; demands full Israeli withdrawal first; CONFIRMED — Al Jazeera, CBS, Axios). Israeli strikes killed >=21 in southern Lebanon Friday and Israel ordered evacuations north of the Litani — the south-Lebanon war continues, so the trigger stays active. Beirut was NOT struck, so no Iran-resumption / full-scale-war trigger moves to active. A rejected, fraying ceasefire is not a resolution.",
    "note_2026-06-10": "STAYS ACTIVE and INTENSIFIED. The June 7 'Beirut NOT struck' read reversed within hours: Hezbollah's Yiftach rockets drew Israel's strike on a 'Hezbollah command centre' in Beirut's Dahiyeh suburb (≥2 killed, 11-20 wounded; first capital strike since the renewed truce) — CROSSING the Beirut red-line. That drew Iran's first ballistic salvo since April 8 and Israeli strikes on Iran June 8, but BOTH sides stood down within 24h under Trump pressure — so it did NOT become full-scale war resumption. Israel then made Hezbollah the target of the deadliest Tyre raids of the war (June 9, ≥8 killed) after a first-ever whole-city Tyre evacuation order — continuing AFTER the Israel-Iran suspension. Intensification within the active expanded operation; the Lebanon front is the live fuse. (CONFIRMED — ISW, Al Jazeera, NPR, Axios)",
-   "notes": "REVIEWED 2026-10-13 — carried; no expansion.\n[prior] REVIEWED 2026-09-22 — REMAINS ACTIVE (carried); no new operation this window."
+   "notes": "REVIEWED 2026-10-13 — carried; no expansion.\n[prior] REVIEWED 2026-09-22 — REMAINS ACTIVE (carried); no new operation this window.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[active → resolved] Met within its window (previously active); window lapsed — closed 2026-10-26 as housekeeping (corrected from 'expired' after fact-check L16)."
   },
   {
    "condition": "Hezbollah-IDF kinetic produces Israeli civilian casualty within 14 days (by 2026-05-11)",
@@ -45,7 +47,7 @@
   },
   {
    "condition": "Hezbollah produces Israeli civilian casualty within next 14 days (by 2026-05-26) — extended window post-Glovanyov",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "israel",
     "lebanon",
@@ -55,7 +57,9 @@
    ],
    "added": "2026-05-12",
    "note_2026-05-13": "Day 1 of 14. IDF Litani ground crossing May 12 raises both casualty + miscalculation risk for civilian-inside-Israel scenarios. No civilian casualty inside Israel proper through May 13.",
-   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING (window long expired) — none; no Hezbollah fire this window."
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING (window long expired) — none; no Hezbollah fire this window.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Window (by 26 May) lapsed. Housekeeping."
   },
   {
    "condition": "Litani-ground-crossing-induced Israeli soldier KIA within 14 days (by 2026-05-26) — would mark transition from drone-attrition to ground-engagement casualty regime",
@@ -74,7 +78,7 @@
   },
   {
    "condition": "Hezbollah SAM-at-IAF-aircraft strike confirmed (corroborated by Israeli source) within 7 days of May 12 CGTN report",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "israel",
     "lebanon",
@@ -83,7 +87,9 @@
    ],
    "added": "2026-05-12",
    "note": "Single-source CGTN report May 12 of SAM fired from Lebanon at IAF aircraft. Needs Israeli-side corroboration. If confirmed = first SAM engagement of cycle, materially escalates ceiling.",
-   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — none."
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — none.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] 7-day window from 12 May lapsed. Housekeeping."
   }
  ],
  "top_edges": [
@@ -116,6 +122,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "No Hezbollah fire into Israel found 13–26 Oct (ISR desk); Israel continues strikes and demolitions in the south; no Hezbollah statements retrieved. The organisation stays out of the Iran–US–Israel round even as post-3-Nov strike plans are reported. (CONFIRMED absence as far as searched; intel ISR-A5)",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Hezbollah silent militarily; a legacy cluster submunition killed a 14-year-old Israeli and wounded 24 on a school hike near Kibbutz Yiftah (12 Oct) — IDF: 'likely a cluster bomb belonging to Hezbollah… left in the area'.** Not a new attack — the civilian-casualty trigger does NOT fire. Qassem (27 Sep, 6 Oct): no arms dialogue before Israeli withdrawal; al-Joumhouria (2 Oct): Hezbollah will not act as a 'support front' if the US–Iran war resumes. Kan (7 Oct): re-establishing in pilot villages under civilian cover; explosives truck seized (12 Oct). — CONFIRMED (incident); intent REPORTED."

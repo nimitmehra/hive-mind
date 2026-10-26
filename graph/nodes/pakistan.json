@@ -3,8 +3,8 @@
  "name": "Pakistan",
  "type": "country",
  "created": "2026-03-30",
- "last_updated": "2026-10-13",
- "summary": "Pakistan, Day 228. Now a combatant-adjacent guarantor and a mediator at once. The Mecca Pact was formally activated on 5 Oct (Saudi, Pakistani and Turkish ministers); Pakistani forces are in the kingdom 'in multiple capabilities and domains' (ISPR; earlier ~8,000 troops, JF-17s, HQ-9). A Pakistani resident died in the 11-Oct KKIA strike. Islamabad co-mediated the 22-Sep US–Iran New York round with Qatar and is one of three channels Rezaei names (with Qatar and Iraq); Qatar says it backs 'the Pakistani mediation'. It has not hosted US–Iran talks on its soil since the June MoU.",
+ "last_updated": "2026-10-26",
+ "summary": "Pakistan, Day 241. The hub of the regional channel. Field Marshal Munir went to Tehran on 20 Oct (his fifth visit) and returned on 26 Oct with the Saudi defence minister and Türkiye's intelligence chief — a meeting Iran says he proposed. Pakistan carries papers between Washington and Tehran, guarantees Saudi Arabia under the activated Mecca pact (its forces' role 'defensive' and classified), and hosts Iran's ambassador, whose 'reopen Hormuz for the blockade' line was disowned by the IRGC press within hours. No US–Iran face-to-face in Pakistan.",
  "current": {},
  "active_triggers": [
   {
@@ -17,11 +17,12 @@
     "india"
    ],
    "added": "2026-03-30",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — Pakistan co-mediated the 22-Sep round in New York, not on Pakistani soil.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Pakistan is now mediating Iran–Houthi–Saudi, not US–Iran."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — Pakistan co-mediated the 22-Sep round in New York, not on Pakistani soil.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Pakistan is now mediating Iran–Houthi–Saudi, not US–Iran.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "Pakistan-brokered Iranian unified proposal delivered to US within 21 days (Munir-Sharif channel)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "pakistan",
     "iran",
@@ -29,7 +30,9 @@
     "trump",
     "brent-crude"
    ],
-   "added": "2026-04-22"
+   "added": "2026-04-22",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] 21-day window from 22 Apr lapsed. Housekeeping."
   },
   {
    "condition": "Pakistan-brokered framework draft within 14 days (by 2026-05-30)",
@@ -54,9 +57,9 @@
    "type": "security_partnership",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "activation_count": 6,
-   "context": "CONFIRMED: Mecca Pact formally activated 5 Oct; Pakistani forces in-kingdom 'in multiple capabilities and domains' (ISPR). At cap; activation logged."
+   "context": "CONFIRMED: Munir accompanies the Saudi DM to Tehran as a Mecca-pact member (26 Oct). At cap; activation logged."
   },
   {
    "to": "strait-of-hormuz",
@@ -77,10 +80,11 @@
   {
    "to": "iran",
    "type": "naqvi_hand_delivered_written_message_to_supreme_leader_khamenei_jun7_hours_before_iran_missile_salvo_on_israel_channel_now_at_khamenei_level_REPORTED_content_unknown",
-   "weight": 10,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-10",
-   "activation_count": 32
+   "last_activated": "2026-10-26",
+   "activation_count": 32,
+   "context": "CONFIRMED: Munir in Tehran 20 Oct and 26 Oct (proposed the Saudi–Turkish–Pakistani meeting). At cap; activation logged (intel DIP-A4)."
   },
   {
    "to": "brent-crude",
@@ -92,6 +96,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "Pakistan is the hub of the regional channel: Munir in Tehran 20 Oct (5th visit, with Interior Minister Naqvi; got the hard line) and back on 26 Oct with the Saudi DM and Kalin — Bagheri Kani says Munir proposed that meeting. Iran's ambassador in Islamabad told AP (24 Oct) Tehran would reopen Hormuz if the blockade were lifted — disowned by Tasnim within hours. FM Dar (SCO, Dushanbe, 20 Oct): mediation continues. Pakistani forces' role in the kingdom stays 'defensive' and classified. ~3–4k trucks stranded at the Iran border over Pakistani E-Form changes. (CONFIRMED visits; REPORTED/CLAIMED content; intel DIP-A4/A12, SAU-A10)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Mecca Pact activated 5 Oct — first invocation: Saudi, Pakistani, Turkish defence/foreign ministers agreed to 'activate collective deterrence measures'; Pakistan FM joint statement: 'provide the agreed military forces and capabilities and ensure their rapid deployment'.** ISPR's Lt Gen Ahmed Sharif Chaudhry (CNN, 7 Oct): Pakistani forces in the kingdom 'in multiple capabilities and domains', numbers classified (May Reuters: ~8,000 troops, JF-17 sqn, HQ-9). Pakistani resident killed at KKIA (11 Oct); PM called the attack 'heinous'. Pakistan co-mediated the 22-Sep US–Iran NY round with Qatar and is one of three channels Rezaei names (with Qatar, Iraq). — CONFIRMED."

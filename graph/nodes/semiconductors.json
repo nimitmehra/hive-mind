@@ -3,16 +3,16 @@
  "name": "Semiconductors (SMH/SOX)",
  "type": "sector",
  "created": "2026-04-25",
- "last_updated": "2026-10-13",
- "summary": "Semiconductors, Day 228. The AI complex is correcting for non-war reasons: SMH −6.8% from its 5-Oct peak; the FT's report that OpenAI's revenue is ~$50bn not ~$70bn (8 Oct) and China's CXMT memory announcement (12 Oct) drove Micron −9%, Samsung −7.4% and SK hynix −10.1% (13 Oct). The war contributes via US 10Y >5.2% (valuation compression), not supply: no helium allocation or fab-cut notice has appeared, though Qatar's October LNG collapse (helium is a by-product) keeps the Q4 helium clock live. For India: the correction has not redirected foreign money to Indian equities. Next: TSMC 15 Oct.",
+ "last_updated": "2026-10-26",
+ "summary": "Semiconductors / the AI complex, Day 241. The non-war shock now dominates Asian equity flows and has become a credit story. The chip index fell nearly 12% in the fortnight to 23 Oct — an eight-session losing streak (the longest since 2008), a KOSPI circuit breaker on 15 Oct, and on 22 Oct a 6.7% drop when Meta reported its first negative free cash flow in over a decade as capex outran operating cash. CoreWeave's bonds yield above 15% and its stock is down 30%; Meta's default-swap spread hit a record. Fundamentals at the fabs are strong (TSMC beat and guided Q4 up 14%; Samsung's preliminary operating profit ~₩107trn), so the selloff is about who pays for the AI build-out, not chip demand. The market link to the war is mostly through the Fed (hot CPI); the link to India is that money leaving Korea and US tech did not come to India. Tests this week: whether Microsoft, Alphabet or Amazon also show capex above operating cash flow (28–29 Oct), and SK hynix/Samsung guidance.",
  "current": {
-  "price": "SMH $596.03 (+4.0% Mon; +5.9% 1M; −10.9% 3M). Korea Sept 1–20 chip exports $34.12bn record.",
-  "driver": "Rates + AI-capex debate; helium structural."
+  "price": "SOX 10,779.46 (23 Oct, −11.7% since 13 Oct; >26% below 22-Jun record); SMH $527.20",
+  "driver": "AI capex vs cash flow (Meta negative FCF), CoreWeave credit, hot US CPI"
  },
  "active_triggers": [
   {
    "condition": "Apple Q2 2026 earnings disappoint on iPhone 17 China demand or supply chain (Hormuz/LNG/helium exposure)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "semiconductors",
     "sp-500",
@@ -20,21 +20,25 @@
     "taiwan"
    ],
    "added": "2026-04-30",
-   "note_2026-06-10": "STAYS watching. No fresh Apple catalyst this window; the SMH -1.2% / chip-rotation move was AI-valuation/positioning, not Apple-supply-chain driven."
+   "note_2026-06-10": "STAYS watching. No fresh Apple catalyst this window; the SMH -1.2% / chip-rotation move was AI-valuation/positioning, not Apple-supply-chain driven.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Q2 window lapsed. Housekeeping."
   },
   {
    "condition": "Hyperscaler Q2 free cash flow compression confirms SemiAnalysis Patel zero-FCF thesis",
-   "status": "watching",
+   "status": "resolved",
    "cascade": [
     "semiconductors",
     "sp-500"
    ],
    "added": "2026-04-30",
-   "note_2026-06-10": "STAYS watching. No hyperscaler FCF print this window."
+   "note_2026-06-10": "STAYS watching. No hyperscaler FCF print this window.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → resolved] Q2 window passed; the thesis was confirmed in Q3 by Meta's −$2.12bn free cash flow (Meta's 21-Oct release — CONFIRMED). Replaced by a new watch for the 28–29 Oct prints."
   },
   {
    "condition": "SOX 16-day consecutive-up streak breaks (any single down session)",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "semiconductors",
     "sp-500",
@@ -42,7 +46,22 @@
     "south-korea"
    ],
    "added": "2026-04-25",
-   "note_2026-06-10": "STAYS watching. The SOX streak already broke decisively in the June 4-5 Broadcom plunge; this window (SMH -1.2%) is post-break chip-rotation volatility, not a fresh streak-break event."
+   "note_2026-06-10": "STAYS watching. The SOX streak already broke decisively in the June 4-5 Broadcom plunge; this window (SMH -1.2%) is post-break chip-rotation volatility, not a fresh streak-break event.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → fired] Long since broken (stale); SOX had an 8-day LOSING streak to 16 Oct. Housekeeping."
+  },
+  {
+   "condition": "A second hyperscaler (Microsoft or Alphabet 28 Oct; Amazon 29 Oct) reports quarterly capex above operating cash flow (negative FCF) — the AI-credit shock broadens beyond Meta",
+   "status": "watching",
+   "cascade": [
+    "semiconductors",
+    "sp-500",
+    "kospi",
+    "us-10y-yield",
+    "fii-flows"
+   ],
+   "added": "2026-10-26",
+   "notes": "Meta 22 Oct: OCF $32.79bn vs capex $34.9bn (REPORTED via CNBC/Fortune). Hyperscaler capex running near $800bn/yr."
   }
  ],
  "top_edges": [
@@ -67,9 +86,9 @@
    "type": "sector_component_systemic_risk_transmitter_ai_rotation_chip_tape_drives_nasdaq",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-10",
+   "last_activated": "2026-10-26",
    "activation_count": 7,
-   "context": "2026-06-10: post-Broadcom chip-rotation continued to drive the broad-index tape — SMH -1.2% co-moved with Nasdaq -0.97% (chip-rotation resumed). Lower-intensity than the 06-06 systemic crack but the same transmitter channel (semis -> Nasdaq/S&P). Weight held at cap 10.0; activation_count bumped to log the continued chip-rotation co-move. PRIOR 2026-06-06 (markets E1): the channel fired in REVERSE and at systemic scale — Broadcom's failure to lift its AI outlook cracked the complex (SOX largest 1D plunge since March 2020, ~$1T erased), driving a broad US risk-off (S&P -2.6%, NASDAQ -4.2%). Weight stepped 9.5 -> 10.0."
+   "context": "CONFIRMED: Nasdaq −4.6%, S&P −2.3% since 13 Oct led by SOX/Meta. At cap; activation logged."
   },
   {
    "to": "vix",
@@ -100,14 +119,19 @@
   {
    "to": "nifty-50",
    "type": "capital_substitution_em_reallocation_north_asia_ai_vs_india_jun4_POTENTIAL_REVERSE_FIRING_broadcom_crack_NOT_flipped_on_one_session_watch_inflection",
-   "weight": 6.5,
+   "weight": 5.5,
    "directness": 2,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "activation_count": 6,
-   "context": "SIGNAL, NO WEIGHT CHANGE: as kospi→nifty-50 (AI complex sold; India not bought)."
+   "context": "WEAKENED on data: the capital-substitution thesis (AI boom pulls FPI money from India; AI crack sends it back) failed again — SOX −11.7%, KOSPI −22% 1M, yet FPI −₹48,056 cr from India in October. 6.5→5.5 (markets C5/C7)."
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**THE AI COMPLEX CRACKED INTO CREDIT.** SOX 12,208.79 (13 Oct) → 10,779.46 (23 Oct, −11.7%); SMH −10.4%. 16 Oct: SOX's 8th straight loss, longest since 2008; tech lost >$1trn (NBC). 22 Oct: Meta Q3 operating cash flow $32.79bn vs capex $34.9bn = free cash flow −$2.12bn, first negative in over a decade (Meta's own 21-Oct release: OCF $32.79bn, FCF −$2.12bn — CONFIRMED; 'first since 2012' framing per CNBC); FY capex guide $135–145bn; Meta −7.0%, CDS record; SOX −6.7%; Intel/AMD/Sandisk/Marvell >−8%. CoreWeave 2030s >15% yield (14 Oct), stock −30%. TSMC beat (Q3 US$46.7bn; Q4 guide $52.3–54.3bn) but slipped on margins. Non-war ~90%. Ahead: MSFT/GOOGL 28 Oct, AMZN 29 Oct, SK hynix 28 Oct, Samsung 29 Oct. (CONFIRMED prices and Meta FCF; markets C3/C5, intel MAC-A12)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**AI/memory shock — non-war (~90%).** SMH peak $633.90 (5 Oct) → $590.99 (12 Oct, −6.8%); FT (8 Oct): OpenAI annualised revenue ~$50bn vs ~$70bn reported (Reuters: methodology); 12 Oct China's CXMT memory listing + claimed 4F2 DRAM cell (pricing 5–10% below incumbents) → MU −3.9% ($989; −9% from 7-Oct high), NVDA −1.3%, AMD −2.3%; 13 Oct Samsung −7.4%, SK hynix −10.1%, Tokyo Electron −6.6%, TAIEX −1.9%. Crisis share ~10% (UST 5.2–5.37% compresses long-duration valuations); no helium-driven fab notice found. TSMC Q3 results Thu 15 Oct (record revenue NT$1,494.2bn known). Capital-substitution read: the AI complex is sold but FPIs still sold India — money leaving EM, not rotating. — CONFIRMED (prices); OpenAI/CXMT REPORTED."

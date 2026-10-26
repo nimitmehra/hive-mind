@@ -3,17 +3,17 @@
  "name": "S&P 500",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "S&P 500, Day 228. Near records (7,818.93 on 6 Oct; 7,807.24 on 12 Oct) through a month of Gulf escalation — the drivers are non-war: a weak payrolls print cut Fed-hike odds (rally), then the FT's OpenAI revenue gap and China's CXMT memory claim hit the AI complex (Nasdaq off its 6-Oct record). Energy (+5.7%) up with oil; defence (−4.7%) down on the end-date narrative. HY spreads +47bp and a 2002-high 10Y are the stress the index ignores. VIX ~15.",
+ "last_updated": "2026-10-26",
+ "summary": "S&P 500, Day 241. 7,623.68 (23 Oct), −2.3% since 13 Oct and −2.5% from the 6-Oct record; Nasdaq −4.6%. The drivers are ~90% non-war: Meta's first negative free cash flow in over a decade, CoreWeave's credit stress and an eight-day chip losing streak, plus a hot September CPI. Defence primes and energy rose. An AI-credit correction, not a war selloff; this week's MSFT/GOOGL/AMZN prints decide whether it broadens.",
  "current": {
-  "price": "S&P 7,764.70 (+1.5% Mon); NASDAQ 27,122.09 record (+2.3%); Dow 52,048.83; SMH $596.03 (+4.0%); VIX 14.87; 10Y 4.96%.",
-  "driver": "FOMC hike + hawkish dots (~70%); energy-CPI cause (~30%). Industrials led on IG/CBO replenishment; energy and financials lagged.",
-  "regime": "AI-CYCLE RALLY WITH A CRISIS-RELIEF TAILWIND (2026-09-22): ~75% Meta/AMD/Intel/Xi-dinner, ~25% oil <$100 intraday + 10Y <5%. Equity vol has fired its de-escalation marker against a physical market that has not de-escalated."
+  "price": "S&P 7,623.68; Nasdaq 25,955.34; Dow 52,215.16 (23 Oct)",
+  "driver": "AI-credit unwind (~90%); war a minor contributor",
+  "regime": "AI-CREDIT CORRECTION, NOT A WAR SELLOFF (26 Oct)."
  },
  "active_triggers": [
   {
    "condition": "VIX spikes 17→28+ within 48hr of Iran MOU response (~by 2026-05-09) — peace-dividend reversal test",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "sp-500",
     "us-10y-yield",
@@ -21,7 +21,9 @@
     "brent-crude",
     "iran"
    ],
-   "added": "2026-05-07"
+   "added": "2026-05-07",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated spring window lapsed (VIX peak this window 22.31 intraday). Housekeeping."
   },
   {
    "condition": "S&P 500 enters bear market (down 20% from peak)",
@@ -33,11 +35,12 @@
    ],
    "added": "2026-03-23",
    "note_2026-06-10": "STAYS watching. S&P 7,386.65 (Jun 9) only ~-3-4% off its high — far from a -20% bear market. The chip-rotation pullback is shallow and not a war risk-off.",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — at/near records.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Nasdaq at a record; S&P +3.9% 3M."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — at/near records.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Nasdaq at a record; S&P +3.9% 3M.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — −2.5% from record."
   },
   {
    "condition": "VIX cash breaks above 22 on Wednesday ceasefire lapse (binary escalation-hedging threshold)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "sp-500",
     "us-10y-yield",
@@ -45,11 +48,13 @@
     "nifty-50"
    ],
    "added": "2026-04-21",
-   "note_2026-06-10": "STAYS watching. VIX 20.93 (Jun 9) — below the >22 threshold; the chip-rotation pullback did NOT bid VIX over 22 (and is not crisis-driven). Not crossed."
+   "note_2026-06-10": "STAYS watching. VIX 20.93 (Jun 9) — below the >22 threshold; the chip-rotation pullback did NOT bid VIX over 22 (and is not crisis-driven). Not crossed.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated spring window lapsed (VIX peak this window 22.31 intraday). Housekeeping."
   },
   {
    "condition": "VIX gaps above 24 within 14 days (by 2026-05-12) on any escalation event = mispricing reverses; equity-vol catches up to oil-vol",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "sp-500",
     "us-10y-yield",
@@ -58,11 +63,13 @@
     "iran"
    ],
    "added": "2026-04-28",
-   "note_2026-06-10": "STAYS watching. VIX 20.93 (Jun 9) — below the >24 threshold. The Jun-5 AI-rout VIX spike (~21.51) was a rates/AI de-risking, not an escalation event; this window's VIX is lower still."
+   "note_2026-06-10": "STAYS watching. VIX 20.93 (Jun 9) — below the >24 threshold. The Jun-5 AI-rout VIX spike (~21.51) was a rates/AI de-risking, not an escalation event; this window's VIX is lower still.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated spring window lapsed (VIX peak this window 22.31 intraday). Housekeeping."
   },
   {
    "condition": "VIX trend-break confirmation — VIX prints 22+ within 5 sessions sustained (regime shift signal)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "sp-500",
     "us-10y-yield",
@@ -71,7 +78,9 @@
    ],
    "added": "2026-04-30",
    "note_2026-06-10": "STAYS watching. VIX 20.93 (Jun 9) back below 22 after the Jun-5 spike to ~21.51 — no sustained 22+ print; the brief vol elevation was AI-rotation/rates, not a geopolitical regime shift.",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — opposite: 14.87, three closes <16."
+   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — opposite: 14.87, three closes <16.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Dated spring window lapsed (VIX peak this window 22.31 intraday). Housekeeping."
   }
  ],
  "top_edges": [
@@ -119,6 +128,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "S&P 500 7,805.45 (13 Oct) → 7,623.68 (23 Oct, −2.3%; −2.5% from the 6-Oct record); Nasdaq −4.6% (−6.0% from record); Dow +1.1%. Drivers ~90% non-war: Meta/AI capex (22 Oct), CoreWeave credit, hot CPI; Lockheed (+19.9%) and Northrop (+14.6%) beats; energy up with oil. Yardeni cut his S&P target to 7,900. (CONFIRMED; markets A/C3/D)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**S&P 7,764.70 (21 Sep) → record 7,818.93 (6 Oct) → 7,807.24 (12 Oct, +0.5%); Nasdaq record 27,599.89 (6 Oct) → 27,245.90.** Drivers mostly non-war: payrolls +29k cut hike odds (rally to records), then the FT's OpenAI revenue gap (8 Oct; Nasdaq −1.25%) and China's CXMT memory claim (12 Oct; MU −3.9%). Energy (XLE +5.7%, Exxon +8.7%) up with oil; defence (ITA −4.7%) down on the end-date narrative. HY OAS +47bp. — CONFIRMED."

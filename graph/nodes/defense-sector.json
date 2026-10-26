@@ -3,15 +3,15 @@
  "name": "Defense & Aerospace Sector",
  "type": "sector",
  "created": "2026-03-28",
- "last_updated": "2026-10-13",
- "summary": "Defence sector, Day 228. Down under an escalating war: ITA −4.7% since 22 Sep (four closes below $208), Northrop −7.9%, Lockheed −4.4% — because the market prices the US exit (Trump's no-strike-before-3-Nov pledge, 'war ends very soon'), a stalled $67.1bn supplemental and analyst target cuts, not the Gulf escalation (Riyadh massacre, carrier deployment, CENTCOM combat preparation). Replacement demand is real (CRS: 81 US aircraft lost/damaged; Saudi interceptor shortage) but not priced. If the post-3-Nov strike window opens, the sector is under-owned. India defence (HAL, BEL) rallied 13 Oct.",
+ "last_updated": "2026-10-26",
+ "summary": "Defence sector, Day 241. The primes re-rated on earnings while the ETF did not: Lockheed +20% since 13 Oct (+7% on 22 Oct after raising its 2026 outlook) and Northrop +15% on a Q3 beat, while ITA is flat at $202, still below $208. Munitions replenishment and the post-3-Nov planning support demand; the supplemental has not moved and Congress is out until mid-November.",
  "current": {
-  "price": "ITA $216.14 (+1.1% Mon; −8.9% 1M); LMT $535.40 (+0.4%; −5.7% 1M).",
-  "delta_1d": "-1.1% / +0.3%",
-  "delta_1m": "ITA — (carried from 4 June: +7.5%; no fresh 10-June print)",
-  "delta_3m": "ITA — (carried: -3.5%; LMT -20.2% — still deeply de-rated by the peace-track)",
-  "read": "DEFENSE FINALLY CONVERTED THE WAR INTO A DURABLE BID (13 Aug). Lockheed +17.8% 1M / +17.5% 3M on the Q2 beat (23 Jul, $7.94 EPS, $20B rev) + a RECORD $230B backlog (+$64B YoY, book-to-bill 3.2) + raised FY guide — a global-defense-boom re-rating (US Iran conflict + Ukraine resupply + European NATO ramp). ~60% earnings/structural, ~40% war. Unlike earlier in the cycle when defense lagged, the backlog now makes it a durable bid that does NOT fully reverse on an Iran ceasefire (NATO/Ukraine persists).",
-  "driver": "Midterm end-date narrative (Trump/Vance/House) de-rates the Iran premium; IG/CBO replenishment reports = fundamental floor; 10Y 5% compresses multiples."
+  "price": "LMT $604.18, NOC $551.44, ITA $202.23 (23 Oct)",
+  "delta_1d": "LMT +2.4%",
+  "delta_1m": "LMT +15.4%",
+  "delta_3m": "LMT +4.3%",
+  "read": "Primes re-rate on earnings; ETF flat.",
+  "driver": "Q3 beats + replenishment demand"
  },
  "active_triggers": [
   {
@@ -22,7 +22,8 @@
     "sp-500"
    ],
    "added": "2026-03-28",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — $67.1bn request, no action; House in recess.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — House recessed to mid-Nov; Pentagon tally $43.6bn.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — House recessed to mid-Nov; no supplemental possible before then."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — $67.1bn request, no action; House in recess.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — House recessed to mid-Nov; Pentagon tally $43.6bn.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — House recessed to mid-Nov; no supplemental possible before then.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — no October movement; House in recess to mid-Nov."
   },
   {
    "condition": "ITA tests $208 sustained on Branch 3 deepening (3+ sessions)",
@@ -37,7 +38,7 @@
   },
   {
    "condition": "Lockheed bounces +10% in 5 sessions on Iran rejection scenario = falsification of May 5 pause durability (back to $620+)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "defense-sector",
     "sp-500",
@@ -46,7 +47,9 @@
    ],
    "added": "2026-05-09",
    "note": "LMT $506.51 May 8; -18.8% MoM. Defense rotation reversal = market call MOU signs. If Iran rejects past May 21, sharp reversal expected.",
-   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — +0.7% only."
+   "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — +0.7% only.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] May-dated window lapsed (LMT's October +20% is an earnings re-rating, not that test). Housekeeping."
   }
  ],
  "top_edges": [
@@ -86,6 +89,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**THE PRIMES RE-RATED ON EARNINGS; THE ETF DID NOT.** Lockheed $504.02 → $604.18 (+19.9% since 13 Oct; +7.0% on 22 Oct after raising its 2026 outlook); Northrop +14.6% (Q3 beat, EPS guide raised, 20 Oct); ITA $204.00 → $202.23 (−0.9%), still below $208. ~40% crisis demand (munitions replenishment, post-3-Nov planning) / ~60% earnings. No supplemental movement found ($87.6bn June request). (CONFIRMED; markets B/C9, intel MAC-A14, DIP-A13)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Defence fell under an escalating war: ITA $216.14 → $206.03 (−4.7%; four closes below $208, 7–12 Oct), NOC −7.9%, LMT −4.4%.** Why: the end-date narrative (Trump: war ends 'very soon', oil 'will drop like a rock'; pledged no strike before 3 Nov), a $67.1bn supplemental with no congressional action, Bernstein NOC target cut ($653→$620); offset only by Redburn Buy initiations. CRS: 81 US aircraft lost/damaged; Saudi interceptor shortage (WSJ 12 Oct). India defence (HAL +4.6%, BEL +3.2% on 13 Oct). Equity investors price the US exit, not the Gulf war. — CONFIRMED (prices)."
@@ -284,6 +292,11 @@
    "date": "2026-09-14",
    "price": "LMT $524.19 / ITA $219.01 (Fri 11 Sep)",
    "trigger": "−12.3% 1M each: 'ends after the midterms' + Rubio's strikes→sanctions de-rated the Iran premium; rates."
+  },
+  {
+   "date": "2026-10-26",
+   "price": "LMT $589.91 (+7.0%, 22 Oct) → $604.18 (23 Oct); +19.9% since 13 Oct",
+   "trigger": "2026 outlook raised; munitions replenishment"
   }
  ]
 }

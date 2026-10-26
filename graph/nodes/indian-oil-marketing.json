@@ -3,15 +3,15 @@
  "name": "Indian Oil Marketing (IOC/BPCL/HPCL)",
  "type": "sector",
  "created": "2026-03-28",
- "last_updated": "2026-10-13",
- "summary": "Indian OMCs, Day 228. Pump prices are frozen while the Indian basket runs $116–121 (under-recoveries ~₹5/l petrol, ~₹23/l diesel, REPORTED); commercial LPG was raised; export levies were cut. The state's support moved to the currency: from 12 Oct the RBI meets IOC/BPCL/HPCL's entire daily dollar needs from reserves, removing OMC dollar buying from the market and converting the oil shock into reserve drawdown. Sourcing shifted from Russia (1.74 mb/d in September, lowest since April) toward Gulf barrels (Saudi +63%, Iraq +250%) and Aramco delivered cargoes at ~$20 over OSP. No Iranian crude; no Chabahar move.",
+ "last_updated": "2026-10-26",
+ "summary": "Indian OMCs, Day 241. Pump prices stay frozen while the Indian basket runs ~$120 and ICRA puts the diesel under-recovery at ~₹20/L; there is no excise relief or compensation, only a diesel export-levy cut (16 Oct). Yet IOC, BPCL and HPCL rose 1–4% while crude rose 10%, because the RBI's dollar window removes their currency risk and the market prices eventual government support. That policy put is the exposure: if the window narrows before Brent falls, OMC equities reprice.",
  "current": {
-  "brent_futures": "operative ~$99/bbl May 27 (CNBC: Brent +3.58% to $99.58 May 26 on the strikes; intraday range ~$94-107 on headline risk; ~-14% MoM net tail-premium de-pricing) — marginal OMC import-bill relief but still above the ~$85-90 break-even ceiling. (yfinance prints $92.78/-6.8% = roll/settlement ARTIFACT, NOT a real 1D move)",
-  "india_crude_basket": "$113-114/bbl post-war average vs February ~$69.01 — pass-through pressure structural",
-  "structural_losses": "~₹20/L petrol + ~₹100/L diesel theoretical gross; pre-hike pump prices frozen ~4 years — now passing through (4 hikes May 15-25, cumulative ~₹7.5/L; NO fifth hike as of May 27 — pass-through paused/plateaued)",
-  "retail_fuel_prices": "NO FIFTH HIKE this window — the May 25 fourth hike (+₹2.61-2.71/L, largest of sequence; cumulative ~₹7.5/L since May 15) stands and has fully propagated city-by-city: DELHI PETROL CROSSED ₹100 TO ₹102.12 (diesel ₹95.20), Mumbai petrol ₹111.21 (Goodreturns, India.com, BusinessToday May 27); Kolkata petrol ₹113.51 / diesel ₹99.82; Chennai petrol ₹107.77",
+  "brent_futures": "Dec $116.72 (23 Oct)",
+  "india_crude_basket": "~$120 (BS: 15-year-high average)",
+  "structural_losses": "Diesel under-recovery ~₹20/L (ICRA)",
+  "retail_fuel_prices": "Frozen",
   "private_pass_through": "Shell +Rs 25 diesel, Nayara +Rs 5 petrol +Rs 3 diesel",
-  "rbi_special_credit_facility": "ACTIVE ~2 weeks (since ~April 13-15) — RBI instructed IOC/HPCL/BPCL to curb spot USD buying and use special credit facilities for dollar needs (Reuters via MarketScreener India + ORF)",
+  "rbi_special_credit_facility": "OMC dollar window (10 Oct) unchanged",
   "iranian_crude_supply": "IOC Jaya 2M bbl + Reliance Felicity 2M bbl discharged before April 19 waiver expiry. No further Iranian purchases planned.",
   "waiver_status": "Iran waiver lapsed April 19. Russian 30-day waiver extension preserves ~1.9 mbpd Russian flow.",
   "omc_usd_demand": "~$250-300M daily; now routed through RBI-administered credit windows rather than spot market",
@@ -30,7 +30,8 @@
     "rbi"
    ],
    "added": "2026-03-28",
-   "notes": "REVIEWED 2026-10-13 — NOT FIRED on its text (no instruction reported) but MET IN SUBSTANCE: de facto freeze with basket >$110; support routed via the RBI dollar window.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no instruction reported."
+   "notes": "REVIEWED 2026-10-13 — NOT FIRED on its text (no instruction reported) but MET IN SUBSTANCE: de facto freeze with basket >$110; support routed via the RBI dollar window.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no instruction reported.",
+   "note_2026-10-26": "[reviewed, stays watching] De facto freeze holds with Brent >$110 and the basket ~$120, but no documented government INSTRUCTION found — stays watching (tag lower)."
   },
   {
    "condition": "OMC fuel-price pass-through announced OR Iran-rupee oil track via Chabahar restart within 30 days (by 2026-05-27)",
@@ -83,6 +84,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**NON-MOVER: OMC EQUITIES ROSE WITH CRUDE.** IOC +3.7%, BPCL +1.0%, HPCL +4.4% since 13 Oct while Brent rose 10% and ICRA puts the diesel under-recovery at ~₹20/L (doubled). Pump prices frozen with the Indian basket ~$120 (BS: 15-year high average); diesel export levy cut to ₹8.50 (16 Oct); no excise relief, no OMC compensation announced, LPG unchanged. The RBI's dollar window removes OMC currency risk — a policy put the market is pricing. (CONFIRMED prices; REPORTED under-recovery; markets C9, intel IND-A11)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**OMCs: pump prices frozen with the basket $116–121; under-recoveries ~₹5/l petrol, ~₹23/l diesel (BusinessToday 23 Sep, unnamed govt source — REPORTED); commercial LPG +₹62.50 to ₹2,810 (1 Oct); domestic LPG unchanged ₹942.** Export windfall levies cut from 1 Oct (diesel ₹20→₹16/l; ATF ₹15→₹10.5/l). **State support moved to the currency: RBI's 10-Oct window meets IOC/BPCL/HPCL's entire daily dollar needs from reserves** — removes OMC dollar buying from the market. Sourcing (Kpler, Sept): imports ~5.3 mb/d; Russia 1.74 mb/d (lowest since April; ~35% share vs ~56% July); Iraq 575 kb/d, Saudi 566 kb/d (+63%), UAE 480 kb/d, US 141 kb/d; no Iranian crude. IOC ₹126.14 / BPCL ₹287.4 / HPCL ₹329.0 (13 Oct; flat-to-down since 7 Oct). — mixed tags."

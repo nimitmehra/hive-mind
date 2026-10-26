@@ -3,16 +3,16 @@
  "name": "FII (Foreign Institutional Investor) Flows — India",
  "type": "institution",
  "created": "2026-05-12",
- "last_updated": "2026-10-13",
- "summary": "FII/FPI flows, Day 228. The heaviest foreign selling of the war: −₹35,861 cr in September (NSDL month column; the ₹25k trigger fired), a further −₹44,166 cr in October to ~9 Oct (including ₹9,232 cr traded 30 Sep), 2026 YTD −₹3.04 lakh cr — the largest foreign-selling year on record. Selling concentrated in financials, oil & gas and autos. The reasons have broadened from oil and the North-Asian AI rally to US rates: the US 10Y above 5.2% (term premium, not Fed odds — October hike odds fell while selling intensified) and an India–US 10Y spread near a 22-year low (~194bp). The AI complex's >10% correction did NOT send money back to India. DIIs (+₹64.8k cr in September) and record SIPs (₹32,490 cr) absorbed it. The deployment condition (5 consecutive net-buy sessions) is further away; next test: does October exceed September.",
+ "last_updated": "2026-10-26",
+ "summary": "FII/FPI flows, Day 241. October selling (−₹48,056 cr to 23 Oct) already exceeds September's record (−₹35,861 cr); 2026 outflows are ₹3.08 lakh crore. The pace slowed in the last week and domestic funds absorbed it (DII +₹59,110 cr), but neither the AI-complex crash in Korea and the US nor the US 10Y's single close below 5% brought money back. The capital-substitution thesis — AI cracks, money returns to India — has failed twice. A turn needs Brent lower and a cleaner US rates rally, not one driven by credit fear.",
  "current": {
-  "status": "SELLING RESUMED, TRIGGER ₹1.3k cr AWAY (2026-09-22); AI-complex substitution strengthening.",
-  "september": "−₹23,676 cr via exchanges to 19 Sep (NSDL); +₹2,703 cr primary; Fri 18 Sep +₹600 cr (1 session). DII +₹36,219 cr MTD."
+  "status": "Oct −₹48,056 cr to 23 Oct (> Sept); pace slowing; DII +₹59,110 cr",
+  "september": "−₹35,861 cr"
  },
  "active_triggers": [
   {
    "condition": "FII YTD CY26 outflow exceeds ₹2.5 lakh cr by end-Q2 (by 2026-06-30) — DII channel cracks",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "india",
     "nifty-50",
@@ -22,7 +22,9 @@
    "added": "2026-05-12",
    "update_2026-06-06": "Headline outflow now ~Rs2.54 lakh crore YTD (Outlook Business, secondary-equities basis) — nominally AT/ABOVE the ₹2.5 lakh cr level. BUT stays WATCHING, not active: the trigger's operative consequence is 'DII channel CRACKS', and the DII channel has NOT cracked — DIIs are still absorbing ~90% of the selling and Nifty is rangebound. Also the ~Rs2.54 lakh cr is a secondary-equities figure whose basis may differ from the trigger's. Threshold flagged as reached; the channel-crack condition is unmet.",
    "note_2026-06-07": "2026-06-07: the Rs2.5L cr OUTFLOW threshold is now REACHED on most tallies (~Rs2.54-2.99L cr) — BUT the trigger's actual cascade ('DII channel cracks') has NOT occurred: DIIs are absorbing ~90% and the Nifty floor held. Outflow limb met; consequence not fired. Stays watching the DII-crack consequence, not the headline number (intel A4).",
-   "note_2026-06-10": "2026-06-10: the DII channel CONSPICUOUSLY did NOT crack — on Mon 8 Jun, against FII -Rs5,556cr, DIIs bought net +Rs5,165cr (~93% absorption) and held the Nifty 23,000 floor (close 23,123). The outflow limb stays met; the channel-crack consequence is the inverse of fired. STAYS WATCHING the DII-crack consequence, not the headline number (intel A7)."
+   "note_2026-06-10": "2026-06-10: the DII channel CONSPICUOUSLY did NOT crack — on Mon 8 Jun, against FII -Rs5,556cr, DIIs bought net +Rs5,165cr (~93% absorption) and held the Nifty 23,000 floor (close 23,123). The outflow limb stays met; the channel-crack consequence is the inverse of fired. STAYS WATCHING the DII-crack consequence, not the headline number (intel A7).",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Window (by 30 Jun) lapsed; the YTD outflow later exceeded ₹2.5 lakh cr (₹3.08 lakh cr by 23 Oct). Housekeeping."
   },
   {
    "condition": "FII flow turn POSITIVE for 5 consecutive sessions — confirms India deployment-zone re-entry",
@@ -42,14 +44,17 @@
    "note_2026-06-22": "2026-06-22: TURNING — first net-positive week (+Rs3,386cr) after months of selling, but NOT yet 5 consecutive sessions confirmed. STAYS watching; this is THE India trigger to confirm. The closest it has been.",
    "note_2026-06-23": "2026-06-23: NOT met and REVERTED — FIIs back to selling (−₹635cr Mon). The one positive week did not hold. STAYS watching; the India deployment trigger remains unconfirmed.",
    "note_2026-06-26": "2026-06-26: NOT met — FIIs net sold -₹1,843cr (25 Jun); the turn is dead. STAYS watching; remains the unmet India deployment trigger.",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no positive streak; selling intensified.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — one positive session (Fri 18 Sep, +₹600 cr); MTD −₹23,676 cr.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no positive streak; selling intensified.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — one positive session (Fri 18 Sep, +₹600 cr); MTD −₹23,676 cr.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — some buying days in the last week, no 5-session streak found."
   },
   {
    "condition": "October FPI selling exceeds September's ₹35,861 cr (NSDL month column) by 31 Oct",
-   "status": "watching",
+   "status": "fired",
    "cascade": "Already −₹44,166 cr by ~9 Oct (incl. 30-Sep trade) — on pace; confirms the UST-driven EM outflow regime.",
    "added": "2026-10-13",
-   "notes": "Added 2026-10-13."
+   "notes": "Added 2026-10-13.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → fired] FIRED: −₹48,056 cr to 23 Oct vs September −₹35,861 cr (NSDL month column via PTI). CONFIRMED. (intel IND-A7)"
   }
  ],
  "top_edges": [
@@ -67,9 +72,9 @@
    "type": "dominant_marginal_buyer_seller_jun8_DII_plus5165cr_absorbed_93pct_of_fii_minus5556cr_held_23000_floor_index_rose_on_trump_tone_despite_fii_selling",
    "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-10-13",
+   "last_activated": "2026-10-26",
    "activation_count": 7,
-   "context": "CONFIRMED: FPI −₹35.9k cr Sept → Nifty −6.0% Sept; DII +₹64.8k cr absorbed. At 9.5; activation logged."
+   "context": "CONFIRMED: FPI −₹48k cr Oct; small caps −7.1% (wk to 23 Oct). Held; activation logged."
   },
   {
    "to": "inr-usd",
@@ -99,6 +104,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "October FPI equity selling −₹48,056 cr to 23 Oct (NSDL via PTI) — already larger than September's −₹35,861 cr; 2026 outflow ₹3.08 lakh cr. The pace slowed sharply in the last week (from −₹52,100 cr at ~17 Oct per BS headline to −₹48,056 cr — some buying days). DIIs bought ₹59,110 cr. The AI-complex crack (KOSPI −22% 1M) again did not send money to India; the US 10Y's one close below 5% came with HY spreads widening. Tax talk (STT/LTCG debate; Budget 2027-28 dollar-gains idea) is not action; Bernstein: it would not bring sustained inflows. (CONFIRMED; intel IND-A7/B3, markets C7)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**FPI equity: September −₹35,861 cr (NSDL month column; fortnights −₹14,116 / −₹21,745 cr); a further −₹9,232 cr traded 30 Sep booked in October; October MTD −₹44,166 cr to ~9 Oct (PTI, incl. the 30-Sep trade); 2026 YTD −₹3.04 lakh cr (largest foreign selling year on record; Kotak Neo ~$30bn net).** Sept selling concentrated in financials (−₹13,147 cr), oil & gas (−₹6,854 cr), autos (−₹6,212 cr). Exchange provisional: 5 Oct −₹4,699 cr, 7 Oct −₹6,121 cr, 9 Oct −₹3,569 cr. Reasons (PTI/Geojit/Trackk): crude, stronger dollar, **US 10Y above 5.2%**, AI rally in North Asia on cheaper valuations. DIIs +₹64,759 cr Sept; SIP record ₹32,490 cr. **Series note: the baseline's Aug +₹10,231 cr (exchange) vs PTI/Kotak +₹29,631 cr (incl. primary) — name the series.** — CONFIRMED (NSDL via PTI)."

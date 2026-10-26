@@ -3,12 +3,12 @@
  "name": "VIX (CBOE Volatility Index)",
  "type": "index",
  "created": "2026-05-13",
- "last_updated": "2026-10-13",
- "summary": "VIX, Day 228. ~15 through the most violent month since July (Riyadh airport massacre, ~25 Hormuz tanker strikes, a carrier group dispatched, a 2002-high 10Y, KOSPI −5.5%): max close 16.39 (1 Oct). The 22-Sep 'below 16 ×3' de-escalation marker held, but its complacency caveat is now the message: high-yield spreads widened 47bp while equity vol did not. Equity vol is pricing the AI index mix and Washington's end-date narrative (no strike before 3 Nov), not the Gulf. Kinetic marker (>25 intraday) unfired; the post-3-Nov window is the test.",
+ "last_updated": "2026-10-26",
+ "summary": "VIX, Day 241. ~19 (23 Oct close 19.45), up from 15 on 13 Oct, with a peak of 22.31 intraday on 16 Oct — driven by the AI-credit selloff and a hot CPI, not the war. It never reached the 25 'kinetic' marker despite strike rhetoric and a six-month oil high. Equity volatility prices Meta and CoreWeave, not Hormuz.",
  "current": {
-  "price": "14.87 (Mon 21 Sep; 15.44/14.81/14.87 = 3 closes <16; 16-Sep 17.71). India VIX 10.90.",
-  "read": "EQUITY-VOL DE-ESCALATION MARKER FIRED (2026-09-22) against an unchanged-to-worse physical market — the fourth paper-vs-physical divergence flag of the cycle and the first with the marker actually triggered. Driver mix ~50% crisis-relief read / ~50% AI-rally beta.",
-  "driver": "Fed regime + Hormuz kinetic + House vote — but equities are pricing the midterm end-date narrative; complacency vs the physical market."
+  "price": "19.45 (23 Oct); ~19.1 live 26 Oct; peak 22.31 intraday (16 Oct)",
+  "read": "AI-credit vol, not war vol — never reached 25.",
+  "driver": "SOX/Meta/CoreWeave + CPI; war a minor contributor"
  },
  "active_triggers": [
   {
@@ -36,7 +36,8 @@
    ],
    "added": "2026-05-13",
    "note_2026-06-11": "STAYS WATCHING. Not crossed (peak ~22.22 close).",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — max close 16.39 in the window.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — max 17.71 in the window; 14.87 now.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — max 17.84 despite tanker sinkings and the pipeline shutdown; the paper-calm anomaly persists."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — max close 16.39 in the window.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — max 17.71 in the window; 14.87 now.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — max 17.84 despite tanker sinkings and the pipeline shutdown; the paper-calm anomaly persists.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — peak 22.31 (16 Oct)."
   },
   {
    "condition": "VIX +30% intraday move within 48h of Trump's return from Beijing (May 15-16)",
@@ -98,6 +99,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "VIX 15.27 (13 Oct) → peak 19.99 close / 22.31 intraday (16 Oct; SOX 8-day losing streak, KOSPI breaker aftermath) → 16.68 (21 Oct) → 19.03 (22 Oct, AI-credit day) → 19.45 (23 Oct) → ~19.1 live. Never reached the 25 'kinetic-event' marker despite Trump's 'maybe tomorrow' (24 Oct) and a six-month oil high — equity vol is pricing the AI shock, not the war. (CONFIRMED; markets C9)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**VIX ~15 through a month of escalation: max close 16.39 (1 Oct); 14.84 (9 Oct); 15.21 (12 Oct); ~15.4 (13 Oct).** HY OAS widened 47bp while VIX didn't — credit and rates are stressed, equity vol is not. The 22-Sep '<16 ×3 FIRED with complacency caveat' stands; the caveat is now the main message. VIX ignored the KOSPI −5.5% day and the Riyadh strike. — CONFIRMED (FRED/yfinance)."

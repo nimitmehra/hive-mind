@@ -3,15 +3,15 @@
  "name": "China",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-13",
- "summary": "China, Day 228. The only buyer of Iranian crude — whose loadings fell to zero in September under the US blockade — and a summit partner that gave Washington nothing on Hormuz: the 24-Sep Trump–Xi summit produced no Hormuz text or buyer carve-out (Xi backed a return to the Islamabad MoU); the trade truce was extended to 10 Jan 2027. Beijing ignores the US airline ban (Mahan landed in Guangzhou), condemned the Houthi attacks on Saudi airports (12 Oct), and its CXMT memory announcement helped trigger the 13-Oct Asian chip selloff. Domestic: a modest stimulus; Shanghai −4% since 22 Sep. No Chinese Hormuz transit data since May.",
+ "last_updated": "2026-10-26",
+ "summary": "China, Day 241. Silent on Iran in October (no MFA or Wang Yi statement found) while taking ~0.5 mb/d of Iranian crude in September despite zero Iranian loadings since late August. Its September crude imports fell 21% y/y with large stock draws; Q3 GDP beat at 4.5%. Trump says China is 'not much of a player'. The Trump–Xi summit produced no Hormuz commitment.",
  "current": {
   "status": "Named non-exempt target of Economic Outcast secondary sanctions; Xi in Delhi for BRICS (declaration silent on the US); urea export quota now sets the ME benchmark."
  },
  "active_triggers": [
   {
    "condition": "China-as-HEU-custodian framework formally accepted by Iran + US within 30 days (by 2026-06-13) — operational deliverable beyond joint statement rhetoric",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "china",
     "iran",
@@ -20,7 +20,9 @@
     "nuclear-program"
    ],
    "added": "2026-05-15",
-   "note_2026-05-16": "Branch pricing materially less favourable: Trump immediately reversed post-summit ('decimation' Truth Social + new May 16 letter); China silent post-summit (no MFA pushback). Joint statement WAS the deliverable, not a step toward one. Hold at `watching` until either side announces operational custodian framework."
+   "note_2026-05-16": "Branch pricing materially less favourable: Trump immediately reversed post-summit ('decimation' Truth Social + new May 16 letter); China silent post-summit (no MFA pushback). Joint statement WAS the deliverable, not a step toward one. Hold at `watching` until either side announces operational custodian framework.",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Window (by 13 Jun) lapsed. Housekeeping."
   },
   {
    "condition": "Iran-permitted Chinese transit through Hormuz exceeds 50 vessels/week sustained 2 weeks — turns selective-transit-as-diplomatic-instrument into routine operational pattern",
@@ -32,7 +34,8 @@
     "brent-crude"
    ],
    "added": "2026-05-16",
-   "note": "30+ Chinese ships transited since May 13 night (REPORTED Fars-IRGC primary). Threshold of 50/week sustained tests whether the May 13 reopening was Trump-Xi-summit-pause one-off or a structural Iran-China bilateral norm. If sustained, materially reframes the physical-blockade reading for non-Iranian non-Chinese commercial flow."
+   "note": "30+ Chinese ships transited since May 13 night (REPORTED Fars-IRGC primary). Threshold of 50/week sustained tests whether the May 13 reopening was Trump-Xi-summit-pause one-off or a structural Iran-China bilateral norm. If sustained, materially reframes the physical-blockade reading for non-Iranian non-Chinese commercial flow.",
+   "note_2026-10-26": "[reviewed, stays watching] No data."
   },
   {
    "condition": "Trump–Xi summit readout (25 Sep) contains a China commitment on Iran/Hormuz (pressure on Tehran, buyer sanctions carve-out, or a Hormuz 'stability' text) — OR is silent on Iran",
@@ -93,6 +96,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "No Chinese MFA/Wang Yi statement on Iran found 13–26 Oct; Gharibabadi met Ambassador Cong Peiwu (21 Oct) on 'countering unilateralism'. Trump: China 'not much of a player'. Q3 GDP 4.5% (above 4.4%), September crude imports 37.1 Mt (~9.0 mb/d, −21% y/y) with large stock draws; Iranian crude into China ~0.5 mb/d in September (Vortexa). (CONFIRMED absence/data; intel DIP-A11, MAC-A16)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**Trump–Xi White House summit (24 Sep) — 'long on friendship, short on commitments' (Alhurra): no Hormuz text, no buyer-sanctions carve-out, no pressure commitment; trigger resolved 'no commitment'.** Xinhua: Xi backs a return to the 17-Jun Islamabad MoU and renewed US–Iran talks. US Amb. Perdue claims 'assurances' (Fox) — CLAIMED; a senior Iranian official told Reuters China assured Tehran it would not restrict ties — CLAIMED. Trade truce extended 10 Nov → 10 Jan 2027 (Bessent, 23 Sep); advanced-chip controls excluded. China remains the only buyer of a supply that fell to zero in September; Mahan Air landed in Guangzhou after the 23-Sep airline ban (China calls the sanctions 'illegal'). China MFA (Mao Ning, 12 Oct) condemned Houthi attacks on Saudi airports, urged dialogue. Chinese CXMT memory announcement hit global memory stocks (12–13 Oct). Pre-Golden Week mini-stimulus + ¥550bn provincial bond quota (9 Oct). — mixed tags."

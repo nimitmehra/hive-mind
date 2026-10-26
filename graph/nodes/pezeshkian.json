@@ -3,8 +3,8 @@
  "name": "Masoud Pezeshkian",
  "type": "person",
  "created": "2026-04-11",
- "last_updated": "2026-10-13",
- "summary": "Pezeshkian, Day 228. A president who travels but does not hold the file. At UNGA (23 Sep) he gave the defiant speech ('did not bend the knee') the generals praised, and met no American; since then his line has swung by the day ('meaningless' talks 5 Oct; 'won't leave the table' 9 Oct) while the negotiating voice passed to the SNSC (Rezaei) and chief negotiator Ghalibaf. Hardliners left him alone and targeted FM Araghchi instead (impeachment motion registered 6 Oct). He claims two meetings with Mojtaba Khamenei (unverified). The 'endorsed or sidelined' test resolved as 'absorbed'. Told Putin (8 Oct) proposals had been exchanged.",
+ "last_updated": "2026-10-26",
+ "summary": "Pezeshkian, Day 241. A president who argues for a deal but does not hold the file. On 24 Oct he said 'the cowards messed everything up… I still think we should go and conclude it' and urged an exit from 'neither war nor peace' as Iranians struggle to put food on the table; the SNSC and speaker say talks are 'meaningless' until the seven conditions are met. Riyadh said he would receive the Saudi–Pakistani–Turkish delegation on 26 Oct (unconfirmed by evening); he meets Putin in Moscow on 27 Oct. Not sidelined, not in charge.",
  "current": {
   "status": "En route to UNGA (departs 22 Sep, speaks 23 Sep); Trump 'probably open' to meeting — unacknowledged by Tehran; SNSC's seven conditions supersede his 15-Sep offer; Rasaei motion dormant. Neither endorsed nor sidelined (2026-09-22)."
  },
@@ -19,17 +19,20 @@
     "strait-of-hormuz"
    ],
    "added": "2026-04-11",
-   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — travelling as president; motion dormant."
+   "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — travelling as president; motion dormant.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — 'dishonorable people changed the rules' is ambiguous (Reuters context: the Americans)."
   },
   {
    "condition": "Pezeshkian's 'total collapse within three weeks to one month' economic warning proves correct (early-May deadline)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "iran",
     "brent-crude",
     "nifty-50"
    ],
-   "added": "2026-04-11"
+   "added": "2026-04-11",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] Early-May deadline lapsed; the economy has deteriorated (rial ~2.73m, inflation 73.6%) but no 'total collapse'. Housekeeping."
   },
   {
    "condition": "Pezeshkian publicly meets or is photographed with Mojtaba Khamenei",
@@ -40,11 +43,12 @@
     "strait-of-hormuz"
    ],
    "added": "2026-04-11",
-   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — he claims two meetings (CBS); no image.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no."
+   "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — he claims two meetings (CBS); no image.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no.",
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "Pezeshkian publicly forces Vahidi out OR Vahidi forces Pezeshkian out within Trump's 3-5 day window (~April 26 IST)",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "iran",
     "irgc",
@@ -52,7 +56,9 @@
     "pezeshkian",
     "trump"
    ],
-   "added": "2026-04-23"
+   "added": "2026-04-23",
+   "status_changed": "2026-10-26",
+   "note_2026-10-26": "[watching → expired] ~26 Apr window lapsed. Housekeeping."
   }
  ],
  "top_edges": [
@@ -107,6 +113,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-26",
+   "headline": "**THE PRESIDENT IS NOW THE PUBLIC ADVOCATE FOR A DEAL.** State TV 24 Oct: 'We were having negotiations, the cowards (Americans) messed everything up… I still think we should go and conclude it'; census ceremony the same day: move 'beyond neither war nor peace… He [the martyred Leader] instructed us to go and finish the job, but these dishonorable people changed the rules'; many Iranians 'struggling to put food on the table' (AFP). Earlier (20–21 Oct) he demanded sanctions be lifted before talks. Riyadh said he would receive the Saudi/Pakistani/Turkish delegation on 26 Oct (not confirmed by ~19:30 IST); flies to Moscow for the GECF summit and Putin, 27 Oct. Kayhan English ran his remarks as 'Iran Will Never Bow to U.S. Bullying'. (CONFIRMED quotes; intel DIP-A7)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-13",
    "headline": "**UNGA (23 Sep): 'Yes they did hit us, but we did not bend the knee'; 'the atomic bomb is in Israel, but the inspectors are in Iran'; US delegation walked out. No Trump meeting.** CBS (~25 Sep): needs 'clarity on the exact negotiation goals'. Line since: 'no trust' (~27 Sep), talks 'meaningless' (5 Oct, IRNA), told Putin in Avaza (8 Oct) Iran and the US 'exchanged new proposals', 'will not leave the negotiating table' (9 Oct, Tasnim). Generals praised the speech for defiance; the talks file is now voiced by the SNSC (Rezaei) and chief negotiator Ghalibaf; the 15-Sep incompetence motion went quiet while hardliners targeted Araghchi. 'Endorsed or sidelined' trigger resolved as 'absorbed'. — CONFIRMED (speech); later statements REPORTED via IRNA/Tasnim."
