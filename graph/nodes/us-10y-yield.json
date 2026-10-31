@@ -3,12 +3,12 @@
  "name": "US 10-Year Treasury Yield",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-10-26",
- "summary": "US 10-year, Day 241. The yield fell 21bp in a fortnight to 5.00% and closed below 5% once (4.96% on 22 Oct) — its first sub-5% close since 22 September — but the cause matters more than the level. The whole move was real yield (breakevens flat at ~2.34%) and it came on the day an AI-credit scare hit equities (Meta's first negative free cash flow in over a decade, chip stocks −6.7%, high-yield spreads wider) while Brent rose 4%. That is a flight to quality, not a calmer war: oil's channel into yields via inflation expectations did not transmit this window, and the Fed's December hike is still ~76–80% priced. The 13-Oct regime test fired on its 'below 5.00%' leg on that single close; the deployment condition the brief uses — the 10Y back below 5% — is touched, not met, because the next close was 5.00% and the driver would reverse if AI credit stabilises. For India the relevant read is the spread: India's 10Y rose to 7.48% while Treasuries rallied, widening the gap to ~248bp from ~216bp — the yield argument for foreign money improved slightly, but FPIs still sold.",
+ "last_updated": "2026-10-31",
+ "summary": "US 10-year, Day 246. The 10-year closed 4.94% on 30 Oct — its second straight close below 5% and a 35bp rally in October — but the war did not do it. Both breaks below 5% (22 Oct and 29–30 Oct) came on AI-credit shocks: Meta, then Alphabet's negative free cash flow and record one-day fall, Amazon spending ~$77bn against ~$42bn of operating cash, and Intel's 28.6% collapse. On the day oil jumped 2.4%, the 10-year fell 4bp and breakevens did not move; the Fed Chair himself said rates 'rolled over to the downside' as oil rose. The 2-year fell more (4.56%), pricing 'one more hike and done'. For the investor's 13-Oct condition, 'below 5%' is being met for the wrong reason and with high-yield spreads widening, so the graph's three-session trigger is not fired. The war's channel to US rates is now the front end via the Fed, not the long end via inflation expectations.",
  "current": {
-  "price": "5.00% (23 Oct, Treasury); 4.96% (22 Oct, FRED); ~4.99% live 26 Oct; 2Y 4.69%; 30Y 5.33%; 10Y real 2.66%; BE 2.34%; HY OAS 3.40% (22 Oct)",
-  "driver": "AI-credit flight to quality (22 Oct) + fading October hike odds + long-end short-covering; breakevens pinned",
-  "regime": "RISK-OFF RALLY, NOT A REGIME CHANGE (26 Oct): one close below 5%, then back to 5.00%."
+  "price": "4.94% (30 Oct, Treasury par); 2Y 4.56%; real 2.60%; BE 2.34%",
+  "driver": "AI-credit flight to quality (Alphabet −12.6%, Intel −28.6%, Amazon capex>OCF); hawkish Fed hold lifted 28 Oct only; oil NOT in long-end pricing (BE flat as Brent rose).",
+  "regime": "SET BY AI CREDIT, NOT THE WAR (second episode in eight days). The 13-Oct 'below 5%' deployment condition met on two closes for the wrong reason, with HY spreads widening."
  },
  "active_triggers": [
   {
@@ -42,7 +42,8 @@
     "nifty-50"
    ],
    "added": "2026-10-26",
-   "notes": "Single close 4.96% (22 Oct) then 5.00%; HY OAS 3.40% (+24bp). The quality of the rally decides whether it helps EM flows."
+   "notes": "Single close 4.96% (22 Oct) then 5.00%; HY OAS 3.40% (+24bp). The quality of the rally decides whether it helps EM flows.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — 2 sessions (4.98% 29 Oct, 4.94% 30 Oct); Mon 2 Nov could be the third, but the HY leg is FAILING (OAS +12bp on 29 Oct; 30-Oct print pending). (markets C3)"
   }
  ],
  "top_edges": [
@@ -86,12 +87,17 @@
    "type": "real_yield_suppression",
    "weight": 2.0,
    "directness": 2,
-   "last_activated": "2026-10-26",
+   "last_activated": "2026-10-31",
    "activation_count": 1,
-   "context": "WEAKENED/ANNOTATED: real yields −16bp in 3 sessions and gold −4% — sign failed; regime-dependent (inverted since July). 2.5→2.0 (markets C4/E)."
+   "context": "2026-10-31: activation, weight held; relationship INVERTED again — 30 Oct real yield −3bp, gold −3.3% (as on 22–23 Oct). Gold trades Fed-hike pricing and liquidity, not the real-yield level. (markets C4)"
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "**10Y 4.94% — TWO CLOSES UNDER 5%, AGAIN FOR THE AI REASON.** Treasury par: 5.00 (26 Oct), 4.99, 5.05 (28, post-FOMC), 4.98 (29, Alphabet day), 4.94% (30, Intel/Amazon selloff) — while Dec Brent rose 2.4% on 30 Oct. 2Y 4.68 → 4.56% (−12bp; 'one more and done' pricing); 30Y 5.31%; 2s10s 38bp (bull steepener). 10Y real 2.60% (−6bp); breakeven flat 2.34%. October −35bp, the biggest monthly rally since 2024. HY OAS 3.14 → 3.26% (+12bp on 29 Oct); IG 0.86 → 0.89. Warsh: rates 'rolled over to the downside' while oil rose. Crisis share of the move ~0–10% (against it). (CONFIRMED Treasury/FRED; markets C3/C8, intel MAC-A8)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-26",
    "headline": "**FIRST CLOSE BELOW 5% SINCE 22 SEP — ON AN AI-CREDIT SCARE, NOT A CALMER WAR.** 10Y 5.21% (13 Oct) → 5.13% (21 Oct) → **4.96% on 22 Oct (−17bp, biggest one-day fall since Mar 2023)** → 5.00% (23 Oct, Treasury) → ~4.99% live. 2Y 4.79 → 4.65 → 4.69%; 30Y 5.56 → 5.33%. 10Y real 2.88 → 2.64–2.66%; breakevens flat (2.33 → 2.34); ACM term premium −7bp. Same day: Meta −7.0%, SOX −6.7%, HY +13bp (HY OAS 3.40%, +24bp since 13 Oct) while Brent rose 4% — a flight to quality. October hike odds faded (~17% → 7–10%); December hike ~76–80%. Crisis contribution ~15% and acting AGAINST the move. (CONFIRMED FRED/Treasury; markets C3/C8)",
@@ -313,6 +319,11 @@
    "date": "2026-10-26",
    "price": "4.96% close 22 Oct (−17bp) — first close <5% since 22 Sep; 5.00% on 23 Oct",
    "trigger": "AI-credit flight to quality (Meta, SOX −6.7%) — real yields −12bp, breakevens flat"
+  },
+  {
+   "date": "2026-10-31",
+   "price": "4.94% close 30 Oct (second straight close <5%); 2Y 4.56%",
+   "trigger": "AI-credit flight to quality (Alphabet, Amazon, Intel) while oil rose 2.4%"
   }
  ]
 }

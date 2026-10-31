@@ -3,14 +3,15 @@
  "name": "Brent Crude",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-10-26",
- "summary": "Brent, Day 241. The war premium moved from the barrel to the screen. December Brent rose 10% in two weeks to a $116.72 settle on 23 Oct — the highest since late April and the 23rd straight settle above $100 — on Houthi strikes into Saudi Arabia's Eastern Province, the US ordering its staff out of the kingdom, the Hormuz ship war's record month and detailed reporting of a post-midterm US–Israeli campaign. In the same fortnight the physical market eased: Dated Brent (EIA proxy) fell about $10–15, the paper–physical gap shrank from ~$25 to ~$6–10, Oman–Dubai hit its lowest since July, Urals swung to a deep discount, and Gulf exports ran near pre-war levels through escorted lanes and Gulf of Oman transfers. The curve confirms the read: the front widened $10 over December 2027, which did not move. About 80% of the rally is crisis-linked and most of that is a dated binary — if 4–30 Nov passes without a US campaign and the Houthi barrage pauses, $15–25 can come out quickly; a campaign with energy targets turns the premium into a supply event. Diesel, not crude, is the tight barrel. Contract note: December expires 30 Oct; yfinance's BZ=F already shows January.",
+ "last_updated": "2026-10-31",
+ "summary": "Brent, Day 246. December Brent expired on 30 Oct at $117.64, a six-month high and the 28th straight front-month settle above $100; January, the new front month, is $113.43. The week showed what the price is made of: five sessions of mediation headlines (Qatar in Tehran, the Saudi-led visit, a Vance letter) took about $3 off, and one limpet-mine attack on a tanker off Khasab, inside a burst of four or five ship hits, put it all back and more. The curve is an event curve — a 99th-percentile prompt spread and a December-2027 contract near $88 — and the spot–futures gap, which narrowed from ~$25 in mid-October to $6–10 by 16–21 Oct, re-widened to ~$9–12. No Saudi crude barrel is confirmed lost: a fire at Ras Tanura (a Houthi-claimed hit) did not stop loadings, so the tight barrel remains diesel. Banks moved up (UBS $110, ANZ $105 year-end); Goldman holds $90 for December with a ~$27 premium it says needs 'a diplomatic solution that market participants see as sustainable' to come off. The binary is dated: strikes on Iran from 4 Nov convert the premium into a supply shock ($130 trigger); a text or a quiet November takes January toward the $90s ($100 trigger).",
  "current": {
-  "price": "Brent Dec (front to 30 Oct) $116.72 settle Fri 23 Oct; ~$115.20 live 26 Oct (−1.3%). yfinance BZ=F rolled to Jan today ($110.18 = Jan, −1.3% like-for-like, NOT −5.6%). Jan $111.70/Feb $107.32 settles 23 Oct; Dec-27 ~$86.7. WTI Dec $103.27 (23 Oct), $101.22 live.",
-  "delta_1d": "−1.3% (Dec, live 26 Oct); +3.1% Fri",
-  "delta_1m": "+10.4% since 13 Oct ($105.69)",
+  "price": "Dec-26 expired $117.64 (30 Oct final settle); Jan-27 $113.43 (front from 2 Nov); Dec-27 $88.11",
+  "delta_1d": "+2.4% (30 Oct, both Dec and Jan)",
+  "delta_1m": "+13.6% (Dec contract, October)",
   "delta_vs_4jul": "n/a",
-  "regime": "EVENT PREMIUM ON THE SCREEN, PHYSICAL EASING (26 Oct). Futures at a six-month high on dated political binaries (4–30 Nov strike window; Houthi strikes on Saudi energy); Dated within ~$6–10 of futures (from ~$25); Gulf exports near pre-war; curve says 'event', not 'shortage'."
+  "regime": "EVENT PREMIUM ON A DATED BINARY + A PHYSICAL-ATTACK TAPE. 28 straight settles >$100; curve front-loaded (Dec–Jan $4.21, 99th pct; Dec-27 $88); spot–futures gap ~$9–12 (re-widened after 21 Oct); ~$27 premium (Goldman). Swing factors: post-3-Nov strikes, Qatari/US–Iran text, limpet attacks on the waiting fleet, Houthi hits on Aramco.",
+  "roll_note": "From Mon 2 Nov free feeds quote January ($113.43) — a phantom −3.6% vs the final December settle."
  },
  "price_snapshots": [
   {
@@ -111,6 +112,11 @@
    "date": "2026-10-26",
    "price": "$116.72 Dec settle Fri 23 Oct (+3.1%; +10.4% since 13 Oct) — highest settle since late April; 23 straight settles >$100",
    "trigger": "Houthi strikes on Saudi energy/airports + US ordered departure + NYT post-midterm plans; physical premium collapsed the same fortnight"
+  },
+  {
+   "date": "2026-10-31",
+   "price": "$117.64 Dec final settle at expiry, Fri 30 Oct (+2.4%) — six-month high; Jan $113.43",
+   "trigger": "First successful limpet-mine attack in Hormuz (Louise 1) + 4–5-hull burst 29–30 Oct; Gulf allies warned of post-midterm strikes"
   }
  ],
  "active_triggers": [
@@ -260,7 +266,8 @@
    "note_2026-07-17": "2026-07-17: WATCHING, MECHANISM ARMED — Houthis sank Eternity C 9 Jul then paused; Iranian instruction to close Bab el-Mandeb if US hits energy infrastructure is REPORTED. The trigger's exact scenario is now the named next rung.",
    "status_changed": "2026-07-19",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — physical leg met (Dated ~$125–135) but futures peaked $107.33 intraday (12 Oct); not 'Houthi Red Sea entry' (Houthis still spare neutral hulls).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — futures $100–102; Houthis have not attacked a non-Saudi hull (day 11/14 of the Krieg test). Physical Oman/Dated >$130 is NOT the trigger (written on futures).\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — futures $105–109; DATED Brent did print >$130 (Bloomber",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — futures high $117.45 (23 Oct); no Houthi attack on a non-Saudi hull; physical back below $130."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — futures high $117.45 (23 Oct); no Houthi attack on a non-Saudi hull; physical back below $130.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — high ~$118; no Houthi attack on a non-Saudi hull."
   },
   {
    "condition": "Brent-Hormuz paper-physical divergence >$10/bbl in EITHER direction sustained 3 sessions",
@@ -300,7 +307,8 @@
     "nifty-50"
    ],
    "added": "2026-10-26",
-   "notes": "Dec-26/Dec-27 spread $30 with the back flat = event premium; Goldman 'nearly $25' over fair value. Front month from 2 Nov is January (settled $111.70 on 23 Oct)."
+   "notes": "Dec-26/Dec-27 spread $30 with the back flat = event premium; Goldman 'nearly $25' over fair value. Front month from 2 Nov is January (settled $111.70 on 23 Oct).",
+   "note_2026-10-31": "[reviewed, stays watching] Window not yet open. January starts the window at $113.43 — needs −11.8% to reach $100; +14.6% to reach $130. (markets C1)"
   }
  ],
  "top_edges": [
@@ -335,18 +343,18 @@
    "type": "relief_leg_jun4_oil_softened_to_95_rupee_firmed_to_9540_sub_96_import_bill_relief",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-26",
+   "last_activated": "2026-10-31",
    "activation_count": 25,
-   "context": "CONFIRMED: the rupee's 22–26 Oct reversal (94.38→95.22) tracked Brent Dec $108.8→$116.7. At cap; activation logged (markets C7)."
+   "context": "2026-10-31: activation — rupee gains capped by crude (Jan Brent ~$113). (intel IND-A1)"
   },
   {
    "to": "fed",
    "type": "inflation_input_ppi_pass_through",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-09-17",
+   "last_activated": "2026-10-31",
    "activation_count": 19,
-   "context": "2026-09-17: CONFIRMED: Warsh hiked on energy CPI while disclaiming oil. At cap."
+   "context": "2026-10-31: activation — fuel-led PCE 3.6%; two FOMC dissents for a hike; Warsh: 'Energy and related prices have moved higher again'. (intel MAC-A6/A7)"
   },
   {
    "to": "sp-500",
@@ -391,6 +399,16 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "**PHYSICAL GAP RE-MEASURED; PRODUCTS SOFTER; BANKS RAISED.** EIA Brent spot vs Dec futures: $8.55 (21 Oct), $12.22 (22), $11.58 (23), $12.31 (26), $9.22 (27) — the $6–10 of 16–21 Oct RE-WIDENED to $11.6–12.3 on 22–26 Oct before $9.2 on 27 Oct — ~$9–12, oscillating around $10 (MUFG: Dated 'about $10' over futures). NYH ULSD crack ~$100 (23 Oct) → ~$83 (27 Oct) as refiners absorbed the mediation optimism, but diesel stays the tight product (US distillates ~10% below 5-yr average; retail diesel $6.352; a fire at Ras Tanura (Houthi-claimed hit, unestablished); India raised its diesel export levy to ₹11.5/l on 31 Oct). Forecasts: UBS $110 end-2026 (from $100), ANZ ~$105 (+$10); Goldman keeps $90 for December but puts the premium at ~$27 (from 'nearly $25'). Flows: Kpler Hormuz crude 7.3 mb/d week to 28 Oct (narrower definition); Saudi October exports 6.5 mb/d (Vortexa). OPEC+ (the seven) expected to hold December targets on 1 Nov. (CONFIRMED FRED; REPORTED forecasts/trackers; markets C2, intel MAC-A2/A4/A5)",
+   "verification": "CONFIRMED/REPORTED"
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "**DECEMBER BRENT EXPIRED AT A SIX-MONTH HIGH, $117.64 (30 Oct) — ON ONE LIMPET MINE, AFTER FIVE DAYS OF MEDIATION.** Dec settles: $115.81 (26), $113.88 (27), $115.32 (28), $114.88 (29), $117.64 (30, +2.4%, high ~$118) — above 23 Oct's $116.72, highest since end-April; 28 straight front-month settles above $100. Down-leg 26–27 Oct (−$2.84) on Qatari mediation and the Tehran meeting; up on 28 Oct (WSJ: Gulf allies told to prepare for a 'short but intense' campaign; EIA crude −1.89 mb, distillates −1.5 mb) and 30 Oct (the first successful limpet-mine strike, Louise 1, and a 4–5-hull burst; Houthi claims on Ras Tanura/Abqaiq/Rabigh; Libya's Hamada valve ~15 kb/d). January (front from 2 Nov) $113.43; Feb $109.56; Dec-27 $88.11 (+$1.4 in a week); Dec–Jan $4.21 at expiry — MUFG: the prompt spread is in the 99th percentile since 1990. Crisis share ~90%. (CONFIRMED settles, explicit tickers; drivers REPORTED; markets C1, intel MAC-A1/A3)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-26",
    "headline": "**THE PHYSICAL PREMIUM COLLAPSED — THE WAR PREMIUM MOVED FROM BARREL TO SCREEN.** EIA Brent spot (Dated proxy) fell $125.78 (13 Oct) → $115.22 (20 Oct) while December futures rose to $108.79 → gap ~$6 (from ~$25); CommodityScope indicative $126.69 vs $116.72 on 23 Oct (~$10). Oman–Dubai $4.22 (lowest since July); Urals ~$80 FOB (a ~$31 discount to Dated; it was above Brent on 13 Oct). Gulf exports near pre-war (IEA Sept 13.9 mb/d; Morgan Stanley ~17 mb/d). Curve: Dec-26/Dec-27 spread $19.4 → $30.0 with Dec-27 flat ~$86.7 — a front-loaded EVENT premium (post-3-Nov strikes; Houthi reach into Saudi export infrastructure), not lost supply. Goldman: 'nearly $25' above fair value. Diesel the tight barrel (cracks >$90). (REPORTED proxies; CONFIRMED curve; markets C2)",

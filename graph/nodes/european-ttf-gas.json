@@ -3,13 +3,13 @@
  "name": "European TTF Natural Gas",
  "type": "commodity",
  "created": "2026-03-28",
- "last_updated": "2026-10-26",
- "summary": "TTF, Day 241. Europe's winter squeeze arrived: €97.19 intraday on 26 Oct, the highest since late 2022 and €3 from the €100 trigger, up 10% from the €87.22 close on 13 Oct. Qatar's LNG is still collapsed (~0.6 Mt in October), Asian prices hit a near-four-year high ($30.76 JKM) and pull cargoes east, and EU storage has stalled at 74.6% — the lowest for late October since 2009. The driver is liquefaction and shipping, not US supply (Henry Hub fell 23%). Relief needs Qatari volumes, not a ceasefire headline. It feeds the ECB's December hike case.",
+ "last_updated": "2026-10-31",
+ "summary": "European gas (TTF), Day 246. TTF crossed €100/MWh on 28 Oct for the first time since the 2022 crisis and the December contract settled around €103.6 on 30 Oct — up roughly 40% in October and more than three times its pre-war level. Supply is the war's doing: Qatar extended LNG force majeure to the end of December and is shipping perhaps a fifth of pre-war volume, and traders fear Iranian retaliation on Gulf energy if the US strikes after 3 Nov. Demand-side fragility is Europe's own: storage is about 75%, the lowest for the season since records began, with Germany near 62% and some countries already withdrawing. German power is at its highest since mid-2023, and the ECB debated a hike on 29 Oct citing energy. The beneficiaries are US LNG exporters (Cheniere raised guidance) and Qatar's own hedging into US supply. A warm winter or a US–Iran text are the downside paths; a strike on Gulf gas infrastructure the upside.",
  "current": {
-  "price": "€96.08 live 26 Oct; €97.19 intraday high (highest since late 2022); €93.85 close 23 Oct; €87.22 close 13 Oct",
-  "driver": "Qatar LNG ~0.6 Mt/month + JKM $30.76 + EU storage stalled 74.6%",
-  "delta_1m": "+10% since 13 Oct",
-  "regime": "WINTER SQUEEZE (26 Oct): storage lowest for late Oct since 2009; €100 trigger ~€3 away."
+  "price": "~€103.6/MWh (Dec contract, 30 Oct settle); €100 first crossed 28 Oct",
+  "driver": "Qatar FM to end-Dec + storage ~75% (record-low for season) + Asia competition + post-3-Nov strike risk",
+  "delta_1m": "~+36–41% (October)",
+  "regime": "ABOVE THE 2022-CRISIS THRESHOLD. Europe 'essentially betting on a warm winter' (Macquarie)."
  },
  "price_snapshots": [
   {
@@ -37,12 +37,17 @@
    "date": "2026-10-26",
    "price": "€97.19 intraday 26 Oct (highest since late 2022); €93.85 close 23 Oct",
    "trigger": "Qatar LNG collapse + JKM $30.76 + storage stall at 74.6%"
+  },
+  {
+   "date": "2026-10-31",
+   "price": "€100–100.9 intraday 28 Oct (first since Dec 2022); Dec ~€103.6 settle 30 Oct",
+   "trigger": "Qatar force majeure extended to end-Dec; storage ~75%; post-midterm strike risk"
   }
  ],
  "active_triggers": [
   {
    "condition": "TTF reaches 100 euros/MWh (2022 crisis levels)",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "ecb",
     "fertilizer-urea",
@@ -51,7 +56,9 @@
    "added": "2026-03-28",
    "note_2026-06-10": "STAYS watching. ~€51/MWh (Jun 9), ~€49 below the €100 2022-crisis level. The +~11% 1M move is the Qatar/Hormuz crisis premium, not a 2022-scale shock. Not crossed.",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — €86.65; ~€13 away.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — peak €82.57 (14 Sep).",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — €97.19 intraday 26 Oct, the closest yet."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — €97.19 intraday 26 Oct, the closest yet.",
+   "status_changed": "2026-10-31",
+   "note_2026-10-31": "[watching → fired] FIRED: November TTF touched €100–100.9 intraday on 28 Oct (Reuters/RTÉ, Euronews, Il Sole — CONFIRMED), the first time since December 2022; December settled ~€103.6 on 30 Oct (first clean settle above €100). (intel ISR-A7, MAC-A13)"
   },
   {
    "condition": "TTF crosses €70/MWh sustained 5 sessions (cascade-intensity threshold)",
@@ -66,7 +73,21 @@
    "note_2026-06-10": "STAYS watching (Day 0 of 5). ~€51/MWh (Jun 9) vs €70 threshold = ~€19 gap; the +~5% 1D / +~11% 1M Iran-Israel-escalation + Qatar-premium bid did NOT approach the threshold. Not crossed.",
    "notes": "RE-MET 2026-10-13: de-activated 29 Sep (one close €69.81) per its own rule; met again from 6 Oct (5th consecutive close >€70 since 30 Sep); 10 consecutive closes >€70 through 13 Oct (€86.65).\n[prior] REVIEWED 2026-09-22 — REMAINS MET/ACTIVE — every session since ~3 Sep >€70; €73.25 now. A close <€70 de-activates.",
    "status_changed": "2026-10-13",
-   "note_2026-10-26": "[reviewed, stays active] Remains active — every session since 6 Oct above €84."
+   "note_2026-10-26": "[reviewed, stays active] Remains active — every session since 6 Oct above €84.",
+   "note_2026-10-31": "[reviewed, stays active] STAYS ACTIVE — ~€97–104 all week."
+  },
+  {
+   "condition": "TTF front-month settles above €120/MWh by 31 Dec (winter stress beyond the 2022-threshold) — OR back below €80 (premium unwinds on a deal/warm winter)",
+   "status": "watching",
+   "cascade": [
+    "european-ttf-gas",
+    "natural-gas-lng",
+    "qatar",
+    "ecb",
+    "cheniere-energy"
+   ],
+   "added": "2026-10-31",
+   "notes": "Dec ~€103.6 (30 Oct); storage ~75% (record-low for season); Qatar FM to end-Dec; BofA had Q4 ~€100, Citi €56 (Citi falsified in practice). (intel ISR-A7/D)"
   }
  ],
  "top_edges": [
@@ -84,8 +105,9 @@
    "type": "pricing_benchmark_deal_relief_comove_3_lng_vessels_crossed_hormuz",
    "weight": 10,
    "directness": 1,
-   "last_activated": "2026-05-25",
-   "activation_count": 10
+   "last_activated": "2026-10-31",
+   "activation_count": 10,
+   "context": "2026-10-31: activation — TTF €100 crossed 28 Oct. (intel ISR-A7)"
   },
   {
    "to": "fertilizer-urea",
@@ -98,14 +120,19 @@
   {
    "to": "ecb",
    "type": "inflation_driver",
-   "weight": 7.5,
+   "weight": 8.0,
    "directness": 1,
-   "last_activated": "2026-10-26",
+   "last_activated": "2026-10-31",
    "activation_count": 7,
-   "context": "REPORTED: TTF €97 intraday + 3.8% HICP feed the December-hike consensus (Nomura). Held 7.5; activation logged."
+   "context": "2026-10-31: RAISED 7.5→8.0. ECB (29 Oct) debated a hike, statement cites energy prices 'above the baseline… posing upside risks', energy inflation 18.9%; TTF crossed €100 the day before. (CONFIRMED; intel ISR-A9)"
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "**TTF CROSSED €100 FOR THE FIRST TIME SINCE DECEMBER 2022.** The November contract touched €100–100.9 intraday on 28 Oct (Reuters via RTÉ, Euronews, Il Sole); after the November expiry (~29 Oct) the December contract settled ~€103.6 on 30 Oct (Trading Economics; Investing €103.2–103.9; +5.8% like-for-like). October front-month average ~€86.8; +~36–41% in the month. Drivers (~75% crisis): Qatar force majeure extended to end-December; Ras Laffan ~one-fifth of pre-war; Hormuz LNG risk and post-3-Nov strike fear; plus EU storage ~75% (74.9% on 26 Oct — a crawl, not the 'stall' at 74.6% reported 26 Oct; lowest seasonal since 2011; Germany 61.7%), Asia competition (JKM $30.76 on 22 Oct; ~$34 unverified on 28 Oct), cold-winter risk. German front-year power €159.30 (highest since June 2023). Jørgensen: 'Europe faces another energy crisis.' (CONFIRMED price; intel ISR-A7, MAC-A13; markets C5)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-26",
    "headline": "**TTF €97.19 INTRADAY ON 26 OCT — HIGHEST SINCE LATE 2022, ~€3 FROM €100.** ICE close €87.22 (13 Oct; the brief's €86.65 was an indicative tick) → €93.85 (23 Oct) → ~€96 live 26 Oct (+10%). Chain: Qatar LNG still ~0.6 Mt/month (force majeure monthly since March) → JKM $30.76 (22 Oct, highest since Dec 2022) pulls cargoes to Asia → EU storage stalls at 74.6% (lowest for late October since 2009; injections ~+0.09pp/day, some states withdrawing). ~75% crisis / ~25% weather. BofA's Q4 ~€100 tracking; Citi's €56 effectively falsified. (CONFIRMED prices; REPORTED storage; markets C6, intel ISR-A8)",

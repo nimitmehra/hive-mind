@@ -3,11 +3,13 @@
  "name": "FII (Foreign Institutional Investor) Flows — India",
  "type": "institution",
  "created": "2026-05-12",
- "last_updated": "2026-10-26",
- "summary": "FII/FPI flows, Day 241. October selling (−₹48,056 cr to 23 Oct) already exceeds September's record (−₹35,861 cr); 2026 outflows are ₹3.08 lakh crore. The pace slowed in the last week and domestic funds absorbed it (DII +₹59,110 cr), but neither the AI-complex crash in Korea and the US nor the US 10Y's single close below 5% brought money back. The capital-substitution thesis — AI cracks, money returns to India — has failed twice. A turn needs Brent lower and a cleaner US rates rally, not one driven by credit fear.",
+ "last_updated": "2026-10-31",
+ "summary": "Foreign investor flows (India), Day 246. Foreign investors bought a net ₹6,305 crore of Indian shares in the week to 30 Oct — their first buying week in ten — after a hawkish-but-not-hawkish-enough Fed hold and with the rupee back below 95. It is not yet a trend: the longest buying streak was two sessions, October as a whole was the heaviest selling month of the year (provisional −₹45,162 crore; NSDL −₹48,056 crore to 23 Oct), and calendar-2026 outflows are a record ~₹3.1 lakh crore. Domestic funds have absorbed it all and now own more of the Nifty 500 than foreigners. The investor's deployment condition is five straight sessions of foreign buying with inflation peaking; neither leg is met.",
  "current": {
   "status": "Oct −₹48,056 cr to 23 Oct (> Sept); pace slowing; DII +₹59,110 cr",
-  "september": "−₹35,861 cr"
+  "september": "−₹35,861 cr",
+  "price": "Week to 30 Oct +₹6,305 cr (prov.); Oct prov. −₹45,162 cr; NSDL −₹48,056 cr to 23 Oct",
+  "driver": "Fed relief + rupee below 95; max two-day buying streak."
  },
  "active_triggers": [
   {
@@ -45,7 +47,8 @@
    "note_2026-06-23": "2026-06-23: NOT met and REVERTED — FIIs back to selling (−₹635cr Mon). The one positive week did not hold. STAYS watching; the India deployment trigger remains unconfirmed.",
    "note_2026-06-26": "2026-06-26: NOT met — FIIs net sold -₹1,843cr (25 Jun); the turn is dead. STAYS watching; remains the unmet India deployment trigger.",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no positive streak; selling intensified.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — one positive session (Fri 18 Sep, +₹600 cr); MTD −₹23,676 cr.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — some buying days in the last week, no 5-session streak found."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — some buying days in the last week, no 5-session streak found.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — longest streak two sessions (27–28 Oct); 29 Oct −₹944 cr. (intel IND-A6)"
   },
   {
    "condition": "October FPI selling exceeds September's ₹35,861 cr (NSDL month column) by 31 Oct",
@@ -54,7 +57,8 @@
    "added": "2026-10-13",
    "notes": "Added 2026-10-13.",
    "status_changed": "2026-10-26",
-   "note_2026-10-26": "[watching → fired] FIRED: −₹48,056 cr to 23 Oct vs September −₹35,861 cr (NSDL month column via PTI). CONFIRMED. (intel IND-A7)"
+   "note_2026-10-26": "[watching → fired] FIRED: −₹48,056 cr to 23 Oct vs September −₹35,861 cr (NSDL month column via PTI). CONFIRMED. (intel IND-A7)",
+   "note_2026-10-31": "[stays fired] Provisional October FII −₹45,162 cr (exchange data, secondary only) vs NSDL −₹48,056 cr to 23 Oct (incl. primary); final NSDL October figure due 1 Nov. The fire stands on the NSDL to-23-Oct column (> September's −₹35,861 cr). (intel IND-A6)"
   }
  ],
  "top_edges": [
@@ -72,9 +76,9 @@
    "type": "dominant_marginal_buyer_seller_jun8_DII_plus5165cr_absorbed_93pct_of_fii_minus5556cr_held_23000_floor_index_rose_on_trump_tone_despite_fii_selling",
    "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-10-26",
+   "last_activated": "2026-10-31",
    "activation_count": 7,
-   "context": "CONFIRMED: FPI −₹48k cr Oct; small caps −7.1% (wk to 23 Oct). Held; activation logged."
+   "context": "2026-10-31: activation — first weekly FII buy in 10 weeks (+₹6,305 cr) with Nifty +2.0%. (intel IND-A6/A7)"
   },
   {
    "to": "inr-usd",
@@ -104,6 +108,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "Daily provisional FII cash (₹ cr): 26 Oct −1,463; 27 +4,240; 28 +872; 29 −944; 30 +3,599 → week +6,305, ending a 10-week selling run (IANS); longest buying streak two sessions. October provisional −₹45,162 cr; DIIs +₹62,220 cr (11th straight buying week, slowing to +₹3,110 cr). NSDL (incl. primary, e.g. Jio anchors) −₹48,056 cr to 23 Oct; final October due 1 Nov; YTD ~₹3.08 lakh cr outflow (record). DII share of Nifty 500 a record 21.3% vs FII 16.8% (HDFC Sky). The return came with a Fed/Treasury rally, not with a North-Asia AI rotation (KOSPI rose the same week). (CONFIRMED provisional data; intel IND-A6)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-26",
    "headline": "October FPI equity selling −₹48,056 cr to 23 Oct (NSDL via PTI) — already larger than September's −₹35,861 cr; 2026 outflow ₹3.08 lakh cr. The pace slowed sharply in the last week (from −₹52,100 cr at ~17 Oct per BS headline to −₹48,056 cr — some buying days). DIIs bought ₹59,110 cr. The AI-complex crack (KOSPI −22% 1M) again did not send money to India; the US 10Y's one close below 5% came with HY spreads widening. Tax talk (STT/LTCG debate; Budget 2027-28 dollar-gains idea) is not action; Bernstein: it would not bring sustained inflows. (CONFIRMED; intel IND-A7/B3, markets C7)",

@@ -3,10 +3,10 @@
  "name": "European Central Bank (ECB)",
  "type": "institution",
  "created": "2026-03-28",
- "last_updated": "2026-10-26",
- "summary": "ECB, Day 241. Deposit rate 2.50% after the 10-Sep hike. A hold on 29 Oct is ~97% priced and a December hike is consensus; the October flash HICP comes on 4 Nov, after the meeting. TTF at €97 supports the December case, while France's bond stress (OAT >5%, riots) is now the market's main European worry.",
+ "last_updated": "2026-10-31",
+ "summary": "ECB, Day 246. The ECB held its deposit rate at 2.50% on 29 Oct after debating a hike, and Lagarde signalled — conditionally — that December is the next step if the energy shock is confirmed; Reuters' sources call a 17 Dec hike 'all but certain', followed by a pause. Energy inflation is near 19% and TTF crossed €100 the day before, but the bank also noted that the bond-yield rise has tightened financing and France is in recession. In the same hour Lagarde announced she will leave early, on 7 Feb 2027. The war reaches the ECB through gas and oil prices; the constraint is French debt.",
  "current": {
-  "status": "Hold ~97% priced for 29 Oct (DFR 2.50%); December hike consensus; flash HICP 4 Nov."
+  "status": "Held 2.50% (29 Oct, unanimous, hike debated); 17 Dec hike 'all but certain' (Reuters sources); Lagarde exits 7 Feb 2027."
  },
  "active_triggers": [
   {
@@ -19,7 +19,8 @@
    ],
    "added": "2026-03-28",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no inter-meeting action; 29 Oct hold priced.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Lagarde pushed back; storage 68% and zero Saudi Oct barrels are the winter risk.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — hike debated at a scheduled meeting and rejected."
   },
   {
    "condition": "The ECB HIKES in September (or explicitly signals a September hike), OR the energy-inflation deferral breaks and it is forced to act sooner — the 'September reckoning' the graph has flagged",
@@ -36,11 +37,25 @@
   },
   {
    "condition": "29 Oct ECB: holds at 2.50% (consensus) — OR hikes; and does Lagarde pre-signal a December hike",
-   "status": "watching",
+   "status": "resolved",
    "cascade": "A hike or a December pre-signal tightens EUR conditions into an LNG-driven winter; a dovish hold with French spread stress is the alternative.",
    "added": "2026-10-13",
    "notes": "Added 2026-10-13.",
-   "note_2026-10-26": "[reviewed, stays watching] PENDING 29 Oct — hold ~97% priced; watch for explicit December guidance (Nomura vs ING)."
+   "note_2026-10-26": "[reviewed, stays watching] PENDING 29 Oct — hold ~97% priced; watch for explicit December guidance (Nomura vs ING).",
+   "status_changed": "2026-10-31",
+   "note_2026-10-31": "[watching → resolved] RESOLVED: held at 2.50% (unanimous) after a hike was debated; Lagarde gave a CONDITIONAL pre-signal for December ('the sense of direction is quite clear' if confirmed); Reuters sources: 17 Dec 'all but certain'. (intel ISR-A9, MAC-A16)"
+  },
+  {
+   "condition": "ECB hikes 25bp (DFR to 2.75%) on 17 Dec — OR holds (likeliest if the 4-Nov flash HICP undershoots or a US–Iran deal sinks energy prices)",
+   "status": "watching",
+   "cascade": [
+    "ecb",
+    "european-ttf-gas",
+    "france",
+    "brent-crude"
+   ],
+   "added": "2026-10-31",
+   "notes": "Reuters sources (29 Oct): 'all but certain', then a pause; ING: only 'a sharp worsening of growth' stops it; Bloomberg Economics: December ends the cycle. (intel ISR-A9/D)"
   }
  ],
  "top_edges": [
@@ -70,6 +85,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "**29 OCT: UNANIMOUS HOLD AT 2.50% AFTER DEBATING A HIKE; DECEMBER CONDITIONALLY SIGNALLED; LAGARDE LEAVING EARLY.** DFR 2.50% / MRO 2.65% / MLF 2.90%. Lagarde: the Council discussed whether 'a rate rise would be appropriate, but decided unanimously to keep rates on hold'; if the situation 'is going to be confirmed… the sense of direction is quite clear'. Statement: energy prices 'have risen above the baseline' and 'have continued to rise, posing upside risks'; energy inflation 18.9% (Sept), headline 3.8%; 'financing conditions have tightened'; on France the solution 'lies at home'. Reuters sources: a 17 Dec hike 'all but certain', then a pause; staff estimates show the yield rise cutting 2027–28 growth by 100bp and inflation by 90bp. Lagarde will step down on 7 Feb 2027 ('I don't think that I can be comfortable in that neutrality'). Euro-area flash HICP due 4 Nov; Q3 GDP +0.4% q/q (France −0.1%). (CONFIRMED decision; REPORTED sources; intel ISR-A9/A10/B1, MAC-A16)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-26",
    "headline": "29 Oct: a hold at DFR 2.50% is ~97% priced; December hike consensus ('a done deal' — Nomura; ING: 'the bond market has taken over the ECB's job'). Euro-area October flash HICP is 4 Nov (not 30 Oct) — the ECB meets without it; September HICP final 3.8%. France is the bigger story: OAT >5%, spread ~150–170bp, riots. Schnabel's early exit reshapes the debate. TTF €97 intraday feeds the December case. (REPORTED pricing; intel ISR-A10/B3)",

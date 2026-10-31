@@ -3,11 +3,11 @@
  "name": "VIX (CBOE Volatility Index)",
  "type": "index",
  "created": "2026-05-13",
- "last_updated": "2026-10-26",
+ "last_updated": "2026-10-31",
  "summary": "VIX, Day 241. ~19 (23 Oct close 19.45), up from 15 on 13 Oct, with a peak of 22.31 intraday on 16 Oct — driven by the AI-credit selloff and a hot CPI, not the war. It never reached the 25 'kinetic' marker despite strike rhetoric and a six-month oil high. Equity volatility prices Meta and CoreWeave, not Hormuz.",
  "current": {
-  "price": "19.45 (23 Oct); ~19.1 live 26 Oct; peak 22.31 intraday (16 Oct)",
-  "read": "AI-credit vol, not war vol — never reached 25.",
+  "price": "19.42 (30 Oct)",
+  "read": "Elevated but not stressed; driven by AI-credit, with event hedging into 3–4 Nov.",
   "driver": "SOX/Meta/CoreWeave + CPI; war a minor contributor"
  },
  "active_triggers": [
@@ -37,7 +37,8 @@
    "added": "2026-05-13",
    "note_2026-06-11": "STAYS WATCHING. Not crossed (peak ~22.22 close).",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — max close 16.39 in the window.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — max 17.71 in the window; 14.87 now.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — max 17.84 despite tanker sinkings and the pipeline shutdown; the paper-calm anomaly persists.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — peak 22.31 (16 Oct)."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — peak 22.31 (16 Oct).",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — no source reports >25 on 30 Oct."
   },
   {
    "condition": "VIX +30% intraday move within 48h of Trump's return from Beijing (May 15-16)",
@@ -99,6 +100,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "VIX 19.42 on 30 Oct (+12.9% on the day; 18.39 on 26 Oct; low 16.91 on 28 Oct) on the Friday AI selloff (S&P −1.8%, its biggest drop since 5 Jun) and hedging into the 3-Nov vote and the post-midterm strike window. No print above 25. India VIX fell 10.8% to 15.30 over the same days. (CONFIRMED; markets A/B)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-26",
    "headline": "VIX 15.27 (13 Oct) → peak 19.99 close / 22.31 intraday (16 Oct; SOX 8-day losing streak, KOSPI breaker aftermath) → 16.68 (21 Oct) → 19.03 (22 Oct, AI-credit day) → 19.45 (23 Oct) → ~19.1 live. Never reached the 25 'kinetic-event' marker despite Trump's 'maybe tomorrow' (24 Oct) and a six-month oil high — equity vol is pricing the AI shock, not the war. (CONFIRMED; markets C9)",

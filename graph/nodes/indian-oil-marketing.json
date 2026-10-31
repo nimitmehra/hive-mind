@@ -3,7 +3,7 @@
  "name": "Indian Oil Marketing (IOC/BPCL/HPCL)",
  "type": "sector",
  "created": "2026-03-28",
- "last_updated": "2026-10-26",
+ "last_updated": "2026-10-31",
  "summary": "Indian OMCs, Day 241. Pump prices stay frozen while the Indian basket runs ~$120 and ICRA puts the diesel under-recovery at ~₹20/L; there is no excise relief or compensation, only a diesel export-levy cut (16 Oct). Yet IOC, BPCL and HPCL rose 1–4% while crude rose 10%, because the RBI's dollar window removes their currency risk and the market prices eventual government support. That policy put is the exposure: if the window narrows before Brent falls, OMC equities reprice.",
  "current": {
   "brent_futures": "Dec $116.72 (23 Oct)",
@@ -18,7 +18,7 @@
   "ppac_signal": "PPAC publishing daily international crude rates — Economic Times read as preparation tell for fuel-price pass-through",
   "monday_cash_open_expected": "IOC/BPCL/HPCL +1.5-3% on diesel margin recovery (Branch 3 base case)",
   "government_forced_choice": "30-day window (by 2026-05-27): (a) raise pump prices, (b) fiscal subsidy ~₹2,800 cr/week, (c) Iran-rupee oil track via Chabahar, (d) wait for Brent normalisation",
-  "status": "Margin squeeze at Brent $107; Iranian-discount channel dead; pass-through status unverified."
+  "status": "Frozen pump prices, ~₹20/l diesel loss; Q2 profit on the summer dip; Q3 losses ahead; RBI dollar window intact."
  },
  "active_triggers": [
   {
@@ -31,7 +31,8 @@
    ],
    "added": "2026-03-28",
    "notes": "REVIEWED 2026-10-13 — NOT FIRED on its text (no instruction reported) but MET IN SUBSTANCE: de facto freeze with basket >$110; support routed via the RBI dollar window.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no instruction reported.",
-   "note_2026-10-26": "[reviewed, stays watching] De facto freeze holds with Brent >$110 and the basket ~$120, but no documented government INSTRUCTION found — stays watching (tag lower)."
+   "note_2026-10-26": "[reviewed, stays watching] De facto freeze holds with Brent >$110 and the basket ~$120, but no documented government INSTRUCTION found — stays watching (tag lower).",
+   "note_2026-10-31": "[reviewed, stays watching] De facto freeze at $110+ Brent; no documented instruction found — stays watching. (intel IND-A9)"
   },
   {
    "condition": "OMC fuel-price pass-through announced OR Iran-rupee oil track via Chabahar restart within 30 days (by 2026-05-27)",
@@ -84,6 +85,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "Pump prices frozen (Delhi diesel ₹95.20, petrol ₹102.12) with a ~₹20/l diesel under-recovery (ICRA, 25 Oct). IOC Q2 FY27 standalone profit ₹21,630 cr (30 Oct) on 'a temporary decline in crude oil prices from mid-June to mid-August', petchem/gas margins and LPG compensation — and warned 'profitability in upcoming quarters may be adversely impacted by inventory losses'; HPCL carries an unrecognised ₹18,049 cr negative LPG buffer. The Q3 loss is ahead. Shares flat-to-down (IOC −0.5%, BPCL −1.9%, HPCL −0.8% since 26 Oct) while crude rose — the RBI dollar window still priced as a put. Private refiners win: Reliance O2C EBITDA +68% on 'exceptional refining cracks' (30 Oct, after the close). Diesel export levy raised to ₹11.5/l (31 Oct) keeps product at home. (CONFIRMED results/notifications; intel IND-A9, B5, B6)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-26",
    "headline": "**NON-MOVER: OMC EQUITIES ROSE WITH CRUDE.** IOC +3.7%, BPCL +1.0%, HPCL +4.4% since 13 Oct while Brent rose 10% and ICRA puts the diesel under-recovery at ~₹20/L (doubled). Pump prices frozen with the Indian basket ~$120 (BS: 15-year high average); diesel export levy cut to ₹8.50 (16 Oct); no excise relief, no OMC compensation announced, LPG unchanged. The RBI's dollar window removes OMC currency risk — a policy put the market is pricing. (CONFIRMED prices; REPORTED under-recovery; markets C9, intel IND-A11)",

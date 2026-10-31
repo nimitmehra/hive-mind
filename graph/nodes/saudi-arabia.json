@@ -3,12 +3,13 @@
  "name": "Saudi Arabia",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-26",
- "summary": "Saudi Arabia, Day 241. Riyadh is fighting the Houthis alone in the air, collecting defenders rather than co-belligerents, and — new this window — talking to Tehran. The Houthi campaign widened from airports to the Eastern Province: Aramco's Dhahran headquarters was hit, Dammam airport (Houthi-claimed) and the Shaybah oilfield (unclaimed) saw deaths on 21 Oct, missiles were intercepted over Makkah province on 24 Oct (Riyadh says toward the Makkah and Madinah regions; the Houthis say they targeted Rabigh and Yanbu), and at least 22 people have been killed by Houthi fire in the kingdom in October (24 with the unclaimed Shaybah drone). No processing-site damage is acknowledged and no barrel is confirmed lost, but the US ordered its staff out and the Riyadh investment conference is postponed. Washington still will not strike; the UK, Greece, Egypt, Pakistan and Türkiye supply air defence and the Mecca pact. On 15 Oct Riyadh for the first time blamed Iran for 'encouraging' the Houthis; on 26 Oct its defence minister sat with Iran's security chief in Tehran alongside Pakistan's army chief and Türkiye's spy chief. The export picture is disputed: Kpler has Yanbu loading ~2.3 mb/d, far below the 5.8 mb/d pipeline claim. Tests now: a Tehran readout or mechanism by 9 Nov, and whether the Houthi tempo falls.",
+ "last_updated": "2026-10-31",
+ "summary": "Saudi Arabia, Day 246. Riyadh bought a channel to Tehran on 26 Oct and got no relief from the Houthis: interceptions over the capital region came on five of the next six days, and on 27 Oct a fire broke out at Ras Tanura — the kingdom's main Gulf export and refining hub — which the Houthis claim as a hit (Bloomberg's source confirms only a contained fire near the terminal; one open-source imagery reading of a damaged unit cannot exclude the March damage). For the first time Riyadh and Aramco said nothing about an energy-site incident, and crude loadings carried on, so any damage is a products risk rather than lost crude. The coalition has started calling some Riyadh-region drones merely 'hostile', leaving open an Iraqi-militia second front. Saudi diplomacy compartmentalises: mediation with Iran through the Mecca pact, Rubio and Lavrov in Atlanta, the Houthis condemned by name at Manama while Iran goes unnamed. Saudi jets keep striking Yemen; Egypt has authorised help only if asked; Washington still will not strike the Houthis. Exports are reported at 5.4–7 mb/d depending on the tracker. Aramco's December prices (~5 Nov) and Q3 results are the next data.",
  "current": {
-  "status": "BELLIGERENT UNDER FIRE, NOW TALKING TO TEHRAN (26 Oct). Houthi strikes: Aramco HQ (13–14 Oct), Dammam airport 2 killed, Shaybah 2 killed (21 Oct), holy-city interceptions (24 Oct). DM Khalid bin Salman in Tehran 26 Oct. US ordered departure; FII10 postponed.",
+  "status": "UNDER DAILY HOUTHI FIRE AFTER THE TEHRAN MEETING (31 Oct); Ras Tanura fire 27 Oct (Houthi-claimed hit; silence from Riyadh); exports held (Vortexa 6.5 mb/d Oct). Coalition uses 'hostile drone' for Riyadh-region launches 30–31 Oct.",
   "pipeline": "East-West running (minister 5.8 mb/d throughput, 6 Oct) but Kpler puts Yanbu EXPORTS ~2.3 mb/d (1–15 Oct); total exports disputed 5.55 (Kpler) vs 8.165 (TankerTrackers) mb/d.",
-  "security": "KKIA reopened formally 25 Oct after missing 17 Oct; UK Typhoons, Greek Patriot, Egypt vote, Mecca pact to Turkish parliament; no US strike on the Houthis."
+  "security": "KKIA reopened formally 25 Oct after missing 17 Oct; UK Typhoons, Greek Patriot, Egypt vote, Mecca pact to Turkish parliament; no US strike on the Houthis.",
+  "diplomacy": "Mecca-pact channel to Tehran ('continue talks'; no text); Faisal–Rubio and Faisal–Lavrov (Atlanta, 30 Oct); Manama: Houthis named, Iran not."
  },
  "active_triggers": [
   {
@@ -135,11 +136,13 @@
   },
   {
    "condition": "Aramco/SPA acknowledges damage at an Eastern Province processing site (Shedgum/Abqaiq/Tanajib) OR satellite imagery (Planet/Sentinel/Reuters) confirms a hit, within 14 days (by 27 Oct)",
-   "status": "watching",
+   "status": "expired",
    "cascade": "Step-change for saudi-arabia→brent-crude: Houthi reach to the 2019 Abqaiq geography; futures to the physical price (~$130).",
    "added": "2026-10-13",
    "notes": "Added 2026-10-13. Houthi claims on Shedgum/Tanajib (11 Oct) are CLAIMED only.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED (expires 27 Oct). Dhahran HQ 'limited fire' is an office building, not processing; Shaybah 'no impact' (Energy Ministry); Houthi claims on pumping stations unconfirmed; no satellite confirmation. (intel SAU-A3)"
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED (expires 27 Oct). Dhahran HQ 'limited fire' is an office building, not processing; Shaybah 'no impact' (Energy Ministry); Houthi claims on pumping stations unconfirmed; no satellite confirmation. (intel SAU-A3)",
+   "status_changed": "2026-10-31",
+   "note_2026-10-31": "[watching → expired] WINDOW CLOSED 27 Oct — NOT FIRED; satellite leg met only at REPORTED level. The 27-Oct Ras Tanura incident is supported by a Bloomberg unnamed source (who confirmed only a contained fire NEAR the terminal — fact-check 31 Oct), NASA FIRMS thermal data and ONE open-source analyst's reading of Sentinel-2 imagery (damaged cracking unit, flaring stopped) that cannot exclude the March 2026 damage (refinery shut 2–~13 Mar after Iranian drone debris); no commercial-imagery firm or Reuters analysis; no Aramco/SPA acknowledgement; Ras Tanura is not one of the named sites. Under the CONFIRMED-action rule (2+ independent operational sources confirming the HIT, not just a fire) it is not fired. Renewed as a 30-Nov watch below. (intel SAU-A3; Chief of Station ruling)"
   },
   {
    "condition": "Egyptian parliament authorises the deployment AND Egyptian air-defence units are confirmed in the kingdom by 30 Nov",
@@ -150,7 +153,32 @@
     "red-sea"
    ],
    "added": "2026-10-26",
-   "notes": "Egypt's defence council approved support 18 Oct; roll-call vote 26 Oct (result not found). No egypt node — routed via saudi-arabia. (intel SAU-B2)"
+   "notes": "Egypt's defence council approved support 18 Oct; roll-call vote 26 Oct (result not found). No egypt node — routed via saudi-arabia. (intel SAU-B2)",
+   "note_2026-10-31": "[reviewed, stays watching] Leg 1 MET (26 Oct, two-thirds majority, 'if requested', defensive only — CONFIRMED); leg 2 NOT MET (no Egyptian unit confirmed in the kingdom). Watching to 30 Nov. (intel SAU-A8)"
+  },
+  {
+   "condition": "Aramco/SPA acknowledges the 27-Oct Ras Tanura damage, OR a named imagery firm/Reuters confirms the hit, OR a second confirmed hit on Aramco processing/export capacity (Abqaiq, Ras Tanura, Yanbu, East-West line), by 30 Nov",
+   "status": "watching",
+   "cascade": [
+    "saudi-arabia",
+    "houthis",
+    "brent-crude",
+    "energy-sector",
+    "indian-oil-marketing"
+   ],
+   "added": "2026-10-31",
+   "notes": "Replaces the lapsed 27-Oct trigger. Ras Tanura: a fire is REPORTED (Bloomberg source: contained fire near the terminal; NASA FIRMS heat); the hit is only CLAIMED (Houthis), with one OSINT imagery reading that may reflect March 2026 damage; Houthis claimed Abqaiq (29 Oct). Erickson (Obsidian Risk): the Houthis face 'remarkably little resistance' striking Saudi infrastructure."
+  },
+  {
+   "condition": "Aramco's December OSP for Arab Light to Asia (~5 Nov) is cut again (below −$5.00 vs Oman/Dubai) — exporter chasing volume, not scarcity — OR raised (scarcity pricing)",
+   "status": "watching",
+   "cascade": [
+    "saudi-arabia",
+    "brent-crude",
+    "india"
+   ],
+   "added": "2026-10-31",
+   "notes": "November OSP was −$5.00, a six-year low (The National, 5 Oct). Aramco is reportedly recalling Asian buyers to Yanbu (Bloomberg, 27 Oct). (intel SAU-A10)"
   }
  ],
  "top_edges": [
@@ -192,9 +220,9 @@
    "type": "swing_producer",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-26",
+   "last_activated": "2026-10-31",
    "activation_count": 8,
-   "context": "CONFIRMED: Saudi-theatre strikes drove ~40% of the 13–23 Oct rally (Dhahran, Dammam, Shaybah, ordered departure). At cap; activation logged (markets C1)."
+   "context": "2026-10-31: fire at Ras Tanura 27 Oct (hit claimed, not established); transmission via products, not crude volume."
   },
   {
    "to": "opec-plus",
@@ -231,6 +259,16 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "**DIPLOMACY ON TWO TRACKS, ATTRIBUTION ON A THIRD.** Riyadh framed the 26-Oct Tehran visit as Mecca-pact support for Qatari and Pakistani mediation (MOFA via SPA); the cabinet (27 Oct) 'backed Mecca Alliance mediation' and condemned Houthi attacks 'including Mecca and Medina' (Al Arabiya). No joint text. Faisal met Rubio and Lavrov in Atlanta (30 Oct; 'escalation in Yemen', Hormuz, Bab el-Mandeb with Lavrov) even as AP/AURORAH reported Russian satellite passes over 40 Houthi/Iraqi-militia targets. Manama Dialogue (31 Oct): Vice FM Elkhereiji condemned 'the Houthi terrorist militia' and did not name Iran; GCC's Al Budaiwi: 'diplomacy needs partners… who respond in kind'. The coalition switched to 'hostile drone' (no attribution) for Riyadh-region launches on 30–31 Oct. Saudi air strikes continue in Sanaa (26 Oct) and al-Jawf (28–30 Oct). Egypt's parliament authorised support 'if requested' (26 Oct, defensive only; no unit confirmed). Exports: Kpler 5.4–5.5 mb/d, Vortexa 6.5, TankerTrackers 6.99 for October (disagree ~1.6 mb/d); Aramco reportedly calling Asian buyers back to Yanbu from November. Air India/IndiGo suspend Jeddah, Riyadh, Dammam to 14 Nov. (CONFIRMED statements; REPORTED trackers; intel SAU-A5/A7/A8/A10/A13/B1/B2/B3)",
+   "verification": "CONFIRMED/REPORTED"
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "**RAS TANURA (27 Oct): A FIRE AT THE KINGDOM'S MAIN GULF EXPORT HUB — AND RIYADH STOPPED COMMENTING.** [Corrected 31 Oct by fact-check: Bloomberg's source confirmed only a contained fire NEAR the terminal, not a hit; the refinery was shut 2–~13 Mar after Iranian drone debris, so the OSINT 'damaged unit' reading may show March damage. New damage NOT established.] A fire near Aramco facilities at Ras Tanura early 27 Oct, the morning three ballistic missiles 'toward the Eastern Province' were announced intercepted. Bloomberg (one unnamed source): a fire near the terminal was contained (no 'hit' stated); NASA FIRMS thermal signatures at the terminal (Maritime Executive); Sentinel-2 imagery read by an open-source analyst (MenchOsint, 28 Oct): a processing (cracking) unit damaged and flaring stopped. Fars claims the 'main refining unit' is 'inoperable' (CLAIMED). No SPA/Aramco/Energy Ministry statement through 31 Oct — unlike Dhahran (13–14 Oct) and Shaybah (21 Oct). Crude exports not visibly impeded: Blas counted nine VLCCs (~18m bbl) loading at Ras Tanura and Juaymah on 28 Oct. Ras Tanura refinery ~550 kb/d; the risk is products (diesel, jet). An aggregator's 'fully contained, eight injured' Aramco quote copies the 2016 statement — discarded. (REPORTED, multi-sensor; intel SAU-A3)",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-10-26",
    "headline": "**EXPORT DATA DISPUTE — THE 13-OCT 'BYPASS RESTORED' READ IS OVERSTATED.** Kpler: Saudi exports 5.55 mb/d for 1–15 Oct (Yanbu 2.34, Ras Tanura 2.98); TankerTrackers: 8.165 mb/d; IEA: September Saudi crude supply 8.3 mb/d. The minister's 5.8 mb/d (6 Oct) was East-West pipeline throughput, not exports. Physical Gulf grades softened (Oman–Dubai $4.22, lowest since July) while Brent December hit a six-month high. (REPORTED, trackers conflict; intel SAU-A8)",

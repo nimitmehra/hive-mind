@@ -3,14 +3,14 @@
  "name": "Natural Gas / LNG",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-10-26",
- "summary": "Natural gas / LNG, Day 241. Two markets. Asia and Europe are short — JKM $30.76 (22 Oct, highest since Dec 2022) and TTF €97 intraday (26 Oct) — because Qatar's exports are still collapsed and LNG carriers face Hormuz risk; the US is long, with Henry Hub down ~23% on mild weather and storage. Qatar's 28-year purchase of US LNG from Cheniere (22 Oct) is the structural signal: the Gulf's biggest exporter is hedging with American supply.",
+ "last_updated": "2026-10-31",
+ "summary": "Natural gas / LNG, Day 246. The war's gas shock reached the 2022 benchmark: TTF crossed €100 on 28 Oct and the December contract settled ~€103.6 on 30 Oct, while US Henry Hub sits under $3 — the widest transatlantic spread of the war. Qatar, which supplied a fifth of global LNG before February, extended force majeure to end-December and is shipping roughly a fifth of its pre-war volume through a strait where a likely LNG carrier was hit on 30 Oct; it has signed two long-term deals to buy US LNG (Cheniere, Woodside) to cover its own contracts. Europe's storage (~75%) is the lowest for the season since 2011, and Asian prices (~$31–34) compete for the same cargoes. The winners are US exporters; the losers are European industry and South Asian importers (Pakistan, Bangladesh) paying spot.",
  "current": {
-  "price": "Henry Hub Nov $2.53 (26 Oct, −4.2%); Dec $3.00; JKM $30.76 (22 Oct)",
+  "price": "TTF Dec ~€103.6 / HH Dec $2.90 / JKM ~$31–34",
   "driver_split": "CRITICAL (markets Section E): Henry Hub and TTF share elevated 1M prints but NOT a cause. HENRY HUB = DOMESTIC WEATHER (~0% crisis): US summer heat demand (above-normal temps through June 24) DESPITE ample storage (~5% above 5-yr avg) + softer LNG-export flows (seasonal maintenance Golden Pass/Freeport). Does NOT reverse on a Hormuz deal. EUROPEAN TTF = CRISIS gauge (~70% crisis): Qatar ~17% liquefaction (Ras Laffan) offline + Iran-Israel escalation; still sub-EUR70. Do NOT encode Henry Hub strength as crisis-driven — that would be a textbook attribution error.",
   "henry_hub_driver": "WEATHER (~0% crisis): US summer heat demand, above-normal temps forecast through June 24. Strength persists DESPITE ample storage (~5% above 5-yr avg) and softer LNG feedgas (seasonal maintenance). Do NOT let +10.7% MoM contaminate the energy-crisis read; does NOT reverse on a Hormuz deal.",
   "lng_premium": "Cheniere +4.3% (7 Aug) as a Hormuz-REOPENING proxy (the Iran-Oman route agreement raises odds LNG flows normalize) + Train 6 Corpus Christi completion + the structural Qatar-offline tailwind (US Gulf Coast captures share). TTF easing on the de-escalation but still elevated. The LNG trade is now pricing reopening odds, not just disruption.",
-  "status": "Atlantic–Pacific split: US gas glut vs Asian/European scarcity (26 Oct)."
+  "status": "Qatar FM to end-December; TTF above the 2022 threshold; Qatar buying US LNG."
  },
  "price_snapshots": [
   {
@@ -29,7 +29,7 @@
  "active_triggers": [
   {
    "condition": "European TTF reaches 2022 crisis levels (EUR100+/MWh)",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "india",
     "fertilizer-urea"
@@ -37,7 +37,9 @@
    "added": "2026-03-23",
    "note_2026-06-10": "STAYS watching. TTF ~EUR51/MWh (Jun 9), still ~EUR49 below the EUR100 2022-crisis level. The +~11% 1M TTF move is the Qatar/Hormuz crisis premium (~70% crisis); the parallel Henry Hub +10.7% 1M is domestic weather (~0% crisis) and is irrelevant to this trigger. Not crossed.",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — TTF €86.65.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — €73.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — €97.19 intraday."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — €97.19 intraday.",
+   "status_changed": "2026-10-31",
+   "note_2026-10-31": "[watching → fired] FIRED with european-ttf-gas: €100+ touched 28 Oct; Dec settled ~€103.6 on 30 Oct (CONFIRMED). (intel ISR-A7, MAC-A13)"
   }
  ],
  "top_edges": [
@@ -85,6 +87,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "TTF crossed €100 (28 Oct) and December settled ~€103.6 (30 Oct). Qatar extended LNG force majeure to end-December (was 'through November'); Ras Laffan berthed 30 carriers 1–26 Oct vs 21 in September but volumes ~one-fifth of pre-war (Energy Intelligence) — October 0.6–1.3 Mt, unresolved. QatarEnergy signed a second US offtake (Woodside, 3 Mtpa, 20 years, 29 Oct) after Cheniere (22 Oct). Henry Hub: November expired 28 Oct; December $2.90 (−4.1% since 26 Oct like-for-like; the script's '+11.4%' is a roll artefact) — the US–Europe gas spread is the widest of the war. A vessel possibly the LNG carrier Al Mayeda hit 40 nm south of Lavan (30 Oct; identity inferred). (CONFIRMED prices/notices; REPORTED volumes; markets C5, intel SAU-A12, KIN-B3)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-26",
    "headline": "Asian LNG (JKM December) hit $30.76/MMBtu on 22 Oct, highest since Dec 2022 (Platts via Forbes); Henry Hub November fell ~23% since 13 Oct to $2.53 on mild weather and storage — US supply is not the constraint, liquefaction and shipping are. QatarEnergy signed to buy up to 4 Mtpa of US LNG from Cheniere (2031–2054, 22 Oct). NG=F rolled to December on 26 Oct (its '+13.8%' is an artefact). (CONFIRMED; markets C6, A)",

@@ -3,13 +3,14 @@
  "name": "Gold",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-10-26",
- "summary": "Gold, Day 241. Gold failed as a hedge twice over. It fell about 4% in the week to 23 Oct and closed below $4,000 (spot ~$3,996) for the first time since mid-July — in a fortnight when oil hit a six-month high, a US–Iran campaign was being planned in the press, and US real yields fell 16bp in three sessions. The graph's trigger for exactly that real-yield move fired, and the expected gold rally did not come. The pattern is deleveraging plus the Fed: silver, platinum and Japanese equities fell with it; markets price a December hike almost unanimously; the dollar was flat; and on 22 Oct, the day of the AI-credit scare, investors bought Treasuries, not gold. The inverted-haven regime that began in July — gold trading inverse to oil via the Fed — has deepened into gold as a funding asset in risk-off. A regime change would need a falling dollar or a genuine financial-system scare; neither is visible. All-time high $5,175 (January); $4,600 regime test far away.",
+ "last_updated": "2026-10-31",
+ "summary": "Gold, Day 246. Gold is behaving as a casualty of the war's inflation and as the first asset sold for cash, not as a war hedge. It fell below $3,900 on 30 Oct (Dec futures $3,898.90; spot ~$3,875), a one-year low and ~30% below January's $5,595 record, on the same day that US real yields fell and oil rose — the second time in eight days that the textbook real-yield link failed. The drivers are an oil-fed Fed (PCE 3.6%, two FOMC dissents for a hike, December ~80% priced) and margin calls from the AI-credit selloff. Silver broke below $50. State Street's $4,000 floor is gone; the gold/silver ratio (~79.3) is a whisker from the 80 trigger. Gold would turn back into a hedge on a credit or financial-system scare — HY spreads widening 12bp on the Alphabet day is a faint start, not that regime.",
  "current": {
-  "price": "Spot ~$3,996 (23 Oct); Dec futures $4,007.90 (23 Oct), ~$4,026 live 26 Oct",
-  "delta_1d": "+0.4% live",
-  "delta_1m": "−6.7% (script)",
-  "regime": "INVERTED HAVEN DEEPENED (26 Oct): fell 4% while real yields fell 16bp; sold as a funding asset in the 22-Oct risk-off."
+  "price": "Dec fut $3,898.90 (30 Oct); spot ~$3,874–3,880",
+  "delta_1d": "−3.3% (30 Oct)",
+  "delta_1m": "−7.2%",
+  "regime": "WAR-INFLATION VICTIM + LIQUIDITY SOURCE, NOT A HEDGE. Falls with real yields (30 Oct: real −3bp, gold −3.3%); Fed-hike pricing and AI-selloff margin calls dominate. Flip condition: a financial-system/credit scare, not an inflation scare.",
+  "gold_silver_ratio": "~79.3 (30 Oct)"
  },
  "active_triggers": [
   {
@@ -21,7 +22,8 @@
    ],
    "added": "2026-03-23",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "Gold/silver ratio exceeds 80:1",
@@ -32,7 +34,8 @@
    ],
    "added": "2026-04-02",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — ~74 ($3,996/$53.7)."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — ~74 ($3,996/$53.7).",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — ~79.3 on 30 Oct (from ~74.6 on 26 Oct); imminent. (markets C4)"
   },
   {
    "condition": "US 10Y real yield falls 15bps in 3 sessions (inflation-regime trigger — more predictive than crisis-escalation)",
@@ -99,7 +102,8 @@
    "note_2026-06-11": "STAYS WATCHING. Gold $4,109.50 -- ~$490 below the $4,600 regime trigger and moving AWAY through a 4.2% CPI + US-Iran strike day. The non-bid is terminal confirmation of the inflation/real-yields regime; only a mutation to financial-system risk re-bids gold.",
    "note_2026-06-12": "STAYS WATCHING. Gold bounced +3.7% to $4,239 but on a BENIGN inflation-unwind mechanism (oil down -> real yields ease), NOT the financial-system-risk mutation the trigger requires. Copper +3.4% same day confirms risk-ON, not haven. ~$360 below; do not misread the bounce as a regime flip.",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — gold $4,208, ratio ~69, real yields rising.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — $4,374; no haven bid on Riyadh/Hormuz strikes; ratio ~66:1; no credit event.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — gold −1.1% on the hike; $4,337; ratio ~67.5:1; no credit event. The regime test resolved AGAINST the haven branch.\n[prior] REVIEWED 2026-",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — ~$4,000."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — ~$4,000.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — $3,898.90."
   },
   {
    "condition": "BlackRock Rick Rieder confirmed/announced as next Fed chair — dollar-weakness regime confirmed",
@@ -147,6 +151,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "**GOLD BELOW $3,900 — THE HEDGE FAILED A THIRD TIME.** Dec futures $3,898.90 (−3.3% on 30 Oct; −3.5% since 26 Oct); spot ~$3,874–3,880, lowest since 6 Oct 2025, ~30% below January's $5,595 record. Silver $49.10 (−5.9% Fri; −9.3% since 26 Oct; first <$50 in 11 months); platinum −6.4%. Mechanism: oil-fed inflation (PCE 3.6%) → FOMC 10–2 with two hike dissents, December hike 76–83% priced → plus margin-call liquidation in the AI selloff ('Gold is liquid, so it is the first thing that gets sold' — GivTrade). On 30 Oct the 10Y real yield FELL 3bp to 2.60% and gold fell 3.3% — the 22–23 Oct inversion repeated. Gold/silver ~79.3 (80 trigger imminent). State Street's $4,000 floor broken decisively. Reuters poll: $4,495 (2026), $4,650 (2027). (CONFIRMED prices; mechanism REPORTED; markets C4, intel MAC-A12)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-26",
    "headline": "**THE FAILED HEDGE — GOLD BROKE $4,000 WHILE REAL YIELDS FELL.** Spot ~$3,995.9 on 23 Oct (first close <$4,000 since mid-July; low ~$3,986.5), −4.1% on the week, worst since June; December futures $4,177.30 (13 Oct) → $4,007.90 (23 Oct) → ~$4,026 live. It fell even though the 10Y real yield dropped 16bp in three sessions (DFII10 2.80 → 2.64, 19→22 Oct) — the graph's real-yield trigger FIRED and the predicted gold rally FAILED. Drivers: cross-asset deleveraging (silver −9%, platinum −10%, Nikkei −8%), the December hike path (100/100), a flat dollar, and Treasuries taking the haven role on 22 Oct. Crisis-linked ~0%: the inverted-haven regime (since July) deepened — gold is a funding asset in risk-off. (CONFIRMED; markets C4)",
@@ -557,6 +566,11 @@
    "date": "2026-10-26",
    "price": "Spot ~$3,996 (23 Oct) — first close <$4,000 since mid-July; −4.1% week",
    "trigger": "Real-yield trigger fired (−16bp in 3 sessions) and gold FELL — deleveraging + December hike path; Treasuries took the haven role"
+  },
+  {
+   "date": "2026-10-31",
+   "price": "$3,898.90 Dec fut / spot ~$3,875 (30 Oct, −3.3%) — one-year low",
+   "trigger": "Fed hike pricing after PCE 3.6% + AI-selloff liquidation; fell as real yields fell"
   }
  ]
 }

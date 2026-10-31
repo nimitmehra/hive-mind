@@ -3,8 +3,8 @@
  "name": "Reserve Bank of India",
  "type": "institution",
  "created": "2026-03-23",
- "last_updated": "2026-10-26",
- "summary": "RBI, Day 241. The defence held the rupee but moved the bill from reserves to rates. The 10-Oct oil-company dollar window and the 20% derivative reserve are unchanged; reserves fell a sixth straight week to $721bn (−$64.7bn from the 4-Sep record); and the dollar sales — together with tax outflows, the stricter daily CRR rule (from 16 Oct) and its own OMO bond sales — drained the banking system's liquidity surplus from ₹4.87 lakh crore (30 Sep) to about ₹542 crore (21 Oct, reported), forcing the first repo injection in three months and pushing the 10Y to 7.48%. The MPC minutes (21 Oct) put another hike on the table; HSBC calls 50bp on 4 Dec. The Governor says the RBI targets no rupee level. The 2013 stabilisation tell — narrowing the OMC window — needs Brent to fall first.",
+ "last_updated": "2026-10-31",
+ "summary": "RBI, Day 246. The central bank is carrying the rupee and the bond market. It reportedly defended the rupee around 95.26 in the last week of October and, rather than letting its dollar sales drain the banks, refilled liquidity with a ₹1.5 lakh crore term repo, so call rates stayed near the 5.50% repo. Headline reserves fell a seventh week to $719.75bn (that week on gold valuation), but the monthly bulletin shows a record $200bn net short forward book — dollars committed to flow back over the next one to three years from the summer's swap window — so usable firepower is smaller than the headline over time. On 29 Oct the IMF publicly said the rupee 'should be the first line of defense'. With October CPI expected above 6% and one-year swaps up 51bp in October, a December hike of 25–50bp is priced. The tell for stress is the 6-Nov reserves print (the first intervention week) and any narrowing of the OMC dollar window.",
  "current": {
   "forex_reserves": "$721.02bn (wk to 16 Oct; PTI) — sixth straight fall; $726.03bn (wk to 9 Oct)",
   "india_10y": "7.48% (26 Oct), highest since Mar 2023",
@@ -12,7 +12,7 @@
   "rupee_trigger": "USD/INR firmed off the early-June lows: 95.71 Mon 8 Jun (escalation) -> ~95.40 Wed 10 Jun (Trump's tone). The Rs96 'RBI direct-intervention' trigger STAYS WATCHING — pressed but NOT breached; the package is credited with holding the rupee clear of the 96-97 record-low zone.",
   "directive": "The June 5 MPC macro-prudential PACKAGE is the new directive — a regulatory toolbox (FCNR(B) hedging subsidies + concessional ECB swaps + FPI G-sec tax exemptions + expanded Fully Accessible Route) working BEFORE it shows in prices = a stabilising signal, the inverse of a stress signal.",
   "aug_2026": "HELD repo at 5.25% (5 Aug MPC, UNANIMOUS, neutral stance) and CUT its FY inflation forecast to 5.0% (from 5.1%), GDP 6.7%. Governor Malhotra: 'neither dovish nor hawkish.' A constructive, stable outcome — markets took it as 'RBI-led stability' (Nifty/Sensex up 6 Aug). Next MPC 5-7 Oct. Pairs with the US Fed pivot to cuts as a benign rates backdrop for Indian equities.",
-  "status": "OMC dollar window + 20% derivative reserve unchanged; liquidity surplus ~₹542 cr (21 Oct); VRR injection 19 Oct.",
+  "status": "Defending ~95.2–95.3 (reported) and refilling liquidity with term repos; reserves $719.75bn; forward book $200bn short (Aug); IMF urging flexibility; Dec hike 25–50bp in play.",
   "policy": "Repo 5.25%; MPC 5–7 Oct — six houses call +25bp. ₹1trn Sept OMO sales (₹75k cr done, ₹25k cr 28 Sep) draining ₹6.05 lakh cr surplus from FCNR(B)/swap inflows (~$133–144bn). Reserves $780.8bn."
  },
  "active_triggers": [
@@ -26,7 +26,8 @@
    ],
    "added": "2026-03-23",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — the 7-Oct hike was at a scheduled MPC, not inter-meeting.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no inter-meeting action; the RBI is acting through OMO sales (liquidity), not the repo.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no emergency move; scheduled 7-Oct now consensus-hike (forecast, not action).\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — n",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — liquidity tightening via FX sales, not an inter-meeting hike."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — liquidity tightening via FX sales, not an inter-meeting hike.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "RBI MPC surprises with rate hike (April 6-8)",
@@ -50,7 +51,8 @@
    ],
    "added": "2026-04-27",
    "notes": "REVIEWED 2026-10-13 — MOVED THE OPPOSITE WAY: OMC support EXPANDED (dollar window 10 Oct), not wound down.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — as above.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — Brent >$100 again; no wind-down conceivable.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — Brent far above $103."
   },
   {
    "condition": "RBI direct INR intervention at ₹95.50 — NOP/NDF curbs prove insufficient",
@@ -86,7 +88,8 @@
    "cascade": "Sell-side modal call (Emkay, Oxford, HDFC Bank, DBS; IDFC terminal 6.00–6.25%); a hold with softer stance = the cycle peaks early.",
    "added": "2026-10-13",
    "notes": "Added 2026-10-13.",
-   "note_2026-10-26": "[reviewed, stays watching] PENDING — minutes hawkish; consensus 25bp floor, 50bp live (HSBC)."
+   "note_2026-10-26": "[reviewed, stays watching] PENDING — minutes hawkish; consensus 25bp floor, 50bp live (HSBC).",
+   "note_2026-10-31": "[reviewed, stays watching] PENDING — OIS supportive (1Y 6.72%); HSBC 50bp vs ICRA 25bp. (intel IND-A5)"
   },
   {
    "condition": "Reserves fall below $700bn OR a fifth consecutive weekly fall (16 Oct print)",
@@ -103,7 +106,8 @@
    "cascade": "Withdrawal = RBI judges the rupee stabilised (bullish India signal); extension with reserves falling = stress.",
    "added": "2026-10-13",
    "notes": "Added 2026-10-13.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — unchanged as of 26 Oct."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — unchanged as of 26 Oct.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — window active; IMF pressure raises the odds later. (intel IND-B1)"
   },
   {
    "condition": "India's reserves fall below $700bn (weekly RBI print) by 30 Nov",
@@ -115,7 +119,20 @@
     "fii-flows"
    ],
    "added": "2026-10-26",
-   "notes": "$721.02bn at 16 Oct (−$64.7bn from record). Prints Fridays; ~$5–9bn/week pace in October."
+   "notes": "$721.02bn at 16 Oct (−$64.7bn from record). Prints Fridays; ~$5–9bn/week pace in October.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — $719.75bn (wk to 23 Oct; fall was gold valuation, FCA +$1.36bn). (intel IND-A2)"
+  },
+  {
+   "condition": "RBI foreign-currency assets fall by more than $3bn in any single week by 30 Nov (heavy intervention confirmed, ex-valuation) — first test: the 6-Nov print for the week to 30 Oct",
+   "status": "watching",
+   "cascade": [
+    "rbi",
+    "inr-usd",
+    "nifty-50",
+    "fii-flows"
+   ],
+   "added": "2026-10-31",
+   "notes": "Headline reserves mix in gold valuation (wk to 23 Oct: total −$1.27bn but FCA +$1.36bn). FCA is the cleaner intervention gauge; the forward book ($200bn short, end-Aug) is the slower one. (intel IND-A2/B2)"
   }
  ],
  "top_edges": [
@@ -133,9 +150,9 @@
    "type": "intervention_jun5_mpc_macroprudential_package_credited_with_rupee_stabilisation_off_96_97_lows_inverse_of_stress_signal",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-26",
+   "last_activated": "2026-10-31",
    "activation_count": 32,
-   "context": "CONFIRMED: window + reserves held the rupee in a 94.38–95.36 band. At cap; activation logged."
+   "context": "2026-10-31: activation — defence ~95.26 (REPORTED); forward book $200bn short; IMF 'first line of defense'. (intel IND-A1/B1/B2)"
   },
   {
    "to": "nifty-50",
@@ -165,6 +182,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "**THE RBI IS HOLDING THE LINE — AND BEING TOLD NOT TO.** Reserves $719.748bn (wk to 23 Oct, −$1.269bn, seventh straight fall) — but on gold valuation (−$2.65bn); FCA +$1.358bn; IDFC First estimates net dollar selling that week at only ~$0.7bn. The intervention week (26–30 Oct) prints 6 Nov. Forward book: record $200.06bn net short at end-August (from $136.77bn; >1-year $176.57bn; ~$23.5bn net under a year) after record August spot purchases of $43.26bn — the FCNR(B)/ECB swap window. Liquidity: ₹1,50,007 cr 4-day VRR (26 Oct, 5.55%); 29 Oct net ~₹30,454 cr surplus, call 5.58%. Trader: the RBI 'appeared to be defending the rupee around 95.26' (REPORTED). IMF (29 Oct): 'the rupee should be the first line of defense'; FX intervention appropriate only when 'disorderly'. Governor Malhotra: the RBI 'does not target any price or level'. December: HSBC 50bp (repo to 6.00%), ICRA 25bp; 1-year OIS 6.72% (+51bp in October). (CONFIRMED RBI data/IMF; REPORTED defence level; intel IND-A2/A3/A5, B1/B2)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-26",
    "headline": "**THE OMC WINDOW RUNS; THE BILL ARRIVED IN LIQUIDITY.** No change to the 10-Oct oil-company dollar window or the 20% derivative reserve (searched; absence is the finding); traders put the window's cost near $400m/day (REPORTED). Governor Malhotra (NDTV World Summit, 23 Oct): 'We do not target any price or level for the rupee'; rates 'could be deployed for financial stability in some circumstances'. Reserves $726.03bn (wk to 9 Oct, −$8.58bn; confirmed by two digests) → $721.02bn (wk to 16 Oct, −$5.01bn; PTI) — sixth straight fall. Liquidity surplus ₹4.87 lakh cr → ₹542 cr (21 Oct); first VRR injection in ~3 months (19 Oct); all T-bill bids rejected. MPC minutes (21 Oct): Deputy Governor Gupta 'a further increase… might be needed'. HSBC +50bp on 4 Dec; Goldman ≥3 more hikes to June 2027; Barclays two. (CONFIRMED/REPORTED; intel IND-A2–A5)",

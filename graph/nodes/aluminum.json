@@ -3,13 +3,13 @@
  "name": "Aluminum",
  "type": "commodity",
  "created": "2026-03-31",
- "last_updated": "2026-10-26",
+ "last_updated": "2026-10-31",
  "summary": "Aluminium, Day 241. Quiet: COMEX ~$3,270 (+4.5% since 13 Oct; the 26-Oct script drop is a contract roll) with no new Gulf smelter event. Off the critical path.",
  "current": {
-  "price": "$3,268.50 (COMEX, 23 Oct); 26-Oct print is a roll",
+  "price": "$3,310.50 COMEX (30 Oct)",
   "delta_1d": "roll",
   "delta_1m": "+4.5% since 13 Oct",
-  "driver": "Quiet; no Gulf smelter event"
+  "driver": "No re-hit; EGA ~50% restarted (single source)."
  },
  "price_snapshots": [
   {
@@ -31,7 +31,8 @@
    "note_2026-06-10": "STAYS watching. The -9.4% liquidation on 10 June is a risk-premium UNWIND (June 8 stand-down + dollar strength), NOT a production-restart signal — ALBA Lines 1-3 remain offline since mid-March and EGA Al-Taweelah power infra was just struck. No confirmed restart; the trigger condition (a >25% combined drop) is the physical-supply state that, if CONFIRMED as non-restart, would re-price aluminum violently back up — see the new ALBA/EGA-non-restart watch.",
    "note_2026-06-11": "STAYS WATCHING. No new smelter strike or non-restart event; but the closure formalization re-priced aluminum toward ~$3,600, validating the 'real premium' thesis. A confirmed re-hit or ALBA/EGA non-restart re-prices violently up.",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no re-hit; prices falling.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — no new data."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — no new data.",
+   "note_2026-10-31": "[reviewed, stays watching] No October data; Alba ~80%, EGA ~50% (single source)."
   },
   {
    "condition": "ALBA/EGA confirmed non-restart OR a Gulf smelter re-hit -> aluminum re-prices violently upward (cleanest physical-supply proxy in the graph)",
@@ -45,7 +46,8 @@
    "added": "2026-06-10",
    "note": "Added 2026-06-10 after the -9.4% liquidation. The June 8 Israel-Iran stand-down deflated a REAL physical war premium (ALBA Bahrain Lines 1-3 offline since mid-March + EGA Al-Taweelah Abu Dhabi power-infra strike genuinely removed Gulf smelter supply). Because the premium is real (not sentiment), this is the most reversible move on the board: a CONFIRMED ALBA/EGA non-restart, a re-hit smelter, or confirmed Hormuz mining re-prices aluminum violently upward. Aluminum is the cleanest physical-supply proxy in the graph; also note its acute DXY/dollar sensitivity (10 June was as much a dollar event as a war event).",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no re-hit; prices falling.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED.",
+   "note_2026-10-31": "[reviewed, stays watching] Evidence AGAINST (EGA restart ~50%, single source); no re-hit."
   }
  ],
  "top_edges": [
@@ -93,6 +95,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "COMEX aluminium $3,310.50 (30 Oct; +2.7% since 26 Oct); LME cash ~$3,043/t (23 Oct), ~21% below early June despite LME stocks at their lowest since 1990. EGA has restarted 631 of 1,262 cells at Al Taweelah (~50%) as of 21 Oct (single source); Alba ~80% of pre-war (16 Sep); no Gulf smelter re-hit; no October output data. (REPORTED; intel MAC-A17, SAU-A14)",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-10-26",
    "headline": "COMEX aluminium $3,127.75 (13 Oct) → $3,268.50 (23 Oct, +4.5%); the script's 26-Oct −4.9% is a contract roll. No new Gulf smelter news (ALBA/EGA). (CONFIRMED; markets A)",

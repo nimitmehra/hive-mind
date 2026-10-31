@@ -3,7 +3,7 @@
  "name": "Iraq",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-26",
+ "last_updated": "2026-10-31",
  "summary": "Iraq, Day 241. Pulled toward Washington's pressure campaign rather than serving as a neutral courier. No confirmed second Iraq-origin attack on Saudi energy since 10 Sep (an anonymous Saudi source claims attempts); Baghdad shut the al-Sheeb crossing with Iran (21 Oct) under reported US pressure and denies hosting Houthi offices; tankers were hit off Al Faw and Basrah; the targeted Kurdish opposition party says Iran fired four ballistic missiles at its base in the Kurdistan Region (21 Oct; unclaimed by Iran). Baghdad floats a '6+1' GCC–Iran meeting.",
  "current": {
   "production": "~900K bpd (force majeure)",
@@ -23,7 +23,20 @@
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — none in 33 days; no Saudi strike in Iraq.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — none; Saudi holding fire on Iraq (day 10+).\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no second Iraq-origin attack on Saudi energy; no Saudi strike on Iraq (day 5 of restraint at Baghdad's request); investigation open, Badr/HAAA suspected (FDD/JPost, REPOR",
    "status": "watching",
    "added": "2026-09-14",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — anonymous Saudi claim only; unattributed drones over Medina/Eastern regions 21 Oct (Houthis deny)."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — anonymous Saudi claim only; unattributed drones over Medina/Eastern regions 21 Oct (Houthis deny).",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — no origin published for the 'hostile' drones; AP's report is about targeting capability. (intel SAU-B1)"
+  },
+  {
+   "condition": "The Saudi-led coalition publicly attributes any launch at Saudi Arabia to Iraqi territory or an Iraqi faction, OR Saudi Arabia strikes inside Iraq, by 30 Nov (the second-front tell)",
+   "status": "watching",
+   "cascade": [
+    "iraq",
+    "saudi-arabia",
+    "houthis",
+    "brent-crude"
+   ],
+   "added": "2026-10-31",
+   "notes": "On 30–31 Oct the coalition called Riyadh-region drones only 'hostile' while the Houthis denied any 30-Oct operation; Saudi security sources had pointed to Iraq-origin drones (~22 Oct). Wording drift from 'Houthi' to 'hostile' is the leading indicator. (intel SAU-B1)"
   }
  ],
  "top_edges": [
@@ -69,6 +82,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "Drones intercepted near Baghdad's Green Zone/US embassy by C-RAM (27 Oct; probably unarmed reconnaissance, unclaimed). No new Iranian strike on Kurdish opposition bases after 24 Oct. AP/AURORAH (28 Oct): Russian satellite passes match 40 Houthi AND Iraqi-militia attacks on Saudi Arabia, incl. Iraqi-proxy targeting of the East-West pipeline (one private firm). The coalition left the 30/31-Oct Riyadh-region drones unattributed ('hostile'); Saudi security sources (Alhurra, ~22 Oct) say drones from Iraqi territory 'attempted to strike strategic sites' over 20 days; Riyadh 'has chosen not to respond' after PM al-Zaidi's assurances. No origin evidence published. (REPORTED; intel KIN-A7, SAU-B1/B2)",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-10-26",
    "headline": "Still no CONFIRMED second Iraq-origin attack on Saudi energy; an anonymous Saudi source says Iraq-launched drones tried to hit 'strategic sites' over 20 days (22 Oct) — CLAIMED. Baghdad under US pressure: PM al-Zaidi shut the al-Sheeb crossing with Iran 21 Oct (AFP/Reuters sources tie it to US pressure to shut all but two crossings); denies hosting Houthi offices. Tankers hit off Al Faw (Soyia, 20 Oct) and an STS at Basrah anchorage bracketed (21 Oct). the targeted Kurdish opposition party (PAK) says Iran fired four ballistic missiles at its base in Iraqi Kurdistan (21 Oct; REPORTED, Iran has not claimed it). FM Hussein floated a '6+1' GCC–Iran meeting in Baghdad (18 Oct). (CONFIRMED; CLAIMED Saudi source; intel KIN-A8/A10, DIP-B5)",

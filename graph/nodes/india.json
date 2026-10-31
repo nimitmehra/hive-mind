@@ -3,10 +3,10 @@
  "name": "India",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-26",
- "summary": "India, Day 241 — the investor's primary market. The RBI's rupee floor held, but its cost moved from reserves to rates. The rupee rallied to a six-week high of 94.38 on 21 Oct on Jio IPO inflows and the RBI's oil-company dollar window, then gave most of it back to 95.22 as Brent hit $117. Reserves fell a sixth straight week to $721bn, $65bn below the September record, and the dollar sales — with tax outflows, a stricter daily cash-reserve rule and the RBI's own bond sales — drained the banking system over three weeks: the liquidity surplus collapsed from ₹4.87 lakh crore to about ₹542 crore, the call rate pressed the ceiling, and the RBI had to inject cash. The 10-year yield hit 7.48%, its highest since March 2023, and the MPC minutes put another hike — possibly 50bp in December — on the table. Foreign investors sold ₹48,000 crore of equities in October, more than in September, though the pace slowed and domestic funds absorbed it. The Nifty ended the fortnight flat only because IT rallied on earnings while banks and small caps fell. Inflation is broadening (WPI 11.4%), pump prices are frozen at a widening loss, and the war reached Indians on Saudi soil. The swing factor is oil: a $15–20 fall after 3 Nov would let the RBI narrow the window and release liquidity; $115+ forces the 2013 choice between the rupee and rates.",
+ "last_updated": "2026-10-31",
+ "summary": "India, Day 246. The last week of October was India's best of the war's autumn turn — the Nifty back above 23,000, the rupee below 95, the 10-year down and foreign investors net buyers for the first week in ten — but it was carried by a less-hawkish-than-feared Fed and by the RBI holding the rupee near 95.26 and refilling bank liquidity, not by cheaper oil (December Brent expired at a six-month high). The bill is accumulating: the IMF publicly told India the rupee 'should be the first line of defense'; the RBI's forward book reached a record $200bn net short (mostly long-dated swaps); reserves fell a seventh week to $719.75bn; the fiscal deficit is running ahead of last year with subsidies half-spent; and October inflation is expected above 6%, putting a December hike (25–50bp) in play. Oil companies carry a ~₹20/litre diesel loss behind frozen pump prices while private refiners profit. On the ground, 35 Indian seafarers were on ships hit in Hormuz (all safe) and flights to Saudi Arabia are suspended to 14 Nov. Deployment stays defensive: the week's gains are reversible on Monday's US AI selloff and on any post-3-Nov strike.",
  "current": {
-  "status": "DEFENDING THE RUPEE WITH RESERVES AND LIQUIDITY (26 Oct, Day 241): INR 95.22, reserves $721bn (6th fall), liquidity surplus ~₹542 cr, 10Y 7.48%, FPI −₹48k cr Oct; Nifty 22,753 flat; an Indian killed at Dammam.",
+  "status": "RELIEF RALLY ON THE FED AND THE RBI (30 Oct): Nifty 23,053, rupee 94.93, 10Y 7.41%, FII +₹6,305 cr wk; IMF urges letting the rupee move; forward book $200bn short; October CPI >6% expected 12 Nov.",
   "rupee": "95.22 (PTI, 26 Oct); window 94.38–95.36; record 96.96 untested",
   "price": "Nifty 22,753.20; Sensex 73,606.75; Bank Nifty 54,366.70; Nifty IT 32,273.05; India VIX 17.16 (26 Oct)",
   "delta_1d": "Nifty +0.7%",
@@ -15,7 +15,9 @@
   "markets": "Nifty +0.1% since 13 Oct (IT +8.2%, Bank −2.0%, small caps −7.1% wk to 23 Oct)",
   "flows": "FPI −₹48,056 cr Oct to 23 Oct (> Sept −₹35,861 cr); DII +₹59,110 cr; 2026 YTD −₹3.08 lakh cr",
   "reserves": "$780.782bn (wk to 11 Sep, −$4.924bn); FCA $645.796bn; gold $111.225bn. Baseline updated from stale $675bn — FCNR(B)/swap inflows ~$133–144bn.",
-  "policy": "RBI ₹1trn Sept OMO sale (₹75k cr done; ₹25k cr 28 Sep) draining ₹6.05 lakh cr surplus; MPC 5–7 Oct — six houses call a 25bp hike (HSBC/Nomura/StanChart/Citi/SBI/…)."
+  "policy": "RBI ₹1trn Sept OMO sale (₹75k cr done; ₹25k cr 28 Sep) draining ₹6.05 lakh cr surplus; MPC 5–7 Oct — six houses call a 25bp hike (HSBC/Nomura/StanChart/Citi/SBI/…).",
+  "energy": "Record crude imports 5.4–5.6 mb/d (Oct, Kpler); pump freeze; diesel export levy ₹11.5/l (31 Oct).",
+  "people": "22 Indians killed since Feb (MEA); 35 Indian crew on three hulls hit 29–30 Oct, all safe; Saudi flights suspended to 14 Nov."
  },
  "active_triggers": [
   {
@@ -115,7 +117,8 @@
    ],
    "added": "2026-07-22",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no formal generic-pharma order; Sec 232 duties apply to patented drugs only (from 29 Sep for all affected firms).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — no news.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — no update.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no update this sweep.\n[prior] ADDED 22 Jul. Trump announced a phased tariff on generic drugs — 0% for ~2 years from ~1 Aug, then 100% (~2028), up t",
-   "note_2026-10-26": "[reviewed, stays watching] No change found."
+   "note_2026-10-26": "[reviewed, stays watching] No change found.",
+   "note_2026-10-31": "[reviewed, stays watching] No change found."
   },
   {
    "condition": "India August CPI prints ≥5.0% (MoSPI, 14 Sep 17:30 IST) OR the RBI hikes/turns explicitly hawkish at the 7-Oct MPC",
@@ -148,7 +151,8 @@
    "cascade": "Tariff = hit to nifty-50/inr-usd/fii-flows/indian-it; signature = removes a non-crisis overhang.",
    "added": "2026-10-13",
    "notes": "Added 2026-10-13. Authority only so far; India's Russian crude 1.74 mb/d (Sept).",
-   "note_2026-10-26": "[reviewed, stays watching] Tariff leg MOOTED — Trump's 16-Oct executive order waived the Act's tariffs/sanctions on Russian-energy buyers two days before penalties were due; trade-deal leg still open ('very, very close', unsigned after Rubio's 20–21 Oct visit). Stays watching on the deal leg. (intel IND-A12/A14)"
+   "note_2026-10-26": "[reviewed, stays watching] Tariff leg MOOTED — Trump's 16-Oct executive order waived the Act's tariffs/sanctions on Russian-energy buyers two days before penalties were due; trade-deal leg still open ('very, very close', unsigned after Rubio's 20–21 Oct visit). Stays watching on the deal leg. (intel IND-A12/A14)",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — trade deal not signed (Goyal 'fine-tuning', 29 Oct); no SRIA tariff."
   },
   {
    "condition": "India CPI ≥6.0% on the October print (12 Nov) — RBI tolerance ceiling breached",
@@ -156,7 +160,8 @@
    "cascade": "Makes a December hike near-certain; extends the 10Y/rupee stress.",
    "added": "2026-10-13",
    "notes": "Added 2026-10-13 (Sept 5.54%; RBI Q3 projection 6.0%).",
-   "note_2026-10-26": "[reviewed, stays watching] PENDING 12 Nov — WPI 11.39% (fuel & power 25.85%) leans toward it; flash PMI shows easing input costs."
+   "note_2026-10-26": "[reviewed, stays watching] PENDING 12 Nov — WPI 11.39% (fuel & power 25.85%) leans toward it; flash PMI shows easing input costs.",
+   "note_2026-10-31": "[reviewed, stays watching] PENDING (12 Nov), leaning toward firing: ICRA 'slightly higher than 6%', India Ratings >6%, consensus 6.2%. (intel IND-A5)"
   },
   {
    "condition": "India announces evacuation flights from Saudi Arabia OR a third Indian death from Houthi fire in Saudi Arabia by 30 Nov",
@@ -167,7 +172,8 @@
     "houthis"
    ],
    "added": "2026-10-26",
-   "notes": "Indian deaths: KKIA (10 Oct), Dammam (21 Oct, GACA). Air India Riyadh/Dammam suspended to 7 Nov; no evacuation flights announced. (intel IND-B1)"
+   "notes": "Indian deaths: KKIA (10 Oct), Dammam (21 Oct, GACA). Air India Riyadh/Dammam suspended to 7 Nov; no evacuation flights announced. (intel IND-B1)",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED / HOLD. MEA's 'three people in Saudi Arabia' (28 Oct) covers February–October; the graph's October tally is two; no new incident found 26–31 Oct. Evacuation leg not fired (flights suspended to 14 Nov, no evacuation). (intel IND-A11, SAU-A13)"
   }
  ],
  "top_edges": [
@@ -257,6 +263,16 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "**PEOPLE AND PASSAGE.** MEA (Jaiswal, 28 Oct): 22 Indian nationals killed in the West Asia conflict since February, incl. 14 seafarers and 'three people in Saudi Arabia' (the graph's October tally is two; MEA's figure covers February–October — no new death found). 35 Indians on three ships hit in Hormuz 29–30 Oct, all safe (Sonowal); Oman airlifted one injured crew member from an 'Indian boat'. Air India/Air India Express extended Jeddah, Riyadh and Dammam suspensions to 14 Nov (IndiGo: Jeddah, Dammam, Madinah to 14 Nov; Akasa: Riyadh to 30 Nov). New Delhi still names no attacker. India–US interim trade deal still unsigned (Goyal, 29 Oct: 'concluded… fine-tuning'). (CONFIRMED; intel IND-A10/A11/A12/A14, KIN-A9)",
+   "verification": "CONFIRMED"
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "**A RELIEF WEEK CARRIED BY THE RBI AND THE FED, NOT THE OIL PRICE (26–30 Oct).** Nifty 23,053.10 (+1.3% since 26 Oct; +2.0% week), VIX 15.30 (−10.8%), rupee 94.93 (PTI prov., back below 95), 10Y 7.41% (−7bp), FII +₹6,305 cr for the week (first weekly buy in 10) — while December Brent rose 1.6%. The costs are building underneath: IMF's Kozack (29 Oct): 'the rupee should be the first line of defense… exchange rate flexibility remains the preferable policy response'; RBI forward book a record $200.06bn net short at end-August (bulletin, 23 Oct); reserves $719.75bn, a seventh weekly fall; fiscal deficit 42.1% of the year's target in H1 (subsidies 54% used; CGA 30 Oct); October CPI expected >6% (12 Nov). Energy: record October crude imports 5.4–5.6 mb/d (Kpler; Russia 1.97 mb/d, Middle East ~2.3 mb/d, Angola/Venezuela up); pump prices frozen; diesel export levy raised to ₹11.5/l and ATF to ₹11/l, petrol export levy scrapped (31 Oct). (CONFIRMED data; REPORTED Kpler; intel IND-A1–A9, B1–B6)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-26",
    "headline": "**THE WAR REACHED INDIANS ON SAUDI SOIL.** An Indian resident killed at Dammam airport (21 Oct, per Saudi GACA; India's embassy in Riyadh confirmed the Indian death (Gulf News, 22 Oct)); 2 Indians injured there and 1 at Shaybah; the 10-Oct KKIA death earlier. MEA (22 Oct) 'strongly condemn[s]' attacks on Saudi civilian and energy infrastructure without naming the attacker. Air India/AI Express suspended Riyadh/Dammam to 7 Nov; IndiGo cancelled to 31 Oct; ~3–4k pilgrims disrupted (MEA: ~3,000 returned). At sea: ST 3 (15 Indians, 16 Oct) and Al Dasma (21 Indians, 21 Oct) hit, all safe; two Petro Dolphin seafarers still missing. Trump's 16-Oct EO waived the Russia-sanctions tariffs; Rubio (Mumbai/Jamnagar 20–21 Oct): trade deal 'very, very close', unsigned. Fuel: pump prices frozen with the basket ~$120; diesel under-recovery ~₹20/L (ICRA); diesel export levy cut to ₹8.50 (16 Oct). (CONFIRMED/REPORTED; intel IND-A11–A14, IND-B1)",

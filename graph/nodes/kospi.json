@@ -3,11 +3,11 @@
  "name": "KOSPI (Korea Composite Stock Index)",
  "type": "index",
  "created": "2026-05-12",
- "last_updated": "2026-10-26",
- "summary": "KOSPI, Day 241. 5,469 (26 Oct): −9.4% since 13 Oct and −22% in a month, after a 7.6% crash with a circuit breaker on 15 Oct on hot US CPI and AI-debt fears; foreigners sold ₩11.5trn in a week. Memory profits are at records while multiples sit at 3–3.3× forward earnings, so the selloff is about AI financing, not chip demand. ~85% non-war. The money leaving Korea did not go to India. Tests: SK hynix (28 Oct), Samsung (29 Oct), and a 5,000 floor.",
+ "last_updated": "2026-10-31",
+ "summary": "KOSPI, Day 246. Korea round-tripped on the AI cycle, not the war: SK hynix's record quarter (80% operating margin, memory sold out through 2029) lifted the index 6.6% to 6,012 on 28 Oct, and the US AI-buyer selloff (Alphabet, Amazon, Intel) took it back to 5,730.74 on 30 Oct — still +4.8% on the week but ~32% below the May record. Both memory makers guided prices up, so the graph's 'below 5,000 or memory guided down' trigger did not fire. Korea's exposure to the Gulf (energy, helium) did not show in the numbers this week; its exposure to who finances AI did.",
  "current": {
-  "price": "5,469.47 (26 Oct, −1.46%); 15 Oct 5,554.22 (−7.57%, circuit breaker); −9.4% since 13 Oct; −22.0% 1M",
-  "driver": "AI-credit + hot US CPI + foreign selling ₩11.5trn (8–15 Oct); ~15% crisis via oil→CPI→Fed"
+  "price": "5,730.74 (30 Oct)",
+  "driver": "Memory supercycle (records) vs US AI-buyer credit scare; ~0% war."
  },
  "price_snapshots": [
   {
@@ -79,7 +79,8 @@
     "fii-flows"
    ],
    "added": "2026-10-26",
-   "notes": "26 Oct close 5,469.47; memory multiples at 3.0–3.3× forward."
+   "notes": "26 Oct close 5,469.47; memory multiples at 3.0–3.3× forward.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED on either leg — lowest close in window 5,469.47 (26 Oct); SK hynix and Samsung guided memory pricing UP. (intel MAC-A11)"
   }
  ],
  "top_edges": [
@@ -126,6 +127,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "KOSPI 5,469.47 (26 Oct) → 6,012.44 (28 Oct, +6.63%, first close >6,000 since 14 Oct, on SK hynix's record) → 5,937.66 → 5,730.74 (30 Oct, −3.48%, sell-side sidecar) — +4.8% since 26 Oct. Shinhan: 'Successive earnings disappointments from big tech companies and chipmakers sparked a sell-off across the AI value chain.' Both memory makers guided prices UP, so the `kospi` trigger did not fire. Korea trades the AI buyers' financing risk, not Gulf energy, this week. (CONFIRMED closes; intel MAC-A11)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-26",
    "headline": "KOSPI −7.57% to 5,554.22 on 15 Oct (sell-sidecar 09:07, market-wide circuit breaker 12:38 for 20 minutes; first double breaker since 29 Jul) on the hot US CPI (0.6% m/m) and AI-debt fears; foreigners sold ₩3.62trn that day and ₩11.5trn over 8–15 Oct; won touched 1,353. Close 26 Oct 5,469.47 (−1.46%): −9.4% since 13 Oct, −22% in a month. Samsung ₩213,000, SK hynix ₩1,279,000 (special dividend up to ₩16trn reported). SK Securities: memory at 3.0–3.3× forward P/E 'pricing in an extreme downturn'. (CONFIRMED closes via Korea Herald/TradingKey/yfinance; markets C5)",

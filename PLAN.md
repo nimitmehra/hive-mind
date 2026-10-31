@@ -23,38 +23,60 @@
 3. [x] viewer.html — interactive graph with Cytoscape.js, click for details, search, layer layout
 4. [x] `/crisis-brief` skill definition — `.claude/commands/crisis-brief.md` + readable copy in `skills/`
 
-## Latest Run — 2026-10-26 (morning), Day 241
-- **Pipeline complete.** Six parallel desk researchers produced a consolidated `intel.md`, followed by markets, graph, brief and an independent fact-check agent. The brief was then committed and left to the background uploader to push, and finally delivered.
-- **Timing.** This is the first brief since 13 Oct, a 13-day gap. It ran ~18:19–20:00 IST and was filed as "morning" under restart practice.
-- **Lead: oil.** Dec Brent settled at a six-month high of $116.72 on 23 Oct, 23 straight settles above $100. Over the same fortnight the physical premium collapsed: the Dated gap went from ~$25 to $6–10, Oman–Dubai hit its lowest since July, and Gulf exports were near pre-war. The premium is now an event premium on post-3-Nov strike risk and Houthi strikes into Saudi Arabia's Eastern Province.
-- **US–Iran.** Trump's no-strike pledge held (no confirmed US strike since 1 Sep), while NYT, WSJ, NBC and CNN reported post-midterm plans. Iran sent no new paper and Rezaei's line held.
-- **Saudi Arabia.** The Saudi DM, Munir and Kalin began talks in Tehran on 26 Oct; no readout yet.
-- **India.** Reserves fell for a sixth week to $721bn; liquidity surplus ~₹542 cr; 10Y at 7.48%; FPI −₹48k cr in October; INR 94.38 → 95.22.
-- **Markets.** The 22-Oct AI-credit break (Meta's negative FCF) took the US 10Y below 5% for one close and gold below $4,000. TTF reached €97.
+## Latest Run — 2026-10-31 (morning), Day 246
+- **Pipeline complete.** Six parallel desk researchers produced the material for a consolidated `intel.md`. Markets, graph, brief and an independent fact-check agent followed. Everything was committed locally for the background uploader to push, then delivered.
+- **Timing.** First brief since 26 Oct, a 5-day gap. Ran ~19:19–20:40 IST on Saturday and was filed as "morning" under restart practice. All markets were last open Fri 30 Oct.
+- **Lead.** Washington is negotiating and preparing to strike at once, and both tracks point at 4 Nov.
+  - **The talks track:** Vance's letter to SNSC secretary **Mohsen** Rezaei reached Iran via Qatar on 25 Oct; receipt confirmed, no reply. Qatar held a 12-hour session in Tehran, and Iranian negotiators were in Doha.
+  - **The strike track:** Gulf allies were told to prepare for a "short, intense" post-midterm campaign. This is well-sourced REPORTED (three independent unnamed chains); "as soon as Nov 4" is single-source.
+  - **Tehran's side:** Mojtaba issued two written directives (end "neither war nor peace" on Iran's terms; an "unrestricted" response to any threat).
+- **Other items.**
+  - **Oil:** December Brent expired at $117.64 on the first successful limpet attack (Louise 1, 29 Oct). October was the worst month of the ship war (UKMTO "just over 30").
+  - **Houthis:** kept firing at Riyadh after the Tehran meeting. Ras Tanura had a fire with a claimed but unestablished hit.
+  - **India:** a strong week carried by the Fed and the RBI. The IMF said "the rupee should be the first line of defense"; the forward book is $200bn short.
+  - **AI credit:** deepened (Alphabet's second negative-FCF quarter, Amazon). The US 10Y is at 4.94%.
+  - **Gas:** TTF crossed €100.
+  - **Israel:** hung result, 53/48/19.
 - **Graph.**
-  - All 63 nodes were updated; 73 signals added; all 63 summaries refreshed in a staleness sweep (many dated from June).
-  - Edges went 411 → 413: new edges `semiconductors→us-10y-yield` 4.0 and `qatar→cheniere-energy` 6.0, plus 8 re-weights.
-  - Triggers: 181 reviewed, 77 changed (10 substantive, 67 housekeeping), 12 new dated watches.
-- **Fact-check.** 23 flags (1 CRITICAL, 5 HIGH, 17 LOW), with 22 applied. The CRITICAL flag reverted the `houthis` holy-city trigger to watching: the "Makkah/Madinah regions" are provinces and the Houthis claimed Rabigh and Yanbu. This repeats the 13-Oct failure, and a stricter rewrite of that trigger is proposed in its node.
+  - All 63 nodes touched: 72 signals, 26 summaries rewritten, 4 snapshots.
+  - Edges stay at 413. Four were re-weighted: `brent→10Y` 7→6, `semis→10Y` 4→5, `qatar→cheniere` 6→6.5, `TTF→ecb` 7.5→8.
+  - All 131 open triggers were reviewed and 10 changed. Fired: the hyperscaler capex>OCF trigger, and TTF €100 on two nodes.
+  - **The Ras Tanura trigger was deliberately NOT fired.** It was REPORTED only, and the fact-check later showed the refinery was already damaged in March.
+  - 11 new dated watches.
+- **Fact-check.** 28 flags (0 critical, 9 high, 19 low), all applied, plus 6 graph corrections. Highs:
+  - "Ali" Rezaei → Mohsen;
+  - "Confirmed" Gulf warning → well-sourced REPORTED;
+  - Ras Tanura "hit" → fire;
+  - "best week of the autumn" was false;
+  - reserves fall was on gold valuation;
+  - IOC warning misframed;
+  - Alphabet's FCF was already negative in Q2;
+  - gap correction reworded to "re-widened";
+  - Patriot "moved into Israel" → "moving to the region".
 - **Process notes.**
-  - **(1)** The background uploader (`~/.claude/brief-delivery`, hive-mind `ready: verification`) auto-commits and pushes `briefs/` once a `*verif*` file appears. Write fact-check drafts to staging and move them into `briefs/` only after corrections are applied, or the uncorrected draft gets published.
-  - **(2)** Per the global CLAUDE.md, the session commits locally and the uploader pushes (`push_any_committed`). The skill's Step 6 `git push` is superseded.
-  - **(3)** `edges.json` has 24 duplicate from→to pairs. A dedupe pass is needed in a separate session, as a code change needing approval.
-  - **(4)** `check_node_budgets.py` fails for nearly every node (pre-existing; summaries and signals are far over the 2k-token budget). Compression needs its own session.
-  - **(5)** The architect hook still blocks `scripts/update_graph_*.py`, so helpers live in `staging/<run>/gu_*.py` (gitignored).
-  - **(6)** Sections I–III ran ~3.2k words, down from ~3.8k but still over the 5-minute target.
+  - **(1)** The Chief of Station stamped files with guessed times (~23:00 IST) instead of running `date`. The fact-checker copied the anchor. **Run `date` before writing any "Generated" line.**
+  - **(2)** Do not fill officials' first names from memory: "Ali" Rezaei was introduced by the Chief of Station, not a desk.
+  - **(3)** Before treating satellite "damage" as new, check the site's prior strike history in the graph and backfill research. Ras Tanura was hit on 2 Mar.
+  - **(4)** The uploader race is still handled: the verifier writes to staging, corrections are applied, then the report is copied into `briefs/`.
+  - **(5)** Carried over: `edges.json` has 24 duplicate from→to pairs (27 surplus records; `TTF→ecb` exists at 10 and 8.0). This needs a dedupe session. The brief footer now discloses it.
+  - **(6)** Carried over: node budgets far over 2k tokens.
+  - **(7)** Sections I–III ran ~3.4k words after corrections. Still over the 5-minute target.
+  - **(8)** Carried over: the architect hook blocks `scripts/update_graph_*.py`, so helpers live in `staging/<run>/gu_*.py`.
 - **Dated tells.**
-  - 27 Oct: Israel votes; Pezeshkian meets Putin.
-  - 28 Oct: FOMC; MSFT/GOOGL; SK hynix; Jio listing.
-  - 29 Oct: ECB; AMZN; Samsung.
-  - 30 Oct: Brent Dec expiry; India reserves.
-  - 1 Nov: OPEC+.
-  - 3 Nov: midterms.
-  - 4–30 Nov: post-pledge window.
-  - 9 Nov: Tehran readout and the Houthi tempo test.
-  - 12 Nov: India CPI.
+  - 1 Nov: OPEC+ (hold expected); NSDL October FPI.
+  - 2 Nov: India opens into the US tech rout; Reliance Q2 reaction.
+  - 3 Nov: midterms; the pledge expires.
+  - 4 Nov: earliest reported strike date; Israeli results to Herzog; EZ flash HICP.
+  - ~5 Nov: Aramco December OSP.
+  - 6 Nov: India reserves (first intervention week); US payrolls.
+  - 9 Nov: Tehran-text and Houthi tempo tests.
+  - 11 Nov: Israeli mandate.
+  - 12 Nov: India CPI (>6% expected).
+  - Late Nov: Roosevelt arrives.
+  - 29 Nov: OPEC+.
   - 4 Dec: RBI.
   - 9 Dec: FOMC.
+  - 17 Dec: ECB.
 
 ---
 

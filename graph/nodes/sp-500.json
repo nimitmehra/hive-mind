@@ -3,12 +3,12 @@
  "name": "S&P 500",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-10-26",
+ "last_updated": "2026-10-31",
  "summary": "S&P 500, Day 241. 7,623.68 (23 Oct), −2.3% since 13 Oct and −2.5% from the 6-Oct record; Nasdaq −4.6%. The drivers are ~90% non-war: Meta's first negative free cash flow in over a decade, CoreWeave's credit stress and an eight-day chip losing streak, plus a hot September CPI. Defence primes and energy rose. An AI-credit correction, not a war selloff; this week's MSFT/GOOGL/AMZN prints decide whether it broadens.",
  "current": {
-  "price": "S&P 7,623.68; Nasdaq 25,955.34; Dow 52,215.16 (23 Oct)",
-  "driver": "AI-credit unwind (~90%); war a minor contributor",
-  "regime": "AI-CREDIT CORRECTION, NOT A WAR SELLOFF (26 Oct)."
+  "price": "7,580.07 (30 Oct)",
+  "driver": "AI-buyer financing shock (Alphabet, Amazon) + Intel; war only via energy (+) and Fed pricing (−).",
+  "regime": "AI-credit-led drawdown (−3.1% from record), not war-led."
  },
  "active_triggers": [
   {
@@ -36,7 +36,8 @@
    "added": "2026-03-23",
    "note_2026-06-10": "STAYS watching. S&P 7,386.65 (Jun 9) only ~-3-4% off its high — far from a -20% bear market. The chip-rotation pullback is shallow and not a war risk-off.",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — at/near records.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — Nasdaq at a record; S&P +3.9% 3M.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — −2.5% from record."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — −2.5% from record.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — −3.1% from the 6-Oct record."
   },
   {
    "condition": "VIX cash breaks above 22 on Wednesday ceasefire lapse (binary escalation-hedging threshold)",
@@ -128,6 +129,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "S&P 500 7,580.07 (30 Oct; −1.8% on the day, −1.3% since 26 Oct, −3.1% from the 6-Oct record); Nasdaq 25,437.00 (−2.9% Fri; October −5.3%, worst month since March 2025); Nasdaq-100 −3.5% Fri; Dow 51,770.31. Drivers ~95% non-war: Alphabet's record fall (29 Oct), Intel −28.6% and SOX −7.2% (30 Oct), Amazon's cash burn; Anthropic's IPO filing (26 Oct) lifted tech early in the week. Energy was the only sector up on Friday (+1.9%); 29 Oct equal-weight +1.2% vs cap-weight −0.3% (rotation, not liquidation). (CONFIRMED closes; markets C3, intel MAC-A10)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-26",
    "headline": "S&P 500 7,805.45 (13 Oct) → 7,623.68 (23 Oct, −2.3%; −2.5% from the 6-Oct record); Nasdaq −4.6% (−6.0% from record); Dow +1.1%. Drivers ~90% non-war: Meta/AI capex (22 Oct), CoreWeave credit, hot CPI; Lockheed (+19.9%) and Northrop (+14.6%) beats; energy up with oil. Yardeni cut his S&P target to 7,900. (CONFIRMED; markets A/C3/D)",

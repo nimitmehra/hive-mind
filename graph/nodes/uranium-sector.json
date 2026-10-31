@@ -3,14 +3,14 @@
  "name": "Uranium Sector",
  "type": "sector",
  "created": "2026-04-23",
- "last_updated": "2026-10-26",
+ "last_updated": "2026-10-31",
  "summary": "Uranium sector, Day 241. URA $34.11 (−8.7% since 13 Oct), falling with the AI-power trade rather than on the war. No strike on Iran's enrichment complex; Russia's HEU-custodian route blocked by Iran.",
  "current": {
-  "price_proxy": "URA $34.11 (23 Oct)",
-  "delta_1d": "+0.1%",
+  "price_proxy": "URA $33.73 (30 Oct)",
+  "delta_1d": "−5.6%",
   "delta_1m": "−16.5%",
   "delta_3m": "−14.5%",
-  "note": "AI-power unwind; no enrichment strike."
+  "note": "Trades the AI-power complex, not Iran."
  },
  "active_triggers": [
   {
@@ -24,7 +24,8 @@
     "brent-crude"
    ],
    "added": "2026-04-23",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "URA breaks $62 sustained for 3 sessions (above 1M peak +25% from baseline)",
@@ -35,7 +36,8 @@
    ],
    "added": "2026-04-23",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — $37.72.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "Russia formally named as HEU custodian for Iran transfer under any framework agreement within 30 days (by 2026-06-11)",
@@ -112,6 +114,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "URA $33.73 (−5.6% on 30 Oct with the AI-power selloff; −1.8% since 26 Oct). Nuclear-side news: Rosatom raising Bushehr staffing to 200; AEOI says a Russia–Iran SMR deal is being finalised (28 Oct); IAEA: no reconstruction at Iran's bombed sites. No strike on an enrichment facility. Cameco spot ~$90/lb mid-Oct (no late print). (CONFIRMED price; intel KIN-A8, MAC-A17)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-26",
    "headline": "URA $37.38 (13 Oct) → $34.11 (23 Oct, −8.7%) with the AI-power trade unwinding alongside the SOX; no nuclear-facility strike; Russia's HEU-custodian route blocked by Rezaei (20 Oct). (CONFIRMED; markets A)",

@@ -3,11 +3,11 @@
  "name": "Semiconductors (SMH/SOX)",
  "type": "sector",
  "created": "2026-04-25",
- "last_updated": "2026-10-26",
- "summary": "Semiconductors / the AI complex, Day 241. The non-war shock now dominates Asian equity flows and has become a credit story. The chip index fell nearly 12% in the fortnight to 23 Oct — an eight-session losing streak (the longest since 2008), a KOSPI circuit breaker on 15 Oct, and on 22 Oct a 6.7% drop when Meta reported its first negative free cash flow in over a decade as capex outran operating cash. CoreWeave's bonds yield above 15% and its stock is down 30%; Meta's default-swap spread hit a record. Fundamentals at the fabs are strong (TSMC beat and guided Q4 up 14%; Samsung's preliminary operating profit ~₩107trn), so the selloff is about who pays for the AI build-out, not chip demand. The market link to the war is mostly through the Fed (hot CPI); the link to India is that money leaving Korea and US tech did not come to India. Tests this week: whether Microsoft, Alphabet or Amazon also show capex above operating cash flow (28–29 Oct), and SK hynix/Samsung guidance.",
+ "last_updated": "2026-10-31",
+ "summary": "Semiconductors / AI complex, Day 246. The AI-credit scare — which began when Alphabet's free cash flow first turned negative in Q2 (−$5.9bn, reported 23 Jul, a first in its public history) and spread to Meta on 21–22 Oct — deepened and broadened in Q3: Alphabet's Q3 capex exceeded its operating cash by $9bn (its second straight negative quarter) (shares −12.6%, the worst day in its history) and Amazon's by roughly $33bn, financed with $48bn of new debt; Microsoft stayed cash-positive but sold its first bond since 2017. Intel's guide-down then took the SOX down 7.2% on 30 Oct. Suppliers are the mirror image — SK hynix and Samsung printed record quarters and guided memory prices up. The market's question has moved from 'is AI demand real?' to 'who funds it?', and the answer is increasingly the bond market. For the war graph this matters because AI credit, not oil, has twice set US long yields this month (semiconductors → us-10y-yield raised to 5.0), and because AI risk-off has not sent money to India. Next tests: Q4 calls (late Jan–Feb 2027) for any 2027 capex cut.",
  "current": {
-  "price": "SOX 10,779.46 (23 Oct, −11.7% since 13 Oct; >26% below 22-Jun record); SMH $527.20",
-  "driver": "AI capex vs cash flow (Meta negative FCF), CoreWeave credit, hot US CPI"
+  "price": "SOX 10,688.80 (30 Oct, −7.2%); SMH $522.49",
+  "driver": "Buyers of AI (Alphabet, Amazon, Meta) now spend more than they earn in cash and borrow to fund it; suppliers (SK hynix, Samsung) print records. Credit, not demand, is the market's worry."
  },
  "active_triggers": [
   {
@@ -34,7 +34,8 @@
    "added": "2026-04-30",
    "note_2026-06-10": "STAYS watching. No hyperscaler FCF print this window.",
    "status_changed": "2026-10-26",
-   "note_2026-10-26": "[watching → resolved] Q2 window passed; the thesis was confirmed in Q3 by Meta's −$2.12bn free cash flow (Meta's 21-Oct release — CONFIRMED). Replaced by a new watch for the 28–29 Oct prints."
+   "note_2026-10-26": "[watching → resolved] Q2 window passed; the thesis was confirmed in Q3 by Meta's −$2.12bn free cash flow (Meta's 21-Oct release — CONFIRMED). Replaced by a new watch for the 28–29 Oct prints.",
+   "note_2026-10-31": "[correction, stays resolved] Correction 31 Oct (fact-check flag 8): Alphabet's Q2 2026 free cash flow was already negative (−$5.86bn: OCF $39.07bn vs capex $44.92bn; reported 23 Jul, first negative quarter in its public history). The thesis was confirmed in Q2 by Alphabet, not first by Meta in Q3 as the 26-Oct note said."
   },
   {
    "condition": "SOX 16-day consecutive-up streak breaks (any single down session)",
@@ -52,7 +53,7 @@
   },
   {
    "condition": "A second hyperscaler (Microsoft or Alphabet 28 Oct; Amazon 29 Oct) reports quarterly capex above operating cash flow (negative FCF) — the AI-credit shock broadens beyond Meta",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "semiconductors",
     "sp-500",
@@ -61,7 +62,24 @@
     "fii-flows"
    ],
    "added": "2026-10-26",
-   "notes": "Meta 22 Oct: OCF $32.79bn vs capex $34.9bn (REPORTED via CNBC/Fortune). Hyperscaler capex running near $800bn/yr."
+   "notes": "Meta 22 Oct: OCF $32.79bn vs capex $34.9bn (REPORTED via CNBC/Fortune). Hyperscaler capex running near $800bn/yr.",
+   "status_changed": "2026-10-31",
+   "note_2026-10-31": "[watching → fired] FIRED: Alphabet (Q3 FCF −$9.07bn, 28 Oct) and Amazon (Q3 capex ~$77bn vs OCF ~$42bn, 29 Oct) — company filings (Alphabet 8-K on EDGAR; Amazon release). Microsoft did not (FCF +$18.6bn). (intel MAC-A9)",
+   "note_2026-10-31b": "Sequence note (fact-check): 'broadens beyond Meta' had the order backwards — Alphabet was first negative in Q2; Q3 made it Alphabet (second straight), Meta and Amazon. The fire stands on the literal condition."
+  },
+  {
+   "condition": "A hyperscaler (Microsoft, Alphabet, Amazon, Meta) CUTS 2027 capex guidance on its Q4 call (late Jan–early Feb 2027), OR the AI-basket CDS spread over CDX.IG widens beyond 100bp — the AI-credit shock turns into an AI-capex retrenchment",
+   "status": "watching",
+   "cascade": [
+    "semiconductors",
+    "sk-hynix",
+    "samsung",
+    "kospi",
+    "us-10y-yield",
+    "sp-500"
+   ],
+   "added": "2026-10-31",
+   "notes": "Alphabet guides 2027 capex to 'increase significantly', Amazon 'meaningfully more'; SK hynix: DRAM/HBM sold out through 2029. Barclays: AI basket at ~76bp over CDX.IG vs ~10bp six months ago (REPORTED, secondary). (intel MAC-A9/A11/C)"
   }
  ],
  "top_edges": [
@@ -86,9 +104,9 @@
    "type": "sector_component_systemic_risk_transmitter_ai_rotation_chip_tape_drives_nasdaq",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-26",
+   "last_activated": "2026-10-31",
    "activation_count": 7,
-   "context": "CONFIRMED: Nasdaq −4.6%, S&P −2.3% since 13 Oct led by SOX/Meta. At cap; activation logged."
+   "context": "2026-10-31: activation — Alphabet/Intel/Amazon drove S&P −1.8% on 30 Oct. (intel MAC-A10)"
   },
   {
    "to": "vix",
@@ -127,6 +145,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "**THE AI-CREDIT TRIGGER FIRED TWICE.** Alphabet Q3 (28 Oct, 8-K): operating cash flow $42.29bn vs capex $51.36bn → FCF −$9.07bn (incl. a $5.2bn EC fine; ex-fine ≈ −$3.9bn); 2027 capex to 'increase significantly'; shares −12.64% on 29 Oct ($283.82), the worst day in its history; 5Y CDS ~84bp (REPORTED). Amazon Q3 (29 Oct): OCF $42.42bn vs gross capex $77.26bn → quarterly FCF ≈ −$33.5bn (TTM −$42.4bn); $48.1bn of long-term debt issued in the quarter; 2026 cash capex ~$220bn. Microsoft stayed FCF-positive (+$18.6bn) then sold $25bn of bonds (29 Oct; first since 2017; $100–115bn of orders). Intel −28.6% on a Q4 guide (30 Oct); SOX −7.2% to 10,688.80; SMH −7.0%; Nvidia −4.2%. Meanwhile suppliers printed records (SK hynix 80% margin; Samsung first >KRW100trn quarter). The 10Y fell 11bp over the two days. (CONFIRMED company filings + exchange data; intel MAC-A9/A10/A11)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-26",
    "headline": "**THE AI COMPLEX CRACKED INTO CREDIT.** SOX 12,208.79 (13 Oct) → 10,779.46 (23 Oct, −11.7%); SMH −10.4%. 16 Oct: SOX's 8th straight loss, longest since 2008; tech lost >$1trn (NBC). 22 Oct: Meta Q3 operating cash flow $32.79bn vs capex $34.9bn = free cash flow −$2.12bn, first negative in over a decade (Meta's own 21-Oct release: OCF $32.79bn, FCF −$2.12bn — CONFIRMED; 'first since 2012' framing per CNBC); FY capex guide $135–145bn; Meta −7.0%, CDS record; SOX −6.7%; Intel/AMD/Sandisk/Marvell >−8%. CoreWeave 2030s >15% yield (14 Oct), stock −30%. TSMC beat (Q3 US$46.7bn; Q4 guide $52.3–54.3bn) but slipped on margins. Non-war ~90%. Ahead: MSFT/GOOGL 28 Oct, AMZN 29 Oct, SK hynix 28 Oct, Samsung 29 Oct. (CONFIRMED prices and Meta FCF; markets C3/C5, intel MAC-A12)",

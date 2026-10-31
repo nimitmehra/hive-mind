@@ -3,10 +3,10 @@
  "name": "Helium",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-10-26",
+ "last_updated": "2026-10-31",
  "summary": "Helium, Day 241. The supply shock is visible in price and policy but not yet in fabs. Spot has 'roughly tripled' (CBS, 18 Oct, citing a former Air Liquide executive) and the US DOE designated helium a critical material on 23 Oct; Qatar's LNG collapse keeps by-product helium impaired. No Tier-1 fab has announced a cut or allocation. The graph's buffer clock (Korean fabs' ~6-month stockpile, which made Q4 2026 the danger zone) is now running inside its window — the next tell is an allocation notice or a fab cut.",
  "current": {
-  "status": "Spot ~3× (CBS, 18 Oct); DOE critical material (23 Oct); no fab cut; Q4 buffer clock live."
+  "status": "No price print; DOE critical material; no fab cut; Qatar force majeure to end-Dec (helium co-product). Buffer clock running (Q4 2026), no bite yet."
  },
  "active_triggers": [
   {
@@ -24,7 +24,8 @@
    "note": "FORWARD trigger (markets dossier E1). The supply shock is ALREADY active (~1/3 of global helium offline, spot ~2x pre-war / projected up to ~$2,000/Mcf) but the cascade is BUFFERED by Korean chipmakers' ~6-month helium stockpile + long-term contracts. This trigger marks WHEN the lagged cascade goes live: the re-emergence horizon is ~Nov 2026 (stockpile exhaustion) — if the blockade/war runs past it, the buffer empties just as the AI cycle is most extended (its peak-vulnerability window). The non-confirmation (semis melting up to records despite ~1/3 of helium offline) DATES this cascade to ~Nov 2026; it does not disprove it. Do NOT confuse with the live 'production halt' trigger below — this one is time-conditional on blockade duration vs the ~Nov-2026 stockpile horizon, not on a single fab announcement.",
    "note_2026-05-28": "RE-EMERGENCE HORIZON NOW DATED ~NOV 2026 (Korean ~6-month stockpile exhaustion). Falsifiable: June HBM4 supply ramp executing + spot helium retracing by H2 2026 = buffer holding, horizon pushes out / trigger recedes; a confirmed Tier-1 helium-driven production cut before then = cascade goes live early.",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — Q4 clock running; Qatar LNG (helium by-product) collapsing in October; no fab cut yet.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — record Korean exports say not yet; Q4 clock continues.",
-   "note_2026-10-26": "[reviewed, stays watching] IN WINDOW — the war has run into Q4; spot ~3× and a DOE critical-material designation, but no fab cut confirmed. Stays watching."
+   "note_2026-10-26": "[reviewed, stays watching] IN WINDOW — the war has run into Q4; spot ~3× and a DOE critical-material designation, but no fab cut confirmed. Stays watching.",
+   "note_2026-10-31": "[reviewed, stays watching] IN WINDOW, NOT FIRED — no fab cut or allocation notice; Q3 calls silent on helium."
   },
   {
    "condition": "Intel / TSMC / Samsung formally issue Q2 helium allocation notice to downstream customers",
@@ -47,7 +48,8 @@
    ],
    "added": "2026-04-30",
    "note": "FALSIFIED as of May 8 — Linde flat (-0.1% 1D, -2.0% 1M); BASF only +1.5%; chip customers on long-term contracts not spot.",
-   "note_2026-10-26": "[reviewed, stays watching] Linde $508.83 (+3.4% since 13 Oct) — consistent; no pricing disclosure."
+   "note_2026-10-26": "[reviewed, stays watching] Linde $508.83 (+3.4% since 13 Oct) — consistent; no pricing disclosure.",
+   "note_2026-10-31": "[reviewed, stays watching] Holding weakly — Linde +1.3%, BASF +2.3% since 26 Oct; no helium-specific attribution."
   },
   {
    "condition": "Samsung or SK hynix announces production halt due to helium shortage by mid-June (within 5-6 weeks of 2026-05-09)",
@@ -78,7 +80,8 @@
    ],
    "added": "2026-05-14",
    "note": "Per markets dossier E proposed trigger: 'First Tier-1 fab announces helium-driven production cut' would cascade to kospi, taiwan-taiex, semiconductors, india-pharma (cryo-helium for MRI/labs). Lower threshold than full halt — confirmed production cut from fab itself (not analyst inference). Day 73 since Ras Laffan halt March 2; SK hynix's 'diversified supplies' line is the contradicting signal. Time-sensitive — May 16-23 window.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED."
   }
  ],
  "top_edges": [
@@ -117,6 +120,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "No new helium price print in the window; the DOE critical-material designation (signed 21 Oct, announced 23 Oct) stands; vendor pages cite spot $1,000–1,200/mcf vs contract $500–550 (undated, low reliability). No Tier-1 fab announced a helium cut; neither SK hynix nor Samsung mentioned helium on their Q3 calls; Qatar's LNG (and associated helium) output ~one-fifth of pre-war with force majeure extended to end-December. The Q4 buffer-depletion clock keeps running without evidence of bite. Linde +1.3% since 26 Oct. (REPORTED/absence; intel MAC-A17, SAU-A12)",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-10-26",
    "headline": "Helium: spot prices have 'roughly tripled' (CBS 60 Minutes, 18 Oct, citing a former Air Liquide executive); the US DOE designated helium a critical material on 23 Oct. Qatar's LNG collapse (~0.6 Mt/month) keeps by-product helium supply impaired. Still no Tier-1 fab cut or allocation notice; no price-index print. The graph's Q4 buffer-depletion clock (~6-month Korean stockpile) is now in its window. (REPORTED; intel MAC-A11)",

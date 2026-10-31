@@ -3,10 +3,10 @@
  "name": "Israel",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-26",
- "summary": "Israel, Day 241. Israel votes on 27 Oct with no mainstream poll giving Netanyahu's bloc the 61 seats it needs (final polls 48–50; only Channel 14 and i24 near a majority). On Iran, the fortnight's story was who stopped whom: the FT says a multi-day campaign was readied for about 10 Oct and Trump blocked it; Channel 12 says the IDF chief demanded written authorisation for a Netanyahu directive; CNN says Trump refused a pre-vote joint strike and promised joint action 'soon'. All anonymous and denied. A strike-shaped IAF flight to Iran's border on 19 Oct, Hegseth at Ovda, and NYT reporting of a ~3-day joint plan for after the US midterms make 4–30 Nov the window. Trump has endorsed Netanyahu twice. Lebanon remains one-sided attrition; no Iranian or Houthi fire at Israel in the window.",
+ "last_updated": "2026-10-31",
+ "summary": "Israel, Day 246. The 27-Oct election produced no majority — Netanyahu's bloc 53, the Eisenkot-led opposition 48 and a record 19 for the Arab parties — and the polls the graph relied on missed by three to five seats in Netanyahu's favour. Herzog gets the results on 4 Nov and must assign a mandate by 11 Nov; Fitch expects a dissolution in January and another election in April. The practical effect is that Netanyahu remains caretaker prime minister through the whole 4–30 Nov window in which US strikes are being prepared; his election-night message was a 'once-in-a-lifetime opportunity' with Trump to remove the Iranian threat, and he is reported to be lobbying for a joint operation right after the US vote. US cargo jets and a Patriot battery are reportedly arriving. There was no Israel–Iran fire in the window and no Hezbollah or Houthi fire at Israel. The post-vote domestic story is a legitimacy fight ('stolen' claims, a Shin Bet interference probe), not Iran.",
  "current": {
-  "status": "ELECTION EVE, STRIKE HELD (26 Oct): no Israel–Iran exchange in the window; FT/Ch12/CNN say Netanyahu pushed and Trump/Zamir restrained (REPORTED, denied); post-3-Nov joint plan reported; bloc 48–50 in mainstream polls."
+  "status": "Hung Knesset (53/48/19); caretaker Netanyahu through the US strike window; no Israel–Iran exchange 26–31 Oct; US airlift and a Patriot battery reportedly arriving."
  },
  "active_triggers": [
   {
@@ -40,7 +40,8 @@
    ],
    "added": "2026-03-23",
    "notes": "REVIEWED 2026-09-22 — STAYS WATCHING — no.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — nothing.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — nothing.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "Channel 12/13 or Haaretz publishes IDF imminent-strike preparation on Iran track within 72 hours",
@@ -54,7 +55,8 @@
    ],
    "added": "2026-04-22",
    "notes": "REVIEWED 2026-10-13 — NEAR-MISS, NOT RE-FIRED: the 8-Oct Channel 12 report describes a US instruction to prepare within three weeks, contradicted by the President the same day; Haaretz (10 Oct) has the IDF arguing for delay.\n[prior] REVIEWED 2026-09-22 — REMAINS ACTIVE (carried) — NOT met this window: no such report 17–21 Sep; Washington, not Jerusalem, is the decision node.\n[prior] REVIEWED 2026-09-17 — REMAINS ACTIVE (historical) — NOT acted on; Israel stayed out of the Sept US–Iran cycles; the Germany meeting is coordination",
-   "note_2026-10-26": "[reviewed, stays active] Stays active (standing trigger). Channel 12 (25 Oct) reported a Netanyahu directive and Zamir's demand for authorisation — a command dispute, not an IDF imminent-strike preparation report; denied by Katz."
+   "note_2026-10-26": "[reviewed, stays active] Stays active (standing trigger). Channel 12 (25 Oct) reported a Netanyahu directive and Zamir's demand for authorisation — a command dispute, not an IDF imminent-strike preparation report; denied by Katz.",
+   "note_2026-10-31": "[reviewed, stays active] STAYS ACTIVE (status of record). Kan (not 12/13/Haaretz) carried the airlift and 'preparing for any decision'."
   },
   {
    "condition": "Second IDF KIA in southern Lebanon during the 45-day ceasefire extension window (by ~2026-06-29) — would test Pentagon-track-May29 architecture",
@@ -111,11 +113,13 @@
   },
   {
    "condition": "Israeli unilateral strike on Iranian territory before the 27 Oct election",
-   "status": "watching",
+   "status": "expired",
    "cascade": "Caspit's US-request scenario; would collapse the US pledged quiet and invite Iranian fire at Israel (Zamir's warning).",
    "added": "2026-10-13",
    "notes": "Added 2026-10-13. Low probability (Trump pledge; IDF line via Haaretz).",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED as of 26 Oct; resolves with tomorrow's vote. Katz (26 Oct): no intention to attack before the election."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED as of 26 Oct; resolves with tomorrow's vote. Katz (26 Oct): no intention to attack before the election.",
+   "status_changed": "2026-10-31",
+   "note_2026-10-31": "[watching → expired] RESOLVED UNFIRED: no Israel–Iran exchange of fire through and after the 27-Oct vote. (intel ISR-A3, DIP-B4)"
   },
   {
    "condition": "27 Oct election: any bloc reaches 61 seats, OR Herzog's consultations begin by ~5 Nov without a 61 path (repeat-election risk)",
@@ -123,7 +127,8 @@
    "cascade": "Government formation determines whether Jerusalem pushes the post-3-Nov US strike decision.",
    "added": "2026-10-13",
    "notes": "Added 2026-10-13.",
-   "note_2026-10-26": "[reviewed, stays watching] PENDING — vote 27 Oct; mainstream final polls 48–50 for Netanyahu's bloc."
+   "note_2026-10-26": "[reviewed, stays watching] PENDING — vote 27 Oct; mainstream final polls 48–50 for Netanyahu's bloc.",
+   "note_2026-10-31": "[reviewed, stays watching] Leg 1 NOT MET (CONFIRMED: 53/48/19, no bloc at 61). Leg 2 pending: certification to Herzog 4 Nov, consultations after; a 61 path is not visible (Liberman the swing; Eisenkot rules out serving with Netanyahu). Likely to fire on the second leg ~5 Nov. (intel ISR-A1)"
   }
  ],
  "top_edges": [
@@ -172,6 +177,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "**THE 27-OCT ELECTION SETTLED NOTHING — AND THE POLLS MISSED.** CEC final (30 Oct): Netanyahu bloc 53 (Likud 27, Otzma 7, UTJ 7, RZ–Zehut 6, Shas 6), opposition 48 (Yashar/Eisenkot 21, Bennett 12, Democrats 8, Yisrael Beytenu 7), Arab parties a record 19 (Joint List 11, Ra'am 8). Mainstream final polls had the bloc at 48–50 and Likud at 19–21 — a 3–5 seat miss on the bloc. Turnout ~78%, highest since 1999. Results to Herzog by 4 Nov; Knesset sworn 10 Nov; mandate by 11 Nov. Fitch: dissolution in early January and an election in early April 'the most likely scenario'. Likud claims the vote was 'stolen by Arab parties'; police: 'no supporting evidence'; CEC chair asked the Shin Bet to probe foreign interference. Netanyahu stays caretaker PM through the 4–30 Nov window; election-night: 'a historic, once-in-a-lifetime opportunity, together with our partner President Trump… to remove this threat once and for all'; reported (Axios, Fox) lobbying for a joint operation right after 3 Nov. No Israel–Iran exchange 26–31 Oct. Kan: 10+ US cargo jets at Ovda/Nevatim; an Israeli official: 'preparing for any decision President Trump makes'. Tel Aviv stocks fell and the shekel slid on the result (Ynet). (CONFIRMED count; REPORTED lobbying/airlift; intel ISR-A1–A4, B2, DIP-B4)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-26",
    "headline": "**ISRAEL VOTES TUE 27 OCT WITH NO MAINSTREAM POLL AT 61.** Final polls (23 Oct): Netanyahu bloc 50 (Channel 12 Midgam, Channel 13, Kan), 48 (Maariv); only i24 (59) and Channel 14 (60–62) near a majority. Trump endorsed Netanyahu 18 Oct ('If Israel has the wrong Leader… America will have to do this work ourselves, and I am not inclined to do so') and 25 Oct. Exit polls ~01:30 IST 28 Oct. Ynet analysts' top scenario: another election, possibly 2027. (CONFIRMED poll numbers; intel ISR-A4/B2)",

@@ -3,10 +3,10 @@
  "name": "JD Vance",
  "type": "person",
  "created": "2026-04-11",
- "last_updated": "2026-10-26",
- "summary": "Vance, Day 241. The administration's softer voice on substance: on 17 Oct he asked for a 'long-term, verifiable commitment' that Iran will not rebuild enrichment — read as a step back from demanding present-capacity cuts — while saying the US has 'won decisively' and gas prices are 'too high'. No framework or deal announced.",
+ "last_updated": "2026-10-31",
+ "summary": "JD Vance, Day 246. The vice president has become the administration's channel to Tehran. His letter to SNSC secretary Rezaei, delivered by Qatar on 25 Oct and confirmed received by Iran on 29 Oct, reportedly proposes direct talks led by Vance, puts the nuclear file on the table from the outset and offers an in-person meeting in Istanbul or Doha; Iranian officials called its tone 'markedly softer and more respectful' and the foreign minister 'a positive step', but no reply had been sent by 31 Oct and Iran denies any plan to meet US officials. Trump publicly downplays it. Axios reports Vance, Witkoff and Kushner arguing for talks against Hegseth and Rubio. His public line is that Trump will 'never' let this become 'a forever war'. The test is whether Tehran answers in writing, or meets him, before the 4–30 Nov strike window.",
  "current": {
-  "status": "'First phase is done… much different phase in a couple of months' (NY Post, 15 Sep). Cut-contact stance (3 Sep) not revisited."
+  "status": "Lead US interlocutor-in-waiting: letter to Rezaei (25 Oct), offer of an in-person meeting (WaPo); no reply yet."
  },
  "active_triggers": [
   {
@@ -21,7 +21,8 @@
    ],
    "added": "2026-04-11",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no framework/deal; enrichment ask softened in public (6 Oct).",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — a letter is not a framework."
   },
   {
    "condition": "Vance publicly breaks with Trump on Iran policy",
@@ -43,7 +44,8 @@
     "hezbollah",
     "iran"
    ],
-   "added": "2026-04-11"
+   "added": "2026-04-11",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED."
   }
  ],
  "top_edges": [
@@ -60,8 +62,9 @@
    "type": "lead_negotiator_with_softer_public_tone",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-05-14",
-   "activation_count": 3
+   "last_activated": "2026-10-31",
+   "activation_count": 3,
+   "context": "2026-10-31: activation — Vance's letter to Rezaei via Qatar; receipt confirmed 29 Oct; no reply. (intel DIP-A2)"
   },
   {
    "to": "united-states",
@@ -90,6 +93,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "**VANCE OPENED A WRITTEN CHANNEL TO REZAEI.** Letter delivered by Qatar Sun 25 Oct (NYT); WSJ (28 Oct): written 'at Trump's direction' (one source) to test whether there is 'enough common ground' to dissuade Trump from a short, intense attack; WaPo (29 Oct): offered to meet Rezaei in person in Istanbul or Doha, said the US goal is to stop an Iranian bomb, acknowledged Iran's interest in rebuilding its economy and sovereignty, asked Iran to name negotiators authorised on the nuclear file; Iranian leaders saw it 'as a sign of respect'. Vance's office declined comment. Iran confirmed receipt (29 Oct), no reply. On Fox (29 Oct): Trump 'is never going to let this be a forever war'. Axios: Vance, Witkoff and Kushner favour talks; Hegseth and Rubio favour strikes (one official; Rubio previously denied a split). (Letter CONFIRMED; contents REPORTED; intel DIP-A2/A8)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-26",
    "headline": "Vance (CBS town hall, 17 Oct): 'Have we destroyed the Iranian nuclear program? The answer is yes'; wants a 'long-term, but also verifiable commitment that they're not going to rebuild' — read by Al Jazeera as softer than the 6-Oct 'meaningful' present-capacity cut; 'the enemy gets a vote'; 'gas prices are too high'. A claimed 21-Oct Vance–Reuters line traced back to 6 Oct — treated as recycled. (CONFIRMED quotes; RHETORIC; intel DIP-A5)",

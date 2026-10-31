@@ -3,13 +3,13 @@
  "name": "Qatar",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-26",
- "summary": "Qatar, Day 241. Mediator, casualty and now a buyer of American gas. Its LNG exports are still collapsed (~0.6 Mt in October, force majeure monthly), which is the main driver of Europe's €97 gas; on 22 Oct QatarEnergy signed to buy up to 4 Mtpa of US LNG from Cheniere to 2054 — a hedge against Ras Laffan. Qatari mediators were in Tehran on 25 Oct 'in coordination with Washington' (Reuters, one official), and Doha keeps its contacts out of view.",
+ "last_updated": "2026-10-31",
+ "summary": "Qatar, Day 246. Doha is now the centre of the diplomacy and a casualty of the war at once. It carried Vance's letter to Iran's security chief, drafted a seven-day sequence of reciprocal steps that Tehran first rejected, then spent 12 hours in Tehran and hosted Iranian negotiators in Doha in the final days before the US midterms, while staying in contact with US negotiators; it is pressing Iran to readmit IAEA inspectors as a first step. On energy, QatarEnergy extended force majeure on LNG to the end of December, Ras Laffan is shipping perhaps a fifth of pre-war volume with two trains damaged, and Qatar has now signed two long-term deals to buy US LNG (Cheniere, Woodside) — the Gulf's largest exporter hedging its own plant. European gas crossed €100 the same week. Watch: whether a US official joins the Doha talks before 3 Nov, and whether a Qatari-linked LNG carrier hit in the central Gulf is confirmed.",
  "current": {
   "ttf_gas": "European TTF gas eased to ~€57/MWh off its highs (3 Aug) as Qatar sent its FIRST LNG tanker through Hormuz in >3 weeks — a genuine physical-easing signal on the strike pause. Still elevated; QatarEnergy force majeure floor persists. The first sign the LNG cascade may be starting to unwind, though sustained resumption is unconfirmed.",
   "helium_lng_context": "Carry-forward, unchanged: ~17% LNG liquefaction + ~30% helium offline at Ras Laffan; near-term helium cliff eased (SK hynix 'secured inventory', CLAIMED); mediation edges unchanged.",
   "mediation_posture": "June 10: no direct strike on Qatar; Doha/Al Jazeera stayed in the mediator lane ('multiple countries urged both to pull back from the brink') as Iran struck Kuwait/Bahrain/Jordan (intercepted, zero damage).",
-  "status": "Condemned the Mecca drone ('grave escalation') and warned on Bab al-Mandeb closure; at the Germany chiefs' table. LNG ~zero via Hormuz; Helium2 ~25%. Urea cascade muted (prices −58% from Apr peak)."
+  "status": "Running the US–Iran channel (letter, drafts, Tehran and Doha rounds); LNG force majeure to end-December; second US offtake deal (Woodside, 29 Oct)."
  },
  "active_triggers": [
   {
@@ -22,7 +22,8 @@
    ],
    "added": "2026-03-23",
    "notes": "REVIEWED 2026-09-17 — STAYS WATCHING — no new timeline.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — no new timeline; exports near zero regardless because of Hormuz.",
-   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — no new repair timeline; the 2054 US offtake signals long-horizon caution."
+   "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — no new repair timeline; the 2054 US offtake signals long-horizon caution.",
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — no new repair timeline; force majeure extended to end-December. (intel SAU-A12)"
   },
   {
    "condition": "Qatar formally named primary mediator (or co-mediator) for US-Iran Hormuz channel within 14 days (by 2026-05-12)",
@@ -76,17 +77,18 @@
    "type": "doha_delegation_ghalibaf_araghchi_hemmati_frozen_asset_track",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-26",
+   "last_activated": "2026-10-31",
    "activation_count": 13,
-   "context": "REPORTED: Qatari mediators in Tehran 25 Oct 'in coordination with Washington' (Reuters, one official). At cap; activation logged (intel DIP-A4)."
+   "context": "2026-10-31: activation — Qatari draft (25 Oct), 12-hour Tehran session (30 Oct), Iranian negotiators in Doha (31 Oct). (intel DIP-A3)"
   },
   {
    "to": "natural-gas-lng",
    "type": "major_producer",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-05-30",
-   "activation_count": 16
+   "last_activated": "2026-10-31",
+   "activation_count": 16,
+   "context": "2026-10-31: activation — force majeure extended to end-December; Ras Laffan ~one-fifth of pre-war. (CONFIRMED notices; intel SAU-A12)"
   },
   {
    "to": "helium",
@@ -131,6 +133,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-10-31",
+   "headline": "**MEDIATOR-IN-CHIEF AND A STRUCTURAL US-LNG BUYER.** Qatar delivered Vance's letter to Rezaei (25 Oct), presented a seven-day-steps draft (25 Oct; called 'unacceptable' by an Iranian official 28 Oct), sent a delegation (Axios: Ali Al-Thawadi) for 12+ hours of talks in Tehran (30 Oct) and hosted Iranian negotiators in Doha (31 Oct), 'in frequent contact with US negotiators' (Reuters, official). It is pressing Iran to let IAEA inspectors into bombed sites in return for targeted sanctions relief (Axios). Official Ibrahim Al Hashmi: 'The ball is now in Iran's court.' Energy: QatarEnergy extended LNG force majeure to END-DECEMBER (Edison: three more Adriatic cargoes lost; Pakistan, Bangladesh notified); Ras Laffan berthed 30 carriers 1–26 Oct vs 21 in September but volumes ~one-fifth of pre-war (Energy Intelligence) — October 0.6–1.3 Mt, unresolved; signed a second US offtake: Woodside Louisiana LNG, 3 Mtpa for 20 years (29 Oct) — 'the largest buyer of LNG from the U.S.' (al-Kaabi). A vessel hit 40 nm south of Lavan (30 Oct) is possibly the LNG carrier Al Mayeda; Qatari ownership is one OSINT post — unverified. (CONFIRMED actions; REPORTED content/volumes; intel DIP-A3, SAU-A12, KIN-B3)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-26",
    "headline": "Qatar LNG still collapsed (October tracking ~0.6 Mt, Kpler 12 Oct; force majeure through November). QatarEnergy signed to BUY up to 4 Mtpa of US LNG from Cheniere, 2031–2054 (22 Oct) — a structural hedge against Ras Laffan. Qatari mediators in Tehran 25 Oct 'as part of a US-coordinated effort' (Reuters, one official); Al-Ansari: contacts kept out of view. Ship hit in Qatari waters earlier (7 Oct); US 'restricted operations' at Embassy Doha. (CONFIRMED deal; REPORTED mediation; intel SAU-A12, DIP-A4)",
