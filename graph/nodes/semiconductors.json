@@ -3,11 +3,12 @@
  "name": "Semiconductors (SMH/SOX)",
  "type": "sector",
  "created": "2026-04-25",
- "last_updated": "2026-10-31",
+ "last_updated": "2026-11-03",
  "summary": "Semiconductors / AI complex, Day 246. The AI-credit scare — which began when Alphabet's free cash flow first turned negative in Q2 (−$5.9bn, reported 23 Jul, a first in its public history) and spread to Meta on 21–22 Oct — deepened and broadened in Q3: Alphabet's Q3 capex exceeded its operating cash by $9bn (its second straight negative quarter) (shares −12.6%, the worst day in its history) and Amazon's by roughly $33bn, financed with $48bn of new debt; Microsoft stayed cash-positive but sold its first bond since 2017. Intel's guide-down then took the SOX down 7.2% on 30 Oct. Suppliers are the mirror image — SK hynix and Samsung printed record quarters and guided memory prices up. The market's question has moved from 'is AI demand real?' to 'who funds it?', and the answer is increasingly the bond market. For the war graph this matters because AI credit, not oil, has twice set US long yields this month (semiconductors → us-10y-yield raised to 5.0), and because AI risk-off has not sent money to India. Next tests: Q4 calls (late Jan–Feb 2027) for any 2027 capex cut.",
  "current": {
   "price": "SOX 10,688.80 (30 Oct, −7.2%); SMH $522.49",
-  "driver": "Buyers of AI (Alphabet, Amazon, Meta) now spend more than they earn in cash and borrow to fund it; suppliers (SK hynix, Samsung) print records. Credit, not demand, is the market's worry."
+  "driver": "Buyers of AI (Alphabet, Amazon, Meta) now spend more than they earn in cash and borrow to fund it; suppliers (SK hynix, Samsung) print records. Credit, not demand, is the market's worry.",
+  "status": "AI funding scare: Nasdaq-100 in correction (−10.4%); SOX −29% from June; three of four hyperscalers FCF-negative in Q3; Oracle CDS ~292bp; Nvidia results 17 Nov."
  },
  "active_triggers": [
   {
@@ -79,7 +80,8 @@
     "sp-500"
    ],
    "added": "2026-10-31",
-   "notes": "Alphabet guides 2027 capex to 'increase significantly', Amazon 'meaningfully more'; SK hynix: DRAM/HBM sold out through 2029. Barclays: AI basket at ~76bp over CDX.IG vs ~10bp six months ago (REPORTED, secondary). (intel MAC-A9/A11/C)"
+   "notes": "Alphabet guides 2027 capex to 'increase significantly', Amazon 'meaningfully more'; SK hynix: DRAM/HBM sold out through 2029. Barclays: AI basket at ~76bp over CDX.IG vs ~10bp six months ago (REPORTED, secondary). (intel MAC-A9/A11/C)",
+   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED. Note: Oracle's 5-yr CDS ~292bp alone would clear 100bp but Oracle is not a hyperscaler and no AI-basket CDS measure exists — define a measurable basket before this can fire. Correction logged on the 31-Oct fire: Meta (21 Oct) was the first hyperscaler with capex > OCF. (intel MAC-A7)"
   }
  ],
  "top_edges": [
@@ -145,6 +147,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-03",
+   "headline": "**AI CREDIT BECAME AN AI FUNDING SCARE (2 Nov).** Oracle filed $10bn stock + $10bn notes (−8.8%; 5-yr CDS ~292bp, 'high-end junk', S&P Global MI); Meta weighing ≥$20bn of bonds (Bloomberg, REPORTED) after $25bn stock + $12.5bn mandatory convertible; Alphabet €6bn bond, priced wider than May; Anthropic S-1/A: ~$895bn of commitments vs ~$132bn cash; Marvell–Lumentum $115bn all-stock; Intel −8.8% (two-day −35%). Nasdaq-100 27,989.82, −10.4% from 6 Oct (correction); SOX 10,328.33 (−3.4%; −29.4% from June); KOSPI/TAIEX −3.59% Tue. GRAPH CORRECTION: Meta's Q3 capex $34.91bn exceeded operating cash flow $32.79bn (8-K, 21 Oct) — three of four hyperscalers (Meta, Alphabet, Amazon) ran negative FCF in Q3; Microsoft did not. (CONFIRMED filings/prices; intel MAC-A7/A8)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-31",
    "headline": "**THE AI-CREDIT TRIGGER FIRED TWICE.** Alphabet Q3 (28 Oct, 8-K): operating cash flow $42.29bn vs capex $51.36bn → FCF −$9.07bn (incl. a $5.2bn EC fine; ex-fine ≈ −$3.9bn); 2027 capex to 'increase significantly'; shares −12.64% on 29 Oct ($283.82), the worst day in its history; 5Y CDS ~84bp (REPORTED). Amazon Q3 (29 Oct): OCF $42.42bn vs gross capex $77.26bn → quarterly FCF ≈ −$33.5bn (TTM −$42.4bn); $48.1bn of long-term debt issued in the quarter; 2026 cash capex ~$220bn. Microsoft stayed FCF-positive (+$18.6bn) then sold $25bn of bonds (29 Oct; first since 2017; $100–115bn of orders). Intel −28.6% on a Q4 guide (30 Oct); SOX −7.2% to 10,688.80; SMH −7.0%; Nvidia −4.2%. Meanwhile suppliers printed records (SK hynix 80% margin; Samsung first >KRW100trn quarter). The 10Y fell 11bp over the two days. (CONFIRMED company filings + exchange data; intel MAC-A9/A10/A11)",

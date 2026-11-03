@@ -3,7 +3,7 @@
  "name": "KOSPI (Korea Composite Stock Index)",
  "type": "index",
  "created": "2026-05-12",
- "last_updated": "2026-10-31",
+ "last_updated": "2026-11-03",
  "summary": "KOSPI, Day 246. Korea round-tripped on the AI cycle, not the war: SK hynix's record quarter (80% operating margin, memory sold out through 2029) lifted the index 6.6% to 6,012 on 28 Oct, and the US AI-buyer selloff (Alphabet, Amazon, Intel) took it back to 5,730.74 on 30 Oct — still +4.8% on the week but ~32% below the May record. Both memory makers guided prices up, so the graph's 'below 5,000 or memory guided down' trigger did not fire. Korea's exposure to the Gulf (energy, helium) did not show in the numbers this week; its exposure to who finances AI did.",
  "current": {
   "price": "5,730.74 (30 Oct)",
@@ -80,7 +80,8 @@
    ],
    "added": "2026-10-26",
    "notes": "26 Oct close 5,469.47; memory multiples at 3.0–3.3× forward.",
-   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED on either leg — lowest close in window 5,469.47 (26 Oct); SK hynix and Samsung guided memory pricing UP. (intel MAC-A11)"
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED on either leg — lowest close in window 5,469.47 (26 Oct); SK hynix and Samsung guided memory pricing UP. (intel MAC-A11)",
+   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — 5,648.79; no memory-pricing guidance cut. (intel MAC-A8)"
   }
  ],
  "top_edges": [
@@ -127,6 +128,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-03",
+   "headline": "KOSPI +2.2% to 5,859.08 (2 Nov) then −3.59% to 5,648.79 (3 Nov close); foreigners sold ₩1.52trn Tue; Samsung ₩219,500 (−4.15%), SK hynix ₩1,398,000 (−5.03%); KOSDAQ −4.08%; −38% from the June peak. Cause (Daishin): 'The string of corporate bond issues by Big Tech stoked concerns over AI funding'; the Qeshm report 'kept conflict concerns alive'. (CONFIRMED; intel MAC-A8)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-31",
    "headline": "KOSPI 5,469.47 (26 Oct) → 6,012.44 (28 Oct, +6.63%, first close >6,000 since 14 Oct, on SK hynix's record) → 5,937.66 → 5,730.74 (30 Oct, −3.48%, sell-side sidecar) — +4.8% since 26 Oct. Shinhan: 'Successive earnings disappointments from big tech companies and chipmakers sparked a sell-off across the AI value chain.' Both memory makers guided prices UP, so the `kospi` trigger did not fire. Korea trades the AI buyers' financing risk, not Gulf energy, this week. (CONFIRMED closes; intel MAC-A11)",

@@ -3,14 +3,14 @@
  "name": "Brent Crude",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-10-31",
- "summary": "Brent, Day 246. December Brent expired on 30 Oct at $117.64, a six-month high and the 28th straight front-month settle above $100; January, the new front month, is $113.43. The week showed what the price is made of: five sessions of mediation headlines (Qatar in Tehran, the Saudi-led visit, a Vance letter) took about $3 off, and one limpet-mine attack on a tanker off Khasab, inside a burst of four or five ship hits, put it all back and more. The curve is an event curve — a 99th-percentile prompt spread and a December-2027 contract near $88 — and the spot–futures gap, which narrowed from ~$25 in mid-October to $6–10 by 16–21 Oct, re-widened to ~$9–12. No Saudi crude barrel is confirmed lost: a fire at Ras Tanura (a Houthi-claimed hit) did not stop loadings, so the tight barrel remains diesel. Banks moved up (UBS $110, ANZ $105 year-end); Goldman holds $90 for December with a ~$27 premium it says needs 'a diplomatic solution that market participants see as sustainable' to come off. The binary is dated: strikes on Iran from 4 Nov convert the premium into a supply shock ($130 trigger); a text or a quiet November takes January toward the $90s ($100 trigger).",
+ "last_updated": "2026-11-03",
+ "summary": "Brent, Day 249. The October rally was built on a date — allies told to prepare for strikes 'after the midterms' — and on the last trading day before that date it came out: January Brent fell 7.6% to $104.77 on 2 Nov, the biggest one-day drop since July, as Tehran said its leader had authorised talks and Trump said a settlement 'could happen'. The front of the curve fell twice as hard as the back (Dec-27 −3.6%), March settled below $100 (every contract from March on is now under $100), and Bloomberg's tanker data say Gulf crude exports are near pre-war with the Middle East's own benchmark in contango — the price is mostly event premium on a physically comfortable crude market. Products are the exception: the diesel crack is still ~$81. Overnight the WSJ and others reported a US strike on Qeshm; Brent recovered only ~$1.8, so the market now discounts 'defensive' US fire. From 4 Nov the swing factors are a declared US campaign or an Iranian hit on Gulf energy or the anchorages (up) against a signed Qatari text (down, toward the $94 JPM fair value). Forecasters (Goldman $105, UBS $110) now sit on or above the market.",
  "current": {
-  "price": "Dec-26 expired $117.64 (30 Oct final settle); Jan-27 $113.43 (front from 2 Nov); Dec-27 $88.11",
-  "delta_1d": "+2.4% (30 Oct, both Dec and Jan)",
-  "delta_1m": "+13.6% (Dec contract, October)",
+  "price": "Jan-27 $104.77 (2 Nov settle, −7.6%); ~$106.5 Tue 3 Nov Asia (~13:15 IST); Mar-27 $99.04; Dec-27 $84.98",
+  "delta_1d": "−7.6% (2 Nov, Jan like-for-like); +1.7% Tue Asia",
+  "delta_1m": "+6.2% (script, front-month continuous)",
   "delta_vs_4jul": "n/a",
-  "regime": "EVENT PREMIUM ON A DATED BINARY + A PHYSICAL-ATTACK TAPE. 28 straight settles >$100; curve front-loaded (Dec–Jan $4.21, 99th pct; Dec-27 $88); spot–futures gap ~$9–12 (re-widened after 21 Oct); ~$27 premium (Goldman). Swing factors: post-3-Nov strikes, Qatari/US–Iran text, limpet attacks on the waiting fleet, Houthi hits on Aramco.",
+  "regime": "EVENT PREMIUM PRICED OUT ON TALK, NOT ON BARRELS (2 Nov). Front fell 2× the back; Dubai in contango; Gulf exports near pre-war (REPORTED); products still tight (diesel crack ~$81). Reported 'defensive' US strikes discounted (~$1.8). Swing factors: a DECLARED US campaign; an Iranian hit on Gulf energy or the anchorages; a signed Qatari text.",
   "roll_note": "From Mon 2 Nov free feeds quote January ($113.43) — a phantom −3.6% vs the final December settle."
  },
  "price_snapshots": [
@@ -117,6 +117,11 @@
    "date": "2026-10-31",
    "price": "$117.64 Dec final settle at expiry, Fri 30 Oct (+2.4%) — six-month high; Jan $113.43",
    "trigger": "First successful limpet-mine attack in Hormuz (Louise 1) + 4–5-hull burst 29–30 Oct; Gulf allies warned of post-midterm strikes"
+  },
+  {
+   "date": "2026-11-03",
+   "price": "$104.77 (Jan-27 settle, 2 Nov); Mar-27 $99.04; Dec-27 $84.98",
+   "trigger": "−7.6% one-day fall on US–Iran talk headlines on the eve of the midterms; the post-midterm strike premium priced out"
   }
  ],
  "active_triggers": [
@@ -267,7 +272,8 @@
    "status_changed": "2026-07-19",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — physical leg met (Dated ~$125–135) but futures peaked $107.33 intraday (12 Oct); not 'Houthi Red Sea entry' (Houthis still spare neutral hulls).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — futures $100–102; Houthis have not attacked a non-Saudi hull (day 11/14 of the Krieg test). Physical Oman/Dated >$130 is NOT the trigger (written on futures).\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — futures $105–109; DATED Brent did print >$130 (Bloomber",
    "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — futures high $117.45 (23 Oct); no Houthi attack on a non-Saudi hull; physical back below $130.",
-   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — high ~$118; no Houthi attack on a non-Saudi hull."
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — high ~$118; no Houthi attack on a non-Saudi hull.",
+   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — Jan $104.77; no Houthi attack on a non-Saudi hull (~53 days)."
   },
   {
    "condition": "Brent-Hormuz paper-physical divergence >$10/bbl in EITHER direction sustained 3 sessions",
@@ -297,7 +303,7 @@
    "status_changed": "2026-09-17"
   },
   {
-   "condition": "Brent front-month settles below $100 on any day 4–30 Nov with NO US strike on Iranian territory (the event-premium unwind test) — OR above $130 (premium becomes a supply event)",
+   "condition": "Brent front-month settles below $100 on any day 4–30 Nov with NO US strike meeting the amended `united-states` resume definition (legs a–d: on-record acknowledgment other than a single response to fire on US assets; 3+ consecutive nights; several sites in one night or targets beyond the air-defence/launcher pattern; nuclear/energy/leadership targets) — the event-premium unwind test — OR above $130 (premium becomes a supply event)",
    "status": "watching",
    "cascade": [
     "brent-crude",
@@ -308,7 +314,9 @@
    ],
    "added": "2026-10-26",
    "notes": "Dec-26/Dec-27 spread $30 with the back flat = event premium; Goldman 'nearly $25' over fair value. Front month from 2 Nov is January (settled $111.70 on 23 Oct).",
-   "note_2026-10-31": "[reviewed, stays watching] Window not yet open. January starts the window at $113.43 — needs −11.8% to reach $100; +14.6% to reach $130. (markets C1)"
+   "note_2026-10-31": "[reviewed, stays watching] Window not yet open. January starts the window at $113.43 — needs −11.8% to reach $100; +14.6% to reach $130. (markets C1)",
+   "condition_original": "Brent front-month settles below $100 on any day 4–30 Nov with NO US strike on Iranian territory (the event-premium unwind test) — OR above $130 (premium becomes a supply event)",
+   "note_2026-11-03": "[amended, stays watching] Amended 3 Nov: the WSJ/NBC report quiet 'defensive' US strikes for weeks (Qeshm 2 Nov, REPORTED); counting those would void the test on routine. Position at the window's open: Jan $104.77 (4.6% above $100, vs 11.8% on 30 Oct); Mar-27 already $99.04. $130 leg not near. (intel MAC-A1, DIP-A6; CoS reconciliation)"
   }
  ],
  "top_edges": [
@@ -343,9 +351,9 @@
    "type": "relief_leg_jun4_oil_softened_to_95_rupee_firmed_to_9540_sub_96_import_bill_relief",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-31",
+   "last_activated": "2026-11-03",
    "activation_count": 25,
-   "context": "2026-10-31: activation — rupee gains capped by crude (Jan Brent ~$113). (intel IND-A1)"
+   "context": "2026-11-03: activation, weight held; mark ASYMMETRIC. Brent −7.6% bought ~20–25 paise (94.76→94.84 close; 94.60 intraday low) because the RBI/SBI buy dollars into strength (reported) to fund oil and refill a $239bn forward short. The edge transmits oil spikes fully and oil falls barely. (intel IND-A1/A2; markets C4)"
   },
   {
    "to": "fed",
@@ -399,6 +407,16 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-03",
+   "headline": "**PHYSICAL CRUDE NOW POINTS TO PLENTY; PRODUCTS DO NOT.** Bloomberg tanker tracking (3 Nov): Saudi/UAE/Iraq/Kuwait exported 15.53 mb/d in October (+~10%), 'nearly back to pre-conflict' (Saudi 7.0, UAE 3.74, Iraq 3.35, Kuwait 1.44); Iran ZERO seaborne for a second month; Dubai's nearest spread in CONTANGO for the first time since July. (REPORTED, single origin.) No Dated/EIA spot print after 27 Oct ($123.10) — spot–futures gap cannot be updated. Diesel: HO Dec −5.4% but crack still ~$81/bbl; US retail diesel $6.29. Forecasts: Goldman Dec-26 $90 → $105, 2027 $80 → $88, upside $140 (1 Nov); UBS ~$110 year-end; ANZ $105; MS Q4 Dated $105; JPM fair value ~$94 (premium now ~$11). (intel MAC-A2/A4/A11; markets C2)",
+   "verification": "REPORTED/CONFIRMED"
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "**THE 'AFTER THE MIDTERMS' PREMIUM CAME OUT IN ONE SESSION (2 Nov).** January Brent (BZF27, front since the Dec expiry) $113.43 → $104.77 (−7.6%, −$8.66; biggest one-day % fall since 27 Jul); Feb $101.70; MARCH $99.04 (now the nearest contract below $100; June was on 30 Oct; March last settled below $100 on 21 Oct); Dec-27 $88.11 → $84.98 (−3.6%). Jan–Dec27 spread $25.32 → $19.79 — ~$5.5 of near-dated premium out. WTI Dec $96.46 (−7.4%). Drivers: Pezeshkian's 'powers for talks' (CLAIMED as to the Leader), Trump 'It could happen!', Rubio 'prefer peacefully', Qatar's draft (~70%); Bloomberg's Gulf-export and Dubai-contango data (~15–20%); non-crisis profit-taking after October's +13.6% and election squaring (~10–15%). OPEC+ hold neutral. Tue 3 Nov Asia ~$106.5 (+1.7%) on the reported Qeshm strike — the market priced a reported 'defensive' strike at ~$1.8 vs ~$8.7 for talk. Roll trap: 'Brent −10.9%/−11%' (CNBC-TV18 and free feeds) compares Jan with Dec's $117.64 expiry. (CONFIRMED contract data — yfinance explicit tickers + CNBC/NBC settles; REPORTED drivers; markets C1; intel MAC-A1/B1)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-31",
    "headline": "**PHYSICAL GAP RE-MEASURED; PRODUCTS SOFTER; BANKS RAISED.** EIA Brent spot vs Dec futures: $8.55 (21 Oct), $12.22 (22), $11.58 (23), $12.31 (26), $9.22 (27) — the $6–10 of 16–21 Oct RE-WIDENED to $11.6–12.3 on 22–26 Oct before $9.2 on 27 Oct — ~$9–12, oscillating around $10 (MUFG: Dated 'about $10' over futures). NYH ULSD crack ~$100 (23 Oct) → ~$83 (27 Oct) as refiners absorbed the mediation optimism, but diesel stays the tight product (US distillates ~10% below 5-yr average; retail diesel $6.352; a fire at Ras Tanura (Houthi-claimed hit, unestablished); India raised its diesel export levy to ₹11.5/l on 31 Oct). Forecasts: UBS $110 end-2026 (from $100), ANZ ~$105 (+$10); Goldman keeps $90 for December but puts the premium at ~$27 (from 'nearly $25'). Flows: Kpler Hormuz crude 7.3 mb/d week to 28 Oct (narrower definition); Saudi October exports 6.5 mb/d (Vortexa). OPEC+ (the seven) expected to hold December targets on 1 Nov. (CONFIRMED FRED; REPORTED forecasts/trackers; markets C2, intel MAC-A2/A4/A5)",

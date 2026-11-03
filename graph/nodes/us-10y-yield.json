@@ -3,11 +3,11 @@
  "name": "US 10-Year Treasury Yield",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-10-31",
+ "last_updated": "2026-11-03",
  "summary": "US 10-year, Day 246. The 10-year closed 4.94% on 30 Oct — its second straight close below 5% and a 35bp rally in October — but the war did not do it. Both breaks below 5% (22 Oct and 29–30 Oct) came on AI-credit shocks: Meta, then Alphabet's negative free cash flow and record one-day fall, Amazon spending ~$77bn against ~$42bn of operating cash, and Intel's 28.6% collapse. On the day oil jumped 2.4%, the 10-year fell 4bp and breakevens did not move; the Fed Chair himself said rates 'rolled over to the downside' as oil rose. The 2-year fell more (4.56%), pricing 'one more hike and done'. For the investor's 13-Oct condition, 'below 5%' is being met for the wrong reason and with high-yield spreads widening, so the graph's three-session trigger is not fired. The war's channel to US rates is now the front end via the Fed, not the long end via inflation expectations.",
  "current": {
-  "price": "4.94% (30 Oct, Treasury par); 2Y 4.56%; real 2.60%; BE 2.34%",
-  "driver": "AI-credit flight to quality (Alphabet −12.6%, Intel −28.6%, Amazon capex>OCF); hawkish Fed hold lifted 28 Oct only; oil NOT in long-end pricing (BE flat as Brent rose).",
+  "price": "4.91% (2 Nov, Treasury par); 2Y 4.59%",
+  "driver": "Breakevens −5bp with oil; real +2bp; HY OAS 3.44% (30 Oct) and widening.",
   "regime": "SET BY AI CREDIT, NOT THE WAR (second episode in eight days). The 13-Oct 'below 5%' deployment condition met on two closes for the wrong reason, with HY spreads widening."
  },
  "active_triggers": [
@@ -43,7 +43,8 @@
    ],
    "added": "2026-10-26",
    "notes": "Single close 4.96% (22 Oct) then 5.00%; HY OAS 3.40% (+24bp). The quality of the rally decides whether it helps EM flows.",
-   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — 2 sessions (4.98% 29 Oct, 4.94% 30 Oct); Mon 2 Nov could be the third, but the HY leg is FAILING (OAS +12bp on 29 Oct; 30-Oct print pending). (markets C3)"
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — 2 sessions (4.98% 29 Oct, 4.94% 30 Oct); Mon 2 Nov could be the third, but the HY leg is FAILING (OAS +12bp on 29 Oct; 30-Oct print pending). (markets C3)",
+   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — leg 1 MET (4.98/4.94/4.91, 29 Oct–2 Nov); leg 2 FAILING (HY OAS +26bp 27–30 Oct; 2-Nov ETF proxy wider). Fires only on a fresh three-close run below 5% with HY OAS flat or tighter. (intel MAC-A5)"
   }
  ],
  "top_edges": [
@@ -93,6 +94,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-03",
+   "headline": "**THIRD CLOSE BELOW 5% — THIS TIME BECAUSE OF OIL (2 Nov).** Treasury par: 10Y 4.94 → 4.91% (29 Oct 4.98, 30 Oct 4.94, 2 Nov 4.91 = three consecutive); 2Y 4.56 → 4.59% (+3bp, strong ISM); 30Y 5.28%; 2s10s 38 → 32bp. 10Y real 2.60 → 2.62%; breakeven (T10YIE) 2.34 → 2.29% — the whole fall was inflation compensation falling with oil, the first time in this run oil moved the long end down. Credit: HY OAS 3.18% (27 Oct) → 3.44% (30 Oct, +26bp); IG 0.88 → 0.94%; 2 Nov not yet on FRED but HYG −0.7%/JNK −0.8%/LQD −0.5% on a Treasury rally = wider again. (CONFIRMED Treasury/FRED; intel MAC-A5; markets C3)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-31",
    "headline": "**10Y 4.94% — TWO CLOSES UNDER 5%, AGAIN FOR THE AI REASON.** Treasury par: 5.00 (26 Oct), 4.99, 5.05 (28, post-FOMC), 4.98 (29, Alphabet day), 4.94% (30, Intel/Amazon selloff) — while Dec Brent rose 2.4% on 30 Oct. 2Y 4.68 → 4.56% (−12bp; 'one more and done' pricing); 30Y 5.31%; 2s10s 38bp (bull steepener). 10Y real 2.60% (−6bp); breakeven flat 2.34%. October −35bp, the biggest monthly rally since 2024. HY OAS 3.14 → 3.26% (+12bp on 29 Oct); IG 0.86 → 0.89. Warsh: rates 'rolled over to the downside' while oil rose. Crisis share of the move ~0–10% (against it). (CONFIRMED Treasury/FRED; markets C3/C8, intel MAC-A8)",

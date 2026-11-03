@@ -3,7 +3,7 @@
  "name": "United Arab Emirates",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-10-31",
+ "last_updated": "2026-11-03",
  "summary": "UAE, Day 241. Aligned behind Riyadh, hit at sea but not on its soil: AD Ports-linked container ships were struck (GFS Pride sank 14 Oct), a tug was hit off Khor Fakkan on the Gulf of Oman coast (18 Oct), and spilled oil closed northern beaches (23–25 Oct). Abu Dhabi reportedly re-funds southern Yemeni forces under Saudi air cover. Outside OPEC, it pumped a record >4.4 mb/d in September (IEA via aggregator). Not a combatant.",
  "current": {
   "status": "Trade/finance with Iran HALTED since 18 Aug (CONFIRMED); missile incident disputed (CLAIMED); Delhi meeting with Pezeshkian 12 Sep."
@@ -20,11 +20,12 @@
    "added": "2026-03-23",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — no UAE kinetic role; political alignment with Riyadh; Giants Brigades are Yemeni.\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — coordination (Germany meeting), not combat.",
    "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — financing proxies is not combat.",
-   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED."
+   "note_2026-10-31": "[reviewed, stays watching] NOT FIRED.",
+   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — collective-retaliation warning to Iran is rhetoric. (intel DIP-A7)"
   },
   {
    "condition": "UAE adds 500K-1M bpd of supply within 6 months of OPEC exit (May 1) confirming Atlantic Council/Derentz medium-term-bearish thesis",
-   "status": "watching",
+   "status": "expired_unresolved",
    "cascade": [
     "brent-crude",
     "opec-plus",
@@ -34,7 +35,9 @@
    "added": "2026-04-29",
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — ~+0.3 mb/d over pre-war (Kpler); window closes ~1 Nov.",
    "note_2026-10-26": "[reviewed, stays watching] HOLD (borderline; window closes ~1 Nov). IEA September >4.4 mb/d vs Kpler's 3.9 mb/d pre-war baseline ≈ +0.5 mb/d — the lower bound — via an aggregator relay of the OMR. SAU desk recommended fire; held pending the OMR table (tag lower).",
-   "note_2026-10-31": "[reviewed, stays watching] Window closes ~1 Nov (six months from the 1 May OPEC exit); no new output data found; stays at the 26-Oct 'borderline (IEA September)' reading — expire next run as UNRESOLVED. (intel SAU-A11)"
+   "note_2026-10-31": "[reviewed, stays watching] Window closes ~1 Nov (six months from the 1 May OPEC exit); no new output data found; stays at the 26-Oct 'borderline (IEA September)' reading — expire next run as UNRESOLVED. (intel SAU-A11)",
+   "status_changed": "2026-11-03",
+   "note_2026-11-03": "[watching → expired_unresolved] EXPIRED UNRESOLVED (window closed ~1 Nov) — October exports 3.74 mb/d (Bloomberg) with no output baseline or m/m comparison; cannot be scored. (intel MAC-A2, SAU-A11)"
   },
   {
    "condition": "Saudi Arabia issues formal public response to UAE OPEC exit within 14 days (by 2026-05-12)",
@@ -142,6 +145,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-03",
+   "headline": "Gargash (Manama, 1 Nov): the UAE is 'braced for the worst'; Hormuz's pre-war status 'non-negotiable'; 'if these positions are not bridged, then we have to worry about the worst'. WSJ (2 Nov): Qatar and the UAE drilling at airports and major facilities; some Abu Dhabi conference delegates left early on government advice; 'some Arab nations' warned Iran they could retaliate 'individually or jointly'. UAE-owned tug Selat Storm hit (1 Nov); 6 ADNOC ships on Iran's blacklist (2 Nov). October crude exports 3.74 mb/d (Bloomberg). (CONFIRMED quotes; REPORTED drills/exports; intel SAU-B2, DIP-A7, KIN-A3/B1)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-10-31",
    "headline": "No strike on UAE territory 26–31 Oct. The UAE said the Gem No. 2 spill (hit 9 Oct) is contained with 'no new oil leaks' (30 Oct); Singapore Airlines cancelled Dubai flights to 28 Feb 2027; MS NOW reports staffing cuts at the US mission (single source); the foreign ministry urged both sides to 'exercise wisdom and pursue political solutions' (AP, ~28–29 Oct). Louise 1 (limpet attack) is reported as Dubai-owned and later moved to an anchorage off Khor Fakkan. (CONFIRMED/REPORTED; intel KIN-A7/B1, DIP-B3)",

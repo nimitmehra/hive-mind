@@ -3,7 +3,7 @@
  "name": "OPEC+",
  "type": "institution",
  "created": "2026-03-23",
- "last_updated": "2026-10-31",
+ "last_updated": "2026-11-03",
  "summary": "OPEC+, Day 241. No decision in the window; the seven meet on 1 Nov on December output. The IEA sees a deficit through year-end with diesel tight into 2027; OPEC cut its 2026 growth estimate. Saudi Arabia's export capacity is under Houthi fire and tracker estimates of its exports conflict by up to 2.6 mb/d; the UAE, outside OPEC since May, pumped a record in September. The cartel's spare capacity is irrelevant while the constraint is safe passage.",
  "current": {
   "uae_status": "EXITING — effective May 1, 2026 (CONFIRMED Apr 28)",
@@ -57,7 +57,7 @@
   },
   {
    "condition": "1 Nov OPEC+ (seven) decision on December output — hike, pause or cut, with Saudi Arabia's export capacity under Houthi fire",
-   "status": "watching",
+   "status": "resolved",
    "cascade": [
     "opec-plus",
     "saudi-arabia",
@@ -65,7 +65,21 @@
    ],
    "added": "2026-10-26",
    "notes": "No decision in the window; December OSPs ~5 Nov.",
-   "note_2026-10-31": "[reviewed, stays watching] PENDING (tomorrow); consensus HOLD. (intel SAU-A11)"
+   "note_2026-10-31": "[reviewed, stays watching] PENDING (tomorrow); consensus HOLD. (intel SAU-A11)",
+   "status_changed": "2026-11-03",
+   "note_2026-11-03": "[watching → resolved] RESOLVED — PAUSE (1 Nov): December held at September required levels (31.01 mb/d). Market impact nil; Monday's −7.6% was Iran diplomacy. (intel SAU-A1, MAC-A3)"
+  },
+  {
+   "condition": "29 Nov full OPEC+ meeting POSTPONES 2027 baselines or adopts them without the capacity-review numbers — OR adopts capacity-based 2027 baselines (Saudi pressing for share as the war premium deflates)",
+   "status": "watching",
+   "cascade": [
+    "opec-plus",
+    "saudi-arabia",
+    "uae",
+    "brent-crude"
+   ],
+   "added": "2026-11-03",
+   "notes": "Capacity review due mid-November (Reuters source); Rystad's Leon expects an 'extremely difficult call for 2027'. Gulf exports near pre-war (Bloomberg) make 2027 share the live question. (intel SAU-A1, MAC-A3)"
   }
  ],
  "top_edges": [
@@ -103,6 +117,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-03",
+   "headline": "OPEC+ (the seven) held on 1 Nov: 'maintain September 2026 required production for December 2026' (total 31.01 mb/d; Saudi 10.478, Russia 9.949, Iraq 4.431, Kuwait 2.676, Kazakhstan 1.628, Algeria 1.007, Oman 0.841) — third straight pause; no market effect (priced). Capacity review for 2027 baselines due mid-November; all 21 members meet 29 Nov. Rystad's Leon: 'Today's decision was the easy one'. (CONFIRMED; intel SAU-A1, MAC-A3)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-10-31",
    "headline": "The seven (Saudi Arabia, Russia, Iraq, Kuwait, Algeria, Kazakhstan, Oman) meet online Sun 1 Nov and are 'likely to keep their December oil output targets steady' (Reuters, three sources, 27 Oct; 'no final decision'). Gulf members pump 'well below their targets' (~25 mb/d in August, ~5 mb/d below February); the 2023 1.65 mb/d cut is fully unwound; ~2 mb/d layer runs to end-2026; 2027 baselines (capacity review) are the real agenda, full OPEC+ meets 29 Nov. Rystad: 'OPEC+ currently has very limited power over the physical oil market.' A hold is price-neutral: quotas don't bind members that cannot reach them. (REPORTED; intel SAU-A11, MAC-A5)",

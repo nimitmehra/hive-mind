@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-10-31",
+ "last_updated": "2026-11-03",
  "edges": [
   {
    "from": "united-states",
@@ -132,15 +132,16 @@
    "to": "inr-usd",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-31",
+   "last_activated": "2026-11-03",
    "type": "relief_leg_fired_oil_down_rupee_firmer_inr9522_minus1pct_import_bill_relief",
-   "activation_count": 7,
+   "activation_count": 8,
    "note_2026-09-14": "CONFIRMED 94.49→95.69 on oil >$100 + US yields (markets C5)",
    "note_2026-09-17": "CONFIRMED: Brent >$105 + INR 96. At cap.",
    "context_2026-09-22": "CONFIRMED: Brent −7.7% → rupee 96.13→95.81 without testing 96.60 (markets C6). At cap; activation logged.",
    "context_2026-10-13": "CONFIRMED: Brent back >$100 (1 Oct) → rupee 96.31 → 96.88 (8 Oct). At cap; activation logged.",
    "context_2026-10-26": "CONFIRMED: the rupee's 22–26 Oct reversal (94.38→95.22) tracked Brent Dec $108.8→$116.7. At cap; activation logged (markets C7).",
-   "context_2026-10-31": "2026-10-31: activation — rupee gains capped by crude (Jan Brent ~$113). (intel IND-A1)"
+   "context_2026-10-31": "2026-10-31: activation — rupee gains capped by crude (Jan Brent ~$113). (intel IND-A1)",
+   "context_2026-11-03": "2026-11-03: activation, weight held; mark ASYMMETRIC. Brent −7.6% bought ~20–25 paise (94.76→94.84 close; 94.60 intraday low) because the RBI/SBI buy dollars into strength (reported) to fund oil and refill a $239bn forward short. The edge transmits oil spikes fully and oil falls barely. (intel IND-A1/A2; markets C4)"
   },
   {
    "from": "brent-crude",
@@ -3171,10 +3172,12 @@
   {
    "from": "united-states",
    "to": "irgc",
-   "weight": 6.5,
+   "weight": 7.5,
    "directness": 1,
-   "last_activated": "2026-06-10",
-   "type": "self_defence_strikes_jun6_centcom_struck_iranian_coastal_surveillance_radar_at_goruk_and_qeshm_island_after_defeating_4_drones_and_6_of_7_missiles_zero_us_casualties_irgc_fifth_fleet_claim_denied"
+   "last_activated": "2026-11-03",
+   "type": "self_defence_strikes_jun6_centcom_struck_iranian_coastal_surveillance_radar_at_goruk_and_qeshm_island_after_defeating_4_drones_and_6_of_7_missiles_zero_us_casualties_irgc_fifth_fleet_claim_denied",
+   "activation_count": 1,
+   "context_2026-11-03": "2026-11-03: RAISED 6.5→7.5. US officials (NBC, two) say the IRGC 'routinely' fires at US manned and unmanned aircraft over the strait and the US 'occasionally strikes Iranian missile launchers' in response; Qeshm launcher destroyed 2 Nov (REPORTED, 7+ outlets); WSJ: 'a series of limited strikes… for several weeks'. A direct kinetic channel hidden by the 'pause ashore' framing. (intel KIN-A1, DIP-A6)"
   },
   {
    "from": "us-10y-yield",
@@ -3393,14 +3396,15 @@
    "to": "nifty-50",
    "weight": 3.0,
    "directness": 2,
-   "last_activated": "2026-10-26",
+   "last_activated": "2026-11-03",
    "type": "capital_substitution_INVERTED_jun16_north_asia_AI_complex_ripping_kospi_plus6.8pct_record_vs_nifty_plus1pct_same_riskon_day_AI_supercycle_pulls_EM_tech_allocation_away_from_india",
    "added": "2026-06-16",
    "rationale": "On the 15 Jun framework risk-on day, KOSPI +6.8% (record) / Nikkei +4.9% / TAIEX +3.2% vs Nifty +1.0%. The AI semiconductor supercycle (SK Hynix +11%) is an active capital competitor absorbing the EM/tech allocation that might otherwise rotate to India. Inverse of the existing capital_substitution trigger (which watches for N-Asia to CORRECT and India FII to turn positive). 2 sources (Nikkei Asia, TradingKey).",
-   "activation_count": 3,
+   "activation_count": 4,
    "context_2026-09-22": "CONFIRMED (same mechanism as semiconductors→nifty): KOSPI +5.8% 1M vs FPI selling India. 3.0→3.5 (markets E2).",
    "context_2026-10-13": "SIGNAL, NO WEIGHT CHANGE: AI complex −>10% but FPIs still sold India — substitution release valve did not open; binding constraint is dollar rates.",
-   "context_2026-10-26": "WEAKENED: KOSPI −9.4% since 13 Oct with foreign selling ₩11.5trn, yet no rotation into India (FPI −₹48k cr Oct). 3.5→3.0 (markets C5)."
+   "context_2026-10-26": "WEAKENED: KOSPI −9.4% since 13 Oct with foreign selling ₩11.5trn, yet no rotation into India (FPI −₹48k cr Oct). 3.5→3.0 (markets C5).",
+   "context_2026-11-03": "2026-11-03: activation, weight held; DIVERGENCE logged on price — 3 Nov KOSPI −3.6% (foreigners sold ₩1.52trn) while the Nifty rose ~1.3% intraday; India's FII buying was 30 Oct and 2 Nov, and the 3-Nov India flow is pending (~18:00 IST). Supports capital substitution (nifty-50 trigger leg 2) but the flows are not yet shown on the same day. (markets E; fact-check H5)"
   },
   {
    "from": "china",
@@ -3571,16 +3575,17 @@
    "to": "us-10y-yield",
    "weight": 6.0,
    "directness": 1,
-   "last_activated": "2026-10-31",
+   "last_activated": "2026-11-03",
    "added": "2026-09-14",
-   "activation_count": 6,
+   "activation_count": 7,
    "type": "energy_cpi_passthrough_gasoline_27pct_fueloil_52pct_10y_4_97",
    "rationale": "Aug CPI energy +16.3% y/y drove the 0.4% m/m print that repriced the curve (+33bp 1M) — a direct oil→yields channel the graph lacked (BLS; CME/centralbank.watch). 1st order; 6.0.",
    "note_2026-09-17": "+1.0 CONFIRMED: CBO attributes >40% of Q2 PCE inflation to Hormuz/Red Sea energy; 10Y >5% (markets C3, intel B1).",
    "context_2026-09-22": "CONFIRMED transmission in reverse: Brent −7.7% (16–21 Sep) → 10Y 5.01%→4.96% (markets C1/C4). Third activation; 7.0→7.5.",
    "context_2026-10-13": "CONFIRMED with mechanism note: one-month crude/10Y correlation 0.96 (BMO) but breakevens flat — transmission via Fed reaction function + term premium; 10Y 5.37% intraday (highest since 2002). 7.5→8.0.",
    "context_2026-10-26": "WEAKENED on data: Brent +10.4% while the US 10Y fell 21bp and 10Y breakevens stayed flat (2.33→2.34) — the oil→inflation-expectations→yields channel did not transmit this window; yields moved on AI credit and the Fed path. 8.0→7.0 (markets C3/C8).",
-   "context_2026-10-31": "2026-10-31: CUT 7.0→6.0. Second consecutive cut. 30 Oct: Dec Brent +2.4%, 10Y −4bp to 4.94%, breakeven flat 2.34%; week: oil +1.6%, 10Y −6bp. Fed Chair Warsh (28 Oct): the oil–rates correlation was 'quite strong, until very recently… Interest rates have rolled over to the downside.' The channel persists via the front end (December hike pricing), so not lower. (CONFIRMED Treasury/FRED/Fed transcript; markets C3/C8)"
+   "context_2026-10-31": "2026-10-31: CUT 7.0→6.0. Second consecutive cut. 30 Oct: Dec Brent +2.4%, 10Y −4bp to 4.94%, breakeven flat 2.34%; week: oil +1.6%, 10Y −6bp. Fed Chair Warsh (28 Oct): the oil–rates correlation was 'quite strong, until very recently… Interest rates have rolled over to the downside.' The channel persists via the front end (December hike pricing), so not lower. (CONFIRMED Treasury/FRED/Fed transcript; markets C3/C8)",
+   "context_2026-11-03": "2026-11-03: activation, weight HELD at 6.0. On 2 Nov oil moved the long end DOWN via breakevens (T10YIE 2.34→2.29%; real +2bp; 10Y 4.94→4.91%) — the first oil-led long-end move of this run after two AI-led episodes. One session is not a regime; no re-raise after the 31-Oct cut. (markets C3)"
   },
   {
    "from": "saudi-arabia",
@@ -3651,13 +3656,14 @@
    "to": "kospi",
    "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-10-31",
+   "last_activated": "2026-11-03",
    "type": "index_heavyweights_memory_cycle",
    "added": "2026-10-13",
    "rationale": "NEW (housekeeping): Samsung −7.39%/SK hynix −10.09% → KOSPI −5.46% (13 Oct; sidecar); KOSPI −13.9% since 22 Sep on CXMT + OpenAI revenue news (Seoul Economic Daily, AP, Investing.com).",
-   "activation_count": 3,
+   "activation_count": 4,
    "context_2026-10-26": "CONFIRMED: KOSPI −7.57% on 15 Oct (circuit breaker; Samsung −9.48%, SK hynix −11.06%) and −9.4% over the window on the AI-credit selloff. 9.0→9.5 (markets C5).",
-   "context_2026-10-31": "2026-10-31: activation — KOSPI +6.6% on SK hynix (28 Oct), −3.5% on the US AI selloff (30 Oct). (intel MAC-A11)"
+   "context_2026-10-31": "2026-10-31: activation — KOSPI +6.6% on SK hynix (28 Oct), −3.5% on the US AI selloff (30 Oct). (intel MAC-A11)",
+   "context_2026-11-03": "2026-11-03: activation, weight held. KOSPI −3.59% (3 Nov) and SK hynix −5.0% on the AI funding wave (Oracle, Meta, Alphabet, Anthropic disclosures); foreigners sold ₩1.52trn. (intel MAC-A8)"
   },
   {
    "from": "saudi-arabia",
@@ -3706,6 +3712,17 @@
    "rationale": "NEW (inverse, risk-off channel): 22 Oct SOX −6.7%/Meta −7.0% with 10Y −17bp, real yields −12bp, breakevens −5bp, HY +13bp; 15 Oct KOSPI breaker with 10Y −9bp. The AI-credit channel moved US duration more than the war did this window. 2+ sources (Treasury/FRED + CNBC/Reuters/MarketWatch attributions). Seeded 4.0 as a watch.",
    "activation_count": 2,
    "context_2026-10-31": "2026-10-31: RAISED 4.0→5.0. Second AI-credit episode in eight days (Alphabet FCF −$9.07bn, Amazon capex ~$77bn vs OCF ~$42bn, Intel −28.6%) moved the 10Y 5.05→4.94% over two sessions while oil rose; HY OAS +12bp. (CONFIRMED filings + Treasury curve; markets C3)"
+  },
+  {
+   "from": "china",
+   "to": "saudi-arabia",
+   "weight": 4.0,
+   "directness": 2,
+   "last_activated": "2026-11-03",
+   "type": "diplomatic",
+   "added": "2026-11-03",
+   "rationale": "2026-11-03: NEW (watch). Saudi NSA al-Aiban carried an MBS letter to Xi and met Wang Yi on 2 Nov, the same day Wang met Iran's Bagheri Kani; envoy Zhai Jun tours Iran/Oman/Saudi in November (CONFIRMED meetings). Mediation/guarantor channel; hold at 4.0 until a text names China. (intel DIP-B1)",
+   "activation_count": 1
   }
  ]
 }

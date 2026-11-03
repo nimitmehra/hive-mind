@@ -23,60 +23,59 @@
 3. [x] viewer.html — interactive graph with Cytoscape.js, click for details, search, layer layout
 4. [x] `/crisis-brief` skill definition — `.claude/commands/crisis-brief.md` + readable copy in `skills/`
 
-## Latest Run — 2026-10-31 (morning), Day 246
-- **Pipeline complete.** Six parallel desk researchers produced the material for a consolidated `intel.md`. Markets, graph, brief and an independent fact-check agent followed. Everything was committed locally for the background uploader to push, then delivered.
-- **Timing.** First brief since 26 Oct, a 5-day gap. Ran ~19:19–20:40 IST on Saturday and was filed as "morning" under restart practice. All markets were last open Fri 30 Oct.
-- **Lead.** Washington is negotiating and preparing to strike at once, and both tracks point at 4 Nov.
-  - **The talks track:** Vance's letter to SNSC secretary **Mohsen** Rezaei reached Iran via Qatar on 25 Oct; receipt confirmed, no reply. Qatar held a 12-hour session in Tehran, and Iranian negotiators were in Doha.
-  - **The strike track:** Gulf allies were told to prepare for a "short, intense" post-midterm campaign. This is well-sourced REPORTED (three independent unnamed chains); "as soon as Nov 4" is single-source.
-  - **Tehran's side:** Mojtaba issued two written directives (end "neither war nor peace" on Iran's terms; an "unrestricted" response to any threat).
+## Latest Run — 2026-11-03 (morning), Day 249
+- **Pipeline complete.** Six parallel desks (~13:16–13:39 IST) → consolidated `intel.md` → `markets.md` (CoS direct pulls) → graph → brief → independent fact-check → corrections → local commit for the uploader → delivery.
+- **Timing.** Ran ~13:11–14:20 IST on Tuesday (US Election Day). Filed as "morning" under restart practice (3-day gap; no morning baseline). Last full session everywhere: Mon 2 Nov.
+- **Lead.** Oil fell 7.6% on deal talk (Jan Brent $113.43 → $104.77), and that night, per US officials, a US jet struck an IRGC launcher on Qeshm. The WSJ says it was one of a weeks-long quiet series. The strike is REPORTED (7+ outlets, own officials; IRNA blasts); there is no on-record confirmation.
 - **Other items.**
-  - **Oil:** December Brent expired at $117.64 on the first successful limpet attack (Louise 1, 29 Oct). October was the worst month of the ship war (UKMTO "just over 30").
-  - **Houthis:** kept firing at Riyadh after the Tehran meeting. Ras Tanura had a fire with a claimed but unestablished hit.
-  - **India:** a strong week carried by the Fed and the RBI. The IMF said "the rupee should be the first line of defense"; the forward book is $200bn short.
-  - **AI credit:** deepened (Alphabet's second negative-FCF quarter, Amazon). The US 10Y is at 4.94%.
-  - **Gas:** TTF crossed €100.
-  - **Israel:** hung result, 53/48/19.
+  - **Ship war:** an Indian was killed on the India-flagged dhow *Al Jusufi* off Limah (2 Nov; MEA names no attacker); UKMTO logged 3 attacks on 1 Nov (Kuwait-origin tanker, UAE tug).
+  - **Iran's blacklist:** +114 ships (~240), incl. KOTC, Bahri and ADNOC (REPORTED).
+  - **Physical oil:** Bloomberg has Gulf exports at 15.53 mb/d and Dubai in contango (REPORTED).
+  - **India:** Nifty 23,440.80 (highest close since 23 Sep); the rupee barely moved (RBI/SBI dollar buying; forward book a record $239.2bn).
+  - **AI funding scare:** Nasdaq-100 in correction; KOSPI/TAIEX −3.6%.
+  - **Houthi test:** failed on unattributed Riyadh-region drones.
+  - **Israel:** no 61-seat path.
+  - **Gas:** TTF ~€95.
 - **Graph.**
-  - All 63 nodes touched: 72 signals, 26 summaries rewritten, 4 snapshots.
-  - Edges stay at 413. Four were re-weighted: `brent→10Y` 7→6, `semis→10Y` 4→5, `qatar→cheniere` 6→6.5, `TTF→ecb` 7.5→8.
-  - All 131 open triggers were reviewed and 10 changed. Fired: the hyperscaler capex>OCF trigger, and TTF €100 on two nodes.
-  - **The Ras Tanura trigger was deliberately NOT fired.** It was REPORTED only, and the fact-check later showed the refinery was already damaged in March.
-  - 11 new dated watches.
-- **Fact-check.** 28 flags (0 critical, 9 high, 19 low), all applied, plus 6 graph corrections. Highs:
-  - "Ali" Rezaei → Mohsen;
-  - "Confirmed" Gulf warning → well-sourced REPORTED;
-  - Ras Tanura "hit" → fire;
-  - "best week of the autumn" was false;
-  - reserves fall was on gold valuation;
-  - IOC warning misframed;
-  - Alphabet's FCF was already negative in Q2;
-  - gap correction reworded to "re-widened";
-  - Patriot "moved into Israel" → "moving to the region".
+  - 61/63 nodes touched. Edges 413 → 414 (new `china → saudi-arabia` 4.0); `united-states → irgc` 6.5 → 7.5.
+  - 132 open triggers reviewed; 11 status changes, 2 amended, 7 new.
+  - **Fired:** Indian seafarer/India-flagged hull (CONFIRMED).
+  - **Breach reported:** the pledge trigger. Resolve next brief: broken if confirmed on the record, else expired.
+  - **Failed:** Houthi tempo. **Resolved:** OPEC+ (pause). **Expired:** 6 dated watches, provisional to end-3 Nov ET.
+  - **Redefined:** `united-states` "strikes resume 4–30 Nov" — on-record (not a single response to fire), 3+ nights, multi-site/beyond-launcher targets, or nuclear/energy/leadership — and the matching `brent-crude` <$100 test.
+- **Fact-check.** 24 flags (0 critical, 9 high, 15 low), all applied, plus 11 graph corrections (G1–G11). Highs:
+  - the strike stated as fact in two sentences;
+  - "March first below $100" was false;
+  - "no written reply" stated as fact;
+  - the "ball in America's court" line misattributed to Aref;
+  - India/Korea flows on different days;
+  - the Signal's "largely on state fleets" claim was unsupported;
+  - the Pusztai test scored wrongly;
+  - the pledge trigger set "broken" below its own 31-Oct threshold;
+  - the redefined strike trigger turned on Washington's "self-defence" label.
 - **Process notes.**
-  - **(1)** The Chief of Station stamped files with guessed times (~23:00 IST) instead of running `date`. The fact-checker copied the anchor. **Run `date` before writing any "Generated" line.**
-  - **(2)** Do not fill officials' first names from memory: "Ali" Rezaei was introduced by the Chief of Station, not a desk.
-  - **(3)** Before treating satellite "damage" as new, check the site's prior strike history in the graph and backfill research. Ras Tanura was hit on 2 Mar.
-  - **(4)** The uploader race is still handled: the verifier writes to staging, corrections are applied, then the report is copied into `briefs/`.
-  - **(5)** Carried over: `edges.json` has 24 duplicate from→to pairs (27 surplus records; `TTF→ecb` exists at 10 and 8.0). This needs a dedupe session. The brief footer now discloses it.
-  - **(6)** Carried over: node budgets far over 2k tokens.
-  - **(7)** Sections I–III ran ~3.4k words after corrections. Still over the 5-minute target.
-  - **(8)** Carried over: the architect hook blocks `scripts/update_graph_*.py`, so helpers live in `staging/<run>/gu_*.py`.
+  - **(1)** Two desks again wrote guessed sweep times (SAU, IND); corrected from file mtimes. **Add "run `date` before writing any time" to `_brief_for_agents.md` next run.**
+  - **(2)** Before resolving a trigger, read its prior dated notes for the threshold it set itself (the 31-Oct note on the pledge required on-record confirmation).
+  - **(3)** Before writing "first"/"record" about a contract or index, check the whole curve and history (June Brent was already below $100).
+  - **(4)** Sections I–III ran ~3.3k words after corrections. Still over the 5-minute target.
+  - **(5)** Carried over: 24 duplicate from→to pairs in `edges.json`; node budgets far over 2k tokens; the architect hook blocks `scripts/update_graph_*.py`, so helpers live in `staging/<run>/gu_*.py`.
+- **Open at publish.**
+  - Tuesday's India FII figure (~18:00 IST): if positive, the `nifty-50` capital-substitution trigger fires next brief.
+  - The Vance-reply trigger on its final day.
+  - US election results.
 - **Dated tells.**
-  - 1 Nov: OPEC+ (hold expected); NSDL October FPI.
-  - 2 Nov: India opens into the US tech rout; Reliance Q2 reaction.
-  - 3 Nov: midterms; the pledge expires.
-  - 4 Nov: earliest reported strike date; Israeli results to Herzog; EZ flash HICP.
-  - ~5 Nov: Aramco December OSP.
-  - 6 Nov: India reserves (first intervention week); US payrolls.
-  - 9 Nov: Tehran-text and Houthi tempo tests.
-  - 11 Nov: Israeli mandate.
-  - 12 Nov: India CPI (>6% expected).
-  - Late Nov: Roosevelt arrives.
-  - 29 Nov: OPEC+.
-  - 4 Dec: RBI.
-  - 9 Dec: FOMC.
-  - 17 Dec: ECB.
+  - 4 Nov: strike window opens (redefined); Israel certification and Herzog consultations; EZ flash HICP (3.9%).
+  - ~4–5 Nov: Aramco December OSP.
+  - 6 Nov: India reserves (first FCA >$3bn test); US payrolls.
+  - 9 Nov: Tehran-meeting text deadline.
+  - 11 Nov: Herzog's choice.
+  - 12 Nov: India CPI.
+  - 13 Nov: rupee 94.50 test.
+  - 17 Nov: Nvidia.
+  - Mid–late Nov: Roosevelt.
+  - 29 Nov: OPEC+ 2027.
+  - 30 Nov: most new watches.
+  - 4 Dec: RBI. 9 Dec: FOMC. 17 Dec: ECB.
 
 ---
 
