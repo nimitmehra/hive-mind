@@ -3,7 +3,7 @@
  "name": "Semiconductors (SMH/SOX)",
  "type": "sector",
  "created": "2026-04-25",
- "last_updated": "2026-11-03",
+ "last_updated": "2026-11-04",
  "summary": "Semiconductors / AI complex, Day 246. The AI-credit scare — which began when Alphabet's free cash flow first turned negative in Q2 (−$5.9bn, reported 23 Jul, a first in its public history) and spread to Meta on 21–22 Oct — deepened and broadened in Q3: Alphabet's Q3 capex exceeded its operating cash by $9bn (its second straight negative quarter) (shares −12.6%, the worst day in its history) and Amazon's by roughly $33bn, financed with $48bn of new debt; Microsoft stayed cash-positive but sold its first bond since 2017. Intel's guide-down then took the SOX down 7.2% on 30 Oct. Suppliers are the mirror image — SK hynix and Samsung printed record quarters and guided memory prices up. The market's question has moved from 'is AI demand real?' to 'who funds it?', and the answer is increasingly the bond market. For the war graph this matters because AI credit, not oil, has twice set US long yields this month (semiconductors → us-10y-yield raised to 5.0), and because AI risk-off has not sent money to India. Next tests: Q4 calls (late Jan–Feb 2027) for any 2027 capex cut.",
  "current": {
   "price": "SOX 10,688.80 (30 Oct, −7.2%); SMH $522.49",
@@ -81,7 +81,22 @@
    ],
    "added": "2026-10-31",
    "notes": "Alphabet guides 2027 capex to 'increase significantly', Amazon 'meaningfully more'; SK hynix: DRAM/HBM sold out through 2029. Barclays: AI basket at ~76bp over CDX.IG vs ~10bp six months ago (REPORTED, secondary). (intel MAC-A9/A11/C)",
-   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED. Note: Oracle's 5-yr CDS ~292bp alone would clear 100bp but Oracle is not a hyperscaler and no AI-basket CDS measure exists — define a measurable basket before this can fire. Correction logged on the 31-Oct fire: Meta (21 Oct) was the first hyperscaler with capex > OCF. (intel MAC-A7)"
+   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED. Note: Oracle's 5-yr CDS ~292bp alone would clear 100bp but Oracle is not a hyperscaler and no AI-basket CDS measure exists — define a measurable basket before this can fire. Correction logged on the 31-Oct fire: Meta (21 Oct) was the first hyperscaler with capex > OCF. (intel MAC-A7)",
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — Meta's negative outlook is a ratings signal, not a capex cut. (intel MAC-A6)"
+  },
+  {
+   "condition": "Texas enacts or formally announces a moratorium on AI data-centre construction or grid connections by 31 Mar 2027",
+   "status": "watching",
+   "cascade": [
+    "semiconductors",
+    "kospi",
+    "taiwan",
+    "sk-hynix",
+    "samsung",
+    "sp-500"
+   ],
+   "added": "2026-11-04",
+   "notes": "Hinojosa (D) won the governorship 3 Nov and has backed a moratorium (CNBC paraphrase; her own wording not found). Wells Fargo: 27% of planned US data-centre gigawatts are in Texas. A non-war tail risk for the AI complex that drives Korean/Taiwanese flows and the capital-substitution channel to India. (intel MAC-A6)"
   }
  ],
  "top_edges": [
@@ -139,14 +154,19 @@
   {
    "to": "nifty-50",
    "type": "capital_substitution_em_reallocation_north_asia_ai_vs_india_jun4_POTENTIAL_REVERSE_FIRING_broadcom_crack_NOT_flipped_on_one_session_watch_inflection",
-   "weight": 5.5,
+   "weight": 7.0,
    "directness": 2,
-   "last_activated": "2026-10-26",
+   "last_activated": "2026-11-04",
    "activation_count": 6,
-   "context": "WEAKENED on data: the capital-substitution thesis (AI boom pulls FPI money from India; AI crack sends it back) failed again — SOX −11.7%, KOSPI −22% 1M, yet FPI −₹48,056 cr from India in October. 6.5→5.5 (markets C5/C7)."
+   "context": "4 Nov: capital-substitution channel FIRED India-positive — FII +₹6,836.81 cr (3 Nov, third straight session) while foreigners sold ₩1.52trn in Korea the same day; AI complex KOSPI −37.6%/TAIEX −13.8%/SMH −22.5% from peaks. Raised 5.5 → 7.0. Provisional data; durability test = fii-flows 5 sessions."
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-04",
+   "headline": "**FROM 'CAN THEY FUND IT' TO 'WHERE CAN THEY BUILD IT' (3–4 Nov).** Meta priced a $15bn five-part bond (5.85% 2031s, 6.25% 2033s; ~3.9× covered, Bloomberg); S&P reportedly moved Meta to AA− negative (single relay). Oracle +5.85% (CDS ~294bp). SOX +2.63% to 10,600.40; Nasdaq-100 −9.75% from peak (just out of correction); AMD beat. Then Texas elected Gina Hinojosa governor, who backs a data-centre moratorium (CNBC); Wells Fargo: 27% of planned US data-centre gigawatts are in Texas; Kwon: 'a left-tail event to the AI trade'. Nikkei almost −5% and KOSPI to 5,421.72 intraday Wednesday before reversing. (CONFIRMED/REPORTED; intel MAC-A6/A7)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-11-03",
    "headline": "**AI CREDIT BECAME AN AI FUNDING SCARE (2 Nov).** Oracle filed $10bn stock + $10bn notes (−8.8%; 5-yr CDS ~292bp, 'high-end junk', S&P Global MI); Meta weighing ≥$20bn of bonds (Bloomberg, REPORTED) after $25bn stock + $12.5bn mandatory convertible; Alphabet €6bn bond, priced wider than May; Anthropic S-1/A: ~$895bn of commitments vs ~$132bn cash; Marvell–Lumentum $115bn all-stock; Intel −8.8% (two-day −35%). Nasdaq-100 27,989.82, −10.4% from 6 Oct (correction); SOX 10,328.33 (−3.4%; −29.4% from June); KOSPI/TAIEX −3.59% Tue. GRAPH CORRECTION: Meta's Q3 capex $34.91bn exceeded operating cash flow $32.79bn (8-K, 21 Oct) — three of four hyperscalers (Meta, Alphabet, Amazon) ran negative FCF in Q3; Microsoft did not. (CONFIRMED filings/prices; intel MAC-A7/A8)",

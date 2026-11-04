@@ -3,15 +3,15 @@
  "name": "Brent Crude",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-11-03",
- "summary": "Brent, Day 249. The October rally was built on a date — allies told to prepare for strikes 'after the midterms' — and on the last trading day before that date it came out: January Brent fell 7.6% to $104.77 on 2 Nov, the biggest one-day drop since July, as Tehran said its leader had authorised talks and Trump said a settlement 'could happen'. The front of the curve fell twice as hard as the back (Dec-27 −3.6%), March settled below $100 (every contract from March on is now under $100), and Bloomberg's tanker data say Gulf crude exports are near pre-war with the Middle East's own benchmark in contango — the price is mostly event premium on a physically comfortable crude market. Products are the exception: the diesel crack is still ~$81. Overnight the WSJ and others reported a US strike on Qeshm; Brent recovered only ~$1.8, so the market now discounts 'defensive' US fire. From 4 Nov the swing factors are a declared US campaign or an Iranian hit on Gulf energy or the anchorages (up) against a signed Qatari text (down, toward the $94 JPM fair value). Forecasters (Goldman $105, UBS $110) now sit on or above the market.",
+ "last_updated": "2026-11-04",
+ "summary": "Brent, Day 250. January settled $103.60 on 3 Nov (−1.1%) after a ~$6 two-leg flash drop to $100.80 on unconfirmed 'draft approved' headlines, and was ~$102.3 on 4 Nov; February is below $100 intraday. Gulf export trackers disagree on October: Vortexa (17.1 vs 18.9 mb/d) and Kpler (16.1 vs 17.09) show a fall, while Bloomberg's four-producer tally shows +~10%. Dated Brent's premium to futures has collapsed to ~$3.70 (Bloomberg, REPORTED), so the spot shortage premium is gone. What remains above bank fair values (JPMorgan ~$94, Goldman ~$85), ~$8–17, is futures risk premium. Diesel decoupled (crack ~$86.7). Swing: a declared US campaign (Capital Economics >$120) against a credible deal headline or a quiet window (<$100). January expires ~30 Nov.",
  "current": {
-  "price": "Jan-27 $104.77 (2 Nov settle, −7.6%); ~$106.5 Tue 3 Nov Asia (~13:15 IST); Mar-27 $99.04; Dec-27 $84.98",
-  "delta_1d": "−7.6% (2 Nov, Jan like-for-like); +1.7% Tue Asia",
-  "delta_1m": "+6.2% (script, front-month continuous)",
+  "price": "Jan-27 $103.60 (3 Nov settle); ~$102.3 Wed 4 Nov ~17:00 IST; Feb-27 ~$99.85; Mar-27 ~$97.60; Dec-27 ~$84.40",
+  "delta_1d": "−1.1% (3 Nov); ~−1.2% Wed intraday",
+  "delta_1m": "+1.7% (script, front-month continuous)",
   "delta_vs_4jul": "n/a",
-  "regime": "EVENT PREMIUM PRICED OUT ON TALK, NOT ON BARRELS (2 Nov). Front fell 2× the back; Dubai in contango; Gulf exports near pre-war (REPORTED); products still tight (diesel crack ~$81). Reported 'defensive' US strikes discounted (~$1.8). Swing factors: a DECLARED US campaign; an Iranian hit on Gulf energy or the anchorages; a signed Qatari text.",
-  "roll_note": "From Mon 2 Nov free feeds quote January ($113.43) — a phantom −3.6% vs the final December settle."
+  "regime": "SPOT PREMIUM GONE: Dated ~$3.70 over futures (REPORTED); futures ~$102–104 carry ~$8–17 over bank fair values (JPM ~$94, Goldman ~$85). Front draining faster than the back. Diesel decoupled (crack ~$86.7). Swing: a declared US campaign (>$120, Capital Economics) vs a deal headline or a quiet window (<$100).",
+  "roll_note": "BZ=F = January since 2 Nov. January expires ~30 Nov: a roll-driven sub-$100 print late in November must not be counted — use the contract that is front on the settle date."
  },
  "price_snapshots": [
   {
@@ -122,6 +122,11 @@
    "date": "2026-11-03",
    "price": "$104.77 (Jan-27 settle, 2 Nov); Mar-27 $99.04; Dec-27 $84.98",
    "trigger": "−7.6% one-day fall on US–Iran talk headlines on the eve of the midterms; the post-midterm strike premium priced out"
+  },
+  {
+   "date": "2026-11-04",
+   "price": "$103.60 (Jan-27 settle, 3 Nov); ~$102.3 Wed intraday; Feb-27 ~$99.85",
+   "trigger": "Flash drop to $100.80 on an unconfirmed 'draft approved' report; strike window opens quietly"
   }
  ],
  "active_triggers": [
@@ -273,7 +278,8 @@
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — physical leg met (Dated ~$125–135) but futures peaked $107.33 intraday (12 Oct); not 'Houthi Red Sea entry' (Houthis still spare neutral hulls).\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — futures $100–102; Houthis have not attacked a non-Saudi hull (day 11/14 of the Krieg test). Physical Oman/Dated >$130 is NOT the trigger (written on futures).\n[prior] REVIEWED 2026-09-17 — STAYS WATCHING — futures $105–109; DATED Brent did print >$130 (Bloomber",
    "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — futures high $117.45 (23 Oct); no Houthi attack on a non-Saudi hull; physical back below $130.",
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — high ~$118; no Houthi attack on a non-Saudi hull.",
-   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — Jan $104.77; no Houthi attack on a non-Saudi hull (~53 days)."
+   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — Jan $104.77; no Houthi attack on a non-Saudi hull (~53 days).",
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — ~$102; no Houthi attack on a non-Saudi hull."
   },
   {
    "condition": "Brent-Hormuz paper-physical divergence >$10/bbl in EITHER direction sustained 3 sessions",
@@ -316,7 +322,8 @@
    "notes": "Dec-26/Dec-27 spread $30 with the back flat = event premium; Goldman 'nearly $25' over fair value. Front month from 2 Nov is January (settled $111.70 on 23 Oct).",
    "note_2026-10-31": "[reviewed, stays watching] Window not yet open. January starts the window at $113.43 — needs −11.8% to reach $100; +14.6% to reach $130. (markets C1)",
    "condition_original": "Brent front-month settles below $100 on any day 4–30 Nov with NO US strike on Iranian territory (the event-premium unwind test) — OR above $130 (premium becomes a supply event)",
-   "note_2026-11-03": "[amended, stays watching] Amended 3 Nov: the WSJ/NBC report quiet 'defensive' US strikes for weeks (Qeshm 2 Nov, REPORTED); counting those would void the test on routine. Position at the window's open: Jan $104.77 (4.6% above $100, vs 11.8% on 30 Oct); Mar-27 already $99.04. $130 leg not near. (intel MAC-A1, DIP-A6; CoS reconciliation)"
+   "note_2026-11-03": "[amended, stays watching] Amended 3 Nov: the WSJ/NBC report quiet 'defensive' US strikes for weeks (Qeshm 2 Nov, REPORTED); counting those would void the test on routine. Position at the window's open: Jan $104.77 (4.6% above $100, vs 11.8% on 30 Oct); Mar-27 already $99.04. $130 leg not near. (intel MAC-A1, DIP-A6; CoS reconciliation)",
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — window day 1: January ~$102.3 intraday (2.3% above $100; 3.6% at Tuesday's $103.60 settle). Nearest test Tuesday's $100.80 intraday low. No US strike meeting legs a–d. ANNOTATE: (1) a sub-$100 settle driven mainly by the Russia–Ukraine track fires the letter for a non-war reason — log the cause; (2) January expires ~30 Nov — count only the contract front on the settle date. $130 leg not near. (intel MAC-A1/B2)"
   }
  ],
  "top_edges": [
@@ -407,6 +414,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-04",
+   "headline": "**DRIFTING TO $100 WITHOUT BREAKING IT (3–4 Nov).** January Brent (BZF27) $104.77 → $103.60 Tue (−1.1%) after a $6.4 intraday flash drop to $100.80 on an Al Jazeera 'Washington approved a draft' report that Iran and Qatar walked back; ~$102.3 Wed ~17:00 IST (low $101.54) on Trump's 'no immediate plans' (FT) and a Democratic Congress read as a constraint. February ~$99.85 intraday — below $100. Curve still flattening (Jan–Dec27 $19.79 → $18.72 → ~$17.9). Physical: Dated Brent's premium to futures ~$3.70 on 2 Nov from ~$30 in early October (Bloomberg via ZeroHedge, REPORTED); Djeno $25 under Dated; Dubai contango. Volumes disputed: Vortexa 17.1 vs 18.9 mb/d (Oct vs Sep), Kpler 16.1 vs 17.09 — both say October FELL, against Bloomberg's '+10%, near pre-war'. API crude −5.27 mb. Russia–Ukraine talks (Abu Dhabi 10–11 Nov) a non-Iran bearish driver. (CONFIRMED prices; REPORTED physical; intel MAC-A1/A2/B2)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-11-03",
    "headline": "**PHYSICAL CRUDE NOW POINTS TO PLENTY; PRODUCTS DO NOT.** Bloomberg tanker tracking (3 Nov): Saudi/UAE/Iraq/Kuwait exported 15.53 mb/d in October (+~10%), 'nearly back to pre-conflict' (Saudi 7.0, UAE 3.74, Iraq 3.35, Kuwait 1.44); Iran ZERO seaborne for a second month; Dubai's nearest spread in CONTANGO for the first time since July. (REPORTED, single origin.) No Dated/EIA spot print after 27 Oct ($123.10) — spot–futures gap cannot be updated. Diesel: HO Dec −5.4% but crack still ~$81/bbl; US retail diesel $6.29. Forecasts: Goldman Dec-26 $90 → $105, 2027 $80 → $88, upside $140 (1 Nov); UBS ~$110 year-end; ANZ $105; MS Q4 Dated $105; JPM fair value ~$94 (premium now ~$11). (intel MAC-A2/A4/A11; markets C2)",

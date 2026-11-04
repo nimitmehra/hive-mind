@@ -3,14 +3,14 @@
  "name": "European TTF Natural Gas",
  "type": "commodity",
  "created": "2026-03-28",
- "last_updated": "2026-11-03",
+ "last_updated": "2026-11-04",
  "summary": "European gas (TTF), Day 246. TTF crossed €100/MWh on 28 Oct for the first time since the 2022 crisis and the December contract settled around €103.6 on 30 Oct — up roughly 40% in October and more than three times its pre-war level. Supply is the war's doing: Qatar extended LNG force majeure to the end of December and is shipping perhaps a fifth of pre-war volume, and traders fear Iranian retaliation on Gulf energy if the US strikes after 3 Nov. Demand-side fragility is Europe's own: storage is about 75%, the lowest for the season since records began, with Germany near 62% and some countries already withdrawing. German power is at its highest since mid-2023, and the ECB debated a hike on 29 Oct citing energy. The beneficiaries are US LNG exporters (Cheniere raised guidance) and Qatar's own hedging into US supply. A warm winter or a US–Iran text are the downside paths; a strike on Gulf gas infrastructure the upside.",
  "current": {
-  "price": "~€94.9 Dec (2 Nov, −8.7%); €103.94 (30 Oct)",
+  "price": "~€91.6 Dec (3 Nov); ~€88–93 Wed 4 Nov (feeds conflict); €94.9 (2 Nov)",
   "driver": "Qatar FM to end-Dec + storage ~75% (record-low for season) + Asia competition + post-3-Nov strike risk",
   "delta_1m": "~+36–41% (October)",
   "regime": "ABOVE THE 2022-CRISIS THRESHOLD. Europe 'essentially betting on a warm winter' (Macquarie).",
-  "storage": "EU 74.56% and falling (2 Nov); Germany 61%; IEA: lowest entering winter since 2013"
+  "storage": "EU ~74–75% and falling (AGSI+ via JOGMEC; no print after 2 Nov)"
  },
  "price_snapshots": [
   {
@@ -43,6 +43,11 @@
    "date": "2026-10-31",
    "price": "€100–100.9 intraday 28 Oct (first since Dec 2022); Dec ~€103.6 settle 30 Oct",
    "trigger": "Qatar force majeure extended to end-Dec; storage ~75%; post-midterm strike risk"
+  },
+  {
+   "date": "2026-11-04",
+   "price": "~€91.6 (Dec, 3 Nov)",
+   "trigger": "Second daily fall on US–Iran deal headlines; euro-area energy inflation 20.8%"
   }
  ],
  "active_triggers": [
@@ -76,7 +81,8 @@
    "status_changed": "2026-10-13",
    "note_2026-10-26": "[reviewed, stays active] Remains active — every session since 6 Oct above €84.",
    "note_2026-10-31": "[reviewed, stays active] STAYS ACTIVE — ~€97–104 all week.",
-   "note_2026-11-03": "[reviewed, stays active] Stays ACTIVE (~€95)."
+   "note_2026-11-03": "[reviewed, stays active] Stays ACTIVE (~€95).",
+   "note_2026-11-04": "[reviewed, stays active] Stays ACTIVE — ~€88–93."
   },
   {
    "condition": "TTF front-month settles above €120/MWh by 31 Dec (winter stress beyond the 2022-threshold) — OR back below €80 (premium unwinds on a deal/warm winter)",
@@ -90,7 +96,8 @@
    ],
    "added": "2026-10-31",
    "notes": "Dec ~€103.6 (30 Oct); storage ~75% (record-low for season); Qatar FM to end-Dec; BofA had Q4 ~€100, Citi €56 (Citi falsified in practice). (intel ISR-A7/D)",
-   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — ~€94.9; neither leg (€120 / €80)."
+   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — ~€94.9; neither leg (€120 / €80).",
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — ~€88–93; €80 leg not hit (thin intraday ~€87). (intel MAC-A9)"
   }
  ],
  "top_edges": [
@@ -131,6 +138,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-04",
+   "headline": "December TTF ~€91.6 Tue 3 Nov (−3.4%; intraday low ~€87.3 on the same 'draft approved' headline that hit Brent); Wednesday feeds conflict — €93.10 at 08:50 GMT (Reuters relay) vs a thin NYMEX look-alike €87.79 at ~10:15 GMT. EU storage ~74–75% and falling. Euro-area October flash HICP 4.0% with energy +20.8% y/y (Eurostat). Norwegian maintenance ends Thu. (CONFIRMED HICP; REPORTED TTF levels; intel MAC-A9, ISR-A7/A8)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-11-03",
    "headline": "**BACK BELOW €100 ON WORDS; STORAGE TURNED DOWN (2–3 Nov).** December TTF €103.94 (30 Oct; first close above €100 since 2022) → ~€94.9 (2 Nov, −8.7%; ING; feeds €93–98), steepest fall since 8 Apr, on the same diplomacy headlines as oil; ~€95–97 Tue on the Qeshm report. Offsets: Oseberg processing outage, cold forecasts. EU storage 74.62% (1 Nov) → 74.56% (2 Nov) — withdrawals have begun; Germany 61.03%. IEA (3 Nov): lowest storage entering winter since 2013; tightness 'into 2027'. ING: Gulf LNG flows 'haven't recovered as much as on the oil side'. Qatar force majeure to end-December. JKM $32.84 (30 Oct). (CONFIRMED settle; REPORTED storage; intel MAC-A10, ISR-A7)",

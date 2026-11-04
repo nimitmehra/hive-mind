@@ -3,20 +3,20 @@
  "name": "Nifty 50",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-03",
+ "last_updated": "2026-11-04",
  "summary": "Nifty 50, Day 249. The index rose 1.7% on Monday to a highest close since 23 Sep (PTI: seven-week high) (23,440.80) and kept going on Tuesday (~23,725 at midday), carried by the oil collapse, Reliance's record refining quarter (+11.6%, about half the gain) and a second day of foreign buying, while Indian IT barely flinched at the US tech rout and Korea and Taiwan fell 3.6%. That divergence — India up, North-Asian AI down, foreigners buying India — is the capital-substitution pattern the graph has waited for, but it is one day old and two sessions of flows. India VIX rose with the index, so option buyers are hedging 4 Nov. The rally is a bet that the post-midterm window passes without a declared US campaign; the 22,000 support is ~6% below.",
  "current": {
-  "price": "23,440.80 (2 Nov); ~23,725 Tue 13:20 IST",
-  "delta_1d": "+1.68% (2 Nov)",
+  "price": "23,960.60 (4 Nov close); 23,810.85 (3 Nov)",
+  "delta_1d": "+0.63% (4 Nov)",
   "delta_fortnight": "+0.1% since 13 Oct",
-  "driver": "Oil relief + Reliance results + FII buying; ~60% crisis-linked (oil); India VIX rising with the index.",
+  "driver": "FII buying three sessions (+₹6,836.81 cr Tue), oil relief, OMCs; IT −1.5% on the US vote; ~55% crisis-linked",
   "delta_1m": "−3.0%",
-  "regime": "FLAT INDEX, ROTATION UNDERNEATH (26 Oct)."
+  "regime": "CAPITAL SUBSTITUTION RUNNING INDIA-POSITIVE (3 Nov): foreigners selling Korea, buying India."
  },
  "active_triggers": [
   {
    "condition": "North-Asia AI complex (KOSPI/SMH/TAIEX) corrects >10% from peak AND India FII turns net-positive for 3+ sessions = capital_substitution edge REVERSES -> India re-rating channel opens",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "nifty-50",
     "india",
@@ -36,7 +36,9 @@
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — leg 1 MET (KOSPI −13.9% since 22 Sep; SMH −6.8% from peak); leg 2 NOT MET (FPI −₹80k cr in ~5 weeks; no 3-session buying run). Capital is leaving EM, not rotating to India.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — moving AWAY: Nasdaq record/KOSPI >7,000/TAIEX +6.9% 1M and FPI −₹23.7k cr MTD. Neither leg met.",
    "note_2026-10-26": "[reviewed, stays watching] Leg 1 MET (KOSPI −22% 1M, SMH −10%); leg 2 NOT met (FPI −₹48k cr Oct). The substitution thesis is failing — see edge semiconductors→nifty-50 cut to 5.5.",
    "note_2026-10-31": "[reviewed, stays watching] Leg 1 met (KOSPI ~−32% from peak; SMH −15% 1M); leg 2 NOT MET — FII positive 27–28 Oct only (two sessions), negative 29 Oct. (intel IND-A6)",
-   "note_2026-11-03": "[reviewed, stays watching] NEAR-FIRE, NOT FIRED as of 13:40 IST: leg 1 MET (KOSPI −38%, TAIEX −13%, SMH −24% from peaks; Nasdaq-100 in correction); leg 2 at TWO sessions (30 Oct +₹3,599 cr, 2 Nov +₹3,115 cr). Fires if Tuesday's provisional FII (due ~18:00 IST) is positive — next brief to check. (intel IND-A6, MAC-A8)"
+   "note_2026-11-03": "[reviewed, stays watching] NEAR-FIRE, NOT FIRED as of 13:40 IST: leg 1 MET (KOSPI −38%, TAIEX −13%, SMH −24% from peaks; Nasdaq-100 in correction); leg 2 at TWO sessions (30 Oct +₹3,599 cr, 2 Nov +₹3,115 cr). Fires if Tuesday's provisional FII (due ~18:00 IST) is positive — next brief to check. (intel IND-A6, MAC-A8)",
+   "status_changed": "2026-11-04",
+   "note_2026-11-04": "[watching → fired] FIRED (3 Nov data). Leg 1 MET: KOSPI −37.6% (22-Jun peak), TAIEX −13.8% (6 Oct), SMH −22.5% (22 Jun). Leg 2 MET: FII net-positive three straight sessions — 30 Oct +₹3,599 cr, 2 Nov +₹3,114.68 cr, 3 Nov +₹6,836.81 cr (exchange provisional, official; NSE via PTI, QuantsApp, 5paisa, Trendlyne). Same-day divergence: foreigners sold ₩1.52trn in Korea on 3 Nov. CAVEATS: provisional cash figures; DIIs sold ₹3,678.85 cr the same day; capital-gains-relief talk is a second driver; Wednesday's figure not out at publish. The re-rating channel is OPEN, not proven durable — the `fii-flows` five-session test is the next gate. (intel IND-A1, MAC-A7; CoS R5)"
   },
   {
    "condition": "Nifty breaks below 22,000",
@@ -50,7 +52,8 @@
    "note_2026-06-10": "2026-06-10: FAR from firing — Monday 8 Jun's gap-down low-water mark was 23,123 (close), ~1,100 pts clear of 22,000; the index recovered to ~23,398 by Wed midday. STAYS WATCHING.",
    "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — low 22,600.",
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — closing low 22,698.85 (28 Oct).",
-   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — 23,440.80."
+   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — 23,440.80.",
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — 23,960.60."
   },
   {
    "condition": "Nifty breaks below 22,000 (200-day EMA)",
@@ -64,7 +67,8 @@
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — NOT FIRED: lowest close 22,231.80 (8 Oct); 22,721.95 now.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — 23,463; +1.5% off the 15-Sep low.",
    "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — low 22,600 (23 Oct).",
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED.",
-   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED."
+   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED.",
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — 23,960.60."
   },
   {
    "condition": "Nifty 23,775 (April 9 ceasefire-fracture low) broken Monday on weekend kinetic gap-down",
@@ -149,6 +153,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-04",
+   "headline": "**FIVE STRAIGHT GAINS ON FOREIGN MONEY (3–4 Nov).** Nifty 23,810.85 (+1.58%) Tue and 23,960.60 (+0.63%) Wed — highest close since 1 Sep, longest winning streak since June, biggest five-day gain since April (+5.6% from 28 Oct). FII +₹6,836.81 cr Tue (exchange provisional; reported as the largest single day of 2026), a third straight buying session, while foreigners sold ₩1.52trn in Korea the same day; DIIs −₹3,678.85 cr. The US vote hit only IT: Nifty IT −1.5% Wed (TCS −2.5%, HCLTech −2.4%) on a Democratic sweep 'expected to slow down AI spending' (Business Today). Second driver: capital-gains-relief talk for foreign investors (Sitharaman 2 Nov: will 'consider the representations'). India VIX 15.72 → ~15.19. (CONFIRMED prices/flows; REPORTED causes; intel IND-A1/A2/B2)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-11-03",
    "headline": "Nifty 23,053.10 (30 Oct) → 23,440.80 (2 Nov, +1.68%, highest close since 23 Sep (PTI: seven-week high)) → 23,725 (13:20 IST Tue, intraday). About half of Monday's gain was Reliance (+11.6% to ₹1,300 on a record O2C quarter); IOC/BPCL/HPCL +2–3%; Nifty IT −0.5% only, into the US tech rout. India VIX 15.30 → 15.50 → ~16.0–16.2 intraday — rising with the index (hedging the 4-Nov window). Note: Monday's official close jumped from 23,331 at 15:20 in the closing session. (CONFIRMED; intel IND-A7/A8)",
@@ -489,6 +498,11 @@
    "date": "2026-11-03",
    "price": "23,440.80 (2 Nov close); ~23,725 intraday 3 Nov",
    "trigger": "highest close since 23 Sep (PTI: seven-week high) on the oil unwind + Reliance, while KOSPI/TAIEX fell 3.6% on AI funding"
+  },
+  {
+   "date": "2026-11-04",
+   "price": "23,960.60 (4 Nov close)",
+   "trigger": "Fifth straight gain; highest close since 1 Sep; capital-substitution trigger fires"
   }
  ]
 }

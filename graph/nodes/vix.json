@@ -3,7 +3,7 @@
  "name": "VIX (CBOE Volatility Index)",
  "type": "index",
  "created": "2026-05-13",
- "last_updated": "2026-11-03",
+ "last_updated": "2026-11-04",
  "summary": "VIX, Day 241. ~19 (23 Oct close 19.45), up from 15 on 13 Oct, with a peak of 22.31 intraday on 16 Oct — driven by the AI-credit selloff and a hot CPI, not the war. It never reached the 25 'kinetic' marker despite strike rhetoric and a six-month oil high. Equity volatility prices Meta and CoreWeave, not Hormuz.",
  "current": {
   "price": "19.42 (30 Oct)",
@@ -39,7 +39,8 @@
    "notes": "REVIEWED 2026-10-13 — STAYS WATCHING — max close 16.39 in the window.\n[prior] REVIEWED 2026-09-22 — STAYS WATCHING — max 17.71 in the window; 14.87 now.\n[prior] REVIEWED 2026-09-14 — STAYS WATCHING — max 17.84 despite tanker sinkings and the pipeline shutdown; the paper-calm anomaly persists.",
    "note_2026-10-26": "[reviewed, stays watching] NOT FIRED — peak 22.31 (16 Oct).",
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — no source reports >25 on 30 Oct.",
-   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — high 21.77. The Qeshm report came after the US close."
+   "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — high 21.77. The Qeshm report came after the US close.",
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — high 21.91 (3 Nov)."
   },
   {
    "condition": "VIX +30% intraday move within 48h of Trump's return from Beijing (May 15-16)",
@@ -101,6 +102,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-04",
+   "headline": "VIX 21.15 → 20.83 (3 Nov; intraday high 21.91) → ~18.3 Wed (global-hours calc) as the election cleared. No kinetic marker. (CONFIRMED; intel MAC-B1)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-03",
    "headline": "VIX 19.42 → 21.15 (+8.9%, 2 Nov; intraday high 21.77) on a day oil fell 7.6% — driven by AI funding stress and election-day caution, not the war. (CONFIRMED; intel MAC-A7)",
