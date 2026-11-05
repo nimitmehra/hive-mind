@@ -3,14 +3,14 @@
  "name": "INR/USD Exchange Rate",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-04",
+ "last_updated": "2026-11-05",
  "summary": "Rupee, Day 249. A 7.6% fall in Brent moved the rupee by about 20–25 paise: it closed 94.84 on Monday (after a corrected 94.76 on Friday) and touched 94.60 on Tuesday morning. Dealers say the RBI and the State Bank are buying dollars into any strength — for oil payments and to refill a record $239bn forward short — capping it near 94.50. The rupee's oil link is now one-sided: it slid toward 95.3 when oil rose and is not allowed to gain much when oil falls. The clean test is whether it can close stronger than 94.50 before mid-November; a declared US campaign would put 95.3 and then 96.5 back in play.",
  "current": {
-  "price": "94.58 (4 Nov, PTI provisional; intraday best 94.50); 94.75 (3 Nov)",
+  "price": "94.46 PTI final (4 Nov); Reuters 94.64; ~94.50–94.53 Thu 5 Nov 09:15–11:05 IST",
   "note": "Fortnight -1.2%. RBI: near-daily measured intervention (spot+NDF); gold/silver import duties reportedly raised to curb dollar outflows (R). Reserves +$8.2bn over 2 wks to $675.16bn (valuation). The war premium lives HERE, not in the Nifty.",
   "driver": "Oil relief + FII inflows, capped at 94.50 by dollar bids (RBI/SBI refill read).",
-  "delta_1d": "rupee −0.5%",
-  "regime": "ASYMMETRIC: POLICY FLOOR ~95.3, REFILL CAP 94.50 — tested to the paisa 4 Nov and held."
+  "delta_1d": "rupee +0.3% (PTI, 4 Nov: 94.75 → 94.46); ~flat Thu",
+  "regime": "Cap at 94.50 pierced by one PTI close (4 paise), re-defended Thursday; oil relief one-sided."
  },
  "active_triggers": [
   {
@@ -83,7 +83,8 @@
    "note_2026-10-26": "[reviewed, stays watching] NOT FIRED.",
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — 94.93; Jan Brent $113.43.",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — 94.84; Brent $104.77. (intel IND-A1)",
-   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — 94.58; Brent ~$102–103 (the <$103 leg near)."
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — 94.58; Brent ~$102–103 (the <$103 leg near).",
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — Brent <$103 leg: session 1 (4 Nov); rupee 94.46 PTI. (intel IND-A2)"
   },
   {
    "condition": "RBI OMC special-credit-facility wound down (Branch 3 sub-$103 sustained 2-3 sessions)",
@@ -99,7 +100,8 @@
    "note_2026-10-26": "[reviewed, stays watching] NOT FIRED.",
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED.",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED.",
-   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — Brent $103.60 settle 3 Nov; the first sub-$103 settle is possible tonight. (intel IND trigger summary)"
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — Brent $103.60 settle 3 Nov; the first sub-$103 settle is possible tonight. (intel IND trigger summary)",
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — sub-$103 session 1. (intel IND trigger summary)"
   },
   {
    "condition": "USD/INR breaks ₹96.60 cleanly and holds for 3+ sessions — a clean break of the all-time record, distinct from the current touch-and-hold",
@@ -125,7 +127,7 @@
   },
   {
    "condition": "USD/INR closes stronger than 94.50 (PTI) on any day by 13 Nov — falsifies the 'RBI refill cap' read; no such close keeps oil relief one-sided",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "inr-usd",
     "rbi",
@@ -134,7 +136,21 @@
    ],
    "added": "2026-11-03",
    "notes": "Traders (Reuters 2–3 Nov) see gains capped near 94.50 by RBI/SBI dollar buying tied to the $239bn forward book. Monday 94.84, Tuesday a.m. low 94.60. (intel IND-A1)",
-   "note_2026-11-04": "[reviewed, stays watching] TESTED, NOT FIRED — intraday 94.50, close 94.58 provisional (4 Nov). 9 days left. (intel IND-A3; CoS R10)"
+   "note_2026-11-04": "[reviewed, stays watching] TESTED, NOT FIRED — intraday 94.50, close 94.58 provisional (4 Nov). 9 days left. (intel IND-A3; CoS R10)",
+   "status_changed": "2026-11-05",
+   "note_2026-11-05": "[watching → fired] FIRED on its letter (4 Nov). PTI's FINAL close was 94.46 (Millennium Post/PTI English; PTI Bhasha via ThePrint Hindi; CoS re-verified) — the 4-Nov note's 'close 94.58' was PTI's 16:09 provisional and is superseded. CAVEATS: Reuters closed 94.64; on Thu 5 Nov the rupee opened 94.36 and was pushed straight back to 94.50–94.53 despite a ~$9 Brent fall. Per its own text this FALSIFIES the 'RBI refill cap' read. Limits: Reuters closed 94.64; the 94.46 came BEFORE the oil fall (Brent ~$102 at India's close), so it shows the cap breaking without oil relief; the level was re-defended 5 Nov after the fall. A stricter successor watch is added (two PTI closes by 20 Nov). (verification H7/G4) Successor watch added (two consecutive PTI closes <94.50 by 20 Nov / >95.50). (intel IND-A2; CoS R4)"
+  },
+  {
+   "condition": "USD/INR posts TWO consecutive PTI closes stronger than 94.50 by 20 Nov (the cap is gone, not merely pierced) — OR a PTI close weaker than 95.50 (the oil relief reverses through the rupee)",
+   "status": "watching",
+   "cascade": [
+    "inr-usd",
+    "rbi",
+    "india",
+    "fii-flows"
+   ],
+   "added": "2026-11-05",
+   "notes": "Set 5 Nov after the single-close cap trigger fired on PTI's final 94.46 (4 Nov) and the rupee was re-capped at 94.50 on Thursday despite a ~$9 oil fall. A STRICTER test than the fired single-close trigger: separates a defended ceiling from a broken one. (intel IND-A2; CoS R4)"
   }
  ],
  "top_edges": [
@@ -175,6 +191,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-05",
+   "headline": "**THE CAP WAS PIERCED ON PAPER, THEN DEFENDED:** PTI's FINAL close Wed 4 Nov 94.46 (29 paise stronger; range 94.46–94.87); the 4-Nov brief used PTI's 16:09 provisional 94.58. Reuters closed 94.64. Thu: open 94.36, pushed straight back to 94.50–94.53 (09:15–11:05 IST) despite a ~$9 Brent fall — dollar buying at 94.50; buyer not named (PTI blamed 'the American currency's strength in overseas markets' although the dollar index it quoted was −0.34%). The `brent-crude → inr-usd` asymmetry again: oil relief barely reaches the rupee. (REPORTED close, two PTI relays; CONFIRMED Thursday prices; intel IND-A2; CoS re-verified)",
+   "verification": "REPORTED/CONFIRMED"
+  },
   {
    "date": "2026-11-04",
    "headline": "Rupee 94.84 (2 Nov) → 94.75 (3 Nov, PTI) → 94.58 provisional (4 Nov) after an intraday best of exactly 94.50, where 'importer and interbank dollar bids gathered' (Reuters: 94.64 close). The 94.50 cap held its first test. Corporate dollar hedging fell 35% in October. Reuters poll (2–4 Nov, 37 strategists): 96.00 by end-January. (CONFIRMED prices; REPORTED cause; intel IND-A3)",
@@ -560,6 +581,11 @@
    "date": "2026-11-04",
    "price": "94.58 (4 Nov, PTI prov.)",
    "trigger": "Touched 94.50 and was sold back — the refill cap's first test"
+  },
+  {
+   "date": "2026-11-05",
+   "price": "94.46 (PTI final, 4 Nov)",
+   "trigger": "94.50 cap trigger FIRED on its letter"
   }
  ]
 }

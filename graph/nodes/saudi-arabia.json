@@ -3,7 +3,7 @@
  "name": "Saudi Arabia",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-11-04",
+ "last_updated": "2026-11-05",
  "summary": "Saudi Arabia, Day 246. Riyadh bought a channel to Tehran on 26 Oct and got no relief from the Houthis: interceptions over the capital region came on five of the next six days, and on 27 Oct a fire broke out at Ras Tanura — the kingdom's main Gulf export and refining hub — which the Houthis claim as a hit (Bloomberg's source confirms only a contained fire near the terminal; one open-source imagery reading of a damaged unit cannot exclude the March damage). For the first time Riyadh and Aramco said nothing about an energy-site incident, and crude loadings carried on, so any damage is a products risk rather than lost crude. The coalition has started calling some Riyadh-region drones merely 'hostile', leaving open an Iraqi-militia second front. Saudi diplomacy compartmentalises: mediation with Iran through the Mecca pact, Rubio and Lavrov in Atlanta, the Houthis condemned by name at Manama while Iran goes unnamed. Saudi jets keep striking Yemen; Egypt has authorised help only if asked; Washington still will not strike the Houthis. Exports are reported at 5.4–7 mb/d depending on the tracker. Aramco's December prices (~5 Nov) and Q3 results are the next data.",
  "current": {
   "status": "UNDER DAILY HOUTHI FIRE AFTER THE TEHRAN MEETING (31 Oct); Ras Tanura fire 27 Oct (Houthi-claimed hit; silence from Riyadh); exports held (Vortexa 6.5 mb/d Oct). Coalition uses 'hostile drone' for Riyadh-region launches 30–31 Oct.",
@@ -156,7 +156,8 @@
    "notes": "Egypt's defence council approved support 18 Oct; roll-call vote 26 Oct (result not found). No egypt node — routed via saudi-arabia. (intel SAU-B2)",
    "note_2026-10-31": "[reviewed, stays watching] Leg 1 MET (26 Oct, two-thirds majority, 'if requested', defensive only — CONFIRMED); leg 2 NOT MET (no Egyptian unit confirmed in the kingdom). Watching to 30 Nov. (intel SAU-A8)",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — no Egyptian unit confirmed in the kingdom. (intel SAU-A11)",
-   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — Sisi statement of support only. (intel SAU tone)"
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — Sisi statement of support only. (intel SAU tone)",
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — Riyadh signed a defence cooperation agreement with Syria instead (4 Nov). (intel SAU-B1)"
   },
   {
    "condition": "Aramco/SPA acknowledges the 27-Oct Ras Tanura damage, OR a named imagery firm/Reuters confirms the hit, OR a second confirmed hit on Aramco processing/export capacity (Abqaiq, Ras Tanura, Yanbu, East-West line), by 30 Nov",
@@ -171,7 +172,8 @@
    "added": "2026-10-31",
    "notes": "Replaces the lapsed 27-Oct trigger. Ras Tanura: a fire is REPORTED (Bloomberg source: contained fire near the terminal; NASA FIRMS heat); the hit is only CLAIMED (Houthis), with one OSINT imagery reading that may reflect March 2026 damage; Houthis claimed Abqaiq (29 Oct). Erickson (Obsidian Risk): the Houthis face 'remarkably little resistance' striking Saudi infrastructure.",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — Aramco Q3 (3 Nov) cites 'attacks on key energy facilities' without naming a site; Dammam fire (1 Nov) was at air-conditioning sites per Civil Defence; no Abqaiq/Rabigh/Yanbu claim confirmed. (intel SAU-A3/A6)",
-   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — Aramco's Q3 materials and call do not mention Ras Tanura. (intel SAU-A5)"
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — Aramco's Q3 materials and call do not mention Ras Tanura. (intel SAU-A5)",
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "Aramco's December OSP for Arab Light to Asia (~5 Nov) is cut again (below −$5.00 vs Oman/Dubai) — exporter chasing volume, not scarcity — OR raised (scarcity pricing)",
@@ -184,7 +186,19 @@
    "added": "2026-10-31",
    "notes": "November OSP was −$5.00, a six-year low (The National, 5 Oct). Aramco is reportedly recalling Asian buyers to Yanbu (Bloomberg, 27 Oct). (intel SAU-A10)",
    "note_2026-11-03": "[reviewed, stays watching] PENDING (~4–5 Nov); Dubai's prompt spread in contango (Bloomberg 3 Nov) favours a cut (inference). (intel SAU-A7, MAC-A12)",
-   "note_2026-11-04": "[reviewed, stays watching] PENDING — not published as of ~17:40 IST 4 Nov; Reuters survey: Arab Light Asia held at −$5 or cut $1–2. (intel SAU-A5)"
+   "note_2026-11-04": "[reviewed, stays watching] PENDING — not published as of ~17:40 IST 4 Nov; Reuters survey: Arab Light Asia held at −$5 or cut $1–2. (intel SAU-A5)",
+   "note_2026-11-05": "[reviewed, stays watching] PENDING — not out at ~08:45 Riyadh 5 Nov (searched Argaam, Attaqa, Asharq Business, Arab News, Reuters, Bloomberg). (intel SAU-A6)"
+  },
+  {
+   "condition": "Syrian military units are confirmed deployed in Saudi Arabia, OR Syria formally joins the Saudi–Turkey–Pakistan mutual-defence ('Mecca') pact, by 31 Dec",
+   "status": "watching",
+   "cascade": [
+    "saudi-arabia",
+    "houthis",
+    "iran"
+   ],
+   "added": "2026-11-05",
+   "notes": "Set 5 Nov: Saudi and Syrian defence ministries signed a cooperation agreement in Riyadh (4 Nov; terms unpublished; ~$403m in loans); FM al-Shaibani said Damascus is weighing joining the pact. Tests whether Riyadh's new partners send units, unlike Egypt. (intel SAU-B1)"
   }
  ],
  "top_edges": [
@@ -265,6 +279,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-05",
+   "headline": "**DEFENCE PACT WITH SYRIA; SILENCE ON A HOUTHI 'RIYADH AIRPORT' CLAIM (4 Nov).** Al-Sharaa met MBS at al-Yamamah Palace; the defence ministries signed a cooperation agreement (terms unpublished) plus ~$403m in Saudi Fund loans; the joint statement demands 'the immediate halt to all actions threatening maritime navigation security in the Red Sea and the Bab al-Mandab and Hormuz straits', naming no one (CONFIRMED). Civil Defence alerts in the 'Riyadh region', Najran and Jazan, lifted within minutes (CONFIRMED); no coalition interception announced for ~34h; no comment on the Houthi claim of a ballistic-missile hit on King Khalid International Airport (CLAIMED). Aramco December OSPs not out (~08:45 Riyadh 5 Nov). No Gulf/OPEC+ event behind the oil fall. (intel SAU-A1/A2/A6/B1)",
+   "verification": "CONFIRMED/CLAIMED"
+  },
   {
    "date": "2026-11-04",
    "headline": "**RIYADH'S VOICE WENT GENERIC; ARAMCO TALKED BYPASS (3 Nov).** Cabinet (chaired by MBS): 'no leniency in defending its sovereignty and a firm response to any threat or aggression'; rejected threats to navigation and energy supply — named neither the Houthis nor Iran (unlike 27 Oct); the kingdom 'continued… to supply energy… reliably'. Aramco (Nasser, Q3 call): 'Preliminary engineering is underway' to expand the East-West pipeline from 7 to 10 mb/d; 'ready to rapidly ramp up production'; maximum capacity could exceed 12 mb/d if the government decides. December OSPs NOT out (in 2025: 6 Nov). A second Indian injured in the 10-Oct KKIA attack died (Indian Embassy, 4 Nov). Sisi: 'categorical rejection of any threat to… the Kingdom'. (CONFIRMED; intel SAU-A5/B3/B4)",

@@ -1,5 +1,5 @@
 {
- "last_updated": "2026-11-04",
+ "last_updated": "2026-11-05",
  "edges": [
   {
    "from": "united-states",
@@ -132,16 +132,17 @@
    "to": "inr-usd",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-03",
+   "last_activated": "2026-11-05",
    "type": "relief_leg_fired_oil_down_rupee_firmer_inr9522_minus1pct_import_bill_relief",
-   "activation_count": 8,
+   "activation_count": 9,
    "note_2026-09-14": "CONFIRMED 94.49→95.69 on oil >$100 + US yields (markets C5)",
    "note_2026-09-17": "CONFIRMED: Brent >$105 + INR 96. At cap.",
    "context_2026-09-22": "CONFIRMED: Brent −7.7% → rupee 96.13→95.81 without testing 96.60 (markets C6). At cap; activation logged.",
    "context_2026-10-13": "CONFIRMED: Brent back >$100 (1 Oct) → rupee 96.31 → 96.88 (8 Oct). At cap; activation logged.",
    "context_2026-10-26": "CONFIRMED: the rupee's 22–26 Oct reversal (94.38→95.22) tracked Brent Dec $108.8→$116.7. At cap; activation logged (markets C7).",
    "context_2026-10-31": "2026-10-31: activation — rupee gains capped by crude (Jan Brent ~$113). (intel IND-A1)",
-   "context_2026-11-03": "2026-11-03: activation, weight held; mark ASYMMETRIC. Brent −7.6% bought ~20–25 paise (94.76→94.84 close; 94.60 intraday low) because the RBI/SBI buy dollars into strength (reported) to fund oil and refill a $239bn forward short. The edge transmits oil spikes fully and oil falls barely. (intel IND-A1/A2; markets C4)"
+   "context_2026-11-03": "2026-11-03: activation, weight held; mark ASYMMETRIC. Brent −7.6% bought ~20–25 paise (94.76→94.84 close; 94.60 intraday low) because the RBI/SBI buy dollars into strength (reported) to fund oil and refill a $239bn forward short. The edge transmits oil spikes fully and oil falls barely. (intel IND-A1/A2; markets C4)",
+   "context_2026-11-05": "4–5 Nov: PTI's final Wed close 94.46 (4 paise through the cap) came BEFORE the oil fall (Brent ~$102 at India's close). After the 8.7% fall, Thursday's open at 94.36 was pushed straight back to 94.50. The asymmetry is confirmed by Thursday's session. Weight unchanged. (intel IND-A2; verification G1)"
   },
   {
    "from": "brent-crude",
@@ -1708,9 +1709,10 @@
    "to": "iran",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-31",
-   "activation_count": 1,
-   "context_2026-10-31": "2026-10-31: activation — Vance's letter to Rezaei via Qatar; receipt confirmed 29 Oct; no reply. (intel DIP-A2)"
+   "last_activated": "2026-11-05",
+   "activation_count": 2,
+   "context_2026-10-31": "2026-10-31: activation — Vance's letter to Rezaei via Qatar; receipt confirmed 29 Oct; no reply. (intel DIP-A2)",
+   "context_2026-11-05": "4 Nov: the Iran channel's lead calls the war a political loss on the record; Axios puts him at the head of the deal camp; Tehran did not react. (intel DIP-B1)"
   },
   {
    "from": "vance",
@@ -2657,10 +2659,12 @@
    "to": "lebanon",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-26",
+   "last_activated": "2026-11-05",
    "type": "jun6_israel_kept_striking_southern_lebanon_under_renewed_ceasefire_at_least_21_killed_friday_tyre_sidon_nabatieh_evacuation_orders_north_of_litani_beirut_NOT_struck",
    "added": "2026-05-14",
-   "rationale": "IDF announced May 13 it carried out a 'weeklong raid' beyond the Litani River near Zawtar al-Sharqiyah led by the Golani Brigade's Reconnaissance Unit (CONFIRMED — ToI liveblog May 13 + JNS + Haaretz). 'Some 15 Hezbollah operatives' killed past 24h; 'some 45 Hezbollah targets' total over 24h. Meaningful upgrade from yesterday's 'first publicly-acknowledged Litani crossing.' State Department CONFIRMED primary: third round US-facilitated Israel-Lebanon talks Washington May 14-15 (Karam-Dermer); April-23-extended 3-week ceasefire expires May 15 as talks finish — choreographed."
+   "rationale": "IDF announced May 13 it carried out a 'weeklong raid' beyond the Litani River near Zawtar al-Sharqiyah led by the Golani Brigade's Reconnaissance Unit (CONFIRMED — ToI liveblog May 13 + JNS + Haaretz). 'Some 15 Hezbollah operatives' killed past 24h; 'some 45 Hezbollah targets' total over 24h. Meaningful upgrade from yesterday's 'first publicly-acknowledged Litani crossing.' State Department CONFIRMED primary: third round US-facilitated Israel-Lebanon talks Washington May 14-15 (Karam-Dermer); April-23-extended 3-week ceasefire expires May 15 as talks finish — choreographed.",
+   "activation_count": 1,
+   "context_2026-11-05": "4 Nov: an Israeli drone killed one man in Qabrikha, the first death from Israeli fire in Lebanon since September; Zamir vows no Hezbollah 'infrastructure'. (intel ISR-A5)"
   },
   {
    "from": "uranium-sector",
@@ -3403,16 +3407,17 @@
    "to": "nifty-50",
    "weight": 5.0,
    "directness": 2,
-   "last_activated": "2026-11-04",
+   "last_activated": "2026-11-05",
    "type": "capital_substitution_INVERTED_jun16_north_asia_AI_complex_ripping_kospi_plus6.8pct_record_vs_nifty_plus1pct_same_riskon_day_AI_supercycle_pulls_EM_tech_allocation_away_from_india",
    "added": "2026-06-16",
    "rationale": "On the 15 Jun framework risk-on day, KOSPI +6.8% (record) / Nikkei +4.9% / TAIEX +3.2% vs Nifty +1.0%. The AI semiconductor supercycle (SK Hynix +11%) is an active capital competitor absorbing the EM/tech allocation that might otherwise rotate to India. Inverse of the existing capital_substitution trigger (which watches for N-Asia to CORRECT and India FII to turn positive). 2 sources (Nikkei Asia, TradingKey).",
-   "activation_count": 5,
+   "activation_count": 6,
    "context_2026-09-22": "CONFIRMED (same mechanism as semiconductors→nifty): KOSPI +5.8% 1M vs FPI selling India. 3.0→3.5 (markets E2).",
    "context_2026-10-13": "SIGNAL, NO WEIGHT CHANGE: AI complex −>10% but FPIs still sold India — substitution release valve did not open; binding constraint is dollar rates.",
    "context_2026-10-26": "WEAKENED: KOSPI −9.4% since 13 Oct with foreign selling ₩11.5trn, yet no rotation into India (FPI −₹48k cr Oct). 3.5→3.0 (markets C5).",
    "context_2026-11-03": "2026-11-03: activation, weight held; DIVERGENCE logged on price — 3 Nov KOSPI −3.6% (foreigners sold ₩1.52trn) while the Nifty rose ~1.3% intraday; India's FII buying was 30 Oct and 2 Nov, and the 3-Nov India flow is pending (~18:00 IST). Supports capital substitution (nifty-50 trigger leg 2) but the flows are not yet shown on the same day. (markets E; fact-check H5)",
-   "context_2026-11-04": "4 Nov: Korea −₩1.52trn vs India +₹6,836.81 cr on the same session (3 Nov); Korea −₩2.5trn more on 4 Nov (India's 4-Nov figure pending). The June inversion has reversed; raised 3.0 → 5.0 on data, but on three provisional Indian sessions — review the weight at the fii-flows five-session gate."
+   "context_2026-11-04": "4 Nov: Korea −₩1.52trn vs India +₹6,836.81 cr on the same session (3 Nov); Korea −₩2.5trn more on 4 Nov (India's 4-Nov figure pending). The June inversion has reversed; raised 3.0 → 5.0 on data, but on three provisional Indian sessions — review the weight at the fii-flows five-session gate.",
+   "context_2026-11-05": "5 Nov: KOSPI −5.2% and Nifty +1.7% the same morning; FII +₹7,284 cr in India Wed while foreigners sold Korea and Taiwan. Weight unchanged after the 4-Nov re-weight; one more day is not a new regime. (intel IND-B2, MAC-A6)"
   },
   {
    "from": "china",
@@ -3639,13 +3644,14 @@
    "to": "houthis",
    "weight": 8.5,
    "directness": 1,
-   "last_activated": "2026-10-31",
+   "last_activated": "2026-11-05",
    "type": "saudi_escalates_alone_sanaa_strikes_mecca_pact_ground_offensive_oct2026",
    "added": "2026-10-13",
    "rationale": "NEW (reverse direction): Riyadh escalated alone — Sanaa strikes from 1 Oct, Mecca Pact activated 5 Oct, Saudi-directed 'Dawn of Yemen' offensive from 5 Oct (~100 aircraft). CONFIRMED by AFP/Al Jazeera/SPA/Pakistan FM.",
-   "activation_count": 3,
+   "activation_count": 4,
    "context_2026-10-26": "CONFIRMED: Saudi strikes on Houthi fuel infrastructure (13 Oct) and launchers/tunnels (17, 24, 26 Oct) — a daily counter-launcher campaign. 8.0→8.5 (intel SAU-A5).",
-   "context_2026-10-31": "2026-10-31: activation, weight held — Saudi strikes in Sanaa (26 Oct) and al-Jawf/Marib/Taiz (28–30 Oct); 'terrorist militia' at Manama. (intel SAU-A6/B3)"
+   "context_2026-10-31": "2026-10-31: activation, weight held — Saudi strikes in Sanaa (26 Oct) and al-Jawf/Marib/Taiz (28–30 Oct); 'terrorist militia' at Manama. (intel SAU-A6/B3)",
+   "context_2026-11-05": "4 Nov: Houthi claims of a ballistic-missile hit on KKIA Riyadh and strikes in Jazan/Najran; Saudi silence; alerts in the Riyadh region, Najran, Jazan. (intel SAU-A2)"
   },
   {
    "from": "us-10y-yield",
@@ -3664,14 +3670,15 @@
    "to": "kospi",
    "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-11-03",
+   "last_activated": "2026-11-05",
    "type": "index_heavyweights_memory_cycle",
    "added": "2026-10-13",
    "rationale": "NEW (housekeeping): Samsung −7.39%/SK hynix −10.09% → KOSPI −5.46% (13 Oct; sidecar); KOSPI −13.9% since 22 Sep on CXMT + OpenAI revenue news (Seoul Economic Daily, AP, Investing.com).",
-   "activation_count": 4,
+   "activation_count": 5,
    "context_2026-10-26": "CONFIRMED: KOSPI −7.57% on 15 Oct (circuit breaker; Samsung −9.48%, SK hynix −11.06%) and −9.4% over the window on the AI-credit selloff. 9.0→9.5 (markets C5).",
    "context_2026-10-31": "2026-10-31: activation — KOSPI +6.6% on SK hynix (28 Oct), −3.5% on the US AI selloff (30 Oct). (intel MAC-A11)",
-   "context_2026-11-03": "2026-11-03: activation, weight held. KOSPI −3.59% (3 Nov) and SK hynix −5.0% on the AI funding wave (Oracle, Meta, Alphabet, Anthropic disclosures); foreigners sold ₩1.52trn. (intel MAC-A8)"
+   "context_2026-11-03": "2026-11-03: activation, weight held. KOSPI −3.59% (3 Nov) and SK hynix −5.0% on the AI funding wave (Oracle, Meta, Alphabet, Anthropic disclosures); foreigners sold ₩1.52trn. (intel MAC-A8)",
+   "context_2026-11-05": "5 Nov: KOSPI −5% with a sell sidecar on the data-centre permission trade (SK hynix −9.5%). Weight unchanged (already 9.5). (intel MAC-A6)"
   },
   {
    "from": "saudi-arabia",
@@ -3731,6 +3738,17 @@
    "type": "diplomatic",
    "added": "2026-11-03",
    "rationale": "2026-11-03: NEW (watch). Saudi NSA al-Aiban carried an MBS letter to Xi and met Wang Yi on 2 Nov, the same day Wang met Iran's Bagheri Kani; envoy Zhai Jun tours Iran/Oman/Saudi in November (CONFIRMED meetings). Mediation/guarantor channel; hold at 4.0 until a text names China. (intel DIP-B1)",
+   "activation_count": 1
+  },
+  {
+   "from": "vance",
+   "to": "brent-crude",
+   "weight": 5.0,
+   "directness": 2,
+   "last_activated": "2026-11-05",
+   "type": "political_signal_to_war_premium_PROVISIONAL_one_event",
+   "added": "2026-11-05",
+   "rationale": "4 Nov: Vance's X post ('The reason we lost is the war', 10:38 ET) preceded a $101.2 → $93.40 fall in January Brent within two hours; wire attribution (Raymond James: 'key catalyst'). One event: re-test on his next statement. (intel MAC-A1, DIP-B1) PROVISIONAL: one event; started at 5.0 (rhetoric earns modest weight); lift on a second episode. (verification G8)",
    "activation_count": 1
   }
  ]

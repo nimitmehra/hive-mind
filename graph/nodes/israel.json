@@ -3,10 +3,10 @@
  "name": "Israel",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-11-04",
+ "last_updated": "2026-11-05",
  "summary": "Israel, Day 246. The 27-Oct election produced no majority — Netanyahu's bloc 53, the Eisenkot-led opposition 48 and a record 19 for the Arab parties — and the polls the graph relied on missed by three to five seats in Netanyahu's favour. Herzog gets the results on 4 Nov and must assign a mandate by 11 Nov; Fitch expects a dissolution in January and another election in April. The practical effect is that Netanyahu remains caretaker prime minister through the whole 4–30 Nov window in which US strikes are being prepared; his election-night message was a 'once-in-a-lifetime opportunity' with Trump to remove the Iranian threat, and he is reported to be lobbying for a joint operation right after the US vote. US cargo jets and a Patriot battery are reportedly arriving. There was no Israel–Iran fire in the window and no Hezbollah or Houthi fire at Israel. The post-vote domestic story is a legitimacy fight ('stolen' claims, a Shin Bet interference probe), not Iran.",
  "current": {
-  "status": "Day 250: result certified (Likud abstained); Herzog consults from 20:30 IST 4 Nov, Likud last Thu; no 61 path; Trump says US aid ends by year-end; no fire on any front."
+  "status": "Day 251: coalition consultations under way, no 61 path (Eisenkot 56, Netanyahu 46 on stated positions; formal recommendations after day one: Netanyahu 12, Eisenkot 7; most parties meet Herzog 5 Nov); Herzog's mandate choice by ~11 Nov; no fire with Iran; PMO silent on Vance and the aid cut."
  },
  "active_triggers": [
   {
@@ -43,7 +43,8 @@
    "note_2026-10-26": "[reviewed, stays watching] NOT FIRED.",
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED.",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED.",
-   "note_2026-11-04": "[reviewed, stays watching] No evidence in the 3 Nov (~14:00 IST)–4 Nov (~17:45 IST) window bearing on this condition (six-desk sweep); unchanged."
+   "note_2026-11-04": "[reviewed, stays watching] No evidence in the 3 Nov (~14:00 IST)–4 Nov (~17:45 IST) window bearing on this condition (six-desk sweep); unchanged.",
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED."
   },
   {
    "condition": "Channel 12/13 or Haaretz publishes IDF imminent-strike preparation on Iran track within 72 hours",
@@ -60,7 +61,8 @@
    "note_2026-10-26": "[reviewed, stays active] Stays active (standing trigger). Channel 12 (25 Oct) reported a Netanyahu directive and Zamir's demand for authorisation — a command dispute, not an IDF imminent-strike preparation report; denied by Katz.",
    "note_2026-10-31": "[reviewed, stays active] STAYS ACTIVE (status of record). Kan (not 12/13/Haaretz) carried the airlift and 'preparing for any decision'.",
    "note_2026-11-03": "[reviewed, stays active] Stays ACTIVE; Kan's Israeli officials (2–3 Nov): window 'within the next two months', Trump 'could order new strikes… in the coming days'; IDF–US coordination on 'several scenarios'. (intel ISR-A4)",
-   "note_2026-11-04": "[reviewed, stays active] Stays ACTIVE (historical). New items are US (CENTCOM) planning and Israeli chemical-weapons lobbying, not IDF imminent-strike preparation; Home Front drills not chemical-focused (NYT). (intel ISR-A3/A4)"
+   "note_2026-11-04": "[reviewed, stays active] Stays ACTIVE (historical). New items are US (CENTCOM) planning and Israeli chemical-weapons lobbying, not IDF imminent-strike preparation; Home Front drills not chemical-focused (NYT). (intel ISR-A3/A4)",
+   "note_2026-11-05": "[reviewed, stays active] Stays ACTIVE (historical) — no new imminent-strike report; an Israeli official (Ynet, REPORTED) says the war is 'effectively… on hold'. (intel ISR-A3/B1)"
   },
   {
    "condition": "Second IDF KIA in southern Lebanon during the 45-day ceasefire extension window (by ~2026-06-29) — would test Pentagon-track-May29 architecture",
@@ -127,14 +129,16 @@
   },
   {
    "condition": "27 Oct election: any bloc reaches 61 seats, OR Herzog's consultations begin by ~5 Nov without a 61 path (repeat-election risk)",
-   "status": "watching",
+   "status": "fired",
    "cascade": "Government formation determines whether Jerusalem pushes the post-3-Nov US strike decision.",
    "added": "2026-10-13",
    "notes": "Added 2026-10-13.",
    "note_2026-10-26": "[reviewed, stays watching] PENDING — vote 27 Oct; mainstream final polls 48–50 for Netanyahu's bloc.",
    "note_2026-10-31": "[reviewed, stays watching] Leg 1 NOT MET (CONFIRMED: 53/48/19, no bloc at 61). Leg 2 pending: certification to Herzog 4 Nov, consultations after; a 61 path is not visible (Liberman the swing; Eisenkot rules out serving with Netanyahu). Likely to fire on the second leg ~5 Nov. (intel ISR-A1)",
    "note_2026-11-03": "[reviewed, stays watching] PENDING 4 Nov — consultations begin Wed 4 Nov 17:00 with no 61 path on stated pledges (Liberman vetoes Arab support; Deri vetoes Eisenkot). Expected to FIRE on the second leg when consultations open. (intel ISR-A2)",
-   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED as of ~17:45 IST — consultations open 20:30 IST tonight with no pledged route to 61 (opposition excluded the Arab lists 3 Nov; UTJ undecided). Expected to FIRE on the second leg when they open; next brief scores it. (intel ISR-A2; CoS R7)"
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED as of ~17:45 IST — consultations open 20:30 IST tonight with no pledged route to 61 (opposition excluded the Arab lists 3 Nov; UTJ undecided). Expected to FIRE on the second leg when they open; next brief scores it. (intel ISR-A2; CoS R7)",
+   "status_changed": "2026-11-05",
+   "note_2026-11-05": "[watching → fired] FIRED on the second leg (4 Nov). Herzog's consultations opened at 17:07 Israel (CONFIRMED, ToI/JPost) with no pledged route to 61: stated positions Eisenkot 56 (incl. Ra'am 8), Netanyahu 46; UTJ (5 no one, 2 undecided) and the Joint List (11) outstanding; Yisrael Beytenu rejects an Arab-backed government but says 'another election is not an option'. The 31-Oct, 3-Nov and 4-Nov notes all set this as the firing condition. Repeat-election risk is live but not decided; the mandate watch (Eisenkot by 11 Nov) carries on. (intel ISR-A1; CoS R5)"
   },
   {
    "condition": "Herzog gives the first mandate to Eisenkot (not Netanyahu) by 11 Nov",
@@ -147,7 +151,8 @@
    ],
    "added": "2026-11-03",
    "notes": "48 firm recommendations for Eisenkot vs ~46–53 for Netanyahu as of 3 Nov; Abrams (CFR) had predicted Netanyahu first. A caretaker Netanyahu without the mandate weakens Israel's leverage on the US strike decision. (intel ISR-A2)",
-   "note_2026-11-04": "[reviewed, stays watching] PENDING (11 Nov) — opposition unified behind Eisenkot (3 Nov); ~48 firm. (intel ISR-A2)"
+   "note_2026-11-04": "[reviewed, stays watching] PENDING (11 Nov) — opposition unified behind Eisenkot (3 Nov); ~48 firm. (intel ISR-A2)",
+   "note_2026-11-05": "[reviewed, stays watching] PENDING — Eisenkot 56, Netanyahu 46 on stated positions (formal recommendations after day one: Netanyahu 12, Eisenkot 7; most parties meet Herzog 5 Nov); UTJ (7) and the Joint List (11) outstanding; Likud at Herzog Thu evening. (intel ISR-A1)"
   },
   {
    "condition": "The US formally acts on ending aid to Israel by 31 Dec — a State/OMB/Pentagon notice, a signed US–Israel instrument, or a cut in an appropriation — beyond Trump's 3-Nov statement",
@@ -159,7 +164,8 @@
     "defense-sector"
    ],
    "added": "2026-11-04",
-   "notes": "Trump (3 Nov): ~$4bn a year ends 'by the end of the year'; the 2016 MoU runs to FY2028 and no mechanism was given; Israeli officials 'surprised' (REPORTED). Tests whether words become action. (intel ISR-B1)"
+   "notes": "Trump (3 Nov): ~$4bn a year ends 'by the end of the year'; the 2016 MoU runs to FY2028 and no mechanism was given; Israeli officials 'surprised' (REPORTED). Tests whether words become action. (intel ISR-B1)",
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — no State/OMB/Pentagon action; PMO silent. (intel ISR-A2)"
   }
  ],
  "top_edges": [
@@ -185,9 +191,9 @@
    "type": "jun7_10_idf_struck_dahiyeh_beirut_command_centre_then_whole_city_tyre_evacuation_and_deadliest_tyre_raid_of_war_continuing_after_israel_iran_suspension",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-10",
+   "last_activated": "2026-11-05",
    "activation_count": 54,
-   "context": "2026-06-10: Israel struck a 'Hezbollah command centre' in Beirut's Dahiyeh suburb (June 7; ≥2 killed, 11-20 wounded; first capital strike since the renewed truce), CROSSING the Beirut red-line; then issued a first-ever whole-city evacuation order for Tyre (June 8) and ran the deadliest Tyre raid of the war (June 9, ≥8 killed) — continuing AFTER the Israel-Iran mutual suspension."
+   "context": "4 Nov: an Israeli drone killed one man in Qabrikha, the first death from Israeli fire in Lebanon since September; Zamir vows no Hezbollah 'infrastructure'. (intel ISR-A5)"
   },
   {
    "to": "hezbollah",
@@ -208,6 +214,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-05",
+   "headline": "**CONSULTATIONS OPENED WITHOUT A 61 PATH; JERUSALEM SILENT ON VANCE (4–5 Nov).** Herzog opened at 17:07 Israel, 4 Nov. Stated positions: Eisenkot 56 (incl. Ra'am 8), Netanyahu 46; five of UTJ's seven recommend no one, Porush and Stark undecided; the Joint List (11) undecided. Yisrael Beytenu: no Arab-backed government, but 'another election is not an option'. Herzog on Vance: 'sentiments that are in the air in our great friend and ally'; PMO silent on Vance and on the aid cut. An Israeli official (Ynet, REPORTED): the war is 'effectively… on hold'; the fear is a Hormuz-only deal without the nuclear file. Mossad's Caesarea head fired (Haaretz). No Israel–Iran fire. (CONFIRMED consultations; intel ISR-A1/A2/A3/B1/B2)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-11-04",
    "headline": "**CERTIFIED, WITH LIKUD ABSTAINING; THE AID CUT LANDS (3–4 Nov).** The Central Elections Committee certified the 27-Oct result on 4 Nov (Ynet/INN: 15 for, 2 against — Otzma — 14 abstaining; Haaretz prints 15–14–2); Likud abstained rather than refusing to recognise; Likud MK Amit Halevi quit the committee; Herzog received the results ~12:38 Israel ('The elections are over. Now is the time to face reality'). Consultations open 17:00 Israel (20:30 IST), smallest parties first, Likud last on Thu. On 3 Nov the five opposition leaders agreed to recommend Eisenkot and ruled out the Arab lists (Liberman: 'yes'); Shas, Religious Zionism and Otzma back Netanyahu; UTJ and the Arab lists undecided — no pledged route to 61. Trump (3 Nov): ~$4bn/yr US aid ends 'by the end of the year', 'made a deal months ago' (CONFIRMED); Israeli finance/defence officials 'surprised' (REPORTED, Walla/Channel 12/Kan); PMO silent; Eisenkot: Netanyahu 'can no longer be trusted'. The IDF said 'No' to involvement in Qeshm (AFP). No fire on any Israel front. (intel ISR-A1/A2/A3/A5/B1)",

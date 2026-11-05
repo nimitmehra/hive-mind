@@ -3,7 +3,7 @@
  "name": "KOSPI (Korea Composite Stock Index)",
  "type": "index",
  "created": "2026-05-12",
- "last_updated": "2026-11-04",
+ "last_updated": "2026-11-05",
  "summary": "KOSPI, Day 246. Korea round-tripped on the AI cycle, not the war: SK hynix's record quarter (80% operating margin, memory sold out through 2029) lifted the index 6.6% to 6,012 on 28 Oct, and the US AI-buyer selloff (Alphabet, Amazon, Intel) took it back to 5,730.74 on 30 Oct — still +4.8% on the week but ~32% below the May record. Both memory makers guided prices up, so the graph's 'below 5,000 or memory guided down' trigger did not fire. Korea's exposure to the Gulf (energy, helium) did not show in the numbers this week; its exposure to who finances AI did.",
  "current": {
   "price": "5,730.74 (30 Oct)",
@@ -36,6 +36,11 @@
    "date": "2026-10-26",
    "price": "5,554.22 (−7.57%, 15 Oct) — circuit breaker; 5,469.47 (26 Oct)",
    "trigger": "Hot US CPI + AI-debt fears; foreigners −₩3.62trn that day"
+  },
+  {
+   "date": "2026-11-05",
+   "price": "~5,382 (Thu 5 Nov intraday)",
+   "trigger": "AI permission trade"
   }
  ],
  "active_triggers": [
@@ -82,7 +87,8 @@
    "notes": "26 Oct close 5,469.47; memory multiples at 3.0–3.3× forward.",
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED on either leg — lowest close in window 5,469.47 (26 Oct); SK hynix and Samsung guided memory pricing UP. (intel MAC-A11)",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — 5,648.79; no memory-pricing guidance cut. (intel MAC-A8)",
-   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — low 5,421.72 intraday, close 5,683.80; no memory-pricing guidance cut. (intel MAC-A7)"
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — low 5,421.72 intraday, close 5,683.80; no memory-pricing guidance cut. (intel MAC-A7)",
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — ~5,382–5,392 Thu intraday (−5.1 to −5.3%, sell sidecar), 7.8% above the line; no memory-pricing guidance cut. (intel MAC-A6)"
   }
  ],
  "top_edges": [
@@ -129,6 +135,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-05",
+   "headline": "**KOSPI −5.1 to −5.3% THU (~5,382–5,392 intraday) WITH A SELL SIDECAR;** foreigners −₩1.97trn by 13:00 KST; −40.8% from the June peak; 7.8% above the 5,000 trigger line. Driver: the AI permission trade (non-war). (CONFIRMED; intel MAC-A6)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-04",
    "headline": "KOSPI −3.59% Tue (5,648.79), then 5,683.80 Wed (+0.62%) after an intraday low of 5,421.72 as US results firmed. Foreigners sold ₩1.52trn Tue and ₩2.5trn Wed (₩4trn in two days) — while buying India. Batteries rallied on a Democratic Congress (Samsung SDI +11.57%, LGES +5.03%). −37.6% from the 22-Jun peak. (CONFIRMED; intel MAC-A7)",

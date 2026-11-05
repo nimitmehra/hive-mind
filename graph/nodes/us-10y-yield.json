@@ -3,12 +3,13 @@
  "name": "US 10-Year Treasury Yield",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-04",
+ "last_updated": "2026-11-05",
  "summary": "US 10-year, Day 246. The 10-year closed 4.94% on 30 Oct — its second straight close below 5% and a 35bp rally in October — but the war did not do it. Both breaks below 5% (22 Oct and 29–30 Oct) came on AI-credit shocks: Meta, then Alphabet's negative free cash flow and record one-day fall, Amazon spending ~$77bn against ~$42bn of operating cash, and Intel's 28.6% collapse. On the day oil jumped 2.4%, the 10-year fell 4bp and breakevens did not move; the Fed Chair himself said rates 'rolled over to the downside' as oil rose. The 2-year fell more (4.56%), pricing 'one more hike and done'. For the investor's 13-Oct condition, 'below 5%' is being met for the wrong reason and with high-yield spreads widening, so the graph's three-session trigger is not fired. The war's channel to US rates is now the front end via the Fed, not the long end via inflation expectations.",
  "current": {
-  "price": "4.95% (3 Nov, Treasury par); ~4.92% Wed 4 Nov intraday; 2Y 4.61%",
+  "price": "4.90% (4 Nov, Treasury par)",
   "driver": "JOLTS beat lifted the front end; the Democratic sweep rallied the long end; HY OAS flat (3.43%, 2 Nov).",
-  "regime": "SET BY AI CREDIT, NOT THE WAR (second episode in eight days). The 13-Oct 'below 5%' deployment condition met on two closes for the wrong reason, with HY spreads widening."
+  "regime": "SET BY AI CREDIT, NOT THE WAR (second episode in eight days). The 13-Oct 'below 5%' deployment condition met on two closes for the wrong reason, with HY spreads widening.",
+  "delta_1d": "−5bp"
  },
  "active_triggers": [
   {
@@ -45,7 +46,8 @@
    "notes": "Single close 4.96% (22 Oct) then 5.00%; HY OAS 3.40% (+24bp). The quality of the rally decides whether it helps EM flows.",
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — 2 sessions (4.98% 29 Oct, 4.94% 30 Oct); Mon 2 Nov could be the third, but the HY leg is FAILING (OAS +12bp on 29 Oct; 30-Oct print pending). (markets C3)",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — leg 1 MET (4.98/4.94/4.91, 29 Oct–2 Nov); leg 2 FAILING (HY OAS +26bp 27–30 Oct; 2-Nov ETF proxy wider). Fires only on a fresh three-close run below 5% with HY OAS flat or tighter. (intel MAC-A5)",
-   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED, PENDING — per its 3-Nov note it needs a FRESH three-close run with OAS flat or tighter. OAS flat on 2 Nov (3.43%); 3 Nov and 4 Nov OAS not yet published. Closes 4.91% (2 Nov), 4.95% (3 Nov), Wednesday pending (~4.92% intraday). Can fire on Wednesday's close if OAS prints flat. (intel MAC-A4; CoS R9)"
+   "note_2026-11-04": "[reviewed, stays watching] NOT FIRED, PENDING — per its 3-Nov note it needs a FRESH three-close run with OAS flat or tighter. OAS flat on 2 Nov (3.43%); 3 Nov and 4 Nov OAS not yet published. Closes 4.91% (2 Nov), 4.95% (3 Nov), Wednesday pending (~4.92% intraday). Can fire on Wednesday's close if OAS prints flat. (intel MAC-A4; CoS R9)",
+   "note_2026-11-05": "[reviewed, stays watching] NEAR-FIRE, PENDING ONE PRINT — fresh run 2–4 Nov: closes 4.91 / 4.95 / 4.90% (Treasury par) ✔; HY OAS base 3.44 (30 Oct) → 3.43 (2 Nov) → 3.40 (3 Nov) → 4 Nov unpublished at 11:24 IST (ETF proxy ~10–15bp tighter). Fires when FRED prints 4-Nov HY OAS ≤3.44%. Note the driver this time: breakevens −4bp on the oil fall, spreads tighter — not a growth scare. (intel MAC-A4; CoS R3)"
   }
  ],
  "top_edges": [
@@ -95,6 +97,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-05",
+   "headline": "**FIFTH STRAIGHT CLOSE BELOW 5%: 4.90% (4 Nov), LOWEST SINCE 9 SEP.** Treasury par: 2Y 4.58%, 30Y 5.28%. About 4bp of the 5bp fall came through breakevens (2.30 → 2.26%), i.e. oil. HY OAS 3.44 (30 Oct) → 3.43 → 3.40% (3 Nov); 4-Nov print pending (ETF proxy ~10–15bp tighter). (CONFIRMED; intel MAC-A4)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-04",
    "headline": "US 10Y 4.91% → 4.95% (3 Nov, Treasury par; JOLTS beat) — a fourth straight close below 5% (29 Oct–3 Nov); ~4.92% Wed intraday on the Democratic sweep (overnight low 4.89%). 2Y 4.61%, 30Y 5.32%; breakeven 2.30%; real 2.65%. HY OAS 3.43% (2 Nov, flat from 3.44%); 3-Nov OAS not yet on FRED; HY ETFs firmer Tue. ING: 10Y 'biased towards 5.25%'; Lombard Odier: post-midterm average −20–25bp over three months. (CONFIRMED; intel MAC-A4)",
@@ -336,6 +343,11 @@
    "date": "2026-10-31",
    "price": "4.94% close 30 Oct (second straight close <5%); 2Y 4.56%",
    "trigger": "AI-credit flight to quality (Alphabet, Amazon, Intel) while oil rose 2.4%"
+  },
+  {
+   "date": "2026-11-05",
+   "price": "4.90% (4 Nov)",
+   "trigger": "fresh three-close run below 5%; awaiting 4-Nov HY OAS"
   }
  ]
 }
