@@ -3,10 +3,10 @@
  "name": "FII (Foreign Institutional Investor) Flows — India",
  "type": "institution",
  "created": "2026-05-12",
- "last_updated": "2026-11-05",
+ "last_updated": "2026-11-06",
  "summary": "Foreign investor flows (India), Day 246. Foreign investors bought a net ₹6,305 crore of Indian shares in the week to 30 Oct — their first buying week in ten — after a hawkish-but-not-hawkish-enough Fed hold and with the rupee back below 95. It is not yet a trend: the longest buying streak was two sessions, October as a whole was the heaviest selling month of the year (provisional −₹45,162 crore; NSDL −₹48,056 crore to 23 Oct), and calendar-2026 outflows are a record ~₹3.1 lakh crore. Domestic funds have absorbed it all and now own more of the Nifty 500 than foreigners. The investor's deployment condition is five straight sessions of foreign buying with inflation peaking; neither leg is met.",
  "current": {
-  "status": "Oct −₹48,056 cr to 23 Oct (> Sept); pace slowing; DII +₹59,110 cr",
+  "status": "5 of 5 positive sessions (fired 6 Nov); 5 Nov +₹14,974.68 cr, largest in ~6 years; still net short index futures.",
   "september": "−₹35,861 cr",
   "price": "3 Nov +₹6,836.81 cr (prov.); 2 Nov +₹3,114.68 cr; 30 Oct +₹3,599 cr",
   "driver": "AI-trade unwind in North Asia + oil relief + capital-gains-relief talk; three-session streak."
@@ -30,7 +30,7 @@
   },
   {
    "condition": "FII flow turn POSITIVE for 5 consecutive sessions — confirms India deployment-zone re-entry",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "india",
     "nifty-50",
@@ -51,7 +51,9 @@
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — longest streak two sessions (27–28 Oct); 29 Oct −₹944 cr. (intel IND-A6)",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — two sessions (30 Oct, 2 Nov); Tuesday due ~18:00 IST. (intel IND-A6)",
    "note_2026-11-04": "[reviewed, stays watching] 3 of 5 (30 Oct, 2 Nov, 3 Nov); Wednesday and Thursday decide. (intel IND-A1)",
-   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — 4 of 5 (30 Oct, 2, 3, 4 Nov; Wed +₹7,284.03 cr exchange provisional, DIIs −₹3,712.23 cr). Thursday's print (~18:00 IST) decides. (intel IND-A1; CoS R6)"
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — 4 of 5 (30 Oct, 2, 3, 4 Nov; Wed +₹7,284.03 cr exchange provisional, DIIs −₹3,712.23 cr). Thursday's print (~18:00 IST) decides. (intel IND-A1; CoS R6)",
+   "status_changed": "2026-11-06",
+   "note_2026-11-06": "[watching → fired] FIRED. Fifth straight positive session: Thu 5 Nov FII +₹14,974.68 cr (gross buy ₹31,798 cr / sell ₹16,823 cr; exchange provisional), the largest single-day net purchase in nearly six years per Reuters (~$1.6bn). Run: 30 Oct, 2, 3, 4, 5 Nov = +₹35,808.74 cr. DIIs −₹10,444.54 cr (fifth day of selling). FIIs also cut their index-futures net short ~1.86 → ~1.37 lakh contracts (still net short: hedged). CAVEAT: the trigger's premise is 'India deployment-zone re-entry'; Friday's named engine was rotation out of AI-heavy Korea/Taiwan ('reverse AI'), which does not depend on the war. (intel IND-A1/B1)"
   },
   {
    "condition": "October FPI selling exceeds September's ₹35,861 cr (NSDL month column) by 31 Oct",
@@ -62,6 +64,17 @@
    "status_changed": "2026-10-26",
    "note_2026-10-26": "[watching → fired] FIRED: −₹48,056 cr to 23 Oct vs September −₹35,861 cr (NSDL month column via PTI). CONFIRMED. (intel IND-A7)",
    "note_2026-10-31": "[stays fired] Provisional October FII −₹45,162 cr (exchange data, secondary only) vs NSDL −₹48,056 cr to 23 Oct (incl. primary); final NSDL October figure due 1 Nov. The fire stands on the NSDL to-23-Oct column (> September's −₹35,861 cr). (intel IND-A6)"
+  },
+  {
+   "condition": "FIIs turn net SELLERS in Indian cash equities for 3 consecutive sessions by 30 Nov (exchange provisional) — the rotation into India reverses",
+   "status": "watching",
+   "cascade": [
+    "nifty-50",
+    "inr-usd",
+    "india"
+   ],
+   "added": "2026-11-06",
+   "notes": "Successor to the fired five-session test. The 5-Nov day (the largest single-day FII buy in nearly six years, Reuters) (+₹14,974.68 cr) was tied to rotation out of AI-heavy Korea/Taiwan as much as to oil; FIIs remain net short ~1.37 lakh index-futures contracts (hedged). (intel IND-A1/B1)"
   }
  ],
  "top_edges": [
@@ -79,18 +92,18 @@
    "type": "dominant_marginal_buyer_seller_jun8_DII_plus5165cr_absorbed_93pct_of_fii_minus5556cr_held_23000_floor_index_rose_on_trump_tone_despite_fii_selling",
    "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-11-04",
+   "last_activated": "2026-11-06",
    "activation_count": 7,
-   "context": "4 Nov: three straight FII buying sessions, the 3-Nov +₹6,836.81 cr reported as the largest of 2026; DIIs net sellers. Held at 9.5, activated."
+   "context": "5–6 Nov: fifth straight buying day, the largest in ~6 years; Nifty +4.5% in two days to 25,030.35 (pre-war high). Held at 9.5."
   },
   {
    "to": "inr-usd",
    "type": "fx_pressure_via_dollar_demand_jun8_fii_still_selling_rupee_fell_77p_to_9571_then_firmed_to_9540_on_trump_tone",
    "weight": 9.0,
    "directness": 1,
-   "last_activated": "2026-06-10",
+   "last_activated": "2026-11-06",
    "activation_count": 5,
-   "context": "2026-06-10: FII dollar-demand persists (still net-selling); the rupee fell 77p to 95.71 Mon 8 Jun on escalation, then firmed to ~95.40 on Trump's tone — Rs96 pressed but not breached. Weight held at 9, retained per the FII-edge exception."
+   "context": "5–6 Nov: the largest single-day FII buy in nearly six years (Reuters) (+₹14,974.68 cr Thu) carried the rupee through the 94.50 cap to 93.89 with Brent higher — 'a flow-driven strength' (HDFC Securities). Held at 9.0."
   },
   {
    "to": "rbi",
@@ -111,6 +124,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-06",
+   "headline": "**FIFTH STRAIGHT BUYING DAY — THE LARGEST IN NEARLY SIX YEARS (Thu 5 Nov).** FII +₹14,974.68 cr (gross buy ₹31,798 cr / sell ₹16,823 cr; exchange provisional); Reuters ~$1.6bn, largest single-day net purchase in nearly six years. Five sessions 30 Oct–5 Nov: +₹35,808.74 cr. DIIs −₹10,444.54 cr. FIIs cut index-futures net short ~1.86 → ~1.37 lakh contracts (still short). Same day foreigners sold −₩3.42trn in Korea. Trigger FIRED. Friday's figure: see intel IND-A1. (CONFIRMED; intel IND-A1/B1)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-05",
    "headline": "**FOURTH STRAIGHT BUYING SESSION: +₹7,284.03 cr (Wed 4 Nov, exchange provisional)**, reportedly the biggest since 28 Oct 2025 (one source); DIIs −₹3,712.23 cr. November so far +₹17,236 cr (exchange) / ₹14,863 cr (NSDL). Thursday's print (~18:00 IST) decides the 5-session trigger. Same day: foreigners sold NT$149.9bn of Taiwan and (Thu) ₩1.97trn of Korea. (CONFIRMED; intel IND-A1, MAC-A6)",

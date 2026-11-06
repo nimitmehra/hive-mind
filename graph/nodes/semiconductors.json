@@ -3,7 +3,7 @@
  "name": "Semiconductors (SMH/SOX)",
  "type": "sector",
  "created": "2026-04-25",
- "last_updated": "2026-11-05",
+ "last_updated": "2026-11-06",
  "summary": "Semiconductors / AI complex, Day 246. The AI-credit scare — which began when Alphabet's free cash flow first turned negative in Q2 (−$5.9bn, reported 23 Jul, a first in its public history) and spread to Meta on 21–22 Oct — deepened and broadened in Q3: Alphabet's Q3 capex exceeded its operating cash by $9bn (its second straight negative quarter) (shares −12.6%, the worst day in its history) and Amazon's by roughly $33bn, financed with $48bn of new debt; Microsoft stayed cash-positive but sold its first bond since 2017. Intel's guide-down then took the SOX down 7.2% on 30 Oct. Suppliers are the mirror image — SK hynix and Samsung printed record quarters and guided memory prices up. The market's question has moved from 'is AI demand real?' to 'who funds it?', and the answer is increasingly the bond market. For the war graph this matters because AI credit, not oil, has twice set US long yields this month (semiconductors → us-10y-yield raised to 5.0), and because AI risk-off has not sent money to India. Next tests: Q4 calls (late Jan–Feb 2027) for any 2027 capex cut.",
  "current": {
   "price": "SOX 10,688.80 (30 Oct, −7.2%); SMH $522.49",
@@ -83,7 +83,8 @@
    "notes": "Alphabet guides 2027 capex to 'increase significantly', Amazon 'meaningfully more'; SK hynix: DRAM/HBM sold out through 2029. Barclays: AI basket at ~76bp over CDX.IG vs ~10bp six months ago (REPORTED, secondary). (intel MAC-A9/A11/C)",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED. Note: Oracle's 5-yr CDS ~292bp alone would clear 100bp but Oracle is not a hyperscaler and no AI-basket CDS measure exists — define a measurable basket before this can fire. Correction logged on the 31-Oct fire: Meta (21 Oct) was the first hyperscaler with capex > OCF. (intel MAC-A7)",
    "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — Meta's negative outlook is a ratings signal, not a capex cut. (intel MAC-A6)",
-   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — hyperscalers rallied (Microsoft +6.7%). (intel MAC-A6)"
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — hyperscalers rallied (Microsoft +6.7%). (intel MAC-A6)",
+   "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — hyperscalers fell Thu (MSFT −3.6%, AMZN −2.2%) but no guidance change; AI CDS not found. (intel MAC-A6)"
   },
   {
    "condition": "Texas enacts or formally announces a moratorium on AI data-centre construction or grid connections by 31 Mar 2027",
@@ -98,7 +99,8 @@
    ],
    "added": "2026-11-04",
    "notes": "Hinojosa (D) won the governorship 3 Nov and has backed a moratorium (CNBC paraphrase; her own wording not found). Wells Fargo: 27% of planned US data-centre gigawatts are in Texas. A non-war tail risk for the AI complex that drives Korean/Taiwanese flows and the capital-substitution channel to India. (intel MAC-A6)",
-   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — the governor-elect's campaign position (relays); she takes office in January. (intel MAC-A6)"
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — the governor-elect's campaign position (relays); she takes office in January. (intel MAC-A6)",
+   "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — no formal Texas action; Sanders' 'National data center moratorium now' (5 Nov) is federal rhetoric. SOX −12.25% Thu. (intel MAC-A6)"
   }
  ],
  "top_edges": [
@@ -123,18 +125,18 @@
    "type": "sector_component_systemic_risk_transmitter_ai_rotation_chip_tape_drives_nasdaq",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-31",
+   "last_activated": "2026-11-06",
    "activation_count": 7,
-   "context": "2026-10-31: activation — Alphabet/Intel/Amazon drove S&P −1.8% on 30 Oct. (intel MAC-A10)"
+   "context": "5 Nov: S&P −4.36% (worst since Apr 2025) on the chip/data-centre repricing. Held at 10.0."
   },
   {
    "to": "vix",
    "type": "systemic_non_crisis_vol_source_ai_valuation_crack_bid_index_vol",
-   "weight": 5.0,
+   "weight": 6.0,
    "directness": 2,
-   "last_activated": "2026-06-06",
+   "last_activated": "2026-11-06",
    "activation_count": 1,
-   "context": "2026-06-06 (markets E2): ADDED. The 5-June AI rout (SOX largest 1D plunge since March 2020) bid index vol — VIX +39.7% to 21.51 — on a day with NO war catalyst (gold and oil FELL). This confirms semis are now large/crowded enough to be a SYSTEMIC, non-crisis source of equity-vol, distinct from the geopolitical VIX channel. First explicit activation (act 1); initial weight 5.0 for a 2nd-order systemic vol transmitter (directness 1.5; not inflated on one session)."
+   "context": "RAISED 5.0 → 6.0. 5 Nov: SOX −12.25% (worst since Mar 2020) took VIX 16.61 → 28.18 (+69.7%) with no kinetic event — the second non-war VIX spike from chips (after 5 Jun). Keeps the `vix` kinetic trigger honest."
   },
   {
    "to": "united-states",
@@ -158,12 +160,17 @@
    "type": "capital_substitution_em_reallocation_north_asia_ai_vs_india_jun4_POTENTIAL_REVERSE_FIRING_broadcom_crack_NOT_flipped_on_one_session_watch_inflection",
    "weight": 7.0,
    "directness": 2,
-   "last_activated": "2026-11-04",
+   "last_activated": "2026-11-06",
    "activation_count": 6,
-   "context": "4 Nov: capital-substitution channel FIRED India-positive — FII +₹6,836.81 cr (3 Nov, third straight session) while foreigners sold ₩1.52trn in Korea the same day; AI complex KOSPI −37.6%/TAIEX −13.8%/SMH −22.5% from peaks. Raised 5.5 → 7.0. Provisional data; durability test = fii-flows 5 sessions."
+   "context": "5–6 Nov: inverse/substitution reading — SOX −12.25% and Asian chip crash coincided with Nifty +2.0% Fri ('India was least impacted', Geojit). Held at 7.0."
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-06",
+   "headline": "**SOX −12.25%, WORST DAY SINCE MARCH 2020 (5 Nov).** 10,268.65 → 9,011.14 (38.4% below the 22-Jun peak); Nvidia −9.3%. Qualcomm and Arm results; Democratic data-centre politics (Sanders, Ansari's 'pause on advanced AI development'). Friday: KOSPI −6.0%, SK Hynix −10.4%, Samsung −6.4%, TSMC −4.7%; Nikkei and TAIEX in bear markets. Non-war. Wells Fargo's SOX ≤9,540 call met. (CONFIRMED; intel MAC-A6)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-05",
    "headline": "**THE AI TRADE'S RISK MOVED FROM FUNDING TO PERMISSION (4–5 Nov, non-war):** SOX −3.13% (10,268.65, lowest close since 28 Apr); Nvidia −3.2%, Micron −7.0%; CoreWeave −9.9%, Vistra −13.8%, Vertiv −12.9%; hyperscalers up (Microsoft +6.7%, Amazon +6.1%). Driver (REPORTED): expected Democratic and Texas limits on new data centres; Texas's governor-elect backs a moratorium (relays). Altimeter's Gerstner: 'at least 10 to 15 gigawatts of the expected build' may not come online. Crisis share ~0–5%. (intel MAC-A6)",

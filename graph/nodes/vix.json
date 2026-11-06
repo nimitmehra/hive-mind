@@ -3,10 +3,10 @@
  "name": "VIX (CBOE Volatility Index)",
  "type": "index",
  "created": "2026-05-13",
- "last_updated": "2026-11-05",
+ "last_updated": "2026-11-06",
  "summary": "VIX, Day 241. ~19 (23 Oct close 19.45), up from 15 on 13 Oct, with a peak of 22.31 intraday on 16 Oct — driven by the AI-credit selloff and a hot CPI, not the war. It never reached the 25 'kinetic' marker despite strike rhetoric and a six-month oil high. Equity volatility prices Meta and CoreWeave, not Hormuz.",
  "current": {
-  "price": "19.42 (30 Oct)",
+  "price": "28.18 (5 Nov close; ~26.9 Fri); non-kinetic (AI crash)",
   "read": "Elevated but not stressed; driven by AI-credit, with event hedging into 3–4 Nov.",
   "driver": "SOX/Meta/CoreWeave + CPI; war a minor contributor"
  },
@@ -25,7 +25,7 @@
    "status_changed": "2026-09-22"
   },
   {
-   "condition": "VIX >25 intraday = kinetic-event marker (Trump strike order, Iran ballistic launch, Israeli enrichment strike)",
+   "condition": "VIX >25 intraday WITH a coincident kinetic event (Trump strike order, Iran ballistic launch, Israeli enrichment strike) — a non-kinetic VIX spike is logged, not fired",
    "status": "watching",
    "cascade": [
     "sp-500",
@@ -41,7 +41,9 @@
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — no source reports >25 on 30 Oct.",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — high 21.77. The Qeshm report came after the US close.",
    "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — high 21.91 (3 Nov).",
-   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — 16.61 (−20%); high 18.3. (intel MAC-B1)"
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — 16.61 (−20%); high 18.3. (intel MAC-B1)",
+   "condition_original": "VIX >25 intraday = kinetic-event marker (Trump strike order, Iran ballistic launch, Israeli enrichment strike)",
+   "note_2026-11-06": "[amended, stays watching] THRESHOLD CROSSED, PREMISE NOT MET — NOT FIRED. VIX closed 28.18 on Thu 5 Nov (intraday 28.36; +69.7%, the third-largest one-day % jump in ten years; ~26.9 Fri) on the AI/data-centre crash (SOX −12.25%, worst since Mar 2020; S&P −4.36%). No strike order, no Iranian launch, no Israeli strike in the window (DIP, KIN, ISR, MAC all checked). Amended so the letter matches the premise: this is a FALSE POSITIVE on the original wording and must not be read as a war signal. (intel MAC-A6, DIP/KIN cross-desk flags)"
   },
   {
    "condition": "VIX +30% intraday move within 48h of Trump's return from Beijing (May 15-16)",
@@ -103,6 +105,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-06",
+   "headline": "**VIX 28.18 ON A NON-WAR CRASH (5 Nov):** +69.7% (third-largest one-day % jump in ten years; highest close since 30 Mar); ~26.9 Fri. No strike order, no Iranian launch, no Israeli strike — the kinetic-marker trigger's letter was met without its premise (amended; not fired). (CONFIRMED; intel MAC-A6, DIP/KIN flags)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-05",
    "headline": "VIX 20.83 → 16.61 (−20.3%) on 4 Nov; high 18.3. (CONFIRMED; intel MAC-B1)",

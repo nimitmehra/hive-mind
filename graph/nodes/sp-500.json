@@ -3,7 +3,7 @@
  "name": "S&P 500",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-05",
+ "last_updated": "2026-11-06",
  "summary": "S&P 500, Day 241. 7,623.68 (23 Oct), −2.3% since 13 Oct and −2.5% from the 6-Oct record; Nasdaq −4.6%. The drivers are ~90% non-war: Meta's first negative free cash flow in over a decade, CoreWeave's credit stress and an eight-day chip losing streak, plus a hot September CPI. Defence primes and energy rose. An AI-credit correction, not a war selloff; this week's MSFT/GOOGL/AMZN prints decide whether it broadens.",
  "current": {
   "price": "7,580.07 (30 Oct)",
@@ -40,7 +40,8 @@
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — −3.1% from the 6-Oct record.",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED (−3.5% from peak).",
    "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — −3.2% from the 6-Oct peak.",
-   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — 7,688.62."
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — 7,688.62.",
+   "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — 7,353.73 (−4.36% Thu, worst day since 4 Apr 2025), 5.9% below the 6-Oct peak (7,818.93). Driver non-war (AI). (CoS; intel MAC-A6)"
   },
   {
    "condition": "VIX cash breaks above 22 on Wednesday ceasefire lapse (binary escalation-hedging threshold)",
@@ -132,6 +133,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-06",
+   "headline": "**WORST DAY SINCE APRIL 2025 (5 Nov):** S&P 500 −4.36% to 7,353.73 (5.9% below the 6-Oct peak); Nasdaq −5.52% (correction); Dow −3.44%. NBC/Reuters: Qualcomm and Arm results, then a reassessment of a Democratic Congress for data centres (Sanders: 'National data center moratorium now'); hyperscalers fell too (MSFT −3.6%). Crisis share ~0–5%. (CONFIRMED prices; REPORTED attribution; intel MAC-A6)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-05",
    "headline": "**S&P +1.6% (7,688.62), DOW +3.0% (best day since April 2025), VIX 16.61 (−20%) on 4 Nov:** gridlock 'clearing event' plus war-end bets; Nasdaq +1.4%; SOX −3.1%. (CONFIRMED; intel MAC-B1)",
@@ -477,6 +483,13 @@
    "summary": "29 signals. S&P surged +2 | S&P gave back -0 | VIX fell to 24",
    "signal_count": 29,
    "auto": true
+  }
+ ],
+ "price_snapshots": [
+  {
+   "date": "2026-11-06",
+   "price": "7,353.73 (5 Nov, −4.36%)",
+   "trigger": "AI crash; bear-market trigger not near"
   }
  ]
 }

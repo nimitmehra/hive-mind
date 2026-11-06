@@ -3,15 +3,17 @@
  "name": "Nifty 50",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-05",
+ "last_updated": "2026-11-06",
  "summary": "Nifty 50, Day 249. The index rose 1.7% on Monday to a highest close since 23 Sep (PTI: seven-week high) (23,440.80) and kept going on Tuesday (~23,725 at midday), carried by the oil collapse, Reliance's record refining quarter (+11.6%, about half the gain) and a second day of foreign buying, while Indian IT barely flinched at the US tech rout and Korea and Taiwan fell 3.6%. That divergence — India up, North-Asian AI down, foreigners buying India — is the capital-substitution pattern the graph has waited for, but it is one day old and two sessions of flows. India VIX rose with the index, so option buyers are hedging 4 Nov. The rally is a bet that the post-midterm window passes without a declared US campaign; the 22,000 support is ~6% below.",
  "current": {
-  "price": "23,960.60 (4 Nov close); 23,810.85 (3 Nov)",
+  "price": "25,030.35 (6 Nov close); 24,536.60 (5 Nov)",
   "delta_1d": "+0.63% (4 Nov)",
   "delta_fortnight": "+0.1% since 13 Oct",
   "driver": "FII buying three sessions (+₹6,836.81 cr Tue), oil relief, OMCs; IT −1.5% on the US vote; ~55% crisis-linked",
   "delta_1m": "−3.0%",
-  "regime": "CAPITAL SUBSTITUTION RUNNING INDIA-POSITIVE (3 Nov): foreigners selling Korea, buying India."
+  "regime": "CAPITAL SUBSTITUTION RUNNING INDIA-POSITIVE (3 Nov): foreigners selling Korea, buying India.",
+  "level": "25,030.35 (6 Nov close); 24,536.60 (5 Nov)",
+  "note": "Highest since 27 Feb; +8.6% week; India VIX 17.47."
  },
  "active_triggers": [
   {
@@ -54,7 +56,8 @@
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED — closing low 22,698.85 (28 Oct).",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — 23,440.80.",
    "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — 23,960.60.",
-   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — 23,960.60 (Wed); ~24,370 Thu intraday."
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — 23,960.60 (Wed); ~24,370 Thu intraday.",
+   "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — 25,030.35. (intel IND-A3)"
   },
   {
    "condition": "Nifty breaks below 22,000 (200-day EMA)",
@@ -70,7 +73,8 @@
    "note_2026-10-31": "[reviewed, stays watching] NOT FIRED.",
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED.",
    "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — 23,960.60.",
-   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — 23,960.60."
+   "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — 23,960.60.",
+   "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — 25,030.35 (Fri), highest close since 27 Feb. (intel IND-A3)"
   },
   {
    "condition": "Nifty 23,775 (April 9 ceasefire-fracture low) broken Monday on weekend kinetic gap-down",
@@ -155,6 +159,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-06",
+   "headline": "**HIGHEST CLOSE SINCE THE WAR BEGAN (Fri 6 Nov): 25,030.35.** Thu 24,536.60 (+2.40%), Fri 25,030.35 (+2.01%) — the highest close since 27 Feb (25,178.65), the last session before the war; seventh straight gain; +8.6% on the week, best since Feb 2021 (Reuters). Two engines: Thu (before the US crash) Wednesday-night oil collapse + the largest single-day FII buy in nearly six years (Reuters); Fri (after it) 'reverse AI' rotation out of Korea/Taiwan, banks, Q2 earnings (M&M +6.2%), and a ~$4 intraday Brent dip in India's hours. Narrow: Midcap 100 flat, Smallcap 100 −0.8%; India VIX +12% to 17.47; Indian AI/data-centre plays −15%. Nomura's 'past 24,000' met. (CONFIRMED prices; REPORTED attribution; intel IND-A3/B1)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-11-05",
    "headline": "**NIFTY +1.7% TO ~24,370 (Thu 11:10 IST) ON INDIA'S FIRST SESSION AFTER THE OIL CRASH;** a close there would be the highest since 13 Aug. Wed close 23,960.60. KOSPI −5.2% the same morning: the capital swap continues. (CONFIRMED; intel IND-A3/B2)",
@@ -515,6 +524,11 @@
    "date": "2026-11-05",
    "price": "23,960.60 (4 Nov close); ~24,370 (5 Nov 11:10 IST)",
    "trigger": "oil crash + capital swap"
+  },
+  {
+   "date": "2026-11-06",
+   "price": "25,030.35 (6 Nov)",
+   "trigger": "highest close since 27 Feb (pre-war)"
   }
  ]
 }
