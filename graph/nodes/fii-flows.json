@@ -3,10 +3,10 @@
  "name": "FII (Foreign Institutional Investor) Flows — India",
  "type": "institution",
  "created": "2026-05-12",
- "last_updated": "2026-11-06",
+ "last_updated": "2026-11-08",
  "summary": "Foreign investor flows (India), Day 246. Foreign investors bought a net ₹6,305 crore of Indian shares in the week to 30 Oct — their first buying week in ten — after a hawkish-but-not-hawkish-enough Fed hold and with the rupee back below 95. It is not yet a trend: the longest buying streak was two sessions, October as a whole was the heaviest selling month of the year (provisional −₹45,162 crore; NSDL −₹48,056 crore to 23 Oct), and calendar-2026 outflows are a record ~₹3.1 lakh crore. Domestic funds have absorbed it all and now own more of the Nifty 500 than foreigners. The investor's deployment condition is five straight sessions of foreign buying with inflation peaking; neither leg is met.",
  "current": {
-  "status": "5 of 5 positive sessions (fired 6 Nov); 5 Nov +₹14,974.68 cr, largest in ~6 years; still net short index futures.",
+  "status": "Six straight net-buying sessions (30 Oct–6 Nov); week +₹45,960 cr (exchange); index-futures net short 1.00 lakh (from 1.86 lakh on 4 Nov).",
   "september": "−₹35,861 cr",
   "price": "3 Nov +₹6,836.81 cr (prov.); 2 Nov +₹3,114.68 cr; 30 Oct +₹3,599 cr",
   "driver": "AI-trade unwind in North Asia + oil relief + capital-gains-relief talk; three-session streak."
@@ -74,7 +74,8 @@
     "india"
    ],
    "added": "2026-11-06",
-   "notes": "Successor to the fired five-session test. The 5-Nov day (the largest single-day FII buy in nearly six years, Reuters) (+₹14,974.68 cr) was tied to rotation out of AI-heavy Korea/Taiwan as much as to oil; FIIs remain net short ~1.37 lakh index-futures contracts (hedged). (intel IND-A1/B1)"
+   "notes": "Successor to the fired five-session test. The 5-Nov day (the largest single-day FII buy in nearly six years, Reuters) (+₹14,974.68 cr) was tied to rotation out of AI-heavy Korea/Taiwan as much as to oil; FIIs remain net short ~1.37 lakh index-futures contracts (hedged). (intel IND-A1/B1)",
+   "note_2026-11-08": "[reviewed, stays watching] NOT FIRED, 0 of 3 — FIIs bought Fri 6 Nov (+₹13,750 cr), the sixth straight buying session. Muhurat session (Sun 8 Nov, 14:20–15:30 IST; the first Indian prices after the owned Qeshm strike and the Riyadh hit): Nifty 24,986.40 (−0.18%; session high 25,132, closed on the low after a late ~95-point slide), Sensex 80,999.40 (−0.04%) (Business Standard close report); India VIX 18.39 (+5.3%; second straight rise); Bank Nifty −0.40%, Nifty IT −0.33% (yfinance). Muhurat FII figure not yet found. A one-hour holiday session is thin. Monday 9 Nov is the first full session after the owned Qeshm strike and the Riyadh hit. (intel IND-A1/A3)"
   }
  ],
  "top_edges": [
@@ -101,9 +102,9 @@
    "type": "fx_pressure_via_dollar_demand_jun8_fii_still_selling_rupee_fell_77p_to_9571_then_firmed_to_9540_on_trump_tone",
    "weight": 9.0,
    "directness": 1,
-   "last_activated": "2026-11-06",
+   "last_activated": "2026-11-08",
    "activation_count": 5,
-   "context": "5–6 Nov: the largest single-day FII buy in nearly six years (Reuters) (+₹14,974.68 cr Thu) carried the rupee through the 94.50 cap to 93.89 with Brent higher — 'a flow-driven strength' (HDFC Securities). Held at 9.0."
+   "context": "6 Nov: sixth straight FII buying day (+₹13,750 cr) → rupee 93.89 (PTI prov.), strongest since 22 Apr; IANS dealers: foreign banks sold dollars for FPIs."
   },
   {
    "to": "rbi",
@@ -124,6 +125,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-08",
+   "headline": "**SIX STRAIGHT BUYING DAYS; THE HEDGE SHRANK BY ~46% IN TWO DAYS (Fri 6 Nov).** Exchange provisional: FIIs +₹13,750 cr (gross ₹30,456 / ₹16,706 cr), DIIs −₹5,969 cr — the second-largest day of the run after Thursday's +₹14,975 cr. Week 2–6 Nov: +₹45,960 cr (exchange; October was −₹45,162 cr on the same basis); NSDL 'this week' ₹38,971 cr (ANI; different basis). Index futures: net short 1,00,416 contracts, from 1,37,438 (5 Nov) and ~1.86 lakh (4 Nov). Bank of Baroda's chief economist: 'one week is too short a period to ascertain patterns.' Muhurat session (Sun 8 Nov, 14:20–15:30 IST; the first Indian prices after the owned Qeshm strike and the Riyadh hit): Nifty 24,986.40 (−0.18%; session high 25,132, closed on the low after a late ~95-point slide), Sensex 80,999.40 (−0.04%) (Business Standard close report); India VIX 18.39 (+5.3%; second straight rise); Bank Nifty −0.40%, Nifty IT −0.33% (yfinance). Muhurat FII figure not yet found. A one-hour holiday session is thin. (CONFIRMED exchange data, three trackers; intel IND-A1/A3)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-06",
    "headline": "**FIFTH STRAIGHT BUYING DAY — THE LARGEST IN NEARLY SIX YEARS (Thu 5 Nov).** FII +₹14,974.68 cr (gross buy ₹31,798 cr / sell ₹16,823 cr; exchange provisional); Reuters ~$1.6bn, largest single-day net purchase in nearly six years. Five sessions 30 Oct–5 Nov: +₹35,808.74 cr. DIIs −₹10,444.54 cr. FIIs cut index-futures net short ~1.86 → ~1.37 lakh contracts (still short). Same day foreigners sold −₩3.42trn in Korea. Trigger FIRED. Friday's figure: see intel IND-A1. (CONFIRMED; intel IND-A1/B1)",

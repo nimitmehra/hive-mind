@@ -3,14 +3,14 @@
  "name": "Brent Crude",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-11-06",
- "summary": "Brent, Day 252. The war premium that a political post took out on 4 Nov came partly back the next day: January Brent settled at $98.29 on 5 Nov (+3.9%), after an $8.98 fall to $94.62. Reuters tied the rebound to tanker attacks (a fatal missile hit north of Qatar among at least five incidents since Sunday) and to Iran's unchanged terms; the desks put ~60% on the war and ~40% on short-covering and Russian refinery strikes. Only the front moved — the December 2027 contract rose 15 cents — so this is an event premium, not a new view of supply. Friday it traded above $100 in Asia and back to ~$98. The physical market points the other way: Aramco cut its December price to Asia by $2 to about $7 below Oman/Dubai. The graph's 'back above $100' watch needs a settle; the next test is tonight, with a reported US decision on strikes pending.",
+ "last_updated": "2026-11-08",
+ "summary": "Brent, Day 254. January Brent ended the week at $98.32, flat on Friday and down 13.3% like for like — about half of that the collapse of the prompt war premium, half a fall across the curve. Friday's $4 range was mostly war and diplomacy (tanker attacks up, the Qatari readout down), but it netted to nothing. Then the weekend delivered what the market had stopped paying for: the first US strike of the November window that Trump owned ('We do minor strikes'), unexplained blasts in four Hormozgan counties the next night, CENTCOM firing on a blockade-runner, and a Houthi barrage that damaged Aramco's tower in Riyadh. None of it has traded. Monday's open is the test: a move above $100 or a settle more than 5% above Friday would say the market reads the strike as escalation; a quiet open would say it reads 'minor' as routine.",
  "current": {
-  "price": "Jan-27 $98.29 (5 Nov settle, +3.88%); ~$98.2 Fri 6 Nov 16:37 IST (high $100.92); Feb-27 $94.91; Jun-27 $86.30; Dec-27 $79.27",
-  "delta_1d": "+3.88% (5 Nov, like-for-like January)",
+  "price": "Jan-27 $98.32 (6 Nov settle, +0.03%); Feb-27 $95.65; Jun-27 $87.78; Dec-27 $80.59",
+  "delta_1d": "+0.03% (6 Nov, like-for-like January); week −13.3%",
   "delta_1m": "+1.7% (script, front-month continuous)",
   "delta_vs_4jul": "n/a",
-  "regime": "PROMPT PREMIUM PARTLY RE-ENTERED: the front trades headline to headline between ~$94 (JPM fair value) and ~$100; the back is anchored (~$79). Physical signals point down (Aramco cut Asian OSP $2 to ~−$7; Dubai in contango) while paper reprices attacks and strike risk.",
+  "regime": "PREMIUM IN THE BALANCE: the front sits ~$98 between the 4-Nov unwind and the $100 line; the weekend's owned US strike and the Riyadh hit are unpriced until Monday. Physical signals soft (Aramco's −$7 Asia OSP); diesel tight on Russian refinery strikes.",
   "roll_note": "BZ=F = January since 2 Nov. January expires ~30 Nov: count only the contract front on the settle date."
  },
  "price_snapshots": [
@@ -137,6 +137,11 @@
    "date": "2026-11-06",
    "price": "Jan-27 $98.29 settle (5 Nov)",
    "trigger": "partial premium re-entry; above-$100 watch not fired"
+  },
+  {
+   "date": "2026-11-08",
+   "price": "Jan-27 $98.32 settle (6 Nov)",
+   "trigger": "above-$100 watch not fired; weekend war news unpriced"
   }
  ],
  "active_triggers": [
@@ -291,7 +296,8 @@
    "note_2026-11-03": "[reviewed, stays watching] NOT FIRED — Jan $104.77; no Houthi attack on a non-Saudi hull (~53 days).",
    "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — ~$102; no Houthi attack on a non-Saudi hull.",
    "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — January $94.62; no Houthi attack on a non-Saudi hull (~55 days). (intel SAU-A4, MAC-A1)",
-   "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — January $98.29 (5 Nov); no Houthi attack on a non-Saudi hull (~56 days). (intel SAU-A4, MAC-A1)"
+   "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — January $98.29 (5 Nov); no Houthi attack on a non-Saudi hull (~56 days). (intel SAU-A4, MAC-A1)",
+   "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — $98.32; no Houthi attack on a non-Saudi hull (~58 days). (intel SAU, MAC-A3)"
   },
   {
    "condition": "Brent-Hormuz paper-physical divergence >$10/bbl in EITHER direction sustained 3 sessions",
@@ -351,7 +357,20 @@
    ],
    "added": "2026-11-05",
    "notes": "Set 5 Nov after the event-premium unwind test fired on the 4-Nov settle ($94.62). The fall came on rhetoric (Vance's post), not on a deal; CIBC calls it 'overdone'. Count only the contract front on the settle date (January expires ~30 Nov). (intel MAC-A1; CoS R1)",
-   "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — January settled $98.29 on Thu 5 Nov (+3.88%), $1.71 short. Fri 6 Nov traded $100.92 intraday (~09:15–09:45 IST) — intraday does not count; ~$98.2 at 16:37 IST; tonight's settle (~01:00 IST Sat) is the next test. If it fires, LOG THE CAUSE: Thursday's rise was attributed (Reuters) to tanker attacks, Iran's unchanged terms and Citi's escalation view — NOT a qualifying US strike or a visible deal collapse. Only the prompt moved (Dec-27 +$0.15). $85 leg not near. (intel MAC-A1; CoS)"
+   "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — January settled $98.29 on Thu 5 Nov (+3.88%), $1.71 short. Fri 6 Nov traded $100.92 intraday (~09:15–09:45 IST) — intraday does not count; ~$98.2 at 16:37 IST; tonight's settle (~01:00 IST Sat) is the next test. If it fires, LOG THE CAUSE: Thursday's rise was attributed (Reuters) to tanker attacks, Iran's unchanged terms and Citi's escalation view — NOT a qualifying US strike or a visible deal collapse. Only the prompt moved (Dec-27 +$0.15). $85 leg not near. (intel MAC-A1; CoS)",
+   "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — January settled $98.32 on Fri 6 Nov (+$0.03; CNBC and yfinance), $1.68 short; Friday range $96.65–100.92 (intraday does not count). Every weekend war event (Qeshm strike 03:08 IST Sat, Trump's 'minor strikes', *Huda*, night-five blasts, the Riyadh Aramco-tower hit) came AFTER the settle — Monday's open (~04:30 IST) is the first test. If it fires, LOG THE CAUSE and whether it is the owned Qeshm strike (united-states fired leg a, 8 Nov) or the Riyadh hit. $85 leg not near. (intel MAC-A3/B-1; CoS)"
+  },
+  {
+   "condition": "Front-month Brent opens Monday 9 Nov above $100, OR settles 9–11 Nov more than 5% above Friday's $98.32 (>$103.24) — the weekend's owned Qeshm strike and the Riyadh Aramco-tower hit get priced as escalation",
+   "status": "watching",
+   "cascade": [
+    "inr-usd",
+    "nifty-50",
+    "fii-flows",
+    "india"
+   ],
+   "added": "2026-11-08",
+   "notes": "Every weekend war event came after Friday's settle. If neither leg is met by the 11-Nov settle, log that the market treated the owned 'minor' strike as routine. (intel MAC B-1; CoS)"
   }
  ],
  "top_edges": [
@@ -442,6 +461,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-08",
+   "headline": "**FLAT INTO A WAR WEEKEND (Fri 6 Nov).** January BZF27 settled $98.32 (+$0.03; CNBC and yfinance), $1.68 short of $100; range $96.65–100.92 — Asia high on tanker attacks (CNBC), midday slide as Qatar read out the Trump–emir call, evening dip as the dollar firmed on payrolls (desk timing), recovery into the settle unattributed. The back rose (Dec-27 +$1.32 to $80.59); Jan–Dec27 spread $19.02 → $17.73. Week like for like −13.3% (CNBC's '>16%' compares with the expired December). Funds cut 78.5k lots of WTI+Brent longs in the week to 3 Nov (Bloomberg). EVERY weekend war event — the owned Qeshm strike (03:08 IST Sat), *Huda*, night-five blasts, the Riyadh Aramco-tower hit — came after the settle; Monday's open (~04:30 IST) is the first price. (CONFIRMED prices; REPORTED attribution; intel MAC-A3/A9/B-1)",
+   "verification": "CONFIRMED/REPORTED"
+  },
   {
    "date": "2026-11-06",
    "headline": "**THE PREMIUM CAME BACK $3.67 IN A DAY — ON SHIP ATTACKS, NOT ON A STRIKE (Thu 5 Nov).** January BZF27 (front; no roll) settled **$98.29 (+3.88%)**, recovering ~40% of Wednesday's $8.98 fall; range $93.44–99.25. Feb $94.91; **Dec-27 $79.27 (+$0.15)** — only the prompt moved; Jan–Dec27 spread $15.50 → $19.02. WTI Dec $90.52. Reuters attribution: tanker attacks (UKMTO ≥5 incidents since Sunday, near-record pace, incl. the fatal 196-26 hit north of Qatar), Iran's unchanged terms (Rezaei: no Hormuz, no talks until seven conditions met), Citi's escalation warning. Desk split ~60% crisis / ~40% non-crisis (short-covering after a 16.6% three-day fall; Ukrainian strikes on Russian refineries). Trump's 'decision soon' remarks came AFTER the settle. Fri: $100.92 high (~09:15–09:45 IST), $96.65 low (~15:15–15:30 IST), after the Qatari readout of the Trump–Tamim call (~13:30 IST), ~$98.2 at 16:37 IST. Oil rose while US stocks fell 4.4% — the first decoupling from equity risk this week. Reuters' '16% weekly fall, steepest since COVID' compares with the expired December contract; like-for-like January is −13.4%. (CONFIRMED prices; REPORTED attribution; intel MAC-A1, KIN, SAU-A1, ISR, DIP)",
