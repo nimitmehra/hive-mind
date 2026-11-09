@@ -23,30 +23,28 @@
 3. [x] viewer.html — interactive graph with Cytoscape.js, click for details, search, layer layout
 4. [x] `/crisis-brief` skill definition — `.claude/commands/crisis-brief.md` + readable copy in `skills/`
 
-## Latest Run — 2026-11-08 (filed as "morning"; run Sunday afternoon), Day 254
-- **Pipeline complete.** Ran ~14:50–15:55 IST Sunday. No brief since 6 Nov, so one full edition in the morning slot (same convention as 26 Oct, 31 Oct, 4 Nov, 6 Nov); no evening delta (no Sunday market session after the brief). Steps: six parallel desks (14:53–15:43 IST, `date`-checked) → CoS cross-desk alert at 15:05 (ISR's ToI/Naharnet leads sent to KIN/DIP/SAU) → consolidated `intel.md` → `markets.md` (CoS direct pulls) → graph → brief → independent fact-check → corrections → local commit for the uploader → delivery.
-- **Lead.** The first owned US strike inside the 4–30 Nov window: two projectiles hit the Suza area of Qeshm (first reported ~01:08 Tehran Sat 7 Nov); Trump, Friday evening ET: "We do minor strikes… They built a little bit of an anti-aircraft device, and we knocked it out". Night five: unattributed blasts in four Hormozgan counties. CENTCOM disabled the *Huda*; Task Force Iron Gate (land/Caspian). A Houthi barrage damaged Aramco's KAFD tower in Riyadh (Energy Ministry: "limited damage"). Herzog picked Eisenkot (Sat night). Payrolls +165k; Fed Dec odds ~65% → ~76%. Brent Jan settled $98.32 Friday — every war event came after the settle. India: FII sixth buying day (+₹13,750 cr), futures hedge 1.00 lakh; IANS: RBI buying near 93.88; Muhurat Nifty 24,986.40 (−0.18%).
-- **Graph.** 55/63 nodes touched (43 with new signals); edges 415 (none new), 5 activated, `houthis → saudi-arabia` 9.0 → 9.5. All 130 open triggers reviewed (0 missing).
-  - **Fired:** `united-states` "resume 4–30 Nov" on leg (a) only (CoS ruling against KIN/DIP "log, not fire"; fact-checker AGREED, moderate) — **REVERT if the White House says Trump meant the 2-Nov strike** (referent risk); `israel` Herzog–Eisenkot.
-  - **New watches (2):** owned strikes 3 nights running or 2+ sites in a night by 30 Nov; Brent Monday open >$100 or a 9–11 Nov settle >$103.24.
-  - **Hold rule amended:** leg 1 ("window a week old with no qualifying strike") failed 7 Nov; amended to seven straight days with no further qualifying strike — earliest re-test 14 Nov. Do not stage on 11 Nov.
-- **Fact-check.** 14 flags (0 critical, 8 high, 6 low), all applied, plus G1–G5. Highs: drone-claim timing (~6h, not ~3h — wrong timestamp pair in KIN/CoS); a paraphrase in quotation marks and two trigger notes merged; the missing referent caveat; header said no Indian price had traded (Muhurat had); Signal superlative beyond the data (FII futures data only 4–6 Nov) and RBI reserve effect stated as fact; McNally/ING row inconsistent with the strike ruling; hold-rule amendment unlabelled; *Huda* = UKMTO 198-26 was an inference.
+## Latest Run — 2026-11-09 (filed as "morning"; run Monday evening), Day 255
+- **Pipeline complete.** Ran ~20:16–21:10 IST Monday. No brief this morning, so one full edition in the morning slot (same convention as 26 Oct, 31 Oct, 4, 6, 8 Nov); no separate evening delta. Steps: six parallel desks (20:19–20:37 IST, `date`-checked) → CoS alerts (Brent two-leg timing; IND's Trump-CNN lead; MAC's Israel Hayom lead) → consolidated `intel.md` → `markets.md` (CoS pulls 20:19 + refresh 20:45) → graph → brief → independent fact-check → corrections → local commit for the uploader → delivery.
+- **Lead.** January Brent fell ~4.3% intraday (open $97.53, high $98.42, ~$94.1 at 20:35 IST, low $92.80) on the first session after the owned Qeshm strike, night six and the Riyadh hit. Outlets tie it to Trump's CNN "highly unlikely" and an Israel Hayom $8bn Hormuz-plan report (16:46–16:51 IST) that Qatari officials denied off the record; oil fell further after the denials. Jan–Dec27 spread ~$15. Pezeshkian restated the Leader's 27-Oct "end neither war nor peace" directive; Kalın claims Vance–Rezaei in Doha "next week". Night six: Iran says a US projectile hit Qeshm (unowned). UKMTO 199-26 (missed 8 Nov) and 200-26. IRGC nav-aid claim (southern strait, maybe Omani; repeats a 23-Oct claim). Houthis claim Abqaiq (unconfirmed). Nifty 25,044.65 (war high close), FII +₹7,212 cr, rupee 93.93; HY OAS 3.42% (6 Nov); Fed Dec ~82%.
+- **Graph.** 40/63 nodes touched; edges 415, 6 activated, no weight changed. All 130 open triggers reviewed. **0 fired; 1 expired** (`iran` 26-Oct Tehran meeting — provisional to midnight Tehran); **1 new watch** (`oman`: confirmed damage to nav aids in Omani territory/waters, or other Iranian fire on Oman, by 30 Nov). `united-states` "resume" re-tested, stays fired (no referent clarification).
+- **Deployment.** Stay defensive; re-test 14 Nov. Condition 2 met again (HY 3.42% ≤ 3.44% base); condition 1 pending the 9-Nov settle (~01:00 IST Tue); condition 3 buying leg met, CPI 12 Nov. **Hold rule amended 9 Nov:** added a fourth leg (12-Nov CPI consistent with a peak) and a second reset (confirmed Iranian fire on Oman). **Leg (b) note:** "resume" leg (b) (3+ consecutive nights) needs no ownership — Iran-attributed strikes on nights seven and eight would reset the 14-Nov date.
+- **Fact-check.** 24 flags (0 critical, 10 high, 14 low), all applied, plus G1–G8. Highs: nav-aid claim is a 23-Oct repeat (Signal recast); Pezeshkian's line restates 27 Oct and the Leader does issue texts; "went unpriced" (Reuters had ship hits supporting the Asian morning); tracker figure presented as an outlet link; leg (b) ownership gap; "all three conditions"; unlabelled hold-rule additions; "Trump turns on Israel" (he described voters); `oman` watch stated a claim as fact.
 - **Process notes.**
-  - **(1)** CoS framing again drew every HIGH (lead's "why it counts", Signal, scorecard, hold rule). Desk facts held; all ~110 Page 2 numbers matched.
-  - **(2)** Timestamps: when pairing two events, name both clocks (Tehran vs UTC) — the "~2.7h" came from 18:56 Tehran read against 18:58 UTC.
-  - **(3)** A scorecard must apply the day's trigger ruling consistently to every row.
-  - **(4)** Length: Sections I–III ~3.3k words after corrections (2.9k at draft) — still over the 5-minute target.
-  - **(5)** The IND desk ran to 15:43 waiting for the Muhurat close; the other five finished by ~15:09.
-  - **(6)** Carried over: 24 duplicate edge pairs; node budgets over 2k tokens (`united-states` ~51k).
+  - **(1)** CoS framing again drew every HIGH (Signal, lead framing, deployment). Desk facts and all Page 2 numbers held.
+  - **(2)** **Check "new" claims against prior weeks before building a Signal on them** — the desk did not search for earlier versions of the nav-aid claim. Same for "the Leader ordered": grep the graph for the directive first.
+  - **(3)** Leg (a) and leg (b) of "resume" have different attribution standards; state which leg a ruling rests on.
+  - **(4)** Length: Sections I–III ~3.4k words after corrections (3.05k at draft) — still over target.
+  - **(5)** A CoS alert was mis-stamped "20:30 IST" (sent ~20:21) — corrected by follow-up message; run `date` before stamping alerts too.
+  - **(6)** Carried over: 24 duplicate edge pairs; node budgets over 2k tokens.
 - **Open at publish.**
-  - Monday's Brent open (~04:30 IST) — the first price after the strike and the Riyadh hit.
-  - Night six (new moon 9 Nov); any US ownership of night five.
-  - A White House clarification of Trump's referent (would revert the fire).
-  - Muhurat FII figure; PTI's final Friday rupee close; FRED 6-Nov HY OAS.
-  - Eisenkot's mandate ceremony (20:30 IST tonight).
+  - The 9-Nov January Brent settle (~01:00 IST Tue): ING's $94.62, deployment condition 1, the $103.24 leg.
+  - Qatar's PM in the Oval Office (22:30 IST) — re-test `qatar` and `trump` ceasefire.
+  - Night seven; any US ownership of nights five/six; Oman/UKMTO on the nav-aid site.
+  - The `iran` expiry becomes final at midnight Tehran.
 - **Dated tells.**
-  - 9 Nov: Brent open; India trades; Miller starts; Iran MFA briefing; Korea margin waiver; Hegseth vote week. 10 Nov: NSE shut; US CPI; Knesset sworn in; CoreWeave. 10–11 Nov: Abu Dhabi talks. 11 Nov: CIBC's $100 date.
-  - 12 Nov: India CPI. 13 Nov: RBI reserves; CFTC. 14 Nov: amended hold-rule re-test; Ghaani's Bab el-Mandeb clock. 17 Nov: Nvidia. Late next week: *Roosevelt* in the Arabian Sea. 29 Nov: OPEC+. ~30 Nov: January Brent expiry.
+  - 10 Nov: NSE shut; US CPI 19:00 IST; Knesset sworn in; CoreWeave; China trade; G7 day two; Abu Dhabi talks (10–11).
+  - 11 Nov: India reopens; CIBC's $100 date; Hegseth vote by Wed. 12 Nov: India CPI. 13 Nov: RBI reserves; CFTC. 14 Nov: hold-rule re-test; Ghaani's clock.
+  - ~15 Nov AP's Syrian "within a week"; 17 Nov Nvidia; ~20 Nov Kalın's Doha test; mid-Nov *Roosevelt*; 29 Nov OPEC+; ~30 Nov January Brent expiry.
   - 4 Dec RBI; 9 Dec FOMC; ~11 Dec US funding deadline; 17 Dec ECB; 3 Jan new Congress.
 
 ---

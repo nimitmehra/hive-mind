@@ -3,13 +3,13 @@
  "name": "INR/USD Exchange Rate",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-08",
+ "last_updated": "2026-11-09",
  "summary": "Rupee, Day 249. A 7.6% fall in Brent moved the rupee by about 20–25 paise: it closed 94.84 on Monday (after a corrected 94.76 on Friday) and touched 94.60 on Tuesday morning. Dealers say the RBI and the State Bank are buying dollars into any strength — for oil payments and to refill a record $239bn forward short — capping it near 94.50. The rupee's oil link is now one-sided: it slid toward 95.3 when oil rose and is not allowed to gain much when oil falls. The clean test is whether it can close stronger than 94.50 before mid-November; a declared US campaign would put 95.3 and then 96.5 back in play.",
  "current": {
-  "price": "PTI 94.41 (5 Nov final), 93.89 (6 Nov provisional); Reuters 93.9050, strongest since 22 Apr",
+  "price": "93.93 (PTI provisional, 9 Nov); 93.98 (PTI final, 6 Nov)",
   "note": "RBI reportedly buying dollars near 93.88 (IANS, dealers). Watches: PTI weaker than 95.00; below 93 with Brent <$103 ×3 (Brent leg met 4–6 Nov).",
   "driver": "FII inflows (largest day in nearly six years) and AI-trade rotation; softer crude secondary; no RBI action named",
-  "delta_1d": "rupee +0.3% (PTI, 4 Nov: 94.75 → 94.46); ~flat Thu",
+  "delta_1d": "~flat (9 Nov)",
   "regime": "94.50 cap broken on two PTI closes",
   "level": "93.89 (PTI provisional, 6 Nov); 93.91 IANS"
  },
@@ -87,7 +87,8 @@
    "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — 94.58; Brent ~$102–103 (the <$103 leg near).",
    "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — Brent <$103 leg: session 1 (4 Nov); rupee 94.46 PTI. (intel IND-A2)",
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — Brent <$103 leg: settles 4 Nov $94.62, 5 Nov $98.29 (2 sessions; Fri pending). Rupee leg: PTI 93.89 provisional, 89 paise short of 93. (intel IND-A2; CoS)",
-   "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — Brent leg MET (January settles 4, 5, 6 Nov: $94.62, $98.29, $98.32, all <$103); rupee leg 89 paise short (93.89), and IANS reports the RBI buying dollars near 93.88, which makes 93 harder. (intel IND-A2; CoS)"
+   "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — Brent leg MET (January settles 4, 5, 6 Nov: $94.62, $98.29, $98.32, all <$103); rupee leg 89 paise short (93.89), and IANS reports the RBI buying dollars near 93.88, which makes 93 harder. (intel IND-A2; CoS)",
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — PTI 93.93 provisional (9 Nov); Brent leg met (<$103), rupee leg 93 paise short. (intel IND-A3)"
   },
   {
    "condition": "RBI OMC special-credit-facility wound down (Branch 3 sub-$103 sustained 2-3 sessions)",
@@ -106,7 +107,8 @@
    "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — Brent $103.60 settle 3 Nov; the first sub-$103 settle is possible tonight. (intel IND trigger summary)",
    "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — sub-$103 session 1. (intel IND trigger summary)",
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — sub-$103 sessions: 2 (4, 5 Nov); no RBI announcement. (intel IND-A7)",
-   "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — three sub-$103 Brent settles (4–6 Nov) but no RBI announcement. (intel IND-A7)"
+   "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — three sub-$103 Brent settles (4–6 Nov) but no RBI announcement. (intel IND-A7)",
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED. (intel IND-A6)"
   },
   {
    "condition": "USD/INR breaks ₹96.60 cleanly and holds for 3+ sessions — a clean break of the all-time record, distinct from the current touch-and-hold",
@@ -169,7 +171,8 @@
    ],
    "added": "2026-11-06",
    "notes": "Successor to the fired two-close test (94.41, 93.89 PTI). Friday's +52 paise came mainly on flows (see the fired two-close note). The `brent-crude → inr-usd` edge (10.0, asymmetric) says an oil spike reaches the rupee in full. (intel IND-A2)",
-   "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — 93.89 (PTI provisional, 6 Nov). (intel IND-A2)"
+   "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — 93.89 (PTI provisional, 6 Nov). (intel IND-A2)",
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — 93.93 provisional; PTI's final Friday close was 93.98 (the 8-Nov graph carried the 93.89 provisional). (intel IND-A3)"
   }
  ],
  "top_edges": [
@@ -210,6 +213,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-09",
+   "headline": "PTI: 93.93 provisional Mon 9 Nov (range 93.69–94.11); PTI's FINAL Friday close was 93.98 (the 8-Nov brief and graph carried the 93.89 provisional). HDFC Securities' Parmar: the rupee snapped 'a five-day winning streak amid state-run bank dollar buying ahead of a market holiday'. No RBI intervention report for Monday.",
+   "verification": "REPORTED (PTI, one origin)"
+  },
   {
    "date": "2026-11-08",
    "headline": "**93.89–93.91; THE RBI REPORTEDLY BUYS AT 93.88 (Fri 6 Nov).** PTI provisional 93.89; IANS 93.91 (+56 paise on its own base); BS: 'six-month high'; strongest since 22 April; sixth straight gain. IANS (dealers): the RBI was seen buying dollars near 93.88 (paraphrase; IANS wording 'seen purchasing dollars near the 93.88 level'); foreign banks sold dollars for FPIs — the first report in this run of the RBI leaning against rupee strength (REPORTED, one origin; no RBI statement). PTI final not found (Monday's opener). Parmar (HDFC Securities): support ~93.50, resistance ~94.30. (intel IND-A2)",
@@ -625,6 +633,11 @@
    "date": "2026-11-08",
    "price": "93.89 PTI provisional (6 Nov)",
    "trigger": "strongest since 22 Apr; RBI bid reported ~93.88"
+  },
+  {
+   "date": "2026-11-09",
+   "price": "93.93 (9 Nov, PTI provisional)",
+   "trigger": "Flat after the weekend's war news; correction: 6-Nov final 93.98"
   }
  ]
 }

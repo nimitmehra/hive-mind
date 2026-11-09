@@ -3,7 +3,7 @@
  "name": "European TTF Natural Gas",
  "type": "commodity",
  "created": "2026-03-28",
- "last_updated": "2026-11-08",
+ "last_updated": "2026-11-09",
  "summary": "European gas (TTF), Day 246. TTF crossed €100/MWh on 28 Oct for the first time since the 2022 crisis and the December contract settled around €103.6 on 30 Oct — up roughly 40% in October and more than three times its pre-war level. Supply is the war's doing: Qatar extended LNG force majeure to the end of December and is shipping perhaps a fifth of pre-war volume, and traders fear Iranian retaliation on Gulf energy if the US strikes after 3 Nov. Demand-side fragility is Europe's own: storage is about 75%, the lowest for the season since records began, with Germany near 62% and some countries already withdrawing. German power is at its highest since mid-2023, and the ECB debated a hike on 29 Oct citing energy. The beneficiaries are US LNG exporters (Cheniere raised guidance) and Qatar's own hedging into US supply. A warm winter or a US–Iran text are the downside paths; a strike on Gulf gas infrastructure the upside.",
  "current": {
   "price": "~€91.6 Dec (3 Nov); ~€88–93 Wed 4 Nov (feeds conflict); €94.9 (2 Nov)",
@@ -85,7 +85,8 @@
    "note_2026-11-04": "[reviewed, stays active] Stays ACTIVE — ~€88–93.",
    "note_2026-11-05": "[reviewed, stays active] Stays ACTIVE — ~€85–88. (intel MAC-A8, ISR-A6)",
    "note_2026-11-06": "[reviewed, stays active] Stays ACTIVE — ~€86–91. (intel MAC-A8)",
-   "note_2026-11-08": "[reviewed, stays active] Stays ACTIVE — ~€85.6 Friday close. (intel ISR, MAC-A6)"
+   "note_2026-11-08": "[reviewed, stays active] Stays ACTIVE — ~€85.6 Friday close. (intel ISR, MAC-A6)",
+   "note_2026-11-09": "[reviewed, stays active] Stays ACTIVE — ~€82–83 intraday. (intel ISR-A6, MAC-A9)"
   },
   {
    "condition": "TTF front-month settles above €120/MWh by 31 Dec (winter stress beyond the 2022-threshold) — OR back below €80 (premium unwinds on a deal/warm winter)",
@@ -103,7 +104,8 @@
    "note_2026-11-04": "[reviewed, stays watching] NOT FIRED — ~€88–93; €80 leg not hit (thin intraday ~€87). (intel MAC-A9)",
    "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — ~€85 late 4 Nov (yfinance close €88.08; feeds conflict); ~€5 above the €80 leg. (intel MAC-A8, ISR-A6)",
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — ~€90.7 Thu, ~€86.4–87.4 Fri (−15% on the week); €80 leg ~€6 away. EU storage 73.42% (4 Nov), below the ten-year minimum for the date. (intel MAC-A8)",
-   "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — ~€85.59 Fri (ISR), ~−16–18% on the week; the €80 leg ~€5.6 away. (intel ISR, MAC-A6)"
+   "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — ~€85.59 Fri (ISR), ~−16–18% on the week; the €80 leg ~€5.6 away. (intel ISR, MAC-A6)",
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — rose to ~€86.7 in the morning (Hormuz shipping and Khor Mor reports), then ~€82–83 (−3 to −4%) on de-escalation; the €80 leg ~€2–3 away; ICE settle not checked. (intel ISR-A6, MAC-A9)"
   }
  ],
  "top_edges": [
@@ -144,6 +146,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-09",
+   "headline": "Mon 9 Nov: TTF rose to ~€86.7 in the morning on Hormuz shipping and Khor Mor reports, then ~€82–83 (−3 to −4%) on de-escalation (yfinance €82.0; Investing.com €82.84 delayed); the €80 leg ~€2–3 away; ICE settle not checked. EU storage ~74.3–74.6% (relays conflict).",
+   "verification": "CONFIRMED (prices, intraday) / REPORTED (storage)"
+  },
   {
    "date": "2026-11-08",
    "headline": "**TTF −16–18% ON THE WEEK (6 Nov):** December ~€85.59 close Friday (ISR; ~€85.6–86.8 across sources); the €80 leg ~€5.6 away. EU storage last 73.42% (4 Nov). (REPORTED; intel ISR, MAC-A6)",
