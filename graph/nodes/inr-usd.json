@@ -3,7 +3,7 @@
  "name": "INR/USD Exchange Rate",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-09",
+ "last_updated": "2026-11-10",
  "summary": "Rupee, Day 249. A 7.6% fall in Brent moved the rupee by about 20–25 paise: it closed 94.84 on Monday (after a corrected 94.76 on Friday) and touched 94.60 on Tuesday morning. Dealers say the RBI and the State Bank are buying dollars into any strength — for oil payments and to refill a record $239bn forward short — capping it near 94.50. The rupee's oil link is now one-sided: it slid toward 95.3 when oil rose and is not allowed to gain much when oil falls. The clean test is whether it can close stronger than 94.50 before mid-November; a declared US campaign would put 95.3 and then 96.5 back in play.",
  "current": {
   "price": "93.93 (PTI provisional, 9 Nov); 93.98 (PTI final, 6 Nov)",
@@ -88,7 +88,8 @@
    "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — Brent <$103 leg: session 1 (4 Nov); rupee 94.46 PTI. (intel IND-A2)",
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — Brent <$103 leg: settles 4 Nov $94.62, 5 Nov $98.29 (2 sessions; Fri pending). Rupee leg: PTI 93.89 provisional, 89 paise short of 93. (intel IND-A2; CoS)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — Brent leg MET (January settles 4, 5, 6 Nov: $94.62, $98.29, $98.32, all <$103); rupee leg 89 paise short (93.89), and IANS reports the RBI buying dollars near 93.88, which makes 93 harder. (intel IND-A2; CoS)",
-   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — PTI 93.93 provisional (9 Nov); Brent leg met (<$103), rupee leg 93 paise short. (intel IND-A3)"
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — PTI 93.93 provisional (9 Nov); Brent leg met (<$103), rupee leg 93 paise short. (intel IND-A3)",
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — no session Tue; last PTI 93.93 (9 Nov); the Brent leg (<$103) has held since 4 Nov. (intel IND-A4)"
   },
   {
    "condition": "RBI OMC special-credit-facility wound down (Branch 3 sub-$103 sustained 2-3 sessions)",
@@ -108,7 +109,8 @@
    "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — sub-$103 session 1. (intel IND trigger summary)",
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — sub-$103 sessions: 2 (4, 5 Nov); no RBI announcement. (intel IND-A7)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — three sub-$103 Brent settles (4–6 Nov) but no RBI announcement. (intel IND-A7)",
-   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED. (intel IND-A6)"
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED. (intel IND-A6)",
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — nothing announced; Brent below $103 since 4 Nov. (intel IND-A6)"
   },
   {
    "condition": "USD/INR breaks ₹96.60 cleanly and holds for 3+ sessions — a clean break of the all-time record, distinct from the current touch-and-hold",
@@ -172,7 +174,8 @@
    "added": "2026-11-06",
    "notes": "Successor to the fired two-close test (94.41, 93.89 PTI). Friday's +52 paise came mainly on flows (see the fired two-close note). The `brent-crude → inr-usd` edge (10.0, asymmetric) says an oil spike reaches the rupee in full. (intel IND-A2)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — 93.89 (PTI provisional, 6 Nov). (intel IND-A2)",
-   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — 93.93 provisional; PTI's final Friday close was 93.98 (the 8-Nov graph carried the 93.89 provisional). (intel IND-A3)"
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — 93.93 provisional; PTI's final Friday close was 93.98 (the 8-Nov graph carried the 93.89 provisional). (intel IND-A3)",
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 93.93 (9 Nov). (intel IND-A4)"
   }
  ],
  "top_edges": [
@@ -213,6 +216,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-10",
+   "headline": "No onshore session Tue 10 Nov (PTI: equity, currency and debt markets closed); no FBIL/RBI reference rate found. Last PTI close 93.93 provisional (9 Nov). INR=X 93.918 is an offshore/stale print.",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-11-09",
    "headline": "PTI: 93.93 provisional Mon 9 Nov (range 93.69–94.11); PTI's FINAL Friday close was 93.98 (the 8-Nov brief and graph carried the 93.89 provisional). HDFC Securities' Parmar: the rupee snapped 'a five-day winning streak amid state-run bank dollar buying ahead of a market holiday'. No RBI intervention report for Monday.",

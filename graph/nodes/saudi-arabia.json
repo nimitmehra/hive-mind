@@ -3,7 +3,7 @@
  "name": "Saudi Arabia",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-11-09",
+ "last_updated": "2026-11-10",
  "summary": "Saudi Arabia, Day 246. Riyadh bought a channel to Tehran on 26 Oct and got no relief from the Houthis: interceptions over the capital region came on five of the next six days, and on 27 Oct a fire broke out at Ras Tanura — the kingdom's main Gulf export and refining hub — which the Houthis claim as a hit (Bloomberg's source confirms only a contained fire near the terminal; one open-source imagery reading of a damaged unit cannot exclude the March damage). For the first time Riyadh and Aramco said nothing about an energy-site incident, and crude loadings carried on, so any damage is a products risk rather than lost crude. The coalition has started calling some Riyadh-region drones merely 'hostile', leaving open an Iraqi-militia second front. Saudi diplomacy compartmentalises: mediation with Iran through the Mecca pact, Rubio and Lavrov in Atlanta, the Houthis condemned by name at Manama while Iran goes unnamed. Saudi jets keep striking Yemen; Egypt has authorised help only if asked; Washington still will not strike the Houthis. Exports are reported at 5.4–7 mb/d depending on the tracker. Aramco's December prices (~5 Nov) and Q3 results are the next data.",
  "current": {
   "status": "Day 254: Aramco's Riyadh (KAFD) tower damaged by a Houthi barrage (confirmed, 'limited'); processing/export trigger not fired; Sanaa strike toll 33 (Houthi figures); no channel on the record.",
@@ -160,11 +160,12 @@
    "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — Riyadh signed a defence cooperation agreement with Syria instead (4 Nov). (intel SAU-B1)",
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED. (intel SAU)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED. (intel SAU)",
-   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — nothing found. (intel SAU)"
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — nothing found. (intel SAU)",
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — not searched in depth this window. (intel SAU gaps)"
   },
   {
    "condition": "Aramco/SPA acknowledges the 27-Oct Ras Tanura damage, OR a named imagery firm/Reuters confirms the hit, OR a second confirmed hit on Aramco processing/export capacity (Abqaiq, Ras Tanura, Yanbu, East-West line), by 30 Nov",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "saudi-arabia",
     "houthis",
@@ -179,7 +180,9 @@
    "note_2026-11-05": "[reviewed, stays watching] NOT FIRED.",
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — Yanbu 'potential danger' alert (5 Nov) only; Houthi claim on Dammam airport (5 Nov), no Saudi comment. (intel SAU-A2)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — CLOSEST TEST YET, but not a processing/export asset: Sun 8 Nov the Energy Ministry confirmed on the record 'an attempted targeting of a Saudi Aramco building in Riyadh' — shrapnel, 'limited damage', no injuries; AFP/Reuters witnesses: blown-out windows across several floors of the Aramco tower in the King Abdullah Financial District (CONFIRMED damage; mechanism CLAIMED). Coalition: intercepted 2 BMs toward Riyadh, 1 toward the Eastern Province, 2 cruise missiles (Riyadh and Southern regions); Civil Defence alerts incl. Buqayq. Houthi claims for Sat 7 Nov (Khurais; 'Pumping Station No. 8' at Dawadmi on the East-West line; KKIA; Riyadh storage) — CLAIMED, unconfirmed. A confirmed Dawadmi hit would meet the East-West leg. (intel SAU-B1/A1/A2)",
-   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — no acknowledgement. New CLAIM (Saree, 8 Nov): Aramco at Buqayq (Abqaiq) hit with 'fires', plus 'Aramco tanks' and the 'financial centre' in Riyadh. Riyadh confirms only the KAFD office damage ('limited damage', Energy Ministry, 8 Nov); nothing confirms or denies Abqaiq. (intel SAU-A1)"
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — no acknowledgement. New CLAIM (Saree, 8 Nov): Aramco at Buqayq (Abqaiq) hit with 'fires', plus 'Aramco tanks' and the 'financial centre' in Riyadh. Riyadh confirms only the KAFD office damage ('limited damage', Energy Ministry, 8 Nov); nothing confirms or denies Abqaiq. (intel SAU-A1)",
+   "status_changed": "2026-11-10",
+   "note_2026-11-10": "[watching → fired] FIRED — LOW IMPACT (East-West leg). The leg's own 8-Nov note set the threshold: 'A confirmed Dawadmi hit would meet the East-West leg' (our reading: a confirmed hit on the line; the note asked for no outage). Mon 9 Nov the Energy Ministry (SPA, 'a responsible source') confirmed on the record that the East-West pipeline in the Madinah region suffered 'a targeting that resulted in a limited fire' (استهداف نتج عنه حريق محدود); contained; no casualties; operations 'unaffected'. CONFIRMED action (the government on the record about its own asset). Label: confirmed hit, NO capacity lost, attacker UNKNOWN (no Houthi or Iraqi-faction claim by ~18:50 IST Tue; Al Jazeera English's 'Houthi attack' headline is not supported by SPA or its own body). Not the line's first hit of the war (10 Sep, Iraqi drones per Riyadh, shut 11–22 Sep). Ras Tanura (27 Oct) and Abqaiq (29 Oct, 8 Nov) remain unacknowledged claims. Cascade check: Brent fell 5.85% the same session — the market did not price it. Replaced by a capacity-threshold watch (added today). (intel SAU-B1; CoS header)"
   },
   {
    "condition": "Aramco's December OSP for Arab Light to Asia (~5 Nov) is cut again (below −$5.00 vs Oman/Dubai) — exporter chasing volume, not scarcity — OR raised (scarcity pricing)",
@@ -209,7 +212,8 @@
    "notes": "Set 5 Nov: Saudi and Syrian defence ministries signed a cooperation agreement in Riyadh (4 Nov; terms unpublished; ~$403m in loans); FM al-Shaibani said Damascus is weighing joining the pact. Tests whether Riyadh's new partners send units, unlike Egypt. (intel SAU-B1)",
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — Turkey's parliament ratified the Mecca pact 5 Nov (279–119); Syria not a member; no Syrian units reported. (intel SAU-A8)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — TESTED, closest yet: AFP (7 Nov, Yemeni sources): 'thousands' of Syrian troops set to deploy to Saudi Arabia and Yemen, 'hundreds' already there; Damascus denies (SANA); Reuters: a 'limited number of personnel' for advisory/training; a senior Saudi official: 'mainly to restructure the Syrian forces'. REPORTED/denied. (intel SAU-B3)",
-   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — closest yet. AP (8 Nov, three officials, anonymous): Syrian military advisers already in Saudi Arabia; ~600 special forces could arrive 'within a week'; two Syrian officials say Damascus 'decided' to join the Mecca pact (not announced). FM Shaibani (9 Nov) denied only Yemen: 'There is no deployment of troops to Yemen nor is there a plan for such deployment in the near future.' Test ~16 Nov. (intel SAU-B1)"
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — closest yet. AP (8 Nov, three officials, anonymous): Syrian military advisers already in Saudi Arabia; ~600 special forces could arrive 'within a week'; two Syrian officials say Damascus 'decided' to join the Mecca pact (not announced). FM Shaibani (9 Nov) denied only Yemen: 'There is no deployment of troops to Yemen nor is there a plan for such deployment in the near future.' Test ~16 Nov. (intel SAU-B1)",
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — no arrival, no Saudi comment, no pact announcement; SANA's official: 'training… not in a combat capacity'; Al Jazeera English's 'Syria confirms sending troops' overreads it. Test AP's 'within a week' ~15–16 Nov. (intel SAU-A3)"
   },
   {
    "condition": "Saudi Arabia or the Houthis confirm ON THE RECORD talks on ending hostilities (direct or Omani-mediated), OR a Saudi–Houthi truce is announced, by 31 Dec",
@@ -222,7 +226,21 @@
    "added": "2026-11-06",
    "notes": "WSJ (5 Nov, REPORTED): Riyadh approached the Houthis; the Houthis asked $51bn plus recognition. Saudi official Rayed Krimly: 'pure fabrication' — he denied the demands, not (in the relays found) the approach. (intel SAU-B1)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — no follow-up to the WSJ channel; the weekend went the other way (Riyadh barrage; airstrikes near Sanaa killed 33 per the Houthi health ministry, Riyadh 'investigating'). (intel SAU-A5, B2)",
-   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — Oman's FM discussed 'de-escalation' with the UN envoy (9 Nov); nothing on the record from Riyadh or Sanaa. (intel SAU-A5)"
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — Oman's FM discussed 'de-escalation' with the UN envoy (9 Nov); nothing on the record from Riyadh or Sanaa. (intel SAU-A5)",
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — Faisal–Albusaidi call (Mon) on 'containing the current crisis'; nothing on the record from Riyadh or Sanaa. (intel SAU-A4/A5)"
+  },
+  {
+   "condition": "Aramco/SPA reports LOST throughput or processing at Abqaiq, Ras Tanura, Yanbu or the East-West line, OR a named imagery firm/Reuters confirms damage at Abqaiq or any East-West pumping station, by 31 Dec — a hit that costs capacity, not only a fire",
+   "status": "watching",
+   "cascade": [
+    "saudi-arabia",
+    "houthis",
+    "brent-crude",
+    "energy-sector",
+    "indian-oil-marketing"
+   ],
+   "added": "2026-11-10",
+   "notes": "Replaces the fired 31-Oct trigger (fired 10 Nov on the confirmed 9-Nov East-West hit: limited fire, operations unaffected, attacker unnamed). Capacity is the threshold now: a confirmed hit with operations 'unaffected' does NOT fire this. Abqaiq (Houthi claims 29 Oct, 8 Nov) and PS-8 (Houthi claim 7 Nov; RT Arabic's uncredited 8-Nov imagery) are unconfirmed. (intel SAU-A1/B1) Imagery leg widened from 'Pumping Station No. 8' to 'any East-West pumping station' on the fact-checker's Flag 17 (the 9-Nov hit was in the Madinah region)."
   }
  ],
  "top_edges": [
@@ -264,9 +282,9 @@
    "type": "swing_producer",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-06",
+   "last_activated": "2026-11-10",
    "activation_count": 8,
-   "context": "5 Nov: Aramco cut December Arab Light to Asia $2 to ~−$7 vs Oman/Dubai (REPORTED level) while futures rebounded — physical pricing and the paper premium point opposite ways. Held at 10.0."
+   "context": "9 Nov: the Energy Ministry confirmed a hit on the East-West pipeline (limited fire, operations unaffected); Brent fell 5.85% the same session — no price response. Activation, no weight change."
   },
   {
    "to": "opec-plus",
@@ -303,6 +321,21 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-10",
+   "headline": "Syrian forces: no arrival, no Saudi comment; SANA (7 Nov) official: personnel in the kingdom for 'training, expertise exchange and military consultations', 'not in a combat capacity'. Al Jazeera English's 'Syria confirms sending troops' overreads it. Test AP's 'within a week' ~15–16 Nov.",
+   "verification": "REPORTED"
+  },
+  {
+   "date": "2026-11-10",
+   "headline": "Tue 10 Nov: coalition (al-Maliki) says a ballistic and a cruise missile at Riyadh, a ballistic missile at the Southern Region and a drone over the Eastern Province were 'intercepted and destroyed'; AFP heard blasts in Riyadh; third day of Riyadh shelter alerts; Riyadh schools moved online. Coalition says it destroyed three missile-production sites in Sanaa (Mon night). TASI 10,168.10 (+0.61%); Aramco SAR 25.60 (−1.9%, no cause found; not ex-dividend). Abqaiq still neither confirmed nor denied; RT Arabic ran uncredited 8-Nov imagery of 'possible damage' at Pumping Station No. 8 (unverified).",
+   "verification": "CONFIRMED (interceptions per coalition, alerts, TASI) / CLAIMED (Abqaiq, PS-8)"
+  },
+  {
+   "date": "2026-11-10",
+   "headline": "East-West pipeline hit, Mon 9 Nov evening: SPA quoting 'a responsible source at the Ministry of Energy' — the line in the Madinah region suffered 'a targeting that resulted in a limited fire'; teams contained it; no casualties; operations 'unaffected'. No attacker or weapon named; no claim (Houthi or Iraqi faction) by ~18:50 IST Tue. Public by 23:13 IST Mon at the latest (Al Jazeera Arabic update). Not the line's first hit (10 Sep, Iraqi drones per Riyadh; shut to 22 Sep). Al Jazeera English's headline 'after Houthi attack on pipeline' attributes what SPA does not.",
+   "verification": "CONFIRMED (attack and fire, government on the record) / attacker UNKNOWN"
+  },
   {
    "date": "2026-11-09",
    "headline": "Condemnations of the 8-Nov Riyadh attack: GCC Secretary-General, Qatar, Kuwait, Bahrain (asked the UN Security Council to act), Jordan, Egypt, Syria, the Arab Parliament (8 Nov); the UAE and Lebanon (9 Nov). Oman: not found.",

@@ -3,7 +3,7 @@
  "name": "China",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-11-09",
+ "last_updated": "2026-11-10",
  "summary": "China, Day 241. Silent on Iran in October (no MFA or Wang Yi statement found) while taking ~0.5 mb/d of Iranian crude in September despite zero Iranian loadings since late August. Its September crude imports fell 21% y/y with large stock draws; Q3 GDP beat at 4.5%. Trump says China is 'not much of a player'. The Trump–Xi summit produced no Hormuz commitment.",
  "current": {
   "status": "Named non-exempt target of Economic Outcast secondary sanctions; Xi in Delhi for BRICS (declaration silent on the US); urea export quota now sets the ME benchmark."
@@ -42,7 +42,8 @@
    "note_2026-11-05": "[reviewed, stays watching] NO DATA. (intel KIN-A8)",
    "note_2026-11-06": "[reviewed, stays watching] NO DATA. Iran's 'exemption' for China and India (fees attached) reported by Al Jazeera, 6 Nov. (intel KIN)",
    "note_2026-11-08": "[reviewed, stays watching] NO DATA. (intel KIN)",
-   "note_2026-11-09": "[reviewed, stays watching] NO DATA. (intel KIN-A5)"
+   "note_2026-11-09": "[reviewed, stays watching] NO DATA. (intel KIN-A5)",
+   "note_2026-11-10": "[reviewed, stays watching] NO DATA. (intel KIN)"
   },
   {
    "condition": "Trump–Xi summit readout (25 Sep) contains a China commitment on Iran/Hormuz (pressure on Tehran, buyer sanctions carve-out, or a Hormuz 'stability' text) — OR is silent on Iran",
@@ -73,7 +74,8 @@
    "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — nothing new from Beijing; missed 2-Nov Bagheri Kani–Wang Yi meeting logged. (intel DIP-A7/B4)",
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — no Zhai Jun arrival reported; no paper names China. (intel DIP)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — WaPo (one US official, REPORTED): Bessent, with Trump's backing, asked China to use its influence with Tehran; Beijing passed the message on. No Chinese MFA comment; Zhai Jun not reported in the region. (intel DIP-B2)",
-   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — Zhai Jun in Tehran met Bagheri Kani and Takht-Ravanchi (China MFA readout, 9 Nov): the issue 'cannot be resolved by force'. No paper names China; no joint statement. (intel DIP-B3)"
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — Zhai Jun in Tehran met Bagheri Kani and Takht-Ravanchi (China MFA readout, 9 Nov): the issue 'cannot be resolved by force'. No paper names China; no joint statement. (intel DIP-B3)",
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — nothing new on the record. (intel DIP-B4)"
   }
  ],
  "top_edges": [
@@ -108,9 +110,9 @@
    "type": "demand_destruction_chinese_crude_imports_at_10yr_low_soft_refineries_pressed_brent_minus2pct_to_93_on_5_june_china_now_demand_counterweight_to_war_supply_premium",
    "weight": 3.0,
    "directness": 2,
-   "last_activated": "2026-06-06",
+   "last_activated": "2026-11-10",
    "activation_count": 1,
-   "context": "2026-06-06: Chinese crude imports at a ~10-yr low (soft refineries) = principal driver of Brent -2% to $93.09 on 5 June (with no US-Iran breakthrough). New demand-side causal channel: China as the demand-destruction counterweight to the war-supply premium. weight = freq(1) x recency(1.0) x directness_mult(3.0) = 3.0."
+   "context": "10 Nov: China's October crude imports 9.88m b/d, highest since March — ignored by the oil market. Activation, no weight change."
   },
   {
    "to": "russia",
@@ -122,6 +124,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-10",
+   "headline": "October trade (customs, 10 Nov): crude imports 41.94mt (~9.88m b/d), +9.4% m/m, highest since March; exports +35.2% y/y, imports +41.6%; surplus $105.3bn. Chip exports more than doubled. Nothing new on the record on Iran.",
+   "verification": "REPORTED (several relays of one official release)"
+  },
   {
    "date": "2026-11-09",
    "headline": "Envoy Zhai Jun in Tehran met Bagheri Kani and Takht-Ravanchi (China MFA readout, 9 Nov): the issue 'cannot be resolved by force'. China's October PPI +5.7% y/y (highest since mid-2022), led by coal and oil and gas extraction; CPI 0.7% (NBS via CNBC/SMM).",

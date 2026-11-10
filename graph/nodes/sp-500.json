@@ -3,11 +3,11 @@
  "name": "S&P 500",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-09",
+ "last_updated": "2026-11-10",
  "summary": "S&P 500, Day 241. 7,623.68 (23 Oct), −2.3% since 13 Oct and −2.5% from the 6-Oct record; Nasdaq −4.6%. The drivers are ~90% non-war: Meta's first negative free cash flow in over a decade, CoreWeave's credit stress and an eight-day chip losing streak, plus a hot September CPI. Defence primes and energy rose. An AI-credit correction, not a war selloff; this week's MSFT/GOOGL/AMZN prints decide whether it broadens.",
  "current": {
-  "price": "7,580.07 (30 Oct)",
-  "driver": "AI-buyer financing shock (Alphabet, Amazon) + Intel; war only via energy (+) and Fed pricing (−).",
+  "price": "7,549.94 (9 Nov close)",
+  "driver": "Oil's fall and the chip rebound (9 Nov); hot CPI hits futures (10 Nov)",
   "regime": "AI-credit-led drawdown (−3.1% from record), not war-led."
  },
  "active_triggers": [
@@ -43,7 +43,8 @@
    "note_2026-11-05": "[reviewed, stays watching] NOT FIRED — 7,688.62.",
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — 7,353.73 (−4.36% Thu, worst day since 4 Apr 2025), 5.9% below the 6-Oct peak (7,818.93). Driver non-war (AI). (CoS; intel MAC-A6)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — 7,376.86 (+0.31% Fri), 5.65% below the 6-Oct peak. (CoS)",
-   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — ~7,494 (~20:19 IST, +1.6%), ~4.2% below the 6-Oct peak (7,818.93). (CoS)"
+   "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — ~7,494 (~20:19 IST, +1.6%), ~4.2% below the 6-Oct peak (7,818.93). (CoS)",
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 7,549.94 (9 Nov), −3.4% from the 7,818.93 peak. (intel MAC-A7)"
   },
   {
    "condition": "VIX cash breaks above 22 on Wednesday ceasefire lapse (binary escalation-hedging threshold)",
@@ -135,6 +136,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-10",
+   "headline": "Mon 9 Nov close 7,549.94 (+2.35%, best day since 8 Apr); Nasdaq 25,253.14 (+2.74%); Dow 52,389.75 (+2.15%). Falling oil 'the main driver' (StockTitan/CNBC). Tue post-CPI: S&P futures −0.6% (low −0.9%), Nasdaq-100 futures −0.8% at 19:15 IST.",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-09",
    "headline": "Mon 9 Nov: ~7,494 (+1.6%) at ~20:19 IST; Nasdaq +2%; Bloomberg cites AI dip-buying and oil's fall. ~4.2% below the 6-Oct peak.",
@@ -512,6 +518,11 @@
    "date": "2026-11-09",
    "price": "~7,494 (9 Nov ~20:19 IST, intraday)",
    "trigger": "AI bounce, oil −4.5%"
+  },
+  {
+   "date": "2026-11-10",
+   "price": "7,549.94 (9 Nov close)",
+   "trigger": "Best day since 8 Apr on oil's fall"
   }
  ]
 }

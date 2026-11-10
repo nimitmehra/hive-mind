@@ -3,13 +3,13 @@
  "name": "Federal Reserve",
  "type": "institution",
  "created": "2026-03-23",
- "last_updated": "2026-11-09",
+ "last_updated": "2026-11-10",
  "summary": "Federal Reserve, Day 246. The Fed held at 3.75–4.00% on 28 Oct with December Brent above $115, but two governors/presidents (Cook, Hammack) dissented for a hike, the statement called growth 'strong', and Q3 GDP (3.4%) and PCE (3.6%, core 3.1%) printed hot the next day. Markets price a December hike at roughly 76–83%; Logan wants 'at least two more'. Chair Warsh avoided guidance but put on record that the oil–interest-rate correlation has broken: oil kept rising while long rates 'rolled over to the downside' — the same finding the graph acted on by cutting brent-crude → us-10y-yield. The war reaches the Fed through energy-led inflation and the front end; long yields are being set by AI-credit risk. Next: 9 Dec FOMC.",
  "current": {
-  "status": "Held 3.75–4.00% on 28 Oct (10–2; Cook, Hammack for +25bp); December hike ~76–83% priced",
+  "status": "Held 3.75–4.00% on 28 Oct; a 25bp December hike fully priced after Waller and the hot October CPI (10 Nov); 50bp ~7%",
   "price": "3.75–4.00%",
   "delta_1d": "hold",
-  "regime": "LOOKING THROUGH ONE OIL PRINT, NOT THROUGH THE INFLATION: hawkish hold; Chair notes the oil→long-rates link broke; regional presidents carry the hike message.",
+  "regime": "HIKING ON CORE SERVICES, NOT OIL: the 2Y rose 5bp on 9 Nov as Brent fell 5.85%; Waller floats 50bp; the war's channel into US policy is small.",
   "aug_2026": "Held 3.50-3.75% (29 Jul, 9-3, three hike-dissents); markets price ~63% odds of a SEPTEMBER hike and two hikes for 2026. NFP + ISM PMI this week are the near-term US catalysts. The war-inflation channel is easing at the margin as oil crashes (-7% to $84) — a durable ceasefire that keeps oil low would vindicate the 9-member hold; a restrike re-arms the hike case."
  },
  "active_triggers": [
@@ -33,7 +33,8 @@
    "note_2026-11-05": "[reviewed, stays active] Stays ACTIVE — December hike ~82% priced (ZQZ26 95.975); ADP +86k; ISM prices 73.0. (intel MAC-A5)",
    "note_2026-11-06": "[reviewed, stays active] Stays ACTIVE — hike pricing fell to ~65% on risk-off; Hammack/Barkin 'gradual' hikes. (intel MAC-A5)",
    "note_2026-11-08": "[reviewed, stays active] Stays ACTIVE — October payrolls +165k (vs ~60k expected), unemployment 4.1%; December hike odds ~65% → ~76% (CoS math; CME 76.8%); Daly: 'My expectation is we're going to have to tighten policy further.' US CPI Tue 10 Nov. (intel MAC-A1)",
-   "note_2026-11-09": "[reviewed, stays active] Stays ACTIVE — December-hike odds ~82% (CoS math, ZQZ26 95.975), from ~76% Friday; unattributed two-tick move; CPI Tue 19:00 IST. (intel MAC-A4)"
+   "note_2026-11-09": "[reviewed, stays active] Stays ACTIVE — December-hike odds ~82% (CoS math, ZQZ26 95.975), from ~76% Friday; unattributed two-tick move; CPI Tue 19:00 IST. (intel MAC-A4)",
+   "note_2026-11-10": "[reviewed, stays active] [stays active, reinforced] Waller (London, Tue): 'Hiking only 25 basis points would put our credibility at risk'; 50bp 'should be considered' if October core is ~0.3% — core printed +0.3% m/m (cons. +0.2%); headline +0.4% (cons. +0.3%). (intel MAC-A5)"
   },
   {
    "condition": "FOMC HIKES 25bp on 16 Sep (decision + statement) — OR HOLDS despite 83–85% pricing (dovish surprise)",
@@ -85,7 +86,22 @@
    "note_2026-11-05": "[reviewed, stays watching] Leg 1 met; leg 2 PENDING 9 Dec, ~82% priced; the 8.7% oil fall did not move it. (intel MAC-A5)",
    "note_2026-11-06": "[reviewed, stays watching] Leg 1 met; leg 2 PENDING 9 Dec — ~65% priced (ZQZ26 96.005, from ~82%), cut by the equity rout not data (claims 189k). Hammack and Barkin still argue for gradual hikes. Payrolls 19:00 IST 6 Nov pending at review. (intel MAC-A5; CoS)",
    "note_2026-11-08": "[reviewed, stays watching] Leg 1 met; leg 2 PENDING 9 Dec, ~76% priced (from ~65%) — payrolls-driven, not oil. (intel MAC-A1)",
-   "note_2026-11-09": "[reviewed, stays watching] Leg 2 PENDING (9 Dec) — ~82% priced; Brent now below $100 (~$94), so the 'despite Brent >$100' framing no longer holds at today's price. (intel MAC-A4)"
+   "note_2026-11-09": "[reviewed, stays watching] Leg 2 PENDING (9 Dec) — ~82% priced; Brent now below $100 (~$94), so the 'despite Brent >$100' framing no longer holds at today's price. (intel MAC-A4)",
+   "note_2026-11-10": "[reviewed, stays watching] Leg 2 PENDING (9 Dec) — a 25bp hike is now fully priced (26.8bp at 19:15 IST, CoS/MAC ZQZ26 math; 50bp ~7%). FRAMING NOTE: the watch's premise ('Fed looks through energy') no longer describes the driver — Brent is ~$89.5 and the case is core services (Waller; Goolsbee: 'a bunch of services'); the 2Y rose 5bp on 9 Nov as oil fell 5.85%. (intel MAC-A5/A6)"
+  },
+  {
+   "condition": "The 9 Dec FOMC hikes 50bp (Waller's 10-Nov case) — vs 25bp",
+   "status": "watching",
+   "cascade": [
+    "fed",
+    "us-10y-yield",
+    "gold",
+    "sp-500",
+    "inr-usd",
+    "fii-flows"
+   ],
+   "added": "2026-11-10",
+   "notes": "Added 10 Nov. Futures (CoS/MAC ZQZ26 math, EFFR 3.88): ~18% at the 19:00 IST CPI extreme, ~7% by 19:15 IST; 25bp fully priced. Waller: 'Hiking only 25 basis points would put our credibility at risk.' Goldman's Fox: 'hedging'. Resolves 9 Dec. (intel MAC-A5)"
   }
  ],
  "top_edges": [
@@ -94,18 +110,18 @@
    "type": "rate_expectations",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-10-31",
+   "last_activated": "2026-11-10",
    "activation_count": 19,
-   "context": "2026-10-31: activation — 28 Oct hawkish hold lifted the 10Y to 5.05% for one session. (intel MAC-A8)"
+   "context": "10 Nov: Waller (14:30 IST) and hot October core CPI (+0.3%) — 2Y ~+5–6bp post-CPI; December hike fully priced. Activation, no weight change."
   },
   {
    "to": "sp-500",
    "type": "discount_rate",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-09-17",
+   "last_activated": "2026-11-10",
    "activation_count": 19,
-   "context": "2026-09-17: CONFIRMED: hike → Dow −1.2%, S&P −0.4%, XLF −1.5% (markets C3). At cap."
+   "context": "10 Nov: S&P futures −0.6%, Nasdaq-100 futures −0.8% in 15 minutes after the hot CPI. Activation, no weight change."
   },
   {
    "to": "semiconductors",
@@ -129,9 +145,9 @@
    "type": "real_yield_channel_jun10_dec_hike_repricing_70pct_real_yields_dxy_up_gold_fell_2.1pct_during_three_country_strike",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-08",
+   "last_activated": "2026-11-10",
    "activation_count": 18,
-   "context": "6 Nov: payrolls +165k → hike odds ~65% → ~76% → DXY +0.7% → gold −0.94%. Non-war transmission."
+   "context": "10 Nov: gold fell in the Waller bar and again after CPI ($4,114.5 → ~$4,064.5) on the dollar and yields. Activation, no weight change."
   },
   {
    "to": "brent-crude",
@@ -151,6 +167,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-10",
+   "headline": "Governor Waller (London, ~14:30 IST Tue): 'Hiking only 25 basis points would put our credibility at risk'; if October core CPI is 'around 0.3 percent or even higher… a 50 basis point hike in the policy rate should be considered at the December meeting'. October CPI (19:00 IST): headline +0.4% m/m (cons. +0.3%), core +0.3% (cons. +0.2%); BLS publishes no y/y (2025 shutdown gap); components not found. December pricing (CoS/MAC ZQZ26 math, EFFR 3.88): ~82% Mon → ~96–99% after Waller → 26.8bp by 19:15 IST (25bp fully priced; ~7% odds of 50bp; peak ~18% at 19:00).",
+   "verification": "CONFIRMED (words, print, prices)"
+  },
   {
    "date": "2026-11-09",
    "headline": "December-hike odds ~82% on fed-funds futures (ZQZ26 95.975 intraday; CoS math), from ~76% Friday — a two-tick move, unattributed, on a day oil fell 4.5%. US CPI Tue 10 Nov 19:00 IST.",
