@@ -3,11 +3,11 @@
  "name": "Gold",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-11-10",
+ "last_updated": "2026-11-11",
  "summary": "Gold, Day 246. Gold is behaving as a casualty of the war's inflation and as the first asset sold for cash, not as a war hedge. It fell below $3,900 on 30 Oct (Dec futures $3,898.90; spot ~$3,875), a one-year low and ~30% below January's $5,595 record, on the same day that US real yields fell and oil rose — the second time in eight days that the textbook real-yield link failed. The drivers are an oil-fed Fed (PCE 3.6%, two FOMC dissents for a hike, December ~80% priced) and margin calls from the AI-credit selloff. Silver broke below $50. State Street's $4,000 floor is gone; the gold/silver ratio (~79.3) is a whisker from the 80 trigger. Gold would turn back into a hedge on a credit or financial-system scare — HY spreads widening 12bp on the Alphabet day is a faint start, not that regime.",
  "current": {
-  "price": "$4,064.5 Dec (10 Nov 19:15 IST); $4,114.5 settle (9 Nov)",
-  "delta_1d": "−1.2% intraday (10 Nov)",
+  "price": "$4,069 Dec (11 Nov 11:20 IST); $4,030.2 settle (10 Nov)",
+  "delta_1d": "−2.05% (10 Nov settle)",
   "delta_1m": "−7.2%",
   "regime": "WAR-INFLATION VICTIM + LIQUIDITY SOURCE, NOT A HEDGE. Falls with real yields (30 Oct: real −3bp, gold −3.3%); Fed-hike pricing and AI-selloff margin calls dominate. Flip condition: a financial-system/credit scare, not an inflation scare.",
   "gold_silver_ratio": "79.2 (3 Nov close); ~77.9 intraday",
@@ -31,7 +31,8 @@
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — ~$4,074–4,114. (CoS)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — $4,074.9. (CoS)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — $4,128 (December, +1.3%). (CoS)",
-   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED (~$4,064.5). (intel MAC-A9)"
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED (~$4,064.5). (intel MAC-A9)",
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — $4,030.2 settle. (markets)"
   },
   {
    "condition": "Gold/silver ratio exceeds 80:1",
@@ -50,7 +51,8 @@
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — ~78.5. (CoS)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — ratio ~78.5 ($4,074.9 / $51.94). (CoS)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — ~78.3. (CoS)",
-   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED (~78). (intel MAC-A9)"
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED (~78). (intel MAC-A9)",
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — ~76.8. (markets)"
   },
   {
    "condition": "US 10Y real yield falls 15bps in 3 sessions (inflation-regime trigger — more predictive than crisis-escalation)",
@@ -125,7 +127,8 @@
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — $4,113.5 Thu; ~$4,074 Fri. Goldman cut end-2026 to $4,150 from $4,650 (REPORTED). (intel MAC-A7)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — $4,074.9 (Dec, 6 Nov, −0.9% on payrolls; +4.5% on the week). (CoS)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED. (CoS)",
-   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED. (intel MAC-A9)"
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED. (intel MAC-A9)",
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED. (markets)"
   },
   {
    "condition": "BlackRock Rick Rieder confirmed/announced as next Fed chair — dollar-weakness regime confirmed",
@@ -173,6 +176,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-11",
+   "headline": "Dec settled $4,030.2 Tue (−2.05%; low $4,020.8 — State Street's $4,000 floor tested and held): Waller (14:30 IST), CPI (19:00), Logan (21:43–21:59 IST) with the dollar firmer (DXY 102.23, +0.57%). Wed ~$4,069 (+1.0%, no driver found). Gold/silver ~76.8.",
+   "verification": "CONFIRMED (prices) / REPORTED (cause by bar timing)"
+  },
   {
    "date": "2026-11-10",
    "headline": "Dec settled $4,114.5 Mon; fell in the 14:30 IST bar with Waller (DXY up), ~$4,080 pre-CPI, low $4,046.4 at 19:00, $4,064.5 at 19:15 IST. Gold/silver ~78.",
@@ -643,6 +651,11 @@
    "date": "2026-11-10",
    "price": "$4,064.5 (GCZ26, 10 Nov 19:15 IST)",
    "trigger": "Waller and hot CPI; the Fed, not the war"
+  },
+  {
+   "date": "2026-11-11",
+   "price": "$4,030.2 (GCZ26 settle, 10 Nov)",
+   "trigger": "Hawkish Fed and a firmer dollar"
   }
  ]
 }

@@ -3,7 +3,7 @@
  "name": "United Arab Emirates",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-11-10",
+ "last_updated": "2026-11-11",
  "summary": "UAE, Day 241. Aligned behind Riyadh, hit at sea but not on its soil: AD Ports-linked container ships were struck (GFS Pride sank 14 Oct), a tug was hit off Khor Fakkan on the Gulf of Oman coast (18 Oct), and spilled oil closed northern beaches (23–25 Oct). Abu Dhabi reportedly re-funds southern Yemeni forces under Saudi air cover. Outside OPEC, it pumped a record >4.4 mb/d in September (IEA via aggregator). Not a combatant.",
  "current": {
   "status": "Trade/finance with Iran HALTED since 18 Aug (CONFIRMED); missile incident disputed (CLAIMED); Delhi meeting with Pezeshkian 12 Sep."
@@ -27,7 +27,8 @@
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — Abdullah bin Zayed urged 'de-escalation' on Araghchi's call; no UAE condemnation of the Medina attempt found; IRGC/Artesh threats name 'any country' helping the US. (intel SAU-A7, KIN)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED. (intel KIN, SAU)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — the UAE condemned the Riyadh attack (9 Nov); Gargash: prepare for 'a long period of uncertainty'. (intel SAU-A9)",
-   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — the GCC joint command HQ in Kuwait is institutional. (intel KIN-B1)"
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — the GCC joint command HQ in Kuwait is institutional. (intel KIN-B1)",
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — the UAE is the victim of the 10-Nov hit; no MoFA statement; new attribution watch added today. (intel KIN-B1)"
   },
   {
    "condition": "UAE adds 500K-1M bpd of supply within 6 months of OPEC exit (May 1) confirming Atlantic Council/Derentz medium-term-bearish thesis",
@@ -57,6 +58,19 @@
    "added": "2026-04-29",
    "status_changed": "2026-10-26",
    "note_2026-10-26": "[watching → expired] Window (by 12 May) lapsed. Housekeeping."
+  },
+  {
+   "condition": "The UAE government or ADNOC attributes the 10-Nov attack in UAE territorial waters (or a later one) on the record, OR a further owner- or government-confirmed hit inside UAE territorial waters or at a UAE port after 10 Nov, by 30 Nov",
+   "status": "watching",
+   "cascade": [
+    "uae",
+    "strait-of-hormuz",
+    "shipping-tankers",
+    "marine-war-risk-insurance",
+    "brent-crude"
+   ],
+   "added": "2026-11-11",
+   "notes": "Added 11 Nov. ADNOC L&S (WAM, 10 Nov): one of its vessels 'sustained damage following an attack in the UAE's territorial waters, in the Arabian Gulf'; no ship or attacker named. India names MT Fujairah Energy (Ruwais → Dubai; four crew hurt). An on-record UAE attribution would move a state whose own waters are hit toward the `uae` combatant question; a second hit would show the ship war has moved inside the Gulf, away from the strait. (intel KIN-B1; CoS header) Wording tightened after fact-check L9 ('after 10 Nov': if Fujairah Energy proves distinct from the ADNOC ship, Tuesday's own events do not fire it)."
   }
  ],
  "top_edges": [
@@ -151,6 +165,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-11",
+   "headline": "ADNOC Logistics & Services (WAM, 10 Nov; earliest stamp The National 'Updated 3:46 PM' UAE = 17:16 IST): 'one of its vessels sustained damage following an attack in the UAE's territorial waters, in the Arabian Gulf, on the afternoon of 10th November'. No ship, crew, damage or attacker named. India's shipping minister Sonowal (X): the Liberia-flagged VLCC MT Fujairah Energy, sailing Al Ruwais → Dubai, was hit by a projectile on 10 Nov; four crew injured, one of six Indians (minor). A third-party database lists ADNOC L&S as Fujairah Energy's manager — the two are probably the same ship (inference; no source ties them). No UAE MoFA statement; no attribution; the IRGC has not claimed a hit in UAE waters. Prior UAE-waters incidents: Gem No. 2 at anchor off Sharjah (9 Oct), a tug off Khor Fakkan (18 Oct).",
+   "verification": "CONFIRMED (ADNOC statement) / REPORTED (ship name, crew) / attacker UNKNOWN"
+  },
   {
    "date": "2026-11-10",
    "headline": "GCC defence ministers (Bahrain, 9 Nov): Secretary-General Albudaiwi announced a joint military command centre in Kuwait with an 'allocation of appropriate forces'; the GCC said all member states were targeted by Iran 'during the war that broke out in February'. Institutional, not an operation. Dubai +1.4%, Abu Dhabi +0.8% Tue (yfinance).",

@@ -3,13 +3,13 @@
  "name": "Nifty 50",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-10",
+ "last_updated": "2026-11-11",
  "summary": "Nifty 50, Day 249. The index rose 1.7% on Monday to a highest close since 23 Sep (PTI: seven-week high) (23,440.80) and kept going on Tuesday (~23,725 at midday), carried by the oil collapse, Reliance's record refining quarter (+11.6%, about half the gain) and a second day of foreign buying, while Indian IT barely flinched at the US tech rout and Korea and Taiwan fell 3.6%. That divergence — India up, North-Asian AI down, foreigners buying India — is the capital-substitution pattern the graph has waited for, but it is one day old and two sessions of flows. India VIX rose with the index, so option buyers are hedging 4 Nov. The rally is a bet that the post-midterm window passes without a declared US campaign; the 22,000 support is ~6% below.",
  "current": {
-  "price": "25,044.65 (9 Nov close); 25,030.35 (6 Nov)",
+  "price": "25,388.35 intraday (11 Nov 11:30 IST); 25,044.65 close (9 Nov)",
   "delta_1d": "+0.06% vs Fri (9 Nov)",
   "delta_fortnight": "+0.1% since 13 Oct",
-  "driver": "FII buying three sessions (+₹6,836.81 cr Tue), oil relief, OMCs; IT −1.5% on the US vote; ~55% crisis-linked",
+  "driver": "Reopening on oil below $93 and FII buying; India VIX up with the index",
   "delta_1m": "−3.0%",
   "regime": "CAPITAL SUBSTITUTION RUNNING INDIA-POSITIVE (3 Nov): foreigners selling Korea, buying India.",
   "level": "25,044.65 (9 Nov close)",
@@ -60,7 +60,8 @@
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — 25,030.35. (intel IND-A3)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — 25,030.35 Fri; Muhurat above 25,000. (intel IND-A3/A4)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — 25,044.65 (low 24,838.75). (intel IND-A1)",
-   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 25,044.65 (9 Nov). (intel IND-A2)"
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 25,044.65 (9 Nov). (intel IND-A2)",
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — ~25,388 intraday. (intel IND-A1)"
   },
   {
    "condition": "Nifty breaks below 22,000 (200-day EMA)",
@@ -80,7 +81,8 @@
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — 25,030.35 (Fri), highest close since 27 Feb. (intel IND-A3)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — 25,030.35 Fri; Muhurat above 25,000. (intel IND-A3/A4)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — 25,044.65 (low 24,838.75). (intel IND-A1)",
-   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 25,044.65 (9 Nov); shut Tue; GIFT ~25,309. (intel IND-A2)"
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 25,044.65 (9 Nov); shut Tue; GIFT ~25,309. (intel IND-A2)",
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED. (intel IND-A1)"
   },
   {
    "condition": "Nifty 23,775 (April 9 ceasefire-fracture low) broken Monday on weekend kinetic gap-down",
@@ -165,6 +167,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-11",
+   "headline": "India reopened Wed 11 Nov after Diwali-Balipratipada: Nifty open 25,337.80 (+1.17%), 25,388.35 (+1.37%) at 11:30 IST (high 25,424.35) — above its last pre-war close (25,178.65, 27 Feb) intraday; the close (15:30 IST) decides whether it is the first close above it since the war began. Sensex 82,370.94 (+1.56%, 11:15 IST); Bank Nifty +2.59%; PSU Bank +3.5%; Nifty IT flat; Pharma −0.8%. Indian outlets credit oil and FII buying (Angel One, BS, Goodreturns); none we read cited Iran's denial of talks or the ship war.",
+   "verification": "REPORTED (intraday; yfinance + media)"
+  },
   {
    "date": "2026-11-10",
    "headline": "Tue 10 Nov: NSE/BSE shut (Diwali-Balipratipada; equities, F&O, SLB, currency derivatives — IANS, Zerodha); reopens Wed 11 Nov 09:15 IST. GIFT Nifty ~25,309 at 18:37–18:40 IST (pre-CPI; ~+0.76% on GIFT's own Monday close; +264 pts over the 25,044.65 spot close, part futures premium). Business Today/IANS credit Brent below $90 and Trump's post-meeting remarks. Next print absorbs two Brent settles and the hot US CPI at once.",
@@ -560,6 +567,11 @@
    "date": "2026-11-09",
    "price": "25,044.65 (9 Nov close)",
    "trigger": "First full session after the owned Qeshm strike; flat"
+  },
+  {
+   "date": "2026-11-11",
+   "price": "25,388.35 (11 Nov 11:30 IST, intraday)",
+   "trigger": "Reopening rally; above the pre-war close intraday"
   }
  ]
 }

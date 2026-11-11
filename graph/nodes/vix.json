@@ -3,7 +3,7 @@
  "name": "VIX (CBOE Volatility Index)",
  "type": "index",
  "created": "2026-05-13",
- "last_updated": "2026-11-10",
+ "last_updated": "2026-11-11",
  "summary": "VIX, Day 241. ~19 (23 Oct close 19.45), up from 15 on 13 Oct, with a peak of 22.31 intraday on 16 Oct — driven by the AI-credit selloff and a hot CPI, not the war. It never reached the 25 'kinetic' marker despite strike rhetoric and a six-month oil high. Equity volatility prices Meta and CoreWeave, not Hormuz.",
  "current": {
   "price": "28.18 (5 Nov close; ~26.9 Fri); non-kinetic (AI crash)",
@@ -46,7 +46,8 @@
    "note_2026-11-06": "[amended, stays watching] THRESHOLD CROSSED, PREMISE NOT MET — NOT FIRED. VIX closed 28.18 on Thu 5 Nov (intraday 28.36; +69.7%, the third-largest one-day % jump in ten years; ~26.9 Fri) on the AI/data-centre crash (SOX −12.25%, worst since Mar 2020; S&P −4.36%). No strike order, no Iranian launch, no Israeli strike in the window (DIP, KIN, ISR, MAC all checked). Amended so the letter matches the premise: this is a FALSE POSITIVE on the original wording and must not be read as a war signal. (intel MAC-A6, DIP/KIN cross-desk flags)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — VIX closed 25.64 on Fri 6 Nov (>25, but non-war: partial AI relief); the Qeshm strike came after the VIX close. Monday is the first session in which a VIX >25 would coincide with an owned US strike — if it prints >25 intraday on Mon 9 Nov, judge whether the strike (minor, one site) or the AI trade drove it before firing. (intel MAC-A2/B-1)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — one 25.08 tick at 13:45 IST at the calculation's open with no owned strike in that session (night six, Iran-attributed and unowned, came Sun ~23:00 Tehran); ~22.7 at the US open. (intel MAC-A6)",
-   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 19.92 close Mon; ~21 after CPI; no coincident kinetic event. (intel MAC-A7)"
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 19.92 close Mon; ~21 after CPI; no coincident kinetic event. (intel MAC-A7)",
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — high 21.61; no kinetic event in the US session. (intel MAC-A10)"
   },
   {
    "condition": "VIX +30% intraday move within 48h of Trump's return from Beijing (May 15-16)",
@@ -108,6 +109,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-11",
+   "headline": "VIX 19.46 Tue close (high 21.61). India VIX rose with the Nifty Wed (17.42 → 17.59 at 11:30 IST).",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-10",
    "headline": "VIX closed 19.92 Mon (from 25.64); ~21 after Tuesday's CPI.",

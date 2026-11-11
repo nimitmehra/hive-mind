@@ -3,7 +3,7 @@
  "name": "US 10-Year Treasury Yield",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-10",
+ "last_updated": "2026-11-11",
  "summary": "US 10-year, Day 246. The 10-year closed 4.94% on 30 Oct — its second straight close below 5% and a 35bp rally in October — but the war did not do it. Both breaks below 5% (22 Oct and 29–30 Oct) came on AI-credit shocks: Meta, then Alphabet's negative free cash flow and record one-day fall, Amazon spending ~$77bn against ~$42bn of operating cash, and Intel's 28.6% collapse. On the day oil jumped 2.4%, the 10-year fell 4bp and breakevens did not move; the Fed Chair himself said rates 'rolled over to the downside' as oil rose. The 2-year fell more (4.56%), pricing 'one more hike and done'. For the investor's 13-Oct condition, 'below 5%' is being met for the wrong reason and with high-yield spreads widening, so the graph's three-session trigger is not fired. The war's channel to US rates is now the front end via the Fed, not the long end via inflation expectations.",
  "current": {
   "price": "4.90% (4 Nov, Treasury par)",
@@ -66,7 +66,8 @@
    "notes": "Successor to the fired 'three closes below 5% with HY OAS not widening' (fired 6 Nov on 2–4 Nov data, OAS 3.32%). Thursday's 4.84% came with the AI crash and HYG −0.3%. Base: 3.32% (4 Nov). (intel MAC-A4)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — HY OAS 3.48% on 5 Nov (+16bp on the AI crash; 6 Nov unpublished, HYG ~flat Fri); 10Y 4.86% (6 Nov, seventh close <5%). NOTE for deployment condition 2: the credit base the fired 6-Nov trigger used (≤3.44%) was breached on 5 Nov — the 'credit not widening' leg has reversed though the 10Y leg holds. (intel MAC-A4; CoS fred-check)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — HY OAS 3.42% (6 Nov, −6bp), back below the 3.44% base; 10Y 4.86% (6 Nov), ~4.85% intraday 9 Nov. (intel MAC-A5; CoS)",
-   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 3.42% (6 Nov, latest; 9 Nov not yet published); 10Y 4.88% (9 Nov par). (intel MAC-A6)"
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 3.42% (6 Nov, latest; 9 Nov not yet published); 10Y 4.88% (9 Nov par). (intel MAC-A6)",
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — HY OAS 3.34% (9 Nov); the 10Y closed 4.98% par after trading above 5% intraday (high 5.021%); bond market shut 11 Nov. (intel MAC-A9)"
   }
  ],
  "top_edges": [
@@ -116,6 +117,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-11",
+   "headline": "Treasury par 10 Nov: 2Y 4.73% (+17bp), 10Y 4.98% (+10bp), 30Y 5.35%; 2s10s 32 → 25bp (bear flattener). ^TNX ≥5.00% from ~21:30 to ~23:30 IST (high 5.021%) and closed 4.983%. Breakevens fell (T10YIE 2.22 → 2.20): a real-yield, Fed-driven move. HY OAS 3.34% (9 Nov, from 3.42%); IG 0.91%. US bond market shut 11 Nov (Veterans Day). Deployment condition 2 holds on the close by 2bp.",
+   "verification": "CONFIRMED (par, FRED)"
+  },
   {
    "date": "2026-11-10",
    "headline": "Treasury par 9 Nov: 2Y 4.56% (+5bp as oil fell 5.85%), 10Y 4.88%, 30Y 5.26%. Tue: 2Y ~4.61% after Waller (Reuters relay); ~+5–6bp after CPI (~4.68% 2Y / ~4.94% 10Y, desk estimates from note futures). HY OAS 3.42% (6 Nov, latest); HYG +0.36% Mon; T10YIE 2.22%.",
@@ -407,6 +413,11 @@
    "date": "2026-11-10",
    "price": "4.88% (9 Nov par); 2Y 4.56%; HY OAS 3.42% (6 Nov)",
    "trigger": "Front end trading the Fed, not oil"
+  },
+  {
+   "date": "2026-11-11",
+   "price": "4.98% (10 Nov par; intraday high 5.021%); 2Y 4.73%; HY OAS 3.34% (9 Nov)",
+   "trigger": "Hot CPI, Waller, Logan; condition 2 by 2bp"
   }
  ]
 }

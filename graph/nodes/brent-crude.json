@@ -3,14 +3,14 @@
  "name": "Brent Crude",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-11-10",
+ "last_updated": "2026-11-11",
  "summary": "Brent, Day 254. January Brent ended the week at $98.32, flat on Friday and down 13.3% like for like — about half of that the collapse of the prompt war premium, half a fall across the curve. Friday's $4 range was mostly war and diplomacy (tanker attacks up, the Qatari readout down), but it netted to nothing. Then the weekend delivered what the market had stopped paying for: the first US strike of the November window that Trump owned ('We do minor strikes'), unexplained blasts in four Hormozgan counties the next night, CENTCOM firing on a blockade-runner, and a Houthi barrage that damaged Aramco's tower in Riyadh. None of it has traded. Monday's open is the test: a move above $100 or a settle more than 5% above Friday would say the market reads the strike as escalation; a quiet open would say it reads 'minor' as routine.",
  "current": {
-  "price": "$89.54 Jan-27 intraday (10 Nov 19:15 IST); settled $92.57 (9 Nov)",
-  "delta_1d": "−5.85% (9 Nov settle); −3.3% intraday (10 Nov)",
+  "price": "$92.47 Jan-27 intraday (11 Nov 11:20 IST); settled $91.49 (10 Nov)",
+  "delta_1d": "−1.17% (10 Nov settle); +1.1% intraday (11 Nov)",
   "delta_1m": "+1.7% (script, front-month continuous)",
   "delta_vs_4jul": "n/a",
-  "regime": "WAR PREMIUM LEAVING ON US WORDS, NOT ON EVENTS (9–10 Nov): −9% in two sessions while a confirmed pipeline hit, IRGC tanker claims and Iran's naming of an Omani island went unpriced; Jan–Dec27 spread ~$13.",
+  "regime": "WAR PREMIUM STOPS FALLING AT ~$90 (10–11 Nov): $90 held on the settle; the rebound came on Iranian 'no talks' (Reuters) and the ship war (two tankers hit Tue, one in UAE waters); Jan–Dec27 spread ~$13.9, half its 30-Oct level.",
   "roll_note": "BZ=F = January since 2 Nov. January expires ~30 Nov: count only the contract front on the settle date."
  },
  "price_snapshots": [
@@ -152,6 +152,11 @@
    "date": "2026-11-10",
    "price": "$92.57 (BZF27 settle, 9 Nov); $89.54 (10 Nov 19:15 IST, intraday)",
    "trigger": "Trump's tone (Reuters; KCM's Waterer); surplus/OPEC output (Reuters); lowest since 31 Aug"
+  },
+  {
+   "date": "2026-11-11",
+   "price": "$91.49 (BZF27 settle, 10 Nov); $92.47 (11 Nov 11:20 IST, intraday)",
+   "trigger": "Held $90 on the settle; Rezaei 'no talks' (Reuters); Hormuz attacks (Reuters)"
   }
  ],
  "active_triggers": [
@@ -309,7 +314,8 @@
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — January $98.29 (5 Nov); no Houthi attack on a non-Saudi hull (~56 days). (intel SAU-A4, MAC-A1)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — $98.32; no Houthi attack on a non-Saudi hull (~58 days). (intel SAU, MAC-A3)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — ~$94; no Houthi attack on a non-Saudi hull (~59 days). (intel SAU-A4, MAC-A1)",
-   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — no Houthi attack on neutral Red Sea shipping (~60 days); Brent ~$89.5. (intel SAU, MAC)"
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — no Houthi attack on neutral Red Sea shipping (~60 days); Brent ~$89.5. (intel SAU, MAC)",
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED. (markets)"
   },
   {
    "condition": "Brent-Hormuz paper-physical divergence >$10/bbl in EITHER direction sustained 3 sessions",
@@ -372,7 +378,8 @@
    "note_2026-11-06": "[reviewed, stays watching] NOT FIRED — January settled $98.29 on Thu 5 Nov (+3.88%), $1.71 short. Fri 6 Nov traded $100.92 intraday (~09:15–09:45 IST) — intraday does not count; ~$98.2 at 16:37 IST; tonight's settle (~01:00 IST Sat) is the next test. If it fires, LOG THE CAUSE: Thursday's rise was attributed (Reuters) to tanker attacks, Iran's unchanged terms and Citi's escalation view — NOT a qualifying US strike or a visible deal collapse. Only the prompt moved (Dec-27 +$0.15). $85 leg not near. (intel MAC-A1; CoS)",
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — January settled $98.32 on Fri 6 Nov (+$0.03; CNBC and yfinance), $1.68 short; Friday range $96.65–100.92 (intraday does not count). Every weekend war event (Qeshm strike 03:08 IST Sat, Trump's 'minor strikes', *Huda*, night-five blasts, the Riyadh Aramco-tower hit) came AFTER the settle — Monday's open (~04:30 IST) is the first test. If it fires, LOG THE CAUSE and whether it is the owned Qeshm strike (united-states fired leg a, 8 Nov) or the Riyadh hit. $85 leg not near. (intel MAC-A3/B-1; CoS)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED to date — Monday intraday $97.53 open, $98.42 high, $92.80 low, ~$93.9 at ~20:19 IST; settle after this brief. $85 leg not near (~$9 away). (intel MAC-A1; CoS)",
-   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 9-Nov settle $92.57 (the lowest front-month settle since 31 Aug). The $85 leg is now the nearer: ~$4.5 below Tuesday's $89.54 (19:15 IST); first sub-$90 print since 31 Aug at 14:15 IST Tue. (intel MAC-A1/A2)"
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 9-Nov settle $92.57 (the lowest front-month settle since 31 Aug). The $85 leg is now the nearer: ~$4.5 below Tuesday's $89.54 (19:15 IST); first sub-$90 print since 31 Aug at 14:15 IST Tue. (intel MAC-A1/A2)",
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — 10-Nov settle $91.49; the $85 leg is $6.49 below; $100 is ~+8% from Wednesday's $92.47. (intel MAC-A1)"
   },
   {
    "condition": "Front-month Brent opens Monday 9 Nov above $100, OR settles 9–11 Nov more than 5% above Friday's $98.32 (>$103.24) — the weekend's owned Qeshm strike and the Riyadh Aramco-tower hit get priced as escalation",
@@ -386,7 +393,8 @@
    "added": "2026-11-08",
    "notes": "Every weekend war event came after Friday's settle. If neither leg is met by the 11-Nov settle, log that the market treated the owned 'minor' strike as routine. (intel MAC B-1; CoS)",
    "note_2026-11-09": "[reviewed, stays watching] OPEN LEG NOT MET — January opened $97.53 (04:30 IST, first 30-min bar), high $98.42 (08:30 IST): the weekend's owned Qeshm strike, night-six hit and Riyadh tower were worth ~+$0.10 at most (Reuters 04:27 GMT: Brent 'up 3 cents to $98.35', supported by 'ship hits near Hormuz reported by both sides' and the Houthi claim on Aramco's Riyadh offices). SETTLE LEG PENDING — three settles (9, 10, 11 Nov); ~$93.9 at ~20:19 IST, ~$9.3 below $103.24; the 9-Nov settle comes ~01:00 IST Tue, after this brief. The watch's premise (escalation priced) is contradicted by the first session: Reuters/AA/CNBC attribute the early fall to Trump's CNN 'highly unlikely'; Bloomberg/Capital Brief/CoinDesk tie the 16:46–16:51 IST drop to the Israel Hayom $8bn Hormuz report (denied by Qatari officials). (intel MAC-A1; CoS)",
-   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED on 9 Nov — open leg failed ($97.53); 9-Nov settle $92.57, $10.67 below $103.24. Tue ~$89.5 (19:15 IST): the settle leg needs ~+15% across the 10- and 11-Nov settles — effectively dead; formally expires after the 11-Nov settle (~01:00 IST Thu). The premise (escalation priced) is contradicted: two sessions −9%. (intel MAC-A1/A2)"
+   "note_2026-11-10": "[reviewed, stays watching] NOT FIRED on 9 Nov — open leg failed ($97.53); 9-Nov settle $92.57, $10.67 below $103.24. Tue ~$89.5 (19:15 IST): the settle leg needs ~+15% across the 10- and 11-Nov settles — effectively dead; formally expires after the 11-Nov settle (~01:00 IST Thu). The premise (escalation priced) is contradicted: two sessions −9%. (intel MAC-A1/A2)",
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — the 10-Nov leg failed ($91.49 vs >$103.24); only tonight's 11-Nov settle (~01:00 IST Thu) remains, needing ~+12% — effectively dead; expires then. (intel MAC-A1)"
   }
  ],
  "top_edges": [
@@ -428,11 +436,11 @@
   {
    "to": "fed",
    "type": "inflation_input_ppi_pass_through",
-   "weight": 10.0,
+   "weight": 9.0,
    "directness": 1,
-   "last_activated": "2026-10-31",
+   "last_activated": "2026-11-11",
    "activation_count": 19,
-   "context": "2026-10-31: activation — fuel-led PCE 3.6%; two FOMC dissents for a hike; Warsh: 'Energy and related prices have moved higher again'. (intel MAC-A6/A7)"
+   "context": "11 Nov RE-WEIGHT 10 → 9.0: BLS October detail puts energy at no more than ~0.03pp of the 0.1pp CPI beat (core services and food drove it; desk arithmetic on approximate weights), and the Fed's talk this week is about core prices (Logan: at least two more quarter-point rises, per FXStreet's summary). The 9-Nov divergence (2Y +5bp as Brent fell 5.85%) fits this edge's June context ('sticky, not symmetric') and is weak evidence on its own. The 2Y +17bp on 10 Nov came with breakevens down: a real-yi"
   },
   {
    "to": "sp-500",
@@ -477,6 +485,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-11",
+   "headline": "10-Nov January settle $91.49 (−$1.08, −1.17%; CNBC, AP, Rigzone relay, yfinance) — the lowest close since 31 Aug; Eurasia's (Brew) '$90' held on the settle after the $89.15 intraday low (19:10 IST). The rebound came in nine minutes, 21:45–21:54 IST ($90.86 → $92.07, ~20× volume, oil only: S&P flat, gold down, DXY up). Reuters attributes it to Rezaei's 'no talks'; the first publication of the interview we found was Tasnim at 21:52 IST, after the move began; Al-Mayadeen's airtime not found — timing not established. Netanyahu's regime line (~21:31 IST) and the UKMTO 201-26 relay (21:29 IST) preceded it; no outlet links them. Wed $92.47 (11:20 IST, +1.1%): Reuters, 'Hormuz shipping attacks offset Iran truce hopes', despite a reported API build (sources conflict). Jan–Dec27 spread $13.85. EIA STEO: ~$100 November–December average (leaning wrong: needs ~$102 for the rest of November).",
+   "verification": "CONFIRMED (settle, bars) / REPORTED (attribution)"
+  },
   {
    "date": "2026-11-10",
    "headline": "Tue 10 Nov: first sub-$90 since 31 Aug (14:15 IST bar); low $89.21 (15:15 IST), post-CPI low $89.15 (19:10 IST), $89.54 at 19:15 IST (−3.3%). Attributed to Trump's 'more conciliatory tone' (KCM's Waterer via Reuters), ING's 'unwind', JPMorgan's ~1.4m b/d October surplus and higher OPEC output (Reuters survey); Dated at a discount (Morgan Stanley). Jan–Dec27 spread ~$13.0 ($25.32 on 30 Oct); heating-oil crack ~$84.5 → ~$79.5. Offset ignored: China's crude imports at a seven-month high. Eurasia's Brew ('unlikely to fall below US$90' without a deal) breached intraday.",
