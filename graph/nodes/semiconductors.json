@@ -3,7 +3,7 @@
  "name": "Semiconductors (SMH/SOX)",
  "type": "sector",
  "created": "2026-04-25",
- "last_updated": "2026-11-11",
+ "last_updated": "2026-11-12",
  "summary": "Semiconductors / AI complex, Day 246. The AI-credit scare — which began when Alphabet's free cash flow first turned negative in Q2 (−$5.9bn, reported 23 Jul, a first in its public history) and spread to Meta on 21–22 Oct — deepened and broadened in Q3: Alphabet's Q3 capex exceeded its operating cash by $9bn (its second straight negative quarter) (shares −12.6%, the worst day in its history) and Amazon's by roughly $33bn, financed with $48bn of new debt; Microsoft stayed cash-positive but sold its first bond since 2017. Intel's guide-down then took the SOX down 7.2% on 30 Oct. Suppliers are the mirror image — SK hynix and Samsung printed record quarters and guided memory prices up. The market's question has moved from 'is AI demand real?' to 'who funds it?', and the answer is increasingly the bond market. For the war graph this matters because AI credit, not oil, has twice set US long yields this month (semiconductors → us-10y-yield raised to 5.0), and because AI risk-off has not sent money to India. Next tests: Q4 calls (late Jan–Feb 2027) for any 2027 capex cut.",
  "current": {
   "price": "SOX 10,688.80 (30 Oct, −7.2%); SMH $522.49",
@@ -88,7 +88,8 @@
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — earnings season ahead; CoreWeave reports 10 Nov. (intel MAC)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — Alphabet's new TPUs lifted chips; no capex cut. (intel MAC-A6)",
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — window late Jan–early Feb 2027. (intel MAC-A7)",
-   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — CoreWeave raised guidance and gave $37–39bn 2026 capex; no hyperscaler cut. (intel MAC-A10)"
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — CoreWeave raised guidance and gave $37–39bn 2026 capex; no hyperscaler cut. (intel MAC-A10)",
+   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — the WSJ Nvidia board report is governance, not capex. (intel MAC-B1)"
   },
   {
    "condition": "Texas enacts or formally announces a moratorium on AI data-centre construction or grid connections by 31 Mar 2027",
@@ -108,7 +109,8 @@
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — Goldman's 45%-at-risk estimate is analysis, not law. (intel MAC)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — a US Senate AI data-centre bill was cited by one Indian outlet; no Texas moratorium. (intel IND-A1, MAC)",
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — no news. (intel MAC-A7)",
-   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED. (intel)"
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED. (intel)",
+   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED. (intel)"
   }
  ],
  "top_edges": [
@@ -117,9 +119,9 @@
    "type": "regulatory_direct_driver",
    "weight": 9.0,
    "directness": 1,
-   "last_activated": "2026-11-11",
+   "last_activated": "2026-11-12",
    "activation_count": 4,
-   "context": "11 Nov: TAIEX +3.62% close on CoreWeave's beat and AI-chip demand, despite Nvidia's −5.47% (governance). Non-war activation, no weight change."
+   "context": "11–12 Nov: SOX +5.66% on CoreWeave; the WSJ Nvidia board report (−8.6% after hours) took TAIEX −1.2% early (AP), ~−2.7% by 10:45 IST (yfinance) (MAC-B1)."
   },
   {
    "to": "south-korea",
@@ -134,9 +136,9 @@
    "type": "sector_component_systemic_risk_transmitter_ai_rotation_chip_tape_drives_nasdaq",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-06",
+   "last_activated": "2026-11-12",
    "activation_count": 7,
-   "context": "5 Nov: S&P −4.36% (worst since Apr 2025) on the chip/data-centre repricing. Held at 10.0."
+   "context": "11 Nov: CoreWeave +24.7%, Micron, AMD lifted the S&P 500 +1.31%; Nvidia's governance report hit futures −0.4% (MAC-B1)."
   },
   {
    "to": "vix",
@@ -175,6 +177,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-12",
+   "headline": "SOX +5.66% to 10,564.11 on CoreWeave's beat (11 Nov); Nvidia +2.87% to $173.73 then −8.6% after hours on the WSJ report that its board is preparing to remove Huang (REPORTED; board meeting Wednesday per Reuters' source). Thursday Asia: TAIEX −1.2% (AP)/−1.85% (10:43 IST), TSMC −1.5%; AP ties it to 'concerns over leadership at chipmaker Nvidia'. Governance, not capex: the 31-Oct capex watch is not touched.",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-11-11",
    "headline": "Nvidia −5.47% (168.89) on the Huang alleged-spy story (FBI investigating; Reuters could not verify a new report); −18% in five sessions; earnings 17 Nov. CoreWeave Q3 revenue $3.66bn (vs ~$3.55bn), FY26 guide raised to $13.0–13.3bn, 2026 capex $37–39bn, backlog $132.5bn; +5–8% after hours. SOX −0.35%.",

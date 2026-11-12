@@ -3,17 +3,18 @@
  "name": "Nifty 50",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-11",
+ "last_updated": "2026-11-12",
  "summary": "Nifty 50, Day 249. The index rose 1.7% on Monday to a highest close since 23 Sep (PTI: seven-week high) (23,440.80) and kept going on Tuesday (~23,725 at midday), carried by the oil collapse, Reliance's record refining quarter (+11.6%, about half the gain) and a second day of foreign buying, while Indian IT barely flinched at the US tech rout and Korea and Taiwan fell 3.6%. That divergence — India up, North-Asian AI down, foreigners buying India — is the capital-substitution pattern the graph has waited for, but it is one day old and two sessions of flows. India VIX rose with the index, so option buyers are hedging 4 Nov. The rally is a bet that the post-midterm window passes without a declared US campaign; the 22,000 support is ~6% below.",
  "current": {
-  "price": "25,388.35 intraday (11 Nov 11:30 IST); 25,044.65 close (9 Nov)",
-  "delta_1d": "+0.06% vs Fri (9 Nov)",
+  "price": "25,255.05 close (11 Nov); 25,337 intraday (12 Nov 10:50 IST)",
+  "delta_1d": "+0.84% (11 Nov)",
   "delta_fortnight": "+0.1% since 13 Oct",
-  "driver": "Reopening on oil below $93 and FII buying; India VIX up with the index",
+  "driver": "FII buying (seven sessions) and softer oil; Indian copy cites de-escalation",
   "delta_1m": "−3.0%",
   "regime": "CAPITAL SUBSTITUTION RUNNING INDIA-POSITIVE (3 Nov): foreigners selling Korea, buying India.",
-  "level": "25,044.65 (9 Nov close)",
-  "note": "Shut Tue 10 Nov (Diwali-Balipratipada); reopens Wed 11 Nov. GIFT Nifty ~25,309 (18:40 IST Tue, pre-CPI). Last close 25,044.65 (9 Nov), the war's highest."
+  "level": "25,255.05 (11 Nov close) — first war-era close above pre-war 25,178.65 (our check)",
+  "note": "Shut Tue 10 Nov (Diwali-Balipratipada); reopens Wed 11 Nov. GIFT Nifty ~25,309 (18:40 IST Tue, pre-CPI). Last close 25,044.65 (9 Nov), the war's highest.",
+  "deployment": "Defensive — do not add. Re-test 14 Nov. Cond 1 met ($92.76); cond 2 met on last prints (par 4.98% 10 Nov; HY 3.34%); cond 3 inflation leg decided 12 Nov ~16:00 IST (all forecasts fail ≤5.54%). Israeli-strike reset proposed, not applied."
  },
  "active_triggers": [
   {
@@ -61,7 +62,8 @@
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — 25,030.35 Fri; Muhurat above 25,000. (intel IND-A3/A4)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — 25,044.65 (low 24,838.75). (intel IND-A1)",
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 25,044.65 (9 Nov). (intel IND-A2)",
-   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — ~25,388 intraday. (intel IND-A1)"
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — ~25,388 intraday. (intel IND-A1)",
+   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — 25,255.05 close (11 Nov), the first war-era close above the pre-war 25,178.65 (our check). (intel IND-A1)"
   },
   {
    "condition": "Nifty breaks below 22,000 (200-day EMA)",
@@ -82,7 +84,8 @@
    "note_2026-11-08": "[reviewed, stays watching] NOT FIRED — 25,030.35 Fri; Muhurat above 25,000. (intel IND-A3/A4)",
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — 25,044.65 (low 24,838.75). (intel IND-A1)",
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 25,044.65 (9 Nov); shut Tue; GIFT ~25,309. (intel IND-A2)",
-   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED. (intel IND-A1)"
+   "note_2026-11-11": "[reviewed, stays watching] NOT FIRED. (intel IND-A1)",
+   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED. (intel IND-A1)"
   },
   {
    "condition": "Nifty 23,775 (April 9 ceasefire-fracture low) broken Monday on weekend kinetic gap-down",
@@ -167,6 +170,16 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-12",
+   "verification": "CoS note (deployment rule record)",
+   "headline": "DEPLOYMENT — hold rule (amended 8–9 Nov), full reset list recorded after fact-check H2: resets on a QUALIFYING US strike as defined by the `united-states` 'RESUME' trigger — (a) a strike the US acknowledges on the record; (b) strikes on 3+ consecutive nights; (c) several sites in one night, or targets beyond the air-defence/launcher pattern, reported by 2+ outlets with their own officials; (d) a nuclear, energy or leadership target — OR a declared campaign, OR confirmed Iranian fire on Oman. Earliest pass 14 Nov; nights seven–nine quiet; leg (b)'s earliest run ends 15 Nov. OPEN QUESTION: a strike reported as Israel's alone meets none of these; one Iran also blames on the US, on several sites or on a nuclear/energy/leadership target, needs a ruling. PROPOSED, NOT APPLIED (user's decision): add 'a confirmed Israeli strike on Iranian territory' as a reset. Israel's security cabinet meets Sun 15 Nov."
+  },
+  {
+   "date": "2026-11-12",
+   "headline": "Wed 11 Nov close 25,255.05 (+210.40, +0.84%; Reuters wire, The Week, HDFC Sky) — on our check of the yfinance close history, the FIRST war-era close above the pre-war 25,178.65 (27 Feb); no outlet says 'first' (Reuters: 'their highest close since February 26'; PTI: 'eight-month high'); not a record (26,328.55, 2 Jan; 4.1% above). Sensex 81,879.40 (+0.95%), Bank Nifty 60,792.40 (+1.76%), Nifty IT −0.53%. Outlets credit FII buying, softer oil and 'signs of a de-escalating West Asia conflict'; Bernstein cites Trump's 'Iran war being effectively over' and raised its December target to 26,100. Thursday 25,337 (+0.33%, 10:50 IST), led by financials. Motilal Oswal's 24,571–25,141 range failed at the first close.",
+   "verification": "CONFIRMED (closes) / REPORTED ('first' = our check)"
+  },
   {
    "date": "2026-11-11",
    "headline": "India reopened Wed 11 Nov after Diwali-Balipratipada: Nifty open 25,337.80 (+1.17%), 25,388.35 (+1.37%) at 11:30 IST (high 25,424.35) — above its last pre-war close (25,178.65, 27 Feb) intraday; the close (15:30 IST) decides whether it is the first close above it since the war began. Sensex 82,370.94 (+1.56%, 11:15 IST); Bank Nifty +2.59%; PSU Bank +3.5%; Nifty IT flat; Pharma −0.8%. Indian outlets credit oil and FII buying (Angel One, BS, Goodreturns); none we read cited Iran's denial of talks or the ship war.",
@@ -572,6 +585,11 @@
    "date": "2026-11-11",
    "price": "25,388.35 (11 Nov 11:30 IST, intraday)",
    "trigger": "Reopening rally; above the pre-war close intraday"
+  },
+  {
+   "date": "2026-11-12",
+   "price": "25,255.05 (11 Nov close)",
+   "trigger": "First war-era close above the pre-war 25,178.65 (our check of yfinance history)"
   }
  ]
 }
