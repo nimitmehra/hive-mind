@@ -3,10 +3,10 @@
  "name": "Gold",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-11-12",
+ "last_updated": "2026-11-13",
  "summary": "Gold, Day 246. Gold is behaving as a casualty of the war's inflation and as the first asset sold for cash, not as a war hedge. It fell below $3,900 on 30 Oct (Dec futures $3,898.90; spot ~$3,875), a one-year low and ~30% below January's $5,595 record, on the same day that US real yields fell and oil rose — the second time in eight days that the textbook real-yield link failed. The drivers are an oil-fed Fed (PCE 3.6%, two FOMC dissents for a hike, December ~80% priced) and margin calls from the AI-credit selloff. Silver broke below $50. State Street's $4,000 floor is gone; the gold/silver ratio (~79.3) is a whisker from the 80 trigger. Gold would turn back into a hedge on a credit or financial-system scare — HY spreads widening 12bp on the Alphabet day is a faint start, not that regime.",
  "current": {
-  "price": "$4,000.5 Dec settle (11 Nov); ~$3,983 (12 Nov 10:40 IST)",
+  "price": "$3,885.3 Dec settle (12 Nov) — 2026 low close; ~$3,922 (13 Nov 10:55 IST)",
   "delta_1d": "−2.05% (10 Nov settle)",
   "delta_1m": "−7.2%",
   "regime": "WAR-INFLATION VICTIM + LIQUIDITY SOURCE, NOT A HEDGE. Falls with real yields (30 Oct: real −3bp, gold −3.3%); Fed-hike pricing and AI-selloff margin calls dominate. Flip condition: a financial-system/credit scare, not an inflation scare.",
@@ -33,7 +33,8 @@
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — $4,128 (December, +1.3%). (CoS)",
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED (~$4,064.5). (intel MAC-A9)",
    "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — $4,030.2 settle. (markets)",
-   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — $4,000.5 settle. (markets)"
+   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — $4,000.5 settle. (markets)",
+   "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — FURTHER: $3,885.3, the 2026 low close. (intel MAC-A5)"
   },
   {
    "condition": "Gold/silver ratio exceeds 80:1",
@@ -54,7 +55,8 @@
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — ~78.3. (CoS)",
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED (~78). (intel MAC-A9)",
    "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — ~76.8. (markets)",
-   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — ~77.5 (closer). (intel MAC-A9)"
+   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — ~77.5 (closer). (intel MAC-A9)",
+   "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — 77.6. (intel MAC-A5)"
   },
   {
    "condition": "US 10Y real yield falls 15bps in 3 sessions (inflation-regime trigger — more predictive than crisis-escalation)",
@@ -131,7 +133,8 @@
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED. (CoS)",
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED. (intel MAC-A9)",
    "note_2026-11-11": "[reviewed, stays watching] NOT FIRED. (markets)",
-   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED. (markets)"
+   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED. (markets)",
+   "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — FURTHER ($3,885.3). (intel MAC-A5)"
   },
   {
    "condition": "BlackRock Rick Rieder confirmed/announced as next Fed chair — dollar-weakness regime confirmed",
@@ -179,6 +182,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-13",
+   "headline": "Gold Dec settled $3,885.3 (−2.9%) on 12 Nov — the lowest close of 2026 on yfinance (CoS check: min of GCZ26 and GC=F since 1 Jan) and the largest one-day fall since 30 Oct (−3.3%); ~27% below the 29-Jan closing high ($5,318.4). Kitco: 'rising Treasury yields, a firm U.S. dollar' and hike bets. It also fell in the Trump-post minute — no war bid. Silver −3.7% to $50.07; gold/silver 77.6. Friday ~$3,922.",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-12",
    "headline": "Gold Dec settled $4,000.5 (−0.74%) Wed, spot $3,983 (−1.21%, Kitco); ~$3,983 Dec Thu. Kitco: 'a stronger U.S. dollar and expectations for additional Federal Reserve interest rate increases' (DXY ~102.9). Gold fell through both oil jumps — no war bid. Not a first below $4,000 (30 Oct–3 Nov). Gold/silver ~77.5.",
@@ -664,6 +672,11 @@
    "date": "2026-11-11",
    "price": "$4,030.2 (GCZ26 settle, 10 Nov)",
    "trigger": "Hawkish Fed and a firmer dollar"
+  },
+  {
+   "date": "2026-11-13",
+   "price": "$3,885.3 (12 Nov settle)",
+   "trigger": "2026 low close; yields/dollar (Kitco); fell on the Trump post"
   }
  ]
 }

@@ -3,7 +3,7 @@
  "name": "Federal Reserve",
  "type": "institution",
  "created": "2026-03-23",
- "last_updated": "2026-11-12",
+ "last_updated": "2026-11-13",
  "summary": "Federal Reserve, Day 246. The Fed held at 3.75–4.00% on 28 Oct with December Brent above $115, but two governors/presidents (Cook, Hammack) dissented for a hike, the statement called growth 'strong', and Q3 GDP (3.4%) and PCE (3.6%, core 3.1%) printed hot the next day. Markets price a December hike at roughly 76–83%; Logan wants 'at least two more'. Chair Warsh avoided guidance but put on record that the oil–interest-rate correlation has broken: oil kept rising while long rates 'rolled over to the downside' — the same finding the graph acted on by cutting brent-crude → us-10y-yield. The war reaches the Fed through energy-led inflation and the front end; long yields are being set by AI-credit risk. Next: 9 Dec FOMC.",
  "current": {
   "status": "Held 3.75–4.00% on 28 Oct; a 25bp December hike fully priced; 50bp ~10–16% (11 Nov)",
@@ -36,7 +36,8 @@
    "note_2026-11-09": "[reviewed, stays active] Stays ACTIVE — December-hike odds ~82% (CoS math, ZQZ26 95.975), from ~76% Friday; unattributed two-tick move; CPI Tue 19:00 IST. (intel MAC-A4)",
    "note_2026-11-10": "[reviewed, stays active] [stays active, reinforced] Waller (London, Tue): 'Hiking only 25 basis points would put our credibility at risk'; 50bp 'should be considered' if October core is ~0.3% — core printed +0.3% m/m (cons. +0.2%); headline +0.4% (cons. +0.3%). (intel MAC-A5)",
    "note_2026-11-11": "[reviewed, stays active] STAYS ACTIVE, reinforced — Logan: at least two more quarter-point rises (FXStreet's summary), possibly 'more rapidly this winter'. (intel MAC-A8)",
-   "note_2026-11-12": "[reviewed, stays active] STAYS ACTIVE, reinforced — Goolsbee: October CPI 'borderline disturbing' (CNBC headline); Bowman: pressures 'may be broadening' (AP summary). (intel MAC-A8)"
+   "note_2026-11-12": "[reviewed, stays active] STAYS ACTIVE, reinforced — Goolsbee: October CPI 'borderline disturbing' (CNBC headline); Bowman: pressures 'may be broadening' (AP summary). (intel MAC-A8)",
+   "note_2026-11-13": "[reviewed, stays active] STAYS ACTIVE, reinforced — Daly ('further tightening will be needed'), Williams, Hammack (12 Nov); Goldman now expects a March hike. (intel MAC-A6)"
   },
   {
    "condition": "FOMC HIKES 25bp on 16 Sep (decision + statement) — OR HOLDS despite 83–85% pricing (dovish surprise)",
@@ -91,7 +92,8 @@
    "note_2026-11-09": "[reviewed, stays watching] Leg 2 PENDING (9 Dec) — ~82% priced; Brent now below $100 (~$94), so the 'despite Brent >$100' framing no longer holds at today's price. (intel MAC-A4)",
    "note_2026-11-10": "[reviewed, stays watching] Leg 2 PENDING (9 Dec) — a 25bp hike is now fully priced (26.8bp at 19:15 IST, CoS/MAC ZQZ26 math; 50bp ~7%). FRAMING NOTE: the watch's premise ('Fed looks through energy') no longer describes the driver — Brent is ~$89.5 and the case is core services (Waller; Goolsbee: 'a bunch of services'); the 2Y rose 5bp on 9 Nov as oil fell 5.85%. (intel MAC-A5/A6)",
    "note_2026-11-11": "[reviewed, stays watching] Leg 2 PENDING 9 Dec — 25bp fully priced (28.9bp on our math). (intel MAC-A8)",
-   "note_2026-11-12": "[reviewed, stays watching] Leg 2 PENDING 9 Dec — 25bp fully priced (27.5bp, our math). (intel MAC-A8)"
+   "note_2026-11-12": "[reviewed, stays watching] Leg 2 PENDING 9 Dec — 25bp fully priced (27.5bp, our math). (intel MAC-A8)",
+   "note_2026-11-13": "[reviewed, stays watching] Leg 2 PENDING 9 Dec — 25bp fully priced (29.6bp at the 12-Nov settle; our math). (intel MAC-A6)"
   },
   {
    "condition": "The 9 Dec FOMC hikes 50bp (Waller's 10-Nov case) — vs 25bp",
@@ -107,7 +109,8 @@
    "added": "2026-11-10",
    "notes": "Added 10 Nov. Futures (CoS/MAC ZQZ26 math, EFFR 3.88): ~18% at the 19:00 IST CPI extreme, ~7% by 19:15 IST; 25bp fully priced. Waller: 'Hiking only 25 basis points would put our credibility at risk.' Goldman's Fox: 'hedging'. Resolves 9 Dec. (intel MAC-A5)",
    "note_2026-11-11": "[reviewed, stays watching] PENDING — 50bp odds ~10% at the 10-Nov settle → ~15.5% (95.915, 11:00 IST Wed, thin); FedWatch 11.2%. (intel MAC-A8)",
-   "note_2026-11-12": "[reviewed, stays watching] PENDING — 50bp ~10% at 95.925 (7–15.5% across 95.915–95.93; read as unchanged). (intel MAC-A8)"
+   "note_2026-11-12": "[reviewed, stays watching] PENDING — 50bp ~10% at 95.925 (7–15.5% across 95.915–95.93; read as unchanged). (intel MAC-A8)",
+   "note_2026-11-13": "[reviewed, stays watching] PENDING — CLOSER: ~13–18% for 50bp (from ~10%); still a minority; Hammack prefers smaller, more frequent steps. (intel MAC-A6)"
   }
  ],
  "top_edges": [
@@ -116,9 +119,9 @@
    "type": "rate_expectations",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-12",
+   "last_activated": "2026-11-13",
    "activation_count": 19,
-   "context": "12 Nov: 2Y +3bp to ~4.77% in Asia on hike bets after Goolsbee/Bowman; 10Y ~4.99% (MAC-A6/A8)."
+   "context": "12 Nov: 10Y +12bp, 2Y +13bp on hike repricing (Daly, Williams, Hammack; Goldman March call)"
   },
   {
    "to": "sp-500",
@@ -151,9 +154,9 @@
    "type": "real_yield_channel_jun10_dec_hike_repricing_70pct_real_yields_dxy_up_gold_fell_2.1pct_during_three_country_strike",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-12",
+   "last_activated": "2026-11-13",
    "activation_count": 18,
-   "context": "11 Nov: gold fell below $4,000 spot on the dollar and Fed hike bets (Kitco), falling through both oil jumps (MAC-A9)."
+   "context": "12 Nov: gold −2.9% to the 2026 low close on yields and the dollar (Kitco)"
   },
   {
    "to": "brent-crude",
@@ -173,6 +176,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-13",
+   "headline": "Thursday 12 Nov: Daly — 'My bias is that further tightening will be needed'; Williams — more increases likely (summary); Hammack — 'we need to move to a restrictive stance', prefers 'more frequent, smaller rises', not 'behind the curve' (Reuters via Kitco). Goldman now expects a further 25bp hike in March (CNBC). ZQZ26 95.910 at settle → 29.6bp (25bp priced + ~18% for 50bp; our math, EFFR 3.88); 95.920 Fri → ~13%; FedWatch via CNBC ~13%. December barely moved; the repricing went into 2027 (ZQH27 implies ~two hikes by March). PPI today 19:00 IST.",
+   "verification": "CONFIRMED (pricing, our math) / REPORTED (speakers)"
+  },
   {
    "date": "2026-11-12",
    "headline": "Post-CPI Fed talk (11 Nov): Goolsbee called October CPI 'borderline disturbing' (CNBC headline); Bowman: pressures 'may be broadening' (AP, via summary); AP: 'Fed officials consider faster hikes'. ZQZ26 95.925 (09:30 IST Thu) → +27.5bp: 25bp fully priced, 50bp ~10% (7–15.5% across 95.915–95.93; read as unchanged). Calendar: claims Thu 19:00 IST; PPI Fri 19:00 IST; retail sales 17 Nov.",

@@ -3,15 +3,15 @@
  "name": "US 10-Year Treasury Yield",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-12",
+ "last_updated": "2026-11-13",
  "summary": "US 10-year, Day 246. The 10-year closed 4.94% on 30 Oct — its second straight close below 5% and a 35bp rally in October — but the war did not do it. Both breaks below 5% (22 Oct and 29–30 Oct) came on AI-credit shocks: Meta, then Alphabet's negative free cash flow and record one-day fall, Amazon spending ~$77bn against ~$42bn of operating cash, and Intel's 28.6% collapse. On the day oil jumped 2.4%, the 10-year fell 4bp and breakevens did not move; the Fed Chair himself said rates 'rolled over to the downside' as oil rose. The 2-year fell more (4.56%), pricing 'one more hike and done'. For the investor's 13-Oct condition, 'below 5%' is being met for the wrong reason and with high-yield spreads widening, so the graph's three-session trigger is not fired. The war's channel to US rates is now the front end via the Fed, not the long end via inflation expectations.",
  "current": {
   "price": "4.90% (4 Nov, Treasury par)",
   "driver": "JOLTS beat lifted the front end; the Democratic sweep rallied the long end; HY OAS flat (3.43%, 2 Nov).",
   "regime": "SET BY AI CREDIT, NOT THE WAR (second episode in eight days). The 13-Oct 'below 5%' deployment condition met on two closes for the wrong reason, with HY spreads widening.",
   "delta_1d": "−5bp",
-  "level": "4.98% par (10 Nov); ~4.99% in Asia (12 Nov, Bloomberg relay); no 11-Nov print",
-  "note": "Condition 2 met on last prints by 2bp; untestable 12 Nov"
+  "level": "5.10% par (12 Nov); ~5.13% Asia (13 Nov, summary relay)",
+  "note": "Condition 2 FAILS (≥5.00%); HY OAS 3.30% (11 Nov) — credit not widening"
  },
  "active_triggers": [
   {
@@ -68,7 +68,8 @@
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — HY OAS 3.42% (6 Nov, −6bp), back below the 3.44% base; 10Y 4.86% (6 Nov), ~4.85% intraday 9 Nov. (intel MAC-A5; CoS)",
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 3.42% (6 Nov, latest; 9 Nov not yet published); 10Y 4.88% (9 Nov par). (intel MAC-A6)",
    "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — HY OAS 3.34% (9 Nov); the 10Y closed 4.98% par after trading above 5% intraday (high 5.021%); bond market shut 11 Nov. (intel MAC-A9)",
-   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — HY 3.34% (9 Nov, latest); no 11-Nov par print (holiday); 10Y ~4.99% in Asia Thu. (intel MAC-A6/A7)"
+   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — HY 3.34% (9 Nov, latest); no 11-Nov par print (holiday); 10Y ~4.99% in Asia Thu. (intel MAC-A6/A7)",
+   "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — CANNOT FIRE AS WRITTEN while the 10Y is above 5%: par 10Y 5.10% (12 Nov); HY OAS 3.30% (11 Nov), tighter. Deployment condition 2 now fails on the 10Y leg, not on credit. (intel MAC-A4; CoS R6)"
   }
  ],
  "top_edges": [
@@ -118,6 +119,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-13",
+   "headline": "Treasury.gov par 12 Nov (first print after Veterans Day): 2Y 4.86% (+13bp vs 10 Nov), 10Y 5.10% (+12bp; largest daily rise since 23 Sep; highest close since 21 Oct), 30Y 5.43%. ~30% of the 10Y-futures fall came at Trump's 18:37 IST post (half reversed before the cash open); the rest in US hours on Fed-hike repricing (CNBC: oil, CPI, Goldman's March call; Daly/Williams/Hammack). 30Y auction 5.441%, 0.4bp tail — not the driver; claims 200k and weak home sales ignored. HY OAS 3.30% (11 Nov), tighter. Deployment condition 2 FAILS (10Y ≥5.00%); credit leg fine. ~5.13% in Asia Fri (summary).",
+   "verification": "CONFIRMED (data) / REPORTED (attribution)"
+  },
   {
    "date": "2026-11-12",
    "headline": "US cash bond market shut 11 Nov (Veterans Day): no par print; ^TNX's 4.998 is a flat untraded carry-forward (every 30-min bar O=H=L=C). Treasury futures traded (ZNZ26 settle 106.031, ≈+3bp). Cash reopened in Asia Thu (Bloomberg relay): 10Y ~4.99%, 2Y +3bp to ~4.77%, 30Y −2bp (Nvidia haven buying, 30Y auction Thu). Deployment condition 2 untestable today; met on the last prints (par 4.98% on 10 Nov; HY OAS 3.34% on 9 Nov). First post-holiday close ~02:30 IST Fri.",
@@ -424,6 +430,11 @@
    "date": "2026-11-11",
    "price": "4.98% (10 Nov par; intraday high 5.021%); 2Y 4.73%; HY OAS 3.34% (9 Nov)",
    "trigger": "Hot CPI, Waller, Logan; condition 2 by 2bp"
+  },
+  {
+   "date": "2026-11-13",
+   "price": "5.10% (12 Nov par)",
+   "trigger": "+12bp in one session; Fed repricing ~70%, Trump post ~30%; condition 2 fails"
   }
  ]
 }

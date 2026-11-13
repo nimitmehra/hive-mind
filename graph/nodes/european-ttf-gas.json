@@ -3,10 +3,10 @@
  "name": "European TTF Natural Gas",
  "type": "commodity",
  "created": "2026-03-28",
- "last_updated": "2026-11-12",
+ "last_updated": "2026-11-13",
  "summary": "European gas (TTF), Day 246. TTF crossed €100/MWh on 28 Oct for the first time since the 2022 crisis and the December contract settled around €103.6 on 30 Oct — up roughly 40% in October and more than three times its pre-war level. Supply is the war's doing: Qatar extended LNG force majeure to the end of December and is shipping perhaps a fifth of pre-war volume, and traders fear Iranian retaliation on Gulf energy if the US strikes after 3 Nov. Demand-side fragility is Europe's own: storage is about 75%, the lowest for the season since records began, with Germany near 62% and some countries already withdrawing. German power is at its highest since mid-2023, and the ECB debated a hike on 29 Oct citing energy. The beneficiaries are US LNG exporters (Cheniere raised guidance) and Qatar's own hedging into US supply. A warm winter or a US–Iran text are the downside paths; a strike on Gulf gas infrastructure the upside.",
  "current": {
-  "price": "€86.65 (11 Nov)",
+  "price": "€92.26 (12 Nov)",
   "driver": "Qatar FM to end-Dec + storage ~75% (record-low for season) + Asia competition + post-3-Nov strike risk",
   "delta_1m": "~+36–41% (October)",
   "regime": "ABOVE THE 2022-CRISIS THRESHOLD. Europe 'essentially betting on a warm winter' (Macquarie).",
@@ -89,7 +89,8 @@
    "note_2026-11-09": "[reviewed, stays active] Stays ACTIVE — ~€82–83 intraday. (intel ISR-A6, MAC-A9)",
    "note_2026-11-10": "[reviewed, stays active] [stays active] TTF ~€81.7–81.8 (Tue intraday). (intel MAC-A10)",
    "note_2026-11-11": "[reviewed, stays active] STAYS ACTIVE (€84.73). (markets)",
-   "note_2026-11-12": "[reviewed, stays active] STAYS ACTIVE (€86.65). (markets)"
+   "note_2026-11-12": "[reviewed, stays active] STAYS ACTIVE (€86.65). (markets)",
+   "note_2026-11-13": "[reviewed, stays active] STAYS ACTIVE — €92.26 (+6.5%, 12 Nov). (markets A)"
   },
   {
    "condition": "TTF front-month settles above €120/MWh by 31 Dec (winter stress beyond the 2022-threshold) — OR back below €80 (premium unwinds on a deal/warm winter)",
@@ -111,7 +112,8 @@
    "note_2026-11-09": "[reviewed, stays watching] NOT FIRED — rose to ~€86.7 in the morning (Hormuz shipping and Khor Mor reports), then ~€82–83 (−3 to −4%) on de-escalation; the €80 leg ~€2–3 away; ICE settle not checked. (intel ISR-A6, MAC-A9)",
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — the below-€80 leg is ~€1.8 away (Mon close €82.50; Tue ~€81.7–81.8); one ICE feed shows a €78.92 intraday low (single feed, unverified) — judged on a settle. (intel ISR-B2, MAC-A10)",
    "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — MOVED AWAY from the €80 leg: Tue close ~€84.73 (+2.7%; one feed), ~€4.7 above; storage 72.65% (7 Nov). (intel ISR-B2)",
-   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — FURTHER from €80 (€86.65, +2.3%; ~€6.65 above). (intel MAC-B2, ISR-A12)"
+   "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — FURTHER from €80 (€86.65, +2.3%; ~€6.65 above). (intel MAC-B2, ISR-A12)",
+   "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — €92.26; €120 needs +30%; FURTHER from €80 (~€12 above). Driver mostly weather/Troll (Trading Economics), not Qatar. (intel ISR-B, SAU-C1)"
   }
  ],
  "top_edges": [
@@ -152,6 +154,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-13",
+   "headline": "TTF €92.26 (+6.5%; yfinance) on 12 Nov — the largest daily gain on TTF=F since 10 Aug. Most came before the Trump post (€90.00 by 14:00 IST, flat to 18:30, €93.7 by 22:15). Attributed (Trading Economics; one unbylined wire) to cold forecasts from 17 Nov, Norway's Troll outage (Gassco; flows 331 → 322 mcm/d), EU storage below 72% vs an 89% five-year average, and Middle East LNG. No Qatar event found. Feeds differ (Trading Economics €93.45; Investing.com front month €90.09).",
+   "verification": "CONFIRMED (price) / REPORTED (cause)"
+  },
   {
    "date": "2026-11-12",
    "headline": "TTF €86.65 (+2.3%) Wed, ~€87.2 late; Eurasia Business News (one outlet): 'renewed uncertainty over the Iran war revived concerns about winter energy supplies' plus cold risk; storage ~72% (carried). €80 leg ~€6.65 away — further. Henry Hub −2.5%.",

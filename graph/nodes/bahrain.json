@@ -3,7 +3,7 @@
  "name": "Bahrain",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-11-11",
+ "last_updated": "2026-11-13",
  "summary": "Bahrain, Day 241. Host of the Fifth Fleet and, on 18 Oct, of the Russia–GCC Strategic Dialogue, where GCC ministers urged Moscow to restrain Iran and invoked collective defence while rejecting Iran's Hormuz permit-and-fee regime. No kinetic event on Bahraini soil in the window.",
  "current": {
   "status": "Refused Salalah (13 Sep); hardest anti-Iran-lane Gulf position."
@@ -23,6 +23,19 @@
    "note_2026-06-03": "RESOLVED untripped. The 14-day window (by 2026-05-24) closed with no second Gulf-state IRGC-network arrest sweep following Bahrain's May 9 detentions — the predicted US-led intel-sharing-and-disruption campaign against IRGC funding architecture did not materialise across the Gulf. Marked resolved on overdue-node refresh (node had been stale since 12 May).",
    "note_2026-06-06": "Unchanged — STAYS RESOLVED. The 5-6 June overnight salvo against Bahrain (intercepted/missed, zero casualties) is a kinetic event, not an internal IRGC-network arrest sweep; it does not bear on this trigger.",
    "note_2026-06-10": "Unchanged — STAYS RESOLVED. The June 10 IRGC strike on the Fifth Fleet HQ (intercepted, zero damage per US official; IRGC hit-claim denied) is a kinetic performative-deterrence event, not an internal IRGC-network arrest sweep; it does not bear on this trigger."
+  },
+  {
+   "condition": "Bahrain, the US or CENTCOM confirms (on the record, or 2+ outlets with their own officials) Iranian fire hitting a US or Bahraini military site in Bahrain, by 30 Nov",
+   "status": "watching",
+   "cascade": [
+    "bahrain",
+    "united-states",
+    "iran",
+    "brent-crude",
+    "strait-of-hormuz"
+   ],
+   "added": "2026-11-13",
+   "notes": "Added 13 Nov. The IRGC claims it 'targeted and destroyed' a US early-warning radar 'on the island of Bahrain' in response to the 'enemy's air attack on a telecommunications tower in Sirik' (first relays 07:42–07:45 IST Fri; Mehr English). Reuters (via Al Jazeera) and ToI: the first Iranian claim of an attack on US military assets in a Gulf state 'since early September'. Bahrain, the US and CENTCOM silent. A confirmed hit would be the first confirmed Iranian fire on a Gulf state hosting US forces since September; the hold rule's resets name only Oman — a reset on this is a USER decision, not applied. Does NOT fire on IRGC statements or relays alone. (intel KIN-A2; CoS R5)"
   }
  ],
  "top_edges": [
@@ -46,6 +59,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-13",
+   "headline": "IRGC claims it destroyed a US early-warning radar on Bahrain (13 Nov, ~07:42 IST first relays) in retaliation for a strike on Sirik. No Bahraini, US or CENTCOM confirmation or denial found. The first such claim against a Gulf state since early September (Reuters/ToI wording).",
+   "verification": "CLAIMED"
+  },
   {
    "date": "2026-11-11",
    "headline": "King Hamad in Riyadh (10 Nov), received by MBS; Bahrain's cabinet (9 Nov) condemned the Houthis' 'continued terrorist attacks' on Saudi Arabia.",
