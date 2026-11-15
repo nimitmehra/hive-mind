@@ -3,10 +3,10 @@
  "name": "Bahrain",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-11-13",
- "summary": "Bahrain, Day 241. Host of the Fifth Fleet and, on 18 Oct, of the Russia–GCC Strategic Dialogue, where GCC ministers urged Moscow to restrain Iran and invoked collective defence while rejecting Iran's Hormuz permit-and-fee regime. No kinetic event on Bahraini soil in the window.",
+ "last_updated": "2026-11-15",
+ "summary": "Bahrain, Day 261. Host of the US Fifth Fleet and again a target of Iranian drones on the record (CENTCOM 13 Nov; Bahrain TV 15 Nov), as in June and July. CENTCOM said on 13 Nov that the IRGC 'launched two one-way attack drones toward Bahrain and both were shot down by U.S. forces… no injuries or damage', rebutting an IRGC claim to have destroyed a US early-warning radar in reply to a strike on Sirik. On 15 Nov Bahrain sounded sirens and its state TV said air defences 'intercepted and destroyed an Iranian drone'; the IRGC claims six drones hit a radar at the Al-Rifa'a helicopter base as the 'second stage' of its response. Fire AT Bahrain is confirmed twice; no hit on a site is. The `bahrain` watch (confirmed fire hitting a US or Bahraini military site, by 30 Nov) is closer, not fired.",
  "current": {
-  "status": "Refused Salalah (13 Sep); hardest anti-Iran-lane Gulf position."
+  "status": "Day 261: Iranian drones fired at Bahrain 13 and 15 Nov, intercepted (CENTCOM; Bahrain TV); IRGC claims radar hits at Al-Rifa'a — unconfirmed"
  },
  "active_triggers": [
   {
@@ -35,7 +35,8 @@
     "strait-of-hormuz"
    ],
    "added": "2026-11-13",
-   "notes": "Added 13 Nov. The IRGC claims it 'targeted and destroyed' a US early-warning radar 'on the island of Bahrain' in response to the 'enemy's air attack on a telecommunications tower in Sirik' (first relays 07:42–07:45 IST Fri; Mehr English). Reuters (via Al Jazeera) and ToI: the first Iranian claim of an attack on US military assets in a Gulf state 'since early September'. Bahrain, the US and CENTCOM silent. A confirmed hit would be the first confirmed Iranian fire on a Gulf state hosting US forces since September; the hold rule's resets name only Oman — a reset on this is a USER decision, not applied. Does NOT fire on IRGC statements or relays alone. (intel KIN-A2; CoS R5)"
+   "notes": "Added 13 Nov. The IRGC claims it 'targeted and destroyed' a US early-warning radar 'on the island of Bahrain' in response to the 'enemy's air attack on a telecommunications tower in Sirik' (first relays 07:42–07:45 IST Fri; Mehr English). Reuters (via Al Jazeera) and ToI: the first Iranian claim of an attack on US military assets in a Gulf state 'since early September'. Bahrain, the US and CENTCOM silent. A confirmed hit would be the first confirmed Iranian fire on a Gulf state hosting US forces since September; the hold rule's resets name only Oman — a reset on this is a USER decision, not applied. Does NOT fire on IRGC statements or relays alone. (intel KIN-A2; CoS R5)",
+   "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — CLOSER. Its text needs confirmed Iranian fire HITTING a US or Bahraini military site. On record now: CENTCOM (13 Nov) — two IRGC one-way attack drones 'toward Bahrain… both were shot down by U.S. forces. There were no injuries or damage'; Bahrain TV (15 Nov, 02:13 UTC) — air defences 'intercepted and destroyed an Iranian drone'. The IRGC claims six drones hit a radar at Al-Rifa'a helicopter base (CLAIMED). Fire AT Bahrain confirmed; a hit is not. The user-proposed reset (ii) ('confirmed Iranian fire hitting a Gulf state hosting US forces') would not fire on these facts either. (intel KIN-A4/A5; CoS R2)"
   }
  ],
  "top_edges": [
@@ -53,12 +54,17 @@
    "type": "jun10_fifth_fleet_hq_struck_again_intercepted_zero_damage_per_us_official_irgc_hit_claim_denied",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-06-10",
+   "last_activated": "2026-11-15",
    "activation_count": 11,
-   "context": "2026-06-10: IRGC AGAIN claimed to have hit the US Fifth Fleet HQ in Manama (part of a CLAIMED 21-target / 4-destroyed battle-damage list incl an F-35 hangar) — a US official said there were NO injuries to US personnel and NO damage to US facilities; the US intercepted nearly all missiles and drones. NO weight on the denied claim; weight held at 10.0 on the confirmed 'Fifth Fleet host targeted, intercepted, zero-damage' fact."
+   "context": "13 Nov: CENTCOM rebuts the IRGC radar claim; 15 Nov: IRGC claims a US radar at Al-Rifa'a (unconfirmed)"
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-15",
+   "headline": "Iranian drone fire AT Bahrain is now on the record twice; a HIT is not. (1) CENTCOM (13 Nov, X): 'The IRGC launched two one-way attack drones toward Bahrain and both were shot down by U.S. forces. There were no injuries or damage' — rebutting the IRGC's 'destroyed radar' claim. (2) Sun 15 Nov: sirens ~01:30 UTC (07:00 IST); Interior Ministry alerts 01:34 and 03:51 UTC; Bahrain TV 02:13 UTC (07:43 IST): air defences 'intercepted and destroyed an Iranian drone'. The IRGC (statement 07:43 Tehran) claims six drones hit 'a radar at a US air-defence site at Al-Rifa'a helicopter base' — the 'second stage' of its response to US 'clear aggression'; names no new attack on Iran (CLAIMED). Khalifa Port blasts: unofficial Arab sources only. No CENTCOM statement on Sunday's wave by ~10:10 IST. Not new as a target: the IRGC claimed a 'Patriot battery at Riffa' in July.",
+   "verification": "CONFIRMED (fire at Bahrain) / CLAIMED (hit)"
+  },
   {
    "date": "2026-11-13",
    "headline": "IRGC claims it destroyed a US early-warning radar on Bahrain (13 Nov, ~07:42 IST first relays) in retaliation for a strike on Sirik. No Bahraini, US or CENTCOM confirmation or denial found. The first such claim against a Gulf state since early September (Reuters/ToI wording).",

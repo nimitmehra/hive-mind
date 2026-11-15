@@ -3,15 +3,15 @@
  "name": "US 10-Year Treasury Yield",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-13",
- "summary": "US 10-year, Day 246. The 10-year closed 4.94% on 30 Oct — its second straight close below 5% and a 35bp rally in October — but the war did not do it. Both breaks below 5% (22 Oct and 29–30 Oct) came on AI-credit shocks: Meta, then Alphabet's negative free cash flow and record one-day fall, Amazon spending ~$77bn against ~$42bn of operating cash, and Intel's 28.6% collapse. On the day oil jumped 2.4%, the 10-year fell 4bp and breakevens did not move; the Fed Chair himself said rates 'rolled over to the downside' as oil rose. The 2-year fell more (4.56%), pricing 'one more hike and done'. For the investor's 13-Oct condition, 'below 5%' is being met for the wrong reason and with high-yield spreads widening, so the graph's three-session trigger is not fired. The war's channel to US rates is now the front end via the Fed, not the long end via inflation expectations.",
+ "last_updated": "2026-11-15",
+ "summary": "US 10-year, Day 261. The 10-year has been back above 5% since 12 Nov: 5.10% on 12 Nov (+12bp) and 5.15% on 13 Nov, the highest close since 19 Oct (Treasury par; 2026 high 5.31% on 5 Oct). Not the war: Friday's rise came mostly before the PPI release, with fed-funds futures pricing slightly less tightening and the curve steepening (2s10s 27bp); CNBC attributes it to Fed-rise certainty. A December hike is fully priced and January and March hikes ~70–75% (our futures math); oil was flat. The October breaks below 5% had come on AI-credit shocks, not peace. Credit is calm (HY OAS 3.20% on 12 Nov, tighter). Deployment condition 2 (10Y below 5% with credit not widening) fails on the yield leg; the HY watch cannot fire while the 10Y is above 5%.",
  "current": {
   "price": "4.90% (4 Nov, Treasury par)",
   "driver": "JOLTS beat lifted the front end; the Democratic sweep rallied the long end; HY OAS flat (3.43%, 2 Nov).",
   "regime": "SET BY AI CREDIT, NOT THE WAR (second episode in eight days). The 13-Oct 'below 5%' deployment condition met on two closes for the wrong reason, with HY spreads widening.",
   "delta_1d": "−5bp",
-  "level": "5.10% par (12 Nov); ~5.13% Asia (13 Nov, summary relay)",
-  "note": "Condition 2 FAILS (≥5.00%); HY OAS 3.30% (11 Nov) — credit not widening"
+  "level": "5.15% par (13 Nov) — highest close since 19 Oct",
+  "note": "Condition 2 FAILS (≥5.00%); HY OAS 3.20% (12 Nov) — credit tightening"
  },
  "active_triggers": [
   {
@@ -69,7 +69,8 @@
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — 3.42% (6 Nov, latest; 9 Nov not yet published); 10Y 4.88% (9 Nov par). (intel MAC-A6)",
    "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — HY OAS 3.34% (9 Nov); the 10Y closed 4.98% par after trading above 5% intraday (high 5.021%); bond market shut 11 Nov. (intel MAC-A9)",
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — HY 3.34% (9 Nov, latest); no 11-Nov par print (holiday); 10Y ~4.99% in Asia Thu. (intel MAC-A6/A7)",
-   "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — CANNOT FIRE AS WRITTEN while the 10Y is above 5%: par 10Y 5.10% (12 Nov); HY OAS 3.30% (11 Nov), tighter. Deployment condition 2 now fails on the 10Y leg, not on credit. (intel MAC-A4; CoS R6)"
+   "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — CANNOT FIRE AS WRITTEN while the 10Y is above 5%: par 10Y 5.10% (12 Nov); HY OAS 3.30% (11 Nov), tighter. Deployment condition 2 now fails on the 10Y leg, not on credit. (intel MAC-A4; CoS R6)",
+   "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — CANNOT FIRE AS WRITTEN while the 10Y is above 5%: par 10Y 5.15% (13 Nov, highest since 19 Oct); HY OAS 3.20% (12 Nov), tighter. (intel MAC-A4)"
   }
  ],
  "top_edges": [
@@ -119,6 +120,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-15",
+   "headline": "Treasury.gov par 13 Nov: 2Y 4.88% (+2bp), 10Y 5.15% (+5bp; the highest close since 19 Oct — CoS re-checked the CSV; 2026 high 5.31% on 5 Oct), 30Y 5.47% (+4bp); 2s10s 27bp from 24bp. Most of the 10Y rise came in Asian/European hours BEFORE the PPI (ZN 105.344 at 11:00 IST → 105.14–105.17 by 18:30); PPI's rally reversed by 20:10 IST; CNBC: a December hike 'certain', Thursday's momentum; yen ~160 context. Oil flat — not oil (~10% crisis share). HY OAS 3.20% (12 Nov), tighter. Deployment condition 2 FAILS; credit leg fine.",
+   "verification": "CONFIRMED (data) / REPORTED (attribution)"
+  },
   {
    "date": "2026-11-13",
    "headline": "Treasury.gov par 12 Nov (first print after Veterans Day): 2Y 4.86% (+13bp vs 10 Nov), 10Y 5.10% (+12bp; largest daily rise since 23 Sep; highest close since 21 Oct), 30Y 5.43%. ~30% of the 10Y-futures fall came at Trump's 18:37 IST post (half reversed before the cash open); the rest in US hours on Fed-hike repricing (CNBC: oil, CPI, Goldman's March call; Daly/Williams/Hammack). 30Y auction 5.441%, 0.4bp tail — not the driver; claims 200k and weak home sales ignored. HY OAS 3.30% (11 Nov), tighter. Deployment condition 2 FAILS (10Y ≥5.00%); credit leg fine. ~5.13% in Asia Fri (summary).",

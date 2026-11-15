@@ -3,7 +3,7 @@
  "name": "Semiconductors (SMH/SOX)",
  "type": "sector",
  "created": "2026-04-25",
- "last_updated": "2026-11-13",
+ "last_updated": "2026-11-15",
  "summary": "Semiconductors / AI complex, Day 246. The AI-credit scare — which began when Alphabet's free cash flow first turned negative in Q2 (−$5.9bn, reported 23 Jul, a first in its public history) and spread to Meta on 21–22 Oct — deepened and broadened in Q3: Alphabet's Q3 capex exceeded its operating cash by $9bn (its second straight negative quarter) (shares −12.6%, the worst day in its history) and Amazon's by roughly $33bn, financed with $48bn of new debt; Microsoft stayed cash-positive but sold its first bond since 2017. Intel's guide-down then took the SOX down 7.2% on 30 Oct. Suppliers are the mirror image — SK hynix and Samsung printed record quarters and guided memory prices up. The market's question has moved from 'is AI demand real?' to 'who funds it?', and the answer is increasingly the bond market. For the war graph this matters because AI credit, not oil, has twice set US long yields this month (semiconductors → us-10y-yield raised to 5.0), and because AI risk-off has not sent money to India. Next tests: Q4 calls (late Jan–Feb 2027) for any 2027 capex cut.",
  "current": {
   "price": "SOX 10,688.80 (30 Oct, −7.2%); SMH $522.49",
@@ -90,7 +90,8 @@
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — window late Jan–early Feb 2027. (intel MAC-A7)",
    "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — CoreWeave raised guidance and gave $37–39bn 2026 capex; no hyperscaler cut. (intel MAC-A10)",
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — the WSJ Nvidia board report is governance, not capex. (intel MAC-B1)",
-   "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — Huang's resignation (8-K) is governance, not capex. (intel MAC-A7)"
+   "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — Huang's resignation (8-K) is governance, not capex. (intel MAC-A7)",
+   "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — a sell-off (SOX −3.4%), not a capex cut; window late Jan–Feb 2027. (intel MAC-A6)"
   },
   {
    "condition": "Texas enacts or formally announces a moratorium on AI data-centre construction or grid connections by 31 Mar 2027",
@@ -112,7 +113,8 @@
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — no news. (intel MAC-A7)",
    "note_2026-11-11": "[reviewed, stays watching] NOT FIRED. (intel)",
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED. (intel)",
-   "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — not searched this run. (intel MAC-F)"
+   "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — not searched this run. (intel MAC-F)",
+   "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — not searched this run. (intel MAC)"
   }
  ],
  "top_edges": [
@@ -138,9 +140,9 @@
    "type": "sector_component_systemic_risk_transmitter_ai_rotation_chip_tape_drives_nasdaq",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-13",
+   "last_activated": "2026-11-15",
    "activation_count": 7,
-   "context": "12 Nov: Huang resigned (8-K); Nvidia −4.3%, S&P −0.35%"
+   "context": "13 Nov: SOX −3.4% (Nvidia governance, HSBC downgrade); S&P −0.4%"
   },
   {
    "to": "vix",
@@ -179,6 +181,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-15",
+   "headline": "13 Nov: SOX 10,146.32 (−3.4%; intraday −6.4%), AMD −8.8%, Broadcom −4.8%, Nvidia −2.0% ($162.85). Causes (CNBC, Reuters headline): Huang's exit; HSBC cut Nvidia to hold (target $170 from $365; 'the uncertainties will prevail until a permanent succession plan is laid out'); reversal of Thursday's rotation into AMD/Broadcom; Baird's Mayfield cites AI-capex ROI worries. ~0–5% crisis. KOSPI −1.0% (SK hynix −3.0%); TAIEX +1.4%. Nvidia results 17 Nov. Capex watch untouched.",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-11-13",
    "headline": "Huang resigned (SEC 8-K, 12 Nov) — governance, not capex; NVDA $166.19 (−4.3%), AVGO +5.5%, SOX −0.5%, TSM ADR −1.9%. Friday: TAIEX +1.7%, KOSPI −0.8% (intraday). The capex watch is not touched.",

@@ -3,7 +3,7 @@
  "name": "OPEC+",
  "type": "institution",
  "created": "2026-03-23",
- "last_updated": "2026-11-13",
+ "last_updated": "2026-11-15",
  "summary": "OPEC+, Day 241. No decision in the window; the seven meet on 1 Nov on December output. The IEA sees a deficit through year-end with diesel tight into 2027; OPEC cut its 2026 growth estimate. Saudi Arabia's export capacity is under Houthi fire and tracker estimates of its exports conflict by up to 2.6 mb/d; the UAE, outside OPEC since May, pumped a record in September. The cartel's spare capacity is irrelevant while the constraint is safe passage.",
  "current": {
   "uae_status": "EXITING — effective May 1, 2026 (CONFIRMED Apr 28)",
@@ -88,7 +88,8 @@
    "note_2026-11-10": "[reviewed, stays watching] NOT FIRED — no statement; a Reuters survey shows October OPEC output rose (Saudi, Kuwait, Iraq). (intel SAU, MAC-A2)",
    "note_2026-11-11": "[reviewed, stays watching] PENDING 29 Nov — no statement. (intel SAU-A10)",
    "note_2026-11-12": "[reviewed, stays watching] PENDING 29 Nov — the MOMR shows OPEC+ October output +2.04 mb/d and Saudi Arabia's self-reported 10.563 mb/d (secondary ~9.19). (intel SAU-A6, MAC-A4)",
-   "note_2026-11-13": "[reviewed, stays watching] PENDING 29 Nov — no member statement found. (intel SAU)"
+   "note_2026-11-13": "[reviewed, stays watching] PENDING 29 Nov — no member statement found. (intel SAU)",
+   "note_2026-11-15": "[reviewed, stays watching] PENDING 29 Nov — no member statement; IEA puts Saudi crude at 9.99 mb/d vs 10.563 self-reported. (intel SAU-A6, A10)"
   }
  ],
  "top_edges": [
@@ -97,9 +98,9 @@
    "type": "supply_management_deal_anticipation_brent_sub100_repricing_toward_opec_floor",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-12",
+   "last_activated": "2026-11-15",
    "activation_count": 11,
-   "context": "11 Nov MOMR: OPEC+ October output +2.04 mb/d to 41.23 mb/d; Saudi self-report 10.563 mb/d — a bearish supply offset to the Hormuz premium (MAC-A4, SAU-A6)."
+   "context": "13 Nov: IEA OMR — Q4 surplus, OPEC+ October crude +2.04 mb/d; Brent −$1.25 in 90 minutes"
   },
   {
    "to": "saudi-arabia",
@@ -127,6 +128,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-15",
+   "headline": "IEA OMR (13 Nov; REPORTED via Reuters/The National/Benzinga relays; primary not read): Q4 2026 supply ~105 mb/d, ~1.7 mb/d above demand — a surplus 'for the first time since the outbreak of the war'; OPEC+ October crude 41.23 mb/d (+2.04 mb/d m/m, 97% of February's pre-war volume); Saudi crude 9.99 mb/d in October (from 8.93) vs 10.563 self-reported to OPEC — ~480 kb/d below quota on the IEA's count; Gulf exports ex-Oman 18.4 mb/d, '26% below' pre-war, partly via AIS-dark 'dark crossings' of Hormuz; observed stocks +52 mb (on water; on-land the lowest since at least 2016); 2026 deficit cut to 685 kb/d (from 1.7 mb/d); 2027 surplus ~3.8 mb/d. IEA: 'tentative signs of rebalancing'; diesel tightness the overriding concern. No member statement before 29 Nov found.",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-11-13",
    "headline": "No member statement before 29 Nov found. IEA OMR due 13 Nov 14:30 IST (after this brief). OPEC+ October output rise cited by Reuters as weighing on 12-Nov prices.",
