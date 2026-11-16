@@ -3,11 +3,12 @@
  "name": "KOSPI (Korea Composite Stock Index)",
  "type": "index",
  "created": "2026-05-12",
- "last_updated": "2026-11-15",
+ "last_updated": "2026-11-16",
  "summary": "KOSPI, Day 246. Korea round-tripped on the AI cycle, not the war: SK hynix's record quarter (80% operating margin, memory sold out through 2029) lifted the index 6.6% to 6,012 on 28 Oct, and the US AI-buyer selloff (Alphabet, Amazon, Intel) took it back to 5,730.74 on 30 Oct — still +4.8% on the week but ~32% below the May record. Both memory makers guided prices up, so the graph's 'below 5,000 or memory guided down' trigger did not fire. Korea's exposure to the Gulf (energy, helium) did not show in the numbers this week; its exposure to who finances AI did.",
  "current": {
-  "price": "5,239.13 (10 Nov close)",
-  "driver": "US chip rebound; first foreign buying in eight sessions; ~20% oil"
+  "price": "5,100.50 (16 Nov close)",
+  "driver": "US chip rebound; first foreign buying in eight sessions; ~20% oil",
+  "level": "5,100.50 (16 Nov close)"
  },
  "price_snapshots": [
   {
@@ -106,7 +107,8 @@
    "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — ~5,364 intraday Wed. (intel MAC-A11)",
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — 5,375.36 Wed; ~5,343 Thu intraday. (intel MAC-B1)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — 5,342.73 Thu; ~5,302 Fri (10:45 IST). (intel MAC-A8)",
-   "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — 5,290.53 (−1.0%). (intel MAC-A9)"
+   "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — 5,290.53 (−1.0%). (intel MAC-A9)",
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — CLOSER: 5,100.50 close (−3.59%) on the Nvidia/AI rout; no memory guidance cut (BofA NAND note is a broker call). (intel MAC B-1)"
   }
  ],
  "top_edges": [
@@ -153,6 +155,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-16",
+   "headline": "KOSPI 5,100.50 (−3.59%) close Mon 16 Nov — 100.50 points above the 5,000 trigger; SK hynix −7.9%, Samsung −4.5% (corrected at fact-check: the first pull was pre-auction 5,082.39). Daishin's Lee: AI-investment sentiment.",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-12",
    "headline": "KOSPI 5,375.36 Wed; Thursday ~5,343 (−0.6%, 10:43 IST; AP 'nearly unchanged' at 5,375.63). SK hynix −0.6%, Samsung +1.0%.",

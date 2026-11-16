@@ -3,13 +3,14 @@
  "name": "FII (Foreign Institutional Investor) Flows — India",
  "type": "institution",
  "created": "2026-05-12",
- "last_updated": "2026-11-15",
- "summary": "Foreign investor flows (India), Day 261. Foreign investors have bought Indian shares for nine straight regular sessions to 13 Nov (exchange provisional; Fri +₹5,736.55 cr), about ₹79,300 cr in November so far — a reversal from October, the heaviest selling month of the year, and calendar-2026 record outflows. The streak meets the buying leg of the investor's condition 3, but the daily amount has fallen two sessions running (₹12,563 → ₹7,831 → ₹5,737 cr; 9 Nov was ₹7,212 cr) as India's October CPI (6.09%) put RBI hikes back on the table. Domestic funds were net sellers. The `fii-flows` watch (three straight selling sessions by 30 Nov) is far from firing.",
+ "last_updated": "2026-11-16",
+ "summary": "FII flows, Day 262. Foreign investors bought Indian cash equities for ten straight regular sessions to 13 Nov (30 Oct–13 Nov; exchange provisional; count corrected on 16 Nov from nine), totalling ~₹82,900 cr on our exchange sum; PTI's NSDL figure for 2–13 Nov is ₹84,290 cr, reported as the largest monthly inflow since 2002 (history not checked). The daily amount has fallen two sessions running (₹12,563 → 7,831 → 5,737 cr). Strategists call it a tactical closing of extreme underweights, not a structural turn, and some tie it to rotation out of AI-linked markets. It is the main reason the Nifty sits at its pre-war level despite Brent ~$96 and rising rates. Watch: three consecutive net-selling sessions by 30 Nov (0 of 3).",
  "current": {
   "status": "Six straight net-buying sessions (30 Oct–6 Nov); week +₹45,960 cr (exchange); index-futures net short 1.00 lakh (from 1.86 lakh on 4 Nov).",
   "september": "−₹35,861 cr",
   "price": "3 Nov +₹6,836.81 cr (prov.); 2 Nov +₹3,114.68 cr; 30 Oct +₹3,599 cr",
-  "driver": "AI-trade unwind in North Asia + oil relief + capital-gains-relief talk; three-session streak."
+  "driver": "AI-trade unwind in North Asia + oil relief + capital-gains-relief talk; three-session streak.",
+  "streak": "10 straight regular buying sessions to 13 Nov (count corrected 16 Nov)"
  },
  "active_triggers": [
   {
@@ -81,7 +82,8 @@
    "note_2026-11-11": "[reviewed, stays watching] NOT FIRED — 0 of 3 (Mon +₹7,212.22 cr; Wed after 15:30 IST). (intel IND-A3)",
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — FURTHER: 0 of 3; Wed +₹12,563.33 cr, the seventh straight regular session. (intel IND-A2)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — FURTHER: 0 of 3; Thu +₹7,830.60 cr, the eighth straight session. (intel IND-A4)",
-   "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — FURTHER: 0 of 3; Fri +₹5,736.55 cr, the ninth straight regular session (daily amount down two sessions running; 9 Nov was ₹7,212 cr). (intel IND)"
+   "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — FURTHER: 0 of 3; Fri +₹5,736.55 cr, the ninth straight regular session (daily amount down two sessions running; 9 Nov was ₹7,212 cr). (intel IND)",
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — FURTHER: TEN straight regular buying sessions to 13 Nov (count corrected from nine; run from 30 Oct); 0 of 3. Monday's figure after this brief. (intel IND-A3; CoS R12)"
   }
  ],
  "top_edges": [
@@ -99,9 +101,9 @@
    "type": "dominant_marginal_buyer_seller_jun8_DII_plus5165cr_absorbed_93pct_of_fii_minus5556cr_held_23000_floor_index_rose_on_trump_tone_despite_fii_selling",
    "weight": 9.5,
    "directness": 1,
-   "last_activated": "2026-11-15",
+   "last_activated": "2026-11-16",
    "activation_count": 7,
-   "context": "13 Nov: ninth straight session of FII buying (+₹5,736.55 cr), shrinking; Nifty back below pre-war"
+   "context": "16 Nov: Nifty above pre-war intraday; wires credit 'record' foreign buying (count corrected to ten sessions)."
   },
   {
    "to": "inr-usd",
@@ -131,6 +133,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-16",
+   "headline": "COUNT CORRECTION (16 Nov): Friday 13 Nov was the TENTH straight regular session of FII buying, not the ninth — 30 Oct +3,598.54; 2 Nov +3,114.68; 3 Nov +6,836.81; 4 Nov +7,284.03; 5 Nov +14,974.68; 6 Nov +13,750; 9 Nov +7,212.20; 11 Nov +12,563.33; 12 Nov +7,830.60; 13 Nov +5,736.55 (₹ cr, exchange provisional; 29 Oct −944; excl. the 8-Nov Muhurat session). The 11-Nov brief dropped 30 Oct and later briefs carried it. PTI (NSDL basis): ₹84,290 cr for 2–13 Nov; relays call November's ~$8.9bn the largest monthly inflow since 2002 (history not checked).",
+   "verification": "REPORTED (our own tables re-read; PTI)"
+  },
   {
    "date": "2026-11-15",
    "headline": "Fri 13 Nov exchange provisional: FII +₹5,736.55 cr, DII −₹2,254 cr — the ninth straight regular session of FII buying (excluding Muhurat); November to date ~+₹79,302 cr. The daily amount has fallen two sessions running (₹12,563 → ₹7,831 → ₹5,737 cr; 9 Nov was ₹7,212 cr).",
