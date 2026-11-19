@@ -3,12 +3,12 @@
  "name": "Semiconductors (SMH/SOX)",
  "type": "sector",
  "created": "2026-04-25",
- "last_updated": "2026-11-16",
- "summary": "Semiconductors / AI complex, Day 246. The AI-credit scare — which began when Alphabet's free cash flow first turned negative in Q2 (−$5.9bn, reported 23 Jul, a first in its public history) and spread to Meta on 21–22 Oct — deepened and broadened in Q3: Alphabet's Q3 capex exceeded its operating cash by $9bn (its second straight negative quarter) (shares −12.6%, the worst day in its history) and Amazon's by roughly $33bn, financed with $48bn of new debt; Microsoft stayed cash-positive but sold its first bond since 2017. Intel's guide-down then took the SOX down 7.2% on 30 Oct. Suppliers are the mirror image — SK hynix and Samsung printed record quarters and guided memory prices up. The market's question has moved from 'is AI demand real?' to 'who funds it?', and the answer is increasingly the bond market. For the war graph this matters because AI credit, not oil, has twice set US long yields this month (semiconductors → us-10y-yield raised to 5.0), and because AI risk-off has not sent money to India. Next tests: Q4 calls (late Jan–Feb 2027) for any 2027 capex cut.",
+ "last_updated": "2026-11-19",
+ "summary": "Semiconductors / AI complex, Day 265. The AI scare moved from financing to returns and export controls. Nvidia beat (Q3 revenue $115.8bn; Q4 guide $130bn) and still fell 2.9% the next day, ~36% below its October record, as investors doubted AI-infrastructure returns and noted a lower margin guide; the US interim rule of 16 Nov tightened licences for advanced chips to five countries and to overseas data centres serving Chinese firms. The SOX fell 5.3% on 16 Nov, KOSPI closed below 5,000 on 17 Nov and TAIEX fell 4.4% on 19 Nov (−12% since 13 Nov) on foreign selling. Software sold ahead of Anthropic's IPO. The earlier strand — hyperscalers spending more than they earn and borrowing to fund capex — has not produced a capex cut. None of it is war-driven (~0–5%), but it matters for the war portfolio in two ways: it drives US volatility and credit (HY OAS +23bp), and the money leaving Asia's AI trade is partly flowing into India. Watches: a hyperscaler 2027 capex cut or AI-CDS >100bp — not fired; Texas data-centre moratorium — not searched.",
  "current": {
-  "price": "SOX 10,688.80 (30 Oct, −7.2%); SMH $522.49",
+  "price": "SOX 9,653 (18 Nov close); Nvidia $150.96 (18 Nov, −2.9% after a beat)",
   "driver": "Buyers of AI (Alphabet, Amazon, Meta) now spend more than they earn in cash and borrow to fund it; suppliers (SK hynix, Samsung) print records. Credit, not demand, is the market's worry.",
-  "status": "AI funding scare: Nasdaq-100 in correction (−10.4%); SOX −29% from June; three of four hyperscalers FCF-negative in Q3; Oracle CDS ~292bp; Nvidia results 17 Nov."
+  "status": "AI-hardware doubts after Nvidia's beat + 16-Nov US export rule; TAIEX −4.40% (19 Nov), KOSPI <5,000 (17 Nov); no hyperscaler capex cut"
  },
  "active_triggers": [
   {
@@ -92,7 +92,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — the WSJ Nvidia board report is governance, not capex. (intel MAC-B1)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — Huang's resignation (8-K) is governance, not capex. (intel MAC-A7)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — a sell-off (SOX −3.4%), not a capex cut; window late Jan–Feb 2027. (intel MAC-A6)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — none; the rout is Nvidia-, NAND- and China-driven. (intel MAC B-1)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — none; the rout is Nvidia-, NAND- and China-driven. (intel MAC B-1)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — no capex cut; Nvidia beat (Q3 revenue $115.8bn; Q4 guide $130bn ±3%) yet closed −2.9% Wed on doubts about AI-infrastructure returns; the 16-Nov US export-control interim rule hit Asian chips. (intel MAC A-9, A-11)"
   },
   {
    "condition": "Texas enacts or formally announces a moratorium on AI data-centre construction or grid connections by 31 Mar 2027",
@@ -116,18 +117,19 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED. (intel)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — not searched this run. (intel MAC-F)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — not searched this run. (intel MAC)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — not searched this run. (intel MAC)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — not searched this run. (intel MAC)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — not searched this run. (intel MAC trigger summary)"
   }
  ],
  "top_edges": [
   {
    "to": "taiwan",
    "type": "regulatory_direct_driver",
-   "weight": 9.0,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-16",
+   "last_activated": "2026-11-19",
    "activation_count": 4,
-   "context": "16 Nov: TAIEX −6.03%, TSMC −5.7% on the Nvidia/AI sell-off."
+   "context": "19 Nov: TAIEX −4.40% to 38,426.89 on Nvidia's fall, the 16-Nov US export rule and NT$76.6bn of foreign selling; −12% since 13 Nov. [formula 10.0; CONFIRMED → max(old, formula)]"
   },
   {
    "to": "south-korea",
@@ -142,18 +144,18 @@
    "type": "sector_component_systemic_risk_transmitter_ai_rotation_chip_tape_drives_nasdaq",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-15",
+   "last_activated": "2026-11-19",
    "activation_count": 7,
-   "context": "13 Nov: SOX −3.4% (Nvidia governance, HSBC downgrade); S&P −0.4%"
+   "context": "16–18 Nov: SOX −5.28% (Mon), tech-outage and pre-Anthropic software selling (Tue), Nvidia −2.9% after a beat (Wed) drove the S&P −3.15% since 13 Nov (CNBC; no Iran link). [formula 10.0; CONFIRMED → max(old, formula)]"
   },
   {
    "to": "vix",
    "type": "systemic_non_crisis_vol_source_ai_valuation_crack_bid_index_vol",
    "weight": 6.0,
    "directness": 2,
-   "last_activated": "2026-11-06",
+   "last_activated": "2026-11-19",
    "activation_count": 1,
-   "context": "RAISED 5.0 → 6.0. 5 Nov: SOX −12.25% (worst since Mar 2020) took VIX 16.61 → 28.18 (+69.7%) with no kinetic event — the second non-war VIX spike from chips (after 5 Jun). Keeps the `vix` kinetic trigger honest."
+   "context": "17 Nov: VIX intraday 27.7 attributed by CNBC to tech-outage headlines, software selling and Nvidia nerves (non-kinetic). [activation at unchanged weight: reported/preparation/rhetoric or tangential]"
   },
   {
    "to": "united-states",
@@ -183,6 +185,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "AI/chips, 16–19 Nov: Monday's US leg of the Asian chip rout — SOX −5.28% to 9,611, Nvidia −4.1% — on the 16-Nov US interim export-control rule (licences for advanced chips to Singapore, Malaysia, Thailand, Indonesia and Brazil; tighter rules on overseas data centres serving Chinese firms) and caution before results. Nvidia Q3 FY27 (Tue after the close; 8-K): revenue $115.8bn (+103% y/y) vs ~$109.1bn expected; Q4 guide $130bn ±3% (LSEG $125.1bn) assuming no China data-centre compute revenue; gross-margin guide 71–72% vs 74.9%; Colette Kress interim CEO — the stock rose >3% after hours, then closed −2.9% Wed at $150.96 (~36% below its 6-Oct record; CNBC: 'Nvidia sinks after earnings, dragging down neoclouds'). Software sold before Anthropic's IPO (reported pricing $83/share, unverified). TAIEX −4.40% Thu; KOSPI broke 5,000 Tue. No hyperscaler capex cut. Crisis share ~0–5%. Rotation channel: Indian brokers (Angel One citing BS; HDFC Sky: 'investors dump global AI stocks for India') name the AI unwind as a driver of India's record November inflow.",
+   "verification": "CONFIRMED (prices; Nvidia 8-K) / REPORTED (causes)"
+  },
   {
    "date": "2026-11-16",
    "headline": "Asian chip rout Mon 16 Nov (closes): TAIEX 41,040.08 (−6.03%), KOSPI 5,100.50 (−3.59%), SK hynix −7.9%, Samsung −4.5%, TSMC −5.7%; NQ futures −1.7% from the reopen. Reported drivers: Bessent's 10-day demand that Nvidia explain whether chips reached China through shell companies; the Huang leadership saga; BofA: NAND spot −20% since October; caution before Nvidia results (Tue 17 Nov) and a planned Anthropic IPO; China's data miss. Began ~06:30 IST with the Taiwan open. Crisis share ~0–5%.",
@@ -489,6 +496,13 @@
    "summary": "2 signals. SMH $506 | SAMSUNG Q1 GUIDANCE 8x YoY OPERATING PROFIT — HELIUM REUSE SYSTEM DEPLOYED",
    "signal_count": 2,
    "auto": true
+  }
+ ],
+ "price_snapshots": [
+  {
+   "date": "2026-11-19",
+   "price": "SOX 9,611 (16 Nov close, −5.28%)",
+   "trigger": "US interim export-control rule + Nvidia pre-results caution; Asian chip rout; then Nvidia −2.9% after a beat (18 Nov)"
   }
  ]
 }

@@ -3,12 +3,12 @@
  "name": "VIX (CBOE Volatility Index)",
  "type": "index",
  "created": "2026-05-13",
- "last_updated": "2026-11-16",
- "summary": "VIX, Day 241. ~19 (23 Oct close 19.45), up from 15 on 13 Oct, with a peak of 22.31 intraday on 16 Oct — driven by the AI-credit selloff and a hot CPI, not the war. It never reached the 25 'kinetic' marker despite strike rhetoric and a six-month oil high. Equity volatility prices Meta and CoreWeave, not Hormuz.",
+ "last_updated": "2026-11-19",
+ "summary": "VIX, Day 265. 24.56 (18 Nov close), with an intraday high of 27.7 on 17 Nov — the highest of this window and above the graph's 25 'kinetic' marker on the same day as a US strike on Iran and Iranian fire at Bahrain. But CNBC attributes the spike to tech-outage headlines, software selling ahead of Anthropic's IPO and Nvidia nerves, and the time of the high is not established against the strike, so it is logged as a non-kinetic spike and the watch stays closest, not fired. Equity volatility is still pricing the AI cycle and the Fed, not Hormuz.",
  "current": {
-  "price": "28.18 (5 Nov close; ~26.9 Fri); non-kinetic (AI crash)",
-  "read": "Elevated but not stressed; driven by AI-credit, with event hedging into 3–4 Nov.",
-  "driver": "SOX/Meta/CoreWeave + CPI; war a minor contributor"
+  "price": "24.56 (18 Nov close); 27.7 intraday high (17 Nov)",
+  "read": "Elevated on AI/software and tech-outage selling; the 17-Nov spike coincided with the Qeshm strike day but is attributed to non-kinetic causes",
+  "driver": "Nvidia results, export rule, pre-Anthropic software selling; war a minor contributor"
  },
  "active_triggers": [
   {
@@ -51,7 +51,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — 17.49; no kinetic event. (intel MAC-B1)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — VIX 18.70 close; the Thursday intraday high is not available. (intel MAC-A7)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — intraday high 20.92 (20:30 IST) during the chip sell-off; no kinetic event in that window. (intel MAC-A6)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT TESTABLE — no VIX cash session since Friday (19.30). (intel MAC)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT TESTABLE — no VIX cash session since Friday (19.30). (intel MAC)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — CLOSEST (CoS R11): VIX intraday high 27.7 on Tue 17 Nov (close 25.46) — the same day as the reported US strike on Qeshm and Iranian fire at Bahrain, so the letter is arguably met — but CNBC attributes the spike to tech-outage headlines, software selling ahead of Anthropic's IPO and Nvidia nerves, not Iran; the time of the high is not established against the strike (the big ES drop was at the US open, ~2 h after the FT's Qeshm stamp). A non-kinetic spike is logged, not fired. Closes 22.91 / 25.46 / 24.56. (intel MAC A-9; CoS R11)"
   },
   {
    "condition": "VIX +30% intraday move within 48h of Trump's return from Beijing (May 15-16)",
@@ -113,6 +114,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "VIX 22.91 (Mon 16) / 25.46 (Tue 17; intraday high 27.7 'at the worst of Tuesday's selling', CNBC, time not given) / 24.56 (Wed 18) — from 19.30 on 13 Nov. CNBC attributes Tuesday's spike to tech-outage headlines, software selling before Anthropic's IPO and Nvidia nerves, not Iran; the same day the US struck Qeshm and Iran fired at Bahrain, but the time of the high is not established against the strike. Logged as a non-kinetic spike: the watch (>25 intraday WITH a coincident kinetic event) is CLOSEST, not fired (CoS R11). India VIX 15.68 / 15.52 / 15.57 / 16.14 (Thu).",
+   "verification": "CONFIRMED (closes) / REPORTED (CNBC causes)"
+  },
   {
    "date": "2026-11-15",
    "headline": "VIX 19.30 (+0.6) on 13 Nov; intraday high 20.92 in the 20:30 IST bar during the chip sell-off — no kinetic event in that window.",

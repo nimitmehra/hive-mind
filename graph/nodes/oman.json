@@ -3,10 +3,10 @@
  "name": "Oman",
  "type": "country",
  "created": "2026-05-30",
- "last_updated": "2026-11-16",
- "summary": "Oman, Day 241. The quiet broker, publicly silent. Rezaei claims an 'understanding with Oman' on a new Hormuz corridor to operate once Iran's conditions are met, and the Houthis say Muscat offered a five-day truce — neither confirmed by Muscat. Ships were hit in Omani waters off Musandam and Sohar. The US–Houthi channel it hosted in September did not stop the Saudi–Houthi war.",
+ "last_updated": "2026-11-19",
+ "summary": "Oman, Day 265. The broker whose waters are now the front line. On 16–18 Nov at least four merchant ships were hit by projectiles 3–13 nm north of Khasab in Musandam, inside or at the edge of Omani waters, with an Indian seafarer and an ADNOC crew member missing; Oman's rescue services took 24 crew off the burning LPG carrier Tara Gas. No one — Oman, the US, UKMTO or the owners — has named the attacker, and nothing has hit Omani land or navigation aids, so Oman is not yet a target in the record. On the same day Muscat hosted Araghchi, who briefed Sultan Haitham on an Iranian 'initiative to end the war' and met a Qatari delegation; Oman's readout stressed the security of maritime passages and named no US message. Watch: confirmed Iranian fire on Omani territory or damage to Omani navigation aids by 30 Nov — closer, not fired.",
  "current": {
-  "status": "Front-line waters of the October ship war; rescuer (RITI, 30 Oct); Iran cites an Oman-agreed route in its peace terms."
+  "status": "Day 265: ships hit by projectiles in Omani waters north of Khasab (16–18 Nov), crews rescued by Oman; attacker unnamed; no fire on Omani territory; Araghchi in Muscat 17 Nov"
  },
  "active_triggers": [
   {
@@ -37,7 +37,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — STEADY (no longer moving away). Reuters (11 Nov): three unnamed sources say Iran attacked the ship-navigation systems on Didamar; Reuters 'could not independently confirm' damage; smoke on video. None is Oman, the US or UKMTO; no damage confirmed; no on-record Omani line. Ghalibaf claims an Iran–Oman traffic-separation understanding (Oman silent). Hold-rule reset not met. (intel KIN-A6, DIP-B1)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — no on-record Omani statement on Didamar; Omani authorities gave NCC Fajr's position north of Khasab (gCaptain). (intel KIN)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — an Omani official told Maritime Executive Didamar's aids 'had not been struck'; nothing new 13–15 Nov. (intel KIN-A6)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — no confirmed Iranian fire on Omani territory or aids; Araghchi visits Muscat Tue 17 Nov. (intel DIP-5, KIN)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — no confirmed Iranian fire on Omani territory or aids; Araghchi visits Muscat Tue 17 Nov. (intel DIP-5, KIN)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — CLOSER. At least four projectile hits on merchant ships 3–13 nm north of Khasab (Musandam), inside or at the edge of Omani waters, 16–18 Nov; Oman's rescue authorities evacuated 24 crew from Tara Gas. But ships in Omani waters are not 'Omani territory', no navigation aid is reported damaged, and no Omani, US or UKMTO statement names an attacker. Araghchi met Sultan Haitham and FM Albusaidi in Muscat Tue 17 Nov. Hold-rule Oman reset not met. (intel KIN A6, SAU A7; CoS R2, R4)"
   }
  ],
  "top_edges": [
@@ -46,18 +47,18 @@
    "type": "hormuz_mediator_mine_alert_authority_toll_mechanism_venue_territorial_waters",
    "weight": 8.0,
    "directness": 1,
-   "last_activated": "2026-09-17",
+   "last_activated": "2026-11-19",
    "activation_count": 3,
-   "context": "2026-09-17: REPORTED: no Omani date; Lavrov speaks for Muscat; Rubio–Busaidi call — held 8.0 (intel A7)."
+   "context": "16–18 Nov: the hits cluster in or at the edge of Omani waters north of Khasab; Oman rescued Tara Gas's crew; Muscat hosted Araghchi on 'safeguarding the security of maritime passages' (17 Nov). [activation at unchanged weight: reported/preparation/rhetoric or tangential]"
   },
   {
    "to": "iran",
    "type": "jun7_rezaei_reasserts_oman_joint_mgmt_toll_rhetoric_no_mechanism",
    "weight": 6.0,
    "directness": 2,
-   "last_activated": "2026-06-07",
+   "last_activated": "2026-11-19",
    "activation_count": 4,
-   "context": "2026-06-06: Rezaei reasserted the Hormuz 'sovereignty + Oman joint-management + transit-toll' framing — RHETORIC/positional, NOT a mechanism announcement. Modest re-activation. weight = freq(3) x recency(1.0) x directness_mult(1.0) = 3.0 (held)."
+   "context": "17 Nov: Araghchi met Sultan Haitham and FM Albusaidi in Muscat on an Iranian 'initiative to end the war' (meeting CONFIRMED; no text). [activation at unchanged weight: reported/preparation/rhetoric or tangential]"
   },
   {
    "to": "united-states",
@@ -86,6 +87,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "Oman, 16–19 Nov: the ship war moved into Omani waters — at least four merchant ships hit by projectiles 3–13 nm north of Khasab (Musandam), inside or at the edge of Omani waters (UKMTO relays); Oman's emergency authorities rescued 24 crew from the LPG carrier Tara Gas and 'evacuated 24 crew from a tanker after a fire' (Reuters; KT). No Omani, US or UKMTO statement names an attacker, and none reports fire on Omani land or navigation aids — so the `oman` watch does not fire (closer) and the hold-rule Oman reset is not met. Diplomacy: Araghchi met Sultan Haitham and FM Badr Albusaidi in Muscat Tue 17 Nov; ONA: 'diplomatic options available to contain tensions and revitalise tracks of dialogue and negotiation' and 'safeguarding the security of maritime passages'; Albusaidi: 'a constructive meeting'. A Gulf News headline (19 Nov) says Iran and Oman 'move closer to Hormuz shipping deal' (unread).",
+   "verification": "CONFIRMED (rescue; Muscat meeting via ONA) / REPORTED (hit locations via UKMTO relays)"
+  },
   {
    "date": "2026-11-16",
    "headline": "No confirmed Iranian fire on Oman (15–16 Nov). Araghchi visits Muscat Tue 17 Nov (bilateral). Hold-rule Oman reset not met.",

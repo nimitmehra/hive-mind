@@ -3,12 +3,12 @@
  "name": "S&P 500",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-16",
- "summary": "S&P 500, Day 241. 7,623.68 (23 Oct), −2.3% since 13 Oct and −2.5% from the 6-Oct record; Nasdaq −4.6%. The drivers are ~90% non-war: Meta's first negative free cash flow in over a decade, CoreWeave's credit stress and an eight-day chip losing streak, plus a hot September CPI. Defence primes and energy rose. An AI-credit correction, not a war selloff; this week's MSFT/GOOGL/AMZN prints decide whether it broadens.",
+ "last_updated": "2026-11-19",
+ "summary": "S&P 500, Day 265. 7,323.63 (18 Nov), −3.15% since 13 Nov, with Tuesday's 7,340.53 the lowest close since July. The drivers are ~90% non-war: Monday's chip rout on the US export rule, Tuesday's tech-outage headlines and software selling before Anthropic's IPO, and Nvidia's fade after a beat. CNBC cites no Iran link even on the day of the US Qeshm strike. The war's route into US equities is indirect — through energy-led inflation that keeps the Fed hiking — and credit spreads are starting to widen (+23bp). Watch: a 20% bear market — not fired.",
  "current": {
-  "price": "7,520.93 (10 Nov close)",
-  "driver": "Hot CPI and Nvidia's governance scandal (10 Nov); oil roughly neutral",
-  "regime": "AI-credit-led drawdown (−3.1% from record), not war-led."
+  "price": "7,323.63 (18 Nov close)",
+  "driver": "Chip rout, tech outages, pre-Anthropic software selling, Nvidia fade (CNBC); ~5–10% war",
+  "regime": "AI/tech-led drawdown (−3.15% since 13 Nov), not war-led; credit starting to widen"
  },
  "active_triggers": [
   {
@@ -49,7 +49,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — 7,619.38 (~2.6% below the October record per the recap). (intel MAC-B1)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — 7,592.40 (−0.35%), ~3% below the record. (intel MAC-A7)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — 7,561.67 (−0.40%), ~3.3% below the record. (intel MAC-A6)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — S&P 7,561.67 (Fri); ES −0.8% Mon. (markets)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — S&P 7,561.67 (Fri); ES −0.8% Mon. (markets)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — S&P 7,416.59 / 7,340.53 (−1.03%; lowest close since July) / 7,323.63 (16–18 Nov), single-digit % below the October record. (intel MAC A-9)"
   },
   {
    "condition": "VIX cash breaks above 22 on Wednesday ceasefire lapse (binary escalation-hedging threshold)",
@@ -141,6 +142,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "S&P 500 7,416.59 (Mon 16, −1.92%) / 7,340.53 (Tue 17, −1.03%; lowest close since July per marketspeaker) / 7,323.63 (Wed 18, −0.23%) — −3.15% since 13 Nov. Dow 51,608 / 50,759.42 (−1.64%) / 50,198. Drivers: Monday's chip rout (SOX −5.28%); Tuesday 'a barrage of headlines from nationwide tech outages', software selling ahead of Anthropic's IPO and Nvidia nerves (CNBC; 'not just AI stocks'); Wednesday's Nvidia fade. CNBC does not cite Iran; the big ES drop Tuesday was at the US open, ~2 h after the first Qeshm stamps. Crisis share ~5–10%.",
+   "verification": "CONFIRMED (closes) / REPORTED (causes, CNBC)"
+  },
   {
    "date": "2026-11-15",
    "headline": "13 Nov: S&P 500 7,561.67 (−0.40%); Nasdaq 25,136.27 (−0.91%); Dow 52,347.55 (+0.10%); week S&P +2.5% (CNBC: best week since early August). The slide began at the cash open (20:00 IST) on chips; ~5% crisis share. Apple at a record as a safe haven inside tech (CNBC). FAA nationwide ground stop after the close (cause not read).",

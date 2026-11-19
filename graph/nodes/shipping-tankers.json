@@ -3,14 +3,14 @@
  "name": "Shipping / Tanker Rates",
  "type": "sector",
  "created": "2026-03-23",
- "last_updated": "2026-11-16",
- "summary": "Tankers, Day 246. Supertanker rates found a floor: the Gulf–China benchmark rose to WS1,262.5 (~$1.35m/day) on 30 Oct after easing from its 9-Oct record, and Gulf-to-China freight still costs $30–40 a barrel against $1–3 before the war. About a fifth of the world's VLCCs are tied up in the shuttle that loads in the Gulf, runs the strait dark and transfers cargo in the Gulf of Oman. October was the worst month for attacks, concentrated on crude tankers on the southern route, and on 29 Oct the first limpet mine was fixed to an outbound tanker — a method aimed at exactly the anchored, waiting fleet the shuttle depends on. Tanker equities rose modestly. The benchmark itself is in court (Mercuria v Baltic, with whistleblower claims of attempted manipulation).",
+ "last_updated": "2026-11-19",
+ "summary": "Tankers, Day 265. Two stories pull against each other. Freight is correcting hard: the Gulf of Oman–China VLCC rate was ~308 on 13 Nov, 64% below its 8-Oct record, as Gulf exporters return toward pre-war volumes and ships free up, and trade press expects more downside from ballasters arriving in the Gulf; Frontline has drifted to ~$44. Yet the attacks got worse: four projectile hits on tankers in transit north of Khasab on 16–18 Nov, with the first casualties of this round (an Indian missing from the abandoned LPG carrier Tara Gas; an ADNOC L&S crew member missing and 11 injured). No attacker is named. The inside-versus-outside-Hormuz freight gap (~$770k/day on 13 Nov) is the war premium that remains; no new war-risk quote has been printed since mid-October. Red Sea tanker traffic is untouched by the Houthis for 69 days. Watches: Houthi Red Sea attacks — not fired; AWRP below 0.8% — no data.",
  "current": {
   "status": "VLCC TD3C ~$982k/day (Fri 11 Sep; Clarksons >$1m) — 2x in a month, ~20x baseline; Frontline +24.4% 1M, BOAT +17.2%. The physical war premium at its extreme; containers flat (WCI $4,476).",
-  "frontline": "$56.90 (30 Oct)",
-  "price": "TD3C WS1,262.5 / ~$1.346m/day (30 Oct)",
+  "frontline": "$44.41 (18 Nov)",
+  "price": "TD34 Gulf of Oman→China ~308 (13 Nov; −64% from 841 on 8 Oct, Baltic via Reuters); last TD3C WS1014.38 / $1,078,714/day (13 Nov)",
   "driver": "Hormuz attack tape + shuttle trade tying up ~20% of VLCCs; floor found.",
-  "regime": "ELEVATED, STABILISING: rates off the 9-Oct record but rebounding; the risk has moved to the waiting/anchored fleet (limpets)."
+  "regime": "CORRECTING ON RECOVERING FLOWS WHILE HITS TURN LETHAL: rates down ~64% from the October record; four projectile hits 16–18 Nov, attacker unnamed"
  },
  "active_triggers": [
   {
@@ -37,7 +37,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED (~62 days). (intel SAU-A9)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED. (intel SAU)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED. (intel SAU)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — no Houthi attack on a non-Saudi ship in 66 days, despite the government's Bab el-Mandeb withdrawal (15 Nov). (intel SAU-A4)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — no Houthi attack on a non-Saudi ship in 66 days, despite the government's Bab el-Mandeb withdrawal (15 Nov). (intel SAU-A4)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — 69 days without a Houthi attack on a non-Saudi ship (since 11 Sep); UKMTO VRA overview to 13 Nov: no attacks in the Red Sea/Bab el-Mandeb. (intel SAU A4)"
   },
   {
    "condition": "Lloyd's AWRP Persian Gulf rate falls below 0.8% for 5 consecutive sessions (Branch 3 deepening test)",
@@ -64,7 +65,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NO DATA — no November quote. (intel MAC-F)",
    "note_2026-11-13": "[reviewed, stays watching] NO DATA — attacks rising (JMIC four in the week). (intel KIN; markets F)",
    "note_2026-11-15": "[reviewed, stays watching] NO DATA — the reported 3–10% band is far above it. (markets F)",
-   "note_2026-11-16": "[reviewed, stays watching] NO DATA — no AWRP print; direction is further (UKMTO tanker attack; threat 'severe'). (intel MAC B-4)"
+   "note_2026-11-16": "[reviewed, stays watching] NO DATA — no AWRP print; direction is further (UKMTO tanker attack; threat 'severe'). (intel MAC B-4)",
+   "note_2026-11-19": "[reviewed, stays watching] NO DATA — no AWRP print; direction is further (four projectile hits with casualties 16–18 Nov). (intel MAC B-1, KIN A9)"
   }
  ],
  "top_edges": [
@@ -102,6 +104,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "Tankers, 16–19 Nov: projectile hits on tankers in transit north of Khasab — ON Phoenix (16 Nov, engine-room fire), Tara Gas (LPG; 16 and 17 Nov; abandoned; one Indian missing), an ADNOC L&S ship (17 Nov; 11 injured, 1 missing) and an outbound tanker (18 Nov) — attacker unnamed (UKMTO; owners). Freight is going the other way: Reuters (16 Nov; Baltic) puts the Gulf of Oman→China VLCC rate ~308 on 13 Nov, −64% from the 8-Oct record 841 (unit unverified; matches our TD34 series), as Gulf exporters return toward pre-war flows and ships free up in East Asia; Lloyd's List (17 Nov): 'Crude tanker rates stabilise as post-spike correction loses steam'; TradeWinds: ballasters 'threaten to push down Middle East VLCC rates further'. No TD3C print for 16–19 Nov. Frontline $45.44 / $45.32 / $44.41 (16–18 Nov). No AWRP print; Red Sea: 69 days without a Houthi attack on a non-Saudi ship.",
+   "verification": "CONFIRMED (hits; equities) / REPORTED (freight via Reuters, trade press)"
+  },
   {
    "date": "2026-11-16",
    "headline": "VLCC TD3C (MEG → China) Fri 13 Nov: WS1014.38 (−188 w/w), TCE $1,078,714/day (−17% w/w; Baltic via The DCN). TD34 Gulf of Oman → China $307,160/day — a ~$770k/day inside-vs-outside-Hormuz gap, the war premium in freight. UKMTO 15-Nov tanker attack (unnamed). FRO $46.97 (Fri).",

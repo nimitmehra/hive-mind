@@ -3,15 +3,16 @@
  "name": "Brent Crude",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-11-16",
- "summary": "Brent, Day 261. January Brent settled $95.84 on 13 Nov, flat on the day and ~2.5% lower on the week — just above the investor's $95 bar (condition 1 fails by $0.84). The week's swings were war headlines (Trump's 'We don't need a deal with Iran' post added $2 in six minutes on 12 Nov; Houthi and Iranian claims) against a bearish IEA, which on 13 Nov called a Q4 surplus 'for the first time since the outbreak of the war' as Gulf exports recovered to 18.4 mb/d through AIS-dark 'dark crossings'. The curve keeps the premium at the front (Jan–Dec27 spread $15.86). Unpriced at the weekend: Reuters' 'Trump may hold off' report and Sunday's Iranian drones at Bahrain and missiles at Riyadh. The $100/$85 watch has not fired.",
+ "last_updated": "2026-11-19",
+ "summary": "Brent, Day 265. January Brent settled $92.44, $93.14 and $91.95 on 16–18 Nov and was ~$92.1 live on 19 Nov — below the investor's $95 bar on every settle, so deployment condition 1 is met, with the physical premium now about zero (EFP 'roughly zero', Forties at a discount). It fell through the busiest three days of war news in weeks — a US strike on Qeshm, Iran's first fire at Kuwait since September, lethal projectile hits on tankers off Khasab, Houthi damage in Riyadh and the NYT's report that Trump is weighing extensive new strikes. The war days added $0.70 to a settle (Tue) and ~$1.8 intraday (Thu), most of which faded within an hour; the down days came from recovering Gulf exports, the IEA's Q4 surplus call, Goldman's 2027 path and a large US crude build. The curve splits the two forces: the 2027 contracts fell below Goldman's $78 while the front still carries a ~$15.6 premium over Dec-27. The risk to this reading is the flow data: AIS-visible Hormuz transits are in single digits, so the 'pre-war' export recovery may be mostly dark and fragile. Watches: $100/$85 settle by 30 Nov — not fired, closer on $85; $130 on a Houthi Red Sea entry — not fired.",
  "current": {
-  "price": "$96.40 Jan-27 live (12:35 IST 16 Nov); last settle $95.84 (13 Nov)",
-  "delta_1d": "+0.02% (13 Nov settle)",
+  "price": "$92.13 Jan-27 live (13:16 IST 19 Nov); settles $92.44 / $93.14 / $91.95 (16–18 Nov)",
+  "delta_1d": "−1.28% (18 Nov settle)",
   "delta_1m": "+1.7% (script, front-month continuous)",
   "delta_vs_4jul": "n/a",
-  "regime": "SOFT REOPEN, LATE-MORNING RISE (16 Nov): surplus story at the open; unexplained +$1.20 from 11:17 IST; condition 1 fails",
-  "roll_note": "BZ=F = January since 2 Nov. January expires ~30 Nov: count only the contract front on the settle date."
+  "regime": "SUPPLY RECOVERY + SURPLUS OUTWEIGH WAR HEADLINES (16–19 Nov): three settles below $95; physical premium ~zero; condition 1 MET; war days add $1–2 intraday that fade",
+  "roll_note": "BZ=F = January since 2 Nov. January expires ~30 Nov: count only the contract front on the settle date.",
+  "physical_gap": "EFP 'roughly zero' (Flynn, 18 Nov); FRED spot −$0.20 vs settle (17 Nov)"
  },
  "price_snapshots": [
   {
@@ -167,6 +168,11 @@
    "date": "2026-11-13",
    "price": "$95.82 (12 Nov settle, Jan-27)",
    "trigger": "Trump 'We don't need a deal with Iran' post (+$2 in six minutes); Houthi claims; condition 1 fails"
+  },
+  {
+   "date": "2026-11-19",
+   "price": "$92.44 (16 Nov settle, Jan-27, −3.55%)",
+   "trigger": "Recovering Gulf exports + IEA Q4 surplus + Goldman 2027 note (Reuters/CNBC); condition 1 (below $95) met; then $91.95 on 18 Nov after an EIA build"
   }
  ],
  "active_triggers": [
@@ -329,7 +335,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED. (markets)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — the Houthi claims were Saudi land sites, not Red Sea shipping. (intel MAC, SAU)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — no Red Sea ship attack; the Houthi fire is at Saudi land targets. (intel MAC, SAU)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — the Houthis advanced on land at Bab el-Mandeb; no ship attack; Brent ~$96.4 live. (intel SAU, MAC)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — the Houthis advanced on land at Bab el-Mandeb; no ship attack; Brent ~$96.4 live. (intel SAU, MAC)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — no Houthi ship attack; Brent Jan settled $92.44 / $93.14 / $91.95 (16–18 Nov). (intel SAU A4, MAC A-1)"
   },
   {
    "condition": "Brent-Hormuz paper-physical divergence >$10/bbl in EITHER direction sustained 3 sessions",
@@ -397,7 +404,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — 11-Nov settle $92.76; $100 needs +7.8%; the $85 leg is $7.76 below (further than Tuesday). (intel MAC-A1/A5)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — CLOSER: 12-Nov settle $95.82 (+3.3%; Reuters, CNBC, yfinance); $100 needs +4.4%; the $85 leg is $10.82 below (further). Driver: Trump's 'no deal' post, Houthi claims (unconfirmed), Iranian tanker claims — not a qualifying US strike. (intel MAC-A1; CoS R1/R2)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — 13-Nov settle $95.84 (+$0.02; Reuters, CNBC, yfinance); $100 needs +4.3%; $85 is $10.84 below. The IEA's Q4-surplus call was the named bearish driver. (intel MAC-A1/A2)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — CLOSER: last settle $95.84 (13 Nov); live $96.73 high (12:10 IST 16 Nov), $96.40 at 12:35 — +3.7% needed. Below-$85 leg: further. (markets A)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — CLOSER: last settle $95.84 (13 Nov); live $96.73 high (12:10 IST 16 Nov), $96.40 at 12:35 — +3.7% needed. Below-$85 leg: further. (markets A)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED. $100 leg FURTHER (needs +8.8% from Wed's $91.95; the window's high was $96.62 at 14:00 IST Mon). $85 leg CLOSER (−7.6% needed; window low $90.35 at 22:34 IST Wed). Settles: $92.44 (Mon, −3.5%) / $93.14 (Tue) / $91.95 (Wed); $92.43 live 12:50 IST Thu. (intel MAC A-1; CoS canonical numbers)"
   },
   {
    "condition": "Front-month Brent opens Monday 9 Nov above $100, OR settles 9–11 Nov more than 5% above Friday's $98.32 (>$103.24) — the weekend's owned Qeshm strike and the Riyadh Aramco-tower hit get priced as escalation",
@@ -449,18 +457,18 @@
    "type": "relief_leg_jun4_oil_softened_to_95_rupee_firmed_to_9540_sub_96_import_bill_relief",
    "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-16",
+   "last_activated": "2026-11-19",
    "activation_count": 25,
-   "context": "16 Nov: rupee firmer (~94.07–94.22) on inflows despite live Brent ~$96.4; flows outweighed oil."
+   "context": "16–18 Nov: Brent settles below $95 named by PTI and Reuters among the rupee's supports (93.94 → 93.41). [formula 10.0; CONFIRMED → max(old, formula)]"
   },
   {
    "to": "fed",
    "type": "inflation_input_ppi_pass_through",
-   "weight": 9.0,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-11",
+   "last_activated": "2026-11-19",
    "activation_count": 19,
-   "context": "11 Nov RE-WEIGHT 10 → 9.0: BLS October detail puts energy at no more than ~0.03pp of the 0.1pp CPI beat (core services and food drove it; desk arithmetic on approximate weights), and the Fed's talk this week is about core prices (Logan: at least two more quarter-point rises, per FXStreet's summary). The 9-Nov divergence (2Y +5bp as Brent fell 5.85%) fits this edge's June context ('sticky, not symmetric') and is weak evidence on its own. The 2Y +17bp on 10 Nov came with breakevens down: a real-yi"
+   "context": "FOMC minutes (released 19 Nov 00:30 IST): inflation 'largely reflecting rises in energy prices this year due to the Middle East conflict'; 'high energy prices continued to contribute to current inflation pressures' — the Fed's own text. [formula 10.0; CONFIRMED → max(old, formula)]"
   },
   {
    "to": "sp-500",
@@ -505,6 +513,16 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "DEPLOYMENT CONDITION 1 MET (Brent futures below $95 with the physical premium under $10): three settles below $95 (16–18 Nov); the physical premium is gone — Flynn (18 Nov) puts the Brent EFP at 'roughly zero' from a $31.38 cycle high on 8 Oct, with Forties at a discount and Dubai's prompt curve in contango; FRED/EIA Brent spot $92.90 (16 Nov) / $92.94 (17 Nov) vs settles $92.44 / $93.14; Dated $93.15 vs $93.14 (CommodityScope, single source). Not 'first' (met 5 Nov and 10–12 Nov, lost 13 Nov). Curve: Dec-27 fell to $76.26 (below Goldman's $78 end-2027 call) while the Jan–Dec27 spread held ~$15.6 — a near-term premium remains. CFTC (week to 10 Nov): NYMEX WTI managed money net long 25,714. Iraq's Kirkuk–Ceyhan restart (120 kb/d) adds supply. Scorecard: Flynn's 'settle below $92.76 by 20 Nov' is MET; the $100/$85 watch is not fired (closer on $85). Caveat: Windward's AIS-visible Hormuz counts (0–4 a day each way) conflict with 'roughly pre-war' exports — if the recovery is mostly dark transits, it is fragile.",
+   "verification": "CONFIRMED (settles, FRED, CFTC) / REPORTED (Flynn, CommodityScope)"
+  },
+  {
+   "date": "2026-11-19",
+   "headline": "BRENT FELL THROUGH THE BUSIEST WAR WEEK IN WEEKS — the market priced the supply recovery and the surplus, not the sirens. Jan (BZF27) settles: Fri 13 $95.84 → Mon 16 $92.44 (−3.55%) / Tue 17 $93.14 (+0.76%) / Wed 18 $91.95 (−1.28%); $92.13 live 13:16 IST Thu (CONFIRMED, yfinance CME data matched to wires). Window high $96.62 (14:00 IST Mon), low $90.35 (22:34 IST Wed). MON: a grind lower on 'recovering Middle East exports', the IEA's Q4 surplus call (1.7 mb/d), Goldman's 2027 path ($88 avg, $78 end-2027) and China's refinery runs −8.1% (Reuters, CNBC); ~40% war share (the flow recovery unwinding). TUE: a swing 'as Gulf attacks continue' (Bloomberg headline) — an afternoon grind with the Bahrain wave and the Tara Gas second hit, and an 18:30–18:50 IST step coincident with the first Qeshm-strike reports (FT stamp 18:32 IST; KIN's earliest Iranian report ~19:03 IST — coincident, not proven causal); ~70% war. WED: EIA crude +3.4m bbl vs a ~+58k poll (API +5.28m), main leg 21:30–22:40 IST, oil-specific; ~15% war (attacks capped the loss). THU: $91.23 (06:30 IST) → $93.05 (07:24 IST), attributed by the Economic Times and Investing.com to the NYT's 'Trump Weighs New Strikes on Iran' report (first stamp 04:43 IST); the ramp began exactly at the ICE/INE open; Trump's Fox 'finish it off — soon' (06:44 IST stamp) and a Riyadh missile alert (07:12 IST) fall inside it; no outlet ties the minutes to one headline; most faded within the hour. Flynn: 'the market is trading the supply recovery, not the sirens.'",
+   "verification": "CONFIRMED (prices) / REPORTED (causes, outlet attributions)"
+  },
   {
    "date": "2026-11-16",
    "headline": "Mon 16 Nov (live): reopened $95.29 at 04:30 IST, $0.55 below Friday's $95.84 settle, despite the weekend salvos and Iran's 'sunk supertanker' claim; low $94.46 (08:30 bar). Wires: investingLive 'oil slips despite Iran tanker claims'; Reuters (07:30 IST) 'Oil prices fall on expectations of coming supply surplus'; Goldman 2027: ~2 mb/d surplus, $78 by end-2027. From 11:17 IST Brent rose in steps to $96.73 (12:10 bar), $96.40 at 12:35 — gold fell ~$27 in the same minutes (11:15–11:20 IST); dollar flat. Cause NOT ESTABLISHED: Iran's new mine claims were on the wires ~1 hour before the first step; no outlet links them. Jan–Dec27 spread ~$16.3 (from $15.86).",

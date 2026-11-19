@@ -3,12 +3,20 @@
  "name": "Kuwait",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-11-10",
- "summary": "Kuwait, Day 241. Exposed at sea, not on land: the KOTC tanker Al Dasma (21 Indian crew, safe) was hit off Musandam on 21 Oct and a Kuwait-bound Suezmax took an RPG off Jubail on 16 Oct; NBC reports US troops relocated from Kuwaiti bases. No strike on Kuwaiti soil in the window.",
+ "last_updated": "2026-11-19",
+ "summary": "Kuwait, Day 265. Back on Iran's target list: in the night of 17–18 Nov Kuwait's air defences intercepted drones that Iran's army says it aimed at Patriot batteries and launch platforms at Ali Al Salem air base, a US-used base — Iran's first fire at Kuwait since September, framed by Iran as a reply to the US strike on Qeshm. No damage or casualties are reported and a US official says there were 'zero impacts'. Kuwait's foreign ministry called it 'a dangerous escalation' and a 'flagrant violation' of its sovereignty and reserved the right to respond; the GCC, Saudi Arabia, the UAE, Qatar and the Arab League condemned Iran by name. At sea Kuwait has been exposed for weeks (the KOTC tanker Al Dasma hit on 21 Oct, the Kuwait-origin Largo Atom on 1 Nov; 10 KOTC ships added to Iran's 2-Nov blacklist). Kuwait hosts the GCC's new joint military command HQ. New watch (19 Nov): a confirmed Iranian hit on a US or Kuwaiti military site in Kuwait by 30 Nov.",
  "current": {
-  "status": "Claimed Iranian strike on Ahmad al-Jaber (3 Sep, CLAIMED); tankers transiting dark via the Omani route."
+  "status": "Day 265: Iranian drones at Ali Al Salem air base (late 17 / early 18 Nov), intercepted per Kuwait's army; Iran's army claims Patriot hits (unconfirmed); first Iranian fire at Kuwait since September; new hit watch added"
  },
- "active_triggers": [],
+ "active_triggers": [
+  {
+   "condition": "Kuwait, the US or CENTCOM confirms (on the record, or 2+ outlets with their own officials) Iranian fire HITTING a US or Kuwaiti military site in Kuwait (e.g. Ali Al Salem air base), by 30 Nov — the mirror of the `bahrain` watch after Iran's first fire at Kuwait since September",
+   "status": "watching",
+   "cascade": "iran -> kuwait -> united-states: a confirmed hit on a US-hosting base widens the Gulf-host front from Bahrain to Kuwait, raises the odds of a US reply beyond the single-site pattern (hold-rule legs (a)/(c)), and feeds brent-crude, marine-war-risk-insurance and the Gulf diaspora channel to india",
+   "added": "2026-11-19",
+   "notes": "Added 19 Nov (Day 265). Baseline: late Tue 17 / early Wed 18 Nov Kuwait's army said air defences were 'countering hostile drone attacks' (interceptions only; no damage or casualties reported); Iran's army (IRIB/Tasnim) claims drones struck 'Patriot air defence systems, missile launchers and drone launch platforms' at Ali Al Salem (CLAIMED; Tasnim showed no visual proof per TWZ); Kuwait's MFA: 'a dangerous escalation'; a US official: 'zero impacts' on US facilities; Reuters: first Iranian attack on Kuwait since September. Fires only on an on-record or two-outlet confirmation of a HIT on a military site; an IRGC/Artesh claim alone does not fire it. Not a duplicate: the `bahrain` watch covers Bahrain only and Kuwait had no open watch. (intel KIN A3, SAU B2; CoS R3)"
+  }
+ ],
  "top_edges": [
   {
    "to": "iran",
@@ -46,6 +54,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "FIRST IRANIAN FIRE AT KUWAIT SINCE SEPTEMBER (Reuters' wording), late Tue 17 / early Wed 18 Nov: Kuwait's army said 'Kuwaiti air defenses are currently countering hostile drone attacks' and that explosions were 'air defense systems intercepting hostile attacks' (on X; Kuwait Times; Fox) — no origin named, no damage or casualties reported. Iran's army (IRIB/Tasnim) claims its drones struck 'Patriot air defence systems, missile launchers and drone launch platforms' at Ali Al Salem air base (CLAIMED; no visual proof per TWZ); AFP and Al Jazeera tie it to the US Qeshm strike. Kuwait's MFA condemned 'repeated Iranian attacks', 'a flagrant violation of Kuwait's sovereignty', citing Resolution 2817 and Article 51, and called it 'a dangerous escalation' (CBS); Kuwait 'reserves the right' to act (Al-Monitor paraphrase). Condemned by Saudi Arabia, the GCC Secretary-General, the UAE ('hostile act'), Qatar and the Arab League. A US official: 'zero impacts' on US facilities.",
+   "verification": "CONFIRMED (fire, intercepted; MFA statements) / CLAIMED (Iranian hits)"
+  },
   {
    "date": "2026-11-10",
    "headline": "Chosen to host the GCC joint military command HQ (9 Nov). Boursa Kuwait +0.2% Tue.",

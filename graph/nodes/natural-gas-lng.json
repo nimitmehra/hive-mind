@@ -3,14 +3,14 @@
  "name": "Natural Gas / LNG",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-11-16",
- "summary": "Natural gas / LNG, Day 246. The war's gas shock reached the 2022 benchmark: TTF crossed €100 on 28 Oct and the December contract settled ~€103.6 on 30 Oct, while US Henry Hub sits under $3 — the widest transatlantic spread of the war. Qatar, which supplied a fifth of global LNG before February, extended force majeure to end-December and is shipping roughly a fifth of its pre-war volume through a strait where a likely LNG carrier was hit on 30 Oct; it has signed two long-term deals to buy US LNG (Cheniere, Woodside) to cover its own contracts. Europe's storage (~75%) is the lowest for the season since 2011, and Asian prices (~$31–34) compete for the same cargoes. The winners are US exporters; the losers are European industry and South Asian importers (Pakistan, Bangladesh) paying spot.",
+ "last_updated": "2026-11-19",
+ "summary": "Natural gas / LNG, Day 265. The transatlantic squeeze has eased from the US side: record US LNG feedgas (21.8 bcf/d) and cargoes turning from weak Asian demand to Europe took TTF from ~€91 to ~€81 in three sessions (18 Nov), well below October's €100+, while Henry Hub rose on US cold forecasts ($3.37). Qatar, a fifth of pre-war LNG, remains under force majeure to at least end-December, and Bloomberg reports LNG exports through Hormuz slowing again after the 16–18 Nov ship attacks (an LPG carrier, Tara Gas, was abandoned off Khasab). JKM has rolled to January with no fresh print. The winners are still US exporters; Europe's buffer is storage ~70%, ~18 points below average, with a cold spell forecast.",
  "current": {
-  "price": "TTF Dec ~€103.6 / HH Dec $2.90 / JKM ~$31–34",
+  "price": "TTF €82.45 live (19 Nov) / €80.85 (18 Nov); HH Dec $3.349 live ($3.372 settle 18 Nov); JKM rolled to Jan (Dec ~$31.30)",
   "driver_split": "CRITICAL (markets Section E): Henry Hub and TTF share elevated 1M prints but NOT a cause. HENRY HUB = DOMESTIC WEATHER (~0% crisis): US summer heat demand (above-normal temps through June 24) DESPITE ample storage (~5% above 5-yr avg) + softer LNG-export flows (seasonal maintenance Golden Pass/Freeport). Does NOT reverse on a Hormuz deal. EUROPEAN TTF = CRISIS gauge (~70% crisis): Qatar ~17% liquefaction (Ras Laffan) offline + Iran-Israel escalation; still sub-EUR70. Do NOT encode Henry Hub strength as crisis-driven — that would be a textbook attribution error.",
   "henry_hub_driver": "WEATHER (~0% crisis): US summer heat demand, above-normal temps forecast through June 24. Strength persists DESPITE ample storage (~5% above 5-yr avg) and softer LNG feedgas (seasonal maintenance). Do NOT let +10.7% MoM contaminate the energy-crisis read; does NOT reverse on a Hormuz deal.",
   "lng_premium": "Cheniere +4.3% (7 Aug) as a Hormuz-REOPENING proxy (the Iran-Oman route agreement raises odds LNG flows normalize) + Train 6 Corpus Christi completion + the structural Qatar-offline tailwind (US Gulf Coast captures share). TTF easing on the de-escalation but still elevated. The LNG trade is now pricing reopening odds, not just disruption.",
-  "status": "Qatar FM to end-December; TTF above the 2022 threshold; Qatar buying US LNG."
+  "status": "Qatar FM to at least end-December; US LNG at record feedgas, cargoes diverting to Europe; Hormuz LNG exports reported slowing after attacks"
  },
  "price_snapshots": [
   {
@@ -24,6 +24,11 @@
    "price": "Henry Hub $3.15/MMBtu (highest since March)",
    "trigger": "+8.8% 1D / +23.5% MoM on a US East Coast / Lower-48 HEAT WAVE (early-summer cooling demand) + a DROP IN US PRODUCTION — WEATHER, ~85% NON-crisis. The WHY matters: Henry Hub has DECOUPLED from the crisis-oil complex — it fell when oil fell earlier, now it rises on domestic weather while Brent DE-prices on the deal. The correlation to Brent BROKE this cycle.",
    "delta_context": "Do NOT read the nat-gas spike as a crisis signal. The crisis-relevant gas benchmark is European TTF (€46.22, -3.0% 1D, +30% YoY), which eased on deal hopes. Structural LNG-export underlay (~15%): US LNG terminals at near-max utilization because Hormuz/Ras Laffan took ~1/5 of global LNG offline — the LEVEL carries a crisis premium, the +8.8% spike does not."
+  },
+  {
+   "date": "2026-11-19",
+   "price": "Henry Hub Dec $3.372 (18 Nov, +5.1%)",
+   "trigger": "US cold-weather forecasts (0% crisis); TTF −5.3% the same day on US LNG supply"
   }
  ],
  "active_triggers": [
@@ -87,6 +92,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "Gas/LNG, 16–19 Nov: Henry Hub Dec 3.122 / 3.208 / 3.372 (+5.1% Wed, US cold forecasts) / 3.349 live; record US LNG feedgas (21.8 bcf/d, BloombergNEF) and US cargoes turning to Europe pushed TTF down 11% to €80.85 (Wed). JKM rolled to January (no print; Dec ~$31.30 week to 13 Nov). Bloomberg (19 Nov 06:53 IST): 'LNG Exports Through Hormuz Appear to Slow After More Attacks'. The IEA WEO (19 Nov) relays ~60 bcm of gas lost to the Hormuz crisis (not checked against the report). Qatar's force majeure still 'until the end of December 2026, at the very least'. Tara Gas, an LPG carrier, was hit and abandoned off Khasab (16–17 Nov).",
+   "verification": "CONFIRMED (prices) / REPORTED (causes, Bloomberg headline)"
+  },
   {
    "date": "2026-11-16",
    "headline": "JKM ~$31.30/MMBtu (Dec delivery, week to 13 Nov; Reuters survey relay); LNG carrier BLNG1 $54,600/day; Henry Hub Dec $3.12 (−3.3%) Mon. Qatar: nothing new.",

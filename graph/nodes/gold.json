@@ -3,15 +3,15 @@
  "name": "Gold",
  "type": "commodity",
  "created": "2026-03-23",
- "last_updated": "2026-11-16",
- "summary": "Gold, Day 246. Gold is behaving as a casualty of the war's inflation and as the first asset sold for cash, not as a war hedge. It fell below $3,900 on 30 Oct (Dec futures $3,898.90; spot ~$3,875), a one-year low and ~30% below January's $5,595 record, on the same day that US real yields fell and oil rose — the second time in eight days that the textbook real-yield link failed. The drivers are an oil-fed Fed (PCE 3.6%, two FOMC dissents for a hike, December ~80% priced) and margin calls from the AI-credit selloff. Silver broke below $50. State Street's $4,000 floor is gone; the gold/silver ratio (~79.3) is a whisker from the 80 trigger. Gold would turn back into a hedge on a credit or financial-system scare — HY spreads widening 12bp on the Alphabet day is a faint start, not that regime.",
+ "last_updated": "2026-11-19",
+ "summary": "Gold, Day 265. Gold is still trading as a casualty of an energy-inflation war that keeps the Fed hiking, not as a war hedge. It fell 3.2% on 18 Nov to $3,741.9 (Dec settle; Kitco's low $3,719 was the lowest since September 2025), ~33% below January's record, on the same day Iran fired at Kuwait and Bahrain and a day after a US strike on Iran — no haven bid at all. The drivers are expected future rates (December 50bp odds up from ~4% to ~10% around hawkish FOMC minutes) and a dollar at its highest since April 2025, plus a broad commodity liquidation that hit silver (−4.9%), copper (−5.3%) and aluminium (−4.0%) harder; Treasury yields actually fell that day, so it is not a real-yield story. Silver's fall pushed the gold/silver ratio above 80 on three straight settles (82.2, 81.6, 83.0), firing the 80:1 watch — a sign of liquidation, not crisis stress. Goldman has cut its 2027 target twice ($4,650). Gold would turn back into a hedge only on a regime change — a hit on Gulf energy, a US casualty event or a credit scare (HY spreads widened 23bp, a faint start). Watches: $5,500 and $4,600 — further.",
  "current": {
-  "price": "~$3,846 Dec live (16 Nov 12:35 IST); gold/silver ~81 live",
-  "delta_1d": "−2.05% (10 Nov settle)",
+  "price": "$3,735.0 Dec live (13:16 IST 19 Nov); settle $3,741.9 (18 Nov)",
+  "delta_1d": "−3.2% (18 Nov settle)",
   "delta_1m": "−7.2%",
-  "regime": "WAR-INFLATION VICTIM + LIQUIDITY SOURCE, NOT A HEDGE. Falls with real yields (30 Oct: real −3bp, gold −3.3%); Fed-hike pricing and AI-selloff margin calls dominate. Flip condition: a financial-system/credit scare, not an inflation scare.",
-  "gold_silver_ratio": "79.2 (3 Nov close); ~77.9 intraday",
-  "driver": "The dollar after the US vote; Fed hike odds cap it."
+  "regime": "WAR-INFLATION VICTIM + LIQUIDITY SOURCE, NOT A HEDGE (reconfirmed 18 Nov: −3.2% with no haven bid despite a US strike on Iran and Iranian fire at Kuwait/Bahrain)",
+  "gold_silver_ratio": "83.0 (18 Nov settles); 82.2 / 81.6 on 16 / 17 Nov — the 80:1 watch FIRED",
+  "driver": "Expected Fed path (50bp odds ~4% → ~10%), dollar at its highest since April 2025, commodity liquidation, Goldman's second cut"
  },
  "active_triggers": [
   {
@@ -36,11 +36,12 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — $4,000.5 settle. (markets)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — FURTHER: $3,885.3, the 2026 low close. (intel MAC-A5)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — $3,886.3. (intel MAC-A7)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — FURTHER (~$3,846 live). (markets)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — FURTHER (~$3,846 live). (markets)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — FURTHER: Dec settle $3,741.9 (18 Nov), low $3,719.10 ('lowest since September 2025', Kitco). (intel MAC A-6)"
   },
   {
    "condition": "Gold/silver ratio exceeds 80:1",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "fed",
     "sp-500"
@@ -60,7 +61,9 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — ~77.5 (closer). (intel MAC-A9)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — 77.6. (intel MAC-A5)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — CLOSER: 79.1 on futures settles (from 77.6); Kitco spot ~78.1 — the series matters. (intel MAC-A7)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — CLOSEST: ~81.2–81.4 on LIVE futures (12:11–12:35 IST 16 Nov; spot ~81–82), the first time above 80 in this run, but the watch is scored on settles (79.1 on 13 Nov). Re-test on the 16-Nov settles. Mostly silver's fall (−3.6%), not a haven bid. (intel MAC A-5; markets A)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — CLOSEST: ~81.2–81.4 on LIVE futures (12:11–12:35 IST 16 Nov; spot ~81–82), the first time above 80 in this run, but the watch is scored on settles (79.1 on 13 Nov). Re-test on the 16-Nov settles. Mostly silver's fall (−3.6%), not a haven bid. (intel MAC A-5; markets A)",
+   "status_changed": "2026-11-19",
+   "note_2026-11-19": "[watching → fired] FIRED on settles (CONFIRMED, data threshold), as its own 16-Nov note required ('scored on settles… re-test on the 16-Nov settles'): COMEX Dec gold/silver 82.2 (Mon 16: $3,853.0 / $46.859), 81.6 (Tue 17: $3,864.2 / $47.357), 83.0 (Wed 18: $3,741.9 / $45.059); Kitco spot late Wed ~82.9. The move is SILVER'S FALL inside a broad metals rout (Wed: gold −3.2%, silver −4.9%, copper −5.3%, aluminium −4.0%), not a haven bid for gold: ~70% of gold's Wednesday fall came in Asian hours before the FOMC minutes, and Iranian fire at Kuwait/Bahrain that day brought no safe-haven demand. War share ~0–5%. Read it as liquidation and higher-for-longer rate expectations, not crisis stress. (intel MAC A-6; CoS R10)"
   },
   {
    "condition": "US 10Y real yield falls 15bps in 3 sessions (inflation-regime trigger — more predictive than crisis-escalation)",
@@ -140,7 +143,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED. (markets)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — FURTHER ($3,885.3). (intel MAC-A5)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — $3,886.3. (intel MAC-A7)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — FURTHER. (markets)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — FURTHER. (markets)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — FURTHER ($3,741.9). (intel MAC A-6)"
   },
   {
    "condition": "BlackRock Rick Rieder confirmed/announced as next Fed chair — dollar-weakness regime confirmed",
@@ -188,6 +192,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "GOLD/SILVER ABOVE 80 ON THREE SETTLES — THE 80:1 WATCH FIRES; NO HAVEN BID. COMEX Dec settles: gold $3,853.0 (Mon 16) / $3,864.2 (Tue 17) / $3,741.9 (Wed 18, −3.2%); silver $46.859 / $47.357 / $45.059 (−4.9%); ratio 82.2 / 81.6 / 83.0 (Kitco spot late Wed ~82.9); $3,735.0 live 13:16 IST Thu. Kitco: Wednesday's low $3,719.10 was the 'lowest since September 2025'. About 70% of Wednesday's fall came in Asian hours before the FOMC minutes (00:30 IST Thu, after the settle). Reported causes: 'a stronger dollar and expectations of persistently high interest rates' (Bloomberg via relays); Kitco: hawkish minutes, the dollar toward 103.82, pending home sales −4.7%, liquidation, and 'Renewed U.S.-Iran tensions… failed to generate safe-haven demand'; Goldman's second cut (2027 $4,650). Our check: DXY rose only ~0.4% and the 10Y FELL (5.10 → 5.07) on Wednesday, so the mechanism is expected future rates and the dollar plus a broad commodity liquidation (copper −5.3%, aluminium −4.0%, CF −4.7% the same day), not the day's yields. War share ~0–5%: a US strike on Iran and Iranian fire at two US-host states brought no haven bid. Bull cases on record: Morgan Stanley $5,250 (2027), Goldman $5,600 by 2028, ANZ $4,800.",
+   "verification": "CONFIRMED (settles) / REPORTED (causes)"
+  },
   {
    "date": "2026-11-16",
    "headline": "Mon 16 Nov (live): gold Dec ~$3,846 (−1.0%), silver ~$47.3 (−3.6%); gold/silver ~81.2–81.4 on live futures (79.1 on Friday's settles) — above 80 intraday for the first time; the watch is scored on settles. Gold fell in both big bursts (06:30 IST ~9× volume; 11:16 IST ~26×, no headline) while oil rose — no haven bid. Reported causes: Fed-rise bets before Warsh (22:30 IST), firm dollar, Goldman's second gold cut (end-2027 $4,650).",
@@ -693,6 +702,11 @@
    "date": "2026-11-13",
    "price": "$3,885.3 (12 Nov settle)",
    "trigger": "2026 low close; yields/dollar (Kitco); fell on the Trump post"
+  },
+  {
+   "date": "2026-11-19",
+   "price": "$3,741.9 (GCZ26 settle, 18 Nov, −3.2%); gold/silver 83.0",
+   "trigger": "Threshold crossed: gold/silver above 80 on the 16/17/18-Nov settles (82.2/81.6/83.0) — the 80:1 watch FIRED; metals rout (silver −4.9%, copper −5.3%); lowest since September 2025 (Kitco)"
   }
  ]
 }

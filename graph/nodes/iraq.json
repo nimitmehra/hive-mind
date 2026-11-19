@@ -3,7 +3,7 @@
  "name": "Iraq",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-11-16",
+ "last_updated": "2026-11-19",
  "summary": "Iraq, Day 241. Pulled toward Washington's pressure campaign rather than serving as a neutral courier. No confirmed second Iraq-origin attack on Saudi energy since 10 Sep (an anonymous Saudi source claims attempts); Baghdad shut the al-Sheeb crossing with Iran (21 Oct) under reported US pressure and denies hosting Houthi offices; tankers were hit off Al Faw and Basrah; the targeted Kurdish opposition party says Iran fired four ballistic missiles at its base in the Kurdistan Region (21 Oct; unclaimed by Iran). Baghdad floats a '6+1' GCC–Iran meeting.",
  "current": {
   "production": "~900K bpd (force majeure)",
@@ -36,7 +36,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — nobody names Iraq. (intel SAU, KIN-A8)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — two of Thursday's drones were over the Eastern Province; the coalition gave no origin. (intel SAU-A2)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — the coalition named no origin for the Eastern Province drones. (intel SAU-A1)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — no Iraqi-origin attack reported. (intel SAU-A1)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — no Iraqi-origin attack reported. (intel SAU-A1)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — no launch at Saudi Arabia attributed to Iraqi territory. Iraq restarted Kirkuk–Ceyhan crude exports (~120k b/d, 17 Nov; oil minister on record) — a supply story, not this trigger. (intel SAU A1, B4)"
   },
   {
    "condition": "The Saudi-led coalition publicly attributes any launch at Saudi Arabia to Iraqi territory or an Iraqi faction, OR Saudi Arabia strikes inside Iraq, by 30 Nov (the second-front tell)",
@@ -60,7 +61,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — the coalition attributes the 11-Nov launches to the Houthis. (intel SAU-A1)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — no attribution to Iraq. (intel SAU-A2)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — no Iraq attribution. (intel SAU-A1)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — the coalition attributes launches to the Houthis. (intel SAU-A1)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — the coalition attributes launches to the Houthis. (intel SAU-A1)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — the coalition attributes every launch 16–19 Nov to 'the Houthi militia'. (intel SAU A1)"
   }
  ],
  "top_edges": [
@@ -85,8 +87,9 @@
    "type": "supply_offline",
    "weight": 8.0,
    "directness": 1,
-   "last_activated": "2026-04-06",
-   "activation_count": 4
+   "last_activated": "2026-11-19",
+   "activation_count": 4,
+   "context": "17 Nov: Iraq restarted federal Kirkuk–Ceyhan crude exports at 120 kb/d, rising to 500 kb/d (oil minister, INA) — a bearish supply addition. [activation at unchanged weight: reported/preparation/rhetoric or tangential]"
   },
   {
    "to": "saudi-arabia",
@@ -106,6 +109,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "Iraq, 16–19 Nov: oil minister Bassem Khudair (INA) said the federal Kirkuk–Ceyhan pipeline, idle since 2014, resumed exports on 17 Nov at 120,000 b/d, rising to 500,000 b/d after tests — 'an important strategic step in enhancing Iraq's export capacity and diversifying crude oil export outlets' (CONFIRMED; The National). Separate from the Kurdistan flows via Ceyhan (~500 kb/d, recorded 1 Nov). A bearish supply item on a day Brent rose. No launch at Saudi Arabia attributed to Iraq (both Iraq watches not fired). Sirens at the Khor Mor gas field (Reuters via KT, 17 Nov) — single relay, unverified.",
+   "verification": "CONFIRMED (minister on record) / REPORTED (Khor Mor)"
+  },
   {
    "date": "2026-11-11",
    "headline": "The Houthis disown the 9-Nov Medina-region pipeline hit; the one attributed precedent on the line (10 Sep) was Iraqi; no Iraqi faction claim or coalition attribution. Khor Mor still shut; no militia attack on US forces found 10–11 Nov. CTP (10 Nov): Iraqi militias 'likely to participate in renewed conflict'.",

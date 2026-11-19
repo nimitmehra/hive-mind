@@ -3,15 +3,15 @@
  "name": "South Korea",
  "type": "country",
  "created": "2026-03-28",
- "last_updated": "2026-11-16",
+ "last_updated": "2026-11-19",
  "summary": "South Korea, Day 241. The epicentre of the AI-credit selloff: KOSPI −22% in a month (5,469), a circuit breaker on 15 Oct, ₩11.5trn of foreign selling in a week and the won near 1,350. The war's channel is oil → US CPI → the Fed; the helium buffer clock is running but no fab cut has been reported.",
  "current": {
-  "price": "KOSPI 5,469.47 (26 Oct)",
+  "price": "KOSPI 5,137.89 (19 Nov close); 4,968.48 (17 Nov)",
   "delta_1d": "KOSPI +1.2%; USD/KRW -0.2% (currency steadying as KOSPI rally absorbs FX outflow)",
   "delta_1m": "−22.0%",
   "delta_3m": "KOSPI +39.9%; USD/KRW +3.5%",
   "buffer_clock": "Korean fab buffer ~3 weeks remaining to mid-June exhaustion (Day 73 since Ras Laffan halt March 2; TrendForce 'two-week clock' from March 24 fully elapsed). Kornbluth 'tsunami a thousand miles offshore' held one more session. Most time-sensitive trigger in graph — helium-clock-expiry window May 16-23.",
-  "status": "AI-credit selloff; helium buffer clock running (no fab cut)."
+  "status": "AI/export-curb sell-off broke KOSPI 5,000 for one day; no helium-driven fab cut."
  },
  "active_triggers": [
   {
@@ -36,7 +36,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED. (intel MAC-B1)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — no helium-driven halt reported. (intel MAC)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — no helium-driven halt reported; SK hynix −3.0% on the chip sell-off. (intel MAC-A9)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — no helium-driven halt; SK hynix −7.9% and Samsung −5.0% on the Nvidia/AI rout. (intel MAC B-1)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — no helium-driven halt; SK hynix −7.9% and Samsung −5.0% on the Nvidia/AI rout. (intel MAC B-1)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — no helium-driven halt; SK hynix and Samsung rebounded Wed–Thu (₩1,183,000 / ₩196,900 Thu) after the 17-Nov KOSPI break. (intel MAC A-10)"
   }
  ],
  "top_edges": [
@@ -82,6 +83,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "South Korea, 16–19 Nov: KOSPI closed 4,968.48 on 17 Nov, its first close below 5,000 since 2 Feb, on the AI sell-off, US chip-export curbs and ~₩1.4trn of foreign selling, then rebounded to 5,137.89 (19 Nov, KRX final). No helium-driven fab halt or allocation notice; ChemAnalyst (18 Nov): 'US Helium Market Softens in October Despite Strong Semiconductor Demand'.",
+   "verification": "CONFIRMED (prices) / REPORTED"
+  },
   {
    "date": "2026-11-08",
    "headline": "**MARGIN-LOAN WAIVER FROM 9 NOV:** Seoul's response to KOSPI's −11% two-day fall (non-war, AI). Duqm deployment: no update. (CONFIRMED; intel MAC-A7)",

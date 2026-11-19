@@ -3,7 +3,7 @@
  "name": "Energy Sector (Global)",
  "type": "sector",
  "created": "2026-03-28",
- "last_updated": "2026-11-16",
+ "last_updated": "2026-11-19",
  "summary": "Energy sector, Day 241. XLE +3% and Exxon/Chevron +5–7% since 13 Oct while front-month Brent rose 10% — equities track the flat back of the curve, not the event premium. Exxon and Chevron report on 30 Oct.",
  "current": {
   "price": "XLE $70.02 (30 Oct)",
@@ -35,7 +35,8 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED. (markets)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — XLE +1.5%. (markets A)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — XLE +1.0%. (markets A)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — XLE +1.0% (Fri); nowhere near the largest sector by weight. (markets)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — XLE +1.0% (Fri); nowhere near the largest sector by weight. (markets)",
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — XLE $63.69 / $63.36 / $61.29 (−3.3% Wed with crude and the commodity rout). (intel MAC A-9)"
   },
   {
    "condition": "Energy-sector vs Brent divergence resolves within 21 days (by 2026-05-19) — sector ETF (XLE) -7.7% 1M while Brent flat-positive 1M",
@@ -78,6 +79,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "US energy equities fell with crude and the commodity rout: XLE $63.69 / $63.36 / $61.29 (−3.3% Wed; Exxon −4.0% Wed). Tadawul: TASI 10,200.16 (−0.52% Wed; Arab News), Aramco SR26.38 (ex-dividend 17 Nov) — no outlet ties either to the Riyadh fire. Indian OMCs +1.5–1.9% since Friday as Brent fell.",
+   "verification": "CONFIRMED (prices)"
+  },
   {
    "date": "2026-11-15",
    "headline": "13 Nov: XLE +1.0% with Brent flat — rotation out of tech (Baird's Mayfield); XOM +0.5%; FRO +0.4%. Drewry WCI $4,305/FEU (−2%, 12 Nov; blank sailings) — container demand, ~0% crisis.",
@@ -258,6 +264,11 @@
    "date": "2026-09-17",
    "price": "XLE −2.9%; XOM −3.5%; HO −5.0%; RBOB −6.8% (16 Sep)",
    "trigger": ">3% moves — guidance-driven product liquidation + EIA builds"
+  },
+  {
+   "date": "2026-11-19",
+   "price": "XLE $61.29 (18 Nov close, −3.3%)",
+   "trigger": "Crude −1.3% on the EIA build plus the broad commodity liquidation (Exxon −4.0%); not war-led"
   }
  ]
 }

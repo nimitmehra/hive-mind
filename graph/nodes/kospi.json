@@ -3,12 +3,12 @@
  "name": "KOSPI (Korea Composite Stock Index)",
  "type": "index",
  "created": "2026-05-12",
- "last_updated": "2026-11-16",
- "summary": "KOSPI, Day 246. Korea round-tripped on the AI cycle, not the war: SK hynix's record quarter (80% operating margin, memory sold out through 2029) lifted the index 6.6% to 6,012 on 28 Oct, and the US AI-buyer selloff (Alphabet, Amazon, Intel) took it back to 5,730.74 on 30 Oct — still +4.8% on the week but ~32% below the May record. Both memory makers guided prices up, so the graph's 'below 5,000 or memory guided down' trigger did not fire. Korea's exposure to the Gulf (energy, helium) did not show in the numbers this week; its exposure to who finances AI did.",
+ "last_updated": "2026-11-19",
+ "summary": "KOSPI, Day 265. Korea broke its 5,000 floor on the AI cycle, not the war. After the 16-Nov Nvidia/AI rout (5,100.50), the index closed at 4,968.48 on 17 Nov — the first close below 5,000 since 2 Feb — on the AI sell-off, tighter US chip-export curbs and ~₩1.4trn of foreign selling, which fired the graph's 'below 5,000 or memory guided down' watch on its first leg. It was a one-day breach: Nvidia's beat helped a rebound to 5,067 and 5,113 (19 Nov). The memory makers have not guided prices down, and SK hynix and Samsung recovered with the index. The war's channels into Korea (energy costs, helium) are not visible in the numbers; foreign money leaving Korea's AI trade is partly going to India. Next tells: any memory-pricing cut, and whether the 16-Nov export rule widens.",
  "current": {
-  "price": "5,100.50 (16 Nov close)",
-  "driver": "US chip rebound; first foreign buying in eight sessions; ~20% oil",
-  "level": "5,100.50 (16 Nov close)"
+  "price": "5,137.89 (19 Nov close)",
+  "driver": "AI/chip sell-off, US export curbs, foreign selling (~₩1.4trn on 17 Nov); rebound Wed–Thu; ~0–5% war",
+  "level": "5,137.89 (19 Nov close); 4,968.48 (17 Nov) — the <5,000 watch FIRED"
  },
  "price_snapshots": [
   {
@@ -52,6 +52,11 @@
    "date": "2026-11-10",
    "price": "5,239.13 (10 Nov close)",
    "trigger": "Foreigners back after seven selling sessions"
+  },
+  {
+   "date": "2026-11-19",
+   "price": "4,968.48 (17 Nov close, −2.59%)",
+   "trigger": "Threshold crossed: first close below 5,000 since 2 Feb — the `kospi` watch FIRED; AI sell-off + US export curbs + foreign selling; rebounded to 5,137.89 by 19 Nov"
   }
  ],
  "active_triggers": [
@@ -86,7 +91,7 @@
   },
   {
    "condition": "KOSPI closes below 5,000 OR SK hynix (28 Oct) / Samsung (29 Oct) guide memory pricing down",
-   "status": "watching",
+   "status": "fired",
    "cascade": [
     "kospi",
     "samsung",
@@ -108,7 +113,9 @@
    "note_2026-11-12": "[reviewed, stays watching] NOT FIRED — 5,375.36 Wed; ~5,343 Thu intraday. (intel MAC-B1)",
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — 5,342.73 Thu; ~5,302 Fri (10:45 IST). (intel MAC-A8)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — 5,290.53 (−1.0%). (intel MAC-A9)",
-   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — CLOSER: 5,100.50 close (−3.59%) on the Nvidia/AI rout; no memory guidance cut (BofA NAND note is a broker call). (intel MAC B-1)"
+   "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — CLOSER: 5,100.50 close (−3.59%) on the Nvidia/AI rout; no memory guidance cut (BofA NAND note is a broker call). (intel MAC B-1)",
+   "status_changed": "2026-11-19",
+   "note_2026-11-19": "[watching → fired] FIRED on the close leg (CONFIRMED, data threshold): KOSPI closed 4,968.48 on Tue 17 Nov (−132.02, −2.59%; Korea Exchange figure via Korea Herald/Yonhap, JoongAng Daily; yfinance agrees) — its fourth straight fall and the first close below 5,000 since 2 Feb (4,949.67, per Yonhap's wording). Causes reported: the AI/chip sell-off, tighter US chip-export curbs (the 16-Nov interim rule), high US yields and ~₩1.4trn of foreign net selling. NOT war-linked (crisis share ~0–5%). It was a one-day breach: rebound to 5,067.44 Wed 18 and 5,137.89 Thu 19 Nov (KRX final via Naver; yfinance agrees; our 12:54–13:16 IST pulls of 5,112.97–5,118.96 came before the final print — corrected at fact-check; was pre-auction). The memory-guidance leg has NOT happened (no SK hynix or Samsung guidance cut found; KED Global: Goldman cut its KOSPI target again). (intel MAC A-10; CoS R10)"
   }
  ],
  "top_edges": [
@@ -155,6 +162,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-19",
+   "headline": "KOSPI BROKE 5,000 — THE WATCH FIRES (CONFIRMED). Closes: 5,100.50 (Mon 16) / 4,968.48 (Tue 17, −132.02, −2.59%; Korea Exchange via Korea Herald/Yonhap, JoongAng Daily) / 5,067.44 (Wed 18) / 5,137.89 (Thu 19, KRX final via Naver; yfinance agrees — corrected at fact-check from 5,112.97, a pre-final pull — the CoS's 5,115.80 at 12:54 IST was pre-auction). Tuesday was the fourth straight fall and 'the first close below the 5,000 threshold since Feb. 2' (4,949.67; consistent with our record — the 6-Nov intraday 4,911.28 closed at 5,059.69). Reported drivers: the AI sell-off, tighter US chip-export curbs (the 16-Nov interim rule), high US yields; foreign net selling ~₩1.4trn. Not war-linked (~0–5%). A one-day breach: SK hynix ₩1,098,000 → ₩1,183,000 and Samsung ₩190,300 → ₩196,900 by Thursday. No memory-pricing guidance cut (the second leg has not happened); KED Global: Goldman cut its KOSPI target again. Edge note: `kospi → nifty-50` ran INVERSE this week — on 17 Nov, as Korea saw ~₩1.4trn of foreign selling, India took +₹4,195 cr (rotation, not contagion).",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-16",
    "headline": "KOSPI 5,100.50 (−3.59%) close Mon 16 Nov — 100.50 points above the 5,000 trigger; SK hynix −7.9%, Samsung −4.5% (corrected at fact-check: the first pull was pre-auction 5,082.39). Daishin's Lee: AI-investment sentiment.",
