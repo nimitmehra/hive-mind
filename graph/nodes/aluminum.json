@@ -3,13 +3,13 @@
  "name": "Aluminum",
  "type": "commodity",
  "created": "2026-03-31",
- "last_updated": "2026-11-19",
- "summary": "Aluminium, Day 265. Down with the metals complex, not up on the Gulf: −4.0% to 2,919 on 18 Nov in the same liquidation that took copper −5.3% and silver −4.9%. Iranian drones at Bahrain (home of ALBA) were intercepted four times in seven days with no site hit, and there is no new ALBA or EGA supply news. Off the critical path unless a Gulf smelter is hit.",
+ "last_updated": "2026-11-20",
+ "summary": "Aluminium, Day 266. Down with the metals complex, not up on the Gulf: −10.2% in the week to 20 Nov (2,815 live) in the same liquidation that took silver −14% and copper −8%. There is no new ALBA or EGA supply news, and the Iranian drone waves at Bahrain (home of ALBA) on 13–18 Nov were all intercepted with no site hit; none has been found since 18 Nov. The only visible war-adjacent channel this week ran the other way: cheaper metals lifted Indian autos and durables (inverse sign on the aluminium → India link). Off the critical path unless a Gulf smelter is hit. Watches: Gulf output −25% sustained; ALBA/EGA non-restart or re-hit — not fired.",
  "current": {
-  "price": "$3,310.50 COMEX (30 Oct)",
-  "delta_1d": "roll",
-  "delta_1m": "+4.5% since 13 Oct",
-  "driver": "No re-hit; EGA ~50% restarted (single source)."
+  "price": "2,815.0 ALI=F live (20 Nov, thin); 2,839.5 (19 Nov); 2,919.0 (18 Nov)",
+  "delta_1d": "−0.9% live (20 Nov); −2.7% (19 Nov)",
+  "delta_1m": "−10.2% w/w (vs 3,133.3 on 13 Nov)",
+  "driver": "Broad metals liquidation (AI/equity sell-off); no Gulf supply news; ALBA/EGA unchanged"
  },
  "price_snapshots": [
   {
@@ -50,7 +50,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NO CHANGE — no Gulf smelter news in the window; aluminium −2.1% with no Gulf driver. (markets A)",
    "note_2026-11-15": "[reviewed, stays watching] NO CHANGE — no Gulf smelter news in the window; aluminium −0.9% with no Gulf driver. (markets A)",
    "note_2026-11-16": "[reviewed, stays watching] NO CHANGE — no Gulf smelter news in the window; aluminium −0.8% Mon with no Gulf driver. (markets A)",
-   "note_2026-11-19": "[reviewed, stays watching] NO CHANGE — no Gulf smelter news; aluminium −4.0% Wed (2,919) is part of the global metals rout, not a Gulf supply event. (intel MAC A-6)"
+   "note_2026-11-19": "[reviewed, stays watching] NO CHANGE — no Gulf smelter news; aluminium −4.0% Wed (2,919) is part of the global metals rout, not a Gulf supply event. (intel MAC A-6)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — no ALBA/EGA news; aluminium −10.2% w/w (2,815 live) in the broad metals liquidation, not a Gulf supply event. (markets.md A, C3)"
   },
   {
    "condition": "ALBA/EGA confirmed non-restart OR a Gulf smelter re-hit -> aluminum re-prices violently upward (cleanest physical-supply proxy in the graph)",
@@ -78,7 +79,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NO CHANGE — no Gulf smelter news in the window; aluminium −2.1% with no Gulf driver. (markets A)",
    "note_2026-11-15": "[reviewed, stays watching] NO CHANGE — no Gulf smelter news in the window; aluminium −0.9% with no Gulf driver. (markets A)",
    "note_2026-11-16": "[reviewed, stays watching] NO CHANGE — no Gulf smelter news in the window; aluminium −0.8% Mon with no Gulf driver. (markets A)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — no ALBA/EGA news; Bahrain's fire was intercepted with no site hit reported; aluminium fell with copper and silver (−4.0% Wed). (intel MAC A-6, KIN A3)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — no ALBA/EGA news; Bahrain's fire was intercepted with no site hit reported; aluminium fell with copper and silver (−4.0% Wed). (intel MAC A-6, KIN A3)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — no ALBA/EGA news; no Iranian fire at Bahrain found since 18 Nov; aluminium fell with silver and copper. (markets.md C3; CoS R3)"
   }
  ],
  "top_edges": [
@@ -121,11 +123,17 @@
    "type": "import_cost",
    "weight": 5.0,
    "directness": 2,
-   "last_activated": "2026-04-06",
-   "activation_count": 2
+   "last_activated": "2026-11-20",
+   "activation_count": 2,
+   "context": "ACTIVATION, INVERSE SIGN, NO WEIGHT CHANGE (markets.md E4; CoS): Thu 19 Nov cheaper metals (aluminium −2.7%, −10.2% w/w; copper, silver down) lifted Indian autos +4.40% and consumer durables +3.64% (Kotak Neo; Vijayakumar: 'The sharp correction in metal prices have attracted buying in auto stocks and consumer durables') — two sources. The link ran INVERSE this window: lower metal prices → input-cost relief for Indian manufacturers (the edge's war-time reading is a Gulf-supply cost shock). Weight"
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "Aluminium (ALI=F) 2,839.5 (Thu 19 Nov, −2.7%) / 2,815.0 live (Fri, −0.9%, thin): −10.2% on the week (from 3,133.3 on 13 Nov), inside a broad metals liquidation (copper −8.3% w/w, platinum −11.7%); no Gulf supply story found (MAC) — no ALBA/EGA news, no Iranian fire at Bahrain since 18 Nov. Inverse channel into India: cheaper metals lifted Indian autos (+4.40%) and consumer durables (+3.64%) on Thu 19 Nov (Kotak Neo; Vijayakumar: 'The sharp correction in metal prices have attracted buying in auto stocks and consumer durables') — logged on `aluminum → india` with the INVERSE sign, no weight change. (Sources: yfinance ALI=F; Kotak Neo; Geojit; markets.md A, B, C3, E4)",
+   "verification": "CONFIRMED (prices) / REPORTED (India channel)"
+  },
   {
    "date": "2026-11-19",
    "headline": "Aluminium, Wed 18 Nov: 2,919 (−4.0%) from 3,124.5 (16 Nov) and 3,040.8 (17 Nov), inside a broad metals rout (copper −5.3%, silver −4.9%; Bloomberg via relays: AI-investment worries, Chinese demand, US trade policy). No Gulf smelter news (ALBA, EGA); Bahrain's fire was intercepted with no site hit reported. Crisis share ~0%.",

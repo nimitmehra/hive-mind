@@ -3,14 +3,14 @@
  "name": "FII (Foreign Institutional Investor) Flows — India",
  "type": "institution",
  "created": "2026-05-12",
- "last_updated": "2026-11-19",
- "summary": "FII flows, Day 265. Foreign investors have bought Indian cash equities for 13 straight regular sessions (30 Oct–18 Nov; exchange provisional), and November is the largest month on record on NSDL data — ₹99,158 cr through 17 Nov against the previous record of ₹70,896 cr (Nov 2020), about $10bn. (Our 16-Nov 'since 2002' wording was unsupported.) Daily amounts have settled in the ₹4,000–6,000 cr range. The money is partly a rotation out of the AI trade in the US, Korea, Taiwan and Japan — on 17–18 Nov India took inflows on the same days Korea and Taiwan saw heavy foreign selling — plus softer crude and US yields off their highs; a reported FPI capital-gains tax review is cited on one relay. Domestic institutions are selling into it (>₹52,000 cr in November), so the Nifty has risen only modestly. FPIs remain net sellers for 2026 as a whole. Because part of the flow is an AI-trade unwind, it would reverse if the AI trade recovers, not only on war news. Watch: three consecutive net-selling sessions by 30 Nov — 0 of 3, further.",
+ "last_updated": "2026-11-20",
+ "summary": "FII flows, Day 266. Foreign investors have bought Indian cash equities for fifteen straight regular sessions (30 Oct–20 Nov; exchange provisional), including +₹7,411 cr on 19 Nov and +₹10,308 cr on 20 Nov — the largest since 11 Nov — for +₹32,647 cr in the week; NSDL calls 1–15 Nov a record half-month (₹84,291 cr), with half of it in financial services. Every outlet read attributes it to a rotation out of AI-heavy markets: on the days Korea and Taiwan saw heavy foreign selling in the AI/chip crash, India took the money, mostly into the large banks (Bank Nifty records). That is the mechanism of the graph's `semiconductors → fii-flows` edge, now seen on four sessions. It is not a war signal: an AI rebound can pull the money back, and domestic funds are selling into it (−₹12,698 cr this week). It meets the buying half of deployment condition 3 (inflation half still fails). Watch: three consecutive selling sessions by 30 Nov — further (0 of 3).",
  "current": {
-  "status": "Record November: NSDL ₹99,158 cr to 17 Nov (prior record ₹70,896 cr, Nov 2020); DIIs net sellers >₹52,000 cr in November (Kotak Neo)",
+  "status": "NSDL 1–15 Nov ₹84,291 cr (record half-month; financials ₹43,102 cr); DIIs −₹12,698 cr this week",
   "september": "−₹35,861 cr",
-  "price": "18 Nov +₹5,866.78 cr; 17 Nov +₹4,195.38 cr; 16 Nov +₹4,864.68 cr (prov.)",
-  "driver": "AI-trade unwind in US/Korea/Taiwan/Japan + softer crude + US 10Y off 5.3%; reported FPI tax-review talk",
-  "streak": "13 straight regular buying sessions to 18 Nov (from 30 Oct; excl. Muhurat)"
+  "price": "20 Nov +₹10,308.42 cr; 19 Nov +₹7,411.41 cr (prov.); week +₹32,646.67 cr",
+  "driver": "AI-trade rotation out of Korea/Taiwan/Japan into Indian banks (Vijayakumar, HDFC Sky) + softer crude",
+  "streak": "15 straight regular buying sessions to 20 Nov (from 30 Oct; excl. Muhurat)"
  },
  "active_triggers": [
   {
@@ -84,7 +84,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — FURTHER: 0 of 3; Thu +₹7,830.60 cr, the eighth straight session. (intel IND-A4)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — FURTHER: 0 of 3; Fri +₹5,736.55 cr, the ninth straight regular session (daily amount down two sessions running; 9 Nov was ₹7,212 cr). (intel IND)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — FURTHER: TEN straight regular buying sessions to 13 Nov (count corrected from nine; run from 30 Oct); 0 of 3. Monday's figure after this brief. (intel IND-A3; CoS R12)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — FURTHER: THIRTEEN straight regular buying sessions (run from 30 Oct, excluding the 8-Nov Muhurat sale): Mon +₹4,864.68 cr, Tue +₹4,195.38 cr, Wed +₹5,866.78 cr (exchange provisional, PTI); 0 of 3. November is a record month on NSDL data (₹99,158 cr through 17 Nov vs ₹70,896 cr, Nov 2020 — 'highest-ever'; ~$10bn). Thursday's figure comes after this brief. (intel IND-A2; CoS R14)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — FURTHER: THIRTEEN straight regular buying sessions (run from 30 Oct, excluding the 8-Nov Muhurat sale): Mon +₹4,864.68 cr, Tue +₹4,195.38 cr, Wed +₹5,866.78 cr (exchange provisional, PTI); 0 of 3. November is a record month on NSDL data (₹99,158 cr through 17 Nov vs ₹70,896 cr, Nov 2020 — 'highest-ever'; ~$10bn). Thursday's figure comes after this brief. (intel IND-A2; CoS R14)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — FURTHER (CoS R8): FIFTEEN straight regular buying sessions (from 30 Oct, excluding the 8-Nov Muhurat session): Thu 19 Nov +₹7,411.41 cr, Fri 20 Nov +₹10,308.42 cr (exchange provisional; the largest since 11 Nov); 0 of 3; earliest fire Thu 26 Nov (Tue 24 Nov holiday). Week +₹32,646.67 cr. Risk to watch: the buying is an AI-unwind rotation (`semiconductors → fii-flows`), which an AI rebound can reverse. (intel IND-A2; markets.md G)"
   }
  ],
  "top_edges": [
@@ -100,20 +101,20 @@
   {
    "to": "nifty-50",
    "type": "dominant_marginal_buyer_seller_jun8_DII_plus5165cr_absorbed_93pct_of_fii_minus5556cr_held_23000_floor_index_rose_on_trump_tone_despite_fii_selling",
-   "weight": 9.5,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-19",
+   "last_activated": "2026-11-20",
    "activation_count": 7,
-   "context": "16–18 Nov: three more FII buying sessions (13 straight) lifted large caps and Bank Nifty records, but DII selling held the Nifty to +0.84% since Friday. [activation at unchanged weight: reported/preparation/rhetoric or tangential]"
+   "context": "19–20 Nov: FII +₹7,411.41 cr / +₹10,308.42 cr (exchange provisional, CONFIRMED), concentrated in banks (Bank Nifty records); Nifty +1.14% / +1.12% to 25,800.60, highest close since 18 Feb — every outlet attributes the rally to FII bank buying. [formula 10.0; CONFIRMED → max(old, formula)]"
   },
   {
    "to": "inr-usd",
    "type": "fx_pressure_via_dollar_demand_jun8_fii_still_selling_rupee_fell_77p_to_9571_then_firmed_to_9540_on_trump_tone",
-   "weight": 9.0,
+   "weight": 10.0,
    "directness": 1,
-   "last_activated": "2026-11-19",
+   "last_activated": "2026-11-20",
    "activation_count": 5,
-   "context": "17–18 Nov: rupee at a seven-month high (PTI 93.51, 93.41) on ~$10bn of November equity inflows (Reuters, PTI). [formula 9.0; CONFIRMED → max(old, formula)]"
+   "context": "19–20 Nov: rupee 93.32 → 92.67 (PTI), first close stronger than 93 since 10 April, on ~$13bn of November inflows (BS) — prints CONFIRMED, attribution REPORTED by PTI/BS/Reuters. [formula 10.0; CONFIRMED → max(old, formula)]"
   },
   {
    "to": "rbi",
@@ -134,6 +135,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "FIFTEEN STRAIGHT REGULAR SESSIONS OF FII BUYING (from 30 Oct; excluding the 8-Nov Muhurat session): Thu 19 Nov +₹7,411.41 cr, Fri 20 Nov +₹10,308.42 cr — the largest since 11 Nov (exchange provisional; CONFIRMED prints); DIIs −₹1,356.57 / −₹4,859.80 cr. Week: FII +₹32,646.67 cr (matches the sum of the daily prints), DII −₹12,698.37 cr. NSDL 1–15 Nov ₹84,291 cr — 'a record' half-month (BS) — with financial services ₹43,102 cr; the latest NSDL table runs to 17 Nov (₹94,963 cr). The cause is attributed to AI rotation by every outlet read (REPORTED): Vijayakumar (Geojit): 'FIIs are now buying the very same stocks they have been selling to raise money for the AI trade' and 'the bulk of the FII flows have gone into financial services, particularly the banking majors'; HDFC Sky: 'a sharp rotation of global funds away from artificial intelligence-linked stocks and into Indian equities'. Same days: foreigners sold ₩1.14trn in Korea and NT$9.51bn in Taiwan (Fri), NT$76.6bn in Taiwan (Thu). The selling watch is 0 of 3 — further (earliest fire Thu 26 Nov (Tue 24 Nov holiday)). Caveat: a rotation out of AI can reverse on an AI rebound — it is not a war 'all-clear'. (Sources: NSE/BSE provisional via PTI; NSDL; BS; Geojit; HDFC Sky; SBS; TWSE; markets.md A, C6, E1, G; intel IND-A2; CoS R11, R15)",
+   "verification": "CONFIRMED (prints) / REPORTED (cause)"
+  },
   {
    "date": "2026-11-19",
    "headline": "THIRTEEN STRAIGHT REGULAR SESSIONS OF FII BUYING; A RECORD MONTH. Provisional (exchange, PTI): Mon 16 +₹4,864.68 cr, Tue 17 +₹4,195.38 cr (the smallest since 2 Nov), Wed 18 +₹5,866.78 cr; DII −3,519 / +197 / −3,160 cr (aggregators). Run counted from 30 Oct, excluding the 8-Nov Muhurat ₹0.25-cr sale (with it, seven). Our exchange sum for 2–18 Nov: ₹94,229.72 cr; Vijayakumar: 'a record Rs 94,299 crore so far this month'. NSDL: ₹99,158 cr through 17 Nov, 'the highest-ever monthly inflow' (prior record ₹70,896 cr, Nov 2020; BS via Angel One); ~$10.07bn (vs $8.4bn, Dec 2020, CNBC-TV18). CORRECTION: 'the biggest since 2002' (our 16-Nov wording) is in no source — use 'a record monthly inflow (NSDL data)'. FPIs are still net sellers for 2026 (~$21bn). Drivers (attributed): a rotation out of AI stocks in the US, Korea, Taiwan and Japan; lower crude; US 10Y easing from 5.3% to 5.1%; a reported FPI capital-gains tax review for the February 2027 Budget (one relay, untraced). DIIs offset much of it — Kotak Neo: 'Why Isn't Foreign Buying Lifting Stocks?'",

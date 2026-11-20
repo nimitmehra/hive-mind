@@ -3,15 +3,15 @@
  "name": "US 10-Year Treasury Yield",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-19",
- "summary": "US 10-year, Day 265. The 10-year eased to 5.07% (par, 18 Nov) from 5.15% on 13 Nov but is still above 5%, while high-yield credit spreads widened 23bp in three sessions (3.20% → 3.43%) as US tech and software sold off — the first sign of the 'yields down, credit wider' stress pattern, though far from the watch's 3.75% line. Deployment condition 2 (10Y below 5% with credit not widening) now fails on both legs. The drivers are Fed expectations — the minutes keep a >25bp December move open and name Middle East energy as the inflation source — and AI-credit flows, not daily oil moves; no outlet ties the credit widening to the war. Watch: HY OAS above 3.75% with the 10Y below 5% by 30 Nov — not fired.",
+ "last_updated": "2026-11-20",
+ "summary": "US 10-year, Day 266. The 10-year fell to 5.04% (par, 19 Nov) from 5.15% a week earlier and traded just below 5% intraday on 20 Nov, while high-yield spreads widened to 3.52% (+29bp since 13 Nov) as US tech sold off — the 'yields down, credit wider' pattern of a growth scare, not a benign oil-led rally. The drivers are weak US data (Philly Fed 6.3), flight to quality in the AI rout and a market dropping the 50bp December hike tail; oil's fall contributes through lower breakevens (2.16%). Deployment condition 2 (10Y below 5% with credit not widening) still fails: even a sub-5% close would fail the credit leg. The rally spilled into Indian bonds (~7.19%). Watch: HY OAS above 3.75% with the 10Y below 5% by 30 Nov — closer on both legs, not fired (needs +23bp).",
  "current": {
-  "price": "5.07% par (18 Nov)",
-  "driver": "JOLTS beat lifted the front end; the Democratic sweep rallied the long end; HY OAS flat (3.43%, 2 Nov).",
-  "regime": "SET BY AI CREDIT, NOT THE WAR (second episode in eight days). The 13-Oct 'below 5%' deployment condition met on two closes for the wrong reason, with HY spreads widening.",
-  "delta_1d": "−5bp",
-  "level": "5.07% par (18 Nov); 5.12 / 5.10 on 16 / 17 Nov",
-  "note": "Condition 2 FAILS on both legs: 10Y ≥5.00% and HY OAS widening (3.43%, 17 Nov, from 3.20% on 12 Nov)"
+  "price": "5.04% par (19 Nov); ^TNX ~4.98 intraday (20 Nov, not a close)",
+  "driver": "Weak US data + AI-rout flight to quality + 50bp tail gone; HY OAS widening with equities",
+  "regime": "YIELDS DOWN, CREDIT WIDER: the growth/AI-scare pattern the HY OAS watch is built for — neither threshold met yet",
+  "delta_1d": "−3bp (19 Nov par)",
+  "level": "5.04% par (19 Nov); 5.07 (18 Nov); 5.15 (13 Nov)",
+  "note": "Condition 2 FAILS: 10Y par 5.04% and HY OAS widening (3.43 → 3.47 → 3.52%, 17–19 Nov)"
  },
  "active_triggers": [
   {
@@ -72,7 +72,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — CANNOT FIRE AS WRITTEN while the 10Y is above 5%: par 10Y 5.10% (12 Nov); HY OAS 3.30% (11 Nov), tighter. Deployment condition 2 now fails on the 10Y leg, not on credit. (intel MAC-A4; CoS R6)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — CANNOT FIRE AS WRITTEN while the 10Y is above 5%: par 10Y 5.15% (13 Nov, highest since 19 Oct); HY OAS 3.20% (12 Nov), tighter. (intel MAC-A4)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — 3.20% (12 Nov; 13 Nov not posted); the 10Y is above 5% anyway. (intel MAC A-4)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — both legs short: HY OAS 3.34% (16 Nov) → 3.43% (17 Nov), wider from 3.23% (13 Nov) — needs +32bp; the 10Y par is 5.12 / 5.10 / 5.07% (16–18 Nov), still above 5%. The yield-down/credit-wider pattern the watch is built for has started, but neither threshold is met. (intel MAC A-8)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — both legs short: HY OAS 3.34% (16 Nov) → 3.43% (17 Nov), wider from 3.23% (13 Nov) — needs +32bp; the 10Y par is 5.12 / 5.10 / 5.07% (16–18 Nov), still above 5%. The yield-down/credit-wider pattern the watch is built for has started, but neither threshold is met. (intel MAC A-8)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — CLOSER ON BOTH LEGS (CoS R8): HY OAS 3.47% (18 Nov) → 3.52% (19 Nov), +29bp since 13 Nov — needs >3.75% (+23bp more); the 10Y par is 5.04% (19 Nov), still above 5%, with ^TNX ~4.98% INTRADAY on Fri 20 Nov (not a close — Friday's par posts after the US close). The yield-down/credit-wider pattern the watch is built for is under way. (intel MAC A-3; markets.md A, C7)"
   }
  ],
  "top_edges": [
@@ -122,6 +123,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "US 10-year, 19–20 Nov: Treasury par 5.04% on 19 Nov (2Y 4.76%, 30Y 5.40%) from 5.07% (18 Nov) and 5.15% (13 Nov); ^TNX ~4.98 intraday Fri (below 5% — not a close; Friday's par posts after the US close). HY OAS (FRED) 3.47% (18 Nov) → 3.52% (19 Nov), +29bp since 13 Nov — WIDENING. 10Y breakeven 2.16% (19 Nov) from 2.24% (13 Nov), −8bp as oil fell. Drivers: weak data (Philly Fed 6.3; claims 203k vs 197k), flight to quality in the AI rout (TLT +0.6%, LQD +0.4% Fri; HYG flat), and the 50bp December tail vanishing. A falling 10Y with widening spreads is a growth/AI scare, not an all-clear. Crisis share ~20–30% of the week's yield fall via oil → breakevens (estimate). Spillover: India's 10Y ~7.19% from 7.25% (Reuters: 'Treasury rally spills over to Indian bonds'). DEPLOYMENT CONDITION 2 FAILS — the 10Y par is still 5.04% and the credit leg fails on widening even if Friday closes below 5%. Watch (HY OAS >3.75% with the 10Y <5%): closer on both legs, not fired. (Sources: Treasury par CSV; FRED BAMLH0A0HYM2, T10YIE; yfinance; Reuters; markets.md A, C7, G; intel MAC A-3; CoS R12)",
+   "verification": "CONFIRMED (prints) / REPORTED (causes)"
+  },
   {
    "date": "2026-11-19",
    "headline": "US 10-year, 16–18 Nov: par 5.12% / 5.10% / 5.07% (Treasury CSV; ^TNX 5.066 Wed) — still above 5%, easing 8bp from 13 Nov's 5.15% while credit widened: HY OAS (FRED) 3.23% (13 Nov) → 3.34% (16 Nov) → 3.43% (17 Nov), +23bp from 12 Nov's 3.20%; 18 Nov not posted. 2Y 4.83 / 4.80 / 4.80; 30Y 5.46 / 5.46 / 5.41. The pattern the watch is built for (yields down, credit wider) has started, but neither leg is met (OAS needs +32bp; 10Y >5%). Deployment condition 2 now FAILS on both legs. The Fed minutes tie the rate path to war energy inflation (share unknown); no outlet ties the credit move to the war.",

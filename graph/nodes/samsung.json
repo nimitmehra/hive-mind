@@ -3,14 +3,14 @@
  "name": "Samsung Electronics",
  "type": "company",
  "created": "2026-05-15",
- "last_updated": "2026-11-19",
- "summary": "Samsung, Day 241. ₩213,000 (26 Oct), −8% since 13 Oct after a 9.5% fall on 15 Oct, with record preliminary Q3 operating profit (~₩107trn) and a 3.3× forward P/E. Final Q3 on 29 Oct. No helium-driven production action.",
+ "last_updated": "2026-11-20",
+ "summary": "Samsung, Day 266. ₩183,100 on 20 Nov, −7.0% on the day and −11% on the week, as the AI/chip sell-off and new US export rules — under which Samsung and TSMC reportedly paused some chip shipments to China (FT) — took KOSPI below 5,000 for a second time. Earnings are not the issue (record Q3 operating profit; a low forward multiple); policy and the AI-valuation unwind are. No memory-pricing guidance cut and no helium-driven production action. War share ~0%.",
  "current": {
-  "price": "₩196,900 (19 Nov close)",
+  "price": "₩183,100 (20 Nov close, −7.01%)",
   "delta_1d": "−3.0% (30 Oct)",
   "attribution": "AI-ROTATION driver (post-Broadcom June 4 chip repricing), NOT a Gulf signal (~0% crisis). Helium inventory secured defuses the near-term cliff (carry-forward) — the +~6% is sentiment/positioning, not input-supply.",
   "kospi_weight": "Samsung + SK Hynix = >50% of KOSPI market cap (~72% of the index's YTD gains)",
-  "status": "No memory-pricing guidance cut."
+  "status": "No memory-pricing guidance cut; China-shipment pause reported (FT, 19 Nov)"
  },
  "active_triggers": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "Samsung ₩196,900 (19 Nov) → ₩183,100 (20 Nov close, −7.01%; −11.1% w/w) in KOSPI's second break below 5,000 — on the US AI rout and the reported Samsung/TSMC pause of some chip shipments to China under new US rules (FT; SBS). No memory-pricing guidance cut; no helium-driven action. AI/export-policy driver, ~0% war. (yfinance; SBS; markets.md A, C2)",
+   "verification": "CONFIRMED (price) / REPORTED (cause)"
+  },
   {
    "date": "2026-11-19",
    "headline": "Samsung ₩196,800 (16 Nov) / ₩190,300 (17 Nov) / ₩194,700 (18 Nov) / ₩196,900 (19 Nov close) — through KOSPI's 17-Nov break of 5,000; no memory-pricing guidance cut found. AI-rotation driver, not a Gulf signal.",
@@ -214,6 +219,13 @@
   {
    "date": "2026-07-19",
    "headline": "Running helium conservation protocols since March — non-critical use cut, high-value lines prioritised, safety stock drawn down, alternative sourcing from the US and Russia — but **no formal production cut announced.** Named alongside SK Hynix and Micron in the DRAM price-fixing class action filed 25 June, which is the single largest driver of the KOSPI's -23.1% month and is entirely non-Iranian. Korea imports 64.7% of its helium from Qatar, and the 8-12 week rationing-to-shipment lag means March/April constraints land in July-September prints. CONFIRMED."
+  }
+ ],
+ "price_snapshots": [
+  {
+   "date": "2026-11-20",
+   "price": "₩183,100 (20 Nov, −7.01%)",
+   "trigger": "AI/chip crash + reported China-shipment pause under new US rules"
   }
  ]
 }

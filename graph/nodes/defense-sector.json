@@ -3,14 +3,14 @@
  "name": "Defense & Aerospace Sector",
  "type": "sector",
  "created": "2026-03-28",
- "last_updated": "2026-11-19",
+ "last_updated": "2026-11-20",
  "summary": "Defence sector, Day 241. The primes re-rated on earnings while the ETF did not: Lockheed +20% since 13 Oct (+7% on 22 Oct after raising its 2026 outlook) and Northrop +15% on a Q3 beat, while ITA is flat at $202, still below $208. Munitions replenishment and the post-3-Nov planning support demand; the supplemental has not moved and Congress is out until mid-November.",
  "current": {
-  "price": "ITA $209.74; LMT $636.95 (30 Oct)",
+  "price": "LMT $574.37 live (20 Nov); ITA $68.67",
   "delta_1d": "LMT +2.4%",
   "delta_1m": "LMT +15.4%",
   "delta_3m": "LMT +4.3%",
-  "read": "Strike preparation already priced after October's run; non-mover in the week.",
+  "read": "Flat on CBS's assault report — no strike premium",
   "driver": "Q3 beats + replenishment demand"
  },
  "active_triggers": [
@@ -37,7 +37,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — no supplemental vote found; ITA −2.1%, LMT −1.0%. (markets A)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — no supplemental vote found (not searched); ITA −0.3%, LMT −1.3%. (markets A)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — no supplemental vote found (not searched); LMT −1.3%, ITA −0.3% (Fri). (markets)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — no supplemental vote found (not searched this run); LMT $585 / $590 / $578 (16–18 Nov), no move on the Qeshm strike or the NYT strike-planning report. (intel MAC A-9)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — no supplemental vote found (not searched this run); LMT $585 / $590 / $578 (16–18 Nov), no move on the Qeshm strike or the NYT strike-planning report. (intel MAC A-9)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — no supplemental vote found (not searched this run); the only Iran vote was the Senate's 48–51 rejection of the war-powers resolution (19 Nov). LMT $571.85 / $574.37 live and ITA $68.20 / $68.67 — not bid on CBS's assault report. (markets.md A, B; intel DIP A-7)"
   },
   {
    "condition": "ITA tests $208 sustained on Branch 3 deepening (3+ sessions)",
@@ -103,6 +104,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "Defence equities, 19–20 Nov: LMT $571.85 (Thu) / $574.37 live Fri (+0.4%; −3.6% w/w); ITA $68.20 / $68.67 (+0.7%) — NOT bid on CBS's report of a US–Israeli assault option 'in the short term' or on the PIF Tower hit: no strike premium being bought. No Pentagon supplemental vote found (not searched). (yfinance; markets.md A, B)",
+   "verification": "CONFIRMED (prices)"
+  },
   {
    "date": "2026-11-19",
    "headline": "Defence, 16–18 Nov: LMT $585 / $590 / $578 — no move on the Qeshm strike or the NYT strike-planning report; the $200bn supplemental was not searched this run.",

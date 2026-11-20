@@ -3,10 +3,10 @@
  "name": "China",
  "type": "country",
  "created": "2026-03-23",
- "last_updated": "2026-11-19",
- "summary": "China, Day 241. Silent on Iran in October (no MFA or Wang Yi statement found) while taking ~0.5 mb/d of Iranian crude in September despite zero Iranian loadings since late August. Its September crude imports fell 21% y/y with large stock draws; Q3 GDP beat at 4.5%. Trump says China is 'not much of a player'. The Trump–Xi summit produced no Hormuz commitment.",
+ "last_updated": "2026-11-20",
+ "summary": "China, Day 266. Beijing kept Iran out of its own words at Shenzhen. After the Xi–Trump and Xi–Trump–Putin meetings on 19 Nov, China's foreign ministry readouts named only 'the Middle East situation' and 'preventing the proliferation of nuclear weapons', with Xi speaking of keeping energy supply chains 'stable and unimpeded'; the joint four-point declaration covered UN reform, refined-product supply, nuclear risk and the ICC and omitted Iran. The only words at the summit naming Hormuz and Iran's nuclear programme were Trump's. So the graph's APEC watch expired unfired. China remains a large buyer of Gulf oil (SCMP headline: imports at their highest since the war began) and of Iranian crude where it can get it, and Iran has given Chinese ships selective passage; it is not a guarantor of any paper. Watches: guarantor or joint Iran–Saudi–China statement by 30 Nov — not fired; 50+ Chinese transits a week — no data.",
  "current": {
-  "status": "Day 265: Xi–Trump met in Shenzhen 19 Nov; Trump named Hormuz and Iran's nuclear programme as shared interests; no Chinese readout yet; trilateral pending; APEC watch open to 20 Nov"
+  "status": "Day 266: Shenzhen readouts (19 Nov) name 'the Middle East situation', not Iran or Hormuz; joint four-point declaration omits Iran; APEC watch EXPIRED unfired; guarantor watch open to 30 Nov"
  },
  "active_triggers": [
   {
@@ -49,7 +49,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED / NO DATA — China silent in the window; no transit count or guarantor text. (intel DIP-A5)",
    "note_2026-11-15": "[reviewed, stays watching] NO DATA. (intel KIN)",
    "note_2026-11-16": "[reviewed, stays watching] NO DATA — no count found. (intel KIN)",
-   "note_2026-11-19": "[reviewed, stays watching] NO DATA — no count found. (intel KIN A9)"
+   "note_2026-11-19": "[reviewed, stays watching] NO DATA — no count found. (intel KIN A9)",
+   "note_2026-11-20": "[reviewed, stays watching] NO DATA — no count found; SCMP headline on China's Gulf imports is not a transit count. (intel MAC cross-desk)"
   },
   {
    "condition": "Trump–Xi summit readout (25 Sep) contains a China commitment on Iran/Hormuz (pressure on Tehran, buyer sanctions carve-out, or a Hormuz 'stability' text) — OR is silent on Iran",
@@ -87,11 +88,12 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED / NO DATA — China silent in the window; no transit count or guarantor text. (intel DIP-A5)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED. (intel DIP)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED. (intel DIP)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — no paper naming China. (intel DIP A-3)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — no paper naming China. (intel DIP A-3)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — the Shenzhen readouts name only 'the Middle East situation' and the joint declaration omits Iran (CONFIRMED on MFA pages); no US–Iran or Iran–Saudi paper naming China. (intel DIP A-4)"
   },
   {
    "condition": "A Trump–Xi (or Trump–Xi–Putin) meeting at APEC Shenzhen (18–19 Nov) produces a Chinese or joint readout naming Iran or Hormuz, by 20 Nov",
-   "status": "watching",
+   "status": "expired",
    "cascade": [
     "china",
     "trump",
@@ -105,7 +107,9 @@
    "note_2026-11-13": "[reviewed, stays watching] PENDING 18–19 Nov — China silent. (intel DIP-A5)",
    "note_2026-11-15": "[reviewed, stays watching] PENDING 19 Nov — CLOSER: the White House confirms the trilateral (Thu 19 Nov); a senior US official (AFP): 'the president does intend to talk about Iran in the trilateral meeting'. No Chinese statement yet. (intel DIP-A5)",
    "note_2026-11-16": "[reviewed, stays watching] PENDING (19 Nov) — China's MFA confirms the meeting without mentioning Iran; a senior US official calls it 'the entry point, the first conversation'. (intel DIP-6)",
-   "note_2026-11-19": "[reviewed, stays watching] PENDING to 20 Nov — CLOSER, not fired. Trump–Xi met ~11:06–12:15 IST Thu at Kylin Villa; Trump at the table: 'Both the United States and China have an interest in ensuring that energy flows through the Strait of Hormuz' and 'Iran cannot have a nuclear weapon, we both feel that very strongly' (REPORTED, NBC/Fox). Those are a US president's words, not a Chinese or joint readout; no Xinhua/MFA readout of the talks published at ~13:00 IST; the trilateral is still 'later today'. Re-check the Chinese readouts after the trilateral. (intel DIP A-3)"
+   "note_2026-11-19": "[reviewed, stays watching] PENDING to 20 Nov — CLOSER, not fired. Trump–Xi met ~11:06–12:15 IST Thu at Kylin Villa; Trump at the table: 'Both the United States and China have an interest in ensuring that energy flows through the Strait of Hormuz' and 'Iran cannot have a nuclear weapon, we both feel that very strongly' (REPORTED, NBC/Fox). Those are a US president's words, not a Chinese or joint readout; no Xinhua/MFA readout of the talks published at ~13:00 IST; the trilateral is still 'later today'. Re-check the Chinese readouts after the trilateral. (intel DIP A-3)",
+   "status_changed": "2026-11-20",
+   "note_2026-11-20": "[watching → expired] EXPIRED UNFIRED at its 20-Nov deadline (CoS R8). Its own 19-Nov test: a CHINESE or JOINT readout naming Iran or Hormuz — not a US president's words. China's MFA readouts (CONFIRMED, read on fmprc.gov.cn): the Xi–Trump readout (updated 19 Nov 18:00 Beijing) covers Taiwan, trade, fentanyl, AI security and cooperation in 'farm products, energy, super intelligence and other fields' — no Iran, Hormuz or Middle East; the trilateral readout (updated 22:15 Beijing) names only 'the Ukraine crisis, preventing the proliferation of nuclear weapons, the Middle East situation, and the Korean Peninsula', with Xi on keeping energy supply chains 'stable and unimpeded'. The joint four-point 'China-Russia-U.S. Heads of State Declaration Toward Peace' (UN reform; refined-product supply; nuclear risk; the ICC) omits Iran (ABC: it 'made no mention of' Ukraine or the war with Iran; read via relays, full text not read). 'The Middle East situation' is not 'Iran'; the declaration's oil point is not 'Hormuz'. The only Shenzhen words naming Hormuz and Iran remain Trump's own at the table (REPORTED, NBC/Fox, 19 Nov). (intel DIP A-4; CoS R8)"
   }
  ],
  "top_edges": [
@@ -154,6 +158,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "SHENZHEN, FINAL: China's readouts name 'the Middle East situation', not Iran or Hormuz (CONFIRMED on China's MFA pages). Xi–Trump readout (MFA, updated 19 Nov 18:00 Beijing = 15:30 IST): Taiwan, trade, fentanyl, AI security and an 'action plan' on a 'constructive relationship of strategic stability'; Trump quoted on cooperation in 'farm products, energy, super intelligence and other fields' — no Iran, Hormuz or Middle East. Trilateral readout (MFA, updated 19 Nov 22:15 Beijing): the leaders 'exchanged views on major regional and international issues, including the Ukraine crisis, preventing the proliferation of nuclear weapons, the Middle East situation, and the Korean Peninsula'; Xi: 'As global energy security faces serious challenges', the three could keep supply chains 'stable and unimpeded' — no Iran, Hormuz or strait. The joint 'China-Russia-U.S. Heads of State Declaration Toward Peace' (four points: UN reform; more output and supply of refined petroleum products; nuclear-risk dialogue; opposition to ICC 'jurisdiction abuse') 'made no mention of' Ukraine or the war with Iran (ABC; full text not read). Neither Xi nor Putin raised Iran publicly (AFP via relays). The only Shenzhen words naming Hormuz and Iran remain Trump's own at the table. The `china` APEC watch EXPIRES unfired. Separately, SCMP (20 Nov, headline): China's Gulf oil imports at their 'highest level since start of Iran war' (REPORTED, unread). (Sources: fmprc.gov.cn t20261119_12063139 and _12063266; ABC; AFP relays; intel DIP A-4; CoS R8)",
+   "verification": "CONFIRMED"
+  },
   {
    "date": "2026-11-19",
    "headline": "Shenzhen, Thu 19 Nov: Trump met Xi at Kylin Villa (~11:06–12:15 IST) after a ~40-minute meeting with Putin; the trilateral was still 'later today' at 12:49 IST (NBC). Trump at the table with Xi: 'Both the United States and China have an interest in ensuring that energy flows through the Strait of Hormuz'; 'Iran cannot have a nuclear weapon, we both feel that very strongly' (REPORTED, NBC/Fox liveblogs). China's MFA site carried Xi's APEC remarks and the welcome but NO readout of the Xi–Trump talks at ~13:00 IST; spokesman Guo Jiakun had promised 'in-depth discussions regarding vital global peace issues'. The APEC watch (a Chinese or joint readout naming Iran or Hormuz, by 20 Nov) is closer, pending. Hong Kong fell ~2% Thu (Tencent, Alibaba; 'US-China trade tensions' headline unread; a tax crackdown per SCMP) — not Iran.",

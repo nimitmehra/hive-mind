@@ -3,10 +3,10 @@
  "name": "Energy Sector (Global)",
  "type": "sector",
  "created": "2026-03-28",
- "last_updated": "2026-11-19",
+ "last_updated": "2026-11-20",
  "summary": "Energy sector, Day 241. XLE +3% and Exxon/Chevron +5–7% since 13 Oct while front-month Brent rose 10% — equities track the flat back of the curve, not the event premium. Exxon and Chevron report on 30 Oct.",
  "current": {
-  "price": "XLE $70.02 (30 Oct)",
+  "price": "XLE $61.27 live (20 Nov); $60.89 (19 Nov)",
   "delta_1d": "+1.9%",
   "delta_1m": "+10.8% (script)",
   "delta_3m": "+17.0%",
@@ -36,7 +36,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — XLE +1.5%. (markets A)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — XLE +1.0%. (markets A)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — XLE +1.0% (Fri); nowhere near the largest sector by weight. (markets)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — XLE $63.69 / $63.36 / $61.29 (−3.3% Wed with crude and the commodity rout). (intel MAC A-9)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — XLE $63.69 / $63.36 / $61.29 (−3.3% Wed with crude and the commodity rout). (intel MAC A-9)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — XLE $60.89 (19 Nov) / $61.27 live (20 Nov), −5.7% w/w; energy was among the few gainers in Thursday's AI sell-off. (markets.md A)"
   },
   {
    "condition": "Energy-sector vs Brent divergence resolves within 21 days (by 2026-05-19) — sector ETF (XLE) -7.7% 1M while Brent flat-positive 1M",
@@ -79,6 +80,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "Energy equities, 19–20 Nov: XLE $60.89 (Thu) / $61.27 live Fri (+0.6%; −5.7% w/w); Exxon $158.93 / $160.10 — energy was among the few gainers in Thursday's AI sell-off but is down on the week with crude. TASI 10,158.90 Thu (−0.40%), Aramco 26.48; no outlet ties TASI to the PIF Tower hit. Far from the largest S&P sector. (yfinance; markets.md A; intel SAU A5)",
+   "verification": "CONFIRMED (prices)"
+  },
   {
    "date": "2026-11-19",
    "headline": "US energy equities fell with crude and the commodity rout: XLE $63.69 / $63.36 / $61.29 (−3.3% Wed; Exxon −4.0% Wed). Tadawul: TASI 10,200.16 (−0.52% Wed; Arab News), Aramco SR26.38 (ex-dividend 17 Nov) — no outlet ties either to the Riyadh fire. Indian OMCs +1.5–1.9% since Friday as Brent fell.",

@@ -3,12 +3,12 @@
  "name": "S&P 500",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-19",
- "summary": "S&P 500, Day 265. 7,323.63 (18 Nov), −3.15% since 13 Nov, with Tuesday's 7,340.53 the lowest close since July. The drivers are ~90% non-war: Monday's chip rout on the US export rule, Tuesday's tech-outage headlines and software selling before Anthropic's IPO, and Nvidia's fade after a beat. CNBC cites no Iran link even on the day of the US Qeshm strike. The war's route into US equities is indirect — through energy-led inflation that keeps the Fed hiking — and credit spreads are starting to widen (+23bp). Watch: a 20% bear market — not fired.",
+ "last_updated": "2026-11-20",
+ "summary": "S&P 500, Day 266. 7,175.83 on 19 Nov after a −2.02% day, its sixth straight loss and −5.1% on the week, with the Nasdaq in correction and the Dow below 50,000 for the first time since June. The drivers are AI and chips, not the war: the AMD short report, the 'sell the rally' trade around Anthropic's record IPO, US export curbs hitting TSMC and Samsung, and a weak Philly Fed — no outlet read names Iran, and Trump's 'no rush' on Iran came after the falls. The war's route into US equities is indirect — energy-led inflation keeping the Fed hiking — and that route is weakening as oil falls and the market drops the 50bp tail. Credit spreads are widening (HY OAS 3.52%), so the falling 10-year reads as a growth/AI scare, not an all-clear. Watch: 20% bear market — not fired.",
  "current": {
-  "price": "7,323.63 (18 Nov close)",
-  "driver": "Chip rout, tech outages, pre-Anthropic software selling, Nvidia fade (CNBC); ~5–10% war",
-  "regime": "AI/tech-led drawdown (−3.15% since 13 Nov), not war-led; credit starting to widen"
+  "price": "7,175.83 (19 Nov close, −2.02%); 7,176.94 live (20:37 IST 20 Nov)",
+  "driver": "AMD short report + Anthropic IPO 'sell the rally' + TSMC/Samsung China-shipment pause + weak Philly Fed (CNBC); ~0–5% war",
+  "regime": "AI/tech-led drawdown (−5.1% w/w; Nasdaq in correction), not war-led; HY spreads widening"
  },
  "active_triggers": [
   {
@@ -50,7 +50,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — 7,592.40 (−0.35%), ~3% below the record. (intel MAC-A7)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — 7,561.67 (−0.40%), ~3.3% below the record. (intel MAC-A6)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — S&P 7,561.67 (Fri); ES −0.8% Mon. (markets)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — S&P 7,416.59 / 7,340.53 (−1.03%; lowest close since July) / 7,323.63 (16–18 Nov), single-digit % below the October record. (intel MAC A-9)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — S&P 7,416.59 / 7,340.53 (−1.03%; lowest close since July) / 7,323.63 (16–18 Nov), single-digit % below the October record. (intel MAC A-9)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — S&P 7,175.83 (19 Nov, −2.02%; sixth straight loss; −5.1% w/w); 7,176.94 live Fri. The 18-Nov close was single-digit % below the October record and Thursday's is 2.0% lower — still short of −20%. Nasdaq in correction (≥10% off its record). AI/chip-led, not war-led. (markets.md A, C1)"
   },
   {
    "condition": "VIX cash breaks above 22 on Wednesday ceasefire lapse (binary escalation-hedging threshold)",
@@ -142,6 +143,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "S&P 500 −2.02% to 7,175.83 on Thu 19 Nov (Dow −2.19% to 49,097.06, first close below 50,000 since June; Nasdaq −2.25% to 23,879.20, in correction) — a sixth straight loss, −5.1% w/w. AN AI/CHIP SELL-OFF, NOT THE WAR (war share ~0–5%): two 5-minute legs — 20:40–21:05 IST (ES 7,409 → 7,293), speeding at 21:00 IST with Hunterbrook's AMD short report; 22:20–22:35 IST (ES 7,332 → 7,210) as Anthropic's IPO opened at $111.50 vs $83 ('sell the rally', Bogart Wealth via CNBC); earlier a weak Philly Fed (6.3 vs ~18–20 expected, 19:00 IST) and the FT's 15:51 IST TSMC/Samsung China-shipment report. Sosnick (Interactive Brokers): selling sped up after the S&P broke ~7,300. None of five outlets read names Iran; energy was among the few gainers; Trump's 'no rush' (23:34 IST) came after both legs. Fri live 20:37 IST: 7,176.94 (+0.02%; low 7,133.55; Dow +0.9% on rotation out of tech) — not a close. (Sources: CNBC; Motley Fool; Interactive Brokers; yfinance bars; markets.md A, B, C1; intel MAC B-1, B-3; CoS R6)",
+   "verification": "CONFIRMED (closes) / REPORTED (causes)"
+  },
   {
    "date": "2026-11-19",
    "headline": "S&P 500 7,416.59 (Mon 16, −1.92%) / 7,340.53 (Tue 17, −1.03%; lowest close since July per marketspeaker) / 7,323.63 (Wed 18, −0.23%) — −3.15% since 13 Nov. Dow 51,608 / 50,759.42 (−1.64%) / 50,198. Drivers: Monday's chip rout (SOX −5.28%); Tuesday 'a barrage of headlines from nationwide tech outages', software selling ahead of Anthropic's IPO and Nvidia nerves (CNBC; 'not just AI stocks'); Wednesday's Nvidia fade. CNBC does not cite Iran; the big ES drop Tuesday was at the US open, ~2 h after the first Qeshm stamps. Crisis share ~5–10%.",

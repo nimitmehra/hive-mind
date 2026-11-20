@@ -3,10 +3,10 @@
  "name": "Red Sea / Suez Canal",
  "type": "trade_route",
  "created": "2026-03-28",
- "last_updated": "2026-11-19",
- "summary": "Red Sea / Bab el-Mandeb, Day 241. Still a held, unused chokepoint for neutral shipping: no attributed Houthi attack on a non-Saudi hull in ~45 days since Perim; Suez had its busiest month since Dec 2023 in September; neutral war-risk cover ~0.2–0.3% vs 3–7% for Saudi-linked calls (last print 25 Sep). The Houthis' fire goes at Saudi Arabia instead. Aspides lacks ships; Egypt is moving toward a defensive deployment to the kingdom.",
+ "last_updated": "2026-11-20",
+ "summary": "Red Sea / Bab el-Mandeb, Day 266. Still a held, unused chokepoint for neutral shipping: the Houthis hold the Bab el-Mandeb coast after the government's withdrawal (15 Nov), but there has been no confirmed Houthi attack on a non-Saudi ship for 70 days (since 11 Sep); a skiff attack on a bulk carrier off Mukalla (20 Nov) is unattributed piracy. What changed is the Saudi side of the sea: on 20 Nov the Houthis threatened Jeddah and 'all Saudi ports along the Red Sea coast' — Yanbu, the kingdom's Hormuz-bypass outlet, among them by geography — and told shipping companies to evacuate their ships, conditional on a strike on Hodeidah port, which the coalition then carried out on its own account. A follow-through would put Saudi Red Sea exports at risk; none had been found by Friday evening. No Red Sea war-risk print since late September (neutral cover then ~0.2–0.3% vs 3–7% for Saudi-linked calls). Watches: Houthi attack on commercial shipping — not fired; war-risk ≥2% or a container-line suspension — no data.",
  "current": {
-  "status": "Bab el-Mandeb under Houthi territorial control (11 Sep); Saudi ships targeted, others declared safe; Yanbu feed pipeline shut; container rates flat (already Cape-routed); Red Sea war-risk print GAP."
+  "status": "Day 266: 70 days without a Houthi attack on a non-Saudi ship; Mukalla skiff attack on a bulk carrier (20 Nov) unattributed; Houthis threaten 'all Saudi ports along the Red Sea coast' after the coalition's Hodeidah port strike (20 Nov); Red Sea war-risk print GAP"
  },
  "active_triggers": [
   {
@@ -37,7 +37,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED (~63 days). (intel SAU)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED (~65 days). (intel SAU-A4)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — 66 days without a Houthi attack on a non-Saudi ship; Reuters: the withdrawal 'hands the Houthis greater leverage over the maritime choke point'. (intel SAU-A3/A4)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — 69 days without a Houthi attack on a non-Saudi ship. The coalition's 17-Nov operation names 'neutralise the naval threat' among its aims (first use in the window). (intel SAU A4, B3)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — 69 days without a Houthi attack on a non-Saudi ship. The coalition's 17-Nov operation names 'neutralise the naval threat' among its aims (first use in the window). (intel SAU A4, B3)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — 70 days without a Houthi attack on a non-Saudi ship; the Mukalla skiff (20 Nov, Gulf of Aden) is unattributed and excluded. Closer in risk: Saree's 20-Nov threat to 'all Saudi ports along the Red Sea coast' and order to shipping companies, with Hodeidah now struck (RHETORIC; no ship or port hit found as of ~20:25 IST). (intel SAU A4, B1; CoS R4)"
   },
   {
    "condition": "Red Sea/Bab el-Mandeb war-risk premium print ≥2% of hull (Lloyd's/Marsh) OR a major container line announces suspension of remaining Red Sea/Suez services citing Perim",
@@ -65,7 +66,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NO DATA. (markets F)",
    "note_2026-11-15": "[reviewed, stays watching] NO DATA. (markets F)",
    "note_2026-11-16": "[reviewed, stays watching] NO DATA — no Red Sea war-risk print found after the withdrawal. (intel MAC, SAU)",
-   "note_2026-11-19": "[reviewed, stays watching] NO DATA — no Red Sea war-risk print found; JMIC 113: Bab el-Mandeb ~23 transits/day (8–11 Nov). (intel SAU A4, MAC B-1)"
+   "note_2026-11-19": "[reviewed, stays watching] NO DATA — no Red Sea war-risk print found; JMIC 113: Bab el-Mandeb ~23 transits/day (8–11 Nov). (intel SAU A4, MAC B-1)",
+   "note_2026-11-20": "[reviewed, stays watching] NO DATA — no Red Sea war-risk print found; no container-line suspension announced. (intel SAU trigger summary; markets.md F)"
   }
  ],
  "top_edges": [
@@ -90,8 +92,9 @@
    "type": "transit_route",
    "weight": 7.5,
    "directness": 1,
-   "last_activated": "2026-04-14",
-   "activation_count": 5
+   "last_activated": "2026-11-20",
+   "activation_count": 5,
+   "context": "20 Nov: Houthi order to shipping companies to 'immediately evacuate their ships' from Saudi Red Sea ports (RHETORIC); Mukalla skiff attack unattributed. [activation at unchanged weight: reported/preparation/rhetoric or tangential]"
   },
   {
    "to": "brent-crude",
@@ -103,6 +106,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "Red Sea / Bab el-Mandeb, 19–20 Nov: 70 DAYS without a confirmed Houthi attack on a non-Saudi merchant ship (11 Sep → 20 Nov). A UKMTO alert (Fri 20 Nov; GN 19:12 IST): 'A bulk carrier came under fire from an armed skiff about 95 nautical miles south-west of Al Mukalla, Yemen' — no damage reported; Gulf of Aden; a piracy pattern; UNATTRIBUTED and excluded from the count (JMIC 115 also logs two armed-skiff approaches off Yemen 16–17 Nov). The risk rose in kind, not in act: on 20 Nov the Houthis threatened 'all Saudi ports along the Red Sea coast' and told shipping companies to 'immediately evacuate their ships from these ports' if Hodeidah was struck, and the coalition then struck Hodeidah port (coalition account) — RHETORIC on the Houthi side; no strike on a Saudi port or a ship found as of ~20:25 IST. No Red Sea war-risk print found. (Sources: UKMTO via Gulf News/ToI; JMIC 115; Reuters; intel SAU A4, B1; CoS R4)",
+   "verification": "CONFIRMED (count, UKMTO alert) / RHETORIC (port threat)"
+  },
   {
    "date": "2026-11-19",
    "headline": "Red Sea / Bab el-Mandeb, 16–19 Nov: 69 days without a confirmed Houthi attack on a non-Saudi merchant ship (11 Sep → 19 Nov); UKMTO's VRA overview to 13 Nov: no attacks in the Red Sea/Bab el-Mandeb that week, none since 24 Aug; JMIC 113: ~23 transits/day (8–11 Nov). New wire wording on control: AP, the Houthis 'tightened their grip on the Red Sea strait'; Reuters, 'have seized the Red Sea coast and strategic Bab el-Mandeb strait'. A Sanaa source (The National): the aim is 'securing it, not closing it'. The coalition's 17-Nov operation lists 'neutralise the naval threat' among its aims (first use in the window). No US strike on Houthi positions; no war-risk print.",

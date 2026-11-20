@@ -3,11 +3,11 @@
  "name": "CF Industries Holdings",
  "type": "company",
  "created": "2026-05-12",
- "last_updated": "2026-11-19",
+ "last_updated": "2026-11-20",
  "summary": "CF Industries, Day 241. $120.68, roughly flat: there is no fertilizer supply shock (India's urea tender drew three times the volume sought, rabi stocks +54% y/y). The April fertilizer cascade has unwound.",
  "current": {
-  "price": "$123.30 (30 Oct)",
-  "delta_1d": "+4.4%",
+  "price": "$118.55 live (20 Nov); $115.76 (19 Nov)",
+  "delta_1d": "+2.4% live (20 Nov)",
   "delta_1m": "+1.9%",
   "delta_3m": "−3.0%",
   "driver": "Energy/ag-chem rotation on 30 Oct; urea itself in glut."
@@ -77,6 +77,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "CF Industries +1.8% (19 Nov, $115.76) and +2.4% live (20 Nov, $118.55): +4.2% in two days with TTF +8%. NOT ATTRIBUTED by any outlet; markets.md infers that higher European gas raises the marginal (European) nitrogen producer's cost — our inference, logged on `european-ttf-gas → fertilizer-urea → cf-industries` as a note, no activation. (markets.md A, B, E4)",
+   "verification": "CONFIRMED (price) / inference"
+  },
   {
    "date": "2026-11-19",
    "headline": "CF Industries $119.85 / $119.34 / $113.70 (−4.7% Wed), Nutrien −4.8% Wed — fell with the commodity rout; no new Middle East urea FOB print (~$420/t, 12 Nov, last known); StoneX (19 Nov): ammonia/UAN plants 'sold out for months'; DTN: US retail fertiliser prices edge higher.",

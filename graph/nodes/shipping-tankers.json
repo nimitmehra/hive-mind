@@ -3,12 +3,12 @@
  "name": "Shipping / Tanker Rates",
  "type": "sector",
  "created": "2026-03-23",
- "last_updated": "2026-11-19",
- "summary": "Tankers, Day 265. Two stories pull against each other. Freight is correcting hard: the Gulf of Oman–China VLCC rate was ~308 on 13 Nov, 64% below its 8-Oct record, as Gulf exporters return toward pre-war volumes and ships free up, and trade press expects more downside from ballasters arriving in the Gulf; Frontline has drifted to ~$44. Yet the attacks got worse: four projectile hits on tankers in transit north of Khasab on 16–18 Nov, with the first casualties of this round (an Indian missing from the abandoned LPG carrier Tara Gas; an ADNOC L&S crew member missing and 11 injured). No attacker is named. The inside-versus-outside-Hormuz freight gap (~$770k/day on 13 Nov) is the war premium that remains; no new war-risk quote has been printed since mid-October. Red Sea tanker traffic is untouched by the Houthis for 69 days. Watches: Houthi Red Sea attacks — not fired; AWRP below 0.8% — no data.",
+ "last_updated": "2026-11-20",
+ "summary": "Tankers, Day 266. Two stories still pull against each other. Freight is correcting: the benchmark VLCC Gulf–China rate fell 17.9% in the week to 13 Nov to about $1.06m a day, its lowest since mid-September, as Gulf exports recover (Reuters: 'roughly pre-war'; Kpler: about half the early-November level — unreconciled) and Frontline drifts in the mid-$40s. Yet the attacks of 16–18 Nov off Khasab were the deadliest of this round — an Indian missing from Tara Gas, a Jordanian missing and 11 injured from the ADNOC L&S tanker NAVIG8 MESSI, a ship on Iran's non-compliance list — and trade press says repeated attacks keep shrinking the pool of owners willing to work the Gulf. No attacker has been named; no new hit was logged on 19–20 Nov. No war-risk quote has been printed since mid-October. The Red Sea is untouched by the Houthis for 70 days, but on 20 Nov they told shipping companies to pull ships out of Saudi Red Sea ports after the coalition struck Hodeidah. Watches: Houthi Red Sea attacks — not fired; AWRP below 0.8% — no data.",
  "current": {
-  "status": "VLCC TD3C ~$982k/day (Fri 11 Sep; Clarksons >$1m) — 2x in a month, ~20x baseline; Frontline +24.4% 1M, BOAT +17.2%. The physical war premium at its extreme; containers flat (WCI $4,476).",
-  "frontline": "$44.41 (18 Nov)",
-  "price": "TD34 Gulf of Oman→China ~308 (13 Nov; −64% from 841 on 8 Oct, Baltic via Reuters); last TD3C WS1014.38 / $1,078,714/day (13 Nov)",
+  "status": "Day 266: NAVIG8 MESSI (listed ADNOC tanker) identified as the 17-Nov hit; no new logged hit 19–20 Nov; Houthi order to evacuate ships from Saudi Red Sea ports (rhetoric); freight correcting",
+  "frontline": "$45.93 live (20 Nov, +2.6%); $44.75 (19 Nov)",
+  "price": "TD3C $1.06m/day (13 Nov, −17.9% w/w, lowest since 14 Sep); TD22 $232k/day (13 Nov); no 16–20 Nov print",
   "driver": "Hormuz attack tape + shuttle trade tying up ~20% of VLCCs; floor found.",
   "regime": "CORRECTING ON RECOVERING FLOWS WHILE HITS TURN LETHAL: rates down ~64% from the October record; four projectile hits 16–18 Nov, attacker unnamed"
  },
@@ -38,7 +38,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED. (intel SAU)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED. (intel SAU)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — no Houthi attack on a non-Saudi ship in 66 days, despite the government's Bab el-Mandeb withdrawal (15 Nov). (intel SAU-A4)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — 69 days without a Houthi attack on a non-Saudi ship (since 11 Sep); UKMTO VRA overview to 13 Nov: no attacks in the Red Sea/Bab el-Mandeb. (intel SAU A4)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — 69 days without a Houthi attack on a non-Saudi ship (since 11 Sep); UKMTO VRA overview to 13 Nov: no attacks in the Red Sea/Bab el-Mandeb. (intel SAU A4)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — 70 days without a Houthi attack on a non-Saudi ship; the 20-Nov port threat is RHETORIC; the Mukalla skiff is unattributed. (intel SAU A4, B1)"
   },
   {
    "condition": "Lloyd's AWRP Persian Gulf rate falls below 0.8% for 5 consecutive sessions (Branch 3 deepening test)",
@@ -66,7 +67,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NO DATA — attacks rising (JMIC four in the week). (intel KIN; markets F)",
    "note_2026-11-15": "[reviewed, stays watching] NO DATA — the reported 3–10% band is far above it. (markets F)",
    "note_2026-11-16": "[reviewed, stays watching] NO DATA — no AWRP print; direction is further (UKMTO tanker attack; threat 'severe'). (intel MAC B-4)",
-   "note_2026-11-19": "[reviewed, stays watching] NO DATA — no AWRP print; direction is further (four projectile hits with casualties 16–18 Nov). (intel MAC B-1, KIN A9)"
+   "note_2026-11-19": "[reviewed, stays watching] NO DATA — no AWRP print; direction is further (four projectile hits with casualties 16–18 Nov). (intel MAC B-1, KIN A9)",
+   "note_2026-11-20": "[reviewed, stays watching] NO DATA — no AWRP print (latest mid-October 6–10% of hull; ~3% early November in an unopened summary). Direction further: a listed ADNOC tanker struck with casualties (17 Nov); trade press (20 Nov): attacks 'continue to restrict the pool of owners willing to accept Gulf employment'; a MARAD memo warns of further war-risk spikes (headline). (intel KIN A9; markets.md F)"
   }
  ],
  "top_edges": [
@@ -104,6 +106,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "Tankers, 19–20 Nov: the 17-Nov ADNOC L&S ship is NAVIG8 MESSI (75,681-dwt product tanker; JMIC 115 and Maritime Executive — REPORTED), a ship on Iran's 2/3-Nov non-compliance list; its missing crewman is Jordanian (Jordan MFA). No new UKMTO-logged hit in the window; Iranian 'mine' claims on unnamed supertankers are CLAIMED. Freight keeps correcting while risk persists: VLCC TD3C (MEG → China) $1.06m/day on 13 Nov, −17.9% w/w, lowest since 14 Sep; TD22 $232k/day (−44.1% w/w) (Baltic via Signal Ocean, Cyprus Shipping News 20 Nov; no 16–20 Nov print); trade tone: 'Repeated attacks continue to restrict the pool of owners willing to accept Gulf employment' and 'elevated war-risk insurance costs' persist. A MARAD memo (reported 20 Nov, headline) warns of further war-risk spikes and crew refusals. Red Sea: on 20 Nov the Houthis told shipping companies to 'immediately evacuate their ships' from Saudi Red Sea ports (RHETORIC); 70 days without a Houthi attack on a non-Saudi ship. Frontline $45.93 live (+2.6% Fri; cause not found). (Sources: JMIC 115; Maritime Executive; Cyprus Shipping News; Reuters; markets.md A, F; intel KIN A5–A7, SAU A4)",
+   "verification": "REPORTED"
+  },
   {
    "date": "2026-11-19",
    "headline": "Tankers, 16–19 Nov: projectile hits on tankers in transit north of Khasab — ON Phoenix (16 Nov, engine-room fire), Tara Gas (LPG; 16 and 17 Nov; abandoned; one Indian missing), an ADNOC L&S ship (17 Nov; 11 injured, 1 missing) and an outbound tanker (18 Nov) — attacker unnamed (UKMTO; owners). Freight is going the other way: Reuters (16 Nov; Baltic) puts the Gulf of Oman→China VLCC rate ~308 on 13 Nov, −64% from the 8-Oct record 841 (unit unverified; matches our TD34 series), as Gulf exporters return toward pre-war flows and ships free up in East Asia; Lloyd's List (17 Nov): 'Crude tanker rates stabilise as post-spike correction loses steam'; TradeWinds: ballasters 'threaten to push down Middle East VLCC rates further'. No TD3C print for 16–19 Nov. Frontline $45.44 / $45.32 / $44.41 (16–18 Nov). No AWRP print; Red Sea: 69 days without a Houthi attack on a non-Saudi ship.",

@@ -3,15 +3,15 @@
  "name": "INR/USD Exchange Rate",
  "type": "index",
  "created": "2026-03-23",
- "last_updated": "2026-11-19",
- "summary": "Rupee, Day 265. The rupee has turned from capped to firm on record foreign equity inflows: PTI closes of 93.94, 93.51 (a seven-month high) and 93.41 on 16–18 Nov, with an intraday best of 93.255, as about $10bn of November equity money, softer crude and the unwinding of bearish NDF positions outweighed a dollar at its highest since April 2025. The RBI's October curbs on speculative hedging remain in place and no intervention was reported this week. The oil link now runs mostly through flows: Brent below $95 helps, but the rupee's next move depends on whether the FII buying — partly an AI-trade rotation out of North Asia — continues. Watches: stronger than 93 with Brent below $103 for three sessions — closer (41 paise away on closes); a PTI close weaker than 95 by 30 Nov — further.",
+ "last_updated": "2026-11-20",
+ "summary": "Rupee, Day 266. The rupee broke through 93: PTI closes of 93.32 on 19 Nov and 92.67 on 20 Nov (provisional), the first close stronger than 93 since 10 April and, per BS, on course for its best month in eight years. The driver is money, not the war: record foreign equity inflows (about $13bn in November, much of it a rotation out of the AI trade in Korea and Taiwan), plus lower crude and exporter sales; no report says the RBI bought dollars into the move, though dealers think it could. The same week's reserves print fell $14.2bn (mostly gold valuation and FX-swap maturities, per Reuters), which is not a run on the rupee. The oil link now runs mostly through flows. Watches: stronger than 93 with Brent below $103 for three sessions — session 1 of 3 (earliest Wed 25 Nov; Tue 24 Nov is an NSE/currency holiday, Guru Nanak Jayanti); weaker than 95 by 30 Nov — further; RBI OMC facility wind-down — not fired.",
  "current": {
-  "price": "93.41 (PTI close, 18 Nov); ~93.33 live (13:16 IST 19 Nov)",
-  "note": "Watches: <93 with Brent <$103 for 3 sessions — closer; weaker than 95 by 30 Nov — further",
-  "driver": "Record FII inflows (~$10bn Nov) + softer crude + NDF unwinding; capped by DXY at its highest since April 2025",
-  "delta_1d": "+10 paise (18 Nov)",
-  "regime": "FLOW-LED STRENGTH: 94.50 cap long broken; testing 93; RBI curbs in place, no intervention reported",
-  "level": "93.41 (PTI close 18 Nov) — seven-month high; intraday best 93.255 (18 Nov)"
+  "price": "92.67 (PTI provisional close, 20 Nov); 93.32 (19 Nov)",
+  "note": "Watches: <93 with Brent <$103 for 3 sessions — session 1 (earliest fire Wed 25 Nov (Tue 24 Nov: NSE/currency holiday, Guru Nanak Jayanti)); weaker than 95 by 30 Nov — further",
+  "driver": "~$13bn November inflows (AI rotation) + lower crude + exporter sales (BS); no RBI buying reported",
+  "delta_1d": "+65 paise (20 Nov)",
+  "regime": "FLOW-LED STRENGTH THROUGH 93: session 1 of 3 for the <93 watch",
+  "level": "92.67 (20 Nov) — first close stronger than 93 since 10 April"
  },
  "active_triggers": [
   {
@@ -95,7 +95,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — FURTHER: 94.0–94.2. (intel IND-A3)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — FURTHER: 94.20. (intel IND)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED. (intel IND)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — CLOSER: PTI closes 93.94 (Mon) / 93.51 (Tue, 'seven-month high') / 93.41 (Wed); intraday best 93.255 Wed (Reuters); Thu ~93.30 (yfinance 12:54 IST). The Brent leg (below $103) is met; no session has closed below 93 (41 paise away). (intel IND-A3; CoS R11)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — CLOSER: PTI closes 93.94 (Mon) / 93.51 (Tue, 'seven-month high') / 93.41 (Wed); intraday best 93.255 Wed (Reuters); Thu ~93.30 (yfinance 12:54 IST). The Brent leg (below $103) is met; no session has closed below 93 (41 paise away). (intel IND-A3; CoS R11)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — CLOSER: SESSION 1 OF 3 (CoS R8). PTI closes 93.32 (Thu 19 Nov — not below 93) and 92.67 (Fri 20 Nov, provisional, +65 paise) — the first close stronger than 93 since 10 April (PTI; REPORTED). The Brent leg (below $103) is met ($91.98 settle; ~$90.9 live). Needs two more PTI closes below 93 — earliest fire Wed 25 Nov (Tue 24 Nov: NSE/currency holiday, Guru Nanak Jayanti). No report that the RBI bought dollars. (intel IND-A3; markets.md A, G; CoS R8, R11)"
   },
   {
    "condition": "RBI OMC special-credit-facility wound down (Branch 3 sub-$103 sustained 2-3 sessions)",
@@ -122,7 +123,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — no RBI facility change reported. (intel IND-A3)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — no change reported. (intel IND)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — nothing reported. (intel IND)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — nothing reported. (intel IND-A3)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — nothing reported. (intel IND-A3)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — nothing reported. (intel IND-A3)"
   },
   {
    "condition": "USD/INR breaks ₹96.60 cleanly and holds for 3+ sessions — a clean break of the all-time record, distinct from the current touch-and-hold",
@@ -193,7 +195,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — CLOSER: PTI 94.04 provisional, restated 94.12 (12 Nov); Friday ~94.05–94.22. (intel IND-A3)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — slightly CLOSER: PTI 94.20 provisional (13 Nov); weakest 94.28. (intel IND)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — FURTHER: ~94.07–94.22 intraday Mon (PTI open 94.22); Friday 94.19 restated. (intel IND)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — FURTHER: best close 93.41 (Wed). (intel IND-A3)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — FURTHER: best close 93.41 (Wed). (intel IND-A3)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — FURTHER: 92.67 (20 Nov, PTI provisional). (intel IND-A3)"
   }
  ],
  "top_edges": [
@@ -234,6 +237,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "RUPEE THROUGH 93: PTI closes 93.32 (Thu 19 Nov) and 92.67 (Fri 20 Nov, provisional, +65 paise) — the first close stronger than 93 since 10 April (PTI; REPORTED, attributed); Reuters: 'strongest level since April'; BS headline: the rupee is 'set for best monthly gain in 8 years'. Drivers (BS): ~$13bn of November inflows, lower crude, exporter sales — crisis share ~30% via crude (estimate). NO REPORT THAT THE RBI BOUGHT DOLLARS — BS says only that 'market participants' think it 'could'. The <93 with Brent <$103 ×3 watch: session 1 of 3 (Brent leg met: $91.98 settle, ~$90.9 live); earliest fire Wed 25 Nov (Tue 24 Nov: NSE/currency holiday, Guru Nanak Jayanti). (Sources: PTI; Reuters; BS; markets.md A, B, C6, G; intel IND-A3; CoS R8, R11)",
+   "verification": "REPORTED (PTI close, provisional)"
+  },
   {
    "date": "2026-11-19",
    "headline": "Rupee at a seven-month high, not through 93: PTI closes 93.94 (Mon 16) / 93.51 (Tue 17, +43 paise, 'seven-month high', the level of 21 April) / 93.41 (Wed 18, +10 paise); intraday best 93.255 Wed (Reuters: 'reversing course from a seven-month peak'); Thursday PTI open 93.40, 93.49 early, ~93.33 yfinance 13:16 IST. Drivers: softer crude, ~$10bn of November equity inflows and NDF bearish positions unwinding, capped by a firm dollar (DXY 103.8–103.9, highest since April 2025) (Reuters; PTI). No RBI intervention reported; DBS: 'the Reserve Bank of India's curbs remain in place' (the October NDF/hedging measures — not new). Bhansali (Finrex): gains may run to 92.80. The <93 watch is closer (41 paise on closes; Brent leg met); the 95 watch further.",
@@ -694,6 +702,11 @@
    "date": "2026-11-09",
    "price": "93.93 (9 Nov, PTI provisional)",
    "trigger": "Flat after the weekend's war news; correction: 6-Nov final 93.98"
+  },
+  {
+   "date": "2026-11-20",
+   "price": "92.67 (20 Nov, PTI provisional)",
+   "trigger": "Threshold crossed: first close stronger than 93 since 10 April — session 1 of 3 for the <93/Brent<$103 watch"
   }
  ]
 }

@@ -3,15 +3,15 @@
  "name": "Taiwan (TSMC)",
  "type": "country",
  "created": "2026-03-28",
- "last_updated": "2026-11-19",
- "summary": "Taiwan, Day 265. TAIEX fell 4.4% to 38,426.89 on 19 Nov, 12% below its 13-Nov level, as Nvidia's post-results slide, the US export-control rule of 16 Nov and three days of heavy foreign selling (NT$76.6bn on 18 Nov alone) hit chip stocks; TSMC fell 3.4% and the Taiwan dollar touched a 19-month low. There is no helium- or gas-driven production change and no war link (~0–5%). The war reaches Taiwan through the AI financing cycle, US rates and export policy, not supply. Watch: TSMC helium/gas allocation change — not fired.",
+ "last_updated": "2026-11-20",
+ "summary": "Taiwan, Day 266. TAIEX fell 6.23% to 36,033.29 on 20 Nov after −4.4% the day before — −17.5% on the week, Bloomberg's worst week since 1991 — as the US AI/chip rout (the AMD short report, Anthropic's IPO 'sell the news') met a direct hit to Taiwan's champions: new US rules closing a manufacturing loophole, with TSMC tightening China AI-chip curbs and pausing some shipments. TSMC is −15% on the week. Friday's fall was driven more by local dealer hedging than by foreign selling, which eased after Thursday's NT$76.6bn. It is not a record day (−6.03% on 16 Nov). There is no helium- or gas-driven production change and no war link (~0%). The war reaches Taiwan through the AI financing cycle, US rates and export policy, not supply. Watch: TSMC helium/gas allocation change — not fired.",
  "current": {
-  "price": "TAIEX 38,426.89 (19 Nov close, −4.40%)",
-  "delta_1d": "−4.40% (19 Nov)",
-  "delta_1m": "−2.4%",
+  "price": "TAIEX 36,033.29 (20 Nov close, −6.23%); 38,426.89 (19 Nov)",
+  "delta_1d": "−6.23% (20 Nov)",
+  "delta_1m": "−17.5% w/w (vs 43,675.12 on 13 Nov)",
   "delta_3m": "+27.5%",
-  "driver": "Nvidia's post-results fall, the 16-Nov US export rule, Fed minutes, foreign selling (NT$76.56bn on 18 Nov); TWD 19-month low",
-  "status": "No helium-driven allocation change."
+  "driver": "US AI rout + TSMC/Samsung China-curbs story + local dealer hedging (−NT$29.0bn); foreign selling −NT$9.51bn (20 Nov)",
+  "status": "No helium-driven allocation change; war ~0%"
  },
  "active_triggers": [
   {
@@ -37,7 +37,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — no TSMC helium news; TAIEX +1.7% Fri. (intel MAC-A8)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — no TSMC helium news; TAIEX +1.4%. (intel MAC-A9)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED — no TSMC helium/gas allocation news; TSMC −5.7% on the AI rout. (intel MAC B-1)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — no helium/gas allocation news; TAIEX −4.40% to 38,426.89 Thu (TWSE official) and TSMC −3.4% on Nvidia's fall, the 16-Nov US export-control rule and NT$76.6bn of foreign selling — not helium, not Iran. (intel MAC A-11)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — no helium/gas allocation news; TAIEX −4.40% to 38,426.89 Thu (TWSE official) and TSMC −3.4% on Nvidia's fall, the 16-Nov US export-control rule and NT$76.6bn of foreign selling — not helium, not Iran. (intel MAC A-11)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — TSMC tightened China AI-chip curbs under new US rules (Reuters, 19 Nov) — an export-policy change, not a helium/gas allocation; TSMC −4.76% (20 Nov). (intel MAC A-7)"
   }
  ],
  "top_edges": [
@@ -67,6 +68,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "TAIEX −6.23% to 36,033.29 on Fri 20 Nov (TWSE official; CONFIRMED) after −4.40% Thu (38,426.89): −17.5% on the week (Bloomberg, relayed: worst week since 1991). TSMC −4.76% (NT$2,000; −14.9% w/w); MediaTek ~−10%; Delta limit-down. Causes (REPORTED): Thursday's US AI rout (AMD report, Anthropic IPO), the TSMC/Samsung China-shipment pause ('TSMC tightens China AI chip curbs as new US rules close manufacturing loophole', Reuters 18:18 IST Thu). Foreign selling eased to −NT$9.51bn Fri (from −NT$76.6bn Thu) with dealers' hedge accounts −NT$29.0bn — Friday's fall was driven more by local hedging than foreign selling (TWSE). NOT a record: TAIEX fell −6.03% on 16 Nov. No helium/gas allocation change; war share ~0%. (Sources: TWSE; Reuters; Bloomberg relay; markets.md A, B, C2; intel MAC A-7; CoS R6, R14)",
+   "verification": "CONFIRMED (close) / REPORTED (causes)"
+  },
   {
    "date": "2026-11-19",
    "headline": "TAIEX −4.40% to 38,426.89 Thu 19 Nov (−1,768.02; TWSE official; low 38,259.70; Investing.com's −4.6%/38,347 is wrong or intraday), after 41,040.08 / 40,092.11 / 40,194.91 (16–18 Nov) — −12.0% since 13 Nov. TSMC NT$2,100 (−3.4%). TWSE IPO index −8.04%. Causes (Investing.com): Nvidia's −2.9% and doubts on AI-spending returns; the 16-Nov US export rule; the Fed minutes; foreign net selling of NT$76.56bn on 18 Nov (a third day; >NT$180bn total); TWD 32.947/$, a 19-month low. Not helium, not Iran (~0–5%).",
@@ -218,6 +224,11 @@
    "date": "2026-11-19",
    "price": "TAIEX 38,426.89 (19 Nov close, −4.40%)",
    "trigger": "Nvidia fallout + 16-Nov US export-control rule + NT$76.56bn foreign selling; −12.0% since 13 Nov; not helium, not Iran"
+  },
+  {
+   "date": "2026-11-20",
+   "price": "TAIEX 36,033.29 (20 Nov, −6.23%)",
+   "trigger": "AI/chip crash and TSMC China-curbs story; −17.5% on the week (not a record: −6.03% on 16 Nov)"
   }
  ]
 }

@@ -3,10 +3,10 @@
  "name": "Indian Oil Marketing (IOC/BPCL/HPCL)",
  "type": "sector",
  "created": "2026-03-28",
- "last_updated": "2026-11-19",
- "summary": "Indian OMCs (IOC, BPCL, HPCL), Day 262. Pump prices remain frozen with Brent ~$95–97, and the government says it has absorbed most of the rise (Puri, 14 Nov: diesel up ₹7 a litre 'instead of' ₹54 — a claim about past absorption, not a new decision). The stocks trade on crude: BPCL fell four sessions to 13 Nov (−5.6% on the week) as Brent held ~$95–97 through India's sessions; on 16 Nov they were flat to −1% as live Brent rose. The last under-recovery estimate in our record (ICRA, ~₹20/L on diesel at a ~$120 basket, October) is stale and not refreshed. No excise relief or compensation announced. Watch: a government order to freeze prices with oil above $110 (condition not live at ~$96).",
+ "last_updated": "2026-11-20",
+ "summary": "Indian OMCs (IOC, BPCL, HPCL), Day 266. With Brent down to ~$91 (four straight settles below $95, 16–19 Nov), the retailers' squeeze is easing and the stocks trade on crude: +1.6–1.9% on 20 Nov and about +4% on the week. Pump prices remain frozen and the government has announced no excise relief or compensation; Puri says of the Hormuz talks 'we are encouraged' but 'we are not out of the woods yet'. The last under-recovery estimate in our record (ICRA, ~₹20/L on diesel at a ~$120 basket, October) is stale and far above today's cost. Watch: a government order to freeze prices with oil above $110 — condition not live at ~$91.",
  "current": {
-  "brent_futures": "Dec $116.72 (23 Oct)",
+  "brent_futures": "Jan $91.98 settle (19 Nov); ~$90.9 live (20 Nov)",
   "india_crude_basket": "~$120 (BS: 15-year-high average)",
   "structural_losses": "Diesel under-recovery ~₹20/L (ICRA)",
   "retail_fuel_prices": "Frozen",
@@ -18,7 +18,7 @@
   "ppac_signal": "PPAC publishing daily international crude rates — Economic Times read as preparation tell for fuel-price pass-through",
   "monday_cash_open_expected": "IOC/BPCL/HPCL +1.5-3% on diesel margin recovery (Branch 3 base case)",
   "government_forced_choice": "30-day window (by 2026-05-27): (a) raise pump prices, (b) fiscal subsidy ~₹2,800 cr/week, (c) Iran-rupee oil track via Chabahar, (d) wait for Brent normalisation",
-  "status": "Frozen pump prices, ~₹20/l diesel loss; Q2 profit on the summer dip; Q3 losses ahead; RBI dollar window intact."
+  "status": "Day 266: IOC 150.50 / BPCL 314.10 / HPCL 396.35 (20 Nov, +1.6–1.9%); pump prices unchanged; Brent ~$90.9; Puri: 'we are encouraged… not out of the woods yet'"
  },
  "active_triggers": [
   {
@@ -45,7 +45,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — Brent ~$96; Modi: ₹14,000 crore a month absorbed on diesel; pump prices unchanged (no instruction at $110+). (intel IND-A5)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — condition not live (Brent ~$95.8); Puri (14 Nov) restates past absorption; pump prices unchanged. (intel IND)",
    "note_2026-11-16": "[reviewed, stays watching] CONDITION NOT LIVE — Brent ~$96.4 live, below $110; pump prices unchanged. (intel IND)",
-   "note_2026-11-19": "[reviewed, stays watching] CONDITION NOT LIVE — Brent ~$92.4 live, below $110; no pump-price revision, Puri statement or under-recovery figure found 16–19 Nov. (intel IND-A5)"
+   "note_2026-11-19": "[reviewed, stays watching] CONDITION NOT LIVE — Brent ~$92.4 live, below $110; no pump-price revision, Puri statement or under-recovery figure found 16–19 Nov. (intel IND-A5)",
+   "note_2026-11-20": "[reviewed, stays watching] CONDITION NOT LIVE — Brent ~$90.9 live (settle $91.98), far below $110; pump prices unchanged; no under-recovery update. (intel IND-A6)"
   },
   {
    "condition": "OMC fuel-price pass-through announced OR Iran-rupee oil track via Chabahar restart within 30 days (by 2026-05-27)",
@@ -98,6 +99,11 @@
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "OMCs, 19–20 Nov: IOC ₹147.80 / ₹150.50, BPCL ₹308.10 / ₹314.10, HPCL ₹390.00 / ₹396.35 — +1.6–1.9% Fri, +3.9–4.5% w/w, as Brent fell to ~$90.9 (pairing is our observation — no OMC-specific story found, IND). Pump prices unchanged. Petroleum minister Puri (Thu 19 Nov, FICCI; ANI 15:00 IST) on the Hormuz talks: 'Discussions are going on. So, we are encouraged', and 'we are not out of the woods yet' (the claim that the talks involve the US, Iran and Gulf states is the reporter's paraphrase). No under-recovery update. (Sources: yfinance; ANI via Tribune; markets.md A, E4; intel IND-A6)",
+   "verification": "CONFIRMED (prices) / REPORTED"
+  },
   {
    "date": "2026-11-19",
    "headline": "OMCs, 16–19 Nov (yfinance): IOC ₹144.03 / 145.56 / 143.82 / 146.68 live; BPCL 305.30 / 305.80 / 305.50 / 306.60; HPCL 386.95 / 389.55 / 386.45 / 388.60 — retailers +1.5–1.9% since Friday as Brent fell ~$3.7 (the existing brent-crude → indian-oil-marketing edge confirming). ONGC flat (~225). No pump-price revision (latest dated table 9 Oct: Delhi petrol ₹102.12, diesel ₹95.20), no Puri fuel statement, no excise talk and no new under-recovery figure found. The freeze-at-$110 watch is not live (Brent ~$92).",

@@ -3,14 +3,14 @@
  "name": "European TTF Natural Gas",
  "type": "commodity",
  "created": "2026-03-28",
- "last_updated": "2026-11-19",
- "summary": "European gas (TTF), Day 265. TTF has given back most of its October war premium: from above €100 in late October to €80.85 on 18 Nov (−11% in three sessions from €90.95), and ~€82.5 on 19 Nov. The fall came from weather and supply, not peace — mild temperatures, record US LNG feedgas and US cargoes diverting from weak Asian demand to Europe — while the war acted only as a brake (Tuesday's bounce on Hormuz attacks and Iran's fire at Bahrain). The risks have not gone: Qatar's force majeure runs to at least end-December, Bloomberg reports LNG exports through Hormuz slowing after more attacks, EU storage (~70%) is ~18 points below the five-year average and a cold spell is forecast. Euro-area energy inflation is still 21%. Watches: €70 for five sessions — active; above €120 or back below €80 by 31 Dec — not fired, closest on the €80 leg (€80.85) and moving away.",
+ "last_updated": "2026-11-20",
+ "summary": "European gas (TTF), Day 266. TTF had given back most of its October war premium — from above €100 in late October to €80.85 on 18 Nov on mild weather and record US LNG — but rose 8% in two days to ~€87 on 20 Nov, and the reason is winter supply, not the war: Norwegian outages (Troll, Aasgard, and Visund out to 1 January), a cold snap and EU storage near 70%, the lowest for the date since at least 2011. Hormuz is background (~15–25% of the move by estimate). That leaves Europe exposed into January–February: Qatar's force majeure runs to at least end-December, market reporting says Europe receives no Qatari cargoes, and US cargoes are turning to Asia as JKM rises. The ECB is watching ('very significant pressures'; gas 'concerns us'). Watches: settle above €120 or below €80 by 31 Dec — not fired, below-€80 leg further; €70 sustained (active) — stays active.",
  "current": {
-  "price": "€82.45 live (13:16 IST 19 Nov); €80.85 (18 Nov, yfinance)",
-  "driver": "Mild weather + record US LNG feedgas + US cargoes to Europe; war only a brake (Tue bounce)",
-  "delta_1m": "−11.1% Fri→Wed (13–18 Nov)",
-  "regime": "WEATHER AND US LNG BEAT THE WAR: back near €80 from >€100 in late October; storage ~70%, ~18 pts below average",
-  "storage": "EU ~70.15% (gas day 16 Nov, AGSI+ via MacroMicro)"
+  "price": "~€87.30 live (19:30 IST 20 Nov, thin); €84.46 (19 Nov); €80.85 (18 Nov) — yfinance front month",
+  "driver": "Norwegian outages (Troll, Aasgard, Visund to 1 Jan) + cold snap + storage ~69.8%; Hormuz background (~15–25%)",
+  "delta_1m": "+8.0% in two days (18→20 Nov); −4.0% w/w",
+  "regime": "WINTER SUPPLY SQUEEZE (NON-WAR) REVERSES THE PREMIUM UNWIND: from €80.85 back to ~€87 on Norway and cold; storage lowest for the date since 2011",
+  "storage": "~69.8% (~18–19 Nov, relays); 71.24% (11 Nov, AGSI+ via oilpriceapi)"
  },
  "price_snapshots": [
   {
@@ -53,6 +53,11 @@
    "date": "2026-11-19",
    "price": "€80.85 (18 Nov, yfinance front, −5.3%; −6.8% on 16 Nov)",
    "trigger": "Two >3% daily falls on mild weather, record US LNG feedgas and US cargoes diverting to Europe; closest to the <€80 leg of the 31-Oct watch"
+  },
+  {
+   "date": "2026-11-20",
+   "price": "€84.46 (19 Nov, +4.5%) / ~€87.30 live (20 Nov, +3.4%)",
+   "trigger": "Two >3% daily rises: Norwegian outages (Troll, Aasgard, Visund), a cold snap and storage ~69.8% (lowest for the date since 2011); war share ~15–25% (markets.md C5)"
   }
  ],
  "active_triggers": [
@@ -98,7 +103,8 @@
    "note_2026-11-13": "[reviewed, stays active] STAYS ACTIVE — €92.26 (+6.5%, 12 Nov). (markets A)",
    "note_2026-11-15": "[reviewed, stays active] STAYS ACTIVE — €90.95 (−1.4%, 13 Nov). (markets A)",
    "note_2026-11-16": "[reviewed, stays active] STAYS ACTIVE — €90.95 (Fri); Monday not open at pull. (intel MAC B-4)",
-   "note_2026-11-19": "[reviewed, stays active] STAYS ACTIVE — TTF €84.75 (Mon) / €85.40 (Tue) / €80.85 (Wed), still above €70. (intel MAC A-13)"
+   "note_2026-11-19": "[reviewed, stays active] STAYS ACTIVE — TTF €84.75 (Mon) / €85.40 (Tue) / €80.85 (Wed), still above €70. (intel MAC A-13)",
+   "note_2026-11-20": "[reviewed, stays active] STAYS ACTIVE — TTF €84.46 (Thu 19 Nov) / ~€87.30 live (Fri), still above €70. (markets.md A)"
   },
   {
    "condition": "TTF front-month settles above €120/MWh by 31 Dec (winter stress beyond the 2022-threshold) — OR back below €80 (premium unwinds on a deal/warm winter)",
@@ -124,7 +130,8 @@
    "note_2026-11-13": "[reviewed, stays watching] NOT FIRED — €92.26; €120 needs +30%; FURTHER from €80 (~€12 above). Driver mostly weather/Troll (Trading Economics), not Qatar. (intel ISR-B, SAU-C1)",
    "note_2026-11-15": "[reviewed, stays watching] NOT FIRED — €90.95; slightly closer to the €80 leg (~€11 above). No single driver named. (intel ISR-B; markets A)",
    "note_2026-11-16": "[reviewed, stays watching] NOT FIRED (€90.95). (intel MAC B-4)",
-   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — CLOSEST on the below-€80 leg: €80.85 Wed (yfinance; intraday low €80.385), −11% from Friday's €90.95, on mild weather, record US LNG feedgas and US cargoes diverting to Europe — not a peace move (war share of the fall ~20%; attacks capped it). ADVFN shows €84.71 for Wednesday — level gap unresolved; the ICE Endex settlement file was not read. €120 leg far. (intel MAC A-13, ISR B-3)"
+   "note_2026-11-19": "[reviewed, stays watching] NOT FIRED — CLOSEST on the below-€80 leg: €80.85 Wed (yfinance; intraday low €80.385), −11% from Friday's €90.95, on mild weather, record US LNG feedgas and US cargoes diverting to Europe — not a peace move (war share of the fall ~20%; attacks capped it). ADVFN shows €84.71 for Wednesday — level gap unresolved; the ICE Endex settlement file was not read. €120 leg far. (intel MAC A-13, ISR B-3)",
+   "note_2026-11-20": "[reviewed, stays watching] NOT FIRED — the below-€80 leg moved FURTHER (CoS R8): from €80.85 (Wed) to €84.46 (Thu) and ~€87.30 live (Fri) — +8% in two days on Norwegian outages (Troll, Aasgard, Visund to 1 Jan), a cold snap and storage ~69.8%; war share ~15–25% (estimate). €120 leg far. yfinance front month, not the ICE Endex settlement. (intel MAC A-8, ISR B-4; markets.md C5)"
   }
  ],
  "top_edges": [
@@ -159,12 +166,17 @@
    "type": "inflation_driver",
    "weight": 8.0,
    "directness": 1,
-   "last_activated": "2026-10-31",
+   "last_activated": "2026-11-20",
    "activation_count": 7,
-   "context": "2026-10-31: RAISED 7.5→8.0. ECB (29 Oct) debated a hike, statement cites energy prices 'above the baseline… posing upside risks', energy inflation 18.9%; TTF crossed €100 the day before. (CONFIRMED; intel ISR-A9)"
+   "context": "20 Nov: ECB's Santos Pereira — 'very significant pressures'; gas 'concerns us' (REPORTED words, no policy action) as TTF rose 8% in two days. [activation at unchanged weight: reported/preparation/rhetoric or tangential]"
   }
  ],
  "recent_signals": [
+  {
+   "date": "2026-11-20",
+   "headline": "TTF +8% IN TWO DAYS — NORWAY AND THE WEATHER, NOT THE WAR (19–20 Nov): €80.85 (Wed) → €84.46 (Thu, +4.5%) → ~€87.30 (Fri 19:30 IST bar, thin prints, +3.4%) — yfinance front month, not the ICE Endex settlement. Drivers (REPORTED; Reuters headline 'Norwegian outage, cooler weather forecast'; trade-press relays): Norwegian outages (Troll, Aasgard; Visund out to 1 Jan; exports 285.7 mcm/d vs ~335), a NW Europe cold snap (~3.9°C lower over the weekend), and EU storage ~69.8% — the lowest for the date since at least 2011 (secondary relays; an oilpriceapi blog citing AGSI+ has 71.24% on gas day 11 Nov, also the lowest for the date; AGSI+ not read directly). Hormuz is background (OilPrice headline 'as Hormuz Risks Resurface'; Tradingpedia adds the Riyadh missiles and IRGC mine claims for Friday) — war share ~15–25% (estimate). EnergyNow: 'US LNG Exports to Europe Decline as Asia Prices Surge' (headline; JKM number not found). ECB's Santos Pereira (Fri): 'very significant pressures'; gas 'concerns us'. The below-€80 leg of the €120/€80 watch moves FURTHER. (Sources: yfinance TTF=F; Reuters via TradingView; EnergyRiskIQ; oilpriceapi.com; markets.md A, B, C5, F; intel ISR B-4, B-5, MAC A-8; CoS R7)",
+   "verification": "CONFIRMED (prices) / REPORTED (causes)"
+  },
   {
    "date": "2026-11-19",
    "headline": "TTF −11.1% Fri → Wed: €90.95 (13 Nov) → €84.75 (Mon 16, −6.8%) → €85.40 (Tue) → €80.85 (Wed 18, −5.3%; intraday low €80.385) → €82.45 live 13:16 IST Thu (+2.0%) — yfinance front month, not the ICE Endex settlement file (ADVFN's €84.71 for Wed is an early-session print). Causes: mild weather and record US LNG feedgas of 21.8 bcf/d (OilPrice/BloombergNEF, Mon); US cargoes turning toward Europe on weak Asian demand (SoldiOnline citing Bloomberg, Wed); storage 'blunting' Iran's strikes (BigGo). Tuesday's bounce: Hormuz ship attacks, Iran at Bahrain, a cold-spell forecast from ~20 Nov. War share of the fall ~0–20% (desks differ; the war was the brake, not the cause). EU storage ~70.15% (gas day 16 Nov, AGSI+ via MacroMicro), ~18 points below the 2021–25 average. Thursday's rise has no attributed cause (candidates: Bloomberg 06:53 IST 'LNG Exports Through Hormuz Appear to Slow After More Attacks'; cold forecasts). The <€80 leg came closest (€80.85) and is moving away. Euro-area October HICP final 4.0% (energy 21.0%, core 2.6%).",
